@@ -1,17 +1,27 @@
 "use client";
 
 import { useState } from "react";
+import { getMealById, lineUnitPrice } from "@/data/meals";
 import { useCart } from "@/lib/cart-context";
 import { useSaved } from "@/lib/saved-context";
 
+/** Simple add/save actions (used only if needed elsewhere). Prefer MealDetailClient. */
 export function MealActions({ mealId }: { mealId: string }) {
   const { addItem } = useCart();
   const { isSaved, toggleSaved } = useSaved();
   const [added, setAdded] = useState(false);
   const saved = isSaved(mealId);
+  const meal = getMealById(mealId);
 
   function handleAdd() {
-    addItem(mealId);
+    if (!meal) return;
+    addItem({
+      mealId,
+      quantity: 1,
+      spicy: false,
+      addons: [],
+      unitPrice: lineUnitPrice(meal, false, []),
+    });
     setAdded(true);
     window.setTimeout(() => setAdded(false), 1500);
   }

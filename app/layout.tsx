@@ -2,7 +2,7 @@ import type { Metadata } from "next";
 import { Cairo } from "next/font/google";
 import { Providers } from "@/components/providers";
 import { Navbar } from "@/components/layout/Navbar";
-import { Footer } from "@/components/layout/Footer";
+import { BottomNav } from "@/components/layout/BottomNav";
 import { VoiceWidget } from "@/components/voice-widget/VoiceWidget";
 import "./globals.css";
 
@@ -23,12 +23,17 @@ export default function RootLayout({
   children: React.ReactNode;
 }>) {
   return (
-    <html lang="ar" dir="rtl" className={`${cairo.variable} h-full`}>
+    <html
+      lang="ar"
+      dir="rtl"
+      data-scroll-behavior="smooth"
+      className={`${cairo.variable} h-full`}
+    >
       <body className="min-h-full flex flex-col font-sans antialiased">
         <Providers>
           <Navbar />
-          <main className="flex-1">{children}</main>
-          <Footer />
+          <main className="flex-1 pb-20 md:pb-0">{children}</main>
+          <BottomNav />
           <VoiceWidget />
         </Providers>
       </body>

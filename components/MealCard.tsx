@@ -8,15 +8,16 @@ import { StarRating } from "@/components/StarRating";
 type Props = {
   meal: Meal;
   restaurantName?: string;
+  href?: string;
 };
 
-export function MealCard({ meal, restaurantName }: Props) {
+export function MealCard({ meal, restaurantName, href }: Props) {
   const price = getMealPrice(meal);
   const hasOffer = meal.isOffer && meal.offerPrice != null;
 
   return (
     <Link
-      href={`/meals/${meal.id}`}
+      href={href ?? `/meals/${meal.id}`}
       className="group flex h-full flex-col overflow-hidden rounded-2xl border border-border bg-surface transition-colors hover:border-accent/40"
     >
       <div className="relative aspect-[4/3] overflow-hidden bg-border">

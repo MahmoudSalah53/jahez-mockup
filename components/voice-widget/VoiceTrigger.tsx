@@ -6,6 +6,7 @@ import {
   PhoneDisconnectIcon,
   XIcon,
 } from "@phosphor-icons/react";
+import { useEffect, useState } from "react";
 import { cn } from "@/lib/cn";
 
 export type VoicePhase = "closed" | "connecting" | "listening";
@@ -15,10 +16,23 @@ type Props = {
   onToggle: () => void;
 };
 
+function useFabBottom() {
+  const [bottom, setBottom] = useState(16);
+  useEffect(() => {
+    const mq = window.matchMedia("(max-width: 767px)");
+    const apply = () => setBottom(mq.matches ? 72 : 16);
+    apply();
+    mq.addEventListener("change", apply);
+    return () => mq.removeEventListener("change", apply);
+  }, []);
+  return bottom;
+}
+
 export function VoiceTrigger({ phase, onToggle }: Props) {
   const popupOpen = phase !== "closed";
   const isAgentConnecting = phase === "connecting";
   const isAgentConnected = phase === "listening";
+  const bottom = useFabBottom();
 
   return (
     <AnimatePresence>
@@ -44,7 +58,7 @@ export function VoiceTrigger({ phase, onToggle }: Props) {
         style={{
           position: "fixed",
           right: 16,
-          bottom: 16,
+          bottom,
           zIndex: 99999,
         }}
         className={cn(
@@ -118,3 +132,5 @@ export function VoiceTrigger({ phase, onToggle }: Props) {
     </AnimatePresence>
   );
 }
+
+export { useFabBottom };

@@ -9,22 +9,41 @@ import {
   useState,
   type ReactNode,
 } from "react";
-import { getMealById, getMealPrice } from "@/data/meals";
-import type { CartItem } from "@/lib/types";
+import type { CartAddon, CartItem } from "@/lib/types";
 
-const STORAGE_KEY = "luqma-cart";
+const STORAGE_KEY = "luqma-cart-v2";
+
+type AddToCartInput = {
+  mealId: string;
+  quantity?: number;
+  spicy?: boolean;
+  addons?: CartAddon[];
+  unitPrice: number;
+};
 
 type CartContextValue = {
   items: CartItem[];
-  addItem: (mealId: string, quantity?: number) => void;
-  removeItem: (mealId: string) => void;
-  setQuantity: (mealId: string, quantity: number) => void;
+  addItem: (input: AddToCartInput) => void;
+  removeItem: (lineId: string) => void;
+  setQuantity: (lineId: string, quantity: number) => void;
   clearCart: () => void;
   totalItems: number;
   subtotal: number;
 };
 
 const CartContext = createContext<CartContextValue | null>(null);
+
+function makeLineId(
+  mealId: string,
+  spicy: boolean,
+  addons: CartAddon[],
+): string {
+  const addonKey = addons
+    .map((a) => a.id)
+    .sort()
+    .join(",");
+  return `${mealId}__${spicy ? "s" : "n"}__${addonKey}`;
+}
 
 function loadCart(): CartItem[] {
   if (typeof window === "undefined") return [];
@@ -52,31 +71,46 @@ export function CartProvider({ children }: { children: ReactNode }) {
     localStorage.setItem(STORAGE_KEY, JSON.stringify(items));
   }, [items, ready]);
 
-  const addItem = useCallback((mealId: string, quantity = 1) => {
+  const addItem = useCallback((input: AddToCartInput) => {
+    const spicy = Boolean(input.spicy);
+    const addons = input.addons ?? [];
+    const quantity = input.quantity ?? 1;
+    const lineId = makeLineId(input.mealId, spicy, addons);
+
     setItems((prev) => {
-      const existing = prev.find((i) => i.mealId === mealId);
+      const existing = prev.find((i) => i.lineId === lineId);
       if (existing) {
         return prev.map((i) =>
-          i.mealId === mealId
+          i.lineId === lineId
             ? { ...i, quantity: i.quantity + quantity }
             : i,
         );
       }
-      return [...prev, { mealId, quantity }];
+      return [
+        ...prev,
+        {
+          lineId,
+          mealId: input.mealId,
+          quantity,
+          spicy,
+          addons,
+          unitPrice: input.unitPrice,
+        },
+      ];
     });
   }, []);
 
-  const removeItem = useCallback((mealId: string) => {
-    setItems((prev) => prev.filter((i) => i.mealId !== mealId));
+  const removeItem = useCallback((lineId: string) => {
+    setItems((prev) => prev.filter((i) => i.lineId !== lineId));
   }, []);
 
-  const setQuantity = useCallback((mealId: string, quantity: number) => {
+  const setQuantity = useCallback((lineId: string, quantity: number) => {
     if (quantity <= 0) {
-      setItems((prev) => prev.filter((i) => i.mealId !== mealId));
+      setItems((prev) => prev.filter((i) => i.lineId !== lineId));
       return;
     }
     setItems((prev) =>
-      prev.map((i) => (i.mealId === mealId ? { ...i, quantity } : i)),
+      prev.map((i) => (i.lineId === lineId ? { ...i, quantity } : i)),
     );
   }, []);
 
@@ -87,13 +121,10 @@ export function CartProvider({ children }: { children: ReactNode }) {
     [items],
   );
 
-  const subtotal = useMemo(() => {
-    return items.reduce((sum, i) => {
-      const meal = getMealById(i.mealId);
-      if (!meal) return sum;
-      return sum + getMealPrice(meal) * i.quantity;
-    }, 0);
-  }, [items]);
+  const subtotal = useMemo(
+    () => items.reduce((sum, i) => sum + i.unitPrice * i.quantity, 0),
+    [items],
+  );
 
   const value = useMemo(
     () => ({

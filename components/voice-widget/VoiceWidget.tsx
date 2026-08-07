@@ -6,6 +6,7 @@ import { AnimatePresence, motion } from "motion/react";
 import { VoiceActionBar } from "@/components/voice-widget/VoiceActionBar";
 import {
   VoiceTrigger,
+  useFabBottom,
   type VoicePhase,
 } from "@/components/voice-widget/VoiceTrigger";
 
@@ -16,6 +17,7 @@ export function VoiceWidget() {
   const [micOn, setMicOn] = useState(true);
   const [mounted, setMounted] = useState(false);
   const timerRef = useRef<ReturnType<typeof setTimeout> | null>(null);
+  const bottom = useFabBottom();
 
   useEffect(() => {
     setMounted(true);
@@ -73,7 +75,7 @@ export function VoiceWidget() {
             style={{
               position: "fixed",
               right: 68,
-              bottom: 16,
+              bottom,
               zIndex: 99999,
             }}
             className="flex w-fit flex-col"

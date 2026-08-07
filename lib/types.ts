@@ -1,3 +1,11 @@
+export type MealAddon = {
+  id: string;
+  name: string;
+  price: number;
+};
+
+export type MealCategory = "offers" | "popular" | "menu";
+
 export type Restaurant = {
   id: string;
   name: string;
@@ -7,7 +15,12 @@ export type Restaurant = {
   deliveryTime: string;
   deliveryFee: number;
   minOrder: number;
+  distanceKm: number;
+  verified?: boolean;
+  tags?: string[];
   featured?: boolean;
+  open24h?: boolean;
+  fastDelivery?: boolean;
 };
 
 export type Meal = {
@@ -22,14 +35,29 @@ export type Meal = {
   protein: number;
   carbs: number;
   fat: number;
+  category: MealCategory;
   isPopular?: boolean;
   isOffer?: boolean;
   offerPrice?: number;
+  spicyOption?: boolean;
+  cashbackPercent?: number;
+  addons: MealAddon[];
+};
+
+export type CartAddon = {
+  id: string;
+  name: string;
+  price: number;
 };
 
 export type CartItem = {
+  /** Unique line id so same meal with different addons can coexist */
+  lineId: string;
   mealId: string;
   quantity: number;
+  spicy: boolean;
+  addons: CartAddon[];
+  unitPrice: number;
 };
 
 export type Order = {
@@ -43,6 +71,15 @@ export type Order = {
     mealName: string;
     price: number;
     quantity: number;
+    spicy?: boolean;
+    addons?: CartAddon[];
   }[];
   total: number;
 };
+
+export const DEFAULT_ADDONS: MealAddon[] = [
+  { id: "fries", name: "بطاطس مقلية", price: 8 },
+  { id: "cola", name: "كولا", price: 6 },
+  { id: "sauce", name: "صلصة إضافية", price: 3 },
+  { id: "bread", name: "خبز إضافي", price: 4 },
+];

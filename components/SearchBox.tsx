@@ -12,12 +12,14 @@ import {
   useState,
 } from "react";
 import { createPortal } from "react-dom";
+import { MagnifyingGlass } from "@phosphor-icons/react";
 import { getSearchSuggestions } from "@/data/meals";
+import { cn } from "@/lib/cn";
 
 type Props = {
   initialQuery?: string;
   inputId?: string;
-  variant?: "hero" | "page";
+  variant?: "hero" | "page" | "compact";
 };
 
 type DropdownPos = {
@@ -87,7 +89,6 @@ export function SearchBox({
     }
 
     window.addEventListener("resize", onScrollOrResize);
-    // capture scroll from any container
     window.addEventListener("scroll", onScrollOrResize, true);
     return () => {
       window.removeEventListener("resize", onScrollOrResize);
@@ -124,6 +125,7 @@ export function SearchBox({
   }
 
   const isHero = variant === "hero";
+  const isCompact = variant === "compact";
 
   const dropdown =
     mounted &&
@@ -139,14 +141,14 @@ export function SearchBox({
           left: pos.left,
           width: pos.width,
         }}
-        className="z-[200] overflow-hidden rounded-xl border border-border bg-white text-foreground shadow-lg"
+        className="z-[200] overflow-hidden rounded-2xl border border-border bg-white text-foreground shadow-lg"
       >
         {suggestions.map((item) => (
           <li key={item.id} role="option">
             <Link
               href={item.href}
               onClick={() => setOpen(false)}
-              className="flex items-center justify-between gap-3 px-4 py-3 text-sm transition-colors hover:bg-background"
+              className="flex items-center justify-between gap-3 px-4 py-2.5 text-sm transition-colors hover:bg-background"
             >
               <span className="font-medium text-foreground">{item.label}</span>
               <span className="shrink-0 text-xs text-muted">
@@ -159,6 +161,56 @@ export function SearchBox({
       </ul>,
       document.body,
     );
+
+  if (isCompact) {
+    return (
+      <div ref={rootRef} className="relative z-[60] w-full">
+        <form onSubmit={onSubmit} autoComplete="off">
+          <label htmlFor={id} className="sr-only">
+            ابحث في لقمة
+          </label>
+          <div
+            ref={inputWrapRef}
+            className="flex h-10 items-center gap-2 rounded-full border border-border bg-white px-3.5 shadow-sm"
+          >
+            <MagnifyingGlass
+              size={18}
+              weight="regular"
+              className="shrink-0 text-muted"
+              aria-hidden
+            />
+            <input
+              id={id}
+              type="text"
+              name={inputName}
+              role="combobox"
+              aria-expanded={showDropdown}
+              aria-controls={`${id}-listbox`}
+              aria-autocomplete="list"
+              inputMode="search"
+              enterKeyHint="search"
+              value={query}
+              onChange={(e) => {
+                setQuery(e.target.value);
+                setOpen(true);
+              }}
+              onFocus={() => setOpen(true)}
+              placeholder="ابحث في لقمة"
+              autoComplete="off"
+              autoCorrect="off"
+              autoCapitalize="none"
+              spellCheck={false}
+              data-lpignore="true"
+              data-1p-ignore="true"
+              data-form-type="other"
+              className="min-w-0 flex-1 border-0 bg-transparent py-2 text-sm text-foreground outline-none placeholder:text-muted"
+            />
+          </div>
+        </form>
+        {dropdown}
+      </div>
+    );
+  }
 
   return (
     <div ref={rootRef} className="relative z-[60] w-full">
@@ -198,14 +250,19 @@ export function SearchBox({
             className={
               isHero
                 ? "min-h-12 w-full rounded-xl border-0 bg-white px-4 py-3.5 text-base text-foreground outline-none placeholder:text-muted sm:rounded-e-none sm:rounded-s-xl"
-                : "min-h-12 w-full rounded-xl border border-border bg-surface px-4 py-3 text-base text-foreground outline-none focus:border-accent sm:rounded-e-none sm:rounded-s-xl sm:text-sm"
+                : "min-h-11 w-full rounded-xl border border-border bg-surface px-4 py-2.5 text-sm text-foreground outline-none focus:border-accent sm:rounded-e-none sm:rounded-s-xl"
             }
           />
         </div>
 
         <button
           type="submit"
-          className="min-h-12 shrink-0 rounded-xl bg-accent px-6 py-3.5 text-base font-semibold text-white transition-colors hover:bg-accent-hover sm:rounded-s-none sm:rounded-e-xl sm:text-sm"
+          className={cn(
+            "shrink-0 rounded-xl bg-accent px-5 font-semibold text-white transition-colors hover:bg-accent-hover",
+            isHero
+              ? "min-h-12 py-3.5 text-base sm:rounded-s-none sm:rounded-e-xl"
+              : "min-h-11 py-2.5 text-sm sm:rounded-s-none sm:rounded-e-xl",
+          )}
         >
           بحث
         </button>
