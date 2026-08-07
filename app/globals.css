@@ -1,26 +1,64 @@
 @import "tailwindcss";
 
 :root {
-  --background: #ffffff;
-  --foreground: #171717;
+  --background: #f7f5f3;
+  --foreground: #1a1a1a;
+  --surface: #ffffff;
+  --muted: #6b6b6b;
+  --border: #e8e4e0;
+  --accent: #c62828;
+  --accent-hover: #b71c1c;
+  --accent-soft: #fce8e8;
+  --star: #e6a817;
+
+  /* Voice widget tokens (match embed agent light theme) */
+  --fg0: #000000;
+  --fg1: #3b3b3b;
+  --fgAccent: #166a45;
+  --bg1: #f9f9f6;
+  --bg2: #f3f3f1;
+  --separator1: #dbdbd8;
+  --destructive: #fae6e6;
+  --destructive-foreground: #db1b06;
+  --bgSerious: #fae6e6;
+  --fgSerious: #db1b06;
 }
 
 @theme inline {
   --color-background: var(--background);
   --color-foreground: var(--foreground);
-  --font-sans: var(--font-geist-sans);
-  --font-mono: var(--font-geist-mono);
+  --color-surface: var(--surface);
+  --color-muted: var(--muted);
+  --color-border: var(--border);
+  --color-accent: var(--accent);
+  --color-accent-hover: var(--accent-hover);
+  --color-accent-soft: var(--accent-soft);
+  --color-star: var(--star);
+
+  --color-fg0: var(--fg0);
+  --color-fg1: var(--fg1);
+  --color-fgAccent: var(--fgAccent);
+  --color-bg1: var(--bg1);
+  --color-bg2: var(--bg2);
+  --color-separator1: var(--separator1);
+  --color-destructive: var(--destructive);
+  --color-destructive-foreground: var(--destructive-foreground);
+
+  --font-sans: var(--font-cairo);
 }
 
-@media (prefers-color-scheme: dark) {
-  :root {
-    --background: #0a0a0a;
-    --foreground: #ededed;
-  }
+html {
+  scroll-behavior: smooth;
 }
 
 body {
   background: var(--background);
   color: var(--foreground);
-  font-family: Arial, Helvetica, sans-serif;
+  font-family: var(--font-cairo), "Segoe UI", Tahoma, sans-serif;
+  -webkit-tap-highlight-color: transparent;
+}
+
+::selection {
+  background: var(--accent-soft);
+  color: var(--foreground);
 }
