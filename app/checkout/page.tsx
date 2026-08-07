@@ -20,8 +20,8 @@ export default function CheckoutPage() {
 
   if (items.length === 0) {
     return (
-      <div className="mx-auto max-w-lg px-4 py-8 md:max-w-6xl sm:px-6">
-        <h1 className="text-xl font-bold md:text-3xl">إتمام الطلب</h1>
+      <div className="mx-auto max-w-lg px-4 py-8 md:max-w-7xl sm:px-6 md:px-8">
+        <h1 className="text-xl font-bold md:text-4xl">إتمام الطلب</h1>
         <div className="mt-8 rounded-2xl border border-border bg-surface px-6 py-12 text-center">
           <p className="text-muted">سلتك فارغة</p>
           <Link href="/" className="mt-4 inline-block text-sm font-medium text-accent">
@@ -76,8 +76,8 @@ export default function CheckoutPage() {
   }
 
   return (
-    <div className="mx-auto max-w-lg px-4 py-6 md:max-w-6xl sm:px-6 md:py-8">
-      <h1 className="text-xl font-bold md:text-3xl">إتمام الطلب</h1>
+    <div className="mx-auto max-w-lg px-4 py-6 md:max-w-7xl sm:px-6 md:px-8 md:py-10">
+      <h1 className="text-xl font-bold md:text-4xl">إتمام الطلب</h1>
       <p className="mt-1 text-sm text-muted">دفع تجريبي فقط</p>
 
       <form

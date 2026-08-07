@@ -26,9 +26,9 @@ export default async function SearchPage({ searchParams }: Props) {
     matchedRestaurants.length === 0 && matchedMeals.length === 0;
 
   return (
-    <div className="mx-auto max-w-lg md:max-w-6xl">
-      <div className="px-4 py-4 sm:px-6 md:py-8">
-        <h1 className="text-xl font-bold md:text-3xl">البحث</h1>
+    <div className="mx-auto max-w-lg md:max-w-7xl">
+      <div className="px-4 py-4 sm:px-6 md:px-8 md:py-10">
+        <h1 className="text-xl font-bold md:text-4xl">البحث</h1>
         <div className="mt-3 max-w-xl">
           <SearchForm initialQuery={trimmed} />
         </div>
@@ -50,7 +50,7 @@ export default async function SearchPage({ searchParams }: Props) {
                   <RestaurantListItem key={r.id} restaurant={r} />
                 ))}
               </div>
-              <div className="hidden gap-5 px-6 md:grid md:grid-cols-2 lg:grid-cols-3">
+              <div className="hidden gap-6 px-8 md:grid md:grid-cols-2 lg:grid-cols-3">
                 {matchedRestaurants.map((r) => (
                   <RestaurantCard key={r.id} restaurant={r} />
                 ))}
@@ -72,7 +72,7 @@ export default async function SearchPage({ searchParams }: Props) {
                   />
                 ))}
               </div>
-              <div className="hidden gap-5 px-6 md:grid md:grid-cols-3 lg:grid-cols-4">
+              <div className="hidden gap-6 px-8 md:grid md:grid-cols-3 lg:grid-cols-4">
                 {matchedMeals.map((m) => (
                   <MealCard
                     key={m.id}

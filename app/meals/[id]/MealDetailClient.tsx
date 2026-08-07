@@ -29,41 +29,33 @@ export function MealDetailClient() {
 
   const from = searchParams.get("from");
 
+  // Smart back: Home/Offers/Search → Meal → (browser Back) → Restaurant
+  // Push a same-URL guard; on popstate soft-navigate (Voice stays open).
   useEffect(() => {
     if (!meal) return;
 
     const needsStack =
       from === "home" || from === "offers" || from === "search";
+    if (!needsStack) return;
 
-    if (needsStack) {
-      const restaurantUrl = `/restaurants/${meal.restaurantId}`;
-      const mealUrl = `/meals/${meal.id}`;
-      try {
-        const cur = window.history.state ?? {};
-        window.history.replaceState(
-          { ...cur, luqma: "restaurant", restaurantId: meal.restaurantId },
-          "",
-          restaurantUrl,
-        );
-        window.history.pushState(
-          { ...cur, luqma: "meal", mealId: meal.id },
-          "",
-          mealUrl,
-        );
-      } catch {
-        // ignore
-      }
-    }
+    const restaurantUrl = `/restaurants/${meal.restaurantId}`;
+    let armed = true;
+    window.history.pushState(
+      { luqma: "meal-guard", restaurantId: meal.restaurantId },
+      "",
+    );
 
-    // Sync Next.js App Router when browser back/forward changes the URL
-    // without a full navigation (history rewrite case).
     function onPopState() {
-      const path = `${window.location.pathname}${window.location.search}`;
-      router.replace(path);
+      if (!armed) return;
+      armed = false;
+      router.replace(restaurantUrl);
     }
 
     window.addEventListener("popstate", onPopState);
-    return () => window.removeEventListener("popstate", onPopState);
+    return () => {
+      armed = false;
+      window.removeEventListener("popstate", onPopState);
+    };
   }, [meal, from, router]);
 
   const restaurant = meal ? getRestaurantById(meal.restaurantId) : undefined;
@@ -100,10 +92,15 @@ export function MealDetailClient() {
   }
 
   function goBack() {
-    if (restaurant) {
-      router.push(`/restaurants/${restaurant.id}`);
-    } else {
+    if (!restaurant) {
       router.back();
+      return;
+    }
+    const url = `/restaurants/${restaurant.id}`;
+    if (from === "home" || from === "offers" || from === "search") {
+      router.replace(url);
+    } else {
+      router.push(url);
     }
   }
 
@@ -111,9 +108,9 @@ export function MealDetailClient() {
   const basePrice = getMealPrice(meal);
 
   return (
-    <div className="mx-auto max-w-lg pb-8 md:max-w-6xl md:px-6 md:py-8">
-      <div className="md:grid md:grid-cols-2 md:items-start md:gap-8">
-        <div className="relative aspect-[5/3] bg-border md:sticky md:top-20 md:aspect-[4/3] md:overflow-hidden md:rounded-2xl">
+    <div className="mx-auto max-w-lg pb-8 md:max-w-7xl md:px-8 md:py-10">
+      <div className="md:grid md:grid-cols-2 md:items-start md:gap-10">
+        <div className="relative aspect-[5/3] bg-border md:sticky md:top-24 md:aspect-[4/3] md:overflow-hidden md:rounded-3xl md:shadow-lg">
           <Image
             src={meal.image}
             alt={meal.name}

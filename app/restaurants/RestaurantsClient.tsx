@@ -27,10 +27,30 @@ export function RestaurantsClient() {
   }, [filter, cuisine]);
 
   return (
-    <div className="mx-auto max-w-lg md:max-w-6xl">
-      <div className="px-4 py-4 sm:px-6 md:py-8">
-        <h1 className="text-xl font-bold md:text-3xl">{title}</h1>
+    <div className="mx-auto max-w-lg md:max-w-7xl">
+      {/* Mobile header */}
+      <div className="px-4 py-4 md:hidden">
+        <h1 className="text-xl font-bold">{title}</h1>
         <p className="mt-1 text-sm text-muted">{list.length} نتيجة</p>
+      </div>
+
+      {/* Desktop marketplace header */}
+      <div className="relative hidden overflow-hidden md:block">
+        <div
+          className="absolute inset-0 bg-cover bg-center"
+          style={{
+            backgroundImage:
+              "url(https://images.unsplash.com/photo-1517248135467-4c7edcad34c4?w=1600&q=80)",
+          }}
+          aria-hidden
+        />
+        <div className="absolute inset-0 bg-gradient-to-l from-black/75 via-black/55 to-black/40" />
+        <div className="relative mx-auto max-w-7xl px-8 py-14">
+          <h1 className="text-4xl font-bold text-white">{title}</h1>
+          <p className="mt-2 text-base text-white/80">
+            {list.length} مطعم جاهز للتوصيل الآن
+          </p>
+        </div>
       </div>
 
       {list.length === 0 ? (
@@ -44,7 +64,7 @@ export function RestaurantsClient() {
               <RestaurantListItem key={r.id} restaurant={r} />
             ))}
           </div>
-          <div className="hidden gap-5 px-6 pb-10 md:grid md:grid-cols-2 lg:grid-cols-3">
+          <div className="hidden gap-6 px-8 py-10 md:grid md:grid-cols-2 lg:grid-cols-3">
             {list.map((r) => (
               <RestaurantCard key={r.id} restaurant={r} />
             ))}

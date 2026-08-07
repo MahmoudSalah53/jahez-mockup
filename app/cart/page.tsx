@@ -11,8 +11,8 @@ export default function CartPage() {
 
   if (items.length === 0) {
     return (
-      <div className="mx-auto max-w-lg px-4 py-8 md:max-w-6xl sm:px-6">
-        <h1 className="text-xl font-bold md:text-3xl">السلة</h1>
+      <div className="mx-auto max-w-lg px-4 py-8 md:max-w-7xl sm:px-6 md:px-8">
+        <h1 className="text-xl font-bold md:text-4xl">السلة</h1>
         <div className="mt-8 rounded-2xl border border-border bg-surface px-6 py-12 text-center">
           <p className="text-muted">سلتك فارغة</p>
           <Link
@@ -27,8 +27,8 @@ export default function CartPage() {
   }
 
   return (
-    <div className="mx-auto max-w-lg px-4 py-6 md:max-w-6xl sm:px-6 md:py-8">
-      <h1 className="text-xl font-bold md:text-3xl">
+    <div className="mx-auto max-w-lg px-4 py-6 md:max-w-7xl sm:px-6 md:px-8 md:py-10">
+      <h1 className="text-xl font-bold md:text-4xl">
         السلة{" "}
         <span className="text-sm font-normal text-muted">({totalItems})</span>
       </h1>

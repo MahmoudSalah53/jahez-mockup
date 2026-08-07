@@ -35,10 +35,28 @@ export function OffersClient() {
       : "العروض";
 
   return (
-    <div className="mx-auto max-w-lg md:max-w-6xl">
-      <div className="px-4 py-4 sm:px-6 md:py-8">
-        <h1 className="text-xl font-bold md:text-3xl">{title}</h1>
+    <div className="mx-auto max-w-lg md:max-w-7xl">
+      <div className="px-4 py-4 md:hidden">
+        <h1 className="text-xl font-bold">{title}</h1>
         <p className="mt-1 text-sm text-muted">{offers.length} عرض متاح الآن</p>
+      </div>
+
+      <div className="relative hidden overflow-hidden md:block">
+        <div
+          className="absolute inset-0 bg-cover bg-center"
+          style={{
+            backgroundImage:
+              "url(https://images.unsplash.com/photo-1565299624946-b28f40a0ae38?w=1600&q=80)",
+          }}
+          aria-hidden
+        />
+        <div className="absolute inset-0 bg-gradient-to-l from-black/75 via-black/50 to-black/35" />
+        <div className="relative mx-auto max-w-7xl px-8 py-14">
+          <h1 className="text-4xl font-bold text-white">{title}</h1>
+          <p className="mt-2 text-base text-white/80">
+            {offers.length} عرض متاح الآن — وفر أكثر مع كل طلب
+          </p>
+        </div>
       </div>
 
       {offers.length === 0 ? (
@@ -63,7 +81,7 @@ export function OffersClient() {
               </div>
             ))}
           </div>
-          <div className="hidden gap-5 px-6 pb-10 md:grid md:grid-cols-3 lg:grid-cols-4">
+          <div className="hidden gap-6 px-8 py-10 md:grid md:grid-cols-3 lg:grid-cols-4">
             {offers.map((meal) => (
               <div key={meal.id} className="relative">
                 <MealCard
@@ -72,7 +90,7 @@ export function OffersClient() {
                   restaurantName={getRestaurantById(meal.restaurantId)?.name}
                 />
                 {meal.cashbackPercent ? (
-                  <span className="absolute end-3 top-3 z-10 rounded-md bg-emerald-600 px-1.5 py-0.5 text-[10px] font-bold text-white">
+                  <span className="absolute end-3 top-3 z-10 rounded-full bg-emerald-600 px-2.5 py-1 text-[11px] font-bold text-white shadow">
                     كاش باك {meal.cashbackPercent}%
                   </span>
                 ) : null}

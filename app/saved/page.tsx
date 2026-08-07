@@ -14,9 +14,9 @@ export default function SavedPage() {
     .filter((m): m is NonNullable<typeof m> => Boolean(m));
 
   return (
-    <div className="mx-auto max-w-lg md:max-w-6xl">
-      <div className="px-4 py-4 sm:px-6 md:py-8">
-        <h1 className="text-xl font-bold md:text-3xl">المفضلة</h1>
+    <div className="mx-auto max-w-lg md:max-w-7xl">
+      <div className="px-4 py-4 sm:px-6 md:px-8 md:py-10">
+        <h1 className="text-xl font-bold md:text-4xl">المفضلة</h1>
         <p className="mt-1 text-sm text-muted">وجباتك المحفوظة</p>
       </div>
 
@@ -47,7 +47,7 @@ export default function SavedPage() {
               </div>
             ))}
           </div>
-          <div className="hidden gap-5 px-6 pb-10 md:grid md:grid-cols-3 lg:grid-cols-4">
+          <div className="hidden gap-6 px-8 pb-12 md:grid md:grid-cols-3 lg:grid-cols-4">
             {savedMeals.map((meal) => (
               <div key={meal.id} className="relative">
                 <MealCard
