@@ -13,6 +13,7 @@ import {
   VoiceMorphFab,
   type VoicePhase,
 } from "@/components/voice-widget/VoiceMorphFab";
+import { useCart } from "@/lib/cart-context";
 import { usePrefs } from "@/lib/prefs-context";
 import {
   registerLuqmaRpcs,
@@ -21,6 +22,7 @@ import {
 
 export function VoiceWidget() {
   const router = useRouter();
+  const { items, addItem } = useCart();
   const [phase, setPhase] = useState<VoicePhase>("closed");
   const [micOn, setMicOn] = useState(true);
   const [mounted, setMounted] = useState(false);
@@ -31,6 +33,11 @@ export function VoiceWidget() {
   const audioElsRef = useRef<HTMLMediaElement[]>([]);
   const routerRef = useRef(router);
   routerRef.current = router;
+  // refs so RPC handlers never see a stale cart snapshot
+  const itemsRef = useRef(items);
+  itemsRef.current = items;
+  const addItemRef = useRef(addItem);
+  addItemRef.current = addItem;
 
   useEffect(() => {
     setMounted(true);
@@ -125,10 +132,33 @@ export function VoiceWidget() {
       const data = (await res.json()) as {
         server_url: string;
         participant_token: string;
+        room_name?: string;
+        participant_identity?: string;
       };
+
+      console.log(
+        "%c[luqma-voice:FRONTEND] connecting",
+        "color:#00838f;font-weight:bold",
+        {
+          room: data.room_name,
+          identity: data.participant_identity,
+          hint: "لو الـ AI قال أضفت للسلة، لازم يظهر [luqma-rpc:FRONTEND] RECV luqma.addToCart — لو مظهرش فالمشكلة من الـ agent مش الفرونت",
+        },
+      );
 
       const room = new Room();
       roomRef.current = room;
+
+      // Register RPCs before connect so the agent can call them immediately
+      registerLuqmaRpcs(room, {
+        push: (path) => {
+          routerRef.current.push(path);
+        },
+        getItems: () => itemsRef.current,
+        addItem: (input) => {
+          addItemRef.current(input);
+        },
+      });
 
       room.on(RoomEvent.TrackSubscribed, (track) => {
         if (track.kind !== Track.Kind.Audio) return;
@@ -164,13 +194,6 @@ export function VoiceWidget() {
 
       await room.connect(data.server_url, data.participant_token);
       await room.localParticipant.setMicrophoneEnabled(true);
-
-      // Agent UI bridge — navigate only for now
-      registerLuqmaRpcs(room, {
-        push: (path) => {
-          routerRef.current.push(path);
-        },
-      });
 
       setPhase("listening");
     } catch (err) {

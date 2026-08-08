@@ -6,6 +6,7 @@ import {
   useContext,
   useEffect,
   useMemo,
+  useRef,
   useState,
   type ReactNode,
 } from "react";
@@ -57,46 +58,59 @@ function loadCart(): CartItem[] {
   }
 }
 
+function upsertItem(prev: CartItem[], input: AddToCartInput): CartItem[] {
+  const spicy = Boolean(input.spicy);
+  const addons = input.addons ?? [];
+  const quantity = input.quantity ?? 1;
+  const lineId = makeLineId(input.mealId, spicy, addons);
+
+  const existing = prev.find((i) => i.lineId === lineId);
+  if (existing) {
+    return prev.map((i) =>
+      i.lineId === lineId ? { ...i, quantity: i.quantity + quantity } : i,
+    );
+  }
+  return [
+    ...prev,
+    {
+      lineId,
+      mealId: input.mealId,
+      quantity,
+      spicy,
+      addons,
+      unitPrice: input.unitPrice,
+    },
+  ];
+}
+
 export function CartProvider({ children }: { children: ReactNode }) {
   const [items, setItems] = useState<CartItem[]>([]);
-  const [ready, setReady] = useState(false);
+  const hydratedRef = useRef(false);
 
   useEffect(() => {
     setItems(loadCart());
-    setReady(true);
+    hydratedRef.current = true;
   }, []);
 
   useEffect(() => {
-    if (!ready) return;
+    if (!hydratedRef.current) return;
     localStorage.setItem(STORAGE_KEY, JSON.stringify(items));
-  }, [items, ready]);
+  }, [items]);
 
   const addItem = useCallback((input: AddToCartInput) => {
-    const spicy = Boolean(input.spicy);
-    const addons = input.addons ?? [];
-    const quantity = input.quantity ?? 1;
-    const lineId = makeLineId(input.mealId, spicy, addons);
-
+    console.log("%c[luqma-cart:FRONTEND] addItem", "color:#6a1b9a;font-weight:bold", input);
     setItems((prev) => {
-      const existing = prev.find((i) => i.lineId === lineId);
-      if (existing) {
-        return prev.map((i) =>
-          i.lineId === lineId
-            ? { ...i, quantity: i.quantity + quantity }
-            : i,
-        );
-      }
-      return [
-        ...prev,
-        {
-          lineId,
-          mealId: input.mealId,
-          quantity,
-          spicy,
-          addons,
-          unitPrice: input.unitPrice,
-        },
-      ];
+      // If RPC fires before the hydrate effect, merge into localStorage base
+      // instead of overwriting a stale empty state.
+      const base = hydratedRef.current ? prev : loadCart();
+      hydratedRef.current = true;
+      const next = upsertItem(base, input);
+      console.log("%c[luqma-cart:FRONTEND] cart after add", "color:#6a1b9a", {
+        lines: next.length,
+        totalQty: next.reduce((s, i) => s + i.quantity, 0),
+        items: next,
+      });
+      return next;
     });
   }, []);
 
