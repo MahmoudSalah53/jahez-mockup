@@ -15,6 +15,7 @@ import {
 } from "@/components/voice-widget/VoiceMorphFab";
 import { useCart } from "@/lib/cart-context";
 import { usePrefs } from "@/lib/prefs-context";
+import { useSaved } from "@/lib/saved-context";
 import {
   registerLuqmaRpcs,
   unregisterLuqmaRpcs,
@@ -23,6 +24,7 @@ import {
 export function VoiceWidget() {
   const router = useRouter();
   const { items, addItem } = useCart();
+  const { isSaved, toggleSaved } = useSaved();
   const [phase, setPhase] = useState<VoicePhase>("closed");
   const [micOn, setMicOn] = useState(true);
   const [mounted, setMounted] = useState(false);
@@ -33,11 +35,15 @@ export function VoiceWidget() {
   const audioElsRef = useRef<HTMLMediaElement[]>([]);
   const routerRef = useRef(router);
   routerRef.current = router;
-  // refs so RPC handlers never see a stale cart snapshot
+  // refs so RPC handlers never see a stale cart / saved snapshot
   const itemsRef = useRef(items);
   itemsRef.current = items;
   const addItemRef = useRef(addItem);
   addItemRef.current = addItem;
+  const isSavedRef = useRef(isSaved);
+  isSavedRef.current = isSaved;
+  const toggleSavedRef = useRef(toggleSaved);
+  toggleSavedRef.current = toggleSaved;
 
   useEffect(() => {
     setMounted(true);
@@ -157,6 +163,10 @@ export function VoiceWidget() {
         getItems: () => itemsRef.current,
         addItem: (input) => {
           addItemRef.current(input);
+        },
+        isSaved: (mealId) => isSavedRef.current(mealId),
+        toggleSaved: (mealId) => {
+          toggleSavedRef.current(mealId);
         },
       });
 

@@ -12,6 +12,7 @@ import {
 import { createGetCartHandler } from "@/lib/voice-rpc/get-cart";
 import { createNavigateHandler } from "@/lib/voice-rpc/navigate";
 import { createSetMealOptionsHandler } from "@/lib/voice-rpc/set-meal-options";
+import { createSetSavedHandler } from "@/lib/voice-rpc/set-saved";
 import { createShowMealHandler } from "@/lib/voice-rpc/show-meal";
 
 export type LuqmaRpcDeps = {
@@ -24,6 +25,8 @@ export type LuqmaRpcDeps = {
     addons?: CartAddon[];
     unitPrice: number;
   }) => void;
+  isSaved: (mealId: string) => boolean;
+  toggleSaved: (mealId: string) => void;
 };
 
 const ACTIVE_METHODS = [
@@ -31,6 +34,7 @@ const ACTIVE_METHODS = [
   LUQMA_RPC.showMeal,
   LUQMA_RPC.setMealOptions,
   LUQMA_RPC.addToCart,
+  LUQMA_RPC.setSaved,
   LUQMA_RPC.getCart,
 ] as const;
 
@@ -79,6 +83,10 @@ export function registerLuqmaRpcs(room: Room, deps: LuqmaRpcDeps) {
   room.registerRpcMethod(
     LUQMA_RPC.addToCart,
     withDebug(LUQMA_RPC.addToCart, createAddToCartHandler(deps)),
+  );
+  room.registerRpcMethod(
+    LUQMA_RPC.setSaved,
+    withDebug(LUQMA_RPC.setSaved, createSetSavedHandler(deps)),
   );
   room.registerRpcMethod(
     LUQMA_RPC.getCart,
