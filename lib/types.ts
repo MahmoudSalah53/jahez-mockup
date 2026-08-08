@@ -16,11 +16,11 @@ export type Restaurant = {
   deliveryFee: number;
   minOrder: number;
   distanceKm: number;
-  verified?: boolean;
-  tags?: string[];
-  featured?: boolean;
-  open24h?: boolean;
-  fastDelivery?: boolean;
+  verified: boolean | null;
+  tags: string[];
+  featured: boolean | null;
+  open24h: boolean | null;
+  fastDelivery: boolean | null;
 };
 
 export type Meal = {
@@ -36,11 +36,11 @@ export type Meal = {
   carbs: number;
   fat: number;
   category: MealCategory;
-  isPopular?: boolean;
-  isOffer?: boolean;
-  offerPrice?: number;
-  spicyOption?: boolean;
-  cashbackPercent?: number;
+  isPopular: boolean;
+  isOffer: boolean;
+  offerPrice: number | null;
+  spicyOption: boolean;
+  cashbackPercent: number | null;
   addons: MealAddon[];
 };
 
