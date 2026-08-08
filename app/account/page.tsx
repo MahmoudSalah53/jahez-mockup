@@ -3,6 +3,7 @@
 import Link from "next/link";
 import {
   ArrowLeft,
+  Clock,
   Heart,
   Package,
   ShoppingCart,
@@ -11,12 +12,20 @@ import {
 import { useCart } from "@/lib/cart-context";
 import { useOrders } from "@/lib/orders-context";
 import { useSaved } from "@/lib/saved-context";
+import { usePrefs } from "@/lib/prefs-context";
 import { formatPrice } from "@/lib/format";
 
 export default function AccountPage() {
   const { orders } = useOrders();
   const { savedIds } = useSaved();
   const { totalItems, subtotal } = useCart();
+  const { done, skipped } = usePrefs();
+
+  const answerSummary = done
+    ? skipped
+      ? "تم تخطّي الاستبيان في هذه الجلسة"
+      : "تم حفظ تفضيلات الجلسة (لا تؤثّر على الموقع حالياً)"
+    : null;
 
   const links = [
     {
@@ -47,23 +56,33 @@ export default function AccountPage() {
 
   return (
     <div className="mx-auto max-w-lg px-4 py-8 sm:px-6 md:max-w-7xl md:px-8 md:py-10">
-      {/* Mobile — compact (unchanged feel) */}
+      {/* Mobile */}
       <div className="md:hidden">
         <h1 className="text-2xl font-bold">الحساب</h1>
-        <p className="mt-2 text-sm text-muted">
-          حساب تجريبي للعرض — بدون تسجيل دخول حقيقي
-        </p>
 
-        <div className="mt-6 rounded-2xl border border-border bg-surface p-5">
+        <div className="mt-4 rounded-2xl border border-amber-200 bg-amber-50 px-4 py-4">
+          <div className="flex items-center gap-2">
+            <Clock size={18} className="text-amber-700" weight="fill" />
+            <p className="text-sm font-bold text-amber-900">قريباً</p>
+          </div>
+          <p className="mt-1.5 text-sm leading-relaxed text-amber-800/90">
+            تسجيل الحسابات وتسجيل الدخول لسه غير متاحين في العرض التجريبي.
+          </p>
+        </div>
+
+        <div className="mt-4 rounded-2xl border border-border bg-surface p-5">
           <div className="flex items-center gap-4">
             <div className="flex h-14 w-14 items-center justify-center rounded-full bg-accent-soft text-xl font-bold text-accent">
               ز
             </div>
             <div>
               <p className="font-semibold text-foreground">زائر لقمة</p>
-              <p className="text-sm text-muted" dir="ltr">
-                guest@luqma.demo
-              </p>
+              <p className="text-sm text-muted">تصفح كزائر بدون حساب</p>
+              {answerSummary ? (
+                <p className="mt-1 text-xs font-medium text-accent">
+                  {answerSummary}
+                </p>
+              ) : null}
             </div>
           </div>
 
@@ -82,7 +101,7 @@ export default function AccountPage() {
         </div>
       </div>
 
-      {/* Desktop — full marketplace profile */}
+      {/* Desktop */}
       <div className="hidden md:block">
         <div className="relative overflow-hidden rounded-3xl">
           <div
@@ -100,18 +119,34 @@ export default function AccountPage() {
                 ز
               </div>
               <div>
-                <p className="text-sm font-medium text-white/75">حساب تجريبي</p>
+                <p className="text-sm font-medium text-white/75">وضع الزائر</p>
                 <h1 className="mt-1 text-4xl font-bold text-white">زائر لقمة</h1>
-                <p className="mt-1 text-sm text-white/80" dir="ltr">
-                  guest@luqma.demo
+                <p className="mt-1 text-sm text-white/80">
+                  {answerSummary ?? "تصفح واطلب بدون تسجيل"}
                 </p>
               </div>
             </div>
-            <div className="flex items-center gap-2 rounded-full bg-white/15 px-4 py-2 text-sm text-white backdrop-blur">
-              <UserCircle size={20} weight="fill" />
-              بدون تسجيل دخول حقيقي
+            <div className="flex flex-wrap items-center gap-2">
+              <span className="inline-flex items-center gap-2 rounded-full bg-amber-400 px-4 py-2 text-sm font-bold text-amber-950">
+                <Clock size={18} weight="fill" />
+                قريباً — تسجيل الحسابات
+              </span>
+              <span className="inline-flex items-center gap-2 rounded-full bg-white/15 px-4 py-2 text-sm text-white backdrop-blur">
+                <UserCircle size={20} weight="fill" />
+                تجريبي
+              </span>
             </div>
           </div>
+        </div>
+
+        <div className="mt-6 rounded-3xl border border-amber-200 bg-amber-50 px-6 py-5">
+          <p className="text-base font-bold text-amber-950">
+            إنشاء الحساب وتسجيل الدخول غير متاحين حالياً
+          </p>
+          <p className="mt-1 text-sm text-amber-900/80">
+            العرض للتجربة فقط. تقدر تستخدم الطلبات والمحفوظات والسلة كزائر على
+            هذا الجهاز.
+          </p>
         </div>
 
         <div className="mt-8 grid grid-cols-3 gap-5">
@@ -164,7 +199,9 @@ function StatCard({
     <div className="rounded-3xl border border-border bg-surface px-6 py-5 shadow-sm">
       <p className="text-sm text-muted">{label}</p>
       <p className="mt-1 text-3xl font-bold text-foreground">{value}</p>
-      {hint ? <p className="mt-1 text-sm font-medium text-accent">{hint}</p> : null}
+      {hint ? (
+        <p className="mt-1 text-sm font-medium text-accent">{hint}</p>
+      ) : null}
     </div>
   );
 }
