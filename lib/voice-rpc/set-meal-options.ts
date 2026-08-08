@@ -1,6 +1,9 @@
 import { flushSync } from "react-dom";
 import type { RpcInvocationData } from "livekit-client";
-import { applyMealOptionsFromRpc } from "@/lib/meal-options-bridge";
+import {
+  applyMealOptionsFromRpc,
+  type MealOptionsApplyResult,
+} from "@/lib/meal-options-bridge";
 import { rpcFail, rpcOk } from "@/lib/voice-rpc/response";
 
 type Payload = {
@@ -32,17 +35,21 @@ export function createSetMealOptionsHandler() {
           ? payload.addon_ids
           : [];
 
-      let result: ReturnType<typeof applyMealOptionsFromRpc> | null = null;
+      // Object wrapper: TS can't track reassignment inside flushSync's closure
+      const box: { result: MealOptionsApplyResult } = {
+        result: { ok: false, error: "not_on_meal_page" },
+      };
       flushSync(() => {
-        result = applyMealOptionsFromRpc(mealId, {
+        box.result = applyMealOptionsFromRpc(mealId, {
           quantity,
           spicy,
           addonIds: addonIds.map(String),
         });
       });
 
-      if (!result || !result.ok) {
-        return rpcFail(result?.error ?? "not_on_meal_page");
+      const result = box.result;
+      if (!result.ok) {
+        return rpcFail(result.error);
       }
       return rpcOk({ selected: result.selected });
     } catch {
