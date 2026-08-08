@@ -11,7 +11,7 @@ const desktopLinks = [
   { href: "/restaurants", label: "المطاعم" },
   { href: "/offers", label: "العروض" },
   { href: "/orders", label: "الطلبات" },
-  { href: "/account", label: "الحساب" },
+  { href: "/saved", label: "المحفوظات" },
 ];
 
 export function Navbar() {

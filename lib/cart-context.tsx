@@ -6,7 +6,6 @@ import {
   useContext,
   useEffect,
   useMemo,
-  useRef,
   useState,
   type ReactNode,
 } from "react";
@@ -85,25 +84,27 @@ function upsertItem(prev: CartItem[], input: AddToCartInput): CartItem[] {
 
 export function CartProvider({ children }: { children: ReactNode }) {
   const [items, setItems] = useState<CartItem[]>([]);
-  const hydratedRef = useRef(false);
+  const [ready, setReady] = useState(false);
 
   useEffect(() => {
     setItems(loadCart());
-    hydratedRef.current = true;
+    setReady(true);
   }, []);
 
   useEffect(() => {
-    if (!hydratedRef.current) return;
+    if (!ready) return;
     localStorage.setItem(STORAGE_KEY, JSON.stringify(items));
-  }, [items]);
+  }, [items, ready]);
 
   const addItem = useCallback((input: AddToCartInput) => {
-    console.log("%c[luqma-cart:FRONTEND] addItem", "color:#6a1b9a;font-weight:bold", input);
+    console.log(
+      "%c[luqma-cart:FRONTEND] addItem",
+      "color:#6a1b9a;font-weight:bold",
+      input,
+    );
     setItems((prev) => {
-      // If RPC fires before the hydrate effect, merge into localStorage base
-      // instead of overwriting a stale empty state.
-      const base = hydratedRef.current ? prev : loadCart();
-      hydratedRef.current = true;
+      // If RPC fires before hydrate, merge into localStorage base
+      const base = ready ? prev : loadCart();
       const next = upsertItem(base, input);
       console.log("%c[luqma-cart:FRONTEND] cart after add", "color:#6a1b9a", {
         lines: next.length,
@@ -112,7 +113,8 @@ export function CartProvider({ children }: { children: ReactNode }) {
       });
       return next;
     });
-  }, []);
+    setReady(true);
+  }, [ready]);
 
   const removeItem = useCallback((lineId: string) => {
     setItems((prev) => prev.filter((i) => i.lineId !== lineId));

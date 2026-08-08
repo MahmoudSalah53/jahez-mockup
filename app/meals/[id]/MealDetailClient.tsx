@@ -4,7 +4,7 @@ import { useEffect, useMemo, useState } from "react";
 import Image from "next/image";
 import Link from "next/link";
 import { useParams, useRouter, useSearchParams } from "next/navigation";
-import { Heart } from "@phosphor-icons/react";
+import { BookmarkSimple } from "@phosphor-icons/react";
 import { getMealById, getMealPrice, lineUnitPrice } from "@/data/meals";
 import { getRestaurantById } from "@/data/restaurants";
 import { StarRating } from "@/components/StarRating";
@@ -289,7 +289,7 @@ export function MealDetailClient() {
               )}
               aria-label={saved ? "إزالة من المحفوظات" : "حفظ"}
             >
-              <Heart size={20} weight={saved ? "fill" : "regular"} />
+              <BookmarkSimple size={20} weight={saved ? "fill" : "regular"} />
             </button>
           </div>
         </div>

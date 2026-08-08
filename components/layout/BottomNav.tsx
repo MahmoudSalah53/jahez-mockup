@@ -3,20 +3,18 @@
 import Link from "next/link";
 import { usePathname } from "next/navigation";
 import {
-  Heart,
+  BookmarkSimple,
   House,
   ListBullets,
   ShoppingCart,
-  User,
 } from "@phosphor-icons/react";
 import { useCart } from "@/lib/cart-context";
 import { cn } from "@/lib/cn";
 
 const tabs = [
   { href: "/", label: "الرئيسية", Icon: House },
-  { href: "/saved", label: "المفضلة", Icon: Heart },
+  { href: "/saved", label: "المحفوظات", Icon: BookmarkSimple },
   { href: "/orders", label: "الطلبات", Icon: ListBullets },
-  { href: "/account", label: "حسابي", Icon: User },
 ];
 
 export function BottomNav() {
