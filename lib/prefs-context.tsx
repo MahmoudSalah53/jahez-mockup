@@ -10,36 +10,22 @@ import {
   type ReactNode,
 } from "react";
 
-const STORAGE_KEY = "luqma-food-prefs-v7";
+const STORAGE_KEY = "luqma-food-prefs-v8";
 
 export type PrefAnswers = {
-  goals: string[];
-  /** نظام غذائي — اختيار واحد */
-  diet: string | null;
-  /** بروتين — يُفرّغ في المسار النباتي */
-  proteins: string[];
-  /** تفضيلات نباتية — بدل سؤال اللحوم */
-  plantPrefs: string[];
-  cuisines: string[];
-  spice: string | null;
-  priority: string | null;
+  /** يهمّه السعرات أو لا */
+  calories: "care" | "dont_care" | null;
 };
 
 export const EMPTY_ANSWERS: PrefAnswers = {
-  goals: [],
-  diet: null,
-  proteins: [],
-  plantPrefs: [],
-  cuisines: [],
-  spice: null,
-  priority: null,
+  calories: null,
 };
 
 type PrefsPayload = {
   done: boolean;
   skipped: boolean;
   answers: PrefAnswers;
-  schemaVersion: 7;
+  schemaVersion: 8;
 };
 
 type PrefsContextValue = {
@@ -58,7 +44,7 @@ function loadPrefs(): PrefsPayload {
       done: false,
       skipped: false,
       answers: EMPTY_ANSWERS,
-      schemaVersion: 7,
+      schemaVersion: 8,
     };
   }
   try {
@@ -68,7 +54,7 @@ function loadPrefs(): PrefsPayload {
         done: false,
         skipped: false,
         answers: EMPTY_ANSWERS,
-        schemaVersion: 7,
+        schemaVersion: 8,
       };
     }
     const parsed = JSON.parse(raw) as PrefsPayload;
@@ -77,21 +63,21 @@ function loadPrefs(): PrefsPayload {
         done: false,
         skipped: false,
         answers: EMPTY_ANSWERS,
-        schemaVersion: 7,
+        schemaVersion: 8,
       };
     }
     return {
       done: true,
       skipped: Boolean(parsed.skipped),
       answers: { ...EMPTY_ANSWERS, ...parsed.answers },
-      schemaVersion: 7,
+      schemaVersion: 8,
     };
   } catch {
     return {
       done: false,
       skipped: false,
       answers: EMPTY_ANSWERS,
-      schemaVersion: 7,
+      schemaVersion: 8,
     };
   }
 }
@@ -123,7 +109,7 @@ export function PrefsProvider({ children }: { children: ReactNode }) {
       done: true,
       skipped: wasSkipped,
       answers: next,
-      schemaVersion: 7,
+      schemaVersion: 8,
     };
     savePrefs(payload);
     setDone(true);
