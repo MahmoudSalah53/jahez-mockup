@@ -11,6 +11,7 @@ import {
 } from "@/lib/voice-rpc/debug";
 import { createGetCartHandler } from "@/lib/voice-rpc/get-cart";
 import { createNavigateHandler } from "@/lib/voice-rpc/navigate";
+import { createSetMealOptionsHandler } from "@/lib/voice-rpc/set-meal-options";
 import { createShowMealHandler } from "@/lib/voice-rpc/show-meal";
 
 export type LuqmaRpcDeps = {
@@ -28,6 +29,7 @@ export type LuqmaRpcDeps = {
 const ACTIVE_METHODS = [
   LUQMA_RPC.navigate,
   LUQMA_RPC.showMeal,
+  LUQMA_RPC.setMealOptions,
   LUQMA_RPC.addToCart,
   LUQMA_RPC.getCart,
 ] as const;
@@ -69,6 +71,10 @@ export function registerLuqmaRpcs(room: Room, deps: LuqmaRpcDeps) {
   room.registerRpcMethod(
     LUQMA_RPC.showMeal,
     withDebug(LUQMA_RPC.showMeal, createShowMealHandler(deps)),
+  );
+  room.registerRpcMethod(
+    LUQMA_RPC.setMealOptions,
+    withDebug(LUQMA_RPC.setMealOptions, createSetMealOptionsHandler()),
   );
   room.registerRpcMethod(
     LUQMA_RPC.addToCart,

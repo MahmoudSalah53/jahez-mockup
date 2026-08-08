@@ -2,6 +2,7 @@
 export const LUQMA_RPC = {
   navigate: "luqma.navigate",
   showMeal: "luqma.showMeal",
+  setMealOptions: "luqma.setMealOptions",
   addToCart: "luqma.addToCart",
   getCart: "luqma.getCart",
 } as const;

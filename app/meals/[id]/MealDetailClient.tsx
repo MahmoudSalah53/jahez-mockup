@@ -10,6 +10,7 @@ import { getRestaurantById } from "@/data/restaurants";
 import { StarRating } from "@/components/StarRating";
 import { formatPrice } from "@/lib/format";
 import { useCart } from "@/lib/cart-context";
+import { registerMealOptionsController } from "@/lib/meal-options-bridge";
 import { useSaved } from "@/lib/saved-context";
 import type { CartAddon } from "@/lib/types";
 import { cn } from "@/lib/cn";
@@ -28,6 +29,23 @@ export function MealDetailClient() {
   const [added, setAdded] = useState(false);
 
   const from = searchParams.get("from");
+
+  // Voice RPC luqma.setMealOptions → tick addons / spicy / qty on this page
+  useEffect(() => {
+    if (!meal) return;
+    return registerMealOptionsController({
+      mealId: meal.id,
+      apply: ({ quantity, spicy: nextSpicy, addonIds }) => {
+        const selected = (meal.addons ?? []).filter((a) =>
+          addonIds.includes(a.id),
+        );
+        setQty(Math.max(1, quantity));
+        setSpicy(Boolean(nextSpicy) && meal.spicyOption);
+        setSelectedAddons(selected);
+        return { ok: true, selected: selected.map((a) => a.id) };
+      },
+    });
+  }, [meal]);
 
   // Smart back: Home/Offers/Search → Meal → (browser Back) → Restaurant
   // Push a same-URL guard; on popstate soft-navigate (Voice stays open).

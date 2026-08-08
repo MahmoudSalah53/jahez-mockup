@@ -129,15 +129,10 @@ function useOpenWidth(desktop: boolean) {
   return w;
 }
 
-function statusLabel(
-  phase: Exclude<VoicePhase, "closed">,
-  micOn: boolean,
-  agentSpeaking: boolean,
-) {
-  if (phase === "connecting") return "ثوانٍ…";
-  if (agentSpeaking) return "لقمة تتحدث…";
-  if (!micOn) return "الميكروفون مكتوم";
-  return "أسمعك الآن";
+function statusLabel(phase: Exclude<VoicePhase, "closed">, micOn: boolean) {
+  if (phase === "connecting") return "جاري الاتصال…";
+  if (!micOn) return "الميكروفون مقفول";
+  return "متصل الآن";
 }
 
 type Props = {
@@ -390,7 +385,7 @@ export function VoiceMorphFab({
                   desktop ? "text-xs" : "text-[11px]",
                 )}
               >
-                {statusLabel(phase, micOn, agentSpeaking)}
+                {statusLabel(phase, micOn)}
               </p>
             </div>
 
