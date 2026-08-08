@@ -8,8 +8,10 @@ import {
   XIcon,
 } from "@phosphor-icons/react";
 import { useEffect, useRef, useState } from "react";
+import type { RemoteAudioTrack } from "livekit-client";
 import { FakeBarVisualizer } from "@/components/voice-widget/FakeBarVisualizer";
 import { usePrefs } from "@/lib/prefs-context";
+import { useMultibandTrackVolume } from "@/lib/use-multiband-track-volume";
 import { cn } from "@/lib/cn";
 
 export type VoicePhase = "closed" | "connecting" | "listening";
@@ -127,8 +129,13 @@ function useOpenWidth(desktop: boolean) {
   return w;
 }
 
-function statusLabel(phase: Exclude<VoicePhase, "closed">, micOn: boolean) {
+function statusLabel(
+  phase: Exclude<VoicePhase, "closed">,
+  micOn: boolean,
+  agentSpeaking: boolean,
+) {
   if (phase === "connecting") return "ثوانٍ…";
+  if (agentSpeaking) return "لقمة تتحدث…";
   if (!micOn) return "الميكروفون مكتوم";
   return "أسمعك الآن";
 }
@@ -136,6 +143,8 @@ function statusLabel(phase: Exclude<VoicePhase, "closed">, micOn: boolean) {
 type Props = {
   phase: VoicePhase;
   micOn: boolean;
+  /** صوت الـ AI من LiveKit — الموجات تتبعه */
+  agentTrack?: RemoteAudioTrack | null;
   onOpen: () => void;
   onClose: () => void;
   onMicToggle: () => void;
@@ -147,6 +156,7 @@ type Props = {
 export function VoiceMorphFab({
   phase,
   micOn,
+  agentTrack = null,
   onOpen,
   onClose,
   onMicToggle,
@@ -155,6 +165,15 @@ export function VoiceMorphFab({
   const desktop = useIsDesktop();
   const { ready, done } = usePrefs();
   const open = phase !== "closed";
+
+  const agentLevels = useMultibandTrackVolume(agentTrack, {
+    bands: 5,
+    updateInterval: 40,
+  });
+  const agentSpeaking =
+    phase === "listening" &&
+    Boolean(agentTrack) &&
+    agentLevels.some((v) => v > 0.18);
 
   // هل الزائر بدأ بدون prefs؟ (أول مرة يشوف الأونبوردينج)
   const startedWithoutPrefsRef = useRef<boolean | null>(null);
@@ -195,7 +214,9 @@ export function VoiceMorphFab({
   const height = open ? openH : circlePx;
 
   const connecting = phase === "connecting";
-  const waveActive = phase === "listening" && micOn;
+  const waveActive = agentSpeaking || (connecting && !agentTrack);
+  const liveLevels =
+    phase === "listening" && agentTrack ? agentLevels : undefined;
 
   return (
     <motion.div
@@ -344,13 +365,11 @@ export function VoiceMorphFab({
                 <FakeBarVisualizer
                   variant="compact"
                   active={connecting || waveActive}
-                  muted={!micOn && !connecting}
-                  barClassName={
-                    !micOn && !connecting ? "bg-white/45" : "bg-white"
-                  }
+                  levels={liveLevels}
+                  barClassName="bg-white"
                   className={cn(
                     connecting && "opacity-80",
-                    desktop ? "h-[18px]" : "h-4",
+                    desktop ? "h-[18px] gap-[2px]" : "h-4 gap-[1.5px]",
                   )}
                 />
               </div>
@@ -371,7 +390,7 @@ export function VoiceMorphFab({
                   desktop ? "text-xs" : "text-[11px]",
                 )}
               >
-                {statusLabel(phase, micOn)}
+                {statusLabel(phase, micOn, agentSpeaking)}
               </p>
             </div>
 
