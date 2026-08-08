@@ -22,7 +22,7 @@ const OPEN_PILL_DESKTOP_PX = 300;
 const OPEN_H = 52;
 const OPEN_H_DESKTOP = 60;
 const TEASE_VISIBLE_MS = 2500;
-const TEASE_GAP_MS = 14000;
+const TEASE_GAP_MS = 60_000;
 const INTRO_DELAY_MS = 500;
 
 const morphSpring = {
