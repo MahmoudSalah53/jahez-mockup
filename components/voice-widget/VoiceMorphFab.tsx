@@ -9,6 +9,7 @@ import {
 } from "@phosphor-icons/react";
 import { useEffect, useRef, useState } from "react";
 import { FakeBarVisualizer } from "@/components/voice-widget/FakeBarVisualizer";
+import { usePrefs } from "@/lib/prefs-context";
 import { cn } from "@/lib/cn";
 
 export type VoicePhase = "closed" | "connecting" | "listening";
@@ -43,14 +44,21 @@ function useFabBottom() {
   return bottom;
 }
 
-function usePillTease(active: boolean) {
+/**
+ * @param active — الزر مغلق وprefs خلصت (مش أثناء الأونبوردينج)
+ * @param burstIntro — أول مرة بعد إنهاء/تخطي الأونبوردينج
+ * @param voiceOpenedOnce — المستخدم فتح الفويس قبل كده (بعد الإغلاق نستنى دقيقة)
+ */
+function usePillTease(
+  active: boolean,
+  burstIntro: boolean,
+  voiceOpenedOnce: boolean,
+) {
   const [teased, setTeased] = useState(false);
-  const seenSessionRef = useRef(false);
+  const burstHandledRef = useRef(false);
 
   useEffect(() => {
     if (!active) {
-      // بعد فتح الجلسة مرة، الإغلاق يرجع دائرة (مش tease فوري)
-      seenSessionRef.current = true;
       setTeased(false);
       return;
     }
@@ -72,11 +80,15 @@ function usePillTease(active: boolean) {
       }, TEASE_VISIBLE_MS);
     }
 
-    // أول تحميل: تظهر «اسأل لقمة» بسرعة ثم ترجع دائرة
-    // بعد إغلاق الجلسة: تفضل دائرة، والـ tease لاحقاً
-    const initialDelay = seenSessionRef.current
-      ? TEASE_GAP_MS
-      : INTRO_DELAY_MS;
+    const shouldBurst = burstIntro && !burstHandledRef.current;
+    if (shouldBurst) burstHandledRef.current = true;
+
+    // مهم: متخلطش «انتظار الأونبوردينج» مع «إغلاق جلسة صوت»
+    const initialDelay = shouldBurst
+      ? 200
+      : voiceOpenedOnce
+        ? TEASE_GAP_MS
+        : INTRO_DELAY_MS;
 
     const intro = setTimeout(() => runCycle(TEASE_GAP_MS), initialDelay);
 
@@ -86,7 +98,7 @@ function usePillTease(active: boolean) {
       if (collapseTimer) clearTimeout(collapseTimer);
       if (cycleTimer) clearTimeout(cycleTimer);
     };
-  }, [active]);
+  }, [active, burstIntro, voiceOpenedOnce]);
 
   return teased;
 }
@@ -141,8 +153,31 @@ export function VoiceMorphFab({
 }: Props) {
   const bottom = useFabBottom();
   const desktop = useIsDesktop();
+  const { ready, done } = usePrefs();
   const open = phase !== "closed";
-  const teased = usePillTease(!open);
+
+  // هل الزائر بدأ بدون prefs؟ (أول مرة يشوف الأونبوردينج)
+  const startedWithoutPrefsRef = useRef<boolean | null>(null);
+  useEffect(() => {
+    if (!ready || startedWithoutPrefsRef.current !== null) return;
+    startedWithoutPrefsRef.current = !done;
+  }, [ready, done]);
+
+  const [voiceOpenedOnce, setVoiceOpenedOnce] = useState(false);
+  useEffect(() => {
+    if (open) setVoiceOpenedOnce(true);
+  }, [open]);
+
+  const burstAfterOnboarding =
+    ready && done && startedWithoutPrefsRef.current === true;
+
+  // متظهرش «اسأل لقمة» أثناء الأونبوردينج — استنى يخلص/يتخطّى
+  const teaseAllowed = ready && done && !open;
+  const teased = usePillTease(
+    teaseAllowed,
+    burstAfterOnboarding,
+    voiceOpenedOnce,
+  );
   const [hovered, setHovered] = useState(false);
   const openWidth = useOpenWidth(desktop);
 
