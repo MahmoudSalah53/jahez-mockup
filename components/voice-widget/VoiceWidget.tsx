@@ -2,6 +2,7 @@
 
 import { useEffect, useRef, useState } from "react";
 import { createPortal } from "react-dom";
+import { useRouter } from "next/navigation";
 import {
   Room,
   RoomEvent,
@@ -13,8 +14,13 @@ import {
   type VoicePhase,
 } from "@/components/voice-widget/VoiceMorphFab";
 import { usePrefs } from "@/lib/prefs-context";
+import {
+  registerLuqmaRpcs,
+  unregisterLuqmaRpcs,
+} from "@/lib/voice-rpc";
 
 export function VoiceWidget() {
+  const router = useRouter();
   const [phase, setPhase] = useState<VoicePhase>("closed");
   const [micOn, setMicOn] = useState(true);
   const [mounted, setMounted] = useState(false);
@@ -23,6 +29,8 @@ export function VoiceWidget() {
 
   const roomRef = useRef<Room | null>(null);
   const audioElsRef = useRef<HTMLMediaElement[]>([]);
+  const routerRef = useRef(router);
+  routerRef.current = router;
 
   useEffect(() => {
     setMounted(true);
@@ -48,6 +56,7 @@ export function VoiceWidget() {
     const room = roomRef.current;
     roomRef.current = null;
     if (room) {
+      unregisterLuqmaRpcs(room);
       await room.disconnect();
     }
   }
@@ -146,12 +155,22 @@ export function VoiceWidget() {
       room.on(RoomEvent.Disconnected, () => {
         clearAudioElements();
         setAgentTrack(null);
-        roomRef.current = null;
+        if (roomRef.current === room) {
+          unregisterLuqmaRpcs(room);
+          roomRef.current = null;
+        }
         setPhase("closed");
       });
 
       await room.connect(data.server_url, data.participant_token);
       await room.localParticipant.setMicrophoneEnabled(true);
+
+      // Agent UI bridge — navigate only for now
+      registerLuqmaRpcs(room, {
+        push: (path) => {
+          routerRef.current.push(path);
+        },
+      });
 
       setPhase("listening");
     } catch (err) {
