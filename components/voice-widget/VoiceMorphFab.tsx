@@ -146,7 +146,7 @@ type Props = {
 };
 
 /**
- * عنصر واحد يتمدّد من دائرة «اسأل لقمة» إلى شريط الجلسة والعكس.
+ * عنصر واحد يتمدّد من دائرة «اسأل سلمى» إلى شريط الجلسة والعكس.
  */
 export function VoiceMorphFab({
   phase,
@@ -185,7 +185,7 @@ export function VoiceMorphFab({
   const burstAfterOnboarding =
     ready && done && startedWithoutPrefsRef.current === true;
 
-  // متظهرش «اسأل لقمة» أثناء الأونبوردينج — استنى يخلص/يتخطّى
+  // متظهرش «اسأل سلمى» أثناء الأونبوردينج — استنى يخلص/يتخطّى
   const teaseAllowed = ready && done && !open;
   const teased = usePillTease(
     teaseAllowed,
@@ -195,7 +195,7 @@ export function VoiceMorphFab({
   const [hovered, setHovered] = useState(false);
   const openWidth = useOpenWidth(desktop);
 
-  // بعد الإغلاق/الفتح: امسح الـ hover عشان متفضلش «اسأل لقمة» معلّقة
+  // بعد الإغلاق/الفتح: امسح الـ hover عشان متفضلش «اسأل سلمى» معلّقة
   useEffect(() => {
     setHovered(false);
   }, [open]);
@@ -267,7 +267,7 @@ export function VoiceMorphFab({
           <motion.button
             key="closed"
             type="button"
-            aria-label="اسأل لقمة"
+            aria-label="اسأل سلمى"
             onClick={onOpen}
             initial={{ opacity: 0 }}
             animate={{ opacity: 1 }}
@@ -303,7 +303,7 @@ export function VoiceMorphFab({
                 desktop ? "text-[15px]" : "text-sm",
               )}
             >
-              اسأل لقمة
+              اسأل سلمى
             </motion.span>
           </motion.button>
         ) : (
@@ -377,7 +377,7 @@ export function VoiceMorphFab({
                   desktop ? "text-sm" : "text-[13px]",
                 )}
               >
-                لقمة
+                سلمى
               </p>
               <p
                 className={cn(
