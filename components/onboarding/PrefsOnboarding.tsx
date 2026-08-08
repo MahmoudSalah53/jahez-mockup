@@ -547,7 +547,7 @@ export function PrefsOnboarding() {
               </div>
             ) : null}
 
-            <div className="flex min-h-0 flex-1 flex-col justify-center overflow-y-auto px-5 py-6 sm:px-8">
+            <div className="flex min-h-0 flex-1 flex-col justify-center overflow-y-auto scrollbar-none px-5 py-6 sm:px-8">
               <div className="mx-auto w-full max-w-xl">
                 <AnimatePresence mode="wait" custom={dir}>
                   {isWelcome ? (
