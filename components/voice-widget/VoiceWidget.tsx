@@ -2,7 +2,7 @@
 
 import { useEffect, useRef, useState } from "react";
 import { createPortal } from "react-dom";
-import { useRouter } from "next/navigation";
+import { usePathname, useRouter } from "next/navigation";
 import {
   Room,
   RoomEvent,
@@ -14,8 +14,10 @@ import {
   type VoicePhase,
 } from "@/components/voice-widget/VoiceMorphFab";
 import { useCart } from "@/lib/cart-context";
+import { useOrders } from "@/lib/orders-context";
 import { usePrefs } from "@/lib/prefs-context";
 import { useSaved } from "@/lib/saved-context";
+import { setUiStateFromPath } from "@/lib/ui-state";
 import {
   registerLuqmaRpcs,
   unregisterLuqmaRpcs,
@@ -23,7 +25,9 @@ import {
 
 export function VoiceWidget() {
   const router = useRouter();
-  const { items, addItem } = useCart();
+  const pathname = usePathname();
+  const { items, addItem, clearCart } = useCart();
+  const { addOrder } = useOrders();
   const { isSaved, toggleSaved } = useSaved();
   const [phase, setPhase] = useState<VoicePhase>("closed");
   const [micOn, setMicOn] = useState(true);
@@ -40,6 +44,10 @@ export function VoiceWidget() {
   itemsRef.current = items;
   const addItemRef = useRef(addItem);
   addItemRef.current = addItem;
+  const clearCartRef = useRef(clearCart);
+  clearCartRef.current = clearCart;
+  const addOrderRef = useRef(addOrder);
+  addOrderRef.current = addOrder;
   const isSavedRef = useRef(isSaved);
   isSavedRef.current = isSaved;
   const toggleSavedRef = useRef(toggleSaved);
@@ -55,6 +63,25 @@ export function VoiceWidget() {
     };
     // eslint-disable-next-line react-hooks/exhaustive-deps
   }, []);
+
+  // Push the live route onto participant attributes so the agent always knows
+  // which page is open — even if getUiState RPC is missing from an old bundle.
+  useEffect(() => {
+    const state = setUiStateFromPath(pathname || "/");
+    const room = roomRef.current;
+    if (!room || phase === "closed" || phase === "connecting") return;
+    void room.localParticipant
+      .setAttributes({
+        luqma_path: state.path,
+        luqma_page: state.page,
+        luqma_title: state.titleAr,
+        luqma_meal_id: state.mealId || "",
+        luqma_restaurant_id: state.restaurantId || "",
+      })
+      .catch((err) => {
+        console.warn("[luqma-voice:FRONTEND] setAttributes failed", err);
+      });
+  }, [pathname, phase]);
 
   function clearAudioElements() {
     for (const el of audioElsRef.current) {
@@ -164,6 +191,10 @@ export function VoiceWidget() {
         addItem: (input) => {
           addItemRef.current(input);
         },
+        clearCart: () => {
+          clearCartRef.current();
+        },
+        addOrder: (order) => addOrderRef.current(order),
         isSaved: (mealId) => isSavedRef.current(mealId),
         toggleSaved: (mealId) => {
           toggleSavedRef.current(mealId);
@@ -204,6 +235,20 @@ export function VoiceWidget() {
 
       await room.connect(data.server_url, data.participant_token);
       await room.localParticipant.setMicrophoneEnabled(true);
+
+      // Seed page attributes immediately so get_ui_state works on turn 1.
+      const state = setUiStateFromPath(pathname || "/");
+      try {
+        await room.localParticipant.setAttributes({
+          luqma_path: state.path,
+          luqma_page: state.page,
+          luqma_title: state.titleAr,
+          luqma_meal_id: state.mealId || "",
+          luqma_restaurant_id: state.restaurantId || "",
+        });
+      } catch (err) {
+        console.warn("[luqma-voice:FRONTEND] initial setAttributes failed", err);
+      }
 
       setPhase("listening");
     } catch (err) {

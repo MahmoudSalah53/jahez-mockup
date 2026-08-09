@@ -1,9 +1,10 @@
 "use client";
 
 import Link from "next/link";
-import { FormEvent, useState } from "react";
+import { FormEvent, useEffect, useState } from "react";
 import { useRouter } from "next/navigation";
 import { getMealById } from "@/data/meals";
+import { registerCheckoutController } from "@/lib/checkout-bridge";
 import { useCart } from "@/lib/cart-context";
 import { useOrders } from "@/lib/orders-context";
 import { formatPrice } from "@/lib/format";
@@ -17,6 +18,22 @@ export default function CheckoutPage() {
   const [address, setAddress] = useState("");
   const [error, setError] = useState("");
   const [submitting, setSubmitting] = useState(false);
+
+  useEffect(() => {
+    return registerCheckoutController({
+      getFields: () => ({ name, phone, address }),
+      setFields: (partial) => {
+        if (partial.name != null) setName(partial.name);
+        if (partial.phone != null) setPhone(partial.phone);
+        if (partial.address != null) setAddress(partial.address);
+        return {
+          name: partial.name ?? name,
+          phone: partial.phone ?? phone,
+          address: partial.address ?? address,
+        };
+      },
+    });
+  }, [name, phone, address]);
 
   if (items.length === 0) {
     return (

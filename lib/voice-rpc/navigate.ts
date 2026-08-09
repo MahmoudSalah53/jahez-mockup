@@ -1,5 +1,5 @@
 import type { RpcInvocationData } from "livekit-client";
-import { NAVIGATE_PATHS } from "@/lib/voice-rpc/constants";
+import { isNavigatePathAllowed } from "@/lib/voice-rpc/path-allowed";
 import { rpcFail, rpcOk } from "@/lib/voice-rpc/response";
 
 type NavigateDeps = {
@@ -21,7 +21,7 @@ export function createNavigateHandler(deps: NavigateDeps) {
       if (!path || !path.startsWith("/")) {
         return rpcFail("bad_path");
       }
-      if (!NAVIGATE_PATHS.has(path)) {
+      if (!isNavigatePathAllowed(path)) {
         return rpcFail("unsupported_path");
       }
 

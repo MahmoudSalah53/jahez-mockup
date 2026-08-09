@@ -1,7 +1,9 @@
 import type { Room, RpcInvocationData } from "livekit-client";
 import type { CartAddon, CartItem } from "@/lib/types";
+import type { Order } from "@/lib/types";
 import { LUQMA_RPC } from "@/lib/voice-rpc/constants";
 import { createAddToCartHandler } from "@/lib/voice-rpc/add-to-cart";
+import { createCompleteOrderHandler } from "@/lib/voice-rpc/complete-order";
 import {
   rpcFailLog,
   rpcOkLog,
@@ -9,7 +11,9 @@ import {
   rpcRegisteredLog,
   rpcThrowLog,
 } from "@/lib/voice-rpc/debug";
+import { createFillCheckoutHandler } from "@/lib/voice-rpc/fill-checkout";
 import { createGetCartHandler } from "@/lib/voice-rpc/get-cart";
+import { createGetUiStateHandler } from "@/lib/voice-rpc/get-ui-state";
 import { createNavigateHandler } from "@/lib/voice-rpc/navigate";
 import { createSetMealOptionsHandler } from "@/lib/voice-rpc/set-meal-options";
 import { createSetSavedHandler } from "@/lib/voice-rpc/set-saved";
@@ -25,6 +29,8 @@ export type LuqmaRpcDeps = {
     addons?: CartAddon[];
     unitPrice: number;
   }) => void;
+  clearCart: () => void;
+  addOrder: (order: Omit<Order, "id" | "createdAt">) => Order;
   isSaved: (mealId: string) => boolean;
   toggleSaved: (mealId: string) => void;
 };
@@ -36,6 +42,9 @@ const ACTIVE_METHODS = [
   LUQMA_RPC.addToCart,
   LUQMA_RPC.setSaved,
   LUQMA_RPC.getCart,
+  LUQMA_RPC.getUiState,
+  LUQMA_RPC.fillCheckout,
+  LUQMA_RPC.completeOrder,
 ] as const;
 
 type Handler = (data: RpcInvocationData) => Promise<string>;
@@ -91,6 +100,18 @@ export function registerLuqmaRpcs(room: Room, deps: LuqmaRpcDeps) {
   room.registerRpcMethod(
     LUQMA_RPC.getCart,
     withDebug(LUQMA_RPC.getCart, createGetCartHandler(deps)),
+  );
+  room.registerRpcMethod(
+    LUQMA_RPC.getUiState,
+    withDebug(LUQMA_RPC.getUiState, createGetUiStateHandler()),
+  );
+  room.registerRpcMethod(
+    LUQMA_RPC.fillCheckout,
+    withDebug(LUQMA_RPC.fillCheckout, createFillCheckoutHandler()),
+  );
+  room.registerRpcMethod(
+    LUQMA_RPC.completeOrder,
+    withDebug(LUQMA_RPC.completeOrder, createCompleteOrderHandler(deps)),
   );
 
   rpcRegisteredLog(ACTIVE_METHODS);
