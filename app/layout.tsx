@@ -3,6 +3,7 @@ import { Cairo } from "next/font/google";
 import { Providers } from "@/components/providers";
 import { Navbar } from "@/components/layout/Navbar";
 import { BottomNav } from "@/components/layout/BottomNav";
+import { UiStateSync } from "@/components/UiStateSync";
 import { VoiceWidget } from "@/components/voice-widget/VoiceWidget";
 import "./globals.css";
 
@@ -31,6 +32,7 @@ export default function RootLayout({
     >
       <body className="min-h-full flex flex-col font-sans antialiased">
         <Providers>
+          <UiStateSync />
           <Navbar />
           <main className="flex-1 pb-20 md:pb-0">{children}</main>
           <BottomNav />
