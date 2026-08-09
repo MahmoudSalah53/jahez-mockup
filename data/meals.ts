@@ -1,5 +1,5 @@
 import type { Meal } from "@/lib/types";
-import catalog from "@/data/catalog.json";
+import catalog from "@/data/load-catalog";
 import { restaurants } from "@/data/restaurants";
 
 export const meals: Meal[] = catalog.restaurants.flatMap((r) =>

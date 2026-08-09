@@ -9,6 +9,10 @@ import { RestaurantListItem } from "@/components/RestaurantListItem";
 import { MealListItem } from "@/components/MealListItem";
 import { SearchBox } from "@/components/SearchBox";
 import { formatPrice } from "@/lib/format";
+import {
+  HOME_OFFER_PREVIEW,
+  HOME_RESTAURANT_PREVIEW,
+} from "@/lib/list-limits";
 import { useCuisineScope } from "@/lib/use-cuisine-scope";
 import { cn } from "@/lib/cn";
 
@@ -24,6 +28,13 @@ export function HomeMobile() {
     restaurantsAllHref,
     offersAllHref,
   } = useCuisineScope();
+
+  const previewRestaurants = scopedRestaurants.slice(
+    0,
+    HOME_RESTAURANT_PREVIEW,
+  );
+  const hasMoreRestaurants =
+    scopedRestaurants.length > HOME_RESTAURANT_PREVIEW;
 
   return (
     <div className="mx-auto max-w-lg bg-surface pb-4">
@@ -134,7 +145,7 @@ export function HomeMobile() {
         <div className="mb-1 flex items-center justify-between px-4">
           <h2 className="text-base font-bold">عروض قوية</h2>
           <Link href={offersAllHref} className="text-xs font-medium text-accent">
-            الكل
+            عرض الكل
           </Link>
         </div>
         {offerMeals.length === 0 ? (
@@ -143,7 +154,7 @@ export function HomeMobile() {
           </p>
         ) : (
           <div className="divide-y divide-border border-y border-border">
-            {offerMeals.slice(0, 4).map((m) => (
+            {offerMeals.slice(0, HOME_OFFER_PREVIEW).map((m) => (
               <MealListItem
                 key={m.id}
                 meal={m}
@@ -164,7 +175,7 @@ export function HomeMobile() {
             href={restaurantsAllHref}
             className="text-xs font-medium text-accent"
           >
-            الكل
+            عرض الكل
           </Link>
         </div>
         <div className="border-y border-border">
@@ -173,11 +184,21 @@ export function HomeMobile() {
               لا توجد مطاعم في هذا التصنيف
             </p>
           ) : (
-            scopedRestaurants.map((r) => (
+            previewRestaurants.map((r) => (
               <RestaurantListItem key={r.id} restaurant={r} />
             ))
           )}
         </div>
+        {hasMoreRestaurants ? (
+          <div className="px-4 py-3">
+            <Link
+              href={restaurantsAllHref}
+              className="flex w-full items-center justify-center rounded-xl border border-border bg-background py-2.5 text-sm font-semibold text-accent transition-colors active:bg-background/80"
+            >
+              عرض الكل ({scopedRestaurants.length})
+            </Link>
+          </div>
+        ) : null}
       </section>
     </div>
   );

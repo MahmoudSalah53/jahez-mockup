@@ -1,0 +1,3452 @@
+{
+  "restaurants": [
+    {
+      "id": "smash-lab",
+      "name": "مختبر السماش",
+      "image": "https://images.unsplash.com/photo-1544025162-d76694265947?w=800&q=80",
+      "rating": 4.4,
+      "cuisine": "برجر",
+      "deliveryTime": "40–55 د",
+      "deliveryFee": 8,
+      "minOrder": 35,
+      "distanceKm": 0.6,
+      "verified": true,
+      "tags": [
+        "برجر",
+        "وجبات سريعة"
+      ],
+      "featured": null,
+      "open24h": null,
+      "fastDelivery": null,
+      "meals": [
+        {
+          "id": "smash-lab-1",
+          "restaurantId": "smash-lab",
+          "name": "كلاسيك برجر",
+          "description": "لحم أنجوس مع خس وطماطم.",
+          "image": "https://images.unsplash.com/photo-1627308595229-7830a5c91f9f?w=800&q=80",
+          "price": 36,
+          "rating": 4.4,
+          "calories": 640,
+          "protein": 32,
+          "carbs": 42,
+          "fat": 34,
+          "category": "offers",
+          "isPopular": false,
+          "isOffer": true,
+          "offerPrice": 27,
+          "spicyOption": false,
+          "cashbackPercent": null,
+          "addons": [
+            {
+              "id": "fries",
+              "name": "بطاطس مقلية",
+              "price": 8
+            },
+            {
+              "id": "cola",
+              "name": "كولا",
+              "price": 6
+            },
+            {
+              "id": "sauce",
+              "name": "صلصة إضافية",
+              "price": 3
+            },
+            {
+              "id": "bread",
+              "name": "خبز إضافي",
+              "price": 4
+            }
+          ]
+        },
+        {
+          "id": "smash-lab-2",
+          "restaurantId": "smash-lab",
+          "name": "دبل تشيز",
+          "description": "شريحتان لحم مع جبنة ذائبة.",
+          "image": "https://images.unsplash.com/photo-1578985545062-69928b1d9587?w=800&q=80",
+          "price": 48,
+          "rating": 4.4,
+          "calories": 820,
+          "protein": 44,
+          "carbs": 40,
+          "fat": 48,
+          "category": "popular",
+          "isPopular": true,
+          "isOffer": false,
+          "offerPrice": null,
+          "spicyOption": false,
+          "cashbackPercent": null,
+          "addons": [
+            {
+              "id": "fries",
+              "name": "بطاطس مقلية",
+              "price": 8
+            },
+            {
+              "id": "cola",
+              "name": "كولا",
+              "price": 6
+            },
+            {
+              "id": "sauce",
+              "name": "صلصة إضافية",
+              "price": 3
+            },
+            {
+              "id": "bread",
+              "name": "خبز إضافي",
+              "price": 4
+            }
+          ]
+        },
+        {
+          "id": "smash-lab-3",
+          "restaurantId": "smash-lab",
+          "name": "تشيكن كرسبي",
+          "description": "دجاج مقرمش مع مايونيز حار.",
+          "image": "https://images.unsplash.com/photo-1601050690117-94f5f6fa8bd7?w=800&q=80",
+          "price": 34,
+          "rating": 4.2,
+          "calories": 710,
+          "protein": 28,
+          "carbs": 48,
+          "fat": 36,
+          "category": "menu",
+          "isPopular": false,
+          "isOffer": false,
+          "offerPrice": null,
+          "spicyOption": true,
+          "cashbackPercent": null,
+          "addons": [
+            {
+              "id": "fries",
+              "name": "بطاطس مقلية",
+              "price": 8
+            },
+            {
+              "id": "cola",
+              "name": "كولا",
+              "price": 6
+            },
+            {
+              "id": "sauce",
+              "name": "صلصة إضافية",
+              "price": 3
+            },
+            {
+              "id": "bread",
+              "name": "خبز إضافي",
+              "price": 4
+            }
+          ]
+        },
+        {
+          "id": "smash-lab-4",
+          "restaurantId": "smash-lab",
+          "name": "سماش برجر",
+          "description": "لحم مسحوق على الشواية.",
+          "image": "https://images.unsplash.com/photo-1565299624946-b28f40a0ae38?w=800&q=80",
+          "price": 38,
+          "rating": 4.8,
+          "calories": 690,
+          "protein": 34,
+          "carbs": 38,
+          "fat": 40,
+          "category": "popular",
+          "isPopular": true,
+          "isOffer": false,
+          "offerPrice": null,
+          "spicyOption": false,
+          "cashbackPercent": null,
+          "addons": [
+            {
+              "id": "fries",
+              "name": "بطاطس مقلية",
+              "price": 8
+            },
+            {
+              "id": "cola",
+              "name": "كولا",
+              "price": 6
+            },
+            {
+              "id": "sauce",
+              "name": "صلصة إضافية",
+              "price": 3
+            },
+            {
+              "id": "bread",
+              "name": "خبز إضافي",
+              "price": 4
+            }
+          ]
+        },
+        {
+          "id": "smash-lab-5",
+          "restaurantId": "smash-lab",
+          "name": "ماشروم سويس",
+          "description": "فطر وجبنة سويسرية.",
+          "image": "https://images.unsplash.com/photo-1551782450-a2132b4ba21d?w=800&q=80",
+          "price": 42,
+          "rating": 4.5,
+          "calories": 730,
+          "protein": 30,
+          "carbs": 40,
+          "fat": 42,
+          "category": "menu",
+          "isPopular": false,
+          "isOffer": false,
+          "offerPrice": null,
+          "spicyOption": false,
+          "cashbackPercent": null,
+          "addons": [
+            {
+              "id": "fries",
+              "name": "بطاطس مقلية",
+              "price": 8
+            },
+            {
+              "id": "cola",
+              "name": "كولا",
+              "price": 6
+            },
+            {
+              "id": "sauce",
+              "name": "صلصة إضافية",
+              "price": 3
+            },
+            {
+              "id": "bread",
+              "name": "خبز إضافي",
+              "price": 4
+            }
+          ]
+        },
+        {
+          "id": "smash-lab-6",
+          "restaurantId": "smash-lab",
+          "name": "بيكون برجر",
+          "description": "لحم مع بيكون مقرمش.",
+          "image": "https://images.unsplash.com/photo-1565958011703-44f9829ba187?w=800&q=80",
+          "price": 46,
+          "rating": 4.8,
+          "calories": 860,
+          "protein": 38,
+          "carbs": 36,
+          "fat": 52,
+          "category": "popular",
+          "isPopular": true,
+          "isOffer": false,
+          "offerPrice": null,
+          "spicyOption": false,
+          "cashbackPercent": null,
+          "addons": [
+            {
+              "id": "fries",
+              "name": "بطاطس مقلية",
+              "price": 8
+            },
+            {
+              "id": "cola",
+              "name": "كولا",
+              "price": 6
+            },
+            {
+              "id": "sauce",
+              "name": "صلصة إضافية",
+              "price": 3
+            },
+            {
+              "id": "bread",
+              "name": "خبز إضافي",
+              "price": 4
+            }
+          ]
+        },
+        {
+          "id": "smash-lab-7",
+          "restaurantId": "smash-lab",
+          "name": "وجبة بطاطس كبيرة",
+          "description": "بطاطس مقلية مع صوص.",
+          "image": "https://images.unsplash.com/photo-1529692236671-f1f6cf9683ba?w=800&q=80",
+          "price": 16,
+          "rating": 4.8,
+          "calories": 480,
+          "protein": 6,
+          "carbs": 55,
+          "fat": 24,
+          "category": "offers",
+          "isPopular": false,
+          "isOffer": true,
+          "offerPrice": 13,
+          "spicyOption": false,
+          "cashbackPercent": 5,
+          "addons": [
+            {
+              "id": "fries",
+              "name": "بطاطس مقلية",
+              "price": 8
+            },
+            {
+              "id": "cola",
+              "name": "كولا",
+              "price": 6
+            },
+            {
+              "id": "sauce",
+              "name": "صلصة إضافية",
+              "price": 3
+            },
+            {
+              "id": "bread",
+              "name": "خبز إضافي",
+              "price": 4
+            }
+          ]
+        },
+        {
+          "id": "smash-lab-8",
+          "restaurantId": "smash-lab",
+          "name": "برجر نباتي",
+          "description": "باتي نباتي مع أفوكادو.",
+          "image": "https://images.unsplash.com/photo-1551782450-a2132b4ba21d?w=800&q=80",
+          "price": 40,
+          "rating": 4.2,
+          "calories": 580,
+          "protein": 22,
+          "carbs": 48,
+          "fat": 26,
+          "category": "popular",
+          "isPopular": true,
+          "isOffer": false,
+          "offerPrice": null,
+          "spicyOption": false,
+          "cashbackPercent": null,
+          "addons": [
+            {
+              "id": "fries",
+              "name": "بطاطس مقلية",
+              "price": 8
+            },
+            {
+              "id": "cola",
+              "name": "كولا",
+              "price": 6
+            },
+            {
+              "id": "sauce",
+              "name": "صلصة إضافية",
+              "price": 3
+            },
+            {
+              "id": "bread",
+              "name": "خبز إضافي",
+              "price": 4
+            }
+          ]
+        },
+        {
+          "id": "smash-lab-9",
+          "restaurantId": "smash-lab",
+          "name": "تريبل ستاك",
+          "description": "ثلاث شرائح لحم للعشاق.",
+          "image": "https://images.unsplash.com/photo-1606755962773-d324e0a13086?w=800&q=80",
+          "price": 58,
+          "rating": 4.6,
+          "calories": 1100,
+          "protein": 58,
+          "carbs": 42,
+          "fat": 68,
+          "category": "offers",
+          "isPopular": false,
+          "isOffer": true,
+          "offerPrice": 47,
+          "spicyOption": false,
+          "cashbackPercent": null,
+          "addons": [
+            {
+              "id": "fries",
+              "name": "بطاطس مقلية",
+              "price": 8
+            },
+            {
+              "id": "cola",
+              "name": "كولا",
+              "price": 6
+            },
+            {
+              "id": "sauce",
+              "name": "صلصة إضافية",
+              "price": 3
+            },
+            {
+              "id": "bread",
+              "name": "خبز إضافي",
+              "price": 4
+            }
+          ]
+        },
+        {
+          "id": "smash-lab-10",
+          "restaurantId": "smash-lab",
+          "name": "سبايسي رانش",
+          "description": "دجاج حار مع رانش.",
+          "image": "https://images.unsplash.com/photo-1512621776951-a57141f2eefd?w=800&q=80",
+          "price": 37,
+          "rating": 4.7,
+          "calories": 750,
+          "protein": 30,
+          "carbs": 46,
+          "fat": 38,
+          "category": "menu",
+          "isPopular": false,
+          "isOffer": false,
+          "offerPrice": null,
+          "spicyOption": true,
+          "cashbackPercent": null,
+          "addons": [
+            {
+              "id": "fries",
+              "name": "بطاطس مقلية",
+              "price": 8
+            },
+            {
+              "id": "cola",
+              "name": "كولا",
+              "price": 6
+            },
+            {
+              "id": "sauce",
+              "name": "صلصة إضافية",
+              "price": 3
+            },
+            {
+              "id": "bread",
+              "name": "خبز إضافي",
+              "price": 4
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "bun-city",
+      "name": "مدينة البان",
+      "image": "https://images.unsplash.com/photo-1579584425555-c3ce17fd4351?w=800&q=80",
+      "rating": 4.4,
+      "cuisine": "برجر",
+      "deliveryTime": "40–55 د",
+      "deliveryFee": 12,
+      "minOrder": 40,
+      "distanceKm": 3.4,
+      "verified": true,
+      "tags": [
+        "برجر",
+        "وجبات سريعة"
+      ],
+      "featured": true,
+      "open24h": null,
+      "fastDelivery": null,
+      "meals": [
+        {
+          "id": "bun-city-1",
+          "restaurantId": "bun-city",
+          "name": "كلاسيك برجر",
+          "description": "لحم أنجوس مع خس وطماطم.",
+          "image": "https://images.unsplash.com/photo-1484723091739-30a097e8f929?w=800&q=80",
+          "price": 36,
+          "rating": 4.3,
+          "calories": 640,
+          "protein": 32,
+          "carbs": 42,
+          "fat": 34,
+          "category": "menu",
+          "isPopular": false,
+          "isOffer": false,
+          "offerPrice": null,
+          "spicyOption": false,
+          "cashbackPercent": null,
+          "addons": [
+            {
+              "id": "fries",
+              "name": "بطاطس مقلية",
+              "price": 8
+            },
+            {
+              "id": "cola",
+              "name": "كولا",
+              "price": 6
+            },
+            {
+              "id": "sauce",
+              "name": "صلصة إضافية",
+              "price": 3
+            },
+            {
+              "id": "bread",
+              "name": "خبز إضافي",
+              "price": 4
+            }
+          ]
+        },
+        {
+          "id": "bun-city-2",
+          "restaurantId": "bun-city",
+          "name": "دبل تشيز",
+          "description": "شريحتان لحم مع جبنة ذائبة.",
+          "image": "https://images.unsplash.com/photo-1559339352-11d035aa65de?w=800&q=80",
+          "price": 48,
+          "rating": 4.8,
+          "calories": 820,
+          "protein": 44,
+          "carbs": 40,
+          "fat": 48,
+          "category": "menu",
+          "isPopular": false,
+          "isOffer": false,
+          "offerPrice": null,
+          "spicyOption": false,
+          "cashbackPercent": null,
+          "addons": [
+            {
+              "id": "fries",
+              "name": "بطاطس مقلية",
+              "price": 8
+            },
+            {
+              "id": "cola",
+              "name": "كولا",
+              "price": 6
+            },
+            {
+              "id": "sauce",
+              "name": "صلصة إضافية",
+              "price": 3
+            },
+            {
+              "id": "bread",
+              "name": "خبز إضافي",
+              "price": 4
+            }
+          ]
+        },
+        {
+          "id": "bun-city-3",
+          "restaurantId": "bun-city",
+          "name": "تشيكن كرسبي",
+          "description": "دجاج مقرمش مع مايونيز حار.",
+          "image": "https://images.unsplash.com/photo-1512058564366-18510be2db19?w=800&q=80",
+          "price": 34,
+          "rating": 4.2,
+          "calories": 710,
+          "protein": 28,
+          "carbs": 48,
+          "fat": 36,
+          "category": "offers",
+          "isPopular": false,
+          "isOffer": true,
+          "offerPrice": 27,
+          "spicyOption": true,
+          "cashbackPercent": null,
+          "addons": [
+            {
+              "id": "fries",
+              "name": "بطاطس مقلية",
+              "price": 8
+            },
+            {
+              "id": "cola",
+              "name": "كولا",
+              "price": 6
+            },
+            {
+              "id": "sauce",
+              "name": "صلصة إضافية",
+              "price": 3
+            },
+            {
+              "id": "bread",
+              "name": "خبز إضافي",
+              "price": 4
+            }
+          ]
+        },
+        {
+          "id": "bun-city-4",
+          "restaurantId": "bun-city",
+          "name": "سماش برجر",
+          "description": "لحم مسحوق على الشواية.",
+          "image": "https://images.unsplash.com/photo-1604908176997-125f25cc6f3d?w=800&q=80",
+          "price": 38,
+          "rating": 4.7,
+          "calories": 690,
+          "protein": 34,
+          "carbs": 38,
+          "fat": 40,
+          "category": "menu",
+          "isPopular": false,
+          "isOffer": false,
+          "offerPrice": null,
+          "spicyOption": false,
+          "cashbackPercent": null,
+          "addons": [
+            {
+              "id": "fries",
+              "name": "بطاطس مقلية",
+              "price": 8
+            },
+            {
+              "id": "cola",
+              "name": "كولا",
+              "price": 6
+            },
+            {
+              "id": "sauce",
+              "name": "صلصة إضافية",
+              "price": 3
+            },
+            {
+              "id": "bread",
+              "name": "خبز إضافي",
+              "price": 4
+            }
+          ]
+        },
+        {
+          "id": "bun-city-5",
+          "restaurantId": "bun-city",
+          "name": "ماشروم سويس",
+          "description": "فطر وجبنة سويسرية.",
+          "image": "https://images.unsplash.com/photo-1601050690117-94f5f6fa8bd7?w=800&q=80",
+          "price": 42,
+          "rating": 4.1,
+          "calories": 730,
+          "protein": 30,
+          "carbs": 40,
+          "fat": 42,
+          "category": "offers",
+          "isPopular": false,
+          "isOffer": true,
+          "offerPrice": 33,
+          "spicyOption": false,
+          "cashbackPercent": null,
+          "addons": [
+            {
+              "id": "fries",
+              "name": "بطاطس مقلية",
+              "price": 8
+            },
+            {
+              "id": "cola",
+              "name": "كولا",
+              "price": 6
+            },
+            {
+              "id": "sauce",
+              "name": "صلصة إضافية",
+              "price": 3
+            },
+            {
+              "id": "bread",
+              "name": "خبز إضافي",
+              "price": 4
+            }
+          ]
+        },
+        {
+          "id": "bun-city-6",
+          "restaurantId": "bun-city",
+          "name": "بيكون برجر",
+          "description": "لحم مع بيكون مقرمش.",
+          "image": "https://images.unsplash.com/photo-1533134242443-d4fd215305ad?w=800&q=80",
+          "price": 46,
+          "rating": 4.3,
+          "calories": 860,
+          "protein": 38,
+          "carbs": 36,
+          "fat": 52,
+          "category": "offers",
+          "isPopular": false,
+          "isOffer": true,
+          "offerPrice": 40,
+          "spicyOption": false,
+          "cashbackPercent": 15,
+          "addons": [
+            {
+              "id": "fries",
+              "name": "بطاطس مقلية",
+              "price": 8
+            },
+            {
+              "id": "cola",
+              "name": "كولا",
+              "price": 6
+            },
+            {
+              "id": "sauce",
+              "name": "صلصة إضافية",
+              "price": 3
+            },
+            {
+              "id": "bread",
+              "name": "خبز إضافي",
+              "price": 4
+            }
+          ]
+        },
+        {
+          "id": "bun-city-7",
+          "restaurantId": "bun-city",
+          "name": "وجبة بطاطس كبيرة",
+          "description": "بطاطس مقلية مع صوص.",
+          "image": "https://images.unsplash.com/photo-1568901346375-23c9450c58cd?w=800&q=80",
+          "price": 16,
+          "rating": 4.9,
+          "calories": 480,
+          "protein": 6,
+          "carbs": 55,
+          "fat": 24,
+          "category": "menu",
+          "isPopular": false,
+          "isOffer": false,
+          "offerPrice": null,
+          "spicyOption": false,
+          "cashbackPercent": null,
+          "addons": [
+            {
+              "id": "fries",
+              "name": "بطاطس مقلية",
+              "price": 8
+            },
+            {
+              "id": "cola",
+              "name": "كولا",
+              "price": 6
+            },
+            {
+              "id": "sauce",
+              "name": "صلصة إضافية",
+              "price": 3
+            },
+            {
+              "id": "bread",
+              "name": "خبز إضافي",
+              "price": 4
+            }
+          ]
+        },
+        {
+          "id": "bun-city-8",
+          "restaurantId": "bun-city",
+          "name": "برجر نباتي",
+          "description": "باتي نباتي مع أفوكادو.",
+          "image": "https://images.unsplash.com/photo-1455619452474-d2be8b1e70cd?w=800&q=80",
+          "price": 40,
+          "rating": 4.4,
+          "calories": 580,
+          "protein": 22,
+          "carbs": 48,
+          "fat": 26,
+          "category": "menu",
+          "isPopular": false,
+          "isOffer": false,
+          "offerPrice": null,
+          "spicyOption": false,
+          "cashbackPercent": null,
+          "addons": [
+            {
+              "id": "fries",
+              "name": "بطاطس مقلية",
+              "price": 8
+            },
+            {
+              "id": "cola",
+              "name": "كولا",
+              "price": 6
+            },
+            {
+              "id": "sauce",
+              "name": "صلصة إضافية",
+              "price": 3
+            },
+            {
+              "id": "bread",
+              "name": "خبز إضافي",
+              "price": 4
+            }
+          ]
+        },
+        {
+          "id": "bun-city-9",
+          "restaurantId": "bun-city",
+          "name": "تريبل ستاك",
+          "description": "ثلاث شرائح لحم للعشاق.",
+          "image": "https://images.unsplash.com/photo-1488477181946-6428a0291777?w=800&q=80",
+          "price": 58,
+          "rating": 4.7,
+          "calories": 1100,
+          "protein": 58,
+          "carbs": 42,
+          "fat": 68,
+          "category": "popular",
+          "isPopular": true,
+          "isOffer": false,
+          "offerPrice": null,
+          "spicyOption": false,
+          "cashbackPercent": null,
+          "addons": [
+            {
+              "id": "fries",
+              "name": "بطاطس مقلية",
+              "price": 8
+            },
+            {
+              "id": "cola",
+              "name": "كولا",
+              "price": 6
+            },
+            {
+              "id": "sauce",
+              "name": "صلصة إضافية",
+              "price": 3
+            },
+            {
+              "id": "bread",
+              "name": "خبز إضافي",
+              "price": 4
+            }
+          ]
+        },
+        {
+          "id": "bun-city-10",
+          "restaurantId": "bun-city",
+          "name": "سبايسي رانش",
+          "description": "دجاج حار مع رانش.",
+          "image": "https://images.unsplash.com/photo-1600891964599-f61ba0e24092?w=800&q=80",
+          "price": 37,
+          "rating": 4.4,
+          "calories": 750,
+          "protein": 30,
+          "carbs": 46,
+          "fat": 38,
+          "category": "menu",
+          "isPopular": false,
+          "isOffer": false,
+          "offerPrice": null,
+          "spicyOption": true,
+          "cashbackPercent": null,
+          "addons": [
+            {
+              "id": "fries",
+              "name": "بطاطس مقلية",
+              "price": 8
+            },
+            {
+              "id": "cola",
+              "name": "كولا",
+              "price": 6
+            },
+            {
+              "id": "sauce",
+              "name": "صلصة إضافية",
+              "price": 3
+            },
+            {
+              "id": "bread",
+              "name": "خبز إضافي",
+              "price": 4
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "grill-burger-co",
+      "name": "جرل برجر",
+      "image": "https://images.unsplash.com/photo-1626645738196-c2a7c87a8f58?w=800&q=80",
+      "rating": 4.3,
+      "cuisine": "برجر",
+      "deliveryTime": "40–55 د",
+      "deliveryFee": 8,
+      "minOrder": 45,
+      "distanceKm": 5.1,
+      "verified": true,
+      "tags": [
+        "برجر",
+        "وجبات سريعة"
+      ],
+      "featured": null,
+      "open24h": null,
+      "fastDelivery": null,
+      "meals": [
+        {
+          "id": "grill-burger-co-1",
+          "restaurantId": "grill-burger-co",
+          "name": "كلاسيك برجر",
+          "description": "لحم أنجوس مع خس وطماطم.",
+          "image": "https://images.unsplash.com/photo-1513104890138-7c749659a591?w=800&q=80",
+          "price": 36,
+          "rating": 4.3,
+          "calories": 640,
+          "protein": 32,
+          "carbs": 42,
+          "fat": 34,
+          "category": "menu",
+          "isPopular": false,
+          "isOffer": false,
+          "offerPrice": null,
+          "spicyOption": false,
+          "cashbackPercent": null,
+          "addons": [
+            {
+              "id": "fries",
+              "name": "بطاطس مقلية",
+              "price": 8
+            },
+            {
+              "id": "cola",
+              "name": "كولا",
+              "price": 6
+            },
+            {
+              "id": "sauce",
+              "name": "صلصة إضافية",
+              "price": 3
+            },
+            {
+              "id": "bread",
+              "name": "خبز إضافي",
+              "price": 4
+            }
+          ]
+        },
+        {
+          "id": "grill-burger-co-2",
+          "restaurantId": "grill-burger-co",
+          "name": "دبل تشيز",
+          "description": "شريحتان لحم مع جبنة ذائبة.",
+          "image": "https://images.unsplash.com/photo-1488477181946-6428a0291777?w=800&q=80",
+          "price": 48,
+          "rating": 4.4,
+          "calories": 820,
+          "protein": 44,
+          "carbs": 40,
+          "fat": 48,
+          "category": "popular",
+          "isPopular": true,
+          "isOffer": false,
+          "offerPrice": null,
+          "spicyOption": false,
+          "cashbackPercent": null,
+          "addons": [
+            {
+              "id": "fries",
+              "name": "بطاطس مقلية",
+              "price": 8
+            },
+            {
+              "id": "cola",
+              "name": "كولا",
+              "price": 6
+            },
+            {
+              "id": "sauce",
+              "name": "صلصة إضافية",
+              "price": 3
+            },
+            {
+              "id": "bread",
+              "name": "خبز إضافي",
+              "price": 4
+            }
+          ]
+        },
+        {
+          "id": "grill-burger-co-3",
+          "restaurantId": "grill-burger-co",
+          "name": "تشيكن كرسبي",
+          "description": "دجاج مقرمش مع مايونيز حار.",
+          "image": "https://images.unsplash.com/photo-1598103442097-8b74394b95c6?w=800&q=80",
+          "price": 34,
+          "rating": 4.4,
+          "calories": 710,
+          "protein": 28,
+          "carbs": 48,
+          "fat": 36,
+          "category": "offers",
+          "isPopular": false,
+          "isOffer": true,
+          "offerPrice": 27,
+          "spicyOption": true,
+          "cashbackPercent": 5,
+          "addons": [
+            {
+              "id": "fries",
+              "name": "بطاطس مقلية",
+              "price": 8
+            },
+            {
+              "id": "cola",
+              "name": "كولا",
+              "price": 6
+            },
+            {
+              "id": "sauce",
+              "name": "صلصة إضافية",
+              "price": 3
+            },
+            {
+              "id": "bread",
+              "name": "خبز إضافي",
+              "price": 4
+            }
+          ]
+        },
+        {
+          "id": "grill-burger-co-4",
+          "restaurantId": "grill-burger-co",
+          "name": "سماش برجر",
+          "description": "لحم مسحوق على الشواية.",
+          "image": "https://images.unsplash.com/photo-1473093295043-cdd812d0e601?w=800&q=80",
+          "price": 38,
+          "rating": 4.5,
+          "calories": 690,
+          "protein": 34,
+          "carbs": 38,
+          "fat": 40,
+          "category": "offers",
+          "isPopular": false,
+          "isOffer": true,
+          "offerPrice": 33,
+          "spicyOption": false,
+          "cashbackPercent": 10,
+          "addons": [
+            {
+              "id": "fries",
+              "name": "بطاطس مقلية",
+              "price": 8
+            },
+            {
+              "id": "cola",
+              "name": "كولا",
+              "price": 6
+            },
+            {
+              "id": "sauce",
+              "name": "صلصة إضافية",
+              "price": 3
+            },
+            {
+              "id": "bread",
+              "name": "خبز إضافي",
+              "price": 4
+            }
+          ]
+        },
+        {
+          "id": "grill-burger-co-5",
+          "restaurantId": "grill-burger-co",
+          "name": "ماشروم سويس",
+          "description": "فطر وجبنة سويسرية.",
+          "image": "https://images.unsplash.com/photo-1488477181946-6428a0291777?w=800&q=80",
+          "price": 42,
+          "rating": 4.3,
+          "calories": 730,
+          "protein": 30,
+          "carbs": 40,
+          "fat": 42,
+          "category": "popular",
+          "isPopular": true,
+          "isOffer": false,
+          "offerPrice": null,
+          "spicyOption": false,
+          "cashbackPercent": null,
+          "addons": [
+            {
+              "id": "fries",
+              "name": "بطاطس مقلية",
+              "price": 8
+            },
+            {
+              "id": "cola",
+              "name": "كولا",
+              "price": 6
+            },
+            {
+              "id": "sauce",
+              "name": "صلصة إضافية",
+              "price": 3
+            },
+            {
+              "id": "bread",
+              "name": "خبز إضافي",
+              "price": 4
+            }
+          ]
+        },
+        {
+          "id": "grill-burger-co-6",
+          "restaurantId": "grill-burger-co",
+          "name": "بيكون برجر",
+          "description": "لحم مع بيكون مقرمش.",
+          "image": "https://images.unsplash.com/photo-1578985545062-69928b1d9587?w=800&q=80",
+          "price": 46,
+          "rating": 4.6,
+          "calories": 860,
+          "protein": 38,
+          "carbs": 36,
+          "fat": 52,
+          "category": "popular",
+          "isPopular": true,
+          "isOffer": false,
+          "offerPrice": null,
+          "spicyOption": false,
+          "cashbackPercent": null,
+          "addons": [
+            {
+              "id": "fries",
+              "name": "بطاطس مقلية",
+              "price": 8
+            },
+            {
+              "id": "cola",
+              "name": "كولا",
+              "price": 6
+            },
+            {
+              "id": "sauce",
+              "name": "صلصة إضافية",
+              "price": 3
+            },
+            {
+              "id": "bread",
+              "name": "خبز إضافي",
+              "price": 4
+            }
+          ]
+        },
+        {
+          "id": "grill-burger-co-7",
+          "restaurantId": "grill-burger-co",
+          "name": "وجبة بطاطس كبيرة",
+          "description": "بطاطس مقلية مع صوص.",
+          "image": "https://images.unsplash.com/photo-1626645738196-c2a7c87a8f58?w=800&q=80",
+          "price": 16,
+          "rating": 4.6,
+          "calories": 480,
+          "protein": 6,
+          "carbs": 55,
+          "fat": 24,
+          "category": "popular",
+          "isPopular": true,
+          "isOffer": false,
+          "offerPrice": null,
+          "spicyOption": false,
+          "cashbackPercent": null,
+          "addons": [
+            {
+              "id": "fries",
+              "name": "بطاطس مقلية",
+              "price": 8
+            },
+            {
+              "id": "cola",
+              "name": "كولا",
+              "price": 6
+            },
+            {
+              "id": "sauce",
+              "name": "صلصة إضافية",
+              "price": 3
+            },
+            {
+              "id": "bread",
+              "name": "خبز إضافي",
+              "price": 4
+            }
+          ]
+        },
+        {
+          "id": "grill-burger-co-8",
+          "restaurantId": "grill-burger-co",
+          "name": "برجر نباتي",
+          "description": "باتي نباتي مع أفوكادو.",
+          "image": "https://images.unsplash.com/photo-1546069901-ba9599a7e63c?w=800&q=80",
+          "price": 40,
+          "rating": 4.2,
+          "calories": 580,
+          "protein": 22,
+          "carbs": 48,
+          "fat": 26,
+          "category": "offers",
+          "isPopular": false,
+          "isOffer": true,
+          "offerPrice": 32,
+          "spicyOption": false,
+          "cashbackPercent": null,
+          "addons": [
+            {
+              "id": "fries",
+              "name": "بطاطس مقلية",
+              "price": 8
+            },
+            {
+              "id": "cola",
+              "name": "كولا",
+              "price": 6
+            },
+            {
+              "id": "sauce",
+              "name": "صلصة إضافية",
+              "price": 3
+            },
+            {
+              "id": "bread",
+              "name": "خبز إضافي",
+              "price": 4
+            }
+          ]
+        },
+        {
+          "id": "grill-burger-co-9",
+          "restaurantId": "grill-burger-co",
+          "name": "تريبل ستاك",
+          "description": "ثلاث شرائح لحم للعشاق.",
+          "image": "https://images.unsplash.com/photo-1467003909585-2f8a72700288?w=800&q=80",
+          "price": 58,
+          "rating": 4.7,
+          "calories": 1100,
+          "protein": 58,
+          "carbs": 42,
+          "fat": 68,
+          "category": "popular",
+          "isPopular": true,
+          "isOffer": false,
+          "offerPrice": null,
+          "spicyOption": false,
+          "cashbackPercent": null,
+          "addons": [
+            {
+              "id": "fries",
+              "name": "بطاطس مقلية",
+              "price": 8
+            },
+            {
+              "id": "cola",
+              "name": "كولا",
+              "price": 6
+            },
+            {
+              "id": "sauce",
+              "name": "صلصة إضافية",
+              "price": 3
+            },
+            {
+              "id": "bread",
+              "name": "خبز إضافي",
+              "price": 4
+            }
+          ]
+        },
+        {
+          "id": "grill-burger-co-10",
+          "restaurantId": "grill-burger-co",
+          "name": "سبايسي رانش",
+          "description": "دجاج حار مع رانش.",
+          "image": "https://images.unsplash.com/photo-1606313564200-e75d5e30476c?w=800&q=80",
+          "price": 37,
+          "rating": 4.9,
+          "calories": 750,
+          "protein": 30,
+          "carbs": 46,
+          "fat": 38,
+          "category": "offers",
+          "isPopular": false,
+          "isOffer": true,
+          "offerPrice": 28,
+          "spicyOption": true,
+          "cashbackPercent": null,
+          "addons": [
+            {
+              "id": "fries",
+              "name": "بطاطس مقلية",
+              "price": 8
+            },
+            {
+              "id": "cola",
+              "name": "كولا",
+              "price": 6
+            },
+            {
+              "id": "sauce",
+              "name": "صلصة إضافية",
+              "price": 3
+            },
+            {
+              "id": "bread",
+              "name": "خبز إضافي",
+              "price": 4
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "cheese-stack",
+      "name": "تشيز ستاك",
+      "image": "https://images.unsplash.com/photo-1567620905732-2d1ec7ab7445?w=800&q=80",
+      "rating": 4.6,
+      "cuisine": "برجر",
+      "deliveryTime": "30–45 د",
+      "deliveryFee": 5,
+      "minOrder": 45,
+      "distanceKm": 4.7,
+      "verified": true,
+      "tags": [
+        "برجر",
+        "وجبات سريعة"
+      ],
+      "featured": null,
+      "open24h": null,
+      "fastDelivery": null,
+      "meals": [
+        {
+          "id": "cheese-stack-1",
+          "restaurantId": "cheese-stack",
+          "name": "كلاسيك برجر",
+          "description": "لحم أنجوس مع خس وطماطم.",
+          "image": "https://images.unsplash.com/photo-1555939594-58d7cb561ad1?w=800&q=80",
+          "price": 36,
+          "rating": 4.4,
+          "calories": 640,
+          "protein": 32,
+          "carbs": 42,
+          "fat": 34,
+          "category": "menu",
+          "isPopular": false,
+          "isOffer": false,
+          "offerPrice": null,
+          "spicyOption": false,
+          "cashbackPercent": null,
+          "addons": [
+            {
+              "id": "fries",
+              "name": "بطاطس مقلية",
+              "price": 8
+            },
+            {
+              "id": "cola",
+              "name": "كولا",
+              "price": 6
+            },
+            {
+              "id": "sauce",
+              "name": "صلصة إضافية",
+              "price": 3
+            },
+            {
+              "id": "bread",
+              "name": "خبز إضافي",
+              "price": 4
+            }
+          ]
+        },
+        {
+          "id": "cheese-stack-2",
+          "restaurantId": "cheese-stack",
+          "name": "دبل تشيز",
+          "description": "شريحتان لحم مع جبنة ذائبة.",
+          "image": "https://images.unsplash.com/photo-1525351484163-7529414344d8?w=800&q=80",
+          "price": 48,
+          "rating": 4.6,
+          "calories": 820,
+          "protein": 44,
+          "carbs": 40,
+          "fat": 48,
+          "category": "offers",
+          "isPopular": false,
+          "isOffer": true,
+          "offerPrice": 38,
+          "spicyOption": false,
+          "cashbackPercent": 5,
+          "addons": [
+            {
+              "id": "fries",
+              "name": "بطاطس مقلية",
+              "price": 8
+            },
+            {
+              "id": "cola",
+              "name": "كولا",
+              "price": 6
+            },
+            {
+              "id": "sauce",
+              "name": "صلصة إضافية",
+              "price": 3
+            },
+            {
+              "id": "bread",
+              "name": "خبز إضافي",
+              "price": 4
+            }
+          ]
+        },
+        {
+          "id": "cheese-stack-3",
+          "restaurantId": "cheese-stack",
+          "name": "تشيكن كرسبي",
+          "description": "دجاج مقرمش مع مايونيز حار.",
+          "image": "https://images.unsplash.com/photo-1553979459-d2229ba7433b?w=800&q=80",
+          "price": 34,
+          "rating": 4.6,
+          "calories": 710,
+          "protein": 28,
+          "carbs": 48,
+          "fat": 36,
+          "category": "offers",
+          "isPopular": false,
+          "isOffer": true,
+          "offerPrice": 30,
+          "spicyOption": true,
+          "cashbackPercent": null,
+          "addons": [
+            {
+              "id": "fries",
+              "name": "بطاطس مقلية",
+              "price": 8
+            },
+            {
+              "id": "cola",
+              "name": "كولا",
+              "price": 6
+            },
+            {
+              "id": "sauce",
+              "name": "صلصة إضافية",
+              "price": 3
+            },
+            {
+              "id": "bread",
+              "name": "خبز إضافي",
+              "price": 4
+            }
+          ]
+        },
+        {
+          "id": "cheese-stack-4",
+          "restaurantId": "cheese-stack",
+          "name": "سماش برجر",
+          "description": "لحم مسحوق على الشواية.",
+          "image": "https://images.unsplash.com/photo-1572490122747-3968b75cc699?w=800&q=80",
+          "price": 38,
+          "rating": 4.2,
+          "calories": 690,
+          "protein": 34,
+          "carbs": 38,
+          "fat": 40,
+          "category": "offers",
+          "isPopular": false,
+          "isOffer": true,
+          "offerPrice": 30,
+          "spicyOption": false,
+          "cashbackPercent": null,
+          "addons": [
+            {
+              "id": "fries",
+              "name": "بطاطس مقلية",
+              "price": 8
+            },
+            {
+              "id": "cola",
+              "name": "كولا",
+              "price": 6
+            },
+            {
+              "id": "sauce",
+              "name": "صلصة إضافية",
+              "price": 3
+            },
+            {
+              "id": "bread",
+              "name": "خبز إضافي",
+              "price": 4
+            }
+          ]
+        },
+        {
+          "id": "cheese-stack-5",
+          "restaurantId": "cheese-stack",
+          "name": "ماشروم سويس",
+          "description": "فطر وجبنة سويسرية.",
+          "image": "https://images.unsplash.com/photo-1506084868230-bb9d95c24759?w=800&q=80",
+          "price": 42,
+          "rating": 4.3,
+          "calories": 730,
+          "protein": 30,
+          "carbs": 40,
+          "fat": 42,
+          "category": "menu",
+          "isPopular": false,
+          "isOffer": false,
+          "offerPrice": null,
+          "spicyOption": false,
+          "cashbackPercent": null,
+          "addons": [
+            {
+              "id": "fries",
+              "name": "بطاطس مقلية",
+              "price": 8
+            },
+            {
+              "id": "cola",
+              "name": "كولا",
+              "price": 6
+            },
+            {
+              "id": "sauce",
+              "name": "صلصة إضافية",
+              "price": 3
+            },
+            {
+              "id": "bread",
+              "name": "خبز إضافي",
+              "price": 4
+            }
+          ]
+        },
+        {
+          "id": "cheese-stack-6",
+          "restaurantId": "cheese-stack",
+          "name": "بيكون برجر",
+          "description": "لحم مع بيكون مقرمش.",
+          "image": "https://images.unsplash.com/photo-1626645738196-c2a7c87a8f58?w=800&q=80",
+          "price": 46,
+          "rating": 4.4,
+          "calories": 860,
+          "protein": 38,
+          "carbs": 36,
+          "fat": 52,
+          "category": "popular",
+          "isPopular": true,
+          "isOffer": false,
+          "offerPrice": null,
+          "spicyOption": false,
+          "cashbackPercent": null,
+          "addons": [
+            {
+              "id": "fries",
+              "name": "بطاطس مقلية",
+              "price": 8
+            },
+            {
+              "id": "cola",
+              "name": "كولا",
+              "price": 6
+            },
+            {
+              "id": "sauce",
+              "name": "صلصة إضافية",
+              "price": 3
+            },
+            {
+              "id": "bread",
+              "name": "خبز إضافي",
+              "price": 4
+            }
+          ]
+        },
+        {
+          "id": "cheese-stack-7",
+          "restaurantId": "cheese-stack",
+          "name": "وجبة بطاطس كبيرة",
+          "description": "بطاطس مقلية مع صوص.",
+          "image": "https://images.unsplash.com/photo-1488477181946-6428a0291777?w=800&q=80",
+          "price": 16,
+          "rating": 4.8,
+          "calories": 480,
+          "protein": 6,
+          "carbs": 55,
+          "fat": 24,
+          "category": "menu",
+          "isPopular": false,
+          "isOffer": false,
+          "offerPrice": null,
+          "spicyOption": false,
+          "cashbackPercent": null,
+          "addons": [
+            {
+              "id": "fries",
+              "name": "بطاطس مقلية",
+              "price": 8
+            },
+            {
+              "id": "cola",
+              "name": "كولا",
+              "price": 6
+            },
+            {
+              "id": "sauce",
+              "name": "صلصة إضافية",
+              "price": 3
+            },
+            {
+              "id": "bread",
+              "name": "خبز إضافي",
+              "price": 4
+            }
+          ]
+        },
+        {
+          "id": "cheese-stack-8",
+          "restaurantId": "cheese-stack",
+          "name": "برجر نباتي",
+          "description": "باتي نباتي مع أفوكادو.",
+          "image": "https://images.unsplash.com/photo-1582878826629-29b7ad1cdc43?w=800&q=80",
+          "price": 40,
+          "rating": 4.9,
+          "calories": 580,
+          "protein": 22,
+          "carbs": 48,
+          "fat": 26,
+          "category": "popular",
+          "isPopular": true,
+          "isOffer": false,
+          "offerPrice": null,
+          "spicyOption": false,
+          "cashbackPercent": null,
+          "addons": [
+            {
+              "id": "fries",
+              "name": "بطاطس مقلية",
+              "price": 8
+            },
+            {
+              "id": "cola",
+              "name": "كولا",
+              "price": 6
+            },
+            {
+              "id": "sauce",
+              "name": "صلصة إضافية",
+              "price": 3
+            },
+            {
+              "id": "bread",
+              "name": "خبز إضافي",
+              "price": 4
+            }
+          ]
+        },
+        {
+          "id": "cheese-stack-9",
+          "restaurantId": "cheese-stack",
+          "name": "تريبل ستاك",
+          "description": "ثلاث شرائح لحم للعشاق.",
+          "image": "https://images.unsplash.com/photo-1455619452474-d2be8b1e70cd?w=800&q=80",
+          "price": 58,
+          "rating": 4.8,
+          "calories": 1100,
+          "protein": 58,
+          "carbs": 42,
+          "fat": 68,
+          "category": "popular",
+          "isPopular": true,
+          "isOffer": false,
+          "offerPrice": null,
+          "spicyOption": false,
+          "cashbackPercent": null,
+          "addons": [
+            {
+              "id": "fries",
+              "name": "بطاطس مقلية",
+              "price": 8
+            },
+            {
+              "id": "cola",
+              "name": "كولا",
+              "price": 6
+            },
+            {
+              "id": "sauce",
+              "name": "صلصة إضافية",
+              "price": 3
+            },
+            {
+              "id": "bread",
+              "name": "خبز إضافي",
+              "price": 4
+            }
+          ]
+        },
+        {
+          "id": "cheese-stack-10",
+          "restaurantId": "cheese-stack",
+          "name": "سبايسي رانش",
+          "description": "دجاج حار مع رانش.",
+          "image": "https://images.unsplash.com/photo-1551782450-a2132b4ba21d?w=800&q=80",
+          "price": 37,
+          "rating": 4.2,
+          "calories": 750,
+          "protein": 30,
+          "carbs": 46,
+          "fat": 38,
+          "category": "popular",
+          "isPopular": true,
+          "isOffer": false,
+          "offerPrice": null,
+          "spicyOption": true,
+          "cashbackPercent": null,
+          "addons": [
+            {
+              "id": "fries",
+              "name": "بطاطس مقلية",
+              "price": 8
+            },
+            {
+              "id": "cola",
+              "name": "كولا",
+              "price": 6
+            },
+            {
+              "id": "sauce",
+              "name": "صلصة إضافية",
+              "price": 3
+            },
+            {
+              "id": "bread",
+              "name": "خبز إضافي",
+              "price": 4
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "fire-patty",
+      "name": "فاير باتي",
+      "image": "https://images.unsplash.com/photo-1484723091739-30a097e8f929?w=800&q=80",
+      "rating": 4.2,
+      "cuisine": "برجر",
+      "deliveryTime": "30–45 د",
+      "deliveryFee": 8,
+      "minOrder": 35,
+      "distanceKm": 5.5,
+      "verified": true,
+      "tags": [
+        "برجر",
+        "وجبات سريعة"
+      ],
+      "featured": null,
+      "open24h": null,
+      "fastDelivery": true,
+      "meals": [
+        {
+          "id": "fire-patty-1",
+          "restaurantId": "fire-patty",
+          "name": "كلاسيك برجر",
+          "description": "لحم أنجوس مع خس وطماطم.",
+          "image": "https://images.unsplash.com/photo-1568901346375-23c9450c58cd?w=800&q=80",
+          "price": 36,
+          "rating": 4.2,
+          "calories": 640,
+          "protein": 32,
+          "carbs": 42,
+          "fat": 34,
+          "category": "offers",
+          "isPopular": false,
+          "isOffer": true,
+          "offerPrice": 32,
+          "spicyOption": false,
+          "cashbackPercent": 5,
+          "addons": [
+            {
+              "id": "fries",
+              "name": "بطاطس مقلية",
+              "price": 8
+            },
+            {
+              "id": "cola",
+              "name": "كولا",
+              "price": 6
+            },
+            {
+              "id": "sauce",
+              "name": "صلصة إضافية",
+              "price": 3
+            },
+            {
+              "id": "bread",
+              "name": "خبز إضافي",
+              "price": 4
+            }
+          ]
+        },
+        {
+          "id": "fire-patty-2",
+          "restaurantId": "fire-patty",
+          "name": "دبل تشيز",
+          "description": "شريحتان لحم مع جبنة ذائبة.",
+          "image": "https://images.unsplash.com/photo-1551183053-bf91a1d81141?w=800&q=80",
+          "price": 48,
+          "rating": 4.4,
+          "calories": 820,
+          "protein": 44,
+          "carbs": 40,
+          "fat": 48,
+          "category": "menu",
+          "isPopular": false,
+          "isOffer": false,
+          "offerPrice": null,
+          "spicyOption": false,
+          "cashbackPercent": null,
+          "addons": [
+            {
+              "id": "fries",
+              "name": "بطاطس مقلية",
+              "price": 8
+            },
+            {
+              "id": "cola",
+              "name": "كولا",
+              "price": 6
+            },
+            {
+              "id": "sauce",
+              "name": "صلصة إضافية",
+              "price": 3
+            },
+            {
+              "id": "bread",
+              "name": "خبز إضافي",
+              "price": 4
+            }
+          ]
+        },
+        {
+          "id": "fire-patty-3",
+          "restaurantId": "fire-patty",
+          "name": "تشيكن كرسبي",
+          "description": "دجاج مقرمش مع مايونيز حار.",
+          "image": "https://images.unsplash.com/photo-1603360946369-dc9bb6258143?w=800&q=80",
+          "price": 34,
+          "rating": 4.7,
+          "calories": 710,
+          "protein": 28,
+          "carbs": 48,
+          "fat": 36,
+          "category": "offers",
+          "isPopular": false,
+          "isOffer": true,
+          "offerPrice": 30,
+          "spicyOption": true,
+          "cashbackPercent": 5,
+          "addons": [
+            {
+              "id": "fries",
+              "name": "بطاطس مقلية",
+              "price": 8
+            },
+            {
+              "id": "cola",
+              "name": "كولا",
+              "price": 6
+            },
+            {
+              "id": "sauce",
+              "name": "صلصة إضافية",
+              "price": 3
+            },
+            {
+              "id": "bread",
+              "name": "خبز إضافي",
+              "price": 4
+            }
+          ]
+        },
+        {
+          "id": "fire-patty-4",
+          "restaurantId": "fire-patty",
+          "name": "سماش برجر",
+          "description": "لحم مسحوق على الشواية.",
+          "image": "https://images.unsplash.com/photo-1553979459-d2229ba7433b?w=800&q=80",
+          "price": 38,
+          "rating": 4.9,
+          "calories": 690,
+          "protein": 34,
+          "carbs": 38,
+          "fat": 40,
+          "category": "popular",
+          "isPopular": true,
+          "isOffer": false,
+          "offerPrice": null,
+          "spicyOption": false,
+          "cashbackPercent": null,
+          "addons": [
+            {
+              "id": "fries",
+              "name": "بطاطس مقلية",
+              "price": 8
+            },
+            {
+              "id": "cola",
+              "name": "كولا",
+              "price": 6
+            },
+            {
+              "id": "sauce",
+              "name": "صلصة إضافية",
+              "price": 3
+            },
+            {
+              "id": "bread",
+              "name": "خبز إضافي",
+              "price": 4
+            }
+          ]
+        },
+        {
+          "id": "fire-patty-5",
+          "restaurantId": "fire-patty",
+          "name": "ماشروم سويس",
+          "description": "فطر وجبنة سويسرية.",
+          "image": "https://images.unsplash.com/photo-1455619452474-d2be8b1e70cd?w=800&q=80",
+          "price": 42,
+          "rating": 4.7,
+          "calories": 730,
+          "protein": 30,
+          "carbs": 40,
+          "fat": 42,
+          "category": "offers",
+          "isPopular": false,
+          "isOffer": true,
+          "offerPrice": 32,
+          "spicyOption": false,
+          "cashbackPercent": null,
+          "addons": [
+            {
+              "id": "fries",
+              "name": "بطاطس مقلية",
+              "price": 8
+            },
+            {
+              "id": "cola",
+              "name": "كولا",
+              "price": 6
+            },
+            {
+              "id": "sauce",
+              "name": "صلصة إضافية",
+              "price": 3
+            },
+            {
+              "id": "bread",
+              "name": "خبز إضافي",
+              "price": 4
+            }
+          ]
+        },
+        {
+          "id": "fire-patty-6",
+          "restaurantId": "fire-patty",
+          "name": "بيكون برجر",
+          "description": "لحم مع بيكون مقرمش.",
+          "image": "https://images.unsplash.com/photo-1571091718767-18b5b1457add?w=800&q=80",
+          "price": 46,
+          "rating": 4.6,
+          "calories": 860,
+          "protein": 38,
+          "carbs": 36,
+          "fat": 52,
+          "category": "popular",
+          "isPopular": true,
+          "isOffer": false,
+          "offerPrice": null,
+          "spicyOption": false,
+          "cashbackPercent": null,
+          "addons": [
+            {
+              "id": "fries",
+              "name": "بطاطس مقلية",
+              "price": 8
+            },
+            {
+              "id": "cola",
+              "name": "كولا",
+              "price": 6
+            },
+            {
+              "id": "sauce",
+              "name": "صلصة إضافية",
+              "price": 3
+            },
+            {
+              "id": "bread",
+              "name": "خبز إضافي",
+              "price": 4
+            }
+          ]
+        },
+        {
+          "id": "fire-patty-7",
+          "restaurantId": "fire-patty",
+          "name": "وجبة بطاطس كبيرة",
+          "description": "بطاطس مقلية مع صوص.",
+          "image": "https://images.unsplash.com/photo-1569718212165-3a8278d5f624?w=800&q=80",
+          "price": 16,
+          "rating": 4.8,
+          "calories": 480,
+          "protein": 6,
+          "carbs": 55,
+          "fat": 24,
+          "category": "offers",
+          "isPopular": false,
+          "isOffer": true,
+          "offerPrice": 14,
+          "spicyOption": false,
+          "cashbackPercent": null,
+          "addons": [
+            {
+              "id": "fries",
+              "name": "بطاطس مقلية",
+              "price": 8
+            },
+            {
+              "id": "cola",
+              "name": "كولا",
+              "price": 6
+            },
+            {
+              "id": "sauce",
+              "name": "صلصة إضافية",
+              "price": 3
+            },
+            {
+              "id": "bread",
+              "name": "خبز إضافي",
+              "price": 4
+            }
+          ]
+        },
+        {
+          "id": "fire-patty-8",
+          "restaurantId": "fire-patty",
+          "name": "برجر نباتي",
+          "description": "باتي نباتي مع أفوكادو.",
+          "image": "https://images.unsplash.com/photo-1559847844-5315695dadae?w=800&q=80",
+          "price": 40,
+          "rating": 4.4,
+          "calories": 580,
+          "protein": 22,
+          "carbs": 48,
+          "fat": 26,
+          "category": "offers",
+          "isPopular": false,
+          "isOffer": true,
+          "offerPrice": 34,
+          "spicyOption": false,
+          "cashbackPercent": 15,
+          "addons": [
+            {
+              "id": "fries",
+              "name": "بطاطس مقلية",
+              "price": 8
+            },
+            {
+              "id": "cola",
+              "name": "كولا",
+              "price": 6
+            },
+            {
+              "id": "sauce",
+              "name": "صلصة إضافية",
+              "price": 3
+            },
+            {
+              "id": "bread",
+              "name": "خبز إضافي",
+              "price": 4
+            }
+          ]
+        },
+        {
+          "id": "fire-patty-9",
+          "restaurantId": "fire-patty",
+          "name": "تريبل ستاك",
+          "description": "ثلاث شرائح لحم للعشاق.",
+          "image": "https://images.unsplash.com/photo-1582878826629-29b7ad1cdc43?w=800&q=80",
+          "price": 58,
+          "rating": 4.5,
+          "calories": 1100,
+          "protein": 58,
+          "carbs": 42,
+          "fat": 68,
+          "category": "offers",
+          "isPopular": false,
+          "isOffer": true,
+          "offerPrice": 44,
+          "spicyOption": false,
+          "cashbackPercent": null,
+          "addons": [
+            {
+              "id": "fries",
+              "name": "بطاطس مقلية",
+              "price": 8
+            },
+            {
+              "id": "cola",
+              "name": "كولا",
+              "price": 6
+            },
+            {
+              "id": "sauce",
+              "name": "صلصة إضافية",
+              "price": 3
+            },
+            {
+              "id": "bread",
+              "name": "خبز إضافي",
+              "price": 4
+            }
+          ]
+        },
+        {
+          "id": "fire-patty-10",
+          "restaurantId": "fire-patty",
+          "name": "سبايسي رانش",
+          "description": "دجاج حار مع رانش.",
+          "image": "https://images.unsplash.com/photo-1565299624946-b28f40a0ae38?w=800&q=80",
+          "price": 37,
+          "rating": 4.5,
+          "calories": 750,
+          "protein": 30,
+          "carbs": 46,
+          "fat": 38,
+          "category": "popular",
+          "isPopular": true,
+          "isOffer": false,
+          "offerPrice": null,
+          "spicyOption": true,
+          "cashbackPercent": null,
+          "addons": [
+            {
+              "id": "fries",
+              "name": "بطاطس مقلية",
+              "price": 8
+            },
+            {
+              "id": "cola",
+              "name": "كولا",
+              "price": 6
+            },
+            {
+              "id": "sauce",
+              "name": "صلصة إضافية",
+              "price": 3
+            },
+            {
+              "id": "bread",
+              "name": "خبز إضافي",
+              "price": 4
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "urban-bun",
+      "name": "أوربان بان",
+      "image": "https://images.unsplash.com/photo-1559339352-11d035aa65de?w=800&q=80",
+      "rating": 4.4,
+      "cuisine": "برجر",
+      "deliveryTime": "35–50 د",
+      "deliveryFee": 8,
+      "minOrder": 50,
+      "distanceKm": 3.1,
+      "verified": true,
+      "tags": [
+        "برجر",
+        "وجبات سريعة"
+      ],
+      "featured": true,
+      "open24h": null,
+      "fastDelivery": null,
+      "meals": [
+        {
+          "id": "urban-bun-1",
+          "restaurantId": "urban-bun",
+          "name": "كلاسيك برجر",
+          "description": "لحم أنجوس مع خس وطماطم.",
+          "image": "https://images.unsplash.com/photo-1585937421612-70a008356fbe?w=800&q=80",
+          "price": 36,
+          "rating": 4.5,
+          "calories": 640,
+          "protein": 32,
+          "carbs": 42,
+          "fat": 34,
+          "category": "menu",
+          "isPopular": false,
+          "isOffer": false,
+          "offerPrice": null,
+          "spicyOption": false,
+          "cashbackPercent": null,
+          "addons": [
+            {
+              "id": "fries",
+              "name": "بطاطس مقلية",
+              "price": 8
+            },
+            {
+              "id": "cola",
+              "name": "كولا",
+              "price": 6
+            },
+            {
+              "id": "sauce",
+              "name": "صلصة إضافية",
+              "price": 3
+            },
+            {
+              "id": "bread",
+              "name": "خبز إضافي",
+              "price": 4
+            }
+          ]
+        },
+        {
+          "id": "urban-bun-2",
+          "restaurantId": "urban-bun",
+          "name": "دبل تشيز",
+          "description": "شريحتان لحم مع جبنة ذائبة.",
+          "image": "https://images.unsplash.com/photo-1484723091739-30a097e8f929?w=800&q=80",
+          "price": 48,
+          "rating": 4.6,
+          "calories": 820,
+          "protein": 44,
+          "carbs": 40,
+          "fat": 48,
+          "category": "menu",
+          "isPopular": false,
+          "isOffer": false,
+          "offerPrice": null,
+          "spicyOption": false,
+          "cashbackPercent": null,
+          "addons": [
+            {
+              "id": "fries",
+              "name": "بطاطس مقلية",
+              "price": 8
+            },
+            {
+              "id": "cola",
+              "name": "كولا",
+              "price": 6
+            },
+            {
+              "id": "sauce",
+              "name": "صلصة إضافية",
+              "price": 3
+            },
+            {
+              "id": "bread",
+              "name": "خبز إضافي",
+              "price": 4
+            }
+          ]
+        },
+        {
+          "id": "urban-bun-3",
+          "restaurantId": "urban-bun",
+          "name": "تشيكن كرسبي",
+          "description": "دجاج مقرمش مع مايونيز حار.",
+          "image": "https://images.unsplash.com/photo-1546069901-ba9599a7e63c?w=800&q=80",
+          "price": 34,
+          "rating": 4.7,
+          "calories": 710,
+          "protein": 28,
+          "carbs": 48,
+          "fat": 36,
+          "category": "menu",
+          "isPopular": false,
+          "isOffer": false,
+          "offerPrice": null,
+          "spicyOption": true,
+          "cashbackPercent": null,
+          "addons": [
+            {
+              "id": "fries",
+              "name": "بطاطس مقلية",
+              "price": 8
+            },
+            {
+              "id": "cola",
+              "name": "كولا",
+              "price": 6
+            },
+            {
+              "id": "sauce",
+              "name": "صلصة إضافية",
+              "price": 3
+            },
+            {
+              "id": "bread",
+              "name": "خبز إضافي",
+              "price": 4
+            }
+          ]
+        },
+        {
+          "id": "urban-bun-4",
+          "restaurantId": "urban-bun",
+          "name": "سماش برجر",
+          "description": "لحم مسحوق على الشواية.",
+          "image": "https://images.unsplash.com/photo-1606313564200-e75d5e30476c?w=800&q=80",
+          "price": 38,
+          "rating": 4.5,
+          "calories": 690,
+          "protein": 34,
+          "carbs": 38,
+          "fat": 40,
+          "category": "offers",
+          "isPopular": false,
+          "isOffer": true,
+          "offerPrice": 31,
+          "spicyOption": false,
+          "cashbackPercent": 15,
+          "addons": [
+            {
+              "id": "fries",
+              "name": "بطاطس مقلية",
+              "price": 8
+            },
+            {
+              "id": "cola",
+              "name": "كولا",
+              "price": 6
+            },
+            {
+              "id": "sauce",
+              "name": "صلصة إضافية",
+              "price": 3
+            },
+            {
+              "id": "bread",
+              "name": "خبز إضافي",
+              "price": 4
+            }
+          ]
+        },
+        {
+          "id": "urban-bun-5",
+          "restaurantId": "urban-bun",
+          "name": "ماشروم سويس",
+          "description": "فطر وجبنة سويسرية.",
+          "image": "https://images.unsplash.com/photo-1611143669185-af224c5e3252?w=800&q=80",
+          "price": 42,
+          "rating": 4.1,
+          "calories": 730,
+          "protein": 30,
+          "carbs": 40,
+          "fat": 42,
+          "category": "popular",
+          "isPopular": true,
+          "isOffer": false,
+          "offerPrice": null,
+          "spicyOption": false,
+          "cashbackPercent": null,
+          "addons": [
+            {
+              "id": "fries",
+              "name": "بطاطس مقلية",
+              "price": 8
+            },
+            {
+              "id": "cola",
+              "name": "كولا",
+              "price": 6
+            },
+            {
+              "id": "sauce",
+              "name": "صلصة إضافية",
+              "price": 3
+            },
+            {
+              "id": "bread",
+              "name": "خبز إضافي",
+              "price": 4
+            }
+          ]
+        },
+        {
+          "id": "urban-bun-6",
+          "restaurantId": "urban-bun",
+          "name": "بيكون برجر",
+          "description": "لحم مع بيكون مقرمش.",
+          "image": "https://images.unsplash.com/photo-1598103442097-8b74394b95c6?w=800&q=80",
+          "price": 46,
+          "rating": 4.6,
+          "calories": 860,
+          "protein": 38,
+          "carbs": 36,
+          "fat": 52,
+          "category": "offers",
+          "isPopular": false,
+          "isOffer": true,
+          "offerPrice": 39,
+          "spicyOption": false,
+          "cashbackPercent": null,
+          "addons": [
+            {
+              "id": "fries",
+              "name": "بطاطس مقلية",
+              "price": 8
+            },
+            {
+              "id": "cola",
+              "name": "كولا",
+              "price": 6
+            },
+            {
+              "id": "sauce",
+              "name": "صلصة إضافية",
+              "price": 3
+            },
+            {
+              "id": "bread",
+              "name": "خبز إضافي",
+              "price": 4
+            }
+          ]
+        },
+        {
+          "id": "urban-bun-7",
+          "restaurantId": "urban-bun",
+          "name": "وجبة بطاطس كبيرة",
+          "description": "بطاطس مقلية مع صوص.",
+          "image": "https://images.unsplash.com/photo-1473093295043-cdd812d0e601?w=800&q=80",
+          "price": 16,
+          "rating": 4.8,
+          "calories": 480,
+          "protein": 6,
+          "carbs": 55,
+          "fat": 24,
+          "category": "menu",
+          "isPopular": false,
+          "isOffer": false,
+          "offerPrice": null,
+          "spicyOption": false,
+          "cashbackPercent": null,
+          "addons": [
+            {
+              "id": "fries",
+              "name": "بطاطس مقلية",
+              "price": 8
+            },
+            {
+              "id": "cola",
+              "name": "كولا",
+              "price": 6
+            },
+            {
+              "id": "sauce",
+              "name": "صلصة إضافية",
+              "price": 3
+            },
+            {
+              "id": "bread",
+              "name": "خبز إضافي",
+              "price": 4
+            }
+          ]
+        },
+        {
+          "id": "urban-bun-8",
+          "restaurantId": "urban-bun",
+          "name": "برجر نباتي",
+          "description": "باتي نباتي مع أفوكادو.",
+          "image": "https://images.unsplash.com/photo-1573080496219-bb080dd4f877?w=800&q=80",
+          "price": 40,
+          "rating": 4.4,
+          "calories": 580,
+          "protein": 22,
+          "carbs": 48,
+          "fat": 26,
+          "category": "popular",
+          "isPopular": true,
+          "isOffer": false,
+          "offerPrice": null,
+          "spicyOption": false,
+          "cashbackPercent": null,
+          "addons": [
+            {
+              "id": "fries",
+              "name": "بطاطس مقلية",
+              "price": 8
+            },
+            {
+              "id": "cola",
+              "name": "كولا",
+              "price": 6
+            },
+            {
+              "id": "sauce",
+              "name": "صلصة إضافية",
+              "price": 3
+            },
+            {
+              "id": "bread",
+              "name": "خبز إضافي",
+              "price": 4
+            }
+          ]
+        },
+        {
+          "id": "urban-bun-9",
+          "restaurantId": "urban-bun",
+          "name": "تريبل ستاك",
+          "description": "ثلاث شرائح لحم للعشاق.",
+          "image": "https://images.unsplash.com/photo-1512058564366-18510be2db19?w=800&q=80",
+          "price": 58,
+          "rating": 4.1,
+          "calories": 1100,
+          "protein": 58,
+          "carbs": 42,
+          "fat": 68,
+          "category": "menu",
+          "isPopular": false,
+          "isOffer": false,
+          "offerPrice": null,
+          "spicyOption": false,
+          "cashbackPercent": null,
+          "addons": [
+            {
+              "id": "fries",
+              "name": "بطاطس مقلية",
+              "price": 8
+            },
+            {
+              "id": "cola",
+              "name": "كولا",
+              "price": 6
+            },
+            {
+              "id": "sauce",
+              "name": "صلصة إضافية",
+              "price": 3
+            },
+            {
+              "id": "bread",
+              "name": "خبز إضافي",
+              "price": 4
+            }
+          ]
+        },
+        {
+          "id": "urban-bun-10",
+          "restaurantId": "urban-bun",
+          "name": "سبايسي رانش",
+          "description": "دجاج حار مع رانش.",
+          "image": "https://images.unsplash.com/photo-1600891964599-f61ba0e24092?w=800&q=80",
+          "price": 37,
+          "rating": 4.1,
+          "calories": 750,
+          "protein": 30,
+          "carbs": 46,
+          "fat": 38,
+          "category": "popular",
+          "isPopular": true,
+          "isOffer": false,
+          "offerPrice": null,
+          "spicyOption": true,
+          "cashbackPercent": null,
+          "addons": [
+            {
+              "id": "fries",
+              "name": "بطاطس مقلية",
+              "price": 8
+            },
+            {
+              "id": "cola",
+              "name": "كولا",
+              "price": 6
+            },
+            {
+              "id": "sauce",
+              "name": "صلصة إضافية",
+              "price": 3
+            },
+            {
+              "id": "bread",
+              "name": "خبز إضافي",
+              "price": 4
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "double-deck",
+      "name": "دبل ديك",
+      "image": "https://images.unsplash.com/photo-1611143669185-af224c5e3252?w=800&q=80",
+      "rating": 4.2,
+      "cuisine": "برجر",
+      "deliveryTime": "40–55 د",
+      "deliveryFee": 6,
+      "minOrder": 25,
+      "distanceKm": 1.1,
+      "verified": true,
+      "tags": [
+        "برجر",
+        "وجبات سريعة"
+      ],
+      "featured": null,
+      "open24h": null,
+      "fastDelivery": null,
+      "meals": [
+        {
+          "id": "double-deck-1",
+          "restaurantId": "double-deck",
+          "name": "كلاسيك برجر",
+          "description": "لحم أنجوس مع خس وطماطم.",
+          "image": "https://images.unsplash.com/photo-1506084868230-bb9d95c24759?w=800&q=80",
+          "price": 36,
+          "rating": 4.3,
+          "calories": 640,
+          "protein": 32,
+          "carbs": 42,
+          "fat": 34,
+          "category": "popular",
+          "isPopular": true,
+          "isOffer": false,
+          "offerPrice": null,
+          "spicyOption": false,
+          "cashbackPercent": null,
+          "addons": [
+            {
+              "id": "fries",
+              "name": "بطاطس مقلية",
+              "price": 8
+            },
+            {
+              "id": "cola",
+              "name": "كولا",
+              "price": 6
+            },
+            {
+              "id": "sauce",
+              "name": "صلصة إضافية",
+              "price": 3
+            },
+            {
+              "id": "bread",
+              "name": "خبز إضافي",
+              "price": 4
+            }
+          ]
+        },
+        {
+          "id": "double-deck-2",
+          "restaurantId": "double-deck",
+          "name": "دبل تشيز",
+          "description": "شريحتان لحم مع جبنة ذائبة.",
+          "image": "https://images.unsplash.com/photo-1611143669185-af224c5e3252?w=800&q=80",
+          "price": 48,
+          "rating": 4.7,
+          "calories": 820,
+          "protein": 44,
+          "carbs": 40,
+          "fat": 48,
+          "category": "offers",
+          "isPopular": false,
+          "isOffer": true,
+          "offerPrice": 43,
+          "spicyOption": false,
+          "cashbackPercent": null,
+          "addons": [
+            {
+              "id": "fries",
+              "name": "بطاطس مقلية",
+              "price": 8
+            },
+            {
+              "id": "cola",
+              "name": "كولا",
+              "price": 6
+            },
+            {
+              "id": "sauce",
+              "name": "صلصة إضافية",
+              "price": 3
+            },
+            {
+              "id": "bread",
+              "name": "خبز إضافي",
+              "price": 4
+            }
+          ]
+        },
+        {
+          "id": "double-deck-3",
+          "restaurantId": "double-deck",
+          "name": "تشيكن كرسبي",
+          "description": "دجاج مقرمش مع مايونيز حار.",
+          "image": "https://images.unsplash.com/photo-1467003909585-2f8a72700288?w=800&q=80",
+          "price": 34,
+          "rating": 4.6,
+          "calories": 710,
+          "protein": 28,
+          "carbs": 48,
+          "fat": 36,
+          "category": "offers",
+          "isPopular": false,
+          "isOffer": true,
+          "offerPrice": 30,
+          "spicyOption": true,
+          "cashbackPercent": null,
+          "addons": [
+            {
+              "id": "fries",
+              "name": "بطاطس مقلية",
+              "price": 8
+            },
+            {
+              "id": "cola",
+              "name": "كولا",
+              "price": 6
+            },
+            {
+              "id": "sauce",
+              "name": "صلصة إضافية",
+              "price": 3
+            },
+            {
+              "id": "bread",
+              "name": "خبز إضافي",
+              "price": 4
+            }
+          ]
+        },
+        {
+          "id": "double-deck-4",
+          "restaurantId": "double-deck",
+          "name": "سماش برجر",
+          "description": "لحم مسحوق على الشواية.",
+          "image": "https://images.unsplash.com/photo-1626082927389-6cd097cdc6ec?w=800&q=80",
+          "price": 38,
+          "rating": 4.3,
+          "calories": 690,
+          "protein": 34,
+          "carbs": 38,
+          "fat": 40,
+          "category": "popular",
+          "isPopular": true,
+          "isOffer": false,
+          "offerPrice": null,
+          "spicyOption": false,
+          "cashbackPercent": null,
+          "addons": [
+            {
+              "id": "fries",
+              "name": "بطاطس مقلية",
+              "price": 8
+            },
+            {
+              "id": "cola",
+              "name": "كولا",
+              "price": 6
+            },
+            {
+              "id": "sauce",
+              "name": "صلصة إضافية",
+              "price": 3
+            },
+            {
+              "id": "bread",
+              "name": "خبز إضافي",
+              "price": 4
+            }
+          ]
+        },
+        {
+          "id": "double-deck-5",
+          "restaurantId": "double-deck",
+          "name": "ماشروم سويس",
+          "description": "فطر وجبنة سويسرية.",
+          "image": "https://images.unsplash.com/photo-1601050690117-94f5f6fa8bd7?w=800&q=80",
+          "price": 42,
+          "rating": 4.2,
+          "calories": 730,
+          "protein": 30,
+          "carbs": 40,
+          "fat": 42,
+          "category": "menu",
+          "isPopular": false,
+          "isOffer": false,
+          "offerPrice": null,
+          "spicyOption": false,
+          "cashbackPercent": null,
+          "addons": [
+            {
+              "id": "fries",
+              "name": "بطاطس مقلية",
+              "price": 8
+            },
+            {
+              "id": "cola",
+              "name": "كولا",
+              "price": 6
+            },
+            {
+              "id": "sauce",
+              "name": "صلصة إضافية",
+              "price": 3
+            },
+            {
+              "id": "bread",
+              "name": "خبز إضافي",
+              "price": 4
+            }
+          ]
+        },
+        {
+          "id": "double-deck-6",
+          "restaurantId": "double-deck",
+          "name": "بيكون برجر",
+          "description": "لحم مع بيكون مقرمش.",
+          "image": "https://images.unsplash.com/photo-1473093295043-cdd812d0e601?w=800&q=80",
+          "price": 46,
+          "rating": 4.9,
+          "calories": 860,
+          "protein": 38,
+          "carbs": 36,
+          "fat": 52,
+          "category": "offers",
+          "isPopular": false,
+          "isOffer": true,
+          "offerPrice": 37,
+          "spicyOption": false,
+          "cashbackPercent": 15,
+          "addons": [
+            {
+              "id": "fries",
+              "name": "بطاطس مقلية",
+              "price": 8
+            },
+            {
+              "id": "cola",
+              "name": "كولا",
+              "price": 6
+            },
+            {
+              "id": "sauce",
+              "name": "صلصة إضافية",
+              "price": 3
+            },
+            {
+              "id": "bread",
+              "name": "خبز إضافي",
+              "price": 4
+            }
+          ]
+        },
+        {
+          "id": "double-deck-7",
+          "restaurantId": "double-deck",
+          "name": "وجبة بطاطس كبيرة",
+          "description": "بطاطس مقلية مع صوص.",
+          "image": "https://images.unsplash.com/photo-1578985545062-69928b1d9587?w=800&q=80",
+          "price": 16,
+          "rating": 4.3,
+          "calories": 480,
+          "protein": 6,
+          "carbs": 55,
+          "fat": 24,
+          "category": "menu",
+          "isPopular": false,
+          "isOffer": false,
+          "offerPrice": null,
+          "spicyOption": false,
+          "cashbackPercent": null,
+          "addons": [
+            {
+              "id": "fries",
+              "name": "بطاطس مقلية",
+              "price": 8
+            },
+            {
+              "id": "cola",
+              "name": "كولا",
+              "price": 6
+            },
+            {
+              "id": "sauce",
+              "name": "صلصة إضافية",
+              "price": 3
+            },
+            {
+              "id": "bread",
+              "name": "خبز إضافي",
+              "price": 4
+            }
+          ]
+        },
+        {
+          "id": "double-deck-8",
+          "restaurantId": "double-deck",
+          "name": "برجر نباتي",
+          "description": "باتي نباتي مع أفوكادو.",
+          "image": "https://images.unsplash.com/photo-1455619452474-d2be8b1e70cd?w=800&q=80",
+          "price": 40,
+          "rating": 4.9,
+          "calories": 580,
+          "protein": 22,
+          "carbs": 48,
+          "fat": 26,
+          "category": "offers",
+          "isPopular": false,
+          "isOffer": true,
+          "offerPrice": 36,
+          "spicyOption": false,
+          "cashbackPercent": null,
+          "addons": [
+            {
+              "id": "fries",
+              "name": "بطاطس مقلية",
+              "price": 8
+            },
+            {
+              "id": "cola",
+              "name": "كولا",
+              "price": 6
+            },
+            {
+              "id": "sauce",
+              "name": "صلصة إضافية",
+              "price": 3
+            },
+            {
+              "id": "bread",
+              "name": "خبز إضافي",
+              "price": 4
+            }
+          ]
+        },
+        {
+          "id": "double-deck-9",
+          "restaurantId": "double-deck",
+          "name": "تريبل ستاك",
+          "description": "ثلاث شرائح لحم للعشاق.",
+          "image": "https://images.unsplash.com/photo-1627308595229-7830a5c91f9f?w=800&q=80",
+          "price": 58,
+          "rating": 4.3,
+          "calories": 1100,
+          "protein": 58,
+          "carbs": 42,
+          "fat": 68,
+          "category": "menu",
+          "isPopular": false,
+          "isOffer": false,
+          "offerPrice": null,
+          "spicyOption": false,
+          "cashbackPercent": null,
+          "addons": [
+            {
+              "id": "fries",
+              "name": "بطاطس مقلية",
+              "price": 8
+            },
+            {
+              "id": "cola",
+              "name": "كولا",
+              "price": 6
+            },
+            {
+              "id": "sauce",
+              "name": "صلصة إضافية",
+              "price": 3
+            },
+            {
+              "id": "bread",
+              "name": "خبز إضافي",
+              "price": 4
+            }
+          ]
+        },
+        {
+          "id": "double-deck-10",
+          "restaurantId": "double-deck",
+          "name": "سبايسي رانش",
+          "description": "دجاج حار مع رانش.",
+          "image": "https://images.unsplash.com/photo-1505253758473-96b7015fcd40?w=800&q=80",
+          "price": 37,
+          "rating": 4.6,
+          "calories": 750,
+          "protein": 30,
+          "carbs": 46,
+          "fat": 38,
+          "category": "menu",
+          "isPopular": false,
+          "isOffer": false,
+          "offerPrice": null,
+          "spicyOption": true,
+          "cashbackPercent": null,
+          "addons": [
+            {
+              "id": "fries",
+              "name": "بطاطس مقلية",
+              "price": 8
+            },
+            {
+              "id": "cola",
+              "name": "كولا",
+              "price": 6
+            },
+            {
+              "id": "sauce",
+              "name": "صلصة إضافية",
+              "price": 3
+            },
+            {
+              "id": "bread",
+              "name": "خبز إضافي",
+              "price": 4
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "crispy-yard",
+      "name": "كريسبي يارد",
+      "image": "https://images.unsplash.com/photo-1555939594-58d7cb561ad1?w=800&q=80",
+      "rating": 4.4,
+      "cuisine": "برجر",
+      "deliveryTime": "35–50 د",
+      "deliveryFee": 10,
+      "minOrder": 40,
+      "distanceKm": 3.4,
+      "verified": null,
+      "tags": [
+        "برجر",
+        "وجبات سريعة"
+      ],
+      "featured": null,
+      "open24h": true,
+      "fastDelivery": null,
+      "meals": [
+        {
+          "id": "crispy-yard-1",
+          "restaurantId": "crispy-yard",
+          "name": "كلاسيك برجر",
+          "description": "لحم أنجوس مع خس وطماطم.",
+          "image": "https://images.unsplash.com/photo-1476224203421-9ac39bcb3327?w=800&q=80",
+          "price": 36,
+          "rating": 4.9,
+          "calories": 640,
+          "protein": 32,
+          "carbs": 42,
+          "fat": 34,
+          "category": "menu",
+          "isPopular": false,
+          "isOffer": false,
+          "offerPrice": null,
+          "spicyOption": false,
+          "cashbackPercent": null,
+          "addons": [
+            {
+              "id": "fries",
+              "name": "بطاطس مقلية",
+              "price": 8
+            },
+            {
+              "id": "cola",
+              "name": "كولا",
+              "price": 6
+            },
+            {
+              "id": "sauce",
+              "name": "صلصة إضافية",
+              "price": 3
+            },
+            {
+              "id": "bread",
+              "name": "خبز إضافي",
+              "price": 4
+            }
+          ]
+        },
+        {
+          "id": "crispy-yard-2",
+          "restaurantId": "crispy-yard",
+          "name": "دبل تشيز",
+          "description": "شريحتان لحم مع جبنة ذائبة.",
+          "image": "https://images.unsplash.com/photo-1565299624946-b28f40a0ae38?w=800&q=80",
+          "price": 48,
+          "rating": 4.7,
+          "calories": 820,
+          "protein": 44,
+          "carbs": 40,
+          "fat": 48,
+          "category": "menu",
+          "isPopular": false,
+          "isOffer": false,
+          "offerPrice": null,
+          "spicyOption": false,
+          "cashbackPercent": null,
+          "addons": [
+            {
+              "id": "fries",
+              "name": "بطاطس مقلية",
+              "price": 8
+            },
+            {
+              "id": "cola",
+              "name": "كولا",
+              "price": 6
+            },
+            {
+              "id": "sauce",
+              "name": "صلصة إضافية",
+              "price": 3
+            },
+            {
+              "id": "bread",
+              "name": "خبز إضافي",
+              "price": 4
+            }
+          ]
+        },
+        {
+          "id": "crispy-yard-3",
+          "restaurantId": "crispy-yard",
+          "name": "تشيكن كرسبي",
+          "description": "دجاج مقرمش مع مايونيز حار.",
+          "image": "https://images.unsplash.com/photo-1617196034796-73dfa7b1fd56?w=800&q=80",
+          "price": 34,
+          "rating": 4.7,
+          "calories": 710,
+          "protein": 28,
+          "carbs": 48,
+          "fat": 36,
+          "category": "offers",
+          "isPopular": false,
+          "isOffer": true,
+          "offerPrice": 27,
+          "spicyOption": true,
+          "cashbackPercent": null,
+          "addons": [
+            {
+              "id": "fries",
+              "name": "بطاطس مقلية",
+              "price": 8
+            },
+            {
+              "id": "cola",
+              "name": "كولا",
+              "price": 6
+            },
+            {
+              "id": "sauce",
+              "name": "صلصة إضافية",
+              "price": 3
+            },
+            {
+              "id": "bread",
+              "name": "خبز إضافي",
+              "price": 4
+            }
+          ]
+        },
+        {
+          "id": "crispy-yard-4",
+          "restaurantId": "crispy-yard",
+          "name": "سماش برجر",
+          "description": "لحم مسحوق على الشواية.",
+          "image": "https://images.unsplash.com/photo-1565299624946-b28f40a0ae38?w=800&q=80",
+          "price": 38,
+          "rating": 4.8,
+          "calories": 690,
+          "protein": 34,
+          "carbs": 38,
+          "fat": 40,
+          "category": "popular",
+          "isPopular": true,
+          "isOffer": false,
+          "offerPrice": null,
+          "spicyOption": false,
+          "cashbackPercent": null,
+          "addons": [
+            {
+              "id": "fries",
+              "name": "بطاطس مقلية",
+              "price": 8
+            },
+            {
+              "id": "cola",
+              "name": "كولا",
+              "price": 6
+            },
+            {
+              "id": "sauce",
+              "name": "صلصة إضافية",
+              "price": 3
+            },
+            {
+              "id": "bread",
+              "name": "خبز إضافي",
+              "price": 4
+            }
+          ]
+        },
+        {
+          "id": "crispy-yard-5",
+          "restaurantId": "crispy-yard",
+          "name": "ماشروم سويس",
+          "description": "فطر وجبنة سويسرية.",
+          "image": "https://images.unsplash.com/photo-1585937421612-70a008356fbe?w=800&q=80",
+          "price": 42,
+          "rating": 4.3,
+          "calories": 730,
+          "protein": 30,
+          "carbs": 40,
+          "fat": 42,
+          "category": "menu",
+          "isPopular": false,
+          "isOffer": false,
+          "offerPrice": null,
+          "spicyOption": false,
+          "cashbackPercent": null,
+          "addons": [
+            {
+              "id": "fries",
+              "name": "بطاطس مقلية",
+              "price": 8
+            },
+            {
+              "id": "cola",
+              "name": "كولا",
+              "price": 6
+            },
+            {
+              "id": "sauce",
+              "name": "صلصة إضافية",
+              "price": 3
+            },
+            {
+              "id": "bread",
+              "name": "خبز إضافي",
+              "price": 4
+            }
+          ]
+        },
+        {
+          "id": "crispy-yard-6",
+          "restaurantId": "crispy-yard",
+          "name": "بيكون برجر",
+          "description": "لحم مع بيكون مقرمش.",
+          "image": "https://images.unsplash.com/photo-1476224203421-9ac39bcb3327?w=800&q=80",
+          "price": 46,
+          "rating": 4.8,
+          "calories": 860,
+          "protein": 38,
+          "carbs": 36,
+          "fat": 52,
+          "category": "menu",
+          "isPopular": false,
+          "isOffer": false,
+          "offerPrice": null,
+          "spicyOption": false,
+          "cashbackPercent": null,
+          "addons": [
+            {
+              "id": "fries",
+              "name": "بطاطس مقلية",
+              "price": 8
+            },
+            {
+              "id": "cola",
+              "name": "كولا",
+              "price": 6
+            },
+            {
+              "id": "sauce",
+              "name": "صلصة إضافية",
+              "price": 3
+            },
+            {
+              "id": "bread",
+              "name": "خبز إضافي",
+              "price": 4
+            }
+          ]
+        },
+        {
+          "id": "crispy-yard-7",
+          "restaurantId": "crispy-yard",
+          "name": "وجبة بطاطس كبيرة",
+          "description": "بطاطس مقلية مع صوص.",
+          "image": "https://images.unsplash.com/photo-1455619452474-d2be8b1e70cd?w=800&q=80",
+          "price": 16,
+          "rating": 4.5,
+          "calories": 480,
+          "protein": 6,
+          "carbs": 55,
+          "fat": 24,
+          "category": "offers",
+          "isPopular": false,
+          "isOffer": true,
+          "offerPrice": 13,
+          "spicyOption": false,
+          "cashbackPercent": null,
+          "addons": [
+            {
+              "id": "fries",
+              "name": "بطاطس مقلية",
+              "price": 8
+            },
+            {
+              "id": "cola",
+              "name": "كولا",
+              "price": 6
+            },
+            {
+              "id": "sauce",
+              "name": "صلصة إضافية",
+              "price": 3
+            },
+            {
+              "id": "bread",
+              "name": "خبز إضافي",
+              "price": 4
+            }
+          ]
+        },
+        {
+          "id": "crispy-yard-8",
+          "restaurantId": "crispy-yard",
+          "name": "برجر نباتي",
+          "description": "باتي نباتي مع أفوكادو.",
+          "image": "https://images.unsplash.com/photo-1519676867240-f03562e64548?w=800&q=80",
+          "price": 40,
+          "rating": 4.5,
+          "calories": 580,
+          "protein": 22,
+          "carbs": 48,
+          "fat": 26,
+          "category": "popular",
+          "isPopular": true,
+          "isOffer": false,
+          "offerPrice": null,
+          "spicyOption": false,
+          "cashbackPercent": null,
+          "addons": [
+            {
+              "id": "fries",
+              "name": "بطاطس مقلية",
+              "price": 8
+            },
+            {
+              "id": "cola",
+              "name": "كولا",
+              "price": 6
+            },
+            {
+              "id": "sauce",
+              "name": "صلصة إضافية",
+              "price": 3
+            },
+            {
+              "id": "bread",
+              "name": "خبز إضافي",
+              "price": 4
+            }
+          ]
+        },
+        {
+          "id": "crispy-yard-9",
+          "restaurantId": "crispy-yard",
+          "name": "تريبل ستاك",
+          "description": "ثلاث شرائح لحم للعشاق.",
+          "image": "https://images.unsplash.com/photo-1626645738196-c2a7c87a8f58?w=800&q=80",
+          "price": 58,
+          "rating": 4.4,
+          "calories": 1100,
+          "protein": 58,
+          "carbs": 42,
+          "fat": 68,
+          "category": "menu",
+          "isPopular": false,
+          "isOffer": false,
+          "offerPrice": null,
+          "spicyOption": false,
+          "cashbackPercent": null,
+          "addons": [
+            {
+              "id": "fries",
+              "name": "بطاطس مقلية",
+              "price": 8
+            },
+            {
+              "id": "cola",
+              "name": "كولا",
+              "price": 6
+            },
+            {
+              "id": "sauce",
+              "name": "صلصة إضافية",
+              "price": 3
+            },
+            {
+              "id": "bread",
+              "name": "خبز إضافي",
+              "price": 4
+            }
+          ]
+        },
+        {
+          "id": "crispy-yard-10",
+          "restaurantId": "crispy-yard",
+          "name": "سبايسي رانش",
+          "description": "دجاج حار مع رانش.",
+          "image": "https://images.unsplash.com/photo-1512621776951-a57141f2eefd?w=800&q=80",
+          "price": 37,
+          "rating": 4.2,
+          "calories": 750,
+          "protein": 30,
+          "carbs": 46,
+          "fat": 38,
+          "category": "popular",
+          "isPopular": true,
+          "isOffer": false,
+          "offerPrice": null,
+          "spicyOption": true,
+          "cashbackPercent": null,
+          "addons": [
+            {
+              "id": "fries",
+              "name": "بطاطس مقلية",
+              "price": 8
+            },
+            {
+              "id": "cola",
+              "name": "كولا",
+              "price": 6
+            },
+            {
+              "id": "sauce",
+              "name": "صلصة إضافية",
+              "price": 3
+            },
+            {
+              "id": "bread",
+              "name": "خبز إضافي",
+              "price": 4
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}

@@ -1,0 +1,3460 @@
+{
+  "restaurants": [
+    {
+      "id": "nar-aljamar",
+      "name": "نار الجمر",
+      "image": "https://images.unsplash.com/photo-1542838132-92c53300491e?w=800&q=80",
+      "rating": 4.3,
+      "cuisine": "مشاوي",
+      "deliveryTime": "35–50 د",
+      "deliveryFee": 5,
+      "minOrder": 40,
+      "distanceKm": 3.3,
+      "verified": null,
+      "tags": [
+        "مشاوي",
+        "لحوم",
+        "فحم"
+      ],
+      "featured": null,
+      "open24h": null,
+      "fastDelivery": null,
+      "meals": [
+        {
+          "id": "nar-aljamar-1",
+          "restaurantId": "nar-aljamar",
+          "name": "مشكل مشاوي ملكي",
+          "description": "تشكيلة لحم ودجاج وكباب مع أرز.",
+          "image": "https://images.unsplash.com/photo-1627308595229-7830a5c91f9f?w=800&q=80",
+          "price": 75,
+          "rating": 4.2,
+          "calories": 840,
+          "protein": 50,
+          "carbs": 58,
+          "fat": 40,
+          "category": "popular",
+          "isPopular": true,
+          "isOffer": false,
+          "offerPrice": null,
+          "spicyOption": true,
+          "cashbackPercent": null,
+          "addons": [
+            {
+              "id": "fries",
+              "name": "بطاطس مقلية",
+              "price": 8
+            },
+            {
+              "id": "cola",
+              "name": "كولا",
+              "price": 6
+            },
+            {
+              "id": "sauce",
+              "name": "صلصة إضافية",
+              "price": 3
+            },
+            {
+              "id": "bread",
+              "name": "خبز إضافي",
+              "price": 4
+            }
+          ]
+        },
+        {
+          "id": "nar-aljamar-2",
+          "restaurantId": "nar-aljamar",
+          "name": "ريش غنم فاخر",
+          "description": "ريش غنم على الفحم مع طحينة.",
+          "image": "https://images.unsplash.com/photo-1600891964599-f61ba0e24092?w=800&q=80",
+          "price": 92,
+          "rating": 4.2,
+          "calories": 720,
+          "protein": 54,
+          "carbs": 10,
+          "fat": 50,
+          "category": "offers",
+          "isPopular": false,
+          "isOffer": true,
+          "offerPrice": 71,
+          "spicyOption": true,
+          "cashbackPercent": null,
+          "addons": [
+            {
+              "id": "fries",
+              "name": "بطاطس مقلية",
+              "price": 8
+            },
+            {
+              "id": "cola",
+              "name": "كولا",
+              "price": 6
+            },
+            {
+              "id": "sauce",
+              "name": "صلصة إضافية",
+              "price": 3
+            },
+            {
+              "id": "bread",
+              "name": "خبز إضافي",
+              "price": 4
+            }
+          ]
+        },
+        {
+          "id": "nar-aljamar-3",
+          "restaurantId": "nar-aljamar",
+          "name": "شيش طاووق",
+          "description": "قطع دجاج متبلة مشوية.",
+          "image": "https://images.unsplash.com/photo-1573080496219-bb080dd4f877?w=800&q=80",
+          "price": 48,
+          "rating": 4.7,
+          "calories": 480,
+          "protein": 42,
+          "carbs": 18,
+          "fat": 22,
+          "category": "menu",
+          "isPopular": false,
+          "isOffer": false,
+          "offerPrice": null,
+          "spicyOption": true,
+          "cashbackPercent": null,
+          "addons": [
+            {
+              "id": "fries",
+              "name": "بطاطس مقلية",
+              "price": 8
+            },
+            {
+              "id": "cola",
+              "name": "كولا",
+              "price": 6
+            },
+            {
+              "id": "sauce",
+              "name": "صلصة إضافية",
+              "price": 3
+            },
+            {
+              "id": "bread",
+              "name": "خبز إضافي",
+              "price": 4
+            }
+          ]
+        },
+        {
+          "id": "nar-aljamar-4",
+          "restaurantId": "nar-aljamar",
+          "name": "كباب لحم",
+          "description": "كباب لحم بقري مع بصل مشوي.",
+          "image": "https://images.unsplash.com/photo-1512621776951-a57141f2eefd?w=800&q=80",
+          "price": 55,
+          "rating": 4.2,
+          "calories": 610,
+          "protein": 38,
+          "carbs": 20,
+          "fat": 36,
+          "category": "offers",
+          "isPopular": false,
+          "isOffer": true,
+          "offerPrice": 46,
+          "spicyOption": true,
+          "cashbackPercent": null,
+          "addons": [
+            {
+              "id": "fries",
+              "name": "بطاطس مقلية",
+              "price": 8
+            },
+            {
+              "id": "cola",
+              "name": "كولا",
+              "price": 6
+            },
+            {
+              "id": "sauce",
+              "name": "صلصة إضافية",
+              "price": 3
+            },
+            {
+              "id": "bread",
+              "name": "خبز إضافي",
+              "price": 4
+            }
+          ]
+        },
+        {
+          "id": "nar-aljamar-5",
+          "restaurantId": "nar-aljamar",
+          "name": "دجاج كامل مشوي",
+          "description": "دجاجة كاملة متبلة على الفحم.",
+          "image": "https://images.unsplash.com/photo-1553979459-d2229ba7433b?w=800&q=80",
+          "price": 62,
+          "rating": 4.9,
+          "calories": 780,
+          "protein": 55,
+          "carbs": 8,
+          "fat": 48,
+          "category": "menu",
+          "isPopular": false,
+          "isOffer": false,
+          "offerPrice": null,
+          "spicyOption": true,
+          "cashbackPercent": null,
+          "addons": [
+            {
+              "id": "fries",
+              "name": "بطاطس مقلية",
+              "price": 8
+            },
+            {
+              "id": "cola",
+              "name": "كولا",
+              "price": 6
+            },
+            {
+              "id": "sauce",
+              "name": "صلصة إضافية",
+              "price": 3
+            },
+            {
+              "id": "bread",
+              "name": "خبز إضافي",
+              "price": 4
+            }
+          ]
+        },
+        {
+          "id": "nar-aljamar-6",
+          "restaurantId": "nar-aljamar",
+          "name": "لحم بعجين مشوي",
+          "description": "عجينة رقيقة مع لحم مفروم.",
+          "image": "https://images.unsplash.com/photo-1546069901-ba9599a7e63c?w=800&q=80",
+          "price": 38,
+          "rating": 4.6,
+          "calories": 520,
+          "protein": 22,
+          "carbs": 48,
+          "fat": 24,
+          "category": "menu",
+          "isPopular": false,
+          "isOffer": false,
+          "offerPrice": null,
+          "spicyOption": false,
+          "cashbackPercent": null,
+          "addons": [
+            {
+              "id": "fries",
+              "name": "بطاطس مقلية",
+              "price": 8
+            },
+            {
+              "id": "cola",
+              "name": "كولا",
+              "price": 6
+            },
+            {
+              "id": "sauce",
+              "name": "صلصة إضافية",
+              "price": 3
+            },
+            {
+              "id": "bread",
+              "name": "خبز إضافي",
+              "price": 4
+            }
+          ]
+        },
+        {
+          "id": "nar-aljamar-7",
+          "restaurantId": "nar-aljamar",
+          "name": "نقانق مشوية",
+          "description": "نقانق بقري مع خضار مشوية.",
+          "image": "https://images.unsplash.com/photo-1482049016688-2d3e1b311543?w=800&q=80",
+          "price": 42,
+          "rating": 4.6,
+          "calories": 560,
+          "protein": 28,
+          "carbs": 15,
+          "fat": 38,
+          "category": "popular",
+          "isPopular": true,
+          "isOffer": false,
+          "offerPrice": null,
+          "spicyOption": true,
+          "cashbackPercent": null,
+          "addons": [
+            {
+              "id": "fries",
+              "name": "بطاطس مقلية",
+              "price": 8
+            },
+            {
+              "id": "cola",
+              "name": "كولا",
+              "price": 6
+            },
+            {
+              "id": "sauce",
+              "name": "صلصة إضافية",
+              "price": 3
+            },
+            {
+              "id": "bread",
+              "name": "خبز إضافي",
+              "price": 4
+            }
+          ]
+        },
+        {
+          "id": "nar-aljamar-8",
+          "restaurantId": "nar-aljamar",
+          "name": "كبدة مشوية",
+          "description": "كبدة غنم مع ثوم وليمون.",
+          "image": "https://images.unsplash.com/photo-1551183053-bf91a1d81141?w=800&q=80",
+          "price": 36,
+          "rating": 4.8,
+          "calories": 390,
+          "protein": 32,
+          "carbs": 8,
+          "fat": 22,
+          "category": "menu",
+          "isPopular": false,
+          "isOffer": false,
+          "offerPrice": null,
+          "spicyOption": true,
+          "cashbackPercent": null,
+          "addons": [
+            {
+              "id": "fries",
+              "name": "بطاطس مقلية",
+              "price": 8
+            },
+            {
+              "id": "cola",
+              "name": "كولا",
+              "price": 6
+            },
+            {
+              "id": "sauce",
+              "name": "صلصة إضافية",
+              "price": 3
+            },
+            {
+              "id": "bread",
+              "name": "خبز إضافي",
+              "price": 4
+            }
+          ]
+        },
+        {
+          "id": "nar-aljamar-9",
+          "restaurantId": "nar-aljamar",
+          "name": "صينية مشاوي عائلية",
+          "description": "تشكيلة كبيرة تكفي ٤ أشخاص.",
+          "image": "https://images.unsplash.com/photo-1546069901-ba9599a7e63c?w=800&q=80",
+          "price": 149,
+          "rating": 4.9,
+          "calories": 1600,
+          "protein": 95,
+          "carbs": 90,
+          "fat": 85,
+          "category": "menu",
+          "isPopular": false,
+          "isOffer": false,
+          "offerPrice": null,
+          "spicyOption": true,
+          "cashbackPercent": null,
+          "addons": [
+            {
+              "id": "fries",
+              "name": "بطاطس مقلية",
+              "price": 8
+            },
+            {
+              "id": "cola",
+              "name": "كولا",
+              "price": 6
+            },
+            {
+              "id": "sauce",
+              "name": "صلصة إضافية",
+              "price": 3
+            },
+            {
+              "id": "bread",
+              "name": "خبز إضافي",
+              "price": 4
+            }
+          ]
+        },
+        {
+          "id": "nar-aljamar-10",
+          "restaurantId": "nar-aljamar",
+          "name": "أرز باللحم",
+          "description": "أرز بخاري مع قطع لحم طرية.",
+          "image": "https://images.unsplash.com/photo-1490645935967-10de6ba17061?w=800&q=80",
+          "price": 44,
+          "rating": 4.6,
+          "calories": 680,
+          "protein": 30,
+          "carbs": 70,
+          "fat": 22,
+          "category": "menu",
+          "isPopular": false,
+          "isOffer": false,
+          "offerPrice": null,
+          "spicyOption": false,
+          "cashbackPercent": null,
+          "addons": [
+            {
+              "id": "fries",
+              "name": "بطاطس مقلية",
+              "price": 8
+            },
+            {
+              "id": "cola",
+              "name": "كولا",
+              "price": 6
+            },
+            {
+              "id": "sauce",
+              "name": "صلصة إضافية",
+              "price": 3
+            },
+            {
+              "id": "bread",
+              "name": "خبز إضافي",
+              "price": 4
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "shawaya-alqasr",
+      "name": "شواية القصر",
+      "image": "https://images.unsplash.com/photo-1553621042-f6e147245754?w=800&q=80",
+      "rating": 4.3,
+      "cuisine": "مشاوي",
+      "deliveryTime": "20–30 د",
+      "deliveryFee": 10,
+      "minOrder": 40,
+      "distanceKm": 0.9,
+      "verified": true,
+      "tags": [
+        "مشاوي",
+        "لحوم",
+        "فحم"
+      ],
+      "featured": null,
+      "open24h": null,
+      "fastDelivery": true,
+      "meals": [
+        {
+          "id": "shawaya-alqasr-1",
+          "restaurantId": "shawaya-alqasr",
+          "name": "مشكل مشاوي ملكي",
+          "description": "تشكيلة لحم ودجاج وكباب مع أرز.",
+          "image": "https://images.unsplash.com/photo-1476224203421-9ac39bcb3327?w=800&q=80",
+          "price": 75,
+          "rating": 4.6,
+          "calories": 840,
+          "protein": 50,
+          "carbs": 58,
+          "fat": 40,
+          "category": "menu",
+          "isPopular": false,
+          "isOffer": false,
+          "offerPrice": null,
+          "spicyOption": true,
+          "cashbackPercent": null,
+          "addons": [
+            {
+              "id": "fries",
+              "name": "بطاطس مقلية",
+              "price": 8
+            },
+            {
+              "id": "cola",
+              "name": "كولا",
+              "price": 6
+            },
+            {
+              "id": "sauce",
+              "name": "صلصة إضافية",
+              "price": 3
+            },
+            {
+              "id": "bread",
+              "name": "خبز إضافي",
+              "price": 4
+            }
+          ]
+        },
+        {
+          "id": "shawaya-alqasr-2",
+          "restaurantId": "shawaya-alqasr",
+          "name": "ريش غنم فاخر",
+          "description": "ريش غنم على الفحم مع طحينة.",
+          "image": "https://images.unsplash.com/photo-1513104890138-7c749659a591?w=800&q=80",
+          "price": 92,
+          "rating": 4.3,
+          "calories": 720,
+          "protein": 54,
+          "carbs": 10,
+          "fat": 50,
+          "category": "menu",
+          "isPopular": false,
+          "isOffer": false,
+          "offerPrice": null,
+          "spicyOption": true,
+          "cashbackPercent": null,
+          "addons": [
+            {
+              "id": "fries",
+              "name": "بطاطس مقلية",
+              "price": 8
+            },
+            {
+              "id": "cola",
+              "name": "كولا",
+              "price": 6
+            },
+            {
+              "id": "sauce",
+              "name": "صلصة إضافية",
+              "price": 3
+            },
+            {
+              "id": "bread",
+              "name": "خبز إضافي",
+              "price": 4
+            }
+          ]
+        },
+        {
+          "id": "shawaya-alqasr-3",
+          "restaurantId": "shawaya-alqasr",
+          "name": "شيش طاووق",
+          "description": "قطع دجاج متبلة مشوية.",
+          "image": "https://images.unsplash.com/photo-1513104890138-7c749659a591?w=800&q=80",
+          "price": 48,
+          "rating": 4.2,
+          "calories": 480,
+          "protein": 42,
+          "carbs": 18,
+          "fat": 22,
+          "category": "popular",
+          "isPopular": true,
+          "isOffer": false,
+          "offerPrice": null,
+          "spicyOption": true,
+          "cashbackPercent": null,
+          "addons": [
+            {
+              "id": "fries",
+              "name": "بطاطس مقلية",
+              "price": 8
+            },
+            {
+              "id": "cola",
+              "name": "كولا",
+              "price": 6
+            },
+            {
+              "id": "sauce",
+              "name": "صلصة إضافية",
+              "price": 3
+            },
+            {
+              "id": "bread",
+              "name": "خبز إضافي",
+              "price": 4
+            }
+          ]
+        },
+        {
+          "id": "shawaya-alqasr-4",
+          "restaurantId": "shawaya-alqasr",
+          "name": "كباب لحم",
+          "description": "كباب لحم بقري مع بصل مشوي.",
+          "image": "https://images.unsplash.com/photo-1525351484163-7529414344d8?w=800&q=80",
+          "price": 55,
+          "rating": 4.3,
+          "calories": 610,
+          "protein": 38,
+          "carbs": 20,
+          "fat": 36,
+          "category": "menu",
+          "isPopular": false,
+          "isOffer": false,
+          "offerPrice": null,
+          "spicyOption": true,
+          "cashbackPercent": null,
+          "addons": [
+            {
+              "id": "fries",
+              "name": "بطاطس مقلية",
+              "price": 8
+            },
+            {
+              "id": "cola",
+              "name": "كولا",
+              "price": 6
+            },
+            {
+              "id": "sauce",
+              "name": "صلصة إضافية",
+              "price": 3
+            },
+            {
+              "id": "bread",
+              "name": "خبز إضافي",
+              "price": 4
+            }
+          ]
+        },
+        {
+          "id": "shawaya-alqasr-5",
+          "restaurantId": "shawaya-alqasr",
+          "name": "دجاج كامل مشوي",
+          "description": "دجاجة كاملة متبلة على الفحم.",
+          "image": "https://images.unsplash.com/photo-1553979459-d2229ba7433b?w=800&q=80",
+          "price": 62,
+          "rating": 4.6,
+          "calories": 780,
+          "protein": 55,
+          "carbs": 8,
+          "fat": 48,
+          "category": "popular",
+          "isPopular": true,
+          "isOffer": false,
+          "offerPrice": null,
+          "spicyOption": true,
+          "cashbackPercent": null,
+          "addons": [
+            {
+              "id": "fries",
+              "name": "بطاطس مقلية",
+              "price": 8
+            },
+            {
+              "id": "cola",
+              "name": "كولا",
+              "price": 6
+            },
+            {
+              "id": "sauce",
+              "name": "صلصة إضافية",
+              "price": 3
+            },
+            {
+              "id": "bread",
+              "name": "خبز إضافي",
+              "price": 4
+            }
+          ]
+        },
+        {
+          "id": "shawaya-alqasr-6",
+          "restaurantId": "shawaya-alqasr",
+          "name": "لحم بعجين مشوي",
+          "description": "عجينة رقيقة مع لحم مفروم.",
+          "image": "https://images.unsplash.com/photo-1627308595229-7830a5c91f9f?w=800&q=80",
+          "price": 38,
+          "rating": 4.4,
+          "calories": 520,
+          "protein": 22,
+          "carbs": 48,
+          "fat": 24,
+          "category": "offers",
+          "isPopular": false,
+          "isOffer": true,
+          "offerPrice": 33,
+          "spicyOption": false,
+          "cashbackPercent": null,
+          "addons": [
+            {
+              "id": "fries",
+              "name": "بطاطس مقلية",
+              "price": 8
+            },
+            {
+              "id": "cola",
+              "name": "كولا",
+              "price": 6
+            },
+            {
+              "id": "sauce",
+              "name": "صلصة إضافية",
+              "price": 3
+            },
+            {
+              "id": "bread",
+              "name": "خبز إضافي",
+              "price": 4
+            }
+          ]
+        },
+        {
+          "id": "shawaya-alqasr-7",
+          "restaurantId": "shawaya-alqasr",
+          "name": "نقانق مشوية",
+          "description": "نقانق بقري مع خضار مشوية.",
+          "image": "https://images.unsplash.com/photo-1476224203421-9ac39bcb3327?w=800&q=80",
+          "price": 42,
+          "rating": 4.4,
+          "calories": 560,
+          "protein": 28,
+          "carbs": 15,
+          "fat": 38,
+          "category": "menu",
+          "isPopular": false,
+          "isOffer": false,
+          "offerPrice": null,
+          "spicyOption": true,
+          "cashbackPercent": null,
+          "addons": [
+            {
+              "id": "fries",
+              "name": "بطاطس مقلية",
+              "price": 8
+            },
+            {
+              "id": "cola",
+              "name": "كولا",
+              "price": 6
+            },
+            {
+              "id": "sauce",
+              "name": "صلصة إضافية",
+              "price": 3
+            },
+            {
+              "id": "bread",
+              "name": "خبز إضافي",
+              "price": 4
+            }
+          ]
+        },
+        {
+          "id": "shawaya-alqasr-8",
+          "restaurantId": "shawaya-alqasr",
+          "name": "كبدة مشوية",
+          "description": "كبدة غنم مع ثوم وليمون.",
+          "image": "https://images.unsplash.com/photo-1606313564200-e75d5e30476c?w=800&q=80",
+          "price": 36,
+          "rating": 4.9,
+          "calories": 390,
+          "protein": 32,
+          "carbs": 8,
+          "fat": 22,
+          "category": "menu",
+          "isPopular": false,
+          "isOffer": false,
+          "offerPrice": null,
+          "spicyOption": true,
+          "cashbackPercent": null,
+          "addons": [
+            {
+              "id": "fries",
+              "name": "بطاطس مقلية",
+              "price": 8
+            },
+            {
+              "id": "cola",
+              "name": "كولا",
+              "price": 6
+            },
+            {
+              "id": "sauce",
+              "name": "صلصة إضافية",
+              "price": 3
+            },
+            {
+              "id": "bread",
+              "name": "خبز إضافي",
+              "price": 4
+            }
+          ]
+        },
+        {
+          "id": "shawaya-alqasr-9",
+          "restaurantId": "shawaya-alqasr",
+          "name": "صينية مشاوي عائلية",
+          "description": "تشكيلة كبيرة تكفي ٤ أشخاص.",
+          "image": "https://images.unsplash.com/photo-1542838132-92c53300491e?w=800&q=80",
+          "price": 149,
+          "rating": 4.9,
+          "calories": 1600,
+          "protein": 95,
+          "carbs": 90,
+          "fat": 85,
+          "category": "offers",
+          "isPopular": false,
+          "isOffer": true,
+          "offerPrice": 119,
+          "spicyOption": true,
+          "cashbackPercent": null,
+          "addons": [
+            {
+              "id": "fries",
+              "name": "بطاطس مقلية",
+              "price": 8
+            },
+            {
+              "id": "cola",
+              "name": "كولا",
+              "price": 6
+            },
+            {
+              "id": "sauce",
+              "name": "صلصة إضافية",
+              "price": 3
+            },
+            {
+              "id": "bread",
+              "name": "خبز إضافي",
+              "price": 4
+            }
+          ]
+        },
+        {
+          "id": "shawaya-alqasr-10",
+          "restaurantId": "shawaya-alqasr",
+          "name": "أرز باللحم",
+          "description": "أرز بخاري مع قطع لحم طرية.",
+          "image": "https://images.unsplash.com/photo-1563379926898-05f4575a45d8?w=800&q=80",
+          "price": 44,
+          "rating": 4.6,
+          "calories": 680,
+          "protein": 30,
+          "carbs": 70,
+          "fat": 22,
+          "category": "menu",
+          "isPopular": false,
+          "isOffer": false,
+          "offerPrice": null,
+          "spicyOption": false,
+          "cashbackPercent": null,
+          "addons": [
+            {
+              "id": "fries",
+              "name": "بطاطس مقلية",
+              "price": 8
+            },
+            {
+              "id": "cola",
+              "name": "كولا",
+              "price": 6
+            },
+            {
+              "id": "sauce",
+              "name": "صلصة إضافية",
+              "price": 3
+            },
+            {
+              "id": "bread",
+              "name": "خبز إضافي",
+              "price": 4
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "lahm-wa-fahm",
+      "name": "لحم وفحم",
+      "image": "https://images.unsplash.com/photo-1542838132-92c53300491e?w=800&q=80",
+      "rating": 4.3,
+      "cuisine": "مشاوي",
+      "deliveryTime": "20–30 د",
+      "deliveryFee": 0,
+      "minOrder": 45,
+      "distanceKm": 0.9,
+      "verified": true,
+      "tags": [
+        "مشاوي",
+        "لحوم",
+        "فحم"
+      ],
+      "featured": null,
+      "open24h": null,
+      "fastDelivery": null,
+      "meals": [
+        {
+          "id": "lahm-wa-fahm-1",
+          "restaurantId": "lahm-wa-fahm",
+          "name": "مشكل مشاوي ملكي",
+          "description": "تشكيلة لحم ودجاج وكباب مع أرز.",
+          "image": "https://images.unsplash.com/photo-1529692236671-f1f6cf9683ba?w=800&q=80",
+          "price": 75,
+          "rating": 4.7,
+          "calories": 840,
+          "protein": 50,
+          "carbs": 58,
+          "fat": 40,
+          "category": "offers",
+          "isPopular": false,
+          "isOffer": true,
+          "offerPrice": 67,
+          "spicyOption": true,
+          "cashbackPercent": null,
+          "addons": [
+            {
+              "id": "fries",
+              "name": "بطاطس مقلية",
+              "price": 8
+            },
+            {
+              "id": "cola",
+              "name": "كولا",
+              "price": 6
+            },
+            {
+              "id": "sauce",
+              "name": "صلصة إضافية",
+              "price": 3
+            },
+            {
+              "id": "bread",
+              "name": "خبز إضافي",
+              "price": 4
+            }
+          ]
+        },
+        {
+          "id": "lahm-wa-fahm-2",
+          "restaurantId": "lahm-wa-fahm",
+          "name": "ريش غنم فاخر",
+          "description": "ريش غنم على الفحم مع طحينة.",
+          "image": "https://images.unsplash.com/photo-1565958011703-44f9829ba187?w=800&q=80",
+          "price": 92,
+          "rating": 4.5,
+          "calories": 720,
+          "protein": 54,
+          "carbs": 10,
+          "fat": 50,
+          "category": "popular",
+          "isPopular": true,
+          "isOffer": false,
+          "offerPrice": null,
+          "spicyOption": true,
+          "cashbackPercent": null,
+          "addons": [
+            {
+              "id": "fries",
+              "name": "بطاطس مقلية",
+              "price": 8
+            },
+            {
+              "id": "cola",
+              "name": "كولا",
+              "price": 6
+            },
+            {
+              "id": "sauce",
+              "name": "صلصة إضافية",
+              "price": 3
+            },
+            {
+              "id": "bread",
+              "name": "خبز إضافي",
+              "price": 4
+            }
+          ]
+        },
+        {
+          "id": "lahm-wa-fahm-3",
+          "restaurantId": "lahm-wa-fahm",
+          "name": "شيش طاووق",
+          "description": "قطع دجاج متبلة مشوية.",
+          "image": "https://images.unsplash.com/photo-1482049016688-2d3e1b311543?w=800&q=80",
+          "price": 48,
+          "rating": 4.4,
+          "calories": 480,
+          "protein": 42,
+          "carbs": 18,
+          "fat": 22,
+          "category": "menu",
+          "isPopular": false,
+          "isOffer": false,
+          "offerPrice": null,
+          "spicyOption": true,
+          "cashbackPercent": null,
+          "addons": [
+            {
+              "id": "fries",
+              "name": "بطاطس مقلية",
+              "price": 8
+            },
+            {
+              "id": "cola",
+              "name": "كولا",
+              "price": 6
+            },
+            {
+              "id": "sauce",
+              "name": "صلصة إضافية",
+              "price": 3
+            },
+            {
+              "id": "bread",
+              "name": "خبز إضافي",
+              "price": 4
+            }
+          ]
+        },
+        {
+          "id": "lahm-wa-fahm-4",
+          "restaurantId": "lahm-wa-fahm",
+          "name": "كباب لحم",
+          "description": "كباب لحم بقري مع بصل مشوي.",
+          "image": "https://images.unsplash.com/photo-1569718212165-3a8278d5f624?w=800&q=80",
+          "price": 55,
+          "rating": 4.6,
+          "calories": 610,
+          "protein": 38,
+          "carbs": 20,
+          "fat": 36,
+          "category": "menu",
+          "isPopular": false,
+          "isOffer": false,
+          "offerPrice": null,
+          "spicyOption": true,
+          "cashbackPercent": null,
+          "addons": [
+            {
+              "id": "fries",
+              "name": "بطاطس مقلية",
+              "price": 8
+            },
+            {
+              "id": "cola",
+              "name": "كولا",
+              "price": 6
+            },
+            {
+              "id": "sauce",
+              "name": "صلصة إضافية",
+              "price": 3
+            },
+            {
+              "id": "bread",
+              "name": "خبز إضافي",
+              "price": 4
+            }
+          ]
+        },
+        {
+          "id": "lahm-wa-fahm-5",
+          "restaurantId": "lahm-wa-fahm",
+          "name": "دجاج كامل مشوي",
+          "description": "دجاجة كاملة متبلة على الفحم.",
+          "image": "https://images.unsplash.com/photo-1473093295043-cdd812d0e601?w=800&q=80",
+          "price": 62,
+          "rating": 4.5,
+          "calories": 780,
+          "protein": 55,
+          "carbs": 8,
+          "fat": 48,
+          "category": "menu",
+          "isPopular": false,
+          "isOffer": false,
+          "offerPrice": null,
+          "spicyOption": true,
+          "cashbackPercent": null,
+          "addons": [
+            {
+              "id": "fries",
+              "name": "بطاطس مقلية",
+              "price": 8
+            },
+            {
+              "id": "cola",
+              "name": "كولا",
+              "price": 6
+            },
+            {
+              "id": "sauce",
+              "name": "صلصة إضافية",
+              "price": 3
+            },
+            {
+              "id": "bread",
+              "name": "خبز إضافي",
+              "price": 4
+            }
+          ]
+        },
+        {
+          "id": "lahm-wa-fahm-6",
+          "restaurantId": "lahm-wa-fahm",
+          "name": "لحم بعجين مشوي",
+          "description": "عجينة رقيقة مع لحم مفروم.",
+          "image": "https://images.unsplash.com/photo-1559847844-5315695dadae?w=800&q=80",
+          "price": 38,
+          "rating": 4.6,
+          "calories": 520,
+          "protein": 22,
+          "carbs": 48,
+          "fat": 24,
+          "category": "menu",
+          "isPopular": false,
+          "isOffer": false,
+          "offerPrice": null,
+          "spicyOption": false,
+          "cashbackPercent": null,
+          "addons": [
+            {
+              "id": "fries",
+              "name": "بطاطس مقلية",
+              "price": 8
+            },
+            {
+              "id": "cola",
+              "name": "كولا",
+              "price": 6
+            },
+            {
+              "id": "sauce",
+              "name": "صلصة إضافية",
+              "price": 3
+            },
+            {
+              "id": "bread",
+              "name": "خبز إضافي",
+              "price": 4
+            }
+          ]
+        },
+        {
+          "id": "lahm-wa-fahm-7",
+          "restaurantId": "lahm-wa-fahm",
+          "name": "نقانق مشوية",
+          "description": "نقانق بقري مع خضار مشوية.",
+          "image": "https://images.unsplash.com/photo-1529042410759-befb1204b468?w=800&q=80",
+          "price": 42,
+          "rating": 4.4,
+          "calories": 560,
+          "protein": 28,
+          "carbs": 15,
+          "fat": 38,
+          "category": "menu",
+          "isPopular": false,
+          "isOffer": false,
+          "offerPrice": null,
+          "spicyOption": true,
+          "cashbackPercent": null,
+          "addons": [
+            {
+              "id": "fries",
+              "name": "بطاطس مقلية",
+              "price": 8
+            },
+            {
+              "id": "cola",
+              "name": "كولا",
+              "price": 6
+            },
+            {
+              "id": "sauce",
+              "name": "صلصة إضافية",
+              "price": 3
+            },
+            {
+              "id": "bread",
+              "name": "خبز إضافي",
+              "price": 4
+            }
+          ]
+        },
+        {
+          "id": "lahm-wa-fahm-8",
+          "restaurantId": "lahm-wa-fahm",
+          "name": "كبدة مشوية",
+          "description": "كبدة غنم مع ثوم وليمون.",
+          "image": "https://images.unsplash.com/photo-1582878826629-29b7ad1cdc43?w=800&q=80",
+          "price": 36,
+          "rating": 4.5,
+          "calories": 390,
+          "protein": 32,
+          "carbs": 8,
+          "fat": 22,
+          "category": "popular",
+          "isPopular": true,
+          "isOffer": false,
+          "offerPrice": null,
+          "spicyOption": true,
+          "cashbackPercent": null,
+          "addons": [
+            {
+              "id": "fries",
+              "name": "بطاطس مقلية",
+              "price": 8
+            },
+            {
+              "id": "cola",
+              "name": "كولا",
+              "price": 6
+            },
+            {
+              "id": "sauce",
+              "name": "صلصة إضافية",
+              "price": 3
+            },
+            {
+              "id": "bread",
+              "name": "خبز إضافي",
+              "price": 4
+            }
+          ]
+        },
+        {
+          "id": "lahm-wa-fahm-9",
+          "restaurantId": "lahm-wa-fahm",
+          "name": "صينية مشاوي عائلية",
+          "description": "تشكيلة كبيرة تكفي ٤ أشخاص.",
+          "image": "https://images.unsplash.com/photo-1582878826629-29b7ad1cdc43?w=800&q=80",
+          "price": 149,
+          "rating": 4.2,
+          "calories": 1600,
+          "protein": 95,
+          "carbs": 90,
+          "fat": 85,
+          "category": "menu",
+          "isPopular": false,
+          "isOffer": false,
+          "offerPrice": null,
+          "spicyOption": true,
+          "cashbackPercent": null,
+          "addons": [
+            {
+              "id": "fries",
+              "name": "بطاطس مقلية",
+              "price": 8
+            },
+            {
+              "id": "cola",
+              "name": "كولا",
+              "price": 6
+            },
+            {
+              "id": "sauce",
+              "name": "صلصة إضافية",
+              "price": 3
+            },
+            {
+              "id": "bread",
+              "name": "خبز إضافي",
+              "price": 4
+            }
+          ]
+        },
+        {
+          "id": "lahm-wa-fahm-10",
+          "restaurantId": "lahm-wa-fahm",
+          "name": "أرز باللحم",
+          "description": "أرز بخاري مع قطع لحم طرية.",
+          "image": "https://images.unsplash.com/photo-1484723091739-30a097e8f929?w=800&q=80",
+          "price": 44,
+          "rating": 4.3,
+          "calories": 680,
+          "protein": 30,
+          "carbs": 70,
+          "fat": 22,
+          "category": "menu",
+          "isPopular": false,
+          "isOffer": false,
+          "offerPrice": null,
+          "spicyOption": false,
+          "cashbackPercent": null,
+          "addons": [
+            {
+              "id": "fries",
+              "name": "بطاطس مقلية",
+              "price": 8
+            },
+            {
+              "id": "cola",
+              "name": "كولا",
+              "price": 6
+            },
+            {
+              "id": "sauce",
+              "name": "صلصة إضافية",
+              "price": 3
+            },
+            {
+              "id": "bread",
+              "name": "خبز إضافي",
+              "price": 4
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "majalis-almashawi",
+      "name": "مجالس المشاوي",
+      "image": "https://images.unsplash.com/photo-1506084868230-bb9d95c24759?w=800&q=80",
+      "rating": 4.6,
+      "cuisine": "مشاوي",
+      "deliveryTime": "20–30 د",
+      "deliveryFee": 12,
+      "minOrder": 40,
+      "distanceKm": 2.2,
+      "verified": null,
+      "tags": [
+        "مشاوي",
+        "لحوم",
+        "فحم"
+      ],
+      "featured": null,
+      "open24h": true,
+      "fastDelivery": null,
+      "meals": [
+        {
+          "id": "majalis-almashawi-1",
+          "restaurantId": "majalis-almashawi",
+          "name": "مشكل مشاوي ملكي",
+          "description": "تشكيلة لحم ودجاج وكباب مع أرز.",
+          "image": "https://images.unsplash.com/photo-1572490122747-3968b75cc699?w=800&q=80",
+          "price": 75,
+          "rating": 4.3,
+          "calories": 840,
+          "protein": 50,
+          "carbs": 58,
+          "fat": 40,
+          "category": "popular",
+          "isPopular": true,
+          "isOffer": false,
+          "offerPrice": null,
+          "spicyOption": true,
+          "cashbackPercent": null,
+          "addons": [
+            {
+              "id": "fries",
+              "name": "بطاطس مقلية",
+              "price": 8
+            },
+            {
+              "id": "cola",
+              "name": "كولا",
+              "price": 6
+            },
+            {
+              "id": "sauce",
+              "name": "صلصة إضافية",
+              "price": 3
+            },
+            {
+              "id": "bread",
+              "name": "خبز إضافي",
+              "price": 4
+            }
+          ]
+        },
+        {
+          "id": "majalis-almashawi-2",
+          "restaurantId": "majalis-almashawi",
+          "name": "ريش غنم فاخر",
+          "description": "ريش غنم على الفحم مع طحينة.",
+          "image": "https://images.unsplash.com/photo-1565299624946-b28f40a0ae38?w=800&q=80",
+          "price": 92,
+          "rating": 4.1,
+          "calories": 720,
+          "protein": 54,
+          "carbs": 10,
+          "fat": 50,
+          "category": "popular",
+          "isPopular": true,
+          "isOffer": false,
+          "offerPrice": null,
+          "spicyOption": true,
+          "cashbackPercent": null,
+          "addons": [
+            {
+              "id": "fries",
+              "name": "بطاطس مقلية",
+              "price": 8
+            },
+            {
+              "id": "cola",
+              "name": "كولا",
+              "price": 6
+            },
+            {
+              "id": "sauce",
+              "name": "صلصة إضافية",
+              "price": 3
+            },
+            {
+              "id": "bread",
+              "name": "خبز إضافي",
+              "price": 4
+            }
+          ]
+        },
+        {
+          "id": "majalis-almashawi-3",
+          "restaurantId": "majalis-almashawi",
+          "name": "شيش طاووق",
+          "description": "قطع دجاج متبلة مشوية.",
+          "image": "https://images.unsplash.com/photo-1572490122747-3968b75cc699?w=800&q=80",
+          "price": 48,
+          "rating": 4.8,
+          "calories": 480,
+          "protein": 42,
+          "carbs": 18,
+          "fat": 22,
+          "category": "popular",
+          "isPopular": true,
+          "isOffer": false,
+          "offerPrice": null,
+          "spicyOption": true,
+          "cashbackPercent": null,
+          "addons": [
+            {
+              "id": "fries",
+              "name": "بطاطس مقلية",
+              "price": 8
+            },
+            {
+              "id": "cola",
+              "name": "كولا",
+              "price": 6
+            },
+            {
+              "id": "sauce",
+              "name": "صلصة إضافية",
+              "price": 3
+            },
+            {
+              "id": "bread",
+              "name": "خبز إضافي",
+              "price": 4
+            }
+          ]
+        },
+        {
+          "id": "majalis-almashawi-4",
+          "restaurantId": "majalis-almashawi",
+          "name": "كباب لحم",
+          "description": "كباب لحم بقري مع بصل مشوي.",
+          "image": "https://images.unsplash.com/photo-1517248135467-4c7edcad34c4?w=800&q=80",
+          "price": 55,
+          "rating": 4.2,
+          "calories": 610,
+          "protein": 38,
+          "carbs": 20,
+          "fat": 36,
+          "category": "popular",
+          "isPopular": true,
+          "isOffer": false,
+          "offerPrice": null,
+          "spicyOption": true,
+          "cashbackPercent": null,
+          "addons": [
+            {
+              "id": "fries",
+              "name": "بطاطس مقلية",
+              "price": 8
+            },
+            {
+              "id": "cola",
+              "name": "كولا",
+              "price": 6
+            },
+            {
+              "id": "sauce",
+              "name": "صلصة إضافية",
+              "price": 3
+            },
+            {
+              "id": "bread",
+              "name": "خبز إضافي",
+              "price": 4
+            }
+          ]
+        },
+        {
+          "id": "majalis-almashawi-5",
+          "restaurantId": "majalis-almashawi",
+          "name": "دجاج كامل مشوي",
+          "description": "دجاجة كاملة متبلة على الفحم.",
+          "image": "https://images.unsplash.com/photo-1579584425555-c3ce17fd4351?w=800&q=80",
+          "price": 62,
+          "rating": 4.4,
+          "calories": 780,
+          "protein": 55,
+          "carbs": 8,
+          "fat": 48,
+          "category": "menu",
+          "isPopular": false,
+          "isOffer": false,
+          "offerPrice": null,
+          "spicyOption": true,
+          "cashbackPercent": null,
+          "addons": [
+            {
+              "id": "fries",
+              "name": "بطاطس مقلية",
+              "price": 8
+            },
+            {
+              "id": "cola",
+              "name": "كولا",
+              "price": 6
+            },
+            {
+              "id": "sauce",
+              "name": "صلصة إضافية",
+              "price": 3
+            },
+            {
+              "id": "bread",
+              "name": "خبز إضافي",
+              "price": 4
+            }
+          ]
+        },
+        {
+          "id": "majalis-almashawi-6",
+          "restaurantId": "majalis-almashawi",
+          "name": "لحم بعجين مشوي",
+          "description": "عجينة رقيقة مع لحم مفروم.",
+          "image": "https://images.unsplash.com/photo-1504674900247-0877df9cc836?w=800&q=80",
+          "price": 38,
+          "rating": 4.5,
+          "calories": 520,
+          "protein": 22,
+          "carbs": 48,
+          "fat": 24,
+          "category": "offers",
+          "isPopular": false,
+          "isOffer": true,
+          "offerPrice": 31,
+          "spicyOption": false,
+          "cashbackPercent": null,
+          "addons": [
+            {
+              "id": "fries",
+              "name": "بطاطس مقلية",
+              "price": 8
+            },
+            {
+              "id": "cola",
+              "name": "كولا",
+              "price": 6
+            },
+            {
+              "id": "sauce",
+              "name": "صلصة إضافية",
+              "price": 3
+            },
+            {
+              "id": "bread",
+              "name": "خبز إضافي",
+              "price": 4
+            }
+          ]
+        },
+        {
+          "id": "majalis-almashawi-7",
+          "restaurantId": "majalis-almashawi",
+          "name": "نقانق مشوية",
+          "description": "نقانق بقري مع خضار مشوية.",
+          "image": "https://images.unsplash.com/photo-1505253758473-96b7015fcd40?w=800&q=80",
+          "price": 42,
+          "rating": 4.3,
+          "calories": 560,
+          "protein": 28,
+          "carbs": 15,
+          "fat": 38,
+          "category": "popular",
+          "isPopular": true,
+          "isOffer": false,
+          "offerPrice": null,
+          "spicyOption": true,
+          "cashbackPercent": null,
+          "addons": [
+            {
+              "id": "fries",
+              "name": "بطاطس مقلية",
+              "price": 8
+            },
+            {
+              "id": "cola",
+              "name": "كولا",
+              "price": 6
+            },
+            {
+              "id": "sauce",
+              "name": "صلصة إضافية",
+              "price": 3
+            },
+            {
+              "id": "bread",
+              "name": "خبز إضافي",
+              "price": 4
+            }
+          ]
+        },
+        {
+          "id": "majalis-almashawi-8",
+          "restaurantId": "majalis-almashawi",
+          "name": "كبدة مشوية",
+          "description": "كبدة غنم مع ثوم وليمون.",
+          "image": "https://images.unsplash.com/photo-1455619452474-d2be8b1e70cd?w=800&q=80",
+          "price": 36,
+          "rating": 4.9,
+          "calories": 390,
+          "protein": 32,
+          "carbs": 8,
+          "fat": 22,
+          "category": "popular",
+          "isPopular": true,
+          "isOffer": false,
+          "offerPrice": null,
+          "spicyOption": true,
+          "cashbackPercent": null,
+          "addons": [
+            {
+              "id": "fries",
+              "name": "بطاطس مقلية",
+              "price": 8
+            },
+            {
+              "id": "cola",
+              "name": "كولا",
+              "price": 6
+            },
+            {
+              "id": "sauce",
+              "name": "صلصة إضافية",
+              "price": 3
+            },
+            {
+              "id": "bread",
+              "name": "خبز إضافي",
+              "price": 4
+            }
+          ]
+        },
+        {
+          "id": "majalis-almashawi-9",
+          "restaurantId": "majalis-almashawi",
+          "name": "صينية مشاوي عائلية",
+          "description": "تشكيلة كبيرة تكفي ٤ أشخاص.",
+          "image": "https://images.unsplash.com/photo-1627308595229-7830a5c91f9f?w=800&q=80",
+          "price": 149,
+          "rating": 4.4,
+          "calories": 1600,
+          "protein": 95,
+          "carbs": 90,
+          "fat": 85,
+          "category": "menu",
+          "isPopular": false,
+          "isOffer": false,
+          "offerPrice": null,
+          "spicyOption": true,
+          "cashbackPercent": null,
+          "addons": [
+            {
+              "id": "fries",
+              "name": "بطاطس مقلية",
+              "price": 8
+            },
+            {
+              "id": "cola",
+              "name": "كولا",
+              "price": 6
+            },
+            {
+              "id": "sauce",
+              "name": "صلصة إضافية",
+              "price": 3
+            },
+            {
+              "id": "bread",
+              "name": "خبز إضافي",
+              "price": 4
+            }
+          ]
+        },
+        {
+          "id": "majalis-almashawi-10",
+          "restaurantId": "majalis-almashawi",
+          "name": "أرز باللحم",
+          "description": "أرز بخاري مع قطع لحم طرية.",
+          "image": "https://images.unsplash.com/photo-1565958011703-44f9829ba187?w=800&q=80",
+          "price": 44,
+          "rating": 4.6,
+          "calories": 680,
+          "protein": 30,
+          "carbs": 70,
+          "fat": 22,
+          "category": "menu",
+          "isPopular": false,
+          "isOffer": false,
+          "offerPrice": null,
+          "spicyOption": false,
+          "cashbackPercent": null,
+          "addons": [
+            {
+              "id": "fries",
+              "name": "بطاطس مقلية",
+              "price": 8
+            },
+            {
+              "id": "cola",
+              "name": "كولا",
+              "price": 6
+            },
+            {
+              "id": "sauce",
+              "name": "صلصة إضافية",
+              "price": 3
+            },
+            {
+              "id": "bread",
+              "name": "خبز إضافي",
+              "price": 4
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "dukhan-house",
+      "name": "بيت الدخان",
+      "image": "https://images.unsplash.com/photo-1611143669185-af224c5e3252?w=800&q=80",
+      "rating": 4.8,
+      "cuisine": "مشاوي",
+      "deliveryTime": "35–50 د",
+      "deliveryFee": 10,
+      "minOrder": 50,
+      "distanceKm": 4.4,
+      "verified": true,
+      "tags": [
+        "مشاوي",
+        "لحوم",
+        "فحم"
+      ],
+      "featured": null,
+      "open24h": null,
+      "fastDelivery": true,
+      "meals": [
+        {
+          "id": "dukhan-house-1",
+          "restaurantId": "dukhan-house",
+          "name": "مشكل مشاوي ملكي",
+          "description": "تشكيلة لحم ودجاج وكباب مع أرز.",
+          "image": "https://images.unsplash.com/photo-1627308595229-7830a5c91f9f?w=800&q=80",
+          "price": 75,
+          "rating": 4.1,
+          "calories": 840,
+          "protein": 50,
+          "carbs": 58,
+          "fat": 40,
+          "category": "menu",
+          "isPopular": false,
+          "isOffer": false,
+          "offerPrice": null,
+          "spicyOption": true,
+          "cashbackPercent": null,
+          "addons": [
+            {
+              "id": "fries",
+              "name": "بطاطس مقلية",
+              "price": 8
+            },
+            {
+              "id": "cola",
+              "name": "كولا",
+              "price": 6
+            },
+            {
+              "id": "sauce",
+              "name": "صلصة إضافية",
+              "price": 3
+            },
+            {
+              "id": "bread",
+              "name": "خبز إضافي",
+              "price": 4
+            }
+          ]
+        },
+        {
+          "id": "dukhan-house-2",
+          "restaurantId": "dukhan-house",
+          "name": "ريش غنم فاخر",
+          "description": "ريش غنم على الفحم مع طحينة.",
+          "image": "https://images.unsplash.com/photo-1568901346375-23c9450c58cd?w=800&q=80",
+          "price": 92,
+          "rating": 4.6,
+          "calories": 720,
+          "protein": 54,
+          "carbs": 10,
+          "fat": 50,
+          "category": "popular",
+          "isPopular": true,
+          "isOffer": false,
+          "offerPrice": null,
+          "spicyOption": true,
+          "cashbackPercent": null,
+          "addons": [
+            {
+              "id": "fries",
+              "name": "بطاطس مقلية",
+              "price": 8
+            },
+            {
+              "id": "cola",
+              "name": "كولا",
+              "price": 6
+            },
+            {
+              "id": "sauce",
+              "name": "صلصة إضافية",
+              "price": 3
+            },
+            {
+              "id": "bread",
+              "name": "خبز إضافي",
+              "price": 4
+            }
+          ]
+        },
+        {
+          "id": "dukhan-house-3",
+          "restaurantId": "dukhan-house",
+          "name": "شيش طاووق",
+          "description": "قطع دجاج متبلة مشوية.",
+          "image": "https://images.unsplash.com/photo-1517248135467-4c7edcad34c4?w=800&q=80",
+          "price": 48,
+          "rating": 4.6,
+          "calories": 480,
+          "protein": 42,
+          "carbs": 18,
+          "fat": 22,
+          "category": "menu",
+          "isPopular": false,
+          "isOffer": false,
+          "offerPrice": null,
+          "spicyOption": true,
+          "cashbackPercent": null,
+          "addons": [
+            {
+              "id": "fries",
+              "name": "بطاطس مقلية",
+              "price": 8
+            },
+            {
+              "id": "cola",
+              "name": "كولا",
+              "price": 6
+            },
+            {
+              "id": "sauce",
+              "name": "صلصة إضافية",
+              "price": 3
+            },
+            {
+              "id": "bread",
+              "name": "خبز إضافي",
+              "price": 4
+            }
+          ]
+        },
+        {
+          "id": "dukhan-house-4",
+          "restaurantId": "dukhan-house",
+          "name": "كباب لحم",
+          "description": "كباب لحم بقري مع بصل مشوي.",
+          "image": "https://images.unsplash.com/photo-1525351484163-7529414344d8?w=800&q=80",
+          "price": 55,
+          "rating": 4.8,
+          "calories": 610,
+          "protein": 38,
+          "carbs": 20,
+          "fat": 36,
+          "category": "popular",
+          "isPopular": true,
+          "isOffer": false,
+          "offerPrice": null,
+          "spicyOption": true,
+          "cashbackPercent": null,
+          "addons": [
+            {
+              "id": "fries",
+              "name": "بطاطس مقلية",
+              "price": 8
+            },
+            {
+              "id": "cola",
+              "name": "كولا",
+              "price": 6
+            },
+            {
+              "id": "sauce",
+              "name": "صلصة إضافية",
+              "price": 3
+            },
+            {
+              "id": "bread",
+              "name": "خبز إضافي",
+              "price": 4
+            }
+          ]
+        },
+        {
+          "id": "dukhan-house-5",
+          "restaurantId": "dukhan-house",
+          "name": "دجاج كامل مشوي",
+          "description": "دجاجة كاملة متبلة على الفحم.",
+          "image": "https://images.unsplash.com/photo-1555939594-58d7cb561ad1?w=800&q=80",
+          "price": 62,
+          "rating": 4.6,
+          "calories": 780,
+          "protein": 55,
+          "carbs": 8,
+          "fat": 48,
+          "category": "menu",
+          "isPopular": false,
+          "isOffer": false,
+          "offerPrice": null,
+          "spicyOption": true,
+          "cashbackPercent": null,
+          "addons": [
+            {
+              "id": "fries",
+              "name": "بطاطس مقلية",
+              "price": 8
+            },
+            {
+              "id": "cola",
+              "name": "كولا",
+              "price": 6
+            },
+            {
+              "id": "sauce",
+              "name": "صلصة إضافية",
+              "price": 3
+            },
+            {
+              "id": "bread",
+              "name": "خبز إضافي",
+              "price": 4
+            }
+          ]
+        },
+        {
+          "id": "dukhan-house-6",
+          "restaurantId": "dukhan-house",
+          "name": "لحم بعجين مشوي",
+          "description": "عجينة رقيقة مع لحم مفروم.",
+          "image": "https://images.unsplash.com/photo-1529042410759-befb1204b468?w=800&q=80",
+          "price": 38,
+          "rating": 4.2,
+          "calories": 520,
+          "protein": 22,
+          "carbs": 48,
+          "fat": 24,
+          "category": "popular",
+          "isPopular": true,
+          "isOffer": false,
+          "offerPrice": null,
+          "spicyOption": false,
+          "cashbackPercent": null,
+          "addons": [
+            {
+              "id": "fries",
+              "name": "بطاطس مقلية",
+              "price": 8
+            },
+            {
+              "id": "cola",
+              "name": "كولا",
+              "price": 6
+            },
+            {
+              "id": "sauce",
+              "name": "صلصة إضافية",
+              "price": 3
+            },
+            {
+              "id": "bread",
+              "name": "خبز إضافي",
+              "price": 4
+            }
+          ]
+        },
+        {
+          "id": "dukhan-house-7",
+          "restaurantId": "dukhan-house",
+          "name": "نقانق مشوية",
+          "description": "نقانق بقري مع خضار مشوية.",
+          "image": "https://images.unsplash.com/photo-1512058564366-18510be2db19?w=800&q=80",
+          "price": 42,
+          "rating": 4.3,
+          "calories": 560,
+          "protein": 28,
+          "carbs": 15,
+          "fat": 38,
+          "category": "offers",
+          "isPopular": false,
+          "isOffer": true,
+          "offerPrice": 32,
+          "spicyOption": true,
+          "cashbackPercent": null,
+          "addons": [
+            {
+              "id": "fries",
+              "name": "بطاطس مقلية",
+              "price": 8
+            },
+            {
+              "id": "cola",
+              "name": "كولا",
+              "price": 6
+            },
+            {
+              "id": "sauce",
+              "name": "صلصة إضافية",
+              "price": 3
+            },
+            {
+              "id": "bread",
+              "name": "خبز إضافي",
+              "price": 4
+            }
+          ]
+        },
+        {
+          "id": "dukhan-house-8",
+          "restaurantId": "dukhan-house",
+          "name": "كبدة مشوية",
+          "description": "كبدة غنم مع ثوم وليمون.",
+          "image": "https://images.unsplash.com/photo-1569718212165-3a8278d5f624?w=800&q=80",
+          "price": 36,
+          "rating": 4.8,
+          "calories": 390,
+          "protein": 32,
+          "carbs": 8,
+          "fat": 22,
+          "category": "offers",
+          "isPopular": false,
+          "isOffer": true,
+          "offerPrice": 28,
+          "spicyOption": true,
+          "cashbackPercent": 5,
+          "addons": [
+            {
+              "id": "fries",
+              "name": "بطاطس مقلية",
+              "price": 8
+            },
+            {
+              "id": "cola",
+              "name": "كولا",
+              "price": 6
+            },
+            {
+              "id": "sauce",
+              "name": "صلصة إضافية",
+              "price": 3
+            },
+            {
+              "id": "bread",
+              "name": "خبز إضافي",
+              "price": 4
+            }
+          ]
+        },
+        {
+          "id": "dukhan-house-9",
+          "restaurantId": "dukhan-house",
+          "name": "صينية مشاوي عائلية",
+          "description": "تشكيلة كبيرة تكفي ٤ أشخاص.",
+          "image": "https://images.unsplash.com/photo-1488477181946-6428a0291777?w=800&q=80",
+          "price": 149,
+          "rating": 4.7,
+          "calories": 1600,
+          "protein": 95,
+          "carbs": 90,
+          "fat": 85,
+          "category": "menu",
+          "isPopular": false,
+          "isOffer": false,
+          "offerPrice": null,
+          "spicyOption": true,
+          "cashbackPercent": null,
+          "addons": [
+            {
+              "id": "fries",
+              "name": "بطاطس مقلية",
+              "price": 8
+            },
+            {
+              "id": "cola",
+              "name": "كولا",
+              "price": 6
+            },
+            {
+              "id": "sauce",
+              "name": "صلصة إضافية",
+              "price": 3
+            },
+            {
+              "id": "bread",
+              "name": "خبز إضافي",
+              "price": 4
+            }
+          ]
+        },
+        {
+          "id": "dukhan-house-10",
+          "restaurantId": "dukhan-house",
+          "name": "أرز باللحم",
+          "description": "أرز بخاري مع قطع لحم طرية.",
+          "image": "https://images.unsplash.com/photo-1490645935967-10de6ba17061?w=800&q=80",
+          "price": 44,
+          "rating": 4.9,
+          "calories": 680,
+          "protein": 30,
+          "carbs": 70,
+          "fat": 22,
+          "category": "menu",
+          "isPopular": false,
+          "isOffer": false,
+          "offerPrice": null,
+          "spicyOption": false,
+          "cashbackPercent": null,
+          "addons": [
+            {
+              "id": "fries",
+              "name": "بطاطس مقلية",
+              "price": 8
+            },
+            {
+              "id": "cola",
+              "name": "كولا",
+              "price": 6
+            },
+            {
+              "id": "sauce",
+              "name": "صلصة إضافية",
+              "price": 3
+            },
+            {
+              "id": "bread",
+              "name": "خبز إضافي",
+              "price": 4
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "kabab-alwadi",
+      "name": "كباب الوادي",
+      "image": "https://images.unsplash.com/photo-1626645738196-c2a7c87a8f58?w=800&q=80",
+      "rating": 4.6,
+      "cuisine": "مشاوي",
+      "deliveryTime": "20–30 د",
+      "deliveryFee": 8,
+      "minOrder": 45,
+      "distanceKm": 5.2,
+      "verified": null,
+      "tags": [
+        "مشاوي",
+        "لحوم",
+        "فحم"
+      ],
+      "featured": null,
+      "open24h": null,
+      "fastDelivery": true,
+      "meals": [
+        {
+          "id": "kabab-alwadi-1",
+          "restaurantId": "kabab-alwadi",
+          "name": "مشكل مشاوي ملكي",
+          "description": "تشكيلة لحم ودجاج وكباب مع أرز.",
+          "image": "https://images.unsplash.com/photo-1569718212165-3a8278d5f624?w=800&q=80",
+          "price": 75,
+          "rating": 4.3,
+          "calories": 840,
+          "protein": 50,
+          "carbs": 58,
+          "fat": 40,
+          "category": "popular",
+          "isPopular": true,
+          "isOffer": false,
+          "offerPrice": null,
+          "spicyOption": true,
+          "cashbackPercent": null,
+          "addons": [
+            {
+              "id": "fries",
+              "name": "بطاطس مقلية",
+              "price": 8
+            },
+            {
+              "id": "cola",
+              "name": "كولا",
+              "price": 6
+            },
+            {
+              "id": "sauce",
+              "name": "صلصة إضافية",
+              "price": 3
+            },
+            {
+              "id": "bread",
+              "name": "خبز إضافي",
+              "price": 4
+            }
+          ]
+        },
+        {
+          "id": "kabab-alwadi-2",
+          "restaurantId": "kabab-alwadi",
+          "name": "ريش غنم فاخر",
+          "description": "ريش غنم على الفحم مع طحينة.",
+          "image": "https://images.unsplash.com/photo-1455619452474-d2be8b1e70cd?w=800&q=80",
+          "price": 92,
+          "rating": 4.7,
+          "calories": 720,
+          "protein": 54,
+          "carbs": 10,
+          "fat": 50,
+          "category": "menu",
+          "isPopular": false,
+          "isOffer": false,
+          "offerPrice": null,
+          "spicyOption": true,
+          "cashbackPercent": null,
+          "addons": [
+            {
+              "id": "fries",
+              "name": "بطاطس مقلية",
+              "price": 8
+            },
+            {
+              "id": "cola",
+              "name": "كولا",
+              "price": 6
+            },
+            {
+              "id": "sauce",
+              "name": "صلصة إضافية",
+              "price": 3
+            },
+            {
+              "id": "bread",
+              "name": "خبز إضافي",
+              "price": 4
+            }
+          ]
+        },
+        {
+          "id": "kabab-alwadi-3",
+          "restaurantId": "kabab-alwadi",
+          "name": "شيش طاووق",
+          "description": "قطع دجاج متبلة مشوية.",
+          "image": "https://images.unsplash.com/photo-1571091718767-18b5b1457add?w=800&q=80",
+          "price": 48,
+          "rating": 4.9,
+          "calories": 480,
+          "protein": 42,
+          "carbs": 18,
+          "fat": 22,
+          "category": "popular",
+          "isPopular": true,
+          "isOffer": false,
+          "offerPrice": null,
+          "spicyOption": true,
+          "cashbackPercent": null,
+          "addons": [
+            {
+              "id": "fries",
+              "name": "بطاطس مقلية",
+              "price": 8
+            },
+            {
+              "id": "cola",
+              "name": "كولا",
+              "price": 6
+            },
+            {
+              "id": "sauce",
+              "name": "صلصة إضافية",
+              "price": 3
+            },
+            {
+              "id": "bread",
+              "name": "خبز إضافي",
+              "price": 4
+            }
+          ]
+        },
+        {
+          "id": "kabab-alwadi-4",
+          "restaurantId": "kabab-alwadi",
+          "name": "كباب لحم",
+          "description": "كباب لحم بقري مع بصل مشوي.",
+          "image": "https://images.unsplash.com/photo-1568901346375-23c9450c58cd?w=800&q=80",
+          "price": 55,
+          "rating": 4.7,
+          "calories": 610,
+          "protein": 38,
+          "carbs": 20,
+          "fat": 36,
+          "category": "popular",
+          "isPopular": true,
+          "isOffer": false,
+          "offerPrice": null,
+          "spicyOption": true,
+          "cashbackPercent": null,
+          "addons": [
+            {
+              "id": "fries",
+              "name": "بطاطس مقلية",
+              "price": 8
+            },
+            {
+              "id": "cola",
+              "name": "كولا",
+              "price": 6
+            },
+            {
+              "id": "sauce",
+              "name": "صلصة إضافية",
+              "price": 3
+            },
+            {
+              "id": "bread",
+              "name": "خبز إضافي",
+              "price": 4
+            }
+          ]
+        },
+        {
+          "id": "kabab-alwadi-5",
+          "restaurantId": "kabab-alwadi",
+          "name": "دجاج كامل مشوي",
+          "description": "دجاجة كاملة متبلة على الفحم.",
+          "image": "https://images.unsplash.com/photo-1551782450-a2132b4ba21d?w=800&q=80",
+          "price": 62,
+          "rating": 4.1,
+          "calories": 780,
+          "protein": 55,
+          "carbs": 8,
+          "fat": 48,
+          "category": "menu",
+          "isPopular": false,
+          "isOffer": false,
+          "offerPrice": null,
+          "spicyOption": true,
+          "cashbackPercent": null,
+          "addons": [
+            {
+              "id": "fries",
+              "name": "بطاطس مقلية",
+              "price": 8
+            },
+            {
+              "id": "cola",
+              "name": "كولا",
+              "price": 6
+            },
+            {
+              "id": "sauce",
+              "name": "صلصة إضافية",
+              "price": 3
+            },
+            {
+              "id": "bread",
+              "name": "خبز إضافي",
+              "price": 4
+            }
+          ]
+        },
+        {
+          "id": "kabab-alwadi-6",
+          "restaurantId": "kabab-alwadi",
+          "name": "لحم بعجين مشوي",
+          "description": "عجينة رقيقة مع لحم مفروم.",
+          "image": "https://images.unsplash.com/photo-1540189549336-e6e99c3679fe?w=800&q=80",
+          "price": 38,
+          "rating": 4.7,
+          "calories": 520,
+          "protein": 22,
+          "carbs": 48,
+          "fat": 24,
+          "category": "popular",
+          "isPopular": true,
+          "isOffer": false,
+          "offerPrice": null,
+          "spicyOption": false,
+          "cashbackPercent": null,
+          "addons": [
+            {
+              "id": "fries",
+              "name": "بطاطس مقلية",
+              "price": 8
+            },
+            {
+              "id": "cola",
+              "name": "كولا",
+              "price": 6
+            },
+            {
+              "id": "sauce",
+              "name": "صلصة إضافية",
+              "price": 3
+            },
+            {
+              "id": "bread",
+              "name": "خبز إضافي",
+              "price": 4
+            }
+          ]
+        },
+        {
+          "id": "kabab-alwadi-7",
+          "restaurantId": "kabab-alwadi",
+          "name": "نقانق مشوية",
+          "description": "نقانق بقري مع خضار مشوية.",
+          "image": "https://images.unsplash.com/photo-1529042410759-befb1204b468?w=800&q=80",
+          "price": 42,
+          "rating": 4.6,
+          "calories": 560,
+          "protein": 28,
+          "carbs": 15,
+          "fat": 38,
+          "category": "menu",
+          "isPopular": false,
+          "isOffer": false,
+          "offerPrice": null,
+          "spicyOption": true,
+          "cashbackPercent": null,
+          "addons": [
+            {
+              "id": "fries",
+              "name": "بطاطس مقلية",
+              "price": 8
+            },
+            {
+              "id": "cola",
+              "name": "كولا",
+              "price": 6
+            },
+            {
+              "id": "sauce",
+              "name": "صلصة إضافية",
+              "price": 3
+            },
+            {
+              "id": "bread",
+              "name": "خبز إضافي",
+              "price": 4
+            }
+          ]
+        },
+        {
+          "id": "kabab-alwadi-8",
+          "restaurantId": "kabab-alwadi",
+          "name": "كبدة مشوية",
+          "description": "كبدة غنم مع ثوم وليمون.",
+          "image": "https://images.unsplash.com/photo-1559847844-5315695dadae?w=800&q=80",
+          "price": 36,
+          "rating": 4.6,
+          "calories": 390,
+          "protein": 32,
+          "carbs": 8,
+          "fat": 22,
+          "category": "offers",
+          "isPopular": false,
+          "isOffer": true,
+          "offerPrice": 27,
+          "spicyOption": true,
+          "cashbackPercent": 15,
+          "addons": [
+            {
+              "id": "fries",
+              "name": "بطاطس مقلية",
+              "price": 8
+            },
+            {
+              "id": "cola",
+              "name": "كولا",
+              "price": 6
+            },
+            {
+              "id": "sauce",
+              "name": "صلصة إضافية",
+              "price": 3
+            },
+            {
+              "id": "bread",
+              "name": "خبز إضافي",
+              "price": 4
+            }
+          ]
+        },
+        {
+          "id": "kabab-alwadi-9",
+          "restaurantId": "kabab-alwadi",
+          "name": "صينية مشاوي عائلية",
+          "description": "تشكيلة كبيرة تكفي ٤ أشخاص.",
+          "image": "https://images.unsplash.com/photo-1569718212165-3a8278d5f624?w=800&q=80",
+          "price": 149,
+          "rating": 4.2,
+          "calories": 1600,
+          "protein": 95,
+          "carbs": 90,
+          "fat": 85,
+          "category": "offers",
+          "isPopular": false,
+          "isOffer": true,
+          "offerPrice": 116,
+          "spicyOption": true,
+          "cashbackPercent": 15,
+          "addons": [
+            {
+              "id": "fries",
+              "name": "بطاطس مقلية",
+              "price": 8
+            },
+            {
+              "id": "cola",
+              "name": "كولا",
+              "price": 6
+            },
+            {
+              "id": "sauce",
+              "name": "صلصة إضافية",
+              "price": 3
+            },
+            {
+              "id": "bread",
+              "name": "خبز إضافي",
+              "price": 4
+            }
+          ]
+        },
+        {
+          "id": "kabab-alwadi-10",
+          "restaurantId": "kabab-alwadi",
+          "name": "أرز باللحم",
+          "description": "أرز بخاري مع قطع لحم طرية.",
+          "image": "https://images.unsplash.com/photo-1626645738196-c2a7c87a8f58?w=800&q=80",
+          "price": 44,
+          "rating": 4.6,
+          "calories": 680,
+          "protein": 30,
+          "carbs": 70,
+          "fat": 22,
+          "category": "popular",
+          "isPopular": true,
+          "isOffer": false,
+          "offerPrice": null,
+          "spicyOption": false,
+          "cashbackPercent": null,
+          "addons": [
+            {
+              "id": "fries",
+              "name": "بطاطس مقلية",
+              "price": 8
+            },
+            {
+              "id": "cola",
+              "name": "كولا",
+              "price": 6
+            },
+            {
+              "id": "sauce",
+              "name": "صلصة إضافية",
+              "price": 3
+            },
+            {
+              "id": "bread",
+              "name": "خبز إضافي",
+              "price": 4
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "fahm-riyadh",
+      "name": "فحم الرياض",
+      "image": "https://images.unsplash.com/photo-1565299624946-b28f40a0ae38?w=800&q=80",
+      "rating": 4.2,
+      "cuisine": "مشاوي",
+      "deliveryTime": "20–30 د",
+      "deliveryFee": 12,
+      "minOrder": 30,
+      "distanceKm": 1.5,
+      "verified": null,
+      "tags": [
+        "مشاوي",
+        "لحوم",
+        "فحم"
+      ],
+      "featured": null,
+      "open24h": null,
+      "fastDelivery": true,
+      "meals": [
+        {
+          "id": "fahm-riyadh-1",
+          "restaurantId": "fahm-riyadh",
+          "name": "مشكل مشاوي ملكي",
+          "description": "تشكيلة لحم ودجاج وكباب مع أرز.",
+          "image": "https://images.unsplash.com/photo-1513104890138-7c749659a591?w=800&q=80",
+          "price": 75,
+          "rating": 4.2,
+          "calories": 840,
+          "protein": 50,
+          "carbs": 58,
+          "fat": 40,
+          "category": "menu",
+          "isPopular": false,
+          "isOffer": false,
+          "offerPrice": null,
+          "spicyOption": true,
+          "cashbackPercent": null,
+          "addons": [
+            {
+              "id": "fries",
+              "name": "بطاطس مقلية",
+              "price": 8
+            },
+            {
+              "id": "cola",
+              "name": "كولا",
+              "price": 6
+            },
+            {
+              "id": "sauce",
+              "name": "صلصة إضافية",
+              "price": 3
+            },
+            {
+              "id": "bread",
+              "name": "خبز إضافي",
+              "price": 4
+            }
+          ]
+        },
+        {
+          "id": "fahm-riyadh-2",
+          "restaurantId": "fahm-riyadh",
+          "name": "ريش غنم فاخر",
+          "description": "ريش غنم على الفحم مع طحينة.",
+          "image": "https://images.unsplash.com/photo-1568901346375-23c9450c58cd?w=800&q=80",
+          "price": 92,
+          "rating": 4.8,
+          "calories": 720,
+          "protein": 54,
+          "carbs": 10,
+          "fat": 50,
+          "category": "offers",
+          "isPopular": false,
+          "isOffer": true,
+          "offerPrice": 72,
+          "spicyOption": true,
+          "cashbackPercent": null,
+          "addons": [
+            {
+              "id": "fries",
+              "name": "بطاطس مقلية",
+              "price": 8
+            },
+            {
+              "id": "cola",
+              "name": "كولا",
+              "price": 6
+            },
+            {
+              "id": "sauce",
+              "name": "صلصة إضافية",
+              "price": 3
+            },
+            {
+              "id": "bread",
+              "name": "خبز إضافي",
+              "price": 4
+            }
+          ]
+        },
+        {
+          "id": "fahm-riyadh-3",
+          "restaurantId": "fahm-riyadh",
+          "name": "شيش طاووق",
+          "description": "قطع دجاج متبلة مشوية.",
+          "image": "https://images.unsplash.com/photo-1482049016688-2d3e1b311543?w=800&q=80",
+          "price": 48,
+          "rating": 4.5,
+          "calories": 480,
+          "protein": 42,
+          "carbs": 18,
+          "fat": 22,
+          "category": "menu",
+          "isPopular": false,
+          "isOffer": false,
+          "offerPrice": null,
+          "spicyOption": true,
+          "cashbackPercent": null,
+          "addons": [
+            {
+              "id": "fries",
+              "name": "بطاطس مقلية",
+              "price": 8
+            },
+            {
+              "id": "cola",
+              "name": "كولا",
+              "price": 6
+            },
+            {
+              "id": "sauce",
+              "name": "صلصة إضافية",
+              "price": 3
+            },
+            {
+              "id": "bread",
+              "name": "خبز إضافي",
+              "price": 4
+            }
+          ]
+        },
+        {
+          "id": "fahm-riyadh-4",
+          "restaurantId": "fahm-riyadh",
+          "name": "كباب لحم",
+          "description": "كباب لحم بقري مع بصل مشوي.",
+          "image": "https://images.unsplash.com/photo-1555939594-58d7cb561ad1?w=800&q=80",
+          "price": 55,
+          "rating": 4.7,
+          "calories": 610,
+          "protein": 38,
+          "carbs": 20,
+          "fat": 36,
+          "category": "offers",
+          "isPopular": false,
+          "isOffer": true,
+          "offerPrice": 45,
+          "spicyOption": true,
+          "cashbackPercent": 15,
+          "addons": [
+            {
+              "id": "fries",
+              "name": "بطاطس مقلية",
+              "price": 8
+            },
+            {
+              "id": "cola",
+              "name": "كولا",
+              "price": 6
+            },
+            {
+              "id": "sauce",
+              "name": "صلصة إضافية",
+              "price": 3
+            },
+            {
+              "id": "bread",
+              "name": "خبز إضافي",
+              "price": 4
+            }
+          ]
+        },
+        {
+          "id": "fahm-riyadh-5",
+          "restaurantId": "fahm-riyadh",
+          "name": "دجاج كامل مشوي",
+          "description": "دجاجة كاملة متبلة على الفحم.",
+          "image": "https://images.unsplash.com/photo-1553979459-d2229ba7433b?w=800&q=80",
+          "price": 62,
+          "rating": 4.3,
+          "calories": 780,
+          "protein": 55,
+          "carbs": 8,
+          "fat": 48,
+          "category": "offers",
+          "isPopular": false,
+          "isOffer": true,
+          "offerPrice": 49,
+          "spicyOption": true,
+          "cashbackPercent": 10,
+          "addons": [
+            {
+              "id": "fries",
+              "name": "بطاطس مقلية",
+              "price": 8
+            },
+            {
+              "id": "cola",
+              "name": "كولا",
+              "price": 6
+            },
+            {
+              "id": "sauce",
+              "name": "صلصة إضافية",
+              "price": 3
+            },
+            {
+              "id": "bread",
+              "name": "خبز إضافي",
+              "price": 4
+            }
+          ]
+        },
+        {
+          "id": "fahm-riyadh-6",
+          "restaurantId": "fahm-riyadh",
+          "name": "لحم بعجين مشوي",
+          "description": "عجينة رقيقة مع لحم مفروم.",
+          "image": "https://images.unsplash.com/photo-1571091718767-18b5b1457add?w=800&q=80",
+          "price": 38,
+          "rating": 4.7,
+          "calories": 520,
+          "protein": 22,
+          "carbs": 48,
+          "fat": 24,
+          "category": "menu",
+          "isPopular": false,
+          "isOffer": false,
+          "offerPrice": null,
+          "spicyOption": false,
+          "cashbackPercent": null,
+          "addons": [
+            {
+              "id": "fries",
+              "name": "بطاطس مقلية",
+              "price": 8
+            },
+            {
+              "id": "cola",
+              "name": "كولا",
+              "price": 6
+            },
+            {
+              "id": "sauce",
+              "name": "صلصة إضافية",
+              "price": 3
+            },
+            {
+              "id": "bread",
+              "name": "خبز إضافي",
+              "price": 4
+            }
+          ]
+        },
+        {
+          "id": "fahm-riyadh-7",
+          "restaurantId": "fahm-riyadh",
+          "name": "نقانق مشوية",
+          "description": "نقانق بقري مع خضار مشوية.",
+          "image": "https://images.unsplash.com/photo-1506084868230-bb9d95c24759?w=800&q=80",
+          "price": 42,
+          "rating": 4.3,
+          "calories": 560,
+          "protein": 28,
+          "carbs": 15,
+          "fat": 38,
+          "category": "offers",
+          "isPopular": false,
+          "isOffer": true,
+          "offerPrice": 35,
+          "spicyOption": true,
+          "cashbackPercent": 5,
+          "addons": [
+            {
+              "id": "fries",
+              "name": "بطاطس مقلية",
+              "price": 8
+            },
+            {
+              "id": "cola",
+              "name": "كولا",
+              "price": 6
+            },
+            {
+              "id": "sauce",
+              "name": "صلصة إضافية",
+              "price": 3
+            },
+            {
+              "id": "bread",
+              "name": "خبز إضافي",
+              "price": 4
+            }
+          ]
+        },
+        {
+          "id": "fahm-riyadh-8",
+          "restaurantId": "fahm-riyadh",
+          "name": "كبدة مشوية",
+          "description": "كبدة غنم مع ثوم وليمون.",
+          "image": "https://images.unsplash.com/photo-1627308595229-7830a5c91f9f?w=800&q=80",
+          "price": 36,
+          "rating": 4.7,
+          "calories": 390,
+          "protein": 32,
+          "carbs": 8,
+          "fat": 22,
+          "category": "popular",
+          "isPopular": true,
+          "isOffer": false,
+          "offerPrice": null,
+          "spicyOption": true,
+          "cashbackPercent": null,
+          "addons": [
+            {
+              "id": "fries",
+              "name": "بطاطس مقلية",
+              "price": 8
+            },
+            {
+              "id": "cola",
+              "name": "كولا",
+              "price": 6
+            },
+            {
+              "id": "sauce",
+              "name": "صلصة إضافية",
+              "price": 3
+            },
+            {
+              "id": "bread",
+              "name": "خبز إضافي",
+              "price": 4
+            }
+          ]
+        },
+        {
+          "id": "fahm-riyadh-9",
+          "restaurantId": "fahm-riyadh",
+          "name": "صينية مشاوي عائلية",
+          "description": "تشكيلة كبيرة تكفي ٤ أشخاص.",
+          "image": "https://images.unsplash.com/photo-1606755962773-d324e0a13086?w=800&q=80",
+          "price": 149,
+          "rating": 4.5,
+          "calories": 1600,
+          "protein": 95,
+          "carbs": 90,
+          "fat": 85,
+          "category": "offers",
+          "isPopular": false,
+          "isOffer": true,
+          "offerPrice": 117,
+          "spicyOption": true,
+          "cashbackPercent": null,
+          "addons": [
+            {
+              "id": "fries",
+              "name": "بطاطس مقلية",
+              "price": 8
+            },
+            {
+              "id": "cola",
+              "name": "كولا",
+              "price": 6
+            },
+            {
+              "id": "sauce",
+              "name": "صلصة إضافية",
+              "price": 3
+            },
+            {
+              "id": "bread",
+              "name": "خبز إضافي",
+              "price": 4
+            }
+          ]
+        },
+        {
+          "id": "fahm-riyadh-10",
+          "restaurantId": "fahm-riyadh",
+          "name": "أرز باللحم",
+          "description": "أرز بخاري مع قطع لحم طرية.",
+          "image": "https://images.unsplash.com/photo-1529042410759-befb1204b468?w=800&q=80",
+          "price": 44,
+          "rating": 4.9,
+          "calories": 680,
+          "protein": 30,
+          "carbs": 70,
+          "fat": 22,
+          "category": "popular",
+          "isPopular": true,
+          "isOffer": false,
+          "offerPrice": null,
+          "spicyOption": false,
+          "cashbackPercent": null,
+          "addons": [
+            {
+              "id": "fries",
+              "name": "بطاطس مقلية",
+              "price": 8
+            },
+            {
+              "id": "cola",
+              "name": "كولا",
+              "price": 6
+            },
+            {
+              "id": "sauce",
+              "name": "صلصة إضافية",
+              "price": 3
+            },
+            {
+              "id": "bread",
+              "name": "خبز إضافي",
+              "price": 4
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "mashawi-alnakheel",
+      "name": "مشاوي النخيل",
+      "image": "https://images.unsplash.com/photo-1603360946369-dc9bb6258143?w=800&q=80",
+      "rating": 4.8,
+      "cuisine": "مشاوي",
+      "deliveryTime": "35–50 د",
+      "deliveryFee": 12,
+      "minOrder": 40,
+      "distanceKm": 4.1,
+      "verified": true,
+      "tags": [
+        "مشاوي",
+        "لحوم",
+        "فحم"
+      ],
+      "featured": true,
+      "open24h": null,
+      "fastDelivery": true,
+      "meals": [
+        {
+          "id": "mashawi-alnakheel-1",
+          "restaurantId": "mashawi-alnakheel",
+          "name": "مشكل مشاوي ملكي",
+          "description": "تشكيلة لحم ودجاج وكباب مع أرز.",
+          "image": "https://images.unsplash.com/photo-1626645738196-c2a7c87a8f58?w=800&q=80",
+          "price": 75,
+          "rating": 4.8,
+          "calories": 840,
+          "protein": 50,
+          "carbs": 58,
+          "fat": 40,
+          "category": "popular",
+          "isPopular": true,
+          "isOffer": false,
+          "offerPrice": null,
+          "spicyOption": true,
+          "cashbackPercent": null,
+          "addons": [
+            {
+              "id": "fries",
+              "name": "بطاطس مقلية",
+              "price": 8
+            },
+            {
+              "id": "cola",
+              "name": "كولا",
+              "price": 6
+            },
+            {
+              "id": "sauce",
+              "name": "صلصة إضافية",
+              "price": 3
+            },
+            {
+              "id": "bread",
+              "name": "خبز إضافي",
+              "price": 4
+            }
+          ]
+        },
+        {
+          "id": "mashawi-alnakheel-2",
+          "restaurantId": "mashawi-alnakheel",
+          "name": "ريش غنم فاخر",
+          "description": "ريش غنم على الفحم مع طحينة.",
+          "image": "https://images.unsplash.com/photo-1512621776951-a57141f2eefd?w=800&q=80",
+          "price": 92,
+          "rating": 4.6,
+          "calories": 720,
+          "protein": 54,
+          "carbs": 10,
+          "fat": 50,
+          "category": "offers",
+          "isPopular": false,
+          "isOffer": true,
+          "offerPrice": 79,
+          "spicyOption": true,
+          "cashbackPercent": null,
+          "addons": [
+            {
+              "id": "fries",
+              "name": "بطاطس مقلية",
+              "price": 8
+            },
+            {
+              "id": "cola",
+              "name": "كولا",
+              "price": 6
+            },
+            {
+              "id": "sauce",
+              "name": "صلصة إضافية",
+              "price": 3
+            },
+            {
+              "id": "bread",
+              "name": "خبز إضافي",
+              "price": 4
+            }
+          ]
+        },
+        {
+          "id": "mashawi-alnakheel-3",
+          "restaurantId": "mashawi-alnakheel",
+          "name": "شيش طاووق",
+          "description": "قطع دجاج متبلة مشوية.",
+          "image": "https://images.unsplash.com/photo-1578985545062-69928b1d9587?w=800&q=80",
+          "price": 48,
+          "rating": 4.8,
+          "calories": 480,
+          "protein": 42,
+          "carbs": 18,
+          "fat": 22,
+          "category": "menu",
+          "isPopular": false,
+          "isOffer": false,
+          "offerPrice": null,
+          "spicyOption": true,
+          "cashbackPercent": null,
+          "addons": [
+            {
+              "id": "fries",
+              "name": "بطاطس مقلية",
+              "price": 8
+            },
+            {
+              "id": "cola",
+              "name": "كولا",
+              "price": 6
+            },
+            {
+              "id": "sauce",
+              "name": "صلصة إضافية",
+              "price": 3
+            },
+            {
+              "id": "bread",
+              "name": "خبز إضافي",
+              "price": 4
+            }
+          ]
+        },
+        {
+          "id": "mashawi-alnakheel-4",
+          "restaurantId": "mashawi-alnakheel",
+          "name": "كباب لحم",
+          "description": "كباب لحم بقري مع بصل مشوي.",
+          "image": "https://images.unsplash.com/photo-1505253758473-96b7015fcd40?w=800&q=80",
+          "price": 55,
+          "rating": 4.5,
+          "calories": 610,
+          "protein": 38,
+          "carbs": 20,
+          "fat": 36,
+          "category": "menu",
+          "isPopular": false,
+          "isOffer": false,
+          "offerPrice": null,
+          "spicyOption": true,
+          "cashbackPercent": null,
+          "addons": [
+            {
+              "id": "fries",
+              "name": "بطاطس مقلية",
+              "price": 8
+            },
+            {
+              "id": "cola",
+              "name": "كولا",
+              "price": 6
+            },
+            {
+              "id": "sauce",
+              "name": "صلصة إضافية",
+              "price": 3
+            },
+            {
+              "id": "bread",
+              "name": "خبز إضافي",
+              "price": 4
+            }
+          ]
+        },
+        {
+          "id": "mashawi-alnakheel-5",
+          "restaurantId": "mashawi-alnakheel",
+          "name": "دجاج كامل مشوي",
+          "description": "دجاجة كاملة متبلة على الفحم.",
+          "image": "https://images.unsplash.com/photo-1473093295043-cdd812d0e601?w=800&q=80",
+          "price": 62,
+          "rating": 4.4,
+          "calories": 780,
+          "protein": 55,
+          "carbs": 8,
+          "fat": 48,
+          "category": "offers",
+          "isPopular": false,
+          "isOffer": true,
+          "offerPrice": 47,
+          "spicyOption": true,
+          "cashbackPercent": 10,
+          "addons": [
+            {
+              "id": "fries",
+              "name": "بطاطس مقلية",
+              "price": 8
+            },
+            {
+              "id": "cola",
+              "name": "كولا",
+              "price": 6
+            },
+            {
+              "id": "sauce",
+              "name": "صلصة إضافية",
+              "price": 3
+            },
+            {
+              "id": "bread",
+              "name": "خبز إضافي",
+              "price": 4
+            }
+          ]
+        },
+        {
+          "id": "mashawi-alnakheel-6",
+          "restaurantId": "mashawi-alnakheel",
+          "name": "لحم بعجين مشوي",
+          "description": "عجينة رقيقة مع لحم مفروم.",
+          "image": "https://images.unsplash.com/photo-1552566626-52f8b828add9?w=800&q=80",
+          "price": 38,
+          "rating": 4.7,
+          "calories": 520,
+          "protein": 22,
+          "carbs": 48,
+          "fat": 24,
+          "category": "menu",
+          "isPopular": false,
+          "isOffer": false,
+          "offerPrice": null,
+          "spicyOption": false,
+          "cashbackPercent": null,
+          "addons": [
+            {
+              "id": "fries",
+              "name": "بطاطس مقلية",
+              "price": 8
+            },
+            {
+              "id": "cola",
+              "name": "كولا",
+              "price": 6
+            },
+            {
+              "id": "sauce",
+              "name": "صلصة إضافية",
+              "price": 3
+            },
+            {
+              "id": "bread",
+              "name": "خبز إضافي",
+              "price": 4
+            }
+          ]
+        },
+        {
+          "id": "mashawi-alnakheel-7",
+          "restaurantId": "mashawi-alnakheel",
+          "name": "نقانق مشوية",
+          "description": "نقانق بقري مع خضار مشوية.",
+          "image": "https://images.unsplash.com/photo-1414235077428-338989a2e8c0?w=800&q=80",
+          "price": 42,
+          "rating": 4.3,
+          "calories": 560,
+          "protein": 28,
+          "carbs": 15,
+          "fat": 38,
+          "category": "menu",
+          "isPopular": false,
+          "isOffer": false,
+          "offerPrice": null,
+          "spicyOption": true,
+          "cashbackPercent": null,
+          "addons": [
+            {
+              "id": "fries",
+              "name": "بطاطس مقلية",
+              "price": 8
+            },
+            {
+              "id": "cola",
+              "name": "كولا",
+              "price": 6
+            },
+            {
+              "id": "sauce",
+              "name": "صلصة إضافية",
+              "price": 3
+            },
+            {
+              "id": "bread",
+              "name": "خبز إضافي",
+              "price": 4
+            }
+          ]
+        },
+        {
+          "id": "mashawi-alnakheel-8",
+          "restaurantId": "mashawi-alnakheel",
+          "name": "كبدة مشوية",
+          "description": "كبدة غنم مع ثوم وليمون.",
+          "image": "https://images.unsplash.com/photo-1579584425555-c3ce17fd4351?w=800&q=80",
+          "price": 36,
+          "rating": 4.8,
+          "calories": 390,
+          "protein": 32,
+          "carbs": 8,
+          "fat": 22,
+          "category": "menu",
+          "isPopular": false,
+          "isOffer": false,
+          "offerPrice": null,
+          "spicyOption": true,
+          "cashbackPercent": null,
+          "addons": [
+            {
+              "id": "fries",
+              "name": "بطاطس مقلية",
+              "price": 8
+            },
+            {
+              "id": "cola",
+              "name": "كولا",
+              "price": 6
+            },
+            {
+              "id": "sauce",
+              "name": "صلصة إضافية",
+              "price": 3
+            },
+            {
+              "id": "bread",
+              "name": "خبز إضافي",
+              "price": 4
+            }
+          ]
+        },
+        {
+          "id": "mashawi-alnakheel-9",
+          "restaurantId": "mashawi-alnakheel",
+          "name": "صينية مشاوي عائلية",
+          "description": "تشكيلة كبيرة تكفي ٤ أشخاص.",
+          "image": "https://images.unsplash.com/photo-1525351484163-7529414344d8?w=800&q=80",
+          "price": 149,
+          "rating": 4.5,
+          "calories": 1600,
+          "protein": 95,
+          "carbs": 90,
+          "fat": 85,
+          "category": "popular",
+          "isPopular": true,
+          "isOffer": false,
+          "offerPrice": null,
+          "spicyOption": true,
+          "cashbackPercent": null,
+          "addons": [
+            {
+              "id": "fries",
+              "name": "بطاطس مقلية",
+              "price": 8
+            },
+            {
+              "id": "cola",
+              "name": "كولا",
+              "price": 6
+            },
+            {
+              "id": "sauce",
+              "name": "صلصة إضافية",
+              "price": 3
+            },
+            {
+              "id": "bread",
+              "name": "خبز إضافي",
+              "price": 4
+            }
+          ]
+        },
+        {
+          "id": "mashawi-alnakheel-10",
+          "restaurantId": "mashawi-alnakheel",
+          "name": "أرز باللحم",
+          "description": "أرز بخاري مع قطع لحم طرية.",
+          "image": "https://images.unsplash.com/photo-1505253758473-96b7015fcd40?w=800&q=80",
+          "price": 44,
+          "rating": 4.9,
+          "calories": 680,
+          "protein": 30,
+          "carbs": 70,
+          "fat": 22,
+          "category": "menu",
+          "isPopular": false,
+          "isOffer": false,
+          "offerPrice": null,
+          "spicyOption": false,
+          "cashbackPercent": null,
+          "addons": [
+            {
+              "id": "fries",
+              "name": "بطاطس مقلية",
+              "price": 8
+            },
+            {
+              "id": "cola",
+              "name": "كولا",
+              "price": 6
+            },
+            {
+              "id": "sauce",
+              "name": "صلصة إضافية",
+              "price": 3
+            },
+            {
+              "id": "bread",
+              "name": "خبز إضافي",
+              "price": 4
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}

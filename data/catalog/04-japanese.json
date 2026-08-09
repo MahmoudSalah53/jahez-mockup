@@ -1,0 +1,3452 @@
+{
+  "restaurants": [
+    {
+      "id": "tokyo-bite",
+      "name": "لقمة طوكيو",
+      "image": "https://images.unsplash.com/photo-1572490122747-3968b75cc699?w=800&q=80",
+      "rating": 4.3,
+      "cuisine": "ياباني",
+      "deliveryTime": "40–55 د",
+      "deliveryFee": 0,
+      "minOrder": 40,
+      "distanceKm": 1.2,
+      "verified": true,
+      "tags": [
+        "ياباني",
+        "سوشي"
+      ],
+      "featured": true,
+      "open24h": null,
+      "fastDelivery": null,
+      "meals": [
+        {
+          "id": "tokyo-bite-1",
+          "restaurantId": "tokyo-bite",
+          "name": "سوشي سالمون",
+          "description": "قطع سالمون طازج على أرز.",
+          "image": "https://images.unsplash.com/photo-1414235077428-338989a2e8c0?w=800&q=80",
+          "price": 54,
+          "rating": 4.3,
+          "calories": 420,
+          "protein": 28,
+          "carbs": 48,
+          "fat": 12,
+          "category": "menu",
+          "isPopular": false,
+          "isOffer": false,
+          "offerPrice": null,
+          "spicyOption": false,
+          "cashbackPercent": null,
+          "addons": [
+            {
+              "id": "fries",
+              "name": "بطاطس مقلية",
+              "price": 8
+            },
+            {
+              "id": "cola",
+              "name": "كولا",
+              "price": 6
+            },
+            {
+              "id": "sauce",
+              "name": "صلصة إضافية",
+              "price": 3
+            },
+            {
+              "id": "bread",
+              "name": "خبز إضافي",
+              "price": 4
+            }
+          ]
+        },
+        {
+          "id": "tokyo-bite-2",
+          "restaurantId": "tokyo-bite",
+          "name": "رول كاليفورنيا",
+          "description": "كراب وأفوكادو وخيار.",
+          "image": "https://images.unsplash.com/photo-1606313564200-e75d5e30476c?w=800&q=80",
+          "price": 42,
+          "rating": 4.2,
+          "calories": 380,
+          "protein": 16,
+          "carbs": 44,
+          "fat": 14,
+          "category": "menu",
+          "isPopular": false,
+          "isOffer": false,
+          "offerPrice": null,
+          "spicyOption": false,
+          "cashbackPercent": null,
+          "addons": [
+            {
+              "id": "fries",
+              "name": "بطاطس مقلية",
+              "price": 8
+            },
+            {
+              "id": "cola",
+              "name": "كولا",
+              "price": 6
+            },
+            {
+              "id": "sauce",
+              "name": "صلصة إضافية",
+              "price": 3
+            },
+            {
+              "id": "bread",
+              "name": "خبز إضافي",
+              "price": 4
+            }
+          ]
+        },
+        {
+          "id": "tokyo-bite-3",
+          "restaurantId": "tokyo-bite",
+          "name": "رامن تونكوستو",
+          "description": "مرق غني مع نودلز وبيض.",
+          "image": "https://images.unsplash.com/photo-1546069901-ba9599a7e63c?w=800&q=80",
+          "price": 48,
+          "rating": 4.2,
+          "calories": 680,
+          "protein": 32,
+          "carbs": 62,
+          "fat": 28,
+          "category": "menu",
+          "isPopular": false,
+          "isOffer": false,
+          "offerPrice": null,
+          "spicyOption": false,
+          "cashbackPercent": null,
+          "addons": [
+            {
+              "id": "fries",
+              "name": "بطاطس مقلية",
+              "price": 8
+            },
+            {
+              "id": "cola",
+              "name": "كولا",
+              "price": 6
+            },
+            {
+              "id": "sauce",
+              "name": "صلصة إضافية",
+              "price": 3
+            },
+            {
+              "id": "bread",
+              "name": "خبز إضافي",
+              "price": 4
+            }
+          ]
+        },
+        {
+          "id": "tokyo-bite-4",
+          "restaurantId": "tokyo-bite",
+          "name": "دجاج ترياكي",
+          "description": "دجاج بصلصة ترياكي وأرز.",
+          "image": "https://images.unsplash.com/photo-1533134242443-d4fd215305ad?w=800&q=80",
+          "price": 44,
+          "rating": 4.3,
+          "calories": 560,
+          "protein": 34,
+          "carbs": 55,
+          "fat": 16,
+          "category": "popular",
+          "isPopular": true,
+          "isOffer": false,
+          "offerPrice": null,
+          "spicyOption": false,
+          "cashbackPercent": null,
+          "addons": [
+            {
+              "id": "fries",
+              "name": "بطاطس مقلية",
+              "price": 8
+            },
+            {
+              "id": "cola",
+              "name": "كولا",
+              "price": 6
+            },
+            {
+              "id": "sauce",
+              "name": "صلصة إضافية",
+              "price": 3
+            },
+            {
+              "id": "bread",
+              "name": "خبز إضافي",
+              "price": 4
+            }
+          ]
+        },
+        {
+          "id": "tokyo-bite-5",
+          "restaurantId": "tokyo-bite",
+          "name": "كاتسو دون",
+          "description": "شينيتزل لحم مع أرز وبيض.",
+          "image": "https://images.unsplash.com/photo-1517248135467-4c7edcad34c4?w=800&q=80",
+          "price": 46,
+          "rating": 4.4,
+          "calories": 720,
+          "protein": 36,
+          "carbs": 60,
+          "fat": 28,
+          "category": "menu",
+          "isPopular": false,
+          "isOffer": false,
+          "offerPrice": null,
+          "spicyOption": false,
+          "cashbackPercent": null,
+          "addons": [
+            {
+              "id": "fries",
+              "name": "بطاطس مقلية",
+              "price": 8
+            },
+            {
+              "id": "cola",
+              "name": "كولا",
+              "price": 6
+            },
+            {
+              "id": "sauce",
+              "name": "صلصة إضافية",
+              "price": 3
+            },
+            {
+              "id": "bread",
+              "name": "خبز إضافي",
+              "price": 4
+            }
+          ]
+        },
+        {
+          "id": "tokyo-bite-6",
+          "restaurantId": "tokyo-bite",
+          "name": "إدامامي",
+          "description": "فول الصويا المملح.",
+          "image": "https://images.unsplash.com/photo-1546069901-ba9599a7e63c?w=800&q=80",
+          "price": 18,
+          "rating": 4.5,
+          "calories": 160,
+          "protein": 12,
+          "carbs": 10,
+          "fat": 6,
+          "category": "popular",
+          "isPopular": true,
+          "isOffer": false,
+          "offerPrice": null,
+          "spicyOption": false,
+          "cashbackPercent": null,
+          "addons": [
+            {
+              "id": "fries",
+              "name": "بطاطس مقلية",
+              "price": 8
+            },
+            {
+              "id": "cola",
+              "name": "كولا",
+              "price": 6
+            },
+            {
+              "id": "sauce",
+              "name": "صلصة إضافية",
+              "price": 3
+            },
+            {
+              "id": "bread",
+              "name": "خبز إضافي",
+              "price": 4
+            }
+          ]
+        },
+        {
+          "id": "tokyo-bite-7",
+          "restaurantId": "tokyo-bite",
+          "name": "تمبورا روبيان",
+          "description": "روبيان مقرمش مع صوص tentuyu.",
+          "image": "https://images.unsplash.com/photo-1455619452474-d2be8b1e70cd?w=800&q=80",
+          "price": 52,
+          "rating": 4.4,
+          "calories": 510,
+          "protein": 24,
+          "carbs": 42,
+          "fat": 26,
+          "category": "menu",
+          "isPopular": false,
+          "isOffer": false,
+          "offerPrice": null,
+          "spicyOption": false,
+          "cashbackPercent": null,
+          "addons": [
+            {
+              "id": "fries",
+              "name": "بطاطس مقلية",
+              "price": 8
+            },
+            {
+              "id": "cola",
+              "name": "كولا",
+              "price": 6
+            },
+            {
+              "id": "sauce",
+              "name": "صلصة إضافية",
+              "price": 3
+            },
+            {
+              "id": "bread",
+              "name": "خبز إضافي",
+              "price": 4
+            }
+          ]
+        },
+        {
+          "id": "tokyo-bite-8",
+          "restaurantId": "tokyo-bite",
+          "name": "ساشيمي مشكل",
+          "description": "تشكيلة سمك نيء.",
+          "image": "https://images.unsplash.com/photo-1598103442097-8b74394b95c6?w=800&q=80",
+          "price": 68,
+          "rating": 4.2,
+          "calories": 280,
+          "protein": 36,
+          "carbs": 4,
+          "fat": 10,
+          "category": "menu",
+          "isPopular": false,
+          "isOffer": false,
+          "offerPrice": null,
+          "spicyOption": false,
+          "cashbackPercent": null,
+          "addons": [
+            {
+              "id": "fries",
+              "name": "بطاطس مقلية",
+              "price": 8
+            },
+            {
+              "id": "cola",
+              "name": "كولا",
+              "price": 6
+            },
+            {
+              "id": "sauce",
+              "name": "صلصة إضافية",
+              "price": 3
+            },
+            {
+              "id": "bread",
+              "name": "خبز إضافي",
+              "price": 4
+            }
+          ]
+        },
+        {
+          "id": "tokyo-bite-9",
+          "restaurantId": "tokyo-bite",
+          "name": "جيوزا",
+          "description": "زلابية لحم مشوية.",
+          "image": "https://images.unsplash.com/photo-1563379926898-05f4575a45d8?w=800&q=80",
+          "price": 32,
+          "rating": 4.7,
+          "calories": 340,
+          "protein": 14,
+          "carbs": 28,
+          "fat": 16,
+          "category": "menu",
+          "isPopular": false,
+          "isOffer": false,
+          "offerPrice": null,
+          "spicyOption": false,
+          "cashbackPercent": null,
+          "addons": [
+            {
+              "id": "fries",
+              "name": "بطاطس مقلية",
+              "price": 8
+            },
+            {
+              "id": "cola",
+              "name": "كولا",
+              "price": 6
+            },
+            {
+              "id": "sauce",
+              "name": "صلصة إضافية",
+              "price": 3
+            },
+            {
+              "id": "bread",
+              "name": "خبز إضافي",
+              "price": 4
+            }
+          ]
+        },
+        {
+          "id": "tokyo-bite-10",
+          "restaurantId": "tokyo-bite",
+          "name": "موشي آيس كريم",
+          "description": "كرات أرز محشوة آيس كريم.",
+          "image": "https://images.unsplash.com/photo-1517248135467-4c7edcad34c4?w=800&q=80",
+          "price": 24,
+          "rating": 4.7,
+          "calories": 260,
+          "protein": 4,
+          "carbs": 36,
+          "fat": 10,
+          "category": "offers",
+          "isPopular": false,
+          "isOffer": true,
+          "offerPrice": 19,
+          "spicyOption": false,
+          "cashbackPercent": 5,
+          "addons": [
+            {
+              "id": "fries",
+              "name": "بطاطس مقلية",
+              "price": 8
+            },
+            {
+              "id": "cola",
+              "name": "كولا",
+              "price": 6
+            },
+            {
+              "id": "sauce",
+              "name": "صلصة إضافية",
+              "price": 3
+            },
+            {
+              "id": "bread",
+              "name": "خبز إضافي",
+              "price": 4
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "sakura-roll",
+      "name": "ساكورا رول",
+      "image": "https://images.unsplash.com/photo-1567620905732-2d1ec7ab7445?w=800&q=80",
+      "rating": 4.4,
+      "cuisine": "ياباني",
+      "deliveryTime": "30–45 د",
+      "deliveryFee": 12,
+      "minOrder": 45,
+      "distanceKm": 4.1,
+      "verified": true,
+      "tags": [
+        "ياباني",
+        "سوشي"
+      ],
+      "featured": null,
+      "open24h": null,
+      "fastDelivery": null,
+      "meals": [
+        {
+          "id": "sakura-roll-1",
+          "restaurantId": "sakura-roll",
+          "name": "سوشي سالمون",
+          "description": "قطع سالمون طازج على أرز.",
+          "image": "https://images.unsplash.com/photo-1529042410759-befb1204b468?w=800&q=80",
+          "price": 54,
+          "rating": 4.5,
+          "calories": 420,
+          "protein": 28,
+          "carbs": 48,
+          "fat": 12,
+          "category": "menu",
+          "isPopular": false,
+          "isOffer": false,
+          "offerPrice": null,
+          "spicyOption": false,
+          "cashbackPercent": null,
+          "addons": [
+            {
+              "id": "fries",
+              "name": "بطاطس مقلية",
+              "price": 8
+            },
+            {
+              "id": "cola",
+              "name": "كولا",
+              "price": 6
+            },
+            {
+              "id": "sauce",
+              "name": "صلصة إضافية",
+              "price": 3
+            },
+            {
+              "id": "bread",
+              "name": "خبز إضافي",
+              "price": 4
+            }
+          ]
+        },
+        {
+          "id": "sakura-roll-2",
+          "restaurantId": "sakura-roll",
+          "name": "رول كاليفورنيا",
+          "description": "كراب وأفوكادو وخيار.",
+          "image": "https://images.unsplash.com/photo-1498837167922-ddd27525d352?w=800&q=80",
+          "price": 42,
+          "rating": 4.7,
+          "calories": 380,
+          "protein": 16,
+          "carbs": 44,
+          "fat": 14,
+          "category": "menu",
+          "isPopular": false,
+          "isOffer": false,
+          "offerPrice": null,
+          "spicyOption": false,
+          "cashbackPercent": null,
+          "addons": [
+            {
+              "id": "fries",
+              "name": "بطاطس مقلية",
+              "price": 8
+            },
+            {
+              "id": "cola",
+              "name": "كولا",
+              "price": 6
+            },
+            {
+              "id": "sauce",
+              "name": "صلصة إضافية",
+              "price": 3
+            },
+            {
+              "id": "bread",
+              "name": "خبز إضافي",
+              "price": 4
+            }
+          ]
+        },
+        {
+          "id": "sakura-roll-3",
+          "restaurantId": "sakura-roll",
+          "name": "رامن تونكوستو",
+          "description": "مرق غني مع نودلز وبيض.",
+          "image": "https://images.unsplash.com/photo-1551782450-a2132b4ba21d?w=800&q=80",
+          "price": 48,
+          "rating": 4.6,
+          "calories": 680,
+          "protein": 32,
+          "carbs": 62,
+          "fat": 28,
+          "category": "menu",
+          "isPopular": false,
+          "isOffer": false,
+          "offerPrice": null,
+          "spicyOption": false,
+          "cashbackPercent": null,
+          "addons": [
+            {
+              "id": "fries",
+              "name": "بطاطس مقلية",
+              "price": 8
+            },
+            {
+              "id": "cola",
+              "name": "كولا",
+              "price": 6
+            },
+            {
+              "id": "sauce",
+              "name": "صلصة إضافية",
+              "price": 3
+            },
+            {
+              "id": "bread",
+              "name": "خبز إضافي",
+              "price": 4
+            }
+          ]
+        },
+        {
+          "id": "sakura-roll-4",
+          "restaurantId": "sakura-roll",
+          "name": "دجاج ترياكي",
+          "description": "دجاج بصلصة ترياكي وأرز.",
+          "image": "https://images.unsplash.com/photo-1585937421612-70a008356fbe?w=800&q=80",
+          "price": 44,
+          "rating": 4.6,
+          "calories": 560,
+          "protein": 34,
+          "carbs": 55,
+          "fat": 16,
+          "category": "popular",
+          "isPopular": true,
+          "isOffer": false,
+          "offerPrice": null,
+          "spicyOption": false,
+          "cashbackPercent": null,
+          "addons": [
+            {
+              "id": "fries",
+              "name": "بطاطس مقلية",
+              "price": 8
+            },
+            {
+              "id": "cola",
+              "name": "كولا",
+              "price": 6
+            },
+            {
+              "id": "sauce",
+              "name": "صلصة إضافية",
+              "price": 3
+            },
+            {
+              "id": "bread",
+              "name": "خبز إضافي",
+              "price": 4
+            }
+          ]
+        },
+        {
+          "id": "sakura-roll-5",
+          "restaurantId": "sakura-roll",
+          "name": "كاتسو دون",
+          "description": "شينيتزل لحم مع أرز وبيض.",
+          "image": "https://images.unsplash.com/photo-1512621776951-a57141f2eefd?w=800&q=80",
+          "price": 46,
+          "rating": 4.7,
+          "calories": 720,
+          "protein": 36,
+          "carbs": 60,
+          "fat": 28,
+          "category": "offers",
+          "isPopular": false,
+          "isOffer": true,
+          "offerPrice": 38,
+          "spicyOption": false,
+          "cashbackPercent": null,
+          "addons": [
+            {
+              "id": "fries",
+              "name": "بطاطس مقلية",
+              "price": 8
+            },
+            {
+              "id": "cola",
+              "name": "كولا",
+              "price": 6
+            },
+            {
+              "id": "sauce",
+              "name": "صلصة إضافية",
+              "price": 3
+            },
+            {
+              "id": "bread",
+              "name": "خبز إضافي",
+              "price": 4
+            }
+          ]
+        },
+        {
+          "id": "sakura-roll-6",
+          "restaurantId": "sakura-roll",
+          "name": "إدامامي",
+          "description": "فول الصويا المملح.",
+          "image": "https://images.unsplash.com/photo-1455619452474-d2be8b1e70cd?w=800&q=80",
+          "price": 18,
+          "rating": 4.4,
+          "calories": 160,
+          "protein": 12,
+          "carbs": 10,
+          "fat": 6,
+          "category": "menu",
+          "isPopular": false,
+          "isOffer": false,
+          "offerPrice": null,
+          "spicyOption": false,
+          "cashbackPercent": null,
+          "addons": [
+            {
+              "id": "fries",
+              "name": "بطاطس مقلية",
+              "price": 8
+            },
+            {
+              "id": "cola",
+              "name": "كولا",
+              "price": 6
+            },
+            {
+              "id": "sauce",
+              "name": "صلصة إضافية",
+              "price": 3
+            },
+            {
+              "id": "bread",
+              "name": "خبز إضافي",
+              "price": 4
+            }
+          ]
+        },
+        {
+          "id": "sakura-roll-7",
+          "restaurantId": "sakura-roll",
+          "name": "تمبورا روبيان",
+          "description": "روبيان مقرمش مع صوص tentuyu.",
+          "image": "https://images.unsplash.com/photo-1568901346375-23c9450c58cd?w=800&q=80",
+          "price": 52,
+          "rating": 4.2,
+          "calories": 510,
+          "protein": 24,
+          "carbs": 42,
+          "fat": 26,
+          "category": "offers",
+          "isPopular": false,
+          "isOffer": true,
+          "offerPrice": 46,
+          "spicyOption": false,
+          "cashbackPercent": null,
+          "addons": [
+            {
+              "id": "fries",
+              "name": "بطاطس مقلية",
+              "price": 8
+            },
+            {
+              "id": "cola",
+              "name": "كولا",
+              "price": 6
+            },
+            {
+              "id": "sauce",
+              "name": "صلصة إضافية",
+              "price": 3
+            },
+            {
+              "id": "bread",
+              "name": "خبز إضافي",
+              "price": 4
+            }
+          ]
+        },
+        {
+          "id": "sakura-roll-8",
+          "restaurantId": "sakura-roll",
+          "name": "ساشيمي مشكل",
+          "description": "تشكيلة سمك نيء.",
+          "image": "https://images.unsplash.com/photo-1601050690117-94f5f6fa8bd7?w=800&q=80",
+          "price": 68,
+          "rating": 4.3,
+          "calories": 280,
+          "protein": 36,
+          "carbs": 4,
+          "fat": 10,
+          "category": "menu",
+          "isPopular": false,
+          "isOffer": false,
+          "offerPrice": null,
+          "spicyOption": false,
+          "cashbackPercent": null,
+          "addons": [
+            {
+              "id": "fries",
+              "name": "بطاطس مقلية",
+              "price": 8
+            },
+            {
+              "id": "cola",
+              "name": "كولا",
+              "price": 6
+            },
+            {
+              "id": "sauce",
+              "name": "صلصة إضافية",
+              "price": 3
+            },
+            {
+              "id": "bread",
+              "name": "خبز إضافي",
+              "price": 4
+            }
+          ]
+        },
+        {
+          "id": "sakura-roll-9",
+          "restaurantId": "sakura-roll",
+          "name": "جيوزا",
+          "description": "زلابية لحم مشوية.",
+          "image": "https://images.unsplash.com/photo-1553621042-f6e147245754?w=800&q=80",
+          "price": 32,
+          "rating": 4.3,
+          "calories": 340,
+          "protein": 14,
+          "carbs": 28,
+          "fat": 16,
+          "category": "menu",
+          "isPopular": false,
+          "isOffer": false,
+          "offerPrice": null,
+          "spicyOption": false,
+          "cashbackPercent": null,
+          "addons": [
+            {
+              "id": "fries",
+              "name": "بطاطس مقلية",
+              "price": 8
+            },
+            {
+              "id": "cola",
+              "name": "كولا",
+              "price": 6
+            },
+            {
+              "id": "sauce",
+              "name": "صلصة إضافية",
+              "price": 3
+            },
+            {
+              "id": "bread",
+              "name": "خبز إضافي",
+              "price": 4
+            }
+          ]
+        },
+        {
+          "id": "sakura-roll-10",
+          "restaurantId": "sakura-roll",
+          "name": "موشي آيس كريم",
+          "description": "كرات أرز محشوة آيس كريم.",
+          "image": "https://images.unsplash.com/photo-1572490122747-3968b75cc699?w=800&q=80",
+          "price": 24,
+          "rating": 4.9,
+          "calories": 260,
+          "protein": 4,
+          "carbs": 36,
+          "fat": 10,
+          "category": "popular",
+          "isPopular": true,
+          "isOffer": false,
+          "offerPrice": null,
+          "spicyOption": false,
+          "cashbackPercent": null,
+          "addons": [
+            {
+              "id": "fries",
+              "name": "بطاطس مقلية",
+              "price": 8
+            },
+            {
+              "id": "cola",
+              "name": "كولا",
+              "price": 6
+            },
+            {
+              "id": "sauce",
+              "name": "صلصة إضافية",
+              "price": 3
+            },
+            {
+              "id": "bread",
+              "name": "خبز إضافي",
+              "price": 4
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "umami-house",
+      "name": "بيت الأومامي",
+      "image": "https://images.unsplash.com/photo-1553621042-f6e147245754?w=800&q=80",
+      "rating": 4.5,
+      "cuisine": "ياباني",
+      "deliveryTime": "20–30 د",
+      "deliveryFee": 12,
+      "minOrder": 30,
+      "distanceKm": 2.1,
+      "verified": true,
+      "tags": [
+        "ياباني",
+        "سوشي"
+      ],
+      "featured": true,
+      "open24h": true,
+      "fastDelivery": true,
+      "meals": [
+        {
+          "id": "umami-house-1",
+          "restaurantId": "umami-house",
+          "name": "سوشي سالمون",
+          "description": "قطع سالمون طازج على أرز.",
+          "image": "https://images.unsplash.com/photo-1529006557810-274b9b2fc783?w=800&q=80",
+          "price": 54,
+          "rating": 4.8,
+          "calories": 420,
+          "protein": 28,
+          "carbs": 48,
+          "fat": 12,
+          "category": "menu",
+          "isPopular": false,
+          "isOffer": false,
+          "offerPrice": null,
+          "spicyOption": false,
+          "cashbackPercent": null,
+          "addons": [
+            {
+              "id": "fries",
+              "name": "بطاطس مقلية",
+              "price": 8
+            },
+            {
+              "id": "cola",
+              "name": "كولا",
+              "price": 6
+            },
+            {
+              "id": "sauce",
+              "name": "صلصة إضافية",
+              "price": 3
+            },
+            {
+              "id": "bread",
+              "name": "خبز إضافي",
+              "price": 4
+            }
+          ]
+        },
+        {
+          "id": "umami-house-2",
+          "restaurantId": "umami-house",
+          "name": "رول كاليفورنيا",
+          "description": "كراب وأفوكادو وخيار.",
+          "image": "https://images.unsplash.com/photo-1552566626-52f8b828add9?w=800&q=80",
+          "price": 42,
+          "rating": 4.5,
+          "calories": 380,
+          "protein": 16,
+          "carbs": 44,
+          "fat": 14,
+          "category": "offers",
+          "isPopular": false,
+          "isOffer": true,
+          "offerPrice": 34,
+          "spicyOption": false,
+          "cashbackPercent": 15,
+          "addons": [
+            {
+              "id": "fries",
+              "name": "بطاطس مقلية",
+              "price": 8
+            },
+            {
+              "id": "cola",
+              "name": "كولا",
+              "price": 6
+            },
+            {
+              "id": "sauce",
+              "name": "صلصة إضافية",
+              "price": 3
+            },
+            {
+              "id": "bread",
+              "name": "خبز إضافي",
+              "price": 4
+            }
+          ]
+        },
+        {
+          "id": "umami-house-3",
+          "restaurantId": "umami-house",
+          "name": "رامن تونكوستو",
+          "description": "مرق غني مع نودلز وبيض.",
+          "image": "https://images.unsplash.com/photo-1519676867240-f03562e64548?w=800&q=80",
+          "price": 48,
+          "rating": 4.2,
+          "calories": 680,
+          "protein": 32,
+          "carbs": 62,
+          "fat": 28,
+          "category": "menu",
+          "isPopular": false,
+          "isOffer": false,
+          "offerPrice": null,
+          "spicyOption": false,
+          "cashbackPercent": null,
+          "addons": [
+            {
+              "id": "fries",
+              "name": "بطاطس مقلية",
+              "price": 8
+            },
+            {
+              "id": "cola",
+              "name": "كولا",
+              "price": 6
+            },
+            {
+              "id": "sauce",
+              "name": "صلصة إضافية",
+              "price": 3
+            },
+            {
+              "id": "bread",
+              "name": "خبز إضافي",
+              "price": 4
+            }
+          ]
+        },
+        {
+          "id": "umami-house-4",
+          "restaurantId": "umami-house",
+          "name": "دجاج ترياكي",
+          "description": "دجاج بصلصة ترياكي وأرز.",
+          "image": "https://images.unsplash.com/photo-1572490122747-3968b75cc699?w=800&q=80",
+          "price": 44,
+          "rating": 4.7,
+          "calories": 560,
+          "protein": 34,
+          "carbs": 55,
+          "fat": 16,
+          "category": "popular",
+          "isPopular": true,
+          "isOffer": false,
+          "offerPrice": null,
+          "spicyOption": false,
+          "cashbackPercent": null,
+          "addons": [
+            {
+              "id": "fries",
+              "name": "بطاطس مقلية",
+              "price": 8
+            },
+            {
+              "id": "cola",
+              "name": "كولا",
+              "price": 6
+            },
+            {
+              "id": "sauce",
+              "name": "صلصة إضافية",
+              "price": 3
+            },
+            {
+              "id": "bread",
+              "name": "خبز إضافي",
+              "price": 4
+            }
+          ]
+        },
+        {
+          "id": "umami-house-5",
+          "restaurantId": "umami-house",
+          "name": "كاتسو دون",
+          "description": "شينيتزل لحم مع أرز وبيض.",
+          "image": "https://images.unsplash.com/photo-1603360946369-dc9bb6258143?w=800&q=80",
+          "price": 46,
+          "rating": 4.6,
+          "calories": 720,
+          "protein": 36,
+          "carbs": 60,
+          "fat": 28,
+          "category": "offers",
+          "isPopular": false,
+          "isOffer": true,
+          "offerPrice": 40,
+          "spicyOption": false,
+          "cashbackPercent": null,
+          "addons": [
+            {
+              "id": "fries",
+              "name": "بطاطس مقلية",
+              "price": 8
+            },
+            {
+              "id": "cola",
+              "name": "كولا",
+              "price": 6
+            },
+            {
+              "id": "sauce",
+              "name": "صلصة إضافية",
+              "price": 3
+            },
+            {
+              "id": "bread",
+              "name": "خبز إضافي",
+              "price": 4
+            }
+          ]
+        },
+        {
+          "id": "umami-house-6",
+          "restaurantId": "umami-house",
+          "name": "إدامامي",
+          "description": "فول الصويا المملح.",
+          "image": "https://images.unsplash.com/photo-1604908176997-125f25cc6f3d?w=800&q=80",
+          "price": 18,
+          "rating": 4.8,
+          "calories": 160,
+          "protein": 12,
+          "carbs": 10,
+          "fat": 6,
+          "category": "menu",
+          "isPopular": false,
+          "isOffer": false,
+          "offerPrice": null,
+          "spicyOption": false,
+          "cashbackPercent": null,
+          "addons": [
+            {
+              "id": "fries",
+              "name": "بطاطس مقلية",
+              "price": 8
+            },
+            {
+              "id": "cola",
+              "name": "كولا",
+              "price": 6
+            },
+            {
+              "id": "sauce",
+              "name": "صلصة إضافية",
+              "price": 3
+            },
+            {
+              "id": "bread",
+              "name": "خبز إضافي",
+              "price": 4
+            }
+          ]
+        },
+        {
+          "id": "umami-house-7",
+          "restaurantId": "umami-house",
+          "name": "تمبورا روبيان",
+          "description": "روبيان مقرمش مع صوص tentuyu.",
+          "image": "https://images.unsplash.com/photo-1506084868230-bb9d95c24759?w=800&q=80",
+          "price": 52,
+          "rating": 4.6,
+          "calories": 510,
+          "protein": 24,
+          "carbs": 42,
+          "fat": 26,
+          "category": "popular",
+          "isPopular": true,
+          "isOffer": false,
+          "offerPrice": null,
+          "spicyOption": false,
+          "cashbackPercent": null,
+          "addons": [
+            {
+              "id": "fries",
+              "name": "بطاطس مقلية",
+              "price": 8
+            },
+            {
+              "id": "cola",
+              "name": "كولا",
+              "price": 6
+            },
+            {
+              "id": "sauce",
+              "name": "صلصة إضافية",
+              "price": 3
+            },
+            {
+              "id": "bread",
+              "name": "خبز إضافي",
+              "price": 4
+            }
+          ]
+        },
+        {
+          "id": "umami-house-8",
+          "restaurantId": "umami-house",
+          "name": "ساشيمي مشكل",
+          "description": "تشكيلة سمك نيء.",
+          "image": "https://images.unsplash.com/photo-1585937421612-70a008356fbe?w=800&q=80",
+          "price": 68,
+          "rating": 4.2,
+          "calories": 280,
+          "protein": 36,
+          "carbs": 4,
+          "fat": 10,
+          "category": "menu",
+          "isPopular": false,
+          "isOffer": false,
+          "offerPrice": null,
+          "spicyOption": false,
+          "cashbackPercent": null,
+          "addons": [
+            {
+              "id": "fries",
+              "name": "بطاطس مقلية",
+              "price": 8
+            },
+            {
+              "id": "cola",
+              "name": "كولا",
+              "price": 6
+            },
+            {
+              "id": "sauce",
+              "name": "صلصة إضافية",
+              "price": 3
+            },
+            {
+              "id": "bread",
+              "name": "خبز إضافي",
+              "price": 4
+            }
+          ]
+        },
+        {
+          "id": "umami-house-9",
+          "restaurantId": "umami-house",
+          "name": "جيوزا",
+          "description": "زلابية لحم مشوية.",
+          "image": "https://images.unsplash.com/photo-1512621776951-a57141f2eefd?w=800&q=80",
+          "price": 32,
+          "rating": 4.6,
+          "calories": 340,
+          "protein": 14,
+          "carbs": 28,
+          "fat": 16,
+          "category": "offers",
+          "isPopular": false,
+          "isOffer": true,
+          "offerPrice": 24,
+          "spicyOption": false,
+          "cashbackPercent": null,
+          "addons": [
+            {
+              "id": "fries",
+              "name": "بطاطس مقلية",
+              "price": 8
+            },
+            {
+              "id": "cola",
+              "name": "كولا",
+              "price": 6
+            },
+            {
+              "id": "sauce",
+              "name": "صلصة إضافية",
+              "price": 3
+            },
+            {
+              "id": "bread",
+              "name": "خبز إضافي",
+              "price": 4
+            }
+          ]
+        },
+        {
+          "id": "umami-house-10",
+          "restaurantId": "umami-house",
+          "name": "موشي آيس كريم",
+          "description": "كرات أرز محشوة آيس كريم.",
+          "image": "https://images.unsplash.com/photo-1571091718767-18b5b1457add?w=800&q=80",
+          "price": 24,
+          "rating": 4.3,
+          "calories": 260,
+          "protein": 4,
+          "carbs": 36,
+          "fat": 10,
+          "category": "offers",
+          "isPopular": false,
+          "isOffer": true,
+          "offerPrice": 21,
+          "spicyOption": false,
+          "cashbackPercent": 10,
+          "addons": [
+            {
+              "id": "fries",
+              "name": "بطاطس مقلية",
+              "price": 8
+            },
+            {
+              "id": "cola",
+              "name": "كولا",
+              "price": 6
+            },
+            {
+              "id": "sauce",
+              "name": "صلصة إضافية",
+              "price": 3
+            },
+            {
+              "id": "bread",
+              "name": "خبز إضافي",
+              "price": 4
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "nori-kitchen",
+      "name": "مطبخ النوري",
+      "image": "https://images.unsplash.com/photo-1498837167922-ddd27525d352?w=800&q=80",
+      "rating": 4.4,
+      "cuisine": "ياباني",
+      "deliveryTime": "40–55 د",
+      "deliveryFee": 0,
+      "minOrder": 50,
+      "distanceKm": 1.5,
+      "verified": null,
+      "tags": [
+        "ياباني",
+        "سوشي"
+      ],
+      "featured": true,
+      "open24h": null,
+      "fastDelivery": true,
+      "meals": [
+        {
+          "id": "nori-kitchen-1",
+          "restaurantId": "nori-kitchen",
+          "name": "سوشي سالمون",
+          "description": "قطع سالمون طازج على أرز.",
+          "image": "https://images.unsplash.com/photo-1513104890138-7c749659a591?w=800&q=80",
+          "price": 54,
+          "rating": 4.2,
+          "calories": 420,
+          "protein": 28,
+          "carbs": 48,
+          "fat": 12,
+          "category": "popular",
+          "isPopular": true,
+          "isOffer": false,
+          "offerPrice": null,
+          "spicyOption": false,
+          "cashbackPercent": null,
+          "addons": [
+            {
+              "id": "fries",
+              "name": "بطاطس مقلية",
+              "price": 8
+            },
+            {
+              "id": "cola",
+              "name": "كولا",
+              "price": 6
+            },
+            {
+              "id": "sauce",
+              "name": "صلصة إضافية",
+              "price": 3
+            },
+            {
+              "id": "bread",
+              "name": "خبز إضافي",
+              "price": 4
+            }
+          ]
+        },
+        {
+          "id": "nori-kitchen-2",
+          "restaurantId": "nori-kitchen",
+          "name": "رول كاليفورنيا",
+          "description": "كراب وأفوكادو وخيار.",
+          "image": "https://images.unsplash.com/photo-1540189549336-e6e99c3679fe?w=800&q=80",
+          "price": 42,
+          "rating": 4.9,
+          "calories": 380,
+          "protein": 16,
+          "carbs": 44,
+          "fat": 14,
+          "category": "offers",
+          "isPopular": false,
+          "isOffer": true,
+          "offerPrice": 36,
+          "spicyOption": false,
+          "cashbackPercent": 10,
+          "addons": [
+            {
+              "id": "fries",
+              "name": "بطاطس مقلية",
+              "price": 8
+            },
+            {
+              "id": "cola",
+              "name": "كولا",
+              "price": 6
+            },
+            {
+              "id": "sauce",
+              "name": "صلصة إضافية",
+              "price": 3
+            },
+            {
+              "id": "bread",
+              "name": "خبز إضافي",
+              "price": 4
+            }
+          ]
+        },
+        {
+          "id": "nori-kitchen-3",
+          "restaurantId": "nori-kitchen",
+          "name": "رامن تونكوستو",
+          "description": "مرق غني مع نودلز وبيض.",
+          "image": "https://images.unsplash.com/photo-1504674900247-0877df9cc836?w=800&q=80",
+          "price": 48,
+          "rating": 4.4,
+          "calories": 680,
+          "protein": 32,
+          "carbs": 62,
+          "fat": 28,
+          "category": "menu",
+          "isPopular": false,
+          "isOffer": false,
+          "offerPrice": null,
+          "spicyOption": false,
+          "cashbackPercent": null,
+          "addons": [
+            {
+              "id": "fries",
+              "name": "بطاطس مقلية",
+              "price": 8
+            },
+            {
+              "id": "cola",
+              "name": "كولا",
+              "price": 6
+            },
+            {
+              "id": "sauce",
+              "name": "صلصة إضافية",
+              "price": 3
+            },
+            {
+              "id": "bread",
+              "name": "خبز إضافي",
+              "price": 4
+            }
+          ]
+        },
+        {
+          "id": "nori-kitchen-4",
+          "restaurantId": "nori-kitchen",
+          "name": "دجاج ترياكي",
+          "description": "دجاج بصلصة ترياكي وأرز.",
+          "image": "https://images.unsplash.com/photo-1484723091739-30a097e8f929?w=800&q=80",
+          "price": 44,
+          "rating": 4.6,
+          "calories": 560,
+          "protein": 34,
+          "carbs": 55,
+          "fat": 16,
+          "category": "popular",
+          "isPopular": true,
+          "isOffer": false,
+          "offerPrice": null,
+          "spicyOption": false,
+          "cashbackPercent": null,
+          "addons": [
+            {
+              "id": "fries",
+              "name": "بطاطس مقلية",
+              "price": 8
+            },
+            {
+              "id": "cola",
+              "name": "كولا",
+              "price": 6
+            },
+            {
+              "id": "sauce",
+              "name": "صلصة إضافية",
+              "price": 3
+            },
+            {
+              "id": "bread",
+              "name": "خبز إضافي",
+              "price": 4
+            }
+          ]
+        },
+        {
+          "id": "nori-kitchen-5",
+          "restaurantId": "nori-kitchen",
+          "name": "كاتسو دون",
+          "description": "شينيتزل لحم مع أرز وبيض.",
+          "image": "https://images.unsplash.com/photo-1498837167922-ddd27525d352?w=800&q=80",
+          "price": 46,
+          "rating": 4.8,
+          "calories": 720,
+          "protein": 36,
+          "carbs": 60,
+          "fat": 28,
+          "category": "menu",
+          "isPopular": false,
+          "isOffer": false,
+          "offerPrice": null,
+          "spicyOption": false,
+          "cashbackPercent": null,
+          "addons": [
+            {
+              "id": "fries",
+              "name": "بطاطس مقلية",
+              "price": 8
+            },
+            {
+              "id": "cola",
+              "name": "كولا",
+              "price": 6
+            },
+            {
+              "id": "sauce",
+              "name": "صلصة إضافية",
+              "price": 3
+            },
+            {
+              "id": "bread",
+              "name": "خبز إضافي",
+              "price": 4
+            }
+          ]
+        },
+        {
+          "id": "nori-kitchen-6",
+          "restaurantId": "nori-kitchen",
+          "name": "إدامامي",
+          "description": "فول الصويا المملح.",
+          "image": "https://images.unsplash.com/photo-1600891964599-f61ba0e24092?w=800&q=80",
+          "price": 18,
+          "rating": 4.4,
+          "calories": 160,
+          "protein": 12,
+          "carbs": 10,
+          "fat": 6,
+          "category": "menu",
+          "isPopular": false,
+          "isOffer": false,
+          "offerPrice": null,
+          "spicyOption": false,
+          "cashbackPercent": null,
+          "addons": [
+            {
+              "id": "fries",
+              "name": "بطاطس مقلية",
+              "price": 8
+            },
+            {
+              "id": "cola",
+              "name": "كولا",
+              "price": 6
+            },
+            {
+              "id": "sauce",
+              "name": "صلصة إضافية",
+              "price": 3
+            },
+            {
+              "id": "bread",
+              "name": "خبز إضافي",
+              "price": 4
+            }
+          ]
+        },
+        {
+          "id": "nori-kitchen-7",
+          "restaurantId": "nori-kitchen",
+          "name": "تمبورا روبيان",
+          "description": "روبيان مقرمش مع صوص tentuyu.",
+          "image": "https://images.unsplash.com/photo-1603360946369-dc9bb6258143?w=800&q=80",
+          "price": 52,
+          "rating": 4.1,
+          "calories": 510,
+          "protein": 24,
+          "carbs": 42,
+          "fat": 26,
+          "category": "offers",
+          "isPopular": false,
+          "isOffer": true,
+          "offerPrice": 45,
+          "spicyOption": false,
+          "cashbackPercent": 5,
+          "addons": [
+            {
+              "id": "fries",
+              "name": "بطاطس مقلية",
+              "price": 8
+            },
+            {
+              "id": "cola",
+              "name": "كولا",
+              "price": 6
+            },
+            {
+              "id": "sauce",
+              "name": "صلصة إضافية",
+              "price": 3
+            },
+            {
+              "id": "bread",
+              "name": "خبز إضافي",
+              "price": 4
+            }
+          ]
+        },
+        {
+          "id": "nori-kitchen-8",
+          "restaurantId": "nori-kitchen",
+          "name": "ساشيمي مشكل",
+          "description": "تشكيلة سمك نيء.",
+          "image": "https://images.unsplash.com/photo-1512621776951-a57141f2eefd?w=800&q=80",
+          "price": 68,
+          "rating": 4.3,
+          "calories": 280,
+          "protein": 36,
+          "carbs": 4,
+          "fat": 10,
+          "category": "popular",
+          "isPopular": true,
+          "isOffer": false,
+          "offerPrice": null,
+          "spicyOption": false,
+          "cashbackPercent": null,
+          "addons": [
+            {
+              "id": "fries",
+              "name": "بطاطس مقلية",
+              "price": 8
+            },
+            {
+              "id": "cola",
+              "name": "كولا",
+              "price": 6
+            },
+            {
+              "id": "sauce",
+              "name": "صلصة إضافية",
+              "price": 3
+            },
+            {
+              "id": "bread",
+              "name": "خبز إضافي",
+              "price": 4
+            }
+          ]
+        },
+        {
+          "id": "nori-kitchen-9",
+          "restaurantId": "nori-kitchen",
+          "name": "جيوزا",
+          "description": "زلابية لحم مشوية.",
+          "image": "https://images.unsplash.com/photo-1542838132-92c53300491e?w=800&q=80",
+          "price": 32,
+          "rating": 4.3,
+          "calories": 340,
+          "protein": 14,
+          "carbs": 28,
+          "fat": 16,
+          "category": "popular",
+          "isPopular": true,
+          "isOffer": false,
+          "offerPrice": null,
+          "spicyOption": false,
+          "cashbackPercent": null,
+          "addons": [
+            {
+              "id": "fries",
+              "name": "بطاطس مقلية",
+              "price": 8
+            },
+            {
+              "id": "cola",
+              "name": "كولا",
+              "price": 6
+            },
+            {
+              "id": "sauce",
+              "name": "صلصة إضافية",
+              "price": 3
+            },
+            {
+              "id": "bread",
+              "name": "خبز إضافي",
+              "price": 4
+            }
+          ]
+        },
+        {
+          "id": "nori-kitchen-10",
+          "restaurantId": "nori-kitchen",
+          "name": "موشي آيس كريم",
+          "description": "كرات أرز محشوة آيس كريم.",
+          "image": "https://images.unsplash.com/photo-1626645738196-c2a7c87a8f58?w=800&q=80",
+          "price": 24,
+          "rating": 4.5,
+          "calories": 260,
+          "protein": 4,
+          "carbs": 36,
+          "fat": 10,
+          "category": "offers",
+          "isPopular": false,
+          "isOffer": true,
+          "offerPrice": 19,
+          "spicyOption": false,
+          "cashbackPercent": null,
+          "addons": [
+            {
+              "id": "fries",
+              "name": "بطاطس مقلية",
+              "price": 8
+            },
+            {
+              "id": "cola",
+              "name": "كولا",
+              "price": 6
+            },
+            {
+              "id": "sauce",
+              "name": "صلصة إضافية",
+              "price": 3
+            },
+            {
+              "id": "bread",
+              "name": "خبز إضافي",
+              "price": 4
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "ramen-lane",
+      "name": "شارع الرامن",
+      "image": "https://images.unsplash.com/photo-1565958011703-44f9829ba187?w=800&q=80",
+      "rating": 4.5,
+      "cuisine": "ياباني",
+      "deliveryTime": "30–45 د",
+      "deliveryFee": 5,
+      "minOrder": 30,
+      "distanceKm": 0.8,
+      "verified": null,
+      "tags": [
+        "ياباني",
+        "سوشي"
+      ],
+      "featured": null,
+      "open24h": null,
+      "fastDelivery": true,
+      "meals": [
+        {
+          "id": "ramen-lane-1",
+          "restaurantId": "ramen-lane",
+          "name": "سوشي سالمون",
+          "description": "قطع سالمون طازج على أرز.",
+          "image": "https://images.unsplash.com/photo-1600891964599-f61ba0e24092?w=800&q=80",
+          "price": 54,
+          "rating": 4.4,
+          "calories": 420,
+          "protein": 28,
+          "carbs": 48,
+          "fat": 12,
+          "category": "popular",
+          "isPopular": true,
+          "isOffer": false,
+          "offerPrice": null,
+          "spicyOption": false,
+          "cashbackPercent": null,
+          "addons": [
+            {
+              "id": "fries",
+              "name": "بطاطس مقلية",
+              "price": 8
+            },
+            {
+              "id": "cola",
+              "name": "كولا",
+              "price": 6
+            },
+            {
+              "id": "sauce",
+              "name": "صلصة إضافية",
+              "price": 3
+            },
+            {
+              "id": "bread",
+              "name": "خبز إضافي",
+              "price": 4
+            }
+          ]
+        },
+        {
+          "id": "ramen-lane-2",
+          "restaurantId": "ramen-lane",
+          "name": "رول كاليفورنيا",
+          "description": "كراب وأفوكادو وخيار.",
+          "image": "https://images.unsplash.com/photo-1551782450-a2132b4ba21d?w=800&q=80",
+          "price": 42,
+          "rating": 4.7,
+          "calories": 380,
+          "protein": 16,
+          "carbs": 44,
+          "fat": 14,
+          "category": "offers",
+          "isPopular": false,
+          "isOffer": true,
+          "offerPrice": 36,
+          "spicyOption": false,
+          "cashbackPercent": null,
+          "addons": [
+            {
+              "id": "fries",
+              "name": "بطاطس مقلية",
+              "price": 8
+            },
+            {
+              "id": "cola",
+              "name": "كولا",
+              "price": 6
+            },
+            {
+              "id": "sauce",
+              "name": "صلصة إضافية",
+              "price": 3
+            },
+            {
+              "id": "bread",
+              "name": "خبز إضافي",
+              "price": 4
+            }
+          ]
+        },
+        {
+          "id": "ramen-lane-3",
+          "restaurantId": "ramen-lane",
+          "name": "رامن تونكوستو",
+          "description": "مرق غني مع نودلز وبيض.",
+          "image": "https://images.unsplash.com/photo-1604908176997-125f25cc6f3d?w=800&q=80",
+          "price": 48,
+          "rating": 4.6,
+          "calories": 680,
+          "protein": 32,
+          "carbs": 62,
+          "fat": 28,
+          "category": "popular",
+          "isPopular": true,
+          "isOffer": false,
+          "offerPrice": null,
+          "spicyOption": false,
+          "cashbackPercent": null,
+          "addons": [
+            {
+              "id": "fries",
+              "name": "بطاطس مقلية",
+              "price": 8
+            },
+            {
+              "id": "cola",
+              "name": "كولا",
+              "price": 6
+            },
+            {
+              "id": "sauce",
+              "name": "صلصة إضافية",
+              "price": 3
+            },
+            {
+              "id": "bread",
+              "name": "خبز إضافي",
+              "price": 4
+            }
+          ]
+        },
+        {
+          "id": "ramen-lane-4",
+          "restaurantId": "ramen-lane",
+          "name": "دجاج ترياكي",
+          "description": "دجاج بصلصة ترياكي وأرز.",
+          "image": "https://images.unsplash.com/photo-1542838132-92c53300491e?w=800&q=80",
+          "price": 44,
+          "rating": 4.4,
+          "calories": 560,
+          "protein": 34,
+          "carbs": 55,
+          "fat": 16,
+          "category": "popular",
+          "isPopular": true,
+          "isOffer": false,
+          "offerPrice": null,
+          "spicyOption": false,
+          "cashbackPercent": null,
+          "addons": [
+            {
+              "id": "fries",
+              "name": "بطاطس مقلية",
+              "price": 8
+            },
+            {
+              "id": "cola",
+              "name": "كولا",
+              "price": 6
+            },
+            {
+              "id": "sauce",
+              "name": "صلصة إضافية",
+              "price": 3
+            },
+            {
+              "id": "bread",
+              "name": "خبز إضافي",
+              "price": 4
+            }
+          ]
+        },
+        {
+          "id": "ramen-lane-5",
+          "restaurantId": "ramen-lane",
+          "name": "كاتسو دون",
+          "description": "شينيتزل لحم مع أرز وبيض.",
+          "image": "https://images.unsplash.com/photo-1533134242443-d4fd215305ad?w=800&q=80",
+          "price": 46,
+          "rating": 4.8,
+          "calories": 720,
+          "protein": 36,
+          "carbs": 60,
+          "fat": 28,
+          "category": "popular",
+          "isPopular": true,
+          "isOffer": false,
+          "offerPrice": null,
+          "spicyOption": false,
+          "cashbackPercent": null,
+          "addons": [
+            {
+              "id": "fries",
+              "name": "بطاطس مقلية",
+              "price": 8
+            },
+            {
+              "id": "cola",
+              "name": "كولا",
+              "price": 6
+            },
+            {
+              "id": "sauce",
+              "name": "صلصة إضافية",
+              "price": 3
+            },
+            {
+              "id": "bread",
+              "name": "خبز إضافي",
+              "price": 4
+            }
+          ]
+        },
+        {
+          "id": "ramen-lane-6",
+          "restaurantId": "ramen-lane",
+          "name": "إدامامي",
+          "description": "فول الصويا المملح.",
+          "image": "https://images.unsplash.com/photo-1582878826629-29b7ad1cdc43?w=800&q=80",
+          "price": 18,
+          "rating": 4.4,
+          "calories": 160,
+          "protein": 12,
+          "carbs": 10,
+          "fat": 6,
+          "category": "menu",
+          "isPopular": false,
+          "isOffer": false,
+          "offerPrice": null,
+          "spicyOption": false,
+          "cashbackPercent": null,
+          "addons": [
+            {
+              "id": "fries",
+              "name": "بطاطس مقلية",
+              "price": 8
+            },
+            {
+              "id": "cola",
+              "name": "كولا",
+              "price": 6
+            },
+            {
+              "id": "sauce",
+              "name": "صلصة إضافية",
+              "price": 3
+            },
+            {
+              "id": "bread",
+              "name": "خبز إضافي",
+              "price": 4
+            }
+          ]
+        },
+        {
+          "id": "ramen-lane-7",
+          "restaurantId": "ramen-lane",
+          "name": "تمبورا روبيان",
+          "description": "روبيان مقرمش مع صوص tentuyu.",
+          "image": "https://images.unsplash.com/photo-1555939594-58d7cb561ad1?w=800&q=80",
+          "price": 52,
+          "rating": 4.9,
+          "calories": 510,
+          "protein": 24,
+          "carbs": 42,
+          "fat": 26,
+          "category": "menu",
+          "isPopular": false,
+          "isOffer": false,
+          "offerPrice": null,
+          "spicyOption": false,
+          "cashbackPercent": null,
+          "addons": [
+            {
+              "id": "fries",
+              "name": "بطاطس مقلية",
+              "price": 8
+            },
+            {
+              "id": "cola",
+              "name": "كولا",
+              "price": 6
+            },
+            {
+              "id": "sauce",
+              "name": "صلصة إضافية",
+              "price": 3
+            },
+            {
+              "id": "bread",
+              "name": "خبز إضافي",
+              "price": 4
+            }
+          ]
+        },
+        {
+          "id": "ramen-lane-8",
+          "restaurantId": "ramen-lane",
+          "name": "ساشيمي مشكل",
+          "description": "تشكيلة سمك نيء.",
+          "image": "https://images.unsplash.com/photo-1482049016688-2d3e1b311543?w=800&q=80",
+          "price": 68,
+          "rating": 4.9,
+          "calories": 280,
+          "protein": 36,
+          "carbs": 4,
+          "fat": 10,
+          "category": "menu",
+          "isPopular": false,
+          "isOffer": false,
+          "offerPrice": null,
+          "spicyOption": false,
+          "cashbackPercent": null,
+          "addons": [
+            {
+              "id": "fries",
+              "name": "بطاطس مقلية",
+              "price": 8
+            },
+            {
+              "id": "cola",
+              "name": "كولا",
+              "price": 6
+            },
+            {
+              "id": "sauce",
+              "name": "صلصة إضافية",
+              "price": 3
+            },
+            {
+              "id": "bread",
+              "name": "خبز إضافي",
+              "price": 4
+            }
+          ]
+        },
+        {
+          "id": "ramen-lane-9",
+          "restaurantId": "ramen-lane",
+          "name": "جيوزا",
+          "description": "زلابية لحم مشوية.",
+          "image": "https://images.unsplash.com/photo-1553621042-f6e147245754?w=800&q=80",
+          "price": 32,
+          "rating": 4.6,
+          "calories": 340,
+          "protein": 14,
+          "carbs": 28,
+          "fat": 16,
+          "category": "menu",
+          "isPopular": false,
+          "isOffer": false,
+          "offerPrice": null,
+          "spicyOption": false,
+          "cashbackPercent": null,
+          "addons": [
+            {
+              "id": "fries",
+              "name": "بطاطس مقلية",
+              "price": 8
+            },
+            {
+              "id": "cola",
+              "name": "كولا",
+              "price": 6
+            },
+            {
+              "id": "sauce",
+              "name": "صلصة إضافية",
+              "price": 3
+            },
+            {
+              "id": "bread",
+              "name": "خبز إضافي",
+              "price": 4
+            }
+          ]
+        },
+        {
+          "id": "ramen-lane-10",
+          "restaurantId": "ramen-lane",
+          "name": "موشي آيس كريم",
+          "description": "كرات أرز محشوة آيس كريم.",
+          "image": "https://images.unsplash.com/photo-1601050690117-94f5f6fa8bd7?w=800&q=80",
+          "price": 24,
+          "rating": 4.6,
+          "calories": 260,
+          "protein": 4,
+          "carbs": 36,
+          "fat": 10,
+          "category": "menu",
+          "isPopular": false,
+          "isOffer": false,
+          "offerPrice": null,
+          "spicyOption": false,
+          "cashbackPercent": null,
+          "addons": [
+            {
+              "id": "fries",
+              "name": "بطاطس مقلية",
+              "price": 8
+            },
+            {
+              "id": "cola",
+              "name": "كولا",
+              "price": 6
+            },
+            {
+              "id": "sauce",
+              "name": "صلصة إضافية",
+              "price": 3
+            },
+            {
+              "id": "bread",
+              "name": "خبز إضافي",
+              "price": 4
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "wasabi-bar",
+      "name": "واسابي بار",
+      "image": "https://images.unsplash.com/photo-1606313564200-e75d5e30476c?w=800&q=80",
+      "rating": 4.9,
+      "cuisine": "ياباني",
+      "deliveryTime": "35–50 د",
+      "deliveryFee": 12,
+      "minOrder": 25,
+      "distanceKm": 5.1,
+      "verified": true,
+      "tags": [
+        "ياباني",
+        "سوشي"
+      ],
+      "featured": null,
+      "open24h": null,
+      "fastDelivery": null,
+      "meals": [
+        {
+          "id": "wasabi-bar-1",
+          "restaurantId": "wasabi-bar",
+          "name": "سوشي سالمون",
+          "description": "قطع سالمون طازج على أرز.",
+          "image": "https://images.unsplash.com/photo-1603360946369-dc9bb6258143?w=800&q=80",
+          "price": 54,
+          "rating": 4.6,
+          "calories": 420,
+          "protein": 28,
+          "carbs": 48,
+          "fat": 12,
+          "category": "popular",
+          "isPopular": true,
+          "isOffer": false,
+          "offerPrice": null,
+          "spicyOption": false,
+          "cashbackPercent": null,
+          "addons": [
+            {
+              "id": "fries",
+              "name": "بطاطس مقلية",
+              "price": 8
+            },
+            {
+              "id": "cola",
+              "name": "كولا",
+              "price": 6
+            },
+            {
+              "id": "sauce",
+              "name": "صلصة إضافية",
+              "price": 3
+            },
+            {
+              "id": "bread",
+              "name": "خبز إضافي",
+              "price": 4
+            }
+          ]
+        },
+        {
+          "id": "wasabi-bar-2",
+          "restaurantId": "wasabi-bar",
+          "name": "رول كاليفورنيا",
+          "description": "كراب وأفوكادو وخيار.",
+          "image": "https://images.unsplash.com/photo-1606755962773-d324e0a13086?w=800&q=80",
+          "price": 42,
+          "rating": 4.8,
+          "calories": 380,
+          "protein": 16,
+          "carbs": 44,
+          "fat": 14,
+          "category": "popular",
+          "isPopular": true,
+          "isOffer": false,
+          "offerPrice": null,
+          "spicyOption": false,
+          "cashbackPercent": null,
+          "addons": [
+            {
+              "id": "fries",
+              "name": "بطاطس مقلية",
+              "price": 8
+            },
+            {
+              "id": "cola",
+              "name": "كولا",
+              "price": 6
+            },
+            {
+              "id": "sauce",
+              "name": "صلصة إضافية",
+              "price": 3
+            },
+            {
+              "id": "bread",
+              "name": "خبز إضافي",
+              "price": 4
+            }
+          ]
+        },
+        {
+          "id": "wasabi-bar-3",
+          "restaurantId": "wasabi-bar",
+          "name": "رامن تونكوستو",
+          "description": "مرق غني مع نودلز وبيض.",
+          "image": "https://images.unsplash.com/photo-1473093295043-cdd812d0e601?w=800&q=80",
+          "price": 48,
+          "rating": 4.5,
+          "calories": 680,
+          "protein": 32,
+          "carbs": 62,
+          "fat": 28,
+          "category": "menu",
+          "isPopular": false,
+          "isOffer": false,
+          "offerPrice": null,
+          "spicyOption": false,
+          "cashbackPercent": null,
+          "addons": [
+            {
+              "id": "fries",
+              "name": "بطاطس مقلية",
+              "price": 8
+            },
+            {
+              "id": "cola",
+              "name": "كولا",
+              "price": 6
+            },
+            {
+              "id": "sauce",
+              "name": "صلصة إضافية",
+              "price": 3
+            },
+            {
+              "id": "bread",
+              "name": "خبز إضافي",
+              "price": 4
+            }
+          ]
+        },
+        {
+          "id": "wasabi-bar-4",
+          "restaurantId": "wasabi-bar",
+          "name": "دجاج ترياكي",
+          "description": "دجاج بصلصة ترياكي وأرز.",
+          "image": "https://images.unsplash.com/photo-1498837167922-ddd27525d352?w=800&q=80",
+          "price": 44,
+          "rating": 4.2,
+          "calories": 560,
+          "protein": 34,
+          "carbs": 55,
+          "fat": 16,
+          "category": "popular",
+          "isPopular": true,
+          "isOffer": false,
+          "offerPrice": null,
+          "spicyOption": false,
+          "cashbackPercent": null,
+          "addons": [
+            {
+              "id": "fries",
+              "name": "بطاطس مقلية",
+              "price": 8
+            },
+            {
+              "id": "cola",
+              "name": "كولا",
+              "price": 6
+            },
+            {
+              "id": "sauce",
+              "name": "صلصة إضافية",
+              "price": 3
+            },
+            {
+              "id": "bread",
+              "name": "خبز إضافي",
+              "price": 4
+            }
+          ]
+        },
+        {
+          "id": "wasabi-bar-5",
+          "restaurantId": "wasabi-bar",
+          "name": "كاتسو دون",
+          "description": "شينيتزل لحم مع أرز وبيض.",
+          "image": "https://images.unsplash.com/photo-1476224203421-9ac39bcb3327?w=800&q=80",
+          "price": 46,
+          "rating": 4.5,
+          "calories": 720,
+          "protein": 36,
+          "carbs": 60,
+          "fat": 28,
+          "category": "popular",
+          "isPopular": true,
+          "isOffer": false,
+          "offerPrice": null,
+          "spicyOption": false,
+          "cashbackPercent": null,
+          "addons": [
+            {
+              "id": "fries",
+              "name": "بطاطس مقلية",
+              "price": 8
+            },
+            {
+              "id": "cola",
+              "name": "كولا",
+              "price": 6
+            },
+            {
+              "id": "sauce",
+              "name": "صلصة إضافية",
+              "price": 3
+            },
+            {
+              "id": "bread",
+              "name": "خبز إضافي",
+              "price": 4
+            }
+          ]
+        },
+        {
+          "id": "wasabi-bar-6",
+          "restaurantId": "wasabi-bar",
+          "name": "إدامامي",
+          "description": "فول الصويا المملح.",
+          "image": "https://images.unsplash.com/photo-1551183053-bf91a1d81141?w=800&q=80",
+          "price": 18,
+          "rating": 4.8,
+          "calories": 160,
+          "protein": 12,
+          "carbs": 10,
+          "fat": 6,
+          "category": "popular",
+          "isPopular": true,
+          "isOffer": false,
+          "offerPrice": null,
+          "spicyOption": false,
+          "cashbackPercent": null,
+          "addons": [
+            {
+              "id": "fries",
+              "name": "بطاطس مقلية",
+              "price": 8
+            },
+            {
+              "id": "cola",
+              "name": "كولا",
+              "price": 6
+            },
+            {
+              "id": "sauce",
+              "name": "صلصة إضافية",
+              "price": 3
+            },
+            {
+              "id": "bread",
+              "name": "خبز إضافي",
+              "price": 4
+            }
+          ]
+        },
+        {
+          "id": "wasabi-bar-7",
+          "restaurantId": "wasabi-bar",
+          "name": "تمبورا روبيان",
+          "description": "روبيان مقرمش مع صوص tentuyu.",
+          "image": "https://images.unsplash.com/photo-1540189549336-e6e99c3679fe?w=800&q=80",
+          "price": 52,
+          "rating": 4.6,
+          "calories": 510,
+          "protein": 24,
+          "carbs": 42,
+          "fat": 26,
+          "category": "offers",
+          "isPopular": false,
+          "isOffer": true,
+          "offerPrice": 46,
+          "spicyOption": false,
+          "cashbackPercent": 5,
+          "addons": [
+            {
+              "id": "fries",
+              "name": "بطاطس مقلية",
+              "price": 8
+            },
+            {
+              "id": "cola",
+              "name": "كولا",
+              "price": 6
+            },
+            {
+              "id": "sauce",
+              "name": "صلصة إضافية",
+              "price": 3
+            },
+            {
+              "id": "bread",
+              "name": "خبز إضافي",
+              "price": 4
+            }
+          ]
+        },
+        {
+          "id": "wasabi-bar-8",
+          "restaurantId": "wasabi-bar",
+          "name": "ساشيمي مشكل",
+          "description": "تشكيلة سمك نيء.",
+          "image": "https://images.unsplash.com/photo-1512058564366-18510be2db19?w=800&q=80",
+          "price": 68,
+          "rating": 4.3,
+          "calories": 280,
+          "protein": 36,
+          "carbs": 4,
+          "fat": 10,
+          "category": "popular",
+          "isPopular": true,
+          "isOffer": false,
+          "offerPrice": null,
+          "spicyOption": false,
+          "cashbackPercent": null,
+          "addons": [
+            {
+              "id": "fries",
+              "name": "بطاطس مقلية",
+              "price": 8
+            },
+            {
+              "id": "cola",
+              "name": "كولا",
+              "price": 6
+            },
+            {
+              "id": "sauce",
+              "name": "صلصة إضافية",
+              "price": 3
+            },
+            {
+              "id": "bread",
+              "name": "خبز إضافي",
+              "price": 4
+            }
+          ]
+        },
+        {
+          "id": "wasabi-bar-9",
+          "restaurantId": "wasabi-bar",
+          "name": "جيوزا",
+          "description": "زلابية لحم مشوية.",
+          "image": "https://images.unsplash.com/photo-1476224203421-9ac39bcb3327?w=800&q=80",
+          "price": 32,
+          "rating": 4.2,
+          "calories": 340,
+          "protein": 14,
+          "carbs": 28,
+          "fat": 16,
+          "category": "popular",
+          "isPopular": true,
+          "isOffer": false,
+          "offerPrice": null,
+          "spicyOption": false,
+          "cashbackPercent": null,
+          "addons": [
+            {
+              "id": "fries",
+              "name": "بطاطس مقلية",
+              "price": 8
+            },
+            {
+              "id": "cola",
+              "name": "كولا",
+              "price": 6
+            },
+            {
+              "id": "sauce",
+              "name": "صلصة إضافية",
+              "price": 3
+            },
+            {
+              "id": "bread",
+              "name": "خبز إضافي",
+              "price": 4
+            }
+          ]
+        },
+        {
+          "id": "wasabi-bar-10",
+          "restaurantId": "wasabi-bar",
+          "name": "موشي آيس كريم",
+          "description": "كرات أرز محشوة آيس كريم.",
+          "image": "https://images.unsplash.com/photo-1551782450-a2132b4ba21d?w=800&q=80",
+          "price": 24,
+          "rating": 4.5,
+          "calories": 260,
+          "protein": 4,
+          "carbs": 36,
+          "fat": 10,
+          "category": "offers",
+          "isPopular": false,
+          "isOffer": true,
+          "offerPrice": 18,
+          "spicyOption": false,
+          "cashbackPercent": 10,
+          "addons": [
+            {
+              "id": "fries",
+              "name": "بطاطس مقلية",
+              "price": 8
+            },
+            {
+              "id": "cola",
+              "name": "كولا",
+              "price": 6
+            },
+            {
+              "id": "sauce",
+              "name": "صلصة إضافية",
+              "price": 3
+            },
+            {
+              "id": "bread",
+              "name": "خبز إضافي",
+              "price": 4
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "katsu-corner",
+      "name": "ركن الكاتسو",
+      "image": "https://images.unsplash.com/photo-1601050690117-94f5f6fa8bd7?w=800&q=80",
+      "rating": 4.5,
+      "cuisine": "ياباني",
+      "deliveryTime": "25–35 د",
+      "deliveryFee": 12,
+      "minOrder": 50,
+      "distanceKm": 5.8,
+      "verified": true,
+      "tags": [
+        "ياباني",
+        "سوشي"
+      ],
+      "featured": null,
+      "open24h": null,
+      "fastDelivery": true,
+      "meals": [
+        {
+          "id": "katsu-corner-1",
+          "restaurantId": "katsu-corner",
+          "name": "سوشي سالمون",
+          "description": "قطع سالمون طازج على أرز.",
+          "image": "https://images.unsplash.com/photo-1414235077428-338989a2e8c0?w=800&q=80",
+          "price": 54,
+          "rating": 4.7,
+          "calories": 420,
+          "protein": 28,
+          "carbs": 48,
+          "fat": 12,
+          "category": "offers",
+          "isPopular": false,
+          "isOffer": true,
+          "offerPrice": 43,
+          "spicyOption": false,
+          "cashbackPercent": null,
+          "addons": [
+            {
+              "id": "fries",
+              "name": "بطاطس مقلية",
+              "price": 8
+            },
+            {
+              "id": "cola",
+              "name": "كولا",
+              "price": 6
+            },
+            {
+              "id": "sauce",
+              "name": "صلصة إضافية",
+              "price": 3
+            },
+            {
+              "id": "bread",
+              "name": "خبز إضافي",
+              "price": 4
+            }
+          ]
+        },
+        {
+          "id": "katsu-corner-2",
+          "restaurantId": "katsu-corner",
+          "name": "رول كاليفورنيا",
+          "description": "كراب وأفوكادو وخيار.",
+          "image": "https://images.unsplash.com/photo-1512621776951-a57141f2eefd?w=800&q=80",
+          "price": 42,
+          "rating": 4.8,
+          "calories": 380,
+          "protein": 16,
+          "carbs": 44,
+          "fat": 14,
+          "category": "popular",
+          "isPopular": true,
+          "isOffer": false,
+          "offerPrice": null,
+          "spicyOption": false,
+          "cashbackPercent": null,
+          "addons": [
+            {
+              "id": "fries",
+              "name": "بطاطس مقلية",
+              "price": 8
+            },
+            {
+              "id": "cola",
+              "name": "كولا",
+              "price": 6
+            },
+            {
+              "id": "sauce",
+              "name": "صلصة إضافية",
+              "price": 3
+            },
+            {
+              "id": "bread",
+              "name": "خبز إضافي",
+              "price": 4
+            }
+          ]
+        },
+        {
+          "id": "katsu-corner-3",
+          "restaurantId": "katsu-corner",
+          "name": "رامن تونكوستو",
+          "description": "مرق غني مع نودلز وبيض.",
+          "image": "https://images.unsplash.com/photo-1617196034796-73dfa7b1fd56?w=800&q=80",
+          "price": 48,
+          "rating": 4.4,
+          "calories": 680,
+          "protein": 32,
+          "carbs": 62,
+          "fat": 28,
+          "category": "offers",
+          "isPopular": false,
+          "isOffer": true,
+          "offerPrice": 41,
+          "spicyOption": false,
+          "cashbackPercent": null,
+          "addons": [
+            {
+              "id": "fries",
+              "name": "بطاطس مقلية",
+              "price": 8
+            },
+            {
+              "id": "cola",
+              "name": "كولا",
+              "price": 6
+            },
+            {
+              "id": "sauce",
+              "name": "صلصة إضافية",
+              "price": 3
+            },
+            {
+              "id": "bread",
+              "name": "خبز إضافي",
+              "price": 4
+            }
+          ]
+        },
+        {
+          "id": "katsu-corner-4",
+          "restaurantId": "katsu-corner",
+          "name": "دجاج ترياكي",
+          "description": "دجاج بصلصة ترياكي وأرز.",
+          "image": "https://images.unsplash.com/photo-1606313564200-e75d5e30476c?w=800&q=80",
+          "price": 44,
+          "rating": 4.3,
+          "calories": 560,
+          "protein": 34,
+          "carbs": 55,
+          "fat": 16,
+          "category": "menu",
+          "isPopular": false,
+          "isOffer": false,
+          "offerPrice": null,
+          "spicyOption": false,
+          "cashbackPercent": null,
+          "addons": [
+            {
+              "id": "fries",
+              "name": "بطاطس مقلية",
+              "price": 8
+            },
+            {
+              "id": "cola",
+              "name": "كولا",
+              "price": 6
+            },
+            {
+              "id": "sauce",
+              "name": "صلصة إضافية",
+              "price": 3
+            },
+            {
+              "id": "bread",
+              "name": "خبز إضافي",
+              "price": 4
+            }
+          ]
+        },
+        {
+          "id": "katsu-corner-5",
+          "restaurantId": "katsu-corner",
+          "name": "كاتسو دون",
+          "description": "شينيتزل لحم مع أرز وبيض.",
+          "image": "https://images.unsplash.com/photo-1455619452474-d2be8b1e70cd?w=800&q=80",
+          "price": 46,
+          "rating": 4.3,
+          "calories": 720,
+          "protein": 36,
+          "carbs": 60,
+          "fat": 28,
+          "category": "popular",
+          "isPopular": true,
+          "isOffer": false,
+          "offerPrice": null,
+          "spicyOption": false,
+          "cashbackPercent": null,
+          "addons": [
+            {
+              "id": "fries",
+              "name": "بطاطس مقلية",
+              "price": 8
+            },
+            {
+              "id": "cola",
+              "name": "كولا",
+              "price": 6
+            },
+            {
+              "id": "sauce",
+              "name": "صلصة إضافية",
+              "price": 3
+            },
+            {
+              "id": "bread",
+              "name": "خبز إضافي",
+              "price": 4
+            }
+          ]
+        },
+        {
+          "id": "katsu-corner-6",
+          "restaurantId": "katsu-corner",
+          "name": "إدامامي",
+          "description": "فول الصويا المملح.",
+          "image": "https://images.unsplash.com/photo-1626082927389-6cd097cdc6ec?w=800&q=80",
+          "price": 18,
+          "rating": 4.3,
+          "calories": 160,
+          "protein": 12,
+          "carbs": 10,
+          "fat": 6,
+          "category": "offers",
+          "isPopular": false,
+          "isOffer": true,
+          "offerPrice": 14,
+          "spicyOption": false,
+          "cashbackPercent": null,
+          "addons": [
+            {
+              "id": "fries",
+              "name": "بطاطس مقلية",
+              "price": 8
+            },
+            {
+              "id": "cola",
+              "name": "كولا",
+              "price": 6
+            },
+            {
+              "id": "sauce",
+              "name": "صلصة إضافية",
+              "price": 3
+            },
+            {
+              "id": "bread",
+              "name": "خبز إضافي",
+              "price": 4
+            }
+          ]
+        },
+        {
+          "id": "katsu-corner-7",
+          "restaurantId": "katsu-corner",
+          "name": "تمبورا روبيان",
+          "description": "روبيان مقرمش مع صوص tentuyu.",
+          "image": "https://images.unsplash.com/photo-1598103442097-8b74394b95c6?w=800&q=80",
+          "price": 52,
+          "rating": 4.8,
+          "calories": 510,
+          "protein": 24,
+          "carbs": 42,
+          "fat": 26,
+          "category": "menu",
+          "isPopular": false,
+          "isOffer": false,
+          "offerPrice": null,
+          "spicyOption": false,
+          "cashbackPercent": null,
+          "addons": [
+            {
+              "id": "fries",
+              "name": "بطاطس مقلية",
+              "price": 8
+            },
+            {
+              "id": "cola",
+              "name": "كولا",
+              "price": 6
+            },
+            {
+              "id": "sauce",
+              "name": "صلصة إضافية",
+              "price": 3
+            },
+            {
+              "id": "bread",
+              "name": "خبز إضافي",
+              "price": 4
+            }
+          ]
+        },
+        {
+          "id": "katsu-corner-8",
+          "restaurantId": "katsu-corner",
+          "name": "ساشيمي مشكل",
+          "description": "تشكيلة سمك نيء.",
+          "image": "https://images.unsplash.com/photo-1563379926898-05f4575a45d8?w=800&q=80",
+          "price": 68,
+          "rating": 4.5,
+          "calories": 280,
+          "protein": 36,
+          "carbs": 4,
+          "fat": 10,
+          "category": "popular",
+          "isPopular": true,
+          "isOffer": false,
+          "offerPrice": null,
+          "spicyOption": false,
+          "cashbackPercent": null,
+          "addons": [
+            {
+              "id": "fries",
+              "name": "بطاطس مقلية",
+              "price": 8
+            },
+            {
+              "id": "cola",
+              "name": "كولا",
+              "price": 6
+            },
+            {
+              "id": "sauce",
+              "name": "صلصة إضافية",
+              "price": 3
+            },
+            {
+              "id": "bread",
+              "name": "خبز إضافي",
+              "price": 4
+            }
+          ]
+        },
+        {
+          "id": "katsu-corner-9",
+          "restaurantId": "katsu-corner",
+          "name": "جيوزا",
+          "description": "زلابية لحم مشوية.",
+          "image": "https://images.unsplash.com/photo-1567620905732-2d1ec7ab7445?w=800&q=80",
+          "price": 32,
+          "rating": 4.3,
+          "calories": 340,
+          "protein": 14,
+          "carbs": 28,
+          "fat": 16,
+          "category": "menu",
+          "isPopular": false,
+          "isOffer": false,
+          "offerPrice": null,
+          "spicyOption": false,
+          "cashbackPercent": null,
+          "addons": [
+            {
+              "id": "fries",
+              "name": "بطاطس مقلية",
+              "price": 8
+            },
+            {
+              "id": "cola",
+              "name": "كولا",
+              "price": 6
+            },
+            {
+              "id": "sauce",
+              "name": "صلصة إضافية",
+              "price": 3
+            },
+            {
+              "id": "bread",
+              "name": "خبز إضافي",
+              "price": 4
+            }
+          ]
+        },
+        {
+          "id": "katsu-corner-10",
+          "restaurantId": "katsu-corner",
+          "name": "موشي آيس كريم",
+          "description": "كرات أرز محشوة آيس كريم.",
+          "image": "https://images.unsplash.com/photo-1544025162-d76694265947?w=800&q=80",
+          "price": 24,
+          "rating": 4.9,
+          "calories": 260,
+          "protein": 4,
+          "carbs": 36,
+          "fat": 10,
+          "category": "menu",
+          "isPopular": false,
+          "isOffer": false,
+          "offerPrice": null,
+          "spicyOption": false,
+          "cashbackPercent": null,
+          "addons": [
+            {
+              "id": "fries",
+              "name": "بطاطس مقلية",
+              "price": 8
+            },
+            {
+              "id": "cola",
+              "name": "كولا",
+              "price": 6
+            },
+            {
+              "id": "sauce",
+              "name": "صلصة إضافية",
+              "price": 3
+            },
+            {
+              "id": "bread",
+              "name": "خبز إضافي",
+              "price": 4
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "edo-express",
+      "name": "إدو إكسبرس",
+      "image": "https://images.unsplash.com/photo-1553621042-f6e147245754?w=800&q=80",
+      "rating": 4.4,
+      "cuisine": "ياباني",
+      "deliveryTime": "30–45 د",
+      "deliveryFee": 8,
+      "minOrder": 50,
+      "distanceKm": 4.1,
+      "verified": true,
+      "tags": [
+        "ياباني",
+        "سوشي"
+      ],
+      "featured": null,
+      "open24h": null,
+      "fastDelivery": null,
+      "meals": [
+        {
+          "id": "edo-express-1",
+          "restaurantId": "edo-express",
+          "name": "سوشي سالمون",
+          "description": "قطع سالمون طازج على أرز.",
+          "image": "https://images.unsplash.com/photo-1559339352-11d035aa65de?w=800&q=80",
+          "price": 54,
+          "rating": 4.4,
+          "calories": 420,
+          "protein": 28,
+          "carbs": 48,
+          "fat": 12,
+          "category": "menu",
+          "isPopular": false,
+          "isOffer": false,
+          "offerPrice": null,
+          "spicyOption": false,
+          "cashbackPercent": null,
+          "addons": [
+            {
+              "id": "fries",
+              "name": "بطاطس مقلية",
+              "price": 8
+            },
+            {
+              "id": "cola",
+              "name": "كولا",
+              "price": 6
+            },
+            {
+              "id": "sauce",
+              "name": "صلصة إضافية",
+              "price": 3
+            },
+            {
+              "id": "bread",
+              "name": "خبز إضافي",
+              "price": 4
+            }
+          ]
+        },
+        {
+          "id": "edo-express-2",
+          "restaurantId": "edo-express",
+          "name": "رول كاليفورنيا",
+          "description": "كراب وأفوكادو وخيار.",
+          "image": "https://images.unsplash.com/photo-1600891964599-f61ba0e24092?w=800&q=80",
+          "price": 42,
+          "rating": 4.3,
+          "calories": 380,
+          "protein": 16,
+          "carbs": 44,
+          "fat": 14,
+          "category": "menu",
+          "isPopular": false,
+          "isOffer": false,
+          "offerPrice": null,
+          "spicyOption": false,
+          "cashbackPercent": null,
+          "addons": [
+            {
+              "id": "fries",
+              "name": "بطاطس مقلية",
+              "price": 8
+            },
+            {
+              "id": "cola",
+              "name": "كولا",
+              "price": 6
+            },
+            {
+              "id": "sauce",
+              "name": "صلصة إضافية",
+              "price": 3
+            },
+            {
+              "id": "bread",
+              "name": "خبز إضافي",
+              "price": 4
+            }
+          ]
+        },
+        {
+          "id": "edo-express-3",
+          "restaurantId": "edo-express",
+          "name": "رامن تونكوستو",
+          "description": "مرق غني مع نودلز وبيض.",
+          "image": "https://images.unsplash.com/photo-1542838132-92c53300491e?w=800&q=80",
+          "price": 48,
+          "rating": 4.4,
+          "calories": 680,
+          "protein": 32,
+          "carbs": 62,
+          "fat": 28,
+          "category": "popular",
+          "isPopular": true,
+          "isOffer": false,
+          "offerPrice": null,
+          "spicyOption": false,
+          "cashbackPercent": null,
+          "addons": [
+            {
+              "id": "fries",
+              "name": "بطاطس مقلية",
+              "price": 8
+            },
+            {
+              "id": "cola",
+              "name": "كولا",
+              "price": 6
+            },
+            {
+              "id": "sauce",
+              "name": "صلصة إضافية",
+              "price": 3
+            },
+            {
+              "id": "bread",
+              "name": "خبز إضافي",
+              "price": 4
+            }
+          ]
+        },
+        {
+          "id": "edo-express-4",
+          "restaurantId": "edo-express",
+          "name": "دجاج ترياكي",
+          "description": "دجاج بصلصة ترياكي وأرز.",
+          "image": "https://images.unsplash.com/photo-1517248135467-4c7edcad34c4?w=800&q=80",
+          "price": 44,
+          "rating": 4.8,
+          "calories": 560,
+          "protein": 34,
+          "carbs": 55,
+          "fat": 16,
+          "category": "offers",
+          "isPopular": false,
+          "isOffer": true,
+          "offerPrice": 35,
+          "spicyOption": false,
+          "cashbackPercent": null,
+          "addons": [
+            {
+              "id": "fries",
+              "name": "بطاطس مقلية",
+              "price": 8
+            },
+            {
+              "id": "cola",
+              "name": "كولا",
+              "price": 6
+            },
+            {
+              "id": "sauce",
+              "name": "صلصة إضافية",
+              "price": 3
+            },
+            {
+              "id": "bread",
+              "name": "خبز إضافي",
+              "price": 4
+            }
+          ]
+        },
+        {
+          "id": "edo-express-5",
+          "restaurantId": "edo-express",
+          "name": "كاتسو دون",
+          "description": "شينيتزل لحم مع أرز وبيض.",
+          "image": "https://images.unsplash.com/photo-1540189549336-e6e99c3679fe?w=800&q=80",
+          "price": 46,
+          "rating": 4.6,
+          "calories": 720,
+          "protein": 36,
+          "carbs": 60,
+          "fat": 28,
+          "category": "menu",
+          "isPopular": false,
+          "isOffer": false,
+          "offerPrice": null,
+          "spicyOption": false,
+          "cashbackPercent": null,
+          "addons": [
+            {
+              "id": "fries",
+              "name": "بطاطس مقلية",
+              "price": 8
+            },
+            {
+              "id": "cola",
+              "name": "كولا",
+              "price": 6
+            },
+            {
+              "id": "sauce",
+              "name": "صلصة إضافية",
+              "price": 3
+            },
+            {
+              "id": "bread",
+              "name": "خبز إضافي",
+              "price": 4
+            }
+          ]
+        },
+        {
+          "id": "edo-express-6",
+          "restaurantId": "edo-express",
+          "name": "إدامامي",
+          "description": "فول الصويا المملح.",
+          "image": "https://images.unsplash.com/photo-1553621042-f6e147245754?w=800&q=80",
+          "price": 18,
+          "rating": 4.3,
+          "calories": 160,
+          "protein": 12,
+          "carbs": 10,
+          "fat": 6,
+          "category": "menu",
+          "isPopular": false,
+          "isOffer": false,
+          "offerPrice": null,
+          "spicyOption": false,
+          "cashbackPercent": null,
+          "addons": [
+            {
+              "id": "fries",
+              "name": "بطاطس مقلية",
+              "price": 8
+            },
+            {
+              "id": "cola",
+              "name": "كولا",
+              "price": 6
+            },
+            {
+              "id": "sauce",
+              "name": "صلصة إضافية",
+              "price": 3
+            },
+            {
+              "id": "bread",
+              "name": "خبز إضافي",
+              "price": 4
+            }
+          ]
+        },
+        {
+          "id": "edo-express-7",
+          "restaurantId": "edo-express",
+          "name": "تمبورا روبيان",
+          "description": "روبيان مقرمش مع صوص tentuyu.",
+          "image": "https://images.unsplash.com/photo-1555939594-58d7cb561ad1?w=800&q=80",
+          "price": 52,
+          "rating": 4.8,
+          "calories": 510,
+          "protein": 24,
+          "carbs": 42,
+          "fat": 26,
+          "category": "menu",
+          "isPopular": false,
+          "isOffer": false,
+          "offerPrice": null,
+          "spicyOption": false,
+          "cashbackPercent": null,
+          "addons": [
+            {
+              "id": "fries",
+              "name": "بطاطس مقلية",
+              "price": 8
+            },
+            {
+              "id": "cola",
+              "name": "كولا",
+              "price": 6
+            },
+            {
+              "id": "sauce",
+              "name": "صلصة إضافية",
+              "price": 3
+            },
+            {
+              "id": "bread",
+              "name": "خبز إضافي",
+              "price": 4
+            }
+          ]
+        },
+        {
+          "id": "edo-express-8",
+          "restaurantId": "edo-express",
+          "name": "ساشيمي مشكل",
+          "description": "تشكيلة سمك نيء.",
+          "image": "https://images.unsplash.com/photo-1579584425555-c3ce17fd4351?w=800&q=80",
+          "price": 68,
+          "rating": 4.3,
+          "calories": 280,
+          "protein": 36,
+          "carbs": 4,
+          "fat": 10,
+          "category": "menu",
+          "isPopular": false,
+          "isOffer": false,
+          "offerPrice": null,
+          "spicyOption": false,
+          "cashbackPercent": null,
+          "addons": [
+            {
+              "id": "fries",
+              "name": "بطاطس مقلية",
+              "price": 8
+            },
+            {
+              "id": "cola",
+              "name": "كولا",
+              "price": 6
+            },
+            {
+              "id": "sauce",
+              "name": "صلصة إضافية",
+              "price": 3
+            },
+            {
+              "id": "bread",
+              "name": "خبز إضافي",
+              "price": 4
+            }
+          ]
+        },
+        {
+          "id": "edo-express-9",
+          "restaurantId": "edo-express",
+          "name": "جيوزا",
+          "description": "زلابية لحم مشوية.",
+          "image": "https://images.unsplash.com/photo-1488477181946-6428a0291777?w=800&q=80",
+          "price": 32,
+          "rating": 4.3,
+          "calories": 340,
+          "protein": 14,
+          "carbs": 28,
+          "fat": 16,
+          "category": "menu",
+          "isPopular": false,
+          "isOffer": false,
+          "offerPrice": null,
+          "spicyOption": false,
+          "cashbackPercent": null,
+          "addons": [
+            {
+              "id": "fries",
+              "name": "بطاطس مقلية",
+              "price": 8
+            },
+            {
+              "id": "cola",
+              "name": "كولا",
+              "price": 6
+            },
+            {
+              "id": "sauce",
+              "name": "صلصة إضافية",
+              "price": 3
+            },
+            {
+              "id": "bread",
+              "name": "خبز إضافي",
+              "price": 4
+            }
+          ]
+        },
+        {
+          "id": "edo-express-10",
+          "restaurantId": "edo-express",
+          "name": "موشي آيس كريم",
+          "description": "كرات أرز محشوة آيس كريم.",
+          "image": "https://images.unsplash.com/photo-1505253758473-96b7015fcd40?w=800&q=80",
+          "price": 24,
+          "rating": 4.6,
+          "calories": 260,
+          "protein": 4,
+          "carbs": 36,
+          "fat": 10,
+          "category": "popular",
+          "isPopular": true,
+          "isOffer": false,
+          "offerPrice": null,
+          "spicyOption": false,
+          "cashbackPercent": null,
+          "addons": [
+            {
+              "id": "fries",
+              "name": "بطاطس مقلية",
+              "price": 8
+            },
+            {
+              "id": "cola",
+              "name": "كولا",
+              "price": 6
+            },
+            {
+              "id": "sauce",
+              "name": "صلصة إضافية",
+              "price": 3
+            },
+            {
+              "id": "bread",
+              "name": "خبز إضافي",
+              "price": 4
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}

@@ -1,0 +1,3460 @@
+{
+  "restaurants": [
+    {
+      "id": "spice-route",
+      "name": "طريق التوابل",
+      "image": "https://images.unsplash.com/photo-1525351484163-7529414344d8?w=800&q=80",
+      "rating": 4.3,
+      "cuisine": "هندي",
+      "deliveryTime": "30–45 د",
+      "deliveryFee": 8,
+      "minOrder": 40,
+      "distanceKm": 2.5,
+      "verified": true,
+      "tags": [
+        "هندي",
+        "كاري",
+        "حار"
+      ],
+      "featured": null,
+      "open24h": null,
+      "fastDelivery": null,
+      "meals": [
+        {
+          "id": "spice-route-1",
+          "restaurantId": "spice-route",
+          "name": "برياني دجاج",
+          "description": "أرز برياني مع دجاج وتوابل.",
+          "image": "https://images.unsplash.com/photo-1490645935967-10de6ba17061?w=800&q=80",
+          "price": 42,
+          "rating": 4.7,
+          "calories": 720,
+          "protein": 32,
+          "carbs": 78,
+          "fat": 22,
+          "category": "menu",
+          "isPopular": false,
+          "isOffer": false,
+          "offerPrice": null,
+          "spicyOption": true,
+          "cashbackPercent": null,
+          "addons": [
+            {
+              "id": "fries",
+              "name": "بطاطس مقلية",
+              "price": 8
+            },
+            {
+              "id": "cola",
+              "name": "كولا",
+              "price": 6
+            },
+            {
+              "id": "sauce",
+              "name": "صلصة إضافية",
+              "price": 3
+            },
+            {
+              "id": "bread",
+              "name": "خبز إضافي",
+              "price": 4
+            }
+          ]
+        },
+        {
+          "id": "spice-route-2",
+          "restaurantId": "spice-route",
+          "name": "دجاج تيكا ماسالا",
+          "description": "دجاج مشوي بصلصة كريمية.",
+          "image": "https://images.unsplash.com/photo-1551782450-a2132b4ba21d?w=800&q=80",
+          "price": 46,
+          "rating": 4.2,
+          "calories": 680,
+          "protein": 36,
+          "carbs": 40,
+          "fat": 32,
+          "category": "menu",
+          "isPopular": false,
+          "isOffer": false,
+          "offerPrice": null,
+          "spicyOption": true,
+          "cashbackPercent": null,
+          "addons": [
+            {
+              "id": "fries",
+              "name": "بطاطس مقلية",
+              "price": 8
+            },
+            {
+              "id": "cola",
+              "name": "كولا",
+              "price": 6
+            },
+            {
+              "id": "sauce",
+              "name": "صلصة إضافية",
+              "price": 3
+            },
+            {
+              "id": "bread",
+              "name": "خبز إضافي",
+              "price": 4
+            }
+          ]
+        },
+        {
+          "id": "spice-route-3",
+          "restaurantId": "spice-route",
+          "name": "بالتي لحم",
+          "description": "لحم بقري بصلصة بالتي.",
+          "image": "https://images.unsplash.com/photo-1578985545062-69928b1d9587?w=800&q=80",
+          "price": 48,
+          "rating": 4.7,
+          "calories": 740,
+          "protein": 38,
+          "carbs": 28,
+          "fat": 42,
+          "category": "menu",
+          "isPopular": false,
+          "isOffer": false,
+          "offerPrice": null,
+          "spicyOption": true,
+          "cashbackPercent": null,
+          "addons": [
+            {
+              "id": "fries",
+              "name": "بطاطس مقلية",
+              "price": 8
+            },
+            {
+              "id": "cola",
+              "name": "كولا",
+              "price": 6
+            },
+            {
+              "id": "sauce",
+              "name": "صلصة إضافية",
+              "price": 3
+            },
+            {
+              "id": "bread",
+              "name": "خبز إضافي",
+              "price": 4
+            }
+          ]
+        },
+        {
+          "id": "spice-route-4",
+          "restaurantId": "spice-route",
+          "name": "دال ماخاني",
+          "description": "عدس أسود بالزبدة.",
+          "image": "https://images.unsplash.com/photo-1504674900247-0877df9cc836?w=800&q=80",
+          "price": 28,
+          "rating": 4.4,
+          "calories": 420,
+          "protein": 16,
+          "carbs": 40,
+          "fat": 16,
+          "category": "popular",
+          "isPopular": true,
+          "isOffer": false,
+          "offerPrice": null,
+          "spicyOption": false,
+          "cashbackPercent": null,
+          "addons": [
+            {
+              "id": "fries",
+              "name": "بطاطس مقلية",
+              "price": 8
+            },
+            {
+              "id": "cola",
+              "name": "كولا",
+              "price": 6
+            },
+            {
+              "id": "sauce",
+              "name": "صلصة إضافية",
+              "price": 3
+            },
+            {
+              "id": "bread",
+              "name": "خبز إضافي",
+              "price": 4
+            }
+          ]
+        },
+        {
+          "id": "spice-route-5",
+          "restaurantId": "spice-route",
+          "name": "نان بالثوم",
+          "description": "خبز تندور بالثوم.",
+          "image": "https://images.unsplash.com/photo-1498837167922-ddd27525d352?w=800&q=80",
+          "price": 14,
+          "rating": 4.7,
+          "calories": 260,
+          "protein": 6,
+          "carbs": 36,
+          "fat": 8,
+          "category": "offers",
+          "isPopular": false,
+          "isOffer": true,
+          "offerPrice": 11,
+          "spicyOption": false,
+          "cashbackPercent": null,
+          "addons": [
+            {
+              "id": "fries",
+              "name": "بطاطس مقلية",
+              "price": 8
+            },
+            {
+              "id": "cola",
+              "name": "كولا",
+              "price": 6
+            },
+            {
+              "id": "sauce",
+              "name": "صلصة إضافية",
+              "price": 3
+            },
+            {
+              "id": "bread",
+              "name": "خبز إضافي",
+              "price": 4
+            }
+          ]
+        },
+        {
+          "id": "spice-route-6",
+          "restaurantId": "spice-route",
+          "name": "سمبوسة خضار",
+          "description": "سمبوسة مقرمشة مع تشاتني.",
+          "image": "https://images.unsplash.com/photo-1603360946369-dc9bb6258143?w=800&q=80",
+          "price": 18,
+          "rating": 4.4,
+          "calories": 280,
+          "protein": 6,
+          "carbs": 30,
+          "fat": 12,
+          "category": "menu",
+          "isPopular": false,
+          "isOffer": false,
+          "offerPrice": null,
+          "spicyOption": false,
+          "cashbackPercent": null,
+          "addons": [
+            {
+              "id": "fries",
+              "name": "بطاطس مقلية",
+              "price": 8
+            },
+            {
+              "id": "cola",
+              "name": "كولا",
+              "price": 6
+            },
+            {
+              "id": "sauce",
+              "name": "صلصة إضافية",
+              "price": 3
+            },
+            {
+              "id": "bread",
+              "name": "خبز إضافي",
+              "price": 4
+            }
+          ]
+        },
+        {
+          "id": "spice-route-7",
+          "restaurantId": "spice-route",
+          "name": "بانيير تيكا",
+          "description": "جبنة بانيير مشوية.",
+          "image": "https://images.unsplash.com/photo-1529006557810-274b9b2fc783?w=800&q=80",
+          "price": 36,
+          "rating": 4.6,
+          "calories": 480,
+          "protein": 20,
+          "carbs": 22,
+          "fat": 28,
+          "category": "offers",
+          "isPopular": false,
+          "isOffer": true,
+          "offerPrice": 30,
+          "spicyOption": true,
+          "cashbackPercent": null,
+          "addons": [
+            {
+              "id": "fries",
+              "name": "بطاطس مقلية",
+              "price": 8
+            },
+            {
+              "id": "cola",
+              "name": "كولا",
+              "price": 6
+            },
+            {
+              "id": "sauce",
+              "name": "صلصة إضافية",
+              "price": 3
+            },
+            {
+              "id": "bread",
+              "name": "خبز إضافي",
+              "price": 4
+            }
+          ]
+        },
+        {
+          "id": "spice-route-8",
+          "restaurantId": "spice-route",
+          "name": "صاموسا تشات",
+          "description": "تشات هندي حار وحامض.",
+          "image": "https://images.unsplash.com/photo-1512058564366-18510be2db19?w=800&q=80",
+          "price": 24,
+          "rating": 4.7,
+          "calories": 340,
+          "protein": 8,
+          "carbs": 36,
+          "fat": 12,
+          "category": "popular",
+          "isPopular": true,
+          "isOffer": false,
+          "offerPrice": null,
+          "spicyOption": true,
+          "cashbackPercent": null,
+          "addons": [
+            {
+              "id": "fries",
+              "name": "بطاطس مقلية",
+              "price": 8
+            },
+            {
+              "id": "cola",
+              "name": "كولا",
+              "price": 6
+            },
+            {
+              "id": "sauce",
+              "name": "صلصة إضافية",
+              "price": 3
+            },
+            {
+              "id": "bread",
+              "name": "خبز إضافي",
+              "price": 4
+            }
+          ]
+        },
+        {
+          "id": "spice-route-9",
+          "restaurantId": "spice-route",
+          "name": "مطبخ ثالي",
+          "description": "تشكيلة أطباق هندية صغيرة.",
+          "image": "https://images.unsplash.com/photo-1498837167922-ddd27525d352?w=800&q=80",
+          "price": 55,
+          "rating": 4.6,
+          "calories": 800,
+          "protein": 28,
+          "carbs": 90,
+          "fat": 30,
+          "category": "menu",
+          "isPopular": false,
+          "isOffer": false,
+          "offerPrice": null,
+          "spicyOption": true,
+          "cashbackPercent": null,
+          "addons": [
+            {
+              "id": "fries",
+              "name": "بطاطس مقلية",
+              "price": 8
+            },
+            {
+              "id": "cola",
+              "name": "كولا",
+              "price": 6
+            },
+            {
+              "id": "sauce",
+              "name": "صلصة إضافية",
+              "price": 3
+            },
+            {
+              "id": "bread",
+              "name": "خبز إضافي",
+              "price": 4
+            }
+          ]
+        },
+        {
+          "id": "spice-route-10",
+          "restaurantId": "spice-route",
+          "name": "مانجو لاسي",
+          "description": "مشروب لبن بالمانجو.",
+          "image": "https://images.unsplash.com/photo-1606313564200-e75d5e30476c?w=800&q=80",
+          "price": 16,
+          "rating": 4.3,
+          "calories": 220,
+          "protein": 6,
+          "carbs": 28,
+          "fat": 8,
+          "category": "popular",
+          "isPopular": true,
+          "isOffer": false,
+          "offerPrice": null,
+          "spicyOption": false,
+          "cashbackPercent": null,
+          "addons": [
+            {
+              "id": "fries",
+              "name": "بطاطس مقلية",
+              "price": 8
+            },
+            {
+              "id": "cola",
+              "name": "كولا",
+              "price": 6
+            },
+            {
+              "id": "sauce",
+              "name": "صلصة إضافية",
+              "price": 3
+            },
+            {
+              "id": "bread",
+              "name": "خبز إضافي",
+              "price": 4
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "tandoor-flame",
+      "name": "لهب التندور",
+      "image": "https://images.unsplash.com/photo-1473093295043-cdd812d0e601?w=800&q=80",
+      "rating": 4.4,
+      "cuisine": "هندي",
+      "deliveryTime": "35–50 د",
+      "deliveryFee": 6,
+      "minOrder": 45,
+      "distanceKm": 5.1,
+      "verified": true,
+      "tags": [
+        "هندي",
+        "كاري",
+        "حار"
+      ],
+      "featured": true,
+      "open24h": null,
+      "fastDelivery": null,
+      "meals": [
+        {
+          "id": "tandoor-flame-1",
+          "restaurantId": "tandoor-flame",
+          "name": "برياني دجاج",
+          "description": "أرز برياني مع دجاج وتوابل.",
+          "image": "https://images.unsplash.com/photo-1598103442097-8b74394b95c6?w=800&q=80",
+          "price": 42,
+          "rating": 4.5,
+          "calories": 720,
+          "protein": 32,
+          "carbs": 78,
+          "fat": 22,
+          "category": "menu",
+          "isPopular": false,
+          "isOffer": false,
+          "offerPrice": null,
+          "spicyOption": true,
+          "cashbackPercent": null,
+          "addons": [
+            {
+              "id": "fries",
+              "name": "بطاطس مقلية",
+              "price": 8
+            },
+            {
+              "id": "cola",
+              "name": "كولا",
+              "price": 6
+            },
+            {
+              "id": "sauce",
+              "name": "صلصة إضافية",
+              "price": 3
+            },
+            {
+              "id": "bread",
+              "name": "خبز إضافي",
+              "price": 4
+            }
+          ]
+        },
+        {
+          "id": "tandoor-flame-2",
+          "restaurantId": "tandoor-flame",
+          "name": "دجاج تيكا ماسالا",
+          "description": "دجاج مشوي بصلصة كريمية.",
+          "image": "https://images.unsplash.com/photo-1490645935967-10de6ba17061?w=800&q=80",
+          "price": 46,
+          "rating": 4.7,
+          "calories": 680,
+          "protein": 36,
+          "carbs": 40,
+          "fat": 32,
+          "category": "popular",
+          "isPopular": true,
+          "isOffer": false,
+          "offerPrice": null,
+          "spicyOption": true,
+          "cashbackPercent": null,
+          "addons": [
+            {
+              "id": "fries",
+              "name": "بطاطس مقلية",
+              "price": 8
+            },
+            {
+              "id": "cola",
+              "name": "كولا",
+              "price": 6
+            },
+            {
+              "id": "sauce",
+              "name": "صلصة إضافية",
+              "price": 3
+            },
+            {
+              "id": "bread",
+              "name": "خبز إضافي",
+              "price": 4
+            }
+          ]
+        },
+        {
+          "id": "tandoor-flame-3",
+          "restaurantId": "tandoor-flame",
+          "name": "بالتي لحم",
+          "description": "لحم بقري بصلصة بالتي.",
+          "image": "https://images.unsplash.com/photo-1626645738196-c2a7c87a8f58?w=800&q=80",
+          "price": 48,
+          "rating": 4.5,
+          "calories": 740,
+          "protein": 38,
+          "carbs": 28,
+          "fat": 42,
+          "category": "popular",
+          "isPopular": true,
+          "isOffer": false,
+          "offerPrice": null,
+          "spicyOption": true,
+          "cashbackPercent": null,
+          "addons": [
+            {
+              "id": "fries",
+              "name": "بطاطس مقلية",
+              "price": 8
+            },
+            {
+              "id": "cola",
+              "name": "كولا",
+              "price": 6
+            },
+            {
+              "id": "sauce",
+              "name": "صلصة إضافية",
+              "price": 3
+            },
+            {
+              "id": "bread",
+              "name": "خبز إضافي",
+              "price": 4
+            }
+          ]
+        },
+        {
+          "id": "tandoor-flame-4",
+          "restaurantId": "tandoor-flame",
+          "name": "دال ماخاني",
+          "description": "عدس أسود بالزبدة.",
+          "image": "https://images.unsplash.com/photo-1506084868230-bb9d95c24759?w=800&q=80",
+          "price": 28,
+          "rating": 4.2,
+          "calories": 420,
+          "protein": 16,
+          "carbs": 40,
+          "fat": 16,
+          "category": "menu",
+          "isPopular": false,
+          "isOffer": false,
+          "offerPrice": null,
+          "spicyOption": false,
+          "cashbackPercent": null,
+          "addons": [
+            {
+              "id": "fries",
+              "name": "بطاطس مقلية",
+              "price": 8
+            },
+            {
+              "id": "cola",
+              "name": "كولا",
+              "price": 6
+            },
+            {
+              "id": "sauce",
+              "name": "صلصة إضافية",
+              "price": 3
+            },
+            {
+              "id": "bread",
+              "name": "خبز إضافي",
+              "price": 4
+            }
+          ]
+        },
+        {
+          "id": "tandoor-flame-5",
+          "restaurantId": "tandoor-flame",
+          "name": "نان بالثوم",
+          "description": "خبز تندور بالثوم.",
+          "image": "https://images.unsplash.com/photo-1504674900247-0877df9cc836?w=800&q=80",
+          "price": 14,
+          "rating": 4.9,
+          "calories": 260,
+          "protein": 6,
+          "carbs": 36,
+          "fat": 8,
+          "category": "offers",
+          "isPopular": false,
+          "isOffer": true,
+          "offerPrice": 11,
+          "spicyOption": false,
+          "cashbackPercent": null,
+          "addons": [
+            {
+              "id": "fries",
+              "name": "بطاطس مقلية",
+              "price": 8
+            },
+            {
+              "id": "cola",
+              "name": "كولا",
+              "price": 6
+            },
+            {
+              "id": "sauce",
+              "name": "صلصة إضافية",
+              "price": 3
+            },
+            {
+              "id": "bread",
+              "name": "خبز إضافي",
+              "price": 4
+            }
+          ]
+        },
+        {
+          "id": "tandoor-flame-6",
+          "restaurantId": "tandoor-flame",
+          "name": "سمبوسة خضار",
+          "description": "سمبوسة مقرمشة مع تشاتني.",
+          "image": "https://images.unsplash.com/photo-1533134242443-d4fd215305ad?w=800&q=80",
+          "price": 18,
+          "rating": 4.5,
+          "calories": 280,
+          "protein": 6,
+          "carbs": 30,
+          "fat": 12,
+          "category": "menu",
+          "isPopular": false,
+          "isOffer": false,
+          "offerPrice": null,
+          "spicyOption": false,
+          "cashbackPercent": null,
+          "addons": [
+            {
+              "id": "fries",
+              "name": "بطاطس مقلية",
+              "price": 8
+            },
+            {
+              "id": "cola",
+              "name": "كولا",
+              "price": 6
+            },
+            {
+              "id": "sauce",
+              "name": "صلصة إضافية",
+              "price": 3
+            },
+            {
+              "id": "bread",
+              "name": "خبز إضافي",
+              "price": 4
+            }
+          ]
+        },
+        {
+          "id": "tandoor-flame-7",
+          "restaurantId": "tandoor-flame",
+          "name": "بانيير تيكا",
+          "description": "جبنة بانيير مشوية.",
+          "image": "https://images.unsplash.com/photo-1559339352-11d035aa65de?w=800&q=80",
+          "price": 36,
+          "rating": 4.3,
+          "calories": 480,
+          "protein": 20,
+          "carbs": 22,
+          "fat": 28,
+          "category": "menu",
+          "isPopular": false,
+          "isOffer": false,
+          "offerPrice": null,
+          "spicyOption": true,
+          "cashbackPercent": null,
+          "addons": [
+            {
+              "id": "fries",
+              "name": "بطاطس مقلية",
+              "price": 8
+            },
+            {
+              "id": "cola",
+              "name": "كولا",
+              "price": 6
+            },
+            {
+              "id": "sauce",
+              "name": "صلصة إضافية",
+              "price": 3
+            },
+            {
+              "id": "bread",
+              "name": "خبز إضافي",
+              "price": 4
+            }
+          ]
+        },
+        {
+          "id": "tandoor-flame-8",
+          "restaurantId": "tandoor-flame",
+          "name": "صاموسا تشات",
+          "description": "تشات هندي حار وحامض.",
+          "image": "https://images.unsplash.com/photo-1512621776951-a57141f2eefd?w=800&q=80",
+          "price": 24,
+          "rating": 4.5,
+          "calories": 340,
+          "protein": 8,
+          "carbs": 36,
+          "fat": 12,
+          "category": "offers",
+          "isPopular": false,
+          "isOffer": true,
+          "offerPrice": 18,
+          "spicyOption": true,
+          "cashbackPercent": 10,
+          "addons": [
+            {
+              "id": "fries",
+              "name": "بطاطس مقلية",
+              "price": 8
+            },
+            {
+              "id": "cola",
+              "name": "كولا",
+              "price": 6
+            },
+            {
+              "id": "sauce",
+              "name": "صلصة إضافية",
+              "price": 3
+            },
+            {
+              "id": "bread",
+              "name": "خبز إضافي",
+              "price": 4
+            }
+          ]
+        },
+        {
+          "id": "tandoor-flame-9",
+          "restaurantId": "tandoor-flame",
+          "name": "مطبخ ثالي",
+          "description": "تشكيلة أطباق هندية صغيرة.",
+          "image": "https://images.unsplash.com/photo-1611143669185-af224c5e3252?w=800&q=80",
+          "price": 55,
+          "rating": 4.6,
+          "calories": 800,
+          "protein": 28,
+          "carbs": 90,
+          "fat": 30,
+          "category": "offers",
+          "isPopular": false,
+          "isOffer": true,
+          "offerPrice": 47,
+          "spicyOption": true,
+          "cashbackPercent": null,
+          "addons": [
+            {
+              "id": "fries",
+              "name": "بطاطس مقلية",
+              "price": 8
+            },
+            {
+              "id": "cola",
+              "name": "كولا",
+              "price": 6
+            },
+            {
+              "id": "sauce",
+              "name": "صلصة إضافية",
+              "price": 3
+            },
+            {
+              "id": "bread",
+              "name": "خبز إضافي",
+              "price": 4
+            }
+          ]
+        },
+        {
+          "id": "tandoor-flame-10",
+          "restaurantId": "tandoor-flame",
+          "name": "مانجو لاسي",
+          "description": "مشروب لبن بالمانجو.",
+          "image": "https://images.unsplash.com/photo-1517248135467-4c7edcad34c4?w=800&q=80",
+          "price": 16,
+          "rating": 4.7,
+          "calories": 220,
+          "protein": 6,
+          "carbs": 28,
+          "fat": 8,
+          "category": "popular",
+          "isPopular": true,
+          "isOffer": false,
+          "offerPrice": null,
+          "spicyOption": false,
+          "cashbackPercent": null,
+          "addons": [
+            {
+              "id": "fries",
+              "name": "بطاطس مقلية",
+              "price": 8
+            },
+            {
+              "id": "cola",
+              "name": "كولا",
+              "price": 6
+            },
+            {
+              "id": "sauce",
+              "name": "صلصة إضافية",
+              "price": 3
+            },
+            {
+              "id": "bread",
+              "name": "خبز إضافي",
+              "price": 4
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "masala-bowl",
+      "name": "بول الماسالا",
+      "image": "https://images.unsplash.com/photo-1565299624946-b28f40a0ae38?w=800&q=80",
+      "rating": 4.3,
+      "cuisine": "هندي",
+      "deliveryTime": "25–35 د",
+      "deliveryFee": 12,
+      "minOrder": 50,
+      "distanceKm": 2.5,
+      "verified": null,
+      "tags": [
+        "هندي",
+        "كاري",
+        "حار"
+      ],
+      "featured": null,
+      "open24h": null,
+      "fastDelivery": null,
+      "meals": [
+        {
+          "id": "masala-bowl-1",
+          "restaurantId": "masala-bowl",
+          "name": "برياني دجاج",
+          "description": "أرز برياني مع دجاج وتوابل.",
+          "image": "https://images.unsplash.com/photo-1490645935967-10de6ba17061?w=800&q=80",
+          "price": 42,
+          "rating": 4.7,
+          "calories": 720,
+          "protein": 32,
+          "carbs": 78,
+          "fat": 22,
+          "category": "menu",
+          "isPopular": false,
+          "isOffer": false,
+          "offerPrice": null,
+          "spicyOption": true,
+          "cashbackPercent": null,
+          "addons": [
+            {
+              "id": "fries",
+              "name": "بطاطس مقلية",
+              "price": 8
+            },
+            {
+              "id": "cola",
+              "name": "كولا",
+              "price": 6
+            },
+            {
+              "id": "sauce",
+              "name": "صلصة إضافية",
+              "price": 3
+            },
+            {
+              "id": "bread",
+              "name": "خبز إضافي",
+              "price": 4
+            }
+          ]
+        },
+        {
+          "id": "masala-bowl-2",
+          "restaurantId": "masala-bowl",
+          "name": "دجاج تيكا ماسالا",
+          "description": "دجاج مشوي بصلصة كريمية.",
+          "image": "https://images.unsplash.com/photo-1582878826629-29b7ad1cdc43?w=800&q=80",
+          "price": 46,
+          "rating": 4.1,
+          "calories": 680,
+          "protein": 36,
+          "carbs": 40,
+          "fat": 32,
+          "category": "offers",
+          "isPopular": false,
+          "isOffer": true,
+          "offerPrice": 37,
+          "spicyOption": true,
+          "cashbackPercent": 15,
+          "addons": [
+            {
+              "id": "fries",
+              "name": "بطاطس مقلية",
+              "price": 8
+            },
+            {
+              "id": "cola",
+              "name": "كولا",
+              "price": 6
+            },
+            {
+              "id": "sauce",
+              "name": "صلصة إضافية",
+              "price": 3
+            },
+            {
+              "id": "bread",
+              "name": "خبز إضافي",
+              "price": 4
+            }
+          ]
+        },
+        {
+          "id": "masala-bowl-3",
+          "restaurantId": "masala-bowl",
+          "name": "بالتي لحم",
+          "description": "لحم بقري بصلصة بالتي.",
+          "image": "https://images.unsplash.com/photo-1506084868230-bb9d95c24759?w=800&q=80",
+          "price": 48,
+          "rating": 4.6,
+          "calories": 740,
+          "protein": 38,
+          "carbs": 28,
+          "fat": 42,
+          "category": "popular",
+          "isPopular": true,
+          "isOffer": false,
+          "offerPrice": null,
+          "spicyOption": true,
+          "cashbackPercent": null,
+          "addons": [
+            {
+              "id": "fries",
+              "name": "بطاطس مقلية",
+              "price": 8
+            },
+            {
+              "id": "cola",
+              "name": "كولا",
+              "price": 6
+            },
+            {
+              "id": "sauce",
+              "name": "صلصة إضافية",
+              "price": 3
+            },
+            {
+              "id": "bread",
+              "name": "خبز إضافي",
+              "price": 4
+            }
+          ]
+        },
+        {
+          "id": "masala-bowl-4",
+          "restaurantId": "masala-bowl",
+          "name": "دال ماخاني",
+          "description": "عدس أسود بالزبدة.",
+          "image": "https://images.unsplash.com/photo-1504674900247-0877df9cc836?w=800&q=80",
+          "price": 28,
+          "rating": 4.5,
+          "calories": 420,
+          "protein": 16,
+          "carbs": 40,
+          "fat": 16,
+          "category": "menu",
+          "isPopular": false,
+          "isOffer": false,
+          "offerPrice": null,
+          "spicyOption": false,
+          "cashbackPercent": null,
+          "addons": [
+            {
+              "id": "fries",
+              "name": "بطاطس مقلية",
+              "price": 8
+            },
+            {
+              "id": "cola",
+              "name": "كولا",
+              "price": 6
+            },
+            {
+              "id": "sauce",
+              "name": "صلصة إضافية",
+              "price": 3
+            },
+            {
+              "id": "bread",
+              "name": "خبز إضافي",
+              "price": 4
+            }
+          ]
+        },
+        {
+          "id": "masala-bowl-5",
+          "restaurantId": "masala-bowl",
+          "name": "نان بالثوم",
+          "description": "خبز تندور بالثوم.",
+          "image": "https://images.unsplash.com/photo-1484723091739-30a097e8f929?w=800&q=80",
+          "price": 14,
+          "rating": 4.3,
+          "calories": 260,
+          "protein": 6,
+          "carbs": 36,
+          "fat": 8,
+          "category": "offers",
+          "isPopular": false,
+          "isOffer": true,
+          "offerPrice": 11,
+          "spicyOption": false,
+          "cashbackPercent": null,
+          "addons": [
+            {
+              "id": "fries",
+              "name": "بطاطس مقلية",
+              "price": 8
+            },
+            {
+              "id": "cola",
+              "name": "كولا",
+              "price": 6
+            },
+            {
+              "id": "sauce",
+              "name": "صلصة إضافية",
+              "price": 3
+            },
+            {
+              "id": "bread",
+              "name": "خبز إضافي",
+              "price": 4
+            }
+          ]
+        },
+        {
+          "id": "masala-bowl-6",
+          "restaurantId": "masala-bowl",
+          "name": "سمبوسة خضار",
+          "description": "سمبوسة مقرمشة مع تشاتني.",
+          "image": "https://images.unsplash.com/photo-1476224203421-9ac39bcb3327?w=800&q=80",
+          "price": 18,
+          "rating": 4.5,
+          "calories": 280,
+          "protein": 6,
+          "carbs": 30,
+          "fat": 12,
+          "category": "menu",
+          "isPopular": false,
+          "isOffer": false,
+          "offerPrice": null,
+          "spicyOption": false,
+          "cashbackPercent": null,
+          "addons": [
+            {
+              "id": "fries",
+              "name": "بطاطس مقلية",
+              "price": 8
+            },
+            {
+              "id": "cola",
+              "name": "كولا",
+              "price": 6
+            },
+            {
+              "id": "sauce",
+              "name": "صلصة إضافية",
+              "price": 3
+            },
+            {
+              "id": "bread",
+              "name": "خبز إضافي",
+              "price": 4
+            }
+          ]
+        },
+        {
+          "id": "masala-bowl-7",
+          "restaurantId": "masala-bowl",
+          "name": "بانيير تيكا",
+          "description": "جبنة بانيير مشوية.",
+          "image": "https://images.unsplash.com/photo-1553621042-f6e147245754?w=800&q=80",
+          "price": 36,
+          "rating": 4.6,
+          "calories": 480,
+          "protein": 20,
+          "carbs": 22,
+          "fat": 28,
+          "category": "offers",
+          "isPopular": false,
+          "isOffer": true,
+          "offerPrice": 27,
+          "spicyOption": true,
+          "cashbackPercent": null,
+          "addons": [
+            {
+              "id": "fries",
+              "name": "بطاطس مقلية",
+              "price": 8
+            },
+            {
+              "id": "cola",
+              "name": "كولا",
+              "price": 6
+            },
+            {
+              "id": "sauce",
+              "name": "صلصة إضافية",
+              "price": 3
+            },
+            {
+              "id": "bread",
+              "name": "خبز إضافي",
+              "price": 4
+            }
+          ]
+        },
+        {
+          "id": "masala-bowl-8",
+          "restaurantId": "masala-bowl",
+          "name": "صاموسا تشات",
+          "description": "تشات هندي حار وحامض.",
+          "image": "https://images.unsplash.com/photo-1551782450-a2132b4ba21d?w=800&q=80",
+          "price": 24,
+          "rating": 4.2,
+          "calories": 340,
+          "protein": 8,
+          "carbs": 36,
+          "fat": 12,
+          "category": "menu",
+          "isPopular": false,
+          "isOffer": false,
+          "offerPrice": null,
+          "spicyOption": true,
+          "cashbackPercent": null,
+          "addons": [
+            {
+              "id": "fries",
+              "name": "بطاطس مقلية",
+              "price": 8
+            },
+            {
+              "id": "cola",
+              "name": "كولا",
+              "price": 6
+            },
+            {
+              "id": "sauce",
+              "name": "صلصة إضافية",
+              "price": 3
+            },
+            {
+              "id": "bread",
+              "name": "خبز إضافي",
+              "price": 4
+            }
+          ]
+        },
+        {
+          "id": "masala-bowl-9",
+          "restaurantId": "masala-bowl",
+          "name": "مطبخ ثالي",
+          "description": "تشكيلة أطباق هندية صغيرة.",
+          "image": "https://images.unsplash.com/photo-1529692236671-f1f6cf9683ba?w=800&q=80",
+          "price": 55,
+          "rating": 4.9,
+          "calories": 800,
+          "protein": 28,
+          "carbs": 90,
+          "fat": 30,
+          "category": "menu",
+          "isPopular": false,
+          "isOffer": false,
+          "offerPrice": null,
+          "spicyOption": true,
+          "cashbackPercent": null,
+          "addons": [
+            {
+              "id": "fries",
+              "name": "بطاطس مقلية",
+              "price": 8
+            },
+            {
+              "id": "cola",
+              "name": "كولا",
+              "price": 6
+            },
+            {
+              "id": "sauce",
+              "name": "صلصة إضافية",
+              "price": 3
+            },
+            {
+              "id": "bread",
+              "name": "خبز إضافي",
+              "price": 4
+            }
+          ]
+        },
+        {
+          "id": "masala-bowl-10",
+          "restaurantId": "masala-bowl",
+          "name": "مانجو لاسي",
+          "description": "مشروب لبن بالمانجو.",
+          "image": "https://images.unsplash.com/photo-1559847844-5315695dadae?w=800&q=80",
+          "price": 16,
+          "rating": 4.3,
+          "calories": 220,
+          "protein": 6,
+          "carbs": 28,
+          "fat": 8,
+          "category": "offers",
+          "isPopular": false,
+          "isOffer": true,
+          "offerPrice": 14,
+          "spicyOption": false,
+          "cashbackPercent": null,
+          "addons": [
+            {
+              "id": "fries",
+              "name": "بطاطس مقلية",
+              "price": 8
+            },
+            {
+              "id": "cola",
+              "name": "كولا",
+              "price": 6
+            },
+            {
+              "id": "sauce",
+              "name": "صلصة إضافية",
+              "price": 3
+            },
+            {
+              "id": "bread",
+              "name": "خبز إضافي",
+              "price": 4
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "curry-garden",
+      "name": "حديقة الكاري",
+      "image": "https://images.unsplash.com/photo-1467003909585-2f8a72700288?w=800&q=80",
+      "rating": 4.4,
+      "cuisine": "هندي",
+      "deliveryTime": "30–45 د",
+      "deliveryFee": 12,
+      "minOrder": 40,
+      "distanceKm": 1.3,
+      "verified": true,
+      "tags": [
+        "هندي",
+        "كاري",
+        "حار"
+      ],
+      "featured": null,
+      "open24h": null,
+      "fastDelivery": true,
+      "meals": [
+        {
+          "id": "curry-garden-1",
+          "restaurantId": "curry-garden",
+          "name": "برياني دجاج",
+          "description": "أرز برياني مع دجاج وتوابل.",
+          "image": "https://images.unsplash.com/photo-1601050690117-94f5f6fa8bd7?w=800&q=80",
+          "price": 42,
+          "rating": 4.1,
+          "calories": 720,
+          "protein": 32,
+          "carbs": 78,
+          "fat": 22,
+          "category": "popular",
+          "isPopular": true,
+          "isOffer": false,
+          "offerPrice": null,
+          "spicyOption": true,
+          "cashbackPercent": null,
+          "addons": [
+            {
+              "id": "fries",
+              "name": "بطاطس مقلية",
+              "price": 8
+            },
+            {
+              "id": "cola",
+              "name": "كولا",
+              "price": 6
+            },
+            {
+              "id": "sauce",
+              "name": "صلصة إضافية",
+              "price": 3
+            },
+            {
+              "id": "bread",
+              "name": "خبز إضافي",
+              "price": 4
+            }
+          ]
+        },
+        {
+          "id": "curry-garden-2",
+          "restaurantId": "curry-garden",
+          "name": "دجاج تيكا ماسالا",
+          "description": "دجاج مشوي بصلصة كريمية.",
+          "image": "https://images.unsplash.com/photo-1553621042-f6e147245754?w=800&q=80",
+          "price": 46,
+          "rating": 4.3,
+          "calories": 680,
+          "protein": 36,
+          "carbs": 40,
+          "fat": 32,
+          "category": "menu",
+          "isPopular": false,
+          "isOffer": false,
+          "offerPrice": null,
+          "spicyOption": true,
+          "cashbackPercent": null,
+          "addons": [
+            {
+              "id": "fries",
+              "name": "بطاطس مقلية",
+              "price": 8
+            },
+            {
+              "id": "cola",
+              "name": "كولا",
+              "price": 6
+            },
+            {
+              "id": "sauce",
+              "name": "صلصة إضافية",
+              "price": 3
+            },
+            {
+              "id": "bread",
+              "name": "خبز إضافي",
+              "price": 4
+            }
+          ]
+        },
+        {
+          "id": "curry-garden-3",
+          "restaurantId": "curry-garden",
+          "name": "بالتي لحم",
+          "description": "لحم بقري بصلصة بالتي.",
+          "image": "https://images.unsplash.com/photo-1551782450-a2132b4ba21d?w=800&q=80",
+          "price": 48,
+          "rating": 4.6,
+          "calories": 740,
+          "protein": 38,
+          "carbs": 28,
+          "fat": 42,
+          "category": "popular",
+          "isPopular": true,
+          "isOffer": false,
+          "offerPrice": null,
+          "spicyOption": true,
+          "cashbackPercent": null,
+          "addons": [
+            {
+              "id": "fries",
+              "name": "بطاطس مقلية",
+              "price": 8
+            },
+            {
+              "id": "cola",
+              "name": "كولا",
+              "price": 6
+            },
+            {
+              "id": "sauce",
+              "name": "صلصة إضافية",
+              "price": 3
+            },
+            {
+              "id": "bread",
+              "name": "خبز إضافي",
+              "price": 4
+            }
+          ]
+        },
+        {
+          "id": "curry-garden-4",
+          "restaurantId": "curry-garden",
+          "name": "دال ماخاني",
+          "description": "عدس أسود بالزبدة.",
+          "image": "https://images.unsplash.com/photo-1546069901-ba9599a7e63c?w=800&q=80",
+          "price": 28,
+          "rating": 4.6,
+          "calories": 420,
+          "protein": 16,
+          "carbs": 40,
+          "fat": 16,
+          "category": "offers",
+          "isPopular": false,
+          "isOffer": true,
+          "offerPrice": 23,
+          "spicyOption": false,
+          "cashbackPercent": null,
+          "addons": [
+            {
+              "id": "fries",
+              "name": "بطاطس مقلية",
+              "price": 8
+            },
+            {
+              "id": "cola",
+              "name": "كولا",
+              "price": 6
+            },
+            {
+              "id": "sauce",
+              "name": "صلصة إضافية",
+              "price": 3
+            },
+            {
+              "id": "bread",
+              "name": "خبز إضافي",
+              "price": 4
+            }
+          ]
+        },
+        {
+          "id": "curry-garden-5",
+          "restaurantId": "curry-garden",
+          "name": "نان بالثوم",
+          "description": "خبز تندور بالثوم.",
+          "image": "https://images.unsplash.com/photo-1529006557810-274b9b2fc783?w=800&q=80",
+          "price": 14,
+          "rating": 4.1,
+          "calories": 260,
+          "protein": 6,
+          "carbs": 36,
+          "fat": 8,
+          "category": "popular",
+          "isPopular": true,
+          "isOffer": false,
+          "offerPrice": null,
+          "spicyOption": false,
+          "cashbackPercent": null,
+          "addons": [
+            {
+              "id": "fries",
+              "name": "بطاطس مقلية",
+              "price": 8
+            },
+            {
+              "id": "cola",
+              "name": "كولا",
+              "price": 6
+            },
+            {
+              "id": "sauce",
+              "name": "صلصة إضافية",
+              "price": 3
+            },
+            {
+              "id": "bread",
+              "name": "خبز إضافي",
+              "price": 4
+            }
+          ]
+        },
+        {
+          "id": "curry-garden-6",
+          "restaurantId": "curry-garden",
+          "name": "سمبوسة خضار",
+          "description": "سمبوسة مقرمشة مع تشاتني.",
+          "image": "https://images.unsplash.com/photo-1504674900247-0877df9cc836?w=800&q=80",
+          "price": 18,
+          "rating": 4.9,
+          "calories": 280,
+          "protein": 6,
+          "carbs": 30,
+          "fat": 12,
+          "category": "menu",
+          "isPopular": false,
+          "isOffer": false,
+          "offerPrice": null,
+          "spicyOption": false,
+          "cashbackPercent": null,
+          "addons": [
+            {
+              "id": "fries",
+              "name": "بطاطس مقلية",
+              "price": 8
+            },
+            {
+              "id": "cola",
+              "name": "كولا",
+              "price": 6
+            },
+            {
+              "id": "sauce",
+              "name": "صلصة إضافية",
+              "price": 3
+            },
+            {
+              "id": "bread",
+              "name": "خبز إضافي",
+              "price": 4
+            }
+          ]
+        },
+        {
+          "id": "curry-garden-7",
+          "restaurantId": "curry-garden",
+          "name": "بانيير تيكا",
+          "description": "جبنة بانيير مشوية.",
+          "image": "https://images.unsplash.com/photo-1579584425555-c3ce17fd4351?w=800&q=80",
+          "price": 36,
+          "rating": 4.8,
+          "calories": 480,
+          "protein": 20,
+          "carbs": 22,
+          "fat": 28,
+          "category": "popular",
+          "isPopular": true,
+          "isOffer": false,
+          "offerPrice": null,
+          "spicyOption": true,
+          "cashbackPercent": null,
+          "addons": [
+            {
+              "id": "fries",
+              "name": "بطاطس مقلية",
+              "price": 8
+            },
+            {
+              "id": "cola",
+              "name": "كولا",
+              "price": 6
+            },
+            {
+              "id": "sauce",
+              "name": "صلصة إضافية",
+              "price": 3
+            },
+            {
+              "id": "bread",
+              "name": "خبز إضافي",
+              "price": 4
+            }
+          ]
+        },
+        {
+          "id": "curry-garden-8",
+          "restaurantId": "curry-garden",
+          "name": "صاموسا تشات",
+          "description": "تشات هندي حار وحامض.",
+          "image": "https://images.unsplash.com/photo-1573080496219-bb080dd4f877?w=800&q=80",
+          "price": 24,
+          "rating": 4.6,
+          "calories": 340,
+          "protein": 8,
+          "carbs": 36,
+          "fat": 12,
+          "category": "offers",
+          "isPopular": false,
+          "isOffer": true,
+          "offerPrice": 18,
+          "spicyOption": true,
+          "cashbackPercent": 5,
+          "addons": [
+            {
+              "id": "fries",
+              "name": "بطاطس مقلية",
+              "price": 8
+            },
+            {
+              "id": "cola",
+              "name": "كولا",
+              "price": 6
+            },
+            {
+              "id": "sauce",
+              "name": "صلصة إضافية",
+              "price": 3
+            },
+            {
+              "id": "bread",
+              "name": "خبز إضافي",
+              "price": 4
+            }
+          ]
+        },
+        {
+          "id": "curry-garden-9",
+          "restaurantId": "curry-garden",
+          "name": "مطبخ ثالي",
+          "description": "تشكيلة أطباق هندية صغيرة.",
+          "image": "https://images.unsplash.com/photo-1552566626-52f8b828add9?w=800&q=80",
+          "price": 55,
+          "rating": 4.3,
+          "calories": 800,
+          "protein": 28,
+          "carbs": 90,
+          "fat": 30,
+          "category": "offers",
+          "isPopular": false,
+          "isOffer": true,
+          "offerPrice": 43,
+          "spicyOption": true,
+          "cashbackPercent": 5,
+          "addons": [
+            {
+              "id": "fries",
+              "name": "بطاطس مقلية",
+              "price": 8
+            },
+            {
+              "id": "cola",
+              "name": "كولا",
+              "price": 6
+            },
+            {
+              "id": "sauce",
+              "name": "صلصة إضافية",
+              "price": 3
+            },
+            {
+              "id": "bread",
+              "name": "خبز إضافي",
+              "price": 4
+            }
+          ]
+        },
+        {
+          "id": "curry-garden-10",
+          "restaurantId": "curry-garden",
+          "name": "مانجو لاسي",
+          "description": "مشروب لبن بالمانجو.",
+          "image": "https://images.unsplash.com/photo-1572490122747-3968b75cc699?w=800&q=80",
+          "price": 16,
+          "rating": 4.2,
+          "calories": 220,
+          "protein": 6,
+          "carbs": 28,
+          "fat": 8,
+          "category": "menu",
+          "isPopular": false,
+          "isOffer": false,
+          "offerPrice": null,
+          "spicyOption": false,
+          "cashbackPercent": null,
+          "addons": [
+            {
+              "id": "fries",
+              "name": "بطاطس مقلية",
+              "price": 8
+            },
+            {
+              "id": "cola",
+              "name": "كولا",
+              "price": 6
+            },
+            {
+              "id": "sauce",
+              "name": "صلصة إضافية",
+              "price": 3
+            },
+            {
+              "id": "bread",
+              "name": "خبز إضافي",
+              "price": 4
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "biryani-dar",
+      "name": "دار البرياني",
+      "image": "https://images.unsplash.com/photo-1567620905732-2d1ec7ab7445?w=800&q=80",
+      "rating": 4.8,
+      "cuisine": "هندي",
+      "deliveryTime": "40–55 د",
+      "deliveryFee": 5,
+      "minOrder": 40,
+      "distanceKm": 4.5,
+      "verified": null,
+      "tags": [
+        "هندي",
+        "كاري",
+        "حار"
+      ],
+      "featured": null,
+      "open24h": null,
+      "fastDelivery": null,
+      "meals": [
+        {
+          "id": "biryani-dar-1",
+          "restaurantId": "biryani-dar",
+          "name": "برياني دجاج",
+          "description": "أرز برياني مع دجاج وتوابل.",
+          "image": "https://images.unsplash.com/photo-1498837167922-ddd27525d352?w=800&q=80",
+          "price": 42,
+          "rating": 4.8,
+          "calories": 720,
+          "protein": 32,
+          "carbs": 78,
+          "fat": 22,
+          "category": "popular",
+          "isPopular": true,
+          "isOffer": false,
+          "offerPrice": null,
+          "spicyOption": true,
+          "cashbackPercent": null,
+          "addons": [
+            {
+              "id": "fries",
+              "name": "بطاطس مقلية",
+              "price": 8
+            },
+            {
+              "id": "cola",
+              "name": "كولا",
+              "price": 6
+            },
+            {
+              "id": "sauce",
+              "name": "صلصة إضافية",
+              "price": 3
+            },
+            {
+              "id": "bread",
+              "name": "خبز إضافي",
+              "price": 4
+            }
+          ]
+        },
+        {
+          "id": "biryani-dar-2",
+          "restaurantId": "biryani-dar",
+          "name": "دجاج تيكا ماسالا",
+          "description": "دجاج مشوي بصلصة كريمية.",
+          "image": "https://images.unsplash.com/photo-1551183053-bf91a1d81141?w=800&q=80",
+          "price": 46,
+          "rating": 4.6,
+          "calories": 680,
+          "protein": 36,
+          "carbs": 40,
+          "fat": 32,
+          "category": "offers",
+          "isPopular": false,
+          "isOffer": true,
+          "offerPrice": 41,
+          "spicyOption": true,
+          "cashbackPercent": 5,
+          "addons": [
+            {
+              "id": "fries",
+              "name": "بطاطس مقلية",
+              "price": 8
+            },
+            {
+              "id": "cola",
+              "name": "كولا",
+              "price": 6
+            },
+            {
+              "id": "sauce",
+              "name": "صلصة إضافية",
+              "price": 3
+            },
+            {
+              "id": "bread",
+              "name": "خبز إضافي",
+              "price": 4
+            }
+          ]
+        },
+        {
+          "id": "biryani-dar-3",
+          "restaurantId": "biryani-dar",
+          "name": "بالتي لحم",
+          "description": "لحم بقري بصلصة بالتي.",
+          "image": "https://images.unsplash.com/photo-1414235077428-338989a2e8c0?w=800&q=80",
+          "price": 48,
+          "rating": 4.6,
+          "calories": 740,
+          "protein": 38,
+          "carbs": 28,
+          "fat": 42,
+          "category": "offers",
+          "isPopular": false,
+          "isOffer": true,
+          "offerPrice": 40,
+          "spicyOption": true,
+          "cashbackPercent": 10,
+          "addons": [
+            {
+              "id": "fries",
+              "name": "بطاطس مقلية",
+              "price": 8
+            },
+            {
+              "id": "cola",
+              "name": "كولا",
+              "price": 6
+            },
+            {
+              "id": "sauce",
+              "name": "صلصة إضافية",
+              "price": 3
+            },
+            {
+              "id": "bread",
+              "name": "خبز إضافي",
+              "price": 4
+            }
+          ]
+        },
+        {
+          "id": "biryani-dar-4",
+          "restaurantId": "biryani-dar",
+          "name": "دال ماخاني",
+          "description": "عدس أسود بالزبدة.",
+          "image": "https://images.unsplash.com/photo-1553979459-d2229ba7433b?w=800&q=80",
+          "price": 28,
+          "rating": 4.7,
+          "calories": 420,
+          "protein": 16,
+          "carbs": 40,
+          "fat": 16,
+          "category": "popular",
+          "isPopular": true,
+          "isOffer": false,
+          "offerPrice": null,
+          "spicyOption": false,
+          "cashbackPercent": null,
+          "addons": [
+            {
+              "id": "fries",
+              "name": "بطاطس مقلية",
+              "price": 8
+            },
+            {
+              "id": "cola",
+              "name": "كولا",
+              "price": 6
+            },
+            {
+              "id": "sauce",
+              "name": "صلصة إضافية",
+              "price": 3
+            },
+            {
+              "id": "bread",
+              "name": "خبز إضافي",
+              "price": 4
+            }
+          ]
+        },
+        {
+          "id": "biryani-dar-5",
+          "restaurantId": "biryani-dar",
+          "name": "نان بالثوم",
+          "description": "خبز تندور بالثوم.",
+          "image": "https://images.unsplash.com/photo-1529042410759-befb1204b468?w=800&q=80",
+          "price": 14,
+          "rating": 4.4,
+          "calories": 260,
+          "protein": 6,
+          "carbs": 36,
+          "fat": 8,
+          "category": "offers",
+          "isPopular": false,
+          "isOffer": true,
+          "offerPrice": 12,
+          "spicyOption": false,
+          "cashbackPercent": 10,
+          "addons": [
+            {
+              "id": "fries",
+              "name": "بطاطس مقلية",
+              "price": 8
+            },
+            {
+              "id": "cola",
+              "name": "كولا",
+              "price": 6
+            },
+            {
+              "id": "sauce",
+              "name": "صلصة إضافية",
+              "price": 3
+            },
+            {
+              "id": "bread",
+              "name": "خبز إضافي",
+              "price": 4
+            }
+          ]
+        },
+        {
+          "id": "biryani-dar-6",
+          "restaurantId": "biryani-dar",
+          "name": "سمبوسة خضار",
+          "description": "سمبوسة مقرمشة مع تشاتني.",
+          "image": "https://images.unsplash.com/photo-1467003909585-2f8a72700288?w=800&q=80",
+          "price": 18,
+          "rating": 4.8,
+          "calories": 280,
+          "protein": 6,
+          "carbs": 30,
+          "fat": 12,
+          "category": "offers",
+          "isPopular": false,
+          "isOffer": true,
+          "offerPrice": 14,
+          "spicyOption": false,
+          "cashbackPercent": 10,
+          "addons": [
+            {
+              "id": "fries",
+              "name": "بطاطس مقلية",
+              "price": 8
+            },
+            {
+              "id": "cola",
+              "name": "كولا",
+              "price": 6
+            },
+            {
+              "id": "sauce",
+              "name": "صلصة إضافية",
+              "price": 3
+            },
+            {
+              "id": "bread",
+              "name": "خبز إضافي",
+              "price": 4
+            }
+          ]
+        },
+        {
+          "id": "biryani-dar-7",
+          "restaurantId": "biryani-dar",
+          "name": "بانيير تيكا",
+          "description": "جبنة بانيير مشوية.",
+          "image": "https://images.unsplash.com/photo-1606755962773-d324e0a13086?w=800&q=80",
+          "price": 36,
+          "rating": 4.3,
+          "calories": 480,
+          "protein": 20,
+          "carbs": 22,
+          "fat": 28,
+          "category": "menu",
+          "isPopular": false,
+          "isOffer": false,
+          "offerPrice": null,
+          "spicyOption": true,
+          "cashbackPercent": null,
+          "addons": [
+            {
+              "id": "fries",
+              "name": "بطاطس مقلية",
+              "price": 8
+            },
+            {
+              "id": "cola",
+              "name": "كولا",
+              "price": 6
+            },
+            {
+              "id": "sauce",
+              "name": "صلصة إضافية",
+              "price": 3
+            },
+            {
+              "id": "bread",
+              "name": "خبز إضافي",
+              "price": 4
+            }
+          ]
+        },
+        {
+          "id": "biryani-dar-8",
+          "restaurantId": "biryani-dar",
+          "name": "صاموسا تشات",
+          "description": "تشات هندي حار وحامض.",
+          "image": "https://images.unsplash.com/photo-1455619452474-d2be8b1e70cd?w=800&q=80",
+          "price": 24,
+          "rating": 4.8,
+          "calories": 340,
+          "protein": 8,
+          "carbs": 36,
+          "fat": 12,
+          "category": "popular",
+          "isPopular": true,
+          "isOffer": false,
+          "offerPrice": null,
+          "spicyOption": true,
+          "cashbackPercent": null,
+          "addons": [
+            {
+              "id": "fries",
+              "name": "بطاطس مقلية",
+              "price": 8
+            },
+            {
+              "id": "cola",
+              "name": "كولا",
+              "price": 6
+            },
+            {
+              "id": "sauce",
+              "name": "صلصة إضافية",
+              "price": 3
+            },
+            {
+              "id": "bread",
+              "name": "خبز إضافي",
+              "price": 4
+            }
+          ]
+        },
+        {
+          "id": "biryani-dar-9",
+          "restaurantId": "biryani-dar",
+          "name": "مطبخ ثالي",
+          "description": "تشكيلة أطباق هندية صغيرة.",
+          "image": "https://images.unsplash.com/photo-1606313564200-e75d5e30476c?w=800&q=80",
+          "price": 55,
+          "rating": 4.7,
+          "calories": 800,
+          "protein": 28,
+          "carbs": 90,
+          "fat": 30,
+          "category": "popular",
+          "isPopular": true,
+          "isOffer": false,
+          "offerPrice": null,
+          "spicyOption": true,
+          "cashbackPercent": null,
+          "addons": [
+            {
+              "id": "fries",
+              "name": "بطاطس مقلية",
+              "price": 8
+            },
+            {
+              "id": "cola",
+              "name": "كولا",
+              "price": 6
+            },
+            {
+              "id": "sauce",
+              "name": "صلصة إضافية",
+              "price": 3
+            },
+            {
+              "id": "bread",
+              "name": "خبز إضافي",
+              "price": 4
+            }
+          ]
+        },
+        {
+          "id": "biryani-dar-10",
+          "restaurantId": "biryani-dar",
+          "name": "مانجو لاسي",
+          "description": "مشروب لبن بالمانجو.",
+          "image": "https://images.unsplash.com/photo-1488477181946-6428a0291777?w=800&q=80",
+          "price": 16,
+          "rating": 4.8,
+          "calories": 220,
+          "protein": 6,
+          "carbs": 28,
+          "fat": 8,
+          "category": "offers",
+          "isPopular": false,
+          "isOffer": true,
+          "offerPrice": 13,
+          "spicyOption": false,
+          "cashbackPercent": null,
+          "addons": [
+            {
+              "id": "fries",
+              "name": "بطاطس مقلية",
+              "price": 8
+            },
+            {
+              "id": "cola",
+              "name": "كولا",
+              "price": 6
+            },
+            {
+              "id": "sauce",
+              "name": "صلصة إضافية",
+              "price": 3
+            },
+            {
+              "id": "bread",
+              "name": "خبز إضافي",
+              "price": 4
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "naan-house",
+      "name": "بيت الخبز النان",
+      "image": "https://images.unsplash.com/photo-1578985545062-69928b1d9587?w=800&q=80",
+      "rating": 4.4,
+      "cuisine": "هندي",
+      "deliveryTime": "25–35 د",
+      "deliveryFee": 5,
+      "minOrder": 25,
+      "distanceKm": 5.3,
+      "verified": true,
+      "tags": [
+        "هندي",
+        "كاري",
+        "حار"
+      ],
+      "featured": null,
+      "open24h": true,
+      "fastDelivery": null,
+      "meals": [
+        {
+          "id": "naan-house-1",
+          "restaurantId": "naan-house",
+          "name": "برياني دجاج",
+          "description": "أرز برياني مع دجاج وتوابل.",
+          "image": "https://images.unsplash.com/photo-1573080496219-bb080dd4f877?w=800&q=80",
+          "price": 42,
+          "rating": 4.3,
+          "calories": 720,
+          "protein": 32,
+          "carbs": 78,
+          "fat": 22,
+          "category": "menu",
+          "isPopular": false,
+          "isOffer": false,
+          "offerPrice": null,
+          "spicyOption": true,
+          "cashbackPercent": null,
+          "addons": [
+            {
+              "id": "fries",
+              "name": "بطاطس مقلية",
+              "price": 8
+            },
+            {
+              "id": "cola",
+              "name": "كولا",
+              "price": 6
+            },
+            {
+              "id": "sauce",
+              "name": "صلصة إضافية",
+              "price": 3
+            },
+            {
+              "id": "bread",
+              "name": "خبز إضافي",
+              "price": 4
+            }
+          ]
+        },
+        {
+          "id": "naan-house-2",
+          "restaurantId": "naan-house",
+          "name": "دجاج تيكا ماسالا",
+          "description": "دجاج مشوي بصلصة كريمية.",
+          "image": "https://images.unsplash.com/photo-1544025162-d76694265947?w=800&q=80",
+          "price": 46,
+          "rating": 4.9,
+          "calories": 680,
+          "protein": 36,
+          "carbs": 40,
+          "fat": 32,
+          "category": "menu",
+          "isPopular": false,
+          "isOffer": false,
+          "offerPrice": null,
+          "spicyOption": true,
+          "cashbackPercent": null,
+          "addons": [
+            {
+              "id": "fries",
+              "name": "بطاطس مقلية",
+              "price": 8
+            },
+            {
+              "id": "cola",
+              "name": "كولا",
+              "price": 6
+            },
+            {
+              "id": "sauce",
+              "name": "صلصة إضافية",
+              "price": 3
+            },
+            {
+              "id": "bread",
+              "name": "خبز إضافي",
+              "price": 4
+            }
+          ]
+        },
+        {
+          "id": "naan-house-3",
+          "restaurantId": "naan-house",
+          "name": "بالتي لحم",
+          "description": "لحم بقري بصلصة بالتي.",
+          "image": "https://images.unsplash.com/photo-1606755962773-d324e0a13086?w=800&q=80",
+          "price": 48,
+          "rating": 4.7,
+          "calories": 740,
+          "protein": 38,
+          "carbs": 28,
+          "fat": 42,
+          "category": "menu",
+          "isPopular": false,
+          "isOffer": false,
+          "offerPrice": null,
+          "spicyOption": true,
+          "cashbackPercent": null,
+          "addons": [
+            {
+              "id": "fries",
+              "name": "بطاطس مقلية",
+              "price": 8
+            },
+            {
+              "id": "cola",
+              "name": "كولا",
+              "price": 6
+            },
+            {
+              "id": "sauce",
+              "name": "صلصة إضافية",
+              "price": 3
+            },
+            {
+              "id": "bread",
+              "name": "خبز إضافي",
+              "price": 4
+            }
+          ]
+        },
+        {
+          "id": "naan-house-4",
+          "restaurantId": "naan-house",
+          "name": "دال ماخاني",
+          "description": "عدس أسود بالزبدة.",
+          "image": "https://images.unsplash.com/photo-1601050690117-94f5f6fa8bd7?w=800&q=80",
+          "price": 28,
+          "rating": 4.2,
+          "calories": 420,
+          "protein": 16,
+          "carbs": 40,
+          "fat": 16,
+          "category": "menu",
+          "isPopular": false,
+          "isOffer": false,
+          "offerPrice": null,
+          "spicyOption": false,
+          "cashbackPercent": null,
+          "addons": [
+            {
+              "id": "fries",
+              "name": "بطاطس مقلية",
+              "price": 8
+            },
+            {
+              "id": "cola",
+              "name": "كولا",
+              "price": 6
+            },
+            {
+              "id": "sauce",
+              "name": "صلصة إضافية",
+              "price": 3
+            },
+            {
+              "id": "bread",
+              "name": "خبز إضافي",
+              "price": 4
+            }
+          ]
+        },
+        {
+          "id": "naan-house-5",
+          "restaurantId": "naan-house",
+          "name": "نان بالثوم",
+          "description": "خبز تندور بالثوم.",
+          "image": "https://images.unsplash.com/photo-1626645738196-c2a7c87a8f58?w=800&q=80",
+          "price": 14,
+          "rating": 4.6,
+          "calories": 260,
+          "protein": 6,
+          "carbs": 36,
+          "fat": 8,
+          "category": "offers",
+          "isPopular": false,
+          "isOffer": true,
+          "offerPrice": 12,
+          "spicyOption": false,
+          "cashbackPercent": 5,
+          "addons": [
+            {
+              "id": "fries",
+              "name": "بطاطس مقلية",
+              "price": 8
+            },
+            {
+              "id": "cola",
+              "name": "كولا",
+              "price": 6
+            },
+            {
+              "id": "sauce",
+              "name": "صلصة إضافية",
+              "price": 3
+            },
+            {
+              "id": "bread",
+              "name": "خبز إضافي",
+              "price": 4
+            }
+          ]
+        },
+        {
+          "id": "naan-house-6",
+          "restaurantId": "naan-house",
+          "name": "سمبوسة خضار",
+          "description": "سمبوسة مقرمشة مع تشاتني.",
+          "image": "https://images.unsplash.com/photo-1476224203421-9ac39bcb3327?w=800&q=80",
+          "price": 18,
+          "rating": 4.7,
+          "calories": 280,
+          "protein": 6,
+          "carbs": 30,
+          "fat": 12,
+          "category": "menu",
+          "isPopular": false,
+          "isOffer": false,
+          "offerPrice": null,
+          "spicyOption": false,
+          "cashbackPercent": null,
+          "addons": [
+            {
+              "id": "fries",
+              "name": "بطاطس مقلية",
+              "price": 8
+            },
+            {
+              "id": "cola",
+              "name": "كولا",
+              "price": 6
+            },
+            {
+              "id": "sauce",
+              "name": "صلصة إضافية",
+              "price": 3
+            },
+            {
+              "id": "bread",
+              "name": "خبز إضافي",
+              "price": 4
+            }
+          ]
+        },
+        {
+          "id": "naan-house-7",
+          "restaurantId": "naan-house",
+          "name": "بانيير تيكا",
+          "description": "جبنة بانيير مشوية.",
+          "image": "https://images.unsplash.com/photo-1563379926898-05f4575a45d8?w=800&q=80",
+          "price": 36,
+          "rating": 4.9,
+          "calories": 480,
+          "protein": 20,
+          "carbs": 22,
+          "fat": 28,
+          "category": "popular",
+          "isPopular": true,
+          "isOffer": false,
+          "offerPrice": null,
+          "spicyOption": true,
+          "cashbackPercent": null,
+          "addons": [
+            {
+              "id": "fries",
+              "name": "بطاطس مقلية",
+              "price": 8
+            },
+            {
+              "id": "cola",
+              "name": "كولا",
+              "price": 6
+            },
+            {
+              "id": "sauce",
+              "name": "صلصة إضافية",
+              "price": 3
+            },
+            {
+              "id": "bread",
+              "name": "خبز إضافي",
+              "price": 4
+            }
+          ]
+        },
+        {
+          "id": "naan-house-8",
+          "restaurantId": "naan-house",
+          "name": "صاموسا تشات",
+          "description": "تشات هندي حار وحامض.",
+          "image": "https://images.unsplash.com/photo-1559339352-11d035aa65de?w=800&q=80",
+          "price": 24,
+          "rating": 4.3,
+          "calories": 340,
+          "protein": 8,
+          "carbs": 36,
+          "fat": 12,
+          "category": "offers",
+          "isPopular": false,
+          "isOffer": true,
+          "offerPrice": 20,
+          "spicyOption": true,
+          "cashbackPercent": 10,
+          "addons": [
+            {
+              "id": "fries",
+              "name": "بطاطس مقلية",
+              "price": 8
+            },
+            {
+              "id": "cola",
+              "name": "كولا",
+              "price": 6
+            },
+            {
+              "id": "sauce",
+              "name": "صلصة إضافية",
+              "price": 3
+            },
+            {
+              "id": "bread",
+              "name": "خبز إضافي",
+              "price": 4
+            }
+          ]
+        },
+        {
+          "id": "naan-house-9",
+          "restaurantId": "naan-house",
+          "name": "مطبخ ثالي",
+          "description": "تشكيلة أطباق هندية صغيرة.",
+          "image": "https://images.unsplash.com/photo-1559847844-5315695dadae?w=800&q=80",
+          "price": 55,
+          "rating": 4.8,
+          "calories": 800,
+          "protein": 28,
+          "carbs": 90,
+          "fat": 30,
+          "category": "menu",
+          "isPopular": false,
+          "isOffer": false,
+          "offerPrice": null,
+          "spicyOption": true,
+          "cashbackPercent": null,
+          "addons": [
+            {
+              "id": "fries",
+              "name": "بطاطس مقلية",
+              "price": 8
+            },
+            {
+              "id": "cola",
+              "name": "كولا",
+              "price": 6
+            },
+            {
+              "id": "sauce",
+              "name": "صلصة إضافية",
+              "price": 3
+            },
+            {
+              "id": "bread",
+              "name": "خبز إضافي",
+              "price": 4
+            }
+          ]
+        },
+        {
+          "id": "naan-house-10",
+          "restaurantId": "naan-house",
+          "name": "مانجو لاسي",
+          "description": "مشروب لبن بالمانجو.",
+          "image": "https://images.unsplash.com/photo-1506084868230-bb9d95c24759?w=800&q=80",
+          "price": 16,
+          "rating": 4.4,
+          "calories": 220,
+          "protein": 6,
+          "carbs": 28,
+          "fat": 8,
+          "category": "menu",
+          "isPopular": false,
+          "isOffer": false,
+          "offerPrice": null,
+          "spicyOption": false,
+          "cashbackPercent": null,
+          "addons": [
+            {
+              "id": "fries",
+              "name": "بطاطس مقلية",
+              "price": 8
+            },
+            {
+              "id": "cola",
+              "name": "كولا",
+              "price": 6
+            },
+            {
+              "id": "sauce",
+              "name": "صلصة إضافية",
+              "price": 3
+            },
+            {
+              "id": "bread",
+              "name": "خبز إضافي",
+              "price": 4
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "tikka-spot",
+      "name": "تيكا سبوت",
+      "image": "https://images.unsplash.com/photo-1565299624946-b28f40a0ae38?w=800&q=80",
+      "rating": 4.5,
+      "cuisine": "هندي",
+      "deliveryTime": "35–50 د",
+      "deliveryFee": 10,
+      "minOrder": 30,
+      "distanceKm": 4.3,
+      "verified": true,
+      "tags": [
+        "هندي",
+        "كاري",
+        "حار"
+      ],
+      "featured": null,
+      "open24h": null,
+      "fastDelivery": null,
+      "meals": [
+        {
+          "id": "tikka-spot-1",
+          "restaurantId": "tikka-spot",
+          "name": "برياني دجاج",
+          "description": "أرز برياني مع دجاج وتوابل.",
+          "image": "https://images.unsplash.com/photo-1606313564200-e75d5e30476c?w=800&q=80",
+          "price": 42,
+          "rating": 4.5,
+          "calories": 720,
+          "protein": 32,
+          "carbs": 78,
+          "fat": 22,
+          "category": "menu",
+          "isPopular": false,
+          "isOffer": false,
+          "offerPrice": null,
+          "spicyOption": true,
+          "cashbackPercent": null,
+          "addons": [
+            {
+              "id": "fries",
+              "name": "بطاطس مقلية",
+              "price": 8
+            },
+            {
+              "id": "cola",
+              "name": "كولا",
+              "price": 6
+            },
+            {
+              "id": "sauce",
+              "name": "صلصة إضافية",
+              "price": 3
+            },
+            {
+              "id": "bread",
+              "name": "خبز إضافي",
+              "price": 4
+            }
+          ]
+        },
+        {
+          "id": "tikka-spot-2",
+          "restaurantId": "tikka-spot",
+          "name": "دجاج تيكا ماسالا",
+          "description": "دجاج مشوي بصلصة كريمية.",
+          "image": "https://images.unsplash.com/photo-1519676867240-f03562e64548?w=800&q=80",
+          "price": 46,
+          "rating": 4.4,
+          "calories": 680,
+          "protein": 36,
+          "carbs": 40,
+          "fat": 32,
+          "category": "offers",
+          "isPopular": false,
+          "isOffer": true,
+          "offerPrice": 39,
+          "spicyOption": true,
+          "cashbackPercent": 10,
+          "addons": [
+            {
+              "id": "fries",
+              "name": "بطاطس مقلية",
+              "price": 8
+            },
+            {
+              "id": "cola",
+              "name": "كولا",
+              "price": 6
+            },
+            {
+              "id": "sauce",
+              "name": "صلصة إضافية",
+              "price": 3
+            },
+            {
+              "id": "bread",
+              "name": "خبز إضافي",
+              "price": 4
+            }
+          ]
+        },
+        {
+          "id": "tikka-spot-3",
+          "restaurantId": "tikka-spot",
+          "name": "بالتي لحم",
+          "description": "لحم بقري بصلصة بالتي.",
+          "image": "https://images.unsplash.com/photo-1627308595229-7830a5c91f9f?w=800&q=80",
+          "price": 48,
+          "rating": 4.6,
+          "calories": 740,
+          "protein": 38,
+          "carbs": 28,
+          "fat": 42,
+          "category": "popular",
+          "isPopular": true,
+          "isOffer": false,
+          "offerPrice": null,
+          "spicyOption": true,
+          "cashbackPercent": null,
+          "addons": [
+            {
+              "id": "fries",
+              "name": "بطاطس مقلية",
+              "price": 8
+            },
+            {
+              "id": "cola",
+              "name": "كولا",
+              "price": 6
+            },
+            {
+              "id": "sauce",
+              "name": "صلصة إضافية",
+              "price": 3
+            },
+            {
+              "id": "bread",
+              "name": "خبز إضافي",
+              "price": 4
+            }
+          ]
+        },
+        {
+          "id": "tikka-spot-4",
+          "restaurantId": "tikka-spot",
+          "name": "دال ماخاني",
+          "description": "عدس أسود بالزبدة.",
+          "image": "https://images.unsplash.com/photo-1512058564366-18510be2db19?w=800&q=80",
+          "price": 28,
+          "rating": 4.7,
+          "calories": 420,
+          "protein": 16,
+          "carbs": 40,
+          "fat": 16,
+          "category": "menu",
+          "isPopular": false,
+          "isOffer": false,
+          "offerPrice": null,
+          "spicyOption": false,
+          "cashbackPercent": null,
+          "addons": [
+            {
+              "id": "fries",
+              "name": "بطاطس مقلية",
+              "price": 8
+            },
+            {
+              "id": "cola",
+              "name": "كولا",
+              "price": 6
+            },
+            {
+              "id": "sauce",
+              "name": "صلصة إضافية",
+              "price": 3
+            },
+            {
+              "id": "bread",
+              "name": "خبز إضافي",
+              "price": 4
+            }
+          ]
+        },
+        {
+          "id": "tikka-spot-5",
+          "restaurantId": "tikka-spot",
+          "name": "نان بالثوم",
+          "description": "خبز تندور بالثوم.",
+          "image": "https://images.unsplash.com/photo-1600891964599-f61ba0e24092?w=800&q=80",
+          "price": 14,
+          "rating": 4.2,
+          "calories": 260,
+          "protein": 6,
+          "carbs": 36,
+          "fat": 8,
+          "category": "popular",
+          "isPopular": true,
+          "isOffer": false,
+          "offerPrice": null,
+          "spicyOption": false,
+          "cashbackPercent": null,
+          "addons": [
+            {
+              "id": "fries",
+              "name": "بطاطس مقلية",
+              "price": 8
+            },
+            {
+              "id": "cola",
+              "name": "كولا",
+              "price": 6
+            },
+            {
+              "id": "sauce",
+              "name": "صلصة إضافية",
+              "price": 3
+            },
+            {
+              "id": "bread",
+              "name": "خبز إضافي",
+              "price": 4
+            }
+          ]
+        },
+        {
+          "id": "tikka-spot-6",
+          "restaurantId": "tikka-spot",
+          "name": "سمبوسة خضار",
+          "description": "سمبوسة مقرمشة مع تشاتني.",
+          "image": "https://images.unsplash.com/photo-1519676867240-f03562e64548?w=800&q=80",
+          "price": 18,
+          "rating": 4.8,
+          "calories": 280,
+          "protein": 6,
+          "carbs": 30,
+          "fat": 12,
+          "category": "menu",
+          "isPopular": false,
+          "isOffer": false,
+          "offerPrice": null,
+          "spicyOption": false,
+          "cashbackPercent": null,
+          "addons": [
+            {
+              "id": "fries",
+              "name": "بطاطس مقلية",
+              "price": 8
+            },
+            {
+              "id": "cola",
+              "name": "كولا",
+              "price": 6
+            },
+            {
+              "id": "sauce",
+              "name": "صلصة إضافية",
+              "price": 3
+            },
+            {
+              "id": "bread",
+              "name": "خبز إضافي",
+              "price": 4
+            }
+          ]
+        },
+        {
+          "id": "tikka-spot-7",
+          "restaurantId": "tikka-spot",
+          "name": "بانيير تيكا",
+          "description": "جبنة بانيير مشوية.",
+          "image": "https://images.unsplash.com/photo-1573080496219-bb080dd4f877?w=800&q=80",
+          "price": 36,
+          "rating": 4.8,
+          "calories": 480,
+          "protein": 20,
+          "carbs": 22,
+          "fat": 28,
+          "category": "menu",
+          "isPopular": false,
+          "isOffer": false,
+          "offerPrice": null,
+          "spicyOption": true,
+          "cashbackPercent": null,
+          "addons": [
+            {
+              "id": "fries",
+              "name": "بطاطس مقلية",
+              "price": 8
+            },
+            {
+              "id": "cola",
+              "name": "كولا",
+              "price": 6
+            },
+            {
+              "id": "sauce",
+              "name": "صلصة إضافية",
+              "price": 3
+            },
+            {
+              "id": "bread",
+              "name": "خبز إضافي",
+              "price": 4
+            }
+          ]
+        },
+        {
+          "id": "tikka-spot-8",
+          "restaurantId": "tikka-spot",
+          "name": "صاموسا تشات",
+          "description": "تشات هندي حار وحامض.",
+          "image": "https://images.unsplash.com/photo-1519676867240-f03562e64548?w=800&q=80",
+          "price": 24,
+          "rating": 4.4,
+          "calories": 340,
+          "protein": 8,
+          "carbs": 36,
+          "fat": 12,
+          "category": "menu",
+          "isPopular": false,
+          "isOffer": false,
+          "offerPrice": null,
+          "spicyOption": true,
+          "cashbackPercent": null,
+          "addons": [
+            {
+              "id": "fries",
+              "name": "بطاطس مقلية",
+              "price": 8
+            },
+            {
+              "id": "cola",
+              "name": "كولا",
+              "price": 6
+            },
+            {
+              "id": "sauce",
+              "name": "صلصة إضافية",
+              "price": 3
+            },
+            {
+              "id": "bread",
+              "name": "خبز إضافي",
+              "price": 4
+            }
+          ]
+        },
+        {
+          "id": "tikka-spot-9",
+          "restaurantId": "tikka-spot",
+          "name": "مطبخ ثالي",
+          "description": "تشكيلة أطباق هندية صغيرة.",
+          "image": "https://images.unsplash.com/photo-1542838132-92c53300491e?w=800&q=80",
+          "price": 55,
+          "rating": 4.5,
+          "calories": 800,
+          "protein": 28,
+          "carbs": 90,
+          "fat": 30,
+          "category": "menu",
+          "isPopular": false,
+          "isOffer": false,
+          "offerPrice": null,
+          "spicyOption": true,
+          "cashbackPercent": null,
+          "addons": [
+            {
+              "id": "fries",
+              "name": "بطاطس مقلية",
+              "price": 8
+            },
+            {
+              "id": "cola",
+              "name": "كولا",
+              "price": 6
+            },
+            {
+              "id": "sauce",
+              "name": "صلصة إضافية",
+              "price": 3
+            },
+            {
+              "id": "bread",
+              "name": "خبز إضافي",
+              "price": 4
+            }
+          ]
+        },
+        {
+          "id": "tikka-spot-10",
+          "restaurantId": "tikka-spot",
+          "name": "مانجو لاسي",
+          "description": "مشروب لبن بالمانجو.",
+          "image": "https://images.unsplash.com/photo-1611143669185-af224c5e3252?w=800&q=80",
+          "price": 16,
+          "rating": 4.6,
+          "calories": 220,
+          "protein": 6,
+          "carbs": 28,
+          "fat": 8,
+          "category": "popular",
+          "isPopular": true,
+          "isOffer": false,
+          "offerPrice": null,
+          "spicyOption": false,
+          "cashbackPercent": null,
+          "addons": [
+            {
+              "id": "fries",
+              "name": "بطاطس مقلية",
+              "price": 8
+            },
+            {
+              "id": "cola",
+              "name": "كولا",
+              "price": 6
+            },
+            {
+              "id": "sauce",
+              "name": "صلصة إضافية",
+              "price": 3
+            },
+            {
+              "id": "bread",
+              "name": "خبز إضافي",
+              "price": 4
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "delhi-express",
+      "name": "دلهي إكسبرس",
+      "image": "https://images.unsplash.com/photo-1504674900247-0877df9cc836?w=800&q=80",
+      "rating": 4.2,
+      "cuisine": "هندي",
+      "deliveryTime": "25–35 د",
+      "deliveryFee": 5,
+      "minOrder": 40,
+      "distanceKm": 0.6,
+      "verified": null,
+      "tags": [
+        "هندي",
+        "كاري",
+        "حار"
+      ],
+      "featured": null,
+      "open24h": null,
+      "fastDelivery": null,
+      "meals": [
+        {
+          "id": "delhi-express-1",
+          "restaurantId": "delhi-express",
+          "name": "برياني دجاج",
+          "description": "أرز برياني مع دجاج وتوابل.",
+          "image": "https://images.unsplash.com/photo-1568901346375-23c9450c58cd?w=800&q=80",
+          "price": 42,
+          "rating": 4.4,
+          "calories": 720,
+          "protein": 32,
+          "carbs": 78,
+          "fat": 22,
+          "category": "menu",
+          "isPopular": false,
+          "isOffer": false,
+          "offerPrice": null,
+          "spicyOption": true,
+          "cashbackPercent": null,
+          "addons": [
+            {
+              "id": "fries",
+              "name": "بطاطس مقلية",
+              "price": 8
+            },
+            {
+              "id": "cola",
+              "name": "كولا",
+              "price": 6
+            },
+            {
+              "id": "sauce",
+              "name": "صلصة إضافية",
+              "price": 3
+            },
+            {
+              "id": "bread",
+              "name": "خبز إضافي",
+              "price": 4
+            }
+          ]
+        },
+        {
+          "id": "delhi-express-2",
+          "restaurantId": "delhi-express",
+          "name": "دجاج تيكا ماسالا",
+          "description": "دجاج مشوي بصلصة كريمية.",
+          "image": "https://images.unsplash.com/photo-1513104890138-7c749659a591?w=800&q=80",
+          "price": 46,
+          "rating": 4.3,
+          "calories": 680,
+          "protein": 36,
+          "carbs": 40,
+          "fat": 32,
+          "category": "offers",
+          "isPopular": false,
+          "isOffer": true,
+          "offerPrice": 40,
+          "spicyOption": true,
+          "cashbackPercent": 10,
+          "addons": [
+            {
+              "id": "fries",
+              "name": "بطاطس مقلية",
+              "price": 8
+            },
+            {
+              "id": "cola",
+              "name": "كولا",
+              "price": 6
+            },
+            {
+              "id": "sauce",
+              "name": "صلصة إضافية",
+              "price": 3
+            },
+            {
+              "id": "bread",
+              "name": "خبز إضافي",
+              "price": 4
+            }
+          ]
+        },
+        {
+          "id": "delhi-express-3",
+          "restaurantId": "delhi-express",
+          "name": "بالتي لحم",
+          "description": "لحم بقري بصلصة بالتي.",
+          "image": "https://images.unsplash.com/photo-1606313564200-e75d5e30476c?w=800&q=80",
+          "price": 48,
+          "rating": 4.9,
+          "calories": 740,
+          "protein": 38,
+          "carbs": 28,
+          "fat": 42,
+          "category": "menu",
+          "isPopular": false,
+          "isOffer": false,
+          "offerPrice": null,
+          "spicyOption": true,
+          "cashbackPercent": null,
+          "addons": [
+            {
+              "id": "fries",
+              "name": "بطاطس مقلية",
+              "price": 8
+            },
+            {
+              "id": "cola",
+              "name": "كولا",
+              "price": 6
+            },
+            {
+              "id": "sauce",
+              "name": "صلصة إضافية",
+              "price": 3
+            },
+            {
+              "id": "bread",
+              "name": "خبز إضافي",
+              "price": 4
+            }
+          ]
+        },
+        {
+          "id": "delhi-express-4",
+          "restaurantId": "delhi-express",
+          "name": "دال ماخاني",
+          "description": "عدس أسود بالزبدة.",
+          "image": "https://images.unsplash.com/photo-1513104890138-7c749659a591?w=800&q=80",
+          "price": 28,
+          "rating": 4.7,
+          "calories": 420,
+          "protein": 16,
+          "carbs": 40,
+          "fat": 16,
+          "category": "menu",
+          "isPopular": false,
+          "isOffer": false,
+          "offerPrice": null,
+          "spicyOption": false,
+          "cashbackPercent": null,
+          "addons": [
+            {
+              "id": "fries",
+              "name": "بطاطس مقلية",
+              "price": 8
+            },
+            {
+              "id": "cola",
+              "name": "كولا",
+              "price": 6
+            },
+            {
+              "id": "sauce",
+              "name": "صلصة إضافية",
+              "price": 3
+            },
+            {
+              "id": "bread",
+              "name": "خبز إضافي",
+              "price": 4
+            }
+          ]
+        },
+        {
+          "id": "delhi-express-5",
+          "restaurantId": "delhi-express",
+          "name": "نان بالثوم",
+          "description": "خبز تندور بالثوم.",
+          "image": "https://images.unsplash.com/photo-1603360946369-dc9bb6258143?w=800&q=80",
+          "price": 14,
+          "rating": 4.4,
+          "calories": 260,
+          "protein": 6,
+          "carbs": 36,
+          "fat": 8,
+          "category": "popular",
+          "isPopular": true,
+          "isOffer": false,
+          "offerPrice": null,
+          "spicyOption": false,
+          "cashbackPercent": null,
+          "addons": [
+            {
+              "id": "fries",
+              "name": "بطاطس مقلية",
+              "price": 8
+            },
+            {
+              "id": "cola",
+              "name": "كولا",
+              "price": 6
+            },
+            {
+              "id": "sauce",
+              "name": "صلصة إضافية",
+              "price": 3
+            },
+            {
+              "id": "bread",
+              "name": "خبز إضافي",
+              "price": 4
+            }
+          ]
+        },
+        {
+          "id": "delhi-express-6",
+          "restaurantId": "delhi-express",
+          "name": "سمبوسة خضار",
+          "description": "سمبوسة مقرمشة مع تشاتني.",
+          "image": "https://images.unsplash.com/photo-1578985545062-69928b1d9587?w=800&q=80",
+          "price": 18,
+          "rating": 4.8,
+          "calories": 280,
+          "protein": 6,
+          "carbs": 30,
+          "fat": 12,
+          "category": "popular",
+          "isPopular": true,
+          "isOffer": false,
+          "offerPrice": null,
+          "spicyOption": false,
+          "cashbackPercent": null,
+          "addons": [
+            {
+              "id": "fries",
+              "name": "بطاطس مقلية",
+              "price": 8
+            },
+            {
+              "id": "cola",
+              "name": "كولا",
+              "price": 6
+            },
+            {
+              "id": "sauce",
+              "name": "صلصة إضافية",
+              "price": 3
+            },
+            {
+              "id": "bread",
+              "name": "خبز إضافي",
+              "price": 4
+            }
+          ]
+        },
+        {
+          "id": "delhi-express-7",
+          "restaurantId": "delhi-express",
+          "name": "بانيير تيكا",
+          "description": "جبنة بانيير مشوية.",
+          "image": "https://images.unsplash.com/photo-1544025162-d76694265947?w=800&q=80",
+          "price": 36,
+          "rating": 4.3,
+          "calories": 480,
+          "protein": 20,
+          "carbs": 22,
+          "fat": 28,
+          "category": "popular",
+          "isPopular": true,
+          "isOffer": false,
+          "offerPrice": null,
+          "spicyOption": true,
+          "cashbackPercent": null,
+          "addons": [
+            {
+              "id": "fries",
+              "name": "بطاطس مقلية",
+              "price": 8
+            },
+            {
+              "id": "cola",
+              "name": "كولا",
+              "price": 6
+            },
+            {
+              "id": "sauce",
+              "name": "صلصة إضافية",
+              "price": 3
+            },
+            {
+              "id": "bread",
+              "name": "خبز إضافي",
+              "price": 4
+            }
+          ]
+        },
+        {
+          "id": "delhi-express-8",
+          "restaurantId": "delhi-express",
+          "name": "صاموسا تشات",
+          "description": "تشات هندي حار وحامض.",
+          "image": "https://images.unsplash.com/photo-1506084868230-bb9d95c24759?w=800&q=80",
+          "price": 24,
+          "rating": 4.6,
+          "calories": 340,
+          "protein": 8,
+          "carbs": 36,
+          "fat": 12,
+          "category": "menu",
+          "isPopular": false,
+          "isOffer": false,
+          "offerPrice": null,
+          "spicyOption": true,
+          "cashbackPercent": null,
+          "addons": [
+            {
+              "id": "fries",
+              "name": "بطاطس مقلية",
+              "price": 8
+            },
+            {
+              "id": "cola",
+              "name": "كولا",
+              "price": 6
+            },
+            {
+              "id": "sauce",
+              "name": "صلصة إضافية",
+              "price": 3
+            },
+            {
+              "id": "bread",
+              "name": "خبز إضافي",
+              "price": 4
+            }
+          ]
+        },
+        {
+          "id": "delhi-express-9",
+          "restaurantId": "delhi-express",
+          "name": "مطبخ ثالي",
+          "description": "تشكيلة أطباق هندية صغيرة.",
+          "image": "https://images.unsplash.com/photo-1578985545062-69928b1d9587?w=800&q=80",
+          "price": 55,
+          "rating": 4.7,
+          "calories": 800,
+          "protein": 28,
+          "carbs": 90,
+          "fat": 30,
+          "category": "menu",
+          "isPopular": false,
+          "isOffer": false,
+          "offerPrice": null,
+          "spicyOption": true,
+          "cashbackPercent": null,
+          "addons": [
+            {
+              "id": "fries",
+              "name": "بطاطس مقلية",
+              "price": 8
+            },
+            {
+              "id": "cola",
+              "name": "كولا",
+              "price": 6
+            },
+            {
+              "id": "sauce",
+              "name": "صلصة إضافية",
+              "price": 3
+            },
+            {
+              "id": "bread",
+              "name": "خبز إضافي",
+              "price": 4
+            }
+          ]
+        },
+        {
+          "id": "delhi-express-10",
+          "restaurantId": "delhi-express",
+          "name": "مانجو لاسي",
+          "description": "مشروب لبن بالمانجو.",
+          "image": "https://images.unsplash.com/photo-1579584425555-c3ce17fd4351?w=800&q=80",
+          "price": 16,
+          "rating": 4.1,
+          "calories": 220,
+          "protein": 6,
+          "carbs": 28,
+          "fat": 8,
+          "category": "menu",
+          "isPopular": false,
+          "isOffer": false,
+          "offerPrice": null,
+          "spicyOption": false,
+          "cashbackPercent": null,
+          "addons": [
+            {
+              "id": "fries",
+              "name": "بطاطس مقلية",
+              "price": 8
+            },
+            {
+              "id": "cola",
+              "name": "كولا",
+              "price": 6
+            },
+            {
+              "id": "sauce",
+              "name": "صلصة إضافية",
+              "price": 3
+            },
+            {
+              "id": "bread",
+              "name": "خبز إضافي",
+              "price": 4
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}

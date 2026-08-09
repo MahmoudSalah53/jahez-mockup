@@ -6,6 +6,8 @@ import { meals } from "@/data/meals";
 import { getRestaurantById } from "@/data/restaurants";
 import { MealListItem } from "@/components/MealListItem";
 import { MealCard } from "@/components/MealCard";
+import { LIST_PAGE_SIZE } from "@/lib/list-limits";
+import { useInfiniteList } from "@/lib/use-infinite-list";
 
 export function OffersClient() {
   const searchParams = useSearchParams();
@@ -25,6 +27,11 @@ export function OffersClient() {
     }
     return base;
   }, [cashbackOnly, cuisine]);
+
+  const { visibleItems, sentinelRef, hasMore, pending } = useInfiniteList(
+    offers,
+    LIST_PAGE_SIZE,
+  );
 
   const title = cashbackOnly
     ? cuisine
@@ -66,7 +73,7 @@ export function OffersClient() {
       ) : (
         <>
           <div className="border-y border-border md:hidden">
-            {offers.map((meal) => (
+            {visibleItems.map((meal) => (
               <div key={meal.id} className="relative">
                 <MealListItem
                   meal={meal}
@@ -81,8 +88,8 @@ export function OffersClient() {
               </div>
             ))}
           </div>
-          <div className="hidden gap-6 px-8 py-10 md:grid md:grid-cols-3 lg:grid-cols-4">
-            {offers.map((meal) => (
+          <div className="hidden gap-6 px-8 py-10 md:grid md:grid-cols-2 lg:grid-cols-3 xl:grid-cols-4">
+            {visibleItems.map((meal) => (
               <div key={meal.id} className="relative">
                 <MealCard
                   meal={meal}
@@ -90,12 +97,23 @@ export function OffersClient() {
                   restaurantName={getRestaurantById(meal.restaurantId)?.name}
                 />
                 {meal.cashbackPercent ? (
-                  <span className="absolute end-3 top-3 z-10 rounded-full bg-emerald-600 px-2.5 py-1 text-[11px] font-bold text-white shadow">
+                  <span className="absolute end-3 top-3 z-10 rounded-md bg-emerald-600 px-1.5 py-0.5 text-[10px] font-bold text-white">
                     كاش باك {meal.cashbackPercent}%
                   </span>
                 ) : null}
               </div>
             ))}
+          </div>
+          <div
+            ref={sentinelRef}
+            className="px-4 py-6 text-center text-xs text-muted md:px-8"
+            aria-hidden={!hasMore}
+          >
+            {hasMore
+              ? pending
+                ? "جاري تحميل المزيد…"
+                : "مرّر للمزيد"
+              : `تم عرض كل العروض (${offers.length})`}
           </div>
         </>
       )}

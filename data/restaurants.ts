@@ -1,5 +1,5 @@
 import type { Restaurant } from "@/lib/types";
-import catalog from "@/data/catalog.json";
+import catalog from "@/data/load-catalog";
 
 export type CatalogRestaurant = (typeof catalog.restaurants)[number];
 

@@ -1,0 +1,3460 @@
+{
+  "restaurants": [
+    {
+      "id": "nonna-oven",
+      "name": "فرن النونة",
+      "image": "https://images.unsplash.com/photo-1551782450-a2132b4ba21d?w=800&q=80",
+      "rating": 4.8,
+      "cuisine": "إيطالي",
+      "deliveryTime": "25–35 د",
+      "deliveryFee": 0,
+      "minOrder": 35,
+      "distanceKm": 0.9,
+      "verified": null,
+      "tags": [
+        "إيطالي",
+        "بيتزا",
+        "باستا"
+      ],
+      "featured": null,
+      "open24h": true,
+      "fastDelivery": null,
+      "meals": [
+        {
+          "id": "nonna-oven-1",
+          "restaurantId": "nonna-oven",
+          "name": "مارغريتا",
+          "description": "صلصة طماطم وموزاريلا وريحان.",
+          "image": "https://images.unsplash.com/photo-1578985545062-69928b1d9587?w=800&q=80",
+          "price": 42,
+          "rating": 4.6,
+          "calories": 680,
+          "protein": 24,
+          "carbs": 72,
+          "fat": 24,
+          "category": "menu",
+          "isPopular": false,
+          "isOffer": false,
+          "offerPrice": null,
+          "spicyOption": false,
+          "cashbackPercent": null,
+          "addons": [
+            {
+              "id": "fries",
+              "name": "بطاطس مقلية",
+              "price": 8
+            },
+            {
+              "id": "cola",
+              "name": "كولا",
+              "price": 6
+            },
+            {
+              "id": "sauce",
+              "name": "صلصة إضافية",
+              "price": 3
+            },
+            {
+              "id": "bread",
+              "name": "خبز إضافي",
+              "price": 4
+            }
+          ]
+        },
+        {
+          "id": "nonna-oven-2",
+          "restaurantId": "nonna-oven",
+          "name": "بيبروني",
+          "description": "بيتزا بيبروني حارة.",
+          "image": "https://images.unsplash.com/photo-1533134242443-d4fd215305ad?w=800&q=80",
+          "price": 48,
+          "rating": 4.7,
+          "calories": 760,
+          "protein": 28,
+          "carbs": 70,
+          "fat": 32,
+          "category": "popular",
+          "isPopular": true,
+          "isOffer": false,
+          "offerPrice": null,
+          "spicyOption": true,
+          "cashbackPercent": null,
+          "addons": [
+            {
+              "id": "fries",
+              "name": "بطاطس مقلية",
+              "price": 8
+            },
+            {
+              "id": "cola",
+              "name": "كولا",
+              "price": 6
+            },
+            {
+              "id": "sauce",
+              "name": "صلصة إضافية",
+              "price": 3
+            },
+            {
+              "id": "bread",
+              "name": "خبز إضافي",
+              "price": 4
+            }
+          ]
+        },
+        {
+          "id": "nonna-oven-3",
+          "restaurantId": "nonna-oven",
+          "name": "باستا كاربونارا",
+          "description": "سباغيتي مع بيض وجبنة.",
+          "image": "https://images.unsplash.com/photo-1563379926898-05f4575a45d8?w=800&q=80",
+          "price": 46,
+          "rating": 4.3,
+          "calories": 720,
+          "protein": 26,
+          "carbs": 68,
+          "fat": 30,
+          "category": "offers",
+          "isPopular": false,
+          "isOffer": true,
+          "offerPrice": 40,
+          "spicyOption": false,
+          "cashbackPercent": null,
+          "addons": [
+            {
+              "id": "fries",
+              "name": "بطاطس مقلية",
+              "price": 8
+            },
+            {
+              "id": "cola",
+              "name": "كولا",
+              "price": 6
+            },
+            {
+              "id": "sauce",
+              "name": "صلصة إضافية",
+              "price": 3
+            },
+            {
+              "id": "bread",
+              "name": "خبز إضافي",
+              "price": 4
+            }
+          ]
+        },
+        {
+          "id": "nonna-oven-4",
+          "restaurantId": "nonna-oven",
+          "name": "لازانيا لحم",
+          "description": "طبقات باستا ولحم وبيشاميل.",
+          "image": "https://images.unsplash.com/photo-1476224203421-9ac39bcb3327?w=800&q=80",
+          "price": 52,
+          "rating": 4.2,
+          "calories": 820,
+          "protein": 34,
+          "carbs": 60,
+          "fat": 38,
+          "category": "popular",
+          "isPopular": true,
+          "isOffer": false,
+          "offerPrice": null,
+          "spicyOption": false,
+          "cashbackPercent": null,
+          "addons": [
+            {
+              "id": "fries",
+              "name": "بطاطس مقلية",
+              "price": 8
+            },
+            {
+              "id": "cola",
+              "name": "كولا",
+              "price": 6
+            },
+            {
+              "id": "sauce",
+              "name": "صلصة إضافية",
+              "price": 3
+            },
+            {
+              "id": "bread",
+              "name": "خبز إضافي",
+              "price": 4
+            }
+          ]
+        },
+        {
+          "id": "nonna-oven-5",
+          "restaurantId": "nonna-oven",
+          "name": "بينّي أرابياتا",
+          "description": "باستا بصلصة طماطم حارة.",
+          "image": "https://images.unsplash.com/photo-1513104890138-7c749659a591?w=800&q=80",
+          "price": 38,
+          "rating": 4.5,
+          "calories": 580,
+          "protein": 16,
+          "carbs": 70,
+          "fat": 14,
+          "category": "menu",
+          "isPopular": false,
+          "isOffer": false,
+          "offerPrice": null,
+          "spicyOption": true,
+          "cashbackPercent": null,
+          "addons": [
+            {
+              "id": "fries",
+              "name": "بطاطس مقلية",
+              "price": 8
+            },
+            {
+              "id": "cola",
+              "name": "كولا",
+              "price": 6
+            },
+            {
+              "id": "sauce",
+              "name": "صلصة إضافية",
+              "price": 3
+            },
+            {
+              "id": "bread",
+              "name": "خبز إضافي",
+              "price": 4
+            }
+          ]
+        },
+        {
+          "id": "nonna-oven-6",
+          "restaurantId": "nonna-oven",
+          "name": "ريزوتو فطر",
+          "description": "أرز إيطالي كريمي بالفطر.",
+          "image": "https://images.unsplash.com/photo-1603360946369-dc9bb6258143?w=800&q=80",
+          "price": 44,
+          "rating": 4.7,
+          "calories": 540,
+          "protein": 14,
+          "carbs": 58,
+          "fat": 20,
+          "category": "menu",
+          "isPopular": false,
+          "isOffer": false,
+          "offerPrice": null,
+          "spicyOption": false,
+          "cashbackPercent": null,
+          "addons": [
+            {
+              "id": "fries",
+              "name": "بطاطس مقلية",
+              "price": 8
+            },
+            {
+              "id": "cola",
+              "name": "كولا",
+              "price": 6
+            },
+            {
+              "id": "sauce",
+              "name": "صلصة إضافية",
+              "price": 3
+            },
+            {
+              "id": "bread",
+              "name": "خبز إضافي",
+              "price": 4
+            }
+          ]
+        },
+        {
+          "id": "nonna-oven-7",
+          "restaurantId": "nonna-oven",
+          "name": "سلطة سيزر",
+          "description": "خس ورُمان وكروتون.",
+          "image": "https://images.unsplash.com/photo-1568901346375-23c9450c58cd?w=800&q=80",
+          "price": 28,
+          "rating": 4.8,
+          "calories": 320,
+          "protein": 18,
+          "carbs": 16,
+          "fat": 18,
+          "category": "menu",
+          "isPopular": false,
+          "isOffer": false,
+          "offerPrice": null,
+          "spicyOption": false,
+          "cashbackPercent": null,
+          "addons": [
+            {
+              "id": "fries",
+              "name": "بطاطس مقلية",
+              "price": 8
+            },
+            {
+              "id": "cola",
+              "name": "كولا",
+              "price": 6
+            },
+            {
+              "id": "sauce",
+              "name": "صلصة إضافية",
+              "price": 3
+            },
+            {
+              "id": "bread",
+              "name": "خبز إضافي",
+              "price": 4
+            }
+          ]
+        },
+        {
+          "id": "nonna-oven-8",
+          "restaurantId": "nonna-oven",
+          "name": "بروشيتا",
+          "description": "خبز محمص مع طماطم وثوم.",
+          "image": "https://images.unsplash.com/photo-1611143669185-af224c5e3252?w=800&q=80",
+          "price": 22,
+          "rating": 4.1,
+          "calories": 280,
+          "protein": 6,
+          "carbs": 32,
+          "fat": 10,
+          "category": "offers",
+          "isPopular": false,
+          "isOffer": true,
+          "offerPrice": 19,
+          "spicyOption": false,
+          "cashbackPercent": 5,
+          "addons": [
+            {
+              "id": "fries",
+              "name": "بطاطس مقلية",
+              "price": 8
+            },
+            {
+              "id": "cola",
+              "name": "كولا",
+              "price": 6
+            },
+            {
+              "id": "sauce",
+              "name": "صلصة إضافية",
+              "price": 3
+            },
+            {
+              "id": "bread",
+              "name": "خبز إضافي",
+              "price": 4
+            }
+          ]
+        },
+        {
+          "id": "nonna-oven-9",
+          "restaurantId": "nonna-oven",
+          "name": "كالتزوني",
+          "description": "بيتزا مطوية محشوة.",
+          "image": "https://images.unsplash.com/photo-1606313564200-e75d5e30476c?w=800&q=80",
+          "price": 45,
+          "rating": 4.3,
+          "calories": 740,
+          "protein": 26,
+          "carbs": 68,
+          "fat": 28,
+          "category": "popular",
+          "isPopular": true,
+          "isOffer": false,
+          "offerPrice": null,
+          "spicyOption": false,
+          "cashbackPercent": null,
+          "addons": [
+            {
+              "id": "fries",
+              "name": "بطاطس مقلية",
+              "price": 8
+            },
+            {
+              "id": "cola",
+              "name": "كولا",
+              "price": 6
+            },
+            {
+              "id": "sauce",
+              "name": "صلصة إضافية",
+              "price": 3
+            },
+            {
+              "id": "bread",
+              "name": "خبز إضافي",
+              "price": 4
+            }
+          ]
+        },
+        {
+          "id": "nonna-oven-10",
+          "restaurantId": "nonna-oven",
+          "name": "تيراميسو صغير",
+          "description": "تحلية إيطالية كلاسيكية.",
+          "image": "https://images.unsplash.com/photo-1606755962773-d324e0a13086?w=800&q=80",
+          "price": 26,
+          "rating": 4.4,
+          "calories": 360,
+          "protein": 6,
+          "carbs": 34,
+          "fat": 18,
+          "category": "offers",
+          "isPopular": false,
+          "isOffer": true,
+          "offerPrice": 22,
+          "spicyOption": false,
+          "cashbackPercent": 15,
+          "addons": [
+            {
+              "id": "fries",
+              "name": "بطاطس مقلية",
+              "price": 8
+            },
+            {
+              "id": "cola",
+              "name": "كولا",
+              "price": 6
+            },
+            {
+              "id": "sauce",
+              "name": "صلصة إضافية",
+              "price": 3
+            },
+            {
+              "id": "bread",
+              "name": "خبز إضافي",
+              "price": 4
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "roma-pasta",
+      "name": "باستا روما",
+      "image": "https://images.unsplash.com/photo-1553621042-f6e147245754?w=800&q=80",
+      "rating": 4.7,
+      "cuisine": "إيطالي",
+      "deliveryTime": "40–55 د",
+      "deliveryFee": 0,
+      "minOrder": 35,
+      "distanceKm": 5.8,
+      "verified": null,
+      "tags": [
+        "إيطالي",
+        "بيتزا",
+        "باستا"
+      ],
+      "featured": null,
+      "open24h": null,
+      "fastDelivery": null,
+      "meals": [
+        {
+          "id": "roma-pasta-1",
+          "restaurantId": "roma-pasta",
+          "name": "مارغريتا",
+          "description": "صلصة طماطم وموزاريلا وريحان.",
+          "image": "https://images.unsplash.com/photo-1529692236671-f1f6cf9683ba?w=800&q=80",
+          "price": 42,
+          "rating": 4.9,
+          "calories": 680,
+          "protein": 24,
+          "carbs": 72,
+          "fat": 24,
+          "category": "popular",
+          "isPopular": true,
+          "isOffer": false,
+          "offerPrice": null,
+          "spicyOption": false,
+          "cashbackPercent": null,
+          "addons": [
+            {
+              "id": "fries",
+              "name": "بطاطس مقلية",
+              "price": 8
+            },
+            {
+              "id": "cola",
+              "name": "كولا",
+              "price": 6
+            },
+            {
+              "id": "sauce",
+              "name": "صلصة إضافية",
+              "price": 3
+            },
+            {
+              "id": "bread",
+              "name": "خبز إضافي",
+              "price": 4
+            }
+          ]
+        },
+        {
+          "id": "roma-pasta-2",
+          "restaurantId": "roma-pasta",
+          "name": "بيبروني",
+          "description": "بيتزا بيبروني حارة.",
+          "image": "https://images.unsplash.com/photo-1414235077428-338989a2e8c0?w=800&q=80",
+          "price": 48,
+          "rating": 4.2,
+          "calories": 760,
+          "protein": 28,
+          "carbs": 70,
+          "fat": 32,
+          "category": "popular",
+          "isPopular": true,
+          "isOffer": false,
+          "offerPrice": null,
+          "spicyOption": true,
+          "cashbackPercent": null,
+          "addons": [
+            {
+              "id": "fries",
+              "name": "بطاطس مقلية",
+              "price": 8
+            },
+            {
+              "id": "cola",
+              "name": "كولا",
+              "price": 6
+            },
+            {
+              "id": "sauce",
+              "name": "صلصة إضافية",
+              "price": 3
+            },
+            {
+              "id": "bread",
+              "name": "خبز إضافي",
+              "price": 4
+            }
+          ]
+        },
+        {
+          "id": "roma-pasta-3",
+          "restaurantId": "roma-pasta",
+          "name": "باستا كاربونارا",
+          "description": "سباغيتي مع بيض وجبنة.",
+          "image": "https://images.unsplash.com/photo-1484723091739-30a097e8f929?w=800&q=80",
+          "price": 46,
+          "rating": 4.8,
+          "calories": 720,
+          "protein": 26,
+          "carbs": 68,
+          "fat": 30,
+          "category": "offers",
+          "isPopular": false,
+          "isOffer": true,
+          "offerPrice": 37,
+          "spicyOption": false,
+          "cashbackPercent": 5,
+          "addons": [
+            {
+              "id": "fries",
+              "name": "بطاطس مقلية",
+              "price": 8
+            },
+            {
+              "id": "cola",
+              "name": "كولا",
+              "price": 6
+            },
+            {
+              "id": "sauce",
+              "name": "صلصة إضافية",
+              "price": 3
+            },
+            {
+              "id": "bread",
+              "name": "خبز إضافي",
+              "price": 4
+            }
+          ]
+        },
+        {
+          "id": "roma-pasta-4",
+          "restaurantId": "roma-pasta",
+          "name": "لازانيا لحم",
+          "description": "طبقات باستا ولحم وبيشاميل.",
+          "image": "https://images.unsplash.com/photo-1606313564200-e75d5e30476c?w=800&q=80",
+          "price": 52,
+          "rating": 4.9,
+          "calories": 820,
+          "protein": 34,
+          "carbs": 60,
+          "fat": 38,
+          "category": "menu",
+          "isPopular": false,
+          "isOffer": false,
+          "offerPrice": null,
+          "spicyOption": false,
+          "cashbackPercent": null,
+          "addons": [
+            {
+              "id": "fries",
+              "name": "بطاطس مقلية",
+              "price": 8
+            },
+            {
+              "id": "cola",
+              "name": "كولا",
+              "price": 6
+            },
+            {
+              "id": "sauce",
+              "name": "صلصة إضافية",
+              "price": 3
+            },
+            {
+              "id": "bread",
+              "name": "خبز إضافي",
+              "price": 4
+            }
+          ]
+        },
+        {
+          "id": "roma-pasta-5",
+          "restaurantId": "roma-pasta",
+          "name": "بينّي أرابياتا",
+          "description": "باستا بصلصة طماطم حارة.",
+          "image": "https://images.unsplash.com/photo-1513104890138-7c749659a591?w=800&q=80",
+          "price": 38,
+          "rating": 4.2,
+          "calories": 580,
+          "protein": 16,
+          "carbs": 70,
+          "fat": 14,
+          "category": "menu",
+          "isPopular": false,
+          "isOffer": false,
+          "offerPrice": null,
+          "spicyOption": true,
+          "cashbackPercent": null,
+          "addons": [
+            {
+              "id": "fries",
+              "name": "بطاطس مقلية",
+              "price": 8
+            },
+            {
+              "id": "cola",
+              "name": "كولا",
+              "price": 6
+            },
+            {
+              "id": "sauce",
+              "name": "صلصة إضافية",
+              "price": 3
+            },
+            {
+              "id": "bread",
+              "name": "خبز إضافي",
+              "price": 4
+            }
+          ]
+        },
+        {
+          "id": "roma-pasta-6",
+          "restaurantId": "roma-pasta",
+          "name": "ريزوتو فطر",
+          "description": "أرز إيطالي كريمي بالفطر.",
+          "image": "https://images.unsplash.com/photo-1579584425555-c3ce17fd4351?w=800&q=80",
+          "price": 44,
+          "rating": 4.1,
+          "calories": 540,
+          "protein": 14,
+          "carbs": 58,
+          "fat": 20,
+          "category": "menu",
+          "isPopular": false,
+          "isOffer": false,
+          "offerPrice": null,
+          "spicyOption": false,
+          "cashbackPercent": null,
+          "addons": [
+            {
+              "id": "fries",
+              "name": "بطاطس مقلية",
+              "price": 8
+            },
+            {
+              "id": "cola",
+              "name": "كولا",
+              "price": 6
+            },
+            {
+              "id": "sauce",
+              "name": "صلصة إضافية",
+              "price": 3
+            },
+            {
+              "id": "bread",
+              "name": "خبز إضافي",
+              "price": 4
+            }
+          ]
+        },
+        {
+          "id": "roma-pasta-7",
+          "restaurantId": "roma-pasta",
+          "name": "سلطة سيزر",
+          "description": "خس ورُمان وكروتون.",
+          "image": "https://images.unsplash.com/photo-1603360946369-dc9bb6258143?w=800&q=80",
+          "price": 28,
+          "rating": 4.3,
+          "calories": 320,
+          "protein": 18,
+          "carbs": 16,
+          "fat": 18,
+          "category": "menu",
+          "isPopular": false,
+          "isOffer": false,
+          "offerPrice": null,
+          "spicyOption": false,
+          "cashbackPercent": null,
+          "addons": [
+            {
+              "id": "fries",
+              "name": "بطاطس مقلية",
+              "price": 8
+            },
+            {
+              "id": "cola",
+              "name": "كولا",
+              "price": 6
+            },
+            {
+              "id": "sauce",
+              "name": "صلصة إضافية",
+              "price": 3
+            },
+            {
+              "id": "bread",
+              "name": "خبز إضافي",
+              "price": 4
+            }
+          ]
+        },
+        {
+          "id": "roma-pasta-8",
+          "restaurantId": "roma-pasta",
+          "name": "بروشيتا",
+          "description": "خبز محمص مع طماطم وثوم.",
+          "image": "https://images.unsplash.com/photo-1585937421612-70a008356fbe?w=800&q=80",
+          "price": 22,
+          "rating": 4.4,
+          "calories": 280,
+          "protein": 6,
+          "carbs": 32,
+          "fat": 10,
+          "category": "offers",
+          "isPopular": false,
+          "isOffer": true,
+          "offerPrice": 17,
+          "spicyOption": false,
+          "cashbackPercent": null,
+          "addons": [
+            {
+              "id": "fries",
+              "name": "بطاطس مقلية",
+              "price": 8
+            },
+            {
+              "id": "cola",
+              "name": "كولا",
+              "price": 6
+            },
+            {
+              "id": "sauce",
+              "name": "صلصة إضافية",
+              "price": 3
+            },
+            {
+              "id": "bread",
+              "name": "خبز إضافي",
+              "price": 4
+            }
+          ]
+        },
+        {
+          "id": "roma-pasta-9",
+          "restaurantId": "roma-pasta",
+          "name": "كالتزوني",
+          "description": "بيتزا مطوية محشوة.",
+          "image": "https://images.unsplash.com/photo-1473093295043-cdd812d0e601?w=800&q=80",
+          "price": 45,
+          "rating": 4.5,
+          "calories": 740,
+          "protein": 26,
+          "carbs": 68,
+          "fat": 28,
+          "category": "menu",
+          "isPopular": false,
+          "isOffer": false,
+          "offerPrice": null,
+          "spicyOption": false,
+          "cashbackPercent": null,
+          "addons": [
+            {
+              "id": "fries",
+              "name": "بطاطس مقلية",
+              "price": 8
+            },
+            {
+              "id": "cola",
+              "name": "كولا",
+              "price": 6
+            },
+            {
+              "id": "sauce",
+              "name": "صلصة إضافية",
+              "price": 3
+            },
+            {
+              "id": "bread",
+              "name": "خبز إضافي",
+              "price": 4
+            }
+          ]
+        },
+        {
+          "id": "roma-pasta-10",
+          "restaurantId": "roma-pasta",
+          "name": "تيراميسو صغير",
+          "description": "تحلية إيطالية كلاسيكية.",
+          "image": "https://images.unsplash.com/photo-1455619452474-d2be8b1e70cd?w=800&q=80",
+          "price": 26,
+          "rating": 4.9,
+          "calories": 360,
+          "protein": 6,
+          "carbs": 34,
+          "fat": 18,
+          "category": "menu",
+          "isPopular": false,
+          "isOffer": false,
+          "offerPrice": null,
+          "spicyOption": false,
+          "cashbackPercent": null,
+          "addons": [
+            {
+              "id": "fries",
+              "name": "بطاطس مقلية",
+              "price": 8
+            },
+            {
+              "id": "cola",
+              "name": "كولا",
+              "price": 6
+            },
+            {
+              "id": "sauce",
+              "name": "صلصة إضافية",
+              "price": 3
+            },
+            {
+              "id": "bread",
+              "name": "خبز إضافي",
+              "price": 4
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "truffle-table",
+      "name": "طاولة الكمأة",
+      "image": "https://images.unsplash.com/photo-1519676867240-f03562e64548?w=800&q=80",
+      "rating": 4.4,
+      "cuisine": "إيطالي",
+      "deliveryTime": "35–50 د",
+      "deliveryFee": 10,
+      "minOrder": 25,
+      "distanceKm": 0.9,
+      "verified": true,
+      "tags": [
+        "إيطالي",
+        "بيتزا",
+        "باستا"
+      ],
+      "featured": null,
+      "open24h": null,
+      "fastDelivery": true,
+      "meals": [
+        {
+          "id": "truffle-table-1",
+          "restaurantId": "truffle-table",
+          "name": "مارغريتا",
+          "description": "صلصة طماطم وموزاريلا وريحان.",
+          "image": "https://images.unsplash.com/photo-1553979459-d2229ba7433b?w=800&q=80",
+          "price": 42,
+          "rating": 4.9,
+          "calories": 680,
+          "protein": 24,
+          "carbs": 72,
+          "fat": 24,
+          "category": "offers",
+          "isPopular": false,
+          "isOffer": true,
+          "offerPrice": 35,
+          "spicyOption": false,
+          "cashbackPercent": 5,
+          "addons": [
+            {
+              "id": "fries",
+              "name": "بطاطس مقلية",
+              "price": 8
+            },
+            {
+              "id": "cola",
+              "name": "كولا",
+              "price": 6
+            },
+            {
+              "id": "sauce",
+              "name": "صلصة إضافية",
+              "price": 3
+            },
+            {
+              "id": "bread",
+              "name": "خبز إضافي",
+              "price": 4
+            }
+          ]
+        },
+        {
+          "id": "truffle-table-2",
+          "restaurantId": "truffle-table",
+          "name": "بيبروني",
+          "description": "بيتزا بيبروني حارة.",
+          "image": "https://images.unsplash.com/photo-1512058564366-18510be2db19?w=800&q=80",
+          "price": 48,
+          "rating": 4.3,
+          "calories": 760,
+          "protein": 28,
+          "carbs": 70,
+          "fat": 32,
+          "category": "offers",
+          "isPopular": false,
+          "isOffer": true,
+          "offerPrice": 38,
+          "spicyOption": true,
+          "cashbackPercent": null,
+          "addons": [
+            {
+              "id": "fries",
+              "name": "بطاطس مقلية",
+              "price": 8
+            },
+            {
+              "id": "cola",
+              "name": "كولا",
+              "price": 6
+            },
+            {
+              "id": "sauce",
+              "name": "صلصة إضافية",
+              "price": 3
+            },
+            {
+              "id": "bread",
+              "name": "خبز إضافي",
+              "price": 4
+            }
+          ]
+        },
+        {
+          "id": "truffle-table-3",
+          "restaurantId": "truffle-table",
+          "name": "باستا كاربونارا",
+          "description": "سباغيتي مع بيض وجبنة.",
+          "image": "https://images.unsplash.com/photo-1533134242443-d4fd215305ad?w=800&q=80",
+          "price": 46,
+          "rating": 4.3,
+          "calories": 720,
+          "protein": 26,
+          "carbs": 68,
+          "fat": 30,
+          "category": "offers",
+          "isPopular": false,
+          "isOffer": true,
+          "offerPrice": 37,
+          "spicyOption": false,
+          "cashbackPercent": 10,
+          "addons": [
+            {
+              "id": "fries",
+              "name": "بطاطس مقلية",
+              "price": 8
+            },
+            {
+              "id": "cola",
+              "name": "كولا",
+              "price": 6
+            },
+            {
+              "id": "sauce",
+              "name": "صلصة إضافية",
+              "price": 3
+            },
+            {
+              "id": "bread",
+              "name": "خبز إضافي",
+              "price": 4
+            }
+          ]
+        },
+        {
+          "id": "truffle-table-4",
+          "restaurantId": "truffle-table",
+          "name": "لازانيا لحم",
+          "description": "طبقات باستا ولحم وبيشاميل.",
+          "image": "https://images.unsplash.com/photo-1484723091739-30a097e8f929?w=800&q=80",
+          "price": 52,
+          "rating": 4.7,
+          "calories": 820,
+          "protein": 34,
+          "carbs": 60,
+          "fat": 38,
+          "category": "offers",
+          "isPopular": false,
+          "isOffer": true,
+          "offerPrice": 40,
+          "spicyOption": false,
+          "cashbackPercent": null,
+          "addons": [
+            {
+              "id": "fries",
+              "name": "بطاطس مقلية",
+              "price": 8
+            },
+            {
+              "id": "cola",
+              "name": "كولا",
+              "price": 6
+            },
+            {
+              "id": "sauce",
+              "name": "صلصة إضافية",
+              "price": 3
+            },
+            {
+              "id": "bread",
+              "name": "خبز إضافي",
+              "price": 4
+            }
+          ]
+        },
+        {
+          "id": "truffle-table-5",
+          "restaurantId": "truffle-table",
+          "name": "بينّي أرابياتا",
+          "description": "باستا بصلصة طماطم حارة.",
+          "image": "https://images.unsplash.com/photo-1544025162-d76694265947?w=800&q=80",
+          "price": 38,
+          "rating": 4.4,
+          "calories": 580,
+          "protein": 16,
+          "carbs": 70,
+          "fat": 14,
+          "category": "menu",
+          "isPopular": false,
+          "isOffer": false,
+          "offerPrice": null,
+          "spicyOption": true,
+          "cashbackPercent": null,
+          "addons": [
+            {
+              "id": "fries",
+              "name": "بطاطس مقلية",
+              "price": 8
+            },
+            {
+              "id": "cola",
+              "name": "كولا",
+              "price": 6
+            },
+            {
+              "id": "sauce",
+              "name": "صلصة إضافية",
+              "price": 3
+            },
+            {
+              "id": "bread",
+              "name": "خبز إضافي",
+              "price": 4
+            }
+          ]
+        },
+        {
+          "id": "truffle-table-6",
+          "restaurantId": "truffle-table",
+          "name": "ريزوتو فطر",
+          "description": "أرز إيطالي كريمي بالفطر.",
+          "image": "https://images.unsplash.com/photo-1571091718767-18b5b1457add?w=800&q=80",
+          "price": 44,
+          "rating": 4.7,
+          "calories": 540,
+          "protein": 14,
+          "carbs": 58,
+          "fat": 20,
+          "category": "menu",
+          "isPopular": false,
+          "isOffer": false,
+          "offerPrice": null,
+          "spicyOption": false,
+          "cashbackPercent": null,
+          "addons": [
+            {
+              "id": "fries",
+              "name": "بطاطس مقلية",
+              "price": 8
+            },
+            {
+              "id": "cola",
+              "name": "كولا",
+              "price": 6
+            },
+            {
+              "id": "sauce",
+              "name": "صلصة إضافية",
+              "price": 3
+            },
+            {
+              "id": "bread",
+              "name": "خبز إضافي",
+              "price": 4
+            }
+          ]
+        },
+        {
+          "id": "truffle-table-7",
+          "restaurantId": "truffle-table",
+          "name": "سلطة سيزر",
+          "description": "خس ورُمان وكروتون.",
+          "image": "https://images.unsplash.com/photo-1603360946369-dc9bb6258143?w=800&q=80",
+          "price": 28,
+          "rating": 4.5,
+          "calories": 320,
+          "protein": 18,
+          "carbs": 16,
+          "fat": 18,
+          "category": "popular",
+          "isPopular": true,
+          "isOffer": false,
+          "offerPrice": null,
+          "spicyOption": false,
+          "cashbackPercent": null,
+          "addons": [
+            {
+              "id": "fries",
+              "name": "بطاطس مقلية",
+              "price": 8
+            },
+            {
+              "id": "cola",
+              "name": "كولا",
+              "price": 6
+            },
+            {
+              "id": "sauce",
+              "name": "صلصة إضافية",
+              "price": 3
+            },
+            {
+              "id": "bread",
+              "name": "خبز إضافي",
+              "price": 4
+            }
+          ]
+        },
+        {
+          "id": "truffle-table-8",
+          "restaurantId": "truffle-table",
+          "name": "بروشيتا",
+          "description": "خبز محمص مع طماطم وثوم.",
+          "image": "https://images.unsplash.com/photo-1571091718767-18b5b1457add?w=800&q=80",
+          "price": 22,
+          "rating": 4.8,
+          "calories": 280,
+          "protein": 6,
+          "carbs": 32,
+          "fat": 10,
+          "category": "menu",
+          "isPopular": false,
+          "isOffer": false,
+          "offerPrice": null,
+          "spicyOption": false,
+          "cashbackPercent": null,
+          "addons": [
+            {
+              "id": "fries",
+              "name": "بطاطس مقلية",
+              "price": 8
+            },
+            {
+              "id": "cola",
+              "name": "كولا",
+              "price": 6
+            },
+            {
+              "id": "sauce",
+              "name": "صلصة إضافية",
+              "price": 3
+            },
+            {
+              "id": "bread",
+              "name": "خبز إضافي",
+              "price": 4
+            }
+          ]
+        },
+        {
+          "id": "truffle-table-9",
+          "restaurantId": "truffle-table",
+          "name": "كالتزوني",
+          "description": "بيتزا مطوية محشوة.",
+          "image": "https://images.unsplash.com/photo-1572490122747-3968b75cc699?w=800&q=80",
+          "price": 45,
+          "rating": 4.6,
+          "calories": 740,
+          "protein": 26,
+          "carbs": 68,
+          "fat": 28,
+          "category": "popular",
+          "isPopular": true,
+          "isOffer": false,
+          "offerPrice": null,
+          "spicyOption": false,
+          "cashbackPercent": null,
+          "addons": [
+            {
+              "id": "fries",
+              "name": "بطاطس مقلية",
+              "price": 8
+            },
+            {
+              "id": "cola",
+              "name": "كولا",
+              "price": 6
+            },
+            {
+              "id": "sauce",
+              "name": "صلصة إضافية",
+              "price": 3
+            },
+            {
+              "id": "bread",
+              "name": "خبز إضافي",
+              "price": 4
+            }
+          ]
+        },
+        {
+          "id": "truffle-table-10",
+          "restaurantId": "truffle-table",
+          "name": "تيراميسو صغير",
+          "description": "تحلية إيطالية كلاسيكية.",
+          "image": "https://images.unsplash.com/photo-1611143669185-af224c5e3252?w=800&q=80",
+          "price": 26,
+          "rating": 4.3,
+          "calories": 360,
+          "protein": 6,
+          "carbs": 34,
+          "fat": 18,
+          "category": "menu",
+          "isPopular": false,
+          "isOffer": false,
+          "offerPrice": null,
+          "spicyOption": false,
+          "cashbackPercent": null,
+          "addons": [
+            {
+              "id": "fries",
+              "name": "بطاطس مقلية",
+              "price": 8
+            },
+            {
+              "id": "cola",
+              "name": "كولا",
+              "price": 6
+            },
+            {
+              "id": "sauce",
+              "name": "صلصة إضافية",
+              "price": 3
+            },
+            {
+              "id": "bread",
+              "name": "خبز إضافي",
+              "price": 4
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "olive-crust",
+      "name": "قشرة الزيتون",
+      "image": "https://images.unsplash.com/photo-1512058564366-18510be2db19?w=800&q=80",
+      "rating": 4.5,
+      "cuisine": "إيطالي",
+      "deliveryTime": "20–30 د",
+      "deliveryFee": 12,
+      "minOrder": 40,
+      "distanceKm": 6.3,
+      "verified": true,
+      "tags": [
+        "إيطالي",
+        "بيتزا",
+        "باستا"
+      ],
+      "featured": null,
+      "open24h": null,
+      "fastDelivery": null,
+      "meals": [
+        {
+          "id": "olive-crust-1",
+          "restaurantId": "olive-crust",
+          "name": "مارغريتا",
+          "description": "صلصة طماطم وموزاريلا وريحان.",
+          "image": "https://images.unsplash.com/photo-1505253758473-96b7015fcd40?w=800&q=80",
+          "price": 42,
+          "rating": 4.2,
+          "calories": 680,
+          "protein": 24,
+          "carbs": 72,
+          "fat": 24,
+          "category": "popular",
+          "isPopular": true,
+          "isOffer": false,
+          "offerPrice": null,
+          "spicyOption": false,
+          "cashbackPercent": null,
+          "addons": [
+            {
+              "id": "fries",
+              "name": "بطاطس مقلية",
+              "price": 8
+            },
+            {
+              "id": "cola",
+              "name": "كولا",
+              "price": 6
+            },
+            {
+              "id": "sauce",
+              "name": "صلصة إضافية",
+              "price": 3
+            },
+            {
+              "id": "bread",
+              "name": "خبز إضافي",
+              "price": 4
+            }
+          ]
+        },
+        {
+          "id": "olive-crust-2",
+          "restaurantId": "olive-crust",
+          "name": "بيبروني",
+          "description": "بيتزا بيبروني حارة.",
+          "image": "https://images.unsplash.com/photo-1600891964599-f61ba0e24092?w=800&q=80",
+          "price": 48,
+          "rating": 4.1,
+          "calories": 760,
+          "protein": 28,
+          "carbs": 70,
+          "fat": 32,
+          "category": "menu",
+          "isPopular": false,
+          "isOffer": false,
+          "offerPrice": null,
+          "spicyOption": true,
+          "cashbackPercent": null,
+          "addons": [
+            {
+              "id": "fries",
+              "name": "بطاطس مقلية",
+              "price": 8
+            },
+            {
+              "id": "cola",
+              "name": "كولا",
+              "price": 6
+            },
+            {
+              "id": "sauce",
+              "name": "صلصة إضافية",
+              "price": 3
+            },
+            {
+              "id": "bread",
+              "name": "خبز إضافي",
+              "price": 4
+            }
+          ]
+        },
+        {
+          "id": "olive-crust-3",
+          "restaurantId": "olive-crust",
+          "name": "باستا كاربونارا",
+          "description": "سباغيتي مع بيض وجبنة.",
+          "image": "https://images.unsplash.com/photo-1551782450-a2132b4ba21d?w=800&q=80",
+          "price": 46,
+          "rating": 4.3,
+          "calories": 720,
+          "protein": 26,
+          "carbs": 68,
+          "fat": 30,
+          "category": "menu",
+          "isPopular": false,
+          "isOffer": false,
+          "offerPrice": null,
+          "spicyOption": false,
+          "cashbackPercent": null,
+          "addons": [
+            {
+              "id": "fries",
+              "name": "بطاطس مقلية",
+              "price": 8
+            },
+            {
+              "id": "cola",
+              "name": "كولا",
+              "price": 6
+            },
+            {
+              "id": "sauce",
+              "name": "صلصة إضافية",
+              "price": 3
+            },
+            {
+              "id": "bread",
+              "name": "خبز إضافي",
+              "price": 4
+            }
+          ]
+        },
+        {
+          "id": "olive-crust-4",
+          "restaurantId": "olive-crust",
+          "name": "لازانيا لحم",
+          "description": "طبقات باستا ولحم وبيشاميل.",
+          "image": "https://images.unsplash.com/photo-1606313564200-e75d5e30476c?w=800&q=80",
+          "price": 52,
+          "rating": 4.5,
+          "calories": 820,
+          "protein": 34,
+          "carbs": 60,
+          "fat": 38,
+          "category": "menu",
+          "isPopular": false,
+          "isOffer": false,
+          "offerPrice": null,
+          "spicyOption": false,
+          "cashbackPercent": null,
+          "addons": [
+            {
+              "id": "fries",
+              "name": "بطاطس مقلية",
+              "price": 8
+            },
+            {
+              "id": "cola",
+              "name": "كولا",
+              "price": 6
+            },
+            {
+              "id": "sauce",
+              "name": "صلصة إضافية",
+              "price": 3
+            },
+            {
+              "id": "bread",
+              "name": "خبز إضافي",
+              "price": 4
+            }
+          ]
+        },
+        {
+          "id": "olive-crust-5",
+          "restaurantId": "olive-crust",
+          "name": "بينّي أرابياتا",
+          "description": "باستا بصلصة طماطم حارة.",
+          "image": "https://images.unsplash.com/photo-1542838132-92c53300491e?w=800&q=80",
+          "price": 38,
+          "rating": 4.3,
+          "calories": 580,
+          "protein": 16,
+          "carbs": 70,
+          "fat": 14,
+          "category": "menu",
+          "isPopular": false,
+          "isOffer": false,
+          "offerPrice": null,
+          "spicyOption": true,
+          "cashbackPercent": null,
+          "addons": [
+            {
+              "id": "fries",
+              "name": "بطاطس مقلية",
+              "price": 8
+            },
+            {
+              "id": "cola",
+              "name": "كولا",
+              "price": 6
+            },
+            {
+              "id": "sauce",
+              "name": "صلصة إضافية",
+              "price": 3
+            },
+            {
+              "id": "bread",
+              "name": "خبز إضافي",
+              "price": 4
+            }
+          ]
+        },
+        {
+          "id": "olive-crust-6",
+          "restaurantId": "olive-crust",
+          "name": "ريزوتو فطر",
+          "description": "أرز إيطالي كريمي بالفطر.",
+          "image": "https://images.unsplash.com/photo-1455619452474-d2be8b1e70cd?w=800&q=80",
+          "price": 44,
+          "rating": 4.6,
+          "calories": 540,
+          "protein": 14,
+          "carbs": 58,
+          "fat": 20,
+          "category": "offers",
+          "isPopular": false,
+          "isOffer": true,
+          "offerPrice": 39,
+          "spicyOption": false,
+          "cashbackPercent": 15,
+          "addons": [
+            {
+              "id": "fries",
+              "name": "بطاطس مقلية",
+              "price": 8
+            },
+            {
+              "id": "cola",
+              "name": "كولا",
+              "price": 6
+            },
+            {
+              "id": "sauce",
+              "name": "صلصة إضافية",
+              "price": 3
+            },
+            {
+              "id": "bread",
+              "name": "خبز إضافي",
+              "price": 4
+            }
+          ]
+        },
+        {
+          "id": "olive-crust-7",
+          "restaurantId": "olive-crust",
+          "name": "سلطة سيزر",
+          "description": "خس ورُمان وكروتون.",
+          "image": "https://images.unsplash.com/photo-1506084868230-bb9d95c24759?w=800&q=80",
+          "price": 28,
+          "rating": 4.1,
+          "calories": 320,
+          "protein": 18,
+          "carbs": 16,
+          "fat": 18,
+          "category": "menu",
+          "isPopular": false,
+          "isOffer": false,
+          "offerPrice": null,
+          "spicyOption": false,
+          "cashbackPercent": null,
+          "addons": [
+            {
+              "id": "fries",
+              "name": "بطاطس مقلية",
+              "price": 8
+            },
+            {
+              "id": "cola",
+              "name": "كولا",
+              "price": 6
+            },
+            {
+              "id": "sauce",
+              "name": "صلصة إضافية",
+              "price": 3
+            },
+            {
+              "id": "bread",
+              "name": "خبز إضافي",
+              "price": 4
+            }
+          ]
+        },
+        {
+          "id": "olive-crust-8",
+          "restaurantId": "olive-crust",
+          "name": "بروشيتا",
+          "description": "خبز محمص مع طماطم وثوم.",
+          "image": "https://images.unsplash.com/photo-1551183053-bf91a1d81141?w=800&q=80",
+          "price": 22,
+          "rating": 4.8,
+          "calories": 280,
+          "protein": 6,
+          "carbs": 32,
+          "fat": 10,
+          "category": "offers",
+          "isPopular": false,
+          "isOffer": true,
+          "offerPrice": 18,
+          "spicyOption": false,
+          "cashbackPercent": 15,
+          "addons": [
+            {
+              "id": "fries",
+              "name": "بطاطس مقلية",
+              "price": 8
+            },
+            {
+              "id": "cola",
+              "name": "كولا",
+              "price": 6
+            },
+            {
+              "id": "sauce",
+              "name": "صلصة إضافية",
+              "price": 3
+            },
+            {
+              "id": "bread",
+              "name": "خبز إضافي",
+              "price": 4
+            }
+          ]
+        },
+        {
+          "id": "olive-crust-9",
+          "restaurantId": "olive-crust",
+          "name": "كالتزوني",
+          "description": "بيتزا مطوية محشوة.",
+          "image": "https://images.unsplash.com/photo-1529006557810-274b9b2fc783?w=800&q=80",
+          "price": 45,
+          "rating": 4.2,
+          "calories": 740,
+          "protein": 26,
+          "carbs": 68,
+          "fat": 28,
+          "category": "popular",
+          "isPopular": true,
+          "isOffer": false,
+          "offerPrice": null,
+          "spicyOption": false,
+          "cashbackPercent": null,
+          "addons": [
+            {
+              "id": "fries",
+              "name": "بطاطس مقلية",
+              "price": 8
+            },
+            {
+              "id": "cola",
+              "name": "كولا",
+              "price": 6
+            },
+            {
+              "id": "sauce",
+              "name": "صلصة إضافية",
+              "price": 3
+            },
+            {
+              "id": "bread",
+              "name": "خبز إضافي",
+              "price": 4
+            }
+          ]
+        },
+        {
+          "id": "olive-crust-10",
+          "restaurantId": "olive-crust",
+          "name": "تيراميسو صغير",
+          "description": "تحلية إيطالية كلاسيكية.",
+          "image": "https://images.unsplash.com/photo-1565958011703-44f9829ba187?w=800&q=80",
+          "price": 26,
+          "rating": 4.5,
+          "calories": 360,
+          "protein": 6,
+          "carbs": 34,
+          "fat": 18,
+          "category": "menu",
+          "isPopular": false,
+          "isOffer": false,
+          "offerPrice": null,
+          "spicyOption": false,
+          "cashbackPercent": null,
+          "addons": [
+            {
+              "id": "fries",
+              "name": "بطاطس مقلية",
+              "price": 8
+            },
+            {
+              "id": "cola",
+              "name": "كولا",
+              "price": 6
+            },
+            {
+              "id": "sauce",
+              "name": "صلصة إضافية",
+              "price": 3
+            },
+            {
+              "id": "bread",
+              "name": "خبز إضافي",
+              "price": 4
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "vesuvio-pizza",
+      "name": "بيتزا فيزوفيو",
+      "image": "https://images.unsplash.com/photo-1484723091739-30a097e8f929?w=800&q=80",
+      "rating": 4.6,
+      "cuisine": "إيطالي",
+      "deliveryTime": "40–55 د",
+      "deliveryFee": 0,
+      "minOrder": 35,
+      "distanceKm": 6.1,
+      "verified": null,
+      "tags": [
+        "إيطالي",
+        "بيتزا",
+        "باستا"
+      ],
+      "featured": null,
+      "open24h": null,
+      "fastDelivery": null,
+      "meals": [
+        {
+          "id": "vesuvio-pizza-1",
+          "restaurantId": "vesuvio-pizza",
+          "name": "مارغريتا",
+          "description": "صلصة طماطم وموزاريلا وريحان.",
+          "image": "https://images.unsplash.com/photo-1488477181946-6428a0291777?w=800&q=80",
+          "price": 42,
+          "rating": 4.5,
+          "calories": 680,
+          "protein": 24,
+          "carbs": 72,
+          "fat": 24,
+          "category": "popular",
+          "isPopular": true,
+          "isOffer": false,
+          "offerPrice": null,
+          "spicyOption": false,
+          "cashbackPercent": null,
+          "addons": [
+            {
+              "id": "fries",
+              "name": "بطاطس مقلية",
+              "price": 8
+            },
+            {
+              "id": "cola",
+              "name": "كولا",
+              "price": 6
+            },
+            {
+              "id": "sauce",
+              "name": "صلصة إضافية",
+              "price": 3
+            },
+            {
+              "id": "bread",
+              "name": "خبز إضافي",
+              "price": 4
+            }
+          ]
+        },
+        {
+          "id": "vesuvio-pizza-2",
+          "restaurantId": "vesuvio-pizza",
+          "name": "بيبروني",
+          "description": "بيتزا بيبروني حارة.",
+          "image": "https://images.unsplash.com/photo-1585937421612-70a008356fbe?w=800&q=80",
+          "price": 48,
+          "rating": 4.3,
+          "calories": 760,
+          "protein": 28,
+          "carbs": 70,
+          "fat": 32,
+          "category": "popular",
+          "isPopular": true,
+          "isOffer": false,
+          "offerPrice": null,
+          "spicyOption": true,
+          "cashbackPercent": null,
+          "addons": [
+            {
+              "id": "fries",
+              "name": "بطاطس مقلية",
+              "price": 8
+            },
+            {
+              "id": "cola",
+              "name": "كولا",
+              "price": 6
+            },
+            {
+              "id": "sauce",
+              "name": "صلصة إضافية",
+              "price": 3
+            },
+            {
+              "id": "bread",
+              "name": "خبز إضافي",
+              "price": 4
+            }
+          ]
+        },
+        {
+          "id": "vesuvio-pizza-3",
+          "restaurantId": "vesuvio-pizza",
+          "name": "باستا كاربونارا",
+          "description": "سباغيتي مع بيض وجبنة.",
+          "image": "https://images.unsplash.com/photo-1553621042-f6e147245754?w=800&q=80",
+          "price": 46,
+          "rating": 4.5,
+          "calories": 720,
+          "protein": 26,
+          "carbs": 68,
+          "fat": 30,
+          "category": "popular",
+          "isPopular": true,
+          "isOffer": false,
+          "offerPrice": null,
+          "spicyOption": false,
+          "cashbackPercent": null,
+          "addons": [
+            {
+              "id": "fries",
+              "name": "بطاطس مقلية",
+              "price": 8
+            },
+            {
+              "id": "cola",
+              "name": "كولا",
+              "price": 6
+            },
+            {
+              "id": "sauce",
+              "name": "صلصة إضافية",
+              "price": 3
+            },
+            {
+              "id": "bread",
+              "name": "خبز إضافي",
+              "price": 4
+            }
+          ]
+        },
+        {
+          "id": "vesuvio-pizza-4",
+          "restaurantId": "vesuvio-pizza",
+          "name": "لازانيا لحم",
+          "description": "طبقات باستا ولحم وبيشاميل.",
+          "image": "https://images.unsplash.com/photo-1414235077428-338989a2e8c0?w=800&q=80",
+          "price": 52,
+          "rating": 4.8,
+          "calories": 820,
+          "protein": 34,
+          "carbs": 60,
+          "fat": 38,
+          "category": "menu",
+          "isPopular": false,
+          "isOffer": false,
+          "offerPrice": null,
+          "spicyOption": false,
+          "cashbackPercent": null,
+          "addons": [
+            {
+              "id": "fries",
+              "name": "بطاطس مقلية",
+              "price": 8
+            },
+            {
+              "id": "cola",
+              "name": "كولا",
+              "price": 6
+            },
+            {
+              "id": "sauce",
+              "name": "صلصة إضافية",
+              "price": 3
+            },
+            {
+              "id": "bread",
+              "name": "خبز إضافي",
+              "price": 4
+            }
+          ]
+        },
+        {
+          "id": "vesuvio-pizza-5",
+          "restaurantId": "vesuvio-pizza",
+          "name": "بينّي أرابياتا",
+          "description": "باستا بصلصة طماطم حارة.",
+          "image": "https://images.unsplash.com/photo-1551782450-a2132b4ba21d?w=800&q=80",
+          "price": 38,
+          "rating": 4.9,
+          "calories": 580,
+          "protein": 16,
+          "carbs": 70,
+          "fat": 14,
+          "category": "menu",
+          "isPopular": false,
+          "isOffer": false,
+          "offerPrice": null,
+          "spicyOption": true,
+          "cashbackPercent": null,
+          "addons": [
+            {
+              "id": "fries",
+              "name": "بطاطس مقلية",
+              "price": 8
+            },
+            {
+              "id": "cola",
+              "name": "كولا",
+              "price": 6
+            },
+            {
+              "id": "sauce",
+              "name": "صلصة إضافية",
+              "price": 3
+            },
+            {
+              "id": "bread",
+              "name": "خبز إضافي",
+              "price": 4
+            }
+          ]
+        },
+        {
+          "id": "vesuvio-pizza-6",
+          "restaurantId": "vesuvio-pizza",
+          "name": "ريزوتو فطر",
+          "description": "أرز إيطالي كريمي بالفطر.",
+          "image": "https://images.unsplash.com/photo-1601050690117-94f5f6fa8bd7?w=800&q=80",
+          "price": 44,
+          "rating": 4.7,
+          "calories": 540,
+          "protein": 14,
+          "carbs": 58,
+          "fat": 20,
+          "category": "offers",
+          "isPopular": false,
+          "isOffer": true,
+          "offerPrice": 35,
+          "spicyOption": false,
+          "cashbackPercent": null,
+          "addons": [
+            {
+              "id": "fries",
+              "name": "بطاطس مقلية",
+              "price": 8
+            },
+            {
+              "id": "cola",
+              "name": "كولا",
+              "price": 6
+            },
+            {
+              "id": "sauce",
+              "name": "صلصة إضافية",
+              "price": 3
+            },
+            {
+              "id": "bread",
+              "name": "خبز إضافي",
+              "price": 4
+            }
+          ]
+        },
+        {
+          "id": "vesuvio-pizza-7",
+          "restaurantId": "vesuvio-pizza",
+          "name": "سلطة سيزر",
+          "description": "خس ورُمان وكروتون.",
+          "image": "https://images.unsplash.com/photo-1611143669185-af224c5e3252?w=800&q=80",
+          "price": 28,
+          "rating": 4.2,
+          "calories": 320,
+          "protein": 18,
+          "carbs": 16,
+          "fat": 18,
+          "category": "popular",
+          "isPopular": true,
+          "isOffer": false,
+          "offerPrice": null,
+          "spicyOption": false,
+          "cashbackPercent": null,
+          "addons": [
+            {
+              "id": "fries",
+              "name": "بطاطس مقلية",
+              "price": 8
+            },
+            {
+              "id": "cola",
+              "name": "كولا",
+              "price": 6
+            },
+            {
+              "id": "sauce",
+              "name": "صلصة إضافية",
+              "price": 3
+            },
+            {
+              "id": "bread",
+              "name": "خبز إضافي",
+              "price": 4
+            }
+          ]
+        },
+        {
+          "id": "vesuvio-pizza-8",
+          "restaurantId": "vesuvio-pizza",
+          "name": "بروشيتا",
+          "description": "خبز محمص مع طماطم وثوم.",
+          "image": "https://images.unsplash.com/photo-1606755962773-d324e0a13086?w=800&q=80",
+          "price": 22,
+          "rating": 4.6,
+          "calories": 280,
+          "protein": 6,
+          "carbs": 32,
+          "fat": 10,
+          "category": "popular",
+          "isPopular": true,
+          "isOffer": false,
+          "offerPrice": null,
+          "spicyOption": false,
+          "cashbackPercent": null,
+          "addons": [
+            {
+              "id": "fries",
+              "name": "بطاطس مقلية",
+              "price": 8
+            },
+            {
+              "id": "cola",
+              "name": "كولا",
+              "price": 6
+            },
+            {
+              "id": "sauce",
+              "name": "صلصة إضافية",
+              "price": 3
+            },
+            {
+              "id": "bread",
+              "name": "خبز إضافي",
+              "price": 4
+            }
+          ]
+        },
+        {
+          "id": "vesuvio-pizza-9",
+          "restaurantId": "vesuvio-pizza",
+          "name": "كالتزوني",
+          "description": "بيتزا مطوية محشوة.",
+          "image": "https://images.unsplash.com/photo-1573080496219-bb080dd4f877?w=800&q=80",
+          "price": 45,
+          "rating": 4.7,
+          "calories": 740,
+          "protein": 26,
+          "carbs": 68,
+          "fat": 28,
+          "category": "menu",
+          "isPopular": false,
+          "isOffer": false,
+          "offerPrice": null,
+          "spicyOption": false,
+          "cashbackPercent": null,
+          "addons": [
+            {
+              "id": "fries",
+              "name": "بطاطس مقلية",
+              "price": 8
+            },
+            {
+              "id": "cola",
+              "name": "كولا",
+              "price": 6
+            },
+            {
+              "id": "sauce",
+              "name": "صلصة إضافية",
+              "price": 3
+            },
+            {
+              "id": "bread",
+              "name": "خبز إضافي",
+              "price": 4
+            }
+          ]
+        },
+        {
+          "id": "vesuvio-pizza-10",
+          "restaurantId": "vesuvio-pizza",
+          "name": "تيراميسو صغير",
+          "description": "تحلية إيطالية كلاسيكية.",
+          "image": "https://images.unsplash.com/photo-1529042410759-befb1204b468?w=800&q=80",
+          "price": 26,
+          "rating": 4.2,
+          "calories": 360,
+          "protein": 6,
+          "carbs": 34,
+          "fat": 18,
+          "category": "popular",
+          "isPopular": true,
+          "isOffer": false,
+          "offerPrice": null,
+          "spicyOption": false,
+          "cashbackPercent": null,
+          "addons": [
+            {
+              "id": "fries",
+              "name": "بطاطس مقلية",
+              "price": 8
+            },
+            {
+              "id": "cola",
+              "name": "كولا",
+              "price": 6
+            },
+            {
+              "id": "sauce",
+              "name": "صلصة إضافية",
+              "price": 3
+            },
+            {
+              "id": "bread",
+              "name": "خبز إضافي",
+              "price": 4
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "basilico",
+      "name": "بازيليكو",
+      "image": "https://images.unsplash.com/photo-1559339352-11d035aa65de?w=800&q=80",
+      "rating": 4.4,
+      "cuisine": "إيطالي",
+      "deliveryTime": "40–55 د",
+      "deliveryFee": 10,
+      "minOrder": 30,
+      "distanceKm": 6.3,
+      "verified": true,
+      "tags": [
+        "إيطالي",
+        "بيتزا",
+        "باستا"
+      ],
+      "featured": null,
+      "open24h": null,
+      "fastDelivery": true,
+      "meals": [
+        {
+          "id": "basilico-1",
+          "restaurantId": "basilico",
+          "name": "مارغريتا",
+          "description": "صلصة طماطم وموزاريلا وريحان.",
+          "image": "https://images.unsplash.com/photo-1617196034796-73dfa7b1fd56?w=800&q=80",
+          "price": 42,
+          "rating": 4.8,
+          "calories": 680,
+          "protein": 24,
+          "carbs": 72,
+          "fat": 24,
+          "category": "offers",
+          "isPopular": false,
+          "isOffer": true,
+          "offerPrice": 36,
+          "spicyOption": false,
+          "cashbackPercent": null,
+          "addons": [
+            {
+              "id": "fries",
+              "name": "بطاطس مقلية",
+              "price": 8
+            },
+            {
+              "id": "cola",
+              "name": "كولا",
+              "price": 6
+            },
+            {
+              "id": "sauce",
+              "name": "صلصة إضافية",
+              "price": 3
+            },
+            {
+              "id": "bread",
+              "name": "خبز إضافي",
+              "price": 4
+            }
+          ]
+        },
+        {
+          "id": "basilico-2",
+          "restaurantId": "basilico",
+          "name": "بيبروني",
+          "description": "بيتزا بيبروني حارة.",
+          "image": "https://images.unsplash.com/photo-1563379926898-05f4575a45d8?w=800&q=80",
+          "price": 48,
+          "rating": 4.7,
+          "calories": 760,
+          "protein": 28,
+          "carbs": 70,
+          "fat": 32,
+          "category": "popular",
+          "isPopular": true,
+          "isOffer": false,
+          "offerPrice": null,
+          "spicyOption": true,
+          "cashbackPercent": null,
+          "addons": [
+            {
+              "id": "fries",
+              "name": "بطاطس مقلية",
+              "price": 8
+            },
+            {
+              "id": "cola",
+              "name": "كولا",
+              "price": 6
+            },
+            {
+              "id": "sauce",
+              "name": "صلصة إضافية",
+              "price": 3
+            },
+            {
+              "id": "bread",
+              "name": "خبز إضافي",
+              "price": 4
+            }
+          ]
+        },
+        {
+          "id": "basilico-3",
+          "restaurantId": "basilico",
+          "name": "باستا كاربونارا",
+          "description": "سباغيتي مع بيض وجبنة.",
+          "image": "https://images.unsplash.com/photo-1626082927389-6cd097cdc6ec?w=800&q=80",
+          "price": 46,
+          "rating": 4.8,
+          "calories": 720,
+          "protein": 26,
+          "carbs": 68,
+          "fat": 30,
+          "category": "popular",
+          "isPopular": true,
+          "isOffer": false,
+          "offerPrice": null,
+          "spicyOption": false,
+          "cashbackPercent": null,
+          "addons": [
+            {
+              "id": "fries",
+              "name": "بطاطس مقلية",
+              "price": 8
+            },
+            {
+              "id": "cola",
+              "name": "كولا",
+              "price": 6
+            },
+            {
+              "id": "sauce",
+              "name": "صلصة إضافية",
+              "price": 3
+            },
+            {
+              "id": "bread",
+              "name": "خبز إضافي",
+              "price": 4
+            }
+          ]
+        },
+        {
+          "id": "basilico-4",
+          "restaurantId": "basilico",
+          "name": "لازانيا لحم",
+          "description": "طبقات باستا ولحم وبيشاميل.",
+          "image": "https://images.unsplash.com/photo-1559339352-11d035aa65de?w=800&q=80",
+          "price": 52,
+          "rating": 4.2,
+          "calories": 820,
+          "protein": 34,
+          "carbs": 60,
+          "fat": 38,
+          "category": "offers",
+          "isPopular": false,
+          "isOffer": true,
+          "offerPrice": 46,
+          "spicyOption": false,
+          "cashbackPercent": 5,
+          "addons": [
+            {
+              "id": "fries",
+              "name": "بطاطس مقلية",
+              "price": 8
+            },
+            {
+              "id": "cola",
+              "name": "كولا",
+              "price": 6
+            },
+            {
+              "id": "sauce",
+              "name": "صلصة إضافية",
+              "price": 3
+            },
+            {
+              "id": "bread",
+              "name": "خبز إضافي",
+              "price": 4
+            }
+          ]
+        },
+        {
+          "id": "basilico-5",
+          "restaurantId": "basilico",
+          "name": "بينّي أرابياتا",
+          "description": "باستا بصلصة طماطم حارة.",
+          "image": "https://images.unsplash.com/photo-1563379926898-05f4575a45d8?w=800&q=80",
+          "price": 38,
+          "rating": 4.3,
+          "calories": 580,
+          "protein": 16,
+          "carbs": 70,
+          "fat": 14,
+          "category": "menu",
+          "isPopular": false,
+          "isOffer": false,
+          "offerPrice": null,
+          "spicyOption": true,
+          "cashbackPercent": null,
+          "addons": [
+            {
+              "id": "fries",
+              "name": "بطاطس مقلية",
+              "price": 8
+            },
+            {
+              "id": "cola",
+              "name": "كولا",
+              "price": 6
+            },
+            {
+              "id": "sauce",
+              "name": "صلصة إضافية",
+              "price": 3
+            },
+            {
+              "id": "bread",
+              "name": "خبز إضافي",
+              "price": 4
+            }
+          ]
+        },
+        {
+          "id": "basilico-6",
+          "restaurantId": "basilico",
+          "name": "ريزوتو فطر",
+          "description": "أرز إيطالي كريمي بالفطر.",
+          "image": "https://images.unsplash.com/photo-1553979459-d2229ba7433b?w=800&q=80",
+          "price": 44,
+          "rating": 4.8,
+          "calories": 540,
+          "protein": 14,
+          "carbs": 58,
+          "fat": 20,
+          "category": "menu",
+          "isPopular": false,
+          "isOffer": false,
+          "offerPrice": null,
+          "spicyOption": false,
+          "cashbackPercent": null,
+          "addons": [
+            {
+              "id": "fries",
+              "name": "بطاطس مقلية",
+              "price": 8
+            },
+            {
+              "id": "cola",
+              "name": "كولا",
+              "price": 6
+            },
+            {
+              "id": "sauce",
+              "name": "صلصة إضافية",
+              "price": 3
+            },
+            {
+              "id": "bread",
+              "name": "خبز إضافي",
+              "price": 4
+            }
+          ]
+        },
+        {
+          "id": "basilico-7",
+          "restaurantId": "basilico",
+          "name": "سلطة سيزر",
+          "description": "خس ورُمان وكروتون.",
+          "image": "https://images.unsplash.com/photo-1455619452474-d2be8b1e70cd?w=800&q=80",
+          "price": 28,
+          "rating": 4.7,
+          "calories": 320,
+          "protein": 18,
+          "carbs": 16,
+          "fat": 18,
+          "category": "menu",
+          "isPopular": false,
+          "isOffer": false,
+          "offerPrice": null,
+          "spicyOption": false,
+          "cashbackPercent": null,
+          "addons": [
+            {
+              "id": "fries",
+              "name": "بطاطس مقلية",
+              "price": 8
+            },
+            {
+              "id": "cola",
+              "name": "كولا",
+              "price": 6
+            },
+            {
+              "id": "sauce",
+              "name": "صلصة إضافية",
+              "price": 3
+            },
+            {
+              "id": "bread",
+              "name": "خبز إضافي",
+              "price": 4
+            }
+          ]
+        },
+        {
+          "id": "basilico-8",
+          "restaurantId": "basilico",
+          "name": "بروشيتا",
+          "description": "خبز محمص مع طماطم وثوم.",
+          "image": "https://images.unsplash.com/photo-1506084868230-bb9d95c24759?w=800&q=80",
+          "price": 22,
+          "rating": 4.5,
+          "calories": 280,
+          "protein": 6,
+          "carbs": 32,
+          "fat": 10,
+          "category": "menu",
+          "isPopular": false,
+          "isOffer": false,
+          "offerPrice": null,
+          "spicyOption": false,
+          "cashbackPercent": null,
+          "addons": [
+            {
+              "id": "fries",
+              "name": "بطاطس مقلية",
+              "price": 8
+            },
+            {
+              "id": "cola",
+              "name": "كولا",
+              "price": 6
+            },
+            {
+              "id": "sauce",
+              "name": "صلصة إضافية",
+              "price": 3
+            },
+            {
+              "id": "bread",
+              "name": "خبز إضافي",
+              "price": 4
+            }
+          ]
+        },
+        {
+          "id": "basilico-9",
+          "restaurantId": "basilico",
+          "name": "كالتزوني",
+          "description": "بيتزا مطوية محشوة.",
+          "image": "https://images.unsplash.com/photo-1568901346375-23c9450c58cd?w=800&q=80",
+          "price": 45,
+          "rating": 4.7,
+          "calories": 740,
+          "protein": 26,
+          "carbs": 68,
+          "fat": 28,
+          "category": "menu",
+          "isPopular": false,
+          "isOffer": false,
+          "offerPrice": null,
+          "spicyOption": false,
+          "cashbackPercent": null,
+          "addons": [
+            {
+              "id": "fries",
+              "name": "بطاطس مقلية",
+              "price": 8
+            },
+            {
+              "id": "cola",
+              "name": "كولا",
+              "price": 6
+            },
+            {
+              "id": "sauce",
+              "name": "صلصة إضافية",
+              "price": 3
+            },
+            {
+              "id": "bread",
+              "name": "خبز إضافي",
+              "price": 4
+            }
+          ]
+        },
+        {
+          "id": "basilico-10",
+          "restaurantId": "basilico",
+          "name": "تيراميسو صغير",
+          "description": "تحلية إيطالية كلاسيكية.",
+          "image": "https://images.unsplash.com/photo-1559339352-11d035aa65de?w=800&q=80",
+          "price": 26,
+          "rating": 4.2,
+          "calories": 360,
+          "protein": 6,
+          "carbs": 34,
+          "fat": 18,
+          "category": "offers",
+          "isPopular": false,
+          "isOffer": true,
+          "offerPrice": 22,
+          "spicyOption": false,
+          "cashbackPercent": null,
+          "addons": [
+            {
+              "id": "fries",
+              "name": "بطاطس مقلية",
+              "price": 8
+            },
+            {
+              "id": "cola",
+              "name": "كولا",
+              "price": 6
+            },
+            {
+              "id": "sauce",
+              "name": "صلصة إضافية",
+              "price": 3
+            },
+            {
+              "id": "bread",
+              "name": "خبز إضافي",
+              "price": 4
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "formaggio",
+      "name": "فورماجيو",
+      "image": "https://images.unsplash.com/photo-1565299624946-b28f40a0ae38?w=800&q=80",
+      "rating": 4.9,
+      "cuisine": "إيطالي",
+      "deliveryTime": "40–55 د",
+      "deliveryFee": 12,
+      "minOrder": 25,
+      "distanceKm": 6.3,
+      "verified": true,
+      "tags": [
+        "إيطالي",
+        "بيتزا",
+        "باستا"
+      ],
+      "featured": true,
+      "open24h": null,
+      "fastDelivery": null,
+      "meals": [
+        {
+          "id": "formaggio-1",
+          "restaurantId": "formaggio",
+          "name": "مارغريتا",
+          "description": "صلصة طماطم وموزاريلا وريحان.",
+          "image": "https://images.unsplash.com/photo-1488477181946-6428a0291777?w=800&q=80",
+          "price": 42,
+          "rating": 4.6,
+          "calories": 680,
+          "protein": 24,
+          "carbs": 72,
+          "fat": 24,
+          "category": "menu",
+          "isPopular": false,
+          "isOffer": false,
+          "offerPrice": null,
+          "spicyOption": false,
+          "cashbackPercent": null,
+          "addons": [
+            {
+              "id": "fries",
+              "name": "بطاطس مقلية",
+              "price": 8
+            },
+            {
+              "id": "cola",
+              "name": "كولا",
+              "price": 6
+            },
+            {
+              "id": "sauce",
+              "name": "صلصة إضافية",
+              "price": 3
+            },
+            {
+              "id": "bread",
+              "name": "خبز إضافي",
+              "price": 4
+            }
+          ]
+        },
+        {
+          "id": "formaggio-2",
+          "restaurantId": "formaggio",
+          "name": "بيبروني",
+          "description": "بيتزا بيبروني حارة.",
+          "image": "https://images.unsplash.com/photo-1467003909585-2f8a72700288?w=800&q=80",
+          "price": 48,
+          "rating": 4.6,
+          "calories": 760,
+          "protein": 28,
+          "carbs": 70,
+          "fat": 32,
+          "category": "menu",
+          "isPopular": false,
+          "isOffer": false,
+          "offerPrice": null,
+          "spicyOption": true,
+          "cashbackPercent": null,
+          "addons": [
+            {
+              "id": "fries",
+              "name": "بطاطس مقلية",
+              "price": 8
+            },
+            {
+              "id": "cola",
+              "name": "كولا",
+              "price": 6
+            },
+            {
+              "id": "sauce",
+              "name": "صلصة إضافية",
+              "price": 3
+            },
+            {
+              "id": "bread",
+              "name": "خبز إضافي",
+              "price": 4
+            }
+          ]
+        },
+        {
+          "id": "formaggio-3",
+          "restaurantId": "formaggio",
+          "name": "باستا كاربونارا",
+          "description": "سباغيتي مع بيض وجبنة.",
+          "image": "https://images.unsplash.com/photo-1567620905732-2d1ec7ab7445?w=800&q=80",
+          "price": 46,
+          "rating": 4.2,
+          "calories": 720,
+          "protein": 26,
+          "carbs": 68,
+          "fat": 30,
+          "category": "menu",
+          "isPopular": false,
+          "isOffer": false,
+          "offerPrice": null,
+          "spicyOption": false,
+          "cashbackPercent": null,
+          "addons": [
+            {
+              "id": "fries",
+              "name": "بطاطس مقلية",
+              "price": 8
+            },
+            {
+              "id": "cola",
+              "name": "كولا",
+              "price": 6
+            },
+            {
+              "id": "sauce",
+              "name": "صلصة إضافية",
+              "price": 3
+            },
+            {
+              "id": "bread",
+              "name": "خبز إضافي",
+              "price": 4
+            }
+          ]
+        },
+        {
+          "id": "formaggio-4",
+          "restaurantId": "formaggio",
+          "name": "لازانيا لحم",
+          "description": "طبقات باستا ولحم وبيشاميل.",
+          "image": "https://images.unsplash.com/photo-1533134242443-d4fd215305ad?w=800&q=80",
+          "price": 52,
+          "rating": 4.6,
+          "calories": 820,
+          "protein": 34,
+          "carbs": 60,
+          "fat": 38,
+          "category": "menu",
+          "isPopular": false,
+          "isOffer": false,
+          "offerPrice": null,
+          "spicyOption": false,
+          "cashbackPercent": null,
+          "addons": [
+            {
+              "id": "fries",
+              "name": "بطاطس مقلية",
+              "price": 8
+            },
+            {
+              "id": "cola",
+              "name": "كولا",
+              "price": 6
+            },
+            {
+              "id": "sauce",
+              "name": "صلصة إضافية",
+              "price": 3
+            },
+            {
+              "id": "bread",
+              "name": "خبز إضافي",
+              "price": 4
+            }
+          ]
+        },
+        {
+          "id": "formaggio-5",
+          "restaurantId": "formaggio",
+          "name": "بينّي أرابياتا",
+          "description": "باستا بصلصة طماطم حارة.",
+          "image": "https://images.unsplash.com/photo-1563379926898-05f4575a45d8?w=800&q=80",
+          "price": 38,
+          "rating": 4.1,
+          "calories": 580,
+          "protein": 16,
+          "carbs": 70,
+          "fat": 14,
+          "category": "popular",
+          "isPopular": true,
+          "isOffer": false,
+          "offerPrice": null,
+          "spicyOption": true,
+          "cashbackPercent": null,
+          "addons": [
+            {
+              "id": "fries",
+              "name": "بطاطس مقلية",
+              "price": 8
+            },
+            {
+              "id": "cola",
+              "name": "كولا",
+              "price": 6
+            },
+            {
+              "id": "sauce",
+              "name": "صلصة إضافية",
+              "price": 3
+            },
+            {
+              "id": "bread",
+              "name": "خبز إضافي",
+              "price": 4
+            }
+          ]
+        },
+        {
+          "id": "formaggio-6",
+          "restaurantId": "formaggio",
+          "name": "ريزوتو فطر",
+          "description": "أرز إيطالي كريمي بالفطر.",
+          "image": "https://images.unsplash.com/photo-1484723091739-30a097e8f929?w=800&q=80",
+          "price": 44,
+          "rating": 4.2,
+          "calories": 540,
+          "protein": 14,
+          "carbs": 58,
+          "fat": 20,
+          "category": "offers",
+          "isPopular": false,
+          "isOffer": true,
+          "offerPrice": 36,
+          "spicyOption": false,
+          "cashbackPercent": 15,
+          "addons": [
+            {
+              "id": "fries",
+              "name": "بطاطس مقلية",
+              "price": 8
+            },
+            {
+              "id": "cola",
+              "name": "كولا",
+              "price": 6
+            },
+            {
+              "id": "sauce",
+              "name": "صلصة إضافية",
+              "price": 3
+            },
+            {
+              "id": "bread",
+              "name": "خبز إضافي",
+              "price": 4
+            }
+          ]
+        },
+        {
+          "id": "formaggio-7",
+          "restaurantId": "formaggio",
+          "name": "سلطة سيزر",
+          "description": "خس ورُمان وكروتون.",
+          "image": "https://images.unsplash.com/photo-1551183053-bf91a1d81141?w=800&q=80",
+          "price": 28,
+          "rating": 4.5,
+          "calories": 320,
+          "protein": 18,
+          "carbs": 16,
+          "fat": 18,
+          "category": "offers",
+          "isPopular": false,
+          "isOffer": true,
+          "offerPrice": 24,
+          "spicyOption": false,
+          "cashbackPercent": 10,
+          "addons": [
+            {
+              "id": "fries",
+              "name": "بطاطس مقلية",
+              "price": 8
+            },
+            {
+              "id": "cola",
+              "name": "كولا",
+              "price": 6
+            },
+            {
+              "id": "sauce",
+              "name": "صلصة إضافية",
+              "price": 3
+            },
+            {
+              "id": "bread",
+              "name": "خبز إضافي",
+              "price": 4
+            }
+          ]
+        },
+        {
+          "id": "formaggio-8",
+          "restaurantId": "formaggio",
+          "name": "بروشيتا",
+          "description": "خبز محمص مع طماطم وثوم.",
+          "image": "https://images.unsplash.com/photo-1484723091739-30a097e8f929?w=800&q=80",
+          "price": 22,
+          "rating": 4.3,
+          "calories": 280,
+          "protein": 6,
+          "carbs": 32,
+          "fat": 10,
+          "category": "offers",
+          "isPopular": false,
+          "isOffer": true,
+          "offerPrice": 20,
+          "spicyOption": false,
+          "cashbackPercent": null,
+          "addons": [
+            {
+              "id": "fries",
+              "name": "بطاطس مقلية",
+              "price": 8
+            },
+            {
+              "id": "cola",
+              "name": "كولا",
+              "price": 6
+            },
+            {
+              "id": "sauce",
+              "name": "صلصة إضافية",
+              "price": 3
+            },
+            {
+              "id": "bread",
+              "name": "خبز إضافي",
+              "price": 4
+            }
+          ]
+        },
+        {
+          "id": "formaggio-9",
+          "restaurantId": "formaggio",
+          "name": "كالتزوني",
+          "description": "بيتزا مطوية محشوة.",
+          "image": "https://images.unsplash.com/photo-1626082927389-6cd097cdc6ec?w=800&q=80",
+          "price": 45,
+          "rating": 4.8,
+          "calories": 740,
+          "protein": 26,
+          "carbs": 68,
+          "fat": 28,
+          "category": "menu",
+          "isPopular": false,
+          "isOffer": false,
+          "offerPrice": null,
+          "spicyOption": false,
+          "cashbackPercent": null,
+          "addons": [
+            {
+              "id": "fries",
+              "name": "بطاطس مقلية",
+              "price": 8
+            },
+            {
+              "id": "cola",
+              "name": "كولا",
+              "price": 6
+            },
+            {
+              "id": "sauce",
+              "name": "صلصة إضافية",
+              "price": 3
+            },
+            {
+              "id": "bread",
+              "name": "خبز إضافي",
+              "price": 4
+            }
+          ]
+        },
+        {
+          "id": "formaggio-10",
+          "restaurantId": "formaggio",
+          "name": "تيراميسو صغير",
+          "description": "تحلية إيطالية كلاسيكية.",
+          "image": "https://images.unsplash.com/photo-1563379926898-05f4575a45d8?w=800&q=80",
+          "price": 26,
+          "rating": 4.8,
+          "calories": 360,
+          "protein": 6,
+          "carbs": 34,
+          "fat": 18,
+          "category": "menu",
+          "isPopular": false,
+          "isOffer": false,
+          "offerPrice": null,
+          "spicyOption": false,
+          "cashbackPercent": null,
+          "addons": [
+            {
+              "id": "fries",
+              "name": "بطاطس مقلية",
+              "price": 8
+            },
+            {
+              "id": "cola",
+              "name": "كولا",
+              "price": 6
+            },
+            {
+              "id": "sauce",
+              "name": "صلصة إضافية",
+              "price": 3
+            },
+            {
+              "id": "bread",
+              "name": "خبز إضافي",
+              "price": 4
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "amico-kitchen",
+      "name": "مطبخ أميكو",
+      "image": "https://images.unsplash.com/photo-1551183053-bf91a1d81141?w=800&q=80",
+      "rating": 4.4,
+      "cuisine": "إيطالي",
+      "deliveryTime": "30–45 د",
+      "deliveryFee": 12,
+      "minOrder": 40,
+      "distanceKm": 3.6,
+      "verified": true,
+      "tags": [
+        "إيطالي",
+        "بيتزا",
+        "باستا"
+      ],
+      "featured": null,
+      "open24h": null,
+      "fastDelivery": null,
+      "meals": [
+        {
+          "id": "amico-kitchen-1",
+          "restaurantId": "amico-kitchen",
+          "name": "مارغريتا",
+          "description": "صلصة طماطم وموزاريلا وريحان.",
+          "image": "https://images.unsplash.com/photo-1529006557810-274b9b2fc783?w=800&q=80",
+          "price": 42,
+          "rating": 4.1,
+          "calories": 680,
+          "protein": 24,
+          "carbs": 72,
+          "fat": 24,
+          "category": "menu",
+          "isPopular": false,
+          "isOffer": false,
+          "offerPrice": null,
+          "spicyOption": false,
+          "cashbackPercent": null,
+          "addons": [
+            {
+              "id": "fries",
+              "name": "بطاطس مقلية",
+              "price": 8
+            },
+            {
+              "id": "cola",
+              "name": "كولا",
+              "price": 6
+            },
+            {
+              "id": "sauce",
+              "name": "صلصة إضافية",
+              "price": 3
+            },
+            {
+              "id": "bread",
+              "name": "خبز إضافي",
+              "price": 4
+            }
+          ]
+        },
+        {
+          "id": "amico-kitchen-2",
+          "restaurantId": "amico-kitchen",
+          "name": "بيبروني",
+          "description": "بيتزا بيبروني حارة.",
+          "image": "https://images.unsplash.com/photo-1582878826629-29b7ad1cdc43?w=800&q=80",
+          "price": 48,
+          "rating": 4.3,
+          "calories": 760,
+          "protein": 28,
+          "carbs": 70,
+          "fat": 32,
+          "category": "popular",
+          "isPopular": true,
+          "isOffer": false,
+          "offerPrice": null,
+          "spicyOption": true,
+          "cashbackPercent": null,
+          "addons": [
+            {
+              "id": "fries",
+              "name": "بطاطس مقلية",
+              "price": 8
+            },
+            {
+              "id": "cola",
+              "name": "كولا",
+              "price": 6
+            },
+            {
+              "id": "sauce",
+              "name": "صلصة إضافية",
+              "price": 3
+            },
+            {
+              "id": "bread",
+              "name": "خبز إضافي",
+              "price": 4
+            }
+          ]
+        },
+        {
+          "id": "amico-kitchen-3",
+          "restaurantId": "amico-kitchen",
+          "name": "باستا كاربونارا",
+          "description": "سباغيتي مع بيض وجبنة.",
+          "image": "https://images.unsplash.com/photo-1567620905732-2d1ec7ab7445?w=800&q=80",
+          "price": 46,
+          "rating": 4.4,
+          "calories": 720,
+          "protein": 26,
+          "carbs": 68,
+          "fat": 30,
+          "category": "popular",
+          "isPopular": true,
+          "isOffer": false,
+          "offerPrice": null,
+          "spicyOption": false,
+          "cashbackPercent": null,
+          "addons": [
+            {
+              "id": "fries",
+              "name": "بطاطس مقلية",
+              "price": 8
+            },
+            {
+              "id": "cola",
+              "name": "كولا",
+              "price": 6
+            },
+            {
+              "id": "sauce",
+              "name": "صلصة إضافية",
+              "price": 3
+            },
+            {
+              "id": "bread",
+              "name": "خبز إضافي",
+              "price": 4
+            }
+          ]
+        },
+        {
+          "id": "amico-kitchen-4",
+          "restaurantId": "amico-kitchen",
+          "name": "لازانيا لحم",
+          "description": "طبقات باستا ولحم وبيشاميل.",
+          "image": "https://images.unsplash.com/photo-1565299624946-b28f40a0ae38?w=800&q=80",
+          "price": 52,
+          "rating": 4.5,
+          "calories": 820,
+          "protein": 34,
+          "carbs": 60,
+          "fat": 38,
+          "category": "popular",
+          "isPopular": true,
+          "isOffer": false,
+          "offerPrice": null,
+          "spicyOption": false,
+          "cashbackPercent": null,
+          "addons": [
+            {
+              "id": "fries",
+              "name": "بطاطس مقلية",
+              "price": 8
+            },
+            {
+              "id": "cola",
+              "name": "كولا",
+              "price": 6
+            },
+            {
+              "id": "sauce",
+              "name": "صلصة إضافية",
+              "price": 3
+            },
+            {
+              "id": "bread",
+              "name": "خبز إضافي",
+              "price": 4
+            }
+          ]
+        },
+        {
+          "id": "amico-kitchen-5",
+          "restaurantId": "amico-kitchen",
+          "name": "بينّي أرابياتا",
+          "description": "باستا بصلصة طماطم حارة.",
+          "image": "https://images.unsplash.com/photo-1571091718767-18b5b1457add?w=800&q=80",
+          "price": 38,
+          "rating": 4.5,
+          "calories": 580,
+          "protein": 16,
+          "carbs": 70,
+          "fat": 14,
+          "category": "offers",
+          "isPopular": false,
+          "isOffer": true,
+          "offerPrice": 29,
+          "spicyOption": true,
+          "cashbackPercent": null,
+          "addons": [
+            {
+              "id": "fries",
+              "name": "بطاطس مقلية",
+              "price": 8
+            },
+            {
+              "id": "cola",
+              "name": "كولا",
+              "price": 6
+            },
+            {
+              "id": "sauce",
+              "name": "صلصة إضافية",
+              "price": 3
+            },
+            {
+              "id": "bread",
+              "name": "خبز إضافي",
+              "price": 4
+            }
+          ]
+        },
+        {
+          "id": "amico-kitchen-6",
+          "restaurantId": "amico-kitchen",
+          "name": "ريزوتو فطر",
+          "description": "أرز إيطالي كريمي بالفطر.",
+          "image": "https://images.unsplash.com/photo-1482049016688-2d3e1b311543?w=800&q=80",
+          "price": 44,
+          "rating": 4.2,
+          "calories": 540,
+          "protein": 14,
+          "carbs": 58,
+          "fat": 20,
+          "category": "popular",
+          "isPopular": true,
+          "isOffer": false,
+          "offerPrice": null,
+          "spicyOption": false,
+          "cashbackPercent": null,
+          "addons": [
+            {
+              "id": "fries",
+              "name": "بطاطس مقلية",
+              "price": 8
+            },
+            {
+              "id": "cola",
+              "name": "كولا",
+              "price": 6
+            },
+            {
+              "id": "sauce",
+              "name": "صلصة إضافية",
+              "price": 3
+            },
+            {
+              "id": "bread",
+              "name": "خبز إضافي",
+              "price": 4
+            }
+          ]
+        },
+        {
+          "id": "amico-kitchen-7",
+          "restaurantId": "amico-kitchen",
+          "name": "سلطة سيزر",
+          "description": "خس ورُمان وكروتون.",
+          "image": "https://images.unsplash.com/photo-1506084868230-bb9d95c24759?w=800&q=80",
+          "price": 28,
+          "rating": 4.6,
+          "calories": 320,
+          "protein": 18,
+          "carbs": 16,
+          "fat": 18,
+          "category": "menu",
+          "isPopular": false,
+          "isOffer": false,
+          "offerPrice": null,
+          "spicyOption": false,
+          "cashbackPercent": null,
+          "addons": [
+            {
+              "id": "fries",
+              "name": "بطاطس مقلية",
+              "price": 8
+            },
+            {
+              "id": "cola",
+              "name": "كولا",
+              "price": 6
+            },
+            {
+              "id": "sauce",
+              "name": "صلصة إضافية",
+              "price": 3
+            },
+            {
+              "id": "bread",
+              "name": "خبز إضافي",
+              "price": 4
+            }
+          ]
+        },
+        {
+          "id": "amico-kitchen-8",
+          "restaurantId": "amico-kitchen",
+          "name": "بروشيتا",
+          "description": "خبز محمص مع طماطم وثوم.",
+          "image": "https://images.unsplash.com/photo-1455619452474-d2be8b1e70cd?w=800&q=80",
+          "price": 22,
+          "rating": 4.9,
+          "calories": 280,
+          "protein": 6,
+          "carbs": 32,
+          "fat": 10,
+          "category": "menu",
+          "isPopular": false,
+          "isOffer": false,
+          "offerPrice": null,
+          "spicyOption": false,
+          "cashbackPercent": null,
+          "addons": [
+            {
+              "id": "fries",
+              "name": "بطاطس مقلية",
+              "price": 8
+            },
+            {
+              "id": "cola",
+              "name": "كولا",
+              "price": 6
+            },
+            {
+              "id": "sauce",
+              "name": "صلصة إضافية",
+              "price": 3
+            },
+            {
+              "id": "bread",
+              "name": "خبز إضافي",
+              "price": 4
+            }
+          ]
+        },
+        {
+          "id": "amico-kitchen-9",
+          "restaurantId": "amico-kitchen",
+          "name": "كالتزوني",
+          "description": "بيتزا مطوية محشوة.",
+          "image": "https://images.unsplash.com/photo-1579584425555-c3ce17fd4351?w=800&q=80",
+          "price": 45,
+          "rating": 4.7,
+          "calories": 740,
+          "protein": 26,
+          "carbs": 68,
+          "fat": 28,
+          "category": "popular",
+          "isPopular": true,
+          "isOffer": false,
+          "offerPrice": null,
+          "spicyOption": false,
+          "cashbackPercent": null,
+          "addons": [
+            {
+              "id": "fries",
+              "name": "بطاطس مقلية",
+              "price": 8
+            },
+            {
+              "id": "cola",
+              "name": "كولا",
+              "price": 6
+            },
+            {
+              "id": "sauce",
+              "name": "صلصة إضافية",
+              "price": 3
+            },
+            {
+              "id": "bread",
+              "name": "خبز إضافي",
+              "price": 4
+            }
+          ]
+        },
+        {
+          "id": "amico-kitchen-10",
+          "restaurantId": "amico-kitchen",
+          "name": "تيراميسو صغير",
+          "description": "تحلية إيطالية كلاسيكية.",
+          "image": "https://images.unsplash.com/photo-1606755962773-d324e0a13086?w=800&q=80",
+          "price": 26,
+          "rating": 4.7,
+          "calories": 360,
+          "protein": 6,
+          "carbs": 34,
+          "fat": 18,
+          "category": "menu",
+          "isPopular": false,
+          "isOffer": false,
+          "offerPrice": null,
+          "spicyOption": false,
+          "cashbackPercent": null,
+          "addons": [
+            {
+              "id": "fries",
+              "name": "بطاطس مقلية",
+              "price": 8
+            },
+            {
+              "id": "cola",
+              "name": "كولا",
+              "price": 6
+            },
+            {
+              "id": "sauce",
+              "name": "صلصة إضافية",
+              "price": 3
+            },
+            {
+              "id": "bread",
+              "name": "خبز إضافي",
+              "price": 4
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}

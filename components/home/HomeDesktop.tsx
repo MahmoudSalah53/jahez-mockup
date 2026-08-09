@@ -11,6 +11,10 @@ import { Hero } from "@/components/home/Hero";
 import { SectionHeader } from "@/components/home/SectionHeader";
 import { MealCard } from "@/components/MealCard";
 import { RestaurantCard } from "@/components/RestaurantCard";
+import {
+  HOME_OFFER_PREVIEW,
+  HOME_RESTAURANT_PREVIEW,
+} from "@/lib/list-limits";
 import { useCuisineScope } from "@/lib/use-cuisine-scope";
 import { formatPrice } from "@/lib/format";
 import { cn } from "@/lib/cn";
@@ -56,9 +60,14 @@ export function HomeDesktop() {
     [offerMeals],
   );
 
-  const featured = scopedRestaurants.filter((r) => r.featured).slice(0, 6);
+  const featured = scopedRestaurants
+    .filter((r) => r.featured)
+    .slice(0, HOME_RESTAURANT_PREVIEW);
   const feed =
-    featured.length >= 3 ? featured : scopedRestaurants.slice(0, 6);
+    featured.length >= 3
+      ? featured
+      : scopedRestaurants.slice(0, HOME_RESTAURANT_PREVIEW);
+  const hasMoreRestaurants = scopedRestaurants.length > feed.length;
 
   return (
     <div className="bg-[#faf8f6] pb-20">
@@ -191,7 +200,7 @@ export function HomeDesktop() {
             : `عروض مختارة من مطابخ ${cuisine}`
         }
         href={offersAllHref}
-        linkLabel="كل العروض"
+        linkLabel="عرض الكل"
       >
         {offerMeals.length === 0 ? (
           <p className="rounded-3xl border border-dashed border-border bg-surface px-6 py-16 text-center text-muted">
@@ -199,7 +208,7 @@ export function HomeDesktop() {
           </p>
         ) : (
           <div className="grid grid-cols-4 gap-5">
-            {offerMeals.slice(0, 4).map((m) => (
+            {offerMeals.slice(0, HOME_OFFER_PREVIEW).map((m) => (
               <MealCard
                 key={m.id}
                 meal={m}
@@ -215,7 +224,7 @@ export function HomeDesktop() {
         title={cuisine === "الكل" ? "مطاعم قريبة منك" : `مطاعم ${cuisine}`}
         subtitle="صور حقيقية، تقييمات واضحة، وتوصيل سريع"
         href={restaurantsAllHref}
-        linkLabel="كل المطاعم"
+        linkLabel="عرض الكل"
       >
         {scopedRestaurants.length === 0 ? (
           <p className="rounded-3xl border border-dashed border-border bg-surface px-6 py-16 text-center text-muted">
@@ -223,24 +232,23 @@ export function HomeDesktop() {
           </p>
         ) : (
           <div className="grid grid-cols-3 gap-6">
-            {(feed.length ? feed : scopedRestaurants).map((r) => (
+            {feed.map((r) => (
               <RestaurantCard key={r.id} restaurant={r} />
             ))}
           </div>
         )}
       </SectionHeader>
 
-      {scopedRestaurants.length > feed.length && (
+      {hasMoreRestaurants ? (
         <div className="mx-auto max-w-7xl px-8 pb-4">
-          <div className="grid grid-cols-3 gap-6">
-            {scopedRestaurants
-              .filter((r) => !feed.some((f) => f.id === r.id))
-              .map((r) => (
-                <RestaurantCard key={r.id} restaurant={r} />
-              ))}
-          </div>
+          <Link
+            href={restaurantsAllHref}
+            className="flex w-full items-center justify-center rounded-2xl border border-border bg-surface py-3.5 text-sm font-semibold text-accent transition hover:border-accent/40 hover:bg-white"
+          >
+            عرض الكل ({scopedRestaurants.length} مطعم)
+          </Link>
         </div>
-      )}
+      ) : null}
     </div>
   );
 }

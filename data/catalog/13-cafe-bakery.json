@@ -1,0 +1,3452 @@
+{
+  "restaurants": [
+    {
+      "id": "croissant-lab",
+      "name": "مختبر الكرواسون",
+      "image": "https://images.unsplash.com/photo-1529042410759-befb1204b468?w=800&q=80",
+      "rating": 4.6,
+      "cuisine": "حلويات",
+      "deliveryTime": "25–35 د",
+      "deliveryFee": 6,
+      "minOrder": 35,
+      "distanceKm": 3.2,
+      "verified": null,
+      "tags": [
+        "كافيه",
+        "مخبوزات"
+      ],
+      "featured": true,
+      "open24h": null,
+      "fastDelivery": true,
+      "meals": [
+        {
+          "id": "croissant-lab-1",
+          "restaurantId": "croissant-lab",
+          "name": "كرواسون زبدة",
+          "description": "كرواسون فرنسي طازج.",
+          "image": "https://images.unsplash.com/photo-1606313564200-e75d5e30476c?w=800&q=80",
+          "price": 14,
+          "rating": 4.3,
+          "calories": 320,
+          "protein": 6,
+          "carbs": 32,
+          "fat": 18,
+          "category": "popular",
+          "isPopular": true,
+          "isOffer": false,
+          "offerPrice": null,
+          "spicyOption": false,
+          "cashbackPercent": null,
+          "addons": [
+            {
+              "id": "fries",
+              "name": "بطاطس مقلية",
+              "price": 8
+            },
+            {
+              "id": "cola",
+              "name": "كولا",
+              "price": 6
+            },
+            {
+              "id": "sauce",
+              "name": "صلصة إضافية",
+              "price": 3
+            },
+            {
+              "id": "bread",
+              "name": "خبز إضافي",
+              "price": 4
+            }
+          ]
+        },
+        {
+          "id": "croissant-lab-2",
+          "restaurantId": "croissant-lab",
+          "name": "لاتيه",
+          "description": "قهوة حليب مخملية.",
+          "image": "https://images.unsplash.com/photo-1517248135467-4c7edcad34c4?w=800&q=80",
+          "price": 16,
+          "rating": 4.4,
+          "calories": 140,
+          "protein": 6,
+          "carbs": 12,
+          "fat": 6,
+          "category": "popular",
+          "isPopular": true,
+          "isOffer": false,
+          "offerPrice": null,
+          "spicyOption": false,
+          "cashbackPercent": null,
+          "addons": [
+            {
+              "id": "fries",
+              "name": "بطاطس مقلية",
+              "price": 8
+            },
+            {
+              "id": "cola",
+              "name": "كولا",
+              "price": 6
+            },
+            {
+              "id": "sauce",
+              "name": "صلصة إضافية",
+              "price": 3
+            },
+            {
+              "id": "bread",
+              "name": "خبز إضافي",
+              "price": 4
+            }
+          ]
+        },
+        {
+          "id": "croissant-lab-3",
+          "restaurantId": "croissant-lab",
+          "name": "سينابون",
+          "description": "لفائف قرفة مع صوص.",
+          "image": "https://images.unsplash.com/photo-1559339352-11d035aa65de?w=800&q=80",
+          "price": 22,
+          "rating": 4.4,
+          "calories": 480,
+          "protein": 6,
+          "carbs": 58,
+          "fat": 20,
+          "category": "offers",
+          "isPopular": false,
+          "isOffer": true,
+          "offerPrice": 19,
+          "spicyOption": false,
+          "cashbackPercent": null,
+          "addons": [
+            {
+              "id": "fries",
+              "name": "بطاطس مقلية",
+              "price": 8
+            },
+            {
+              "id": "cola",
+              "name": "كولا",
+              "price": 6
+            },
+            {
+              "id": "sauce",
+              "name": "صلصة إضافية",
+              "price": 3
+            },
+            {
+              "id": "bread",
+              "name": "خبز إضافي",
+              "price": 4
+            }
+          ]
+        },
+        {
+          "id": "croissant-lab-4",
+          "restaurantId": "croissant-lab",
+          "name": "توست أفوكادو",
+          "description": "خبز محمص مع أفوكادو.",
+          "image": "https://images.unsplash.com/photo-1568901346375-23c9450c58cd?w=800&q=80",
+          "price": 24,
+          "rating": 4.7,
+          "calories": 360,
+          "protein": 10,
+          "carbs": 28,
+          "fat": 20,
+          "category": "popular",
+          "isPopular": true,
+          "isOffer": false,
+          "offerPrice": null,
+          "spicyOption": false,
+          "cashbackPercent": null,
+          "addons": [
+            {
+              "id": "fries",
+              "name": "بطاطس مقلية",
+              "price": 8
+            },
+            {
+              "id": "cola",
+              "name": "كولا",
+              "price": 6
+            },
+            {
+              "id": "sauce",
+              "name": "صلصة إضافية",
+              "price": 3
+            },
+            {
+              "id": "bread",
+              "name": "خبز إضافي",
+              "price": 4
+            }
+          ]
+        },
+        {
+          "id": "croissant-lab-5",
+          "restaurantId": "croissant-lab",
+          "name": "كيكة فانيلا",
+          "description": "شريحة كيك فانيلا.",
+          "image": "https://images.unsplash.com/photo-1551782450-a2132b4ba21d?w=800&q=80",
+          "price": 18,
+          "rating": 4.7,
+          "calories": 380,
+          "protein": 4,
+          "carbs": 42,
+          "fat": 18,
+          "category": "popular",
+          "isPopular": true,
+          "isOffer": false,
+          "offerPrice": null,
+          "spicyOption": false,
+          "cashbackPercent": null,
+          "addons": [
+            {
+              "id": "fries",
+              "name": "بطاطس مقلية",
+              "price": 8
+            },
+            {
+              "id": "cola",
+              "name": "كولا",
+              "price": 6
+            },
+            {
+              "id": "sauce",
+              "name": "صلصة إضافية",
+              "price": 3
+            },
+            {
+              "id": "bread",
+              "name": "خبز إضافي",
+              "price": 4
+            }
+          ]
+        },
+        {
+          "id": "croissant-lab-6",
+          "restaurantId": "croissant-lab",
+          "name": "آيس لاتيه",
+          "description": "لاتيه مثلج.",
+          "image": "https://images.unsplash.com/photo-1482049016688-2d3e1b311543?w=800&q=80",
+          "price": 17,
+          "rating": 4.4,
+          "calories": 120,
+          "protein": 4,
+          "carbs": 14,
+          "fat": 4,
+          "category": "menu",
+          "isPopular": false,
+          "isOffer": false,
+          "offerPrice": null,
+          "spicyOption": false,
+          "cashbackPercent": null,
+          "addons": [
+            {
+              "id": "fries",
+              "name": "بطاطس مقلية",
+              "price": 8
+            },
+            {
+              "id": "cola",
+              "name": "كولا",
+              "price": 6
+            },
+            {
+              "id": "sauce",
+              "name": "صلصة إضافية",
+              "price": 3
+            },
+            {
+              "id": "bread",
+              "name": "خبز إضافي",
+              "price": 4
+            }
+          ]
+        },
+        {
+          "id": "croissant-lab-7",
+          "restaurantId": "croissant-lab",
+          "name": "دونات محشية",
+          "description": "دونات كريمة.",
+          "image": "https://images.unsplash.com/photo-1484723091739-30a097e8f929?w=800&q=80",
+          "price": 12,
+          "rating": 4.1,
+          "calories": 340,
+          "protein": 4,
+          "carbs": 40,
+          "fat": 16,
+          "category": "offers",
+          "isPopular": false,
+          "isOffer": true,
+          "offerPrice": 10,
+          "spicyOption": false,
+          "cashbackPercent": null,
+          "addons": [
+            {
+              "id": "fries",
+              "name": "بطاطس مقلية",
+              "price": 8
+            },
+            {
+              "id": "cola",
+              "name": "كولا",
+              "price": 6
+            },
+            {
+              "id": "sauce",
+              "name": "صلصة إضافية",
+              "price": 3
+            },
+            {
+              "id": "bread",
+              "name": "خبز إضافي",
+              "price": 4
+            }
+          ]
+        },
+        {
+          "id": "croissant-lab-8",
+          "restaurantId": "croissant-lab",
+          "name": "مافن توت",
+          "description": "مافن بالتوت الأزرق.",
+          "image": "https://images.unsplash.com/photo-1506084868230-bb9d95c24759?w=800&q=80",
+          "price": 13,
+          "rating": 4.6,
+          "calories": 300,
+          "protein": 4,
+          "carbs": 38,
+          "fat": 12,
+          "category": "popular",
+          "isPopular": true,
+          "isOffer": false,
+          "offerPrice": null,
+          "spicyOption": false,
+          "cashbackPercent": null,
+          "addons": [
+            {
+              "id": "fries",
+              "name": "بطاطس مقلية",
+              "price": 8
+            },
+            {
+              "id": "cola",
+              "name": "كولا",
+              "price": 6
+            },
+            {
+              "id": "sauce",
+              "name": "صلصة إضافية",
+              "price": 3
+            },
+            {
+              "id": "bread",
+              "name": "خبز إضافي",
+              "price": 4
+            }
+          ]
+        },
+        {
+          "id": "croissant-lab-9",
+          "restaurantId": "croissant-lab",
+          "name": "فطور إنجليزي خفيف",
+          "description": "بيض وتوست وفطر.",
+          "image": "https://images.unsplash.com/photo-1568901346375-23c9450c58cd?w=800&q=80",
+          "price": 32,
+          "rating": 4.2,
+          "calories": 420,
+          "protein": 22,
+          "carbs": 28,
+          "fat": 20,
+          "category": "offers",
+          "isPopular": false,
+          "isOffer": true,
+          "offerPrice": 28,
+          "spicyOption": false,
+          "cashbackPercent": null,
+          "addons": [
+            {
+              "id": "fries",
+              "name": "بطاطس مقلية",
+              "price": 8
+            },
+            {
+              "id": "cola",
+              "name": "كولا",
+              "price": 6
+            },
+            {
+              "id": "sauce",
+              "name": "صلصة إضافية",
+              "price": 3
+            },
+            {
+              "id": "bread",
+              "name": "خبز إضافي",
+              "price": 4
+            }
+          ]
+        },
+        {
+          "id": "croissant-lab-10",
+          "restaurantId": "croissant-lab",
+          "name": "شاي كرك",
+          "description": "شاي حليب بالهارات.",
+          "image": "https://images.unsplash.com/photo-1572490122747-3968b75cc699?w=800&q=80",
+          "price": 10,
+          "rating": 4.3,
+          "calories": 90,
+          "protein": 2,
+          "carbs": 12,
+          "fat": 3,
+          "category": "popular",
+          "isPopular": true,
+          "isOffer": false,
+          "offerPrice": null,
+          "spicyOption": false,
+          "cashbackPercent": null,
+          "addons": [
+            {
+              "id": "fries",
+              "name": "بطاطس مقلية",
+              "price": 8
+            },
+            {
+              "id": "cola",
+              "name": "كولا",
+              "price": 6
+            },
+            {
+              "id": "sauce",
+              "name": "صلصة إضافية",
+              "price": 3
+            },
+            {
+              "id": "bread",
+              "name": "خبز إضافي",
+              "price": 4
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "latte-lane",
+      "name": "زقاق اللاتيه",
+      "image": "https://images.unsplash.com/photo-1513104890138-7c749659a591?w=800&q=80",
+      "rating": 4.9,
+      "cuisine": "حلويات",
+      "deliveryTime": "40–55 د",
+      "deliveryFee": 0,
+      "minOrder": 50,
+      "distanceKm": 3.9,
+      "verified": true,
+      "tags": [
+        "كافيه",
+        "مخبوزات"
+      ],
+      "featured": null,
+      "open24h": null,
+      "fastDelivery": true,
+      "meals": [
+        {
+          "id": "latte-lane-1",
+          "restaurantId": "latte-lane",
+          "name": "كرواسون زبدة",
+          "description": "كرواسون فرنسي طازج.",
+          "image": "https://images.unsplash.com/photo-1552566626-52f8b828add9?w=800&q=80",
+          "price": 14,
+          "rating": 4.7,
+          "calories": 320,
+          "protein": 6,
+          "carbs": 32,
+          "fat": 18,
+          "category": "menu",
+          "isPopular": false,
+          "isOffer": false,
+          "offerPrice": null,
+          "spicyOption": false,
+          "cashbackPercent": null,
+          "addons": [
+            {
+              "id": "fries",
+              "name": "بطاطس مقلية",
+              "price": 8
+            },
+            {
+              "id": "cola",
+              "name": "كولا",
+              "price": 6
+            },
+            {
+              "id": "sauce",
+              "name": "صلصة إضافية",
+              "price": 3
+            },
+            {
+              "id": "bread",
+              "name": "خبز إضافي",
+              "price": 4
+            }
+          ]
+        },
+        {
+          "id": "latte-lane-2",
+          "restaurantId": "latte-lane",
+          "name": "لاتيه",
+          "description": "قهوة حليب مخملية.",
+          "image": "https://images.unsplash.com/photo-1512058564366-18510be2db19?w=800&q=80",
+          "price": 16,
+          "rating": 4.6,
+          "calories": 140,
+          "protein": 6,
+          "carbs": 12,
+          "fat": 6,
+          "category": "offers",
+          "isPopular": false,
+          "isOffer": true,
+          "offerPrice": 13,
+          "spicyOption": false,
+          "cashbackPercent": 5,
+          "addons": [
+            {
+              "id": "fries",
+              "name": "بطاطس مقلية",
+              "price": 8
+            },
+            {
+              "id": "cola",
+              "name": "كولا",
+              "price": 6
+            },
+            {
+              "id": "sauce",
+              "name": "صلصة إضافية",
+              "price": 3
+            },
+            {
+              "id": "bread",
+              "name": "خبز إضافي",
+              "price": 4
+            }
+          ]
+        },
+        {
+          "id": "latte-lane-3",
+          "restaurantId": "latte-lane",
+          "name": "سينابون",
+          "description": "لفائف قرفة مع صوص.",
+          "image": "https://images.unsplash.com/photo-1559847844-5315695dadae?w=800&q=80",
+          "price": 22,
+          "rating": 4.3,
+          "calories": 480,
+          "protein": 6,
+          "carbs": 58,
+          "fat": 20,
+          "category": "offers",
+          "isPopular": false,
+          "isOffer": true,
+          "offerPrice": 19,
+          "spicyOption": false,
+          "cashbackPercent": null,
+          "addons": [
+            {
+              "id": "fries",
+              "name": "بطاطس مقلية",
+              "price": 8
+            },
+            {
+              "id": "cola",
+              "name": "كولا",
+              "price": 6
+            },
+            {
+              "id": "sauce",
+              "name": "صلصة إضافية",
+              "price": 3
+            },
+            {
+              "id": "bread",
+              "name": "خبز إضافي",
+              "price": 4
+            }
+          ]
+        },
+        {
+          "id": "latte-lane-4",
+          "restaurantId": "latte-lane",
+          "name": "توست أفوكادو",
+          "description": "خبز محمص مع أفوكادو.",
+          "image": "https://images.unsplash.com/photo-1529006557810-274b9b2fc783?w=800&q=80",
+          "price": 24,
+          "rating": 4.6,
+          "calories": 360,
+          "protein": 10,
+          "carbs": 28,
+          "fat": 20,
+          "category": "popular",
+          "isPopular": true,
+          "isOffer": false,
+          "offerPrice": null,
+          "spicyOption": false,
+          "cashbackPercent": null,
+          "addons": [
+            {
+              "id": "fries",
+              "name": "بطاطس مقلية",
+              "price": 8
+            },
+            {
+              "id": "cola",
+              "name": "كولا",
+              "price": 6
+            },
+            {
+              "id": "sauce",
+              "name": "صلصة إضافية",
+              "price": 3
+            },
+            {
+              "id": "bread",
+              "name": "خبز إضافي",
+              "price": 4
+            }
+          ]
+        },
+        {
+          "id": "latte-lane-5",
+          "restaurantId": "latte-lane",
+          "name": "كيكة فانيلا",
+          "description": "شريحة كيك فانيلا.",
+          "image": "https://images.unsplash.com/photo-1476224203421-9ac39bcb3327?w=800&q=80",
+          "price": 18,
+          "rating": 4.8,
+          "calories": 380,
+          "protein": 4,
+          "carbs": 42,
+          "fat": 18,
+          "category": "popular",
+          "isPopular": true,
+          "isOffer": false,
+          "offerPrice": null,
+          "spicyOption": false,
+          "cashbackPercent": null,
+          "addons": [
+            {
+              "id": "fries",
+              "name": "بطاطس مقلية",
+              "price": 8
+            },
+            {
+              "id": "cola",
+              "name": "كولا",
+              "price": 6
+            },
+            {
+              "id": "sauce",
+              "name": "صلصة إضافية",
+              "price": 3
+            },
+            {
+              "id": "bread",
+              "name": "خبز إضافي",
+              "price": 4
+            }
+          ]
+        },
+        {
+          "id": "latte-lane-6",
+          "restaurantId": "latte-lane",
+          "name": "آيس لاتيه",
+          "description": "لاتيه مثلج.",
+          "image": "https://images.unsplash.com/photo-1455619452474-d2be8b1e70cd?w=800&q=80",
+          "price": 17,
+          "rating": 4.3,
+          "calories": 120,
+          "protein": 4,
+          "carbs": 14,
+          "fat": 4,
+          "category": "popular",
+          "isPopular": true,
+          "isOffer": false,
+          "offerPrice": null,
+          "spicyOption": false,
+          "cashbackPercent": null,
+          "addons": [
+            {
+              "id": "fries",
+              "name": "بطاطس مقلية",
+              "price": 8
+            },
+            {
+              "id": "cola",
+              "name": "كولا",
+              "price": 6
+            },
+            {
+              "id": "sauce",
+              "name": "صلصة إضافية",
+              "price": 3
+            },
+            {
+              "id": "bread",
+              "name": "خبز إضافي",
+              "price": 4
+            }
+          ]
+        },
+        {
+          "id": "latte-lane-7",
+          "restaurantId": "latte-lane",
+          "name": "دونات محشية",
+          "description": "دونات كريمة.",
+          "image": "https://images.unsplash.com/photo-1455619452474-d2be8b1e70cd?w=800&q=80",
+          "price": 12,
+          "rating": 4.3,
+          "calories": 340,
+          "protein": 4,
+          "carbs": 40,
+          "fat": 16,
+          "category": "popular",
+          "isPopular": true,
+          "isOffer": false,
+          "offerPrice": null,
+          "spicyOption": false,
+          "cashbackPercent": null,
+          "addons": [
+            {
+              "id": "fries",
+              "name": "بطاطس مقلية",
+              "price": 8
+            },
+            {
+              "id": "cola",
+              "name": "كولا",
+              "price": 6
+            },
+            {
+              "id": "sauce",
+              "name": "صلصة إضافية",
+              "price": 3
+            },
+            {
+              "id": "bread",
+              "name": "خبز إضافي",
+              "price": 4
+            }
+          ]
+        },
+        {
+          "id": "latte-lane-8",
+          "restaurantId": "latte-lane",
+          "name": "مافن توت",
+          "description": "مافن بالتوت الأزرق.",
+          "image": "https://images.unsplash.com/photo-1573080496219-bb080dd4f877?w=800&q=80",
+          "price": 13,
+          "rating": 4.6,
+          "calories": 300,
+          "protein": 4,
+          "carbs": 38,
+          "fat": 12,
+          "category": "popular",
+          "isPopular": true,
+          "isOffer": false,
+          "offerPrice": null,
+          "spicyOption": false,
+          "cashbackPercent": null,
+          "addons": [
+            {
+              "id": "fries",
+              "name": "بطاطس مقلية",
+              "price": 8
+            },
+            {
+              "id": "cola",
+              "name": "كولا",
+              "price": 6
+            },
+            {
+              "id": "sauce",
+              "name": "صلصة إضافية",
+              "price": 3
+            },
+            {
+              "id": "bread",
+              "name": "خبز إضافي",
+              "price": 4
+            }
+          ]
+        },
+        {
+          "id": "latte-lane-9",
+          "restaurantId": "latte-lane",
+          "name": "فطور إنجليزي خفيف",
+          "description": "بيض وتوست وفطر.",
+          "image": "https://images.unsplash.com/photo-1626082927389-6cd097cdc6ec?w=800&q=80",
+          "price": 32,
+          "rating": 4.4,
+          "calories": 420,
+          "protein": 22,
+          "carbs": 28,
+          "fat": 20,
+          "category": "offers",
+          "isPopular": false,
+          "isOffer": true,
+          "offerPrice": 29,
+          "spicyOption": false,
+          "cashbackPercent": null,
+          "addons": [
+            {
+              "id": "fries",
+              "name": "بطاطس مقلية",
+              "price": 8
+            },
+            {
+              "id": "cola",
+              "name": "كولا",
+              "price": 6
+            },
+            {
+              "id": "sauce",
+              "name": "صلصة إضافية",
+              "price": 3
+            },
+            {
+              "id": "bread",
+              "name": "خبز إضافي",
+              "price": 4
+            }
+          ]
+        },
+        {
+          "id": "latte-lane-10",
+          "restaurantId": "latte-lane",
+          "name": "شاي كرك",
+          "description": "شاي حليب بالهارات.",
+          "image": "https://images.unsplash.com/photo-1529006557810-274b9b2fc783?w=800&q=80",
+          "price": 10,
+          "rating": 4.3,
+          "calories": 90,
+          "protein": 2,
+          "carbs": 12,
+          "fat": 3,
+          "category": "menu",
+          "isPopular": false,
+          "isOffer": false,
+          "offerPrice": null,
+          "spicyOption": false,
+          "cashbackPercent": null,
+          "addons": [
+            {
+              "id": "fries",
+              "name": "بطاطس مقلية",
+              "price": 8
+            },
+            {
+              "id": "cola",
+              "name": "كولا",
+              "price": 6
+            },
+            {
+              "id": "sauce",
+              "name": "صلصة إضافية",
+              "price": 3
+            },
+            {
+              "id": "bread",
+              "name": "خبز إضافي",
+              "price": 4
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "oven-morning",
+      "name": "فرن الصباح",
+      "image": "https://images.unsplash.com/photo-1455619452474-d2be8b1e70cd?w=800&q=80",
+      "rating": 4.4,
+      "cuisine": "حلويات",
+      "deliveryTime": "40–55 د",
+      "deliveryFee": 12,
+      "minOrder": 30,
+      "distanceKm": 2.2,
+      "verified": true,
+      "tags": [
+        "كافيه",
+        "مخبوزات"
+      ],
+      "featured": null,
+      "open24h": null,
+      "fastDelivery": null,
+      "meals": [
+        {
+          "id": "oven-morning-1",
+          "restaurantId": "oven-morning",
+          "name": "كرواسون زبدة",
+          "description": "كرواسون فرنسي طازج.",
+          "image": "https://images.unsplash.com/photo-1551183053-bf91a1d81141?w=800&q=80",
+          "price": 14,
+          "rating": 4.2,
+          "calories": 320,
+          "protein": 6,
+          "carbs": 32,
+          "fat": 18,
+          "category": "offers",
+          "isPopular": false,
+          "isOffer": true,
+          "offerPrice": 12,
+          "spicyOption": false,
+          "cashbackPercent": null,
+          "addons": [
+            {
+              "id": "fries",
+              "name": "بطاطس مقلية",
+              "price": 8
+            },
+            {
+              "id": "cola",
+              "name": "كولا",
+              "price": 6
+            },
+            {
+              "id": "sauce",
+              "name": "صلصة إضافية",
+              "price": 3
+            },
+            {
+              "id": "bread",
+              "name": "خبز إضافي",
+              "price": 4
+            }
+          ]
+        },
+        {
+          "id": "oven-morning-2",
+          "restaurantId": "oven-morning",
+          "name": "لاتيه",
+          "description": "قهوة حليب مخملية.",
+          "image": "https://images.unsplash.com/photo-1573080496219-bb080dd4f877?w=800&q=80",
+          "price": 16,
+          "rating": 4.2,
+          "calories": 140,
+          "protein": 6,
+          "carbs": 12,
+          "fat": 6,
+          "category": "menu",
+          "isPopular": false,
+          "isOffer": false,
+          "offerPrice": null,
+          "spicyOption": false,
+          "cashbackPercent": null,
+          "addons": [
+            {
+              "id": "fries",
+              "name": "بطاطس مقلية",
+              "price": 8
+            },
+            {
+              "id": "cola",
+              "name": "كولا",
+              "price": 6
+            },
+            {
+              "id": "sauce",
+              "name": "صلصة إضافية",
+              "price": 3
+            },
+            {
+              "id": "bread",
+              "name": "خبز إضافي",
+              "price": 4
+            }
+          ]
+        },
+        {
+          "id": "oven-morning-3",
+          "restaurantId": "oven-morning",
+          "name": "سينابون",
+          "description": "لفائف قرفة مع صوص.",
+          "image": "https://images.unsplash.com/photo-1519676867240-f03562e64548?w=800&q=80",
+          "price": 22,
+          "rating": 4.3,
+          "calories": 480,
+          "protein": 6,
+          "carbs": 58,
+          "fat": 20,
+          "category": "offers",
+          "isPopular": false,
+          "isOffer": true,
+          "offerPrice": 19,
+          "spicyOption": false,
+          "cashbackPercent": 15,
+          "addons": [
+            {
+              "id": "fries",
+              "name": "بطاطس مقلية",
+              "price": 8
+            },
+            {
+              "id": "cola",
+              "name": "كولا",
+              "price": 6
+            },
+            {
+              "id": "sauce",
+              "name": "صلصة إضافية",
+              "price": 3
+            },
+            {
+              "id": "bread",
+              "name": "خبز إضافي",
+              "price": 4
+            }
+          ]
+        },
+        {
+          "id": "oven-morning-4",
+          "restaurantId": "oven-morning",
+          "name": "توست أفوكادو",
+          "description": "خبز محمص مع أفوكادو.",
+          "image": "https://images.unsplash.com/photo-1498837167922-ddd27525d352?w=800&q=80",
+          "price": 24,
+          "rating": 4.7,
+          "calories": 360,
+          "protein": 10,
+          "carbs": 28,
+          "fat": 20,
+          "category": "menu",
+          "isPopular": false,
+          "isOffer": false,
+          "offerPrice": null,
+          "spicyOption": false,
+          "cashbackPercent": null,
+          "addons": [
+            {
+              "id": "fries",
+              "name": "بطاطس مقلية",
+              "price": 8
+            },
+            {
+              "id": "cola",
+              "name": "كولا",
+              "price": 6
+            },
+            {
+              "id": "sauce",
+              "name": "صلصة إضافية",
+              "price": 3
+            },
+            {
+              "id": "bread",
+              "name": "خبز إضافي",
+              "price": 4
+            }
+          ]
+        },
+        {
+          "id": "oven-morning-5",
+          "restaurantId": "oven-morning",
+          "name": "كيكة فانيلا",
+          "description": "شريحة كيك فانيلا.",
+          "image": "https://images.unsplash.com/photo-1582878826629-29b7ad1cdc43?w=800&q=80",
+          "price": 18,
+          "rating": 4.7,
+          "calories": 380,
+          "protein": 4,
+          "carbs": 42,
+          "fat": 18,
+          "category": "menu",
+          "isPopular": false,
+          "isOffer": false,
+          "offerPrice": null,
+          "spicyOption": false,
+          "cashbackPercent": null,
+          "addons": [
+            {
+              "id": "fries",
+              "name": "بطاطس مقلية",
+              "price": 8
+            },
+            {
+              "id": "cola",
+              "name": "كولا",
+              "price": 6
+            },
+            {
+              "id": "sauce",
+              "name": "صلصة إضافية",
+              "price": 3
+            },
+            {
+              "id": "bread",
+              "name": "خبز إضافي",
+              "price": 4
+            }
+          ]
+        },
+        {
+          "id": "oven-morning-6",
+          "restaurantId": "oven-morning",
+          "name": "آيس لاتيه",
+          "description": "لاتيه مثلج.",
+          "image": "https://images.unsplash.com/photo-1606313564200-e75d5e30476c?w=800&q=80",
+          "price": 17,
+          "rating": 4.9,
+          "calories": 120,
+          "protein": 4,
+          "carbs": 14,
+          "fat": 4,
+          "category": "menu",
+          "isPopular": false,
+          "isOffer": false,
+          "offerPrice": null,
+          "spicyOption": false,
+          "cashbackPercent": null,
+          "addons": [
+            {
+              "id": "fries",
+              "name": "بطاطس مقلية",
+              "price": 8
+            },
+            {
+              "id": "cola",
+              "name": "كولا",
+              "price": 6
+            },
+            {
+              "id": "sauce",
+              "name": "صلصة إضافية",
+              "price": 3
+            },
+            {
+              "id": "bread",
+              "name": "خبز إضافي",
+              "price": 4
+            }
+          ]
+        },
+        {
+          "id": "oven-morning-7",
+          "restaurantId": "oven-morning",
+          "name": "دونات محشية",
+          "description": "دونات كريمة.",
+          "image": "https://images.unsplash.com/photo-1544025162-d76694265947?w=800&q=80",
+          "price": 12,
+          "rating": 4.7,
+          "calories": 340,
+          "protein": 4,
+          "carbs": 40,
+          "fat": 16,
+          "category": "menu",
+          "isPopular": false,
+          "isOffer": false,
+          "offerPrice": null,
+          "spicyOption": false,
+          "cashbackPercent": null,
+          "addons": [
+            {
+              "id": "fries",
+              "name": "بطاطس مقلية",
+              "price": 8
+            },
+            {
+              "id": "cola",
+              "name": "كولا",
+              "price": 6
+            },
+            {
+              "id": "sauce",
+              "name": "صلصة إضافية",
+              "price": 3
+            },
+            {
+              "id": "bread",
+              "name": "خبز إضافي",
+              "price": 4
+            }
+          ]
+        },
+        {
+          "id": "oven-morning-8",
+          "restaurantId": "oven-morning",
+          "name": "مافن توت",
+          "description": "مافن بالتوت الأزرق.",
+          "image": "https://images.unsplash.com/photo-1455619452474-d2be8b1e70cd?w=800&q=80",
+          "price": 13,
+          "rating": 4.3,
+          "calories": 300,
+          "protein": 4,
+          "carbs": 38,
+          "fat": 12,
+          "category": "popular",
+          "isPopular": true,
+          "isOffer": false,
+          "offerPrice": null,
+          "spicyOption": false,
+          "cashbackPercent": null,
+          "addons": [
+            {
+              "id": "fries",
+              "name": "بطاطس مقلية",
+              "price": 8
+            },
+            {
+              "id": "cola",
+              "name": "كولا",
+              "price": 6
+            },
+            {
+              "id": "sauce",
+              "name": "صلصة إضافية",
+              "price": 3
+            },
+            {
+              "id": "bread",
+              "name": "خبز إضافي",
+              "price": 4
+            }
+          ]
+        },
+        {
+          "id": "oven-morning-9",
+          "restaurantId": "oven-morning",
+          "name": "فطور إنجليزي خفيف",
+          "description": "بيض وتوست وفطر.",
+          "image": "https://images.unsplash.com/photo-1611143669185-af224c5e3252?w=800&q=80",
+          "price": 32,
+          "rating": 4.5,
+          "calories": 420,
+          "protein": 22,
+          "carbs": 28,
+          "fat": 20,
+          "category": "popular",
+          "isPopular": true,
+          "isOffer": false,
+          "offerPrice": null,
+          "spicyOption": false,
+          "cashbackPercent": null,
+          "addons": [
+            {
+              "id": "fries",
+              "name": "بطاطس مقلية",
+              "price": 8
+            },
+            {
+              "id": "cola",
+              "name": "كولا",
+              "price": 6
+            },
+            {
+              "id": "sauce",
+              "name": "صلصة إضافية",
+              "price": 3
+            },
+            {
+              "id": "bread",
+              "name": "خبز إضافي",
+              "price": 4
+            }
+          ]
+        },
+        {
+          "id": "oven-morning-10",
+          "restaurantId": "oven-morning",
+          "name": "شاي كرك",
+          "description": "شاي حليب بالهارات.",
+          "image": "https://images.unsplash.com/photo-1504674900247-0877df9cc836?w=800&q=80",
+          "price": 10,
+          "rating": 4.2,
+          "calories": 90,
+          "protein": 2,
+          "carbs": 12,
+          "fat": 3,
+          "category": "popular",
+          "isPopular": true,
+          "isOffer": false,
+          "offerPrice": null,
+          "spicyOption": false,
+          "cashbackPercent": null,
+          "addons": [
+            {
+              "id": "fries",
+              "name": "بطاطس مقلية",
+              "price": 8
+            },
+            {
+              "id": "cola",
+              "name": "كولا",
+              "price": 6
+            },
+            {
+              "id": "sauce",
+              "name": "صلصة إضافية",
+              "price": 3
+            },
+            {
+              "id": "bread",
+              "name": "خبز إضافي",
+              "price": 4
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "berry-bake",
+      "name": "توت المخبز",
+      "image": "https://images.unsplash.com/photo-1569718212165-3a8278d5f624?w=800&q=80",
+      "rating": 4.7,
+      "cuisine": "حلويات",
+      "deliveryTime": "25–35 د",
+      "deliveryFee": 6,
+      "minOrder": 35,
+      "distanceKm": 1.1,
+      "verified": true,
+      "tags": [
+        "كافيه",
+        "مخبوزات"
+      ],
+      "featured": null,
+      "open24h": null,
+      "fastDelivery": true,
+      "meals": [
+        {
+          "id": "berry-bake-1",
+          "restaurantId": "berry-bake",
+          "name": "كرواسون زبدة",
+          "description": "كرواسون فرنسي طازج.",
+          "image": "https://images.unsplash.com/photo-1517248135467-4c7edcad34c4?w=800&q=80",
+          "price": 14,
+          "rating": 4.4,
+          "calories": 320,
+          "protein": 6,
+          "carbs": 32,
+          "fat": 18,
+          "category": "menu",
+          "isPopular": false,
+          "isOffer": false,
+          "offerPrice": null,
+          "spicyOption": false,
+          "cashbackPercent": null,
+          "addons": [
+            {
+              "id": "fries",
+              "name": "بطاطس مقلية",
+              "price": 8
+            },
+            {
+              "id": "cola",
+              "name": "كولا",
+              "price": 6
+            },
+            {
+              "id": "sauce",
+              "name": "صلصة إضافية",
+              "price": 3
+            },
+            {
+              "id": "bread",
+              "name": "خبز إضافي",
+              "price": 4
+            }
+          ]
+        },
+        {
+          "id": "berry-bake-2",
+          "restaurantId": "berry-bake",
+          "name": "لاتيه",
+          "description": "قهوة حليب مخملية.",
+          "image": "https://images.unsplash.com/photo-1573080496219-bb080dd4f877?w=800&q=80",
+          "price": 16,
+          "rating": 4.7,
+          "calories": 140,
+          "protein": 6,
+          "carbs": 12,
+          "fat": 6,
+          "category": "popular",
+          "isPopular": true,
+          "isOffer": false,
+          "offerPrice": null,
+          "spicyOption": false,
+          "cashbackPercent": null,
+          "addons": [
+            {
+              "id": "fries",
+              "name": "بطاطس مقلية",
+              "price": 8
+            },
+            {
+              "id": "cola",
+              "name": "كولا",
+              "price": 6
+            },
+            {
+              "id": "sauce",
+              "name": "صلصة إضافية",
+              "price": 3
+            },
+            {
+              "id": "bread",
+              "name": "خبز إضافي",
+              "price": 4
+            }
+          ]
+        },
+        {
+          "id": "berry-bake-3",
+          "restaurantId": "berry-bake",
+          "name": "سينابون",
+          "description": "لفائف قرفة مع صوص.",
+          "image": "https://images.unsplash.com/photo-1572490122747-3968b75cc699?w=800&q=80",
+          "price": 22,
+          "rating": 4.4,
+          "calories": 480,
+          "protein": 6,
+          "carbs": 58,
+          "fat": 20,
+          "category": "offers",
+          "isPopular": false,
+          "isOffer": true,
+          "offerPrice": 18,
+          "spicyOption": false,
+          "cashbackPercent": 5,
+          "addons": [
+            {
+              "id": "fries",
+              "name": "بطاطس مقلية",
+              "price": 8
+            },
+            {
+              "id": "cola",
+              "name": "كولا",
+              "price": 6
+            },
+            {
+              "id": "sauce",
+              "name": "صلصة إضافية",
+              "price": 3
+            },
+            {
+              "id": "bread",
+              "name": "خبز إضافي",
+              "price": 4
+            }
+          ]
+        },
+        {
+          "id": "berry-bake-4",
+          "restaurantId": "berry-bake",
+          "name": "توست أفوكادو",
+          "description": "خبز محمص مع أفوكادو.",
+          "image": "https://images.unsplash.com/photo-1542838132-92c53300491e?w=800&q=80",
+          "price": 24,
+          "rating": 4.4,
+          "calories": 360,
+          "protein": 10,
+          "carbs": 28,
+          "fat": 20,
+          "category": "popular",
+          "isPopular": true,
+          "isOffer": false,
+          "offerPrice": null,
+          "spicyOption": false,
+          "cashbackPercent": null,
+          "addons": [
+            {
+              "id": "fries",
+              "name": "بطاطس مقلية",
+              "price": 8
+            },
+            {
+              "id": "cola",
+              "name": "كولا",
+              "price": 6
+            },
+            {
+              "id": "sauce",
+              "name": "صلصة إضافية",
+              "price": 3
+            },
+            {
+              "id": "bread",
+              "name": "خبز إضافي",
+              "price": 4
+            }
+          ]
+        },
+        {
+          "id": "berry-bake-5",
+          "restaurantId": "berry-bake",
+          "name": "كيكة فانيلا",
+          "description": "شريحة كيك فانيلا.",
+          "image": "https://images.unsplash.com/photo-1540189549336-e6e99c3679fe?w=800&q=80",
+          "price": 18,
+          "rating": 4.3,
+          "calories": 380,
+          "protein": 4,
+          "carbs": 42,
+          "fat": 18,
+          "category": "offers",
+          "isPopular": false,
+          "isOffer": true,
+          "offerPrice": 14,
+          "spicyOption": false,
+          "cashbackPercent": 15,
+          "addons": [
+            {
+              "id": "fries",
+              "name": "بطاطس مقلية",
+              "price": 8
+            },
+            {
+              "id": "cola",
+              "name": "كولا",
+              "price": 6
+            },
+            {
+              "id": "sauce",
+              "name": "صلصة إضافية",
+              "price": 3
+            },
+            {
+              "id": "bread",
+              "name": "خبز إضافي",
+              "price": 4
+            }
+          ]
+        },
+        {
+          "id": "berry-bake-6",
+          "restaurantId": "berry-bake",
+          "name": "آيس لاتيه",
+          "description": "لاتيه مثلج.",
+          "image": "https://images.unsplash.com/photo-1578985545062-69928b1d9587?w=800&q=80",
+          "price": 17,
+          "rating": 4.5,
+          "calories": 120,
+          "protein": 4,
+          "carbs": 14,
+          "fat": 4,
+          "category": "menu",
+          "isPopular": false,
+          "isOffer": false,
+          "offerPrice": null,
+          "spicyOption": false,
+          "cashbackPercent": null,
+          "addons": [
+            {
+              "id": "fries",
+              "name": "بطاطس مقلية",
+              "price": 8
+            },
+            {
+              "id": "cola",
+              "name": "كولا",
+              "price": 6
+            },
+            {
+              "id": "sauce",
+              "name": "صلصة إضافية",
+              "price": 3
+            },
+            {
+              "id": "bread",
+              "name": "خبز إضافي",
+              "price": 4
+            }
+          ]
+        },
+        {
+          "id": "berry-bake-7",
+          "restaurantId": "berry-bake",
+          "name": "دونات محشية",
+          "description": "دونات كريمة.",
+          "image": "https://images.unsplash.com/photo-1455619452474-d2be8b1e70cd?w=800&q=80",
+          "price": 12,
+          "rating": 4.7,
+          "calories": 340,
+          "protein": 4,
+          "carbs": 40,
+          "fat": 16,
+          "category": "menu",
+          "isPopular": false,
+          "isOffer": false,
+          "offerPrice": null,
+          "spicyOption": false,
+          "cashbackPercent": null,
+          "addons": [
+            {
+              "id": "fries",
+              "name": "بطاطس مقلية",
+              "price": 8
+            },
+            {
+              "id": "cola",
+              "name": "كولا",
+              "price": 6
+            },
+            {
+              "id": "sauce",
+              "name": "صلصة إضافية",
+              "price": 3
+            },
+            {
+              "id": "bread",
+              "name": "خبز إضافي",
+              "price": 4
+            }
+          ]
+        },
+        {
+          "id": "berry-bake-8",
+          "restaurantId": "berry-bake",
+          "name": "مافن توت",
+          "description": "مافن بالتوت الأزرق.",
+          "image": "https://images.unsplash.com/photo-1573080496219-bb080dd4f877?w=800&q=80",
+          "price": 13,
+          "rating": 4.4,
+          "calories": 300,
+          "protein": 4,
+          "carbs": 38,
+          "fat": 12,
+          "category": "popular",
+          "isPopular": true,
+          "isOffer": false,
+          "offerPrice": null,
+          "spicyOption": false,
+          "cashbackPercent": null,
+          "addons": [
+            {
+              "id": "fries",
+              "name": "بطاطس مقلية",
+              "price": 8
+            },
+            {
+              "id": "cola",
+              "name": "كولا",
+              "price": 6
+            },
+            {
+              "id": "sauce",
+              "name": "صلصة إضافية",
+              "price": 3
+            },
+            {
+              "id": "bread",
+              "name": "خبز إضافي",
+              "price": 4
+            }
+          ]
+        },
+        {
+          "id": "berry-bake-9",
+          "restaurantId": "berry-bake",
+          "name": "فطور إنجليزي خفيف",
+          "description": "بيض وتوست وفطر.",
+          "image": "https://images.unsplash.com/photo-1504674900247-0877df9cc836?w=800&q=80",
+          "price": 32,
+          "rating": 4.2,
+          "calories": 420,
+          "protein": 22,
+          "carbs": 28,
+          "fat": 20,
+          "category": "popular",
+          "isPopular": true,
+          "isOffer": false,
+          "offerPrice": null,
+          "spicyOption": false,
+          "cashbackPercent": null,
+          "addons": [
+            {
+              "id": "fries",
+              "name": "بطاطس مقلية",
+              "price": 8
+            },
+            {
+              "id": "cola",
+              "name": "كولا",
+              "price": 6
+            },
+            {
+              "id": "sauce",
+              "name": "صلصة إضافية",
+              "price": 3
+            },
+            {
+              "id": "bread",
+              "name": "خبز إضافي",
+              "price": 4
+            }
+          ]
+        },
+        {
+          "id": "berry-bake-10",
+          "restaurantId": "berry-bake",
+          "name": "شاي كرك",
+          "description": "شاي حليب بالهارات.",
+          "image": "https://images.unsplash.com/photo-1512058564366-18510be2db19?w=800&q=80",
+          "price": 10,
+          "rating": 4.3,
+          "calories": 90,
+          "protein": 2,
+          "carbs": 12,
+          "fat": 3,
+          "category": "popular",
+          "isPopular": true,
+          "isOffer": false,
+          "offerPrice": null,
+          "spicyOption": false,
+          "cashbackPercent": null,
+          "addons": [
+            {
+              "id": "fries",
+              "name": "بطاطس مقلية",
+              "price": 8
+            },
+            {
+              "id": "cola",
+              "name": "كولا",
+              "price": 6
+            },
+            {
+              "id": "sauce",
+              "name": "صلصة إضافية",
+              "price": 3
+            },
+            {
+              "id": "bread",
+              "name": "خبز إضافي",
+              "price": 4
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "cardamom-cafe",
+      "name": "كافيه الهيل",
+      "image": "https://images.unsplash.com/photo-1604908176997-125f25cc6f3d?w=800&q=80",
+      "rating": 4.4,
+      "cuisine": "حلويات",
+      "deliveryTime": "40–55 د",
+      "deliveryFee": 12,
+      "minOrder": 40,
+      "distanceKm": 2.2,
+      "verified": true,
+      "tags": [
+        "كافيه",
+        "مخبوزات"
+      ],
+      "featured": null,
+      "open24h": null,
+      "fastDelivery": true,
+      "meals": [
+        {
+          "id": "cardamom-cafe-1",
+          "restaurantId": "cardamom-cafe",
+          "name": "كرواسون زبدة",
+          "description": "كرواسون فرنسي طازج.",
+          "image": "https://images.unsplash.com/photo-1490645935967-10de6ba17061?w=800&q=80",
+          "price": 14,
+          "rating": 4.3,
+          "calories": 320,
+          "protein": 6,
+          "carbs": 32,
+          "fat": 18,
+          "category": "offers",
+          "isPopular": false,
+          "isOffer": true,
+          "offerPrice": 11,
+          "spicyOption": false,
+          "cashbackPercent": 15,
+          "addons": [
+            {
+              "id": "fries",
+              "name": "بطاطس مقلية",
+              "price": 8
+            },
+            {
+              "id": "cola",
+              "name": "كولا",
+              "price": 6
+            },
+            {
+              "id": "sauce",
+              "name": "صلصة إضافية",
+              "price": 3
+            },
+            {
+              "id": "bread",
+              "name": "خبز إضافي",
+              "price": 4
+            }
+          ]
+        },
+        {
+          "id": "cardamom-cafe-2",
+          "restaurantId": "cardamom-cafe",
+          "name": "لاتيه",
+          "description": "قهوة حليب مخملية.",
+          "image": "https://images.unsplash.com/photo-1598103442097-8b74394b95c6?w=800&q=80",
+          "price": 16,
+          "rating": 4.5,
+          "calories": 140,
+          "protein": 6,
+          "carbs": 12,
+          "fat": 6,
+          "category": "menu",
+          "isPopular": false,
+          "isOffer": false,
+          "offerPrice": null,
+          "spicyOption": false,
+          "cashbackPercent": null,
+          "addons": [
+            {
+              "id": "fries",
+              "name": "بطاطس مقلية",
+              "price": 8
+            },
+            {
+              "id": "cola",
+              "name": "كولا",
+              "price": 6
+            },
+            {
+              "id": "sauce",
+              "name": "صلصة إضافية",
+              "price": 3
+            },
+            {
+              "id": "bread",
+              "name": "خبز إضافي",
+              "price": 4
+            }
+          ]
+        },
+        {
+          "id": "cardamom-cafe-3",
+          "restaurantId": "cardamom-cafe",
+          "name": "سينابون",
+          "description": "لفائف قرفة مع صوص.",
+          "image": "https://images.unsplash.com/photo-1506084868230-bb9d95c24759?w=800&q=80",
+          "price": 22,
+          "rating": 4.6,
+          "calories": 480,
+          "protein": 6,
+          "carbs": 58,
+          "fat": 20,
+          "category": "menu",
+          "isPopular": false,
+          "isOffer": false,
+          "offerPrice": null,
+          "spicyOption": false,
+          "cashbackPercent": null,
+          "addons": [
+            {
+              "id": "fries",
+              "name": "بطاطس مقلية",
+              "price": 8
+            },
+            {
+              "id": "cola",
+              "name": "كولا",
+              "price": 6
+            },
+            {
+              "id": "sauce",
+              "name": "صلصة إضافية",
+              "price": 3
+            },
+            {
+              "id": "bread",
+              "name": "خبز إضافي",
+              "price": 4
+            }
+          ]
+        },
+        {
+          "id": "cardamom-cafe-4",
+          "restaurantId": "cardamom-cafe",
+          "name": "توست أفوكادو",
+          "description": "خبز محمص مع أفوكادو.",
+          "image": "https://images.unsplash.com/photo-1467003909585-2f8a72700288?w=800&q=80",
+          "price": 24,
+          "rating": 4.5,
+          "calories": 360,
+          "protein": 10,
+          "carbs": 28,
+          "fat": 20,
+          "category": "popular",
+          "isPopular": true,
+          "isOffer": false,
+          "offerPrice": null,
+          "spicyOption": false,
+          "cashbackPercent": null,
+          "addons": [
+            {
+              "id": "fries",
+              "name": "بطاطس مقلية",
+              "price": 8
+            },
+            {
+              "id": "cola",
+              "name": "كولا",
+              "price": 6
+            },
+            {
+              "id": "sauce",
+              "name": "صلصة إضافية",
+              "price": 3
+            },
+            {
+              "id": "bread",
+              "name": "خبز إضافي",
+              "price": 4
+            }
+          ]
+        },
+        {
+          "id": "cardamom-cafe-5",
+          "restaurantId": "cardamom-cafe",
+          "name": "كيكة فانيلا",
+          "description": "شريحة كيك فانيلا.",
+          "image": "https://images.unsplash.com/photo-1504674900247-0877df9cc836?w=800&q=80",
+          "price": 18,
+          "rating": 4.1,
+          "calories": 380,
+          "protein": 4,
+          "carbs": 42,
+          "fat": 18,
+          "category": "menu",
+          "isPopular": false,
+          "isOffer": false,
+          "offerPrice": null,
+          "spicyOption": false,
+          "cashbackPercent": null,
+          "addons": [
+            {
+              "id": "fries",
+              "name": "بطاطس مقلية",
+              "price": 8
+            },
+            {
+              "id": "cola",
+              "name": "كولا",
+              "price": 6
+            },
+            {
+              "id": "sauce",
+              "name": "صلصة إضافية",
+              "price": 3
+            },
+            {
+              "id": "bread",
+              "name": "خبز إضافي",
+              "price": 4
+            }
+          ]
+        },
+        {
+          "id": "cardamom-cafe-6",
+          "restaurantId": "cardamom-cafe",
+          "name": "آيس لاتيه",
+          "description": "لاتيه مثلج.",
+          "image": "https://images.unsplash.com/photo-1533134242443-d4fd215305ad?w=800&q=80",
+          "price": 17,
+          "rating": 4.2,
+          "calories": 120,
+          "protein": 4,
+          "carbs": 14,
+          "fat": 4,
+          "category": "menu",
+          "isPopular": false,
+          "isOffer": false,
+          "offerPrice": null,
+          "spicyOption": false,
+          "cashbackPercent": null,
+          "addons": [
+            {
+              "id": "fries",
+              "name": "بطاطس مقلية",
+              "price": 8
+            },
+            {
+              "id": "cola",
+              "name": "كولا",
+              "price": 6
+            },
+            {
+              "id": "sauce",
+              "name": "صلصة إضافية",
+              "price": 3
+            },
+            {
+              "id": "bread",
+              "name": "خبز إضافي",
+              "price": 4
+            }
+          ]
+        },
+        {
+          "id": "cardamom-cafe-7",
+          "restaurantId": "cardamom-cafe",
+          "name": "دونات محشية",
+          "description": "دونات كريمة.",
+          "image": "https://images.unsplash.com/photo-1611143669185-af224c5e3252?w=800&q=80",
+          "price": 12,
+          "rating": 4.6,
+          "calories": 340,
+          "protein": 4,
+          "carbs": 40,
+          "fat": 16,
+          "category": "menu",
+          "isPopular": false,
+          "isOffer": false,
+          "offerPrice": null,
+          "spicyOption": false,
+          "cashbackPercent": null,
+          "addons": [
+            {
+              "id": "fries",
+              "name": "بطاطس مقلية",
+              "price": 8
+            },
+            {
+              "id": "cola",
+              "name": "كولا",
+              "price": 6
+            },
+            {
+              "id": "sauce",
+              "name": "صلصة إضافية",
+              "price": 3
+            },
+            {
+              "id": "bread",
+              "name": "خبز إضافي",
+              "price": 4
+            }
+          ]
+        },
+        {
+          "id": "cardamom-cafe-8",
+          "restaurantId": "cardamom-cafe",
+          "name": "مافن توت",
+          "description": "مافن بالتوت الأزرق.",
+          "image": "https://images.unsplash.com/photo-1553979459-d2229ba7433b?w=800&q=80",
+          "price": 13,
+          "rating": 4.3,
+          "calories": 300,
+          "protein": 4,
+          "carbs": 38,
+          "fat": 12,
+          "category": "menu",
+          "isPopular": false,
+          "isOffer": false,
+          "offerPrice": null,
+          "spicyOption": false,
+          "cashbackPercent": null,
+          "addons": [
+            {
+              "id": "fries",
+              "name": "بطاطس مقلية",
+              "price": 8
+            },
+            {
+              "id": "cola",
+              "name": "كولا",
+              "price": 6
+            },
+            {
+              "id": "sauce",
+              "name": "صلصة إضافية",
+              "price": 3
+            },
+            {
+              "id": "bread",
+              "name": "خبز إضافي",
+              "price": 4
+            }
+          ]
+        },
+        {
+          "id": "cardamom-cafe-9",
+          "restaurantId": "cardamom-cafe",
+          "name": "فطور إنجليزي خفيف",
+          "description": "بيض وتوست وفطر.",
+          "image": "https://images.unsplash.com/photo-1626082927389-6cd097cdc6ec?w=800&q=80",
+          "price": 32,
+          "rating": 4.3,
+          "calories": 420,
+          "protein": 22,
+          "carbs": 28,
+          "fat": 20,
+          "category": "offers",
+          "isPopular": false,
+          "isOffer": true,
+          "offerPrice": 25,
+          "spicyOption": false,
+          "cashbackPercent": 5,
+          "addons": [
+            {
+              "id": "fries",
+              "name": "بطاطس مقلية",
+              "price": 8
+            },
+            {
+              "id": "cola",
+              "name": "كولا",
+              "price": 6
+            },
+            {
+              "id": "sauce",
+              "name": "صلصة إضافية",
+              "price": 3
+            },
+            {
+              "id": "bread",
+              "name": "خبز إضافي",
+              "price": 4
+            }
+          ]
+        },
+        {
+          "id": "cardamom-cafe-10",
+          "restaurantId": "cardamom-cafe",
+          "name": "شاي كرك",
+          "description": "شاي حليب بالهارات.",
+          "image": "https://images.unsplash.com/photo-1544025162-d76694265947?w=800&q=80",
+          "price": 10,
+          "rating": 4.6,
+          "calories": 90,
+          "protein": 2,
+          "carbs": 12,
+          "fat": 3,
+          "category": "offers",
+          "isPopular": false,
+          "isOffer": true,
+          "offerPrice": 8,
+          "spicyOption": false,
+          "cashbackPercent": 10,
+          "addons": [
+            {
+              "id": "fries",
+              "name": "بطاطس مقلية",
+              "price": 8
+            },
+            {
+              "id": "cola",
+              "name": "كولا",
+              "price": 6
+            },
+            {
+              "id": "sauce",
+              "name": "صلصة إضافية",
+              "price": 3
+            },
+            {
+              "id": "bread",
+              "name": "خبز إضافي",
+              "price": 4
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "toast-bar",
+      "name": "بار التوست",
+      "image": "https://images.unsplash.com/photo-1506084868230-bb9d95c24759?w=800&q=80",
+      "rating": 4.3,
+      "cuisine": "حلويات",
+      "deliveryTime": "20–30 د",
+      "deliveryFee": 10,
+      "minOrder": 45,
+      "distanceKm": 4,
+      "verified": null,
+      "tags": [
+        "كافيه",
+        "مخبوزات"
+      ],
+      "featured": null,
+      "open24h": true,
+      "fastDelivery": true,
+      "meals": [
+        {
+          "id": "toast-bar-1",
+          "restaurantId": "toast-bar",
+          "name": "كرواسون زبدة",
+          "description": "كرواسون فرنسي طازج.",
+          "image": "https://images.unsplash.com/photo-1533134242443-d4fd215305ad?w=800&q=80",
+          "price": 14,
+          "rating": 4.3,
+          "calories": 320,
+          "protein": 6,
+          "carbs": 32,
+          "fat": 18,
+          "category": "popular",
+          "isPopular": true,
+          "isOffer": false,
+          "offerPrice": null,
+          "spicyOption": false,
+          "cashbackPercent": null,
+          "addons": [
+            {
+              "id": "fries",
+              "name": "بطاطس مقلية",
+              "price": 8
+            },
+            {
+              "id": "cola",
+              "name": "كولا",
+              "price": 6
+            },
+            {
+              "id": "sauce",
+              "name": "صلصة إضافية",
+              "price": 3
+            },
+            {
+              "id": "bread",
+              "name": "خبز إضافي",
+              "price": 4
+            }
+          ]
+        },
+        {
+          "id": "toast-bar-2",
+          "restaurantId": "toast-bar",
+          "name": "لاتيه",
+          "description": "قهوة حليب مخملية.",
+          "image": "https://images.unsplash.com/photo-1571091718767-18b5b1457add?w=800&q=80",
+          "price": 16,
+          "rating": 4.4,
+          "calories": 140,
+          "protein": 6,
+          "carbs": 12,
+          "fat": 6,
+          "category": "menu",
+          "isPopular": false,
+          "isOffer": false,
+          "offerPrice": null,
+          "spicyOption": false,
+          "cashbackPercent": null,
+          "addons": [
+            {
+              "id": "fries",
+              "name": "بطاطس مقلية",
+              "price": 8
+            },
+            {
+              "id": "cola",
+              "name": "كولا",
+              "price": 6
+            },
+            {
+              "id": "sauce",
+              "name": "صلصة إضافية",
+              "price": 3
+            },
+            {
+              "id": "bread",
+              "name": "خبز إضافي",
+              "price": 4
+            }
+          ]
+        },
+        {
+          "id": "toast-bar-3",
+          "restaurantId": "toast-bar",
+          "name": "سينابون",
+          "description": "لفائف قرفة مع صوص.",
+          "image": "https://images.unsplash.com/photo-1544025162-d76694265947?w=800&q=80",
+          "price": 22,
+          "rating": 4.3,
+          "calories": 480,
+          "protein": 6,
+          "carbs": 58,
+          "fat": 20,
+          "category": "offers",
+          "isPopular": false,
+          "isOffer": true,
+          "offerPrice": 17,
+          "spicyOption": false,
+          "cashbackPercent": 5,
+          "addons": [
+            {
+              "id": "fries",
+              "name": "بطاطس مقلية",
+              "price": 8
+            },
+            {
+              "id": "cola",
+              "name": "كولا",
+              "price": 6
+            },
+            {
+              "id": "sauce",
+              "name": "صلصة إضافية",
+              "price": 3
+            },
+            {
+              "id": "bread",
+              "name": "خبز إضافي",
+              "price": 4
+            }
+          ]
+        },
+        {
+          "id": "toast-bar-4",
+          "restaurantId": "toast-bar",
+          "name": "توست أفوكادو",
+          "description": "خبز محمص مع أفوكادو.",
+          "image": "https://images.unsplash.com/photo-1553621042-f6e147245754?w=800&q=80",
+          "price": 24,
+          "rating": 4.9,
+          "calories": 360,
+          "protein": 10,
+          "carbs": 28,
+          "fat": 20,
+          "category": "popular",
+          "isPopular": true,
+          "isOffer": false,
+          "offerPrice": null,
+          "spicyOption": false,
+          "cashbackPercent": null,
+          "addons": [
+            {
+              "id": "fries",
+              "name": "بطاطس مقلية",
+              "price": 8
+            },
+            {
+              "id": "cola",
+              "name": "كولا",
+              "price": 6
+            },
+            {
+              "id": "sauce",
+              "name": "صلصة إضافية",
+              "price": 3
+            },
+            {
+              "id": "bread",
+              "name": "خبز إضافي",
+              "price": 4
+            }
+          ]
+        },
+        {
+          "id": "toast-bar-5",
+          "restaurantId": "toast-bar",
+          "name": "كيكة فانيلا",
+          "description": "شريحة كيك فانيلا.",
+          "image": "https://images.unsplash.com/photo-1513104890138-7c749659a591?w=800&q=80",
+          "price": 18,
+          "rating": 4.3,
+          "calories": 380,
+          "protein": 4,
+          "carbs": 42,
+          "fat": 18,
+          "category": "popular",
+          "isPopular": true,
+          "isOffer": false,
+          "offerPrice": null,
+          "spicyOption": false,
+          "cashbackPercent": null,
+          "addons": [
+            {
+              "id": "fries",
+              "name": "بطاطس مقلية",
+              "price": 8
+            },
+            {
+              "id": "cola",
+              "name": "كولا",
+              "price": 6
+            },
+            {
+              "id": "sauce",
+              "name": "صلصة إضافية",
+              "price": 3
+            },
+            {
+              "id": "bread",
+              "name": "خبز إضافي",
+              "price": 4
+            }
+          ]
+        },
+        {
+          "id": "toast-bar-6",
+          "restaurantId": "toast-bar",
+          "name": "آيس لاتيه",
+          "description": "لاتيه مثلج.",
+          "image": "https://images.unsplash.com/photo-1626645738196-c2a7c87a8f58?w=800&q=80",
+          "price": 17,
+          "rating": 4.8,
+          "calories": 120,
+          "protein": 4,
+          "carbs": 14,
+          "fat": 4,
+          "category": "offers",
+          "isPopular": false,
+          "isOffer": true,
+          "offerPrice": 13,
+          "spicyOption": false,
+          "cashbackPercent": 5,
+          "addons": [
+            {
+              "id": "fries",
+              "name": "بطاطس مقلية",
+              "price": 8
+            },
+            {
+              "id": "cola",
+              "name": "كولا",
+              "price": 6
+            },
+            {
+              "id": "sauce",
+              "name": "صلصة إضافية",
+              "price": 3
+            },
+            {
+              "id": "bread",
+              "name": "خبز إضافي",
+              "price": 4
+            }
+          ]
+        },
+        {
+          "id": "toast-bar-7",
+          "restaurantId": "toast-bar",
+          "name": "دونات محشية",
+          "description": "دونات كريمة.",
+          "image": "https://images.unsplash.com/photo-1579584425555-c3ce17fd4351?w=800&q=80",
+          "price": 12,
+          "rating": 4.4,
+          "calories": 340,
+          "protein": 4,
+          "carbs": 40,
+          "fat": 16,
+          "category": "menu",
+          "isPopular": false,
+          "isOffer": false,
+          "offerPrice": null,
+          "spicyOption": false,
+          "cashbackPercent": null,
+          "addons": [
+            {
+              "id": "fries",
+              "name": "بطاطس مقلية",
+              "price": 8
+            },
+            {
+              "id": "cola",
+              "name": "كولا",
+              "price": 6
+            },
+            {
+              "id": "sauce",
+              "name": "صلصة إضافية",
+              "price": 3
+            },
+            {
+              "id": "bread",
+              "name": "خبز إضافي",
+              "price": 4
+            }
+          ]
+        },
+        {
+          "id": "toast-bar-8",
+          "restaurantId": "toast-bar",
+          "name": "مافن توت",
+          "description": "مافن بالتوت الأزرق.",
+          "image": "https://images.unsplash.com/photo-1604908176997-125f25cc6f3d?w=800&q=80",
+          "price": 13,
+          "rating": 4.8,
+          "calories": 300,
+          "protein": 4,
+          "carbs": 38,
+          "fat": 12,
+          "category": "menu",
+          "isPopular": false,
+          "isOffer": false,
+          "offerPrice": null,
+          "spicyOption": false,
+          "cashbackPercent": null,
+          "addons": [
+            {
+              "id": "fries",
+              "name": "بطاطس مقلية",
+              "price": 8
+            },
+            {
+              "id": "cola",
+              "name": "كولا",
+              "price": 6
+            },
+            {
+              "id": "sauce",
+              "name": "صلصة إضافية",
+              "price": 3
+            },
+            {
+              "id": "bread",
+              "name": "خبز إضافي",
+              "price": 4
+            }
+          ]
+        },
+        {
+          "id": "toast-bar-9",
+          "restaurantId": "toast-bar",
+          "name": "فطور إنجليزي خفيف",
+          "description": "بيض وتوست وفطر.",
+          "image": "https://images.unsplash.com/photo-1559339352-11d035aa65de?w=800&q=80",
+          "price": 32,
+          "rating": 4.7,
+          "calories": 420,
+          "protein": 22,
+          "carbs": 28,
+          "fat": 20,
+          "category": "popular",
+          "isPopular": true,
+          "isOffer": false,
+          "offerPrice": null,
+          "spicyOption": false,
+          "cashbackPercent": null,
+          "addons": [
+            {
+              "id": "fries",
+              "name": "بطاطس مقلية",
+              "price": 8
+            },
+            {
+              "id": "cola",
+              "name": "كولا",
+              "price": 6
+            },
+            {
+              "id": "sauce",
+              "name": "صلصة إضافية",
+              "price": 3
+            },
+            {
+              "id": "bread",
+              "name": "خبز إضافي",
+              "price": 4
+            }
+          ]
+        },
+        {
+          "id": "toast-bar-10",
+          "restaurantId": "toast-bar",
+          "name": "شاي كرك",
+          "description": "شاي حليب بالهارات.",
+          "image": "https://images.unsplash.com/photo-1572490122747-3968b75cc699?w=800&q=80",
+          "price": 10,
+          "rating": 4.5,
+          "calories": 90,
+          "protein": 2,
+          "carbs": 12,
+          "fat": 3,
+          "category": "menu",
+          "isPopular": false,
+          "isOffer": false,
+          "offerPrice": null,
+          "spicyOption": false,
+          "cashbackPercent": null,
+          "addons": [
+            {
+              "id": "fries",
+              "name": "بطاطس مقلية",
+              "price": 8
+            },
+            {
+              "id": "cola",
+              "name": "كولا",
+              "price": 6
+            },
+            {
+              "id": "sauce",
+              "name": "صلصة إضافية",
+              "price": 3
+            },
+            {
+              "id": "bread",
+              "name": "خبز إضافي",
+              "price": 4
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "nutella-nest",
+      "name": "عش النوتيلا",
+      "image": "https://images.unsplash.com/photo-1455619452474-d2be8b1e70cd?w=800&q=80",
+      "rating": 4.6,
+      "cuisine": "حلويات",
+      "deliveryTime": "20–30 د",
+      "deliveryFee": 10,
+      "minOrder": 40,
+      "distanceKm": 5.1,
+      "verified": null,
+      "tags": [
+        "كافيه",
+        "مخبوزات"
+      ],
+      "featured": true,
+      "open24h": null,
+      "fastDelivery": null,
+      "meals": [
+        {
+          "id": "nutella-nest-1",
+          "restaurantId": "nutella-nest",
+          "name": "كرواسون زبدة",
+          "description": "كرواسون فرنسي طازج.",
+          "image": "https://images.unsplash.com/photo-1488477181946-6428a0291777?w=800&q=80",
+          "price": 14,
+          "rating": 4.2,
+          "calories": 320,
+          "protein": 6,
+          "carbs": 32,
+          "fat": 18,
+          "category": "menu",
+          "isPopular": false,
+          "isOffer": false,
+          "offerPrice": null,
+          "spicyOption": false,
+          "cashbackPercent": null,
+          "addons": [
+            {
+              "id": "fries",
+              "name": "بطاطس مقلية",
+              "price": 8
+            },
+            {
+              "id": "cola",
+              "name": "كولا",
+              "price": 6
+            },
+            {
+              "id": "sauce",
+              "name": "صلصة إضافية",
+              "price": 3
+            },
+            {
+              "id": "bread",
+              "name": "خبز إضافي",
+              "price": 4
+            }
+          ]
+        },
+        {
+          "id": "nutella-nest-2",
+          "restaurantId": "nutella-nest",
+          "name": "لاتيه",
+          "description": "قهوة حليب مخملية.",
+          "image": "https://images.unsplash.com/photo-1529692236671-f1f6cf9683ba?w=800&q=80",
+          "price": 16,
+          "rating": 4.4,
+          "calories": 140,
+          "protein": 6,
+          "carbs": 12,
+          "fat": 6,
+          "category": "menu",
+          "isPopular": false,
+          "isOffer": false,
+          "offerPrice": null,
+          "spicyOption": false,
+          "cashbackPercent": null,
+          "addons": [
+            {
+              "id": "fries",
+              "name": "بطاطس مقلية",
+              "price": 8
+            },
+            {
+              "id": "cola",
+              "name": "كولا",
+              "price": 6
+            },
+            {
+              "id": "sauce",
+              "name": "صلصة إضافية",
+              "price": 3
+            },
+            {
+              "id": "bread",
+              "name": "خبز إضافي",
+              "price": 4
+            }
+          ]
+        },
+        {
+          "id": "nutella-nest-3",
+          "restaurantId": "nutella-nest",
+          "name": "سينابون",
+          "description": "لفائف قرفة مع صوص.",
+          "image": "https://images.unsplash.com/photo-1529006557810-274b9b2fc783?w=800&q=80",
+          "price": 22,
+          "rating": 4.5,
+          "calories": 480,
+          "protein": 6,
+          "carbs": 58,
+          "fat": 20,
+          "category": "menu",
+          "isPopular": false,
+          "isOffer": false,
+          "offerPrice": null,
+          "spicyOption": false,
+          "cashbackPercent": null,
+          "addons": [
+            {
+              "id": "fries",
+              "name": "بطاطس مقلية",
+              "price": 8
+            },
+            {
+              "id": "cola",
+              "name": "كولا",
+              "price": 6
+            },
+            {
+              "id": "sauce",
+              "name": "صلصة إضافية",
+              "price": 3
+            },
+            {
+              "id": "bread",
+              "name": "خبز إضافي",
+              "price": 4
+            }
+          ]
+        },
+        {
+          "id": "nutella-nest-4",
+          "restaurantId": "nutella-nest",
+          "name": "توست أفوكادو",
+          "description": "خبز محمص مع أفوكادو.",
+          "image": "https://images.unsplash.com/photo-1490645935967-10de6ba17061?w=800&q=80",
+          "price": 24,
+          "rating": 4.7,
+          "calories": 360,
+          "protein": 10,
+          "carbs": 28,
+          "fat": 20,
+          "category": "menu",
+          "isPopular": false,
+          "isOffer": false,
+          "offerPrice": null,
+          "spicyOption": false,
+          "cashbackPercent": null,
+          "addons": [
+            {
+              "id": "fries",
+              "name": "بطاطس مقلية",
+              "price": 8
+            },
+            {
+              "id": "cola",
+              "name": "كولا",
+              "price": 6
+            },
+            {
+              "id": "sauce",
+              "name": "صلصة إضافية",
+              "price": 3
+            },
+            {
+              "id": "bread",
+              "name": "خبز إضافي",
+              "price": 4
+            }
+          ]
+        },
+        {
+          "id": "nutella-nest-5",
+          "restaurantId": "nutella-nest",
+          "name": "كيكة فانيلا",
+          "description": "شريحة كيك فانيلا.",
+          "image": "https://images.unsplash.com/photo-1551183053-bf91a1d81141?w=800&q=80",
+          "price": 18,
+          "rating": 4.4,
+          "calories": 380,
+          "protein": 4,
+          "carbs": 42,
+          "fat": 18,
+          "category": "offers",
+          "isPopular": false,
+          "isOffer": true,
+          "offerPrice": 15,
+          "spicyOption": false,
+          "cashbackPercent": null,
+          "addons": [
+            {
+              "id": "fries",
+              "name": "بطاطس مقلية",
+              "price": 8
+            },
+            {
+              "id": "cola",
+              "name": "كولا",
+              "price": 6
+            },
+            {
+              "id": "sauce",
+              "name": "صلصة إضافية",
+              "price": 3
+            },
+            {
+              "id": "bread",
+              "name": "خبز إضافي",
+              "price": 4
+            }
+          ]
+        },
+        {
+          "id": "nutella-nest-6",
+          "restaurantId": "nutella-nest",
+          "name": "آيس لاتيه",
+          "description": "لاتيه مثلج.",
+          "image": "https://images.unsplash.com/photo-1551183053-bf91a1d81141?w=800&q=80",
+          "price": 17,
+          "rating": 4.1,
+          "calories": 120,
+          "protein": 4,
+          "carbs": 14,
+          "fat": 4,
+          "category": "menu",
+          "isPopular": false,
+          "isOffer": false,
+          "offerPrice": null,
+          "spicyOption": false,
+          "cashbackPercent": null,
+          "addons": [
+            {
+              "id": "fries",
+              "name": "بطاطس مقلية",
+              "price": 8
+            },
+            {
+              "id": "cola",
+              "name": "كولا",
+              "price": 6
+            },
+            {
+              "id": "sauce",
+              "name": "صلصة إضافية",
+              "price": 3
+            },
+            {
+              "id": "bread",
+              "name": "خبز إضافي",
+              "price": 4
+            }
+          ]
+        },
+        {
+          "id": "nutella-nest-7",
+          "restaurantId": "nutella-nest",
+          "name": "دونات محشية",
+          "description": "دونات كريمة.",
+          "image": "https://images.unsplash.com/photo-1598103442097-8b74394b95c6?w=800&q=80",
+          "price": 12,
+          "rating": 4.3,
+          "calories": 340,
+          "protein": 4,
+          "carbs": 40,
+          "fat": 16,
+          "category": "popular",
+          "isPopular": true,
+          "isOffer": false,
+          "offerPrice": null,
+          "spicyOption": false,
+          "cashbackPercent": null,
+          "addons": [
+            {
+              "id": "fries",
+              "name": "بطاطس مقلية",
+              "price": 8
+            },
+            {
+              "id": "cola",
+              "name": "كولا",
+              "price": 6
+            },
+            {
+              "id": "sauce",
+              "name": "صلصة إضافية",
+              "price": 3
+            },
+            {
+              "id": "bread",
+              "name": "خبز إضافي",
+              "price": 4
+            }
+          ]
+        },
+        {
+          "id": "nutella-nest-8",
+          "restaurantId": "nutella-nest",
+          "name": "مافن توت",
+          "description": "مافن بالتوت الأزرق.",
+          "image": "https://images.unsplash.com/photo-1414235077428-338989a2e8c0?w=800&q=80",
+          "price": 13,
+          "rating": 4.1,
+          "calories": 300,
+          "protein": 4,
+          "carbs": 38,
+          "fat": 12,
+          "category": "popular",
+          "isPopular": true,
+          "isOffer": false,
+          "offerPrice": null,
+          "spicyOption": false,
+          "cashbackPercent": null,
+          "addons": [
+            {
+              "id": "fries",
+              "name": "بطاطس مقلية",
+              "price": 8
+            },
+            {
+              "id": "cola",
+              "name": "كولا",
+              "price": 6
+            },
+            {
+              "id": "sauce",
+              "name": "صلصة إضافية",
+              "price": 3
+            },
+            {
+              "id": "bread",
+              "name": "خبز إضافي",
+              "price": 4
+            }
+          ]
+        },
+        {
+          "id": "nutella-nest-9",
+          "restaurantId": "nutella-nest",
+          "name": "فطور إنجليزي خفيف",
+          "description": "بيض وتوست وفطر.",
+          "image": "https://images.unsplash.com/photo-1484723091739-30a097e8f929?w=800&q=80",
+          "price": 32,
+          "rating": 4.7,
+          "calories": 420,
+          "protein": 22,
+          "carbs": 28,
+          "fat": 20,
+          "category": "popular",
+          "isPopular": true,
+          "isOffer": false,
+          "offerPrice": null,
+          "spicyOption": false,
+          "cashbackPercent": null,
+          "addons": [
+            {
+              "id": "fries",
+              "name": "بطاطس مقلية",
+              "price": 8
+            },
+            {
+              "id": "cola",
+              "name": "كولا",
+              "price": 6
+            },
+            {
+              "id": "sauce",
+              "name": "صلصة إضافية",
+              "price": 3
+            },
+            {
+              "id": "bread",
+              "name": "خبز إضافي",
+              "price": 4
+            }
+          ]
+        },
+        {
+          "id": "nutella-nest-10",
+          "restaurantId": "nutella-nest",
+          "name": "شاي كرك",
+          "description": "شاي حليب بالهارات.",
+          "image": "https://images.unsplash.com/photo-1473093295043-cdd812d0e601?w=800&q=80",
+          "price": 10,
+          "rating": 4.7,
+          "calories": 90,
+          "protein": 2,
+          "carbs": 12,
+          "fat": 3,
+          "category": "popular",
+          "isPopular": true,
+          "isOffer": false,
+          "offerPrice": null,
+          "spicyOption": false,
+          "cashbackPercent": null,
+          "addons": [
+            {
+              "id": "fries",
+              "name": "بطاطس مقلية",
+              "price": 8
+            },
+            {
+              "id": "cola",
+              "name": "كولا",
+              "price": 6
+            },
+            {
+              "id": "sauce",
+              "name": "صلصة إضافية",
+              "price": 3
+            },
+            {
+              "id": "bread",
+              "name": "خبز إضافي",
+              "price": 4
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "sesame-sweet",
+      "name": "سمسم وحلاوة",
+      "image": "https://images.unsplash.com/photo-1568901346375-23c9450c58cd?w=800&q=80",
+      "rating": 4.7,
+      "cuisine": "حلويات",
+      "deliveryTime": "20–30 د",
+      "deliveryFee": 0,
+      "minOrder": 50,
+      "distanceKm": 6.4,
+      "verified": null,
+      "tags": [
+        "كافيه",
+        "مخبوزات"
+      ],
+      "featured": null,
+      "open24h": null,
+      "fastDelivery": true,
+      "meals": [
+        {
+          "id": "sesame-sweet-1",
+          "restaurantId": "sesame-sweet",
+          "name": "كرواسون زبدة",
+          "description": "كرواسون فرنسي طازج.",
+          "image": "https://images.unsplash.com/photo-1488477181946-6428a0291777?w=800&q=80",
+          "price": 14,
+          "rating": 4.2,
+          "calories": 320,
+          "protein": 6,
+          "carbs": 32,
+          "fat": 18,
+          "category": "offers",
+          "isPopular": false,
+          "isOffer": true,
+          "offerPrice": 11,
+          "spicyOption": false,
+          "cashbackPercent": 5,
+          "addons": [
+            {
+              "id": "fries",
+              "name": "بطاطس مقلية",
+              "price": 8
+            },
+            {
+              "id": "cola",
+              "name": "كولا",
+              "price": 6
+            },
+            {
+              "id": "sauce",
+              "name": "صلصة إضافية",
+              "price": 3
+            },
+            {
+              "id": "bread",
+              "name": "خبز إضافي",
+              "price": 4
+            }
+          ]
+        },
+        {
+          "id": "sesame-sweet-2",
+          "restaurantId": "sesame-sweet",
+          "name": "لاتيه",
+          "description": "قهوة حليب مخملية.",
+          "image": "https://images.unsplash.com/photo-1529006557810-274b9b2fc783?w=800&q=80",
+          "price": 16,
+          "rating": 4.4,
+          "calories": 140,
+          "protein": 6,
+          "carbs": 12,
+          "fat": 6,
+          "category": "menu",
+          "isPopular": false,
+          "isOffer": false,
+          "offerPrice": null,
+          "spicyOption": false,
+          "cashbackPercent": null,
+          "addons": [
+            {
+              "id": "fries",
+              "name": "بطاطس مقلية",
+              "price": 8
+            },
+            {
+              "id": "cola",
+              "name": "كولا",
+              "price": 6
+            },
+            {
+              "id": "sauce",
+              "name": "صلصة إضافية",
+              "price": 3
+            },
+            {
+              "id": "bread",
+              "name": "خبز إضافي",
+              "price": 4
+            }
+          ]
+        },
+        {
+          "id": "sesame-sweet-3",
+          "restaurantId": "sesame-sweet",
+          "name": "سينابون",
+          "description": "لفائف قرفة مع صوص.",
+          "image": "https://images.unsplash.com/photo-1579584425555-c3ce17fd4351?w=800&q=80",
+          "price": 22,
+          "rating": 4.4,
+          "calories": 480,
+          "protein": 6,
+          "carbs": 58,
+          "fat": 20,
+          "category": "offers",
+          "isPopular": false,
+          "isOffer": true,
+          "offerPrice": 18,
+          "spicyOption": false,
+          "cashbackPercent": 15,
+          "addons": [
+            {
+              "id": "fries",
+              "name": "بطاطس مقلية",
+              "price": 8
+            },
+            {
+              "id": "cola",
+              "name": "كولا",
+              "price": 6
+            },
+            {
+              "id": "sauce",
+              "name": "صلصة إضافية",
+              "price": 3
+            },
+            {
+              "id": "bread",
+              "name": "خبز إضافي",
+              "price": 4
+            }
+          ]
+        },
+        {
+          "id": "sesame-sweet-4",
+          "restaurantId": "sesame-sweet",
+          "name": "توست أفوكادو",
+          "description": "خبز محمص مع أفوكادو.",
+          "image": "https://images.unsplash.com/photo-1552566626-52f8b828add9?w=800&q=80",
+          "price": 24,
+          "rating": 4.4,
+          "calories": 360,
+          "protein": 10,
+          "carbs": 28,
+          "fat": 20,
+          "category": "offers",
+          "isPopular": false,
+          "isOffer": true,
+          "offerPrice": 20,
+          "spicyOption": false,
+          "cashbackPercent": null,
+          "addons": [
+            {
+              "id": "fries",
+              "name": "بطاطس مقلية",
+              "price": 8
+            },
+            {
+              "id": "cola",
+              "name": "كولا",
+              "price": 6
+            },
+            {
+              "id": "sauce",
+              "name": "صلصة إضافية",
+              "price": 3
+            },
+            {
+              "id": "bread",
+              "name": "خبز إضافي",
+              "price": 4
+            }
+          ]
+        },
+        {
+          "id": "sesame-sweet-5",
+          "restaurantId": "sesame-sweet",
+          "name": "كيكة فانيلا",
+          "description": "شريحة كيك فانيلا.",
+          "image": "https://images.unsplash.com/photo-1551183053-bf91a1d81141?w=800&q=80",
+          "price": 18,
+          "rating": 4.8,
+          "calories": 380,
+          "protein": 4,
+          "carbs": 42,
+          "fat": 18,
+          "category": "menu",
+          "isPopular": false,
+          "isOffer": false,
+          "offerPrice": null,
+          "spicyOption": false,
+          "cashbackPercent": null,
+          "addons": [
+            {
+              "id": "fries",
+              "name": "بطاطس مقلية",
+              "price": 8
+            },
+            {
+              "id": "cola",
+              "name": "كولا",
+              "price": 6
+            },
+            {
+              "id": "sauce",
+              "name": "صلصة إضافية",
+              "price": 3
+            },
+            {
+              "id": "bread",
+              "name": "خبز إضافي",
+              "price": 4
+            }
+          ]
+        },
+        {
+          "id": "sesame-sweet-6",
+          "restaurantId": "sesame-sweet",
+          "name": "آيس لاتيه",
+          "description": "لاتيه مثلج.",
+          "image": "https://images.unsplash.com/photo-1606755962773-d324e0a13086?w=800&q=80",
+          "price": 17,
+          "rating": 4.3,
+          "calories": 120,
+          "protein": 4,
+          "carbs": 14,
+          "fat": 4,
+          "category": "menu",
+          "isPopular": false,
+          "isOffer": false,
+          "offerPrice": null,
+          "spicyOption": false,
+          "cashbackPercent": null,
+          "addons": [
+            {
+              "id": "fries",
+              "name": "بطاطس مقلية",
+              "price": 8
+            },
+            {
+              "id": "cola",
+              "name": "كولا",
+              "price": 6
+            },
+            {
+              "id": "sauce",
+              "name": "صلصة إضافية",
+              "price": 3
+            },
+            {
+              "id": "bread",
+              "name": "خبز إضافي",
+              "price": 4
+            }
+          ]
+        },
+        {
+          "id": "sesame-sweet-7",
+          "restaurantId": "sesame-sweet",
+          "name": "دونات محشية",
+          "description": "دونات كريمة.",
+          "image": "https://images.unsplash.com/photo-1525351484163-7529414344d8?w=800&q=80",
+          "price": 12,
+          "rating": 4.2,
+          "calories": 340,
+          "protein": 4,
+          "carbs": 40,
+          "fat": 16,
+          "category": "menu",
+          "isPopular": false,
+          "isOffer": false,
+          "offerPrice": null,
+          "spicyOption": false,
+          "cashbackPercent": null,
+          "addons": [
+            {
+              "id": "fries",
+              "name": "بطاطس مقلية",
+              "price": 8
+            },
+            {
+              "id": "cola",
+              "name": "كولا",
+              "price": 6
+            },
+            {
+              "id": "sauce",
+              "name": "صلصة إضافية",
+              "price": 3
+            },
+            {
+              "id": "bread",
+              "name": "خبز إضافي",
+              "price": 4
+            }
+          ]
+        },
+        {
+          "id": "sesame-sweet-8",
+          "restaurantId": "sesame-sweet",
+          "name": "مافن توت",
+          "description": "مافن بالتوت الأزرق.",
+          "image": "https://images.unsplash.com/photo-1544025162-d76694265947?w=800&q=80",
+          "price": 13,
+          "rating": 4.7,
+          "calories": 300,
+          "protein": 4,
+          "carbs": 38,
+          "fat": 12,
+          "category": "popular",
+          "isPopular": true,
+          "isOffer": false,
+          "offerPrice": null,
+          "spicyOption": false,
+          "cashbackPercent": null,
+          "addons": [
+            {
+              "id": "fries",
+              "name": "بطاطس مقلية",
+              "price": 8
+            },
+            {
+              "id": "cola",
+              "name": "كولا",
+              "price": 6
+            },
+            {
+              "id": "sauce",
+              "name": "صلصة إضافية",
+              "price": 3
+            },
+            {
+              "id": "bread",
+              "name": "خبز إضافي",
+              "price": 4
+            }
+          ]
+        },
+        {
+          "id": "sesame-sweet-9",
+          "restaurantId": "sesame-sweet",
+          "name": "فطور إنجليزي خفيف",
+          "description": "بيض وتوست وفطر.",
+          "image": "https://images.unsplash.com/photo-1525351484163-7529414344d8?w=800&q=80",
+          "price": 32,
+          "rating": 4.3,
+          "calories": 420,
+          "protein": 22,
+          "carbs": 28,
+          "fat": 20,
+          "category": "offers",
+          "isPopular": false,
+          "isOffer": true,
+          "offerPrice": 25,
+          "spicyOption": false,
+          "cashbackPercent": null,
+          "addons": [
+            {
+              "id": "fries",
+              "name": "بطاطس مقلية",
+              "price": 8
+            },
+            {
+              "id": "cola",
+              "name": "كولا",
+              "price": 6
+            },
+            {
+              "id": "sauce",
+              "name": "صلصة إضافية",
+              "price": 3
+            },
+            {
+              "id": "bread",
+              "name": "خبز إضافي",
+              "price": 4
+            }
+          ]
+        },
+        {
+          "id": "sesame-sweet-10",
+          "restaurantId": "sesame-sweet",
+          "name": "شاي كرك",
+          "description": "شاي حليب بالهارات.",
+          "image": "https://images.unsplash.com/photo-1546069901-ba9599a7e63c?w=800&q=80",
+          "price": 10,
+          "rating": 4.3,
+          "calories": 90,
+          "protein": 2,
+          "carbs": 12,
+          "fat": 3,
+          "category": "popular",
+          "isPopular": true,
+          "isOffer": false,
+          "offerPrice": null,
+          "spicyOption": false,
+          "cashbackPercent": null,
+          "addons": [
+            {
+              "id": "fries",
+              "name": "بطاطس مقلية",
+              "price": 8
+            },
+            {
+              "id": "cola",
+              "name": "كولا",
+              "price": 6
+            },
+            {
+              "id": "sauce",
+              "name": "صلصة إضافية",
+              "price": 3
+            },
+            {
+              "id": "bread",
+              "name": "خبز إضافي",
+              "price": 4
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}

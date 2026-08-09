@@ -5,6 +5,8 @@ import { useSearchParams } from "next/navigation";
 import { filterRestaurants } from "@/data/restaurants";
 import { RestaurantListItem } from "@/components/RestaurantListItem";
 import { RestaurantCard } from "@/components/RestaurantCard";
+import { LIST_PAGE_SIZE } from "@/lib/list-limits";
+import { useInfiniteList } from "@/lib/use-infinite-list";
 
 export function RestaurantsClient() {
   const searchParams = useSearchParams();
@@ -14,6 +16,11 @@ export function RestaurantsClient() {
   const list = useMemo(
     () => filterRestaurants(filter, cuisine),
     [filter, cuisine],
+  );
+
+  const { visibleItems, sentinelRef, hasMore, pending } = useInfiniteList(
+    list,
+    LIST_PAGE_SIZE,
   );
 
   const title = useMemo(() => {
@@ -28,13 +35,11 @@ export function RestaurantsClient() {
 
   return (
     <div className="mx-auto max-w-lg md:max-w-7xl">
-      {/* Mobile header */}
       <div className="px-4 py-4 md:hidden">
         <h1 className="text-xl font-bold">{title}</h1>
         <p className="mt-1 text-sm text-muted">{list.length} نتيجة</p>
       </div>
 
-      {/* Desktop marketplace header */}
       <div className="relative hidden overflow-hidden md:block">
         <div
           className="absolute inset-0 bg-cover bg-center"
@@ -60,14 +65,25 @@ export function RestaurantsClient() {
       ) : (
         <>
           <div className="border-y border-border md:hidden">
-            {list.map((r) => (
+            {visibleItems.map((r) => (
               <RestaurantListItem key={r.id} restaurant={r} />
             ))}
           </div>
           <div className="hidden gap-6 px-8 py-10 md:grid md:grid-cols-2 lg:grid-cols-3">
-            {list.map((r) => (
+            {visibleItems.map((r) => (
               <RestaurantCard key={r.id} restaurant={r} />
             ))}
+          </div>
+          <div
+            ref={sentinelRef}
+            className="px-4 py-6 text-center text-xs text-muted md:px-8"
+            aria-hidden={!hasMore}
+          >
+            {hasMore
+              ? pending
+                ? "جاري تحميل المزيد…"
+                : "مرّر للمزيد"
+              : `تم عرض كل النتائج (${list.length})`}
           </div>
         </>
       )}
