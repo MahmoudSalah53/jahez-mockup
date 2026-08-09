@@ -48,7 +48,7 @@ export function RestaurantsClient() {
         <div className="relative mx-auto max-w-7xl px-8 py-14">
           <h1 className="text-4xl font-bold text-white">{title}</h1>
           <p className="mt-2 text-base text-white/80">
-            {list.length} مطعم جاهز للتوصيل الآن
+            {list.length} مطاعم متاحة للتوصيل الآن
           </p>
         </div>
       </div>
