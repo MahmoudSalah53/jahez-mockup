@@ -512,7 +512,7 @@
         {
           "id": "sukkar-lane-offer-1",
           "restaurantId": "sukkar-lane",
-          "name": "حلا مع قهوة — زقاق السكر",
+          "name": "حلا مع قهوة",
           "description": "قطعة حلا مع مشروب ساخن.",
           "image": "https://images.unsplash.com/photo-1488477181946-6428a0291777?w=800&q=80",
           "price": 36,
@@ -564,7 +564,7 @@
         {
           "id": "sukkar-lane-offer-2",
           "restaurantId": "sukkar-lane",
-          "name": "اشتري كنافة واحصل على الثانية مجاناً — زقاق السكر",
+          "name": "اشتري كنافة واحصل على الثانية مجاناً",
           "description": "عرض كنافتين مع قطر بنفس السعر.",
           "image": "https://images.unsplash.com/photo-1578985545062-69928b1d9587?w=800&q=80",
           "price": 32,
@@ -617,7 +617,7 @@
         {
           "id": "sukkar-lane-offer-3",
           "restaurantId": "sukkar-lane",
-          "name": "عرض وافل مع آيس كريم — زقاق السكر",
+          "name": "عرض وافل مع آيس كريم",
           "description": "وافل وسكوب آيس كريم وصوص بسعر واحد.",
           "image": "https://images.unsplash.com/photo-1563805042-7684c019e1cb?w=800&q=80",
           "price": 34,
@@ -1181,7 +1181,7 @@
         {
           "id": "creamery-riyadh-offer-1",
           "restaurantId": "creamery-riyadh",
-          "name": "حلا مع قهوة — كريمري الرياض",
+          "name": "حلا مع قهوة",
           "description": "قطعة حلا مع مشروب ساخن.",
           "image": "https://images.unsplash.com/photo-1488477181946-6428a0291777?w=800&q=80",
           "price": 36,
@@ -1233,7 +1233,7 @@
         {
           "id": "creamery-riyadh-offer-2",
           "restaurantId": "creamery-riyadh",
-          "name": "اشتري كنافة واحصل على الثانية مجاناً — كريمري الرياض",
+          "name": "اشتري كنافة واحصل على الثانية مجاناً",
           "description": "عرض كنافتين مع قطر بنفس السعر.",
           "image": "https://images.unsplash.com/photo-1578985545062-69928b1d9587?w=800&q=80",
           "price": 32,
@@ -1286,7 +1286,7 @@
         {
           "id": "creamery-riyadh-offer-3",
           "restaurantId": "creamery-riyadh",
-          "name": "عرض وافل مع آيس كريم — كريمري الرياض",
+          "name": "عرض وافل مع آيس كريم",
           "description": "وافل وسكوب آيس كريم وصوص بسعر واحد.",
           "image": "https://images.unsplash.com/photo-1563805042-7684c019e1cb?w=800&q=80",
           "price": 34,
@@ -1850,7 +1850,7 @@
         {
           "id": "kunafa-lab-offer-1",
           "restaurantId": "kunafa-lab",
-          "name": "حلا مع قهوة — مختبر الكنافة",
+          "name": "حلا مع قهوة",
           "description": "قطعة حلا مع مشروب ساخن.",
           "image": "https://images.unsplash.com/photo-1488477181946-6428a0291777?w=800&q=80",
           "price": 36,
@@ -1902,7 +1902,7 @@
         {
           "id": "kunafa-lab-offer-2",
           "restaurantId": "kunafa-lab",
-          "name": "اشتري كنافة واحصل على الثانية مجاناً — مختبر الكنافة",
+          "name": "اشتري كنافة واحصل على الثانية مجاناً",
           "description": "عرض كنافتين مع قطر بنفس السعر.",
           "image": "https://images.unsplash.com/photo-1578985545062-69928b1d9587?w=800&q=80",
           "price": 32,
@@ -1955,7 +1955,7 @@
         {
           "id": "kunafa-lab-offer-3",
           "restaurantId": "kunafa-lab",
-          "name": "عرض وافل مع آيس كريم — مختبر الكنافة",
+          "name": "عرض وافل مع آيس كريم",
           "description": "وافل وسكوب آيس كريم وصوص بسعر واحد.",
           "image": "https://images.unsplash.com/photo-1563805042-7684c019e1cb?w=800&q=80",
           "price": 34,
@@ -2519,7 +2519,7 @@
         {
           "id": "choc-atelier-offer-1",
           "restaurantId": "choc-atelier",
-          "name": "حلا مع قهوة — أتولييه الشوكولاتة",
+          "name": "حلا مع قهوة",
           "description": "قطعة حلا مع مشروب ساخن.",
           "image": "https://images.unsplash.com/photo-1488477181946-6428a0291777?w=800&q=80",
           "price": 36,
@@ -2571,7 +2571,7 @@
         {
           "id": "choc-atelier-offer-2",
           "restaurantId": "choc-atelier",
-          "name": "اشتري كنافة واحصل على الثانية مجاناً — أتولييه الشوكولاتة",
+          "name": "اشتري كنافة واحصل على الثانية مجاناً",
           "description": "عرض كنافتين مع قطر بنفس السعر.",
           "image": "https://images.unsplash.com/photo-1578985545062-69928b1d9587?w=800&q=80",
           "price": 32,
@@ -2624,7 +2624,7 @@
         {
           "id": "choc-atelier-offer-3",
           "restaurantId": "choc-atelier",
-          "name": "عرض وافل مع آيس كريم — أتولييه الشوكولاتة",
+          "name": "عرض وافل مع آيس كريم",
           "description": "وافل وسكوب آيس كريم وصوص بسعر واحد.",
           "image": "https://images.unsplash.com/photo-1563805042-7684c019e1cb?w=800&q=80",
           "price": 34,
@@ -3188,7 +3188,7 @@
         {
           "id": "date-delight-offer-1",
           "restaurantId": "date-delight",
-          "name": "حلا مع قهوة — متعة التمر",
+          "name": "حلا مع قهوة",
           "description": "قطعة حلا مع مشروب ساخن.",
           "image": "https://images.unsplash.com/photo-1488477181946-6428a0291777?w=800&q=80",
           "price": 36,
@@ -3240,7 +3240,7 @@
         {
           "id": "date-delight-offer-2",
           "restaurantId": "date-delight",
-          "name": "اشتري كنافة واحصل على الثانية مجاناً — متعة التمر",
+          "name": "اشتري كنافة واحصل على الثانية مجاناً",
           "description": "عرض كنافتين مع قطر بنفس السعر.",
           "image": "https://images.unsplash.com/photo-1578985545062-69928b1d9587?w=800&q=80",
           "price": 32,
@@ -3293,7 +3293,7 @@
         {
           "id": "date-delight-offer-3",
           "restaurantId": "date-delight",
-          "name": "عرض وافل مع آيس كريم — متعة التمر",
+          "name": "عرض وافل مع آيس كريم",
           "description": "وافل وسكوب آيس كريم وصوص بسعر واحد.",
           "image": "https://images.unsplash.com/photo-1563805042-7684c019e1cb?w=800&q=80",
           "price": 34,
@@ -3857,7 +3857,7 @@
         {
           "id": "waffle-nest-offer-1",
           "restaurantId": "waffle-nest",
-          "name": "حلا مع قهوة — عش الوافل",
+          "name": "حلا مع قهوة",
           "description": "قطعة حلا مع مشروب ساخن.",
           "image": "https://images.unsplash.com/photo-1488477181946-6428a0291777?w=800&q=80",
           "price": 36,
@@ -3909,7 +3909,7 @@
         {
           "id": "waffle-nest-offer-2",
           "restaurantId": "waffle-nest",
-          "name": "اشتري كنافة واحصل على الثانية مجاناً — عش الوافل",
+          "name": "اشتري كنافة واحصل على الثانية مجاناً",
           "description": "عرض كنافتين مع قطر بنفس السعر.",
           "image": "https://images.unsplash.com/photo-1578985545062-69928b1d9587?w=800&q=80",
           "price": 32,
@@ -3962,7 +3962,7 @@
         {
           "id": "waffle-nest-offer-3",
           "restaurantId": "waffle-nest",
-          "name": "عرض وافل مع آيس كريم — عش الوافل",
+          "name": "عرض وافل مع آيس كريم",
           "description": "وافل وسكوب آيس كريم وصوص بسعر واحد.",
           "image": "https://images.unsplash.com/photo-1563805042-7684c019e1cb?w=800&q=80",
           "price": 34,
@@ -4526,7 +4526,7 @@
         {
           "id": "baklava-house-offer-1",
           "restaurantId": "baklava-house",
-          "name": "حلا مع قهوة — بيت البقلاوة",
+          "name": "حلا مع قهوة",
           "description": "قطعة حلا مع مشروب ساخن.",
           "image": "https://images.unsplash.com/photo-1488477181946-6428a0291777?w=800&q=80",
           "price": 36,
@@ -4578,7 +4578,7 @@
         {
           "id": "baklava-house-offer-2",
           "restaurantId": "baklava-house",
-          "name": "اشتري كنافة واحصل على الثانية مجاناً — بيت البقلاوة",
+          "name": "اشتري كنافة واحصل على الثانية مجاناً",
           "description": "عرض كنافتين مع قطر بنفس السعر.",
           "image": "https://images.unsplash.com/photo-1578985545062-69928b1d9587?w=800&q=80",
           "price": 32,
@@ -4631,7 +4631,7 @@
         {
           "id": "baklava-house-offer-3",
           "restaurantId": "baklava-house",
-          "name": "عرض وافل مع آيس كريم — بيت البقلاوة",
+          "name": "عرض وافل مع آيس كريم",
           "description": "وافل وسكوب آيس كريم وصوص بسعر واحد.",
           "image": "https://images.unsplash.com/photo-1563805042-7684c019e1cb?w=800&q=80",
           "price": 34,
@@ -5195,7 +5195,7 @@
         {
           "id": "sweet-noon-offer-1",
           "restaurantId": "sweet-noon",
-          "name": "حلا مع قهوة — حلاوة الظهر",
+          "name": "حلا مع قهوة",
           "description": "قطعة حلا مع مشروب ساخن.",
           "image": "https://images.unsplash.com/photo-1488477181946-6428a0291777?w=800&q=80",
           "price": 36,
@@ -5247,7 +5247,7 @@
         {
           "id": "sweet-noon-offer-2",
           "restaurantId": "sweet-noon",
-          "name": "اشتري كنافة واحصل على الثانية مجاناً — حلاوة الظهر",
+          "name": "اشتري كنافة واحصل على الثانية مجاناً",
           "description": "عرض كنافتين مع قطر بنفس السعر.",
           "image": "https://images.unsplash.com/photo-1578985545062-69928b1d9587?w=800&q=80",
           "price": 32,
@@ -5300,7 +5300,7 @@
         {
           "id": "sweet-noon-offer-3",
           "restaurantId": "sweet-noon",
-          "name": "عرض وافل مع آيس كريم — حلاوة الظهر",
+          "name": "عرض وافل مع آيس كريم",
           "description": "وافل وسكوب آيس كريم وصوص بسعر واحد.",
           "image": "https://images.unsplash.com/photo-1563805042-7684c019e1cb?w=800&q=80",
           "price": 34,

@@ -513,7 +513,7 @@
         {
           "id": "nar-aljamar-offer-1",
           "restaurantId": "nar-aljamar",
-          "name": "وجبة مشاوي فردية — نار الجمر",
+          "name": "وجبة مشاوي فردية",
           "description": "طبق رئيسي مع أرز وسلطة ومشروب — وجبة كاملة لشخص واحد.",
           "image": "https://images.unsplash.com/photo-1555939594-58d7cb561ad1?w=800&q=80",
           "price": 59,
@@ -567,7 +567,7 @@
         {
           "id": "nar-aljamar-offer-2",
           "restaurantId": "nar-aljamar",
-          "name": "وجبة عائلية مشاوي — نار الجمر",
+          "name": "وجبة عائلية مشاوي",
           "description": "تشكيلة تكفي ٣–٤ أشخاص مع مقبلات ومشروبات.",
           "image": "https://images.unsplash.com/photo-1529692236671-f1f6cf9683ba?w=800&q=80",
           "price": 189,
@@ -622,7 +622,7 @@
         {
           "id": "nar-aljamar-offer-3",
           "restaurantId": "nar-aljamar",
-          "name": "اشتري كباب واحصل على الثاني مجاناً — نار الجمر",
+          "name": "اشتري كباب واحصل على الثاني مجاناً",
           "description": "عرض: كبابين بنفس السعر — مع طحينة ومخلل.",
           "image": "https://images.unsplash.com/photo-1603360946369-dc9bb6258143?w=800&q=80",
           "price": 72,
@@ -1188,7 +1188,7 @@
         {
           "id": "shawaya-alqasr-offer-1",
           "restaurantId": "shawaya-alqasr",
-          "name": "وجبة مشاوي فردية — شواية القصر",
+          "name": "وجبة مشاوي فردية",
           "description": "طبق رئيسي مع أرز وسلطة ومشروب — وجبة كاملة لشخص واحد.",
           "image": "https://images.unsplash.com/photo-1555939594-58d7cb561ad1?w=800&q=80",
           "price": 59,
@@ -1242,7 +1242,7 @@
         {
           "id": "shawaya-alqasr-offer-2",
           "restaurantId": "shawaya-alqasr",
-          "name": "وجبة عائلية مشاوي — شواية القصر",
+          "name": "وجبة عائلية مشاوي",
           "description": "تشكيلة تكفي ٣–٤ أشخاص مع مقبلات ومشروبات.",
           "image": "https://images.unsplash.com/photo-1529692236671-f1f6cf9683ba?w=800&q=80",
           "price": 189,
@@ -1297,7 +1297,7 @@
         {
           "id": "shawaya-alqasr-offer-3",
           "restaurantId": "shawaya-alqasr",
-          "name": "اشتري كباب واحصل على الثاني مجاناً — شواية القصر",
+          "name": "اشتري كباب واحصل على الثاني مجاناً",
           "description": "عرض: كبابين بنفس السعر — مع طحينة ومخلل.",
           "image": "https://images.unsplash.com/photo-1603360946369-dc9bb6258143?w=800&q=80",
           "price": 72,
@@ -1863,7 +1863,7 @@
         {
           "id": "lahm-wa-fahm-offer-1",
           "restaurantId": "lahm-wa-fahm",
-          "name": "وجبة مشاوي فردية — لحم وفحم",
+          "name": "وجبة مشاوي فردية",
           "description": "طبق رئيسي مع أرز وسلطة ومشروب — وجبة كاملة لشخص واحد.",
           "image": "https://images.unsplash.com/photo-1555939594-58d7cb561ad1?w=800&q=80",
           "price": 59,
@@ -1917,7 +1917,7 @@
         {
           "id": "lahm-wa-fahm-offer-2",
           "restaurantId": "lahm-wa-fahm",
-          "name": "وجبة عائلية مشاوي — لحم وفحم",
+          "name": "وجبة عائلية مشاوي",
           "description": "تشكيلة تكفي ٣–٤ أشخاص مع مقبلات ومشروبات.",
           "image": "https://images.unsplash.com/photo-1529692236671-f1f6cf9683ba?w=800&q=80",
           "price": 189,
@@ -1972,7 +1972,7 @@
         {
           "id": "lahm-wa-fahm-offer-3",
           "restaurantId": "lahm-wa-fahm",
-          "name": "اشتري كباب واحصل على الثاني مجاناً — لحم وفحم",
+          "name": "اشتري كباب واحصل على الثاني مجاناً",
           "description": "عرض: كبابين بنفس السعر — مع طحينة ومخلل.",
           "image": "https://images.unsplash.com/photo-1603360946369-dc9bb6258143?w=800&q=80",
           "price": 72,
@@ -2538,7 +2538,7 @@
         {
           "id": "majalis-almashawi-offer-1",
           "restaurantId": "majalis-almashawi",
-          "name": "وجبة مشاوي فردية — مجالس المشاوي",
+          "name": "وجبة مشاوي فردية",
           "description": "طبق رئيسي مع أرز وسلطة ومشروب — وجبة كاملة لشخص واحد.",
           "image": "https://images.unsplash.com/photo-1555939594-58d7cb561ad1?w=800&q=80",
           "price": 59,
@@ -2592,7 +2592,7 @@
         {
           "id": "majalis-almashawi-offer-2",
           "restaurantId": "majalis-almashawi",
-          "name": "وجبة عائلية مشاوي — مجالس المشاوي",
+          "name": "وجبة عائلية مشاوي",
           "description": "تشكيلة تكفي ٣–٤ أشخاص مع مقبلات ومشروبات.",
           "image": "https://images.unsplash.com/photo-1529692236671-f1f6cf9683ba?w=800&q=80",
           "price": 189,
@@ -2647,7 +2647,7 @@
         {
           "id": "majalis-almashawi-offer-3",
           "restaurantId": "majalis-almashawi",
-          "name": "اشتري كباب واحصل على الثاني مجاناً — مجالس المشاوي",
+          "name": "اشتري كباب واحصل على الثاني مجاناً",
           "description": "عرض: كبابين بنفس السعر — مع طحينة ومخلل.",
           "image": "https://images.unsplash.com/photo-1603360946369-dc9bb6258143?w=800&q=80",
           "price": 72,
@@ -3213,7 +3213,7 @@
         {
           "id": "dukhan-house-offer-1",
           "restaurantId": "dukhan-house",
-          "name": "وجبة مشاوي فردية — بيت الدخان",
+          "name": "وجبة مشاوي فردية",
           "description": "طبق رئيسي مع أرز وسلطة ومشروب — وجبة كاملة لشخص واحد.",
           "image": "https://images.unsplash.com/photo-1555939594-58d7cb561ad1?w=800&q=80",
           "price": 59,
@@ -3267,7 +3267,7 @@
         {
           "id": "dukhan-house-offer-2",
           "restaurantId": "dukhan-house",
-          "name": "وجبة عائلية مشاوي — بيت الدخان",
+          "name": "وجبة عائلية مشاوي",
           "description": "تشكيلة تكفي ٣–٤ أشخاص مع مقبلات ومشروبات.",
           "image": "https://images.unsplash.com/photo-1529692236671-f1f6cf9683ba?w=800&q=80",
           "price": 189,
@@ -3322,7 +3322,7 @@
         {
           "id": "dukhan-house-offer-3",
           "restaurantId": "dukhan-house",
-          "name": "اشتري كباب واحصل على الثاني مجاناً — بيت الدخان",
+          "name": "اشتري كباب واحصل على الثاني مجاناً",
           "description": "عرض: كبابين بنفس السعر — مع طحينة ومخلل.",
           "image": "https://images.unsplash.com/photo-1603360946369-dc9bb6258143?w=800&q=80",
           "price": 72,
@@ -3888,7 +3888,7 @@
         {
           "id": "kabab-alwadi-offer-1",
           "restaurantId": "kabab-alwadi",
-          "name": "وجبة مشاوي فردية — كباب الوادي",
+          "name": "وجبة مشاوي فردية",
           "description": "طبق رئيسي مع أرز وسلطة ومشروب — وجبة كاملة لشخص واحد.",
           "image": "https://images.unsplash.com/photo-1555939594-58d7cb561ad1?w=800&q=80",
           "price": 59,
@@ -3942,7 +3942,7 @@
         {
           "id": "kabab-alwadi-offer-2",
           "restaurantId": "kabab-alwadi",
-          "name": "وجبة عائلية مشاوي — كباب الوادي",
+          "name": "وجبة عائلية مشاوي",
           "description": "تشكيلة تكفي ٣–٤ أشخاص مع مقبلات ومشروبات.",
           "image": "https://images.unsplash.com/photo-1529692236671-f1f6cf9683ba?w=800&q=80",
           "price": 189,
@@ -3997,7 +3997,7 @@
         {
           "id": "kabab-alwadi-offer-3",
           "restaurantId": "kabab-alwadi",
-          "name": "اشتري كباب واحصل على الثاني مجاناً — كباب الوادي",
+          "name": "اشتري كباب واحصل على الثاني مجاناً",
           "description": "عرض: كبابين بنفس السعر — مع طحينة ومخلل.",
           "image": "https://images.unsplash.com/photo-1603360946369-dc9bb6258143?w=800&q=80",
           "price": 72,
@@ -4563,7 +4563,7 @@
         {
           "id": "fahm-riyadh-offer-1",
           "restaurantId": "fahm-riyadh",
-          "name": "وجبة مشاوي فردية — فحم الرياض",
+          "name": "وجبة مشاوي فردية",
           "description": "طبق رئيسي مع أرز وسلطة ومشروب — وجبة كاملة لشخص واحد.",
           "image": "https://images.unsplash.com/photo-1555939594-58d7cb561ad1?w=800&q=80",
           "price": 59,
@@ -4617,7 +4617,7 @@
         {
           "id": "fahm-riyadh-offer-2",
           "restaurantId": "fahm-riyadh",
-          "name": "وجبة عائلية مشاوي — فحم الرياض",
+          "name": "وجبة عائلية مشاوي",
           "description": "تشكيلة تكفي ٣–٤ أشخاص مع مقبلات ومشروبات.",
           "image": "https://images.unsplash.com/photo-1529692236671-f1f6cf9683ba?w=800&q=80",
           "price": 189,
@@ -4672,7 +4672,7 @@
         {
           "id": "fahm-riyadh-offer-3",
           "restaurantId": "fahm-riyadh",
-          "name": "اشتري كباب واحصل على الثاني مجاناً — فحم الرياض",
+          "name": "اشتري كباب واحصل على الثاني مجاناً",
           "description": "عرض: كبابين بنفس السعر — مع طحينة ومخلل.",
           "image": "https://images.unsplash.com/photo-1603360946369-dc9bb6258143?w=800&q=80",
           "price": 72,
@@ -5238,7 +5238,7 @@
         {
           "id": "mashawi-alnakheel-offer-1",
           "restaurantId": "mashawi-alnakheel",
-          "name": "وجبة مشاوي فردية — مشاوي النخيل",
+          "name": "وجبة مشاوي فردية",
           "description": "طبق رئيسي مع أرز وسلطة ومشروب — وجبة كاملة لشخص واحد.",
           "image": "https://images.unsplash.com/photo-1555939594-58d7cb561ad1?w=800&q=80",
           "price": 59,
@@ -5292,7 +5292,7 @@
         {
           "id": "mashawi-alnakheel-offer-2",
           "restaurantId": "mashawi-alnakheel",
-          "name": "وجبة عائلية مشاوي — مشاوي النخيل",
+          "name": "وجبة عائلية مشاوي",
           "description": "تشكيلة تكفي ٣–٤ أشخاص مع مقبلات ومشروبات.",
           "image": "https://images.unsplash.com/photo-1529692236671-f1f6cf9683ba?w=800&q=80",
           "price": 189,
@@ -5347,7 +5347,7 @@
         {
           "id": "mashawi-alnakheel-offer-3",
           "restaurantId": "mashawi-alnakheel",
-          "name": "اشتري كباب واحصل على الثاني مجاناً — مشاوي النخيل",
+          "name": "اشتري كباب واحصل على الثاني مجاناً",
           "description": "عرض: كبابين بنفس السعر — مع طحينة ومخلل.",
           "image": "https://images.unsplash.com/photo-1603360946369-dc9bb6258143?w=800&q=80",
           "price": 72,

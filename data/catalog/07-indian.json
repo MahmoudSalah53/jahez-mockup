@@ -513,7 +513,7 @@
         {
           "id": "spice-route-offer-1",
           "restaurantId": "spice-route",
-          "name": "وجبة برياني كاملة — طريق التوابل",
+          "name": "وجبة برياني كاملة",
           "description": "برياني مع رايتا ونان ومشروب.",
           "image": "https://images.unsplash.com/photo-1585937421612-70a008356fbe?w=800&q=80",
           "price": 54,
@@ -567,7 +567,7 @@
         {
           "id": "spice-route-offer-2",
           "restaurantId": "spice-route",
-          "name": "وجبة عائلية ثالي — طريق التوابل",
+          "name": "وجبة عائلية ثالي",
           "description": "تشكيلة أطباق هندية تكفي العائلة.",
           "image": "https://images.unsplash.com/photo-1565557623262-b51c2513a641?w=800&q=80",
           "price": 119,
@@ -622,7 +622,7 @@
         {
           "id": "spice-route-offer-3",
           "restaurantId": "spice-route",
-          "name": "عرض كاري مع أرز ونان — طريق التوابل",
+          "name": "عرض كاري مع أرز ونان",
           "description": "تيكا ماسالا وأرز ونان بسعر واحد.",
           "image": "https://images.unsplash.com/photo-1588168333986-5078d3ae3976?w=800&q=80",
           "price": 52,
@@ -1187,7 +1187,7 @@
         {
           "id": "tandoor-flame-offer-1",
           "restaurantId": "tandoor-flame",
-          "name": "وجبة برياني كاملة — لهب التندور",
+          "name": "وجبة برياني كاملة",
           "description": "برياني مع رايتا ونان ومشروب.",
           "image": "https://images.unsplash.com/photo-1585937421612-70a008356fbe?w=800&q=80",
           "price": 54,
@@ -1241,7 +1241,7 @@
         {
           "id": "tandoor-flame-offer-2",
           "restaurantId": "tandoor-flame",
-          "name": "وجبة عائلية ثالي — لهب التندور",
+          "name": "وجبة عائلية ثالي",
           "description": "تشكيلة أطباق هندية تكفي العائلة.",
           "image": "https://images.unsplash.com/photo-1565557623262-b51c2513a641?w=800&q=80",
           "price": 119,
@@ -1296,7 +1296,7 @@
         {
           "id": "tandoor-flame-offer-3",
           "restaurantId": "tandoor-flame",
-          "name": "عرض كاري مع أرز ونان — لهب التندور",
+          "name": "عرض كاري مع أرز ونان",
           "description": "تيكا ماسالا وأرز ونان بسعر واحد.",
           "image": "https://images.unsplash.com/photo-1588168333986-5078d3ae3976?w=800&q=80",
           "price": 52,
@@ -1861,7 +1861,7 @@
         {
           "id": "masala-bowl-offer-1",
           "restaurantId": "masala-bowl",
-          "name": "وجبة برياني كاملة — بول الماسالا",
+          "name": "وجبة برياني كاملة",
           "description": "برياني مع رايتا ونان ومشروب.",
           "image": "https://images.unsplash.com/photo-1585937421612-70a008356fbe?w=800&q=80",
           "price": 54,
@@ -1915,7 +1915,7 @@
         {
           "id": "masala-bowl-offer-2",
           "restaurantId": "masala-bowl",
-          "name": "وجبة عائلية ثالي — بول الماسالا",
+          "name": "وجبة عائلية ثالي",
           "description": "تشكيلة أطباق هندية تكفي العائلة.",
           "image": "https://images.unsplash.com/photo-1565557623262-b51c2513a641?w=800&q=80",
           "price": 119,
@@ -1970,7 +1970,7 @@
         {
           "id": "masala-bowl-offer-3",
           "restaurantId": "masala-bowl",
-          "name": "عرض كاري مع أرز ونان — بول الماسالا",
+          "name": "عرض كاري مع أرز ونان",
           "description": "تيكا ماسالا وأرز ونان بسعر واحد.",
           "image": "https://images.unsplash.com/photo-1588168333986-5078d3ae3976?w=800&q=80",
           "price": 52,
@@ -2535,7 +2535,7 @@
         {
           "id": "curry-garden-offer-1",
           "restaurantId": "curry-garden",
-          "name": "وجبة برياني كاملة — حديقة الكاري",
+          "name": "وجبة برياني كاملة",
           "description": "برياني مع رايتا ونان ومشروب.",
           "image": "https://images.unsplash.com/photo-1585937421612-70a008356fbe?w=800&q=80",
           "price": 54,
@@ -2589,7 +2589,7 @@
         {
           "id": "curry-garden-offer-2",
           "restaurantId": "curry-garden",
-          "name": "وجبة عائلية ثالي — حديقة الكاري",
+          "name": "وجبة عائلية ثالي",
           "description": "تشكيلة أطباق هندية تكفي العائلة.",
           "image": "https://images.unsplash.com/photo-1565557623262-b51c2513a641?w=800&q=80",
           "price": 119,
@@ -2644,7 +2644,7 @@
         {
           "id": "curry-garden-offer-3",
           "restaurantId": "curry-garden",
-          "name": "عرض كاري مع أرز ونان — حديقة الكاري",
+          "name": "عرض كاري مع أرز ونان",
           "description": "تيكا ماسالا وأرز ونان بسعر واحد.",
           "image": "https://images.unsplash.com/photo-1588168333986-5078d3ae3976?w=800&q=80",
           "price": 52,
@@ -3209,7 +3209,7 @@
         {
           "id": "biryani-dar-offer-1",
           "restaurantId": "biryani-dar",
-          "name": "وجبة برياني كاملة — دار البرياني",
+          "name": "وجبة برياني كاملة",
           "description": "برياني مع رايتا ونان ومشروب.",
           "image": "https://images.unsplash.com/photo-1585937421612-70a008356fbe?w=800&q=80",
           "price": 54,
@@ -3263,7 +3263,7 @@
         {
           "id": "biryani-dar-offer-2",
           "restaurantId": "biryani-dar",
-          "name": "وجبة عائلية ثالي — دار البرياني",
+          "name": "وجبة عائلية ثالي",
           "description": "تشكيلة أطباق هندية تكفي العائلة.",
           "image": "https://images.unsplash.com/photo-1565557623262-b51c2513a641?w=800&q=80",
           "price": 119,
@@ -3318,7 +3318,7 @@
         {
           "id": "biryani-dar-offer-3",
           "restaurantId": "biryani-dar",
-          "name": "عرض كاري مع أرز ونان — دار البرياني",
+          "name": "عرض كاري مع أرز ونان",
           "description": "تيكا ماسالا وأرز ونان بسعر واحد.",
           "image": "https://images.unsplash.com/photo-1588168333986-5078d3ae3976?w=800&q=80",
           "price": 52,
@@ -3883,7 +3883,7 @@
         {
           "id": "naan-house-offer-1",
           "restaurantId": "naan-house",
-          "name": "وجبة برياني كاملة — بيت الخبز النان",
+          "name": "وجبة برياني كاملة",
           "description": "برياني مع رايتا ونان ومشروب.",
           "image": "https://images.unsplash.com/photo-1585937421612-70a008356fbe?w=800&q=80",
           "price": 54,
@@ -3937,7 +3937,7 @@
         {
           "id": "naan-house-offer-2",
           "restaurantId": "naan-house",
-          "name": "وجبة عائلية ثالي — بيت الخبز النان",
+          "name": "وجبة عائلية ثالي",
           "description": "تشكيلة أطباق هندية تكفي العائلة.",
           "image": "https://images.unsplash.com/photo-1565557623262-b51c2513a641?w=800&q=80",
           "price": 119,
@@ -3992,7 +3992,7 @@
         {
           "id": "naan-house-offer-3",
           "restaurantId": "naan-house",
-          "name": "عرض كاري مع أرز ونان — بيت الخبز النان",
+          "name": "عرض كاري مع أرز ونان",
           "description": "تيكا ماسالا وأرز ونان بسعر واحد.",
           "image": "https://images.unsplash.com/photo-1588168333986-5078d3ae3976?w=800&q=80",
           "price": 52,
@@ -4557,7 +4557,7 @@
         {
           "id": "tikka-spot-offer-1",
           "restaurantId": "tikka-spot",
-          "name": "وجبة برياني كاملة — تيكا سبوت",
+          "name": "وجبة برياني كاملة",
           "description": "برياني مع رايتا ونان ومشروب.",
           "image": "https://images.unsplash.com/photo-1585937421612-70a008356fbe?w=800&q=80",
           "price": 54,
@@ -4611,7 +4611,7 @@
         {
           "id": "tikka-spot-offer-2",
           "restaurantId": "tikka-spot",
-          "name": "وجبة عائلية ثالي — تيكا سبوت",
+          "name": "وجبة عائلية ثالي",
           "description": "تشكيلة أطباق هندية تكفي العائلة.",
           "image": "https://images.unsplash.com/photo-1565557623262-b51c2513a641?w=800&q=80",
           "price": 119,
@@ -4666,7 +4666,7 @@
         {
           "id": "tikka-spot-offer-3",
           "restaurantId": "tikka-spot",
-          "name": "عرض كاري مع أرز ونان — تيكا سبوت",
+          "name": "عرض كاري مع أرز ونان",
           "description": "تيكا ماسالا وأرز ونان بسعر واحد.",
           "image": "https://images.unsplash.com/photo-1588168333986-5078d3ae3976?w=800&q=80",
           "price": 52,
@@ -5231,7 +5231,7 @@
         {
           "id": "delhi-express-offer-1",
           "restaurantId": "delhi-express",
-          "name": "وجبة برياني كاملة — دلهي إكسبرس",
+          "name": "وجبة برياني كاملة",
           "description": "برياني مع رايتا ونان ومشروب.",
           "image": "https://images.unsplash.com/photo-1585937421612-70a008356fbe?w=800&q=80",
           "price": 54,
@@ -5285,7 +5285,7 @@
         {
           "id": "delhi-express-offer-2",
           "restaurantId": "delhi-express",
-          "name": "وجبة عائلية ثالي — دلهي إكسبرس",
+          "name": "وجبة عائلية ثالي",
           "description": "تشكيلة أطباق هندية تكفي العائلة.",
           "image": "https://images.unsplash.com/photo-1565557623262-b51c2513a641?w=800&q=80",
           "price": 119,
@@ -5340,7 +5340,7 @@
         {
           "id": "delhi-express-offer-3",
           "restaurantId": "delhi-express",
-          "name": "عرض كاري مع أرز ونان — دلهي إكسبرس",
+          "name": "عرض كاري مع أرز ونان",
           "description": "تيكا ماسالا وأرز ونان بسعر واحد.",
           "image": "https://images.unsplash.com/photo-1588168333986-5078d3ae3976?w=800&q=80",
           "price": 52,

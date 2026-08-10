@@ -512,7 +512,7 @@
         {
           "id": "bayt-alshawaya-offer-1",
           "restaurantId": "bayt-alshawaya",
-          "name": "وجبة مشاوي فردية — بيت الشواية",
+          "name": "وجبة مشاوي فردية",
           "description": "طبق رئيسي مع أرز وسلطة ومشروب — وجبة كاملة لشخص واحد.",
           "image": "https://images.unsplash.com/photo-1555939594-58d7cb561ad1?w=800&q=80",
           "price": 59,
@@ -566,7 +566,7 @@
         {
           "id": "bayt-alshawaya-offer-2",
           "restaurantId": "bayt-alshawaya",
-          "name": "وجبة عائلية مشاوي — بيت الشواية",
+          "name": "وجبة عائلية مشاوي",
           "description": "تشكيلة تكفي ٣–٤ أشخاص مع مقبلات ومشروبات.",
           "image": "https://images.unsplash.com/photo-1529692236671-f1f6cf9683ba?w=800&q=80",
           "price": 189,
@@ -621,7 +621,7 @@
         {
           "id": "bayt-alshawaya-offer-3",
           "restaurantId": "bayt-alshawaya",
-          "name": "اشتري كباب واحصل على الثاني مجاناً — بيت الشواية",
+          "name": "اشتري كباب واحصل على الثاني مجاناً",
           "description": "عرض: كبابين بنفس السعر — مع طحينة ومخلل.",
           "image": "https://images.unsplash.com/photo-1603360946369-dc9bb6258143?w=800&q=80",
           "price": 72,
@@ -1186,7 +1186,7 @@
         {
           "id": "madhaq-alsham-offer-1",
           "restaurantId": "madhaq-alsham",
-          "name": "وجبة شاورما كاملة — مذاق الشام",
+          "name": "وجبة شاورما كاملة",
           "description": "شاورما مع بطاطس ومشروب وسلطة.",
           "image": "https://images.unsplash.com/photo-1529006557810-274b9b2fc783?w=800&q=80",
           "price": 42,
@@ -1241,7 +1241,7 @@
         {
           "id": "madhaq-alsham-offer-2",
           "restaurantId": "madhaq-alsham",
-          "name": "عرض فلافل: صحنين ومشروب — مذاق الشام",
+          "name": "عرض فلافل: صحنين ومشروب",
           "description": "صحنان فلافل مع مخلل ومشروب بسعر واحد.",
           "image": "https://images.unsplash.com/photo-1626082927389-6cd097cdc6ec?w=800&q=80",
           "price": 38,
@@ -1295,7 +1295,7 @@
         {
           "id": "madhaq-alsham-offer-3",
           "restaurantId": "madhaq-alsham",
-          "name": "تشكيلة مقبلات بسعر ثابت — مذاق الشام",
+          "name": "تشكيلة مقبلات بسعر ثابت",
           "description": "حمص ومتبل وفتوش وخبز وعصير — خمسة أصناف بسعر واحد.",
           "image": "https://images.unsplash.com/photo-1601050690117-94f5f6fa8bd7?w=800&q=80",
           "price": 68,
@@ -1861,7 +1861,7 @@
         {
           "id": "aseel-burger-offer-1",
           "restaurantId": "aseel-burger",
-          "name": "وجبة برجر كاملة — أصيل برجر",
+          "name": "وجبة برجر كاملة",
           "description": "برجر مع بطاطس ومشروب.",
           "image": "https://images.unsplash.com/photo-1568901346375-23c9450c58cd?w=800&q=80",
           "price": 49,
@@ -1914,7 +1914,7 @@
         {
           "id": "aseel-burger-offer-2",
           "restaurantId": "aseel-burger",
-          "name": "وجبة عائلية برجر — أصيل برجر",
+          "name": "وجبة عائلية برجر",
           "description": "أربعة برجر مع بطاطس عائلية وأربعة مشروبات.",
           "image": "https://images.unsplash.com/photo-1553979459-d2229ba7433b?w=800&q=80",
           "price": 149,
@@ -1968,7 +1968,7 @@
         {
           "id": "aseel-burger-offer-3",
           "restaurantId": "aseel-burger",
-          "name": "اشتري برجر دجاج واحصل على الثاني مجاناً — أصيل برجر",
+          "name": "اشتري برجر دجاج واحصل على الثاني مجاناً",
           "description": "عرض برجرين دجاج بنفس السعر.",
           "image": "https://images.unsplash.com/photo-1571091718767-18b5b1457add?w=800&q=80",
           "price": 36,
@@ -2531,7 +2531,7 @@
         {
           "id": "sushi-noi-offer-1",
           "restaurantId": "sushi-noi",
-          "name": "وجبة سوشي خفيفة — سوشي نوي",
+          "name": "وجبة سوشي خفيفة",
           "description": "رولز مع شوربة وشاي.",
           "image": "https://images.unsplash.com/photo-1579584425555-c3ce17fd4351?w=800&q=80",
           "price": 78,
@@ -2585,7 +2585,7 @@
         {
           "id": "sushi-noi-offer-2",
           "restaurantId": "sushi-noi",
-          "name": "عرض رامن مع جيوزا — سوشي نوي",
+          "name": "عرض رامن مع جيوزا",
           "description": "رامن وإدامامي وأربع قطع جيوزا بسعر واحد.",
           "image": "https://images.unsplash.com/photo-1553621042-f6e147245754?w=800&q=80",
           "price": 58,
@@ -2638,7 +2638,7 @@
         {
           "id": "sushi-noi-offer-3",
           "restaurantId": "sushi-noi",
-          "name": "تشكيلة ساشيمي بسعر ثابت — سوشي نوي",
+          "name": "تشكيلة ساشيمي بسعر ثابت",
           "description": "ساشيمي مشكل مع زنجبيل وواسابي وأرز للمشاركة.",
           "image": "https://images.unsplash.com/photo-1611143669185-af224c5e3252?w=800&q=80",
           "price": 129,
@@ -3203,7 +3203,7 @@
         {
           "id": "halawiyat-riyadh-offer-1",
           "restaurantId": "halawiyat-riyadh",
-          "name": "حلا مع قهوة — حلويات الرياض",
+          "name": "حلا مع قهوة",
           "description": "قطعة حلا مع مشروب ساخن.",
           "image": "https://images.unsplash.com/photo-1488477181946-6428a0291777?w=800&q=80",
           "price": 36,
@@ -3255,7 +3255,7 @@
         {
           "id": "halawiyat-riyadh-offer-2",
           "restaurantId": "halawiyat-riyadh",
-          "name": "اشتري كنافة واحصل على الثانية مجاناً — حلويات الرياض",
+          "name": "اشتري كنافة واحصل على الثانية مجاناً",
           "description": "عرض كنافتين مع قطر بنفس السعر.",
           "image": "https://images.unsplash.com/photo-1578985545062-69928b1d9587?w=800&q=80",
           "price": 32,
@@ -3308,7 +3308,7 @@
         {
           "id": "halawiyat-riyadh-offer-3",
           "restaurantId": "halawiyat-riyadh",
-          "name": "عرض وافل مع آيس كريم — حلويات الرياض",
+          "name": "عرض وافل مع آيس كريم",
           "description": "وافل وسكوب آيس كريم وصوص بسعر واحد.",
           "image": "https://images.unsplash.com/photo-1563805042-7684c019e1cb?w=800&q=80",
           "price": 34,
@@ -3872,7 +3872,7 @@
         {
           "id": "pizza-roma-offer-1",
           "restaurantId": "pizza-roma",
-          "name": "وجبة بيتزا فردية — بيتزا روما",
+          "name": "وجبة بيتزا فردية",
           "description": "بيتزا شخصية مع سلطة ومشروب.",
           "image": "https://images.unsplash.com/photo-1513104890138-7c749659a591?w=800&q=80",
           "price": 55,
@@ -3925,7 +3925,7 @@
         {
           "id": "pizza-roma-offer-2",
           "restaurantId": "pizza-roma",
-          "name": "وجبة عائلية بيتزا — بيتزا روما",
+          "name": "وجبة عائلية بيتزا",
           "description": "بيتزا كبيرة مع مقبلات ومشروبين للعائلة.",
           "image": "https://images.unsplash.com/photo-1551183053-bf91a1d81141?w=800&q=80",
           "price": 99,
@@ -3978,7 +3978,7 @@
         {
           "id": "pizza-roma-offer-3",
           "restaurantId": "pizza-roma",
-          "name": "اشتري باستا واحصل على الثانية مجاناً — بيتزا روما",
+          "name": "اشتري باستا واحصل على الثانية مجاناً",
           "description": "عرض طبقي باستا مع ثوم محمص.",
           "image": "https://images.unsplash.com/photo-1565299624946-b28f40a0ae38?w=800&q=80",
           "price": 48,
@@ -4542,7 +4542,7 @@
         {
           "id": "hindi-masala-offer-1",
           "restaurantId": "hindi-masala",
-          "name": "وجبة برياني كاملة — هندي ماسالا",
+          "name": "وجبة برياني كاملة",
           "description": "برياني مع رايتا ونان ومشروب.",
           "image": "https://images.unsplash.com/photo-1585937421612-70a008356fbe?w=800&q=80",
           "price": 54,
@@ -4596,7 +4596,7 @@
         {
           "id": "hindi-masala-offer-2",
           "restaurantId": "hindi-masala",
-          "name": "وجبة عائلية ثالي — هندي ماسالا",
+          "name": "وجبة عائلية ثالي",
           "description": "تشكيلة أطباق هندية تكفي العائلة.",
           "image": "https://images.unsplash.com/photo-1565557623262-b51c2513a641?w=800&q=80",
           "price": 119,
@@ -4651,7 +4651,7 @@
         {
           "id": "hindi-masala-offer-3",
           "restaurantId": "hindi-masala",
-          "name": "عرض كاري مع أرز ونان — هندي ماسالا",
+          "name": "عرض كاري مع أرز ونان",
           "description": "تيكا ماسالا وأرز ونان بسعر واحد.",
           "image": "https://images.unsplash.com/photo-1588168333986-5078d3ae3976?w=800&q=80",
           "price": 52,
@@ -5215,7 +5215,7 @@
         {
           "id": "kabsa-dar-offer-1",
           "restaurantId": "kabsa-dar",
-          "name": "وجبة كبسة فردية — دار الكبسة",
+          "name": "وجبة كبسة فردية",
           "description": "كبسة مع سلطة وتمر ومشروب.",
           "image": "https://images.unsplash.com/photo-1512058564366-18510be2db19?w=800&q=80",
           "price": 48,
@@ -5269,7 +5269,7 @@
         {
           "id": "kabsa-dar-offer-2",
           "restaurantId": "kabsa-dar",
-          "name": "وجبة عائلية مندي — دار الكبسة",
+          "name": "وجبة عائلية مندي",
           "description": "مندي لحم تكفي العائلة مع شوربة وسلطة ومشروبين.",
           "image": "https://images.unsplash.com/photo-1544025162-d76694265947?w=800&q=80",
           "price": 149,
@@ -5323,7 +5323,7 @@
         {
           "id": "kabsa-dar-offer-3",
           "restaurantId": "kabsa-dar",
-          "name": "عرض ضيافة: جريش وهريس وتمر — دار الكبسة",
+          "name": "عرض ضيافة: جريش وهريس وتمر",
           "description": "أربعة أصناف للضيافة بسعر ثابت مع قهوة عربية.",
           "image": "https://images.unsplash.com/photo-1600891964599-f61ba0e24092?w=800&q=80",
           "price": 79,
@@ -5888,7 +5888,7 @@
         {
           "id": "seafood-coast-offer-1",
           "restaurantId": "seafood-coast",
-          "name": "وجبة سمك مشوي — ساحل المأكولات البحرية",
+          "name": "وجبة سمك مشوي",
           "description": "سمك مع أرز وسلطة ومشروب.",
           "image": "https://images.unsplash.com/photo-1559339352-11d035aa65de?w=800&q=80",
           "price": 68,
@@ -5943,7 +5943,7 @@
         {
           "id": "seafood-coast-offer-2",
           "restaurantId": "seafood-coast",
-          "name": "وجبة عائلية بحرية — ساحل المأكولات البحرية",
+          "name": "وجبة عائلية بحرية",
           "description": "سمك وروبيان وأرز وسلطة ومشروبين للمشاركة.",
           "image": "https://images.unsplash.com/photo-1559847844-5315695dadae?w=800&q=80",
           "price": 169,
@@ -5998,7 +5998,7 @@
         {
           "id": "seafood-coast-offer-3",
           "restaurantId": "seafood-coast",
-          "name": "اشتري روبيان واحصل على الثاني مجاناً — ساحل المأكولات البحرية",
+          "name": "اشتري روبيان واحصل على الثاني مجاناً",
           "description": "عرض روبيانين مع صوص ثوم بنفس السعر.",
           "image": "https://images.unsplash.com/photo-1615141982883-c7ad0e69fd62?w=800&q=80",
           "price": 74,
@@ -6562,7 +6562,7 @@
         {
           "id": "healthy-bowl-offer-1",
           "restaurantId": "healthy-bowl",
-          "name": "وجبة بروتين خفيفة — بول الصحية",
+          "name": "وجبة بروتين خفيفة",
           "description": "صدر دجاج مع سلطة وبطاطا حلوة وماء.",
           "image": "https://images.unsplash.com/photo-1512621776951-a57141f2eefd?w=800&q=80",
           "price": 52,
@@ -6616,7 +6616,7 @@
         {
           "id": "healthy-bowl-offer-2",
           "restaurantId": "healthy-bowl",
-          "name": "عرض بول مع سموذي — بول الصحية",
+          "name": "عرض بول مع سموذي",
           "description": "كينوا بول وسموذي بسعر واحد.",
           "image": "https://images.unsplash.com/photo-1546069901-ba9599a7e63c?w=800&q=80",
           "price": 48,
@@ -6668,7 +6668,7 @@
         {
           "id": "healthy-bowl-offer-3",
           "restaurantId": "healthy-bowl",
-          "name": "عرض ٣ سلطات بسعر ثابت — بول الصحية",
+          "name": "عرض ٣ سلطات بسعر ثابت",
           "description": "سلطة دجاج وتونة وخضراء — ثلاثة أصناف بسعر واحد.",
           "image": "https://images.unsplash.com/photo-1490645935967-10de6ba17061?w=800&q=80",
           "price": 79,
@@ -6949,7 +6949,7 @@
         {
           "id": "luqma-mart-offer-1",
           "restaurantId": "luqma-mart",
-          "name": "عرض فطور البيت — ماركت لقمة",
+          "name": "عرض فطور البيت",
           "description": "توست وبيض وجبنة وحليب — أربعة أصناف بسعر ثابت.",
           "image": "https://images.unsplash.com/photo-1504674900247-0877df9cc836?w=800&q=80",
           "price": 29,
@@ -6977,7 +6977,7 @@
         {
           "id": "luqma-mart-offer-2",
           "restaurantId": "luqma-mart",
-          "name": "عرض مياه مع عصير — ماركت لقمة",
+          "name": "عرض مياه مع عصير",
           "description": "مياه ٦ عبوات مع عصير بسعر واحد.",
           "image": "https://images.unsplash.com/photo-1482049016688-2d3e1b311543?w=800&q=80",
           "price": 14,
@@ -7003,7 +7003,7 @@
         {
           "id": "luqma-mart-offer-3",
           "restaurantId": "luqma-mart",
-          "name": "عرض ضيافة للعائلة — ماركت لقمة",
+          "name": "عرض ضيافة للعائلة",
           "description": "تمر ومياه وعصير وقهوة للضيوف.",
           "image": "https://images.unsplash.com/photo-1498837167922-ddd27525d352?w=800&q=80",
           "price": 45,

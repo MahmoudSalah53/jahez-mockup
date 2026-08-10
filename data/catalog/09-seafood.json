@@ -513,7 +513,7 @@
         {
           "id": "blue-harbor-offer-1",
           "restaurantId": "blue-harbor",
-          "name": "وجبة سمك مشوي — الميناء الأزرق",
+          "name": "وجبة سمك مشوي",
           "description": "سمك مع أرز وسلطة ومشروب.",
           "image": "https://images.unsplash.com/photo-1559339352-11d035aa65de?w=800&q=80",
           "price": 68,
@@ -568,7 +568,7 @@
         {
           "id": "blue-harbor-offer-2",
           "restaurantId": "blue-harbor",
-          "name": "وجبة عائلية بحرية — الميناء الأزرق",
+          "name": "وجبة عائلية بحرية",
           "description": "سمك وروبيان وأرز وسلطة ومشروبين للمشاركة.",
           "image": "https://images.unsplash.com/photo-1559847844-5315695dadae?w=800&q=80",
           "price": 169,
@@ -623,7 +623,7 @@
         {
           "id": "blue-harbor-offer-3",
           "restaurantId": "blue-harbor",
-          "name": "اشتري روبيان واحصل على الثاني مجاناً — الميناء الأزرق",
+          "name": "اشتري روبيان واحصل على الثاني مجاناً",
           "description": "عرض روبيانين مع صوص ثوم بنفس السعر.",
           "image": "https://images.unsplash.com/photo-1615141982883-c7ad0e69fd62?w=800&q=80",
           "price": 74,
@@ -1188,7 +1188,7 @@
         {
           "id": "shrimp-coast-offer-1",
           "restaurantId": "shrimp-coast",
-          "name": "وجبة سمك مشوي — ساحل الروبيان",
+          "name": "وجبة سمك مشوي",
           "description": "سمك مع أرز وسلطة ومشروب.",
           "image": "https://images.unsplash.com/photo-1559339352-11d035aa65de?w=800&q=80",
           "price": 68,
@@ -1243,7 +1243,7 @@
         {
           "id": "shrimp-coast-offer-2",
           "restaurantId": "shrimp-coast",
-          "name": "وجبة عائلية بحرية — ساحل الروبيان",
+          "name": "وجبة عائلية بحرية",
           "description": "سمك وروبيان وأرز وسلطة ومشروبين للمشاركة.",
           "image": "https://images.unsplash.com/photo-1559847844-5315695dadae?w=800&q=80",
           "price": 169,
@@ -1298,7 +1298,7 @@
         {
           "id": "shrimp-coast-offer-3",
           "restaurantId": "shrimp-coast",
-          "name": "اشتري روبيان واحصل على الثاني مجاناً — ساحل الروبيان",
+          "name": "اشتري روبيان واحصل على الثاني مجاناً",
           "description": "عرض روبيانين مع صوص ثوم بنفس السعر.",
           "image": "https://images.unsplash.com/photo-1615141982883-c7ad0e69fd62?w=800&q=80",
           "price": 74,
@@ -1863,7 +1863,7 @@
         {
           "id": "coral-grill-offer-1",
           "restaurantId": "coral-grill",
-          "name": "وجبة سمك مشوي — مشواة المرجان",
+          "name": "وجبة سمك مشوي",
           "description": "سمك مع أرز وسلطة ومشروب.",
           "image": "https://images.unsplash.com/photo-1559339352-11d035aa65de?w=800&q=80",
           "price": 68,
@@ -1918,7 +1918,7 @@
         {
           "id": "coral-grill-offer-2",
           "restaurantId": "coral-grill",
-          "name": "وجبة عائلية بحرية — مشواة المرجان",
+          "name": "وجبة عائلية بحرية",
           "description": "سمك وروبيان وأرز وسلطة ومشروبين للمشاركة.",
           "image": "https://images.unsplash.com/photo-1559847844-5315695dadae?w=800&q=80",
           "price": 169,
@@ -1973,7 +1973,7 @@
         {
           "id": "coral-grill-offer-3",
           "restaurantId": "coral-grill",
-          "name": "اشتري روبيان واحصل على الثاني مجاناً — مشواة المرجان",
+          "name": "اشتري روبيان واحصل على الثاني مجاناً",
           "description": "عرض روبيانين مع صوص ثوم بنفس السعر.",
           "image": "https://images.unsplash.com/photo-1615141982883-c7ad0e69fd62?w=800&q=80",
           "price": 74,
@@ -2538,7 +2538,7 @@
         {
           "id": "wave-kitchen-offer-1",
           "restaurantId": "wave-kitchen",
-          "name": "وجبة سمك مشوي — مطبخ الموجة",
+          "name": "وجبة سمك مشوي",
           "description": "سمك مع أرز وسلطة ومشروب.",
           "image": "https://images.unsplash.com/photo-1559339352-11d035aa65de?w=800&q=80",
           "price": 68,
@@ -2593,7 +2593,7 @@
         {
           "id": "wave-kitchen-offer-2",
           "restaurantId": "wave-kitchen",
-          "name": "وجبة عائلية بحرية — مطبخ الموجة",
+          "name": "وجبة عائلية بحرية",
           "description": "سمك وروبيان وأرز وسلطة ومشروبين للمشاركة.",
           "image": "https://images.unsplash.com/photo-1559847844-5315695dadae?w=800&q=80",
           "price": 169,
@@ -2648,7 +2648,7 @@
         {
           "id": "wave-kitchen-offer-3",
           "restaurantId": "wave-kitchen",
-          "name": "اشتري روبيان واحصل على الثاني مجاناً — مطبخ الموجة",
+          "name": "اشتري روبيان واحصل على الثاني مجاناً",
           "description": "عرض روبيانين مع صوص ثوم بنفس السعر.",
           "image": "https://images.unsplash.com/photo-1615141982883-c7ad0e69fd62?w=800&q=80",
           "price": 74,
@@ -3213,7 +3213,7 @@
         {
           "id": "pearl-seafood-offer-1",
           "restaurantId": "pearl-seafood",
-          "name": "وجبة سمك مشوي — لؤلؤة البحر",
+          "name": "وجبة سمك مشوي",
           "description": "سمك مع أرز وسلطة ومشروب.",
           "image": "https://images.unsplash.com/photo-1559339352-11d035aa65de?w=800&q=80",
           "price": 68,
@@ -3268,7 +3268,7 @@
         {
           "id": "pearl-seafood-offer-2",
           "restaurantId": "pearl-seafood",
-          "name": "وجبة عائلية بحرية — لؤلؤة البحر",
+          "name": "وجبة عائلية بحرية",
           "description": "سمك وروبيان وأرز وسلطة ومشروبين للمشاركة.",
           "image": "https://images.unsplash.com/photo-1559847844-5315695dadae?w=800&q=80",
           "price": 169,
@@ -3323,7 +3323,7 @@
         {
           "id": "pearl-seafood-offer-3",
           "restaurantId": "pearl-seafood",
-          "name": "اشتري روبيان واحصل على الثاني مجاناً — لؤلؤة البحر",
+          "name": "اشتري روبيان واحصل على الثاني مجاناً",
           "description": "عرض روبيانين مع صوص ثوم بنفس السعر.",
           "image": "https://images.unsplash.com/photo-1615141982883-c7ad0e69fd62?w=800&q=80",
           "price": 74,
@@ -3888,7 +3888,7 @@
         {
           "id": "anchor-fish-offer-1",
           "restaurantId": "anchor-fish",
-          "name": "وجبة سمك مشوي — سمك المرساة",
+          "name": "وجبة سمك مشوي",
           "description": "سمك مع أرز وسلطة ومشروب.",
           "image": "https://images.unsplash.com/photo-1559339352-11d035aa65de?w=800&q=80",
           "price": 68,
@@ -3943,7 +3943,7 @@
         {
           "id": "anchor-fish-offer-2",
           "restaurantId": "anchor-fish",
-          "name": "وجبة عائلية بحرية — سمك المرساة",
+          "name": "وجبة عائلية بحرية",
           "description": "سمك وروبيان وأرز وسلطة ومشروبين للمشاركة.",
           "image": "https://images.unsplash.com/photo-1559847844-5315695dadae?w=800&q=80",
           "price": 169,
@@ -3998,7 +3998,7 @@
         {
           "id": "anchor-fish-offer-3",
           "restaurantId": "anchor-fish",
-          "name": "اشتري روبيان واحصل على الثاني مجاناً — سمك المرساة",
+          "name": "اشتري روبيان واحصل على الثاني مجاناً",
           "description": "عرض روبيانين مع صوص ثوم بنفس السعر.",
           "image": "https://images.unsplash.com/photo-1615141982883-c7ad0e69fd62?w=800&q=80",
           "price": 74,
@@ -4563,7 +4563,7 @@
         {
           "id": "tide-table-offer-1",
           "restaurantId": "tide-table",
-          "name": "وجبة سمك مشوي — طاولة المد",
+          "name": "وجبة سمك مشوي",
           "description": "سمك مع أرز وسلطة ومشروب.",
           "image": "https://images.unsplash.com/photo-1559339352-11d035aa65de?w=800&q=80",
           "price": 68,
@@ -4618,7 +4618,7 @@
         {
           "id": "tide-table-offer-2",
           "restaurantId": "tide-table",
-          "name": "وجبة عائلية بحرية — طاولة المد",
+          "name": "وجبة عائلية بحرية",
           "description": "سمك وروبيان وأرز وسلطة ومشروبين للمشاركة.",
           "image": "https://images.unsplash.com/photo-1559847844-5315695dadae?w=800&q=80",
           "price": 169,
@@ -4673,7 +4673,7 @@
         {
           "id": "tide-table-offer-3",
           "restaurantId": "tide-table",
-          "name": "اشتري روبيان واحصل على الثاني مجاناً — طاولة المد",
+          "name": "اشتري روبيان واحصل على الثاني مجاناً",
           "description": "عرض روبيانين مع صوص ثوم بنفس السعر.",
           "image": "https://images.unsplash.com/photo-1615141982883-c7ad0e69fd62?w=800&q=80",
           "price": 74,
@@ -5238,7 +5238,7 @@
         {
           "id": "salt-breeze-offer-1",
           "restaurantId": "salt-breeze",
-          "name": "وجبة سمك مشوي — نسيم الملح",
+          "name": "وجبة سمك مشوي",
           "description": "سمك مع أرز وسلطة ومشروب.",
           "image": "https://images.unsplash.com/photo-1559339352-11d035aa65de?w=800&q=80",
           "price": 68,
@@ -5293,7 +5293,7 @@
         {
           "id": "salt-breeze-offer-2",
           "restaurantId": "salt-breeze",
-          "name": "وجبة عائلية بحرية — نسيم الملح",
+          "name": "وجبة عائلية بحرية",
           "description": "سمك وروبيان وأرز وسلطة ومشروبين للمشاركة.",
           "image": "https://images.unsplash.com/photo-1559847844-5315695dadae?w=800&q=80",
           "price": 169,
@@ -5348,7 +5348,7 @@
         {
           "id": "salt-breeze-offer-3",
           "restaurantId": "salt-breeze",
-          "name": "اشتري روبيان واحصل على الثاني مجاناً — نسيم الملح",
+          "name": "اشتري روبيان واحصل على الثاني مجاناً",
           "description": "عرض روبيانين مع صوص ثوم بنفس السعر.",
           "image": "https://images.unsplash.com/photo-1615141982883-c7ad0e69fd62?w=800&q=80",
           "price": 74,

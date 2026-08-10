@@ -512,7 +512,7 @@
         {
           "id": "taco-fiesta-offer-1",
           "restaurantId": "taco-fiesta",
-          "name": "وجبة برجر كاملة — تاكو فييستا",
+          "name": "وجبة برجر كاملة",
           "description": "برجر مع بطاطس ومشروب.",
           "image": "https://images.unsplash.com/photo-1568901346375-23c9450c58cd?w=800&q=80",
           "price": 49,
@@ -565,7 +565,7 @@
         {
           "id": "taco-fiesta-offer-2",
           "restaurantId": "taco-fiesta",
-          "name": "وجبة عائلية برجر — تاكو فييستا",
+          "name": "وجبة عائلية برجر",
           "description": "أربعة برجر مع بطاطس عائلية وأربعة مشروبات.",
           "image": "https://images.unsplash.com/photo-1553979459-d2229ba7433b?w=800&q=80",
           "price": 149,
@@ -619,7 +619,7 @@
         {
           "id": "taco-fiesta-offer-3",
           "restaurantId": "taco-fiesta",
-          "name": "اشتري برجر دجاج واحصل على الثاني مجاناً — تاكو فييستا",
+          "name": "اشتري برجر دجاج واحصل على الثاني مجاناً",
           "description": "عرض برجرين دجاج بنفس السعر.",
           "image": "https://images.unsplash.com/photo-1571091718767-18b5b1457add?w=800&q=80",
           "price": 36,
@@ -1182,7 +1182,7 @@
         {
           "id": "wrap-republic-offer-1",
           "restaurantId": "wrap-republic",
-          "name": "وجبة برجر كاملة — جمهورية الراب",
+          "name": "وجبة برجر كاملة",
           "description": "برجر مع بطاطس ومشروب.",
           "image": "https://images.unsplash.com/photo-1568901346375-23c9450c58cd?w=800&q=80",
           "price": 49,
@@ -1235,7 +1235,7 @@
         {
           "id": "wrap-republic-offer-2",
           "restaurantId": "wrap-republic",
-          "name": "وجبة عائلية برجر — جمهورية الراب",
+          "name": "وجبة عائلية برجر",
           "description": "أربعة برجر مع بطاطس عائلية وأربعة مشروبات.",
           "image": "https://images.unsplash.com/photo-1553979459-d2229ba7433b?w=800&q=80",
           "price": 149,
@@ -1289,7 +1289,7 @@
         {
           "id": "wrap-republic-offer-3",
           "restaurantId": "wrap-republic",
-          "name": "اشتري برجر دجاج واحصل على الثاني مجاناً — جمهورية الراب",
+          "name": "اشتري برجر دجاج واحصل على الثاني مجاناً",
           "description": "عرض برجرين دجاج بنفس السعر.",
           "image": "https://images.unsplash.com/photo-1571091718767-18b5b1457add?w=800&q=80",
           "price": 36,
@@ -1852,7 +1852,7 @@
         {
           "id": "bao-street-offer-1",
           "restaurantId": "bao-street",
-          "name": "وجبة برجر كاملة — شارع الباو",
+          "name": "وجبة برجر كاملة",
           "description": "برجر مع بطاطس ومشروب.",
           "image": "https://images.unsplash.com/photo-1568901346375-23c9450c58cd?w=800&q=80",
           "price": 49,
@@ -1905,7 +1905,7 @@
         {
           "id": "bao-street-offer-2",
           "restaurantId": "bao-street",
-          "name": "وجبة عائلية برجر — شارع الباو",
+          "name": "وجبة عائلية برجر",
           "description": "أربعة برجر مع بطاطس عائلية وأربعة مشروبات.",
           "image": "https://images.unsplash.com/photo-1553979459-d2229ba7433b?w=800&q=80",
           "price": 149,
@@ -1959,7 +1959,7 @@
         {
           "id": "bao-street-offer-3",
           "restaurantId": "bao-street",
-          "name": "اشتري برجر دجاج واحصل على الثاني مجاناً — شارع الباو",
+          "name": "اشتري برجر دجاج واحصل على الثاني مجاناً",
           "description": "عرض برجرين دجاج بنفس السعر.",
           "image": "https://images.unsplash.com/photo-1571091718767-18b5b1457add?w=800&q=80",
           "price": 36,
@@ -2522,7 +2522,7 @@
         {
           "id": "noodle-box-offer-1",
           "restaurantId": "noodle-box",
-          "name": "وجبة برجر كاملة — صندوق النودلز",
+          "name": "وجبة برجر كاملة",
           "description": "برجر مع بطاطس ومشروب.",
           "image": "https://images.unsplash.com/photo-1568901346375-23c9450c58cd?w=800&q=80",
           "price": 49,
@@ -2575,7 +2575,7 @@
         {
           "id": "noodle-box-offer-2",
           "restaurantId": "noodle-box",
-          "name": "وجبة عائلية برجر — صندوق النودلز",
+          "name": "وجبة عائلية برجر",
           "description": "أربعة برجر مع بطاطس عائلية وأربعة مشروبات.",
           "image": "https://images.unsplash.com/photo-1553979459-d2229ba7433b?w=800&q=80",
           "price": 149,
@@ -2629,7 +2629,7 @@
         {
           "id": "noodle-box-offer-3",
           "restaurantId": "noodle-box",
-          "name": "اشتري برجر دجاج واحصل على الثاني مجاناً — صندوق النودلز",
+          "name": "اشتري برجر دجاج واحصل على الثاني مجاناً",
           "description": "عرض برجرين دجاج بنفس السعر.",
           "image": "https://images.unsplash.com/photo-1571091718767-18b5b1457add?w=800&q=80",
           "price": 36,
@@ -3192,7 +3192,7 @@
         {
           "id": "kimchi-kitchen-offer-1",
           "restaurantId": "kimchi-kitchen",
-          "name": "وجبة برجر كاملة — مطبخ الكيمتشي",
+          "name": "وجبة برجر كاملة",
           "description": "برجر مع بطاطس ومشروب.",
           "image": "https://images.unsplash.com/photo-1568901346375-23c9450c58cd?w=800&q=80",
           "price": 49,
@@ -3245,7 +3245,7 @@
         {
           "id": "kimchi-kitchen-offer-2",
           "restaurantId": "kimchi-kitchen",
-          "name": "وجبة عائلية برجر — مطبخ الكيمتشي",
+          "name": "وجبة عائلية برجر",
           "description": "أربعة برجر مع بطاطس عائلية وأربعة مشروبات.",
           "image": "https://images.unsplash.com/photo-1553979459-d2229ba7433b?w=800&q=80",
           "price": 149,
@@ -3299,7 +3299,7 @@
         {
           "id": "kimchi-kitchen-offer-3",
           "restaurantId": "kimchi-kitchen",
-          "name": "اشتري برجر دجاج واحصل على الثاني مجاناً — مطبخ الكيمتشي",
+          "name": "اشتري برجر دجاج واحصل على الثاني مجاناً",
           "description": "عرض برجرين دجاج بنفس السعر.",
           "image": "https://images.unsplash.com/photo-1571091718767-18b5b1457add?w=800&q=80",
           "price": 36,
@@ -3862,7 +3862,7 @@
         {
           "id": "satay-house-offer-1",
           "restaurantId": "satay-house",
-          "name": "وجبة برجر كاملة — بيت الساتيه",
+          "name": "وجبة برجر كاملة",
           "description": "برجر مع بطاطس ومشروب.",
           "image": "https://images.unsplash.com/photo-1568901346375-23c9450c58cd?w=800&q=80",
           "price": 49,
@@ -3915,7 +3915,7 @@
         {
           "id": "satay-house-offer-2",
           "restaurantId": "satay-house",
-          "name": "وجبة عائلية برجر — بيت الساتيه",
+          "name": "وجبة عائلية برجر",
           "description": "أربعة برجر مع بطاطس عائلية وأربعة مشروبات.",
           "image": "https://images.unsplash.com/photo-1553979459-d2229ba7433b?w=800&q=80",
           "price": 149,
@@ -3969,7 +3969,7 @@
         {
           "id": "satay-house-offer-3",
           "restaurantId": "satay-house",
-          "name": "اشتري برجر دجاج واحصل على الثاني مجاناً — بيت الساتيه",
+          "name": "اشتري برجر دجاج واحصل على الثاني مجاناً",
           "description": "عرض برجرين دجاج بنفس السعر.",
           "image": "https://images.unsplash.com/photo-1571091718767-18b5b1457add?w=800&q=80",
           "price": 36,
@@ -4532,7 +4532,7 @@
         {
           "id": "pho-bowl-offer-1",
           "restaurantId": "pho-bowl",
-          "name": "وجبة برجر كاملة — بول الفو",
+          "name": "وجبة برجر كاملة",
           "description": "برجر مع بطاطس ومشروب.",
           "image": "https://images.unsplash.com/photo-1568901346375-23c9450c58cd?w=800&q=80",
           "price": 49,
@@ -4585,7 +4585,7 @@
         {
           "id": "pho-bowl-offer-2",
           "restaurantId": "pho-bowl",
-          "name": "وجبة عائلية برجر — بول الفو",
+          "name": "وجبة عائلية برجر",
           "description": "أربعة برجر مع بطاطس عائلية وأربعة مشروبات.",
           "image": "https://images.unsplash.com/photo-1553979459-d2229ba7433b?w=800&q=80",
           "price": 149,
@@ -4639,7 +4639,7 @@
         {
           "id": "pho-bowl-offer-3",
           "restaurantId": "pho-bowl",
-          "name": "اشتري برجر دجاج واحصل على الثاني مجاناً — بول الفو",
+          "name": "اشتري برجر دجاج واحصل على الثاني مجاناً",
           "description": "عرض برجرين دجاج بنفس السعر.",
           "image": "https://images.unsplash.com/photo-1571091718767-18b5b1457add?w=800&q=80",
           "price": 36,
@@ -5202,7 +5202,7 @@
         {
           "id": "padthai-express-offer-1",
           "restaurantId": "padthai-express",
-          "name": "وجبة برجر كاملة — باد تاي إكسبرس",
+          "name": "وجبة برجر كاملة",
           "description": "برجر مع بطاطس ومشروب.",
           "image": "https://images.unsplash.com/photo-1568901346375-23c9450c58cd?w=800&q=80",
           "price": 49,
@@ -5255,7 +5255,7 @@
         {
           "id": "padthai-express-offer-2",
           "restaurantId": "padthai-express",
-          "name": "وجبة عائلية برجر — باد تاي إكسبرس",
+          "name": "وجبة عائلية برجر",
           "description": "أربعة برجر مع بطاطس عائلية وأربعة مشروبات.",
           "image": "https://images.unsplash.com/photo-1553979459-d2229ba7433b?w=800&q=80",
           "price": 149,
@@ -5309,7 +5309,7 @@
         {
           "id": "padthai-express-offer-3",
           "restaurantId": "padthai-express",
-          "name": "اشتري برجر دجاج واحصل على الثاني مجاناً — باد تاي إكسبرس",
+          "name": "اشتري برجر دجاج واحصل على الثاني مجاناً",
           "description": "عرض برجرين دجاج بنفس السعر.",
           "image": "https://images.unsplash.com/photo-1571091718767-18b5b1457add?w=800&q=80",
           "price": 36,

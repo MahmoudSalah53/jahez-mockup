@@ -513,7 +513,7 @@
         {
           "id": "sham-alaseel-offer-1",
           "restaurantId": "sham-alaseel",
-          "name": "وجبة شاورما كاملة — شام الأصيل",
+          "name": "وجبة شاورما كاملة",
           "description": "شاورما مع بطاطس ومشروب وسلطة.",
           "image": "https://images.unsplash.com/photo-1529006557810-274b9b2fc783?w=800&q=80",
           "price": 42,
@@ -568,7 +568,7 @@
         {
           "id": "sham-alaseel-offer-2",
           "restaurantId": "sham-alaseel",
-          "name": "عرض فلافل: صحنين ومشروب — شام الأصيل",
+          "name": "عرض فلافل: صحنين ومشروب",
           "description": "صحنان فلافل مع مخلل ومشروب بسعر واحد.",
           "image": "https://images.unsplash.com/photo-1626082927389-6cd097cdc6ec?w=800&q=80",
           "price": 38,
@@ -622,7 +622,7 @@
         {
           "id": "sham-alaseel-offer-3",
           "restaurantId": "sham-alaseel",
-          "name": "تشكيلة مقبلات بسعر ثابت — شام الأصيل",
+          "name": "تشكيلة مقبلات بسعر ثابت",
           "description": "حمص ومتبل وفتوش وخبز وعصير — خمسة أصناف بسعر واحد.",
           "image": "https://images.unsplash.com/photo-1601050690117-94f5f6fa8bd7?w=800&q=80",
           "price": 68,
@@ -1189,7 +1189,7 @@
         {
           "id": "beit-falafel-offer-1",
           "restaurantId": "beit-falafel",
-          "name": "وجبة شاورما كاملة — بيت الفلافل",
+          "name": "وجبة شاورما كاملة",
           "description": "شاورما مع بطاطس ومشروب وسلطة.",
           "image": "https://images.unsplash.com/photo-1529006557810-274b9b2fc783?w=800&q=80",
           "price": 42,
@@ -1244,7 +1244,7 @@
         {
           "id": "beit-falafel-offer-2",
           "restaurantId": "beit-falafel",
-          "name": "عرض فلافل: صحنين ومشروب — بيت الفلافل",
+          "name": "عرض فلافل: صحنين ومشروب",
           "description": "صحنان فلافل مع مخلل ومشروب بسعر واحد.",
           "image": "https://images.unsplash.com/photo-1626082927389-6cd097cdc6ec?w=800&q=80",
           "price": 38,
@@ -1298,7 +1298,7 @@
         {
           "id": "beit-falafel-offer-3",
           "restaurantId": "beit-falafel",
-          "name": "تشكيلة مقبلات بسعر ثابت — بيت الفلافل",
+          "name": "تشكيلة مقبلات بسعر ثابت",
           "description": "حمص ومتبل وفتوش وخبز وعصير — خمسة أصناف بسعر واحد.",
           "image": "https://images.unsplash.com/photo-1601050690117-94f5f6fa8bd7?w=800&q=80",
           "price": 68,
@@ -1865,7 +1865,7 @@
         {
           "id": "dimashq-kitchen-offer-1",
           "restaurantId": "dimashq-kitchen",
-          "name": "وجبة شاورما كاملة — مطبخ دمشق",
+          "name": "وجبة شاورما كاملة",
           "description": "شاورما مع بطاطس ومشروب وسلطة.",
           "image": "https://images.unsplash.com/photo-1529006557810-274b9b2fc783?w=800&q=80",
           "price": 42,
@@ -1920,7 +1920,7 @@
         {
           "id": "dimashq-kitchen-offer-2",
           "restaurantId": "dimashq-kitchen",
-          "name": "عرض فلافل: صحنين ومشروب — مطبخ دمشق",
+          "name": "عرض فلافل: صحنين ومشروب",
           "description": "صحنان فلافل مع مخلل ومشروب بسعر واحد.",
           "image": "https://images.unsplash.com/photo-1626082927389-6cd097cdc6ec?w=800&q=80",
           "price": 38,
@@ -1974,7 +1974,7 @@
         {
           "id": "dimashq-kitchen-offer-3",
           "restaurantId": "dimashq-kitchen",
-          "name": "تشكيلة مقبلات بسعر ثابت — مطبخ دمشق",
+          "name": "تشكيلة مقبلات بسعر ثابت",
           "description": "حمص ومتبل وفتوش وخبز وعصير — خمسة أصناف بسعر واحد.",
           "image": "https://images.unsplash.com/photo-1601050690117-94f5f6fa8bd7?w=800&q=80",
           "price": 68,
@@ -2541,7 +2541,7 @@
         {
           "id": "halab-taam-offer-1",
           "restaurantId": "halab-taam",
-          "name": "وجبة شاورما كاملة — طعم حلب",
+          "name": "وجبة شاورما كاملة",
           "description": "شاورما مع بطاطس ومشروب وسلطة.",
           "image": "https://images.unsplash.com/photo-1529006557810-274b9b2fc783?w=800&q=80",
           "price": 42,
@@ -2596,7 +2596,7 @@
         {
           "id": "halab-taam-offer-2",
           "restaurantId": "halab-taam",
-          "name": "عرض فلافل: صحنين ومشروب — طعم حلب",
+          "name": "عرض فلافل: صحنين ومشروب",
           "description": "صحنان فلافل مع مخلل ومشروب بسعر واحد.",
           "image": "https://images.unsplash.com/photo-1626082927389-6cd097cdc6ec?w=800&q=80",
           "price": 38,
@@ -2650,7 +2650,7 @@
         {
           "id": "halab-taam-offer-3",
           "restaurantId": "halab-taam",
-          "name": "تشكيلة مقبلات بسعر ثابت — طعم حلب",
+          "name": "تشكيلة مقبلات بسعر ثابت",
           "description": "حمص ومتبل وفتوش وخبز وعصير — خمسة أصناف بسعر واحد.",
           "image": "https://images.unsplash.com/photo-1601050690117-94f5f6fa8bd7?w=800&q=80",
           "price": 68,
@@ -3217,7 +3217,7 @@
         {
           "id": "zaatar-wzeit-offer-1",
           "restaurantId": "zaatar-wzeit",
-          "name": "وجبة شاورما كاملة — زعتر وزيت",
+          "name": "وجبة شاورما كاملة",
           "description": "شاورما مع بطاطس ومشروب وسلطة.",
           "image": "https://images.unsplash.com/photo-1529006557810-274b9b2fc783?w=800&q=80",
           "price": 42,
@@ -3272,7 +3272,7 @@
         {
           "id": "zaatar-wzeit-offer-2",
           "restaurantId": "zaatar-wzeit",
-          "name": "عرض فلافل: صحنين ومشروب — زعتر وزيت",
+          "name": "عرض فلافل: صحنين ومشروب",
           "description": "صحنان فلافل مع مخلل ومشروب بسعر واحد.",
           "image": "https://images.unsplash.com/photo-1626082927389-6cd097cdc6ec?w=800&q=80",
           "price": 38,
@@ -3326,7 +3326,7 @@
         {
           "id": "zaatar-wzeit-offer-3",
           "restaurantId": "zaatar-wzeit",
-          "name": "تشكيلة مقبلات بسعر ثابت — زعتر وزيت",
+          "name": "تشكيلة مقبلات بسعر ثابت",
           "description": "حمص ومتبل وفتوش وخبز وعصير — خمسة أصناف بسعر واحد.",
           "image": "https://images.unsplash.com/photo-1601050690117-94f5f6fa8bd7?w=800&q=80",
           "price": 68,
@@ -3893,7 +3893,7 @@
         {
           "id": "laban-wbasil-offer-1",
           "restaurantId": "laban-wbasil",
-          "name": "وجبة شاورما كاملة — لبن وباسل",
+          "name": "وجبة شاورما كاملة",
           "description": "شاورما مع بطاطس ومشروب وسلطة.",
           "image": "https://images.unsplash.com/photo-1529006557810-274b9b2fc783?w=800&q=80",
           "price": 42,
@@ -3948,7 +3948,7 @@
         {
           "id": "laban-wbasil-offer-2",
           "restaurantId": "laban-wbasil",
-          "name": "عرض فلافل: صحنين ومشروب — لبن وباسل",
+          "name": "عرض فلافل: صحنين ومشروب",
           "description": "صحنان فلافل مع مخلل ومشروب بسعر واحد.",
           "image": "https://images.unsplash.com/photo-1626082927389-6cd097cdc6ec?w=800&q=80",
           "price": 38,
@@ -4002,7 +4002,7 @@
         {
           "id": "laban-wbasil-offer-3",
           "restaurantId": "laban-wbasil",
-          "name": "تشكيلة مقبلات بسعر ثابت — لبن وباسل",
+          "name": "تشكيلة مقبلات بسعر ثابت",
           "description": "حمص ومتبل وفتوش وخبز وعصير — خمسة أصناف بسعر واحد.",
           "image": "https://images.unsplash.com/photo-1601050690117-94f5f6fa8bd7?w=800&q=80",
           "price": 68,
@@ -4569,7 +4569,7 @@
         {
           "id": "manakeesh-street-offer-1",
           "restaurantId": "manakeesh-street",
-          "name": "وجبة شاورما كاملة — شارع المناقيش",
+          "name": "وجبة شاورما كاملة",
           "description": "شاورما مع بطاطس ومشروب وسلطة.",
           "image": "https://images.unsplash.com/photo-1529006557810-274b9b2fc783?w=800&q=80",
           "price": 42,
@@ -4624,7 +4624,7 @@
         {
           "id": "manakeesh-street-offer-2",
           "restaurantId": "manakeesh-street",
-          "name": "عرض فلافل: صحنين ومشروب — شارع المناقيش",
+          "name": "عرض فلافل: صحنين ومشروب",
           "description": "صحنان فلافل مع مخلل ومشروب بسعر واحد.",
           "image": "https://images.unsplash.com/photo-1626082927389-6cd097cdc6ec?w=800&q=80",
           "price": 38,
@@ -4678,7 +4678,7 @@
         {
           "id": "manakeesh-street-offer-3",
           "restaurantId": "manakeesh-street",
-          "name": "تشكيلة مقبلات بسعر ثابت — شارع المناقيش",
+          "name": "تشكيلة مقبلات بسعر ثابت",
           "description": "حمص ومتبل وفتوش وخبز وعصير — خمسة أصناف بسعر واحد.",
           "image": "https://images.unsplash.com/photo-1601050690117-94f5f6fa8bd7?w=800&q=80",
           "price": 68,
@@ -5245,7 +5245,7 @@
         {
           "id": "hummus-house-offer-1",
           "restaurantId": "hummus-house",
-          "name": "وجبة شاورما كاملة — بيت الحمص",
+          "name": "وجبة شاورما كاملة",
           "description": "شاورما مع بطاطس ومشروب وسلطة.",
           "image": "https://images.unsplash.com/photo-1529006557810-274b9b2fc783?w=800&q=80",
           "price": 42,
@@ -5300,7 +5300,7 @@
         {
           "id": "hummus-house-offer-2",
           "restaurantId": "hummus-house",
-          "name": "عرض فلافل: صحنين ومشروب — بيت الحمص",
+          "name": "عرض فلافل: صحنين ومشروب",
           "description": "صحنان فلافل مع مخلل ومشروب بسعر واحد.",
           "image": "https://images.unsplash.com/photo-1626082927389-6cd097cdc6ec?w=800&q=80",
           "price": 38,
@@ -5354,7 +5354,7 @@
         {
           "id": "hummus-house-offer-3",
           "restaurantId": "hummus-house",
-          "name": "تشكيلة مقبلات بسعر ثابت — بيت الحمص",
+          "name": "تشكيلة مقبلات بسعر ثابت",
           "description": "حمص ومتبل وفتوش وخبز وعصير — خمسة أصناف بسعر واحد.",
           "image": "https://images.unsplash.com/photo-1601050690117-94f5f6fa8bd7?w=800&q=80",
           "price": 68,

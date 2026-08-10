@@ -252,7 +252,7 @@
         {
           "id": "luqma-express-mart-offer-1",
           "restaurantId": "luqma-express-mart",
-          "name": "عرض فطور البيت — ماركت لقمة السريع",
+          "name": "عرض فطور البيت",
           "description": "توست وبيض وجبنة وحليب — أربعة أصناف بسعر ثابت.",
           "image": "https://images.unsplash.com/photo-1504674900247-0877df9cc836?w=800&q=80",
           "price": 29,
@@ -280,7 +280,7 @@
         {
           "id": "luqma-express-mart-offer-2",
           "restaurantId": "luqma-express-mart",
-          "name": "عرض مياه مع عصير — ماركت لقمة السريع",
+          "name": "عرض مياه مع عصير",
           "description": "مياه ٦ عبوات مع عصير بسعر واحد.",
           "image": "https://images.unsplash.com/photo-1482049016688-2d3e1b311543?w=800&q=80",
           "price": 14,
@@ -306,7 +306,7 @@
         {
           "id": "luqma-express-mart-offer-3",
           "restaurantId": "luqma-express-mart",
-          "name": "عرض ضيافة للعائلة — ماركت لقمة السريع",
+          "name": "عرض ضيافة للعائلة",
           "description": "تمر ومياه وعصير وقهوة للضيوف.",
           "image": "https://images.unsplash.com/photo-1498837167922-ddd27525d352?w=800&q=80",
           "price": 45,
@@ -585,7 +585,7 @@
         {
           "id": "bayt-almanzil-offer-1",
           "restaurantId": "bayt-almanzil",
-          "name": "عرض فطور البيت — بيت المنزل",
+          "name": "عرض فطور البيت",
           "description": "توست وبيض وجبنة وحليب — أربعة أصناف بسعر ثابت.",
           "image": "https://images.unsplash.com/photo-1504674900247-0877df9cc836?w=800&q=80",
           "price": 29,
@@ -613,7 +613,7 @@
         {
           "id": "bayt-almanzil-offer-2",
           "restaurantId": "bayt-almanzil",
-          "name": "عرض مياه مع عصير — بيت المنزل",
+          "name": "عرض مياه مع عصير",
           "description": "مياه ٦ عبوات مع عصير بسعر واحد.",
           "image": "https://images.unsplash.com/photo-1482049016688-2d3e1b311543?w=800&q=80",
           "price": 14,
@@ -639,7 +639,7 @@
         {
           "id": "bayt-almanzil-offer-3",
           "restaurantId": "bayt-almanzil",
-          "name": "عرض ضيافة للعائلة — بيت المنزل",
+          "name": "عرض ضيافة للعائلة",
           "description": "تمر ومياه وعصير وقهوة للضيوف.",
           "image": "https://images.unsplash.com/photo-1498837167922-ddd27525d352?w=800&q=80",
           "price": 45,
@@ -918,7 +918,7 @@
         {
           "id": "daily-basket-offer-1",
           "restaurantId": "daily-basket",
-          "name": "عرض فطور البيت — السلة اليومية",
+          "name": "عرض فطور البيت",
           "description": "توست وبيض وجبنة وحليب — أربعة أصناف بسعر ثابت.",
           "image": "https://images.unsplash.com/photo-1504674900247-0877df9cc836?w=800&q=80",
           "price": 29,
@@ -946,7 +946,7 @@
         {
           "id": "daily-basket-offer-2",
           "restaurantId": "daily-basket",
-          "name": "عرض مياه مع عصير — السلة اليومية",
+          "name": "عرض مياه مع عصير",
           "description": "مياه ٦ عبوات مع عصير بسعر واحد.",
           "image": "https://images.unsplash.com/photo-1482049016688-2d3e1b311543?w=800&q=80",
           "price": 14,
@@ -972,7 +972,7 @@
         {
           "id": "daily-basket-offer-3",
           "restaurantId": "daily-basket",
-          "name": "عرض ضيافة للعائلة — السلة اليومية",
+          "name": "عرض ضيافة للعائلة",
           "description": "تمر ومياه وعصير وقهوة للضيوف.",
           "image": "https://images.unsplash.com/photo-1498837167922-ddd27525d352?w=800&q=80",
           "price": 45,
@@ -1251,7 +1251,7 @@
         {
           "id": "fresh-aisle-offer-1",
           "restaurantId": "fresh-aisle",
-          "name": "عرض فطور البيت — ممر الطازج",
+          "name": "عرض فطور البيت",
           "description": "توست وبيض وجبنة وحليب — أربعة أصناف بسعر ثابت.",
           "image": "https://images.unsplash.com/photo-1504674900247-0877df9cc836?w=800&q=80",
           "price": 29,
@@ -1279,7 +1279,7 @@
         {
           "id": "fresh-aisle-offer-2",
           "restaurantId": "fresh-aisle",
-          "name": "عرض مياه مع عصير — ممر الطازج",
+          "name": "عرض مياه مع عصير",
           "description": "مياه ٦ عبوات مع عصير بسعر واحد.",
           "image": "https://images.unsplash.com/photo-1482049016688-2d3e1b311543?w=800&q=80",
           "price": 14,
@@ -1305,7 +1305,7 @@
         {
           "id": "fresh-aisle-offer-3",
           "restaurantId": "fresh-aisle",
-          "name": "عرض ضيافة للعائلة — ممر الطازج",
+          "name": "عرض ضيافة للعائلة",
           "description": "تمر ومياه وعصير وقهوة للضيوف.",
           "image": "https://images.unsplash.com/photo-1498837167922-ddd27525d352?w=800&q=80",
           "price": 45,
@@ -1584,7 +1584,7 @@
         {
           "id": "pantry-plus-offer-1",
           "restaurantId": "pantry-plus",
-          "name": "عرض فطور البيت — المونة بلس",
+          "name": "عرض فطور البيت",
           "description": "توست وبيض وجبنة وحليب — أربعة أصناف بسعر ثابت.",
           "image": "https://images.unsplash.com/photo-1504674900247-0877df9cc836?w=800&q=80",
           "price": 29,
@@ -1612,7 +1612,7 @@
         {
           "id": "pantry-plus-offer-2",
           "restaurantId": "pantry-plus",
-          "name": "عرض مياه مع عصير — المونة بلس",
+          "name": "عرض مياه مع عصير",
           "description": "مياه ٦ عبوات مع عصير بسعر واحد.",
           "image": "https://images.unsplash.com/photo-1482049016688-2d3e1b311543?w=800&q=80",
           "price": 14,
@@ -1638,7 +1638,7 @@
         {
           "id": "pantry-plus-offer-3",
           "restaurantId": "pantry-plus",
-          "name": "عرض ضيافة للعائلة — المونة بلس",
+          "name": "عرض ضيافة للعائلة",
           "description": "تمر ومياه وعصير وقهوة للضيوف.",
           "image": "https://images.unsplash.com/photo-1498837167922-ddd27525d352?w=800&q=80",
           "price": 45,
@@ -1917,7 +1917,7 @@
         {
           "id": "corner-staples-offer-1",
           "restaurantId": "corner-staples",
-          "name": "عرض فطور البيت — أساسيات الزاوية",
+          "name": "عرض فطور البيت",
           "description": "توست وبيض وجبنة وحليب — أربعة أصناف بسعر ثابت.",
           "image": "https://images.unsplash.com/photo-1504674900247-0877df9cc836?w=800&q=80",
           "price": 29,
@@ -1945,7 +1945,7 @@
         {
           "id": "corner-staples-offer-2",
           "restaurantId": "corner-staples",
-          "name": "عرض مياه مع عصير — أساسيات الزاوية",
+          "name": "عرض مياه مع عصير",
           "description": "مياه ٦ عبوات مع عصير بسعر واحد.",
           "image": "https://images.unsplash.com/photo-1482049016688-2d3e1b311543?w=800&q=80",
           "price": 14,
@@ -1971,7 +1971,7 @@
         {
           "id": "corner-staples-offer-3",
           "restaurantId": "corner-staples",
-          "name": "عرض ضيافة للعائلة — أساسيات الزاوية",
+          "name": "عرض ضيافة للعائلة",
           "description": "تمر ومياه وعصير وقهوة للضيوف.",
           "image": "https://images.unsplash.com/photo-1498837167922-ddd27525d352?w=800&q=80",
           "price": 45,
@@ -2250,7 +2250,7 @@
         {
           "id": "family-cart-offer-1",
           "restaurantId": "family-cart",
-          "name": "عرض فطور البيت — عربة العائلة",
+          "name": "عرض فطور البيت",
           "description": "توست وبيض وجبنة وحليب — أربعة أصناف بسعر ثابت.",
           "image": "https://images.unsplash.com/photo-1504674900247-0877df9cc836?w=800&q=80",
           "price": 29,
@@ -2278,7 +2278,7 @@
         {
           "id": "family-cart-offer-2",
           "restaurantId": "family-cart",
-          "name": "عرض مياه مع عصير — عربة العائلة",
+          "name": "عرض مياه مع عصير",
           "description": "مياه ٦ عبوات مع عصير بسعر واحد.",
           "image": "https://images.unsplash.com/photo-1482049016688-2d3e1b311543?w=800&q=80",
           "price": 14,
@@ -2304,7 +2304,7 @@
         {
           "id": "family-cart-offer-3",
           "restaurantId": "family-cart",
-          "name": "عرض ضيافة للعائلة — عربة العائلة",
+          "name": "عرض ضيافة للعائلة",
           "description": "تمر ومياه وعصير وقهوة للضيوف.",
           "image": "https://images.unsplash.com/photo-1498837167922-ddd27525d352?w=800&q=80",
           "price": 45,
@@ -2583,7 +2583,7 @@
         {
           "id": "quick-shelf-offer-1",
           "restaurantId": "quick-shelf",
-          "name": "عرض فطور البيت — الرف السريع",
+          "name": "عرض فطور البيت",
           "description": "توست وبيض وجبنة وحليب — أربعة أصناف بسعر ثابت.",
           "image": "https://images.unsplash.com/photo-1504674900247-0877df9cc836?w=800&q=80",
           "price": 29,
@@ -2611,7 +2611,7 @@
         {
           "id": "quick-shelf-offer-2",
           "restaurantId": "quick-shelf",
-          "name": "عرض مياه مع عصير — الرف السريع",
+          "name": "عرض مياه مع عصير",
           "description": "مياه ٦ عبوات مع عصير بسعر واحد.",
           "image": "https://images.unsplash.com/photo-1482049016688-2d3e1b311543?w=800&q=80",
           "price": 14,
@@ -2637,7 +2637,7 @@
         {
           "id": "quick-shelf-offer-3",
           "restaurantId": "quick-shelf",
-          "name": "عرض ضيافة للعائلة — الرف السريع",
+          "name": "عرض ضيافة للعائلة",
           "description": "تمر ومياه وعصير وقهوة للضيوف.",
           "image": "https://images.unsplash.com/photo-1498837167922-ddd27525d352?w=800&q=80",
           "price": 45,

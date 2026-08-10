@@ -666,7 +666,7 @@ function buildOfferMeal(restaurant, template, image) {
   return {
     id: `${restaurant.id}-${template.slug}`,
     restaurantId: restaurant.id,
-    name: `${template.nameTitle} — ${restaurant.name}`,
+    name: template.nameTitle,
     description: template.description,
     image,
     price: template.price,

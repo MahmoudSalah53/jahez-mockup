@@ -512,7 +512,7 @@
         {
           "id": "fahm-night-offer-1",
           "restaurantId": "fahm-night",
-          "name": "وجبة مشاوي فردية — فحم الليل",
+          "name": "وجبة مشاوي فردية",
           "description": "طبق رئيسي مع أرز وسلطة ومشروب — وجبة كاملة لشخص واحد.",
           "image": "https://images.unsplash.com/photo-1555939594-58d7cb561ad1?w=800&q=80",
           "price": 59,
@@ -566,7 +566,7 @@
         {
           "id": "fahm-night-offer-2",
           "restaurantId": "fahm-night",
-          "name": "وجبة عائلية مشاوي — فحم الليل",
+          "name": "وجبة عائلية مشاوي",
           "description": "تشكيلة تكفي ٣–٤ أشخاص مع مقبلات ومشروبات.",
           "image": "https://images.unsplash.com/photo-1529692236671-f1f6cf9683ba?w=800&q=80",
           "price": 189,
@@ -621,7 +621,7 @@
         {
           "id": "fahm-night-offer-3",
           "restaurantId": "fahm-night",
-          "name": "اشتري كباب واحصل على الثاني مجاناً — فحم الليل",
+          "name": "اشتري كباب واحصل على الثاني مجاناً",
           "description": "عرض: كبابين بنفس السعر — مع طحينة ومخلل.",
           "image": "https://images.unsplash.com/photo-1603360946369-dc9bb6258143?w=800&q=80",
           "price": 72,
@@ -1186,7 +1186,7 @@
         {
           "id": "skewer-club-offer-1",
           "restaurantId": "skewer-club",
-          "name": "وجبة مشاوي فردية — نادي الأسياخ",
+          "name": "وجبة مشاوي فردية",
           "description": "طبق رئيسي مع أرز وسلطة ومشروب — وجبة كاملة لشخص واحد.",
           "image": "https://images.unsplash.com/photo-1555939594-58d7cb561ad1?w=800&q=80",
           "price": 59,
@@ -1240,7 +1240,7 @@
         {
           "id": "skewer-club-offer-2",
           "restaurantId": "skewer-club",
-          "name": "وجبة عائلية مشاوي — نادي الأسياخ",
+          "name": "وجبة عائلية مشاوي",
           "description": "تشكيلة تكفي ٣–٤ أشخاص مع مقبلات ومشروبات.",
           "image": "https://images.unsplash.com/photo-1529692236671-f1f6cf9683ba?w=800&q=80",
           "price": 189,
@@ -1295,7 +1295,7 @@
         {
           "id": "skewer-club-offer-3",
           "restaurantId": "skewer-club",
-          "name": "اشتري كباب واحصل على الثاني مجاناً — نادي الأسياخ",
+          "name": "اشتري كباب واحصل على الثاني مجاناً",
           "description": "عرض: كبابين بنفس السعر — مع طحينة ومخلل.",
           "image": "https://images.unsplash.com/photo-1603360946369-dc9bb6258143?w=800&q=80",
           "price": 72,
@@ -1860,7 +1860,7 @@
         {
           "id": "charcoal-yard-offer-1",
           "restaurantId": "charcoal-yard",
-          "name": "وجبة مشاوي فردية — ساحة الفحم",
+          "name": "وجبة مشاوي فردية",
           "description": "طبق رئيسي مع أرز وسلطة ومشروب — وجبة كاملة لشخص واحد.",
           "image": "https://images.unsplash.com/photo-1555939594-58d7cb561ad1?w=800&q=80",
           "price": 59,
@@ -1914,7 +1914,7 @@
         {
           "id": "charcoal-yard-offer-2",
           "restaurantId": "charcoal-yard",
-          "name": "وجبة عائلية مشاوي — ساحة الفحم",
+          "name": "وجبة عائلية مشاوي",
           "description": "تشكيلة تكفي ٣–٤ أشخاص مع مقبلات ومشروبات.",
           "image": "https://images.unsplash.com/photo-1529692236671-f1f6cf9683ba?w=800&q=80",
           "price": 189,
@@ -1969,7 +1969,7 @@
         {
           "id": "charcoal-yard-offer-3",
           "restaurantId": "charcoal-yard",
-          "name": "اشتري كباب واحصل على الثاني مجاناً — ساحة الفحم",
+          "name": "اشتري كباب واحصل على الثاني مجاناً",
           "description": "عرض: كبابين بنفس السعر — مع طحينة ومخلل.",
           "image": "https://images.unsplash.com/photo-1603360946369-dc9bb6258143?w=800&q=80",
           "price": 72,
@@ -2534,7 +2534,7 @@
         {
           "id": "meat-square-offer-1",
           "restaurantId": "meat-square",
-          "name": "وجبة مشاوي فردية — ميدان اللحم",
+          "name": "وجبة مشاوي فردية",
           "description": "طبق رئيسي مع أرز وسلطة ومشروب — وجبة كاملة لشخص واحد.",
           "image": "https://images.unsplash.com/photo-1555939594-58d7cb561ad1?w=800&q=80",
           "price": 59,
@@ -2588,7 +2588,7 @@
         {
           "id": "meat-square-offer-2",
           "restaurantId": "meat-square",
-          "name": "وجبة عائلية مشاوي — ميدان اللحم",
+          "name": "وجبة عائلية مشاوي",
           "description": "تشكيلة تكفي ٣–٤ أشخاص مع مقبلات ومشروبات.",
           "image": "https://images.unsplash.com/photo-1529692236671-f1f6cf9683ba?w=800&q=80",
           "price": 189,
@@ -2643,7 +2643,7 @@
         {
           "id": "meat-square-offer-3",
           "restaurantId": "meat-square",
-          "name": "اشتري كباب واحصل على الثاني مجاناً — ميدان اللحم",
+          "name": "اشتري كباب واحصل على الثاني مجاناً",
           "description": "عرض: كبابين بنفس السعر — مع طحينة ومخلل.",
           "image": "https://images.unsplash.com/photo-1603360946369-dc9bb6258143?w=800&q=80",
           "price": 72,

@@ -513,7 +513,7 @@
         {
           "id": "green-fuel-offer-1",
           "restaurantId": "green-fuel",
-          "name": "وجبة بروتين خفيفة — وقود أخضر",
+          "name": "وجبة بروتين خفيفة",
           "description": "صدر دجاج مع سلطة وبطاطا حلوة وماء.",
           "image": "https://images.unsplash.com/photo-1512621776951-a57141f2eefd?w=800&q=80",
           "price": 52,
@@ -567,7 +567,7 @@
         {
           "id": "green-fuel-offer-2",
           "restaurantId": "green-fuel",
-          "name": "عرض بول مع سموذي — وقود أخضر",
+          "name": "عرض بول مع سموذي",
           "description": "كينوا بول وسموذي بسعر واحد.",
           "image": "https://images.unsplash.com/photo-1546069901-ba9599a7e63c?w=800&q=80",
           "price": 48,
@@ -619,7 +619,7 @@
         {
           "id": "green-fuel-offer-3",
           "restaurantId": "green-fuel",
-          "name": "عرض ٣ سلطات بسعر ثابت — وقود أخضر",
+          "name": "عرض ٣ سلطات بسعر ثابت",
           "description": "سلطة دجاج وتونة وخضراء — ثلاثة أصناف بسعر واحد.",
           "image": "https://images.unsplash.com/photo-1490645935967-10de6ba17061?w=800&q=80",
           "price": 79,
@@ -1184,7 +1184,7 @@
         {
           "id": "protein-box-offer-1",
           "restaurantId": "protein-box",
-          "name": "وجبة بروتين خفيفة — صندوق البروتين",
+          "name": "وجبة بروتين خفيفة",
           "description": "صدر دجاج مع سلطة وبطاطا حلوة وماء.",
           "image": "https://images.unsplash.com/photo-1512621776951-a57141f2eefd?w=800&q=80",
           "price": 52,
@@ -1238,7 +1238,7 @@
         {
           "id": "protein-box-offer-2",
           "restaurantId": "protein-box",
-          "name": "عرض بول مع سموذي — صندوق البروتين",
+          "name": "عرض بول مع سموذي",
           "description": "كينوا بول وسموذي بسعر واحد.",
           "image": "https://images.unsplash.com/photo-1546069901-ba9599a7e63c?w=800&q=80",
           "price": 48,
@@ -1290,7 +1290,7 @@
         {
           "id": "protein-box-offer-3",
           "restaurantId": "protein-box",
-          "name": "عرض ٣ سلطات بسعر ثابت — صندوق البروتين",
+          "name": "عرض ٣ سلطات بسعر ثابت",
           "description": "سلطة دجاج وتونة وخضراء — ثلاثة أصناف بسعر واحد.",
           "image": "https://images.unsplash.com/photo-1490645935967-10de6ba17061?w=800&q=80",
           "price": 79,
@@ -1855,7 +1855,7 @@
         {
           "id": "leaf-bowl-offer-1",
           "restaurantId": "leaf-bowl",
-          "name": "وجبة بروتين خفيفة — بول الأوراق",
+          "name": "وجبة بروتين خفيفة",
           "description": "صدر دجاج مع سلطة وبطاطا حلوة وماء.",
           "image": "https://images.unsplash.com/photo-1512621776951-a57141f2eefd?w=800&q=80",
           "price": 52,
@@ -1909,7 +1909,7 @@
         {
           "id": "leaf-bowl-offer-2",
           "restaurantId": "leaf-bowl",
-          "name": "عرض بول مع سموذي — بول الأوراق",
+          "name": "عرض بول مع سموذي",
           "description": "كينوا بول وسموذي بسعر واحد.",
           "image": "https://images.unsplash.com/photo-1546069901-ba9599a7e63c?w=800&q=80",
           "price": 48,
@@ -1961,7 +1961,7 @@
         {
           "id": "leaf-bowl-offer-3",
           "restaurantId": "leaf-bowl",
-          "name": "عرض ٣ سلطات بسعر ثابت — بول الأوراق",
+          "name": "عرض ٣ سلطات بسعر ثابت",
           "description": "سلطة دجاج وتونة وخضراء — ثلاثة أصناف بسعر واحد.",
           "image": "https://images.unsplash.com/photo-1490645935967-10de6ba17061?w=800&q=80",
           "price": 79,
@@ -2526,7 +2526,7 @@
         {
           "id": "fit-kitchen-offer-1",
           "restaurantId": "fit-kitchen",
-          "name": "وجبة بروتين خفيفة — مطبخ اللياقة",
+          "name": "وجبة بروتين خفيفة",
           "description": "صدر دجاج مع سلطة وبطاطا حلوة وماء.",
           "image": "https://images.unsplash.com/photo-1512621776951-a57141f2eefd?w=800&q=80",
           "price": 52,
@@ -2580,7 +2580,7 @@
         {
           "id": "fit-kitchen-offer-2",
           "restaurantId": "fit-kitchen",
-          "name": "عرض بول مع سموذي — مطبخ اللياقة",
+          "name": "عرض بول مع سموذي",
           "description": "كينوا بول وسموذي بسعر واحد.",
           "image": "https://images.unsplash.com/photo-1546069901-ba9599a7e63c?w=800&q=80",
           "price": 48,
@@ -2632,7 +2632,7 @@
         {
           "id": "fit-kitchen-offer-3",
           "restaurantId": "fit-kitchen",
-          "name": "عرض ٣ سلطات بسعر ثابت — مطبخ اللياقة",
+          "name": "عرض ٣ سلطات بسعر ثابت",
           "description": "سلطة دجاج وتونة وخضراء — ثلاثة أصناف بسعر واحد.",
           "image": "https://images.unsplash.com/photo-1490645935967-10de6ba17061?w=800&q=80",
           "price": 79,
@@ -3197,7 +3197,7 @@
         {
           "id": "quinoa-lab-offer-1",
           "restaurantId": "quinoa-lab",
-          "name": "وجبة بروتين خفيفة — مختبر الكينوا",
+          "name": "وجبة بروتين خفيفة",
           "description": "صدر دجاج مع سلطة وبطاطا حلوة وماء.",
           "image": "https://images.unsplash.com/photo-1512621776951-a57141f2eefd?w=800&q=80",
           "price": 52,
@@ -3251,7 +3251,7 @@
         {
           "id": "quinoa-lab-offer-2",
           "restaurantId": "quinoa-lab",
-          "name": "عرض بول مع سموذي — مختبر الكينوا",
+          "name": "عرض بول مع سموذي",
           "description": "كينوا بول وسموذي بسعر واحد.",
           "image": "https://images.unsplash.com/photo-1546069901-ba9599a7e63c?w=800&q=80",
           "price": 48,
@@ -3303,7 +3303,7 @@
         {
           "id": "quinoa-lab-offer-3",
           "restaurantId": "quinoa-lab",
-          "name": "عرض ٣ سلطات بسعر ثابت — مختبر الكينوا",
+          "name": "عرض ٣ سلطات بسعر ثابت",
           "description": "سلطة دجاج وتونة وخضراء — ثلاثة أصناف بسعر واحد.",
           "image": "https://images.unsplash.com/photo-1490645935967-10de6ba17061?w=800&q=80",
           "price": 79,
@@ -3868,7 +3868,7 @@
         {
           "id": "light-bites-offer-1",
           "restaurantId": "light-bites",
-          "name": "وجبة بروتين خفيفة — لقمات خفيفة",
+          "name": "وجبة بروتين خفيفة",
           "description": "صدر دجاج مع سلطة وبطاطا حلوة وماء.",
           "image": "https://images.unsplash.com/photo-1512621776951-a57141f2eefd?w=800&q=80",
           "price": 52,
@@ -3922,7 +3922,7 @@
         {
           "id": "light-bites-offer-2",
           "restaurantId": "light-bites",
-          "name": "عرض بول مع سموذي — لقمات خفيفة",
+          "name": "عرض بول مع سموذي",
           "description": "كينوا بول وسموذي بسعر واحد.",
           "image": "https://images.unsplash.com/photo-1546069901-ba9599a7e63c?w=800&q=80",
           "price": 48,
@@ -3974,7 +3974,7 @@
         {
           "id": "light-bites-offer-3",
           "restaurantId": "light-bites",
-          "name": "عرض ٣ سلطات بسعر ثابت — لقمات خفيفة",
+          "name": "عرض ٣ سلطات بسعر ثابت",
           "description": "سلطة دجاج وتونة وخضراء — ثلاثة أصناف بسعر واحد.",
           "image": "https://images.unsplash.com/photo-1490645935967-10de6ba17061?w=800&q=80",
           "price": 79,
@@ -4539,7 +4539,7 @@
         {
           "id": "fresh-press-offer-1",
           "restaurantId": "fresh-press",
-          "name": "وجبة بروتين خفيفة — عصير طازج",
+          "name": "وجبة بروتين خفيفة",
           "description": "صدر دجاج مع سلطة وبطاطا حلوة وماء.",
           "image": "https://images.unsplash.com/photo-1512621776951-a57141f2eefd?w=800&q=80",
           "price": 52,
@@ -4593,7 +4593,7 @@
         {
           "id": "fresh-press-offer-2",
           "restaurantId": "fresh-press",
-          "name": "عرض بول مع سموذي — عصير طازج",
+          "name": "عرض بول مع سموذي",
           "description": "كينوا بول وسموذي بسعر واحد.",
           "image": "https://images.unsplash.com/photo-1546069901-ba9599a7e63c?w=800&q=80",
           "price": 48,
@@ -4645,7 +4645,7 @@
         {
           "id": "fresh-press-offer-3",
           "restaurantId": "fresh-press",
-          "name": "عرض ٣ سلطات بسعر ثابت — عصير طازج",
+          "name": "عرض ٣ سلطات بسعر ثابت",
           "description": "سلطة دجاج وتونة وخضراء — ثلاثة أصناف بسعر واحد.",
           "image": "https://images.unsplash.com/photo-1490645935967-10de6ba17061?w=800&q=80",
           "price": 79,
@@ -5210,7 +5210,7 @@
         {
           "id": "balance-plate-offer-1",
           "restaurantId": "balance-plate",
-          "name": "وجبة بروتين خفيفة — صحن التوازن",
+          "name": "وجبة بروتين خفيفة",
           "description": "صدر دجاج مع سلطة وبطاطا حلوة وماء.",
           "image": "https://images.unsplash.com/photo-1512621776951-a57141f2eefd?w=800&q=80",
           "price": 52,
@@ -5264,7 +5264,7 @@
         {
           "id": "balance-plate-offer-2",
           "restaurantId": "balance-plate",
-          "name": "عرض بول مع سموذي — صحن التوازن",
+          "name": "عرض بول مع سموذي",
           "description": "كينوا بول وسموذي بسعر واحد.",
           "image": "https://images.unsplash.com/photo-1546069901-ba9599a7e63c?w=800&q=80",
           "price": 48,
@@ -5316,7 +5316,7 @@
         {
           "id": "balance-plate-offer-3",
           "restaurantId": "balance-plate",
-          "name": "عرض ٣ سلطات بسعر ثابت — صحن التوازن",
+          "name": "عرض ٣ سلطات بسعر ثابت",
           "description": "سلطة دجاج وتونة وخضراء — ثلاثة أصناف بسعر واحد.",
           "image": "https://images.unsplash.com/photo-1490645935967-10de6ba17061?w=800&q=80",
           "price": 79,

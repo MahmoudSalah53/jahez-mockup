@@ -513,7 +513,7 @@
         {
           "id": "dar-almandi-offer-1",
           "restaurantId": "dar-almandi",
-          "name": "وجبة كبسة فردية — دار المندي",
+          "name": "وجبة كبسة فردية",
           "description": "كبسة مع سلطة وتمر ومشروب.",
           "image": "https://images.unsplash.com/photo-1512058564366-18510be2db19?w=800&q=80",
           "price": 48,
@@ -567,7 +567,7 @@
         {
           "id": "dar-almandi-offer-2",
           "restaurantId": "dar-almandi",
-          "name": "وجبة عائلية مندي — دار المندي",
+          "name": "وجبة عائلية مندي",
           "description": "مندي لحم تكفي العائلة مع شوربة وسلطة ومشروبين.",
           "image": "https://images.unsplash.com/photo-1544025162-d76694265947?w=800&q=80",
           "price": 149,
@@ -621,7 +621,7 @@
         {
           "id": "dar-almandi-offer-3",
           "restaurantId": "dar-almandi",
-          "name": "عرض ضيافة: جريش وهريس وتمر — دار المندي",
+          "name": "عرض ضيافة: جريش وهريس وتمر",
           "description": "أربعة أصناف للضيافة بسعر ثابت مع قهوة عربية.",
           "image": "https://images.unsplash.com/photo-1600891964599-f61ba0e24092?w=800&q=80",
           "price": 79,
@@ -1187,7 +1187,7 @@
         {
           "id": "kabsa-palace-offer-1",
           "restaurantId": "kabsa-palace",
-          "name": "وجبة كبسة فردية — قصر الكبسة",
+          "name": "وجبة كبسة فردية",
           "description": "كبسة مع سلطة وتمر ومشروب.",
           "image": "https://images.unsplash.com/photo-1512058564366-18510be2db19?w=800&q=80",
           "price": 48,
@@ -1241,7 +1241,7 @@
         {
           "id": "kabsa-palace-offer-2",
           "restaurantId": "kabsa-palace",
-          "name": "وجبة عائلية مندي — قصر الكبسة",
+          "name": "وجبة عائلية مندي",
           "description": "مندي لحم تكفي العائلة مع شوربة وسلطة ومشروبين.",
           "image": "https://images.unsplash.com/photo-1544025162-d76694265947?w=800&q=80",
           "price": 149,
@@ -1295,7 +1295,7 @@
         {
           "id": "kabsa-palace-offer-3",
           "restaurantId": "kabsa-palace",
-          "name": "عرض ضيافة: جريش وهريس وتمر — قصر الكبسة",
+          "name": "عرض ضيافة: جريش وهريس وتمر",
           "description": "أربعة أصناف للضيافة بسعر ثابت مع قهوة عربية.",
           "image": "https://images.unsplash.com/photo-1600891964599-f61ba0e24092?w=800&q=80",
           "price": 79,
@@ -1861,7 +1861,7 @@
         {
           "id": "najd-table-offer-1",
           "restaurantId": "najd-table",
-          "name": "وجبة كبسة فردية — سفرة نجد",
+          "name": "وجبة كبسة فردية",
           "description": "كبسة مع سلطة وتمر ومشروب.",
           "image": "https://images.unsplash.com/photo-1512058564366-18510be2db19?w=800&q=80",
           "price": 48,
@@ -1915,7 +1915,7 @@
         {
           "id": "najd-table-offer-2",
           "restaurantId": "najd-table",
-          "name": "وجبة عائلية مندي — سفرة نجد",
+          "name": "وجبة عائلية مندي",
           "description": "مندي لحم تكفي العائلة مع شوربة وسلطة ومشروبين.",
           "image": "https://images.unsplash.com/photo-1544025162-d76694265947?w=800&q=80",
           "price": 149,
@@ -1969,7 +1969,7 @@
         {
           "id": "najd-table-offer-3",
           "restaurantId": "najd-table",
-          "name": "عرض ضيافة: جريش وهريس وتمر — سفرة نجد",
+          "name": "عرض ضيافة: جريش وهريس وتمر",
           "description": "أربعة أصناف للضيافة بسعر ثابت مع قهوة عربية.",
           "image": "https://images.unsplash.com/photo-1600891964599-f61ba0e24092?w=800&q=80",
           "price": 79,
@@ -2535,7 +2535,7 @@
         {
           "id": "harees-house-offer-1",
           "restaurantId": "harees-house",
-          "name": "وجبة كبسة فردية — بيت الهريس",
+          "name": "وجبة كبسة فردية",
           "description": "كبسة مع سلطة وتمر ومشروب.",
           "image": "https://images.unsplash.com/photo-1512058564366-18510be2db19?w=800&q=80",
           "price": 48,
@@ -2589,7 +2589,7 @@
         {
           "id": "harees-house-offer-2",
           "restaurantId": "harees-house",
-          "name": "وجبة عائلية مندي — بيت الهريس",
+          "name": "وجبة عائلية مندي",
           "description": "مندي لحم تكفي العائلة مع شوربة وسلطة ومشروبين.",
           "image": "https://images.unsplash.com/photo-1544025162-d76694265947?w=800&q=80",
           "price": 149,
@@ -2643,7 +2643,7 @@
         {
           "id": "harees-house-offer-3",
           "restaurantId": "harees-house",
-          "name": "عرض ضيافة: جريش وهريس وتمر — بيت الهريس",
+          "name": "عرض ضيافة: جريش وهريس وتمر",
           "description": "أربعة أصناف للضيافة بسعر ثابت مع قهوة عربية.",
           "image": "https://images.unsplash.com/photo-1600891964599-f61ba0e24092?w=800&q=80",
           "price": 79,
@@ -3209,7 +3209,7 @@
         {
           "id": "jareesh-corner-offer-1",
           "restaurantId": "jareesh-corner",
-          "name": "وجبة كبسة فردية — ركن الجريش",
+          "name": "وجبة كبسة فردية",
           "description": "كبسة مع سلطة وتمر ومشروب.",
           "image": "https://images.unsplash.com/photo-1512058564366-18510be2db19?w=800&q=80",
           "price": 48,
@@ -3263,7 +3263,7 @@
         {
           "id": "jareesh-corner-offer-2",
           "restaurantId": "jareesh-corner",
-          "name": "وجبة عائلية مندي — ركن الجريش",
+          "name": "وجبة عائلية مندي",
           "description": "مندي لحم تكفي العائلة مع شوربة وسلطة ومشروبين.",
           "image": "https://images.unsplash.com/photo-1544025162-d76694265947?w=800&q=80",
           "price": 149,
@@ -3317,7 +3317,7 @@
         {
           "id": "jareesh-corner-offer-3",
           "restaurantId": "jareesh-corner",
-          "name": "عرض ضيافة: جريش وهريس وتمر — ركن الجريش",
+          "name": "عرض ضيافة: جريش وهريس وتمر",
           "description": "أربعة أصناف للضيافة بسعر ثابت مع قهوة عربية.",
           "image": "https://images.unsplash.com/photo-1600891964599-f61ba0e24092?w=800&q=80",
           "price": 79,
@@ -3883,7 +3883,7 @@
         {
           "id": "samak-wa-ruz-offer-1",
           "restaurantId": "samak-wa-ruz",
-          "name": "وجبة كبسة فردية — سمك وأرز",
+          "name": "وجبة كبسة فردية",
           "description": "كبسة مع سلطة وتمر ومشروب.",
           "image": "https://images.unsplash.com/photo-1512058564366-18510be2db19?w=800&q=80",
           "price": 48,
@@ -3937,7 +3937,7 @@
         {
           "id": "samak-wa-ruz-offer-2",
           "restaurantId": "samak-wa-ruz",
-          "name": "وجبة عائلية مندي — سمك وأرز",
+          "name": "وجبة عائلية مندي",
           "description": "مندي لحم تكفي العائلة مع شوربة وسلطة ومشروبين.",
           "image": "https://images.unsplash.com/photo-1544025162-d76694265947?w=800&q=80",
           "price": 149,
@@ -3991,7 +3991,7 @@
         {
           "id": "samak-wa-ruz-offer-3",
           "restaurantId": "samak-wa-ruz",
-          "name": "عرض ضيافة: جريش وهريس وتمر — سمك وأرز",
+          "name": "عرض ضيافة: جريش وهريس وتمر",
           "description": "أربعة أصناف للضيافة بسعر ثابت مع قهوة عربية.",
           "image": "https://images.unsplash.com/photo-1600891964599-f61ba0e24092?w=800&q=80",
           "price": 79,
@@ -4557,7 +4557,7 @@
         {
           "id": "qursan-kitchen-offer-1",
           "restaurantId": "qursan-kitchen",
-          "name": "وجبة كبسة فردية — مطبخ القرصان",
+          "name": "وجبة كبسة فردية",
           "description": "كبسة مع سلطة وتمر ومشروب.",
           "image": "https://images.unsplash.com/photo-1512058564366-18510be2db19?w=800&q=80",
           "price": 48,
@@ -4611,7 +4611,7 @@
         {
           "id": "qursan-kitchen-offer-2",
           "restaurantId": "qursan-kitchen",
-          "name": "وجبة عائلية مندي — مطبخ القرصان",
+          "name": "وجبة عائلية مندي",
           "description": "مندي لحم تكفي العائلة مع شوربة وسلطة ومشروبين.",
           "image": "https://images.unsplash.com/photo-1544025162-d76694265947?w=800&q=80",
           "price": 149,
@@ -4665,7 +4665,7 @@
         {
           "id": "qursan-kitchen-offer-3",
           "restaurantId": "qursan-kitchen",
-          "name": "عرض ضيافة: جريش وهريس وتمر — مطبخ القرصان",
+          "name": "عرض ضيافة: جريش وهريس وتمر",
           "description": "أربعة أصناف للضيافة بسعر ثابت مع قهوة عربية.",
           "image": "https://images.unsplash.com/photo-1600891964599-f61ba0e24092?w=800&q=80",
           "price": 79,
@@ -5231,7 +5231,7 @@
         {
           "id": "madafa-aloud-offer-1",
           "restaurantId": "madafa-aloud",
-          "name": "وجبة كبسة فردية — مضافة العود",
+          "name": "وجبة كبسة فردية",
           "description": "كبسة مع سلطة وتمر ومشروب.",
           "image": "https://images.unsplash.com/photo-1512058564366-18510be2db19?w=800&q=80",
           "price": 48,
@@ -5285,7 +5285,7 @@
         {
           "id": "madafa-aloud-offer-2",
           "restaurantId": "madafa-aloud",
-          "name": "وجبة عائلية مندي — مضافة العود",
+          "name": "وجبة عائلية مندي",
           "description": "مندي لحم تكفي العائلة مع شوربة وسلطة ومشروبين.",
           "image": "https://images.unsplash.com/photo-1544025162-d76694265947?w=800&q=80",
           "price": 149,
@@ -5339,7 +5339,7 @@
         {
           "id": "madafa-aloud-offer-3",
           "restaurantId": "madafa-aloud",
-          "name": "عرض ضيافة: جريش وهريس وتمر — مضافة العود",
+          "name": "عرض ضيافة: جريش وهريس وتمر",
           "description": "أربعة أصناف للضيافة بسعر ثابت مع قهوة عربية.",
           "image": "https://images.unsplash.com/photo-1600891964599-f61ba0e24092?w=800&q=80",
           "price": 79,
