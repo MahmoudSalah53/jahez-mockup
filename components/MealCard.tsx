@@ -3,6 +3,7 @@ import Link from "next/link";
 import type { Meal } from "@/lib/types";
 import { getMealPrice } from "@/data/meals";
 import { formatPrice } from "@/lib/format";
+import { offerBadgeLabel } from "@/lib/offer-badge";
 
 type Props = {
   meal: Meal;
@@ -13,7 +14,8 @@ type Props = {
 /** Desktop marketplace dish card — not used on mobile list UI */
 export function MealCard({ meal, restaurantName, href }: Props) {
   const price = getMealPrice(meal);
-  const isCombo = meal.isCombo || meal.isOffer;
+  const isDeal = meal.isCombo || meal.isOffer;
+  const badge = offerBadgeLabel(meal.offerKind, isDeal);
 
   return (
     <Link
@@ -28,11 +30,11 @@ export function MealCard({ meal, restaurantName, href }: Props) {
           sizes="(max-width: 1024px) 33vw, 25vw"
           className="object-cover transition duration-500 group-hover:scale-105"
         />
-        {isCombo && (
+        {badge ? (
           <span className="absolute start-3 top-3 rounded-full bg-accent px-2.5 py-1 text-xs font-bold text-white shadow">
-            كومبو
+            {badge}
           </span>
-        )}
+        ) : null}
         <div className="absolute inset-x-0 bottom-0 bg-gradient-to-t from-black/70 to-transparent p-3 pt-10">
           <p className="text-lg font-bold text-white">{formatPrice(price)}</p>
         </div>
@@ -44,7 +46,7 @@ export function MealCard({ meal, restaurantName, href }: Props) {
         {restaurantName ? (
           <p className="mt-1 truncate text-sm text-muted">{restaurantName}</p>
         ) : null}
-        {isCombo && meal.comboIncludes?.length ? (
+        {isDeal && meal.comboIncludes?.length ? (
           <p className="mt-2 line-clamp-2 text-sm leading-relaxed text-muted">
             يشمل: {meal.comboIncludes.join(" · ")}
           </p>

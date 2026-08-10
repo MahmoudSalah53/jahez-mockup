@@ -1,8 +1,6 @@
 /**
- * Migrate catalog parts: offers = food combos (not price discounts).
- * - Clears discount-style isOffer / offerPrice on regular meals
- * - Adds isCombo + comboIncludes
- * - Appends 2–3 combo meals per restaurant
+ * Rebuild restaurant offers: diverse kinds (combo/family/bogo/gift/party)
+ * with unique names per restaurant — not all titled «كومبو».
  *
  * Run: node scripts/apply-combo-offers.mjs
  */
@@ -13,14 +11,6 @@ import { fileURLToPath } from "url";
 const __dirname = dirname(fileURLToPath(import.meta.url));
 const root = join(__dirname, "..");
 const catalogDir = join(root, "data", "catalog");
-
-const DEFAULT_ADDONS = [
-  { id: "extra-cheese", name: "جبنة إضافية", price: 5 },
-  { id: "bacon", name: "بيكون", price: 8 },
-  { id: "large-fries", name: "بطاطس كبيرة", price: 10 },
-  { id: "cola", name: "كولا", price: 6 },
-  { id: "spicy-sauce", name: "صوص سبايسي", price: 3 },
-];
 
 const ADDONS_BY_CUISINE = {
   مشاوي: [
@@ -37,7 +27,13 @@ const ADDONS_BY_CUISINE = {
     { id: "cola", name: "كولا", price: 6 },
     { id: "side-salad", name: "سلطة صغيرة", price: 8 },
   ],
-  برجر: DEFAULT_ADDONS,
+  برجر: [
+    { id: "extra-cheese", name: "جبنة إضافية", price: 5 },
+    { id: "bacon", name: "بيكون", price: 8 },
+    { id: "large-fries", name: "بطاطس كبيرة", price: 10 },
+    { id: "cola", name: "كولا", price: 6 },
+    { id: "spicy-sauce", name: "صوص سبايسي", price: 3 },
+  ],
   شامي: [
     { id: "extra-garlic", name: "ثوم إضافي", price: 3 },
     { id: "pickles", name: "مخلل", price: 3 },
@@ -91,458 +87,10 @@ const ADDONS_BY_CUISINE = {
 };
 
 function getAddonsForCuisine(cuisine) {
-  const list = ADDONS_BY_CUISINE[cuisine] ?? DEFAULT_ADDONS;
+  const list = ADDONS_BY_CUISINE[cuisine] ?? ADDONS_BY_CUISINE["برجر"];
   return list.map((a) => ({ ...a }));
 }
 
-const MEAL_KEYS = [
-  "id",
-  "restaurantId",
-  "name",
-  "description",
-  "image",
-  "price",
-  "rating",
-  "calories",
-  "protein",
-  "carbs",
-  "fat",
-  "category",
-  "isPopular",
-  "isOffer",
-  "offerPrice",
-  "isCombo",
-  "comboIncludes",
-  "spicyOption",
-  "cashbackPercent",
-  "addons",
-];
-
-/** cuisine -> 3 combo templates */
-const COMBOS_BY_CUISINE = {
-  مشاوي: [
-    {
-      slug: "combo-1",
-      name: "كومبو مشاوي فردي",
-      description: "وجبة كاملة: مشاوي مع أرز ومشروب.",
-      includes: ["شيش طاووق", "أرز أبيض", "سلطة", "مشروب غازي"],
-      price: 59,
-      calories: 980,
-      protein: 48,
-      carbs: 85,
-      fat: 38,
-      spicy: true,
-    },
-    {
-      slug: "combo-2",
-      name: "كومبو عائلي مشاوي",
-      description: "تشكيلة مشاوي تكفي ٣–٤ أشخاص مع مقبلات.",
-      includes: ["مشكل مشاوي", "حمص", "خبز", "بطاطس", "٢ مشروب"],
-      price: 189,
-      calories: 2400,
-      protein: 120,
-      carbs: 180,
-      fat: 110,
-      spicy: true,
-    },
-    {
-      slug: "combo-3",
-      name: "كومبو كباب كامل",
-      description: "كباب لحم مع أرز ومقبلات ومشروب.",
-      includes: ["كباب لحم", "أرز بخاري", "طحينة", "مخلل", "كولا"],
-      price: 72,
-      calories: 1100,
-      protein: 52,
-      carbs: 90,
-      fat: 45,
-      spicy: true,
-    },
-  ],
-  شامي: [
-    {
-      slug: "combo-1",
-      name: "كومبو شاورما كامل",
-      description: "شاورما مع بطاطس ومشروب وسلطة.",
-      includes: ["شاورما دجاج", "بطاطس مقلية", "سلطة", "ثوم", "مشروب"],
-      price: 42,
-      calories: 920,
-      protein: 38,
-      carbs: 78,
-      fat: 36,
-      spicy: false,
-    },
-    {
-      slug: "combo-2",
-      name: "كومبو مقبلات شامية",
-      description: "تشكيلة مقبلات مع خبز ومشروب.",
-      includes: ["حمص", "متبل", "فتوش", "خبز عربي", "عصير"],
-      price: 48,
-      calories: 780,
-      protein: 22,
-      carbs: 70,
-      fat: 38,
-      spicy: false,
-    },
-    {
-      slug: "combo-3",
-      name: "كومبو فلافل وجبة",
-      description: "صحن فلافل كامل مع إضافات.",
-      includes: ["فلافل", "حمص", "مخلل", "خبز", "مشروب"],
-      price: 28,
-      calories: 650,
-      protein: 18,
-      carbs: 72,
-      fat: 24,
-      spicy: false,
-    },
-  ],
-  برجر: [
-    {
-      slug: "combo-1",
-      name: "كومبو برجر كلاسيك",
-      description: "برجر + بطاطس + مشروب.",
-      includes: ["برجر لحم", "بطاطس كبيرة", "كولا"],
-      price: 49,
-      calories: 1150,
-      protein: 36,
-      carbs: 95,
-      fat: 52,
-      spicy: false,
-    },
-    {
-      slug: "combo-2",
-      name: "كومبو دبل تشيز",
-      description: "دبل برجر مع بطاطس ومشروب.",
-      includes: ["دبل تشيز برجر", "بطاطس", "صوص", "مشروب"],
-      price: 62,
-      calories: 1380,
-      protein: 48,
-      carbs: 90,
-      fat: 68,
-      spicy: false,
-    },
-    {
-      slug: "combo-3",
-      name: "كومبو تشيكن كرسبي",
-      description: "برجر دجاج مقرمش وجبة كاملة.",
-      includes: ["تشيكن برجر", "بطاطس", "سلطة كول سلو", "مشروب"],
-      price: 46,
-      calories: 1080,
-      protein: 32,
-      carbs: 98,
-      fat: 48,
-      spicy: true,
-    },
-  ],
-  ياباني: [
-    {
-      slug: "combo-1",
-      name: "كومبو سوشي للمبتدئين",
-      description: "رولز مع ميسو ومشروب.",
-      includes: ["رول كاليفورنيا", "سوشي سالمون ×٤", "شوربة ميسو", "شاي أخضر"],
-      price: 78,
-      calories: 720,
-      protein: 34,
-      carbs: 82,
-      fat: 22,
-      spicy: false,
-    },
-    {
-      slug: "combo-2",
-      name: "كومبو رامن وجبة",
-      description: "رامن مع جيوزا ومشروب.",
-      includes: ["رامن", "جيوزا ×٤", "إدامامي", "مشروب"],
-      price: 68,
-      calories: 980,
-      protein: 38,
-      carbs: 95,
-      fat: 32,
-      spicy: false,
-    },
-    {
-      slug: "combo-3",
-      name: "كومبو ترياكي كامل",
-      description: "دجاج ترياكي مع أرز وسلطة.",
-      includes: ["دجاج ترياكي", "أرز ياباني", "سلطة سي ويد", "مشروب"],
-      price: 58,
-      calories: 860,
-      protein: 40,
-      carbs: 88,
-      fat: 20,
-      spicy: false,
-    },
-  ],
-  حلويات: [
-    {
-      slug: "combo-1",
-      name: "كومبو حلا وقهوة",
-      description: "تحلية مع مشروب ساخن.",
-      includes: ["كنافة أو كيك", "لاتيه أو شاي", "تمر"],
-      price: 36,
-      calories: 620,
-      protein: 12,
-      carbs: 78,
-      fat: 26,
-      spicy: false,
-    },
-    {
-      slug: "combo-2",
-      name: "كومبو وافل آيس",
-      description: "وافل مع آيس كريم وإضافات.",
-      includes: ["وافل", "سكوب آيس كريم", "شوكولاتة", "فراولة"],
-      price: 42,
-      calories: 780,
-      protein: 10,
-      carbs: 95,
-      fat: 34,
-      spicy: false,
-    },
-    {
-      slug: "combo-3",
-      name: "كومبو بقلاوة وشاي",
-      description: "بقلاوة مشكلة مع شاي كرك.",
-      includes: ["بقلاوة مشكلة", "شاي كرك", "مكسرات"],
-      price: 32,
-      calories: 540,
-      protein: 8,
-      carbs: 62,
-      fat: 28,
-      spicy: false,
-    },
-  ],
-  إيطالي: [
-    {
-      slug: "combo-1",
-      name: "كومبو بيتزا فردي",
-      description: "بيتزا شخصية مع مشروب وسلطة.",
-      includes: ["بيتزا مارغريتا", "سلطة سيزر صغيرة", "مشروب"],
-      price: 55,
-      calories: 980,
-      protein: 32,
-      carbs: 105,
-      fat: 36,
-      spicy: false,
-    },
-    {
-      slug: "combo-2",
-      name: "كومبو باستا كامل",
-      description: "باستا مع خبز وثوم ومشروب.",
-      includes: ["باستا كاربونارا", "ثوم محمص", "مشروب"],
-      price: 52,
-      calories: 920,
-      protein: 28,
-      carbs: 88,
-      fat: 38,
-      spicy: false,
-    },
-    {
-      slug: "combo-3",
-      name: "كومبو عائلي بيتزا",
-      description: "بيتزا كبيرة مع مقبلات ومشروبات.",
-      includes: ["بيتزا كبيرة", "بروشيتا", "٢ مشروب"],
-      price: 99,
-      calories: 1800,
-      protein: 60,
-      carbs: 190,
-      fat: 70,
-      spicy: true,
-    },
-  ],
-  هندي: [
-    {
-      slug: "combo-1",
-      name: "كومبو برياني وجبة",
-      description: "برياني مع رايتا ونان ومشروب.",
-      includes: ["برياني دجاج", "رايتا", "نان", "لاسي أو مشروب"],
-      price: 54,
-      calories: 1050,
-      protein: 40,
-      carbs: 110,
-      fat: 32,
-      spicy: true,
-    },
-    {
-      slug: "combo-2",
-      name: "كومبو كاري كامل",
-      description: "كاري مع أرز وخبز.",
-      includes: ["تيكا ماسالا", "أرز بسمتي", "نان ثوم", "مشروب"],
-      price: 58,
-      calories: 980,
-      protein: 38,
-      carbs: 95,
-      fat: 36,
-      spicy: true,
-    },
-    {
-      slug: "combo-3",
-      name: "كومبو ثالي هندي",
-      description: "تشكيلة أطباق صغيرة في وجبة واحدة.",
-      includes: ["دال", "كاري خضار", "أرز", "نان", "مخلل"],
-      price: 64,
-      calories: 880,
-      protein: 28,
-      carbs: 100,
-      fat: 28,
-      spicy: true,
-    },
-  ],
-  سعودي: [
-    {
-      slug: "combo-1",
-      name: "كومبو كبسة فردي",
-      description: "كبسة دجاج مع سلطة ومشروب.",
-      includes: ["كبسة دجاج", "سلطة طحينة", "تمر", "مشروب"],
-      price: 48,
-      calories: 950,
-      protein: 40,
-      carbs: 95,
-      fat: 28,
-      spicy: false,
-    },
-    {
-      slug: "combo-2",
-      name: "كومبو مندي عائلي",
-      description: "مندي لحم تكفي العائلة مع إضافات.",
-      includes: ["مندي لحم", "شوربة", "سلطة", "٢ مشروب"],
-      price: 149,
-      calories: 2200,
-      protein: 110,
-      carbs: 180,
-      fat: 90,
-      spicy: false,
-    },
-    {
-      slug: "combo-3",
-      name: "كومبو جريش وهريس",
-      description: "أطباق نجدية كلاسيكية في باكدج واحد.",
-      includes: ["جريش", "هريس صغير", "تمر", "قهوة عربية"],
-      price: 45,
-      calories: 820,
-      protein: 28,
-      carbs: 90,
-      fat: 26,
-      spicy: false,
-    },
-  ],
-  بحري: [
-    {
-      slug: "combo-1",
-      name: "كومبو سمك مشوي",
-      description: "سمك مع أرز وسلطة ومشروب.",
-      includes: ["سمك مشوي", "أرز", "سلطة سيزر", "ليمون", "مشروب"],
-      price: 68,
-      calories: 780,
-      protein: 48,
-      carbs: 55,
-      fat: 28,
-      spicy: false,
-    },
-    {
-      slug: "combo-2",
-      name: "كومبو روبيان كامل",
-      description: "روبيان مقلي مع بطاطس ومشروب.",
-      includes: ["روبيان مقلي", "بطاطس", "صوص ثوم", "مشروب"],
-      price: 74,
-      calories: 920,
-      protein: 42,
-      carbs: 70,
-      fat: 40,
-      spicy: false,
-    },
-    {
-      slug: "combo-3",
-      name: "كومبو صيادية وجبة",
-      description: "صيادية مع مقبلات بحرية.",
-      includes: ["صيادية", "سلطة بطاطس", "مخلل", "مشروب"],
-      price: 58,
-      calories: 860,
-      protein: 36,
-      carbs: 90,
-      fat: 26,
-      spicy: false,
-    },
-  ],
-  صحي: [
-    {
-      slug: "combo-1",
-      name: "كومبو بروتين خفيف",
-      description: "وجبة متوازنة بروتين وخضار.",
-      includes: ["صدر دجاج مشوي", "سلطة خضراء", "بطاطا حلوة", "ماء"],
-      price: 52,
-      calories: 520,
-      protein: 48,
-      carbs: 40,
-      fat: 14,
-      spicy: false,
-    },
-    {
-      slug: "combo-2",
-      name: "كومبو بول صحي",
-      description: "بول مع سموذي.",
-      includes: ["كينوا بول", "سموذي أخضر", "مكسرات"],
-      price: 48,
-      calories: 580,
-      protein: 22,
-      carbs: 68,
-      fat: 18,
-      spicy: false,
-    },
-    {
-      slug: "combo-3",
-      name: "كومبو سمك صحي",
-      description: "سلمون مع سلطة وخضار.",
-      includes: ["سلمون مشوي", "خضار ستيم", "أرز بني", "ليمون"],
-      price: 72,
-      calories: 610,
-      protein: 44,
-      carbs: 45,
-      fat: 24,
-      spicy: false,
-    },
-  ],
-  بقالة: [
-    {
-      slug: "combo-1",
-      name: "باكدج فطور البيت",
-      description: "مستلزمات فطور سريعة ليوم واحد.",
-      includes: ["خبز توست", "بيض ٦ حبات", "جبنة", "حليب"],
-      price: 29,
-      calories: 0,
-      protein: 0,
-      carbs: 0,
-      fat: 0,
-      spicy: false,
-    },
-    {
-      slug: "combo-2",
-      name: "باكدج ضيافة خفيفة",
-      description: "مشروبات وتمور للضيوف.",
-      includes: ["مياه ٦ عبوات", "تمر سكري", "عصير", "قهوة"],
-      price: 45,
-      calories: 0,
-      protein: 0,
-      carbs: 0,
-      fat: 0,
-      spicy: false,
-    },
-    {
-      slug: "combo-3",
-      name: "باكدج سناك عائلي",
-      description: "سناكات ومشروبات للتجمّع.",
-      includes: ["شيبس عائلي", "عصير", "مياه", "مناديل"],
-      price: 26,
-      calories: 0,
-      protein: 0,
-      carbs: 0,
-      fat: 0,
-      spicy: false,
-    },
-  ],
-};
-
-const FALLBACK_COMBOS = COMBOS_BY_CUISINE["برجر"];
-
-/** Verified Unsplash food-dish photos (same ?w=800&q=80 style as catalog). */
 function foodImg(photoId) {
   return `https://images.unsplash.com/${photoId}?w=800&q=80`;
 }
@@ -605,7 +153,490 @@ const FOOD_IMAGES_BY_CUISINE = {
   ],
 };
 
+/**
+ * Each cuisine: 3 templates — combo | family | deal (generic «عرض»).
+ * Clear Arabic titles (no 1+1 / هدية / باقة). Restaurant name appended for uniqueness.
+ */
+const OFFERS_BY_CUISINE = {
+  مشاوي: [
+    {
+      slug: "offer-1",
+      kind: "combo",
+      nameTitle: "وجبة مشاوي فردية",
+      description: "طبق رئيسي مع أرز وسلطة ومشروب — وجبة كاملة لشخص واحد.",
+      includes: ["شيش طاووق", "أرز أبيض", "سلطة", "مشروب غازي"],
+      price: 59,
+      calories: 980,
+      protein: 48,
+      carbs: 85,
+      fat: 38,
+      spicy: true,
+    },
+    {
+      slug: "offer-2",
+      kind: "family",
+      nameTitle: "وجبة عائلية مشاوي",
+      description: "تشكيلة تكفي ٣–٤ أشخاص مع مقبلات ومشروبات.",
+      includes: ["مشكل مشاوي", "حمص", "خبز", "بطاطس", "٢ مشروب"],
+      price: 189,
+      calories: 2400,
+      protein: 120,
+      carbs: 180,
+      fat: 110,
+      spicy: true,
+    },
+    {
+      slug: "offer-3",
+      kind: "deal",
+      nameTitle: "اشتري كباب واحصل على الثاني مجاناً",
+      description: "عرض: كبابين بنفس السعر — مع طحينة ومخلل.",
+      includes: ["كباب لحم", "كباب لحم إضافي", "طحينة", "مخلل"],
+      price: 72,
+      calories: 1100,
+      protein: 52,
+      carbs: 40,
+      fat: 55,
+      spicy: true,
+    },
+  ],
+  شامي: [
+    {
+      slug: "offer-1",
+      kind: "combo",
+      nameTitle: "وجبة شاورما كاملة",
+      description: "شاورما مع بطاطس ومشروب وسلطة.",
+      includes: ["شاورما دجاج", "بطاطس", "سلطة", "ثوم", "مشروب"],
+      price: 42,
+      calories: 920,
+      protein: 38,
+      carbs: 78,
+      fat: 36,
+      spicy: false,
+    },
+    {
+      slug: "offer-2",
+      kind: "deal",
+      nameTitle: "عرض فلافل: صحنين ومشروب",
+      description: "صحنان فلافل مع مخلل ومشروب بسعر واحد.",
+      includes: ["فلافل صحن", "فلافل صحن", "مشروب", "مخلل"],
+      price: 38,
+      calories: 820,
+      protein: 28,
+      carbs: 90,
+      fat: 30,
+      spicy: false,
+    },
+    {
+      slug: "offer-3",
+      kind: "deal",
+      nameTitle: "تشكيلة مقبلات بسعر ثابت",
+      description: "حمص ومتبل وفتوش وخبز وعصير — خمسة أصناف بسعر واحد.",
+      includes: ["حمص", "متبل", "فتوش", "خبز عربي", "عصير"],
+      price: 68,
+      calories: 980,
+      protein: 26,
+      carbs: 95,
+      fat: 42,
+      spicy: false,
+    },
+  ],
+  برجر: [
+    {
+      slug: "offer-1",
+      kind: "combo",
+      nameTitle: "وجبة برجر كاملة",
+      description: "برجر مع بطاطس ومشروب.",
+      includes: ["برجر لحم", "بطاطس كبيرة", "كولا"],
+      price: 49,
+      calories: 1150,
+      protein: 36,
+      carbs: 95,
+      fat: 52,
+      spicy: false,
+    },
+    {
+      slug: "offer-2",
+      kind: "family",
+      nameTitle: "وجبة عائلية برجر",
+      description: "أربعة برجر مع بطاطس عائلية وأربعة مشروبات.",
+      includes: ["٤ برجر", "بطاطس عائلية", "٤ مشروب", "صوصات"],
+      price: 149,
+      calories: 3200,
+      protein: 120,
+      carbs: 280,
+      fat: 160,
+      spicy: false,
+    },
+    {
+      slug: "offer-3",
+      kind: "deal",
+      nameTitle: "اشتري برجر دجاج واحصل على الثاني مجاناً",
+      description: "عرض برجرين دجاج بنفس السعر.",
+      includes: ["تشيكن برجر", "تشيكن برجر إضافي"],
+      price: 36,
+      calories: 980,
+      protein: 40,
+      carbs: 80,
+      fat: 42,
+      spicy: true,
+    },
+  ],
+  ياباني: [
+    {
+      slug: "offer-1",
+      kind: "combo",
+      nameTitle: "وجبة سوشي خفيفة",
+      description: "رولز مع شوربة وشاي.",
+      includes: ["رول كاليفورنيا", "سوشي ×٤", "ميسو", "شاي أخضر"],
+      price: 78,
+      calories: 720,
+      protein: 34,
+      carbs: 82,
+      fat: 22,
+      spicy: false,
+    },
+    {
+      slug: "offer-2",
+      kind: "deal",
+      nameTitle: "عرض رامن مع جيوزا",
+      description: "رامن وإدامامي وأربع قطع جيوزا بسعر واحد.",
+      includes: ["رامن", "جيوزا ×٤", "إدامامي"],
+      price: 58,
+      calories: 880,
+      protein: 36,
+      carbs: 90,
+      fat: 28,
+      spicy: false,
+    },
+    {
+      slug: "offer-3",
+      kind: "deal",
+      nameTitle: "تشكيلة ساشيمي بسعر ثابت",
+      description: "ساشيمي مشكل مع زنجبيل وواسابي وأرز للمشاركة.",
+      includes: ["ساشيمي مشكل", "زنجبيل", "واسابي", "أرز"],
+      price: 129,
+      calories: 640,
+      protein: 55,
+      carbs: 40,
+      fat: 20,
+      spicy: false,
+    },
+  ],
+  حلويات: [
+    {
+      slug: "offer-1",
+      kind: "combo",
+      nameTitle: "حلا مع قهوة",
+      description: "قطعة حلا مع مشروب ساخن.",
+      includes: ["قطعة حلا", "لاتيه أو شاي"],
+      price: 36,
+      calories: 520,
+      protein: 10,
+      carbs: 60,
+      fat: 22,
+      spicy: false,
+    },
+    {
+      slug: "offer-2",
+      kind: "deal",
+      nameTitle: "اشتري كنافة واحصل على الثانية مجاناً",
+      description: "عرض كنافتين مع قطر بنفس السعر.",
+      includes: ["كنافة", "كنافة إضافية", "قطر"],
+      price: 32,
+      calories: 780,
+      protein: 14,
+      carbs: 90,
+      fat: 32,
+      spicy: false,
+    },
+    {
+      slug: "offer-3",
+      kind: "deal",
+      nameTitle: "عرض وافل مع آيس كريم",
+      description: "وافل وسكوب آيس كريم وصوص بسعر واحد.",
+      includes: ["وافل", "سكوب آيس كريم", "صوص"],
+      price: 34,
+      calories: 680,
+      protein: 10,
+      carbs: 85,
+      fat: 28,
+      spicy: false,
+    },
+  ],
+  إيطالي: [
+    {
+      slug: "offer-1",
+      kind: "combo",
+      nameTitle: "وجبة بيتزا فردية",
+      description: "بيتزا شخصية مع سلطة ومشروب.",
+      includes: ["بيتزا صغيرة", "سلطة", "مشروب"],
+      price: 55,
+      calories: 980,
+      protein: 32,
+      carbs: 105,
+      fat: 36,
+      spicy: false,
+    },
+    {
+      slug: "offer-2",
+      kind: "family",
+      nameTitle: "وجبة عائلية بيتزا",
+      description: "بيتزا كبيرة مع مقبلات ومشروبين للعائلة.",
+      includes: ["بيتزا كبيرة", "بروشيتا", "٢ مشروب"],
+      price: 99,
+      calories: 1800,
+      protein: 60,
+      carbs: 190,
+      fat: 70,
+      spicy: true,
+    },
+    {
+      slug: "offer-3",
+      kind: "deal",
+      nameTitle: "اشتري باستا واحصل على الثانية مجاناً",
+      description: "عرض طبقي باستا مع ثوم محمص.",
+      includes: ["باستا", "باستا إضافية", "ثوم محمص"],
+      price: 48,
+      calories: 1100,
+      protein: 36,
+      carbs: 120,
+      fat: 40,
+      spicy: false,
+    },
+  ],
+  هندي: [
+    {
+      slug: "offer-1",
+      kind: "combo",
+      nameTitle: "وجبة برياني كاملة",
+      description: "برياني مع رايتا ونان ومشروب.",
+      includes: ["برياني دجاج", "رايتا", "نان", "لاسي"],
+      price: 54,
+      calories: 1050,
+      protein: 40,
+      carbs: 110,
+      fat: 32,
+      spicy: true,
+    },
+    {
+      slug: "offer-2",
+      kind: "family",
+      nameTitle: "وجبة عائلية ثالي",
+      description: "تشكيلة أطباق هندية تكفي العائلة.",
+      includes: ["دال", "كاري", "أرز", "نان", "مخلل"],
+      price: 119,
+      calories: 1600,
+      protein: 55,
+      carbs: 180,
+      fat: 50,
+      spicy: true,
+    },
+    {
+      slug: "offer-3",
+      kind: "deal",
+      nameTitle: "عرض كاري مع أرز ونان",
+      description: "تيكا ماسالا وأرز ونان بسعر واحد.",
+      includes: ["تيكا ماسالا", "أرز", "نان"],
+      price: 52,
+      calories: 900,
+      protein: 38,
+      carbs: 90,
+      fat: 34,
+      spicy: true,
+    },
+  ],
+  سعودي: [
+    {
+      slug: "offer-1",
+      kind: "combo",
+      nameTitle: "وجبة كبسة فردية",
+      description: "كبسة مع سلطة وتمر ومشروب.",
+      includes: ["كبسة دجاج", "سلطة", "تمر", "مشروب"],
+      price: 48,
+      calories: 950,
+      protein: 40,
+      carbs: 95,
+      fat: 28,
+      spicy: false,
+    },
+    {
+      slug: "offer-2",
+      kind: "family",
+      nameTitle: "وجبة عائلية مندي",
+      description: "مندي لحم تكفي العائلة مع شوربة وسلطة ومشروبين.",
+      includes: ["مندي لحم", "شوربة", "سلطة", "٢ مشروب"],
+      price: 149,
+      calories: 2200,
+      protein: 110,
+      carbs: 180,
+      fat: 90,
+      spicy: false,
+    },
+    {
+      slug: "offer-3",
+      kind: "deal",
+      nameTitle: "عرض ضيافة: جريش وهريس وتمر",
+      description: "أربعة أصناف للضيافة بسعر ثابت مع قهوة عربية.",
+      includes: ["جريش", "هريس صغير", "تمر", "قهوة عربية"],
+      price: 79,
+      calories: 1100,
+      protein: 40,
+      carbs: 120,
+      fat: 35,
+      spicy: false,
+    },
+  ],
+  بحري: [
+    {
+      slug: "offer-1",
+      kind: "combo",
+      nameTitle: "وجبة سمك مشوي",
+      description: "سمك مع أرز وسلطة ومشروب.",
+      includes: ["سمك مشوي", "أرز", "سلطة", "ليمون", "مشروب"],
+      price: 68,
+      calories: 780,
+      protein: 48,
+      carbs: 55,
+      fat: 28,
+      spicy: false,
+    },
+    {
+      slug: "offer-2",
+      kind: "family",
+      nameTitle: "وجبة عائلية بحرية",
+      description: "سمك وروبيان وأرز وسلطة ومشروبين للمشاركة.",
+      includes: ["سمك", "روبيان", "أرز", "سلطة", "٢ مشروب"],
+      price: 169,
+      calories: 1600,
+      protein: 95,
+      carbs: 100,
+      fat: 60,
+      spicy: false,
+    },
+    {
+      slug: "offer-3",
+      kind: "deal",
+      nameTitle: "اشتري روبيان واحصل على الثاني مجاناً",
+      description: "عرض روبيانين مع صوص ثوم بنفس السعر.",
+      includes: ["روبيان مقلي", "روبيان مقلي إضافي", "صوص ثوم"],
+      price: 74,
+      calories: 900,
+      protein: 50,
+      carbs: 40,
+      fat: 45,
+      spicy: false,
+    },
+  ],
+  صحي: [
+    {
+      slug: "offer-1",
+      kind: "combo",
+      nameTitle: "وجبة بروتين خفيفة",
+      description: "صدر دجاج مع سلطة وبطاطا حلوة وماء.",
+      includes: ["صدر دجاج", "سلطة", "بطاطا حلوة", "ماء"],
+      price: 52,
+      calories: 520,
+      protein: 48,
+      carbs: 40,
+      fat: 14,
+      spicy: false,
+    },
+    {
+      slug: "offer-2",
+      kind: "deal",
+      nameTitle: "عرض بول مع سموذي",
+      description: "كينوا بول وسموذي بسعر واحد.",
+      includes: ["كينوا بول", "سموذي"],
+      price: 48,
+      calories: 480,
+      protein: 20,
+      carbs: 55,
+      fat: 14,
+      spicy: false,
+    },
+    {
+      slug: "offer-3",
+      kind: "deal",
+      nameTitle: "عرض ٣ سلطات بسعر ثابت",
+      description: "سلطة دجاج وتونة وخضراء — ثلاثة أصناف بسعر واحد.",
+      includes: ["سلطة دجاج", "سلطة تونة", "سلطة خضراء"],
+      price: 79,
+      calories: 720,
+      protein: 55,
+      carbs: 40,
+      fat: 28,
+      spicy: false,
+    },
+  ],
+  بقالة: [
+    {
+      slug: "offer-1",
+      kind: "deal",
+      nameTitle: "عرض فطور البيت",
+      description: "توست وبيض وجبنة وحليب — أربعة أصناف بسعر ثابت.",
+      includes: ["خبز توست", "بيض", "جبنة", "حليب"],
+      price: 29,
+      calories: 0,
+      protein: 0,
+      carbs: 0,
+      fat: 0,
+      spicy: false,
+    },
+    {
+      slug: "offer-2",
+      kind: "deal",
+      nameTitle: "عرض مياه مع عصير",
+      description: "مياه ٦ عبوات مع عصير بسعر واحد.",
+      includes: ["مياه ٦ عبوات", "عصير"],
+      price: 14,
+      calories: 0,
+      protein: 0,
+      carbs: 0,
+      fat: 0,
+      spicy: false,
+    },
+    {
+      slug: "offer-3",
+      kind: "family",
+      nameTitle: "عرض ضيافة للعائلة",
+      description: "تمر ومياه وعصير وقهوة للضيوف.",
+      includes: ["تمر", "مياه", "عصير", "قهوة"],
+      price: 45,
+      calories: 0,
+      protein: 0,
+      carbs: 0,
+      fat: 0,
+      spicy: false,
+    },
+  ],
+};
+
+const FALLBACK_OFFERS = OFFERS_BY_CUISINE["برجر"];
 const FALLBACK_FOOD = FOOD_IMAGES_BY_CUISINE["برجر"];
+
+const MEAL_KEYS = [
+  "id",
+  "restaurantId",
+  "name",
+  "description",
+  "image",
+  "price",
+  "rating",
+  "calories",
+  "protein",
+  "carbs",
+  "fat",
+  "category",
+  "isPopular",
+  "isOffer",
+  "offerPrice",
+  "isCombo",
+  "offerKind",
+  "comboIncludes",
+  "spicyOption",
+  "cashbackPercent",
+  "addons",
+];
 
 function assertMealKeys(m) {
   for (const k of MEAL_KEYS) {
@@ -615,26 +646,27 @@ function assertMealKeys(m) {
 
 function normalizeRegularMeal(m) {
   const next = { ...m };
-  // strip old discount offers
-  if (!next.isCombo) {
+  if (!String(m.id).includes("-offer-") && !String(m.id).includes("-combo-")) {
     next.isOffer = false;
     next.offerPrice = null;
     next.isCombo = false;
+    next.offerKind = null;
     next.comboIncludes = [];
     if (next.category === "offers") {
       next.category = next.isPopular ? "popular" : "menu";
     }
   }
+  if (!("offerKind" in next)) next.offerKind = null;
   if (!Array.isArray(next.comboIncludes)) next.comboIncludes = [];
   if (typeof next.isCombo !== "boolean") next.isCombo = false;
   return next;
 }
 
-function buildComboMeal(restaurant, template, image) {
+function buildOfferMeal(restaurant, template, image) {
   return {
     id: `${restaurant.id}-${template.slug}`,
     restaurantId: restaurant.id,
-    name: template.name,
+    name: `${template.nameTitle} — ${restaurant.name}`,
     description: template.description,
     image,
     price: template.price,
@@ -648,6 +680,7 @@ function buildComboMeal(restaurant, template, image) {
     isOffer: true,
     offerPrice: null,
     isCombo: true,
+    offerKind: template.kind,
     comboIncludes: [...template.includes],
     spicyOption: Boolean(template.spicy),
     cashbackPercent: null,
@@ -656,21 +689,32 @@ function buildComboMeal(restaurant, template, image) {
 }
 
 function upgradeRestaurant(r) {
-  // drop previous generated combos so re-run is idempotent
   const regular = r.meals
-    .filter((m) => !String(m.id).includes("-combo-"))
-    .map(normalizeRegularMeal);
+    .filter(
+      (m) =>
+        !String(m.id).includes("-combo-") && !String(m.id).includes("-offer-"),
+    )
+    .map(normalizeRegularMeal)
+    .map((m) => ({
+      ...m,
+      addons: getAddonsForCuisine(r.cuisine),
+      offerKind: null,
+      isCombo: false,
+      isOffer: false,
+      offerPrice: null,
+      comboIncludes: [],
+    }));
 
-  const templates = COMBOS_BY_CUISINE[r.cuisine] ?? FALLBACK_COMBOS;
+  const templates = OFFERS_BY_CUISINE[r.cuisine] ?? FALLBACK_OFFERS;
   const foodPool = FOOD_IMAGES_BY_CUISINE[r.cuisine] ?? FALLBACK_FOOD;
 
-  const combos = templates.map((t, i) =>
-    buildComboMeal(r, t, foodImg(foodPool[i % foodPool.length])),
+  const offers = templates.map((t, i) =>
+    buildOfferMeal(r, t, foodImg(foodPool[i % foodPool.length])),
   );
 
-  for (const m of [...regular, ...combos]) assertMealKeys(m);
+  for (const m of [...regular, ...offers]) assertMealKeys(m);
 
-  return { ...r, meals: [...regular, ...combos] };
+  return { ...r, meals: [...regular, ...offers] };
 }
 
 const partFiles = readdirSync(catalogDir)
@@ -686,15 +730,15 @@ for (const file of partFiles) {
   const restaurants = part.restaurants.map(upgradeRestaurant);
   writeFileSync(path, JSON.stringify({ restaurants }, null, 2) + "\n", "utf8");
 
-  let comboCount = 0;
+  let offerCount = 0;
   for (const r of restaurants) {
-    comboCount += r.meals.filter((m) => m.isCombo).length;
+    offerCount += r.meals.filter((m) => m.isOffer).length;
     if (!seen.has(r.id)) {
       seen.add(r.id);
       merged.push(r);
     }
   }
-  console.log(`upgraded ${file}: ${restaurants.length} restaurants, ${comboCount} combos`);
+  console.log(`upgraded ${file}: ${restaurants.length} restaurants, ${offerCount} offers`);
 }
 
 writeFileSync(
@@ -703,11 +747,14 @@ writeFileSync(
   "utf8",
 );
 
-const meals = merged.reduce((n, r) => n + r.meals.length, 0);
-const combos = merged.reduce(
-  (n, r) => n + r.meals.filter((m) => m.isCombo).length,
-  0,
-);
+const offers = merged.flatMap((r) => r.meals.filter((m) => m.isOffer));
+const names = new Set(offers.map((m) => m.name));
+const kinds = {};
+for (const m of offers) kinds[m.offerKind] = (kinds[m.offerKind] || 0) + 1;
+const comboNamed = offers.filter((m) => m.name.startsWith("كومبو")).length;
+
 console.log(
-  `merged: ${merged.length} restaurants, ${meals} meals, ${combos} combos`,
+  `merged: ${merged.length} restaurants, ${offers.length} offers, unique names ${names.size}`,
 );
+console.log("kinds", kinds);
+console.log("names starting with كومبو", comboNamed);

@@ -41,6 +41,7 @@ const mealKeys = [
   "isOffer",
   "offerPrice",
   "isCombo",
+  "offerKind",
   "comboIncludes",
   "spicyOption",
   "cashbackPercent",

@@ -66,7 +66,8 @@
             }
           ],
           "isCombo": false,
-          "comboIncludes": []
+          "comboIncludes": [],
+          "offerKind": null
         },
         {
           "id": "blue-harbor-2",
@@ -114,7 +115,8 @@
             }
           ],
           "isCombo": false,
-          "comboIncludes": []
+          "comboIncludes": [],
+          "offerKind": null
         },
         {
           "id": "blue-harbor-3",
@@ -162,7 +164,8 @@
             }
           ],
           "isCombo": false,
-          "comboIncludes": []
+          "comboIncludes": [],
+          "offerKind": null
         },
         {
           "id": "blue-harbor-4",
@@ -210,7 +213,8 @@
             }
           ],
           "isCombo": false,
-          "comboIncludes": []
+          "comboIncludes": [],
+          "offerKind": null
         },
         {
           "id": "blue-harbor-5",
@@ -258,7 +262,8 @@
             }
           ],
           "isCombo": false,
-          "comboIncludes": []
+          "comboIncludes": [],
+          "offerKind": null
         },
         {
           "id": "blue-harbor-6",
@@ -306,7 +311,8 @@
             }
           ],
           "isCombo": false,
-          "comboIncludes": []
+          "comboIncludes": [],
+          "offerKind": null
         },
         {
           "id": "blue-harbor-7",
@@ -354,7 +360,8 @@
             }
           ],
           "isCombo": false,
-          "comboIncludes": []
+          "comboIncludes": [],
+          "offerKind": null
         },
         {
           "id": "blue-harbor-8",
@@ -402,7 +409,8 @@
             }
           ],
           "isCombo": false,
-          "comboIncludes": []
+          "comboIncludes": [],
+          "offerKind": null
         },
         {
           "id": "blue-harbor-9",
@@ -450,7 +458,8 @@
             }
           ],
           "isCombo": false,
-          "comboIncludes": []
+          "comboIncludes": [],
+          "offerKind": null
         },
         {
           "id": "blue-harbor-10",
@@ -498,12 +507,13 @@
             }
           ],
           "isCombo": false,
-          "comboIncludes": []
+          "comboIncludes": [],
+          "offerKind": null
         },
         {
-          "id": "blue-harbor-combo-1",
+          "id": "blue-harbor-offer-1",
           "restaurantId": "blue-harbor",
-          "name": "كومبو سمك مشوي",
+          "name": "وجبة سمك مشوي — الميناء الأزرق",
           "description": "سمك مع أرز وسلطة ومشروب.",
           "image": "https://images.unsplash.com/photo-1559339352-11d035aa65de?w=800&q=80",
           "price": 68,
@@ -517,10 +527,11 @@
           "isOffer": true,
           "offerPrice": null,
           "isCombo": true,
+          "offerKind": "combo",
           "comboIncludes": [
             "سمك مشوي",
             "أرز",
-            "سلطة سيزر",
+            "سلطة",
             "ليمون",
             "مشروب"
           ],
@@ -555,27 +566,29 @@
           ]
         },
         {
-          "id": "blue-harbor-combo-2",
+          "id": "blue-harbor-offer-2",
           "restaurantId": "blue-harbor",
-          "name": "كومبو روبيان كامل",
-          "description": "روبيان مقلي مع بطاطس ومشروب.",
+          "name": "وجبة عائلية بحرية — الميناء الأزرق",
+          "description": "سمك وروبيان وأرز وسلطة ومشروبين للمشاركة.",
           "image": "https://images.unsplash.com/photo-1559847844-5315695dadae?w=800&q=80",
-          "price": 74,
+          "price": 169,
           "rating": 4.6,
-          "calories": 920,
-          "protein": 42,
-          "carbs": 70,
-          "fat": 40,
+          "calories": 1600,
+          "protein": 95,
+          "carbs": 100,
+          "fat": 60,
           "category": "offers",
           "isPopular": false,
           "isOffer": true,
           "offerPrice": null,
           "isCombo": true,
+          "offerKind": "family",
           "comboIncludes": [
-            "روبيان مقلي",
-            "بطاطس",
-            "صوص ثوم",
-            "مشروب"
+            "سمك",
+            "روبيان",
+            "أرز",
+            "سلطة",
+            "٢ مشروب"
           ],
           "spicyOption": false,
           "cashbackPercent": null,
@@ -608,27 +621,27 @@
           ]
         },
         {
-          "id": "blue-harbor-combo-3",
+          "id": "blue-harbor-offer-3",
           "restaurantId": "blue-harbor",
-          "name": "كومبو صيادية وجبة",
-          "description": "صيادية مع مقبلات بحرية.",
+          "name": "اشتري روبيان واحصل على الثاني مجاناً — الميناء الأزرق",
+          "description": "عرض روبيانين مع صوص ثوم بنفس السعر.",
           "image": "https://images.unsplash.com/photo-1615141982883-c7ad0e69fd62?w=800&q=80",
-          "price": 58,
+          "price": 74,
           "rating": 4.6,
-          "calories": 860,
-          "protein": 36,
-          "carbs": 90,
-          "fat": 26,
+          "calories": 900,
+          "protein": 50,
+          "carbs": 40,
+          "fat": 45,
           "category": "offers",
           "isPopular": false,
           "isOffer": true,
           "offerPrice": null,
           "isCombo": true,
+          "offerKind": "deal",
           "comboIncludes": [
-            "صيادية",
-            "سلطة بطاطس",
-            "مخلل",
-            "مشروب"
+            "روبيان مقلي",
+            "روبيان مقلي إضافي",
+            "صوص ثوم"
           ],
           "spicyOption": false,
           "cashbackPercent": null,
@@ -728,7 +741,8 @@
             }
           ],
           "isCombo": false,
-          "comboIncludes": []
+          "comboIncludes": [],
+          "offerKind": null
         },
         {
           "id": "shrimp-coast-2",
@@ -776,7 +790,8 @@
             }
           ],
           "isCombo": false,
-          "comboIncludes": []
+          "comboIncludes": [],
+          "offerKind": null
         },
         {
           "id": "shrimp-coast-3",
@@ -824,7 +839,8 @@
             }
           ],
           "isCombo": false,
-          "comboIncludes": []
+          "comboIncludes": [],
+          "offerKind": null
         },
         {
           "id": "shrimp-coast-4",
@@ -872,7 +888,8 @@
             }
           ],
           "isCombo": false,
-          "comboIncludes": []
+          "comboIncludes": [],
+          "offerKind": null
         },
         {
           "id": "shrimp-coast-5",
@@ -920,7 +937,8 @@
             }
           ],
           "isCombo": false,
-          "comboIncludes": []
+          "comboIncludes": [],
+          "offerKind": null
         },
         {
           "id": "shrimp-coast-6",
@@ -968,7 +986,8 @@
             }
           ],
           "isCombo": false,
-          "comboIncludes": []
+          "comboIncludes": [],
+          "offerKind": null
         },
         {
           "id": "shrimp-coast-7",
@@ -1016,7 +1035,8 @@
             }
           ],
           "isCombo": false,
-          "comboIncludes": []
+          "comboIncludes": [],
+          "offerKind": null
         },
         {
           "id": "shrimp-coast-8",
@@ -1064,7 +1084,8 @@
             }
           ],
           "isCombo": false,
-          "comboIncludes": []
+          "comboIncludes": [],
+          "offerKind": null
         },
         {
           "id": "shrimp-coast-9",
@@ -1112,7 +1133,8 @@
             }
           ],
           "isCombo": false,
-          "comboIncludes": []
+          "comboIncludes": [],
+          "offerKind": null
         },
         {
           "id": "shrimp-coast-10",
@@ -1160,12 +1182,13 @@
             }
           ],
           "isCombo": false,
-          "comboIncludes": []
+          "comboIncludes": [],
+          "offerKind": null
         },
         {
-          "id": "shrimp-coast-combo-1",
+          "id": "shrimp-coast-offer-1",
           "restaurantId": "shrimp-coast",
-          "name": "كومبو سمك مشوي",
+          "name": "وجبة سمك مشوي — ساحل الروبيان",
           "description": "سمك مع أرز وسلطة ومشروب.",
           "image": "https://images.unsplash.com/photo-1559339352-11d035aa65de?w=800&q=80",
           "price": 68,
@@ -1179,10 +1202,11 @@
           "isOffer": true,
           "offerPrice": null,
           "isCombo": true,
+          "offerKind": "combo",
           "comboIncludes": [
             "سمك مشوي",
             "أرز",
-            "سلطة سيزر",
+            "سلطة",
             "ليمون",
             "مشروب"
           ],
@@ -1217,27 +1241,29 @@
           ]
         },
         {
-          "id": "shrimp-coast-combo-2",
+          "id": "shrimp-coast-offer-2",
           "restaurantId": "shrimp-coast",
-          "name": "كومبو روبيان كامل",
-          "description": "روبيان مقلي مع بطاطس ومشروب.",
+          "name": "وجبة عائلية بحرية — ساحل الروبيان",
+          "description": "سمك وروبيان وأرز وسلطة ومشروبين للمشاركة.",
           "image": "https://images.unsplash.com/photo-1559847844-5315695dadae?w=800&q=80",
-          "price": 74,
+          "price": 169,
           "rating": 4.6,
-          "calories": 920,
-          "protein": 42,
-          "carbs": 70,
-          "fat": 40,
+          "calories": 1600,
+          "protein": 95,
+          "carbs": 100,
+          "fat": 60,
           "category": "offers",
           "isPopular": false,
           "isOffer": true,
           "offerPrice": null,
           "isCombo": true,
+          "offerKind": "family",
           "comboIncludes": [
-            "روبيان مقلي",
-            "بطاطس",
-            "صوص ثوم",
-            "مشروب"
+            "سمك",
+            "روبيان",
+            "أرز",
+            "سلطة",
+            "٢ مشروب"
           ],
           "spicyOption": false,
           "cashbackPercent": null,
@@ -1270,27 +1296,27 @@
           ]
         },
         {
-          "id": "shrimp-coast-combo-3",
+          "id": "shrimp-coast-offer-3",
           "restaurantId": "shrimp-coast",
-          "name": "كومبو صيادية وجبة",
-          "description": "صيادية مع مقبلات بحرية.",
+          "name": "اشتري روبيان واحصل على الثاني مجاناً — ساحل الروبيان",
+          "description": "عرض روبيانين مع صوص ثوم بنفس السعر.",
           "image": "https://images.unsplash.com/photo-1615141982883-c7ad0e69fd62?w=800&q=80",
-          "price": 58,
+          "price": 74,
           "rating": 4.6,
-          "calories": 860,
-          "protein": 36,
-          "carbs": 90,
-          "fat": 26,
+          "calories": 900,
+          "protein": 50,
+          "carbs": 40,
+          "fat": 45,
           "category": "offers",
           "isPopular": false,
           "isOffer": true,
           "offerPrice": null,
           "isCombo": true,
+          "offerKind": "deal",
           "comboIncludes": [
-            "صيادية",
-            "سلطة بطاطس",
-            "مخلل",
-            "مشروب"
+            "روبيان مقلي",
+            "روبيان مقلي إضافي",
+            "صوص ثوم"
           ],
           "spicyOption": false,
           "cashbackPercent": null,
@@ -1390,7 +1416,8 @@
             }
           ],
           "isCombo": false,
-          "comboIncludes": []
+          "comboIncludes": [],
+          "offerKind": null
         },
         {
           "id": "coral-grill-2",
@@ -1438,7 +1465,8 @@
             }
           ],
           "isCombo": false,
-          "comboIncludes": []
+          "comboIncludes": [],
+          "offerKind": null
         },
         {
           "id": "coral-grill-3",
@@ -1486,7 +1514,8 @@
             }
           ],
           "isCombo": false,
-          "comboIncludes": []
+          "comboIncludes": [],
+          "offerKind": null
         },
         {
           "id": "coral-grill-4",
@@ -1534,7 +1563,8 @@
             }
           ],
           "isCombo": false,
-          "comboIncludes": []
+          "comboIncludes": [],
+          "offerKind": null
         },
         {
           "id": "coral-grill-5",
@@ -1582,7 +1612,8 @@
             }
           ],
           "isCombo": false,
-          "comboIncludes": []
+          "comboIncludes": [],
+          "offerKind": null
         },
         {
           "id": "coral-grill-6",
@@ -1630,7 +1661,8 @@
             }
           ],
           "isCombo": false,
-          "comboIncludes": []
+          "comboIncludes": [],
+          "offerKind": null
         },
         {
           "id": "coral-grill-7",
@@ -1678,7 +1710,8 @@
             }
           ],
           "isCombo": false,
-          "comboIncludes": []
+          "comboIncludes": [],
+          "offerKind": null
         },
         {
           "id": "coral-grill-8",
@@ -1726,7 +1759,8 @@
             }
           ],
           "isCombo": false,
-          "comboIncludes": []
+          "comboIncludes": [],
+          "offerKind": null
         },
         {
           "id": "coral-grill-9",
@@ -1774,7 +1808,8 @@
             }
           ],
           "isCombo": false,
-          "comboIncludes": []
+          "comboIncludes": [],
+          "offerKind": null
         },
         {
           "id": "coral-grill-10",
@@ -1822,12 +1857,13 @@
             }
           ],
           "isCombo": false,
-          "comboIncludes": []
+          "comboIncludes": [],
+          "offerKind": null
         },
         {
-          "id": "coral-grill-combo-1",
+          "id": "coral-grill-offer-1",
           "restaurantId": "coral-grill",
-          "name": "كومبو سمك مشوي",
+          "name": "وجبة سمك مشوي — مشواة المرجان",
           "description": "سمك مع أرز وسلطة ومشروب.",
           "image": "https://images.unsplash.com/photo-1559339352-11d035aa65de?w=800&q=80",
           "price": 68,
@@ -1841,10 +1877,11 @@
           "isOffer": true,
           "offerPrice": null,
           "isCombo": true,
+          "offerKind": "combo",
           "comboIncludes": [
             "سمك مشوي",
             "أرز",
-            "سلطة سيزر",
+            "سلطة",
             "ليمون",
             "مشروب"
           ],
@@ -1879,27 +1916,29 @@
           ]
         },
         {
-          "id": "coral-grill-combo-2",
+          "id": "coral-grill-offer-2",
           "restaurantId": "coral-grill",
-          "name": "كومبو روبيان كامل",
-          "description": "روبيان مقلي مع بطاطس ومشروب.",
+          "name": "وجبة عائلية بحرية — مشواة المرجان",
+          "description": "سمك وروبيان وأرز وسلطة ومشروبين للمشاركة.",
           "image": "https://images.unsplash.com/photo-1559847844-5315695dadae?w=800&q=80",
-          "price": 74,
+          "price": 169,
           "rating": 4.6,
-          "calories": 920,
-          "protein": 42,
-          "carbs": 70,
-          "fat": 40,
+          "calories": 1600,
+          "protein": 95,
+          "carbs": 100,
+          "fat": 60,
           "category": "offers",
           "isPopular": false,
           "isOffer": true,
           "offerPrice": null,
           "isCombo": true,
+          "offerKind": "family",
           "comboIncludes": [
-            "روبيان مقلي",
-            "بطاطس",
-            "صوص ثوم",
-            "مشروب"
+            "سمك",
+            "روبيان",
+            "أرز",
+            "سلطة",
+            "٢ مشروب"
           ],
           "spicyOption": false,
           "cashbackPercent": null,
@@ -1932,27 +1971,27 @@
           ]
         },
         {
-          "id": "coral-grill-combo-3",
+          "id": "coral-grill-offer-3",
           "restaurantId": "coral-grill",
-          "name": "كومبو صيادية وجبة",
-          "description": "صيادية مع مقبلات بحرية.",
+          "name": "اشتري روبيان واحصل على الثاني مجاناً — مشواة المرجان",
+          "description": "عرض روبيانين مع صوص ثوم بنفس السعر.",
           "image": "https://images.unsplash.com/photo-1615141982883-c7ad0e69fd62?w=800&q=80",
-          "price": 58,
+          "price": 74,
           "rating": 4.6,
-          "calories": 860,
-          "protein": 36,
-          "carbs": 90,
-          "fat": 26,
+          "calories": 900,
+          "protein": 50,
+          "carbs": 40,
+          "fat": 45,
           "category": "offers",
           "isPopular": false,
           "isOffer": true,
           "offerPrice": null,
           "isCombo": true,
+          "offerKind": "deal",
           "comboIncludes": [
-            "صيادية",
-            "سلطة بطاطس",
-            "مخلل",
-            "مشروب"
+            "روبيان مقلي",
+            "روبيان مقلي إضافي",
+            "صوص ثوم"
           ],
           "spicyOption": false,
           "cashbackPercent": null,
@@ -2052,7 +2091,8 @@
             }
           ],
           "isCombo": false,
-          "comboIncludes": []
+          "comboIncludes": [],
+          "offerKind": null
         },
         {
           "id": "wave-kitchen-2",
@@ -2100,7 +2140,8 @@
             }
           ],
           "isCombo": false,
-          "comboIncludes": []
+          "comboIncludes": [],
+          "offerKind": null
         },
         {
           "id": "wave-kitchen-3",
@@ -2148,7 +2189,8 @@
             }
           ],
           "isCombo": false,
-          "comboIncludes": []
+          "comboIncludes": [],
+          "offerKind": null
         },
         {
           "id": "wave-kitchen-4",
@@ -2196,7 +2238,8 @@
             }
           ],
           "isCombo": false,
-          "comboIncludes": []
+          "comboIncludes": [],
+          "offerKind": null
         },
         {
           "id": "wave-kitchen-5",
@@ -2244,7 +2287,8 @@
             }
           ],
           "isCombo": false,
-          "comboIncludes": []
+          "comboIncludes": [],
+          "offerKind": null
         },
         {
           "id": "wave-kitchen-6",
@@ -2292,7 +2336,8 @@
             }
           ],
           "isCombo": false,
-          "comboIncludes": []
+          "comboIncludes": [],
+          "offerKind": null
         },
         {
           "id": "wave-kitchen-7",
@@ -2340,7 +2385,8 @@
             }
           ],
           "isCombo": false,
-          "comboIncludes": []
+          "comboIncludes": [],
+          "offerKind": null
         },
         {
           "id": "wave-kitchen-8",
@@ -2388,7 +2434,8 @@
             }
           ],
           "isCombo": false,
-          "comboIncludes": []
+          "comboIncludes": [],
+          "offerKind": null
         },
         {
           "id": "wave-kitchen-9",
@@ -2436,7 +2483,8 @@
             }
           ],
           "isCombo": false,
-          "comboIncludes": []
+          "comboIncludes": [],
+          "offerKind": null
         },
         {
           "id": "wave-kitchen-10",
@@ -2484,12 +2532,13 @@
             }
           ],
           "isCombo": false,
-          "comboIncludes": []
+          "comboIncludes": [],
+          "offerKind": null
         },
         {
-          "id": "wave-kitchen-combo-1",
+          "id": "wave-kitchen-offer-1",
           "restaurantId": "wave-kitchen",
-          "name": "كومبو سمك مشوي",
+          "name": "وجبة سمك مشوي — مطبخ الموجة",
           "description": "سمك مع أرز وسلطة ومشروب.",
           "image": "https://images.unsplash.com/photo-1559339352-11d035aa65de?w=800&q=80",
           "price": 68,
@@ -2503,10 +2552,11 @@
           "isOffer": true,
           "offerPrice": null,
           "isCombo": true,
+          "offerKind": "combo",
           "comboIncludes": [
             "سمك مشوي",
             "أرز",
-            "سلطة سيزر",
+            "سلطة",
             "ليمون",
             "مشروب"
           ],
@@ -2541,27 +2591,29 @@
           ]
         },
         {
-          "id": "wave-kitchen-combo-2",
+          "id": "wave-kitchen-offer-2",
           "restaurantId": "wave-kitchen",
-          "name": "كومبو روبيان كامل",
-          "description": "روبيان مقلي مع بطاطس ومشروب.",
+          "name": "وجبة عائلية بحرية — مطبخ الموجة",
+          "description": "سمك وروبيان وأرز وسلطة ومشروبين للمشاركة.",
           "image": "https://images.unsplash.com/photo-1559847844-5315695dadae?w=800&q=80",
-          "price": 74,
+          "price": 169,
           "rating": 4.6,
-          "calories": 920,
-          "protein": 42,
-          "carbs": 70,
-          "fat": 40,
+          "calories": 1600,
+          "protein": 95,
+          "carbs": 100,
+          "fat": 60,
           "category": "offers",
           "isPopular": false,
           "isOffer": true,
           "offerPrice": null,
           "isCombo": true,
+          "offerKind": "family",
           "comboIncludes": [
-            "روبيان مقلي",
-            "بطاطس",
-            "صوص ثوم",
-            "مشروب"
+            "سمك",
+            "روبيان",
+            "أرز",
+            "سلطة",
+            "٢ مشروب"
           ],
           "spicyOption": false,
           "cashbackPercent": null,
@@ -2594,27 +2646,27 @@
           ]
         },
         {
-          "id": "wave-kitchen-combo-3",
+          "id": "wave-kitchen-offer-3",
           "restaurantId": "wave-kitchen",
-          "name": "كومبو صيادية وجبة",
-          "description": "صيادية مع مقبلات بحرية.",
+          "name": "اشتري روبيان واحصل على الثاني مجاناً — مطبخ الموجة",
+          "description": "عرض روبيانين مع صوص ثوم بنفس السعر.",
           "image": "https://images.unsplash.com/photo-1615141982883-c7ad0e69fd62?w=800&q=80",
-          "price": 58,
+          "price": 74,
           "rating": 4.6,
-          "calories": 860,
-          "protein": 36,
-          "carbs": 90,
-          "fat": 26,
+          "calories": 900,
+          "protein": 50,
+          "carbs": 40,
+          "fat": 45,
           "category": "offers",
           "isPopular": false,
           "isOffer": true,
           "offerPrice": null,
           "isCombo": true,
+          "offerKind": "deal",
           "comboIncludes": [
-            "صيادية",
-            "سلطة بطاطس",
-            "مخلل",
-            "مشروب"
+            "روبيان مقلي",
+            "روبيان مقلي إضافي",
+            "صوص ثوم"
           ],
           "spicyOption": false,
           "cashbackPercent": null,
@@ -2714,7 +2766,8 @@
             }
           ],
           "isCombo": false,
-          "comboIncludes": []
+          "comboIncludes": [],
+          "offerKind": null
         },
         {
           "id": "pearl-seafood-2",
@@ -2762,7 +2815,8 @@
             }
           ],
           "isCombo": false,
-          "comboIncludes": []
+          "comboIncludes": [],
+          "offerKind": null
         },
         {
           "id": "pearl-seafood-3",
@@ -2810,7 +2864,8 @@
             }
           ],
           "isCombo": false,
-          "comboIncludes": []
+          "comboIncludes": [],
+          "offerKind": null
         },
         {
           "id": "pearl-seafood-4",
@@ -2858,7 +2913,8 @@
             }
           ],
           "isCombo": false,
-          "comboIncludes": []
+          "comboIncludes": [],
+          "offerKind": null
         },
         {
           "id": "pearl-seafood-5",
@@ -2906,7 +2962,8 @@
             }
           ],
           "isCombo": false,
-          "comboIncludes": []
+          "comboIncludes": [],
+          "offerKind": null
         },
         {
           "id": "pearl-seafood-6",
@@ -2954,7 +3011,8 @@
             }
           ],
           "isCombo": false,
-          "comboIncludes": []
+          "comboIncludes": [],
+          "offerKind": null
         },
         {
           "id": "pearl-seafood-7",
@@ -3002,7 +3060,8 @@
             }
           ],
           "isCombo": false,
-          "comboIncludes": []
+          "comboIncludes": [],
+          "offerKind": null
         },
         {
           "id": "pearl-seafood-8",
@@ -3050,7 +3109,8 @@
             }
           ],
           "isCombo": false,
-          "comboIncludes": []
+          "comboIncludes": [],
+          "offerKind": null
         },
         {
           "id": "pearl-seafood-9",
@@ -3098,7 +3158,8 @@
             }
           ],
           "isCombo": false,
-          "comboIncludes": []
+          "comboIncludes": [],
+          "offerKind": null
         },
         {
           "id": "pearl-seafood-10",
@@ -3146,12 +3207,13 @@
             }
           ],
           "isCombo": false,
-          "comboIncludes": []
+          "comboIncludes": [],
+          "offerKind": null
         },
         {
-          "id": "pearl-seafood-combo-1",
+          "id": "pearl-seafood-offer-1",
           "restaurantId": "pearl-seafood",
-          "name": "كومبو سمك مشوي",
+          "name": "وجبة سمك مشوي — لؤلؤة البحر",
           "description": "سمك مع أرز وسلطة ومشروب.",
           "image": "https://images.unsplash.com/photo-1559339352-11d035aa65de?w=800&q=80",
           "price": 68,
@@ -3165,10 +3227,11 @@
           "isOffer": true,
           "offerPrice": null,
           "isCombo": true,
+          "offerKind": "combo",
           "comboIncludes": [
             "سمك مشوي",
             "أرز",
-            "سلطة سيزر",
+            "سلطة",
             "ليمون",
             "مشروب"
           ],
@@ -3203,27 +3266,29 @@
           ]
         },
         {
-          "id": "pearl-seafood-combo-2",
+          "id": "pearl-seafood-offer-2",
           "restaurantId": "pearl-seafood",
-          "name": "كومبو روبيان كامل",
-          "description": "روبيان مقلي مع بطاطس ومشروب.",
+          "name": "وجبة عائلية بحرية — لؤلؤة البحر",
+          "description": "سمك وروبيان وأرز وسلطة ومشروبين للمشاركة.",
           "image": "https://images.unsplash.com/photo-1559847844-5315695dadae?w=800&q=80",
-          "price": 74,
+          "price": 169,
           "rating": 4.6,
-          "calories": 920,
-          "protein": 42,
-          "carbs": 70,
-          "fat": 40,
+          "calories": 1600,
+          "protein": 95,
+          "carbs": 100,
+          "fat": 60,
           "category": "offers",
           "isPopular": false,
           "isOffer": true,
           "offerPrice": null,
           "isCombo": true,
+          "offerKind": "family",
           "comboIncludes": [
-            "روبيان مقلي",
-            "بطاطس",
-            "صوص ثوم",
-            "مشروب"
+            "سمك",
+            "روبيان",
+            "أرز",
+            "سلطة",
+            "٢ مشروب"
           ],
           "spicyOption": false,
           "cashbackPercent": null,
@@ -3256,27 +3321,27 @@
           ]
         },
         {
-          "id": "pearl-seafood-combo-3",
+          "id": "pearl-seafood-offer-3",
           "restaurantId": "pearl-seafood",
-          "name": "كومبو صيادية وجبة",
-          "description": "صيادية مع مقبلات بحرية.",
+          "name": "اشتري روبيان واحصل على الثاني مجاناً — لؤلؤة البحر",
+          "description": "عرض روبيانين مع صوص ثوم بنفس السعر.",
           "image": "https://images.unsplash.com/photo-1615141982883-c7ad0e69fd62?w=800&q=80",
-          "price": 58,
+          "price": 74,
           "rating": 4.6,
-          "calories": 860,
-          "protein": 36,
-          "carbs": 90,
-          "fat": 26,
+          "calories": 900,
+          "protein": 50,
+          "carbs": 40,
+          "fat": 45,
           "category": "offers",
           "isPopular": false,
           "isOffer": true,
           "offerPrice": null,
           "isCombo": true,
+          "offerKind": "deal",
           "comboIncludes": [
-            "صيادية",
-            "سلطة بطاطس",
-            "مخلل",
-            "مشروب"
+            "روبيان مقلي",
+            "روبيان مقلي إضافي",
+            "صوص ثوم"
           ],
           "spicyOption": false,
           "cashbackPercent": null,
@@ -3376,7 +3441,8 @@
             }
           ],
           "isCombo": false,
-          "comboIncludes": []
+          "comboIncludes": [],
+          "offerKind": null
         },
         {
           "id": "anchor-fish-2",
@@ -3424,7 +3490,8 @@
             }
           ],
           "isCombo": false,
-          "comboIncludes": []
+          "comboIncludes": [],
+          "offerKind": null
         },
         {
           "id": "anchor-fish-3",
@@ -3472,7 +3539,8 @@
             }
           ],
           "isCombo": false,
-          "comboIncludes": []
+          "comboIncludes": [],
+          "offerKind": null
         },
         {
           "id": "anchor-fish-4",
@@ -3520,7 +3588,8 @@
             }
           ],
           "isCombo": false,
-          "comboIncludes": []
+          "comboIncludes": [],
+          "offerKind": null
         },
         {
           "id": "anchor-fish-5",
@@ -3568,7 +3637,8 @@
             }
           ],
           "isCombo": false,
-          "comboIncludes": []
+          "comboIncludes": [],
+          "offerKind": null
         },
         {
           "id": "anchor-fish-6",
@@ -3616,7 +3686,8 @@
             }
           ],
           "isCombo": false,
-          "comboIncludes": []
+          "comboIncludes": [],
+          "offerKind": null
         },
         {
           "id": "anchor-fish-7",
@@ -3664,7 +3735,8 @@
             }
           ],
           "isCombo": false,
-          "comboIncludes": []
+          "comboIncludes": [],
+          "offerKind": null
         },
         {
           "id": "anchor-fish-8",
@@ -3712,7 +3784,8 @@
             }
           ],
           "isCombo": false,
-          "comboIncludes": []
+          "comboIncludes": [],
+          "offerKind": null
         },
         {
           "id": "anchor-fish-9",
@@ -3760,7 +3833,8 @@
             }
           ],
           "isCombo": false,
-          "comboIncludes": []
+          "comboIncludes": [],
+          "offerKind": null
         },
         {
           "id": "anchor-fish-10",
@@ -3808,12 +3882,13 @@
             }
           ],
           "isCombo": false,
-          "comboIncludes": []
+          "comboIncludes": [],
+          "offerKind": null
         },
         {
-          "id": "anchor-fish-combo-1",
+          "id": "anchor-fish-offer-1",
           "restaurantId": "anchor-fish",
-          "name": "كومبو سمك مشوي",
+          "name": "وجبة سمك مشوي — سمك المرساة",
           "description": "سمك مع أرز وسلطة ومشروب.",
           "image": "https://images.unsplash.com/photo-1559339352-11d035aa65de?w=800&q=80",
           "price": 68,
@@ -3827,10 +3902,11 @@
           "isOffer": true,
           "offerPrice": null,
           "isCombo": true,
+          "offerKind": "combo",
           "comboIncludes": [
             "سمك مشوي",
             "أرز",
-            "سلطة سيزر",
+            "سلطة",
             "ليمون",
             "مشروب"
           ],
@@ -3865,27 +3941,29 @@
           ]
         },
         {
-          "id": "anchor-fish-combo-2",
+          "id": "anchor-fish-offer-2",
           "restaurantId": "anchor-fish",
-          "name": "كومبو روبيان كامل",
-          "description": "روبيان مقلي مع بطاطس ومشروب.",
+          "name": "وجبة عائلية بحرية — سمك المرساة",
+          "description": "سمك وروبيان وأرز وسلطة ومشروبين للمشاركة.",
           "image": "https://images.unsplash.com/photo-1559847844-5315695dadae?w=800&q=80",
-          "price": 74,
+          "price": 169,
           "rating": 4.6,
-          "calories": 920,
-          "protein": 42,
-          "carbs": 70,
-          "fat": 40,
+          "calories": 1600,
+          "protein": 95,
+          "carbs": 100,
+          "fat": 60,
           "category": "offers",
           "isPopular": false,
           "isOffer": true,
           "offerPrice": null,
           "isCombo": true,
+          "offerKind": "family",
           "comboIncludes": [
-            "روبيان مقلي",
-            "بطاطس",
-            "صوص ثوم",
-            "مشروب"
+            "سمك",
+            "روبيان",
+            "أرز",
+            "سلطة",
+            "٢ مشروب"
           ],
           "spicyOption": false,
           "cashbackPercent": null,
@@ -3918,27 +3996,27 @@
           ]
         },
         {
-          "id": "anchor-fish-combo-3",
+          "id": "anchor-fish-offer-3",
           "restaurantId": "anchor-fish",
-          "name": "كومبو صيادية وجبة",
-          "description": "صيادية مع مقبلات بحرية.",
+          "name": "اشتري روبيان واحصل على الثاني مجاناً — سمك المرساة",
+          "description": "عرض روبيانين مع صوص ثوم بنفس السعر.",
           "image": "https://images.unsplash.com/photo-1615141982883-c7ad0e69fd62?w=800&q=80",
-          "price": 58,
+          "price": 74,
           "rating": 4.6,
-          "calories": 860,
-          "protein": 36,
-          "carbs": 90,
-          "fat": 26,
+          "calories": 900,
+          "protein": 50,
+          "carbs": 40,
+          "fat": 45,
           "category": "offers",
           "isPopular": false,
           "isOffer": true,
           "offerPrice": null,
           "isCombo": true,
+          "offerKind": "deal",
           "comboIncludes": [
-            "صيادية",
-            "سلطة بطاطس",
-            "مخلل",
-            "مشروب"
+            "روبيان مقلي",
+            "روبيان مقلي إضافي",
+            "صوص ثوم"
           ],
           "spicyOption": false,
           "cashbackPercent": null,
@@ -4038,7 +4116,8 @@
             }
           ],
           "isCombo": false,
-          "comboIncludes": []
+          "comboIncludes": [],
+          "offerKind": null
         },
         {
           "id": "tide-table-2",
@@ -4086,7 +4165,8 @@
             }
           ],
           "isCombo": false,
-          "comboIncludes": []
+          "comboIncludes": [],
+          "offerKind": null
         },
         {
           "id": "tide-table-3",
@@ -4134,7 +4214,8 @@
             }
           ],
           "isCombo": false,
-          "comboIncludes": []
+          "comboIncludes": [],
+          "offerKind": null
         },
         {
           "id": "tide-table-4",
@@ -4182,7 +4263,8 @@
             }
           ],
           "isCombo": false,
-          "comboIncludes": []
+          "comboIncludes": [],
+          "offerKind": null
         },
         {
           "id": "tide-table-5",
@@ -4230,7 +4312,8 @@
             }
           ],
           "isCombo": false,
-          "comboIncludes": []
+          "comboIncludes": [],
+          "offerKind": null
         },
         {
           "id": "tide-table-6",
@@ -4278,7 +4361,8 @@
             }
           ],
           "isCombo": false,
-          "comboIncludes": []
+          "comboIncludes": [],
+          "offerKind": null
         },
         {
           "id": "tide-table-7",
@@ -4326,7 +4410,8 @@
             }
           ],
           "isCombo": false,
-          "comboIncludes": []
+          "comboIncludes": [],
+          "offerKind": null
         },
         {
           "id": "tide-table-8",
@@ -4374,7 +4459,8 @@
             }
           ],
           "isCombo": false,
-          "comboIncludes": []
+          "comboIncludes": [],
+          "offerKind": null
         },
         {
           "id": "tide-table-9",
@@ -4422,7 +4508,8 @@
             }
           ],
           "isCombo": false,
-          "comboIncludes": []
+          "comboIncludes": [],
+          "offerKind": null
         },
         {
           "id": "tide-table-10",
@@ -4470,12 +4557,13 @@
             }
           ],
           "isCombo": false,
-          "comboIncludes": []
+          "comboIncludes": [],
+          "offerKind": null
         },
         {
-          "id": "tide-table-combo-1",
+          "id": "tide-table-offer-1",
           "restaurantId": "tide-table",
-          "name": "كومبو سمك مشوي",
+          "name": "وجبة سمك مشوي — طاولة المد",
           "description": "سمك مع أرز وسلطة ومشروب.",
           "image": "https://images.unsplash.com/photo-1559339352-11d035aa65de?w=800&q=80",
           "price": 68,
@@ -4489,10 +4577,11 @@
           "isOffer": true,
           "offerPrice": null,
           "isCombo": true,
+          "offerKind": "combo",
           "comboIncludes": [
             "سمك مشوي",
             "أرز",
-            "سلطة سيزر",
+            "سلطة",
             "ليمون",
             "مشروب"
           ],
@@ -4527,27 +4616,29 @@
           ]
         },
         {
-          "id": "tide-table-combo-2",
+          "id": "tide-table-offer-2",
           "restaurantId": "tide-table",
-          "name": "كومبو روبيان كامل",
-          "description": "روبيان مقلي مع بطاطس ومشروب.",
+          "name": "وجبة عائلية بحرية — طاولة المد",
+          "description": "سمك وروبيان وأرز وسلطة ومشروبين للمشاركة.",
           "image": "https://images.unsplash.com/photo-1559847844-5315695dadae?w=800&q=80",
-          "price": 74,
+          "price": 169,
           "rating": 4.6,
-          "calories": 920,
-          "protein": 42,
-          "carbs": 70,
-          "fat": 40,
+          "calories": 1600,
+          "protein": 95,
+          "carbs": 100,
+          "fat": 60,
           "category": "offers",
           "isPopular": false,
           "isOffer": true,
           "offerPrice": null,
           "isCombo": true,
+          "offerKind": "family",
           "comboIncludes": [
-            "روبيان مقلي",
-            "بطاطس",
-            "صوص ثوم",
-            "مشروب"
+            "سمك",
+            "روبيان",
+            "أرز",
+            "سلطة",
+            "٢ مشروب"
           ],
           "spicyOption": false,
           "cashbackPercent": null,
@@ -4580,27 +4671,27 @@
           ]
         },
         {
-          "id": "tide-table-combo-3",
+          "id": "tide-table-offer-3",
           "restaurantId": "tide-table",
-          "name": "كومبو صيادية وجبة",
-          "description": "صيادية مع مقبلات بحرية.",
+          "name": "اشتري روبيان واحصل على الثاني مجاناً — طاولة المد",
+          "description": "عرض روبيانين مع صوص ثوم بنفس السعر.",
           "image": "https://images.unsplash.com/photo-1615141982883-c7ad0e69fd62?w=800&q=80",
-          "price": 58,
+          "price": 74,
           "rating": 4.6,
-          "calories": 860,
-          "protein": 36,
-          "carbs": 90,
-          "fat": 26,
+          "calories": 900,
+          "protein": 50,
+          "carbs": 40,
+          "fat": 45,
           "category": "offers",
           "isPopular": false,
           "isOffer": true,
           "offerPrice": null,
           "isCombo": true,
+          "offerKind": "deal",
           "comboIncludes": [
-            "صيادية",
-            "سلطة بطاطس",
-            "مخلل",
-            "مشروب"
+            "روبيان مقلي",
+            "روبيان مقلي إضافي",
+            "صوص ثوم"
           ],
           "spicyOption": false,
           "cashbackPercent": null,
@@ -4700,7 +4791,8 @@
             }
           ],
           "isCombo": false,
-          "comboIncludes": []
+          "comboIncludes": [],
+          "offerKind": null
         },
         {
           "id": "salt-breeze-2",
@@ -4748,7 +4840,8 @@
             }
           ],
           "isCombo": false,
-          "comboIncludes": []
+          "comboIncludes": [],
+          "offerKind": null
         },
         {
           "id": "salt-breeze-3",
@@ -4796,7 +4889,8 @@
             }
           ],
           "isCombo": false,
-          "comboIncludes": []
+          "comboIncludes": [],
+          "offerKind": null
         },
         {
           "id": "salt-breeze-4",
@@ -4844,7 +4938,8 @@
             }
           ],
           "isCombo": false,
-          "comboIncludes": []
+          "comboIncludes": [],
+          "offerKind": null
         },
         {
           "id": "salt-breeze-5",
@@ -4892,7 +4987,8 @@
             }
           ],
           "isCombo": false,
-          "comboIncludes": []
+          "comboIncludes": [],
+          "offerKind": null
         },
         {
           "id": "salt-breeze-6",
@@ -4940,7 +5036,8 @@
             }
           ],
           "isCombo": false,
-          "comboIncludes": []
+          "comboIncludes": [],
+          "offerKind": null
         },
         {
           "id": "salt-breeze-7",
@@ -4988,7 +5085,8 @@
             }
           ],
           "isCombo": false,
-          "comboIncludes": []
+          "comboIncludes": [],
+          "offerKind": null
         },
         {
           "id": "salt-breeze-8",
@@ -5036,7 +5134,8 @@
             }
           ],
           "isCombo": false,
-          "comboIncludes": []
+          "comboIncludes": [],
+          "offerKind": null
         },
         {
           "id": "salt-breeze-9",
@@ -5084,7 +5183,8 @@
             }
           ],
           "isCombo": false,
-          "comboIncludes": []
+          "comboIncludes": [],
+          "offerKind": null
         },
         {
           "id": "salt-breeze-10",
@@ -5132,12 +5232,13 @@
             }
           ],
           "isCombo": false,
-          "comboIncludes": []
+          "comboIncludes": [],
+          "offerKind": null
         },
         {
-          "id": "salt-breeze-combo-1",
+          "id": "salt-breeze-offer-1",
           "restaurantId": "salt-breeze",
-          "name": "كومبو سمك مشوي",
+          "name": "وجبة سمك مشوي — نسيم الملح",
           "description": "سمك مع أرز وسلطة ومشروب.",
           "image": "https://images.unsplash.com/photo-1559339352-11d035aa65de?w=800&q=80",
           "price": 68,
@@ -5151,10 +5252,11 @@
           "isOffer": true,
           "offerPrice": null,
           "isCombo": true,
+          "offerKind": "combo",
           "comboIncludes": [
             "سمك مشوي",
             "أرز",
-            "سلطة سيزر",
+            "سلطة",
             "ليمون",
             "مشروب"
           ],
@@ -5189,27 +5291,29 @@
           ]
         },
         {
-          "id": "salt-breeze-combo-2",
+          "id": "salt-breeze-offer-2",
           "restaurantId": "salt-breeze",
-          "name": "كومبو روبيان كامل",
-          "description": "روبيان مقلي مع بطاطس ومشروب.",
+          "name": "وجبة عائلية بحرية — نسيم الملح",
+          "description": "سمك وروبيان وأرز وسلطة ومشروبين للمشاركة.",
           "image": "https://images.unsplash.com/photo-1559847844-5315695dadae?w=800&q=80",
-          "price": 74,
+          "price": 169,
           "rating": 4.6,
-          "calories": 920,
-          "protein": 42,
-          "carbs": 70,
-          "fat": 40,
+          "calories": 1600,
+          "protein": 95,
+          "carbs": 100,
+          "fat": 60,
           "category": "offers",
           "isPopular": false,
           "isOffer": true,
           "offerPrice": null,
           "isCombo": true,
+          "offerKind": "family",
           "comboIncludes": [
-            "روبيان مقلي",
-            "بطاطس",
-            "صوص ثوم",
-            "مشروب"
+            "سمك",
+            "روبيان",
+            "أرز",
+            "سلطة",
+            "٢ مشروب"
           ],
           "spicyOption": false,
           "cashbackPercent": null,
@@ -5242,27 +5346,27 @@
           ]
         },
         {
-          "id": "salt-breeze-combo-3",
+          "id": "salt-breeze-offer-3",
           "restaurantId": "salt-breeze",
-          "name": "كومبو صيادية وجبة",
-          "description": "صيادية مع مقبلات بحرية.",
+          "name": "اشتري روبيان واحصل على الثاني مجاناً — نسيم الملح",
+          "description": "عرض روبيانين مع صوص ثوم بنفس السعر.",
           "image": "https://images.unsplash.com/photo-1615141982883-c7ad0e69fd62?w=800&q=80",
-          "price": 58,
+          "price": 74,
           "rating": 4.6,
-          "calories": 860,
-          "protein": 36,
-          "carbs": 90,
-          "fat": 26,
+          "calories": 900,
+          "protein": 50,
+          "carbs": 40,
+          "fat": 45,
           "category": "offers",
           "isPopular": false,
           "isOffer": true,
           "offerPrice": null,
           "isCombo": true,
+          "offerKind": "deal",
           "comboIncludes": [
-            "صيادية",
-            "سلطة بطاطس",
-            "مخلل",
-            "مشروب"
+            "روبيان مقلي",
+            "روبيان مقلي إضافي",
+            "صوص ثوم"
           ],
           "spicyOption": false,
           "cashbackPercent": null,

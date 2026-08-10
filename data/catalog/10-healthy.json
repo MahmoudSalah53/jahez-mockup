@@ -66,7 +66,8 @@
             }
           ],
           "isCombo": false,
-          "comboIncludes": []
+          "comboIncludes": [],
+          "offerKind": null
         },
         {
           "id": "green-fuel-2",
@@ -114,7 +115,8 @@
             }
           ],
           "isCombo": false,
-          "comboIncludes": []
+          "comboIncludes": [],
+          "offerKind": null
         },
         {
           "id": "green-fuel-3",
@@ -162,7 +164,8 @@
             }
           ],
           "isCombo": false,
-          "comboIncludes": []
+          "comboIncludes": [],
+          "offerKind": null
         },
         {
           "id": "green-fuel-4",
@@ -210,7 +213,8 @@
             }
           ],
           "isCombo": false,
-          "comboIncludes": []
+          "comboIncludes": [],
+          "offerKind": null
         },
         {
           "id": "green-fuel-5",
@@ -258,7 +262,8 @@
             }
           ],
           "isCombo": false,
-          "comboIncludes": []
+          "comboIncludes": [],
+          "offerKind": null
         },
         {
           "id": "green-fuel-6",
@@ -306,7 +311,8 @@
             }
           ],
           "isCombo": false,
-          "comboIncludes": []
+          "comboIncludes": [],
+          "offerKind": null
         },
         {
           "id": "green-fuel-7",
@@ -354,7 +360,8 @@
             }
           ],
           "isCombo": false,
-          "comboIncludes": []
+          "comboIncludes": [],
+          "offerKind": null
         },
         {
           "id": "green-fuel-8",
@@ -402,7 +409,8 @@
             }
           ],
           "isCombo": false,
-          "comboIncludes": []
+          "comboIncludes": [],
+          "offerKind": null
         },
         {
           "id": "green-fuel-9",
@@ -450,7 +458,8 @@
             }
           ],
           "isCombo": false,
-          "comboIncludes": []
+          "comboIncludes": [],
+          "offerKind": null
         },
         {
           "id": "green-fuel-10",
@@ -498,13 +507,14 @@
             }
           ],
           "isCombo": false,
-          "comboIncludes": []
+          "comboIncludes": [],
+          "offerKind": null
         },
         {
-          "id": "green-fuel-combo-1",
+          "id": "green-fuel-offer-1",
           "restaurantId": "green-fuel",
-          "name": "كومبو بروتين خفيف",
-          "description": "وجبة متوازنة بروتين وخضار.",
+          "name": "وجبة بروتين خفيفة — وقود أخضر",
+          "description": "صدر دجاج مع سلطة وبطاطا حلوة وماء.",
           "image": "https://images.unsplash.com/photo-1512621776951-a57141f2eefd?w=800&q=80",
           "price": 52,
           "rating": 4.6,
@@ -517,9 +527,10 @@
           "isOffer": true,
           "offerPrice": null,
           "isCombo": true,
+          "offerKind": "combo",
           "comboIncludes": [
-            "صدر دجاج مشوي",
-            "سلطة خضراء",
+            "صدر دجاج",
+            "سلطة",
             "بطاطا حلوة",
             "ماء"
           ],
@@ -554,26 +565,26 @@
           ]
         },
         {
-          "id": "green-fuel-combo-2",
+          "id": "green-fuel-offer-2",
           "restaurantId": "green-fuel",
-          "name": "كومبو بول صحي",
-          "description": "بول مع سموذي.",
+          "name": "عرض بول مع سموذي — وقود أخضر",
+          "description": "كينوا بول وسموذي بسعر واحد.",
           "image": "https://images.unsplash.com/photo-1546069901-ba9599a7e63c?w=800&q=80",
           "price": 48,
           "rating": 4.6,
-          "calories": 580,
-          "protein": 22,
-          "carbs": 68,
-          "fat": 18,
+          "calories": 480,
+          "protein": 20,
+          "carbs": 55,
+          "fat": 14,
           "category": "offers",
           "isPopular": false,
           "isOffer": true,
           "offerPrice": null,
           "isCombo": true,
+          "offerKind": "deal",
           "comboIncludes": [
             "كينوا بول",
-            "سموذي أخضر",
-            "مكسرات"
+            "سموذي"
           ],
           "spicyOption": false,
           "cashbackPercent": null,
@@ -606,27 +617,27 @@
           ]
         },
         {
-          "id": "green-fuel-combo-3",
+          "id": "green-fuel-offer-3",
           "restaurantId": "green-fuel",
-          "name": "كومبو سمك صحي",
-          "description": "سلمون مع سلطة وخضار.",
+          "name": "عرض ٣ سلطات بسعر ثابت — وقود أخضر",
+          "description": "سلطة دجاج وتونة وخضراء — ثلاثة أصناف بسعر واحد.",
           "image": "https://images.unsplash.com/photo-1490645935967-10de6ba17061?w=800&q=80",
-          "price": 72,
+          "price": 79,
           "rating": 4.6,
-          "calories": 610,
-          "protein": 44,
-          "carbs": 45,
-          "fat": 24,
+          "calories": 720,
+          "protein": 55,
+          "carbs": 40,
+          "fat": 28,
           "category": "offers",
           "isPopular": false,
           "isOffer": true,
           "offerPrice": null,
           "isCombo": true,
+          "offerKind": "deal",
           "comboIncludes": [
-            "سلمون مشوي",
-            "خضار ستيم",
-            "أرز بني",
-            "ليمون"
+            "سلطة دجاج",
+            "سلطة تونة",
+            "سلطة خضراء"
           ],
           "spicyOption": false,
           "cashbackPercent": null,
@@ -726,7 +737,8 @@
             }
           ],
           "isCombo": false,
-          "comboIncludes": []
+          "comboIncludes": [],
+          "offerKind": null
         },
         {
           "id": "protein-box-2",
@@ -774,7 +786,8 @@
             }
           ],
           "isCombo": false,
-          "comboIncludes": []
+          "comboIncludes": [],
+          "offerKind": null
         },
         {
           "id": "protein-box-3",
@@ -822,7 +835,8 @@
             }
           ],
           "isCombo": false,
-          "comboIncludes": []
+          "comboIncludes": [],
+          "offerKind": null
         },
         {
           "id": "protein-box-4",
@@ -870,7 +884,8 @@
             }
           ],
           "isCombo": false,
-          "comboIncludes": []
+          "comboIncludes": [],
+          "offerKind": null
         },
         {
           "id": "protein-box-5",
@@ -918,7 +933,8 @@
             }
           ],
           "isCombo": false,
-          "comboIncludes": []
+          "comboIncludes": [],
+          "offerKind": null
         },
         {
           "id": "protein-box-6",
@@ -966,7 +982,8 @@
             }
           ],
           "isCombo": false,
-          "comboIncludes": []
+          "comboIncludes": [],
+          "offerKind": null
         },
         {
           "id": "protein-box-7",
@@ -1014,7 +1031,8 @@
             }
           ],
           "isCombo": false,
-          "comboIncludes": []
+          "comboIncludes": [],
+          "offerKind": null
         },
         {
           "id": "protein-box-8",
@@ -1062,7 +1080,8 @@
             }
           ],
           "isCombo": false,
-          "comboIncludes": []
+          "comboIncludes": [],
+          "offerKind": null
         },
         {
           "id": "protein-box-9",
@@ -1110,7 +1129,8 @@
             }
           ],
           "isCombo": false,
-          "comboIncludes": []
+          "comboIncludes": [],
+          "offerKind": null
         },
         {
           "id": "protein-box-10",
@@ -1158,13 +1178,14 @@
             }
           ],
           "isCombo": false,
-          "comboIncludes": []
+          "comboIncludes": [],
+          "offerKind": null
         },
         {
-          "id": "protein-box-combo-1",
+          "id": "protein-box-offer-1",
           "restaurantId": "protein-box",
-          "name": "كومبو بروتين خفيف",
-          "description": "وجبة متوازنة بروتين وخضار.",
+          "name": "وجبة بروتين خفيفة — صندوق البروتين",
+          "description": "صدر دجاج مع سلطة وبطاطا حلوة وماء.",
           "image": "https://images.unsplash.com/photo-1512621776951-a57141f2eefd?w=800&q=80",
           "price": 52,
           "rating": 4.6,
@@ -1177,9 +1198,10 @@
           "isOffer": true,
           "offerPrice": null,
           "isCombo": true,
+          "offerKind": "combo",
           "comboIncludes": [
-            "صدر دجاج مشوي",
-            "سلطة خضراء",
+            "صدر دجاج",
+            "سلطة",
             "بطاطا حلوة",
             "ماء"
           ],
@@ -1214,26 +1236,26 @@
           ]
         },
         {
-          "id": "protein-box-combo-2",
+          "id": "protein-box-offer-2",
           "restaurantId": "protein-box",
-          "name": "كومبو بول صحي",
-          "description": "بول مع سموذي.",
+          "name": "عرض بول مع سموذي — صندوق البروتين",
+          "description": "كينوا بول وسموذي بسعر واحد.",
           "image": "https://images.unsplash.com/photo-1546069901-ba9599a7e63c?w=800&q=80",
           "price": 48,
           "rating": 4.6,
-          "calories": 580,
-          "protein": 22,
-          "carbs": 68,
-          "fat": 18,
+          "calories": 480,
+          "protein": 20,
+          "carbs": 55,
+          "fat": 14,
           "category": "offers",
           "isPopular": false,
           "isOffer": true,
           "offerPrice": null,
           "isCombo": true,
+          "offerKind": "deal",
           "comboIncludes": [
             "كينوا بول",
-            "سموذي أخضر",
-            "مكسرات"
+            "سموذي"
           ],
           "spicyOption": false,
           "cashbackPercent": null,
@@ -1266,27 +1288,27 @@
           ]
         },
         {
-          "id": "protein-box-combo-3",
+          "id": "protein-box-offer-3",
           "restaurantId": "protein-box",
-          "name": "كومبو سمك صحي",
-          "description": "سلمون مع سلطة وخضار.",
+          "name": "عرض ٣ سلطات بسعر ثابت — صندوق البروتين",
+          "description": "سلطة دجاج وتونة وخضراء — ثلاثة أصناف بسعر واحد.",
           "image": "https://images.unsplash.com/photo-1490645935967-10de6ba17061?w=800&q=80",
-          "price": 72,
+          "price": 79,
           "rating": 4.6,
-          "calories": 610,
-          "protein": 44,
-          "carbs": 45,
-          "fat": 24,
+          "calories": 720,
+          "protein": 55,
+          "carbs": 40,
+          "fat": 28,
           "category": "offers",
           "isPopular": false,
           "isOffer": true,
           "offerPrice": null,
           "isCombo": true,
+          "offerKind": "deal",
           "comboIncludes": [
-            "سلمون مشوي",
-            "خضار ستيم",
-            "أرز بني",
-            "ليمون"
+            "سلطة دجاج",
+            "سلطة تونة",
+            "سلطة خضراء"
           ],
           "spicyOption": false,
           "cashbackPercent": null,
@@ -1386,7 +1408,8 @@
             }
           ],
           "isCombo": false,
-          "comboIncludes": []
+          "comboIncludes": [],
+          "offerKind": null
         },
         {
           "id": "leaf-bowl-2",
@@ -1434,7 +1457,8 @@
             }
           ],
           "isCombo": false,
-          "comboIncludes": []
+          "comboIncludes": [],
+          "offerKind": null
         },
         {
           "id": "leaf-bowl-3",
@@ -1482,7 +1506,8 @@
             }
           ],
           "isCombo": false,
-          "comboIncludes": []
+          "comboIncludes": [],
+          "offerKind": null
         },
         {
           "id": "leaf-bowl-4",
@@ -1530,7 +1555,8 @@
             }
           ],
           "isCombo": false,
-          "comboIncludes": []
+          "comboIncludes": [],
+          "offerKind": null
         },
         {
           "id": "leaf-bowl-5",
@@ -1578,7 +1604,8 @@
             }
           ],
           "isCombo": false,
-          "comboIncludes": []
+          "comboIncludes": [],
+          "offerKind": null
         },
         {
           "id": "leaf-bowl-6",
@@ -1626,7 +1653,8 @@
             }
           ],
           "isCombo": false,
-          "comboIncludes": []
+          "comboIncludes": [],
+          "offerKind": null
         },
         {
           "id": "leaf-bowl-7",
@@ -1674,7 +1702,8 @@
             }
           ],
           "isCombo": false,
-          "comboIncludes": []
+          "comboIncludes": [],
+          "offerKind": null
         },
         {
           "id": "leaf-bowl-8",
@@ -1722,7 +1751,8 @@
             }
           ],
           "isCombo": false,
-          "comboIncludes": []
+          "comboIncludes": [],
+          "offerKind": null
         },
         {
           "id": "leaf-bowl-9",
@@ -1770,7 +1800,8 @@
             }
           ],
           "isCombo": false,
-          "comboIncludes": []
+          "comboIncludes": [],
+          "offerKind": null
         },
         {
           "id": "leaf-bowl-10",
@@ -1818,13 +1849,14 @@
             }
           ],
           "isCombo": false,
-          "comboIncludes": []
+          "comboIncludes": [],
+          "offerKind": null
         },
         {
-          "id": "leaf-bowl-combo-1",
+          "id": "leaf-bowl-offer-1",
           "restaurantId": "leaf-bowl",
-          "name": "كومبو بروتين خفيف",
-          "description": "وجبة متوازنة بروتين وخضار.",
+          "name": "وجبة بروتين خفيفة — بول الأوراق",
+          "description": "صدر دجاج مع سلطة وبطاطا حلوة وماء.",
           "image": "https://images.unsplash.com/photo-1512621776951-a57141f2eefd?w=800&q=80",
           "price": 52,
           "rating": 4.6,
@@ -1837,9 +1869,10 @@
           "isOffer": true,
           "offerPrice": null,
           "isCombo": true,
+          "offerKind": "combo",
           "comboIncludes": [
-            "صدر دجاج مشوي",
-            "سلطة خضراء",
+            "صدر دجاج",
+            "سلطة",
             "بطاطا حلوة",
             "ماء"
           ],
@@ -1874,26 +1907,26 @@
           ]
         },
         {
-          "id": "leaf-bowl-combo-2",
+          "id": "leaf-bowl-offer-2",
           "restaurantId": "leaf-bowl",
-          "name": "كومبو بول صحي",
-          "description": "بول مع سموذي.",
+          "name": "عرض بول مع سموذي — بول الأوراق",
+          "description": "كينوا بول وسموذي بسعر واحد.",
           "image": "https://images.unsplash.com/photo-1546069901-ba9599a7e63c?w=800&q=80",
           "price": 48,
           "rating": 4.6,
-          "calories": 580,
-          "protein": 22,
-          "carbs": 68,
-          "fat": 18,
+          "calories": 480,
+          "protein": 20,
+          "carbs": 55,
+          "fat": 14,
           "category": "offers",
           "isPopular": false,
           "isOffer": true,
           "offerPrice": null,
           "isCombo": true,
+          "offerKind": "deal",
           "comboIncludes": [
             "كينوا بول",
-            "سموذي أخضر",
-            "مكسرات"
+            "سموذي"
           ],
           "spicyOption": false,
           "cashbackPercent": null,
@@ -1926,27 +1959,27 @@
           ]
         },
         {
-          "id": "leaf-bowl-combo-3",
+          "id": "leaf-bowl-offer-3",
           "restaurantId": "leaf-bowl",
-          "name": "كومبو سمك صحي",
-          "description": "سلمون مع سلطة وخضار.",
+          "name": "عرض ٣ سلطات بسعر ثابت — بول الأوراق",
+          "description": "سلطة دجاج وتونة وخضراء — ثلاثة أصناف بسعر واحد.",
           "image": "https://images.unsplash.com/photo-1490645935967-10de6ba17061?w=800&q=80",
-          "price": 72,
+          "price": 79,
           "rating": 4.6,
-          "calories": 610,
-          "protein": 44,
-          "carbs": 45,
-          "fat": 24,
+          "calories": 720,
+          "protein": 55,
+          "carbs": 40,
+          "fat": 28,
           "category": "offers",
           "isPopular": false,
           "isOffer": true,
           "offerPrice": null,
           "isCombo": true,
+          "offerKind": "deal",
           "comboIncludes": [
-            "سلمون مشوي",
-            "خضار ستيم",
-            "أرز بني",
-            "ليمون"
+            "سلطة دجاج",
+            "سلطة تونة",
+            "سلطة خضراء"
           ],
           "spicyOption": false,
           "cashbackPercent": null,
@@ -2046,7 +2079,8 @@
             }
           ],
           "isCombo": false,
-          "comboIncludes": []
+          "comboIncludes": [],
+          "offerKind": null
         },
         {
           "id": "fit-kitchen-2",
@@ -2094,7 +2128,8 @@
             }
           ],
           "isCombo": false,
-          "comboIncludes": []
+          "comboIncludes": [],
+          "offerKind": null
         },
         {
           "id": "fit-kitchen-3",
@@ -2142,7 +2177,8 @@
             }
           ],
           "isCombo": false,
-          "comboIncludes": []
+          "comboIncludes": [],
+          "offerKind": null
         },
         {
           "id": "fit-kitchen-4",
@@ -2190,7 +2226,8 @@
             }
           ],
           "isCombo": false,
-          "comboIncludes": []
+          "comboIncludes": [],
+          "offerKind": null
         },
         {
           "id": "fit-kitchen-5",
@@ -2238,7 +2275,8 @@
             }
           ],
           "isCombo": false,
-          "comboIncludes": []
+          "comboIncludes": [],
+          "offerKind": null
         },
         {
           "id": "fit-kitchen-6",
@@ -2286,7 +2324,8 @@
             }
           ],
           "isCombo": false,
-          "comboIncludes": []
+          "comboIncludes": [],
+          "offerKind": null
         },
         {
           "id": "fit-kitchen-7",
@@ -2334,7 +2373,8 @@
             }
           ],
           "isCombo": false,
-          "comboIncludes": []
+          "comboIncludes": [],
+          "offerKind": null
         },
         {
           "id": "fit-kitchen-8",
@@ -2382,7 +2422,8 @@
             }
           ],
           "isCombo": false,
-          "comboIncludes": []
+          "comboIncludes": [],
+          "offerKind": null
         },
         {
           "id": "fit-kitchen-9",
@@ -2430,7 +2471,8 @@
             }
           ],
           "isCombo": false,
-          "comboIncludes": []
+          "comboIncludes": [],
+          "offerKind": null
         },
         {
           "id": "fit-kitchen-10",
@@ -2478,13 +2520,14 @@
             }
           ],
           "isCombo": false,
-          "comboIncludes": []
+          "comboIncludes": [],
+          "offerKind": null
         },
         {
-          "id": "fit-kitchen-combo-1",
+          "id": "fit-kitchen-offer-1",
           "restaurantId": "fit-kitchen",
-          "name": "كومبو بروتين خفيف",
-          "description": "وجبة متوازنة بروتين وخضار.",
+          "name": "وجبة بروتين خفيفة — مطبخ اللياقة",
+          "description": "صدر دجاج مع سلطة وبطاطا حلوة وماء.",
           "image": "https://images.unsplash.com/photo-1512621776951-a57141f2eefd?w=800&q=80",
           "price": 52,
           "rating": 4.6,
@@ -2497,9 +2540,10 @@
           "isOffer": true,
           "offerPrice": null,
           "isCombo": true,
+          "offerKind": "combo",
           "comboIncludes": [
-            "صدر دجاج مشوي",
-            "سلطة خضراء",
+            "صدر دجاج",
+            "سلطة",
             "بطاطا حلوة",
             "ماء"
           ],
@@ -2534,26 +2578,26 @@
           ]
         },
         {
-          "id": "fit-kitchen-combo-2",
+          "id": "fit-kitchen-offer-2",
           "restaurantId": "fit-kitchen",
-          "name": "كومبو بول صحي",
-          "description": "بول مع سموذي.",
+          "name": "عرض بول مع سموذي — مطبخ اللياقة",
+          "description": "كينوا بول وسموذي بسعر واحد.",
           "image": "https://images.unsplash.com/photo-1546069901-ba9599a7e63c?w=800&q=80",
           "price": 48,
           "rating": 4.6,
-          "calories": 580,
-          "protein": 22,
-          "carbs": 68,
-          "fat": 18,
+          "calories": 480,
+          "protein": 20,
+          "carbs": 55,
+          "fat": 14,
           "category": "offers",
           "isPopular": false,
           "isOffer": true,
           "offerPrice": null,
           "isCombo": true,
+          "offerKind": "deal",
           "comboIncludes": [
             "كينوا بول",
-            "سموذي أخضر",
-            "مكسرات"
+            "سموذي"
           ],
           "spicyOption": false,
           "cashbackPercent": null,
@@ -2586,27 +2630,27 @@
           ]
         },
         {
-          "id": "fit-kitchen-combo-3",
+          "id": "fit-kitchen-offer-3",
           "restaurantId": "fit-kitchen",
-          "name": "كومبو سمك صحي",
-          "description": "سلمون مع سلطة وخضار.",
+          "name": "عرض ٣ سلطات بسعر ثابت — مطبخ اللياقة",
+          "description": "سلطة دجاج وتونة وخضراء — ثلاثة أصناف بسعر واحد.",
           "image": "https://images.unsplash.com/photo-1490645935967-10de6ba17061?w=800&q=80",
-          "price": 72,
+          "price": 79,
           "rating": 4.6,
-          "calories": 610,
-          "protein": 44,
-          "carbs": 45,
-          "fat": 24,
+          "calories": 720,
+          "protein": 55,
+          "carbs": 40,
+          "fat": 28,
           "category": "offers",
           "isPopular": false,
           "isOffer": true,
           "offerPrice": null,
           "isCombo": true,
+          "offerKind": "deal",
           "comboIncludes": [
-            "سلمون مشوي",
-            "خضار ستيم",
-            "أرز بني",
-            "ليمون"
+            "سلطة دجاج",
+            "سلطة تونة",
+            "سلطة خضراء"
           ],
           "spicyOption": false,
           "cashbackPercent": null,
@@ -2706,7 +2750,8 @@
             }
           ],
           "isCombo": false,
-          "comboIncludes": []
+          "comboIncludes": [],
+          "offerKind": null
         },
         {
           "id": "quinoa-lab-2",
@@ -2754,7 +2799,8 @@
             }
           ],
           "isCombo": false,
-          "comboIncludes": []
+          "comboIncludes": [],
+          "offerKind": null
         },
         {
           "id": "quinoa-lab-3",
@@ -2802,7 +2848,8 @@
             }
           ],
           "isCombo": false,
-          "comboIncludes": []
+          "comboIncludes": [],
+          "offerKind": null
         },
         {
           "id": "quinoa-lab-4",
@@ -2850,7 +2897,8 @@
             }
           ],
           "isCombo": false,
-          "comboIncludes": []
+          "comboIncludes": [],
+          "offerKind": null
         },
         {
           "id": "quinoa-lab-5",
@@ -2898,7 +2946,8 @@
             }
           ],
           "isCombo": false,
-          "comboIncludes": []
+          "comboIncludes": [],
+          "offerKind": null
         },
         {
           "id": "quinoa-lab-6",
@@ -2946,7 +2995,8 @@
             }
           ],
           "isCombo": false,
-          "comboIncludes": []
+          "comboIncludes": [],
+          "offerKind": null
         },
         {
           "id": "quinoa-lab-7",
@@ -2994,7 +3044,8 @@
             }
           ],
           "isCombo": false,
-          "comboIncludes": []
+          "comboIncludes": [],
+          "offerKind": null
         },
         {
           "id": "quinoa-lab-8",
@@ -3042,7 +3093,8 @@
             }
           ],
           "isCombo": false,
-          "comboIncludes": []
+          "comboIncludes": [],
+          "offerKind": null
         },
         {
           "id": "quinoa-lab-9",
@@ -3090,7 +3142,8 @@
             }
           ],
           "isCombo": false,
-          "comboIncludes": []
+          "comboIncludes": [],
+          "offerKind": null
         },
         {
           "id": "quinoa-lab-10",
@@ -3138,13 +3191,14 @@
             }
           ],
           "isCombo": false,
-          "comboIncludes": []
+          "comboIncludes": [],
+          "offerKind": null
         },
         {
-          "id": "quinoa-lab-combo-1",
+          "id": "quinoa-lab-offer-1",
           "restaurantId": "quinoa-lab",
-          "name": "كومبو بروتين خفيف",
-          "description": "وجبة متوازنة بروتين وخضار.",
+          "name": "وجبة بروتين خفيفة — مختبر الكينوا",
+          "description": "صدر دجاج مع سلطة وبطاطا حلوة وماء.",
           "image": "https://images.unsplash.com/photo-1512621776951-a57141f2eefd?w=800&q=80",
           "price": 52,
           "rating": 4.6,
@@ -3157,9 +3211,10 @@
           "isOffer": true,
           "offerPrice": null,
           "isCombo": true,
+          "offerKind": "combo",
           "comboIncludes": [
-            "صدر دجاج مشوي",
-            "سلطة خضراء",
+            "صدر دجاج",
+            "سلطة",
             "بطاطا حلوة",
             "ماء"
           ],
@@ -3194,26 +3249,26 @@
           ]
         },
         {
-          "id": "quinoa-lab-combo-2",
+          "id": "quinoa-lab-offer-2",
           "restaurantId": "quinoa-lab",
-          "name": "كومبو بول صحي",
-          "description": "بول مع سموذي.",
+          "name": "عرض بول مع سموذي — مختبر الكينوا",
+          "description": "كينوا بول وسموذي بسعر واحد.",
           "image": "https://images.unsplash.com/photo-1546069901-ba9599a7e63c?w=800&q=80",
           "price": 48,
           "rating": 4.6,
-          "calories": 580,
-          "protein": 22,
-          "carbs": 68,
-          "fat": 18,
+          "calories": 480,
+          "protein": 20,
+          "carbs": 55,
+          "fat": 14,
           "category": "offers",
           "isPopular": false,
           "isOffer": true,
           "offerPrice": null,
           "isCombo": true,
+          "offerKind": "deal",
           "comboIncludes": [
             "كينوا بول",
-            "سموذي أخضر",
-            "مكسرات"
+            "سموذي"
           ],
           "spicyOption": false,
           "cashbackPercent": null,
@@ -3246,27 +3301,27 @@
           ]
         },
         {
-          "id": "quinoa-lab-combo-3",
+          "id": "quinoa-lab-offer-3",
           "restaurantId": "quinoa-lab",
-          "name": "كومبو سمك صحي",
-          "description": "سلمون مع سلطة وخضار.",
+          "name": "عرض ٣ سلطات بسعر ثابت — مختبر الكينوا",
+          "description": "سلطة دجاج وتونة وخضراء — ثلاثة أصناف بسعر واحد.",
           "image": "https://images.unsplash.com/photo-1490645935967-10de6ba17061?w=800&q=80",
-          "price": 72,
+          "price": 79,
           "rating": 4.6,
-          "calories": 610,
-          "protein": 44,
-          "carbs": 45,
-          "fat": 24,
+          "calories": 720,
+          "protein": 55,
+          "carbs": 40,
+          "fat": 28,
           "category": "offers",
           "isPopular": false,
           "isOffer": true,
           "offerPrice": null,
           "isCombo": true,
+          "offerKind": "deal",
           "comboIncludes": [
-            "سلمون مشوي",
-            "خضار ستيم",
-            "أرز بني",
-            "ليمون"
+            "سلطة دجاج",
+            "سلطة تونة",
+            "سلطة خضراء"
           ],
           "spicyOption": false,
           "cashbackPercent": null,
@@ -3366,7 +3421,8 @@
             }
           ],
           "isCombo": false,
-          "comboIncludes": []
+          "comboIncludes": [],
+          "offerKind": null
         },
         {
           "id": "light-bites-2",
@@ -3414,7 +3470,8 @@
             }
           ],
           "isCombo": false,
-          "comboIncludes": []
+          "comboIncludes": [],
+          "offerKind": null
         },
         {
           "id": "light-bites-3",
@@ -3462,7 +3519,8 @@
             }
           ],
           "isCombo": false,
-          "comboIncludes": []
+          "comboIncludes": [],
+          "offerKind": null
         },
         {
           "id": "light-bites-4",
@@ -3510,7 +3568,8 @@
             }
           ],
           "isCombo": false,
-          "comboIncludes": []
+          "comboIncludes": [],
+          "offerKind": null
         },
         {
           "id": "light-bites-5",
@@ -3558,7 +3617,8 @@
             }
           ],
           "isCombo": false,
-          "comboIncludes": []
+          "comboIncludes": [],
+          "offerKind": null
         },
         {
           "id": "light-bites-6",
@@ -3606,7 +3666,8 @@
             }
           ],
           "isCombo": false,
-          "comboIncludes": []
+          "comboIncludes": [],
+          "offerKind": null
         },
         {
           "id": "light-bites-7",
@@ -3654,7 +3715,8 @@
             }
           ],
           "isCombo": false,
-          "comboIncludes": []
+          "comboIncludes": [],
+          "offerKind": null
         },
         {
           "id": "light-bites-8",
@@ -3702,7 +3764,8 @@
             }
           ],
           "isCombo": false,
-          "comboIncludes": []
+          "comboIncludes": [],
+          "offerKind": null
         },
         {
           "id": "light-bites-9",
@@ -3750,7 +3813,8 @@
             }
           ],
           "isCombo": false,
-          "comboIncludes": []
+          "comboIncludes": [],
+          "offerKind": null
         },
         {
           "id": "light-bites-10",
@@ -3798,13 +3862,14 @@
             }
           ],
           "isCombo": false,
-          "comboIncludes": []
+          "comboIncludes": [],
+          "offerKind": null
         },
         {
-          "id": "light-bites-combo-1",
+          "id": "light-bites-offer-1",
           "restaurantId": "light-bites",
-          "name": "كومبو بروتين خفيف",
-          "description": "وجبة متوازنة بروتين وخضار.",
+          "name": "وجبة بروتين خفيفة — لقمات خفيفة",
+          "description": "صدر دجاج مع سلطة وبطاطا حلوة وماء.",
           "image": "https://images.unsplash.com/photo-1512621776951-a57141f2eefd?w=800&q=80",
           "price": 52,
           "rating": 4.6,
@@ -3817,9 +3882,10 @@
           "isOffer": true,
           "offerPrice": null,
           "isCombo": true,
+          "offerKind": "combo",
           "comboIncludes": [
-            "صدر دجاج مشوي",
-            "سلطة خضراء",
+            "صدر دجاج",
+            "سلطة",
             "بطاطا حلوة",
             "ماء"
           ],
@@ -3854,26 +3920,26 @@
           ]
         },
         {
-          "id": "light-bites-combo-2",
+          "id": "light-bites-offer-2",
           "restaurantId": "light-bites",
-          "name": "كومبو بول صحي",
-          "description": "بول مع سموذي.",
+          "name": "عرض بول مع سموذي — لقمات خفيفة",
+          "description": "كينوا بول وسموذي بسعر واحد.",
           "image": "https://images.unsplash.com/photo-1546069901-ba9599a7e63c?w=800&q=80",
           "price": 48,
           "rating": 4.6,
-          "calories": 580,
-          "protein": 22,
-          "carbs": 68,
-          "fat": 18,
+          "calories": 480,
+          "protein": 20,
+          "carbs": 55,
+          "fat": 14,
           "category": "offers",
           "isPopular": false,
           "isOffer": true,
           "offerPrice": null,
           "isCombo": true,
+          "offerKind": "deal",
           "comboIncludes": [
             "كينوا بول",
-            "سموذي أخضر",
-            "مكسرات"
+            "سموذي"
           ],
           "spicyOption": false,
           "cashbackPercent": null,
@@ -3906,27 +3972,27 @@
           ]
         },
         {
-          "id": "light-bites-combo-3",
+          "id": "light-bites-offer-3",
           "restaurantId": "light-bites",
-          "name": "كومبو سمك صحي",
-          "description": "سلمون مع سلطة وخضار.",
+          "name": "عرض ٣ سلطات بسعر ثابت — لقمات خفيفة",
+          "description": "سلطة دجاج وتونة وخضراء — ثلاثة أصناف بسعر واحد.",
           "image": "https://images.unsplash.com/photo-1490645935967-10de6ba17061?w=800&q=80",
-          "price": 72,
+          "price": 79,
           "rating": 4.6,
-          "calories": 610,
-          "protein": 44,
-          "carbs": 45,
-          "fat": 24,
+          "calories": 720,
+          "protein": 55,
+          "carbs": 40,
+          "fat": 28,
           "category": "offers",
           "isPopular": false,
           "isOffer": true,
           "offerPrice": null,
           "isCombo": true,
+          "offerKind": "deal",
           "comboIncludes": [
-            "سلمون مشوي",
-            "خضار ستيم",
-            "أرز بني",
-            "ليمون"
+            "سلطة دجاج",
+            "سلطة تونة",
+            "سلطة خضراء"
           ],
           "spicyOption": false,
           "cashbackPercent": null,
@@ -4026,7 +4092,8 @@
             }
           ],
           "isCombo": false,
-          "comboIncludes": []
+          "comboIncludes": [],
+          "offerKind": null
         },
         {
           "id": "fresh-press-2",
@@ -4074,7 +4141,8 @@
             }
           ],
           "isCombo": false,
-          "comboIncludes": []
+          "comboIncludes": [],
+          "offerKind": null
         },
         {
           "id": "fresh-press-3",
@@ -4122,7 +4190,8 @@
             }
           ],
           "isCombo": false,
-          "comboIncludes": []
+          "comboIncludes": [],
+          "offerKind": null
         },
         {
           "id": "fresh-press-4",
@@ -4170,7 +4239,8 @@
             }
           ],
           "isCombo": false,
-          "comboIncludes": []
+          "comboIncludes": [],
+          "offerKind": null
         },
         {
           "id": "fresh-press-5",
@@ -4218,7 +4288,8 @@
             }
           ],
           "isCombo": false,
-          "comboIncludes": []
+          "comboIncludes": [],
+          "offerKind": null
         },
         {
           "id": "fresh-press-6",
@@ -4266,7 +4337,8 @@
             }
           ],
           "isCombo": false,
-          "comboIncludes": []
+          "comboIncludes": [],
+          "offerKind": null
         },
         {
           "id": "fresh-press-7",
@@ -4314,7 +4386,8 @@
             }
           ],
           "isCombo": false,
-          "comboIncludes": []
+          "comboIncludes": [],
+          "offerKind": null
         },
         {
           "id": "fresh-press-8",
@@ -4362,7 +4435,8 @@
             }
           ],
           "isCombo": false,
-          "comboIncludes": []
+          "comboIncludes": [],
+          "offerKind": null
         },
         {
           "id": "fresh-press-9",
@@ -4410,7 +4484,8 @@
             }
           ],
           "isCombo": false,
-          "comboIncludes": []
+          "comboIncludes": [],
+          "offerKind": null
         },
         {
           "id": "fresh-press-10",
@@ -4458,13 +4533,14 @@
             }
           ],
           "isCombo": false,
-          "comboIncludes": []
+          "comboIncludes": [],
+          "offerKind": null
         },
         {
-          "id": "fresh-press-combo-1",
+          "id": "fresh-press-offer-1",
           "restaurantId": "fresh-press",
-          "name": "كومبو بروتين خفيف",
-          "description": "وجبة متوازنة بروتين وخضار.",
+          "name": "وجبة بروتين خفيفة — عصير طازج",
+          "description": "صدر دجاج مع سلطة وبطاطا حلوة وماء.",
           "image": "https://images.unsplash.com/photo-1512621776951-a57141f2eefd?w=800&q=80",
           "price": 52,
           "rating": 4.6,
@@ -4477,9 +4553,10 @@
           "isOffer": true,
           "offerPrice": null,
           "isCombo": true,
+          "offerKind": "combo",
           "comboIncludes": [
-            "صدر دجاج مشوي",
-            "سلطة خضراء",
+            "صدر دجاج",
+            "سلطة",
             "بطاطا حلوة",
             "ماء"
           ],
@@ -4514,26 +4591,26 @@
           ]
         },
         {
-          "id": "fresh-press-combo-2",
+          "id": "fresh-press-offer-2",
           "restaurantId": "fresh-press",
-          "name": "كومبو بول صحي",
-          "description": "بول مع سموذي.",
+          "name": "عرض بول مع سموذي — عصير طازج",
+          "description": "كينوا بول وسموذي بسعر واحد.",
           "image": "https://images.unsplash.com/photo-1546069901-ba9599a7e63c?w=800&q=80",
           "price": 48,
           "rating": 4.6,
-          "calories": 580,
-          "protein": 22,
-          "carbs": 68,
-          "fat": 18,
+          "calories": 480,
+          "protein": 20,
+          "carbs": 55,
+          "fat": 14,
           "category": "offers",
           "isPopular": false,
           "isOffer": true,
           "offerPrice": null,
           "isCombo": true,
+          "offerKind": "deal",
           "comboIncludes": [
             "كينوا بول",
-            "سموذي أخضر",
-            "مكسرات"
+            "سموذي"
           ],
           "spicyOption": false,
           "cashbackPercent": null,
@@ -4566,27 +4643,27 @@
           ]
         },
         {
-          "id": "fresh-press-combo-3",
+          "id": "fresh-press-offer-3",
           "restaurantId": "fresh-press",
-          "name": "كومبو سمك صحي",
-          "description": "سلمون مع سلطة وخضار.",
+          "name": "عرض ٣ سلطات بسعر ثابت — عصير طازج",
+          "description": "سلطة دجاج وتونة وخضراء — ثلاثة أصناف بسعر واحد.",
           "image": "https://images.unsplash.com/photo-1490645935967-10de6ba17061?w=800&q=80",
-          "price": 72,
+          "price": 79,
           "rating": 4.6,
-          "calories": 610,
-          "protein": 44,
-          "carbs": 45,
-          "fat": 24,
+          "calories": 720,
+          "protein": 55,
+          "carbs": 40,
+          "fat": 28,
           "category": "offers",
           "isPopular": false,
           "isOffer": true,
           "offerPrice": null,
           "isCombo": true,
+          "offerKind": "deal",
           "comboIncludes": [
-            "سلمون مشوي",
-            "خضار ستيم",
-            "أرز بني",
-            "ليمون"
+            "سلطة دجاج",
+            "سلطة تونة",
+            "سلطة خضراء"
           ],
           "spicyOption": false,
           "cashbackPercent": null,
@@ -4686,7 +4763,8 @@
             }
           ],
           "isCombo": false,
-          "comboIncludes": []
+          "comboIncludes": [],
+          "offerKind": null
         },
         {
           "id": "balance-plate-2",
@@ -4734,7 +4812,8 @@
             }
           ],
           "isCombo": false,
-          "comboIncludes": []
+          "comboIncludes": [],
+          "offerKind": null
         },
         {
           "id": "balance-plate-3",
@@ -4782,7 +4861,8 @@
             }
           ],
           "isCombo": false,
-          "comboIncludes": []
+          "comboIncludes": [],
+          "offerKind": null
         },
         {
           "id": "balance-plate-4",
@@ -4830,7 +4910,8 @@
             }
           ],
           "isCombo": false,
-          "comboIncludes": []
+          "comboIncludes": [],
+          "offerKind": null
         },
         {
           "id": "balance-plate-5",
@@ -4878,7 +4959,8 @@
             }
           ],
           "isCombo": false,
-          "comboIncludes": []
+          "comboIncludes": [],
+          "offerKind": null
         },
         {
           "id": "balance-plate-6",
@@ -4926,7 +5008,8 @@
             }
           ],
           "isCombo": false,
-          "comboIncludes": []
+          "comboIncludes": [],
+          "offerKind": null
         },
         {
           "id": "balance-plate-7",
@@ -4974,7 +5057,8 @@
             }
           ],
           "isCombo": false,
-          "comboIncludes": []
+          "comboIncludes": [],
+          "offerKind": null
         },
         {
           "id": "balance-plate-8",
@@ -5022,7 +5106,8 @@
             }
           ],
           "isCombo": false,
-          "comboIncludes": []
+          "comboIncludes": [],
+          "offerKind": null
         },
         {
           "id": "balance-plate-9",
@@ -5070,7 +5155,8 @@
             }
           ],
           "isCombo": false,
-          "comboIncludes": []
+          "comboIncludes": [],
+          "offerKind": null
         },
         {
           "id": "balance-plate-10",
@@ -5118,13 +5204,14 @@
             }
           ],
           "isCombo": false,
-          "comboIncludes": []
+          "comboIncludes": [],
+          "offerKind": null
         },
         {
-          "id": "balance-plate-combo-1",
+          "id": "balance-plate-offer-1",
           "restaurantId": "balance-plate",
-          "name": "كومبو بروتين خفيف",
-          "description": "وجبة متوازنة بروتين وخضار.",
+          "name": "وجبة بروتين خفيفة — صحن التوازن",
+          "description": "صدر دجاج مع سلطة وبطاطا حلوة وماء.",
           "image": "https://images.unsplash.com/photo-1512621776951-a57141f2eefd?w=800&q=80",
           "price": 52,
           "rating": 4.6,
@@ -5137,9 +5224,10 @@
           "isOffer": true,
           "offerPrice": null,
           "isCombo": true,
+          "offerKind": "combo",
           "comboIncludes": [
-            "صدر دجاج مشوي",
-            "سلطة خضراء",
+            "صدر دجاج",
+            "سلطة",
             "بطاطا حلوة",
             "ماء"
           ],
@@ -5174,26 +5262,26 @@
           ]
         },
         {
-          "id": "balance-plate-combo-2",
+          "id": "balance-plate-offer-2",
           "restaurantId": "balance-plate",
-          "name": "كومبو بول صحي",
-          "description": "بول مع سموذي.",
+          "name": "عرض بول مع سموذي — صحن التوازن",
+          "description": "كينوا بول وسموذي بسعر واحد.",
           "image": "https://images.unsplash.com/photo-1546069901-ba9599a7e63c?w=800&q=80",
           "price": 48,
           "rating": 4.6,
-          "calories": 580,
-          "protein": 22,
-          "carbs": 68,
-          "fat": 18,
+          "calories": 480,
+          "protein": 20,
+          "carbs": 55,
+          "fat": 14,
           "category": "offers",
           "isPopular": false,
           "isOffer": true,
           "offerPrice": null,
           "isCombo": true,
+          "offerKind": "deal",
           "comboIncludes": [
             "كينوا بول",
-            "سموذي أخضر",
-            "مكسرات"
+            "سموذي"
           ],
           "spicyOption": false,
           "cashbackPercent": null,
@@ -5226,27 +5314,27 @@
           ]
         },
         {
-          "id": "balance-plate-combo-3",
+          "id": "balance-plate-offer-3",
           "restaurantId": "balance-plate",
-          "name": "كومبو سمك صحي",
-          "description": "سلمون مع سلطة وخضار.",
+          "name": "عرض ٣ سلطات بسعر ثابت — صحن التوازن",
+          "description": "سلطة دجاج وتونة وخضراء — ثلاثة أصناف بسعر واحد.",
           "image": "https://images.unsplash.com/photo-1490645935967-10de6ba17061?w=800&q=80",
-          "price": 72,
+          "price": 79,
           "rating": 4.6,
-          "calories": 610,
-          "protein": 44,
-          "carbs": 45,
-          "fat": 24,
+          "calories": 720,
+          "protein": 55,
+          "carbs": 40,
+          "fat": 28,
           "category": "offers",
           "isPopular": false,
           "isOffer": true,
           "offerPrice": null,
           "isCombo": true,
+          "offerKind": "deal",
           "comboIncludes": [
-            "سلمون مشوي",
-            "خضار ستيم",
-            "أرز بني",
-            "ليمون"
+            "سلطة دجاج",
+            "سلطة تونة",
+            "سلطة خضراء"
           ],
           "spicyOption": false,
           "cashbackPercent": null,

@@ -66,7 +66,8 @@
             }
           ],
           "isCombo": false,
-          "comboIncludes": []
+          "comboIncludes": [],
+          "offerKind": null
         },
         {
           "id": "spice-route-2",
@@ -114,7 +115,8 @@
             }
           ],
           "isCombo": false,
-          "comboIncludes": []
+          "comboIncludes": [],
+          "offerKind": null
         },
         {
           "id": "spice-route-3",
@@ -162,7 +164,8 @@
             }
           ],
           "isCombo": false,
-          "comboIncludes": []
+          "comboIncludes": [],
+          "offerKind": null
         },
         {
           "id": "spice-route-4",
@@ -210,7 +213,8 @@
             }
           ],
           "isCombo": false,
-          "comboIncludes": []
+          "comboIncludes": [],
+          "offerKind": null
         },
         {
           "id": "spice-route-5",
@@ -258,7 +262,8 @@
             }
           ],
           "isCombo": false,
-          "comboIncludes": []
+          "comboIncludes": [],
+          "offerKind": null
         },
         {
           "id": "spice-route-6",
@@ -306,7 +311,8 @@
             }
           ],
           "isCombo": false,
-          "comboIncludes": []
+          "comboIncludes": [],
+          "offerKind": null
         },
         {
           "id": "spice-route-7",
@@ -354,7 +360,8 @@
             }
           ],
           "isCombo": false,
-          "comboIncludes": []
+          "comboIncludes": [],
+          "offerKind": null
         },
         {
           "id": "spice-route-8",
@@ -402,7 +409,8 @@
             }
           ],
           "isCombo": false,
-          "comboIncludes": []
+          "comboIncludes": [],
+          "offerKind": null
         },
         {
           "id": "spice-route-9",
@@ -450,7 +458,8 @@
             }
           ],
           "isCombo": false,
-          "comboIncludes": []
+          "comboIncludes": [],
+          "offerKind": null
         },
         {
           "id": "spice-route-10",
@@ -498,12 +507,13 @@
             }
           ],
           "isCombo": false,
-          "comboIncludes": []
+          "comboIncludes": [],
+          "offerKind": null
         },
         {
-          "id": "spice-route-combo-1",
+          "id": "spice-route-offer-1",
           "restaurantId": "spice-route",
-          "name": "كومبو برياني وجبة",
+          "name": "وجبة برياني كاملة — طريق التوابل",
           "description": "برياني مع رايتا ونان ومشروب.",
           "image": "https://images.unsplash.com/photo-1585937421612-70a008356fbe?w=800&q=80",
           "price": 54,
@@ -517,11 +527,12 @@
           "isOffer": true,
           "offerPrice": null,
           "isCombo": true,
+          "offerKind": "combo",
           "comboIncludes": [
             "برياني دجاج",
             "رايتا",
             "نان",
-            "لاسي أو مشروب"
+            "لاسي"
           ],
           "spicyOption": true,
           "cashbackPercent": null,
@@ -554,81 +565,82 @@
           ]
         },
         {
-          "id": "spice-route-combo-2",
+          "id": "spice-route-offer-2",
           "restaurantId": "spice-route",
-          "name": "كومبو كاري كامل",
-          "description": "كاري مع أرز وخبز.",
+          "name": "وجبة عائلية ثالي — طريق التوابل",
+          "description": "تشكيلة أطباق هندية تكفي العائلة.",
           "image": "https://images.unsplash.com/photo-1565557623262-b51c2513a641?w=800&q=80",
-          "price": 58,
+          "price": 119,
           "rating": 4.6,
-          "calories": 980,
-          "protein": 38,
-          "carbs": 95,
-          "fat": 36,
+          "calories": 1600,
+          "protein": 55,
+          "carbs": 180,
+          "fat": 50,
           "category": "offers",
           "isPopular": false,
           "isOffer": true,
           "offerPrice": null,
           "isCombo": true,
-          "comboIncludes": [
-            "تيكا ماسالا",
-            "أرز بسمتي",
-            "نان ثوم",
-            "مشروب"
-          ],
-          "spicyOption": true,
-          "cashbackPercent": null,
-          "addons": [
-            {
-              "id": "extra-naan",
-              "name": "نان إضافي",
-              "price": 7
-            },
-            {
-              "id": "raita",
-              "name": "رايتا",
-              "price": 5
-            },
-            {
-              "id": "indian-pickle",
-              "name": "مخلل هندي",
-              "price": 4
-            },
-            {
-              "id": "lassi",
-              "name": "لاسي",
-              "price": 10
-            },
-            {
-              "id": "extra-rice",
-              "name": "أرز إضافي",
-              "price": 6
-            }
-          ]
-        },
-        {
-          "id": "spice-route-combo-3",
-          "restaurantId": "spice-route",
-          "name": "كومبو ثالي هندي",
-          "description": "تشكيلة أطباق صغيرة في وجبة واحدة.",
-          "image": "https://images.unsplash.com/photo-1588168333986-5078d3ae3976?w=800&q=80",
-          "price": 64,
-          "rating": 4.6,
-          "calories": 880,
-          "protein": 28,
-          "carbs": 100,
-          "fat": 28,
-          "category": "offers",
-          "isPopular": false,
-          "isOffer": true,
-          "offerPrice": null,
-          "isCombo": true,
+          "offerKind": "family",
           "comboIncludes": [
             "دال",
-            "كاري خضار",
+            "كاري",
             "أرز",
             "نان",
             "مخلل"
+          ],
+          "spicyOption": true,
+          "cashbackPercent": null,
+          "addons": [
+            {
+              "id": "extra-naan",
+              "name": "نان إضافي",
+              "price": 7
+            },
+            {
+              "id": "raita",
+              "name": "رايتا",
+              "price": 5
+            },
+            {
+              "id": "indian-pickle",
+              "name": "مخلل هندي",
+              "price": 4
+            },
+            {
+              "id": "lassi",
+              "name": "لاسي",
+              "price": 10
+            },
+            {
+              "id": "extra-rice",
+              "name": "أرز إضافي",
+              "price": 6
+            }
+          ]
+        },
+        {
+          "id": "spice-route-offer-3",
+          "restaurantId": "spice-route",
+          "name": "عرض كاري مع أرز ونان — طريق التوابل",
+          "description": "تيكا ماسالا وأرز ونان بسعر واحد.",
+          "image": "https://images.unsplash.com/photo-1588168333986-5078d3ae3976?w=800&q=80",
+          "price": 52,
+          "rating": 4.6,
+          "calories": 900,
+          "protein": 38,
+          "carbs": 90,
+          "fat": 34,
+          "category": "offers",
+          "isPopular": false,
+          "isOffer": true,
+          "offerPrice": null,
+          "isCombo": true,
+          "offerKind": "deal",
+          "comboIncludes": [
+            "تيكا ماسالا",
+            "أرز",
+            "نان"
           ],
           "spicyOption": true,
           "cashbackPercent": null,
@@ -728,7 +740,8 @@
             }
           ],
           "isCombo": false,
-          "comboIncludes": []
+          "comboIncludes": [],
+          "offerKind": null
         },
         {
           "id": "tandoor-flame-2",
@@ -776,7 +789,8 @@
             }
           ],
           "isCombo": false,
-          "comboIncludes": []
+          "comboIncludes": [],
+          "offerKind": null
         },
         {
           "id": "tandoor-flame-3",
@@ -824,7 +838,8 @@
             }
           ],
           "isCombo": false,
-          "comboIncludes": []
+          "comboIncludes": [],
+          "offerKind": null
         },
         {
           "id": "tandoor-flame-4",
@@ -872,7 +887,8 @@
             }
           ],
           "isCombo": false,
-          "comboIncludes": []
+          "comboIncludes": [],
+          "offerKind": null
         },
         {
           "id": "tandoor-flame-5",
@@ -920,7 +936,8 @@
             }
           ],
           "isCombo": false,
-          "comboIncludes": []
+          "comboIncludes": [],
+          "offerKind": null
         },
         {
           "id": "tandoor-flame-6",
@@ -968,7 +985,8 @@
             }
           ],
           "isCombo": false,
-          "comboIncludes": []
+          "comboIncludes": [],
+          "offerKind": null
         },
         {
           "id": "tandoor-flame-7",
@@ -1016,7 +1034,8 @@
             }
           ],
           "isCombo": false,
-          "comboIncludes": []
+          "comboIncludes": [],
+          "offerKind": null
         },
         {
           "id": "tandoor-flame-8",
@@ -1064,7 +1083,8 @@
             }
           ],
           "isCombo": false,
-          "comboIncludes": []
+          "comboIncludes": [],
+          "offerKind": null
         },
         {
           "id": "tandoor-flame-9",
@@ -1112,7 +1132,8 @@
             }
           ],
           "isCombo": false,
-          "comboIncludes": []
+          "comboIncludes": [],
+          "offerKind": null
         },
         {
           "id": "tandoor-flame-10",
@@ -1160,12 +1181,13 @@
             }
           ],
           "isCombo": false,
-          "comboIncludes": []
+          "comboIncludes": [],
+          "offerKind": null
         },
         {
-          "id": "tandoor-flame-combo-1",
+          "id": "tandoor-flame-offer-1",
           "restaurantId": "tandoor-flame",
-          "name": "كومبو برياني وجبة",
+          "name": "وجبة برياني كاملة — لهب التندور",
           "description": "برياني مع رايتا ونان ومشروب.",
           "image": "https://images.unsplash.com/photo-1585937421612-70a008356fbe?w=800&q=80",
           "price": 54,
@@ -1179,11 +1201,12 @@
           "isOffer": true,
           "offerPrice": null,
           "isCombo": true,
+          "offerKind": "combo",
           "comboIncludes": [
             "برياني دجاج",
             "رايتا",
             "نان",
-            "لاسي أو مشروب"
+            "لاسي"
           ],
           "spicyOption": true,
           "cashbackPercent": null,
@@ -1216,81 +1239,82 @@
           ]
         },
         {
-          "id": "tandoor-flame-combo-2",
+          "id": "tandoor-flame-offer-2",
           "restaurantId": "tandoor-flame",
-          "name": "كومبو كاري كامل",
-          "description": "كاري مع أرز وخبز.",
+          "name": "وجبة عائلية ثالي — لهب التندور",
+          "description": "تشكيلة أطباق هندية تكفي العائلة.",
           "image": "https://images.unsplash.com/photo-1565557623262-b51c2513a641?w=800&q=80",
-          "price": 58,
+          "price": 119,
           "rating": 4.6,
-          "calories": 980,
-          "protein": 38,
-          "carbs": 95,
-          "fat": 36,
+          "calories": 1600,
+          "protein": 55,
+          "carbs": 180,
+          "fat": 50,
           "category": "offers",
           "isPopular": false,
           "isOffer": true,
           "offerPrice": null,
           "isCombo": true,
-          "comboIncludes": [
-            "تيكا ماسالا",
-            "أرز بسمتي",
-            "نان ثوم",
-            "مشروب"
-          ],
-          "spicyOption": true,
-          "cashbackPercent": null,
-          "addons": [
-            {
-              "id": "extra-naan",
-              "name": "نان إضافي",
-              "price": 7
-            },
-            {
-              "id": "raita",
-              "name": "رايتا",
-              "price": 5
-            },
-            {
-              "id": "indian-pickle",
-              "name": "مخلل هندي",
-              "price": 4
-            },
-            {
-              "id": "lassi",
-              "name": "لاسي",
-              "price": 10
-            },
-            {
-              "id": "extra-rice",
-              "name": "أرز إضافي",
-              "price": 6
-            }
-          ]
-        },
-        {
-          "id": "tandoor-flame-combo-3",
-          "restaurantId": "tandoor-flame",
-          "name": "كومبو ثالي هندي",
-          "description": "تشكيلة أطباق صغيرة في وجبة واحدة.",
-          "image": "https://images.unsplash.com/photo-1588168333986-5078d3ae3976?w=800&q=80",
-          "price": 64,
-          "rating": 4.6,
-          "calories": 880,
-          "protein": 28,
-          "carbs": 100,
-          "fat": 28,
-          "category": "offers",
-          "isPopular": false,
-          "isOffer": true,
-          "offerPrice": null,
-          "isCombo": true,
+          "offerKind": "family",
           "comboIncludes": [
             "دال",
-            "كاري خضار",
+            "كاري",
             "أرز",
             "نان",
             "مخلل"
+          ],
+          "spicyOption": true,
+          "cashbackPercent": null,
+          "addons": [
+            {
+              "id": "extra-naan",
+              "name": "نان إضافي",
+              "price": 7
+            },
+            {
+              "id": "raita",
+              "name": "رايتا",
+              "price": 5
+            },
+            {
+              "id": "indian-pickle",
+              "name": "مخلل هندي",
+              "price": 4
+            },
+            {
+              "id": "lassi",
+              "name": "لاسي",
+              "price": 10
+            },
+            {
+              "id": "extra-rice",
+              "name": "أرز إضافي",
+              "price": 6
+            }
+          ]
+        },
+        {
+          "id": "tandoor-flame-offer-3",
+          "restaurantId": "tandoor-flame",
+          "name": "عرض كاري مع أرز ونان — لهب التندور",
+          "description": "تيكا ماسالا وأرز ونان بسعر واحد.",
+          "image": "https://images.unsplash.com/photo-1588168333986-5078d3ae3976?w=800&q=80",
+          "price": 52,
+          "rating": 4.6,
+          "calories": 900,
+          "protein": 38,
+          "carbs": 90,
+          "fat": 34,
+          "category": "offers",
+          "isPopular": false,
+          "isOffer": true,
+          "offerPrice": null,
+          "isCombo": true,
+          "offerKind": "deal",
+          "comboIncludes": [
+            "تيكا ماسالا",
+            "أرز",
+            "نان"
           ],
           "spicyOption": true,
           "cashbackPercent": null,
@@ -1390,7 +1414,8 @@
             }
           ],
           "isCombo": false,
-          "comboIncludes": []
+          "comboIncludes": [],
+          "offerKind": null
         },
         {
           "id": "masala-bowl-2",
@@ -1438,7 +1463,8 @@
             }
           ],
           "isCombo": false,
-          "comboIncludes": []
+          "comboIncludes": [],
+          "offerKind": null
         },
         {
           "id": "masala-bowl-3",
@@ -1486,7 +1512,8 @@
             }
           ],
           "isCombo": false,
-          "comboIncludes": []
+          "comboIncludes": [],
+          "offerKind": null
         },
         {
           "id": "masala-bowl-4",
@@ -1534,7 +1561,8 @@
             }
           ],
           "isCombo": false,
-          "comboIncludes": []
+          "comboIncludes": [],
+          "offerKind": null
         },
         {
           "id": "masala-bowl-5",
@@ -1582,7 +1610,8 @@
             }
           ],
           "isCombo": false,
-          "comboIncludes": []
+          "comboIncludes": [],
+          "offerKind": null
         },
         {
           "id": "masala-bowl-6",
@@ -1630,7 +1659,8 @@
             }
           ],
           "isCombo": false,
-          "comboIncludes": []
+          "comboIncludes": [],
+          "offerKind": null
         },
         {
           "id": "masala-bowl-7",
@@ -1678,7 +1708,8 @@
             }
           ],
           "isCombo": false,
-          "comboIncludes": []
+          "comboIncludes": [],
+          "offerKind": null
         },
         {
           "id": "masala-bowl-8",
@@ -1726,7 +1757,8 @@
             }
           ],
           "isCombo": false,
-          "comboIncludes": []
+          "comboIncludes": [],
+          "offerKind": null
         },
         {
           "id": "masala-bowl-9",
@@ -1774,7 +1806,8 @@
             }
           ],
           "isCombo": false,
-          "comboIncludes": []
+          "comboIncludes": [],
+          "offerKind": null
         },
         {
           "id": "masala-bowl-10",
@@ -1822,12 +1855,13 @@
             }
           ],
           "isCombo": false,
-          "comboIncludes": []
+          "comboIncludes": [],
+          "offerKind": null
         },
         {
-          "id": "masala-bowl-combo-1",
+          "id": "masala-bowl-offer-1",
           "restaurantId": "masala-bowl",
-          "name": "كومبو برياني وجبة",
+          "name": "وجبة برياني كاملة — بول الماسالا",
           "description": "برياني مع رايتا ونان ومشروب.",
           "image": "https://images.unsplash.com/photo-1585937421612-70a008356fbe?w=800&q=80",
           "price": 54,
@@ -1841,11 +1875,12 @@
           "isOffer": true,
           "offerPrice": null,
           "isCombo": true,
+          "offerKind": "combo",
           "comboIncludes": [
             "برياني دجاج",
             "رايتا",
             "نان",
-            "لاسي أو مشروب"
+            "لاسي"
           ],
           "spicyOption": true,
           "cashbackPercent": null,
@@ -1878,81 +1913,82 @@
           ]
         },
         {
-          "id": "masala-bowl-combo-2",
+          "id": "masala-bowl-offer-2",
           "restaurantId": "masala-bowl",
-          "name": "كومبو كاري كامل",
-          "description": "كاري مع أرز وخبز.",
+          "name": "وجبة عائلية ثالي — بول الماسالا",
+          "description": "تشكيلة أطباق هندية تكفي العائلة.",
           "image": "https://images.unsplash.com/photo-1565557623262-b51c2513a641?w=800&q=80",
-          "price": 58,
+          "price": 119,
           "rating": 4.6,
-          "calories": 980,
-          "protein": 38,
-          "carbs": 95,
-          "fat": 36,
+          "calories": 1600,
+          "protein": 55,
+          "carbs": 180,
+          "fat": 50,
           "category": "offers",
           "isPopular": false,
           "isOffer": true,
           "offerPrice": null,
           "isCombo": true,
-          "comboIncludes": [
-            "تيكا ماسالا",
-            "أرز بسمتي",
-            "نان ثوم",
-            "مشروب"
-          ],
-          "spicyOption": true,
-          "cashbackPercent": null,
-          "addons": [
-            {
-              "id": "extra-naan",
-              "name": "نان إضافي",
-              "price": 7
-            },
-            {
-              "id": "raita",
-              "name": "رايتا",
-              "price": 5
-            },
-            {
-              "id": "indian-pickle",
-              "name": "مخلل هندي",
-              "price": 4
-            },
-            {
-              "id": "lassi",
-              "name": "لاسي",
-              "price": 10
-            },
-            {
-              "id": "extra-rice",
-              "name": "أرز إضافي",
-              "price": 6
-            }
-          ]
-        },
-        {
-          "id": "masala-bowl-combo-3",
-          "restaurantId": "masala-bowl",
-          "name": "كومبو ثالي هندي",
-          "description": "تشكيلة أطباق صغيرة في وجبة واحدة.",
-          "image": "https://images.unsplash.com/photo-1588168333986-5078d3ae3976?w=800&q=80",
-          "price": 64,
-          "rating": 4.6,
-          "calories": 880,
-          "protein": 28,
-          "carbs": 100,
-          "fat": 28,
-          "category": "offers",
-          "isPopular": false,
-          "isOffer": true,
-          "offerPrice": null,
-          "isCombo": true,
+          "offerKind": "family",
           "comboIncludes": [
             "دال",
-            "كاري خضار",
+            "كاري",
             "أرز",
             "نان",
             "مخلل"
+          ],
+          "spicyOption": true,
+          "cashbackPercent": null,
+          "addons": [
+            {
+              "id": "extra-naan",
+              "name": "نان إضافي",
+              "price": 7
+            },
+            {
+              "id": "raita",
+              "name": "رايتا",
+              "price": 5
+            },
+            {
+              "id": "indian-pickle",
+              "name": "مخلل هندي",
+              "price": 4
+            },
+            {
+              "id": "lassi",
+              "name": "لاسي",
+              "price": 10
+            },
+            {
+              "id": "extra-rice",
+              "name": "أرز إضافي",
+              "price": 6
+            }
+          ]
+        },
+        {
+          "id": "masala-bowl-offer-3",
+          "restaurantId": "masala-bowl",
+          "name": "عرض كاري مع أرز ونان — بول الماسالا",
+          "description": "تيكا ماسالا وأرز ونان بسعر واحد.",
+          "image": "https://images.unsplash.com/photo-1588168333986-5078d3ae3976?w=800&q=80",
+          "price": 52,
+          "rating": 4.6,
+          "calories": 900,
+          "protein": 38,
+          "carbs": 90,
+          "fat": 34,
+          "category": "offers",
+          "isPopular": false,
+          "isOffer": true,
+          "offerPrice": null,
+          "isCombo": true,
+          "offerKind": "deal",
+          "comboIncludes": [
+            "تيكا ماسالا",
+            "أرز",
+            "نان"
           ],
           "spicyOption": true,
           "cashbackPercent": null,
@@ -2052,7 +2088,8 @@
             }
           ],
           "isCombo": false,
-          "comboIncludes": []
+          "comboIncludes": [],
+          "offerKind": null
         },
         {
           "id": "curry-garden-2",
@@ -2100,7 +2137,8 @@
             }
           ],
           "isCombo": false,
-          "comboIncludes": []
+          "comboIncludes": [],
+          "offerKind": null
         },
         {
           "id": "curry-garden-3",
@@ -2148,7 +2186,8 @@
             }
           ],
           "isCombo": false,
-          "comboIncludes": []
+          "comboIncludes": [],
+          "offerKind": null
         },
         {
           "id": "curry-garden-4",
@@ -2196,7 +2235,8 @@
             }
           ],
           "isCombo": false,
-          "comboIncludes": []
+          "comboIncludes": [],
+          "offerKind": null
         },
         {
           "id": "curry-garden-5",
@@ -2244,7 +2284,8 @@
             }
           ],
           "isCombo": false,
-          "comboIncludes": []
+          "comboIncludes": [],
+          "offerKind": null
         },
         {
           "id": "curry-garden-6",
@@ -2292,7 +2333,8 @@
             }
           ],
           "isCombo": false,
-          "comboIncludes": []
+          "comboIncludes": [],
+          "offerKind": null
         },
         {
           "id": "curry-garden-7",
@@ -2340,7 +2382,8 @@
             }
           ],
           "isCombo": false,
-          "comboIncludes": []
+          "comboIncludes": [],
+          "offerKind": null
         },
         {
           "id": "curry-garden-8",
@@ -2388,7 +2431,8 @@
             }
           ],
           "isCombo": false,
-          "comboIncludes": []
+          "comboIncludes": [],
+          "offerKind": null
         },
         {
           "id": "curry-garden-9",
@@ -2436,7 +2480,8 @@
             }
           ],
           "isCombo": false,
-          "comboIncludes": []
+          "comboIncludes": [],
+          "offerKind": null
         },
         {
           "id": "curry-garden-10",
@@ -2484,12 +2529,13 @@
             }
           ],
           "isCombo": false,
-          "comboIncludes": []
+          "comboIncludes": [],
+          "offerKind": null
         },
         {
-          "id": "curry-garden-combo-1",
+          "id": "curry-garden-offer-1",
           "restaurantId": "curry-garden",
-          "name": "كومبو برياني وجبة",
+          "name": "وجبة برياني كاملة — حديقة الكاري",
           "description": "برياني مع رايتا ونان ومشروب.",
           "image": "https://images.unsplash.com/photo-1585937421612-70a008356fbe?w=800&q=80",
           "price": 54,
@@ -2503,11 +2549,12 @@
           "isOffer": true,
           "offerPrice": null,
           "isCombo": true,
+          "offerKind": "combo",
           "comboIncludes": [
             "برياني دجاج",
             "رايتا",
             "نان",
-            "لاسي أو مشروب"
+            "لاسي"
           ],
           "spicyOption": true,
           "cashbackPercent": null,
@@ -2540,81 +2587,82 @@
           ]
         },
         {
-          "id": "curry-garden-combo-2",
+          "id": "curry-garden-offer-2",
           "restaurantId": "curry-garden",
-          "name": "كومبو كاري كامل",
-          "description": "كاري مع أرز وخبز.",
+          "name": "وجبة عائلية ثالي — حديقة الكاري",
+          "description": "تشكيلة أطباق هندية تكفي العائلة.",
           "image": "https://images.unsplash.com/photo-1565557623262-b51c2513a641?w=800&q=80",
-          "price": 58,
+          "price": 119,
           "rating": 4.6,
-          "calories": 980,
-          "protein": 38,
-          "carbs": 95,
-          "fat": 36,
+          "calories": 1600,
+          "protein": 55,
+          "carbs": 180,
+          "fat": 50,
           "category": "offers",
           "isPopular": false,
           "isOffer": true,
           "offerPrice": null,
           "isCombo": true,
-          "comboIncludes": [
-            "تيكا ماسالا",
-            "أرز بسمتي",
-            "نان ثوم",
-            "مشروب"
-          ],
-          "spicyOption": true,
-          "cashbackPercent": null,
-          "addons": [
-            {
-              "id": "extra-naan",
-              "name": "نان إضافي",
-              "price": 7
-            },
-            {
-              "id": "raita",
-              "name": "رايتا",
-              "price": 5
-            },
-            {
-              "id": "indian-pickle",
-              "name": "مخلل هندي",
-              "price": 4
-            },
-            {
-              "id": "lassi",
-              "name": "لاسي",
-              "price": 10
-            },
-            {
-              "id": "extra-rice",
-              "name": "أرز إضافي",
-              "price": 6
-            }
-          ]
-        },
-        {
-          "id": "curry-garden-combo-3",
-          "restaurantId": "curry-garden",
-          "name": "كومبو ثالي هندي",
-          "description": "تشكيلة أطباق صغيرة في وجبة واحدة.",
-          "image": "https://images.unsplash.com/photo-1588168333986-5078d3ae3976?w=800&q=80",
-          "price": 64,
-          "rating": 4.6,
-          "calories": 880,
-          "protein": 28,
-          "carbs": 100,
-          "fat": 28,
-          "category": "offers",
-          "isPopular": false,
-          "isOffer": true,
-          "offerPrice": null,
-          "isCombo": true,
+          "offerKind": "family",
           "comboIncludes": [
             "دال",
-            "كاري خضار",
+            "كاري",
             "أرز",
             "نان",
             "مخلل"
+          ],
+          "spicyOption": true,
+          "cashbackPercent": null,
+          "addons": [
+            {
+              "id": "extra-naan",
+              "name": "نان إضافي",
+              "price": 7
+            },
+            {
+              "id": "raita",
+              "name": "رايتا",
+              "price": 5
+            },
+            {
+              "id": "indian-pickle",
+              "name": "مخلل هندي",
+              "price": 4
+            },
+            {
+              "id": "lassi",
+              "name": "لاسي",
+              "price": 10
+            },
+            {
+              "id": "extra-rice",
+              "name": "أرز إضافي",
+              "price": 6
+            }
+          ]
+        },
+        {
+          "id": "curry-garden-offer-3",
+          "restaurantId": "curry-garden",
+          "name": "عرض كاري مع أرز ونان — حديقة الكاري",
+          "description": "تيكا ماسالا وأرز ونان بسعر واحد.",
+          "image": "https://images.unsplash.com/photo-1588168333986-5078d3ae3976?w=800&q=80",
+          "price": 52,
+          "rating": 4.6,
+          "calories": 900,
+          "protein": 38,
+          "carbs": 90,
+          "fat": 34,
+          "category": "offers",
+          "isPopular": false,
+          "isOffer": true,
+          "offerPrice": null,
+          "isCombo": true,
+          "offerKind": "deal",
+          "comboIncludes": [
+            "تيكا ماسالا",
+            "أرز",
+            "نان"
           ],
           "spicyOption": true,
           "cashbackPercent": null,
@@ -2714,7 +2762,8 @@
             }
           ],
           "isCombo": false,
-          "comboIncludes": []
+          "comboIncludes": [],
+          "offerKind": null
         },
         {
           "id": "biryani-dar-2",
@@ -2762,7 +2811,8 @@
             }
           ],
           "isCombo": false,
-          "comboIncludes": []
+          "comboIncludes": [],
+          "offerKind": null
         },
         {
           "id": "biryani-dar-3",
@@ -2810,7 +2860,8 @@
             }
           ],
           "isCombo": false,
-          "comboIncludes": []
+          "comboIncludes": [],
+          "offerKind": null
         },
         {
           "id": "biryani-dar-4",
@@ -2858,7 +2909,8 @@
             }
           ],
           "isCombo": false,
-          "comboIncludes": []
+          "comboIncludes": [],
+          "offerKind": null
         },
         {
           "id": "biryani-dar-5",
@@ -2906,7 +2958,8 @@
             }
           ],
           "isCombo": false,
-          "comboIncludes": []
+          "comboIncludes": [],
+          "offerKind": null
         },
         {
           "id": "biryani-dar-6",
@@ -2954,7 +3007,8 @@
             }
           ],
           "isCombo": false,
-          "comboIncludes": []
+          "comboIncludes": [],
+          "offerKind": null
         },
         {
           "id": "biryani-dar-7",
@@ -3002,7 +3056,8 @@
             }
           ],
           "isCombo": false,
-          "comboIncludes": []
+          "comboIncludes": [],
+          "offerKind": null
         },
         {
           "id": "biryani-dar-8",
@@ -3050,7 +3105,8 @@
             }
           ],
           "isCombo": false,
-          "comboIncludes": []
+          "comboIncludes": [],
+          "offerKind": null
         },
         {
           "id": "biryani-dar-9",
@@ -3098,7 +3154,8 @@
             }
           ],
           "isCombo": false,
-          "comboIncludes": []
+          "comboIncludes": [],
+          "offerKind": null
         },
         {
           "id": "biryani-dar-10",
@@ -3146,12 +3203,13 @@
             }
           ],
           "isCombo": false,
-          "comboIncludes": []
+          "comboIncludes": [],
+          "offerKind": null
         },
         {
-          "id": "biryani-dar-combo-1",
+          "id": "biryani-dar-offer-1",
           "restaurantId": "biryani-dar",
-          "name": "كومبو برياني وجبة",
+          "name": "وجبة برياني كاملة — دار البرياني",
           "description": "برياني مع رايتا ونان ومشروب.",
           "image": "https://images.unsplash.com/photo-1585937421612-70a008356fbe?w=800&q=80",
           "price": 54,
@@ -3165,11 +3223,12 @@
           "isOffer": true,
           "offerPrice": null,
           "isCombo": true,
+          "offerKind": "combo",
           "comboIncludes": [
             "برياني دجاج",
             "رايتا",
             "نان",
-            "لاسي أو مشروب"
+            "لاسي"
           ],
           "spicyOption": true,
           "cashbackPercent": null,
@@ -3202,81 +3261,82 @@
           ]
         },
         {
-          "id": "biryani-dar-combo-2",
+          "id": "biryani-dar-offer-2",
           "restaurantId": "biryani-dar",
-          "name": "كومبو كاري كامل",
-          "description": "كاري مع أرز وخبز.",
+          "name": "وجبة عائلية ثالي — دار البرياني",
+          "description": "تشكيلة أطباق هندية تكفي العائلة.",
           "image": "https://images.unsplash.com/photo-1565557623262-b51c2513a641?w=800&q=80",
-          "price": 58,
+          "price": 119,
           "rating": 4.6,
-          "calories": 980,
-          "protein": 38,
-          "carbs": 95,
-          "fat": 36,
+          "calories": 1600,
+          "protein": 55,
+          "carbs": 180,
+          "fat": 50,
           "category": "offers",
           "isPopular": false,
           "isOffer": true,
           "offerPrice": null,
           "isCombo": true,
-          "comboIncludes": [
-            "تيكا ماسالا",
-            "أرز بسمتي",
-            "نان ثوم",
-            "مشروب"
-          ],
-          "spicyOption": true,
-          "cashbackPercent": null,
-          "addons": [
-            {
-              "id": "extra-naan",
-              "name": "نان إضافي",
-              "price": 7
-            },
-            {
-              "id": "raita",
-              "name": "رايتا",
-              "price": 5
-            },
-            {
-              "id": "indian-pickle",
-              "name": "مخلل هندي",
-              "price": 4
-            },
-            {
-              "id": "lassi",
-              "name": "لاسي",
-              "price": 10
-            },
-            {
-              "id": "extra-rice",
-              "name": "أرز إضافي",
-              "price": 6
-            }
-          ]
-        },
-        {
-          "id": "biryani-dar-combo-3",
-          "restaurantId": "biryani-dar",
-          "name": "كومبو ثالي هندي",
-          "description": "تشكيلة أطباق صغيرة في وجبة واحدة.",
-          "image": "https://images.unsplash.com/photo-1588168333986-5078d3ae3976?w=800&q=80",
-          "price": 64,
-          "rating": 4.6,
-          "calories": 880,
-          "protein": 28,
-          "carbs": 100,
-          "fat": 28,
-          "category": "offers",
-          "isPopular": false,
-          "isOffer": true,
-          "offerPrice": null,
-          "isCombo": true,
+          "offerKind": "family",
           "comboIncludes": [
             "دال",
-            "كاري خضار",
+            "كاري",
             "أرز",
             "نان",
             "مخلل"
+          ],
+          "spicyOption": true,
+          "cashbackPercent": null,
+          "addons": [
+            {
+              "id": "extra-naan",
+              "name": "نان إضافي",
+              "price": 7
+            },
+            {
+              "id": "raita",
+              "name": "رايتا",
+              "price": 5
+            },
+            {
+              "id": "indian-pickle",
+              "name": "مخلل هندي",
+              "price": 4
+            },
+            {
+              "id": "lassi",
+              "name": "لاسي",
+              "price": 10
+            },
+            {
+              "id": "extra-rice",
+              "name": "أرز إضافي",
+              "price": 6
+            }
+          ]
+        },
+        {
+          "id": "biryani-dar-offer-3",
+          "restaurantId": "biryani-dar",
+          "name": "عرض كاري مع أرز ونان — دار البرياني",
+          "description": "تيكا ماسالا وأرز ونان بسعر واحد.",
+          "image": "https://images.unsplash.com/photo-1588168333986-5078d3ae3976?w=800&q=80",
+          "price": 52,
+          "rating": 4.6,
+          "calories": 900,
+          "protein": 38,
+          "carbs": 90,
+          "fat": 34,
+          "category": "offers",
+          "isPopular": false,
+          "isOffer": true,
+          "offerPrice": null,
+          "isCombo": true,
+          "offerKind": "deal",
+          "comboIncludes": [
+            "تيكا ماسالا",
+            "أرز",
+            "نان"
           ],
           "spicyOption": true,
           "cashbackPercent": null,
@@ -3376,7 +3436,8 @@
             }
           ],
           "isCombo": false,
-          "comboIncludes": []
+          "comboIncludes": [],
+          "offerKind": null
         },
         {
           "id": "naan-house-2",
@@ -3424,7 +3485,8 @@
             }
           ],
           "isCombo": false,
-          "comboIncludes": []
+          "comboIncludes": [],
+          "offerKind": null
         },
         {
           "id": "naan-house-3",
@@ -3472,7 +3534,8 @@
             }
           ],
           "isCombo": false,
-          "comboIncludes": []
+          "comboIncludes": [],
+          "offerKind": null
         },
         {
           "id": "naan-house-4",
@@ -3520,7 +3583,8 @@
             }
           ],
           "isCombo": false,
-          "comboIncludes": []
+          "comboIncludes": [],
+          "offerKind": null
         },
         {
           "id": "naan-house-5",
@@ -3568,7 +3632,8 @@
             }
           ],
           "isCombo": false,
-          "comboIncludes": []
+          "comboIncludes": [],
+          "offerKind": null
         },
         {
           "id": "naan-house-6",
@@ -3616,7 +3681,8 @@
             }
           ],
           "isCombo": false,
-          "comboIncludes": []
+          "comboIncludes": [],
+          "offerKind": null
         },
         {
           "id": "naan-house-7",
@@ -3664,7 +3730,8 @@
             }
           ],
           "isCombo": false,
-          "comboIncludes": []
+          "comboIncludes": [],
+          "offerKind": null
         },
         {
           "id": "naan-house-8",
@@ -3712,7 +3779,8 @@
             }
           ],
           "isCombo": false,
-          "comboIncludes": []
+          "comboIncludes": [],
+          "offerKind": null
         },
         {
           "id": "naan-house-9",
@@ -3760,7 +3828,8 @@
             }
           ],
           "isCombo": false,
-          "comboIncludes": []
+          "comboIncludes": [],
+          "offerKind": null
         },
         {
           "id": "naan-house-10",
@@ -3808,12 +3877,13 @@
             }
           ],
           "isCombo": false,
-          "comboIncludes": []
+          "comboIncludes": [],
+          "offerKind": null
         },
         {
-          "id": "naan-house-combo-1",
+          "id": "naan-house-offer-1",
           "restaurantId": "naan-house",
-          "name": "كومبو برياني وجبة",
+          "name": "وجبة برياني كاملة — بيت الخبز النان",
           "description": "برياني مع رايتا ونان ومشروب.",
           "image": "https://images.unsplash.com/photo-1585937421612-70a008356fbe?w=800&q=80",
           "price": 54,
@@ -3827,11 +3897,12 @@
           "isOffer": true,
           "offerPrice": null,
           "isCombo": true,
+          "offerKind": "combo",
           "comboIncludes": [
             "برياني دجاج",
             "رايتا",
             "نان",
-            "لاسي أو مشروب"
+            "لاسي"
           ],
           "spicyOption": true,
           "cashbackPercent": null,
@@ -3864,81 +3935,82 @@
           ]
         },
         {
-          "id": "naan-house-combo-2",
+          "id": "naan-house-offer-2",
           "restaurantId": "naan-house",
-          "name": "كومبو كاري كامل",
-          "description": "كاري مع أرز وخبز.",
+          "name": "وجبة عائلية ثالي — بيت الخبز النان",
+          "description": "تشكيلة أطباق هندية تكفي العائلة.",
           "image": "https://images.unsplash.com/photo-1565557623262-b51c2513a641?w=800&q=80",
-          "price": 58,
+          "price": 119,
           "rating": 4.6,
-          "calories": 980,
-          "protein": 38,
-          "carbs": 95,
-          "fat": 36,
+          "calories": 1600,
+          "protein": 55,
+          "carbs": 180,
+          "fat": 50,
           "category": "offers",
           "isPopular": false,
           "isOffer": true,
           "offerPrice": null,
           "isCombo": true,
-          "comboIncludes": [
-            "تيكا ماسالا",
-            "أرز بسمتي",
-            "نان ثوم",
-            "مشروب"
-          ],
-          "spicyOption": true,
-          "cashbackPercent": null,
-          "addons": [
-            {
-              "id": "extra-naan",
-              "name": "نان إضافي",
-              "price": 7
-            },
-            {
-              "id": "raita",
-              "name": "رايتا",
-              "price": 5
-            },
-            {
-              "id": "indian-pickle",
-              "name": "مخلل هندي",
-              "price": 4
-            },
-            {
-              "id": "lassi",
-              "name": "لاسي",
-              "price": 10
-            },
-            {
-              "id": "extra-rice",
-              "name": "أرز إضافي",
-              "price": 6
-            }
-          ]
-        },
-        {
-          "id": "naan-house-combo-3",
-          "restaurantId": "naan-house",
-          "name": "كومبو ثالي هندي",
-          "description": "تشكيلة أطباق صغيرة في وجبة واحدة.",
-          "image": "https://images.unsplash.com/photo-1588168333986-5078d3ae3976?w=800&q=80",
-          "price": 64,
-          "rating": 4.6,
-          "calories": 880,
-          "protein": 28,
-          "carbs": 100,
-          "fat": 28,
-          "category": "offers",
-          "isPopular": false,
-          "isOffer": true,
-          "offerPrice": null,
-          "isCombo": true,
+          "offerKind": "family",
           "comboIncludes": [
             "دال",
-            "كاري خضار",
+            "كاري",
             "أرز",
             "نان",
             "مخلل"
+          ],
+          "spicyOption": true,
+          "cashbackPercent": null,
+          "addons": [
+            {
+              "id": "extra-naan",
+              "name": "نان إضافي",
+              "price": 7
+            },
+            {
+              "id": "raita",
+              "name": "رايتا",
+              "price": 5
+            },
+            {
+              "id": "indian-pickle",
+              "name": "مخلل هندي",
+              "price": 4
+            },
+            {
+              "id": "lassi",
+              "name": "لاسي",
+              "price": 10
+            },
+            {
+              "id": "extra-rice",
+              "name": "أرز إضافي",
+              "price": 6
+            }
+          ]
+        },
+        {
+          "id": "naan-house-offer-3",
+          "restaurantId": "naan-house",
+          "name": "عرض كاري مع أرز ونان — بيت الخبز النان",
+          "description": "تيكا ماسالا وأرز ونان بسعر واحد.",
+          "image": "https://images.unsplash.com/photo-1588168333986-5078d3ae3976?w=800&q=80",
+          "price": 52,
+          "rating": 4.6,
+          "calories": 900,
+          "protein": 38,
+          "carbs": 90,
+          "fat": 34,
+          "category": "offers",
+          "isPopular": false,
+          "isOffer": true,
+          "offerPrice": null,
+          "isCombo": true,
+          "offerKind": "deal",
+          "comboIncludes": [
+            "تيكا ماسالا",
+            "أرز",
+            "نان"
           ],
           "spicyOption": true,
           "cashbackPercent": null,
@@ -4038,7 +4110,8 @@
             }
           ],
           "isCombo": false,
-          "comboIncludes": []
+          "comboIncludes": [],
+          "offerKind": null
         },
         {
           "id": "tikka-spot-2",
@@ -4086,7 +4159,8 @@
             }
           ],
           "isCombo": false,
-          "comboIncludes": []
+          "comboIncludes": [],
+          "offerKind": null
         },
         {
           "id": "tikka-spot-3",
@@ -4134,7 +4208,8 @@
             }
           ],
           "isCombo": false,
-          "comboIncludes": []
+          "comboIncludes": [],
+          "offerKind": null
         },
         {
           "id": "tikka-spot-4",
@@ -4182,7 +4257,8 @@
             }
           ],
           "isCombo": false,
-          "comboIncludes": []
+          "comboIncludes": [],
+          "offerKind": null
         },
         {
           "id": "tikka-spot-5",
@@ -4230,7 +4306,8 @@
             }
           ],
           "isCombo": false,
-          "comboIncludes": []
+          "comboIncludes": [],
+          "offerKind": null
         },
         {
           "id": "tikka-spot-6",
@@ -4278,7 +4355,8 @@
             }
           ],
           "isCombo": false,
-          "comboIncludes": []
+          "comboIncludes": [],
+          "offerKind": null
         },
         {
           "id": "tikka-spot-7",
@@ -4326,7 +4404,8 @@
             }
           ],
           "isCombo": false,
-          "comboIncludes": []
+          "comboIncludes": [],
+          "offerKind": null
         },
         {
           "id": "tikka-spot-8",
@@ -4374,7 +4453,8 @@
             }
           ],
           "isCombo": false,
-          "comboIncludes": []
+          "comboIncludes": [],
+          "offerKind": null
         },
         {
           "id": "tikka-spot-9",
@@ -4422,7 +4502,8 @@
             }
           ],
           "isCombo": false,
-          "comboIncludes": []
+          "comboIncludes": [],
+          "offerKind": null
         },
         {
           "id": "tikka-spot-10",
@@ -4470,12 +4551,13 @@
             }
           ],
           "isCombo": false,
-          "comboIncludes": []
+          "comboIncludes": [],
+          "offerKind": null
         },
         {
-          "id": "tikka-spot-combo-1",
+          "id": "tikka-spot-offer-1",
           "restaurantId": "tikka-spot",
-          "name": "كومبو برياني وجبة",
+          "name": "وجبة برياني كاملة — تيكا سبوت",
           "description": "برياني مع رايتا ونان ومشروب.",
           "image": "https://images.unsplash.com/photo-1585937421612-70a008356fbe?w=800&q=80",
           "price": 54,
@@ -4489,11 +4571,12 @@
           "isOffer": true,
           "offerPrice": null,
           "isCombo": true,
+          "offerKind": "combo",
           "comboIncludes": [
             "برياني دجاج",
             "رايتا",
             "نان",
-            "لاسي أو مشروب"
+            "لاسي"
           ],
           "spicyOption": true,
           "cashbackPercent": null,
@@ -4526,81 +4609,82 @@
           ]
         },
         {
-          "id": "tikka-spot-combo-2",
+          "id": "tikka-spot-offer-2",
           "restaurantId": "tikka-spot",
-          "name": "كومبو كاري كامل",
-          "description": "كاري مع أرز وخبز.",
+          "name": "وجبة عائلية ثالي — تيكا سبوت",
+          "description": "تشكيلة أطباق هندية تكفي العائلة.",
           "image": "https://images.unsplash.com/photo-1565557623262-b51c2513a641?w=800&q=80",
-          "price": 58,
+          "price": 119,
           "rating": 4.6,
-          "calories": 980,
-          "protein": 38,
-          "carbs": 95,
-          "fat": 36,
+          "calories": 1600,
+          "protein": 55,
+          "carbs": 180,
+          "fat": 50,
           "category": "offers",
           "isPopular": false,
           "isOffer": true,
           "offerPrice": null,
           "isCombo": true,
-          "comboIncludes": [
-            "تيكا ماسالا",
-            "أرز بسمتي",
-            "نان ثوم",
-            "مشروب"
-          ],
-          "spicyOption": true,
-          "cashbackPercent": null,
-          "addons": [
-            {
-              "id": "extra-naan",
-              "name": "نان إضافي",
-              "price": 7
-            },
-            {
-              "id": "raita",
-              "name": "رايتا",
-              "price": 5
-            },
-            {
-              "id": "indian-pickle",
-              "name": "مخلل هندي",
-              "price": 4
-            },
-            {
-              "id": "lassi",
-              "name": "لاسي",
-              "price": 10
-            },
-            {
-              "id": "extra-rice",
-              "name": "أرز إضافي",
-              "price": 6
-            }
-          ]
-        },
-        {
-          "id": "tikka-spot-combo-3",
-          "restaurantId": "tikka-spot",
-          "name": "كومبو ثالي هندي",
-          "description": "تشكيلة أطباق صغيرة في وجبة واحدة.",
-          "image": "https://images.unsplash.com/photo-1588168333986-5078d3ae3976?w=800&q=80",
-          "price": 64,
-          "rating": 4.6,
-          "calories": 880,
-          "protein": 28,
-          "carbs": 100,
-          "fat": 28,
-          "category": "offers",
-          "isPopular": false,
-          "isOffer": true,
-          "offerPrice": null,
-          "isCombo": true,
+          "offerKind": "family",
           "comboIncludes": [
             "دال",
-            "كاري خضار",
+            "كاري",
             "أرز",
             "نان",
             "مخلل"
+          ],
+          "spicyOption": true,
+          "cashbackPercent": null,
+          "addons": [
+            {
+              "id": "extra-naan",
+              "name": "نان إضافي",
+              "price": 7
+            },
+            {
+              "id": "raita",
+              "name": "رايتا",
+              "price": 5
+            },
+            {
+              "id": "indian-pickle",
+              "name": "مخلل هندي",
+              "price": 4
+            },
+            {
+              "id": "lassi",
+              "name": "لاسي",
+              "price": 10
+            },
+            {
+              "id": "extra-rice",
+              "name": "أرز إضافي",
+              "price": 6
+            }
+          ]
+        },
+        {
+          "id": "tikka-spot-offer-3",
+          "restaurantId": "tikka-spot",
+          "name": "عرض كاري مع أرز ونان — تيكا سبوت",
+          "description": "تيكا ماسالا وأرز ونان بسعر واحد.",
+          "image": "https://images.unsplash.com/photo-1588168333986-5078d3ae3976?w=800&q=80",
+          "price": 52,
+          "rating": 4.6,
+          "calories": 900,
+          "protein": 38,
+          "carbs": 90,
+          "fat": 34,
+          "category": "offers",
+          "isPopular": false,
+          "isOffer": true,
+          "offerPrice": null,
+          "isCombo": true,
+          "offerKind": "deal",
+          "comboIncludes": [
+            "تيكا ماسالا",
+            "أرز",
+            "نان"
           ],
           "spicyOption": true,
           "cashbackPercent": null,
@@ -4700,7 +4784,8 @@
             }
           ],
           "isCombo": false,
-          "comboIncludes": []
+          "comboIncludes": [],
+          "offerKind": null
         },
         {
           "id": "delhi-express-2",
@@ -4748,7 +4833,8 @@
             }
           ],
           "isCombo": false,
-          "comboIncludes": []
+          "comboIncludes": [],
+          "offerKind": null
         },
         {
           "id": "delhi-express-3",
@@ -4796,7 +4882,8 @@
             }
           ],
           "isCombo": false,
-          "comboIncludes": []
+          "comboIncludes": [],
+          "offerKind": null
         },
         {
           "id": "delhi-express-4",
@@ -4844,7 +4931,8 @@
             }
           ],
           "isCombo": false,
-          "comboIncludes": []
+          "comboIncludes": [],
+          "offerKind": null
         },
         {
           "id": "delhi-express-5",
@@ -4892,7 +4980,8 @@
             }
           ],
           "isCombo": false,
-          "comboIncludes": []
+          "comboIncludes": [],
+          "offerKind": null
         },
         {
           "id": "delhi-express-6",
@@ -4940,7 +5029,8 @@
             }
           ],
           "isCombo": false,
-          "comboIncludes": []
+          "comboIncludes": [],
+          "offerKind": null
         },
         {
           "id": "delhi-express-7",
@@ -4988,7 +5078,8 @@
             }
           ],
           "isCombo": false,
-          "comboIncludes": []
+          "comboIncludes": [],
+          "offerKind": null
         },
         {
           "id": "delhi-express-8",
@@ -5036,7 +5127,8 @@
             }
           ],
           "isCombo": false,
-          "comboIncludes": []
+          "comboIncludes": [],
+          "offerKind": null
         },
         {
           "id": "delhi-express-9",
@@ -5084,7 +5176,8 @@
             }
           ],
           "isCombo": false,
-          "comboIncludes": []
+          "comboIncludes": [],
+          "offerKind": null
         },
         {
           "id": "delhi-express-10",
@@ -5132,12 +5225,13 @@
             }
           ],
           "isCombo": false,
-          "comboIncludes": []
+          "comboIncludes": [],
+          "offerKind": null
         },
         {
-          "id": "delhi-express-combo-1",
+          "id": "delhi-express-offer-1",
           "restaurantId": "delhi-express",
-          "name": "كومبو برياني وجبة",
+          "name": "وجبة برياني كاملة — دلهي إكسبرس",
           "description": "برياني مع رايتا ونان ومشروب.",
           "image": "https://images.unsplash.com/photo-1585937421612-70a008356fbe?w=800&q=80",
           "price": 54,
@@ -5151,11 +5245,12 @@
           "isOffer": true,
           "offerPrice": null,
           "isCombo": true,
+          "offerKind": "combo",
           "comboIncludes": [
             "برياني دجاج",
             "رايتا",
             "نان",
-            "لاسي أو مشروب"
+            "لاسي"
           ],
           "spicyOption": true,
           "cashbackPercent": null,
@@ -5188,81 +5283,82 @@
           ]
         },
         {
-          "id": "delhi-express-combo-2",
+          "id": "delhi-express-offer-2",
           "restaurantId": "delhi-express",
-          "name": "كومبو كاري كامل",
-          "description": "كاري مع أرز وخبز.",
+          "name": "وجبة عائلية ثالي — دلهي إكسبرس",
+          "description": "تشكيلة أطباق هندية تكفي العائلة.",
           "image": "https://images.unsplash.com/photo-1565557623262-b51c2513a641?w=800&q=80",
-          "price": 58,
+          "price": 119,
           "rating": 4.6,
-          "calories": 980,
-          "protein": 38,
-          "carbs": 95,
-          "fat": 36,
+          "calories": 1600,
+          "protein": 55,
+          "carbs": 180,
+          "fat": 50,
           "category": "offers",
           "isPopular": false,
           "isOffer": true,
           "offerPrice": null,
           "isCombo": true,
-          "comboIncludes": [
-            "تيكا ماسالا",
-            "أرز بسمتي",
-            "نان ثوم",
-            "مشروب"
-          ],
-          "spicyOption": true,
-          "cashbackPercent": null,
-          "addons": [
-            {
-              "id": "extra-naan",
-              "name": "نان إضافي",
-              "price": 7
-            },
-            {
-              "id": "raita",
-              "name": "رايتا",
-              "price": 5
-            },
-            {
-              "id": "indian-pickle",
-              "name": "مخلل هندي",
-              "price": 4
-            },
-            {
-              "id": "lassi",
-              "name": "لاسي",
-              "price": 10
-            },
-            {
-              "id": "extra-rice",
-              "name": "أرز إضافي",
-              "price": 6
-            }
-          ]
-        },
-        {
-          "id": "delhi-express-combo-3",
-          "restaurantId": "delhi-express",
-          "name": "كومبو ثالي هندي",
-          "description": "تشكيلة أطباق صغيرة في وجبة واحدة.",
-          "image": "https://images.unsplash.com/photo-1588168333986-5078d3ae3976?w=800&q=80",
-          "price": 64,
-          "rating": 4.6,
-          "calories": 880,
-          "protein": 28,
-          "carbs": 100,
-          "fat": 28,
-          "category": "offers",
-          "isPopular": false,
-          "isOffer": true,
-          "offerPrice": null,
-          "isCombo": true,
+          "offerKind": "family",
           "comboIncludes": [
             "دال",
-            "كاري خضار",
+            "كاري",
             "أرز",
             "نان",
             "مخلل"
+          ],
+          "spicyOption": true,
+          "cashbackPercent": null,
+          "addons": [
+            {
+              "id": "extra-naan",
+              "name": "نان إضافي",
+              "price": 7
+            },
+            {
+              "id": "raita",
+              "name": "رايتا",
+              "price": 5
+            },
+            {
+              "id": "indian-pickle",
+              "name": "مخلل هندي",
+              "price": 4
+            },
+            {
+              "id": "lassi",
+              "name": "لاسي",
+              "price": 10
+            },
+            {
+              "id": "extra-rice",
+              "name": "أرز إضافي",
+              "price": 6
+            }
+          ]
+        },
+        {
+          "id": "delhi-express-offer-3",
+          "restaurantId": "delhi-express",
+          "name": "عرض كاري مع أرز ونان — دلهي إكسبرس",
+          "description": "تيكا ماسالا وأرز ونان بسعر واحد.",
+          "image": "https://images.unsplash.com/photo-1588168333986-5078d3ae3976?w=800&q=80",
+          "price": 52,
+          "rating": 4.6,
+          "calories": 900,
+          "protein": 38,
+          "carbs": 90,
+          "fat": 34,
+          "category": "offers",
+          "isPopular": false,
+          "isOffer": true,
+          "offerPrice": null,
+          "isCombo": true,
+          "offerKind": "deal",
+          "comboIncludes": [
+            "تيكا ماسالا",
+            "أرز",
+            "نان"
           ],
           "spicyOption": true,
           "cashbackPercent": null,

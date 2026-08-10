@@ -65,7 +65,8 @@
             }
           ],
           "isCombo": false,
-          "comboIncludes": []
+          "comboIncludes": [],
+          "offerKind": null
         },
         {
           "id": "fahm-night-2",
@@ -113,7 +114,8 @@
             }
           ],
           "isCombo": false,
-          "comboIncludes": []
+          "comboIncludes": [],
+          "offerKind": null
         },
         {
           "id": "fahm-night-3",
@@ -161,7 +163,8 @@
             }
           ],
           "isCombo": false,
-          "comboIncludes": []
+          "comboIncludes": [],
+          "offerKind": null
         },
         {
           "id": "fahm-night-4",
@@ -209,7 +212,8 @@
             }
           ],
           "isCombo": false,
-          "comboIncludes": []
+          "comboIncludes": [],
+          "offerKind": null
         },
         {
           "id": "fahm-night-5",
@@ -257,7 +261,8 @@
             }
           ],
           "isCombo": false,
-          "comboIncludes": []
+          "comboIncludes": [],
+          "offerKind": null
         },
         {
           "id": "fahm-night-6",
@@ -305,7 +310,8 @@
             }
           ],
           "isCombo": false,
-          "comboIncludes": []
+          "comboIncludes": [],
+          "offerKind": null
         },
         {
           "id": "fahm-night-7",
@@ -353,7 +359,8 @@
             }
           ],
           "isCombo": false,
-          "comboIncludes": []
+          "comboIncludes": [],
+          "offerKind": null
         },
         {
           "id": "fahm-night-8",
@@ -401,7 +408,8 @@
             }
           ],
           "isCombo": false,
-          "comboIncludes": []
+          "comboIncludes": [],
+          "offerKind": null
         },
         {
           "id": "fahm-night-9",
@@ -449,7 +457,8 @@
             }
           ],
           "isCombo": false,
-          "comboIncludes": []
+          "comboIncludes": [],
+          "offerKind": null
         },
         {
           "id": "fahm-night-10",
@@ -497,13 +506,14 @@
             }
           ],
           "isCombo": false,
-          "comboIncludes": []
+          "comboIncludes": [],
+          "offerKind": null
         },
         {
-          "id": "fahm-night-combo-1",
+          "id": "fahm-night-offer-1",
           "restaurantId": "fahm-night",
-          "name": "كومبو مشاوي فردي",
-          "description": "وجبة كاملة: مشاوي مع أرز ومشروب.",
+          "name": "وجبة مشاوي فردية — فحم الليل",
+          "description": "طبق رئيسي مع أرز وسلطة ومشروب — وجبة كاملة لشخص واحد.",
           "image": "https://images.unsplash.com/photo-1555939594-58d7cb561ad1?w=800&q=80",
           "price": 59,
           "rating": 4.6,
@@ -516,6 +526,7 @@
           "isOffer": true,
           "offerPrice": null,
           "isCombo": true,
+          "offerKind": "combo",
           "comboIncludes": [
             "شيش طاووق",
             "أرز أبيض",
@@ -553,10 +564,10 @@
           ]
         },
         {
-          "id": "fahm-night-combo-2",
+          "id": "fahm-night-offer-2",
           "restaurantId": "fahm-night",
-          "name": "كومبو عائلي مشاوي",
-          "description": "تشكيلة مشاوي تكفي ٣–٤ أشخاص مع مقبلات.",
+          "name": "وجبة عائلية مشاوي — فحم الليل",
+          "description": "تشكيلة تكفي ٣–٤ أشخاص مع مقبلات ومشروبات.",
           "image": "https://images.unsplash.com/photo-1529692236671-f1f6cf9683ba?w=800&q=80",
           "price": 189,
           "rating": 4.6,
@@ -569,6 +580,7 @@
           "isOffer": true,
           "offerPrice": null,
           "isCombo": true,
+          "offerKind": "family",
           "comboIncludes": [
             "مشكل مشاوي",
             "حمص",
@@ -607,28 +619,28 @@
           ]
         },
         {
-          "id": "fahm-night-combo-3",
+          "id": "fahm-night-offer-3",
           "restaurantId": "fahm-night",
-          "name": "كومبو كباب كامل",
-          "description": "كباب لحم مع أرز ومقبلات ومشروب.",
+          "name": "اشتري كباب واحصل على الثاني مجاناً — فحم الليل",
+          "description": "عرض: كبابين بنفس السعر — مع طحينة ومخلل.",
           "image": "https://images.unsplash.com/photo-1603360946369-dc9bb6258143?w=800&q=80",
           "price": 72,
           "rating": 4.6,
           "calories": 1100,
           "protein": 52,
-          "carbs": 90,
-          "fat": 45,
+          "carbs": 40,
+          "fat": 55,
           "category": "offers",
           "isPopular": false,
           "isOffer": true,
           "offerPrice": null,
           "isCombo": true,
+          "offerKind": "deal",
           "comboIncludes": [
             "كباب لحم",
-            "أرز بخاري",
+            "كباب لحم إضافي",
             "طحينة",
-            "مخلل",
-            "كولا"
+            "مخلل"
           ],
           "spicyOption": true,
           "cashbackPercent": null,
@@ -727,7 +739,8 @@
             }
           ],
           "isCombo": false,
-          "comboIncludes": []
+          "comboIncludes": [],
+          "offerKind": null
         },
         {
           "id": "skewer-club-2",
@@ -775,7 +788,8 @@
             }
           ],
           "isCombo": false,
-          "comboIncludes": []
+          "comboIncludes": [],
+          "offerKind": null
         },
         {
           "id": "skewer-club-3",
@@ -823,7 +837,8 @@
             }
           ],
           "isCombo": false,
-          "comboIncludes": []
+          "comboIncludes": [],
+          "offerKind": null
         },
         {
           "id": "skewer-club-4",
@@ -871,7 +886,8 @@
             }
           ],
           "isCombo": false,
-          "comboIncludes": []
+          "comboIncludes": [],
+          "offerKind": null
         },
         {
           "id": "skewer-club-5",
@@ -919,7 +935,8 @@
             }
           ],
           "isCombo": false,
-          "comboIncludes": []
+          "comboIncludes": [],
+          "offerKind": null
         },
         {
           "id": "skewer-club-6",
@@ -967,7 +984,8 @@
             }
           ],
           "isCombo": false,
-          "comboIncludes": []
+          "comboIncludes": [],
+          "offerKind": null
         },
         {
           "id": "skewer-club-7",
@@ -1015,7 +1033,8 @@
             }
           ],
           "isCombo": false,
-          "comboIncludes": []
+          "comboIncludes": [],
+          "offerKind": null
         },
         {
           "id": "skewer-club-8",
@@ -1063,7 +1082,8 @@
             }
           ],
           "isCombo": false,
-          "comboIncludes": []
+          "comboIncludes": [],
+          "offerKind": null
         },
         {
           "id": "skewer-club-9",
@@ -1111,7 +1131,8 @@
             }
           ],
           "isCombo": false,
-          "comboIncludes": []
+          "comboIncludes": [],
+          "offerKind": null
         },
         {
           "id": "skewer-club-10",
@@ -1159,13 +1180,14 @@
             }
           ],
           "isCombo": false,
-          "comboIncludes": []
+          "comboIncludes": [],
+          "offerKind": null
         },
         {
-          "id": "skewer-club-combo-1",
+          "id": "skewer-club-offer-1",
           "restaurantId": "skewer-club",
-          "name": "كومبو مشاوي فردي",
-          "description": "وجبة كاملة: مشاوي مع أرز ومشروب.",
+          "name": "وجبة مشاوي فردية — نادي الأسياخ",
+          "description": "طبق رئيسي مع أرز وسلطة ومشروب — وجبة كاملة لشخص واحد.",
           "image": "https://images.unsplash.com/photo-1555939594-58d7cb561ad1?w=800&q=80",
           "price": 59,
           "rating": 4.6,
@@ -1178,6 +1200,7 @@
           "isOffer": true,
           "offerPrice": null,
           "isCombo": true,
+          "offerKind": "combo",
           "comboIncludes": [
             "شيش طاووق",
             "أرز أبيض",
@@ -1215,10 +1238,10 @@
           ]
         },
         {
-          "id": "skewer-club-combo-2",
+          "id": "skewer-club-offer-2",
           "restaurantId": "skewer-club",
-          "name": "كومبو عائلي مشاوي",
-          "description": "تشكيلة مشاوي تكفي ٣–٤ أشخاص مع مقبلات.",
+          "name": "وجبة عائلية مشاوي — نادي الأسياخ",
+          "description": "تشكيلة تكفي ٣–٤ أشخاص مع مقبلات ومشروبات.",
           "image": "https://images.unsplash.com/photo-1529692236671-f1f6cf9683ba?w=800&q=80",
           "price": 189,
           "rating": 4.6,
@@ -1231,6 +1254,7 @@
           "isOffer": true,
           "offerPrice": null,
           "isCombo": true,
+          "offerKind": "family",
           "comboIncludes": [
             "مشكل مشاوي",
             "حمص",
@@ -1269,28 +1293,28 @@
           ]
         },
         {
-          "id": "skewer-club-combo-3",
+          "id": "skewer-club-offer-3",
           "restaurantId": "skewer-club",
-          "name": "كومبو كباب كامل",
-          "description": "كباب لحم مع أرز ومقبلات ومشروب.",
+          "name": "اشتري كباب واحصل على الثاني مجاناً — نادي الأسياخ",
+          "description": "عرض: كبابين بنفس السعر — مع طحينة ومخلل.",
           "image": "https://images.unsplash.com/photo-1603360946369-dc9bb6258143?w=800&q=80",
           "price": 72,
           "rating": 4.6,
           "calories": 1100,
           "protein": 52,
-          "carbs": 90,
-          "fat": 45,
+          "carbs": 40,
+          "fat": 55,
           "category": "offers",
           "isPopular": false,
           "isOffer": true,
           "offerPrice": null,
           "isCombo": true,
+          "offerKind": "deal",
           "comboIncludes": [
             "كباب لحم",
-            "أرز بخاري",
+            "كباب لحم إضافي",
             "طحينة",
-            "مخلل",
-            "كولا"
+            "مخلل"
           ],
           "spicyOption": true,
           "cashbackPercent": null,
@@ -1389,7 +1413,8 @@
             }
           ],
           "isCombo": false,
-          "comboIncludes": []
+          "comboIncludes": [],
+          "offerKind": null
         },
         {
           "id": "charcoal-yard-2",
@@ -1437,7 +1462,8 @@
             }
           ],
           "isCombo": false,
-          "comboIncludes": []
+          "comboIncludes": [],
+          "offerKind": null
         },
         {
           "id": "charcoal-yard-3",
@@ -1485,7 +1511,8 @@
             }
           ],
           "isCombo": false,
-          "comboIncludes": []
+          "comboIncludes": [],
+          "offerKind": null
         },
         {
           "id": "charcoal-yard-4",
@@ -1533,7 +1560,8 @@
             }
           ],
           "isCombo": false,
-          "comboIncludes": []
+          "comboIncludes": [],
+          "offerKind": null
         },
         {
           "id": "charcoal-yard-5",
@@ -1581,7 +1609,8 @@
             }
           ],
           "isCombo": false,
-          "comboIncludes": []
+          "comboIncludes": [],
+          "offerKind": null
         },
         {
           "id": "charcoal-yard-6",
@@ -1629,7 +1658,8 @@
             }
           ],
           "isCombo": false,
-          "comboIncludes": []
+          "comboIncludes": [],
+          "offerKind": null
         },
         {
           "id": "charcoal-yard-7",
@@ -1677,7 +1707,8 @@
             }
           ],
           "isCombo": false,
-          "comboIncludes": []
+          "comboIncludes": [],
+          "offerKind": null
         },
         {
           "id": "charcoal-yard-8",
@@ -1725,7 +1756,8 @@
             }
           ],
           "isCombo": false,
-          "comboIncludes": []
+          "comboIncludes": [],
+          "offerKind": null
         },
         {
           "id": "charcoal-yard-9",
@@ -1773,7 +1805,8 @@
             }
           ],
           "isCombo": false,
-          "comboIncludes": []
+          "comboIncludes": [],
+          "offerKind": null
         },
         {
           "id": "charcoal-yard-10",
@@ -1821,13 +1854,14 @@
             }
           ],
           "isCombo": false,
-          "comboIncludes": []
+          "comboIncludes": [],
+          "offerKind": null
         },
         {
-          "id": "charcoal-yard-combo-1",
+          "id": "charcoal-yard-offer-1",
           "restaurantId": "charcoal-yard",
-          "name": "كومبو مشاوي فردي",
-          "description": "وجبة كاملة: مشاوي مع أرز ومشروب.",
+          "name": "وجبة مشاوي فردية — ساحة الفحم",
+          "description": "طبق رئيسي مع أرز وسلطة ومشروب — وجبة كاملة لشخص واحد.",
           "image": "https://images.unsplash.com/photo-1555939594-58d7cb561ad1?w=800&q=80",
           "price": 59,
           "rating": 4.6,
@@ -1840,6 +1874,7 @@
           "isOffer": true,
           "offerPrice": null,
           "isCombo": true,
+          "offerKind": "combo",
           "comboIncludes": [
             "شيش طاووق",
             "أرز أبيض",
@@ -1877,10 +1912,10 @@
           ]
         },
         {
-          "id": "charcoal-yard-combo-2",
+          "id": "charcoal-yard-offer-2",
           "restaurantId": "charcoal-yard",
-          "name": "كومبو عائلي مشاوي",
-          "description": "تشكيلة مشاوي تكفي ٣–٤ أشخاص مع مقبلات.",
+          "name": "وجبة عائلية مشاوي — ساحة الفحم",
+          "description": "تشكيلة تكفي ٣–٤ أشخاص مع مقبلات ومشروبات.",
           "image": "https://images.unsplash.com/photo-1529692236671-f1f6cf9683ba?w=800&q=80",
           "price": 189,
           "rating": 4.6,
@@ -1893,6 +1928,7 @@
           "isOffer": true,
           "offerPrice": null,
           "isCombo": true,
+          "offerKind": "family",
           "comboIncludes": [
             "مشكل مشاوي",
             "حمص",
@@ -1931,28 +1967,28 @@
           ]
         },
         {
-          "id": "charcoal-yard-combo-3",
+          "id": "charcoal-yard-offer-3",
           "restaurantId": "charcoal-yard",
-          "name": "كومبو كباب كامل",
-          "description": "كباب لحم مع أرز ومقبلات ومشروب.",
+          "name": "اشتري كباب واحصل على الثاني مجاناً — ساحة الفحم",
+          "description": "عرض: كبابين بنفس السعر — مع طحينة ومخلل.",
           "image": "https://images.unsplash.com/photo-1603360946369-dc9bb6258143?w=800&q=80",
           "price": 72,
           "rating": 4.6,
           "calories": 1100,
           "protein": 52,
-          "carbs": 90,
-          "fat": 45,
+          "carbs": 40,
+          "fat": 55,
           "category": "offers",
           "isPopular": false,
           "isOffer": true,
           "offerPrice": null,
           "isCombo": true,
+          "offerKind": "deal",
           "comboIncludes": [
             "كباب لحم",
-            "أرز بخاري",
+            "كباب لحم إضافي",
             "طحينة",
-            "مخلل",
-            "كولا"
+            "مخلل"
           ],
           "spicyOption": true,
           "cashbackPercent": null,
@@ -2051,7 +2087,8 @@
             }
           ],
           "isCombo": false,
-          "comboIncludes": []
+          "comboIncludes": [],
+          "offerKind": null
         },
         {
           "id": "meat-square-2",
@@ -2099,7 +2136,8 @@
             }
           ],
           "isCombo": false,
-          "comboIncludes": []
+          "comboIncludes": [],
+          "offerKind": null
         },
         {
           "id": "meat-square-3",
@@ -2147,7 +2185,8 @@
             }
           ],
           "isCombo": false,
-          "comboIncludes": []
+          "comboIncludes": [],
+          "offerKind": null
         },
         {
           "id": "meat-square-4",
@@ -2195,7 +2234,8 @@
             }
           ],
           "isCombo": false,
-          "comboIncludes": []
+          "comboIncludes": [],
+          "offerKind": null
         },
         {
           "id": "meat-square-5",
@@ -2243,7 +2283,8 @@
             }
           ],
           "isCombo": false,
-          "comboIncludes": []
+          "comboIncludes": [],
+          "offerKind": null
         },
         {
           "id": "meat-square-6",
@@ -2291,7 +2332,8 @@
             }
           ],
           "isCombo": false,
-          "comboIncludes": []
+          "comboIncludes": [],
+          "offerKind": null
         },
         {
           "id": "meat-square-7",
@@ -2339,7 +2381,8 @@
             }
           ],
           "isCombo": false,
-          "comboIncludes": []
+          "comboIncludes": [],
+          "offerKind": null
         },
         {
           "id": "meat-square-8",
@@ -2387,7 +2430,8 @@
             }
           ],
           "isCombo": false,
-          "comboIncludes": []
+          "comboIncludes": [],
+          "offerKind": null
         },
         {
           "id": "meat-square-9",
@@ -2435,7 +2479,8 @@
             }
           ],
           "isCombo": false,
-          "comboIncludes": []
+          "comboIncludes": [],
+          "offerKind": null
         },
         {
           "id": "meat-square-10",
@@ -2483,13 +2528,14 @@
             }
           ],
           "isCombo": false,
-          "comboIncludes": []
+          "comboIncludes": [],
+          "offerKind": null
         },
         {
-          "id": "meat-square-combo-1",
+          "id": "meat-square-offer-1",
           "restaurantId": "meat-square",
-          "name": "كومبو مشاوي فردي",
-          "description": "وجبة كاملة: مشاوي مع أرز ومشروب.",
+          "name": "وجبة مشاوي فردية — ميدان اللحم",
+          "description": "طبق رئيسي مع أرز وسلطة ومشروب — وجبة كاملة لشخص واحد.",
           "image": "https://images.unsplash.com/photo-1555939594-58d7cb561ad1?w=800&q=80",
           "price": 59,
           "rating": 4.6,
@@ -2502,6 +2548,7 @@
           "isOffer": true,
           "offerPrice": null,
           "isCombo": true,
+          "offerKind": "combo",
           "comboIncludes": [
             "شيش طاووق",
             "أرز أبيض",
@@ -2539,10 +2586,10 @@
           ]
         },
         {
-          "id": "meat-square-combo-2",
+          "id": "meat-square-offer-2",
           "restaurantId": "meat-square",
-          "name": "كومبو عائلي مشاوي",
-          "description": "تشكيلة مشاوي تكفي ٣–٤ أشخاص مع مقبلات.",
+          "name": "وجبة عائلية مشاوي — ميدان اللحم",
+          "description": "تشكيلة تكفي ٣–٤ أشخاص مع مقبلات ومشروبات.",
           "image": "https://images.unsplash.com/photo-1529692236671-f1f6cf9683ba?w=800&q=80",
           "price": 189,
           "rating": 4.6,
@@ -2555,6 +2602,7 @@
           "isOffer": true,
           "offerPrice": null,
           "isCombo": true,
+          "offerKind": "family",
           "comboIncludes": [
             "مشكل مشاوي",
             "حمص",
@@ -2593,28 +2641,28 @@
           ]
         },
         {
-          "id": "meat-square-combo-3",
+          "id": "meat-square-offer-3",
           "restaurantId": "meat-square",
-          "name": "كومبو كباب كامل",
-          "description": "كباب لحم مع أرز ومقبلات ومشروب.",
+          "name": "اشتري كباب واحصل على الثاني مجاناً — ميدان اللحم",
+          "description": "عرض: كبابين بنفس السعر — مع طحينة ومخلل.",
           "image": "https://images.unsplash.com/photo-1603360946369-dc9bb6258143?w=800&q=80",
           "price": 72,
           "rating": 4.6,
           "calories": 1100,
           "protein": 52,
-          "carbs": 90,
-          "fat": 45,
+          "carbs": 40,
+          "fat": 55,
           "category": "offers",
           "isPopular": false,
           "isOffer": true,
           "offerPrice": null,
           "isCombo": true,
+          "offerKind": "deal",
           "comboIncludes": [
             "كباب لحم",
-            "أرز بخاري",
+            "كباب لحم إضافي",
             "طحينة",
-            "مخلل",
-            "كولا"
+            "مخلل"
           ],
           "spicyOption": true,
           "cashbackPercent": null,

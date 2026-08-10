@@ -65,7 +65,8 @@
             }
           ],
           "isCombo": false,
-          "comboIncludes": []
+          "comboIncludes": [],
+          "offerKind": null
         },
         {
           "id": "taco-fiesta-2",
@@ -113,7 +114,8 @@
             }
           ],
           "isCombo": false,
-          "comboIncludes": []
+          "comboIncludes": [],
+          "offerKind": null
         },
         {
           "id": "taco-fiesta-3",
@@ -161,7 +163,8 @@
             }
           ],
           "isCombo": false,
-          "comboIncludes": []
+          "comboIncludes": [],
+          "offerKind": null
         },
         {
           "id": "taco-fiesta-4",
@@ -209,7 +212,8 @@
             }
           ],
           "isCombo": false,
-          "comboIncludes": []
+          "comboIncludes": [],
+          "offerKind": null
         },
         {
           "id": "taco-fiesta-5",
@@ -257,7 +261,8 @@
             }
           ],
           "isCombo": false,
-          "comboIncludes": []
+          "comboIncludes": [],
+          "offerKind": null
         },
         {
           "id": "taco-fiesta-6",
@@ -305,7 +310,8 @@
             }
           ],
           "isCombo": false,
-          "comboIncludes": []
+          "comboIncludes": [],
+          "offerKind": null
         },
         {
           "id": "taco-fiesta-7",
@@ -353,7 +359,8 @@
             }
           ],
           "isCombo": false,
-          "comboIncludes": []
+          "comboIncludes": [],
+          "offerKind": null
         },
         {
           "id": "taco-fiesta-8",
@@ -401,7 +408,8 @@
             }
           ],
           "isCombo": false,
-          "comboIncludes": []
+          "comboIncludes": [],
+          "offerKind": null
         },
         {
           "id": "taco-fiesta-9",
@@ -449,7 +457,8 @@
             }
           ],
           "isCombo": false,
-          "comboIncludes": []
+          "comboIncludes": [],
+          "offerKind": null
         },
         {
           "id": "taco-fiesta-10",
@@ -497,13 +506,14 @@
             }
           ],
           "isCombo": false,
-          "comboIncludes": []
+          "comboIncludes": [],
+          "offerKind": null
         },
         {
-          "id": "taco-fiesta-combo-1",
+          "id": "taco-fiesta-offer-1",
           "restaurantId": "taco-fiesta",
-          "name": "كومبو برجر كلاسيك",
-          "description": "برجر + بطاطس + مشروب.",
+          "name": "وجبة برجر كاملة — تاكو فييستا",
+          "description": "برجر مع بطاطس ومشروب.",
           "image": "https://images.unsplash.com/photo-1568901346375-23c9450c58cd?w=800&q=80",
           "price": 49,
           "rating": 4.6,
@@ -516,6 +526,7 @@
           "isOffer": true,
           "offerPrice": null,
           "isCombo": true,
+          "offerKind": "combo",
           "comboIncludes": [
             "برجر لحم",
             "بطاطس كبيرة",
@@ -552,27 +563,28 @@
           ]
         },
         {
-          "id": "taco-fiesta-combo-2",
+          "id": "taco-fiesta-offer-2",
           "restaurantId": "taco-fiesta",
-          "name": "كومبو دبل تشيز",
-          "description": "دبل برجر مع بطاطس ومشروب.",
+          "name": "وجبة عائلية برجر — تاكو فييستا",
+          "description": "أربعة برجر مع بطاطس عائلية وأربعة مشروبات.",
           "image": "https://images.unsplash.com/photo-1553979459-d2229ba7433b?w=800&q=80",
-          "price": 62,
+          "price": 149,
           "rating": 4.6,
-          "calories": 1380,
-          "protein": 48,
-          "carbs": 90,
-          "fat": 68,
+          "calories": 3200,
+          "protein": 120,
+          "carbs": 280,
+          "fat": 160,
           "category": "offers",
           "isPopular": false,
           "isOffer": true,
           "offerPrice": null,
           "isCombo": true,
+          "offerKind": "family",
           "comboIncludes": [
-            "دبل تشيز برجر",
-            "بطاطس",
-            "صوص",
-            "مشروب"
+            "٤ برجر",
+            "بطاطس عائلية",
+            "٤ مشروب",
+            "صوصات"
           ],
           "spicyOption": false,
           "cashbackPercent": null,
@@ -605,27 +617,26 @@
           ]
         },
         {
-          "id": "taco-fiesta-combo-3",
+          "id": "taco-fiesta-offer-3",
           "restaurantId": "taco-fiesta",
-          "name": "كومبو تشيكن كرسبي",
-          "description": "برجر دجاج مقرمش وجبة كاملة.",
+          "name": "اشتري برجر دجاج واحصل على الثاني مجاناً — تاكو فييستا",
+          "description": "عرض برجرين دجاج بنفس السعر.",
           "image": "https://images.unsplash.com/photo-1571091718767-18b5b1457add?w=800&q=80",
-          "price": 46,
+          "price": 36,
           "rating": 4.6,
-          "calories": 1080,
-          "protein": 32,
-          "carbs": 98,
-          "fat": 48,
+          "calories": 980,
+          "protein": 40,
+          "carbs": 80,
+          "fat": 42,
           "category": "offers",
           "isPopular": false,
           "isOffer": true,
           "offerPrice": null,
           "isCombo": true,
+          "offerKind": "deal",
           "comboIncludes": [
             "تشيكن برجر",
-            "بطاطس",
-            "سلطة كول سلو",
-            "مشروب"
+            "تشيكن برجر إضافي"
           ],
           "spicyOption": true,
           "cashbackPercent": null,
@@ -724,7 +735,8 @@
             }
           ],
           "isCombo": false,
-          "comboIncludes": []
+          "comboIncludes": [],
+          "offerKind": null
         },
         {
           "id": "wrap-republic-2",
@@ -772,7 +784,8 @@
             }
           ],
           "isCombo": false,
-          "comboIncludes": []
+          "comboIncludes": [],
+          "offerKind": null
         },
         {
           "id": "wrap-republic-3",
@@ -820,7 +833,8 @@
             }
           ],
           "isCombo": false,
-          "comboIncludes": []
+          "comboIncludes": [],
+          "offerKind": null
         },
         {
           "id": "wrap-republic-4",
@@ -868,7 +882,8 @@
             }
           ],
           "isCombo": false,
-          "comboIncludes": []
+          "comboIncludes": [],
+          "offerKind": null
         },
         {
           "id": "wrap-republic-5",
@@ -916,7 +931,8 @@
             }
           ],
           "isCombo": false,
-          "comboIncludes": []
+          "comboIncludes": [],
+          "offerKind": null
         },
         {
           "id": "wrap-republic-6",
@@ -964,7 +980,8 @@
             }
           ],
           "isCombo": false,
-          "comboIncludes": []
+          "comboIncludes": [],
+          "offerKind": null
         },
         {
           "id": "wrap-republic-7",
@@ -1012,7 +1029,8 @@
             }
           ],
           "isCombo": false,
-          "comboIncludes": []
+          "comboIncludes": [],
+          "offerKind": null
         },
         {
           "id": "wrap-republic-8",
@@ -1060,7 +1078,8 @@
             }
           ],
           "isCombo": false,
-          "comboIncludes": []
+          "comboIncludes": [],
+          "offerKind": null
         },
         {
           "id": "wrap-republic-9",
@@ -1108,7 +1127,8 @@
             }
           ],
           "isCombo": false,
-          "comboIncludes": []
+          "comboIncludes": [],
+          "offerKind": null
         },
         {
           "id": "wrap-republic-10",
@@ -1156,13 +1176,14 @@
             }
           ],
           "isCombo": false,
-          "comboIncludes": []
+          "comboIncludes": [],
+          "offerKind": null
         },
         {
-          "id": "wrap-republic-combo-1",
+          "id": "wrap-republic-offer-1",
           "restaurantId": "wrap-republic",
-          "name": "كومبو برجر كلاسيك",
-          "description": "برجر + بطاطس + مشروب.",
+          "name": "وجبة برجر كاملة — جمهورية الراب",
+          "description": "برجر مع بطاطس ومشروب.",
           "image": "https://images.unsplash.com/photo-1568901346375-23c9450c58cd?w=800&q=80",
           "price": 49,
           "rating": 4.6,
@@ -1175,6 +1196,7 @@
           "isOffer": true,
           "offerPrice": null,
           "isCombo": true,
+          "offerKind": "combo",
           "comboIncludes": [
             "برجر لحم",
             "بطاطس كبيرة",
@@ -1211,27 +1233,28 @@
           ]
         },
         {
-          "id": "wrap-republic-combo-2",
+          "id": "wrap-republic-offer-2",
           "restaurantId": "wrap-republic",
-          "name": "كومبو دبل تشيز",
-          "description": "دبل برجر مع بطاطس ومشروب.",
+          "name": "وجبة عائلية برجر — جمهورية الراب",
+          "description": "أربعة برجر مع بطاطس عائلية وأربعة مشروبات.",
           "image": "https://images.unsplash.com/photo-1553979459-d2229ba7433b?w=800&q=80",
-          "price": 62,
+          "price": 149,
           "rating": 4.6,
-          "calories": 1380,
-          "protein": 48,
-          "carbs": 90,
-          "fat": 68,
+          "calories": 3200,
+          "protein": 120,
+          "carbs": 280,
+          "fat": 160,
           "category": "offers",
           "isPopular": false,
           "isOffer": true,
           "offerPrice": null,
           "isCombo": true,
+          "offerKind": "family",
           "comboIncludes": [
-            "دبل تشيز برجر",
-            "بطاطس",
-            "صوص",
-            "مشروب"
+            "٤ برجر",
+            "بطاطس عائلية",
+            "٤ مشروب",
+            "صوصات"
           ],
           "spicyOption": false,
           "cashbackPercent": null,
@@ -1264,27 +1287,26 @@
           ]
         },
         {
-          "id": "wrap-republic-combo-3",
+          "id": "wrap-republic-offer-3",
           "restaurantId": "wrap-republic",
-          "name": "كومبو تشيكن كرسبي",
-          "description": "برجر دجاج مقرمش وجبة كاملة.",
+          "name": "اشتري برجر دجاج واحصل على الثاني مجاناً — جمهورية الراب",
+          "description": "عرض برجرين دجاج بنفس السعر.",
           "image": "https://images.unsplash.com/photo-1571091718767-18b5b1457add?w=800&q=80",
-          "price": 46,
+          "price": 36,
           "rating": 4.6,
-          "calories": 1080,
-          "protein": 32,
-          "carbs": 98,
-          "fat": 48,
+          "calories": 980,
+          "protein": 40,
+          "carbs": 80,
+          "fat": 42,
           "category": "offers",
           "isPopular": false,
           "isOffer": true,
           "offerPrice": null,
           "isCombo": true,
+          "offerKind": "deal",
           "comboIncludes": [
             "تشيكن برجر",
-            "بطاطس",
-            "سلطة كول سلو",
-            "مشروب"
+            "تشيكن برجر إضافي"
           ],
           "spicyOption": true,
           "cashbackPercent": null,
@@ -1383,7 +1405,8 @@
             }
           ],
           "isCombo": false,
-          "comboIncludes": []
+          "comboIncludes": [],
+          "offerKind": null
         },
         {
           "id": "bao-street-2",
@@ -1431,7 +1454,8 @@
             }
           ],
           "isCombo": false,
-          "comboIncludes": []
+          "comboIncludes": [],
+          "offerKind": null
         },
         {
           "id": "bao-street-3",
@@ -1479,7 +1503,8 @@
             }
           ],
           "isCombo": false,
-          "comboIncludes": []
+          "comboIncludes": [],
+          "offerKind": null
         },
         {
           "id": "bao-street-4",
@@ -1527,7 +1552,8 @@
             }
           ],
           "isCombo": false,
-          "comboIncludes": []
+          "comboIncludes": [],
+          "offerKind": null
         },
         {
           "id": "bao-street-5",
@@ -1575,7 +1601,8 @@
             }
           ],
           "isCombo": false,
-          "comboIncludes": []
+          "comboIncludes": [],
+          "offerKind": null
         },
         {
           "id": "bao-street-6",
@@ -1623,7 +1650,8 @@
             }
           ],
           "isCombo": false,
-          "comboIncludes": []
+          "comboIncludes": [],
+          "offerKind": null
         },
         {
           "id": "bao-street-7",
@@ -1671,7 +1699,8 @@
             }
           ],
           "isCombo": false,
-          "comboIncludes": []
+          "comboIncludes": [],
+          "offerKind": null
         },
         {
           "id": "bao-street-8",
@@ -1719,7 +1748,8 @@
             }
           ],
           "isCombo": false,
-          "comboIncludes": []
+          "comboIncludes": [],
+          "offerKind": null
         },
         {
           "id": "bao-street-9",
@@ -1767,7 +1797,8 @@
             }
           ],
           "isCombo": false,
-          "comboIncludes": []
+          "comboIncludes": [],
+          "offerKind": null
         },
         {
           "id": "bao-street-10",
@@ -1815,13 +1846,14 @@
             }
           ],
           "isCombo": false,
-          "comboIncludes": []
+          "comboIncludes": [],
+          "offerKind": null
         },
         {
-          "id": "bao-street-combo-1",
+          "id": "bao-street-offer-1",
           "restaurantId": "bao-street",
-          "name": "كومبو برجر كلاسيك",
-          "description": "برجر + بطاطس + مشروب.",
+          "name": "وجبة برجر كاملة — شارع الباو",
+          "description": "برجر مع بطاطس ومشروب.",
           "image": "https://images.unsplash.com/photo-1568901346375-23c9450c58cd?w=800&q=80",
           "price": 49,
           "rating": 4.6,
@@ -1834,6 +1866,7 @@
           "isOffer": true,
           "offerPrice": null,
           "isCombo": true,
+          "offerKind": "combo",
           "comboIncludes": [
             "برجر لحم",
             "بطاطس كبيرة",
@@ -1870,27 +1903,28 @@
           ]
         },
         {
-          "id": "bao-street-combo-2",
+          "id": "bao-street-offer-2",
           "restaurantId": "bao-street",
-          "name": "كومبو دبل تشيز",
-          "description": "دبل برجر مع بطاطس ومشروب.",
+          "name": "وجبة عائلية برجر — شارع الباو",
+          "description": "أربعة برجر مع بطاطس عائلية وأربعة مشروبات.",
           "image": "https://images.unsplash.com/photo-1553979459-d2229ba7433b?w=800&q=80",
-          "price": 62,
+          "price": 149,
           "rating": 4.6,
-          "calories": 1380,
-          "protein": 48,
-          "carbs": 90,
-          "fat": 68,
+          "calories": 3200,
+          "protein": 120,
+          "carbs": 280,
+          "fat": 160,
           "category": "offers",
           "isPopular": false,
           "isOffer": true,
           "offerPrice": null,
           "isCombo": true,
+          "offerKind": "family",
           "comboIncludes": [
-            "دبل تشيز برجر",
-            "بطاطس",
-            "صوص",
-            "مشروب"
+            "٤ برجر",
+            "بطاطس عائلية",
+            "٤ مشروب",
+            "صوصات"
           ],
           "spicyOption": false,
           "cashbackPercent": null,
@@ -1923,27 +1957,26 @@
           ]
         },
         {
-          "id": "bao-street-combo-3",
+          "id": "bao-street-offer-3",
           "restaurantId": "bao-street",
-          "name": "كومبو تشيكن كرسبي",
-          "description": "برجر دجاج مقرمش وجبة كاملة.",
+          "name": "اشتري برجر دجاج واحصل على الثاني مجاناً — شارع الباو",
+          "description": "عرض برجرين دجاج بنفس السعر.",
           "image": "https://images.unsplash.com/photo-1571091718767-18b5b1457add?w=800&q=80",
-          "price": 46,
+          "price": 36,
           "rating": 4.6,
-          "calories": 1080,
-          "protein": 32,
-          "carbs": 98,
-          "fat": 48,
+          "calories": 980,
+          "protein": 40,
+          "carbs": 80,
+          "fat": 42,
           "category": "offers",
           "isPopular": false,
           "isOffer": true,
           "offerPrice": null,
           "isCombo": true,
+          "offerKind": "deal",
           "comboIncludes": [
             "تشيكن برجر",
-            "بطاطس",
-            "سلطة كول سلو",
-            "مشروب"
+            "تشيكن برجر إضافي"
           ],
           "spicyOption": true,
           "cashbackPercent": null,
@@ -2042,7 +2075,8 @@
             }
           ],
           "isCombo": false,
-          "comboIncludes": []
+          "comboIncludes": [],
+          "offerKind": null
         },
         {
           "id": "noodle-box-2",
@@ -2090,7 +2124,8 @@
             }
           ],
           "isCombo": false,
-          "comboIncludes": []
+          "comboIncludes": [],
+          "offerKind": null
         },
         {
           "id": "noodle-box-3",
@@ -2138,7 +2173,8 @@
             }
           ],
           "isCombo": false,
-          "comboIncludes": []
+          "comboIncludes": [],
+          "offerKind": null
         },
         {
           "id": "noodle-box-4",
@@ -2186,7 +2222,8 @@
             }
           ],
           "isCombo": false,
-          "comboIncludes": []
+          "comboIncludes": [],
+          "offerKind": null
         },
         {
           "id": "noodle-box-5",
@@ -2234,7 +2271,8 @@
             }
           ],
           "isCombo": false,
-          "comboIncludes": []
+          "comboIncludes": [],
+          "offerKind": null
         },
         {
           "id": "noodle-box-6",
@@ -2282,7 +2320,8 @@
             }
           ],
           "isCombo": false,
-          "comboIncludes": []
+          "comboIncludes": [],
+          "offerKind": null
         },
         {
           "id": "noodle-box-7",
@@ -2330,7 +2369,8 @@
             }
           ],
           "isCombo": false,
-          "comboIncludes": []
+          "comboIncludes": [],
+          "offerKind": null
         },
         {
           "id": "noodle-box-8",
@@ -2378,7 +2418,8 @@
             }
           ],
           "isCombo": false,
-          "comboIncludes": []
+          "comboIncludes": [],
+          "offerKind": null
         },
         {
           "id": "noodle-box-9",
@@ -2426,7 +2467,8 @@
             }
           ],
           "isCombo": false,
-          "comboIncludes": []
+          "comboIncludes": [],
+          "offerKind": null
         },
         {
           "id": "noodle-box-10",
@@ -2474,13 +2516,14 @@
             }
           ],
           "isCombo": false,
-          "comboIncludes": []
+          "comboIncludes": [],
+          "offerKind": null
         },
         {
-          "id": "noodle-box-combo-1",
+          "id": "noodle-box-offer-1",
           "restaurantId": "noodle-box",
-          "name": "كومبو برجر كلاسيك",
-          "description": "برجر + بطاطس + مشروب.",
+          "name": "وجبة برجر كاملة — صندوق النودلز",
+          "description": "برجر مع بطاطس ومشروب.",
           "image": "https://images.unsplash.com/photo-1568901346375-23c9450c58cd?w=800&q=80",
           "price": 49,
           "rating": 4.6,
@@ -2493,6 +2536,7 @@
           "isOffer": true,
           "offerPrice": null,
           "isCombo": true,
+          "offerKind": "combo",
           "comboIncludes": [
             "برجر لحم",
             "بطاطس كبيرة",
@@ -2529,27 +2573,28 @@
           ]
         },
         {
-          "id": "noodle-box-combo-2",
+          "id": "noodle-box-offer-2",
           "restaurantId": "noodle-box",
-          "name": "كومبو دبل تشيز",
-          "description": "دبل برجر مع بطاطس ومشروب.",
+          "name": "وجبة عائلية برجر — صندوق النودلز",
+          "description": "أربعة برجر مع بطاطس عائلية وأربعة مشروبات.",
           "image": "https://images.unsplash.com/photo-1553979459-d2229ba7433b?w=800&q=80",
-          "price": 62,
+          "price": 149,
           "rating": 4.6,
-          "calories": 1380,
-          "protein": 48,
-          "carbs": 90,
-          "fat": 68,
+          "calories": 3200,
+          "protein": 120,
+          "carbs": 280,
+          "fat": 160,
           "category": "offers",
           "isPopular": false,
           "isOffer": true,
           "offerPrice": null,
           "isCombo": true,
+          "offerKind": "family",
           "comboIncludes": [
-            "دبل تشيز برجر",
-            "بطاطس",
-            "صوص",
-            "مشروب"
+            "٤ برجر",
+            "بطاطس عائلية",
+            "٤ مشروب",
+            "صوصات"
           ],
           "spicyOption": false,
           "cashbackPercent": null,
@@ -2582,27 +2627,26 @@
           ]
         },
         {
-          "id": "noodle-box-combo-3",
+          "id": "noodle-box-offer-3",
           "restaurantId": "noodle-box",
-          "name": "كومبو تشيكن كرسبي",
-          "description": "برجر دجاج مقرمش وجبة كاملة.",
+          "name": "اشتري برجر دجاج واحصل على الثاني مجاناً — صندوق النودلز",
+          "description": "عرض برجرين دجاج بنفس السعر.",
           "image": "https://images.unsplash.com/photo-1571091718767-18b5b1457add?w=800&q=80",
-          "price": 46,
+          "price": 36,
           "rating": 4.6,
-          "calories": 1080,
-          "protein": 32,
-          "carbs": 98,
-          "fat": 48,
+          "calories": 980,
+          "protein": 40,
+          "carbs": 80,
+          "fat": 42,
           "category": "offers",
           "isPopular": false,
           "isOffer": true,
           "offerPrice": null,
           "isCombo": true,
+          "offerKind": "deal",
           "comboIncludes": [
             "تشيكن برجر",
-            "بطاطس",
-            "سلطة كول سلو",
-            "مشروب"
+            "تشيكن برجر إضافي"
           ],
           "spicyOption": true,
           "cashbackPercent": null,
@@ -2701,7 +2745,8 @@
             }
           ],
           "isCombo": false,
-          "comboIncludes": []
+          "comboIncludes": [],
+          "offerKind": null
         },
         {
           "id": "kimchi-kitchen-2",
@@ -2749,7 +2794,8 @@
             }
           ],
           "isCombo": false,
-          "comboIncludes": []
+          "comboIncludes": [],
+          "offerKind": null
         },
         {
           "id": "kimchi-kitchen-3",
@@ -2797,7 +2843,8 @@
             }
           ],
           "isCombo": false,
-          "comboIncludes": []
+          "comboIncludes": [],
+          "offerKind": null
         },
         {
           "id": "kimchi-kitchen-4",
@@ -2845,7 +2892,8 @@
             }
           ],
           "isCombo": false,
-          "comboIncludes": []
+          "comboIncludes": [],
+          "offerKind": null
         },
         {
           "id": "kimchi-kitchen-5",
@@ -2893,7 +2941,8 @@
             }
           ],
           "isCombo": false,
-          "comboIncludes": []
+          "comboIncludes": [],
+          "offerKind": null
         },
         {
           "id": "kimchi-kitchen-6",
@@ -2941,7 +2990,8 @@
             }
           ],
           "isCombo": false,
-          "comboIncludes": []
+          "comboIncludes": [],
+          "offerKind": null
         },
         {
           "id": "kimchi-kitchen-7",
@@ -2989,7 +3039,8 @@
             }
           ],
           "isCombo": false,
-          "comboIncludes": []
+          "comboIncludes": [],
+          "offerKind": null
         },
         {
           "id": "kimchi-kitchen-8",
@@ -3037,7 +3088,8 @@
             }
           ],
           "isCombo": false,
-          "comboIncludes": []
+          "comboIncludes": [],
+          "offerKind": null
         },
         {
           "id": "kimchi-kitchen-9",
@@ -3085,7 +3137,8 @@
             }
           ],
           "isCombo": false,
-          "comboIncludes": []
+          "comboIncludes": [],
+          "offerKind": null
         },
         {
           "id": "kimchi-kitchen-10",
@@ -3133,13 +3186,14 @@
             }
           ],
           "isCombo": false,
-          "comboIncludes": []
+          "comboIncludes": [],
+          "offerKind": null
         },
         {
-          "id": "kimchi-kitchen-combo-1",
+          "id": "kimchi-kitchen-offer-1",
           "restaurantId": "kimchi-kitchen",
-          "name": "كومبو برجر كلاسيك",
-          "description": "برجر + بطاطس + مشروب.",
+          "name": "وجبة برجر كاملة — مطبخ الكيمتشي",
+          "description": "برجر مع بطاطس ومشروب.",
           "image": "https://images.unsplash.com/photo-1568901346375-23c9450c58cd?w=800&q=80",
           "price": 49,
           "rating": 4.6,
@@ -3152,6 +3206,7 @@
           "isOffer": true,
           "offerPrice": null,
           "isCombo": true,
+          "offerKind": "combo",
           "comboIncludes": [
             "برجر لحم",
             "بطاطس كبيرة",
@@ -3188,27 +3243,28 @@
           ]
         },
         {
-          "id": "kimchi-kitchen-combo-2",
+          "id": "kimchi-kitchen-offer-2",
           "restaurantId": "kimchi-kitchen",
-          "name": "كومبو دبل تشيز",
-          "description": "دبل برجر مع بطاطس ومشروب.",
+          "name": "وجبة عائلية برجر — مطبخ الكيمتشي",
+          "description": "أربعة برجر مع بطاطس عائلية وأربعة مشروبات.",
           "image": "https://images.unsplash.com/photo-1553979459-d2229ba7433b?w=800&q=80",
-          "price": 62,
+          "price": 149,
           "rating": 4.6,
-          "calories": 1380,
-          "protein": 48,
-          "carbs": 90,
-          "fat": 68,
+          "calories": 3200,
+          "protein": 120,
+          "carbs": 280,
+          "fat": 160,
           "category": "offers",
           "isPopular": false,
           "isOffer": true,
           "offerPrice": null,
           "isCombo": true,
+          "offerKind": "family",
           "comboIncludes": [
-            "دبل تشيز برجر",
-            "بطاطس",
-            "صوص",
-            "مشروب"
+            "٤ برجر",
+            "بطاطس عائلية",
+            "٤ مشروب",
+            "صوصات"
           ],
           "spicyOption": false,
           "cashbackPercent": null,
@@ -3241,27 +3297,26 @@
           ]
         },
         {
-          "id": "kimchi-kitchen-combo-3",
+          "id": "kimchi-kitchen-offer-3",
           "restaurantId": "kimchi-kitchen",
-          "name": "كومبو تشيكن كرسبي",
-          "description": "برجر دجاج مقرمش وجبة كاملة.",
+          "name": "اشتري برجر دجاج واحصل على الثاني مجاناً — مطبخ الكيمتشي",
+          "description": "عرض برجرين دجاج بنفس السعر.",
           "image": "https://images.unsplash.com/photo-1571091718767-18b5b1457add?w=800&q=80",
-          "price": 46,
+          "price": 36,
           "rating": 4.6,
-          "calories": 1080,
-          "protein": 32,
-          "carbs": 98,
-          "fat": 48,
+          "calories": 980,
+          "protein": 40,
+          "carbs": 80,
+          "fat": 42,
           "category": "offers",
           "isPopular": false,
           "isOffer": true,
           "offerPrice": null,
           "isCombo": true,
+          "offerKind": "deal",
           "comboIncludes": [
             "تشيكن برجر",
-            "بطاطس",
-            "سلطة كول سلو",
-            "مشروب"
+            "تشيكن برجر إضافي"
           ],
           "spicyOption": true,
           "cashbackPercent": null,
@@ -3360,7 +3415,8 @@
             }
           ],
           "isCombo": false,
-          "comboIncludes": []
+          "comboIncludes": [],
+          "offerKind": null
         },
         {
           "id": "satay-house-2",
@@ -3408,7 +3464,8 @@
             }
           ],
           "isCombo": false,
-          "comboIncludes": []
+          "comboIncludes": [],
+          "offerKind": null
         },
         {
           "id": "satay-house-3",
@@ -3456,7 +3513,8 @@
             }
           ],
           "isCombo": false,
-          "comboIncludes": []
+          "comboIncludes": [],
+          "offerKind": null
         },
         {
           "id": "satay-house-4",
@@ -3504,7 +3562,8 @@
             }
           ],
           "isCombo": false,
-          "comboIncludes": []
+          "comboIncludes": [],
+          "offerKind": null
         },
         {
           "id": "satay-house-5",
@@ -3552,7 +3611,8 @@
             }
           ],
           "isCombo": false,
-          "comboIncludes": []
+          "comboIncludes": [],
+          "offerKind": null
         },
         {
           "id": "satay-house-6",
@@ -3600,7 +3660,8 @@
             }
           ],
           "isCombo": false,
-          "comboIncludes": []
+          "comboIncludes": [],
+          "offerKind": null
         },
         {
           "id": "satay-house-7",
@@ -3648,7 +3709,8 @@
             }
           ],
           "isCombo": false,
-          "comboIncludes": []
+          "comboIncludes": [],
+          "offerKind": null
         },
         {
           "id": "satay-house-8",
@@ -3696,7 +3758,8 @@
             }
           ],
           "isCombo": false,
-          "comboIncludes": []
+          "comboIncludes": [],
+          "offerKind": null
         },
         {
           "id": "satay-house-9",
@@ -3744,7 +3807,8 @@
             }
           ],
           "isCombo": false,
-          "comboIncludes": []
+          "comboIncludes": [],
+          "offerKind": null
         },
         {
           "id": "satay-house-10",
@@ -3792,13 +3856,14 @@
             }
           ],
           "isCombo": false,
-          "comboIncludes": []
+          "comboIncludes": [],
+          "offerKind": null
         },
         {
-          "id": "satay-house-combo-1",
+          "id": "satay-house-offer-1",
           "restaurantId": "satay-house",
-          "name": "كومبو برجر كلاسيك",
-          "description": "برجر + بطاطس + مشروب.",
+          "name": "وجبة برجر كاملة — بيت الساتيه",
+          "description": "برجر مع بطاطس ومشروب.",
           "image": "https://images.unsplash.com/photo-1568901346375-23c9450c58cd?w=800&q=80",
           "price": 49,
           "rating": 4.6,
@@ -3811,6 +3876,7 @@
           "isOffer": true,
           "offerPrice": null,
           "isCombo": true,
+          "offerKind": "combo",
           "comboIncludes": [
             "برجر لحم",
             "بطاطس كبيرة",
@@ -3847,27 +3913,28 @@
           ]
         },
         {
-          "id": "satay-house-combo-2",
+          "id": "satay-house-offer-2",
           "restaurantId": "satay-house",
-          "name": "كومبو دبل تشيز",
-          "description": "دبل برجر مع بطاطس ومشروب.",
+          "name": "وجبة عائلية برجر — بيت الساتيه",
+          "description": "أربعة برجر مع بطاطس عائلية وأربعة مشروبات.",
           "image": "https://images.unsplash.com/photo-1553979459-d2229ba7433b?w=800&q=80",
-          "price": 62,
+          "price": 149,
           "rating": 4.6,
-          "calories": 1380,
-          "protein": 48,
-          "carbs": 90,
-          "fat": 68,
+          "calories": 3200,
+          "protein": 120,
+          "carbs": 280,
+          "fat": 160,
           "category": "offers",
           "isPopular": false,
           "isOffer": true,
           "offerPrice": null,
           "isCombo": true,
+          "offerKind": "family",
           "comboIncludes": [
-            "دبل تشيز برجر",
-            "بطاطس",
-            "صوص",
-            "مشروب"
+            "٤ برجر",
+            "بطاطس عائلية",
+            "٤ مشروب",
+            "صوصات"
           ],
           "spicyOption": false,
           "cashbackPercent": null,
@@ -3900,27 +3967,26 @@
           ]
         },
         {
-          "id": "satay-house-combo-3",
+          "id": "satay-house-offer-3",
           "restaurantId": "satay-house",
-          "name": "كومبو تشيكن كرسبي",
-          "description": "برجر دجاج مقرمش وجبة كاملة.",
+          "name": "اشتري برجر دجاج واحصل على الثاني مجاناً — بيت الساتيه",
+          "description": "عرض برجرين دجاج بنفس السعر.",
           "image": "https://images.unsplash.com/photo-1571091718767-18b5b1457add?w=800&q=80",
-          "price": 46,
+          "price": 36,
           "rating": 4.6,
-          "calories": 1080,
-          "protein": 32,
-          "carbs": 98,
-          "fat": 48,
+          "calories": 980,
+          "protein": 40,
+          "carbs": 80,
+          "fat": 42,
           "category": "offers",
           "isPopular": false,
           "isOffer": true,
           "offerPrice": null,
           "isCombo": true,
+          "offerKind": "deal",
           "comboIncludes": [
             "تشيكن برجر",
-            "بطاطس",
-            "سلطة كول سلو",
-            "مشروب"
+            "تشيكن برجر إضافي"
           ],
           "spicyOption": true,
           "cashbackPercent": null,
@@ -4019,7 +4085,8 @@
             }
           ],
           "isCombo": false,
-          "comboIncludes": []
+          "comboIncludes": [],
+          "offerKind": null
         },
         {
           "id": "pho-bowl-2",
@@ -4067,7 +4134,8 @@
             }
           ],
           "isCombo": false,
-          "comboIncludes": []
+          "comboIncludes": [],
+          "offerKind": null
         },
         {
           "id": "pho-bowl-3",
@@ -4115,7 +4183,8 @@
             }
           ],
           "isCombo": false,
-          "comboIncludes": []
+          "comboIncludes": [],
+          "offerKind": null
         },
         {
           "id": "pho-bowl-4",
@@ -4163,7 +4232,8 @@
             }
           ],
           "isCombo": false,
-          "comboIncludes": []
+          "comboIncludes": [],
+          "offerKind": null
         },
         {
           "id": "pho-bowl-5",
@@ -4211,7 +4281,8 @@
             }
           ],
           "isCombo": false,
-          "comboIncludes": []
+          "comboIncludes": [],
+          "offerKind": null
         },
         {
           "id": "pho-bowl-6",
@@ -4259,7 +4330,8 @@
             }
           ],
           "isCombo": false,
-          "comboIncludes": []
+          "comboIncludes": [],
+          "offerKind": null
         },
         {
           "id": "pho-bowl-7",
@@ -4307,7 +4379,8 @@
             }
           ],
           "isCombo": false,
-          "comboIncludes": []
+          "comboIncludes": [],
+          "offerKind": null
         },
         {
           "id": "pho-bowl-8",
@@ -4355,7 +4428,8 @@
             }
           ],
           "isCombo": false,
-          "comboIncludes": []
+          "comboIncludes": [],
+          "offerKind": null
         },
         {
           "id": "pho-bowl-9",
@@ -4403,7 +4477,8 @@
             }
           ],
           "isCombo": false,
-          "comboIncludes": []
+          "comboIncludes": [],
+          "offerKind": null
         },
         {
           "id": "pho-bowl-10",
@@ -4451,13 +4526,14 @@
             }
           ],
           "isCombo": false,
-          "comboIncludes": []
+          "comboIncludes": [],
+          "offerKind": null
         },
         {
-          "id": "pho-bowl-combo-1",
+          "id": "pho-bowl-offer-1",
           "restaurantId": "pho-bowl",
-          "name": "كومبو برجر كلاسيك",
-          "description": "برجر + بطاطس + مشروب.",
+          "name": "وجبة برجر كاملة — بول الفو",
+          "description": "برجر مع بطاطس ومشروب.",
           "image": "https://images.unsplash.com/photo-1568901346375-23c9450c58cd?w=800&q=80",
           "price": 49,
           "rating": 4.6,
@@ -4470,6 +4546,7 @@
           "isOffer": true,
           "offerPrice": null,
           "isCombo": true,
+          "offerKind": "combo",
           "comboIncludes": [
             "برجر لحم",
             "بطاطس كبيرة",
@@ -4506,27 +4583,28 @@
           ]
         },
         {
-          "id": "pho-bowl-combo-2",
+          "id": "pho-bowl-offer-2",
           "restaurantId": "pho-bowl",
-          "name": "كومبو دبل تشيز",
-          "description": "دبل برجر مع بطاطس ومشروب.",
+          "name": "وجبة عائلية برجر — بول الفو",
+          "description": "أربعة برجر مع بطاطس عائلية وأربعة مشروبات.",
           "image": "https://images.unsplash.com/photo-1553979459-d2229ba7433b?w=800&q=80",
-          "price": 62,
+          "price": 149,
           "rating": 4.6,
-          "calories": 1380,
-          "protein": 48,
-          "carbs": 90,
-          "fat": 68,
+          "calories": 3200,
+          "protein": 120,
+          "carbs": 280,
+          "fat": 160,
           "category": "offers",
           "isPopular": false,
           "isOffer": true,
           "offerPrice": null,
           "isCombo": true,
+          "offerKind": "family",
           "comboIncludes": [
-            "دبل تشيز برجر",
-            "بطاطس",
-            "صوص",
-            "مشروب"
+            "٤ برجر",
+            "بطاطس عائلية",
+            "٤ مشروب",
+            "صوصات"
           ],
           "spicyOption": false,
           "cashbackPercent": null,
@@ -4559,27 +4637,26 @@
           ]
         },
         {
-          "id": "pho-bowl-combo-3",
+          "id": "pho-bowl-offer-3",
           "restaurantId": "pho-bowl",
-          "name": "كومبو تشيكن كرسبي",
-          "description": "برجر دجاج مقرمش وجبة كاملة.",
+          "name": "اشتري برجر دجاج واحصل على الثاني مجاناً — بول الفو",
+          "description": "عرض برجرين دجاج بنفس السعر.",
           "image": "https://images.unsplash.com/photo-1571091718767-18b5b1457add?w=800&q=80",
-          "price": 46,
+          "price": 36,
           "rating": 4.6,
-          "calories": 1080,
-          "protein": 32,
-          "carbs": 98,
-          "fat": 48,
+          "calories": 980,
+          "protein": 40,
+          "carbs": 80,
+          "fat": 42,
           "category": "offers",
           "isPopular": false,
           "isOffer": true,
           "offerPrice": null,
           "isCombo": true,
+          "offerKind": "deal",
           "comboIncludes": [
             "تشيكن برجر",
-            "بطاطس",
-            "سلطة كول سلو",
-            "مشروب"
+            "تشيكن برجر إضافي"
           ],
           "spicyOption": true,
           "cashbackPercent": null,
@@ -4678,7 +4755,8 @@
             }
           ],
           "isCombo": false,
-          "comboIncludes": []
+          "comboIncludes": [],
+          "offerKind": null
         },
         {
           "id": "padthai-express-2",
@@ -4726,7 +4804,8 @@
             }
           ],
           "isCombo": false,
-          "comboIncludes": []
+          "comboIncludes": [],
+          "offerKind": null
         },
         {
           "id": "padthai-express-3",
@@ -4774,7 +4853,8 @@
             }
           ],
           "isCombo": false,
-          "comboIncludes": []
+          "comboIncludes": [],
+          "offerKind": null
         },
         {
           "id": "padthai-express-4",
@@ -4822,7 +4902,8 @@
             }
           ],
           "isCombo": false,
-          "comboIncludes": []
+          "comboIncludes": [],
+          "offerKind": null
         },
         {
           "id": "padthai-express-5",
@@ -4870,7 +4951,8 @@
             }
           ],
           "isCombo": false,
-          "comboIncludes": []
+          "comboIncludes": [],
+          "offerKind": null
         },
         {
           "id": "padthai-express-6",
@@ -4918,7 +5000,8 @@
             }
           ],
           "isCombo": false,
-          "comboIncludes": []
+          "comboIncludes": [],
+          "offerKind": null
         },
         {
           "id": "padthai-express-7",
@@ -4966,7 +5049,8 @@
             }
           ],
           "isCombo": false,
-          "comboIncludes": []
+          "comboIncludes": [],
+          "offerKind": null
         },
         {
           "id": "padthai-express-8",
@@ -5014,7 +5098,8 @@
             }
           ],
           "isCombo": false,
-          "comboIncludes": []
+          "comboIncludes": [],
+          "offerKind": null
         },
         {
           "id": "padthai-express-9",
@@ -5062,7 +5147,8 @@
             }
           ],
           "isCombo": false,
-          "comboIncludes": []
+          "comboIncludes": [],
+          "offerKind": null
         },
         {
           "id": "padthai-express-10",
@@ -5110,13 +5196,14 @@
             }
           ],
           "isCombo": false,
-          "comboIncludes": []
+          "comboIncludes": [],
+          "offerKind": null
         },
         {
-          "id": "padthai-express-combo-1",
+          "id": "padthai-express-offer-1",
           "restaurantId": "padthai-express",
-          "name": "كومبو برجر كلاسيك",
-          "description": "برجر + بطاطس + مشروب.",
+          "name": "وجبة برجر كاملة — باد تاي إكسبرس",
+          "description": "برجر مع بطاطس ومشروب.",
           "image": "https://images.unsplash.com/photo-1568901346375-23c9450c58cd?w=800&q=80",
           "price": 49,
           "rating": 4.6,
@@ -5129,6 +5216,7 @@
           "isOffer": true,
           "offerPrice": null,
           "isCombo": true,
+          "offerKind": "combo",
           "comboIncludes": [
             "برجر لحم",
             "بطاطس كبيرة",
@@ -5165,27 +5253,28 @@
           ]
         },
         {
-          "id": "padthai-express-combo-2",
+          "id": "padthai-express-offer-2",
           "restaurantId": "padthai-express",
-          "name": "كومبو دبل تشيز",
-          "description": "دبل برجر مع بطاطس ومشروب.",
+          "name": "وجبة عائلية برجر — باد تاي إكسبرس",
+          "description": "أربعة برجر مع بطاطس عائلية وأربعة مشروبات.",
           "image": "https://images.unsplash.com/photo-1553979459-d2229ba7433b?w=800&q=80",
-          "price": 62,
+          "price": 149,
           "rating": 4.6,
-          "calories": 1380,
-          "protein": 48,
-          "carbs": 90,
-          "fat": 68,
+          "calories": 3200,
+          "protein": 120,
+          "carbs": 280,
+          "fat": 160,
           "category": "offers",
           "isPopular": false,
           "isOffer": true,
           "offerPrice": null,
           "isCombo": true,
+          "offerKind": "family",
           "comboIncludes": [
-            "دبل تشيز برجر",
-            "بطاطس",
-            "صوص",
-            "مشروب"
+            "٤ برجر",
+            "بطاطس عائلية",
+            "٤ مشروب",
+            "صوصات"
           ],
           "spicyOption": false,
           "cashbackPercent": null,
@@ -5218,27 +5307,26 @@
           ]
         },
         {
-          "id": "padthai-express-combo-3",
+          "id": "padthai-express-offer-3",
           "restaurantId": "padthai-express",
-          "name": "كومبو تشيكن كرسبي",
-          "description": "برجر دجاج مقرمش وجبة كاملة.",
+          "name": "اشتري برجر دجاج واحصل على الثاني مجاناً — باد تاي إكسبرس",
+          "description": "عرض برجرين دجاج بنفس السعر.",
           "image": "https://images.unsplash.com/photo-1571091718767-18b5b1457add?w=800&q=80",
-          "price": 46,
+          "price": 36,
           "rating": 4.6,
-          "calories": 1080,
-          "protein": 32,
-          "carbs": 98,
-          "fat": 48,
+          "calories": 980,
+          "protein": 40,
+          "carbs": 80,
+          "fat": 42,
           "category": "offers",
           "isPopular": false,
           "isOffer": true,
           "offerPrice": null,
           "isCombo": true,
+          "offerKind": "deal",
           "comboIncludes": [
             "تشيكن برجر",
-            "بطاطس",
-            "سلطة كول سلو",
-            "مشروب"
+            "تشيكن برجر إضافي"
           ],
           "spicyOption": true,
           "cashbackPercent": null,

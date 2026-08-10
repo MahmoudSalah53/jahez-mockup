@@ -150,7 +150,7 @@ export function HomeMobile() {
         </div>
         {offerMeals.length === 0 ? (
           <p className="border-y border-border px-4 py-8 text-center text-sm text-muted">
-            لا توجد كومبوهات في «{cuisine}» حالياً
+            لا توجد عروض في «{cuisine}» حالياً
           </p>
         ) : (
           <div className="divide-y divide-border border-y border-border">

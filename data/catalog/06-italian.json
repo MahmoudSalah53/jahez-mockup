@@ -66,7 +66,8 @@
             }
           ],
           "isCombo": false,
-          "comboIncludes": []
+          "comboIncludes": [],
+          "offerKind": null
         },
         {
           "id": "nonna-oven-2",
@@ -114,7 +115,8 @@
             }
           ],
           "isCombo": false,
-          "comboIncludes": []
+          "comboIncludes": [],
+          "offerKind": null
         },
         {
           "id": "nonna-oven-3",
@@ -162,7 +164,8 @@
             }
           ],
           "isCombo": false,
-          "comboIncludes": []
+          "comboIncludes": [],
+          "offerKind": null
         },
         {
           "id": "nonna-oven-4",
@@ -210,7 +213,8 @@
             }
           ],
           "isCombo": false,
-          "comboIncludes": []
+          "comboIncludes": [],
+          "offerKind": null
         },
         {
           "id": "nonna-oven-5",
@@ -258,7 +262,8 @@
             }
           ],
           "isCombo": false,
-          "comboIncludes": []
+          "comboIncludes": [],
+          "offerKind": null
         },
         {
           "id": "nonna-oven-6",
@@ -306,7 +311,8 @@
             }
           ],
           "isCombo": false,
-          "comboIncludes": []
+          "comboIncludes": [],
+          "offerKind": null
         },
         {
           "id": "nonna-oven-7",
@@ -354,7 +360,8 @@
             }
           ],
           "isCombo": false,
-          "comboIncludes": []
+          "comboIncludes": [],
+          "offerKind": null
         },
         {
           "id": "nonna-oven-8",
@@ -402,7 +409,8 @@
             }
           ],
           "isCombo": false,
-          "comboIncludes": []
+          "comboIncludes": [],
+          "offerKind": null
         },
         {
           "id": "nonna-oven-9",
@@ -450,7 +458,8 @@
             }
           ],
           "isCombo": false,
-          "comboIncludes": []
+          "comboIncludes": [],
+          "offerKind": null
         },
         {
           "id": "nonna-oven-10",
@@ -498,13 +507,14 @@
             }
           ],
           "isCombo": false,
-          "comboIncludes": []
+          "comboIncludes": [],
+          "offerKind": null
         },
         {
-          "id": "nonna-oven-combo-1",
+          "id": "nonna-oven-offer-1",
           "restaurantId": "nonna-oven",
-          "name": "كومبو بيتزا فردي",
-          "description": "بيتزا شخصية مع مشروب وسلطة.",
+          "name": "وجبة بيتزا فردية — فرن النونة",
+          "description": "بيتزا شخصية مع سلطة ومشروب.",
           "image": "https://images.unsplash.com/photo-1513104890138-7c749659a591?w=800&q=80",
           "price": 55,
           "rating": 4.6,
@@ -517,9 +527,10 @@
           "isOffer": true,
           "offerPrice": null,
           "isCombo": true,
+          "offerKind": "combo",
           "comboIncludes": [
-            "بيتزا مارغريتا",
-            "سلطة سيزر صغيرة",
+            "بيتزا صغيرة",
+            "سلطة",
             "مشروب"
           ],
           "spicyOption": false,
@@ -553,63 +564,11 @@
           ]
         },
         {
-          "id": "nonna-oven-combo-2",
+          "id": "nonna-oven-offer-2",
           "restaurantId": "nonna-oven",
-          "name": "كومبو باستا كامل",
-          "description": "باستا مع خبز وثوم ومشروب.",
+          "name": "وجبة عائلية بيتزا — فرن النونة",
+          "description": "بيتزا كبيرة مع مقبلات ومشروبين للعائلة.",
           "image": "https://images.unsplash.com/photo-1551183053-bf91a1d81141?w=800&q=80",
-          "price": 52,
-          "rating": 4.6,
-          "calories": 920,
-          "protein": 28,
-          "carbs": 88,
-          "fat": 38,
-          "category": "offers",
-          "isPopular": false,
-          "isOffer": true,
-          "offerPrice": null,
-          "isCombo": true,
-          "comboIncludes": [
-            "باستا كاربونارا",
-            "ثوم محمص",
-            "مشروب"
-          ],
-          "spicyOption": false,
-          "cashbackPercent": null,
-          "addons": [
-            {
-              "id": "parmesan",
-              "name": "جبنة بارميزان",
-              "price": 6
-            },
-            {
-              "id": "garlic-bread",
-              "name": "ثوم محمص",
-              "price": 8
-            },
-            {
-              "id": "extra-sauce",
-              "name": "صلصة زيادة",
-              "price": 4
-            },
-            {
-              "id": "drink",
-              "name": "مشروب",
-              "price": 6
-            },
-            {
-              "id": "side-salad",
-              "name": "سلطة صغيرة",
-              "price": 10
-            }
-          ]
-        },
-        {
-          "id": "nonna-oven-combo-3",
-          "restaurantId": "nonna-oven",
-          "name": "كومبو عائلي بيتزا",
-          "description": "بيتزا كبيرة مع مقبلات ومشروبات.",
-          "image": "https://images.unsplash.com/photo-1565299624946-b28f40a0ae38?w=800&q=80",
           "price": 99,
           "rating": 4.6,
           "calories": 1800,
@@ -621,12 +580,66 @@
           "isOffer": true,
           "offerPrice": null,
           "isCombo": true,
+          "offerKind": "family",
           "comboIncludes": [
             "بيتزا كبيرة",
             "بروشيتا",
             "٢ مشروب"
           ],
           "spicyOption": true,
+          "cashbackPercent": null,
+          "addons": [
+            {
+              "id": "parmesan",
+              "name": "جبنة بارميزان",
+              "price": 6
+            },
+            {
+              "id": "garlic-bread",
+              "name": "ثوم محمص",
+              "price": 8
+            },
+            {
+              "id": "extra-sauce",
+              "name": "صلصة زيادة",
+              "price": 4
+            },
+            {
+              "id": "drink",
+              "name": "مشروب",
+              "price": 6
+            },
+            {
+              "id": "side-salad",
+              "name": "سلطة صغيرة",
+              "price": 10
+            }
+          ]
+        },
+        {
+          "id": "nonna-oven-offer-3",
+          "restaurantId": "nonna-oven",
+          "name": "اشتري باستا واحصل على الثانية مجاناً — فرن النونة",
+          "description": "عرض طبقي باستا مع ثوم محمص.",
+          "image": "https://images.unsplash.com/photo-1565299624946-b28f40a0ae38?w=800&q=80",
+          "price": 48,
+          "rating": 4.6,
+          "calories": 1100,
+          "protein": 36,
+          "carbs": 120,
+          "fat": 40,
+          "category": "offers",
+          "isPopular": false,
+          "isOffer": true,
+          "offerPrice": null,
+          "isCombo": true,
+          "offerKind": "deal",
+          "comboIncludes": [
+            "باستا",
+            "باستا إضافية",
+            "ثوم محمص"
+          ],
+          "spicyOption": false,
           "cashbackPercent": null,
           "addons": [
             {
@@ -724,7 +737,8 @@
             }
           ],
           "isCombo": false,
-          "comboIncludes": []
+          "comboIncludes": [],
+          "offerKind": null
         },
         {
           "id": "roma-pasta-2",
@@ -772,7 +786,8 @@
             }
           ],
           "isCombo": false,
-          "comboIncludes": []
+          "comboIncludes": [],
+          "offerKind": null
         },
         {
           "id": "roma-pasta-3",
@@ -820,7 +835,8 @@
             }
           ],
           "isCombo": false,
-          "comboIncludes": []
+          "comboIncludes": [],
+          "offerKind": null
         },
         {
           "id": "roma-pasta-4",
@@ -868,7 +884,8 @@
             }
           ],
           "isCombo": false,
-          "comboIncludes": []
+          "comboIncludes": [],
+          "offerKind": null
         },
         {
           "id": "roma-pasta-5",
@@ -916,7 +933,8 @@
             }
           ],
           "isCombo": false,
-          "comboIncludes": []
+          "comboIncludes": [],
+          "offerKind": null
         },
         {
           "id": "roma-pasta-6",
@@ -964,7 +982,8 @@
             }
           ],
           "isCombo": false,
-          "comboIncludes": []
+          "comboIncludes": [],
+          "offerKind": null
         },
         {
           "id": "roma-pasta-7",
@@ -1012,7 +1031,8 @@
             }
           ],
           "isCombo": false,
-          "comboIncludes": []
+          "comboIncludes": [],
+          "offerKind": null
         },
         {
           "id": "roma-pasta-8",
@@ -1060,7 +1080,8 @@
             }
           ],
           "isCombo": false,
-          "comboIncludes": []
+          "comboIncludes": [],
+          "offerKind": null
         },
         {
           "id": "roma-pasta-9",
@@ -1108,7 +1129,8 @@
             }
           ],
           "isCombo": false,
-          "comboIncludes": []
+          "comboIncludes": [],
+          "offerKind": null
         },
         {
           "id": "roma-pasta-10",
@@ -1156,13 +1178,14 @@
             }
           ],
           "isCombo": false,
-          "comboIncludes": []
+          "comboIncludes": [],
+          "offerKind": null
         },
         {
-          "id": "roma-pasta-combo-1",
+          "id": "roma-pasta-offer-1",
           "restaurantId": "roma-pasta",
-          "name": "كومبو بيتزا فردي",
-          "description": "بيتزا شخصية مع مشروب وسلطة.",
+          "name": "وجبة بيتزا فردية — باستا روما",
+          "description": "بيتزا شخصية مع سلطة ومشروب.",
           "image": "https://images.unsplash.com/photo-1513104890138-7c749659a591?w=800&q=80",
           "price": 55,
           "rating": 4.6,
@@ -1175,9 +1198,10 @@
           "isOffer": true,
           "offerPrice": null,
           "isCombo": true,
+          "offerKind": "combo",
           "comboIncludes": [
-            "بيتزا مارغريتا",
-            "سلطة سيزر صغيرة",
+            "بيتزا صغيرة",
+            "سلطة",
             "مشروب"
           ],
           "spicyOption": false,
@@ -1211,63 +1235,11 @@
           ]
         },
         {
-          "id": "roma-pasta-combo-2",
+          "id": "roma-pasta-offer-2",
           "restaurantId": "roma-pasta",
-          "name": "كومبو باستا كامل",
-          "description": "باستا مع خبز وثوم ومشروب.",
+          "name": "وجبة عائلية بيتزا — باستا روما",
+          "description": "بيتزا كبيرة مع مقبلات ومشروبين للعائلة.",
           "image": "https://images.unsplash.com/photo-1551183053-bf91a1d81141?w=800&q=80",
-          "price": 52,
-          "rating": 4.6,
-          "calories": 920,
-          "protein": 28,
-          "carbs": 88,
-          "fat": 38,
-          "category": "offers",
-          "isPopular": false,
-          "isOffer": true,
-          "offerPrice": null,
-          "isCombo": true,
-          "comboIncludes": [
-            "باستا كاربونارا",
-            "ثوم محمص",
-            "مشروب"
-          ],
-          "spicyOption": false,
-          "cashbackPercent": null,
-          "addons": [
-            {
-              "id": "parmesan",
-              "name": "جبنة بارميزان",
-              "price": 6
-            },
-            {
-              "id": "garlic-bread",
-              "name": "ثوم محمص",
-              "price": 8
-            },
-            {
-              "id": "extra-sauce",
-              "name": "صلصة زيادة",
-              "price": 4
-            },
-            {
-              "id": "drink",
-              "name": "مشروب",
-              "price": 6
-            },
-            {
-              "id": "side-salad",
-              "name": "سلطة صغيرة",
-              "price": 10
-            }
-          ]
-        },
-        {
-          "id": "roma-pasta-combo-3",
-          "restaurantId": "roma-pasta",
-          "name": "كومبو عائلي بيتزا",
-          "description": "بيتزا كبيرة مع مقبلات ومشروبات.",
-          "image": "https://images.unsplash.com/photo-1565299624946-b28f40a0ae38?w=800&q=80",
           "price": 99,
           "rating": 4.6,
           "calories": 1800,
@@ -1279,12 +1251,66 @@
           "isOffer": true,
           "offerPrice": null,
           "isCombo": true,
+          "offerKind": "family",
           "comboIncludes": [
             "بيتزا كبيرة",
             "بروشيتا",
             "٢ مشروب"
           ],
           "spicyOption": true,
+          "cashbackPercent": null,
+          "addons": [
+            {
+              "id": "parmesan",
+              "name": "جبنة بارميزان",
+              "price": 6
+            },
+            {
+              "id": "garlic-bread",
+              "name": "ثوم محمص",
+              "price": 8
+            },
+            {
+              "id": "extra-sauce",
+              "name": "صلصة زيادة",
+              "price": 4
+            },
+            {
+              "id": "drink",
+              "name": "مشروب",
+              "price": 6
+            },
+            {
+              "id": "side-salad",
+              "name": "سلطة صغيرة",
+              "price": 10
+            }
+          ]
+        },
+        {
+          "id": "roma-pasta-offer-3",
+          "restaurantId": "roma-pasta",
+          "name": "اشتري باستا واحصل على الثانية مجاناً — باستا روما",
+          "description": "عرض طبقي باستا مع ثوم محمص.",
+          "image": "https://images.unsplash.com/photo-1565299624946-b28f40a0ae38?w=800&q=80",
+          "price": 48,
+          "rating": 4.6,
+          "calories": 1100,
+          "protein": 36,
+          "carbs": 120,
+          "fat": 40,
+          "category": "offers",
+          "isPopular": false,
+          "isOffer": true,
+          "offerPrice": null,
+          "isCombo": true,
+          "offerKind": "deal",
+          "comboIncludes": [
+            "باستا",
+            "باستا إضافية",
+            "ثوم محمص"
+          ],
+          "spicyOption": false,
           "cashbackPercent": null,
           "addons": [
             {
@@ -1382,7 +1408,8 @@
             }
           ],
           "isCombo": false,
-          "comboIncludes": []
+          "comboIncludes": [],
+          "offerKind": null
         },
         {
           "id": "truffle-table-2",
@@ -1430,7 +1457,8 @@
             }
           ],
           "isCombo": false,
-          "comboIncludes": []
+          "comboIncludes": [],
+          "offerKind": null
         },
         {
           "id": "truffle-table-3",
@@ -1478,7 +1506,8 @@
             }
           ],
           "isCombo": false,
-          "comboIncludes": []
+          "comboIncludes": [],
+          "offerKind": null
         },
         {
           "id": "truffle-table-4",
@@ -1526,7 +1555,8 @@
             }
           ],
           "isCombo": false,
-          "comboIncludes": []
+          "comboIncludes": [],
+          "offerKind": null
         },
         {
           "id": "truffle-table-5",
@@ -1574,7 +1604,8 @@
             }
           ],
           "isCombo": false,
-          "comboIncludes": []
+          "comboIncludes": [],
+          "offerKind": null
         },
         {
           "id": "truffle-table-6",
@@ -1622,7 +1653,8 @@
             }
           ],
           "isCombo": false,
-          "comboIncludes": []
+          "comboIncludes": [],
+          "offerKind": null
         },
         {
           "id": "truffle-table-7",
@@ -1670,7 +1702,8 @@
             }
           ],
           "isCombo": false,
-          "comboIncludes": []
+          "comboIncludes": [],
+          "offerKind": null
         },
         {
           "id": "truffle-table-8",
@@ -1718,7 +1751,8 @@
             }
           ],
           "isCombo": false,
-          "comboIncludes": []
+          "comboIncludes": [],
+          "offerKind": null
         },
         {
           "id": "truffle-table-9",
@@ -1766,7 +1800,8 @@
             }
           ],
           "isCombo": false,
-          "comboIncludes": []
+          "comboIncludes": [],
+          "offerKind": null
         },
         {
           "id": "truffle-table-10",
@@ -1814,13 +1849,14 @@
             }
           ],
           "isCombo": false,
-          "comboIncludes": []
+          "comboIncludes": [],
+          "offerKind": null
         },
         {
-          "id": "truffle-table-combo-1",
+          "id": "truffle-table-offer-1",
           "restaurantId": "truffle-table",
-          "name": "كومبو بيتزا فردي",
-          "description": "بيتزا شخصية مع مشروب وسلطة.",
+          "name": "وجبة بيتزا فردية — طاولة الكمأة",
+          "description": "بيتزا شخصية مع سلطة ومشروب.",
           "image": "https://images.unsplash.com/photo-1513104890138-7c749659a591?w=800&q=80",
           "price": 55,
           "rating": 4.6,
@@ -1833,9 +1869,10 @@
           "isOffer": true,
           "offerPrice": null,
           "isCombo": true,
+          "offerKind": "combo",
           "comboIncludes": [
-            "بيتزا مارغريتا",
-            "سلطة سيزر صغيرة",
+            "بيتزا صغيرة",
+            "سلطة",
             "مشروب"
           ],
           "spicyOption": false,
@@ -1869,63 +1906,11 @@
           ]
         },
         {
-          "id": "truffle-table-combo-2",
+          "id": "truffle-table-offer-2",
           "restaurantId": "truffle-table",
-          "name": "كومبو باستا كامل",
-          "description": "باستا مع خبز وثوم ومشروب.",
+          "name": "وجبة عائلية بيتزا — طاولة الكمأة",
+          "description": "بيتزا كبيرة مع مقبلات ومشروبين للعائلة.",
           "image": "https://images.unsplash.com/photo-1551183053-bf91a1d81141?w=800&q=80",
-          "price": 52,
-          "rating": 4.6,
-          "calories": 920,
-          "protein": 28,
-          "carbs": 88,
-          "fat": 38,
-          "category": "offers",
-          "isPopular": false,
-          "isOffer": true,
-          "offerPrice": null,
-          "isCombo": true,
-          "comboIncludes": [
-            "باستا كاربونارا",
-            "ثوم محمص",
-            "مشروب"
-          ],
-          "spicyOption": false,
-          "cashbackPercent": null,
-          "addons": [
-            {
-              "id": "parmesan",
-              "name": "جبنة بارميزان",
-              "price": 6
-            },
-            {
-              "id": "garlic-bread",
-              "name": "ثوم محمص",
-              "price": 8
-            },
-            {
-              "id": "extra-sauce",
-              "name": "صلصة زيادة",
-              "price": 4
-            },
-            {
-              "id": "drink",
-              "name": "مشروب",
-              "price": 6
-            },
-            {
-              "id": "side-salad",
-              "name": "سلطة صغيرة",
-              "price": 10
-            }
-          ]
-        },
-        {
-          "id": "truffle-table-combo-3",
-          "restaurantId": "truffle-table",
-          "name": "كومبو عائلي بيتزا",
-          "description": "بيتزا كبيرة مع مقبلات ومشروبات.",
-          "image": "https://images.unsplash.com/photo-1565299624946-b28f40a0ae38?w=800&q=80",
           "price": 99,
           "rating": 4.6,
           "calories": 1800,
@@ -1937,12 +1922,66 @@
           "isOffer": true,
           "offerPrice": null,
           "isCombo": true,
+          "offerKind": "family",
           "comboIncludes": [
             "بيتزا كبيرة",
             "بروشيتا",
             "٢ مشروب"
           ],
           "spicyOption": true,
+          "cashbackPercent": null,
+          "addons": [
+            {
+              "id": "parmesan",
+              "name": "جبنة بارميزان",
+              "price": 6
+            },
+            {
+              "id": "garlic-bread",
+              "name": "ثوم محمص",
+              "price": 8
+            },
+            {
+              "id": "extra-sauce",
+              "name": "صلصة زيادة",
+              "price": 4
+            },
+            {
+              "id": "drink",
+              "name": "مشروب",
+              "price": 6
+            },
+            {
+              "id": "side-salad",
+              "name": "سلطة صغيرة",
+              "price": 10
+            }
+          ]
+        },
+        {
+          "id": "truffle-table-offer-3",
+          "restaurantId": "truffle-table",
+          "name": "اشتري باستا واحصل على الثانية مجاناً — طاولة الكمأة",
+          "description": "عرض طبقي باستا مع ثوم محمص.",
+          "image": "https://images.unsplash.com/photo-1565299624946-b28f40a0ae38?w=800&q=80",
+          "price": 48,
+          "rating": 4.6,
+          "calories": 1100,
+          "protein": 36,
+          "carbs": 120,
+          "fat": 40,
+          "category": "offers",
+          "isPopular": false,
+          "isOffer": true,
+          "offerPrice": null,
+          "isCombo": true,
+          "offerKind": "deal",
+          "comboIncludes": [
+            "باستا",
+            "باستا إضافية",
+            "ثوم محمص"
+          ],
+          "spicyOption": false,
           "cashbackPercent": null,
           "addons": [
             {
@@ -2040,7 +2079,8 @@
             }
           ],
           "isCombo": false,
-          "comboIncludes": []
+          "comboIncludes": [],
+          "offerKind": null
         },
         {
           "id": "olive-crust-2",
@@ -2088,7 +2128,8 @@
             }
           ],
           "isCombo": false,
-          "comboIncludes": []
+          "comboIncludes": [],
+          "offerKind": null
         },
         {
           "id": "olive-crust-3",
@@ -2136,7 +2177,8 @@
             }
           ],
           "isCombo": false,
-          "comboIncludes": []
+          "comboIncludes": [],
+          "offerKind": null
         },
         {
           "id": "olive-crust-4",
@@ -2184,7 +2226,8 @@
             }
           ],
           "isCombo": false,
-          "comboIncludes": []
+          "comboIncludes": [],
+          "offerKind": null
         },
         {
           "id": "olive-crust-5",
@@ -2232,7 +2275,8 @@
             }
           ],
           "isCombo": false,
-          "comboIncludes": []
+          "comboIncludes": [],
+          "offerKind": null
         },
         {
           "id": "olive-crust-6",
@@ -2280,7 +2324,8 @@
             }
           ],
           "isCombo": false,
-          "comboIncludes": []
+          "comboIncludes": [],
+          "offerKind": null
         },
         {
           "id": "olive-crust-7",
@@ -2328,7 +2373,8 @@
             }
           ],
           "isCombo": false,
-          "comboIncludes": []
+          "comboIncludes": [],
+          "offerKind": null
         },
         {
           "id": "olive-crust-8",
@@ -2376,7 +2422,8 @@
             }
           ],
           "isCombo": false,
-          "comboIncludes": []
+          "comboIncludes": [],
+          "offerKind": null
         },
         {
           "id": "olive-crust-9",
@@ -2424,7 +2471,8 @@
             }
           ],
           "isCombo": false,
-          "comboIncludes": []
+          "comboIncludes": [],
+          "offerKind": null
         },
         {
           "id": "olive-crust-10",
@@ -2472,13 +2520,14 @@
             }
           ],
           "isCombo": false,
-          "comboIncludes": []
+          "comboIncludes": [],
+          "offerKind": null
         },
         {
-          "id": "olive-crust-combo-1",
+          "id": "olive-crust-offer-1",
           "restaurantId": "olive-crust",
-          "name": "كومبو بيتزا فردي",
-          "description": "بيتزا شخصية مع مشروب وسلطة.",
+          "name": "وجبة بيتزا فردية — قشرة الزيتون",
+          "description": "بيتزا شخصية مع سلطة ومشروب.",
           "image": "https://images.unsplash.com/photo-1513104890138-7c749659a591?w=800&q=80",
           "price": 55,
           "rating": 4.6,
@@ -2491,9 +2540,10 @@
           "isOffer": true,
           "offerPrice": null,
           "isCombo": true,
+          "offerKind": "combo",
           "comboIncludes": [
-            "بيتزا مارغريتا",
-            "سلطة سيزر صغيرة",
+            "بيتزا صغيرة",
+            "سلطة",
             "مشروب"
           ],
           "spicyOption": false,
@@ -2527,63 +2577,11 @@
           ]
         },
         {
-          "id": "olive-crust-combo-2",
+          "id": "olive-crust-offer-2",
           "restaurantId": "olive-crust",
-          "name": "كومبو باستا كامل",
-          "description": "باستا مع خبز وثوم ومشروب.",
+          "name": "وجبة عائلية بيتزا — قشرة الزيتون",
+          "description": "بيتزا كبيرة مع مقبلات ومشروبين للعائلة.",
           "image": "https://images.unsplash.com/photo-1551183053-bf91a1d81141?w=800&q=80",
-          "price": 52,
-          "rating": 4.6,
-          "calories": 920,
-          "protein": 28,
-          "carbs": 88,
-          "fat": 38,
-          "category": "offers",
-          "isPopular": false,
-          "isOffer": true,
-          "offerPrice": null,
-          "isCombo": true,
-          "comboIncludes": [
-            "باستا كاربونارا",
-            "ثوم محمص",
-            "مشروب"
-          ],
-          "spicyOption": false,
-          "cashbackPercent": null,
-          "addons": [
-            {
-              "id": "parmesan",
-              "name": "جبنة بارميزان",
-              "price": 6
-            },
-            {
-              "id": "garlic-bread",
-              "name": "ثوم محمص",
-              "price": 8
-            },
-            {
-              "id": "extra-sauce",
-              "name": "صلصة زيادة",
-              "price": 4
-            },
-            {
-              "id": "drink",
-              "name": "مشروب",
-              "price": 6
-            },
-            {
-              "id": "side-salad",
-              "name": "سلطة صغيرة",
-              "price": 10
-            }
-          ]
-        },
-        {
-          "id": "olive-crust-combo-3",
-          "restaurantId": "olive-crust",
-          "name": "كومبو عائلي بيتزا",
-          "description": "بيتزا كبيرة مع مقبلات ومشروبات.",
-          "image": "https://images.unsplash.com/photo-1565299624946-b28f40a0ae38?w=800&q=80",
           "price": 99,
           "rating": 4.6,
           "calories": 1800,
@@ -2595,12 +2593,66 @@
           "isOffer": true,
           "offerPrice": null,
           "isCombo": true,
+          "offerKind": "family",
           "comboIncludes": [
             "بيتزا كبيرة",
             "بروشيتا",
             "٢ مشروب"
           ],
           "spicyOption": true,
+          "cashbackPercent": null,
+          "addons": [
+            {
+              "id": "parmesan",
+              "name": "جبنة بارميزان",
+              "price": 6
+            },
+            {
+              "id": "garlic-bread",
+              "name": "ثوم محمص",
+              "price": 8
+            },
+            {
+              "id": "extra-sauce",
+              "name": "صلصة زيادة",
+              "price": 4
+            },
+            {
+              "id": "drink",
+              "name": "مشروب",
+              "price": 6
+            },
+            {
+              "id": "side-salad",
+              "name": "سلطة صغيرة",
+              "price": 10
+            }
+          ]
+        },
+        {
+          "id": "olive-crust-offer-3",
+          "restaurantId": "olive-crust",
+          "name": "اشتري باستا واحصل على الثانية مجاناً — قشرة الزيتون",
+          "description": "عرض طبقي باستا مع ثوم محمص.",
+          "image": "https://images.unsplash.com/photo-1565299624946-b28f40a0ae38?w=800&q=80",
+          "price": 48,
+          "rating": 4.6,
+          "calories": 1100,
+          "protein": 36,
+          "carbs": 120,
+          "fat": 40,
+          "category": "offers",
+          "isPopular": false,
+          "isOffer": true,
+          "offerPrice": null,
+          "isCombo": true,
+          "offerKind": "deal",
+          "comboIncludes": [
+            "باستا",
+            "باستا إضافية",
+            "ثوم محمص"
+          ],
+          "spicyOption": false,
           "cashbackPercent": null,
           "addons": [
             {
@@ -2698,7 +2750,8 @@
             }
           ],
           "isCombo": false,
-          "comboIncludes": []
+          "comboIncludes": [],
+          "offerKind": null
         },
         {
           "id": "vesuvio-pizza-2",
@@ -2746,7 +2799,8 @@
             }
           ],
           "isCombo": false,
-          "comboIncludes": []
+          "comboIncludes": [],
+          "offerKind": null
         },
         {
           "id": "vesuvio-pizza-3",
@@ -2794,7 +2848,8 @@
             }
           ],
           "isCombo": false,
-          "comboIncludes": []
+          "comboIncludes": [],
+          "offerKind": null
         },
         {
           "id": "vesuvio-pizza-4",
@@ -2842,7 +2897,8 @@
             }
           ],
           "isCombo": false,
-          "comboIncludes": []
+          "comboIncludes": [],
+          "offerKind": null
         },
         {
           "id": "vesuvio-pizza-5",
@@ -2890,7 +2946,8 @@
             }
           ],
           "isCombo": false,
-          "comboIncludes": []
+          "comboIncludes": [],
+          "offerKind": null
         },
         {
           "id": "vesuvio-pizza-6",
@@ -2938,7 +2995,8 @@
             }
           ],
           "isCombo": false,
-          "comboIncludes": []
+          "comboIncludes": [],
+          "offerKind": null
         },
         {
           "id": "vesuvio-pizza-7",
@@ -2986,7 +3044,8 @@
             }
           ],
           "isCombo": false,
-          "comboIncludes": []
+          "comboIncludes": [],
+          "offerKind": null
         },
         {
           "id": "vesuvio-pizza-8",
@@ -3034,7 +3093,8 @@
             }
           ],
           "isCombo": false,
-          "comboIncludes": []
+          "comboIncludes": [],
+          "offerKind": null
         },
         {
           "id": "vesuvio-pizza-9",
@@ -3082,7 +3142,8 @@
             }
           ],
           "isCombo": false,
-          "comboIncludes": []
+          "comboIncludes": [],
+          "offerKind": null
         },
         {
           "id": "vesuvio-pizza-10",
@@ -3130,13 +3191,14 @@
             }
           ],
           "isCombo": false,
-          "comboIncludes": []
+          "comboIncludes": [],
+          "offerKind": null
         },
         {
-          "id": "vesuvio-pizza-combo-1",
+          "id": "vesuvio-pizza-offer-1",
           "restaurantId": "vesuvio-pizza",
-          "name": "كومبو بيتزا فردي",
-          "description": "بيتزا شخصية مع مشروب وسلطة.",
+          "name": "وجبة بيتزا فردية — بيتزا فيزوفيو",
+          "description": "بيتزا شخصية مع سلطة ومشروب.",
           "image": "https://images.unsplash.com/photo-1513104890138-7c749659a591?w=800&q=80",
           "price": 55,
           "rating": 4.6,
@@ -3149,9 +3211,10 @@
           "isOffer": true,
           "offerPrice": null,
           "isCombo": true,
+          "offerKind": "combo",
           "comboIncludes": [
-            "بيتزا مارغريتا",
-            "سلطة سيزر صغيرة",
+            "بيتزا صغيرة",
+            "سلطة",
             "مشروب"
           ],
           "spicyOption": false,
@@ -3185,63 +3248,11 @@
           ]
         },
         {
-          "id": "vesuvio-pizza-combo-2",
+          "id": "vesuvio-pizza-offer-2",
           "restaurantId": "vesuvio-pizza",
-          "name": "كومبو باستا كامل",
-          "description": "باستا مع خبز وثوم ومشروب.",
+          "name": "وجبة عائلية بيتزا — بيتزا فيزوفيو",
+          "description": "بيتزا كبيرة مع مقبلات ومشروبين للعائلة.",
           "image": "https://images.unsplash.com/photo-1551183053-bf91a1d81141?w=800&q=80",
-          "price": 52,
-          "rating": 4.6,
-          "calories": 920,
-          "protein": 28,
-          "carbs": 88,
-          "fat": 38,
-          "category": "offers",
-          "isPopular": false,
-          "isOffer": true,
-          "offerPrice": null,
-          "isCombo": true,
-          "comboIncludes": [
-            "باستا كاربونارا",
-            "ثوم محمص",
-            "مشروب"
-          ],
-          "spicyOption": false,
-          "cashbackPercent": null,
-          "addons": [
-            {
-              "id": "parmesan",
-              "name": "جبنة بارميزان",
-              "price": 6
-            },
-            {
-              "id": "garlic-bread",
-              "name": "ثوم محمص",
-              "price": 8
-            },
-            {
-              "id": "extra-sauce",
-              "name": "صلصة زيادة",
-              "price": 4
-            },
-            {
-              "id": "drink",
-              "name": "مشروب",
-              "price": 6
-            },
-            {
-              "id": "side-salad",
-              "name": "سلطة صغيرة",
-              "price": 10
-            }
-          ]
-        },
-        {
-          "id": "vesuvio-pizza-combo-3",
-          "restaurantId": "vesuvio-pizza",
-          "name": "كومبو عائلي بيتزا",
-          "description": "بيتزا كبيرة مع مقبلات ومشروبات.",
-          "image": "https://images.unsplash.com/photo-1565299624946-b28f40a0ae38?w=800&q=80",
           "price": 99,
           "rating": 4.6,
           "calories": 1800,
@@ -3253,12 +3264,66 @@
           "isOffer": true,
           "offerPrice": null,
           "isCombo": true,
+          "offerKind": "family",
           "comboIncludes": [
             "بيتزا كبيرة",
             "بروشيتا",
             "٢ مشروب"
           ],
           "spicyOption": true,
+          "cashbackPercent": null,
+          "addons": [
+            {
+              "id": "parmesan",
+              "name": "جبنة بارميزان",
+              "price": 6
+            },
+            {
+              "id": "garlic-bread",
+              "name": "ثوم محمص",
+              "price": 8
+            },
+            {
+              "id": "extra-sauce",
+              "name": "صلصة زيادة",
+              "price": 4
+            },
+            {
+              "id": "drink",
+              "name": "مشروب",
+              "price": 6
+            },
+            {
+              "id": "side-salad",
+              "name": "سلطة صغيرة",
+              "price": 10
+            }
+          ]
+        },
+        {
+          "id": "vesuvio-pizza-offer-3",
+          "restaurantId": "vesuvio-pizza",
+          "name": "اشتري باستا واحصل على الثانية مجاناً — بيتزا فيزوفيو",
+          "description": "عرض طبقي باستا مع ثوم محمص.",
+          "image": "https://images.unsplash.com/photo-1565299624946-b28f40a0ae38?w=800&q=80",
+          "price": 48,
+          "rating": 4.6,
+          "calories": 1100,
+          "protein": 36,
+          "carbs": 120,
+          "fat": 40,
+          "category": "offers",
+          "isPopular": false,
+          "isOffer": true,
+          "offerPrice": null,
+          "isCombo": true,
+          "offerKind": "deal",
+          "comboIncludes": [
+            "باستا",
+            "باستا إضافية",
+            "ثوم محمص"
+          ],
+          "spicyOption": false,
           "cashbackPercent": null,
           "addons": [
             {
@@ -3356,7 +3421,8 @@
             }
           ],
           "isCombo": false,
-          "comboIncludes": []
+          "comboIncludes": [],
+          "offerKind": null
         },
         {
           "id": "basilico-2",
@@ -3404,7 +3470,8 @@
             }
           ],
           "isCombo": false,
-          "comboIncludes": []
+          "comboIncludes": [],
+          "offerKind": null
         },
         {
           "id": "basilico-3",
@@ -3452,7 +3519,8 @@
             }
           ],
           "isCombo": false,
-          "comboIncludes": []
+          "comboIncludes": [],
+          "offerKind": null
         },
         {
           "id": "basilico-4",
@@ -3500,7 +3568,8 @@
             }
           ],
           "isCombo": false,
-          "comboIncludes": []
+          "comboIncludes": [],
+          "offerKind": null
         },
         {
           "id": "basilico-5",
@@ -3548,7 +3617,8 @@
             }
           ],
           "isCombo": false,
-          "comboIncludes": []
+          "comboIncludes": [],
+          "offerKind": null
         },
         {
           "id": "basilico-6",
@@ -3596,7 +3666,8 @@
             }
           ],
           "isCombo": false,
-          "comboIncludes": []
+          "comboIncludes": [],
+          "offerKind": null
         },
         {
           "id": "basilico-7",
@@ -3644,7 +3715,8 @@
             }
           ],
           "isCombo": false,
-          "comboIncludes": []
+          "comboIncludes": [],
+          "offerKind": null
         },
         {
           "id": "basilico-8",
@@ -3692,7 +3764,8 @@
             }
           ],
           "isCombo": false,
-          "comboIncludes": []
+          "comboIncludes": [],
+          "offerKind": null
         },
         {
           "id": "basilico-9",
@@ -3740,7 +3813,8 @@
             }
           ],
           "isCombo": false,
-          "comboIncludes": []
+          "comboIncludes": [],
+          "offerKind": null
         },
         {
           "id": "basilico-10",
@@ -3788,13 +3862,14 @@
             }
           ],
           "isCombo": false,
-          "comboIncludes": []
+          "comboIncludes": [],
+          "offerKind": null
         },
         {
-          "id": "basilico-combo-1",
+          "id": "basilico-offer-1",
           "restaurantId": "basilico",
-          "name": "كومبو بيتزا فردي",
-          "description": "بيتزا شخصية مع مشروب وسلطة.",
+          "name": "وجبة بيتزا فردية — بازيليكو",
+          "description": "بيتزا شخصية مع سلطة ومشروب.",
           "image": "https://images.unsplash.com/photo-1513104890138-7c749659a591?w=800&q=80",
           "price": 55,
           "rating": 4.6,
@@ -3807,9 +3882,10 @@
           "isOffer": true,
           "offerPrice": null,
           "isCombo": true,
+          "offerKind": "combo",
           "comboIncludes": [
-            "بيتزا مارغريتا",
-            "سلطة سيزر صغيرة",
+            "بيتزا صغيرة",
+            "سلطة",
             "مشروب"
           ],
           "spicyOption": false,
@@ -3843,63 +3919,11 @@
           ]
         },
         {
-          "id": "basilico-combo-2",
+          "id": "basilico-offer-2",
           "restaurantId": "basilico",
-          "name": "كومبو باستا كامل",
-          "description": "باستا مع خبز وثوم ومشروب.",
+          "name": "وجبة عائلية بيتزا — بازيليكو",
+          "description": "بيتزا كبيرة مع مقبلات ومشروبين للعائلة.",
           "image": "https://images.unsplash.com/photo-1551183053-bf91a1d81141?w=800&q=80",
-          "price": 52,
-          "rating": 4.6,
-          "calories": 920,
-          "protein": 28,
-          "carbs": 88,
-          "fat": 38,
-          "category": "offers",
-          "isPopular": false,
-          "isOffer": true,
-          "offerPrice": null,
-          "isCombo": true,
-          "comboIncludes": [
-            "باستا كاربونارا",
-            "ثوم محمص",
-            "مشروب"
-          ],
-          "spicyOption": false,
-          "cashbackPercent": null,
-          "addons": [
-            {
-              "id": "parmesan",
-              "name": "جبنة بارميزان",
-              "price": 6
-            },
-            {
-              "id": "garlic-bread",
-              "name": "ثوم محمص",
-              "price": 8
-            },
-            {
-              "id": "extra-sauce",
-              "name": "صلصة زيادة",
-              "price": 4
-            },
-            {
-              "id": "drink",
-              "name": "مشروب",
-              "price": 6
-            },
-            {
-              "id": "side-salad",
-              "name": "سلطة صغيرة",
-              "price": 10
-            }
-          ]
-        },
-        {
-          "id": "basilico-combo-3",
-          "restaurantId": "basilico",
-          "name": "كومبو عائلي بيتزا",
-          "description": "بيتزا كبيرة مع مقبلات ومشروبات.",
-          "image": "https://images.unsplash.com/photo-1565299624946-b28f40a0ae38?w=800&q=80",
           "price": 99,
           "rating": 4.6,
           "calories": 1800,
@@ -3911,12 +3935,66 @@
           "isOffer": true,
           "offerPrice": null,
           "isCombo": true,
+          "offerKind": "family",
           "comboIncludes": [
             "بيتزا كبيرة",
             "بروشيتا",
             "٢ مشروب"
           ],
           "spicyOption": true,
+          "cashbackPercent": null,
+          "addons": [
+            {
+              "id": "parmesan",
+              "name": "جبنة بارميزان",
+              "price": 6
+            },
+            {
+              "id": "garlic-bread",
+              "name": "ثوم محمص",
+              "price": 8
+            },
+            {
+              "id": "extra-sauce",
+              "name": "صلصة زيادة",
+              "price": 4
+            },
+            {
+              "id": "drink",
+              "name": "مشروب",
+              "price": 6
+            },
+            {
+              "id": "side-salad",
+              "name": "سلطة صغيرة",
+              "price": 10
+            }
+          ]
+        },
+        {
+          "id": "basilico-offer-3",
+          "restaurantId": "basilico",
+          "name": "اشتري باستا واحصل على الثانية مجاناً — بازيليكو",
+          "description": "عرض طبقي باستا مع ثوم محمص.",
+          "image": "https://images.unsplash.com/photo-1565299624946-b28f40a0ae38?w=800&q=80",
+          "price": 48,
+          "rating": 4.6,
+          "calories": 1100,
+          "protein": 36,
+          "carbs": 120,
+          "fat": 40,
+          "category": "offers",
+          "isPopular": false,
+          "isOffer": true,
+          "offerPrice": null,
+          "isCombo": true,
+          "offerKind": "deal",
+          "comboIncludes": [
+            "باستا",
+            "باستا إضافية",
+            "ثوم محمص"
+          ],
+          "spicyOption": false,
           "cashbackPercent": null,
           "addons": [
             {
@@ -4014,7 +4092,8 @@
             }
           ],
           "isCombo": false,
-          "comboIncludes": []
+          "comboIncludes": [],
+          "offerKind": null
         },
         {
           "id": "formaggio-2",
@@ -4062,7 +4141,8 @@
             }
           ],
           "isCombo": false,
-          "comboIncludes": []
+          "comboIncludes": [],
+          "offerKind": null
         },
         {
           "id": "formaggio-3",
@@ -4110,7 +4190,8 @@
             }
           ],
           "isCombo": false,
-          "comboIncludes": []
+          "comboIncludes": [],
+          "offerKind": null
         },
         {
           "id": "formaggio-4",
@@ -4158,7 +4239,8 @@
             }
           ],
           "isCombo": false,
-          "comboIncludes": []
+          "comboIncludes": [],
+          "offerKind": null
         },
         {
           "id": "formaggio-5",
@@ -4206,7 +4288,8 @@
             }
           ],
           "isCombo": false,
-          "comboIncludes": []
+          "comboIncludes": [],
+          "offerKind": null
         },
         {
           "id": "formaggio-6",
@@ -4254,7 +4337,8 @@
             }
           ],
           "isCombo": false,
-          "comboIncludes": []
+          "comboIncludes": [],
+          "offerKind": null
         },
         {
           "id": "formaggio-7",
@@ -4302,7 +4386,8 @@
             }
           ],
           "isCombo": false,
-          "comboIncludes": []
+          "comboIncludes": [],
+          "offerKind": null
         },
         {
           "id": "formaggio-8",
@@ -4350,7 +4435,8 @@
             }
           ],
           "isCombo": false,
-          "comboIncludes": []
+          "comboIncludes": [],
+          "offerKind": null
         },
         {
           "id": "formaggio-9",
@@ -4398,7 +4484,8 @@
             }
           ],
           "isCombo": false,
-          "comboIncludes": []
+          "comboIncludes": [],
+          "offerKind": null
         },
         {
           "id": "formaggio-10",
@@ -4446,13 +4533,14 @@
             }
           ],
           "isCombo": false,
-          "comboIncludes": []
+          "comboIncludes": [],
+          "offerKind": null
         },
         {
-          "id": "formaggio-combo-1",
+          "id": "formaggio-offer-1",
           "restaurantId": "formaggio",
-          "name": "كومبو بيتزا فردي",
-          "description": "بيتزا شخصية مع مشروب وسلطة.",
+          "name": "وجبة بيتزا فردية — فورماجيو",
+          "description": "بيتزا شخصية مع سلطة ومشروب.",
           "image": "https://images.unsplash.com/photo-1513104890138-7c749659a591?w=800&q=80",
           "price": 55,
           "rating": 4.6,
@@ -4465,9 +4553,10 @@
           "isOffer": true,
           "offerPrice": null,
           "isCombo": true,
+          "offerKind": "combo",
           "comboIncludes": [
-            "بيتزا مارغريتا",
-            "سلطة سيزر صغيرة",
+            "بيتزا صغيرة",
+            "سلطة",
             "مشروب"
           ],
           "spicyOption": false,
@@ -4501,63 +4590,11 @@
           ]
         },
         {
-          "id": "formaggio-combo-2",
+          "id": "formaggio-offer-2",
           "restaurantId": "formaggio",
-          "name": "كومبو باستا كامل",
-          "description": "باستا مع خبز وثوم ومشروب.",
+          "name": "وجبة عائلية بيتزا — فورماجيو",
+          "description": "بيتزا كبيرة مع مقبلات ومشروبين للعائلة.",
           "image": "https://images.unsplash.com/photo-1551183053-bf91a1d81141?w=800&q=80",
-          "price": 52,
-          "rating": 4.6,
-          "calories": 920,
-          "protein": 28,
-          "carbs": 88,
-          "fat": 38,
-          "category": "offers",
-          "isPopular": false,
-          "isOffer": true,
-          "offerPrice": null,
-          "isCombo": true,
-          "comboIncludes": [
-            "باستا كاربونارا",
-            "ثوم محمص",
-            "مشروب"
-          ],
-          "spicyOption": false,
-          "cashbackPercent": null,
-          "addons": [
-            {
-              "id": "parmesan",
-              "name": "جبنة بارميزان",
-              "price": 6
-            },
-            {
-              "id": "garlic-bread",
-              "name": "ثوم محمص",
-              "price": 8
-            },
-            {
-              "id": "extra-sauce",
-              "name": "صلصة زيادة",
-              "price": 4
-            },
-            {
-              "id": "drink",
-              "name": "مشروب",
-              "price": 6
-            },
-            {
-              "id": "side-salad",
-              "name": "سلطة صغيرة",
-              "price": 10
-            }
-          ]
-        },
-        {
-          "id": "formaggio-combo-3",
-          "restaurantId": "formaggio",
-          "name": "كومبو عائلي بيتزا",
-          "description": "بيتزا كبيرة مع مقبلات ومشروبات.",
-          "image": "https://images.unsplash.com/photo-1565299624946-b28f40a0ae38?w=800&q=80",
           "price": 99,
           "rating": 4.6,
           "calories": 1800,
@@ -4569,12 +4606,66 @@
           "isOffer": true,
           "offerPrice": null,
           "isCombo": true,
+          "offerKind": "family",
           "comboIncludes": [
             "بيتزا كبيرة",
             "بروشيتا",
             "٢ مشروب"
           ],
           "spicyOption": true,
+          "cashbackPercent": null,
+          "addons": [
+            {
+              "id": "parmesan",
+              "name": "جبنة بارميزان",
+              "price": 6
+            },
+            {
+              "id": "garlic-bread",
+              "name": "ثوم محمص",
+              "price": 8
+            },
+            {
+              "id": "extra-sauce",
+              "name": "صلصة زيادة",
+              "price": 4
+            },
+            {
+              "id": "drink",
+              "name": "مشروب",
+              "price": 6
+            },
+            {
+              "id": "side-salad",
+              "name": "سلطة صغيرة",
+              "price": 10
+            }
+          ]
+        },
+        {
+          "id": "formaggio-offer-3",
+          "restaurantId": "formaggio",
+          "name": "اشتري باستا واحصل على الثانية مجاناً — فورماجيو",
+          "description": "عرض طبقي باستا مع ثوم محمص.",
+          "image": "https://images.unsplash.com/photo-1565299624946-b28f40a0ae38?w=800&q=80",
+          "price": 48,
+          "rating": 4.6,
+          "calories": 1100,
+          "protein": 36,
+          "carbs": 120,
+          "fat": 40,
+          "category": "offers",
+          "isPopular": false,
+          "isOffer": true,
+          "offerPrice": null,
+          "isCombo": true,
+          "offerKind": "deal",
+          "comboIncludes": [
+            "باستا",
+            "باستا إضافية",
+            "ثوم محمص"
+          ],
+          "spicyOption": false,
           "cashbackPercent": null,
           "addons": [
             {
@@ -4672,7 +4763,8 @@
             }
           ],
           "isCombo": false,
-          "comboIncludes": []
+          "comboIncludes": [],
+          "offerKind": null
         },
         {
           "id": "amico-kitchen-2",
@@ -4720,7 +4812,8 @@
             }
           ],
           "isCombo": false,
-          "comboIncludes": []
+          "comboIncludes": [],
+          "offerKind": null
         },
         {
           "id": "amico-kitchen-3",
@@ -4768,7 +4861,8 @@
             }
           ],
           "isCombo": false,
-          "comboIncludes": []
+          "comboIncludes": [],
+          "offerKind": null
         },
         {
           "id": "amico-kitchen-4",
@@ -4816,7 +4910,8 @@
             }
           ],
           "isCombo": false,
-          "comboIncludes": []
+          "comboIncludes": [],
+          "offerKind": null
         },
         {
           "id": "amico-kitchen-5",
@@ -4864,7 +4959,8 @@
             }
           ],
           "isCombo": false,
-          "comboIncludes": []
+          "comboIncludes": [],
+          "offerKind": null
         },
         {
           "id": "amico-kitchen-6",
@@ -4912,7 +5008,8 @@
             }
           ],
           "isCombo": false,
-          "comboIncludes": []
+          "comboIncludes": [],
+          "offerKind": null
         },
         {
           "id": "amico-kitchen-7",
@@ -4960,7 +5057,8 @@
             }
           ],
           "isCombo": false,
-          "comboIncludes": []
+          "comboIncludes": [],
+          "offerKind": null
         },
         {
           "id": "amico-kitchen-8",
@@ -5008,7 +5106,8 @@
             }
           ],
           "isCombo": false,
-          "comboIncludes": []
+          "comboIncludes": [],
+          "offerKind": null
         },
         {
           "id": "amico-kitchen-9",
@@ -5056,7 +5155,8 @@
             }
           ],
           "isCombo": false,
-          "comboIncludes": []
+          "comboIncludes": [],
+          "offerKind": null
         },
         {
           "id": "amico-kitchen-10",
@@ -5104,13 +5204,14 @@
             }
           ],
           "isCombo": false,
-          "comboIncludes": []
+          "comboIncludes": [],
+          "offerKind": null
         },
         {
-          "id": "amico-kitchen-combo-1",
+          "id": "amico-kitchen-offer-1",
           "restaurantId": "amico-kitchen",
-          "name": "كومبو بيتزا فردي",
-          "description": "بيتزا شخصية مع مشروب وسلطة.",
+          "name": "وجبة بيتزا فردية — مطبخ أميكو",
+          "description": "بيتزا شخصية مع سلطة ومشروب.",
           "image": "https://images.unsplash.com/photo-1513104890138-7c749659a591?w=800&q=80",
           "price": 55,
           "rating": 4.6,
@@ -5123,9 +5224,10 @@
           "isOffer": true,
           "offerPrice": null,
           "isCombo": true,
+          "offerKind": "combo",
           "comboIncludes": [
-            "بيتزا مارغريتا",
-            "سلطة سيزر صغيرة",
+            "بيتزا صغيرة",
+            "سلطة",
             "مشروب"
           ],
           "spicyOption": false,
@@ -5159,63 +5261,11 @@
           ]
         },
         {
-          "id": "amico-kitchen-combo-2",
+          "id": "amico-kitchen-offer-2",
           "restaurantId": "amico-kitchen",
-          "name": "كومبو باستا كامل",
-          "description": "باستا مع خبز وثوم ومشروب.",
+          "name": "وجبة عائلية بيتزا — مطبخ أميكو",
+          "description": "بيتزا كبيرة مع مقبلات ومشروبين للعائلة.",
           "image": "https://images.unsplash.com/photo-1551183053-bf91a1d81141?w=800&q=80",
-          "price": 52,
-          "rating": 4.6,
-          "calories": 920,
-          "protein": 28,
-          "carbs": 88,
-          "fat": 38,
-          "category": "offers",
-          "isPopular": false,
-          "isOffer": true,
-          "offerPrice": null,
-          "isCombo": true,
-          "comboIncludes": [
-            "باستا كاربونارا",
-            "ثوم محمص",
-            "مشروب"
-          ],
-          "spicyOption": false,
-          "cashbackPercent": null,
-          "addons": [
-            {
-              "id": "parmesan",
-              "name": "جبنة بارميزان",
-              "price": 6
-            },
-            {
-              "id": "garlic-bread",
-              "name": "ثوم محمص",
-              "price": 8
-            },
-            {
-              "id": "extra-sauce",
-              "name": "صلصة زيادة",
-              "price": 4
-            },
-            {
-              "id": "drink",
-              "name": "مشروب",
-              "price": 6
-            },
-            {
-              "id": "side-salad",
-              "name": "سلطة صغيرة",
-              "price": 10
-            }
-          ]
-        },
-        {
-          "id": "amico-kitchen-combo-3",
-          "restaurantId": "amico-kitchen",
-          "name": "كومبو عائلي بيتزا",
-          "description": "بيتزا كبيرة مع مقبلات ومشروبات.",
-          "image": "https://images.unsplash.com/photo-1565299624946-b28f40a0ae38?w=800&q=80",
           "price": 99,
           "rating": 4.6,
           "calories": 1800,
@@ -5227,12 +5277,66 @@
           "isOffer": true,
           "offerPrice": null,
           "isCombo": true,
+          "offerKind": "family",
           "comboIncludes": [
             "بيتزا كبيرة",
             "بروشيتا",
             "٢ مشروب"
           ],
           "spicyOption": true,
+          "cashbackPercent": null,
+          "addons": [
+            {
+              "id": "parmesan",
+              "name": "جبنة بارميزان",
+              "price": 6
+            },
+            {
+              "id": "garlic-bread",
+              "name": "ثوم محمص",
+              "price": 8
+            },
+            {
+              "id": "extra-sauce",
+              "name": "صلصة زيادة",
+              "price": 4
+            },
+            {
+              "id": "drink",
+              "name": "مشروب",
+              "price": 6
+            },
+            {
+              "id": "side-salad",
+              "name": "سلطة صغيرة",
+              "price": 10
+            }
+          ]
+        },
+        {
+          "id": "amico-kitchen-offer-3",
+          "restaurantId": "amico-kitchen",
+          "name": "اشتري باستا واحصل على الثانية مجاناً — مطبخ أميكو",
+          "description": "عرض طبقي باستا مع ثوم محمص.",
+          "image": "https://images.unsplash.com/photo-1565299624946-b28f40a0ae38?w=800&q=80",
+          "price": 48,
+          "rating": 4.6,
+          "calories": 1100,
+          "protein": 36,
+          "carbs": 120,
+          "fat": 40,
+          "category": "offers",
+          "isPopular": false,
+          "isOffer": true,
+          "offerPrice": null,
+          "isCombo": true,
+          "offerKind": "deal",
+          "comboIncludes": [
+            "باستا",
+            "باستا إضافية",
+            "ثوم محمص"
+          ],
+          "spicyOption": false,
           "cashbackPercent": null,
           "addons": [
             {

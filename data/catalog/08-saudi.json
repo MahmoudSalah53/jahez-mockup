@@ -66,7 +66,8 @@
             }
           ],
           "isCombo": false,
-          "comboIncludes": []
+          "comboIncludes": [],
+          "offerKind": null
         },
         {
           "id": "dar-almandi-2",
@@ -114,7 +115,8 @@
             }
           ],
           "isCombo": false,
-          "comboIncludes": []
+          "comboIncludes": [],
+          "offerKind": null
         },
         {
           "id": "dar-almandi-3",
@@ -162,7 +164,8 @@
             }
           ],
           "isCombo": false,
-          "comboIncludes": []
+          "comboIncludes": [],
+          "offerKind": null
         },
         {
           "id": "dar-almandi-4",
@@ -210,7 +213,8 @@
             }
           ],
           "isCombo": false,
-          "comboIncludes": []
+          "comboIncludes": [],
+          "offerKind": null
         },
         {
           "id": "dar-almandi-5",
@@ -258,7 +262,8 @@
             }
           ],
           "isCombo": false,
-          "comboIncludes": []
+          "comboIncludes": [],
+          "offerKind": null
         },
         {
           "id": "dar-almandi-6",
@@ -306,7 +311,8 @@
             }
           ],
           "isCombo": false,
-          "comboIncludes": []
+          "comboIncludes": [],
+          "offerKind": null
         },
         {
           "id": "dar-almandi-7",
@@ -354,7 +360,8 @@
             }
           ],
           "isCombo": false,
-          "comboIncludes": []
+          "comboIncludes": [],
+          "offerKind": null
         },
         {
           "id": "dar-almandi-8",
@@ -402,7 +409,8 @@
             }
           ],
           "isCombo": false,
-          "comboIncludes": []
+          "comboIncludes": [],
+          "offerKind": null
         },
         {
           "id": "dar-almandi-9",
@@ -450,7 +458,8 @@
             }
           ],
           "isCombo": false,
-          "comboIncludes": []
+          "comboIncludes": [],
+          "offerKind": null
         },
         {
           "id": "dar-almandi-10",
@@ -498,13 +507,14 @@
             }
           ],
           "isCombo": false,
-          "comboIncludes": []
+          "comboIncludes": [],
+          "offerKind": null
         },
         {
-          "id": "dar-almandi-combo-1",
+          "id": "dar-almandi-offer-1",
           "restaurantId": "dar-almandi",
-          "name": "كومبو كبسة فردي",
-          "description": "كبسة دجاج مع سلطة ومشروب.",
+          "name": "وجبة كبسة فردية — دار المندي",
+          "description": "كبسة مع سلطة وتمر ومشروب.",
           "image": "https://images.unsplash.com/photo-1512058564366-18510be2db19?w=800&q=80",
           "price": 48,
           "rating": 4.6,
@@ -517,9 +527,10 @@
           "isOffer": true,
           "offerPrice": null,
           "isCombo": true,
+          "offerKind": "combo",
           "comboIncludes": [
             "كبسة دجاج",
-            "سلطة طحينة",
+            "سلطة",
             "تمر",
             "مشروب"
           ],
@@ -554,10 +565,10 @@
           ]
         },
         {
-          "id": "dar-almandi-combo-2",
+          "id": "dar-almandi-offer-2",
           "restaurantId": "dar-almandi",
-          "name": "كومبو مندي عائلي",
-          "description": "مندي لحم تكفي العائلة مع إضافات.",
+          "name": "وجبة عائلية مندي — دار المندي",
+          "description": "مندي لحم تكفي العائلة مع شوربة وسلطة ومشروبين.",
           "image": "https://images.unsplash.com/photo-1544025162-d76694265947?w=800&q=80",
           "price": 149,
           "rating": 4.6,
@@ -570,6 +581,7 @@
           "isOffer": true,
           "offerPrice": null,
           "isCombo": true,
+          "offerKind": "family",
           "comboIncludes": [
             "مندي لحم",
             "شوربة",
@@ -607,22 +619,23 @@
           ]
         },
         {
-          "id": "dar-almandi-combo-3",
+          "id": "dar-almandi-offer-3",
           "restaurantId": "dar-almandi",
-          "name": "كومبو جريش وهريس",
-          "description": "أطباق نجدية كلاسيكية في باكدج واحد.",
+          "name": "عرض ضيافة: جريش وهريس وتمر — دار المندي",
+          "description": "أربعة أصناف للضيافة بسعر ثابت مع قهوة عربية.",
           "image": "https://images.unsplash.com/photo-1600891964599-f61ba0e24092?w=800&q=80",
-          "price": 45,
+          "price": 79,
           "rating": 4.6,
-          "calories": 820,
-          "protein": 28,
-          "carbs": 90,
-          "fat": 26,
+          "calories": 1100,
+          "protein": 40,
+          "carbs": 120,
+          "fat": 35,
           "category": "offers",
           "isPopular": false,
           "isOffer": true,
           "offerPrice": null,
           "isCombo": true,
+          "offerKind": "deal",
           "comboIncludes": [
             "جريش",
             "هريس صغير",
@@ -727,7 +740,8 @@
             }
           ],
           "isCombo": false,
-          "comboIncludes": []
+          "comboIncludes": [],
+          "offerKind": null
         },
         {
           "id": "kabsa-palace-2",
@@ -775,7 +789,8 @@
             }
           ],
           "isCombo": false,
-          "comboIncludes": []
+          "comboIncludes": [],
+          "offerKind": null
         },
         {
           "id": "kabsa-palace-3",
@@ -823,7 +838,8 @@
             }
           ],
           "isCombo": false,
-          "comboIncludes": []
+          "comboIncludes": [],
+          "offerKind": null
         },
         {
           "id": "kabsa-palace-4",
@@ -871,7 +887,8 @@
             }
           ],
           "isCombo": false,
-          "comboIncludes": []
+          "comboIncludes": [],
+          "offerKind": null
         },
         {
           "id": "kabsa-palace-5",
@@ -919,7 +936,8 @@
             }
           ],
           "isCombo": false,
-          "comboIncludes": []
+          "comboIncludes": [],
+          "offerKind": null
         },
         {
           "id": "kabsa-palace-6",
@@ -967,7 +985,8 @@
             }
           ],
           "isCombo": false,
-          "comboIncludes": []
+          "comboIncludes": [],
+          "offerKind": null
         },
         {
           "id": "kabsa-palace-7",
@@ -1015,7 +1034,8 @@
             }
           ],
           "isCombo": false,
-          "comboIncludes": []
+          "comboIncludes": [],
+          "offerKind": null
         },
         {
           "id": "kabsa-palace-8",
@@ -1063,7 +1083,8 @@
             }
           ],
           "isCombo": false,
-          "comboIncludes": []
+          "comboIncludes": [],
+          "offerKind": null
         },
         {
           "id": "kabsa-palace-9",
@@ -1111,7 +1132,8 @@
             }
           ],
           "isCombo": false,
-          "comboIncludes": []
+          "comboIncludes": [],
+          "offerKind": null
         },
         {
           "id": "kabsa-palace-10",
@@ -1159,13 +1181,14 @@
             }
           ],
           "isCombo": false,
-          "comboIncludes": []
+          "comboIncludes": [],
+          "offerKind": null
         },
         {
-          "id": "kabsa-palace-combo-1",
+          "id": "kabsa-palace-offer-1",
           "restaurantId": "kabsa-palace",
-          "name": "كومبو كبسة فردي",
-          "description": "كبسة دجاج مع سلطة ومشروب.",
+          "name": "وجبة كبسة فردية — قصر الكبسة",
+          "description": "كبسة مع سلطة وتمر ومشروب.",
           "image": "https://images.unsplash.com/photo-1512058564366-18510be2db19?w=800&q=80",
           "price": 48,
           "rating": 4.6,
@@ -1178,9 +1201,10 @@
           "isOffer": true,
           "offerPrice": null,
           "isCombo": true,
+          "offerKind": "combo",
           "comboIncludes": [
             "كبسة دجاج",
-            "سلطة طحينة",
+            "سلطة",
             "تمر",
             "مشروب"
           ],
@@ -1215,10 +1239,10 @@
           ]
         },
         {
-          "id": "kabsa-palace-combo-2",
+          "id": "kabsa-palace-offer-2",
           "restaurantId": "kabsa-palace",
-          "name": "كومبو مندي عائلي",
-          "description": "مندي لحم تكفي العائلة مع إضافات.",
+          "name": "وجبة عائلية مندي — قصر الكبسة",
+          "description": "مندي لحم تكفي العائلة مع شوربة وسلطة ومشروبين.",
           "image": "https://images.unsplash.com/photo-1544025162-d76694265947?w=800&q=80",
           "price": 149,
           "rating": 4.6,
@@ -1231,6 +1255,7 @@
           "isOffer": true,
           "offerPrice": null,
           "isCombo": true,
+          "offerKind": "family",
           "comboIncludes": [
             "مندي لحم",
             "شوربة",
@@ -1268,22 +1293,23 @@
           ]
         },
         {
-          "id": "kabsa-palace-combo-3",
+          "id": "kabsa-palace-offer-3",
           "restaurantId": "kabsa-palace",
-          "name": "كومبو جريش وهريس",
-          "description": "أطباق نجدية كلاسيكية في باكدج واحد.",
+          "name": "عرض ضيافة: جريش وهريس وتمر — قصر الكبسة",
+          "description": "أربعة أصناف للضيافة بسعر ثابت مع قهوة عربية.",
           "image": "https://images.unsplash.com/photo-1600891964599-f61ba0e24092?w=800&q=80",
-          "price": 45,
+          "price": 79,
           "rating": 4.6,
-          "calories": 820,
-          "protein": 28,
-          "carbs": 90,
-          "fat": 26,
+          "calories": 1100,
+          "protein": 40,
+          "carbs": 120,
+          "fat": 35,
           "category": "offers",
           "isPopular": false,
           "isOffer": true,
           "offerPrice": null,
           "isCombo": true,
+          "offerKind": "deal",
           "comboIncludes": [
             "جريش",
             "هريس صغير",
@@ -1388,7 +1414,8 @@
             }
           ],
           "isCombo": false,
-          "comboIncludes": []
+          "comboIncludes": [],
+          "offerKind": null
         },
         {
           "id": "najd-table-2",
@@ -1436,7 +1463,8 @@
             }
           ],
           "isCombo": false,
-          "comboIncludes": []
+          "comboIncludes": [],
+          "offerKind": null
         },
         {
           "id": "najd-table-3",
@@ -1484,7 +1512,8 @@
             }
           ],
           "isCombo": false,
-          "comboIncludes": []
+          "comboIncludes": [],
+          "offerKind": null
         },
         {
           "id": "najd-table-4",
@@ -1532,7 +1561,8 @@
             }
           ],
           "isCombo": false,
-          "comboIncludes": []
+          "comboIncludes": [],
+          "offerKind": null
         },
         {
           "id": "najd-table-5",
@@ -1580,7 +1610,8 @@
             }
           ],
           "isCombo": false,
-          "comboIncludes": []
+          "comboIncludes": [],
+          "offerKind": null
         },
         {
           "id": "najd-table-6",
@@ -1628,7 +1659,8 @@
             }
           ],
           "isCombo": false,
-          "comboIncludes": []
+          "comboIncludes": [],
+          "offerKind": null
         },
         {
           "id": "najd-table-7",
@@ -1676,7 +1708,8 @@
             }
           ],
           "isCombo": false,
-          "comboIncludes": []
+          "comboIncludes": [],
+          "offerKind": null
         },
         {
           "id": "najd-table-8",
@@ -1724,7 +1757,8 @@
             }
           ],
           "isCombo": false,
-          "comboIncludes": []
+          "comboIncludes": [],
+          "offerKind": null
         },
         {
           "id": "najd-table-9",
@@ -1772,7 +1806,8 @@
             }
           ],
           "isCombo": false,
-          "comboIncludes": []
+          "comboIncludes": [],
+          "offerKind": null
         },
         {
           "id": "najd-table-10",
@@ -1820,13 +1855,14 @@
             }
           ],
           "isCombo": false,
-          "comboIncludes": []
+          "comboIncludes": [],
+          "offerKind": null
         },
         {
-          "id": "najd-table-combo-1",
+          "id": "najd-table-offer-1",
           "restaurantId": "najd-table",
-          "name": "كومبو كبسة فردي",
-          "description": "كبسة دجاج مع سلطة ومشروب.",
+          "name": "وجبة كبسة فردية — سفرة نجد",
+          "description": "كبسة مع سلطة وتمر ومشروب.",
           "image": "https://images.unsplash.com/photo-1512058564366-18510be2db19?w=800&q=80",
           "price": 48,
           "rating": 4.6,
@@ -1839,9 +1875,10 @@
           "isOffer": true,
           "offerPrice": null,
           "isCombo": true,
+          "offerKind": "combo",
           "comboIncludes": [
             "كبسة دجاج",
-            "سلطة طحينة",
+            "سلطة",
             "تمر",
             "مشروب"
           ],
@@ -1876,10 +1913,10 @@
           ]
         },
         {
-          "id": "najd-table-combo-2",
+          "id": "najd-table-offer-2",
           "restaurantId": "najd-table",
-          "name": "كومبو مندي عائلي",
-          "description": "مندي لحم تكفي العائلة مع إضافات.",
+          "name": "وجبة عائلية مندي — سفرة نجد",
+          "description": "مندي لحم تكفي العائلة مع شوربة وسلطة ومشروبين.",
           "image": "https://images.unsplash.com/photo-1544025162-d76694265947?w=800&q=80",
           "price": 149,
           "rating": 4.6,
@@ -1892,6 +1929,7 @@
           "isOffer": true,
           "offerPrice": null,
           "isCombo": true,
+          "offerKind": "family",
           "comboIncludes": [
             "مندي لحم",
             "شوربة",
@@ -1929,22 +1967,23 @@
           ]
         },
         {
-          "id": "najd-table-combo-3",
+          "id": "najd-table-offer-3",
           "restaurantId": "najd-table",
-          "name": "كومبو جريش وهريس",
-          "description": "أطباق نجدية كلاسيكية في باكدج واحد.",
+          "name": "عرض ضيافة: جريش وهريس وتمر — سفرة نجد",
+          "description": "أربعة أصناف للضيافة بسعر ثابت مع قهوة عربية.",
           "image": "https://images.unsplash.com/photo-1600891964599-f61ba0e24092?w=800&q=80",
-          "price": 45,
+          "price": 79,
           "rating": 4.6,
-          "calories": 820,
-          "protein": 28,
-          "carbs": 90,
-          "fat": 26,
+          "calories": 1100,
+          "protein": 40,
+          "carbs": 120,
+          "fat": 35,
           "category": "offers",
           "isPopular": false,
           "isOffer": true,
           "offerPrice": null,
           "isCombo": true,
+          "offerKind": "deal",
           "comboIncludes": [
             "جريش",
             "هريس صغير",
@@ -2049,7 +2088,8 @@
             }
           ],
           "isCombo": false,
-          "comboIncludes": []
+          "comboIncludes": [],
+          "offerKind": null
         },
         {
           "id": "harees-house-2",
@@ -2097,7 +2137,8 @@
             }
           ],
           "isCombo": false,
-          "comboIncludes": []
+          "comboIncludes": [],
+          "offerKind": null
         },
         {
           "id": "harees-house-3",
@@ -2145,7 +2186,8 @@
             }
           ],
           "isCombo": false,
-          "comboIncludes": []
+          "comboIncludes": [],
+          "offerKind": null
         },
         {
           "id": "harees-house-4",
@@ -2193,7 +2235,8 @@
             }
           ],
           "isCombo": false,
-          "comboIncludes": []
+          "comboIncludes": [],
+          "offerKind": null
         },
         {
           "id": "harees-house-5",
@@ -2241,7 +2284,8 @@
             }
           ],
           "isCombo": false,
-          "comboIncludes": []
+          "comboIncludes": [],
+          "offerKind": null
         },
         {
           "id": "harees-house-6",
@@ -2289,7 +2333,8 @@
             }
           ],
           "isCombo": false,
-          "comboIncludes": []
+          "comboIncludes": [],
+          "offerKind": null
         },
         {
           "id": "harees-house-7",
@@ -2337,7 +2382,8 @@
             }
           ],
           "isCombo": false,
-          "comboIncludes": []
+          "comboIncludes": [],
+          "offerKind": null
         },
         {
           "id": "harees-house-8",
@@ -2385,7 +2431,8 @@
             }
           ],
           "isCombo": false,
-          "comboIncludes": []
+          "comboIncludes": [],
+          "offerKind": null
         },
         {
           "id": "harees-house-9",
@@ -2433,7 +2480,8 @@
             }
           ],
           "isCombo": false,
-          "comboIncludes": []
+          "comboIncludes": [],
+          "offerKind": null
         },
         {
           "id": "harees-house-10",
@@ -2481,13 +2529,14 @@
             }
           ],
           "isCombo": false,
-          "comboIncludes": []
+          "comboIncludes": [],
+          "offerKind": null
         },
         {
-          "id": "harees-house-combo-1",
+          "id": "harees-house-offer-1",
           "restaurantId": "harees-house",
-          "name": "كومبو كبسة فردي",
-          "description": "كبسة دجاج مع سلطة ومشروب.",
+          "name": "وجبة كبسة فردية — بيت الهريس",
+          "description": "كبسة مع سلطة وتمر ومشروب.",
           "image": "https://images.unsplash.com/photo-1512058564366-18510be2db19?w=800&q=80",
           "price": 48,
           "rating": 4.6,
@@ -2500,9 +2549,10 @@
           "isOffer": true,
           "offerPrice": null,
           "isCombo": true,
+          "offerKind": "combo",
           "comboIncludes": [
             "كبسة دجاج",
-            "سلطة طحينة",
+            "سلطة",
             "تمر",
             "مشروب"
           ],
@@ -2537,10 +2587,10 @@
           ]
         },
         {
-          "id": "harees-house-combo-2",
+          "id": "harees-house-offer-2",
           "restaurantId": "harees-house",
-          "name": "كومبو مندي عائلي",
-          "description": "مندي لحم تكفي العائلة مع إضافات.",
+          "name": "وجبة عائلية مندي — بيت الهريس",
+          "description": "مندي لحم تكفي العائلة مع شوربة وسلطة ومشروبين.",
           "image": "https://images.unsplash.com/photo-1544025162-d76694265947?w=800&q=80",
           "price": 149,
           "rating": 4.6,
@@ -2553,6 +2603,7 @@
           "isOffer": true,
           "offerPrice": null,
           "isCombo": true,
+          "offerKind": "family",
           "comboIncludes": [
             "مندي لحم",
             "شوربة",
@@ -2590,22 +2641,23 @@
           ]
         },
         {
-          "id": "harees-house-combo-3",
+          "id": "harees-house-offer-3",
           "restaurantId": "harees-house",
-          "name": "كومبو جريش وهريس",
-          "description": "أطباق نجدية كلاسيكية في باكدج واحد.",
+          "name": "عرض ضيافة: جريش وهريس وتمر — بيت الهريس",
+          "description": "أربعة أصناف للضيافة بسعر ثابت مع قهوة عربية.",
           "image": "https://images.unsplash.com/photo-1600891964599-f61ba0e24092?w=800&q=80",
-          "price": 45,
+          "price": 79,
           "rating": 4.6,
-          "calories": 820,
-          "protein": 28,
-          "carbs": 90,
-          "fat": 26,
+          "calories": 1100,
+          "protein": 40,
+          "carbs": 120,
+          "fat": 35,
           "category": "offers",
           "isPopular": false,
           "isOffer": true,
           "offerPrice": null,
           "isCombo": true,
+          "offerKind": "deal",
           "comboIncludes": [
             "جريش",
             "هريس صغير",
@@ -2710,7 +2762,8 @@
             }
           ],
           "isCombo": false,
-          "comboIncludes": []
+          "comboIncludes": [],
+          "offerKind": null
         },
         {
           "id": "jareesh-corner-2",
@@ -2758,7 +2811,8 @@
             }
           ],
           "isCombo": false,
-          "comboIncludes": []
+          "comboIncludes": [],
+          "offerKind": null
         },
         {
           "id": "jareesh-corner-3",
@@ -2806,7 +2860,8 @@
             }
           ],
           "isCombo": false,
-          "comboIncludes": []
+          "comboIncludes": [],
+          "offerKind": null
         },
         {
           "id": "jareesh-corner-4",
@@ -2854,7 +2909,8 @@
             }
           ],
           "isCombo": false,
-          "comboIncludes": []
+          "comboIncludes": [],
+          "offerKind": null
         },
         {
           "id": "jareesh-corner-5",
@@ -2902,7 +2958,8 @@
             }
           ],
           "isCombo": false,
-          "comboIncludes": []
+          "comboIncludes": [],
+          "offerKind": null
         },
         {
           "id": "jareesh-corner-6",
@@ -2950,7 +3007,8 @@
             }
           ],
           "isCombo": false,
-          "comboIncludes": []
+          "comboIncludes": [],
+          "offerKind": null
         },
         {
           "id": "jareesh-corner-7",
@@ -2998,7 +3056,8 @@
             }
           ],
           "isCombo": false,
-          "comboIncludes": []
+          "comboIncludes": [],
+          "offerKind": null
         },
         {
           "id": "jareesh-corner-8",
@@ -3046,7 +3105,8 @@
             }
           ],
           "isCombo": false,
-          "comboIncludes": []
+          "comboIncludes": [],
+          "offerKind": null
         },
         {
           "id": "jareesh-corner-9",
@@ -3094,7 +3154,8 @@
             }
           ],
           "isCombo": false,
-          "comboIncludes": []
+          "comboIncludes": [],
+          "offerKind": null
         },
         {
           "id": "jareesh-corner-10",
@@ -3142,13 +3203,14 @@
             }
           ],
           "isCombo": false,
-          "comboIncludes": []
+          "comboIncludes": [],
+          "offerKind": null
         },
         {
-          "id": "jareesh-corner-combo-1",
+          "id": "jareesh-corner-offer-1",
           "restaurantId": "jareesh-corner",
-          "name": "كومبو كبسة فردي",
-          "description": "كبسة دجاج مع سلطة ومشروب.",
+          "name": "وجبة كبسة فردية — ركن الجريش",
+          "description": "كبسة مع سلطة وتمر ومشروب.",
           "image": "https://images.unsplash.com/photo-1512058564366-18510be2db19?w=800&q=80",
           "price": 48,
           "rating": 4.6,
@@ -3161,9 +3223,10 @@
           "isOffer": true,
           "offerPrice": null,
           "isCombo": true,
+          "offerKind": "combo",
           "comboIncludes": [
             "كبسة دجاج",
-            "سلطة طحينة",
+            "سلطة",
             "تمر",
             "مشروب"
           ],
@@ -3198,10 +3261,10 @@
           ]
         },
         {
-          "id": "jareesh-corner-combo-2",
+          "id": "jareesh-corner-offer-2",
           "restaurantId": "jareesh-corner",
-          "name": "كومبو مندي عائلي",
-          "description": "مندي لحم تكفي العائلة مع إضافات.",
+          "name": "وجبة عائلية مندي — ركن الجريش",
+          "description": "مندي لحم تكفي العائلة مع شوربة وسلطة ومشروبين.",
           "image": "https://images.unsplash.com/photo-1544025162-d76694265947?w=800&q=80",
           "price": 149,
           "rating": 4.6,
@@ -3214,6 +3277,7 @@
           "isOffer": true,
           "offerPrice": null,
           "isCombo": true,
+          "offerKind": "family",
           "comboIncludes": [
             "مندي لحم",
             "شوربة",
@@ -3251,22 +3315,23 @@
           ]
         },
         {
-          "id": "jareesh-corner-combo-3",
+          "id": "jareesh-corner-offer-3",
           "restaurantId": "jareesh-corner",
-          "name": "كومبو جريش وهريس",
-          "description": "أطباق نجدية كلاسيكية في باكدج واحد.",
+          "name": "عرض ضيافة: جريش وهريس وتمر — ركن الجريش",
+          "description": "أربعة أصناف للضيافة بسعر ثابت مع قهوة عربية.",
           "image": "https://images.unsplash.com/photo-1600891964599-f61ba0e24092?w=800&q=80",
-          "price": 45,
+          "price": 79,
           "rating": 4.6,
-          "calories": 820,
-          "protein": 28,
-          "carbs": 90,
-          "fat": 26,
+          "calories": 1100,
+          "protein": 40,
+          "carbs": 120,
+          "fat": 35,
           "category": "offers",
           "isPopular": false,
           "isOffer": true,
           "offerPrice": null,
           "isCombo": true,
+          "offerKind": "deal",
           "comboIncludes": [
             "جريش",
             "هريس صغير",
@@ -3371,7 +3436,8 @@
             }
           ],
           "isCombo": false,
-          "comboIncludes": []
+          "comboIncludes": [],
+          "offerKind": null
         },
         {
           "id": "samak-wa-ruz-2",
@@ -3419,7 +3485,8 @@
             }
           ],
           "isCombo": false,
-          "comboIncludes": []
+          "comboIncludes": [],
+          "offerKind": null
         },
         {
           "id": "samak-wa-ruz-3",
@@ -3467,7 +3534,8 @@
             }
           ],
           "isCombo": false,
-          "comboIncludes": []
+          "comboIncludes": [],
+          "offerKind": null
         },
         {
           "id": "samak-wa-ruz-4",
@@ -3515,7 +3583,8 @@
             }
           ],
           "isCombo": false,
-          "comboIncludes": []
+          "comboIncludes": [],
+          "offerKind": null
         },
         {
           "id": "samak-wa-ruz-5",
@@ -3563,7 +3632,8 @@
             }
           ],
           "isCombo": false,
-          "comboIncludes": []
+          "comboIncludes": [],
+          "offerKind": null
         },
         {
           "id": "samak-wa-ruz-6",
@@ -3611,7 +3681,8 @@
             }
           ],
           "isCombo": false,
-          "comboIncludes": []
+          "comboIncludes": [],
+          "offerKind": null
         },
         {
           "id": "samak-wa-ruz-7",
@@ -3659,7 +3730,8 @@
             }
           ],
           "isCombo": false,
-          "comboIncludes": []
+          "comboIncludes": [],
+          "offerKind": null
         },
         {
           "id": "samak-wa-ruz-8",
@@ -3707,7 +3779,8 @@
             }
           ],
           "isCombo": false,
-          "comboIncludes": []
+          "comboIncludes": [],
+          "offerKind": null
         },
         {
           "id": "samak-wa-ruz-9",
@@ -3755,7 +3828,8 @@
             }
           ],
           "isCombo": false,
-          "comboIncludes": []
+          "comboIncludes": [],
+          "offerKind": null
         },
         {
           "id": "samak-wa-ruz-10",
@@ -3803,13 +3877,14 @@
             }
           ],
           "isCombo": false,
-          "comboIncludes": []
+          "comboIncludes": [],
+          "offerKind": null
         },
         {
-          "id": "samak-wa-ruz-combo-1",
+          "id": "samak-wa-ruz-offer-1",
           "restaurantId": "samak-wa-ruz",
-          "name": "كومبو كبسة فردي",
-          "description": "كبسة دجاج مع سلطة ومشروب.",
+          "name": "وجبة كبسة فردية — سمك وأرز",
+          "description": "كبسة مع سلطة وتمر ومشروب.",
           "image": "https://images.unsplash.com/photo-1512058564366-18510be2db19?w=800&q=80",
           "price": 48,
           "rating": 4.6,
@@ -3822,9 +3897,10 @@
           "isOffer": true,
           "offerPrice": null,
           "isCombo": true,
+          "offerKind": "combo",
           "comboIncludes": [
             "كبسة دجاج",
-            "سلطة طحينة",
+            "سلطة",
             "تمر",
             "مشروب"
           ],
@@ -3859,10 +3935,10 @@
           ]
         },
         {
-          "id": "samak-wa-ruz-combo-2",
+          "id": "samak-wa-ruz-offer-2",
           "restaurantId": "samak-wa-ruz",
-          "name": "كومبو مندي عائلي",
-          "description": "مندي لحم تكفي العائلة مع إضافات.",
+          "name": "وجبة عائلية مندي — سمك وأرز",
+          "description": "مندي لحم تكفي العائلة مع شوربة وسلطة ومشروبين.",
           "image": "https://images.unsplash.com/photo-1544025162-d76694265947?w=800&q=80",
           "price": 149,
           "rating": 4.6,
@@ -3875,6 +3951,7 @@
           "isOffer": true,
           "offerPrice": null,
           "isCombo": true,
+          "offerKind": "family",
           "comboIncludes": [
             "مندي لحم",
             "شوربة",
@@ -3912,22 +3989,23 @@
           ]
         },
         {
-          "id": "samak-wa-ruz-combo-3",
+          "id": "samak-wa-ruz-offer-3",
           "restaurantId": "samak-wa-ruz",
-          "name": "كومبو جريش وهريس",
-          "description": "أطباق نجدية كلاسيكية في باكدج واحد.",
+          "name": "عرض ضيافة: جريش وهريس وتمر — سمك وأرز",
+          "description": "أربعة أصناف للضيافة بسعر ثابت مع قهوة عربية.",
           "image": "https://images.unsplash.com/photo-1600891964599-f61ba0e24092?w=800&q=80",
-          "price": 45,
+          "price": 79,
           "rating": 4.6,
-          "calories": 820,
-          "protein": 28,
-          "carbs": 90,
-          "fat": 26,
+          "calories": 1100,
+          "protein": 40,
+          "carbs": 120,
+          "fat": 35,
           "category": "offers",
           "isPopular": false,
           "isOffer": true,
           "offerPrice": null,
           "isCombo": true,
+          "offerKind": "deal",
           "comboIncludes": [
             "جريش",
             "هريس صغير",
@@ -4032,7 +4110,8 @@
             }
           ],
           "isCombo": false,
-          "comboIncludes": []
+          "comboIncludes": [],
+          "offerKind": null
         },
         {
           "id": "qursan-kitchen-2",
@@ -4080,7 +4159,8 @@
             }
           ],
           "isCombo": false,
-          "comboIncludes": []
+          "comboIncludes": [],
+          "offerKind": null
         },
         {
           "id": "qursan-kitchen-3",
@@ -4128,7 +4208,8 @@
             }
           ],
           "isCombo": false,
-          "comboIncludes": []
+          "comboIncludes": [],
+          "offerKind": null
         },
         {
           "id": "qursan-kitchen-4",
@@ -4176,7 +4257,8 @@
             }
           ],
           "isCombo": false,
-          "comboIncludes": []
+          "comboIncludes": [],
+          "offerKind": null
         },
         {
           "id": "qursan-kitchen-5",
@@ -4224,7 +4306,8 @@
             }
           ],
           "isCombo": false,
-          "comboIncludes": []
+          "comboIncludes": [],
+          "offerKind": null
         },
         {
           "id": "qursan-kitchen-6",
@@ -4272,7 +4355,8 @@
             }
           ],
           "isCombo": false,
-          "comboIncludes": []
+          "comboIncludes": [],
+          "offerKind": null
         },
         {
           "id": "qursan-kitchen-7",
@@ -4320,7 +4404,8 @@
             }
           ],
           "isCombo": false,
-          "comboIncludes": []
+          "comboIncludes": [],
+          "offerKind": null
         },
         {
           "id": "qursan-kitchen-8",
@@ -4368,7 +4453,8 @@
             }
           ],
           "isCombo": false,
-          "comboIncludes": []
+          "comboIncludes": [],
+          "offerKind": null
         },
         {
           "id": "qursan-kitchen-9",
@@ -4416,7 +4502,8 @@
             }
           ],
           "isCombo": false,
-          "comboIncludes": []
+          "comboIncludes": [],
+          "offerKind": null
         },
         {
           "id": "qursan-kitchen-10",
@@ -4464,13 +4551,14 @@
             }
           ],
           "isCombo": false,
-          "comboIncludes": []
+          "comboIncludes": [],
+          "offerKind": null
         },
         {
-          "id": "qursan-kitchen-combo-1",
+          "id": "qursan-kitchen-offer-1",
           "restaurantId": "qursan-kitchen",
-          "name": "كومبو كبسة فردي",
-          "description": "كبسة دجاج مع سلطة ومشروب.",
+          "name": "وجبة كبسة فردية — مطبخ القرصان",
+          "description": "كبسة مع سلطة وتمر ومشروب.",
           "image": "https://images.unsplash.com/photo-1512058564366-18510be2db19?w=800&q=80",
           "price": 48,
           "rating": 4.6,
@@ -4483,9 +4571,10 @@
           "isOffer": true,
           "offerPrice": null,
           "isCombo": true,
+          "offerKind": "combo",
           "comboIncludes": [
             "كبسة دجاج",
-            "سلطة طحينة",
+            "سلطة",
             "تمر",
             "مشروب"
           ],
@@ -4520,10 +4609,10 @@
           ]
         },
         {
-          "id": "qursan-kitchen-combo-2",
+          "id": "qursan-kitchen-offer-2",
           "restaurantId": "qursan-kitchen",
-          "name": "كومبو مندي عائلي",
-          "description": "مندي لحم تكفي العائلة مع إضافات.",
+          "name": "وجبة عائلية مندي — مطبخ القرصان",
+          "description": "مندي لحم تكفي العائلة مع شوربة وسلطة ومشروبين.",
           "image": "https://images.unsplash.com/photo-1544025162-d76694265947?w=800&q=80",
           "price": 149,
           "rating": 4.6,
@@ -4536,6 +4625,7 @@
           "isOffer": true,
           "offerPrice": null,
           "isCombo": true,
+          "offerKind": "family",
           "comboIncludes": [
             "مندي لحم",
             "شوربة",
@@ -4573,22 +4663,23 @@
           ]
         },
         {
-          "id": "qursan-kitchen-combo-3",
+          "id": "qursan-kitchen-offer-3",
           "restaurantId": "qursan-kitchen",
-          "name": "كومبو جريش وهريس",
-          "description": "أطباق نجدية كلاسيكية في باكدج واحد.",
+          "name": "عرض ضيافة: جريش وهريس وتمر — مطبخ القرصان",
+          "description": "أربعة أصناف للضيافة بسعر ثابت مع قهوة عربية.",
           "image": "https://images.unsplash.com/photo-1600891964599-f61ba0e24092?w=800&q=80",
-          "price": 45,
+          "price": 79,
           "rating": 4.6,
-          "calories": 820,
-          "protein": 28,
-          "carbs": 90,
-          "fat": 26,
+          "calories": 1100,
+          "protein": 40,
+          "carbs": 120,
+          "fat": 35,
           "category": "offers",
           "isPopular": false,
           "isOffer": true,
           "offerPrice": null,
           "isCombo": true,
+          "offerKind": "deal",
           "comboIncludes": [
             "جريش",
             "هريس صغير",
@@ -4693,7 +4784,8 @@
             }
           ],
           "isCombo": false,
-          "comboIncludes": []
+          "comboIncludes": [],
+          "offerKind": null
         },
         {
           "id": "madafa-aloud-2",
@@ -4741,7 +4833,8 @@
             }
           ],
           "isCombo": false,
-          "comboIncludes": []
+          "comboIncludes": [],
+          "offerKind": null
         },
         {
           "id": "madafa-aloud-3",
@@ -4789,7 +4882,8 @@
             }
           ],
           "isCombo": false,
-          "comboIncludes": []
+          "comboIncludes": [],
+          "offerKind": null
         },
         {
           "id": "madafa-aloud-4",
@@ -4837,7 +4931,8 @@
             }
           ],
           "isCombo": false,
-          "comboIncludes": []
+          "comboIncludes": [],
+          "offerKind": null
         },
         {
           "id": "madafa-aloud-5",
@@ -4885,7 +4980,8 @@
             }
           ],
           "isCombo": false,
-          "comboIncludes": []
+          "comboIncludes": [],
+          "offerKind": null
         },
         {
           "id": "madafa-aloud-6",
@@ -4933,7 +5029,8 @@
             }
           ],
           "isCombo": false,
-          "comboIncludes": []
+          "comboIncludes": [],
+          "offerKind": null
         },
         {
           "id": "madafa-aloud-7",
@@ -4981,7 +5078,8 @@
             }
           ],
           "isCombo": false,
-          "comboIncludes": []
+          "comboIncludes": [],
+          "offerKind": null
         },
         {
           "id": "madafa-aloud-8",
@@ -5029,7 +5127,8 @@
             }
           ],
           "isCombo": false,
-          "comboIncludes": []
+          "comboIncludes": [],
+          "offerKind": null
         },
         {
           "id": "madafa-aloud-9",
@@ -5077,7 +5176,8 @@
             }
           ],
           "isCombo": false,
-          "comboIncludes": []
+          "comboIncludes": [],
+          "offerKind": null
         },
         {
           "id": "madafa-aloud-10",
@@ -5125,13 +5225,14 @@
             }
           ],
           "isCombo": false,
-          "comboIncludes": []
+          "comboIncludes": [],
+          "offerKind": null
         },
         {
-          "id": "madafa-aloud-combo-1",
+          "id": "madafa-aloud-offer-1",
           "restaurantId": "madafa-aloud",
-          "name": "كومبو كبسة فردي",
-          "description": "كبسة دجاج مع سلطة ومشروب.",
+          "name": "وجبة كبسة فردية — مضافة العود",
+          "description": "كبسة مع سلطة وتمر ومشروب.",
           "image": "https://images.unsplash.com/photo-1512058564366-18510be2db19?w=800&q=80",
           "price": 48,
           "rating": 4.6,
@@ -5144,9 +5245,10 @@
           "isOffer": true,
           "offerPrice": null,
           "isCombo": true,
+          "offerKind": "combo",
           "comboIncludes": [
             "كبسة دجاج",
-            "سلطة طحينة",
+            "سلطة",
             "تمر",
             "مشروب"
           ],
@@ -5181,10 +5283,10 @@
           ]
         },
         {
-          "id": "madafa-aloud-combo-2",
+          "id": "madafa-aloud-offer-2",
           "restaurantId": "madafa-aloud",
-          "name": "كومبو مندي عائلي",
-          "description": "مندي لحم تكفي العائلة مع إضافات.",
+          "name": "وجبة عائلية مندي — مضافة العود",
+          "description": "مندي لحم تكفي العائلة مع شوربة وسلطة ومشروبين.",
           "image": "https://images.unsplash.com/photo-1544025162-d76694265947?w=800&q=80",
           "price": 149,
           "rating": 4.6,
@@ -5197,6 +5299,7 @@
           "isOffer": true,
           "offerPrice": null,
           "isCombo": true,
+          "offerKind": "family",
           "comboIncludes": [
             "مندي لحم",
             "شوربة",
@@ -5234,22 +5337,23 @@
           ]
         },
         {
-          "id": "madafa-aloud-combo-3",
+          "id": "madafa-aloud-offer-3",
           "restaurantId": "madafa-aloud",
-          "name": "كومبو جريش وهريس",
-          "description": "أطباق نجدية كلاسيكية في باكدج واحد.",
+          "name": "عرض ضيافة: جريش وهريس وتمر — مضافة العود",
+          "description": "أربعة أصناف للضيافة بسعر ثابت مع قهوة عربية.",
           "image": "https://images.unsplash.com/photo-1600891964599-f61ba0e24092?w=800&q=80",
-          "price": 45,
+          "price": 79,
           "rating": 4.6,
-          "calories": 820,
-          "protein": 28,
-          "carbs": 90,
-          "fat": 26,
+          "calories": 1100,
+          "protein": 40,
+          "carbs": 120,
+          "fat": 35,
           "category": "offers",
           "isPopular": false,
           "isOffer": true,
           "offerPrice": null,
           "isCombo": true,
+          "offerKind": "deal",
           "comboIncludes": [
             "جريش",
             "هريس صغير",

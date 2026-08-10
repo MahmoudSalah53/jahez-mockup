@@ -39,7 +39,8 @@
           "cashbackPercent": null,
           "addons": [],
           "isCombo": false,
-          "comboIncludes": []
+          "comboIncludes": [],
+          "offerKind": null
         },
         {
           "id": "luqma-express-mart-2",
@@ -61,7 +62,8 @@
           "cashbackPercent": null,
           "addons": [],
           "isCombo": false,
-          "comboIncludes": []
+          "comboIncludes": [],
+          "offerKind": null
         },
         {
           "id": "luqma-express-mart-3",
@@ -83,7 +85,8 @@
           "cashbackPercent": null,
           "addons": [],
           "isCombo": false,
-          "comboIncludes": []
+          "comboIncludes": [],
+          "offerKind": null
         },
         {
           "id": "luqma-express-mart-4",
@@ -105,7 +108,8 @@
           "cashbackPercent": null,
           "addons": [],
           "isCombo": false,
-          "comboIncludes": []
+          "comboIncludes": [],
+          "offerKind": null
         },
         {
           "id": "luqma-express-mart-5",
@@ -127,7 +131,8 @@
           "cashbackPercent": null,
           "addons": [],
           "isCombo": false,
-          "comboIncludes": []
+          "comboIncludes": [],
+          "offerKind": null
         },
         {
           "id": "luqma-express-mart-6",
@@ -149,7 +154,8 @@
           "cashbackPercent": null,
           "addons": [],
           "isCombo": false,
-          "comboIncludes": []
+          "comboIncludes": [],
+          "offerKind": null
         },
         {
           "id": "luqma-express-mart-7",
@@ -171,7 +177,8 @@
           "cashbackPercent": 15,
           "addons": [],
           "isCombo": false,
-          "comboIncludes": []
+          "comboIncludes": [],
+          "offerKind": null
         },
         {
           "id": "luqma-express-mart-8",
@@ -193,7 +200,8 @@
           "cashbackPercent": null,
           "addons": [],
           "isCombo": false,
-          "comboIncludes": []
+          "comboIncludes": [],
+          "offerKind": null
         },
         {
           "id": "luqma-express-mart-9",
@@ -215,7 +223,8 @@
           "cashbackPercent": null,
           "addons": [],
           "isCombo": false,
-          "comboIncludes": []
+          "comboIncludes": [],
+          "offerKind": null
         },
         {
           "id": "luqma-express-mart-10",
@@ -237,13 +246,14 @@
           "cashbackPercent": null,
           "addons": [],
           "isCombo": false,
-          "comboIncludes": []
+          "comboIncludes": [],
+          "offerKind": null
         },
         {
-          "id": "luqma-express-mart-combo-1",
+          "id": "luqma-express-mart-offer-1",
           "restaurantId": "luqma-express-mart",
-          "name": "باكدج فطور البيت",
-          "description": "مستلزمات فطور سريعة ليوم واحد.",
+          "name": "عرض فطور البيت — ماركت لقمة السريع",
+          "description": "توست وبيض وجبنة وحليب — أربعة أصناف بسعر ثابت.",
           "image": "https://images.unsplash.com/photo-1504674900247-0877df9cc836?w=800&q=80",
           "price": 29,
           "rating": 4.6,
@@ -256,9 +266,10 @@
           "isOffer": true,
           "offerPrice": null,
           "isCombo": true,
+          "offerKind": "deal",
           "comboIncludes": [
             "خبز توست",
-            "بيض ٦ حبات",
+            "بيض",
             "جبنة",
             "حليب"
           ],
@@ -267,11 +278,37 @@
           "addons": []
         },
         {
-          "id": "luqma-express-mart-combo-2",
+          "id": "luqma-express-mart-offer-2",
           "restaurantId": "luqma-express-mart",
-          "name": "باكدج ضيافة خفيفة",
-          "description": "مشروبات وتمور للضيوف.",
+          "name": "عرض مياه مع عصير — ماركت لقمة السريع",
+          "description": "مياه ٦ عبوات مع عصير بسعر واحد.",
           "image": "https://images.unsplash.com/photo-1482049016688-2d3e1b311543?w=800&q=80",
+          "price": 14,
+          "rating": 4.6,
+          "calories": 0,
+          "protein": 0,
+          "carbs": 0,
+          "fat": 0,
+          "category": "offers",
+          "isPopular": false,
+          "isOffer": true,
+          "offerPrice": null,
+          "isCombo": true,
+          "offerKind": "deal",
+          "comboIncludes": [
+            "مياه ٦ عبوات",
+            "عصير"
+          ],
+          "spicyOption": false,
+          "cashbackPercent": null,
+          "addons": []
+        },
+        {
+          "id": "luqma-express-mart-offer-3",
+          "restaurantId": "luqma-express-mart",
+          "name": "عرض ضيافة للعائلة — ماركت لقمة السريع",
+          "description": "تمر ومياه وعصير وقهوة للضيوف.",
+          "image": "https://images.unsplash.com/photo-1498837167922-ddd27525d352?w=800&q=80",
           "price": 45,
           "rating": 4.6,
           "calories": 0,
@@ -283,38 +320,12 @@
           "isOffer": true,
           "offerPrice": null,
           "isCombo": true,
+          "offerKind": "family",
           "comboIncludes": [
-            "مياه ٦ عبوات",
-            "تمر سكري",
+            "تمر",
+            "مياه",
             "عصير",
             "قهوة"
-          ],
-          "spicyOption": false,
-          "cashbackPercent": null,
-          "addons": []
-        },
-        {
-          "id": "luqma-express-mart-combo-3",
-          "restaurantId": "luqma-express-mart",
-          "name": "باكدج سناك عائلي",
-          "description": "سناكات ومشروبات للتجمّع.",
-          "image": "https://images.unsplash.com/photo-1498837167922-ddd27525d352?w=800&q=80",
-          "price": 26,
-          "rating": 4.6,
-          "calories": 0,
-          "protein": 0,
-          "carbs": 0,
-          "fat": 0,
-          "category": "offers",
-          "isPopular": false,
-          "isOffer": true,
-          "offerPrice": null,
-          "isCombo": true,
-          "comboIncludes": [
-            "شيبس عائلي",
-            "عصير",
-            "مياه",
-            "مناديل"
           ],
           "spicyOption": false,
           "cashbackPercent": null,
@@ -361,7 +372,8 @@
           "cashbackPercent": null,
           "addons": [],
           "isCombo": false,
-          "comboIncludes": []
+          "comboIncludes": [],
+          "offerKind": null
         },
         {
           "id": "bayt-almanzil-2",
@@ -383,7 +395,8 @@
           "cashbackPercent": null,
           "addons": [],
           "isCombo": false,
-          "comboIncludes": []
+          "comboIncludes": [],
+          "offerKind": null
         },
         {
           "id": "bayt-almanzil-3",
@@ -405,7 +418,8 @@
           "cashbackPercent": null,
           "addons": [],
           "isCombo": false,
-          "comboIncludes": []
+          "comboIncludes": [],
+          "offerKind": null
         },
         {
           "id": "bayt-almanzil-4",
@@ -427,7 +441,8 @@
           "cashbackPercent": 10,
           "addons": [],
           "isCombo": false,
-          "comboIncludes": []
+          "comboIncludes": [],
+          "offerKind": null
         },
         {
           "id": "bayt-almanzil-5",
@@ -449,7 +464,8 @@
           "cashbackPercent": null,
           "addons": [],
           "isCombo": false,
-          "comboIncludes": []
+          "comboIncludes": [],
+          "offerKind": null
         },
         {
           "id": "bayt-almanzil-6",
@@ -471,7 +487,8 @@
           "cashbackPercent": null,
           "addons": [],
           "isCombo": false,
-          "comboIncludes": []
+          "comboIncludes": [],
+          "offerKind": null
         },
         {
           "id": "bayt-almanzil-7",
@@ -493,7 +510,8 @@
           "cashbackPercent": null,
           "addons": [],
           "isCombo": false,
-          "comboIncludes": []
+          "comboIncludes": [],
+          "offerKind": null
         },
         {
           "id": "bayt-almanzil-8",
@@ -515,7 +533,8 @@
           "cashbackPercent": null,
           "addons": [],
           "isCombo": false,
-          "comboIncludes": []
+          "comboIncludes": [],
+          "offerKind": null
         },
         {
           "id": "bayt-almanzil-9",
@@ -537,7 +556,8 @@
           "cashbackPercent": null,
           "addons": [],
           "isCombo": false,
-          "comboIncludes": []
+          "comboIncludes": [],
+          "offerKind": null
         },
         {
           "id": "bayt-almanzil-10",
@@ -559,13 +579,14 @@
           "cashbackPercent": 10,
           "addons": [],
           "isCombo": false,
-          "comboIncludes": []
+          "comboIncludes": [],
+          "offerKind": null
         },
         {
-          "id": "bayt-almanzil-combo-1",
+          "id": "bayt-almanzil-offer-1",
           "restaurantId": "bayt-almanzil",
-          "name": "باكدج فطور البيت",
-          "description": "مستلزمات فطور سريعة ليوم واحد.",
+          "name": "عرض فطور البيت — بيت المنزل",
+          "description": "توست وبيض وجبنة وحليب — أربعة أصناف بسعر ثابت.",
           "image": "https://images.unsplash.com/photo-1504674900247-0877df9cc836?w=800&q=80",
           "price": 29,
           "rating": 4.6,
@@ -578,9 +599,10 @@
           "isOffer": true,
           "offerPrice": null,
           "isCombo": true,
+          "offerKind": "deal",
           "comboIncludes": [
             "خبز توست",
-            "بيض ٦ حبات",
+            "بيض",
             "جبنة",
             "حليب"
           ],
@@ -589,11 +611,37 @@
           "addons": []
         },
         {
-          "id": "bayt-almanzil-combo-2",
+          "id": "bayt-almanzil-offer-2",
           "restaurantId": "bayt-almanzil",
-          "name": "باكدج ضيافة خفيفة",
-          "description": "مشروبات وتمور للضيوف.",
+          "name": "عرض مياه مع عصير — بيت المنزل",
+          "description": "مياه ٦ عبوات مع عصير بسعر واحد.",
           "image": "https://images.unsplash.com/photo-1482049016688-2d3e1b311543?w=800&q=80",
+          "price": 14,
+          "rating": 4.6,
+          "calories": 0,
+          "protein": 0,
+          "carbs": 0,
+          "fat": 0,
+          "category": "offers",
+          "isPopular": false,
+          "isOffer": true,
+          "offerPrice": null,
+          "isCombo": true,
+          "offerKind": "deal",
+          "comboIncludes": [
+            "مياه ٦ عبوات",
+            "عصير"
+          ],
+          "spicyOption": false,
+          "cashbackPercent": null,
+          "addons": []
+        },
+        {
+          "id": "bayt-almanzil-offer-3",
+          "restaurantId": "bayt-almanzil",
+          "name": "عرض ضيافة للعائلة — بيت المنزل",
+          "description": "تمر ومياه وعصير وقهوة للضيوف.",
+          "image": "https://images.unsplash.com/photo-1498837167922-ddd27525d352?w=800&q=80",
           "price": 45,
           "rating": 4.6,
           "calories": 0,
@@ -605,38 +653,12 @@
           "isOffer": true,
           "offerPrice": null,
           "isCombo": true,
+          "offerKind": "family",
           "comboIncludes": [
-            "مياه ٦ عبوات",
-            "تمر سكري",
+            "تمر",
+            "مياه",
             "عصير",
             "قهوة"
-          ],
-          "spicyOption": false,
-          "cashbackPercent": null,
-          "addons": []
-        },
-        {
-          "id": "bayt-almanzil-combo-3",
-          "restaurantId": "bayt-almanzil",
-          "name": "باكدج سناك عائلي",
-          "description": "سناكات ومشروبات للتجمّع.",
-          "image": "https://images.unsplash.com/photo-1498837167922-ddd27525d352?w=800&q=80",
-          "price": 26,
-          "rating": 4.6,
-          "calories": 0,
-          "protein": 0,
-          "carbs": 0,
-          "fat": 0,
-          "category": "offers",
-          "isPopular": false,
-          "isOffer": true,
-          "offerPrice": null,
-          "isCombo": true,
-          "comboIncludes": [
-            "شيبس عائلي",
-            "عصير",
-            "مياه",
-            "مناديل"
           ],
           "spicyOption": false,
           "cashbackPercent": null,
@@ -683,7 +705,8 @@
           "cashbackPercent": null,
           "addons": [],
           "isCombo": false,
-          "comboIncludes": []
+          "comboIncludes": [],
+          "offerKind": null
         },
         {
           "id": "daily-basket-2",
@@ -705,7 +728,8 @@
           "cashbackPercent": null,
           "addons": [],
           "isCombo": false,
-          "comboIncludes": []
+          "comboIncludes": [],
+          "offerKind": null
         },
         {
           "id": "daily-basket-3",
@@ -727,7 +751,8 @@
           "cashbackPercent": null,
           "addons": [],
           "isCombo": false,
-          "comboIncludes": []
+          "comboIncludes": [],
+          "offerKind": null
         },
         {
           "id": "daily-basket-4",
@@ -749,7 +774,8 @@
           "cashbackPercent": null,
           "addons": [],
           "isCombo": false,
-          "comboIncludes": []
+          "comboIncludes": [],
+          "offerKind": null
         },
         {
           "id": "daily-basket-5",
@@ -771,7 +797,8 @@
           "cashbackPercent": null,
           "addons": [],
           "isCombo": false,
-          "comboIncludes": []
+          "comboIncludes": [],
+          "offerKind": null
         },
         {
           "id": "daily-basket-6",
@@ -793,7 +820,8 @@
           "cashbackPercent": null,
           "addons": [],
           "isCombo": false,
-          "comboIncludes": []
+          "comboIncludes": [],
+          "offerKind": null
         },
         {
           "id": "daily-basket-7",
@@ -815,7 +843,8 @@
           "cashbackPercent": null,
           "addons": [],
           "isCombo": false,
-          "comboIncludes": []
+          "comboIncludes": [],
+          "offerKind": null
         },
         {
           "id": "daily-basket-8",
@@ -837,7 +866,8 @@
           "cashbackPercent": null,
           "addons": [],
           "isCombo": false,
-          "comboIncludes": []
+          "comboIncludes": [],
+          "offerKind": null
         },
         {
           "id": "daily-basket-9",
@@ -859,7 +889,8 @@
           "cashbackPercent": null,
           "addons": [],
           "isCombo": false,
-          "comboIncludes": []
+          "comboIncludes": [],
+          "offerKind": null
         },
         {
           "id": "daily-basket-10",
@@ -881,13 +912,14 @@
           "cashbackPercent": null,
           "addons": [],
           "isCombo": false,
-          "comboIncludes": []
+          "comboIncludes": [],
+          "offerKind": null
         },
         {
-          "id": "daily-basket-combo-1",
+          "id": "daily-basket-offer-1",
           "restaurantId": "daily-basket",
-          "name": "باكدج فطور البيت",
-          "description": "مستلزمات فطور سريعة ليوم واحد.",
+          "name": "عرض فطور البيت — السلة اليومية",
+          "description": "توست وبيض وجبنة وحليب — أربعة أصناف بسعر ثابت.",
           "image": "https://images.unsplash.com/photo-1504674900247-0877df9cc836?w=800&q=80",
           "price": 29,
           "rating": 4.6,
@@ -900,9 +932,10 @@
           "isOffer": true,
           "offerPrice": null,
           "isCombo": true,
+          "offerKind": "deal",
           "comboIncludes": [
             "خبز توست",
-            "بيض ٦ حبات",
+            "بيض",
             "جبنة",
             "حليب"
           ],
@@ -911,11 +944,37 @@
           "addons": []
         },
         {
-          "id": "daily-basket-combo-2",
+          "id": "daily-basket-offer-2",
           "restaurantId": "daily-basket",
-          "name": "باكدج ضيافة خفيفة",
-          "description": "مشروبات وتمور للضيوف.",
+          "name": "عرض مياه مع عصير — السلة اليومية",
+          "description": "مياه ٦ عبوات مع عصير بسعر واحد.",
           "image": "https://images.unsplash.com/photo-1482049016688-2d3e1b311543?w=800&q=80",
+          "price": 14,
+          "rating": 4.6,
+          "calories": 0,
+          "protein": 0,
+          "carbs": 0,
+          "fat": 0,
+          "category": "offers",
+          "isPopular": false,
+          "isOffer": true,
+          "offerPrice": null,
+          "isCombo": true,
+          "offerKind": "deal",
+          "comboIncludes": [
+            "مياه ٦ عبوات",
+            "عصير"
+          ],
+          "spicyOption": false,
+          "cashbackPercent": null,
+          "addons": []
+        },
+        {
+          "id": "daily-basket-offer-3",
+          "restaurantId": "daily-basket",
+          "name": "عرض ضيافة للعائلة — السلة اليومية",
+          "description": "تمر ومياه وعصير وقهوة للضيوف.",
+          "image": "https://images.unsplash.com/photo-1498837167922-ddd27525d352?w=800&q=80",
           "price": 45,
           "rating": 4.6,
           "calories": 0,
@@ -927,38 +986,12 @@
           "isOffer": true,
           "offerPrice": null,
           "isCombo": true,
+          "offerKind": "family",
           "comboIncludes": [
-            "مياه ٦ عبوات",
-            "تمر سكري",
+            "تمر",
+            "مياه",
             "عصير",
             "قهوة"
-          ],
-          "spicyOption": false,
-          "cashbackPercent": null,
-          "addons": []
-        },
-        {
-          "id": "daily-basket-combo-3",
-          "restaurantId": "daily-basket",
-          "name": "باكدج سناك عائلي",
-          "description": "سناكات ومشروبات للتجمّع.",
-          "image": "https://images.unsplash.com/photo-1498837167922-ddd27525d352?w=800&q=80",
-          "price": 26,
-          "rating": 4.6,
-          "calories": 0,
-          "protein": 0,
-          "carbs": 0,
-          "fat": 0,
-          "category": "offers",
-          "isPopular": false,
-          "isOffer": true,
-          "offerPrice": null,
-          "isCombo": true,
-          "comboIncludes": [
-            "شيبس عائلي",
-            "عصير",
-            "مياه",
-            "مناديل"
           ],
           "spicyOption": false,
           "cashbackPercent": null,
@@ -1005,7 +1038,8 @@
           "cashbackPercent": null,
           "addons": [],
           "isCombo": false,
-          "comboIncludes": []
+          "comboIncludes": [],
+          "offerKind": null
         },
         {
           "id": "fresh-aisle-2",
@@ -1027,7 +1061,8 @@
           "cashbackPercent": null,
           "addons": [],
           "isCombo": false,
-          "comboIncludes": []
+          "comboIncludes": [],
+          "offerKind": null
         },
         {
           "id": "fresh-aisle-3",
@@ -1049,7 +1084,8 @@
           "cashbackPercent": null,
           "addons": [],
           "isCombo": false,
-          "comboIncludes": []
+          "comboIncludes": [],
+          "offerKind": null
         },
         {
           "id": "fresh-aisle-4",
@@ -1071,7 +1107,8 @@
           "cashbackPercent": null,
           "addons": [],
           "isCombo": false,
-          "comboIncludes": []
+          "comboIncludes": [],
+          "offerKind": null
         },
         {
           "id": "fresh-aisle-5",
@@ -1093,7 +1130,8 @@
           "cashbackPercent": null,
           "addons": [],
           "isCombo": false,
-          "comboIncludes": []
+          "comboIncludes": [],
+          "offerKind": null
         },
         {
           "id": "fresh-aisle-6",
@@ -1115,7 +1153,8 @@
           "cashbackPercent": 15,
           "addons": [],
           "isCombo": false,
-          "comboIncludes": []
+          "comboIncludes": [],
+          "offerKind": null
         },
         {
           "id": "fresh-aisle-7",
@@ -1137,7 +1176,8 @@
           "cashbackPercent": null,
           "addons": [],
           "isCombo": false,
-          "comboIncludes": []
+          "comboIncludes": [],
+          "offerKind": null
         },
         {
           "id": "fresh-aisle-8",
@@ -1159,7 +1199,8 @@
           "cashbackPercent": null,
           "addons": [],
           "isCombo": false,
-          "comboIncludes": []
+          "comboIncludes": [],
+          "offerKind": null
         },
         {
           "id": "fresh-aisle-9",
@@ -1181,7 +1222,8 @@
           "cashbackPercent": null,
           "addons": [],
           "isCombo": false,
-          "comboIncludes": []
+          "comboIncludes": [],
+          "offerKind": null
         },
         {
           "id": "fresh-aisle-10",
@@ -1203,13 +1245,14 @@
           "cashbackPercent": null,
           "addons": [],
           "isCombo": false,
-          "comboIncludes": []
+          "comboIncludes": [],
+          "offerKind": null
         },
         {
-          "id": "fresh-aisle-combo-1",
+          "id": "fresh-aisle-offer-1",
           "restaurantId": "fresh-aisle",
-          "name": "باكدج فطور البيت",
-          "description": "مستلزمات فطور سريعة ليوم واحد.",
+          "name": "عرض فطور البيت — ممر الطازج",
+          "description": "توست وبيض وجبنة وحليب — أربعة أصناف بسعر ثابت.",
           "image": "https://images.unsplash.com/photo-1504674900247-0877df9cc836?w=800&q=80",
           "price": 29,
           "rating": 4.6,
@@ -1222,9 +1265,10 @@
           "isOffer": true,
           "offerPrice": null,
           "isCombo": true,
+          "offerKind": "deal",
           "comboIncludes": [
             "خبز توست",
-            "بيض ٦ حبات",
+            "بيض",
             "جبنة",
             "حليب"
           ],
@@ -1233,11 +1277,37 @@
           "addons": []
         },
         {
-          "id": "fresh-aisle-combo-2",
+          "id": "fresh-aisle-offer-2",
           "restaurantId": "fresh-aisle",
-          "name": "باكدج ضيافة خفيفة",
-          "description": "مشروبات وتمور للضيوف.",
+          "name": "عرض مياه مع عصير — ممر الطازج",
+          "description": "مياه ٦ عبوات مع عصير بسعر واحد.",
           "image": "https://images.unsplash.com/photo-1482049016688-2d3e1b311543?w=800&q=80",
+          "price": 14,
+          "rating": 4.6,
+          "calories": 0,
+          "protein": 0,
+          "carbs": 0,
+          "fat": 0,
+          "category": "offers",
+          "isPopular": false,
+          "isOffer": true,
+          "offerPrice": null,
+          "isCombo": true,
+          "offerKind": "deal",
+          "comboIncludes": [
+            "مياه ٦ عبوات",
+            "عصير"
+          ],
+          "spicyOption": false,
+          "cashbackPercent": null,
+          "addons": []
+        },
+        {
+          "id": "fresh-aisle-offer-3",
+          "restaurantId": "fresh-aisle",
+          "name": "عرض ضيافة للعائلة — ممر الطازج",
+          "description": "تمر ومياه وعصير وقهوة للضيوف.",
+          "image": "https://images.unsplash.com/photo-1498837167922-ddd27525d352?w=800&q=80",
           "price": 45,
           "rating": 4.6,
           "calories": 0,
@@ -1249,38 +1319,12 @@
           "isOffer": true,
           "offerPrice": null,
           "isCombo": true,
+          "offerKind": "family",
           "comboIncludes": [
-            "مياه ٦ عبوات",
-            "تمر سكري",
+            "تمر",
+            "مياه",
             "عصير",
             "قهوة"
-          ],
-          "spicyOption": false,
-          "cashbackPercent": null,
-          "addons": []
-        },
-        {
-          "id": "fresh-aisle-combo-3",
-          "restaurantId": "fresh-aisle",
-          "name": "باكدج سناك عائلي",
-          "description": "سناكات ومشروبات للتجمّع.",
-          "image": "https://images.unsplash.com/photo-1498837167922-ddd27525d352?w=800&q=80",
-          "price": 26,
-          "rating": 4.6,
-          "calories": 0,
-          "protein": 0,
-          "carbs": 0,
-          "fat": 0,
-          "category": "offers",
-          "isPopular": false,
-          "isOffer": true,
-          "offerPrice": null,
-          "isCombo": true,
-          "comboIncludes": [
-            "شيبس عائلي",
-            "عصير",
-            "مياه",
-            "مناديل"
           ],
           "spicyOption": false,
           "cashbackPercent": null,
@@ -1327,7 +1371,8 @@
           "cashbackPercent": null,
           "addons": [],
           "isCombo": false,
-          "comboIncludes": []
+          "comboIncludes": [],
+          "offerKind": null
         },
         {
           "id": "pantry-plus-2",
@@ -1349,7 +1394,8 @@
           "cashbackPercent": null,
           "addons": [],
           "isCombo": false,
-          "comboIncludes": []
+          "comboIncludes": [],
+          "offerKind": null
         },
         {
           "id": "pantry-plus-3",
@@ -1371,7 +1417,8 @@
           "cashbackPercent": null,
           "addons": [],
           "isCombo": false,
-          "comboIncludes": []
+          "comboIncludes": [],
+          "offerKind": null
         },
         {
           "id": "pantry-plus-4",
@@ -1393,7 +1440,8 @@
           "cashbackPercent": 15,
           "addons": [],
           "isCombo": false,
-          "comboIncludes": []
+          "comboIncludes": [],
+          "offerKind": null
         },
         {
           "id": "pantry-plus-5",
@@ -1415,7 +1463,8 @@
           "cashbackPercent": null,
           "addons": [],
           "isCombo": false,
-          "comboIncludes": []
+          "comboIncludes": [],
+          "offerKind": null
         },
         {
           "id": "pantry-plus-6",
@@ -1437,7 +1486,8 @@
           "cashbackPercent": null,
           "addons": [],
           "isCombo": false,
-          "comboIncludes": []
+          "comboIncludes": [],
+          "offerKind": null
         },
         {
           "id": "pantry-plus-7",
@@ -1459,7 +1509,8 @@
           "cashbackPercent": null,
           "addons": [],
           "isCombo": false,
-          "comboIncludes": []
+          "comboIncludes": [],
+          "offerKind": null
         },
         {
           "id": "pantry-plus-8",
@@ -1481,7 +1532,8 @@
           "cashbackPercent": null,
           "addons": [],
           "isCombo": false,
-          "comboIncludes": []
+          "comboIncludes": [],
+          "offerKind": null
         },
         {
           "id": "pantry-plus-9",
@@ -1503,7 +1555,8 @@
           "cashbackPercent": null,
           "addons": [],
           "isCombo": false,
-          "comboIncludes": []
+          "comboIncludes": [],
+          "offerKind": null
         },
         {
           "id": "pantry-plus-10",
@@ -1525,13 +1578,14 @@
           "cashbackPercent": null,
           "addons": [],
           "isCombo": false,
-          "comboIncludes": []
+          "comboIncludes": [],
+          "offerKind": null
         },
         {
-          "id": "pantry-plus-combo-1",
+          "id": "pantry-plus-offer-1",
           "restaurantId": "pantry-plus",
-          "name": "باكدج فطور البيت",
-          "description": "مستلزمات فطور سريعة ليوم واحد.",
+          "name": "عرض فطور البيت — المونة بلس",
+          "description": "توست وبيض وجبنة وحليب — أربعة أصناف بسعر ثابت.",
           "image": "https://images.unsplash.com/photo-1504674900247-0877df9cc836?w=800&q=80",
           "price": 29,
           "rating": 4.6,
@@ -1544,9 +1598,10 @@
           "isOffer": true,
           "offerPrice": null,
           "isCombo": true,
+          "offerKind": "deal",
           "comboIncludes": [
             "خبز توست",
-            "بيض ٦ حبات",
+            "بيض",
             "جبنة",
             "حليب"
           ],
@@ -1555,11 +1610,37 @@
           "addons": []
         },
         {
-          "id": "pantry-plus-combo-2",
+          "id": "pantry-plus-offer-2",
           "restaurantId": "pantry-plus",
-          "name": "باكدج ضيافة خفيفة",
-          "description": "مشروبات وتمور للضيوف.",
+          "name": "عرض مياه مع عصير — المونة بلس",
+          "description": "مياه ٦ عبوات مع عصير بسعر واحد.",
           "image": "https://images.unsplash.com/photo-1482049016688-2d3e1b311543?w=800&q=80",
+          "price": 14,
+          "rating": 4.6,
+          "calories": 0,
+          "protein": 0,
+          "carbs": 0,
+          "fat": 0,
+          "category": "offers",
+          "isPopular": false,
+          "isOffer": true,
+          "offerPrice": null,
+          "isCombo": true,
+          "offerKind": "deal",
+          "comboIncludes": [
+            "مياه ٦ عبوات",
+            "عصير"
+          ],
+          "spicyOption": false,
+          "cashbackPercent": null,
+          "addons": []
+        },
+        {
+          "id": "pantry-plus-offer-3",
+          "restaurantId": "pantry-plus",
+          "name": "عرض ضيافة للعائلة — المونة بلس",
+          "description": "تمر ومياه وعصير وقهوة للضيوف.",
+          "image": "https://images.unsplash.com/photo-1498837167922-ddd27525d352?w=800&q=80",
           "price": 45,
           "rating": 4.6,
           "calories": 0,
@@ -1571,38 +1652,12 @@
           "isOffer": true,
           "offerPrice": null,
           "isCombo": true,
+          "offerKind": "family",
           "comboIncludes": [
-            "مياه ٦ عبوات",
-            "تمر سكري",
+            "تمر",
+            "مياه",
             "عصير",
             "قهوة"
-          ],
-          "spicyOption": false,
-          "cashbackPercent": null,
-          "addons": []
-        },
-        {
-          "id": "pantry-plus-combo-3",
-          "restaurantId": "pantry-plus",
-          "name": "باكدج سناك عائلي",
-          "description": "سناكات ومشروبات للتجمّع.",
-          "image": "https://images.unsplash.com/photo-1498837167922-ddd27525d352?w=800&q=80",
-          "price": 26,
-          "rating": 4.6,
-          "calories": 0,
-          "protein": 0,
-          "carbs": 0,
-          "fat": 0,
-          "category": "offers",
-          "isPopular": false,
-          "isOffer": true,
-          "offerPrice": null,
-          "isCombo": true,
-          "comboIncludes": [
-            "شيبس عائلي",
-            "عصير",
-            "مياه",
-            "مناديل"
           ],
           "spicyOption": false,
           "cashbackPercent": null,
@@ -1649,7 +1704,8 @@
           "cashbackPercent": 10,
           "addons": [],
           "isCombo": false,
-          "comboIncludes": []
+          "comboIncludes": [],
+          "offerKind": null
         },
         {
           "id": "corner-staples-2",
@@ -1671,7 +1727,8 @@
           "cashbackPercent": null,
           "addons": [],
           "isCombo": false,
-          "comboIncludes": []
+          "comboIncludes": [],
+          "offerKind": null
         },
         {
           "id": "corner-staples-3",
@@ -1693,7 +1750,8 @@
           "cashbackPercent": null,
           "addons": [],
           "isCombo": false,
-          "comboIncludes": []
+          "comboIncludes": [],
+          "offerKind": null
         },
         {
           "id": "corner-staples-4",
@@ -1715,7 +1773,8 @@
           "cashbackPercent": null,
           "addons": [],
           "isCombo": false,
-          "comboIncludes": []
+          "comboIncludes": [],
+          "offerKind": null
         },
         {
           "id": "corner-staples-5",
@@ -1737,7 +1796,8 @@
           "cashbackPercent": null,
           "addons": [],
           "isCombo": false,
-          "comboIncludes": []
+          "comboIncludes": [],
+          "offerKind": null
         },
         {
           "id": "corner-staples-6",
@@ -1759,7 +1819,8 @@
           "cashbackPercent": null,
           "addons": [],
           "isCombo": false,
-          "comboIncludes": []
+          "comboIncludes": [],
+          "offerKind": null
         },
         {
           "id": "corner-staples-7",
@@ -1781,7 +1842,8 @@
           "cashbackPercent": null,
           "addons": [],
           "isCombo": false,
-          "comboIncludes": []
+          "comboIncludes": [],
+          "offerKind": null
         },
         {
           "id": "corner-staples-8",
@@ -1803,7 +1865,8 @@
           "cashbackPercent": null,
           "addons": [],
           "isCombo": false,
-          "comboIncludes": []
+          "comboIncludes": [],
+          "offerKind": null
         },
         {
           "id": "corner-staples-9",
@@ -1825,7 +1888,8 @@
           "cashbackPercent": null,
           "addons": [],
           "isCombo": false,
-          "comboIncludes": []
+          "comboIncludes": [],
+          "offerKind": null
         },
         {
           "id": "corner-staples-10",
@@ -1847,13 +1911,14 @@
           "cashbackPercent": null,
           "addons": [],
           "isCombo": false,
-          "comboIncludes": []
+          "comboIncludes": [],
+          "offerKind": null
         },
         {
-          "id": "corner-staples-combo-1",
+          "id": "corner-staples-offer-1",
           "restaurantId": "corner-staples",
-          "name": "باكدج فطور البيت",
-          "description": "مستلزمات فطور سريعة ليوم واحد.",
+          "name": "عرض فطور البيت — أساسيات الزاوية",
+          "description": "توست وبيض وجبنة وحليب — أربعة أصناف بسعر ثابت.",
           "image": "https://images.unsplash.com/photo-1504674900247-0877df9cc836?w=800&q=80",
           "price": 29,
           "rating": 4.6,
@@ -1866,9 +1931,10 @@
           "isOffer": true,
           "offerPrice": null,
           "isCombo": true,
+          "offerKind": "deal",
           "comboIncludes": [
             "خبز توست",
-            "بيض ٦ حبات",
+            "بيض",
             "جبنة",
             "حليب"
           ],
@@ -1877,11 +1943,37 @@
           "addons": []
         },
         {
-          "id": "corner-staples-combo-2",
+          "id": "corner-staples-offer-2",
           "restaurantId": "corner-staples",
-          "name": "باكدج ضيافة خفيفة",
-          "description": "مشروبات وتمور للضيوف.",
+          "name": "عرض مياه مع عصير — أساسيات الزاوية",
+          "description": "مياه ٦ عبوات مع عصير بسعر واحد.",
           "image": "https://images.unsplash.com/photo-1482049016688-2d3e1b311543?w=800&q=80",
+          "price": 14,
+          "rating": 4.6,
+          "calories": 0,
+          "protein": 0,
+          "carbs": 0,
+          "fat": 0,
+          "category": "offers",
+          "isPopular": false,
+          "isOffer": true,
+          "offerPrice": null,
+          "isCombo": true,
+          "offerKind": "deal",
+          "comboIncludes": [
+            "مياه ٦ عبوات",
+            "عصير"
+          ],
+          "spicyOption": false,
+          "cashbackPercent": null,
+          "addons": []
+        },
+        {
+          "id": "corner-staples-offer-3",
+          "restaurantId": "corner-staples",
+          "name": "عرض ضيافة للعائلة — أساسيات الزاوية",
+          "description": "تمر ومياه وعصير وقهوة للضيوف.",
+          "image": "https://images.unsplash.com/photo-1498837167922-ddd27525d352?w=800&q=80",
           "price": 45,
           "rating": 4.6,
           "calories": 0,
@@ -1893,38 +1985,12 @@
           "isOffer": true,
           "offerPrice": null,
           "isCombo": true,
+          "offerKind": "family",
           "comboIncludes": [
-            "مياه ٦ عبوات",
-            "تمر سكري",
+            "تمر",
+            "مياه",
             "عصير",
             "قهوة"
-          ],
-          "spicyOption": false,
-          "cashbackPercent": null,
-          "addons": []
-        },
-        {
-          "id": "corner-staples-combo-3",
-          "restaurantId": "corner-staples",
-          "name": "باكدج سناك عائلي",
-          "description": "سناكات ومشروبات للتجمّع.",
-          "image": "https://images.unsplash.com/photo-1498837167922-ddd27525d352?w=800&q=80",
-          "price": 26,
-          "rating": 4.6,
-          "calories": 0,
-          "protein": 0,
-          "carbs": 0,
-          "fat": 0,
-          "category": "offers",
-          "isPopular": false,
-          "isOffer": true,
-          "offerPrice": null,
-          "isCombo": true,
-          "comboIncludes": [
-            "شيبس عائلي",
-            "عصير",
-            "مياه",
-            "مناديل"
           ],
           "spicyOption": false,
           "cashbackPercent": null,
@@ -1971,7 +2037,8 @@
           "cashbackPercent": null,
           "addons": [],
           "isCombo": false,
-          "comboIncludes": []
+          "comboIncludes": [],
+          "offerKind": null
         },
         {
           "id": "family-cart-2",
@@ -1993,7 +2060,8 @@
           "cashbackPercent": null,
           "addons": [],
           "isCombo": false,
-          "comboIncludes": []
+          "comboIncludes": [],
+          "offerKind": null
         },
         {
           "id": "family-cart-3",
@@ -2015,7 +2083,8 @@
           "cashbackPercent": null,
           "addons": [],
           "isCombo": false,
-          "comboIncludes": []
+          "comboIncludes": [],
+          "offerKind": null
         },
         {
           "id": "family-cart-4",
@@ -2037,7 +2106,8 @@
           "cashbackPercent": null,
           "addons": [],
           "isCombo": false,
-          "comboIncludes": []
+          "comboIncludes": [],
+          "offerKind": null
         },
         {
           "id": "family-cart-5",
@@ -2059,7 +2129,8 @@
           "cashbackPercent": null,
           "addons": [],
           "isCombo": false,
-          "comboIncludes": []
+          "comboIncludes": [],
+          "offerKind": null
         },
         {
           "id": "family-cart-6",
@@ -2081,7 +2152,8 @@
           "cashbackPercent": null,
           "addons": [],
           "isCombo": false,
-          "comboIncludes": []
+          "comboIncludes": [],
+          "offerKind": null
         },
         {
           "id": "family-cart-7",
@@ -2103,7 +2175,8 @@
           "cashbackPercent": 5,
           "addons": [],
           "isCombo": false,
-          "comboIncludes": []
+          "comboIncludes": [],
+          "offerKind": null
         },
         {
           "id": "family-cart-8",
@@ -2125,7 +2198,8 @@
           "cashbackPercent": null,
           "addons": [],
           "isCombo": false,
-          "comboIncludes": []
+          "comboIncludes": [],
+          "offerKind": null
         },
         {
           "id": "family-cart-9",
@@ -2147,7 +2221,8 @@
           "cashbackPercent": null,
           "addons": [],
           "isCombo": false,
-          "comboIncludes": []
+          "comboIncludes": [],
+          "offerKind": null
         },
         {
           "id": "family-cart-10",
@@ -2169,13 +2244,14 @@
           "cashbackPercent": null,
           "addons": [],
           "isCombo": false,
-          "comboIncludes": []
+          "comboIncludes": [],
+          "offerKind": null
         },
         {
-          "id": "family-cart-combo-1",
+          "id": "family-cart-offer-1",
           "restaurantId": "family-cart",
-          "name": "باكدج فطور البيت",
-          "description": "مستلزمات فطور سريعة ليوم واحد.",
+          "name": "عرض فطور البيت — عربة العائلة",
+          "description": "توست وبيض وجبنة وحليب — أربعة أصناف بسعر ثابت.",
           "image": "https://images.unsplash.com/photo-1504674900247-0877df9cc836?w=800&q=80",
           "price": 29,
           "rating": 4.6,
@@ -2188,9 +2264,10 @@
           "isOffer": true,
           "offerPrice": null,
           "isCombo": true,
+          "offerKind": "deal",
           "comboIncludes": [
             "خبز توست",
-            "بيض ٦ حبات",
+            "بيض",
             "جبنة",
             "حليب"
           ],
@@ -2199,11 +2276,37 @@
           "addons": []
         },
         {
-          "id": "family-cart-combo-2",
+          "id": "family-cart-offer-2",
           "restaurantId": "family-cart",
-          "name": "باكدج ضيافة خفيفة",
-          "description": "مشروبات وتمور للضيوف.",
+          "name": "عرض مياه مع عصير — عربة العائلة",
+          "description": "مياه ٦ عبوات مع عصير بسعر واحد.",
           "image": "https://images.unsplash.com/photo-1482049016688-2d3e1b311543?w=800&q=80",
+          "price": 14,
+          "rating": 4.6,
+          "calories": 0,
+          "protein": 0,
+          "carbs": 0,
+          "fat": 0,
+          "category": "offers",
+          "isPopular": false,
+          "isOffer": true,
+          "offerPrice": null,
+          "isCombo": true,
+          "offerKind": "deal",
+          "comboIncludes": [
+            "مياه ٦ عبوات",
+            "عصير"
+          ],
+          "spicyOption": false,
+          "cashbackPercent": null,
+          "addons": []
+        },
+        {
+          "id": "family-cart-offer-3",
+          "restaurantId": "family-cart",
+          "name": "عرض ضيافة للعائلة — عربة العائلة",
+          "description": "تمر ومياه وعصير وقهوة للضيوف.",
+          "image": "https://images.unsplash.com/photo-1498837167922-ddd27525d352?w=800&q=80",
           "price": 45,
           "rating": 4.6,
           "calories": 0,
@@ -2215,38 +2318,12 @@
           "isOffer": true,
           "offerPrice": null,
           "isCombo": true,
+          "offerKind": "family",
           "comboIncludes": [
-            "مياه ٦ عبوات",
-            "تمر سكري",
+            "تمر",
+            "مياه",
             "عصير",
             "قهوة"
-          ],
-          "spicyOption": false,
-          "cashbackPercent": null,
-          "addons": []
-        },
-        {
-          "id": "family-cart-combo-3",
-          "restaurantId": "family-cart",
-          "name": "باكدج سناك عائلي",
-          "description": "سناكات ومشروبات للتجمّع.",
-          "image": "https://images.unsplash.com/photo-1498837167922-ddd27525d352?w=800&q=80",
-          "price": 26,
-          "rating": 4.6,
-          "calories": 0,
-          "protein": 0,
-          "carbs": 0,
-          "fat": 0,
-          "category": "offers",
-          "isPopular": false,
-          "isOffer": true,
-          "offerPrice": null,
-          "isCombo": true,
-          "comboIncludes": [
-            "شيبس عائلي",
-            "عصير",
-            "مياه",
-            "مناديل"
           ],
           "spicyOption": false,
           "cashbackPercent": null,
@@ -2293,7 +2370,8 @@
           "cashbackPercent": null,
           "addons": [],
           "isCombo": false,
-          "comboIncludes": []
+          "comboIncludes": [],
+          "offerKind": null
         },
         {
           "id": "quick-shelf-2",
@@ -2315,7 +2393,8 @@
           "cashbackPercent": 5,
           "addons": [],
           "isCombo": false,
-          "comboIncludes": []
+          "comboIncludes": [],
+          "offerKind": null
         },
         {
           "id": "quick-shelf-3",
@@ -2337,7 +2416,8 @@
           "cashbackPercent": null,
           "addons": [],
           "isCombo": false,
-          "comboIncludes": []
+          "comboIncludes": [],
+          "offerKind": null
         },
         {
           "id": "quick-shelf-4",
@@ -2359,7 +2439,8 @@
           "cashbackPercent": null,
           "addons": [],
           "isCombo": false,
-          "comboIncludes": []
+          "comboIncludes": [],
+          "offerKind": null
         },
         {
           "id": "quick-shelf-5",
@@ -2381,7 +2462,8 @@
           "cashbackPercent": null,
           "addons": [],
           "isCombo": false,
-          "comboIncludes": []
+          "comboIncludes": [],
+          "offerKind": null
         },
         {
           "id": "quick-shelf-6",
@@ -2403,7 +2485,8 @@
           "cashbackPercent": null,
           "addons": [],
           "isCombo": false,
-          "comboIncludes": []
+          "comboIncludes": [],
+          "offerKind": null
         },
         {
           "id": "quick-shelf-7",
@@ -2425,7 +2508,8 @@
           "cashbackPercent": null,
           "addons": [],
           "isCombo": false,
-          "comboIncludes": []
+          "comboIncludes": [],
+          "offerKind": null
         },
         {
           "id": "quick-shelf-8",
@@ -2447,7 +2531,8 @@
           "cashbackPercent": null,
           "addons": [],
           "isCombo": false,
-          "comboIncludes": []
+          "comboIncludes": [],
+          "offerKind": null
         },
         {
           "id": "quick-shelf-9",
@@ -2469,7 +2554,8 @@
           "cashbackPercent": null,
           "addons": [],
           "isCombo": false,
-          "comboIncludes": []
+          "comboIncludes": [],
+          "offerKind": null
         },
         {
           "id": "quick-shelf-10",
@@ -2491,13 +2577,14 @@
           "cashbackPercent": null,
           "addons": [],
           "isCombo": false,
-          "comboIncludes": []
+          "comboIncludes": [],
+          "offerKind": null
         },
         {
-          "id": "quick-shelf-combo-1",
+          "id": "quick-shelf-offer-1",
           "restaurantId": "quick-shelf",
-          "name": "باكدج فطور البيت",
-          "description": "مستلزمات فطور سريعة ليوم واحد.",
+          "name": "عرض فطور البيت — الرف السريع",
+          "description": "توست وبيض وجبنة وحليب — أربعة أصناف بسعر ثابت.",
           "image": "https://images.unsplash.com/photo-1504674900247-0877df9cc836?w=800&q=80",
           "price": 29,
           "rating": 4.6,
@@ -2510,9 +2597,10 @@
           "isOffer": true,
           "offerPrice": null,
           "isCombo": true,
+          "offerKind": "deal",
           "comboIncludes": [
             "خبز توست",
-            "بيض ٦ حبات",
+            "بيض",
             "جبنة",
             "حليب"
           ],
@@ -2521,11 +2609,37 @@
           "addons": []
         },
         {
-          "id": "quick-shelf-combo-2",
+          "id": "quick-shelf-offer-2",
           "restaurantId": "quick-shelf",
-          "name": "باكدج ضيافة خفيفة",
-          "description": "مشروبات وتمور للضيوف.",
+          "name": "عرض مياه مع عصير — الرف السريع",
+          "description": "مياه ٦ عبوات مع عصير بسعر واحد.",
           "image": "https://images.unsplash.com/photo-1482049016688-2d3e1b311543?w=800&q=80",
+          "price": 14,
+          "rating": 4.6,
+          "calories": 0,
+          "protein": 0,
+          "carbs": 0,
+          "fat": 0,
+          "category": "offers",
+          "isPopular": false,
+          "isOffer": true,
+          "offerPrice": null,
+          "isCombo": true,
+          "offerKind": "deal",
+          "comboIncludes": [
+            "مياه ٦ عبوات",
+            "عصير"
+          ],
+          "spicyOption": false,
+          "cashbackPercent": null,
+          "addons": []
+        },
+        {
+          "id": "quick-shelf-offer-3",
+          "restaurantId": "quick-shelf",
+          "name": "عرض ضيافة للعائلة — الرف السريع",
+          "description": "تمر ومياه وعصير وقهوة للضيوف.",
+          "image": "https://images.unsplash.com/photo-1498837167922-ddd27525d352?w=800&q=80",
           "price": 45,
           "rating": 4.6,
           "calories": 0,
@@ -2537,38 +2651,12 @@
           "isOffer": true,
           "offerPrice": null,
           "isCombo": true,
+          "offerKind": "family",
           "comboIncludes": [
-            "مياه ٦ عبوات",
-            "تمر سكري",
+            "تمر",
+            "مياه",
             "عصير",
             "قهوة"
-          ],
-          "spicyOption": false,
-          "cashbackPercent": null,
-          "addons": []
-        },
-        {
-          "id": "quick-shelf-combo-3",
-          "restaurantId": "quick-shelf",
-          "name": "باكدج سناك عائلي",
-          "description": "سناكات ومشروبات للتجمّع.",
-          "image": "https://images.unsplash.com/photo-1498837167922-ddd27525d352?w=800&q=80",
-          "price": 26,
-          "rating": 4.6,
-          "calories": 0,
-          "protein": 0,
-          "carbs": 0,
-          "fat": 0,
-          "category": "offers",
-          "isPopular": false,
-          "isOffer": true,
-          "offerPrice": null,
-          "isCombo": true,
-          "comboIncludes": [
-            "شيبس عائلي",
-            "عصير",
-            "مياه",
-            "مناديل"
           ],
           "spicyOption": false,
           "cashbackPercent": null,

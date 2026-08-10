@@ -65,7 +65,8 @@
             }
           ],
           "isCombo": false,
-          "comboIncludes": []
+          "comboIncludes": [],
+          "offerKind": null
         },
         {
           "id": "tokyo-bite-2",
@@ -113,7 +114,8 @@
             }
           ],
           "isCombo": false,
-          "comboIncludes": []
+          "comboIncludes": [],
+          "offerKind": null
         },
         {
           "id": "tokyo-bite-3",
@@ -161,7 +163,8 @@
             }
           ],
           "isCombo": false,
-          "comboIncludes": []
+          "comboIncludes": [],
+          "offerKind": null
         },
         {
           "id": "tokyo-bite-4",
@@ -209,7 +212,8 @@
             }
           ],
           "isCombo": false,
-          "comboIncludes": []
+          "comboIncludes": [],
+          "offerKind": null
         },
         {
           "id": "tokyo-bite-5",
@@ -257,7 +261,8 @@
             }
           ],
           "isCombo": false,
-          "comboIncludes": []
+          "comboIncludes": [],
+          "offerKind": null
         },
         {
           "id": "tokyo-bite-6",
@@ -305,7 +310,8 @@
             }
           ],
           "isCombo": false,
-          "comboIncludes": []
+          "comboIncludes": [],
+          "offerKind": null
         },
         {
           "id": "tokyo-bite-7",
@@ -353,7 +359,8 @@
             }
           ],
           "isCombo": false,
-          "comboIncludes": []
+          "comboIncludes": [],
+          "offerKind": null
         },
         {
           "id": "tokyo-bite-8",
@@ -401,7 +408,8 @@
             }
           ],
           "isCombo": false,
-          "comboIncludes": []
+          "comboIncludes": [],
+          "offerKind": null
         },
         {
           "id": "tokyo-bite-9",
@@ -449,7 +457,8 @@
             }
           ],
           "isCombo": false,
-          "comboIncludes": []
+          "comboIncludes": [],
+          "offerKind": null
         },
         {
           "id": "tokyo-bite-10",
@@ -497,13 +506,14 @@
             }
           ],
           "isCombo": false,
-          "comboIncludes": []
+          "comboIncludes": [],
+          "offerKind": null
         },
         {
-          "id": "tokyo-bite-combo-1",
+          "id": "tokyo-bite-offer-1",
           "restaurantId": "tokyo-bite",
-          "name": "كومبو سوشي للمبتدئين",
-          "description": "رولز مع ميسو ومشروب.",
+          "name": "وجبة سوشي خفيفة — لقمة طوكيو",
+          "description": "رولز مع شوربة وشاي.",
           "image": "https://images.unsplash.com/photo-1579584425555-c3ce17fd4351?w=800&q=80",
           "price": 78,
           "rating": 4.6,
@@ -516,10 +526,11 @@
           "isOffer": true,
           "offerPrice": null,
           "isCombo": true,
+          "offerKind": "combo",
           "comboIncludes": [
             "رول كاليفورنيا",
-            "سوشي سالمون ×٤",
-            "شوربة ميسو",
+            "سوشي ×٤",
+            "ميسو",
             "شاي أخضر"
           ],
           "spicyOption": false,
@@ -553,27 +564,27 @@
           ]
         },
         {
-          "id": "tokyo-bite-combo-2",
+          "id": "tokyo-bite-offer-2",
           "restaurantId": "tokyo-bite",
-          "name": "كومبو رامن وجبة",
-          "description": "رامن مع جيوزا ومشروب.",
+          "name": "عرض رامن مع جيوزا — لقمة طوكيو",
+          "description": "رامن وإدامامي وأربع قطع جيوزا بسعر واحد.",
           "image": "https://images.unsplash.com/photo-1553621042-f6e147245754?w=800&q=80",
-          "price": 68,
+          "price": 58,
           "rating": 4.6,
-          "calories": 980,
-          "protein": 38,
-          "carbs": 95,
-          "fat": 32,
+          "calories": 880,
+          "protein": 36,
+          "carbs": 90,
+          "fat": 28,
           "category": "offers",
           "isPopular": false,
           "isOffer": true,
           "offerPrice": null,
           "isCombo": true,
+          "offerKind": "deal",
           "comboIncludes": [
             "رامن",
             "جيوزا ×٤",
-            "إدامامي",
-            "مشروب"
+            "إدامامي"
           ],
           "spicyOption": false,
           "cashbackPercent": null,
@@ -606,27 +617,28 @@
           ]
         },
         {
-          "id": "tokyo-bite-combo-3",
+          "id": "tokyo-bite-offer-3",
           "restaurantId": "tokyo-bite",
-          "name": "كومبو ترياكي كامل",
-          "description": "دجاج ترياكي مع أرز وسلطة.",
+          "name": "تشكيلة ساشيمي بسعر ثابت — لقمة طوكيو",
+          "description": "ساشيمي مشكل مع زنجبيل وواسابي وأرز للمشاركة.",
           "image": "https://images.unsplash.com/photo-1611143669185-af224c5e3252?w=800&q=80",
-          "price": 58,
+          "price": 129,
           "rating": 4.6,
-          "calories": 860,
-          "protein": 40,
-          "carbs": 88,
+          "calories": 640,
+          "protein": 55,
+          "carbs": 40,
           "fat": 20,
           "category": "offers",
           "isPopular": false,
           "isOffer": true,
           "offerPrice": null,
           "isCombo": true,
+          "offerKind": "deal",
           "comboIncludes": [
-            "دجاج ترياكي",
-            "أرز ياباني",
-            "سلطة سي ويد",
-            "مشروب"
+            "ساشيمي مشكل",
+            "زنجبيل",
+            "واسابي",
+            "أرز"
           ],
           "spicyOption": false,
           "cashbackPercent": null,
@@ -725,7 +737,8 @@
             }
           ],
           "isCombo": false,
-          "comboIncludes": []
+          "comboIncludes": [],
+          "offerKind": null
         },
         {
           "id": "sakura-roll-2",
@@ -773,7 +786,8 @@
             }
           ],
           "isCombo": false,
-          "comboIncludes": []
+          "comboIncludes": [],
+          "offerKind": null
         },
         {
           "id": "sakura-roll-3",
@@ -821,7 +835,8 @@
             }
           ],
           "isCombo": false,
-          "comboIncludes": []
+          "comboIncludes": [],
+          "offerKind": null
         },
         {
           "id": "sakura-roll-4",
@@ -869,7 +884,8 @@
             }
           ],
           "isCombo": false,
-          "comboIncludes": []
+          "comboIncludes": [],
+          "offerKind": null
         },
         {
           "id": "sakura-roll-5",
@@ -917,7 +933,8 @@
             }
           ],
           "isCombo": false,
-          "comboIncludes": []
+          "comboIncludes": [],
+          "offerKind": null
         },
         {
           "id": "sakura-roll-6",
@@ -965,7 +982,8 @@
             }
           ],
           "isCombo": false,
-          "comboIncludes": []
+          "comboIncludes": [],
+          "offerKind": null
         },
         {
           "id": "sakura-roll-7",
@@ -1013,7 +1031,8 @@
             }
           ],
           "isCombo": false,
-          "comboIncludes": []
+          "comboIncludes": [],
+          "offerKind": null
         },
         {
           "id": "sakura-roll-8",
@@ -1061,7 +1080,8 @@
             }
           ],
           "isCombo": false,
-          "comboIncludes": []
+          "comboIncludes": [],
+          "offerKind": null
         },
         {
           "id": "sakura-roll-9",
@@ -1109,7 +1129,8 @@
             }
           ],
           "isCombo": false,
-          "comboIncludes": []
+          "comboIncludes": [],
+          "offerKind": null
         },
         {
           "id": "sakura-roll-10",
@@ -1157,13 +1178,14 @@
             }
           ],
           "isCombo": false,
-          "comboIncludes": []
+          "comboIncludes": [],
+          "offerKind": null
         },
         {
-          "id": "sakura-roll-combo-1",
+          "id": "sakura-roll-offer-1",
           "restaurantId": "sakura-roll",
-          "name": "كومبو سوشي للمبتدئين",
-          "description": "رولز مع ميسو ومشروب.",
+          "name": "وجبة سوشي خفيفة — ساكورا رول",
+          "description": "رولز مع شوربة وشاي.",
           "image": "https://images.unsplash.com/photo-1579584425555-c3ce17fd4351?w=800&q=80",
           "price": 78,
           "rating": 4.6,
@@ -1176,10 +1198,11 @@
           "isOffer": true,
           "offerPrice": null,
           "isCombo": true,
+          "offerKind": "combo",
           "comboIncludes": [
             "رول كاليفورنيا",
-            "سوشي سالمون ×٤",
-            "شوربة ميسو",
+            "سوشي ×٤",
+            "ميسو",
             "شاي أخضر"
           ],
           "spicyOption": false,
@@ -1213,27 +1236,27 @@
           ]
         },
         {
-          "id": "sakura-roll-combo-2",
+          "id": "sakura-roll-offer-2",
           "restaurantId": "sakura-roll",
-          "name": "كومبو رامن وجبة",
-          "description": "رامن مع جيوزا ومشروب.",
+          "name": "عرض رامن مع جيوزا — ساكورا رول",
+          "description": "رامن وإدامامي وأربع قطع جيوزا بسعر واحد.",
           "image": "https://images.unsplash.com/photo-1553621042-f6e147245754?w=800&q=80",
-          "price": 68,
+          "price": 58,
           "rating": 4.6,
-          "calories": 980,
-          "protein": 38,
-          "carbs": 95,
-          "fat": 32,
+          "calories": 880,
+          "protein": 36,
+          "carbs": 90,
+          "fat": 28,
           "category": "offers",
           "isPopular": false,
           "isOffer": true,
           "offerPrice": null,
           "isCombo": true,
+          "offerKind": "deal",
           "comboIncludes": [
             "رامن",
             "جيوزا ×٤",
-            "إدامامي",
-            "مشروب"
+            "إدامامي"
           ],
           "spicyOption": false,
           "cashbackPercent": null,
@@ -1266,27 +1289,28 @@
           ]
         },
         {
-          "id": "sakura-roll-combo-3",
+          "id": "sakura-roll-offer-3",
           "restaurantId": "sakura-roll",
-          "name": "كومبو ترياكي كامل",
-          "description": "دجاج ترياكي مع أرز وسلطة.",
+          "name": "تشكيلة ساشيمي بسعر ثابت — ساكورا رول",
+          "description": "ساشيمي مشكل مع زنجبيل وواسابي وأرز للمشاركة.",
           "image": "https://images.unsplash.com/photo-1611143669185-af224c5e3252?w=800&q=80",
-          "price": 58,
+          "price": 129,
           "rating": 4.6,
-          "calories": 860,
-          "protein": 40,
-          "carbs": 88,
+          "calories": 640,
+          "protein": 55,
+          "carbs": 40,
           "fat": 20,
           "category": "offers",
           "isPopular": false,
           "isOffer": true,
           "offerPrice": null,
           "isCombo": true,
+          "offerKind": "deal",
           "comboIncludes": [
-            "دجاج ترياكي",
-            "أرز ياباني",
-            "سلطة سي ويد",
-            "مشروب"
+            "ساشيمي مشكل",
+            "زنجبيل",
+            "واسابي",
+            "أرز"
           ],
           "spicyOption": false,
           "cashbackPercent": null,
@@ -1385,7 +1409,8 @@
             }
           ],
           "isCombo": false,
-          "comboIncludes": []
+          "comboIncludes": [],
+          "offerKind": null
         },
         {
           "id": "umami-house-2",
@@ -1433,7 +1458,8 @@
             }
           ],
           "isCombo": false,
-          "comboIncludes": []
+          "comboIncludes": [],
+          "offerKind": null
         },
         {
           "id": "umami-house-3",
@@ -1481,7 +1507,8 @@
             }
           ],
           "isCombo": false,
-          "comboIncludes": []
+          "comboIncludes": [],
+          "offerKind": null
         },
         {
           "id": "umami-house-4",
@@ -1529,7 +1556,8 @@
             }
           ],
           "isCombo": false,
-          "comboIncludes": []
+          "comboIncludes": [],
+          "offerKind": null
         },
         {
           "id": "umami-house-5",
@@ -1577,7 +1605,8 @@
             }
           ],
           "isCombo": false,
-          "comboIncludes": []
+          "comboIncludes": [],
+          "offerKind": null
         },
         {
           "id": "umami-house-6",
@@ -1625,7 +1654,8 @@
             }
           ],
           "isCombo": false,
-          "comboIncludes": []
+          "comboIncludes": [],
+          "offerKind": null
         },
         {
           "id": "umami-house-7",
@@ -1673,7 +1703,8 @@
             }
           ],
           "isCombo": false,
-          "comboIncludes": []
+          "comboIncludes": [],
+          "offerKind": null
         },
         {
           "id": "umami-house-8",
@@ -1721,7 +1752,8 @@
             }
           ],
           "isCombo": false,
-          "comboIncludes": []
+          "comboIncludes": [],
+          "offerKind": null
         },
         {
           "id": "umami-house-9",
@@ -1769,7 +1801,8 @@
             }
           ],
           "isCombo": false,
-          "comboIncludes": []
+          "comboIncludes": [],
+          "offerKind": null
         },
         {
           "id": "umami-house-10",
@@ -1817,13 +1850,14 @@
             }
           ],
           "isCombo": false,
-          "comboIncludes": []
+          "comboIncludes": [],
+          "offerKind": null
         },
         {
-          "id": "umami-house-combo-1",
+          "id": "umami-house-offer-1",
           "restaurantId": "umami-house",
-          "name": "كومبو سوشي للمبتدئين",
-          "description": "رولز مع ميسو ومشروب.",
+          "name": "وجبة سوشي خفيفة — بيت الأومامي",
+          "description": "رولز مع شوربة وشاي.",
           "image": "https://images.unsplash.com/photo-1579584425555-c3ce17fd4351?w=800&q=80",
           "price": 78,
           "rating": 4.6,
@@ -1836,10 +1870,11 @@
           "isOffer": true,
           "offerPrice": null,
           "isCombo": true,
+          "offerKind": "combo",
           "comboIncludes": [
             "رول كاليفورنيا",
-            "سوشي سالمون ×٤",
-            "شوربة ميسو",
+            "سوشي ×٤",
+            "ميسو",
             "شاي أخضر"
           ],
           "spicyOption": false,
@@ -1873,27 +1908,27 @@
           ]
         },
         {
-          "id": "umami-house-combo-2",
+          "id": "umami-house-offer-2",
           "restaurantId": "umami-house",
-          "name": "كومبو رامن وجبة",
-          "description": "رامن مع جيوزا ومشروب.",
+          "name": "عرض رامن مع جيوزا — بيت الأومامي",
+          "description": "رامن وإدامامي وأربع قطع جيوزا بسعر واحد.",
           "image": "https://images.unsplash.com/photo-1553621042-f6e147245754?w=800&q=80",
-          "price": 68,
+          "price": 58,
           "rating": 4.6,
-          "calories": 980,
-          "protein": 38,
-          "carbs": 95,
-          "fat": 32,
+          "calories": 880,
+          "protein": 36,
+          "carbs": 90,
+          "fat": 28,
           "category": "offers",
           "isPopular": false,
           "isOffer": true,
           "offerPrice": null,
           "isCombo": true,
+          "offerKind": "deal",
           "comboIncludes": [
             "رامن",
             "جيوزا ×٤",
-            "إدامامي",
-            "مشروب"
+            "إدامامي"
           ],
           "spicyOption": false,
           "cashbackPercent": null,
@@ -1926,27 +1961,28 @@
           ]
         },
         {
-          "id": "umami-house-combo-3",
+          "id": "umami-house-offer-3",
           "restaurantId": "umami-house",
-          "name": "كومبو ترياكي كامل",
-          "description": "دجاج ترياكي مع أرز وسلطة.",
+          "name": "تشكيلة ساشيمي بسعر ثابت — بيت الأومامي",
+          "description": "ساشيمي مشكل مع زنجبيل وواسابي وأرز للمشاركة.",
           "image": "https://images.unsplash.com/photo-1611143669185-af224c5e3252?w=800&q=80",
-          "price": 58,
+          "price": 129,
           "rating": 4.6,
-          "calories": 860,
-          "protein": 40,
-          "carbs": 88,
+          "calories": 640,
+          "protein": 55,
+          "carbs": 40,
           "fat": 20,
           "category": "offers",
           "isPopular": false,
           "isOffer": true,
           "offerPrice": null,
           "isCombo": true,
+          "offerKind": "deal",
           "comboIncludes": [
-            "دجاج ترياكي",
-            "أرز ياباني",
-            "سلطة سي ويد",
-            "مشروب"
+            "ساشيمي مشكل",
+            "زنجبيل",
+            "واسابي",
+            "أرز"
           ],
           "spicyOption": false,
           "cashbackPercent": null,
@@ -2045,7 +2081,8 @@
             }
           ],
           "isCombo": false,
-          "comboIncludes": []
+          "comboIncludes": [],
+          "offerKind": null
         },
         {
           "id": "nori-kitchen-2",
@@ -2093,7 +2130,8 @@
             }
           ],
           "isCombo": false,
-          "comboIncludes": []
+          "comboIncludes": [],
+          "offerKind": null
         },
         {
           "id": "nori-kitchen-3",
@@ -2141,7 +2179,8 @@
             }
           ],
           "isCombo": false,
-          "comboIncludes": []
+          "comboIncludes": [],
+          "offerKind": null
         },
         {
           "id": "nori-kitchen-4",
@@ -2189,7 +2228,8 @@
             }
           ],
           "isCombo": false,
-          "comboIncludes": []
+          "comboIncludes": [],
+          "offerKind": null
         },
         {
           "id": "nori-kitchen-5",
@@ -2237,7 +2277,8 @@
             }
           ],
           "isCombo": false,
-          "comboIncludes": []
+          "comboIncludes": [],
+          "offerKind": null
         },
         {
           "id": "nori-kitchen-6",
@@ -2285,7 +2326,8 @@
             }
           ],
           "isCombo": false,
-          "comboIncludes": []
+          "comboIncludes": [],
+          "offerKind": null
         },
         {
           "id": "nori-kitchen-7",
@@ -2333,7 +2375,8 @@
             }
           ],
           "isCombo": false,
-          "comboIncludes": []
+          "comboIncludes": [],
+          "offerKind": null
         },
         {
           "id": "nori-kitchen-8",
@@ -2381,7 +2424,8 @@
             }
           ],
           "isCombo": false,
-          "comboIncludes": []
+          "comboIncludes": [],
+          "offerKind": null
         },
         {
           "id": "nori-kitchen-9",
@@ -2429,7 +2473,8 @@
             }
           ],
           "isCombo": false,
-          "comboIncludes": []
+          "comboIncludes": [],
+          "offerKind": null
         },
         {
           "id": "nori-kitchen-10",
@@ -2477,13 +2522,14 @@
             }
           ],
           "isCombo": false,
-          "comboIncludes": []
+          "comboIncludes": [],
+          "offerKind": null
         },
         {
-          "id": "nori-kitchen-combo-1",
+          "id": "nori-kitchen-offer-1",
           "restaurantId": "nori-kitchen",
-          "name": "كومبو سوشي للمبتدئين",
-          "description": "رولز مع ميسو ومشروب.",
+          "name": "وجبة سوشي خفيفة — مطبخ النوري",
+          "description": "رولز مع شوربة وشاي.",
           "image": "https://images.unsplash.com/photo-1579584425555-c3ce17fd4351?w=800&q=80",
           "price": 78,
           "rating": 4.6,
@@ -2496,10 +2542,11 @@
           "isOffer": true,
           "offerPrice": null,
           "isCombo": true,
+          "offerKind": "combo",
           "comboIncludes": [
             "رول كاليفورنيا",
-            "سوشي سالمون ×٤",
-            "شوربة ميسو",
+            "سوشي ×٤",
+            "ميسو",
             "شاي أخضر"
           ],
           "spicyOption": false,
@@ -2533,27 +2580,27 @@
           ]
         },
         {
-          "id": "nori-kitchen-combo-2",
+          "id": "nori-kitchen-offer-2",
           "restaurantId": "nori-kitchen",
-          "name": "كومبو رامن وجبة",
-          "description": "رامن مع جيوزا ومشروب.",
+          "name": "عرض رامن مع جيوزا — مطبخ النوري",
+          "description": "رامن وإدامامي وأربع قطع جيوزا بسعر واحد.",
           "image": "https://images.unsplash.com/photo-1553621042-f6e147245754?w=800&q=80",
-          "price": 68,
+          "price": 58,
           "rating": 4.6,
-          "calories": 980,
-          "protein": 38,
-          "carbs": 95,
-          "fat": 32,
+          "calories": 880,
+          "protein": 36,
+          "carbs": 90,
+          "fat": 28,
           "category": "offers",
           "isPopular": false,
           "isOffer": true,
           "offerPrice": null,
           "isCombo": true,
+          "offerKind": "deal",
           "comboIncludes": [
             "رامن",
             "جيوزا ×٤",
-            "إدامامي",
-            "مشروب"
+            "إدامامي"
           ],
           "spicyOption": false,
           "cashbackPercent": null,
@@ -2586,27 +2633,28 @@
           ]
         },
         {
-          "id": "nori-kitchen-combo-3",
+          "id": "nori-kitchen-offer-3",
           "restaurantId": "nori-kitchen",
-          "name": "كومبو ترياكي كامل",
-          "description": "دجاج ترياكي مع أرز وسلطة.",
+          "name": "تشكيلة ساشيمي بسعر ثابت — مطبخ النوري",
+          "description": "ساشيمي مشكل مع زنجبيل وواسابي وأرز للمشاركة.",
           "image": "https://images.unsplash.com/photo-1611143669185-af224c5e3252?w=800&q=80",
-          "price": 58,
+          "price": 129,
           "rating": 4.6,
-          "calories": 860,
-          "protein": 40,
-          "carbs": 88,
+          "calories": 640,
+          "protein": 55,
+          "carbs": 40,
           "fat": 20,
           "category": "offers",
           "isPopular": false,
           "isOffer": true,
           "offerPrice": null,
           "isCombo": true,
+          "offerKind": "deal",
           "comboIncludes": [
-            "دجاج ترياكي",
-            "أرز ياباني",
-            "سلطة سي ويد",
-            "مشروب"
+            "ساشيمي مشكل",
+            "زنجبيل",
+            "واسابي",
+            "أرز"
           ],
           "spicyOption": false,
           "cashbackPercent": null,
@@ -2705,7 +2753,8 @@
             }
           ],
           "isCombo": false,
-          "comboIncludes": []
+          "comboIncludes": [],
+          "offerKind": null
         },
         {
           "id": "ramen-lane-2",
@@ -2753,7 +2802,8 @@
             }
           ],
           "isCombo": false,
-          "comboIncludes": []
+          "comboIncludes": [],
+          "offerKind": null
         },
         {
           "id": "ramen-lane-3",
@@ -2801,7 +2851,8 @@
             }
           ],
           "isCombo": false,
-          "comboIncludes": []
+          "comboIncludes": [],
+          "offerKind": null
         },
         {
           "id": "ramen-lane-4",
@@ -2849,7 +2900,8 @@
             }
           ],
           "isCombo": false,
-          "comboIncludes": []
+          "comboIncludes": [],
+          "offerKind": null
         },
         {
           "id": "ramen-lane-5",
@@ -2897,7 +2949,8 @@
             }
           ],
           "isCombo": false,
-          "comboIncludes": []
+          "comboIncludes": [],
+          "offerKind": null
         },
         {
           "id": "ramen-lane-6",
@@ -2945,7 +2998,8 @@
             }
           ],
           "isCombo": false,
-          "comboIncludes": []
+          "comboIncludes": [],
+          "offerKind": null
         },
         {
           "id": "ramen-lane-7",
@@ -2993,7 +3047,8 @@
             }
           ],
           "isCombo": false,
-          "comboIncludes": []
+          "comboIncludes": [],
+          "offerKind": null
         },
         {
           "id": "ramen-lane-8",
@@ -3041,7 +3096,8 @@
             }
           ],
           "isCombo": false,
-          "comboIncludes": []
+          "comboIncludes": [],
+          "offerKind": null
         },
         {
           "id": "ramen-lane-9",
@@ -3089,7 +3145,8 @@
             }
           ],
           "isCombo": false,
-          "comboIncludes": []
+          "comboIncludes": [],
+          "offerKind": null
         },
         {
           "id": "ramen-lane-10",
@@ -3137,13 +3194,14 @@
             }
           ],
           "isCombo": false,
-          "comboIncludes": []
+          "comboIncludes": [],
+          "offerKind": null
         },
         {
-          "id": "ramen-lane-combo-1",
+          "id": "ramen-lane-offer-1",
           "restaurantId": "ramen-lane",
-          "name": "كومبو سوشي للمبتدئين",
-          "description": "رولز مع ميسو ومشروب.",
+          "name": "وجبة سوشي خفيفة — شارع الرامن",
+          "description": "رولز مع شوربة وشاي.",
           "image": "https://images.unsplash.com/photo-1579584425555-c3ce17fd4351?w=800&q=80",
           "price": 78,
           "rating": 4.6,
@@ -3156,10 +3214,11 @@
           "isOffer": true,
           "offerPrice": null,
           "isCombo": true,
+          "offerKind": "combo",
           "comboIncludes": [
             "رول كاليفورنيا",
-            "سوشي سالمون ×٤",
-            "شوربة ميسو",
+            "سوشي ×٤",
+            "ميسو",
             "شاي أخضر"
           ],
           "spicyOption": false,
@@ -3193,27 +3252,27 @@
           ]
         },
         {
-          "id": "ramen-lane-combo-2",
+          "id": "ramen-lane-offer-2",
           "restaurantId": "ramen-lane",
-          "name": "كومبو رامن وجبة",
-          "description": "رامن مع جيوزا ومشروب.",
+          "name": "عرض رامن مع جيوزا — شارع الرامن",
+          "description": "رامن وإدامامي وأربع قطع جيوزا بسعر واحد.",
           "image": "https://images.unsplash.com/photo-1553621042-f6e147245754?w=800&q=80",
-          "price": 68,
+          "price": 58,
           "rating": 4.6,
-          "calories": 980,
-          "protein": 38,
-          "carbs": 95,
-          "fat": 32,
+          "calories": 880,
+          "protein": 36,
+          "carbs": 90,
+          "fat": 28,
           "category": "offers",
           "isPopular": false,
           "isOffer": true,
           "offerPrice": null,
           "isCombo": true,
+          "offerKind": "deal",
           "comboIncludes": [
             "رامن",
             "جيوزا ×٤",
-            "إدامامي",
-            "مشروب"
+            "إدامامي"
           ],
           "spicyOption": false,
           "cashbackPercent": null,
@@ -3246,27 +3305,28 @@
           ]
         },
         {
-          "id": "ramen-lane-combo-3",
+          "id": "ramen-lane-offer-3",
           "restaurantId": "ramen-lane",
-          "name": "كومبو ترياكي كامل",
-          "description": "دجاج ترياكي مع أرز وسلطة.",
+          "name": "تشكيلة ساشيمي بسعر ثابت — شارع الرامن",
+          "description": "ساشيمي مشكل مع زنجبيل وواسابي وأرز للمشاركة.",
           "image": "https://images.unsplash.com/photo-1611143669185-af224c5e3252?w=800&q=80",
-          "price": 58,
+          "price": 129,
           "rating": 4.6,
-          "calories": 860,
-          "protein": 40,
-          "carbs": 88,
+          "calories": 640,
+          "protein": 55,
+          "carbs": 40,
           "fat": 20,
           "category": "offers",
           "isPopular": false,
           "isOffer": true,
           "offerPrice": null,
           "isCombo": true,
+          "offerKind": "deal",
           "comboIncludes": [
-            "دجاج ترياكي",
-            "أرز ياباني",
-            "سلطة سي ويد",
-            "مشروب"
+            "ساشيمي مشكل",
+            "زنجبيل",
+            "واسابي",
+            "أرز"
           ],
           "spicyOption": false,
           "cashbackPercent": null,
@@ -3365,7 +3425,8 @@
             }
           ],
           "isCombo": false,
-          "comboIncludes": []
+          "comboIncludes": [],
+          "offerKind": null
         },
         {
           "id": "wasabi-bar-2",
@@ -3413,7 +3474,8 @@
             }
           ],
           "isCombo": false,
-          "comboIncludes": []
+          "comboIncludes": [],
+          "offerKind": null
         },
         {
           "id": "wasabi-bar-3",
@@ -3461,7 +3523,8 @@
             }
           ],
           "isCombo": false,
-          "comboIncludes": []
+          "comboIncludes": [],
+          "offerKind": null
         },
         {
           "id": "wasabi-bar-4",
@@ -3509,7 +3572,8 @@
             }
           ],
           "isCombo": false,
-          "comboIncludes": []
+          "comboIncludes": [],
+          "offerKind": null
         },
         {
           "id": "wasabi-bar-5",
@@ -3557,7 +3621,8 @@
             }
           ],
           "isCombo": false,
-          "comboIncludes": []
+          "comboIncludes": [],
+          "offerKind": null
         },
         {
           "id": "wasabi-bar-6",
@@ -3605,7 +3670,8 @@
             }
           ],
           "isCombo": false,
-          "comboIncludes": []
+          "comboIncludes": [],
+          "offerKind": null
         },
         {
           "id": "wasabi-bar-7",
@@ -3653,7 +3719,8 @@
             }
           ],
           "isCombo": false,
-          "comboIncludes": []
+          "comboIncludes": [],
+          "offerKind": null
         },
         {
           "id": "wasabi-bar-8",
@@ -3701,7 +3768,8 @@
             }
           ],
           "isCombo": false,
-          "comboIncludes": []
+          "comboIncludes": [],
+          "offerKind": null
         },
         {
           "id": "wasabi-bar-9",
@@ -3749,7 +3817,8 @@
             }
           ],
           "isCombo": false,
-          "comboIncludes": []
+          "comboIncludes": [],
+          "offerKind": null
         },
         {
           "id": "wasabi-bar-10",
@@ -3797,13 +3866,14 @@
             }
           ],
           "isCombo": false,
-          "comboIncludes": []
+          "comboIncludes": [],
+          "offerKind": null
         },
         {
-          "id": "wasabi-bar-combo-1",
+          "id": "wasabi-bar-offer-1",
           "restaurantId": "wasabi-bar",
-          "name": "كومبو سوشي للمبتدئين",
-          "description": "رولز مع ميسو ومشروب.",
+          "name": "وجبة سوشي خفيفة — واسابي بار",
+          "description": "رولز مع شوربة وشاي.",
           "image": "https://images.unsplash.com/photo-1579584425555-c3ce17fd4351?w=800&q=80",
           "price": 78,
           "rating": 4.6,
@@ -3816,10 +3886,11 @@
           "isOffer": true,
           "offerPrice": null,
           "isCombo": true,
+          "offerKind": "combo",
           "comboIncludes": [
             "رول كاليفورنيا",
-            "سوشي سالمون ×٤",
-            "شوربة ميسو",
+            "سوشي ×٤",
+            "ميسو",
             "شاي أخضر"
           ],
           "spicyOption": false,
@@ -3853,27 +3924,27 @@
           ]
         },
         {
-          "id": "wasabi-bar-combo-2",
+          "id": "wasabi-bar-offer-2",
           "restaurantId": "wasabi-bar",
-          "name": "كومبو رامن وجبة",
-          "description": "رامن مع جيوزا ومشروب.",
+          "name": "عرض رامن مع جيوزا — واسابي بار",
+          "description": "رامن وإدامامي وأربع قطع جيوزا بسعر واحد.",
           "image": "https://images.unsplash.com/photo-1553621042-f6e147245754?w=800&q=80",
-          "price": 68,
+          "price": 58,
           "rating": 4.6,
-          "calories": 980,
-          "protein": 38,
-          "carbs": 95,
-          "fat": 32,
+          "calories": 880,
+          "protein": 36,
+          "carbs": 90,
+          "fat": 28,
           "category": "offers",
           "isPopular": false,
           "isOffer": true,
           "offerPrice": null,
           "isCombo": true,
+          "offerKind": "deal",
           "comboIncludes": [
             "رامن",
             "جيوزا ×٤",
-            "إدامامي",
-            "مشروب"
+            "إدامامي"
           ],
           "spicyOption": false,
           "cashbackPercent": null,
@@ -3906,27 +3977,28 @@
           ]
         },
         {
-          "id": "wasabi-bar-combo-3",
+          "id": "wasabi-bar-offer-3",
           "restaurantId": "wasabi-bar",
-          "name": "كومبو ترياكي كامل",
-          "description": "دجاج ترياكي مع أرز وسلطة.",
+          "name": "تشكيلة ساشيمي بسعر ثابت — واسابي بار",
+          "description": "ساشيمي مشكل مع زنجبيل وواسابي وأرز للمشاركة.",
           "image": "https://images.unsplash.com/photo-1611143669185-af224c5e3252?w=800&q=80",
-          "price": 58,
+          "price": 129,
           "rating": 4.6,
-          "calories": 860,
-          "protein": 40,
-          "carbs": 88,
+          "calories": 640,
+          "protein": 55,
+          "carbs": 40,
           "fat": 20,
           "category": "offers",
           "isPopular": false,
           "isOffer": true,
           "offerPrice": null,
           "isCombo": true,
+          "offerKind": "deal",
           "comboIncludes": [
-            "دجاج ترياكي",
-            "أرز ياباني",
-            "سلطة سي ويد",
-            "مشروب"
+            "ساشيمي مشكل",
+            "زنجبيل",
+            "واسابي",
+            "أرز"
           ],
           "spicyOption": false,
           "cashbackPercent": null,
@@ -4025,7 +4097,8 @@
             }
           ],
           "isCombo": false,
-          "comboIncludes": []
+          "comboIncludes": [],
+          "offerKind": null
         },
         {
           "id": "katsu-corner-2",
@@ -4073,7 +4146,8 @@
             }
           ],
           "isCombo": false,
-          "comboIncludes": []
+          "comboIncludes": [],
+          "offerKind": null
         },
         {
           "id": "katsu-corner-3",
@@ -4121,7 +4195,8 @@
             }
           ],
           "isCombo": false,
-          "comboIncludes": []
+          "comboIncludes": [],
+          "offerKind": null
         },
         {
           "id": "katsu-corner-4",
@@ -4169,7 +4244,8 @@
             }
           ],
           "isCombo": false,
-          "comboIncludes": []
+          "comboIncludes": [],
+          "offerKind": null
         },
         {
           "id": "katsu-corner-5",
@@ -4217,7 +4293,8 @@
             }
           ],
           "isCombo": false,
-          "comboIncludes": []
+          "comboIncludes": [],
+          "offerKind": null
         },
         {
           "id": "katsu-corner-6",
@@ -4265,7 +4342,8 @@
             }
           ],
           "isCombo": false,
-          "comboIncludes": []
+          "comboIncludes": [],
+          "offerKind": null
         },
         {
           "id": "katsu-corner-7",
@@ -4313,7 +4391,8 @@
             }
           ],
           "isCombo": false,
-          "comboIncludes": []
+          "comboIncludes": [],
+          "offerKind": null
         },
         {
           "id": "katsu-corner-8",
@@ -4361,7 +4440,8 @@
             }
           ],
           "isCombo": false,
-          "comboIncludes": []
+          "comboIncludes": [],
+          "offerKind": null
         },
         {
           "id": "katsu-corner-9",
@@ -4409,7 +4489,8 @@
             }
           ],
           "isCombo": false,
-          "comboIncludes": []
+          "comboIncludes": [],
+          "offerKind": null
         },
         {
           "id": "katsu-corner-10",
@@ -4457,13 +4538,14 @@
             }
           ],
           "isCombo": false,
-          "comboIncludes": []
+          "comboIncludes": [],
+          "offerKind": null
         },
         {
-          "id": "katsu-corner-combo-1",
+          "id": "katsu-corner-offer-1",
           "restaurantId": "katsu-corner",
-          "name": "كومبو سوشي للمبتدئين",
-          "description": "رولز مع ميسو ومشروب.",
+          "name": "وجبة سوشي خفيفة — ركن الكاتسو",
+          "description": "رولز مع شوربة وشاي.",
           "image": "https://images.unsplash.com/photo-1579584425555-c3ce17fd4351?w=800&q=80",
           "price": 78,
           "rating": 4.6,
@@ -4476,10 +4558,11 @@
           "isOffer": true,
           "offerPrice": null,
           "isCombo": true,
+          "offerKind": "combo",
           "comboIncludes": [
             "رول كاليفورنيا",
-            "سوشي سالمون ×٤",
-            "شوربة ميسو",
+            "سوشي ×٤",
+            "ميسو",
             "شاي أخضر"
           ],
           "spicyOption": false,
@@ -4513,27 +4596,27 @@
           ]
         },
         {
-          "id": "katsu-corner-combo-2",
+          "id": "katsu-corner-offer-2",
           "restaurantId": "katsu-corner",
-          "name": "كومبو رامن وجبة",
-          "description": "رامن مع جيوزا ومشروب.",
+          "name": "عرض رامن مع جيوزا — ركن الكاتسو",
+          "description": "رامن وإدامامي وأربع قطع جيوزا بسعر واحد.",
           "image": "https://images.unsplash.com/photo-1553621042-f6e147245754?w=800&q=80",
-          "price": 68,
+          "price": 58,
           "rating": 4.6,
-          "calories": 980,
-          "protein": 38,
-          "carbs": 95,
-          "fat": 32,
+          "calories": 880,
+          "protein": 36,
+          "carbs": 90,
+          "fat": 28,
           "category": "offers",
           "isPopular": false,
           "isOffer": true,
           "offerPrice": null,
           "isCombo": true,
+          "offerKind": "deal",
           "comboIncludes": [
             "رامن",
             "جيوزا ×٤",
-            "إدامامي",
-            "مشروب"
+            "إدامامي"
           ],
           "spicyOption": false,
           "cashbackPercent": null,
@@ -4566,27 +4649,28 @@
           ]
         },
         {
-          "id": "katsu-corner-combo-3",
+          "id": "katsu-corner-offer-3",
           "restaurantId": "katsu-corner",
-          "name": "كومبو ترياكي كامل",
-          "description": "دجاج ترياكي مع أرز وسلطة.",
+          "name": "تشكيلة ساشيمي بسعر ثابت — ركن الكاتسو",
+          "description": "ساشيمي مشكل مع زنجبيل وواسابي وأرز للمشاركة.",
           "image": "https://images.unsplash.com/photo-1611143669185-af224c5e3252?w=800&q=80",
-          "price": 58,
+          "price": 129,
           "rating": 4.6,
-          "calories": 860,
-          "protein": 40,
-          "carbs": 88,
+          "calories": 640,
+          "protein": 55,
+          "carbs": 40,
           "fat": 20,
           "category": "offers",
           "isPopular": false,
           "isOffer": true,
           "offerPrice": null,
           "isCombo": true,
+          "offerKind": "deal",
           "comboIncludes": [
-            "دجاج ترياكي",
-            "أرز ياباني",
-            "سلطة سي ويد",
-            "مشروب"
+            "ساشيمي مشكل",
+            "زنجبيل",
+            "واسابي",
+            "أرز"
           ],
           "spicyOption": false,
           "cashbackPercent": null,
@@ -4685,7 +4769,8 @@
             }
           ],
           "isCombo": false,
-          "comboIncludes": []
+          "comboIncludes": [],
+          "offerKind": null
         },
         {
           "id": "edo-express-2",
@@ -4733,7 +4818,8 @@
             }
           ],
           "isCombo": false,
-          "comboIncludes": []
+          "comboIncludes": [],
+          "offerKind": null
         },
         {
           "id": "edo-express-3",
@@ -4781,7 +4867,8 @@
             }
           ],
           "isCombo": false,
-          "comboIncludes": []
+          "comboIncludes": [],
+          "offerKind": null
         },
         {
           "id": "edo-express-4",
@@ -4829,7 +4916,8 @@
             }
           ],
           "isCombo": false,
-          "comboIncludes": []
+          "comboIncludes": [],
+          "offerKind": null
         },
         {
           "id": "edo-express-5",
@@ -4877,7 +4965,8 @@
             }
           ],
           "isCombo": false,
-          "comboIncludes": []
+          "comboIncludes": [],
+          "offerKind": null
         },
         {
           "id": "edo-express-6",
@@ -4925,7 +5014,8 @@
             }
           ],
           "isCombo": false,
-          "comboIncludes": []
+          "comboIncludes": [],
+          "offerKind": null
         },
         {
           "id": "edo-express-7",
@@ -4973,7 +5063,8 @@
             }
           ],
           "isCombo": false,
-          "comboIncludes": []
+          "comboIncludes": [],
+          "offerKind": null
         },
         {
           "id": "edo-express-8",
@@ -5021,7 +5112,8 @@
             }
           ],
           "isCombo": false,
-          "comboIncludes": []
+          "comboIncludes": [],
+          "offerKind": null
         },
         {
           "id": "edo-express-9",
@@ -5069,7 +5161,8 @@
             }
           ],
           "isCombo": false,
-          "comboIncludes": []
+          "comboIncludes": [],
+          "offerKind": null
         },
         {
           "id": "edo-express-10",
@@ -5117,13 +5210,14 @@
             }
           ],
           "isCombo": false,
-          "comboIncludes": []
+          "comboIncludes": [],
+          "offerKind": null
         },
         {
-          "id": "edo-express-combo-1",
+          "id": "edo-express-offer-1",
           "restaurantId": "edo-express",
-          "name": "كومبو سوشي للمبتدئين",
-          "description": "رولز مع ميسو ومشروب.",
+          "name": "وجبة سوشي خفيفة — إدو إكسبرس",
+          "description": "رولز مع شوربة وشاي.",
           "image": "https://images.unsplash.com/photo-1579584425555-c3ce17fd4351?w=800&q=80",
           "price": 78,
           "rating": 4.6,
@@ -5136,10 +5230,11 @@
           "isOffer": true,
           "offerPrice": null,
           "isCombo": true,
+          "offerKind": "combo",
           "comboIncludes": [
             "رول كاليفورنيا",
-            "سوشي سالمون ×٤",
-            "شوربة ميسو",
+            "سوشي ×٤",
+            "ميسو",
             "شاي أخضر"
           ],
           "spicyOption": false,
@@ -5173,27 +5268,27 @@
           ]
         },
         {
-          "id": "edo-express-combo-2",
+          "id": "edo-express-offer-2",
           "restaurantId": "edo-express",
-          "name": "كومبو رامن وجبة",
-          "description": "رامن مع جيوزا ومشروب.",
+          "name": "عرض رامن مع جيوزا — إدو إكسبرس",
+          "description": "رامن وإدامامي وأربع قطع جيوزا بسعر واحد.",
           "image": "https://images.unsplash.com/photo-1553621042-f6e147245754?w=800&q=80",
-          "price": 68,
+          "price": 58,
           "rating": 4.6,
-          "calories": 980,
-          "protein": 38,
-          "carbs": 95,
-          "fat": 32,
+          "calories": 880,
+          "protein": 36,
+          "carbs": 90,
+          "fat": 28,
           "category": "offers",
           "isPopular": false,
           "isOffer": true,
           "offerPrice": null,
           "isCombo": true,
+          "offerKind": "deal",
           "comboIncludes": [
             "رامن",
             "جيوزا ×٤",
-            "إدامامي",
-            "مشروب"
+            "إدامامي"
           ],
           "spicyOption": false,
           "cashbackPercent": null,
@@ -5226,27 +5321,28 @@
           ]
         },
         {
-          "id": "edo-express-combo-3",
+          "id": "edo-express-offer-3",
           "restaurantId": "edo-express",
-          "name": "كومبو ترياكي كامل",
-          "description": "دجاج ترياكي مع أرز وسلطة.",
+          "name": "تشكيلة ساشيمي بسعر ثابت — إدو إكسبرس",
+          "description": "ساشيمي مشكل مع زنجبيل وواسابي وأرز للمشاركة.",
           "image": "https://images.unsplash.com/photo-1611143669185-af224c5e3252?w=800&q=80",
-          "price": 58,
+          "price": 129,
           "rating": 4.6,
-          "calories": 860,
-          "protein": 40,
-          "carbs": 88,
+          "calories": 640,
+          "protein": 55,
+          "carbs": 40,
           "fat": 20,
           "category": "offers",
           "isPopular": false,
           "isOffer": true,
           "offerPrice": null,
           "isCombo": true,
+          "offerKind": "deal",
           "comboIncludes": [
-            "دجاج ترياكي",
-            "أرز ياباني",
-            "سلطة سي ويد",
-            "مشروب"
+            "ساشيمي مشكل",
+            "زنجبيل",
+            "واسابي",
+            "أرز"
           ],
           "spicyOption": false,
           "cashbackPercent": null,

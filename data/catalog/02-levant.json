@@ -66,7 +66,8 @@
             }
           ],
           "isCombo": false,
-          "comboIncludes": []
+          "comboIncludes": [],
+          "offerKind": null
         },
         {
           "id": "sham-alaseel-2",
@@ -114,7 +115,8 @@
             }
           ],
           "isCombo": false,
-          "comboIncludes": []
+          "comboIncludes": [],
+          "offerKind": null
         },
         {
           "id": "sham-alaseel-3",
@@ -162,7 +164,8 @@
             }
           ],
           "isCombo": false,
-          "comboIncludes": []
+          "comboIncludes": [],
+          "offerKind": null
         },
         {
           "id": "sham-alaseel-4",
@@ -210,7 +213,8 @@
             }
           ],
           "isCombo": false,
-          "comboIncludes": []
+          "comboIncludes": [],
+          "offerKind": null
         },
         {
           "id": "sham-alaseel-5",
@@ -258,7 +262,8 @@
             }
           ],
           "isCombo": false,
-          "comboIncludes": []
+          "comboIncludes": [],
+          "offerKind": null
         },
         {
           "id": "sham-alaseel-6",
@@ -306,7 +311,8 @@
             }
           ],
           "isCombo": false,
-          "comboIncludes": []
+          "comboIncludes": [],
+          "offerKind": null
         },
         {
           "id": "sham-alaseel-7",
@@ -354,7 +360,8 @@
             }
           ],
           "isCombo": false,
-          "comboIncludes": []
+          "comboIncludes": [],
+          "offerKind": null
         },
         {
           "id": "sham-alaseel-8",
@@ -402,7 +409,8 @@
             }
           ],
           "isCombo": false,
-          "comboIncludes": []
+          "comboIncludes": [],
+          "offerKind": null
         },
         {
           "id": "sham-alaseel-9",
@@ -450,7 +458,8 @@
             }
           ],
           "isCombo": false,
-          "comboIncludes": []
+          "comboIncludes": [],
+          "offerKind": null
         },
         {
           "id": "sham-alaseel-10",
@@ -498,12 +507,13 @@
             }
           ],
           "isCombo": false,
-          "comboIncludes": []
+          "comboIncludes": [],
+          "offerKind": null
         },
         {
-          "id": "sham-alaseel-combo-1",
+          "id": "sham-alaseel-offer-1",
           "restaurantId": "sham-alaseel",
-          "name": "كومبو شاورما كامل",
+          "name": "وجبة شاورما كاملة — شام الأصيل",
           "description": "شاورما مع بطاطس ومشروب وسلطة.",
           "image": "https://images.unsplash.com/photo-1529006557810-274b9b2fc783?w=800&q=80",
           "price": 42,
@@ -517,9 +527,10 @@
           "isOffer": true,
           "offerPrice": null,
           "isCombo": true,
+          "offerKind": "combo",
           "comboIncludes": [
             "شاورما دجاج",
-            "بطاطس مقلية",
+            "بطاطس",
             "سلطة",
             "ثوم",
             "مشروب"
@@ -555,28 +566,28 @@
           ]
         },
         {
-          "id": "sham-alaseel-combo-2",
+          "id": "sham-alaseel-offer-2",
           "restaurantId": "sham-alaseel",
-          "name": "كومبو مقبلات شامية",
-          "description": "تشكيلة مقبلات مع خبز ومشروب.",
+          "name": "عرض فلافل: صحنين ومشروب — شام الأصيل",
+          "description": "صحنان فلافل مع مخلل ومشروب بسعر واحد.",
           "image": "https://images.unsplash.com/photo-1626082927389-6cd097cdc6ec?w=800&q=80",
-          "price": 48,
+          "price": 38,
           "rating": 4.6,
-          "calories": 780,
-          "protein": 22,
-          "carbs": 70,
-          "fat": 38,
+          "calories": 820,
+          "protein": 28,
+          "carbs": 90,
+          "fat": 30,
           "category": "offers",
           "isPopular": false,
           "isOffer": true,
           "offerPrice": null,
           "isCombo": true,
+          "offerKind": "deal",
           "comboIncludes": [
-            "حمص",
-            "متبل",
-            "فتوش",
-            "خبز عربي",
-            "عصير"
+            "فلافل صحن",
+            "فلافل صحن",
+            "مشروب",
+            "مخلل"
           ],
           "spicyOption": false,
           "cashbackPercent": null,
@@ -609,28 +620,29 @@
           ]
         },
         {
-          "id": "sham-alaseel-combo-3",
+          "id": "sham-alaseel-offer-3",
           "restaurantId": "sham-alaseel",
-          "name": "كومبو فلافل وجبة",
-          "description": "صحن فلافل كامل مع إضافات.",
+          "name": "تشكيلة مقبلات بسعر ثابت — شام الأصيل",
+          "description": "حمص ومتبل وفتوش وخبز وعصير — خمسة أصناف بسعر واحد.",
           "image": "https://images.unsplash.com/photo-1601050690117-94f5f6fa8bd7?w=800&q=80",
-          "price": 28,
+          "price": 68,
           "rating": 4.6,
-          "calories": 650,
-          "protein": 18,
-          "carbs": 72,
-          "fat": 24,
+          "calories": 980,
+          "protein": 26,
+          "carbs": 95,
+          "fat": 42,
           "category": "offers",
           "isPopular": false,
           "isOffer": true,
           "offerPrice": null,
           "isCombo": true,
+          "offerKind": "deal",
           "comboIncludes": [
-            "فلافل",
             "حمص",
-            "مخلل",
-            "خبز",
-            "مشروب"
+            "متبل",
+            "فتوش",
+            "خبز عربي",
+            "عصير"
           ],
           "spicyOption": false,
           "cashbackPercent": null,
@@ -730,7 +742,8 @@
             }
           ],
           "isCombo": false,
-          "comboIncludes": []
+          "comboIncludes": [],
+          "offerKind": null
         },
         {
           "id": "beit-falafel-2",
@@ -778,7 +791,8 @@
             }
           ],
           "isCombo": false,
-          "comboIncludes": []
+          "comboIncludes": [],
+          "offerKind": null
         },
         {
           "id": "beit-falafel-3",
@@ -826,7 +840,8 @@
             }
           ],
           "isCombo": false,
-          "comboIncludes": []
+          "comboIncludes": [],
+          "offerKind": null
         },
         {
           "id": "beit-falafel-4",
@@ -874,7 +889,8 @@
             }
           ],
           "isCombo": false,
-          "comboIncludes": []
+          "comboIncludes": [],
+          "offerKind": null
         },
         {
           "id": "beit-falafel-5",
@@ -922,7 +938,8 @@
             }
           ],
           "isCombo": false,
-          "comboIncludes": []
+          "comboIncludes": [],
+          "offerKind": null
         },
         {
           "id": "beit-falafel-6",
@@ -970,7 +987,8 @@
             }
           ],
           "isCombo": false,
-          "comboIncludes": []
+          "comboIncludes": [],
+          "offerKind": null
         },
         {
           "id": "beit-falafel-7",
@@ -1018,7 +1036,8 @@
             }
           ],
           "isCombo": false,
-          "comboIncludes": []
+          "comboIncludes": [],
+          "offerKind": null
         },
         {
           "id": "beit-falafel-8",
@@ -1066,7 +1085,8 @@
             }
           ],
           "isCombo": false,
-          "comboIncludes": []
+          "comboIncludes": [],
+          "offerKind": null
         },
         {
           "id": "beit-falafel-9",
@@ -1114,7 +1134,8 @@
             }
           ],
           "isCombo": false,
-          "comboIncludes": []
+          "comboIncludes": [],
+          "offerKind": null
         },
         {
           "id": "beit-falafel-10",
@@ -1162,12 +1183,13 @@
             }
           ],
           "isCombo": false,
-          "comboIncludes": []
+          "comboIncludes": [],
+          "offerKind": null
         },
         {
-          "id": "beit-falafel-combo-1",
+          "id": "beit-falafel-offer-1",
           "restaurantId": "beit-falafel",
-          "name": "كومبو شاورما كامل",
+          "name": "وجبة شاورما كاملة — بيت الفلافل",
           "description": "شاورما مع بطاطس ومشروب وسلطة.",
           "image": "https://images.unsplash.com/photo-1529006557810-274b9b2fc783?w=800&q=80",
           "price": 42,
@@ -1181,9 +1203,10 @@
           "isOffer": true,
           "offerPrice": null,
           "isCombo": true,
+          "offerKind": "combo",
           "comboIncludes": [
             "شاورما دجاج",
-            "بطاطس مقلية",
+            "بطاطس",
             "سلطة",
             "ثوم",
             "مشروب"
@@ -1219,28 +1242,28 @@
           ]
         },
         {
-          "id": "beit-falafel-combo-2",
+          "id": "beit-falafel-offer-2",
           "restaurantId": "beit-falafel",
-          "name": "كومبو مقبلات شامية",
-          "description": "تشكيلة مقبلات مع خبز ومشروب.",
+          "name": "عرض فلافل: صحنين ومشروب — بيت الفلافل",
+          "description": "صحنان فلافل مع مخلل ومشروب بسعر واحد.",
           "image": "https://images.unsplash.com/photo-1626082927389-6cd097cdc6ec?w=800&q=80",
-          "price": 48,
+          "price": 38,
           "rating": 4.6,
-          "calories": 780,
-          "protein": 22,
-          "carbs": 70,
-          "fat": 38,
+          "calories": 820,
+          "protein": 28,
+          "carbs": 90,
+          "fat": 30,
           "category": "offers",
           "isPopular": false,
           "isOffer": true,
           "offerPrice": null,
           "isCombo": true,
+          "offerKind": "deal",
           "comboIncludes": [
-            "حمص",
-            "متبل",
-            "فتوش",
-            "خبز عربي",
-            "عصير"
+            "فلافل صحن",
+            "فلافل صحن",
+            "مشروب",
+            "مخلل"
           ],
           "spicyOption": false,
           "cashbackPercent": null,
@@ -1273,28 +1296,29 @@
           ]
         },
         {
-          "id": "beit-falafel-combo-3",
+          "id": "beit-falafel-offer-3",
           "restaurantId": "beit-falafel",
-          "name": "كومبو فلافل وجبة",
-          "description": "صحن فلافل كامل مع إضافات.",
+          "name": "تشكيلة مقبلات بسعر ثابت — بيت الفلافل",
+          "description": "حمص ومتبل وفتوش وخبز وعصير — خمسة أصناف بسعر واحد.",
           "image": "https://images.unsplash.com/photo-1601050690117-94f5f6fa8bd7?w=800&q=80",
-          "price": 28,
+          "price": 68,
           "rating": 4.6,
-          "calories": 650,
-          "protein": 18,
-          "carbs": 72,
-          "fat": 24,
+          "calories": 980,
+          "protein": 26,
+          "carbs": 95,
+          "fat": 42,
           "category": "offers",
           "isPopular": false,
           "isOffer": true,
           "offerPrice": null,
           "isCombo": true,
+          "offerKind": "deal",
           "comboIncludes": [
-            "فلافل",
             "حمص",
-            "مخلل",
-            "خبز",
-            "مشروب"
+            "متبل",
+            "فتوش",
+            "خبز عربي",
+            "عصير"
           ],
           "spicyOption": false,
           "cashbackPercent": null,
@@ -1394,7 +1418,8 @@
             }
           ],
           "isCombo": false,
-          "comboIncludes": []
+          "comboIncludes": [],
+          "offerKind": null
         },
         {
           "id": "dimashq-kitchen-2",
@@ -1442,7 +1467,8 @@
             }
           ],
           "isCombo": false,
-          "comboIncludes": []
+          "comboIncludes": [],
+          "offerKind": null
         },
         {
           "id": "dimashq-kitchen-3",
@@ -1490,7 +1516,8 @@
             }
           ],
           "isCombo": false,
-          "comboIncludes": []
+          "comboIncludes": [],
+          "offerKind": null
         },
         {
           "id": "dimashq-kitchen-4",
@@ -1538,7 +1565,8 @@
             }
           ],
           "isCombo": false,
-          "comboIncludes": []
+          "comboIncludes": [],
+          "offerKind": null
         },
         {
           "id": "dimashq-kitchen-5",
@@ -1586,7 +1614,8 @@
             }
           ],
           "isCombo": false,
-          "comboIncludes": []
+          "comboIncludes": [],
+          "offerKind": null
         },
         {
           "id": "dimashq-kitchen-6",
@@ -1634,7 +1663,8 @@
             }
           ],
           "isCombo": false,
-          "comboIncludes": []
+          "comboIncludes": [],
+          "offerKind": null
         },
         {
           "id": "dimashq-kitchen-7",
@@ -1682,7 +1712,8 @@
             }
           ],
           "isCombo": false,
-          "comboIncludes": []
+          "comboIncludes": [],
+          "offerKind": null
         },
         {
           "id": "dimashq-kitchen-8",
@@ -1730,7 +1761,8 @@
             }
           ],
           "isCombo": false,
-          "comboIncludes": []
+          "comboIncludes": [],
+          "offerKind": null
         },
         {
           "id": "dimashq-kitchen-9",
@@ -1778,7 +1810,8 @@
             }
           ],
           "isCombo": false,
-          "comboIncludes": []
+          "comboIncludes": [],
+          "offerKind": null
         },
         {
           "id": "dimashq-kitchen-10",
@@ -1826,12 +1859,13 @@
             }
           ],
           "isCombo": false,
-          "comboIncludes": []
+          "comboIncludes": [],
+          "offerKind": null
         },
         {
-          "id": "dimashq-kitchen-combo-1",
+          "id": "dimashq-kitchen-offer-1",
           "restaurantId": "dimashq-kitchen",
-          "name": "كومبو شاورما كامل",
+          "name": "وجبة شاورما كاملة — مطبخ دمشق",
           "description": "شاورما مع بطاطس ومشروب وسلطة.",
           "image": "https://images.unsplash.com/photo-1529006557810-274b9b2fc783?w=800&q=80",
           "price": 42,
@@ -1845,9 +1879,10 @@
           "isOffer": true,
           "offerPrice": null,
           "isCombo": true,
+          "offerKind": "combo",
           "comboIncludes": [
             "شاورما دجاج",
-            "بطاطس مقلية",
+            "بطاطس",
             "سلطة",
             "ثوم",
             "مشروب"
@@ -1883,28 +1918,28 @@
           ]
         },
         {
-          "id": "dimashq-kitchen-combo-2",
+          "id": "dimashq-kitchen-offer-2",
           "restaurantId": "dimashq-kitchen",
-          "name": "كومبو مقبلات شامية",
-          "description": "تشكيلة مقبلات مع خبز ومشروب.",
+          "name": "عرض فلافل: صحنين ومشروب — مطبخ دمشق",
+          "description": "صحنان فلافل مع مخلل ومشروب بسعر واحد.",
           "image": "https://images.unsplash.com/photo-1626082927389-6cd097cdc6ec?w=800&q=80",
-          "price": 48,
+          "price": 38,
           "rating": 4.6,
-          "calories": 780,
-          "protein": 22,
-          "carbs": 70,
-          "fat": 38,
+          "calories": 820,
+          "protein": 28,
+          "carbs": 90,
+          "fat": 30,
           "category": "offers",
           "isPopular": false,
           "isOffer": true,
           "offerPrice": null,
           "isCombo": true,
+          "offerKind": "deal",
           "comboIncludes": [
-            "حمص",
-            "متبل",
-            "فتوش",
-            "خبز عربي",
-            "عصير"
+            "فلافل صحن",
+            "فلافل صحن",
+            "مشروب",
+            "مخلل"
           ],
           "spicyOption": false,
           "cashbackPercent": null,
@@ -1937,28 +1972,29 @@
           ]
         },
         {
-          "id": "dimashq-kitchen-combo-3",
+          "id": "dimashq-kitchen-offer-3",
           "restaurantId": "dimashq-kitchen",
-          "name": "كومبو فلافل وجبة",
-          "description": "صحن فلافل كامل مع إضافات.",
+          "name": "تشكيلة مقبلات بسعر ثابت — مطبخ دمشق",
+          "description": "حمص ومتبل وفتوش وخبز وعصير — خمسة أصناف بسعر واحد.",
           "image": "https://images.unsplash.com/photo-1601050690117-94f5f6fa8bd7?w=800&q=80",
-          "price": 28,
+          "price": 68,
           "rating": 4.6,
-          "calories": 650,
-          "protein": 18,
-          "carbs": 72,
-          "fat": 24,
+          "calories": 980,
+          "protein": 26,
+          "carbs": 95,
+          "fat": 42,
           "category": "offers",
           "isPopular": false,
           "isOffer": true,
           "offerPrice": null,
           "isCombo": true,
+          "offerKind": "deal",
           "comboIncludes": [
-            "فلافل",
             "حمص",
-            "مخلل",
-            "خبز",
-            "مشروب"
+            "متبل",
+            "فتوش",
+            "خبز عربي",
+            "عصير"
           ],
           "spicyOption": false,
           "cashbackPercent": null,
@@ -2058,7 +2094,8 @@
             }
           ],
           "isCombo": false,
-          "comboIncludes": []
+          "comboIncludes": [],
+          "offerKind": null
         },
         {
           "id": "halab-taam-2",
@@ -2106,7 +2143,8 @@
             }
           ],
           "isCombo": false,
-          "comboIncludes": []
+          "comboIncludes": [],
+          "offerKind": null
         },
         {
           "id": "halab-taam-3",
@@ -2154,7 +2192,8 @@
             }
           ],
           "isCombo": false,
-          "comboIncludes": []
+          "comboIncludes": [],
+          "offerKind": null
         },
         {
           "id": "halab-taam-4",
@@ -2202,7 +2241,8 @@
             }
           ],
           "isCombo": false,
-          "comboIncludes": []
+          "comboIncludes": [],
+          "offerKind": null
         },
         {
           "id": "halab-taam-5",
@@ -2250,7 +2290,8 @@
             }
           ],
           "isCombo": false,
-          "comboIncludes": []
+          "comboIncludes": [],
+          "offerKind": null
         },
         {
           "id": "halab-taam-6",
@@ -2298,7 +2339,8 @@
             }
           ],
           "isCombo": false,
-          "comboIncludes": []
+          "comboIncludes": [],
+          "offerKind": null
         },
         {
           "id": "halab-taam-7",
@@ -2346,7 +2388,8 @@
             }
           ],
           "isCombo": false,
-          "comboIncludes": []
+          "comboIncludes": [],
+          "offerKind": null
         },
         {
           "id": "halab-taam-8",
@@ -2394,7 +2437,8 @@
             }
           ],
           "isCombo": false,
-          "comboIncludes": []
+          "comboIncludes": [],
+          "offerKind": null
         },
         {
           "id": "halab-taam-9",
@@ -2442,7 +2486,8 @@
             }
           ],
           "isCombo": false,
-          "comboIncludes": []
+          "comboIncludes": [],
+          "offerKind": null
         },
         {
           "id": "halab-taam-10",
@@ -2490,12 +2535,13 @@
             }
           ],
           "isCombo": false,
-          "comboIncludes": []
+          "comboIncludes": [],
+          "offerKind": null
         },
         {
-          "id": "halab-taam-combo-1",
+          "id": "halab-taam-offer-1",
           "restaurantId": "halab-taam",
-          "name": "كومبو شاورما كامل",
+          "name": "وجبة شاورما كاملة — طعم حلب",
           "description": "شاورما مع بطاطس ومشروب وسلطة.",
           "image": "https://images.unsplash.com/photo-1529006557810-274b9b2fc783?w=800&q=80",
           "price": 42,
@@ -2509,9 +2555,10 @@
           "isOffer": true,
           "offerPrice": null,
           "isCombo": true,
+          "offerKind": "combo",
           "comboIncludes": [
             "شاورما دجاج",
-            "بطاطس مقلية",
+            "بطاطس",
             "سلطة",
             "ثوم",
             "مشروب"
@@ -2547,28 +2594,28 @@
           ]
         },
         {
-          "id": "halab-taam-combo-2",
+          "id": "halab-taam-offer-2",
           "restaurantId": "halab-taam",
-          "name": "كومبو مقبلات شامية",
-          "description": "تشكيلة مقبلات مع خبز ومشروب.",
+          "name": "عرض فلافل: صحنين ومشروب — طعم حلب",
+          "description": "صحنان فلافل مع مخلل ومشروب بسعر واحد.",
           "image": "https://images.unsplash.com/photo-1626082927389-6cd097cdc6ec?w=800&q=80",
-          "price": 48,
+          "price": 38,
           "rating": 4.6,
-          "calories": 780,
-          "protein": 22,
-          "carbs": 70,
-          "fat": 38,
+          "calories": 820,
+          "protein": 28,
+          "carbs": 90,
+          "fat": 30,
           "category": "offers",
           "isPopular": false,
           "isOffer": true,
           "offerPrice": null,
           "isCombo": true,
+          "offerKind": "deal",
           "comboIncludes": [
-            "حمص",
-            "متبل",
-            "فتوش",
-            "خبز عربي",
-            "عصير"
+            "فلافل صحن",
+            "فلافل صحن",
+            "مشروب",
+            "مخلل"
           ],
           "spicyOption": false,
           "cashbackPercent": null,
@@ -2601,28 +2648,29 @@
           ]
         },
         {
-          "id": "halab-taam-combo-3",
+          "id": "halab-taam-offer-3",
           "restaurantId": "halab-taam",
-          "name": "كومبو فلافل وجبة",
-          "description": "صحن فلافل كامل مع إضافات.",
+          "name": "تشكيلة مقبلات بسعر ثابت — طعم حلب",
+          "description": "حمص ومتبل وفتوش وخبز وعصير — خمسة أصناف بسعر واحد.",
           "image": "https://images.unsplash.com/photo-1601050690117-94f5f6fa8bd7?w=800&q=80",
-          "price": 28,
+          "price": 68,
           "rating": 4.6,
-          "calories": 650,
-          "protein": 18,
-          "carbs": 72,
-          "fat": 24,
+          "calories": 980,
+          "protein": 26,
+          "carbs": 95,
+          "fat": 42,
           "category": "offers",
           "isPopular": false,
           "isOffer": true,
           "offerPrice": null,
           "isCombo": true,
+          "offerKind": "deal",
           "comboIncludes": [
-            "فلافل",
             "حمص",
-            "مخلل",
-            "خبز",
-            "مشروب"
+            "متبل",
+            "فتوش",
+            "خبز عربي",
+            "عصير"
           ],
           "spicyOption": false,
           "cashbackPercent": null,
@@ -2722,7 +2770,8 @@
             }
           ],
           "isCombo": false,
-          "comboIncludes": []
+          "comboIncludes": [],
+          "offerKind": null
         },
         {
           "id": "zaatar-wzeit-2",
@@ -2770,7 +2819,8 @@
             }
           ],
           "isCombo": false,
-          "comboIncludes": []
+          "comboIncludes": [],
+          "offerKind": null
         },
         {
           "id": "zaatar-wzeit-3",
@@ -2818,7 +2868,8 @@
             }
           ],
           "isCombo": false,
-          "comboIncludes": []
+          "comboIncludes": [],
+          "offerKind": null
         },
         {
           "id": "zaatar-wzeit-4",
@@ -2866,7 +2917,8 @@
             }
           ],
           "isCombo": false,
-          "comboIncludes": []
+          "comboIncludes": [],
+          "offerKind": null
         },
         {
           "id": "zaatar-wzeit-5",
@@ -2914,7 +2966,8 @@
             }
           ],
           "isCombo": false,
-          "comboIncludes": []
+          "comboIncludes": [],
+          "offerKind": null
         },
         {
           "id": "zaatar-wzeit-6",
@@ -2962,7 +3015,8 @@
             }
           ],
           "isCombo": false,
-          "comboIncludes": []
+          "comboIncludes": [],
+          "offerKind": null
         },
         {
           "id": "zaatar-wzeit-7",
@@ -3010,7 +3064,8 @@
             }
           ],
           "isCombo": false,
-          "comboIncludes": []
+          "comboIncludes": [],
+          "offerKind": null
         },
         {
           "id": "zaatar-wzeit-8",
@@ -3058,7 +3113,8 @@
             }
           ],
           "isCombo": false,
-          "comboIncludes": []
+          "comboIncludes": [],
+          "offerKind": null
         },
         {
           "id": "zaatar-wzeit-9",
@@ -3106,7 +3162,8 @@
             }
           ],
           "isCombo": false,
-          "comboIncludes": []
+          "comboIncludes": [],
+          "offerKind": null
         },
         {
           "id": "zaatar-wzeit-10",
@@ -3154,12 +3211,13 @@
             }
           ],
           "isCombo": false,
-          "comboIncludes": []
+          "comboIncludes": [],
+          "offerKind": null
         },
         {
-          "id": "zaatar-wzeit-combo-1",
+          "id": "zaatar-wzeit-offer-1",
           "restaurantId": "zaatar-wzeit",
-          "name": "كومبو شاورما كامل",
+          "name": "وجبة شاورما كاملة — زعتر وزيت",
           "description": "شاورما مع بطاطس ومشروب وسلطة.",
           "image": "https://images.unsplash.com/photo-1529006557810-274b9b2fc783?w=800&q=80",
           "price": 42,
@@ -3173,9 +3231,10 @@
           "isOffer": true,
           "offerPrice": null,
           "isCombo": true,
+          "offerKind": "combo",
           "comboIncludes": [
             "شاورما دجاج",
-            "بطاطس مقلية",
+            "بطاطس",
             "سلطة",
             "ثوم",
             "مشروب"
@@ -3211,28 +3270,28 @@
           ]
         },
         {
-          "id": "zaatar-wzeit-combo-2",
+          "id": "zaatar-wzeit-offer-2",
           "restaurantId": "zaatar-wzeit",
-          "name": "كومبو مقبلات شامية",
-          "description": "تشكيلة مقبلات مع خبز ومشروب.",
+          "name": "عرض فلافل: صحنين ومشروب — زعتر وزيت",
+          "description": "صحنان فلافل مع مخلل ومشروب بسعر واحد.",
           "image": "https://images.unsplash.com/photo-1626082927389-6cd097cdc6ec?w=800&q=80",
-          "price": 48,
+          "price": 38,
           "rating": 4.6,
-          "calories": 780,
-          "protein": 22,
-          "carbs": 70,
-          "fat": 38,
+          "calories": 820,
+          "protein": 28,
+          "carbs": 90,
+          "fat": 30,
           "category": "offers",
           "isPopular": false,
           "isOffer": true,
           "offerPrice": null,
           "isCombo": true,
+          "offerKind": "deal",
           "comboIncludes": [
-            "حمص",
-            "متبل",
-            "فتوش",
-            "خبز عربي",
-            "عصير"
+            "فلافل صحن",
+            "فلافل صحن",
+            "مشروب",
+            "مخلل"
           ],
           "spicyOption": false,
           "cashbackPercent": null,
@@ -3265,28 +3324,29 @@
           ]
         },
         {
-          "id": "zaatar-wzeit-combo-3",
+          "id": "zaatar-wzeit-offer-3",
           "restaurantId": "zaatar-wzeit",
-          "name": "كومبو فلافل وجبة",
-          "description": "صحن فلافل كامل مع إضافات.",
+          "name": "تشكيلة مقبلات بسعر ثابت — زعتر وزيت",
+          "description": "حمص ومتبل وفتوش وخبز وعصير — خمسة أصناف بسعر واحد.",
           "image": "https://images.unsplash.com/photo-1601050690117-94f5f6fa8bd7?w=800&q=80",
-          "price": 28,
+          "price": 68,
           "rating": 4.6,
-          "calories": 650,
-          "protein": 18,
-          "carbs": 72,
-          "fat": 24,
+          "calories": 980,
+          "protein": 26,
+          "carbs": 95,
+          "fat": 42,
           "category": "offers",
           "isPopular": false,
           "isOffer": true,
           "offerPrice": null,
           "isCombo": true,
+          "offerKind": "deal",
           "comboIncludes": [
-            "فلافل",
             "حمص",
-            "مخلل",
-            "خبز",
-            "مشروب"
+            "متبل",
+            "فتوش",
+            "خبز عربي",
+            "عصير"
           ],
           "spicyOption": false,
           "cashbackPercent": null,
@@ -3386,7 +3446,8 @@
             }
           ],
           "isCombo": false,
-          "comboIncludes": []
+          "comboIncludes": [],
+          "offerKind": null
         },
         {
           "id": "laban-wbasil-2",
@@ -3434,7 +3495,8 @@
             }
           ],
           "isCombo": false,
-          "comboIncludes": []
+          "comboIncludes": [],
+          "offerKind": null
         },
         {
           "id": "laban-wbasil-3",
@@ -3482,7 +3544,8 @@
             }
           ],
           "isCombo": false,
-          "comboIncludes": []
+          "comboIncludes": [],
+          "offerKind": null
         },
         {
           "id": "laban-wbasil-4",
@@ -3530,7 +3593,8 @@
             }
           ],
           "isCombo": false,
-          "comboIncludes": []
+          "comboIncludes": [],
+          "offerKind": null
         },
         {
           "id": "laban-wbasil-5",
@@ -3578,7 +3642,8 @@
             }
           ],
           "isCombo": false,
-          "comboIncludes": []
+          "comboIncludes": [],
+          "offerKind": null
         },
         {
           "id": "laban-wbasil-6",
@@ -3626,7 +3691,8 @@
             }
           ],
           "isCombo": false,
-          "comboIncludes": []
+          "comboIncludes": [],
+          "offerKind": null
         },
         {
           "id": "laban-wbasil-7",
@@ -3674,7 +3740,8 @@
             }
           ],
           "isCombo": false,
-          "comboIncludes": []
+          "comboIncludes": [],
+          "offerKind": null
         },
         {
           "id": "laban-wbasil-8",
@@ -3722,7 +3789,8 @@
             }
           ],
           "isCombo": false,
-          "comboIncludes": []
+          "comboIncludes": [],
+          "offerKind": null
         },
         {
           "id": "laban-wbasil-9",
@@ -3770,7 +3838,8 @@
             }
           ],
           "isCombo": false,
-          "comboIncludes": []
+          "comboIncludes": [],
+          "offerKind": null
         },
         {
           "id": "laban-wbasil-10",
@@ -3818,12 +3887,13 @@
             }
           ],
           "isCombo": false,
-          "comboIncludes": []
+          "comboIncludes": [],
+          "offerKind": null
         },
         {
-          "id": "laban-wbasil-combo-1",
+          "id": "laban-wbasil-offer-1",
           "restaurantId": "laban-wbasil",
-          "name": "كومبو شاورما كامل",
+          "name": "وجبة شاورما كاملة — لبن وباسل",
           "description": "شاورما مع بطاطس ومشروب وسلطة.",
           "image": "https://images.unsplash.com/photo-1529006557810-274b9b2fc783?w=800&q=80",
           "price": 42,
@@ -3837,9 +3907,10 @@
           "isOffer": true,
           "offerPrice": null,
           "isCombo": true,
+          "offerKind": "combo",
           "comboIncludes": [
             "شاورما دجاج",
-            "بطاطس مقلية",
+            "بطاطس",
             "سلطة",
             "ثوم",
             "مشروب"
@@ -3875,28 +3946,28 @@
           ]
         },
         {
-          "id": "laban-wbasil-combo-2",
+          "id": "laban-wbasil-offer-2",
           "restaurantId": "laban-wbasil",
-          "name": "كومبو مقبلات شامية",
-          "description": "تشكيلة مقبلات مع خبز ومشروب.",
+          "name": "عرض فلافل: صحنين ومشروب — لبن وباسل",
+          "description": "صحنان فلافل مع مخلل ومشروب بسعر واحد.",
           "image": "https://images.unsplash.com/photo-1626082927389-6cd097cdc6ec?w=800&q=80",
-          "price": 48,
+          "price": 38,
           "rating": 4.6,
-          "calories": 780,
-          "protein": 22,
-          "carbs": 70,
-          "fat": 38,
+          "calories": 820,
+          "protein": 28,
+          "carbs": 90,
+          "fat": 30,
           "category": "offers",
           "isPopular": false,
           "isOffer": true,
           "offerPrice": null,
           "isCombo": true,
+          "offerKind": "deal",
           "comboIncludes": [
-            "حمص",
-            "متبل",
-            "فتوش",
-            "خبز عربي",
-            "عصير"
+            "فلافل صحن",
+            "فلافل صحن",
+            "مشروب",
+            "مخلل"
           ],
           "spicyOption": false,
           "cashbackPercent": null,
@@ -3929,28 +4000,29 @@
           ]
         },
         {
-          "id": "laban-wbasil-combo-3",
+          "id": "laban-wbasil-offer-3",
           "restaurantId": "laban-wbasil",
-          "name": "كومبو فلافل وجبة",
-          "description": "صحن فلافل كامل مع إضافات.",
+          "name": "تشكيلة مقبلات بسعر ثابت — لبن وباسل",
+          "description": "حمص ومتبل وفتوش وخبز وعصير — خمسة أصناف بسعر واحد.",
           "image": "https://images.unsplash.com/photo-1601050690117-94f5f6fa8bd7?w=800&q=80",
-          "price": 28,
+          "price": 68,
           "rating": 4.6,
-          "calories": 650,
-          "protein": 18,
-          "carbs": 72,
-          "fat": 24,
+          "calories": 980,
+          "protein": 26,
+          "carbs": 95,
+          "fat": 42,
           "category": "offers",
           "isPopular": false,
           "isOffer": true,
           "offerPrice": null,
           "isCombo": true,
+          "offerKind": "deal",
           "comboIncludes": [
-            "فلافل",
             "حمص",
-            "مخلل",
-            "خبز",
-            "مشروب"
+            "متبل",
+            "فتوش",
+            "خبز عربي",
+            "عصير"
           ],
           "spicyOption": false,
           "cashbackPercent": null,
@@ -4050,7 +4122,8 @@
             }
           ],
           "isCombo": false,
-          "comboIncludes": []
+          "comboIncludes": [],
+          "offerKind": null
         },
         {
           "id": "manakeesh-street-2",
@@ -4098,7 +4171,8 @@
             }
           ],
           "isCombo": false,
-          "comboIncludes": []
+          "comboIncludes": [],
+          "offerKind": null
         },
         {
           "id": "manakeesh-street-3",
@@ -4146,7 +4220,8 @@
             }
           ],
           "isCombo": false,
-          "comboIncludes": []
+          "comboIncludes": [],
+          "offerKind": null
         },
         {
           "id": "manakeesh-street-4",
@@ -4194,7 +4269,8 @@
             }
           ],
           "isCombo": false,
-          "comboIncludes": []
+          "comboIncludes": [],
+          "offerKind": null
         },
         {
           "id": "manakeesh-street-5",
@@ -4242,7 +4318,8 @@
             }
           ],
           "isCombo": false,
-          "comboIncludes": []
+          "comboIncludes": [],
+          "offerKind": null
         },
         {
           "id": "manakeesh-street-6",
@@ -4290,7 +4367,8 @@
             }
           ],
           "isCombo": false,
-          "comboIncludes": []
+          "comboIncludes": [],
+          "offerKind": null
         },
         {
           "id": "manakeesh-street-7",
@@ -4338,7 +4416,8 @@
             }
           ],
           "isCombo": false,
-          "comboIncludes": []
+          "comboIncludes": [],
+          "offerKind": null
         },
         {
           "id": "manakeesh-street-8",
@@ -4386,7 +4465,8 @@
             }
           ],
           "isCombo": false,
-          "comboIncludes": []
+          "comboIncludes": [],
+          "offerKind": null
         },
         {
           "id": "manakeesh-street-9",
@@ -4434,7 +4514,8 @@
             }
           ],
           "isCombo": false,
-          "comboIncludes": []
+          "comboIncludes": [],
+          "offerKind": null
         },
         {
           "id": "manakeesh-street-10",
@@ -4482,12 +4563,13 @@
             }
           ],
           "isCombo": false,
-          "comboIncludes": []
+          "comboIncludes": [],
+          "offerKind": null
         },
         {
-          "id": "manakeesh-street-combo-1",
+          "id": "manakeesh-street-offer-1",
           "restaurantId": "manakeesh-street",
-          "name": "كومبو شاورما كامل",
+          "name": "وجبة شاورما كاملة — شارع المناقيش",
           "description": "شاورما مع بطاطس ومشروب وسلطة.",
           "image": "https://images.unsplash.com/photo-1529006557810-274b9b2fc783?w=800&q=80",
           "price": 42,
@@ -4501,9 +4583,10 @@
           "isOffer": true,
           "offerPrice": null,
           "isCombo": true,
+          "offerKind": "combo",
           "comboIncludes": [
             "شاورما دجاج",
-            "بطاطس مقلية",
+            "بطاطس",
             "سلطة",
             "ثوم",
             "مشروب"
@@ -4539,28 +4622,28 @@
           ]
         },
         {
-          "id": "manakeesh-street-combo-2",
+          "id": "manakeesh-street-offer-2",
           "restaurantId": "manakeesh-street",
-          "name": "كومبو مقبلات شامية",
-          "description": "تشكيلة مقبلات مع خبز ومشروب.",
+          "name": "عرض فلافل: صحنين ومشروب — شارع المناقيش",
+          "description": "صحنان فلافل مع مخلل ومشروب بسعر واحد.",
           "image": "https://images.unsplash.com/photo-1626082927389-6cd097cdc6ec?w=800&q=80",
-          "price": 48,
+          "price": 38,
           "rating": 4.6,
-          "calories": 780,
-          "protein": 22,
-          "carbs": 70,
-          "fat": 38,
+          "calories": 820,
+          "protein": 28,
+          "carbs": 90,
+          "fat": 30,
           "category": "offers",
           "isPopular": false,
           "isOffer": true,
           "offerPrice": null,
           "isCombo": true,
+          "offerKind": "deal",
           "comboIncludes": [
-            "حمص",
-            "متبل",
-            "فتوش",
-            "خبز عربي",
-            "عصير"
+            "فلافل صحن",
+            "فلافل صحن",
+            "مشروب",
+            "مخلل"
           ],
           "spicyOption": false,
           "cashbackPercent": null,
@@ -4593,28 +4676,29 @@
           ]
         },
         {
-          "id": "manakeesh-street-combo-3",
+          "id": "manakeesh-street-offer-3",
           "restaurantId": "manakeesh-street",
-          "name": "كومبو فلافل وجبة",
-          "description": "صحن فلافل كامل مع إضافات.",
+          "name": "تشكيلة مقبلات بسعر ثابت — شارع المناقيش",
+          "description": "حمص ومتبل وفتوش وخبز وعصير — خمسة أصناف بسعر واحد.",
           "image": "https://images.unsplash.com/photo-1601050690117-94f5f6fa8bd7?w=800&q=80",
-          "price": 28,
+          "price": 68,
           "rating": 4.6,
-          "calories": 650,
-          "protein": 18,
-          "carbs": 72,
-          "fat": 24,
+          "calories": 980,
+          "protein": 26,
+          "carbs": 95,
+          "fat": 42,
           "category": "offers",
           "isPopular": false,
           "isOffer": true,
           "offerPrice": null,
           "isCombo": true,
+          "offerKind": "deal",
           "comboIncludes": [
-            "فلافل",
             "حمص",
-            "مخلل",
-            "خبز",
-            "مشروب"
+            "متبل",
+            "فتوش",
+            "خبز عربي",
+            "عصير"
           ],
           "spicyOption": false,
           "cashbackPercent": null,
@@ -4714,7 +4798,8 @@
             }
           ],
           "isCombo": false,
-          "comboIncludes": []
+          "comboIncludes": [],
+          "offerKind": null
         },
         {
           "id": "hummus-house-2",
@@ -4762,7 +4847,8 @@
             }
           ],
           "isCombo": false,
-          "comboIncludes": []
+          "comboIncludes": [],
+          "offerKind": null
         },
         {
           "id": "hummus-house-3",
@@ -4810,7 +4896,8 @@
             }
           ],
           "isCombo": false,
-          "comboIncludes": []
+          "comboIncludes": [],
+          "offerKind": null
         },
         {
           "id": "hummus-house-4",
@@ -4858,7 +4945,8 @@
             }
           ],
           "isCombo": false,
-          "comboIncludes": []
+          "comboIncludes": [],
+          "offerKind": null
         },
         {
           "id": "hummus-house-5",
@@ -4906,7 +4994,8 @@
             }
           ],
           "isCombo": false,
-          "comboIncludes": []
+          "comboIncludes": [],
+          "offerKind": null
         },
         {
           "id": "hummus-house-6",
@@ -4954,7 +5043,8 @@
             }
           ],
           "isCombo": false,
-          "comboIncludes": []
+          "comboIncludes": [],
+          "offerKind": null
         },
         {
           "id": "hummus-house-7",
@@ -5002,7 +5092,8 @@
             }
           ],
           "isCombo": false,
-          "comboIncludes": []
+          "comboIncludes": [],
+          "offerKind": null
         },
         {
           "id": "hummus-house-8",
@@ -5050,7 +5141,8 @@
             }
           ],
           "isCombo": false,
-          "comboIncludes": []
+          "comboIncludes": [],
+          "offerKind": null
         },
         {
           "id": "hummus-house-9",
@@ -5098,7 +5190,8 @@
             }
           ],
           "isCombo": false,
-          "comboIncludes": []
+          "comboIncludes": [],
+          "offerKind": null
         },
         {
           "id": "hummus-house-10",
@@ -5146,12 +5239,13 @@
             }
           ],
           "isCombo": false,
-          "comboIncludes": []
+          "comboIncludes": [],
+          "offerKind": null
         },
         {
-          "id": "hummus-house-combo-1",
+          "id": "hummus-house-offer-1",
           "restaurantId": "hummus-house",
-          "name": "كومبو شاورما كامل",
+          "name": "وجبة شاورما كاملة — بيت الحمص",
           "description": "شاورما مع بطاطس ومشروب وسلطة.",
           "image": "https://images.unsplash.com/photo-1529006557810-274b9b2fc783?w=800&q=80",
           "price": 42,
@@ -5165,9 +5259,10 @@
           "isOffer": true,
           "offerPrice": null,
           "isCombo": true,
+          "offerKind": "combo",
           "comboIncludes": [
             "شاورما دجاج",
-            "بطاطس مقلية",
+            "بطاطس",
             "سلطة",
             "ثوم",
             "مشروب"
@@ -5203,28 +5298,28 @@
           ]
         },
         {
-          "id": "hummus-house-combo-2",
+          "id": "hummus-house-offer-2",
           "restaurantId": "hummus-house",
-          "name": "كومبو مقبلات شامية",
-          "description": "تشكيلة مقبلات مع خبز ومشروب.",
+          "name": "عرض فلافل: صحنين ومشروب — بيت الحمص",
+          "description": "صحنان فلافل مع مخلل ومشروب بسعر واحد.",
           "image": "https://images.unsplash.com/photo-1626082927389-6cd097cdc6ec?w=800&q=80",
-          "price": 48,
+          "price": 38,
           "rating": 4.6,
-          "calories": 780,
-          "protein": 22,
-          "carbs": 70,
-          "fat": 38,
+          "calories": 820,
+          "protein": 28,
+          "carbs": 90,
+          "fat": 30,
           "category": "offers",
           "isPopular": false,
           "isOffer": true,
           "offerPrice": null,
           "isCombo": true,
+          "offerKind": "deal",
           "comboIncludes": [
-            "حمص",
-            "متبل",
-            "فتوش",
-            "خبز عربي",
-            "عصير"
+            "فلافل صحن",
+            "فلافل صحن",
+            "مشروب",
+            "مخلل"
           ],
           "spicyOption": false,
           "cashbackPercent": null,
@@ -5257,28 +5352,29 @@
           ]
         },
         {
-          "id": "hummus-house-combo-3",
+          "id": "hummus-house-offer-3",
           "restaurantId": "hummus-house",
-          "name": "كومبو فلافل وجبة",
-          "description": "صحن فلافل كامل مع إضافات.",
+          "name": "تشكيلة مقبلات بسعر ثابت — بيت الحمص",
+          "description": "حمص ومتبل وفتوش وخبز وعصير — خمسة أصناف بسعر واحد.",
           "image": "https://images.unsplash.com/photo-1601050690117-94f5f6fa8bd7?w=800&q=80",
-          "price": 28,
+          "price": 68,
           "rating": 4.6,
-          "calories": 650,
-          "protein": 18,
-          "carbs": 72,
-          "fat": 24,
+          "calories": 980,
+          "protein": 26,
+          "carbs": 95,
+          "fat": 42,
           "category": "offers",
           "isPopular": false,
           "isOffer": true,
           "offerPrice": null,
           "isCombo": true,
+          "offerKind": "deal",
           "comboIncludes": [
-            "فلافل",
             "حمص",
-            "مخلل",
-            "خبز",
-            "مشروب"
+            "متبل",
+            "فتوش",
+            "خبز عربي",
+            "عصير"
           ],
           "spicyOption": false,
           "cashbackPercent": null,

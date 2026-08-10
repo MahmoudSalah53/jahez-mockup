@@ -3,6 +3,7 @@ import Link from "next/link";
 import type { Meal } from "@/lib/types";
 import { getMealPrice } from "@/data/meals";
 import { formatPrice } from "@/lib/format";
+import { offerBadgeLabel } from "@/lib/offer-badge";
 
 type Props = {
   meal: Meal;
@@ -12,10 +13,11 @@ type Props = {
 
 export function MealListItem({ meal, href, restaurantName }: Props) {
   const price = getMealPrice(meal);
-  const isCombo = meal.isCombo || meal.isOffer;
+  const isDeal = meal.isCombo || meal.isOffer;
+  const badge = offerBadgeLabel(meal.offerKind, isDeal);
   const link = href ?? `/meals/${meal.id}`;
   const subtitle =
-    isCombo && meal.comboIncludes?.length
+    isDeal && meal.comboIncludes?.length
       ? `يشمل: ${meal.comboIncludes.join(" · ")}`
       : meal.description;
 
@@ -32,11 +34,11 @@ export function MealListItem({ meal, href, restaurantName }: Props) {
           sizes="64px"
           className="object-cover"
         />
-        {isCombo && (
+        {badge ? (
           <span className="absolute start-1 top-1 rounded bg-accent px-1 text-[9px] font-bold text-white">
-            كومبو
+            {badge}
           </span>
-        )}
+        ) : null}
       </div>
       <div className="min-w-0 flex-1">
         <h3 className="truncate text-[15px] font-semibold text-foreground">

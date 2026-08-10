@@ -13,6 +13,7 @@ import { useCart } from "@/lib/cart-context";
 import { registerMealOptionsController } from "@/lib/meal-options-bridge";
 import { useSaved } from "@/lib/saved-context";
 import type { CartAddon } from "@/lib/types";
+import { offerBadgeLabel } from "@/lib/offer-badge";
 import { cn } from "@/lib/cn";
 
 export function MealDetailClient() {
@@ -147,7 +148,7 @@ export function MealDetailClient() {
           </button>
           {(meal.isCombo || meal.isOffer) && (
             <span className="absolute end-3 top-3 rounded-md bg-accent px-2 py-1 text-xs font-bold text-white">
-              كومبو
+              {offerBadgeLabel(meal.offerKind, true) ?? "عرض"}
             </span>
           )}
         </div>
@@ -171,7 +172,7 @@ export function MealDetailClient() {
 
           {meal.isCombo && meal.comboIncludes?.length ? (
             <ul className="mt-3 space-y-1.5 rounded-2xl border border-border bg-background p-3">
-              <li className="text-xs font-semibold text-muted">يشمل الكومبو</li>
+              <li className="text-xs font-semibold text-muted">يشمل العرض</li>
               {meal.comboIncludes.map((item) => (
                 <li
                   key={item}

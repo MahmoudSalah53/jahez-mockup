@@ -65,7 +65,8 @@
             }
           ],
           "isCombo": false,
-          "comboIncludes": []
+          "comboIncludes": [],
+          "offerKind": null
         },
         {
           "id": "bayt-alshawaya-lamb",
@@ -113,7 +114,8 @@
             }
           ],
           "isCombo": false,
-          "comboIncludes": []
+          "comboIncludes": [],
+          "offerKind": null
         },
         {
           "id": "bayt-alshawaya-chicken",
@@ -161,7 +163,8 @@
             }
           ],
           "isCombo": false,
-          "comboIncludes": []
+          "comboIncludes": [],
+          "offerKind": null
         },
         {
           "id": "bayt-alshawaya-kofta",
@@ -209,7 +212,8 @@
             }
           ],
           "isCombo": false,
-          "comboIncludes": []
+          "comboIncludes": [],
+          "offerKind": null
         },
         {
           "id": "bayt-alshawaya-bukhari",
@@ -257,7 +261,8 @@
             }
           ],
           "isCombo": false,
-          "comboIncludes": []
+          "comboIncludes": [],
+          "offerKind": null
         },
         {
           "id": "bayt-alshawaya-tikka",
@@ -305,7 +310,8 @@
             }
           ],
           "isCombo": false,
-          "comboIncludes": []
+          "comboIncludes": [],
+          "offerKind": null
         },
         {
           "id": "bayt-alshawaya-mixed-plate",
@@ -353,7 +359,8 @@
             }
           ],
           "isCombo": false,
-          "comboIncludes": []
+          "comboIncludes": [],
+          "offerKind": null
         },
         {
           "id": "bayt-alshawaya-kebab",
@@ -401,7 +408,8 @@
             }
           ],
           "isCombo": false,
-          "comboIncludes": []
+          "comboIncludes": [],
+          "offerKind": null
         },
         {
           "id": "bayt-alshawaya-liver",
@@ -449,7 +457,8 @@
             }
           ],
           "isCombo": false,
-          "comboIncludes": []
+          "comboIncludes": [],
+          "offerKind": null
         },
         {
           "id": "bayt-alshawaya-soup",
@@ -497,13 +506,14 @@
             }
           ],
           "isCombo": false,
-          "comboIncludes": []
+          "comboIncludes": [],
+          "offerKind": null
         },
         {
-          "id": "bayt-alshawaya-combo-1",
+          "id": "bayt-alshawaya-offer-1",
           "restaurantId": "bayt-alshawaya",
-          "name": "كومبو مشاوي فردي",
-          "description": "وجبة كاملة: مشاوي مع أرز ومشروب.",
+          "name": "وجبة مشاوي فردية — بيت الشواية",
+          "description": "طبق رئيسي مع أرز وسلطة ومشروب — وجبة كاملة لشخص واحد.",
           "image": "https://images.unsplash.com/photo-1555939594-58d7cb561ad1?w=800&q=80",
           "price": 59,
           "rating": 4.6,
@@ -516,6 +526,7 @@
           "isOffer": true,
           "offerPrice": null,
           "isCombo": true,
+          "offerKind": "combo",
           "comboIncludes": [
             "شيش طاووق",
             "أرز أبيض",
@@ -553,10 +564,10 @@
           ]
         },
         {
-          "id": "bayt-alshawaya-combo-2",
+          "id": "bayt-alshawaya-offer-2",
           "restaurantId": "bayt-alshawaya",
-          "name": "كومبو عائلي مشاوي",
-          "description": "تشكيلة مشاوي تكفي ٣–٤ أشخاص مع مقبلات.",
+          "name": "وجبة عائلية مشاوي — بيت الشواية",
+          "description": "تشكيلة تكفي ٣–٤ أشخاص مع مقبلات ومشروبات.",
           "image": "https://images.unsplash.com/photo-1529692236671-f1f6cf9683ba?w=800&q=80",
           "price": 189,
           "rating": 4.6,
@@ -569,6 +580,7 @@
           "isOffer": true,
           "offerPrice": null,
           "isCombo": true,
+          "offerKind": "family",
           "comboIncludes": [
             "مشكل مشاوي",
             "حمص",
@@ -607,28 +619,28 @@
           ]
         },
         {
-          "id": "bayt-alshawaya-combo-3",
+          "id": "bayt-alshawaya-offer-3",
           "restaurantId": "bayt-alshawaya",
-          "name": "كومبو كباب كامل",
-          "description": "كباب لحم مع أرز ومقبلات ومشروب.",
+          "name": "اشتري كباب واحصل على الثاني مجاناً — بيت الشواية",
+          "description": "عرض: كبابين بنفس السعر — مع طحينة ومخلل.",
           "image": "https://images.unsplash.com/photo-1603360946369-dc9bb6258143?w=800&q=80",
           "price": 72,
           "rating": 4.6,
           "calories": 1100,
           "protein": 52,
-          "carbs": 90,
-          "fat": 45,
+          "carbs": 40,
+          "fat": 55,
           "category": "offers",
           "isPopular": false,
           "isOffer": true,
           "offerPrice": null,
           "isCombo": true,
+          "offerKind": "deal",
           "comboIncludes": [
             "كباب لحم",
-            "أرز بخاري",
+            "كباب لحم إضافي",
             "طحينة",
-            "مخلل",
-            "كولا"
+            "مخلل"
           ],
           "spicyOption": true,
           "cashbackPercent": null,
@@ -727,7 +739,8 @@
             }
           ],
           "isCombo": false,
-          "comboIncludes": []
+          "comboIncludes": [],
+          "offerKind": null
         },
         {
           "id": "madhaq-alsham-falafel",
@@ -775,7 +788,8 @@
             }
           ],
           "isCombo": false,
-          "comboIncludes": []
+          "comboIncludes": [],
+          "offerKind": null
         },
         {
           "id": "madhaq-alsham-hummus",
@@ -823,7 +837,8 @@
             }
           ],
           "isCombo": false,
-          "comboIncludes": []
+          "comboIncludes": [],
+          "offerKind": null
         },
         {
           "id": "madhaq-alsham-kibbeh",
@@ -871,7 +886,8 @@
             }
           ],
           "isCombo": false,
-          "comboIncludes": []
+          "comboIncludes": [],
+          "offerKind": null
         },
         {
           "id": "madhaq-alsham-fattoush",
@@ -919,7 +935,8 @@
             }
           ],
           "isCombo": false,
-          "comboIncludes": []
+          "comboIncludes": [],
+          "offerKind": null
         },
         {
           "id": "madhaq-alsham-manakeesh",
@@ -967,7 +984,8 @@
             }
           ],
           "isCombo": false,
-          "comboIncludes": []
+          "comboIncludes": [],
+          "offerKind": null
         },
         {
           "id": "madhaq-alsham-foul",
@@ -1015,7 +1033,8 @@
             }
           ],
           "isCombo": false,
-          "comboIncludes": []
+          "comboIncludes": [],
+          "offerKind": null
         },
         {
           "id": "madhaq-alsham-mixed-mezzah",
@@ -1063,7 +1082,8 @@
             }
           ],
           "isCombo": false,
-          "comboIncludes": []
+          "comboIncludes": [],
+          "offerKind": null
         },
         {
           "id": "madhaq-alsham-meat-shawarma",
@@ -1111,7 +1131,8 @@
             }
           ],
           "isCombo": false,
-          "comboIncludes": []
+          "comboIncludes": [],
+          "offerKind": null
         },
         {
           "id": "madhaq-alsham-lentil",
@@ -1159,12 +1180,13 @@
             }
           ],
           "isCombo": false,
-          "comboIncludes": []
+          "comboIncludes": [],
+          "offerKind": null
         },
         {
-          "id": "madhaq-alsham-combo-1",
+          "id": "madhaq-alsham-offer-1",
           "restaurantId": "madhaq-alsham",
-          "name": "كومبو شاورما كامل",
+          "name": "وجبة شاورما كاملة — مذاق الشام",
           "description": "شاورما مع بطاطس ومشروب وسلطة.",
           "image": "https://images.unsplash.com/photo-1529006557810-274b9b2fc783?w=800&q=80",
           "price": 42,
@@ -1178,9 +1200,10 @@
           "isOffer": true,
           "offerPrice": null,
           "isCombo": true,
+          "offerKind": "combo",
           "comboIncludes": [
             "شاورما دجاج",
-            "بطاطس مقلية",
+            "بطاطس",
             "سلطة",
             "ثوم",
             "مشروب"
@@ -1216,28 +1239,28 @@
           ]
         },
         {
-          "id": "madhaq-alsham-combo-2",
+          "id": "madhaq-alsham-offer-2",
           "restaurantId": "madhaq-alsham",
-          "name": "كومبو مقبلات شامية",
-          "description": "تشكيلة مقبلات مع خبز ومشروب.",
+          "name": "عرض فلافل: صحنين ومشروب — مذاق الشام",
+          "description": "صحنان فلافل مع مخلل ومشروب بسعر واحد.",
           "image": "https://images.unsplash.com/photo-1626082927389-6cd097cdc6ec?w=800&q=80",
-          "price": 48,
+          "price": 38,
           "rating": 4.6,
-          "calories": 780,
-          "protein": 22,
-          "carbs": 70,
-          "fat": 38,
+          "calories": 820,
+          "protein": 28,
+          "carbs": 90,
+          "fat": 30,
           "category": "offers",
           "isPopular": false,
           "isOffer": true,
           "offerPrice": null,
           "isCombo": true,
+          "offerKind": "deal",
           "comboIncludes": [
-            "حمص",
-            "متبل",
-            "فتوش",
-            "خبز عربي",
-            "عصير"
+            "فلافل صحن",
+            "فلافل صحن",
+            "مشروب",
+            "مخلل"
           ],
           "spicyOption": false,
           "cashbackPercent": null,
@@ -1270,28 +1293,29 @@
           ]
         },
         {
-          "id": "madhaq-alsham-combo-3",
+          "id": "madhaq-alsham-offer-3",
           "restaurantId": "madhaq-alsham",
-          "name": "كومبو فلافل وجبة",
-          "description": "صحن فلافل كامل مع إضافات.",
+          "name": "تشكيلة مقبلات بسعر ثابت — مذاق الشام",
+          "description": "حمص ومتبل وفتوش وخبز وعصير — خمسة أصناف بسعر واحد.",
           "image": "https://images.unsplash.com/photo-1601050690117-94f5f6fa8bd7?w=800&q=80",
-          "price": 28,
+          "price": 68,
           "rating": 4.6,
-          "calories": 650,
-          "protein": 18,
-          "carbs": 72,
-          "fat": 24,
+          "calories": 980,
+          "protein": 26,
+          "carbs": 95,
+          "fat": 42,
           "category": "offers",
           "isPopular": false,
           "isOffer": true,
           "offerPrice": null,
           "isCombo": true,
+          "offerKind": "deal",
           "comboIncludes": [
-            "فلافل",
             "حمص",
-            "مخلل",
-            "خبز",
-            "مشروب"
+            "متبل",
+            "فتوش",
+            "خبز عربي",
+            "عصير"
           ],
           "spicyOption": false,
           "cashbackPercent": null,
@@ -1390,7 +1414,8 @@
             }
           ],
           "isCombo": false,
-          "comboIncludes": []
+          "comboIncludes": [],
+          "offerKind": null
         },
         {
           "id": "aseel-burger-double",
@@ -1438,7 +1463,8 @@
             }
           ],
           "isCombo": false,
-          "comboIncludes": []
+          "comboIncludes": [],
+          "offerKind": null
         },
         {
           "id": "aseel-burger-crispy",
@@ -1486,7 +1512,8 @@
             }
           ],
           "isCombo": false,
-          "comboIncludes": []
+          "comboIncludes": [],
+          "offerKind": null
         },
         {
           "id": "aseel-burger-fries",
@@ -1534,7 +1561,8 @@
             }
           ],
           "isCombo": false,
-          "comboIncludes": []
+          "comboIncludes": [],
+          "offerKind": null
         },
         {
           "id": "aseel-burger-shake",
@@ -1582,7 +1610,8 @@
             }
           ],
           "isCombo": false,
-          "comboIncludes": []
+          "comboIncludes": [],
+          "offerKind": null
         },
         {
           "id": "aseel-burger-bbq",
@@ -1630,7 +1659,8 @@
             }
           ],
           "isCombo": false,
-          "comboIncludes": []
+          "comboIncludes": [],
+          "offerKind": null
         },
         {
           "id": "aseel-burger-mushroom",
@@ -1678,7 +1708,8 @@
             }
           ],
           "isCombo": false,
-          "comboIncludes": []
+          "comboIncludes": [],
+          "offerKind": null
         },
         {
           "id": "aseel-burger-combo",
@@ -1726,7 +1757,8 @@
             }
           ],
           "isCombo": false,
-          "comboIncludes": []
+          "comboIncludes": [],
+          "offerKind": null
         },
         {
           "id": "aseel-burger-onion",
@@ -1774,7 +1806,8 @@
             }
           ],
           "isCombo": false,
-          "comboIncludes": []
+          "comboIncludes": [],
+          "offerKind": null
         },
         {
           "id": "aseel-burger-kids",
@@ -1822,13 +1855,14 @@
             }
           ],
           "isCombo": false,
-          "comboIncludes": []
+          "comboIncludes": [],
+          "offerKind": null
         },
         {
-          "id": "aseel-burger-combo-1",
+          "id": "aseel-burger-offer-1",
           "restaurantId": "aseel-burger",
-          "name": "كومبو برجر كلاسيك",
-          "description": "برجر + بطاطس + مشروب.",
+          "name": "وجبة برجر كاملة — أصيل برجر",
+          "description": "برجر مع بطاطس ومشروب.",
           "image": "https://images.unsplash.com/photo-1568901346375-23c9450c58cd?w=800&q=80",
           "price": 49,
           "rating": 4.6,
@@ -1841,6 +1875,7 @@
           "isOffer": true,
           "offerPrice": null,
           "isCombo": true,
+          "offerKind": "combo",
           "comboIncludes": [
             "برجر لحم",
             "بطاطس كبيرة",
@@ -1877,27 +1912,28 @@
           ]
         },
         {
-          "id": "aseel-burger-combo-2",
+          "id": "aseel-burger-offer-2",
           "restaurantId": "aseel-burger",
-          "name": "كومبو دبل تشيز",
-          "description": "دبل برجر مع بطاطس ومشروب.",
+          "name": "وجبة عائلية برجر — أصيل برجر",
+          "description": "أربعة برجر مع بطاطس عائلية وأربعة مشروبات.",
           "image": "https://images.unsplash.com/photo-1553979459-d2229ba7433b?w=800&q=80",
-          "price": 62,
+          "price": 149,
           "rating": 4.6,
-          "calories": 1380,
-          "protein": 48,
-          "carbs": 90,
-          "fat": 68,
+          "calories": 3200,
+          "protein": 120,
+          "carbs": 280,
+          "fat": 160,
           "category": "offers",
           "isPopular": false,
           "isOffer": true,
           "offerPrice": null,
           "isCombo": true,
+          "offerKind": "family",
           "comboIncludes": [
-            "دبل تشيز برجر",
-            "بطاطس",
-            "صوص",
-            "مشروب"
+            "٤ برجر",
+            "بطاطس عائلية",
+            "٤ مشروب",
+            "صوصات"
           ],
           "spicyOption": false,
           "cashbackPercent": null,
@@ -1930,27 +1966,26 @@
           ]
         },
         {
-          "id": "aseel-burger-combo-3",
+          "id": "aseel-burger-offer-3",
           "restaurantId": "aseel-burger",
-          "name": "كومبو تشيكن كرسبي",
-          "description": "برجر دجاج مقرمش وجبة كاملة.",
+          "name": "اشتري برجر دجاج واحصل على الثاني مجاناً — أصيل برجر",
+          "description": "عرض برجرين دجاج بنفس السعر.",
           "image": "https://images.unsplash.com/photo-1571091718767-18b5b1457add?w=800&q=80",
-          "price": 46,
+          "price": 36,
           "rating": 4.6,
-          "calories": 1080,
-          "protein": 32,
-          "carbs": 98,
-          "fat": 48,
+          "calories": 980,
+          "protein": 40,
+          "carbs": 80,
+          "fat": 42,
           "category": "offers",
           "isPopular": false,
           "isOffer": true,
           "offerPrice": null,
           "isCombo": true,
+          "offerKind": "deal",
           "comboIncludes": [
             "تشيكن برجر",
-            "بطاطس",
-            "سلطة كول سلو",
-            "مشروب"
+            "تشيكن برجر إضافي"
           ],
           "spicyOption": true,
           "cashbackPercent": null,
@@ -2049,7 +2084,8 @@
             }
           ],
           "isCombo": false,
-          "comboIncludes": []
+          "comboIncludes": [],
+          "offerKind": null
         },
         {
           "id": "sushi-noi-tuna",
@@ -2097,7 +2133,8 @@
             }
           ],
           "isCombo": false,
-          "comboIncludes": []
+          "comboIncludes": [],
+          "offerKind": null
         },
         {
           "id": "sushi-noi-tempura",
@@ -2145,7 +2182,8 @@
             }
           ],
           "isCombo": false,
-          "comboIncludes": []
+          "comboIncludes": [],
+          "offerKind": null
         },
         {
           "id": "sushi-noi-miso",
@@ -2193,7 +2231,8 @@
             }
           ],
           "isCombo": false,
-          "comboIncludes": []
+          "comboIncludes": [],
+          "offerKind": null
         },
         {
           "id": "sushi-noi-edamame",
@@ -2241,7 +2280,8 @@
             }
           ],
           "isCombo": false,
-          "comboIncludes": []
+          "comboIncludes": [],
+          "offerKind": null
         },
         {
           "id": "sushi-noi-dragon",
@@ -2289,7 +2329,8 @@
             }
           ],
           "isCombo": false,
-          "comboIncludes": []
+          "comboIncludes": [],
+          "offerKind": null
         },
         {
           "id": "sushi-noi-veggie",
@@ -2337,7 +2378,8 @@
             }
           ],
           "isCombo": false,
-          "comboIncludes": []
+          "comboIncludes": [],
+          "offerKind": null
         },
         {
           "id": "sushi-noi-set",
@@ -2385,7 +2427,8 @@
             }
           ],
           "isCombo": false,
-          "comboIncludes": []
+          "comboIncludes": [],
+          "offerKind": null
         },
         {
           "id": "sushi-noi-ramen",
@@ -2433,7 +2476,8 @@
             }
           ],
           "isCombo": false,
-          "comboIncludes": []
+          "comboIncludes": [],
+          "offerKind": null
         },
         {
           "id": "sushi-noi-gyoza",
@@ -2481,13 +2525,14 @@
             }
           ],
           "isCombo": false,
-          "comboIncludes": []
+          "comboIncludes": [],
+          "offerKind": null
         },
         {
-          "id": "sushi-noi-combo-1",
+          "id": "sushi-noi-offer-1",
           "restaurantId": "sushi-noi",
-          "name": "كومبو سوشي للمبتدئين",
-          "description": "رولز مع ميسو ومشروب.",
+          "name": "وجبة سوشي خفيفة — سوشي نوي",
+          "description": "رولز مع شوربة وشاي.",
           "image": "https://images.unsplash.com/photo-1579584425555-c3ce17fd4351?w=800&q=80",
           "price": 78,
           "rating": 4.6,
@@ -2500,10 +2545,11 @@
           "isOffer": true,
           "offerPrice": null,
           "isCombo": true,
+          "offerKind": "combo",
           "comboIncludes": [
             "رول كاليفورنيا",
-            "سوشي سالمون ×٤",
-            "شوربة ميسو",
+            "سوشي ×٤",
+            "ميسو",
             "شاي أخضر"
           ],
           "spicyOption": false,
@@ -2537,27 +2583,27 @@
           ]
         },
         {
-          "id": "sushi-noi-combo-2",
+          "id": "sushi-noi-offer-2",
           "restaurantId": "sushi-noi",
-          "name": "كومبو رامن وجبة",
-          "description": "رامن مع جيوزا ومشروب.",
+          "name": "عرض رامن مع جيوزا — سوشي نوي",
+          "description": "رامن وإدامامي وأربع قطع جيوزا بسعر واحد.",
           "image": "https://images.unsplash.com/photo-1553621042-f6e147245754?w=800&q=80",
-          "price": 68,
+          "price": 58,
           "rating": 4.6,
-          "calories": 980,
-          "protein": 38,
-          "carbs": 95,
-          "fat": 32,
+          "calories": 880,
+          "protein": 36,
+          "carbs": 90,
+          "fat": 28,
           "category": "offers",
           "isPopular": false,
           "isOffer": true,
           "offerPrice": null,
           "isCombo": true,
+          "offerKind": "deal",
           "comboIncludes": [
             "رامن",
             "جيوزا ×٤",
-            "إدامامي",
-            "مشروب"
+            "إدامامي"
           ],
           "spicyOption": false,
           "cashbackPercent": null,
@@ -2590,27 +2636,28 @@
           ]
         },
         {
-          "id": "sushi-noi-combo-3",
+          "id": "sushi-noi-offer-3",
           "restaurantId": "sushi-noi",
-          "name": "كومبو ترياكي كامل",
-          "description": "دجاج ترياكي مع أرز وسلطة.",
+          "name": "تشكيلة ساشيمي بسعر ثابت — سوشي نوي",
+          "description": "ساشيمي مشكل مع زنجبيل وواسابي وأرز للمشاركة.",
           "image": "https://images.unsplash.com/photo-1611143669185-af224c5e3252?w=800&q=80",
-          "price": 58,
+          "price": 129,
           "rating": 4.6,
-          "calories": 860,
-          "protein": 40,
-          "carbs": 88,
+          "calories": 640,
+          "protein": 55,
+          "carbs": 40,
           "fat": 20,
           "category": "offers",
           "isPopular": false,
           "isOffer": true,
           "offerPrice": null,
           "isCombo": true,
+          "offerKind": "deal",
           "comboIncludes": [
-            "دجاج ترياكي",
-            "أرز ياباني",
-            "سلطة سي ويد",
-            "مشروب"
+            "ساشيمي مشكل",
+            "زنجبيل",
+            "واسابي",
+            "أرز"
           ],
           "spicyOption": false,
           "cashbackPercent": null,
@@ -2709,7 +2756,8 @@
             }
           ],
           "isCombo": false,
-          "comboIncludes": []
+          "comboIncludes": [],
+          "offerKind": null
         },
         {
           "id": "halawiyat-riyadh-basbousa",
@@ -2757,7 +2805,8 @@
             }
           ],
           "isCombo": false,
-          "comboIncludes": []
+          "comboIncludes": [],
+          "offerKind": null
         },
         {
           "id": "halawiyat-riyadh-baklava",
@@ -2805,7 +2854,8 @@
             }
           ],
           "isCombo": false,
-          "comboIncludes": []
+          "comboIncludes": [],
+          "offerKind": null
         },
         {
           "id": "halawiyat-riyadh-luqaimat",
@@ -2853,7 +2903,8 @@
             }
           ],
           "isCombo": false,
-          "comboIncludes": []
+          "comboIncludes": [],
+          "offerKind": null
         },
         {
           "id": "halawiyat-riyadh-cheesecake",
@@ -2901,7 +2952,8 @@
             }
           ],
           "isCombo": false,
-          "comboIncludes": []
+          "comboIncludes": [],
+          "offerKind": null
         },
         {
           "id": "halawiyat-riyadh-umali",
@@ -2949,7 +3001,8 @@
             }
           ],
           "isCombo": false,
-          "comboIncludes": []
+          "comboIncludes": [],
+          "offerKind": null
         },
         {
           "id": "halawiyat-riyadh-maamoul",
@@ -2997,7 +3050,8 @@
             }
           ],
           "isCombo": false,
-          "comboIncludes": []
+          "comboIncludes": [],
+          "offerKind": null
         },
         {
           "id": "halawiyat-riyadh-box",
@@ -3045,7 +3099,8 @@
             }
           ],
           "isCombo": false,
-          "comboIncludes": []
+          "comboIncludes": [],
+          "offerKind": null
         },
         {
           "id": "halawiyat-riyadh-qahwa",
@@ -3093,7 +3148,8 @@
             }
           ],
           "isCombo": false,
-          "comboIncludes": []
+          "comboIncludes": [],
+          "offerKind": null
         },
         {
           "id": "halawiyat-riyadh-ice",
@@ -3141,82 +3197,30 @@
             }
           ],
           "isCombo": false,
-          "comboIncludes": []
+          "comboIncludes": [],
+          "offerKind": null
         },
         {
-          "id": "halawiyat-riyadh-combo-1",
+          "id": "halawiyat-riyadh-offer-1",
           "restaurantId": "halawiyat-riyadh",
-          "name": "كومبو حلا وقهوة",
-          "description": "تحلية مع مشروب ساخن.",
+          "name": "حلا مع قهوة — حلويات الرياض",
+          "description": "قطعة حلا مع مشروب ساخن.",
           "image": "https://images.unsplash.com/photo-1488477181946-6428a0291777?w=800&q=80",
           "price": 36,
           "rating": 4.6,
-          "calories": 620,
-          "protein": 12,
-          "carbs": 78,
-          "fat": 26,
-          "category": "offers",
-          "isPopular": false,
-          "isOffer": true,
-          "offerPrice": null,
-          "isCombo": true,
-          "comboIncludes": [
-            "كنافة أو كيك",
-            "لاتيه أو شاي",
-            "تمر"
-          ],
-          "spicyOption": false,
-          "cashbackPercent": null,
-          "addons": [
-            {
-              "id": "choc-sauce",
-              "name": "صوص شوكولاتة",
-              "price": 4
-            },
-            {
-              "id": "ice-scoop",
-              "name": "سكوب آيس كريم",
-              "price": 8
-            },
-            {
-              "id": "cream",
-              "name": "كريمة",
-              "price": 4
-            },
-            {
-              "id": "extra-coffee",
-              "name": "قهوة إضافية",
-              "price": 10
-            },
-            {
-              "id": "nuts",
-              "name": "مكسرات",
-              "price": 6
-            }
-          ]
-        },
-        {
-          "id": "halawiyat-riyadh-combo-2",
-          "restaurantId": "halawiyat-riyadh",
-          "name": "كومبو وافل آيس",
-          "description": "وافل مع آيس كريم وإضافات.",
-          "image": "https://images.unsplash.com/photo-1578985545062-69928b1d9587?w=800&q=80",
-          "price": 42,
-          "rating": 4.6,
-          "calories": 780,
+          "calories": 520,
           "protein": 10,
-          "carbs": 95,
-          "fat": 34,
+          "carbs": 60,
+          "fat": 22,
           "category": "offers",
           "isPopular": false,
           "isOffer": true,
           "offerPrice": null,
           "isCombo": true,
+          "offerKind": "combo",
           "comboIncludes": [
-            "وافل",
-            "سكوب آيس كريم",
-            "شوكولاتة",
-            "فراولة"
+            "قطعة حلا",
+            "لاتيه أو شاي"
           ],
           "spicyOption": false,
           "cashbackPercent": null,
@@ -3249,26 +3253,80 @@
           ]
         },
         {
-          "id": "halawiyat-riyadh-combo-3",
+          "id": "halawiyat-riyadh-offer-2",
           "restaurantId": "halawiyat-riyadh",
-          "name": "كومبو بقلاوة وشاي",
-          "description": "بقلاوة مشكلة مع شاي كرك.",
-          "image": "https://images.unsplash.com/photo-1563805042-7684c019e1cb?w=800&q=80",
+          "name": "اشتري كنافة واحصل على الثانية مجاناً — حلويات الرياض",
+          "description": "عرض كنافتين مع قطر بنفس السعر.",
+          "image": "https://images.unsplash.com/photo-1578985545062-69928b1d9587?w=800&q=80",
           "price": 32,
           "rating": 4.6,
-          "calories": 540,
-          "protein": 8,
-          "carbs": 62,
+          "calories": 780,
+          "protein": 14,
+          "carbs": 90,
+          "fat": 32,
+          "category": "offers",
+          "isPopular": false,
+          "isOffer": true,
+          "offerPrice": null,
+          "isCombo": true,
+          "offerKind": "deal",
+          "comboIncludes": [
+            "كنافة",
+            "كنافة إضافية",
+            "قطر"
+          ],
+          "spicyOption": false,
+          "cashbackPercent": null,
+          "addons": [
+            {
+              "id": "choc-sauce",
+              "name": "صوص شوكولاتة",
+              "price": 4
+            },
+            {
+              "id": "ice-scoop",
+              "name": "سكوب آيس كريم",
+              "price": 8
+            },
+            {
+              "id": "cream",
+              "name": "كريمة",
+              "price": 4
+            },
+            {
+              "id": "extra-coffee",
+              "name": "قهوة إضافية",
+              "price": 10
+            },
+            {
+              "id": "nuts",
+              "name": "مكسرات",
+              "price": 6
+            }
+          ]
+        },
+        {
+          "id": "halawiyat-riyadh-offer-3",
+          "restaurantId": "halawiyat-riyadh",
+          "name": "عرض وافل مع آيس كريم — حلويات الرياض",
+          "description": "وافل وسكوب آيس كريم وصوص بسعر واحد.",
+          "image": "https://images.unsplash.com/photo-1563805042-7684c019e1cb?w=800&q=80",
+          "price": 34,
+          "rating": 4.6,
+          "calories": 680,
+          "protein": 10,
+          "carbs": 85,
           "fat": 28,
           "category": "offers",
           "isPopular": false,
           "isOffer": true,
           "offerPrice": null,
           "isCombo": true,
+          "offerKind": "deal",
           "comboIncludes": [
-            "بقلاوة مشكلة",
-            "شاي كرك",
-            "مكسرات"
+            "وافل",
+            "سكوب آيس كريم",
+            "صوص"
           ],
           "spicyOption": false,
           "cashbackPercent": null,
@@ -3367,7 +3425,8 @@
             }
           ],
           "isCombo": false,
-          "comboIncludes": []
+          "comboIncludes": [],
+          "offerKind": null
         },
         {
           "id": "pizza-roma-pepperoni",
@@ -3415,7 +3474,8 @@
             }
           ],
           "isCombo": false,
-          "comboIncludes": []
+          "comboIncludes": [],
+          "offerKind": null
         },
         {
           "id": "pizza-roma-four-cheese",
@@ -3463,7 +3523,8 @@
             }
           ],
           "isCombo": false,
-          "comboIncludes": []
+          "comboIncludes": [],
+          "offerKind": null
         },
         {
           "id": "pizza-roma-veggie",
@@ -3511,7 +3572,8 @@
             }
           ],
           "isCombo": false,
-          "comboIncludes": []
+          "comboIncludes": [],
+          "offerKind": null
         },
         {
           "id": "pizza-roma-pasta",
@@ -3559,7 +3621,8 @@
             }
           ],
           "isCombo": false,
-          "comboIncludes": []
+          "comboIncludes": [],
+          "offerKind": null
         },
         {
           "id": "pizza-roma-alfredo",
@@ -3607,7 +3670,8 @@
             }
           ],
           "isCombo": false,
-          "comboIncludes": []
+          "comboIncludes": [],
+          "offerKind": null
         },
         {
           "id": "pizza-roma-garlic-bread",
@@ -3655,7 +3719,8 @@
             }
           ],
           "isCombo": false,
-          "comboIncludes": []
+          "comboIncludes": [],
+          "offerKind": null
         },
         {
           "id": "pizza-roma-calzone",
@@ -3703,7 +3768,8 @@
             }
           ],
           "isCombo": false,
-          "comboIncludes": []
+          "comboIncludes": [],
+          "offerKind": null
         },
         {
           "id": "pizza-roma-family",
@@ -3751,7 +3817,8 @@
             }
           ],
           "isCombo": false,
-          "comboIncludes": []
+          "comboIncludes": [],
+          "offerKind": null
         },
         {
           "id": "pizza-roma-tiramisu",
@@ -3799,13 +3866,14 @@
             }
           ],
           "isCombo": false,
-          "comboIncludes": []
+          "comboIncludes": [],
+          "offerKind": null
         },
         {
-          "id": "pizza-roma-combo-1",
+          "id": "pizza-roma-offer-1",
           "restaurantId": "pizza-roma",
-          "name": "كومبو بيتزا فردي",
-          "description": "بيتزا شخصية مع مشروب وسلطة.",
+          "name": "وجبة بيتزا فردية — بيتزا روما",
+          "description": "بيتزا شخصية مع سلطة ومشروب.",
           "image": "https://images.unsplash.com/photo-1513104890138-7c749659a591?w=800&q=80",
           "price": 55,
           "rating": 4.6,
@@ -3818,9 +3886,10 @@
           "isOffer": true,
           "offerPrice": null,
           "isCombo": true,
+          "offerKind": "combo",
           "comboIncludes": [
-            "بيتزا مارغريتا",
-            "سلطة سيزر صغيرة",
+            "بيتزا صغيرة",
+            "سلطة",
             "مشروب"
           ],
           "spicyOption": false,
@@ -3854,63 +3923,11 @@
           ]
         },
         {
-          "id": "pizza-roma-combo-2",
+          "id": "pizza-roma-offer-2",
           "restaurantId": "pizza-roma",
-          "name": "كومبو باستا كامل",
-          "description": "باستا مع خبز وثوم ومشروب.",
+          "name": "وجبة عائلية بيتزا — بيتزا روما",
+          "description": "بيتزا كبيرة مع مقبلات ومشروبين للعائلة.",
           "image": "https://images.unsplash.com/photo-1551183053-bf91a1d81141?w=800&q=80",
-          "price": 52,
-          "rating": 4.6,
-          "calories": 920,
-          "protein": 28,
-          "carbs": 88,
-          "fat": 38,
-          "category": "offers",
-          "isPopular": false,
-          "isOffer": true,
-          "offerPrice": null,
-          "isCombo": true,
-          "comboIncludes": [
-            "باستا كاربونارا",
-            "ثوم محمص",
-            "مشروب"
-          ],
-          "spicyOption": false,
-          "cashbackPercent": null,
-          "addons": [
-            {
-              "id": "parmesan",
-              "name": "جبنة بارميزان",
-              "price": 6
-            },
-            {
-              "id": "garlic-bread",
-              "name": "ثوم محمص",
-              "price": 8
-            },
-            {
-              "id": "extra-sauce",
-              "name": "صلصة زيادة",
-              "price": 4
-            },
-            {
-              "id": "drink",
-              "name": "مشروب",
-              "price": 6
-            },
-            {
-              "id": "side-salad",
-              "name": "سلطة صغيرة",
-              "price": 10
-            }
-          ]
-        },
-        {
-          "id": "pizza-roma-combo-3",
-          "restaurantId": "pizza-roma",
-          "name": "كومبو عائلي بيتزا",
-          "description": "بيتزا كبيرة مع مقبلات ومشروبات.",
-          "image": "https://images.unsplash.com/photo-1565299624946-b28f40a0ae38?w=800&q=80",
           "price": 99,
           "rating": 4.6,
           "calories": 1800,
@@ -3922,12 +3939,66 @@
           "isOffer": true,
           "offerPrice": null,
           "isCombo": true,
+          "offerKind": "family",
           "comboIncludes": [
             "بيتزا كبيرة",
             "بروشيتا",
             "٢ مشروب"
           ],
           "spicyOption": true,
+          "cashbackPercent": null,
+          "addons": [
+            {
+              "id": "parmesan",
+              "name": "جبنة بارميزان",
+              "price": 6
+            },
+            {
+              "id": "garlic-bread",
+              "name": "ثوم محمص",
+              "price": 8
+            },
+            {
+              "id": "extra-sauce",
+              "name": "صلصة زيادة",
+              "price": 4
+            },
+            {
+              "id": "drink",
+              "name": "مشروب",
+              "price": 6
+            },
+            {
+              "id": "side-salad",
+              "name": "سلطة صغيرة",
+              "price": 10
+            }
+          ]
+        },
+        {
+          "id": "pizza-roma-offer-3",
+          "restaurantId": "pizza-roma",
+          "name": "اشتري باستا واحصل على الثانية مجاناً — بيتزا روما",
+          "description": "عرض طبقي باستا مع ثوم محمص.",
+          "image": "https://images.unsplash.com/photo-1565299624946-b28f40a0ae38?w=800&q=80",
+          "price": 48,
+          "rating": 4.6,
+          "calories": 1100,
+          "protein": 36,
+          "carbs": 120,
+          "fat": 40,
+          "category": "offers",
+          "isPopular": false,
+          "isOffer": true,
+          "offerPrice": null,
+          "isCombo": true,
+          "offerKind": "deal",
+          "comboIncludes": [
+            "باستا",
+            "باستا إضافية",
+            "ثوم محمص"
+          ],
+          "spicyOption": false,
           "cashbackPercent": null,
           "addons": [
             {
@@ -4024,7 +4095,8 @@
             }
           ],
           "isCombo": false,
-          "comboIncludes": []
+          "comboIncludes": [],
+          "offerKind": null
         },
         {
           "id": "hindi-masala-biryani",
@@ -4072,7 +4144,8 @@
             }
           ],
           "isCombo": false,
-          "comboIncludes": []
+          "comboIncludes": [],
+          "offerKind": null
         },
         {
           "id": "hindi-masala-tikka-masala",
@@ -4120,7 +4193,8 @@
             }
           ],
           "isCombo": false,
-          "comboIncludes": []
+          "comboIncludes": [],
+          "offerKind": null
         },
         {
           "id": "hindi-masala-samosa",
@@ -4168,7 +4242,8 @@
             }
           ],
           "isCombo": false,
-          "comboIncludes": []
+          "comboIncludes": [],
+          "offerKind": null
         },
         {
           "id": "hindi-masala-naan",
@@ -4216,7 +4291,8 @@
             }
           ],
           "isCombo": false,
-          "comboIncludes": []
+          "comboIncludes": [],
+          "offerKind": null
         },
         {
           "id": "hindi-masala-dal",
@@ -4264,7 +4340,8 @@
             }
           ],
           "isCombo": false,
-          "comboIncludes": []
+          "comboIncludes": [],
+          "offerKind": null
         },
         {
           "id": "hindi-masala-paneer",
@@ -4312,7 +4389,8 @@
             }
           ],
           "isCombo": false,
-          "comboIncludes": []
+          "comboIncludes": [],
+          "offerKind": null
         },
         {
           "id": "hindi-masala-thali",
@@ -4360,7 +4438,8 @@
             }
           ],
           "isCombo": false,
-          "comboIncludes": []
+          "comboIncludes": [],
+          "offerKind": null
         },
         {
           "id": "hindi-masala-lassi",
@@ -4408,7 +4487,8 @@
             }
           ],
           "isCombo": false,
-          "comboIncludes": []
+          "comboIncludes": [],
+          "offerKind": null
         },
         {
           "id": "hindi-masala-vindaloo",
@@ -4456,12 +4536,13 @@
             }
           ],
           "isCombo": false,
-          "comboIncludes": []
+          "comboIncludes": [],
+          "offerKind": null
         },
         {
-          "id": "hindi-masala-combo-1",
+          "id": "hindi-masala-offer-1",
           "restaurantId": "hindi-masala",
-          "name": "كومبو برياني وجبة",
+          "name": "وجبة برياني كاملة — هندي ماسالا",
           "description": "برياني مع رايتا ونان ومشروب.",
           "image": "https://images.unsplash.com/photo-1585937421612-70a008356fbe?w=800&q=80",
           "price": 54,
@@ -4475,11 +4556,12 @@
           "isOffer": true,
           "offerPrice": null,
           "isCombo": true,
+          "offerKind": "combo",
           "comboIncludes": [
             "برياني دجاج",
             "رايتا",
             "نان",
-            "لاسي أو مشروب"
+            "لاسي"
           ],
           "spicyOption": true,
           "cashbackPercent": null,
@@ -4512,81 +4594,82 @@
           ]
         },
         {
-          "id": "hindi-masala-combo-2",
+          "id": "hindi-masala-offer-2",
           "restaurantId": "hindi-masala",
-          "name": "كومبو كاري كامل",
-          "description": "كاري مع أرز وخبز.",
+          "name": "وجبة عائلية ثالي — هندي ماسالا",
+          "description": "تشكيلة أطباق هندية تكفي العائلة.",
           "image": "https://images.unsplash.com/photo-1565557623262-b51c2513a641?w=800&q=80",
-          "price": 58,
+          "price": 119,
           "rating": 4.6,
-          "calories": 980,
-          "protein": 38,
-          "carbs": 95,
-          "fat": 36,
+          "calories": 1600,
+          "protein": 55,
+          "carbs": 180,
+          "fat": 50,
           "category": "offers",
           "isPopular": false,
           "isOffer": true,
           "offerPrice": null,
           "isCombo": true,
-          "comboIncludes": [
-            "تيكا ماسالا",
-            "أرز بسمتي",
-            "نان ثوم",
-            "مشروب"
-          ],
-          "spicyOption": true,
-          "cashbackPercent": null,
-          "addons": [
-            {
-              "id": "extra-naan",
-              "name": "نان إضافي",
-              "price": 7
-            },
-            {
-              "id": "raita",
-              "name": "رايتا",
-              "price": 5
-            },
-            {
-              "id": "indian-pickle",
-              "name": "مخلل هندي",
-              "price": 4
-            },
-            {
-              "id": "lassi",
-              "name": "لاسي",
-              "price": 10
-            },
-            {
-              "id": "extra-rice",
-              "name": "أرز إضافي",
-              "price": 6
-            }
-          ]
-        },
-        {
-          "id": "hindi-masala-combo-3",
-          "restaurantId": "hindi-masala",
-          "name": "كومبو ثالي هندي",
-          "description": "تشكيلة أطباق صغيرة في وجبة واحدة.",
-          "image": "https://images.unsplash.com/photo-1588168333986-5078d3ae3976?w=800&q=80",
-          "price": 64,
-          "rating": 4.6,
-          "calories": 880,
-          "protein": 28,
-          "carbs": 100,
-          "fat": 28,
-          "category": "offers",
-          "isPopular": false,
-          "isOffer": true,
-          "offerPrice": null,
-          "isCombo": true,
+          "offerKind": "family",
           "comboIncludes": [
             "دال",
-            "كاري خضار",
+            "كاري",
             "أرز",
             "نان",
             "مخلل"
+          ],
+          "spicyOption": true,
+          "cashbackPercent": null,
+          "addons": [
+            {
+              "id": "extra-naan",
+              "name": "نان إضافي",
+              "price": 7
+            },
+            {
+              "id": "raita",
+              "name": "رايتا",
+              "price": 5
+            },
+            {
+              "id": "indian-pickle",
+              "name": "مخلل هندي",
+              "price": 4
+            },
+            {
+              "id": "lassi",
+              "name": "لاسي",
+              "price": 10
+            },
+            {
+              "id": "extra-rice",
+              "name": "أرز إضافي",
+              "price": 6
+            }
+          ]
+        },
+        {
+          "id": "hindi-masala-offer-3",
+          "restaurantId": "hindi-masala",
+          "name": "عرض كاري مع أرز ونان — هندي ماسالا",
+          "description": "تيكا ماسالا وأرز ونان بسعر واحد.",
+          "image": "https://images.unsplash.com/photo-1588168333986-5078d3ae3976?w=800&q=80",
+          "price": 52,
+          "rating": 4.6,
+          "calories": 900,
+          "protein": 38,
+          "carbs": 90,
+          "fat": 34,
+          "category": "offers",
+          "isPopular": false,
+          "isOffer": true,
+          "offerPrice": null,
+          "isCombo": true,
+          "offerKind": "deal",
+          "comboIncludes": [
+            "تيكا ماسالا",
+            "أرز",
+            "نان"
           ],
           "spicyOption": true,
           "cashbackPercent": null,
@@ -4685,7 +4768,8 @@
             }
           ],
           "isCombo": false,
-          "comboIncludes": []
+          "comboIncludes": [],
+          "offerKind": null
         },
         {
           "id": "kabsa-dar-lamb-kabsa",
@@ -4733,7 +4817,8 @@
             }
           ],
           "isCombo": false,
-          "comboIncludes": []
+          "comboIncludes": [],
+          "offerKind": null
         },
         {
           "id": "kabsa-dar-mandi",
@@ -4781,7 +4866,8 @@
             }
           ],
           "isCombo": false,
-          "comboIncludes": []
+          "comboIncludes": [],
+          "offerKind": null
         },
         {
           "id": "kabsa-dar-madhbi",
@@ -4829,7 +4915,8 @@
             }
           ],
           "isCombo": false,
-          "comboIncludes": []
+          "comboIncludes": [],
+          "offerKind": null
         },
         {
           "id": "kabsa-dar-saleeg",
@@ -4877,7 +4964,8 @@
             }
           ],
           "isCombo": false,
-          "comboIncludes": []
+          "comboIncludes": [],
+          "offerKind": null
         },
         {
           "id": "kabsa-dar-jarish",
@@ -4925,7 +5013,8 @@
             }
           ],
           "isCombo": false,
-          "comboIncludes": []
+          "comboIncludes": [],
+          "offerKind": null
         },
         {
           "id": "kabsa-dar-mutabbaq",
@@ -4973,7 +5062,8 @@
             }
           ],
           "isCombo": false,
-          "comboIncludes": []
+          "comboIncludes": [],
+          "offerKind": null
         },
         {
           "id": "kabsa-dar-family-kabsa",
@@ -5021,7 +5111,8 @@
             }
           ],
           "isCombo": false,
-          "comboIncludes": []
+          "comboIncludes": [],
+          "offerKind": null
         },
         {
           "id": "kabsa-dar-dates",
@@ -5069,7 +5160,8 @@
             }
           ],
           "isCombo": false,
-          "comboIncludes": []
+          "comboIncludes": [],
+          "offerKind": null
         },
         {
           "id": "kabsa-dar-laban",
@@ -5117,13 +5209,14 @@
             }
           ],
           "isCombo": false,
-          "comboIncludes": []
+          "comboIncludes": [],
+          "offerKind": null
         },
         {
-          "id": "kabsa-dar-combo-1",
+          "id": "kabsa-dar-offer-1",
           "restaurantId": "kabsa-dar",
-          "name": "كومبو كبسة فردي",
-          "description": "كبسة دجاج مع سلطة ومشروب.",
+          "name": "وجبة كبسة فردية — دار الكبسة",
+          "description": "كبسة مع سلطة وتمر ومشروب.",
           "image": "https://images.unsplash.com/photo-1512058564366-18510be2db19?w=800&q=80",
           "price": 48,
           "rating": 4.6,
@@ -5136,9 +5229,10 @@
           "isOffer": true,
           "offerPrice": null,
           "isCombo": true,
+          "offerKind": "combo",
           "comboIncludes": [
             "كبسة دجاج",
-            "سلطة طحينة",
+            "سلطة",
             "تمر",
             "مشروب"
           ],
@@ -5173,10 +5267,10 @@
           ]
         },
         {
-          "id": "kabsa-dar-combo-2",
+          "id": "kabsa-dar-offer-2",
           "restaurantId": "kabsa-dar",
-          "name": "كومبو مندي عائلي",
-          "description": "مندي لحم تكفي العائلة مع إضافات.",
+          "name": "وجبة عائلية مندي — دار الكبسة",
+          "description": "مندي لحم تكفي العائلة مع شوربة وسلطة ومشروبين.",
           "image": "https://images.unsplash.com/photo-1544025162-d76694265947?w=800&q=80",
           "price": 149,
           "rating": 4.6,
@@ -5189,6 +5283,7 @@
           "isOffer": true,
           "offerPrice": null,
           "isCombo": true,
+          "offerKind": "family",
           "comboIncludes": [
             "مندي لحم",
             "شوربة",
@@ -5226,22 +5321,23 @@
           ]
         },
         {
-          "id": "kabsa-dar-combo-3",
+          "id": "kabsa-dar-offer-3",
           "restaurantId": "kabsa-dar",
-          "name": "كومبو جريش وهريس",
-          "description": "أطباق نجدية كلاسيكية في باكدج واحد.",
+          "name": "عرض ضيافة: جريش وهريس وتمر — دار الكبسة",
+          "description": "أربعة أصناف للضيافة بسعر ثابت مع قهوة عربية.",
           "image": "https://images.unsplash.com/photo-1600891964599-f61ba0e24092?w=800&q=80",
-          "price": 45,
+          "price": 79,
           "rating": 4.6,
-          "calories": 820,
-          "protein": 28,
-          "carbs": 90,
-          "fat": 26,
+          "calories": 1100,
+          "protein": 40,
+          "carbs": 120,
+          "fat": 35,
           "category": "offers",
           "isPopular": false,
           "isOffer": true,
           "offerPrice": null,
           "isCombo": true,
+          "offerKind": "deal",
           "comboIncludes": [
             "جريش",
             "هريس صغير",
@@ -5345,7 +5441,8 @@
             }
           ],
           "isCombo": false,
-          "comboIncludes": []
+          "comboIncludes": [],
+          "offerKind": null
         },
         {
           "id": "seafood-coast-fish",
@@ -5393,7 +5490,8 @@
             }
           ],
           "isCombo": false,
-          "comboIncludes": []
+          "comboIncludes": [],
+          "offerKind": null
         },
         {
           "id": "seafood-coast-sayadiyah",
@@ -5441,7 +5539,8 @@
             }
           ],
           "isCombo": false,
-          "comboIncludes": []
+          "comboIncludes": [],
+          "offerKind": null
         },
         {
           "id": "seafood-coast-calamari",
@@ -5489,7 +5588,8 @@
             }
           ],
           "isCombo": false,
-          "comboIncludes": []
+          "comboIncludes": [],
+          "offerKind": null
         },
         {
           "id": "seafood-coast-mixed-seafood",
@@ -5537,7 +5637,8 @@
             }
           ],
           "isCombo": false,
-          "comboIncludes": []
+          "comboIncludes": [],
+          "offerKind": null
         },
         {
           "id": "seafood-coast-fish-sandwich",
@@ -5585,7 +5686,8 @@
             }
           ],
           "isCombo": false,
-          "comboIncludes": []
+          "comboIncludes": [],
+          "offerKind": null
         },
         {
           "id": "seafood-coast-soup-fish",
@@ -5633,7 +5735,8 @@
             }
           ],
           "isCombo": false,
-          "comboIncludes": []
+          "comboIncludes": [],
+          "offerKind": null
         },
         {
           "id": "seafood-coast-grilled-salmon",
@@ -5681,7 +5784,8 @@
             }
           ],
           "isCombo": false,
-          "comboIncludes": []
+          "comboIncludes": [],
+          "offerKind": null
         },
         {
           "id": "seafood-coast-rice-shrimp",
@@ -5729,7 +5833,8 @@
             }
           ],
           "isCombo": false,
-          "comboIncludes": []
+          "comboIncludes": [],
+          "offerKind": null
         },
         {
           "id": "seafood-coast-fries-side",
@@ -5777,12 +5882,13 @@
             }
           ],
           "isCombo": false,
-          "comboIncludes": []
+          "comboIncludes": [],
+          "offerKind": null
         },
         {
-          "id": "seafood-coast-combo-1",
+          "id": "seafood-coast-offer-1",
           "restaurantId": "seafood-coast",
-          "name": "كومبو سمك مشوي",
+          "name": "وجبة سمك مشوي — ساحل المأكولات البحرية",
           "description": "سمك مع أرز وسلطة ومشروب.",
           "image": "https://images.unsplash.com/photo-1559339352-11d035aa65de?w=800&q=80",
           "price": 68,
@@ -5796,10 +5902,11 @@
           "isOffer": true,
           "offerPrice": null,
           "isCombo": true,
+          "offerKind": "combo",
           "comboIncludes": [
             "سمك مشوي",
             "أرز",
-            "سلطة سيزر",
+            "سلطة",
             "ليمون",
             "مشروب"
           ],
@@ -5834,27 +5941,29 @@
           ]
         },
         {
-          "id": "seafood-coast-combo-2",
+          "id": "seafood-coast-offer-2",
           "restaurantId": "seafood-coast",
-          "name": "كومبو روبيان كامل",
-          "description": "روبيان مقلي مع بطاطس ومشروب.",
+          "name": "وجبة عائلية بحرية — ساحل المأكولات البحرية",
+          "description": "سمك وروبيان وأرز وسلطة ومشروبين للمشاركة.",
           "image": "https://images.unsplash.com/photo-1559847844-5315695dadae?w=800&q=80",
-          "price": 74,
+          "price": 169,
           "rating": 4.6,
-          "calories": 920,
-          "protein": 42,
-          "carbs": 70,
-          "fat": 40,
+          "calories": 1600,
+          "protein": 95,
+          "carbs": 100,
+          "fat": 60,
           "category": "offers",
           "isPopular": false,
           "isOffer": true,
           "offerPrice": null,
           "isCombo": true,
+          "offerKind": "family",
           "comboIncludes": [
-            "روبيان مقلي",
-            "بطاطس",
-            "صوص ثوم",
-            "مشروب"
+            "سمك",
+            "روبيان",
+            "أرز",
+            "سلطة",
+            "٢ مشروب"
           ],
           "spicyOption": false,
           "cashbackPercent": null,
@@ -5887,27 +5996,27 @@
           ]
         },
         {
-          "id": "seafood-coast-combo-3",
+          "id": "seafood-coast-offer-3",
           "restaurantId": "seafood-coast",
-          "name": "كومبو صيادية وجبة",
-          "description": "صيادية مع مقبلات بحرية.",
+          "name": "اشتري روبيان واحصل على الثاني مجاناً — ساحل المأكولات البحرية",
+          "description": "عرض روبيانين مع صوص ثوم بنفس السعر.",
           "image": "https://images.unsplash.com/photo-1615141982883-c7ad0e69fd62?w=800&q=80",
-          "price": 58,
+          "price": 74,
           "rating": 4.6,
-          "calories": 860,
-          "protein": 36,
-          "carbs": 90,
-          "fat": 26,
+          "calories": 900,
+          "protein": 50,
+          "carbs": 40,
+          "fat": 45,
           "category": "offers",
           "isPopular": false,
           "isOffer": true,
           "offerPrice": null,
           "isCombo": true,
+          "offerKind": "deal",
           "comboIncludes": [
-            "صيادية",
-            "سلطة بطاطس",
-            "مخلل",
-            "مشروب"
+            "روبيان مقلي",
+            "روبيان مقلي إضافي",
+            "صوص ثوم"
           ],
           "spicyOption": false,
           "cashbackPercent": null,
@@ -6006,7 +6115,8 @@
             }
           ],
           "isCombo": false,
-          "comboIncludes": []
+          "comboIncludes": [],
+          "offerKind": null
         },
         {
           "id": "healthy-bowl-chicken-salad",
@@ -6054,7 +6164,8 @@
             }
           ],
           "isCombo": false,
-          "comboIncludes": []
+          "comboIncludes": [],
+          "offerKind": null
         },
         {
           "id": "healthy-bowl-avocado",
@@ -6102,7 +6213,8 @@
             }
           ],
           "isCombo": false,
-          "comboIncludes": []
+          "comboIncludes": [],
+          "offerKind": null
         },
         {
           "id": "healthy-bowl-smoothie",
@@ -6150,7 +6262,8 @@
             }
           ],
           "isCombo": false,
-          "comboIncludes": []
+          "comboIncludes": [],
+          "offerKind": null
         },
         {
           "id": "healthy-bowl-poke",
@@ -6198,7 +6311,8 @@
             }
           ],
           "isCombo": false,
-          "comboIncludes": []
+          "comboIncludes": [],
+          "offerKind": null
         },
         {
           "id": "healthy-bowl-wrap",
@@ -6246,7 +6360,8 @@
             }
           ],
           "isCombo": false,
-          "comboIncludes": []
+          "comboIncludes": [],
+          "offerKind": null
         },
         {
           "id": "healthy-bowl-soup-veg",
@@ -6294,7 +6409,8 @@
             }
           ],
           "isCombo": false,
-          "comboIncludes": []
+          "comboIncludes": [],
+          "offerKind": null
         },
         {
           "id": "healthy-bowl-energy",
@@ -6342,7 +6458,8 @@
             }
           ],
           "isCombo": false,
-          "comboIncludes": []
+          "comboIncludes": [],
+          "offerKind": null
         },
         {
           "id": "healthy-bowl-falafel-bowl",
@@ -6390,7 +6507,8 @@
             }
           ],
           "isCombo": false,
-          "comboIncludes": []
+          "comboIncludes": [],
+          "offerKind": null
         },
         {
           "id": "healthy-bowl-yogurt",
@@ -6438,13 +6556,14 @@
             }
           ],
           "isCombo": false,
-          "comboIncludes": []
+          "comboIncludes": [],
+          "offerKind": null
         },
         {
-          "id": "healthy-bowl-combo-1",
+          "id": "healthy-bowl-offer-1",
           "restaurantId": "healthy-bowl",
-          "name": "كومبو بروتين خفيف",
-          "description": "وجبة متوازنة بروتين وخضار.",
+          "name": "وجبة بروتين خفيفة — بول الصحية",
+          "description": "صدر دجاج مع سلطة وبطاطا حلوة وماء.",
           "image": "https://images.unsplash.com/photo-1512621776951-a57141f2eefd?w=800&q=80",
           "price": 52,
           "rating": 4.6,
@@ -6457,9 +6576,10 @@
           "isOffer": true,
           "offerPrice": null,
           "isCombo": true,
+          "offerKind": "combo",
           "comboIncludes": [
-            "صدر دجاج مشوي",
-            "سلطة خضراء",
+            "صدر دجاج",
+            "سلطة",
             "بطاطا حلوة",
             "ماء"
           ],
@@ -6494,26 +6614,26 @@
           ]
         },
         {
-          "id": "healthy-bowl-combo-2",
+          "id": "healthy-bowl-offer-2",
           "restaurantId": "healthy-bowl",
-          "name": "كومبو بول صحي",
-          "description": "بول مع سموذي.",
+          "name": "عرض بول مع سموذي — بول الصحية",
+          "description": "كينوا بول وسموذي بسعر واحد.",
           "image": "https://images.unsplash.com/photo-1546069901-ba9599a7e63c?w=800&q=80",
           "price": 48,
           "rating": 4.6,
-          "calories": 580,
-          "protein": 22,
-          "carbs": 68,
-          "fat": 18,
+          "calories": 480,
+          "protein": 20,
+          "carbs": 55,
+          "fat": 14,
           "category": "offers",
           "isPopular": false,
           "isOffer": true,
           "offerPrice": null,
           "isCombo": true,
+          "offerKind": "deal",
           "comboIncludes": [
             "كينوا بول",
-            "سموذي أخضر",
-            "مكسرات"
+            "سموذي"
           ],
           "spicyOption": false,
           "cashbackPercent": null,
@@ -6546,27 +6666,27 @@
           ]
         },
         {
-          "id": "healthy-bowl-combo-3",
+          "id": "healthy-bowl-offer-3",
           "restaurantId": "healthy-bowl",
-          "name": "كومبو سمك صحي",
-          "description": "سلمون مع سلطة وخضار.",
+          "name": "عرض ٣ سلطات بسعر ثابت — بول الصحية",
+          "description": "سلطة دجاج وتونة وخضراء — ثلاثة أصناف بسعر واحد.",
           "image": "https://images.unsplash.com/photo-1490645935967-10de6ba17061?w=800&q=80",
-          "price": 72,
+          "price": 79,
           "rating": 4.6,
-          "calories": 610,
-          "protein": 44,
-          "carbs": 45,
-          "fat": 24,
+          "calories": 720,
+          "protein": 55,
+          "carbs": 40,
+          "fat": 28,
           "category": "offers",
           "isPopular": false,
           "isOffer": true,
           "offerPrice": null,
           "isCombo": true,
+          "offerKind": "deal",
           "comboIncludes": [
-            "سلمون مشوي",
-            "خضار ستيم",
-            "أرز بني",
-            "ليمون"
+            "سلطة دجاج",
+            "سلطة تونة",
+            "سلطة خضراء"
           ],
           "spicyOption": false,
           "cashbackPercent": null,
@@ -6639,7 +6759,8 @@
           "cashbackPercent": null,
           "addons": [],
           "isCombo": false,
-          "comboIncludes": []
+          "comboIncludes": [],
+          "offerKind": null
         },
         {
           "id": "luqma-mart-eggs",
@@ -6661,7 +6782,8 @@
           "cashbackPercent": null,
           "addons": [],
           "isCombo": false,
-          "comboIncludes": []
+          "comboIncludes": [],
+          "offerKind": null
         },
         {
           "id": "luqma-mart-bread",
@@ -6683,7 +6805,8 @@
           "cashbackPercent": null,
           "addons": [],
           "isCombo": false,
-          "comboIncludes": []
+          "comboIncludes": [],
+          "offerKind": null
         },
         {
           "id": "luqma-mart-water",
@@ -6705,7 +6828,8 @@
           "cashbackPercent": null,
           "addons": [],
           "isCombo": false,
-          "comboIncludes": []
+          "comboIncludes": [],
+          "offerKind": null
         },
         {
           "id": "luqma-mart-rice-pack",
@@ -6727,7 +6851,8 @@
           "cashbackPercent": 5,
           "addons": [],
           "isCombo": false,
-          "comboIncludes": []
+          "comboIncludes": [],
+          "offerKind": null
         },
         {
           "id": "luqma-mart-oil",
@@ -6749,7 +6874,8 @@
           "cashbackPercent": null,
           "addons": [],
           "isCombo": false,
-          "comboIncludes": []
+          "comboIncludes": [],
+          "offerKind": null
         },
         {
           "id": "luqma-mart-cheese",
@@ -6771,7 +6897,8 @@
           "cashbackPercent": null,
           "addons": [],
           "isCombo": false,
-          "comboIncludes": []
+          "comboIncludes": [],
+          "offerKind": null
         },
         {
           "id": "luqma-mart-juice",
@@ -6793,7 +6920,8 @@
           "cashbackPercent": 8,
           "addons": [],
           "isCombo": false,
-          "comboIncludes": []
+          "comboIncludes": [],
+          "offerKind": null
         },
         {
           "id": "luqma-mart-dates",
@@ -6815,13 +6943,14 @@
           "cashbackPercent": null,
           "addons": [],
           "isCombo": false,
-          "comboIncludes": []
+          "comboIncludes": [],
+          "offerKind": null
         },
         {
-          "id": "luqma-mart-combo-1",
+          "id": "luqma-mart-offer-1",
           "restaurantId": "luqma-mart",
-          "name": "باكدج فطور البيت",
-          "description": "مستلزمات فطور سريعة ليوم واحد.",
+          "name": "عرض فطور البيت — ماركت لقمة",
+          "description": "توست وبيض وجبنة وحليب — أربعة أصناف بسعر ثابت.",
           "image": "https://images.unsplash.com/photo-1504674900247-0877df9cc836?w=800&q=80",
           "price": 29,
           "rating": 4.6,
@@ -6834,9 +6963,10 @@
           "isOffer": true,
           "offerPrice": null,
           "isCombo": true,
+          "offerKind": "deal",
           "comboIncludes": [
             "خبز توست",
-            "بيض ٦ حبات",
+            "بيض",
             "جبنة",
             "حليب"
           ],
@@ -6845,11 +6975,37 @@
           "addons": []
         },
         {
-          "id": "luqma-mart-combo-2",
+          "id": "luqma-mart-offer-2",
           "restaurantId": "luqma-mart",
-          "name": "باكدج ضيافة خفيفة",
-          "description": "مشروبات وتمور للضيوف.",
+          "name": "عرض مياه مع عصير — ماركت لقمة",
+          "description": "مياه ٦ عبوات مع عصير بسعر واحد.",
           "image": "https://images.unsplash.com/photo-1482049016688-2d3e1b311543?w=800&q=80",
+          "price": 14,
+          "rating": 4.6,
+          "calories": 0,
+          "protein": 0,
+          "carbs": 0,
+          "fat": 0,
+          "category": "offers",
+          "isPopular": false,
+          "isOffer": true,
+          "offerPrice": null,
+          "isCombo": true,
+          "offerKind": "deal",
+          "comboIncludes": [
+            "مياه ٦ عبوات",
+            "عصير"
+          ],
+          "spicyOption": false,
+          "cashbackPercent": null,
+          "addons": []
+        },
+        {
+          "id": "luqma-mart-offer-3",
+          "restaurantId": "luqma-mart",
+          "name": "عرض ضيافة للعائلة — ماركت لقمة",
+          "description": "تمر ومياه وعصير وقهوة للضيوف.",
+          "image": "https://images.unsplash.com/photo-1498837167922-ddd27525d352?w=800&q=80",
           "price": 45,
           "rating": 4.6,
           "calories": 0,
@@ -6861,38 +7017,12 @@
           "isOffer": true,
           "offerPrice": null,
           "isCombo": true,
+          "offerKind": "family",
           "comboIncludes": [
-            "مياه ٦ عبوات",
-            "تمر سكري",
+            "تمر",
+            "مياه",
             "عصير",
             "قهوة"
-          ],
-          "spicyOption": false,
-          "cashbackPercent": null,
-          "addons": []
-        },
-        {
-          "id": "luqma-mart-combo-3",
-          "restaurantId": "luqma-mart",
-          "name": "باكدج سناك عائلي",
-          "description": "سناكات ومشروبات للتجمّع.",
-          "image": "https://images.unsplash.com/photo-1498837167922-ddd27525d352?w=800&q=80",
-          "price": 26,
-          "rating": 4.6,
-          "calories": 0,
-          "protein": 0,
-          "carbs": 0,
-          "fat": 0,
-          "category": "offers",
-          "isPopular": false,
-          "isOffer": true,
-          "offerPrice": null,
-          "isCombo": true,
-          "comboIncludes": [
-            "شيبس عائلي",
-            "عصير",
-            "مياه",
-            "مناديل"
           ],
           "spicyOption": false,
           "cashbackPercent": null,

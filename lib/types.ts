@@ -23,6 +23,8 @@ export type Restaurant = {
   fastDelivery: boolean | null;
 };
 
+export type OfferKind = "combo" | "family" | "deal";
+
 export type Meal = {
   id: string;
   restaurantId: string;
@@ -37,11 +39,13 @@ export type Meal = {
   fat: number;
   category: MealCategory;
   isPopular: boolean;
-  /** True for combo/package deals shown under العروض (not price discounts). */
+  /** True for package deals shown under العروض (not price discounts). */
   isOffer: boolean;
   offerPrice: number | null;
   isCombo: boolean;
-  /** Items included in a combo package (Arabic labels). */
+  /** combo | family | deal — null for regular menu items. */
+  offerKind: OfferKind | null;
+  /** Items included in a package deal (Arabic labels). */
   comboIncludes: string[];
   spicyOption: boolean;
   cashbackPercent: number | null;

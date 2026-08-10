@@ -11,7 +11,7 @@ import { cn } from "@/lib/cn";
 
 const tabs: { id: "all" | MealCategory; label: string }[] = [
   { id: "all", label: "الكل" },
-  { id: "offers", label: "كومبو" },
+  { id: "offers", label: "عروض" },
   { id: "popular", label: "الأكثر طلباً" },
   { id: "menu", label: "القائمة" },
 ];

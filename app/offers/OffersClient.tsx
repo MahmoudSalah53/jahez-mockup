@@ -38,15 +38,15 @@ export function OffersClient() {
       ? `كاش باك · ${cuisine}`
       : "عروض الكاش باك"
     : cuisine
-      ? `كومبوهات ${cuisine}`
-      : "العروض والكومبوهات";
+      ? `عروض ${cuisine}`
+      : "العروض";
 
   return (
     <div className="mx-auto max-w-lg md:max-w-7xl">
       <div className="px-4 py-4 md:hidden">
         <h1 className="text-xl font-bold">{title}</h1>
         <p className="mt-1 text-sm text-muted">
-          {offers.length} كومبو ووجبة كاملة متاحة
+          {offers.length} عرض متاح — كومبو وعائلي وتشكيلات بسعر ثابت
         </p>
       </div>
 
@@ -63,14 +63,14 @@ export function OffersClient() {
         <div className="relative mx-auto max-w-7xl px-8 py-14">
           <h1 className="text-4xl font-bold text-white">{title}</h1>
           <p className="mt-2 text-base text-white/80">
-            {offers.length} كومبو — وجبات كاملة جاهزة للطلب
+            {offers.length} عرض — كومبو · عائلي · تشكيلة بسعر ثابت
           </p>
         </div>
       </div>
 
       {offers.length === 0 ? (
         <p className="px-4 py-10 text-center text-sm text-muted sm:px-6">
-          لا توجد كومبوهات حالياً
+          لا توجد عروض حالياً
         </p>
       ) : (
         <>
@@ -115,7 +115,7 @@ export function OffersClient() {
               ? pending
                 ? "جاري تحميل المزيد…"
                 : "مرّر للمزيد"
-              : `تم عرض كل الكومبوهات (${offers.length})`}
+              : `تم عرض كل العروض (${offers.length})`}
           </div>
         </>
       )}

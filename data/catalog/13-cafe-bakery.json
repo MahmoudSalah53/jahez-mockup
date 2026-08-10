@@ -65,7 +65,8 @@
             }
           ],
           "isCombo": false,
-          "comboIncludes": []
+          "comboIncludes": [],
+          "offerKind": null
         },
         {
           "id": "croissant-lab-2",
@@ -113,7 +114,8 @@
             }
           ],
           "isCombo": false,
-          "comboIncludes": []
+          "comboIncludes": [],
+          "offerKind": null
         },
         {
           "id": "croissant-lab-3",
@@ -161,7 +163,8 @@
             }
           ],
           "isCombo": false,
-          "comboIncludes": []
+          "comboIncludes": [],
+          "offerKind": null
         },
         {
           "id": "croissant-lab-4",
@@ -209,7 +212,8 @@
             }
           ],
           "isCombo": false,
-          "comboIncludes": []
+          "comboIncludes": [],
+          "offerKind": null
         },
         {
           "id": "croissant-lab-5",
@@ -257,7 +261,8 @@
             }
           ],
           "isCombo": false,
-          "comboIncludes": []
+          "comboIncludes": [],
+          "offerKind": null
         },
         {
           "id": "croissant-lab-6",
@@ -305,7 +310,8 @@
             }
           ],
           "isCombo": false,
-          "comboIncludes": []
+          "comboIncludes": [],
+          "offerKind": null
         },
         {
           "id": "croissant-lab-7",
@@ -353,7 +359,8 @@
             }
           ],
           "isCombo": false,
-          "comboIncludes": []
+          "comboIncludes": [],
+          "offerKind": null
         },
         {
           "id": "croissant-lab-8",
@@ -401,7 +408,8 @@
             }
           ],
           "isCombo": false,
-          "comboIncludes": []
+          "comboIncludes": [],
+          "offerKind": null
         },
         {
           "id": "croissant-lab-9",
@@ -449,7 +457,8 @@
             }
           ],
           "isCombo": false,
-          "comboIncludes": []
+          "comboIncludes": [],
+          "offerKind": null
         },
         {
           "id": "croissant-lab-10",
@@ -497,82 +506,30 @@
             }
           ],
           "isCombo": false,
-          "comboIncludes": []
+          "comboIncludes": [],
+          "offerKind": null
         },
         {
-          "id": "croissant-lab-combo-1",
+          "id": "croissant-lab-offer-1",
           "restaurantId": "croissant-lab",
-          "name": "كومبو حلا وقهوة",
-          "description": "تحلية مع مشروب ساخن.",
+          "name": "حلا مع قهوة — مختبر الكرواسون",
+          "description": "قطعة حلا مع مشروب ساخن.",
           "image": "https://images.unsplash.com/photo-1488477181946-6428a0291777?w=800&q=80",
           "price": 36,
           "rating": 4.6,
-          "calories": 620,
-          "protein": 12,
-          "carbs": 78,
-          "fat": 26,
-          "category": "offers",
-          "isPopular": false,
-          "isOffer": true,
-          "offerPrice": null,
-          "isCombo": true,
-          "comboIncludes": [
-            "كنافة أو كيك",
-            "لاتيه أو شاي",
-            "تمر"
-          ],
-          "spicyOption": false,
-          "cashbackPercent": null,
-          "addons": [
-            {
-              "id": "choc-sauce",
-              "name": "صوص شوكولاتة",
-              "price": 4
-            },
-            {
-              "id": "ice-scoop",
-              "name": "سكوب آيس كريم",
-              "price": 8
-            },
-            {
-              "id": "cream",
-              "name": "كريمة",
-              "price": 4
-            },
-            {
-              "id": "extra-coffee",
-              "name": "قهوة إضافية",
-              "price": 10
-            },
-            {
-              "id": "nuts",
-              "name": "مكسرات",
-              "price": 6
-            }
-          ]
-        },
-        {
-          "id": "croissant-lab-combo-2",
-          "restaurantId": "croissant-lab",
-          "name": "كومبو وافل آيس",
-          "description": "وافل مع آيس كريم وإضافات.",
-          "image": "https://images.unsplash.com/photo-1578985545062-69928b1d9587?w=800&q=80",
-          "price": 42,
-          "rating": 4.6,
-          "calories": 780,
+          "calories": 520,
           "protein": 10,
-          "carbs": 95,
-          "fat": 34,
+          "carbs": 60,
+          "fat": 22,
           "category": "offers",
           "isPopular": false,
           "isOffer": true,
           "offerPrice": null,
           "isCombo": true,
+          "offerKind": "combo",
           "comboIncludes": [
-            "وافل",
-            "سكوب آيس كريم",
-            "شوكولاتة",
-            "فراولة"
+            "قطعة حلا",
+            "لاتيه أو شاي"
           ],
           "spicyOption": false,
           "cashbackPercent": null,
@@ -605,26 +562,80 @@
           ]
         },
         {
-          "id": "croissant-lab-combo-3",
+          "id": "croissant-lab-offer-2",
           "restaurantId": "croissant-lab",
-          "name": "كومبو بقلاوة وشاي",
-          "description": "بقلاوة مشكلة مع شاي كرك.",
-          "image": "https://images.unsplash.com/photo-1563805042-7684c019e1cb?w=800&q=80",
+          "name": "اشتري كنافة واحصل على الثانية مجاناً — مختبر الكرواسون",
+          "description": "عرض كنافتين مع قطر بنفس السعر.",
+          "image": "https://images.unsplash.com/photo-1578985545062-69928b1d9587?w=800&q=80",
           "price": 32,
           "rating": 4.6,
-          "calories": 540,
-          "protein": 8,
-          "carbs": 62,
+          "calories": 780,
+          "protein": 14,
+          "carbs": 90,
+          "fat": 32,
+          "category": "offers",
+          "isPopular": false,
+          "isOffer": true,
+          "offerPrice": null,
+          "isCombo": true,
+          "offerKind": "deal",
+          "comboIncludes": [
+            "كنافة",
+            "كنافة إضافية",
+            "قطر"
+          ],
+          "spicyOption": false,
+          "cashbackPercent": null,
+          "addons": [
+            {
+              "id": "choc-sauce",
+              "name": "صوص شوكولاتة",
+              "price": 4
+            },
+            {
+              "id": "ice-scoop",
+              "name": "سكوب آيس كريم",
+              "price": 8
+            },
+            {
+              "id": "cream",
+              "name": "كريمة",
+              "price": 4
+            },
+            {
+              "id": "extra-coffee",
+              "name": "قهوة إضافية",
+              "price": 10
+            },
+            {
+              "id": "nuts",
+              "name": "مكسرات",
+              "price": 6
+            }
+          ]
+        },
+        {
+          "id": "croissant-lab-offer-3",
+          "restaurantId": "croissant-lab",
+          "name": "عرض وافل مع آيس كريم — مختبر الكرواسون",
+          "description": "وافل وسكوب آيس كريم وصوص بسعر واحد.",
+          "image": "https://images.unsplash.com/photo-1563805042-7684c019e1cb?w=800&q=80",
+          "price": 34,
+          "rating": 4.6,
+          "calories": 680,
+          "protein": 10,
+          "carbs": 85,
           "fat": 28,
           "category": "offers",
           "isPopular": false,
           "isOffer": true,
           "offerPrice": null,
           "isCombo": true,
+          "offerKind": "deal",
           "comboIncludes": [
-            "بقلاوة مشكلة",
-            "شاي كرك",
-            "مكسرات"
+            "وافل",
+            "سكوب آيس كريم",
+            "صوص"
           ],
           "spicyOption": false,
           "cashbackPercent": null,
@@ -723,7 +734,8 @@
             }
           ],
           "isCombo": false,
-          "comboIncludes": []
+          "comboIncludes": [],
+          "offerKind": null
         },
         {
           "id": "latte-lane-2",
@@ -771,7 +783,8 @@
             }
           ],
           "isCombo": false,
-          "comboIncludes": []
+          "comboIncludes": [],
+          "offerKind": null
         },
         {
           "id": "latte-lane-3",
@@ -819,7 +832,8 @@
             }
           ],
           "isCombo": false,
-          "comboIncludes": []
+          "comboIncludes": [],
+          "offerKind": null
         },
         {
           "id": "latte-lane-4",
@@ -867,7 +881,8 @@
             }
           ],
           "isCombo": false,
-          "comboIncludes": []
+          "comboIncludes": [],
+          "offerKind": null
         },
         {
           "id": "latte-lane-5",
@@ -915,7 +930,8 @@
             }
           ],
           "isCombo": false,
-          "comboIncludes": []
+          "comboIncludes": [],
+          "offerKind": null
         },
         {
           "id": "latte-lane-6",
@@ -963,7 +979,8 @@
             }
           ],
           "isCombo": false,
-          "comboIncludes": []
+          "comboIncludes": [],
+          "offerKind": null
         },
         {
           "id": "latte-lane-7",
@@ -1011,7 +1028,8 @@
             }
           ],
           "isCombo": false,
-          "comboIncludes": []
+          "comboIncludes": [],
+          "offerKind": null
         },
         {
           "id": "latte-lane-8",
@@ -1059,7 +1077,8 @@
             }
           ],
           "isCombo": false,
-          "comboIncludes": []
+          "comboIncludes": [],
+          "offerKind": null
         },
         {
           "id": "latte-lane-9",
@@ -1107,7 +1126,8 @@
             }
           ],
           "isCombo": false,
-          "comboIncludes": []
+          "comboIncludes": [],
+          "offerKind": null
         },
         {
           "id": "latte-lane-10",
@@ -1155,82 +1175,30 @@
             }
           ],
           "isCombo": false,
-          "comboIncludes": []
+          "comboIncludes": [],
+          "offerKind": null
         },
         {
-          "id": "latte-lane-combo-1",
+          "id": "latte-lane-offer-1",
           "restaurantId": "latte-lane",
-          "name": "كومبو حلا وقهوة",
-          "description": "تحلية مع مشروب ساخن.",
+          "name": "حلا مع قهوة — زقاق اللاتيه",
+          "description": "قطعة حلا مع مشروب ساخن.",
           "image": "https://images.unsplash.com/photo-1488477181946-6428a0291777?w=800&q=80",
           "price": 36,
           "rating": 4.6,
-          "calories": 620,
-          "protein": 12,
-          "carbs": 78,
-          "fat": 26,
-          "category": "offers",
-          "isPopular": false,
-          "isOffer": true,
-          "offerPrice": null,
-          "isCombo": true,
-          "comboIncludes": [
-            "كنافة أو كيك",
-            "لاتيه أو شاي",
-            "تمر"
-          ],
-          "spicyOption": false,
-          "cashbackPercent": null,
-          "addons": [
-            {
-              "id": "choc-sauce",
-              "name": "صوص شوكولاتة",
-              "price": 4
-            },
-            {
-              "id": "ice-scoop",
-              "name": "سكوب آيس كريم",
-              "price": 8
-            },
-            {
-              "id": "cream",
-              "name": "كريمة",
-              "price": 4
-            },
-            {
-              "id": "extra-coffee",
-              "name": "قهوة إضافية",
-              "price": 10
-            },
-            {
-              "id": "nuts",
-              "name": "مكسرات",
-              "price": 6
-            }
-          ]
-        },
-        {
-          "id": "latte-lane-combo-2",
-          "restaurantId": "latte-lane",
-          "name": "كومبو وافل آيس",
-          "description": "وافل مع آيس كريم وإضافات.",
-          "image": "https://images.unsplash.com/photo-1578985545062-69928b1d9587?w=800&q=80",
-          "price": 42,
-          "rating": 4.6,
-          "calories": 780,
+          "calories": 520,
           "protein": 10,
-          "carbs": 95,
-          "fat": 34,
+          "carbs": 60,
+          "fat": 22,
           "category": "offers",
           "isPopular": false,
           "isOffer": true,
           "offerPrice": null,
           "isCombo": true,
+          "offerKind": "combo",
           "comboIncludes": [
-            "وافل",
-            "سكوب آيس كريم",
-            "شوكولاتة",
-            "فراولة"
+            "قطعة حلا",
+            "لاتيه أو شاي"
           ],
           "spicyOption": false,
           "cashbackPercent": null,
@@ -1263,26 +1231,80 @@
           ]
         },
         {
-          "id": "latte-lane-combo-3",
+          "id": "latte-lane-offer-2",
           "restaurantId": "latte-lane",
-          "name": "كومبو بقلاوة وشاي",
-          "description": "بقلاوة مشكلة مع شاي كرك.",
-          "image": "https://images.unsplash.com/photo-1563805042-7684c019e1cb?w=800&q=80",
+          "name": "اشتري كنافة واحصل على الثانية مجاناً — زقاق اللاتيه",
+          "description": "عرض كنافتين مع قطر بنفس السعر.",
+          "image": "https://images.unsplash.com/photo-1578985545062-69928b1d9587?w=800&q=80",
           "price": 32,
           "rating": 4.6,
-          "calories": 540,
-          "protein": 8,
-          "carbs": 62,
+          "calories": 780,
+          "protein": 14,
+          "carbs": 90,
+          "fat": 32,
+          "category": "offers",
+          "isPopular": false,
+          "isOffer": true,
+          "offerPrice": null,
+          "isCombo": true,
+          "offerKind": "deal",
+          "comboIncludes": [
+            "كنافة",
+            "كنافة إضافية",
+            "قطر"
+          ],
+          "spicyOption": false,
+          "cashbackPercent": null,
+          "addons": [
+            {
+              "id": "choc-sauce",
+              "name": "صوص شوكولاتة",
+              "price": 4
+            },
+            {
+              "id": "ice-scoop",
+              "name": "سكوب آيس كريم",
+              "price": 8
+            },
+            {
+              "id": "cream",
+              "name": "كريمة",
+              "price": 4
+            },
+            {
+              "id": "extra-coffee",
+              "name": "قهوة إضافية",
+              "price": 10
+            },
+            {
+              "id": "nuts",
+              "name": "مكسرات",
+              "price": 6
+            }
+          ]
+        },
+        {
+          "id": "latte-lane-offer-3",
+          "restaurantId": "latte-lane",
+          "name": "عرض وافل مع آيس كريم — زقاق اللاتيه",
+          "description": "وافل وسكوب آيس كريم وصوص بسعر واحد.",
+          "image": "https://images.unsplash.com/photo-1563805042-7684c019e1cb?w=800&q=80",
+          "price": 34,
+          "rating": 4.6,
+          "calories": 680,
+          "protein": 10,
+          "carbs": 85,
           "fat": 28,
           "category": "offers",
           "isPopular": false,
           "isOffer": true,
           "offerPrice": null,
           "isCombo": true,
+          "offerKind": "deal",
           "comboIncludes": [
-            "بقلاوة مشكلة",
-            "شاي كرك",
-            "مكسرات"
+            "وافل",
+            "سكوب آيس كريم",
+            "صوص"
           ],
           "spicyOption": false,
           "cashbackPercent": null,
@@ -1381,7 +1403,8 @@
             }
           ],
           "isCombo": false,
-          "comboIncludes": []
+          "comboIncludes": [],
+          "offerKind": null
         },
         {
           "id": "oven-morning-2",
@@ -1429,7 +1452,8 @@
             }
           ],
           "isCombo": false,
-          "comboIncludes": []
+          "comboIncludes": [],
+          "offerKind": null
         },
         {
           "id": "oven-morning-3",
@@ -1477,7 +1501,8 @@
             }
           ],
           "isCombo": false,
-          "comboIncludes": []
+          "comboIncludes": [],
+          "offerKind": null
         },
         {
           "id": "oven-morning-4",
@@ -1525,7 +1550,8 @@
             }
           ],
           "isCombo": false,
-          "comboIncludes": []
+          "comboIncludes": [],
+          "offerKind": null
         },
         {
           "id": "oven-morning-5",
@@ -1573,7 +1599,8 @@
             }
           ],
           "isCombo": false,
-          "comboIncludes": []
+          "comboIncludes": [],
+          "offerKind": null
         },
         {
           "id": "oven-morning-6",
@@ -1621,7 +1648,8 @@
             }
           ],
           "isCombo": false,
-          "comboIncludes": []
+          "comboIncludes": [],
+          "offerKind": null
         },
         {
           "id": "oven-morning-7",
@@ -1669,7 +1697,8 @@
             }
           ],
           "isCombo": false,
-          "comboIncludes": []
+          "comboIncludes": [],
+          "offerKind": null
         },
         {
           "id": "oven-morning-8",
@@ -1717,7 +1746,8 @@
             }
           ],
           "isCombo": false,
-          "comboIncludes": []
+          "comboIncludes": [],
+          "offerKind": null
         },
         {
           "id": "oven-morning-9",
@@ -1765,7 +1795,8 @@
             }
           ],
           "isCombo": false,
-          "comboIncludes": []
+          "comboIncludes": [],
+          "offerKind": null
         },
         {
           "id": "oven-morning-10",
@@ -1813,82 +1844,30 @@
             }
           ],
           "isCombo": false,
-          "comboIncludes": []
+          "comboIncludes": [],
+          "offerKind": null
         },
         {
-          "id": "oven-morning-combo-1",
+          "id": "oven-morning-offer-1",
           "restaurantId": "oven-morning",
-          "name": "كومبو حلا وقهوة",
-          "description": "تحلية مع مشروب ساخن.",
+          "name": "حلا مع قهوة — فرن الصباح",
+          "description": "قطعة حلا مع مشروب ساخن.",
           "image": "https://images.unsplash.com/photo-1488477181946-6428a0291777?w=800&q=80",
           "price": 36,
           "rating": 4.6,
-          "calories": 620,
-          "protein": 12,
-          "carbs": 78,
-          "fat": 26,
-          "category": "offers",
-          "isPopular": false,
-          "isOffer": true,
-          "offerPrice": null,
-          "isCombo": true,
-          "comboIncludes": [
-            "كنافة أو كيك",
-            "لاتيه أو شاي",
-            "تمر"
-          ],
-          "spicyOption": false,
-          "cashbackPercent": null,
-          "addons": [
-            {
-              "id": "choc-sauce",
-              "name": "صوص شوكولاتة",
-              "price": 4
-            },
-            {
-              "id": "ice-scoop",
-              "name": "سكوب آيس كريم",
-              "price": 8
-            },
-            {
-              "id": "cream",
-              "name": "كريمة",
-              "price": 4
-            },
-            {
-              "id": "extra-coffee",
-              "name": "قهوة إضافية",
-              "price": 10
-            },
-            {
-              "id": "nuts",
-              "name": "مكسرات",
-              "price": 6
-            }
-          ]
-        },
-        {
-          "id": "oven-morning-combo-2",
-          "restaurantId": "oven-morning",
-          "name": "كومبو وافل آيس",
-          "description": "وافل مع آيس كريم وإضافات.",
-          "image": "https://images.unsplash.com/photo-1578985545062-69928b1d9587?w=800&q=80",
-          "price": 42,
-          "rating": 4.6,
-          "calories": 780,
+          "calories": 520,
           "protein": 10,
-          "carbs": 95,
-          "fat": 34,
+          "carbs": 60,
+          "fat": 22,
           "category": "offers",
           "isPopular": false,
           "isOffer": true,
           "offerPrice": null,
           "isCombo": true,
+          "offerKind": "combo",
           "comboIncludes": [
-            "وافل",
-            "سكوب آيس كريم",
-            "شوكولاتة",
-            "فراولة"
+            "قطعة حلا",
+            "لاتيه أو شاي"
           ],
           "spicyOption": false,
           "cashbackPercent": null,
@@ -1921,26 +1900,80 @@
           ]
         },
         {
-          "id": "oven-morning-combo-3",
+          "id": "oven-morning-offer-2",
           "restaurantId": "oven-morning",
-          "name": "كومبو بقلاوة وشاي",
-          "description": "بقلاوة مشكلة مع شاي كرك.",
-          "image": "https://images.unsplash.com/photo-1563805042-7684c019e1cb?w=800&q=80",
+          "name": "اشتري كنافة واحصل على الثانية مجاناً — فرن الصباح",
+          "description": "عرض كنافتين مع قطر بنفس السعر.",
+          "image": "https://images.unsplash.com/photo-1578985545062-69928b1d9587?w=800&q=80",
           "price": 32,
           "rating": 4.6,
-          "calories": 540,
-          "protein": 8,
-          "carbs": 62,
+          "calories": 780,
+          "protein": 14,
+          "carbs": 90,
+          "fat": 32,
+          "category": "offers",
+          "isPopular": false,
+          "isOffer": true,
+          "offerPrice": null,
+          "isCombo": true,
+          "offerKind": "deal",
+          "comboIncludes": [
+            "كنافة",
+            "كنافة إضافية",
+            "قطر"
+          ],
+          "spicyOption": false,
+          "cashbackPercent": null,
+          "addons": [
+            {
+              "id": "choc-sauce",
+              "name": "صوص شوكولاتة",
+              "price": 4
+            },
+            {
+              "id": "ice-scoop",
+              "name": "سكوب آيس كريم",
+              "price": 8
+            },
+            {
+              "id": "cream",
+              "name": "كريمة",
+              "price": 4
+            },
+            {
+              "id": "extra-coffee",
+              "name": "قهوة إضافية",
+              "price": 10
+            },
+            {
+              "id": "nuts",
+              "name": "مكسرات",
+              "price": 6
+            }
+          ]
+        },
+        {
+          "id": "oven-morning-offer-3",
+          "restaurantId": "oven-morning",
+          "name": "عرض وافل مع آيس كريم — فرن الصباح",
+          "description": "وافل وسكوب آيس كريم وصوص بسعر واحد.",
+          "image": "https://images.unsplash.com/photo-1563805042-7684c019e1cb?w=800&q=80",
+          "price": 34,
+          "rating": 4.6,
+          "calories": 680,
+          "protein": 10,
+          "carbs": 85,
           "fat": 28,
           "category": "offers",
           "isPopular": false,
           "isOffer": true,
           "offerPrice": null,
           "isCombo": true,
+          "offerKind": "deal",
           "comboIncludes": [
-            "بقلاوة مشكلة",
-            "شاي كرك",
-            "مكسرات"
+            "وافل",
+            "سكوب آيس كريم",
+            "صوص"
           ],
           "spicyOption": false,
           "cashbackPercent": null,
@@ -2039,7 +2072,8 @@
             }
           ],
           "isCombo": false,
-          "comboIncludes": []
+          "comboIncludes": [],
+          "offerKind": null
         },
         {
           "id": "berry-bake-2",
@@ -2087,7 +2121,8 @@
             }
           ],
           "isCombo": false,
-          "comboIncludes": []
+          "comboIncludes": [],
+          "offerKind": null
         },
         {
           "id": "berry-bake-3",
@@ -2135,7 +2170,8 @@
             }
           ],
           "isCombo": false,
-          "comboIncludes": []
+          "comboIncludes": [],
+          "offerKind": null
         },
         {
           "id": "berry-bake-4",
@@ -2183,7 +2219,8 @@
             }
           ],
           "isCombo": false,
-          "comboIncludes": []
+          "comboIncludes": [],
+          "offerKind": null
         },
         {
           "id": "berry-bake-5",
@@ -2231,7 +2268,8 @@
             }
           ],
           "isCombo": false,
-          "comboIncludes": []
+          "comboIncludes": [],
+          "offerKind": null
         },
         {
           "id": "berry-bake-6",
@@ -2279,7 +2317,8 @@
             }
           ],
           "isCombo": false,
-          "comboIncludes": []
+          "comboIncludes": [],
+          "offerKind": null
         },
         {
           "id": "berry-bake-7",
@@ -2327,7 +2366,8 @@
             }
           ],
           "isCombo": false,
-          "comboIncludes": []
+          "comboIncludes": [],
+          "offerKind": null
         },
         {
           "id": "berry-bake-8",
@@ -2375,7 +2415,8 @@
             }
           ],
           "isCombo": false,
-          "comboIncludes": []
+          "comboIncludes": [],
+          "offerKind": null
         },
         {
           "id": "berry-bake-9",
@@ -2423,7 +2464,8 @@
             }
           ],
           "isCombo": false,
-          "comboIncludes": []
+          "comboIncludes": [],
+          "offerKind": null
         },
         {
           "id": "berry-bake-10",
@@ -2471,82 +2513,30 @@
             }
           ],
           "isCombo": false,
-          "comboIncludes": []
+          "comboIncludes": [],
+          "offerKind": null
         },
         {
-          "id": "berry-bake-combo-1",
+          "id": "berry-bake-offer-1",
           "restaurantId": "berry-bake",
-          "name": "كومبو حلا وقهوة",
-          "description": "تحلية مع مشروب ساخن.",
+          "name": "حلا مع قهوة — توت المخبز",
+          "description": "قطعة حلا مع مشروب ساخن.",
           "image": "https://images.unsplash.com/photo-1488477181946-6428a0291777?w=800&q=80",
           "price": 36,
           "rating": 4.6,
-          "calories": 620,
-          "protein": 12,
-          "carbs": 78,
-          "fat": 26,
-          "category": "offers",
-          "isPopular": false,
-          "isOffer": true,
-          "offerPrice": null,
-          "isCombo": true,
-          "comboIncludes": [
-            "كنافة أو كيك",
-            "لاتيه أو شاي",
-            "تمر"
-          ],
-          "spicyOption": false,
-          "cashbackPercent": null,
-          "addons": [
-            {
-              "id": "choc-sauce",
-              "name": "صوص شوكولاتة",
-              "price": 4
-            },
-            {
-              "id": "ice-scoop",
-              "name": "سكوب آيس كريم",
-              "price": 8
-            },
-            {
-              "id": "cream",
-              "name": "كريمة",
-              "price": 4
-            },
-            {
-              "id": "extra-coffee",
-              "name": "قهوة إضافية",
-              "price": 10
-            },
-            {
-              "id": "nuts",
-              "name": "مكسرات",
-              "price": 6
-            }
-          ]
-        },
-        {
-          "id": "berry-bake-combo-2",
-          "restaurantId": "berry-bake",
-          "name": "كومبو وافل آيس",
-          "description": "وافل مع آيس كريم وإضافات.",
-          "image": "https://images.unsplash.com/photo-1578985545062-69928b1d9587?w=800&q=80",
-          "price": 42,
-          "rating": 4.6,
-          "calories": 780,
+          "calories": 520,
           "protein": 10,
-          "carbs": 95,
-          "fat": 34,
+          "carbs": 60,
+          "fat": 22,
           "category": "offers",
           "isPopular": false,
           "isOffer": true,
           "offerPrice": null,
           "isCombo": true,
+          "offerKind": "combo",
           "comboIncludes": [
-            "وافل",
-            "سكوب آيس كريم",
-            "شوكولاتة",
-            "فراولة"
+            "قطعة حلا",
+            "لاتيه أو شاي"
           ],
           "spicyOption": false,
           "cashbackPercent": null,
@@ -2579,26 +2569,80 @@
           ]
         },
         {
-          "id": "berry-bake-combo-3",
+          "id": "berry-bake-offer-2",
           "restaurantId": "berry-bake",
-          "name": "كومبو بقلاوة وشاي",
-          "description": "بقلاوة مشكلة مع شاي كرك.",
-          "image": "https://images.unsplash.com/photo-1563805042-7684c019e1cb?w=800&q=80",
+          "name": "اشتري كنافة واحصل على الثانية مجاناً — توت المخبز",
+          "description": "عرض كنافتين مع قطر بنفس السعر.",
+          "image": "https://images.unsplash.com/photo-1578985545062-69928b1d9587?w=800&q=80",
           "price": 32,
           "rating": 4.6,
-          "calories": 540,
-          "protein": 8,
-          "carbs": 62,
+          "calories": 780,
+          "protein": 14,
+          "carbs": 90,
+          "fat": 32,
+          "category": "offers",
+          "isPopular": false,
+          "isOffer": true,
+          "offerPrice": null,
+          "isCombo": true,
+          "offerKind": "deal",
+          "comboIncludes": [
+            "كنافة",
+            "كنافة إضافية",
+            "قطر"
+          ],
+          "spicyOption": false,
+          "cashbackPercent": null,
+          "addons": [
+            {
+              "id": "choc-sauce",
+              "name": "صوص شوكولاتة",
+              "price": 4
+            },
+            {
+              "id": "ice-scoop",
+              "name": "سكوب آيس كريم",
+              "price": 8
+            },
+            {
+              "id": "cream",
+              "name": "كريمة",
+              "price": 4
+            },
+            {
+              "id": "extra-coffee",
+              "name": "قهوة إضافية",
+              "price": 10
+            },
+            {
+              "id": "nuts",
+              "name": "مكسرات",
+              "price": 6
+            }
+          ]
+        },
+        {
+          "id": "berry-bake-offer-3",
+          "restaurantId": "berry-bake",
+          "name": "عرض وافل مع آيس كريم — توت المخبز",
+          "description": "وافل وسكوب آيس كريم وصوص بسعر واحد.",
+          "image": "https://images.unsplash.com/photo-1563805042-7684c019e1cb?w=800&q=80",
+          "price": 34,
+          "rating": 4.6,
+          "calories": 680,
+          "protein": 10,
+          "carbs": 85,
           "fat": 28,
           "category": "offers",
           "isPopular": false,
           "isOffer": true,
           "offerPrice": null,
           "isCombo": true,
+          "offerKind": "deal",
           "comboIncludes": [
-            "بقلاوة مشكلة",
-            "شاي كرك",
-            "مكسرات"
+            "وافل",
+            "سكوب آيس كريم",
+            "صوص"
           ],
           "spicyOption": false,
           "cashbackPercent": null,
@@ -2697,7 +2741,8 @@
             }
           ],
           "isCombo": false,
-          "comboIncludes": []
+          "comboIncludes": [],
+          "offerKind": null
         },
         {
           "id": "cardamom-cafe-2",
@@ -2745,7 +2790,8 @@
             }
           ],
           "isCombo": false,
-          "comboIncludes": []
+          "comboIncludes": [],
+          "offerKind": null
         },
         {
           "id": "cardamom-cafe-3",
@@ -2793,7 +2839,8 @@
             }
           ],
           "isCombo": false,
-          "comboIncludes": []
+          "comboIncludes": [],
+          "offerKind": null
         },
         {
           "id": "cardamom-cafe-4",
@@ -2841,7 +2888,8 @@
             }
           ],
           "isCombo": false,
-          "comboIncludes": []
+          "comboIncludes": [],
+          "offerKind": null
         },
         {
           "id": "cardamom-cafe-5",
@@ -2889,7 +2937,8 @@
             }
           ],
           "isCombo": false,
-          "comboIncludes": []
+          "comboIncludes": [],
+          "offerKind": null
         },
         {
           "id": "cardamom-cafe-6",
@@ -2937,7 +2986,8 @@
             }
           ],
           "isCombo": false,
-          "comboIncludes": []
+          "comboIncludes": [],
+          "offerKind": null
         },
         {
           "id": "cardamom-cafe-7",
@@ -2985,7 +3035,8 @@
             }
           ],
           "isCombo": false,
-          "comboIncludes": []
+          "comboIncludes": [],
+          "offerKind": null
         },
         {
           "id": "cardamom-cafe-8",
@@ -3033,7 +3084,8 @@
             }
           ],
           "isCombo": false,
-          "comboIncludes": []
+          "comboIncludes": [],
+          "offerKind": null
         },
         {
           "id": "cardamom-cafe-9",
@@ -3081,7 +3133,8 @@
             }
           ],
           "isCombo": false,
-          "comboIncludes": []
+          "comboIncludes": [],
+          "offerKind": null
         },
         {
           "id": "cardamom-cafe-10",
@@ -3129,82 +3182,30 @@
             }
           ],
           "isCombo": false,
-          "comboIncludes": []
+          "comboIncludes": [],
+          "offerKind": null
         },
         {
-          "id": "cardamom-cafe-combo-1",
+          "id": "cardamom-cafe-offer-1",
           "restaurantId": "cardamom-cafe",
-          "name": "كومبو حلا وقهوة",
-          "description": "تحلية مع مشروب ساخن.",
+          "name": "حلا مع قهوة — كافيه الهيل",
+          "description": "قطعة حلا مع مشروب ساخن.",
           "image": "https://images.unsplash.com/photo-1488477181946-6428a0291777?w=800&q=80",
           "price": 36,
           "rating": 4.6,
-          "calories": 620,
-          "protein": 12,
-          "carbs": 78,
-          "fat": 26,
-          "category": "offers",
-          "isPopular": false,
-          "isOffer": true,
-          "offerPrice": null,
-          "isCombo": true,
-          "comboIncludes": [
-            "كنافة أو كيك",
-            "لاتيه أو شاي",
-            "تمر"
-          ],
-          "spicyOption": false,
-          "cashbackPercent": null,
-          "addons": [
-            {
-              "id": "choc-sauce",
-              "name": "صوص شوكولاتة",
-              "price": 4
-            },
-            {
-              "id": "ice-scoop",
-              "name": "سكوب آيس كريم",
-              "price": 8
-            },
-            {
-              "id": "cream",
-              "name": "كريمة",
-              "price": 4
-            },
-            {
-              "id": "extra-coffee",
-              "name": "قهوة إضافية",
-              "price": 10
-            },
-            {
-              "id": "nuts",
-              "name": "مكسرات",
-              "price": 6
-            }
-          ]
-        },
-        {
-          "id": "cardamom-cafe-combo-2",
-          "restaurantId": "cardamom-cafe",
-          "name": "كومبو وافل آيس",
-          "description": "وافل مع آيس كريم وإضافات.",
-          "image": "https://images.unsplash.com/photo-1578985545062-69928b1d9587?w=800&q=80",
-          "price": 42,
-          "rating": 4.6,
-          "calories": 780,
+          "calories": 520,
           "protein": 10,
-          "carbs": 95,
-          "fat": 34,
+          "carbs": 60,
+          "fat": 22,
           "category": "offers",
           "isPopular": false,
           "isOffer": true,
           "offerPrice": null,
           "isCombo": true,
+          "offerKind": "combo",
           "comboIncludes": [
-            "وافل",
-            "سكوب آيس كريم",
-            "شوكولاتة",
-            "فراولة"
+            "قطعة حلا",
+            "لاتيه أو شاي"
           ],
           "spicyOption": false,
           "cashbackPercent": null,
@@ -3237,26 +3238,80 @@
           ]
         },
         {
-          "id": "cardamom-cafe-combo-3",
+          "id": "cardamom-cafe-offer-2",
           "restaurantId": "cardamom-cafe",
-          "name": "كومبو بقلاوة وشاي",
-          "description": "بقلاوة مشكلة مع شاي كرك.",
-          "image": "https://images.unsplash.com/photo-1563805042-7684c019e1cb?w=800&q=80",
+          "name": "اشتري كنافة واحصل على الثانية مجاناً — كافيه الهيل",
+          "description": "عرض كنافتين مع قطر بنفس السعر.",
+          "image": "https://images.unsplash.com/photo-1578985545062-69928b1d9587?w=800&q=80",
           "price": 32,
           "rating": 4.6,
-          "calories": 540,
-          "protein": 8,
-          "carbs": 62,
+          "calories": 780,
+          "protein": 14,
+          "carbs": 90,
+          "fat": 32,
+          "category": "offers",
+          "isPopular": false,
+          "isOffer": true,
+          "offerPrice": null,
+          "isCombo": true,
+          "offerKind": "deal",
+          "comboIncludes": [
+            "كنافة",
+            "كنافة إضافية",
+            "قطر"
+          ],
+          "spicyOption": false,
+          "cashbackPercent": null,
+          "addons": [
+            {
+              "id": "choc-sauce",
+              "name": "صوص شوكولاتة",
+              "price": 4
+            },
+            {
+              "id": "ice-scoop",
+              "name": "سكوب آيس كريم",
+              "price": 8
+            },
+            {
+              "id": "cream",
+              "name": "كريمة",
+              "price": 4
+            },
+            {
+              "id": "extra-coffee",
+              "name": "قهوة إضافية",
+              "price": 10
+            },
+            {
+              "id": "nuts",
+              "name": "مكسرات",
+              "price": 6
+            }
+          ]
+        },
+        {
+          "id": "cardamom-cafe-offer-3",
+          "restaurantId": "cardamom-cafe",
+          "name": "عرض وافل مع آيس كريم — كافيه الهيل",
+          "description": "وافل وسكوب آيس كريم وصوص بسعر واحد.",
+          "image": "https://images.unsplash.com/photo-1563805042-7684c019e1cb?w=800&q=80",
+          "price": 34,
+          "rating": 4.6,
+          "calories": 680,
+          "protein": 10,
+          "carbs": 85,
           "fat": 28,
           "category": "offers",
           "isPopular": false,
           "isOffer": true,
           "offerPrice": null,
           "isCombo": true,
+          "offerKind": "deal",
           "comboIncludes": [
-            "بقلاوة مشكلة",
-            "شاي كرك",
-            "مكسرات"
+            "وافل",
+            "سكوب آيس كريم",
+            "صوص"
           ],
           "spicyOption": false,
           "cashbackPercent": null,
@@ -3355,7 +3410,8 @@
             }
           ],
           "isCombo": false,
-          "comboIncludes": []
+          "comboIncludes": [],
+          "offerKind": null
         },
         {
           "id": "toast-bar-2",
@@ -3403,7 +3459,8 @@
             }
           ],
           "isCombo": false,
-          "comboIncludes": []
+          "comboIncludes": [],
+          "offerKind": null
         },
         {
           "id": "toast-bar-3",
@@ -3451,7 +3508,8 @@
             }
           ],
           "isCombo": false,
-          "comboIncludes": []
+          "comboIncludes": [],
+          "offerKind": null
         },
         {
           "id": "toast-bar-4",
@@ -3499,7 +3557,8 @@
             }
           ],
           "isCombo": false,
-          "comboIncludes": []
+          "comboIncludes": [],
+          "offerKind": null
         },
         {
           "id": "toast-bar-5",
@@ -3547,7 +3606,8 @@
             }
           ],
           "isCombo": false,
-          "comboIncludes": []
+          "comboIncludes": [],
+          "offerKind": null
         },
         {
           "id": "toast-bar-6",
@@ -3595,7 +3655,8 @@
             }
           ],
           "isCombo": false,
-          "comboIncludes": []
+          "comboIncludes": [],
+          "offerKind": null
         },
         {
           "id": "toast-bar-7",
@@ -3643,7 +3704,8 @@
             }
           ],
           "isCombo": false,
-          "comboIncludes": []
+          "comboIncludes": [],
+          "offerKind": null
         },
         {
           "id": "toast-bar-8",
@@ -3691,7 +3753,8 @@
             }
           ],
           "isCombo": false,
-          "comboIncludes": []
+          "comboIncludes": [],
+          "offerKind": null
         },
         {
           "id": "toast-bar-9",
@@ -3739,7 +3802,8 @@
             }
           ],
           "isCombo": false,
-          "comboIncludes": []
+          "comboIncludes": [],
+          "offerKind": null
         },
         {
           "id": "toast-bar-10",
@@ -3787,82 +3851,30 @@
             }
           ],
           "isCombo": false,
-          "comboIncludes": []
+          "comboIncludes": [],
+          "offerKind": null
         },
         {
-          "id": "toast-bar-combo-1",
+          "id": "toast-bar-offer-1",
           "restaurantId": "toast-bar",
-          "name": "كومبو حلا وقهوة",
-          "description": "تحلية مع مشروب ساخن.",
+          "name": "حلا مع قهوة — بار التوست",
+          "description": "قطعة حلا مع مشروب ساخن.",
           "image": "https://images.unsplash.com/photo-1488477181946-6428a0291777?w=800&q=80",
           "price": 36,
           "rating": 4.6,
-          "calories": 620,
-          "protein": 12,
-          "carbs": 78,
-          "fat": 26,
-          "category": "offers",
-          "isPopular": false,
-          "isOffer": true,
-          "offerPrice": null,
-          "isCombo": true,
-          "comboIncludes": [
-            "كنافة أو كيك",
-            "لاتيه أو شاي",
-            "تمر"
-          ],
-          "spicyOption": false,
-          "cashbackPercent": null,
-          "addons": [
-            {
-              "id": "choc-sauce",
-              "name": "صوص شوكولاتة",
-              "price": 4
-            },
-            {
-              "id": "ice-scoop",
-              "name": "سكوب آيس كريم",
-              "price": 8
-            },
-            {
-              "id": "cream",
-              "name": "كريمة",
-              "price": 4
-            },
-            {
-              "id": "extra-coffee",
-              "name": "قهوة إضافية",
-              "price": 10
-            },
-            {
-              "id": "nuts",
-              "name": "مكسرات",
-              "price": 6
-            }
-          ]
-        },
-        {
-          "id": "toast-bar-combo-2",
-          "restaurantId": "toast-bar",
-          "name": "كومبو وافل آيس",
-          "description": "وافل مع آيس كريم وإضافات.",
-          "image": "https://images.unsplash.com/photo-1578985545062-69928b1d9587?w=800&q=80",
-          "price": 42,
-          "rating": 4.6,
-          "calories": 780,
+          "calories": 520,
           "protein": 10,
-          "carbs": 95,
-          "fat": 34,
+          "carbs": 60,
+          "fat": 22,
           "category": "offers",
           "isPopular": false,
           "isOffer": true,
           "offerPrice": null,
           "isCombo": true,
+          "offerKind": "combo",
           "comboIncludes": [
-            "وافل",
-            "سكوب آيس كريم",
-            "شوكولاتة",
-            "فراولة"
+            "قطعة حلا",
+            "لاتيه أو شاي"
           ],
           "spicyOption": false,
           "cashbackPercent": null,
@@ -3895,26 +3907,80 @@
           ]
         },
         {
-          "id": "toast-bar-combo-3",
+          "id": "toast-bar-offer-2",
           "restaurantId": "toast-bar",
-          "name": "كومبو بقلاوة وشاي",
-          "description": "بقلاوة مشكلة مع شاي كرك.",
-          "image": "https://images.unsplash.com/photo-1563805042-7684c019e1cb?w=800&q=80",
+          "name": "اشتري كنافة واحصل على الثانية مجاناً — بار التوست",
+          "description": "عرض كنافتين مع قطر بنفس السعر.",
+          "image": "https://images.unsplash.com/photo-1578985545062-69928b1d9587?w=800&q=80",
           "price": 32,
           "rating": 4.6,
-          "calories": 540,
-          "protein": 8,
-          "carbs": 62,
+          "calories": 780,
+          "protein": 14,
+          "carbs": 90,
+          "fat": 32,
+          "category": "offers",
+          "isPopular": false,
+          "isOffer": true,
+          "offerPrice": null,
+          "isCombo": true,
+          "offerKind": "deal",
+          "comboIncludes": [
+            "كنافة",
+            "كنافة إضافية",
+            "قطر"
+          ],
+          "spicyOption": false,
+          "cashbackPercent": null,
+          "addons": [
+            {
+              "id": "choc-sauce",
+              "name": "صوص شوكولاتة",
+              "price": 4
+            },
+            {
+              "id": "ice-scoop",
+              "name": "سكوب آيس كريم",
+              "price": 8
+            },
+            {
+              "id": "cream",
+              "name": "كريمة",
+              "price": 4
+            },
+            {
+              "id": "extra-coffee",
+              "name": "قهوة إضافية",
+              "price": 10
+            },
+            {
+              "id": "nuts",
+              "name": "مكسرات",
+              "price": 6
+            }
+          ]
+        },
+        {
+          "id": "toast-bar-offer-3",
+          "restaurantId": "toast-bar",
+          "name": "عرض وافل مع آيس كريم — بار التوست",
+          "description": "وافل وسكوب آيس كريم وصوص بسعر واحد.",
+          "image": "https://images.unsplash.com/photo-1563805042-7684c019e1cb?w=800&q=80",
+          "price": 34,
+          "rating": 4.6,
+          "calories": 680,
+          "protein": 10,
+          "carbs": 85,
           "fat": 28,
           "category": "offers",
           "isPopular": false,
           "isOffer": true,
           "offerPrice": null,
           "isCombo": true,
+          "offerKind": "deal",
           "comboIncludes": [
-            "بقلاوة مشكلة",
-            "شاي كرك",
-            "مكسرات"
+            "وافل",
+            "سكوب آيس كريم",
+            "صوص"
           ],
           "spicyOption": false,
           "cashbackPercent": null,
@@ -4013,7 +4079,8 @@
             }
           ],
           "isCombo": false,
-          "comboIncludes": []
+          "comboIncludes": [],
+          "offerKind": null
         },
         {
           "id": "nutella-nest-2",
@@ -4061,7 +4128,8 @@
             }
           ],
           "isCombo": false,
-          "comboIncludes": []
+          "comboIncludes": [],
+          "offerKind": null
         },
         {
           "id": "nutella-nest-3",
@@ -4109,7 +4177,8 @@
             }
           ],
           "isCombo": false,
-          "comboIncludes": []
+          "comboIncludes": [],
+          "offerKind": null
         },
         {
           "id": "nutella-nest-4",
@@ -4157,7 +4226,8 @@
             }
           ],
           "isCombo": false,
-          "comboIncludes": []
+          "comboIncludes": [],
+          "offerKind": null
         },
         {
           "id": "nutella-nest-5",
@@ -4205,7 +4275,8 @@
             }
           ],
           "isCombo": false,
-          "comboIncludes": []
+          "comboIncludes": [],
+          "offerKind": null
         },
         {
           "id": "nutella-nest-6",
@@ -4253,7 +4324,8 @@
             }
           ],
           "isCombo": false,
-          "comboIncludes": []
+          "comboIncludes": [],
+          "offerKind": null
         },
         {
           "id": "nutella-nest-7",
@@ -4301,7 +4373,8 @@
             }
           ],
           "isCombo": false,
-          "comboIncludes": []
+          "comboIncludes": [],
+          "offerKind": null
         },
         {
           "id": "nutella-nest-8",
@@ -4349,7 +4422,8 @@
             }
           ],
           "isCombo": false,
-          "comboIncludes": []
+          "comboIncludes": [],
+          "offerKind": null
         },
         {
           "id": "nutella-nest-9",
@@ -4397,7 +4471,8 @@
             }
           ],
           "isCombo": false,
-          "comboIncludes": []
+          "comboIncludes": [],
+          "offerKind": null
         },
         {
           "id": "nutella-nest-10",
@@ -4445,82 +4520,30 @@
             }
           ],
           "isCombo": false,
-          "comboIncludes": []
+          "comboIncludes": [],
+          "offerKind": null
         },
         {
-          "id": "nutella-nest-combo-1",
+          "id": "nutella-nest-offer-1",
           "restaurantId": "nutella-nest",
-          "name": "كومبو حلا وقهوة",
-          "description": "تحلية مع مشروب ساخن.",
+          "name": "حلا مع قهوة — عش النوتيلا",
+          "description": "قطعة حلا مع مشروب ساخن.",
           "image": "https://images.unsplash.com/photo-1488477181946-6428a0291777?w=800&q=80",
           "price": 36,
           "rating": 4.6,
-          "calories": 620,
-          "protein": 12,
-          "carbs": 78,
-          "fat": 26,
-          "category": "offers",
-          "isPopular": false,
-          "isOffer": true,
-          "offerPrice": null,
-          "isCombo": true,
-          "comboIncludes": [
-            "كنافة أو كيك",
-            "لاتيه أو شاي",
-            "تمر"
-          ],
-          "spicyOption": false,
-          "cashbackPercent": null,
-          "addons": [
-            {
-              "id": "choc-sauce",
-              "name": "صوص شوكولاتة",
-              "price": 4
-            },
-            {
-              "id": "ice-scoop",
-              "name": "سكوب آيس كريم",
-              "price": 8
-            },
-            {
-              "id": "cream",
-              "name": "كريمة",
-              "price": 4
-            },
-            {
-              "id": "extra-coffee",
-              "name": "قهوة إضافية",
-              "price": 10
-            },
-            {
-              "id": "nuts",
-              "name": "مكسرات",
-              "price": 6
-            }
-          ]
-        },
-        {
-          "id": "nutella-nest-combo-2",
-          "restaurantId": "nutella-nest",
-          "name": "كومبو وافل آيس",
-          "description": "وافل مع آيس كريم وإضافات.",
-          "image": "https://images.unsplash.com/photo-1578985545062-69928b1d9587?w=800&q=80",
-          "price": 42,
-          "rating": 4.6,
-          "calories": 780,
+          "calories": 520,
           "protein": 10,
-          "carbs": 95,
-          "fat": 34,
+          "carbs": 60,
+          "fat": 22,
           "category": "offers",
           "isPopular": false,
           "isOffer": true,
           "offerPrice": null,
           "isCombo": true,
+          "offerKind": "combo",
           "comboIncludes": [
-            "وافل",
-            "سكوب آيس كريم",
-            "شوكولاتة",
-            "فراولة"
+            "قطعة حلا",
+            "لاتيه أو شاي"
           ],
           "spicyOption": false,
           "cashbackPercent": null,
@@ -4553,26 +4576,80 @@
           ]
         },
         {
-          "id": "nutella-nest-combo-3",
+          "id": "nutella-nest-offer-2",
           "restaurantId": "nutella-nest",
-          "name": "كومبو بقلاوة وشاي",
-          "description": "بقلاوة مشكلة مع شاي كرك.",
-          "image": "https://images.unsplash.com/photo-1563805042-7684c019e1cb?w=800&q=80",
+          "name": "اشتري كنافة واحصل على الثانية مجاناً — عش النوتيلا",
+          "description": "عرض كنافتين مع قطر بنفس السعر.",
+          "image": "https://images.unsplash.com/photo-1578985545062-69928b1d9587?w=800&q=80",
           "price": 32,
           "rating": 4.6,
-          "calories": 540,
-          "protein": 8,
-          "carbs": 62,
+          "calories": 780,
+          "protein": 14,
+          "carbs": 90,
+          "fat": 32,
+          "category": "offers",
+          "isPopular": false,
+          "isOffer": true,
+          "offerPrice": null,
+          "isCombo": true,
+          "offerKind": "deal",
+          "comboIncludes": [
+            "كنافة",
+            "كنافة إضافية",
+            "قطر"
+          ],
+          "spicyOption": false,
+          "cashbackPercent": null,
+          "addons": [
+            {
+              "id": "choc-sauce",
+              "name": "صوص شوكولاتة",
+              "price": 4
+            },
+            {
+              "id": "ice-scoop",
+              "name": "سكوب آيس كريم",
+              "price": 8
+            },
+            {
+              "id": "cream",
+              "name": "كريمة",
+              "price": 4
+            },
+            {
+              "id": "extra-coffee",
+              "name": "قهوة إضافية",
+              "price": 10
+            },
+            {
+              "id": "nuts",
+              "name": "مكسرات",
+              "price": 6
+            }
+          ]
+        },
+        {
+          "id": "nutella-nest-offer-3",
+          "restaurantId": "nutella-nest",
+          "name": "عرض وافل مع آيس كريم — عش النوتيلا",
+          "description": "وافل وسكوب آيس كريم وصوص بسعر واحد.",
+          "image": "https://images.unsplash.com/photo-1563805042-7684c019e1cb?w=800&q=80",
+          "price": 34,
+          "rating": 4.6,
+          "calories": 680,
+          "protein": 10,
+          "carbs": 85,
           "fat": 28,
           "category": "offers",
           "isPopular": false,
           "isOffer": true,
           "offerPrice": null,
           "isCombo": true,
+          "offerKind": "deal",
           "comboIncludes": [
-            "بقلاوة مشكلة",
-            "شاي كرك",
-            "مكسرات"
+            "وافل",
+            "سكوب آيس كريم",
+            "صوص"
           ],
           "spicyOption": false,
           "cashbackPercent": null,
@@ -4671,7 +4748,8 @@
             }
           ],
           "isCombo": false,
-          "comboIncludes": []
+          "comboIncludes": [],
+          "offerKind": null
         },
         {
           "id": "sesame-sweet-2",
@@ -4719,7 +4797,8 @@
             }
           ],
           "isCombo": false,
-          "comboIncludes": []
+          "comboIncludes": [],
+          "offerKind": null
         },
         {
           "id": "sesame-sweet-3",
@@ -4767,7 +4846,8 @@
             }
           ],
           "isCombo": false,
-          "comboIncludes": []
+          "comboIncludes": [],
+          "offerKind": null
         },
         {
           "id": "sesame-sweet-4",
@@ -4815,7 +4895,8 @@
             }
           ],
           "isCombo": false,
-          "comboIncludes": []
+          "comboIncludes": [],
+          "offerKind": null
         },
         {
           "id": "sesame-sweet-5",
@@ -4863,7 +4944,8 @@
             }
           ],
           "isCombo": false,
-          "comboIncludes": []
+          "comboIncludes": [],
+          "offerKind": null
         },
         {
           "id": "sesame-sweet-6",
@@ -4911,7 +4993,8 @@
             }
           ],
           "isCombo": false,
-          "comboIncludes": []
+          "comboIncludes": [],
+          "offerKind": null
         },
         {
           "id": "sesame-sweet-7",
@@ -4959,7 +5042,8 @@
             }
           ],
           "isCombo": false,
-          "comboIncludes": []
+          "comboIncludes": [],
+          "offerKind": null
         },
         {
           "id": "sesame-sweet-8",
@@ -5007,7 +5091,8 @@
             }
           ],
           "isCombo": false,
-          "comboIncludes": []
+          "comboIncludes": [],
+          "offerKind": null
         },
         {
           "id": "sesame-sweet-9",
@@ -5055,7 +5140,8 @@
             }
           ],
           "isCombo": false,
-          "comboIncludes": []
+          "comboIncludes": [],
+          "offerKind": null
         },
         {
           "id": "sesame-sweet-10",
@@ -5103,82 +5189,30 @@
             }
           ],
           "isCombo": false,
-          "comboIncludes": []
+          "comboIncludes": [],
+          "offerKind": null
         },
         {
-          "id": "sesame-sweet-combo-1",
+          "id": "sesame-sweet-offer-1",
           "restaurantId": "sesame-sweet",
-          "name": "كومبو حلا وقهوة",
-          "description": "تحلية مع مشروب ساخن.",
+          "name": "حلا مع قهوة — سمسم وحلاوة",
+          "description": "قطعة حلا مع مشروب ساخن.",
           "image": "https://images.unsplash.com/photo-1488477181946-6428a0291777?w=800&q=80",
           "price": 36,
           "rating": 4.6,
-          "calories": 620,
-          "protein": 12,
-          "carbs": 78,
-          "fat": 26,
-          "category": "offers",
-          "isPopular": false,
-          "isOffer": true,
-          "offerPrice": null,
-          "isCombo": true,
-          "comboIncludes": [
-            "كنافة أو كيك",
-            "لاتيه أو شاي",
-            "تمر"
-          ],
-          "spicyOption": false,
-          "cashbackPercent": null,
-          "addons": [
-            {
-              "id": "choc-sauce",
-              "name": "صوص شوكولاتة",
-              "price": 4
-            },
-            {
-              "id": "ice-scoop",
-              "name": "سكوب آيس كريم",
-              "price": 8
-            },
-            {
-              "id": "cream",
-              "name": "كريمة",
-              "price": 4
-            },
-            {
-              "id": "extra-coffee",
-              "name": "قهوة إضافية",
-              "price": 10
-            },
-            {
-              "id": "nuts",
-              "name": "مكسرات",
-              "price": 6
-            }
-          ]
-        },
-        {
-          "id": "sesame-sweet-combo-2",
-          "restaurantId": "sesame-sweet",
-          "name": "كومبو وافل آيس",
-          "description": "وافل مع آيس كريم وإضافات.",
-          "image": "https://images.unsplash.com/photo-1578985545062-69928b1d9587?w=800&q=80",
-          "price": 42,
-          "rating": 4.6,
-          "calories": 780,
+          "calories": 520,
           "protein": 10,
-          "carbs": 95,
-          "fat": 34,
+          "carbs": 60,
+          "fat": 22,
           "category": "offers",
           "isPopular": false,
           "isOffer": true,
           "offerPrice": null,
           "isCombo": true,
+          "offerKind": "combo",
           "comboIncludes": [
-            "وافل",
-            "سكوب آيس كريم",
-            "شوكولاتة",
-            "فراولة"
+            "قطعة حلا",
+            "لاتيه أو شاي"
           ],
           "spicyOption": false,
           "cashbackPercent": null,
@@ -5211,26 +5245,80 @@
           ]
         },
         {
-          "id": "sesame-sweet-combo-3",
+          "id": "sesame-sweet-offer-2",
           "restaurantId": "sesame-sweet",
-          "name": "كومبو بقلاوة وشاي",
-          "description": "بقلاوة مشكلة مع شاي كرك.",
-          "image": "https://images.unsplash.com/photo-1563805042-7684c019e1cb?w=800&q=80",
+          "name": "اشتري كنافة واحصل على الثانية مجاناً — سمسم وحلاوة",
+          "description": "عرض كنافتين مع قطر بنفس السعر.",
+          "image": "https://images.unsplash.com/photo-1578985545062-69928b1d9587?w=800&q=80",
           "price": 32,
           "rating": 4.6,
-          "calories": 540,
-          "protein": 8,
-          "carbs": 62,
+          "calories": 780,
+          "protein": 14,
+          "carbs": 90,
+          "fat": 32,
+          "category": "offers",
+          "isPopular": false,
+          "isOffer": true,
+          "offerPrice": null,
+          "isCombo": true,
+          "offerKind": "deal",
+          "comboIncludes": [
+            "كنافة",
+            "كنافة إضافية",
+            "قطر"
+          ],
+          "spicyOption": false,
+          "cashbackPercent": null,
+          "addons": [
+            {
+              "id": "choc-sauce",
+              "name": "صوص شوكولاتة",
+              "price": 4
+            },
+            {
+              "id": "ice-scoop",
+              "name": "سكوب آيس كريم",
+              "price": 8
+            },
+            {
+              "id": "cream",
+              "name": "كريمة",
+              "price": 4
+            },
+            {
+              "id": "extra-coffee",
+              "name": "قهوة إضافية",
+              "price": 10
+            },
+            {
+              "id": "nuts",
+              "name": "مكسرات",
+              "price": 6
+            }
+          ]
+        },
+        {
+          "id": "sesame-sweet-offer-3",
+          "restaurantId": "sesame-sweet",
+          "name": "عرض وافل مع آيس كريم — سمسم وحلاوة",
+          "description": "وافل وسكوب آيس كريم وصوص بسعر واحد.",
+          "image": "https://images.unsplash.com/photo-1563805042-7684c019e1cb?w=800&q=80",
+          "price": 34,
+          "rating": 4.6,
+          "calories": 680,
+          "protein": 10,
+          "carbs": 85,
           "fat": 28,
           "category": "offers",
           "isPopular": false,
           "isOffer": true,
           "offerPrice": null,
           "isCombo": true,
+          "offerKind": "deal",
           "comboIncludes": [
-            "بقلاوة مشكلة",
-            "شاي كرك",
-            "مكسرات"
+            "وافل",
+            "سكوب آيس كريم",
+            "صوص"
           ],
           "spicyOption": false,
           "cashbackPercent": null,

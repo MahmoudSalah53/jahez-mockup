@@ -17,6 +17,7 @@ import {
 } from "@/lib/list-limits";
 import { useCuisineScope } from "@/lib/use-cuisine-scope";
 import { formatPrice } from "@/lib/format";
+import { offerBadgeLabel } from "@/lib/offer-badge";
 import { cn } from "@/lib/cn";
 import type { Meal } from "@/lib/types";
 
@@ -151,7 +152,7 @@ export function HomeDesktop() {
                 <div className="absolute inset-0 bg-gradient-to-t from-black/80 via-black/25 to-transparent" />
                 <div className="absolute inset-x-0 bottom-0 p-6 text-white">
                   <span className="mb-2 inline-block rounded-full bg-accent px-3 py-1 text-[11px] font-bold">
-                    كومبو
+                    {offerBadgeLabel(meal.offerKind, true) ?? "عرض"}
                   </span>
                   <p className="text-xl font-bold lg:text-2xl">{meal.name}</p>
                   <p className="mt-1 text-sm text-white/80">
@@ -192,15 +193,15 @@ export function HomeDesktop() {
         title="عروض قوية"
         subtitle={
           cuisine === "الكل"
-            ? "كومبوهات ووجبات كاملة جاهزة للطلب"
-            : `كومبوهات مختارة من مطابخ ${cuisine}`
+            ? "وجبات كومبو وعائلية وعروض بأسعار ثابتة"
+            : `عروض مختارة من مطابخ ${cuisine}`
         }
         href={offersAllHref}
         linkLabel="عرض الكل"
       >
         {offerMeals.length === 0 ? (
           <p className="rounded-3xl border border-dashed border-border bg-surface px-6 py-16 text-center text-muted">
-            لا توجد كومبوهات في «{cuisine}» حالياً
+            لا توجد عروض في «{cuisine}» حالياً
           </p>
         ) : (
           <div className="grid grid-cols-4 gap-5">
