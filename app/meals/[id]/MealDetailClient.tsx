@@ -145,9 +145,9 @@ export function MealDetailClient() {
           >
             →
           </button>
-          {meal.isOffer && (
+          {(meal.isCombo || meal.isOffer) && (
             <span className="absolute end-3 top-3 rounded-md bg-accent px-2 py-1 text-xs font-bold text-white">
-              عرض
+              كومبو
             </span>
           )}
         </div>
@@ -169,15 +169,25 @@ export function MealDetailClient() {
             {meal.description}
           </p>
 
+          {meal.isCombo && meal.comboIncludes?.length ? (
+            <ul className="mt-3 space-y-1.5 rounded-2xl border border-border bg-background p-3">
+              <li className="text-xs font-semibold text-muted">يشمل الكومبو</li>
+              {meal.comboIncludes.map((item) => (
+                <li
+                  key={item}
+                  className="flex items-center gap-2 text-sm text-foreground"
+                >
+                  <span className="h-1.5 w-1.5 shrink-0 rounded-full bg-accent" />
+                  {item}
+                </li>
+              ))}
+            </ul>
+          ) : null}
+
           <div className="mt-3 flex items-baseline gap-2">
             <span className="text-xl font-bold text-accent md:text-2xl">
               {formatPrice(basePrice)}
             </span>
-            {meal.isOffer && meal.offerPrice != null && (
-              <span className="text-sm text-muted line-through">
-                {formatPrice(meal.price)}
-              </span>
-            )}
             {meal.cashbackPercent ? (
               <span className="rounded-md bg-emerald-50 px-1.5 py-0.5 text-xs font-semibold text-emerald-700">
                 كاش باك {meal.cashbackPercent}%

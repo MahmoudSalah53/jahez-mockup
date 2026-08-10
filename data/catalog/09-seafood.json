@@ -32,10 +32,10 @@
           "protein": 42,
           "carbs": 30,
           "fat": 16,
-          "category": "offers",
+          "category": "menu",
           "isPopular": false,
-          "isOffer": true,
-          "offerPrice": 46,
+          "isOffer": false,
+          "offerPrice": null,
           "spicyOption": false,
           "cashbackPercent": null,
           "addons": [
@@ -59,7 +59,9 @@
               "name": "خبز إضافي",
               "price": 4
             }
-          ]
+          ],
+          "isCombo": false,
+          "comboIncludes": []
         },
         {
           "id": "blue-harbor-2",
@@ -100,7 +102,9 @@
               "name": "خبز إضافي",
               "price": 4
             }
-          ]
+          ],
+          "isCombo": false,
+          "comboIncludes": []
         },
         {
           "id": "blue-harbor-3",
@@ -141,7 +145,9 @@
               "name": "خبز إضافي",
               "price": 4
             }
-          ]
+          ],
+          "isCombo": false,
+          "comboIncludes": []
         },
         {
           "id": "blue-harbor-4",
@@ -182,7 +188,9 @@
               "name": "خبز إضافي",
               "price": 4
             }
-          ]
+          ],
+          "isCombo": false,
+          "comboIncludes": []
         },
         {
           "id": "blue-harbor-5",
@@ -196,10 +204,10 @@
           "protein": 24,
           "carbs": 40,
           "fat": 12,
-          "category": "offers",
+          "category": "menu",
           "isPopular": false,
-          "isOffer": true,
-          "offerPrice": 40,
+          "isOffer": false,
+          "offerPrice": null,
           "spicyOption": false,
           "cashbackPercent": 5,
           "addons": [
@@ -223,7 +231,9 @@
               "name": "خبز إضافي",
               "price": 4
             }
-          ]
+          ],
+          "isCombo": false,
+          "comboIncludes": []
         },
         {
           "id": "blue-harbor-6",
@@ -237,10 +247,10 @@
           "protein": 18,
           "carbs": 14,
           "fat": 10,
-          "category": "offers",
+          "category": "menu",
           "isPopular": false,
-          "isOffer": true,
-          "offerPrice": 25,
+          "isOffer": false,
+          "offerPrice": null,
           "spicyOption": false,
           "cashbackPercent": 10,
           "addons": [
@@ -264,7 +274,9 @@
               "name": "خبز إضافي",
               "price": 4
             }
-          ]
+          ],
+          "isCombo": false,
+          "comboIncludes": []
         },
         {
           "id": "blue-harbor-7",
@@ -305,7 +317,9 @@
               "name": "خبز إضافي",
               "price": 4
             }
-          ]
+          ],
+          "isCombo": false,
+          "comboIncludes": []
         },
         {
           "id": "blue-harbor-8",
@@ -319,10 +333,10 @@
           "protein": 48,
           "carbs": 6,
           "fat": 24,
-          "category": "offers",
+          "category": "menu",
           "isPopular": false,
-          "isOffer": true,
-          "offerPrice": 65,
+          "isOffer": false,
+          "offerPrice": null,
           "spicyOption": false,
           "cashbackPercent": 15,
           "addons": [
@@ -346,7 +360,9 @@
               "name": "خبز إضافي",
               "price": 4
             }
-          ]
+          ],
+          "isCombo": false,
+          "comboIncludes": []
         },
         {
           "id": "blue-harbor-9",
@@ -387,7 +403,9 @@
               "name": "خبز إضافي",
               "price": 4
             }
-          ]
+          ],
+          "isCombo": false,
+          "comboIncludes": []
         },
         {
           "id": "blue-harbor-10",
@@ -401,10 +419,157 @@
           "protein": 28,
           "carbs": 70,
           "fat": 16,
+          "category": "menu",
+          "isPopular": false,
+          "isOffer": false,
+          "offerPrice": null,
+          "spicyOption": false,
+          "cashbackPercent": null,
+          "addons": [
+            {
+              "id": "fries",
+              "name": "بطاطس مقلية",
+              "price": 8
+            },
+            {
+              "id": "cola",
+              "name": "كولا",
+              "price": 6
+            },
+            {
+              "id": "sauce",
+              "name": "صلصة إضافية",
+              "price": 3
+            },
+            {
+              "id": "bread",
+              "name": "خبز إضافي",
+              "price": 4
+            }
+          ],
+          "isCombo": false,
+          "comboIncludes": []
+        },
+        {
+          "id": "blue-harbor-combo-1",
+          "restaurantId": "blue-harbor",
+          "name": "كومبو سمك مشوي",
+          "description": "سمك مع أرز وسلطة ومشروب.",
+          "image": "https://images.unsplash.com/photo-1559339352-11d035aa65de?w=800&q=80",
+          "price": 68,
+          "rating": 4.6,
+          "calories": 780,
+          "protein": 48,
+          "carbs": 55,
+          "fat": 28,
           "category": "offers",
           "isPopular": false,
           "isOffer": true,
-          "offerPrice": 40,
+          "offerPrice": null,
+          "isCombo": true,
+          "comboIncludes": [
+            "سمك مشوي",
+            "أرز",
+            "سلطة سيزر",
+            "ليمون",
+            "مشروب"
+          ],
+          "spicyOption": false,
+          "cashbackPercent": null,
+          "addons": [
+            {
+              "id": "fries",
+              "name": "بطاطس مقلية",
+              "price": 8
+            },
+            {
+              "id": "cola",
+              "name": "كولا",
+              "price": 6
+            },
+            {
+              "id": "sauce",
+              "name": "صلصة إضافية",
+              "price": 3
+            },
+            {
+              "id": "bread",
+              "name": "خبز إضافي",
+              "price": 4
+            }
+          ]
+        },
+        {
+          "id": "blue-harbor-combo-2",
+          "restaurantId": "blue-harbor",
+          "name": "كومبو روبيان كامل",
+          "description": "روبيان مقلي مع بطاطس ومشروب.",
+          "image": "https://images.unsplash.com/photo-1559847844-5315695dadae?w=800&q=80",
+          "price": 74,
+          "rating": 4.6,
+          "calories": 920,
+          "protein": 42,
+          "carbs": 70,
+          "fat": 40,
+          "category": "offers",
+          "isPopular": false,
+          "isOffer": true,
+          "offerPrice": null,
+          "isCombo": true,
+          "comboIncludes": [
+            "روبيان مقلي",
+            "بطاطس",
+            "صوص ثوم",
+            "مشروب"
+          ],
+          "spicyOption": false,
+          "cashbackPercent": null,
+          "addons": [
+            {
+              "id": "fries",
+              "name": "بطاطس مقلية",
+              "price": 8
+            },
+            {
+              "id": "cola",
+              "name": "كولا",
+              "price": 6
+            },
+            {
+              "id": "sauce",
+              "name": "صلصة إضافية",
+              "price": 3
+            },
+            {
+              "id": "bread",
+              "name": "خبز إضافي",
+              "price": 4
+            }
+          ]
+        },
+        {
+          "id": "blue-harbor-combo-3",
+          "restaurantId": "blue-harbor",
+          "name": "كومبو صيادية وجبة",
+          "description": "صيادية مع مقبلات بحرية.",
+          "image": "https://images.unsplash.com/photo-1615141982883-c7ad0e69fd62?w=800&q=80",
+          "price": 58,
+          "rating": 4.6,
+          "calories": 860,
+          "protein": 36,
+          "carbs": 90,
+          "fat": 26,
+          "category": "offers",
+          "isPopular": false,
+          "isOffer": true,
+          "offerPrice": null,
+          "isCombo": true,
+          "comboIncludes": [
+            "صيادية",
+            "سلطة بطاطس",
+            "مخلل",
+            "مشروب"
+          ],
           "spicyOption": false,
           "cashbackPercent": null,
           "addons": [
@@ -491,7 +656,9 @@
               "name": "خبز إضافي",
               "price": 4
             }
-          ]
+          ],
+          "isCombo": false,
+          "comboIncludes": []
         },
         {
           "id": "shrimp-coast-2",
@@ -532,7 +699,9 @@
               "name": "خبز إضافي",
               "price": 4
             }
-          ]
+          ],
+          "isCombo": false,
+          "comboIncludes": []
         },
         {
           "id": "shrimp-coast-3",
@@ -573,7 +742,9 @@
               "name": "خبز إضافي",
               "price": 4
             }
-          ]
+          ],
+          "isCombo": false,
+          "comboIncludes": []
         },
         {
           "id": "shrimp-coast-4",
@@ -614,7 +785,9 @@
               "name": "خبز إضافي",
               "price": 4
             }
-          ]
+          ],
+          "isCombo": false,
+          "comboIncludes": []
         },
         {
           "id": "shrimp-coast-5",
@@ -628,10 +801,10 @@
           "protein": 24,
           "carbs": 40,
           "fat": 12,
-          "category": "offers",
+          "category": "menu",
           "isPopular": false,
-          "isOffer": true,
-          "offerPrice": 38,
+          "isOffer": false,
+          "offerPrice": null,
           "spicyOption": false,
           "cashbackPercent": 15,
           "addons": [
@@ -655,7 +828,9 @@
               "name": "خبز إضافي",
               "price": 4
             }
-          ]
+          ],
+          "isCombo": false,
+          "comboIncludes": []
         },
         {
           "id": "shrimp-coast-6",
@@ -669,10 +844,10 @@
           "protein": 18,
           "carbs": 14,
           "fat": 10,
-          "category": "offers",
+          "category": "menu",
           "isPopular": false,
-          "isOffer": true,
-          "offerPrice": 25,
+          "isOffer": false,
+          "offerPrice": null,
           "spicyOption": false,
           "cashbackPercent": 5,
           "addons": [
@@ -696,7 +871,9 @@
               "name": "خبز إضافي",
               "price": 4
             }
-          ]
+          ],
+          "isCombo": false,
+          "comboIncludes": []
         },
         {
           "id": "shrimp-coast-7",
@@ -737,7 +914,9 @@
               "name": "خبز إضافي",
               "price": 4
             }
-          ]
+          ],
+          "isCombo": false,
+          "comboIncludes": []
         },
         {
           "id": "shrimp-coast-8",
@@ -778,7 +957,9 @@
               "name": "خبز إضافي",
               "price": 4
             }
-          ]
+          ],
+          "isCombo": false,
+          "comboIncludes": []
         },
         {
           "id": "shrimp-coast-9",
@@ -792,12 +973,106 @@
           "protein": 70,
           "carbs": 40,
           "fat": 48,
+          "category": "menu",
+          "isPopular": false,
+          "isOffer": false,
+          "offerPrice": null,
+          "spicyOption": false,
+          "cashbackPercent": 10,
+          "addons": [
+            {
+              "id": "fries",
+              "name": "بطاطس مقلية",
+              "price": 8
+            },
+            {
+              "id": "cola",
+              "name": "كولا",
+              "price": 6
+            },
+            {
+              "id": "sauce",
+              "name": "صلصة إضافية",
+              "price": 3
+            },
+            {
+              "id": "bread",
+              "name": "خبز إضافي",
+              "price": 4
+            }
+          ],
+          "isCombo": false,
+          "comboIncludes": []
+        },
+        {
+          "id": "shrimp-coast-10",
+          "restaurantId": "shrimp-coast",
+          "name": "أرز بالروبيان",
+          "description": "أرز بسمتي مع روبيان.",
+          "image": "https://images.unsplash.com/photo-1476224203421-9ac39bcb3327?w=800&q=80",
+          "price": 46,
+          "rating": 4.6,
+          "calories": 640,
+          "protein": 28,
+          "carbs": 70,
+          "fat": 16,
+          "category": "menu",
+          "isPopular": false,
+          "isOffer": false,
+          "offerPrice": null,
+          "spicyOption": false,
+          "cashbackPercent": null,
+          "addons": [
+            {
+              "id": "fries",
+              "name": "بطاطس مقلية",
+              "price": 8
+            },
+            {
+              "id": "cola",
+              "name": "كولا",
+              "price": 6
+            },
+            {
+              "id": "sauce",
+              "name": "صلصة إضافية",
+              "price": 3
+            },
+            {
+              "id": "bread",
+              "name": "خبز إضافي",
+              "price": 4
+            }
+          ],
+          "isCombo": false,
+          "comboIncludes": []
+        },
+        {
+          "id": "shrimp-coast-combo-1",
+          "restaurantId": "shrimp-coast",
+          "name": "كومبو سمك مشوي",
+          "description": "سمك مع أرز وسلطة ومشروب.",
+          "image": "https://images.unsplash.com/photo-1559339352-11d035aa65de?w=800&q=80",
+          "price": 68,
+          "rating": 4.6,
+          "calories": 780,
+          "protein": 48,
+          "carbs": 55,
+          "fat": 28,
           "category": "offers",
           "isPopular": false,
           "isOffer": true,
-          "offerPrice": 96,
+          "offerPrice": null,
+          "isCombo": true,
+          "comboIncludes": [
+            "سمك مشوي",
+            "أرز",
+            "سلطة سيزر",
+            "ليمون",
+            "مشروب"
+          ],
           "spicyOption": false,
-          "cashbackPercent": 10,
+          "cashbackPercent": null,
           "addons": [
             {
               "id": "fries",
@@ -822,21 +1097,76 @@
           ]
         },
         {
-          "id": "shrimp-coast-10",
+          "id": "shrimp-coast-combo-2",
           "restaurantId": "shrimp-coast",
-          "name": "أرز بالروبيان",
-          "description": "أرز بسمتي مع روبيان.",
-          "image": "https://images.unsplash.com/photo-1476224203421-9ac39bcb3327?w=800&q=80",
-          "price": 46,
+          "name": "كومبو روبيان كامل",
+          "description": "روبيان مقلي مع بطاطس ومشروب.",
+          "image": "https://images.unsplash.com/photo-1559847844-5315695dadae?w=800&q=80",
+          "price": 74,
           "rating": 4.6,
-          "calories": 640,
-          "protein": 28,
+          "calories": 920,
+          "protein": 42,
           "carbs": 70,
-          "fat": 16,
-          "category": "menu",
+          "fat": 40,
+          "category": "offers",
           "isPopular": false,
-          "isOffer": false,
+          "isOffer": true,
           "offerPrice": null,
+          "isCombo": true,
+          "comboIncludes": [
+            "روبيان مقلي",
+            "بطاطس",
+            "صوص ثوم",
+            "مشروب"
+          ],
+          "spicyOption": false,
+          "cashbackPercent": null,
+          "addons": [
+            {
+              "id": "fries",
+              "name": "بطاطس مقلية",
+              "price": 8
+            },
+            {
+              "id": "cola",
+              "name": "كولا",
+              "price": 6
+            },
+            {
+              "id": "sauce",
+              "name": "صلصة إضافية",
+              "price": 3
+            },
+            {
+              "id": "bread",
+              "name": "خبز إضافي",
+              "price": 4
+            }
+          ]
+        },
+        {
+          "id": "shrimp-coast-combo-3",
+          "restaurantId": "shrimp-coast",
+          "name": "كومبو صيادية وجبة",
+          "description": "صيادية مع مقبلات بحرية.",
+          "image": "https://images.unsplash.com/photo-1615141982883-c7ad0e69fd62?w=800&q=80",
+          "price": 58,
+          "rating": 4.6,
+          "calories": 860,
+          "protein": 36,
+          "carbs": 90,
+          "fat": 26,
+          "category": "offers",
+          "isPopular": false,
+          "isOffer": true,
+          "offerPrice": null,
+          "isCombo": true,
+          "comboIncludes": [
+            "صيادية",
+            "سلطة بطاطس",
+            "مخلل",
+            "مشروب"
+          ],
           "spicyOption": false,
           "cashbackPercent": null,
           "addons": [
@@ -923,7 +1253,9 @@
               "name": "خبز إضافي",
               "price": 4
             }
-          ]
+          ],
+          "isCombo": false,
+          "comboIncludes": []
         },
         {
           "id": "coral-grill-2",
@@ -937,10 +1269,10 @@
           "protein": 36,
           "carbs": 28,
           "fat": 28,
-          "category": "offers",
+          "category": "menu",
           "isPopular": false,
-          "isOffer": true,
-          "offerPrice": 49,
+          "isOffer": false,
+          "offerPrice": null,
           "spicyOption": false,
           "cashbackPercent": null,
           "addons": [
@@ -964,7 +1296,9 @@
               "name": "خبز إضافي",
               "price": 4
             }
-          ]
+          ],
+          "isCombo": false,
+          "comboIncludes": []
         },
         {
           "id": "coral-grill-3",
@@ -978,10 +1312,10 @@
           "protein": 32,
           "carbs": 68,
           "fat": 18,
-          "category": "offers",
+          "category": "menu",
           "isPopular": false,
-          "isOffer": true,
-          "offerPrice": 33,
+          "isOffer": false,
+          "offerPrice": null,
           "spicyOption": false,
           "cashbackPercent": null,
           "addons": [
@@ -1005,7 +1339,9 @@
               "name": "خبز إضافي",
               "price": 4
             }
-          ]
+          ],
+          "isCombo": false,
+          "comboIncludes": []
         },
         {
           "id": "coral-grill-4",
@@ -1046,7 +1382,9 @@
               "name": "خبز إضافي",
               "price": 4
             }
-          ]
+          ],
+          "isCombo": false,
+          "comboIncludes": []
         },
         {
           "id": "coral-grill-5",
@@ -1087,7 +1425,9 @@
               "name": "خبز إضافي",
               "price": 4
             }
-          ]
+          ],
+          "isCombo": false,
+          "comboIncludes": []
         },
         {
           "id": "coral-grill-6",
@@ -1128,7 +1468,9 @@
               "name": "خبز إضافي",
               "price": 4
             }
-          ]
+          ],
+          "isCombo": false,
+          "comboIncludes": []
         },
         {
           "id": "coral-grill-7",
@@ -1169,7 +1511,9 @@
               "name": "خبز إضافي",
               "price": 4
             }
-          ]
+          ],
+          "isCombo": false,
+          "comboIncludes": []
         },
         {
           "id": "coral-grill-8",
@@ -1183,10 +1527,10 @@
           "protein": 48,
           "carbs": 6,
           "fat": 24,
-          "category": "offers",
+          "category": "menu",
           "isPopular": false,
-          "isOffer": true,
-          "offerPrice": 62,
+          "isOffer": false,
+          "offerPrice": null,
           "spicyOption": false,
           "cashbackPercent": null,
           "addons": [
@@ -1210,7 +1554,9 @@
               "name": "خبز إضافي",
               "price": 4
             }
-          ]
+          ],
+          "isCombo": false,
+          "comboIncludes": []
         },
         {
           "id": "coral-grill-9",
@@ -1251,7 +1597,9 @@
               "name": "خبز إضافي",
               "price": 4
             }
-          ]
+          ],
+          "isCombo": false,
+          "comboIncludes": []
         },
         {
           "id": "coral-grill-10",
@@ -1269,6 +1617,153 @@
           "isPopular": false,
           "isOffer": false,
           "offerPrice": null,
+          "spicyOption": false,
+          "cashbackPercent": null,
+          "addons": [
+            {
+              "id": "fries",
+              "name": "بطاطس مقلية",
+              "price": 8
+            },
+            {
+              "id": "cola",
+              "name": "كولا",
+              "price": 6
+            },
+            {
+              "id": "sauce",
+              "name": "صلصة إضافية",
+              "price": 3
+            },
+            {
+              "id": "bread",
+              "name": "خبز إضافي",
+              "price": 4
+            }
+          ],
+          "isCombo": false,
+          "comboIncludes": []
+        },
+        {
+          "id": "coral-grill-combo-1",
+          "restaurantId": "coral-grill",
+          "name": "كومبو سمك مشوي",
+          "description": "سمك مع أرز وسلطة ومشروب.",
+          "image": "https://images.unsplash.com/photo-1559339352-11d035aa65de?w=800&q=80",
+          "price": 68,
+          "rating": 4.6,
+          "calories": 780,
+          "protein": 48,
+          "carbs": 55,
+          "fat": 28,
+          "category": "offers",
+          "isPopular": false,
+          "isOffer": true,
+          "offerPrice": null,
+          "isCombo": true,
+          "comboIncludes": [
+            "سمك مشوي",
+            "أرز",
+            "سلطة سيزر",
+            "ليمون",
+            "مشروب"
+          ],
+          "spicyOption": false,
+          "cashbackPercent": null,
+          "addons": [
+            {
+              "id": "fries",
+              "name": "بطاطس مقلية",
+              "price": 8
+            },
+            {
+              "id": "cola",
+              "name": "كولا",
+              "price": 6
+            },
+            {
+              "id": "sauce",
+              "name": "صلصة إضافية",
+              "price": 3
+            },
+            {
+              "id": "bread",
+              "name": "خبز إضافي",
+              "price": 4
+            }
+          ]
+        },
+        {
+          "id": "coral-grill-combo-2",
+          "restaurantId": "coral-grill",
+          "name": "كومبو روبيان كامل",
+          "description": "روبيان مقلي مع بطاطس ومشروب.",
+          "image": "https://images.unsplash.com/photo-1559847844-5315695dadae?w=800&q=80",
+          "price": 74,
+          "rating": 4.6,
+          "calories": 920,
+          "protein": 42,
+          "carbs": 70,
+          "fat": 40,
+          "category": "offers",
+          "isPopular": false,
+          "isOffer": true,
+          "offerPrice": null,
+          "isCombo": true,
+          "comboIncludes": [
+            "روبيان مقلي",
+            "بطاطس",
+            "صوص ثوم",
+            "مشروب"
+          ],
+          "spicyOption": false,
+          "cashbackPercent": null,
+          "addons": [
+            {
+              "id": "fries",
+              "name": "بطاطس مقلية",
+              "price": 8
+            },
+            {
+              "id": "cola",
+              "name": "كولا",
+              "price": 6
+            },
+            {
+              "id": "sauce",
+              "name": "صلصة إضافية",
+              "price": 3
+            },
+            {
+              "id": "bread",
+              "name": "خبز إضافي",
+              "price": 4
+            }
+          ]
+        },
+        {
+          "id": "coral-grill-combo-3",
+          "restaurantId": "coral-grill",
+          "name": "كومبو صيادية وجبة",
+          "description": "صيادية مع مقبلات بحرية.",
+          "image": "https://images.unsplash.com/photo-1615141982883-c7ad0e69fd62?w=800&q=80",
+          "price": 58,
+          "rating": 4.6,
+          "calories": 860,
+          "protein": 36,
+          "carbs": 90,
+          "fat": 26,
+          "category": "offers",
+          "isPopular": false,
+          "isOffer": true,
+          "offerPrice": null,
+          "isCombo": true,
+          "comboIncludes": [
+            "صيادية",
+            "سلطة بطاطس",
+            "مخلل",
+            "مشروب"
+          ],
           "spicyOption": false,
           "cashbackPercent": null,
           "addons": [
@@ -1355,7 +1850,9 @@
               "name": "خبز إضافي",
               "price": 4
             }
-          ]
+          ],
+          "isCombo": false,
+          "comboIncludes": []
         },
         {
           "id": "wave-kitchen-2",
@@ -1396,7 +1893,9 @@
               "name": "خبز إضافي",
               "price": 4
             }
-          ]
+          ],
+          "isCombo": false,
+          "comboIncludes": []
         },
         {
           "id": "wave-kitchen-3",
@@ -1437,7 +1936,9 @@
               "name": "خبز إضافي",
               "price": 4
             }
-          ]
+          ],
+          "isCombo": false,
+          "comboIncludes": []
         },
         {
           "id": "wave-kitchen-4",
@@ -1478,7 +1979,9 @@
               "name": "خبز إضافي",
               "price": 4
             }
-          ]
+          ],
+          "isCombo": false,
+          "comboIncludes": []
         },
         {
           "id": "wave-kitchen-5",
@@ -1519,7 +2022,9 @@
               "name": "خبز إضافي",
               "price": 4
             }
-          ]
+          ],
+          "isCombo": false,
+          "comboIncludes": []
         },
         {
           "id": "wave-kitchen-6",
@@ -1560,7 +2065,9 @@
               "name": "خبز إضافي",
               "price": 4
             }
-          ]
+          ],
+          "isCombo": false,
+          "comboIncludes": []
         },
         {
           "id": "wave-kitchen-7",
@@ -1601,7 +2108,9 @@
               "name": "خبز إضافي",
               "price": 4
             }
-          ]
+          ],
+          "isCombo": false,
+          "comboIncludes": []
         },
         {
           "id": "wave-kitchen-8",
@@ -1615,10 +2124,10 @@
           "protein": 48,
           "carbs": 6,
           "fat": 24,
-          "category": "offers",
+          "category": "menu",
           "isPopular": false,
-          "isOffer": true,
-          "offerPrice": 64,
+          "isOffer": false,
+          "offerPrice": null,
           "spicyOption": false,
           "cashbackPercent": null,
           "addons": [
@@ -1642,7 +2151,9 @@
               "name": "خبز إضافي",
               "price": 4
             }
-          ]
+          ],
+          "isCombo": false,
+          "comboIncludes": []
         },
         {
           "id": "wave-kitchen-9",
@@ -1683,7 +2194,9 @@
               "name": "خبز إضافي",
               "price": 4
             }
-          ]
+          ],
+          "isCombo": false,
+          "comboIncludes": []
         },
         {
           "id": "wave-kitchen-10",
@@ -1701,6 +2214,153 @@
           "isPopular": false,
           "isOffer": false,
           "offerPrice": null,
+          "spicyOption": false,
+          "cashbackPercent": null,
+          "addons": [
+            {
+              "id": "fries",
+              "name": "بطاطس مقلية",
+              "price": 8
+            },
+            {
+              "id": "cola",
+              "name": "كولا",
+              "price": 6
+            },
+            {
+              "id": "sauce",
+              "name": "صلصة إضافية",
+              "price": 3
+            },
+            {
+              "id": "bread",
+              "name": "خبز إضافي",
+              "price": 4
+            }
+          ],
+          "isCombo": false,
+          "comboIncludes": []
+        },
+        {
+          "id": "wave-kitchen-combo-1",
+          "restaurantId": "wave-kitchen",
+          "name": "كومبو سمك مشوي",
+          "description": "سمك مع أرز وسلطة ومشروب.",
+          "image": "https://images.unsplash.com/photo-1559339352-11d035aa65de?w=800&q=80",
+          "price": 68,
+          "rating": 4.6,
+          "calories": 780,
+          "protein": 48,
+          "carbs": 55,
+          "fat": 28,
+          "category": "offers",
+          "isPopular": false,
+          "isOffer": true,
+          "offerPrice": null,
+          "isCombo": true,
+          "comboIncludes": [
+            "سمك مشوي",
+            "أرز",
+            "سلطة سيزر",
+            "ليمون",
+            "مشروب"
+          ],
+          "spicyOption": false,
+          "cashbackPercent": null,
+          "addons": [
+            {
+              "id": "fries",
+              "name": "بطاطس مقلية",
+              "price": 8
+            },
+            {
+              "id": "cola",
+              "name": "كولا",
+              "price": 6
+            },
+            {
+              "id": "sauce",
+              "name": "صلصة إضافية",
+              "price": 3
+            },
+            {
+              "id": "bread",
+              "name": "خبز إضافي",
+              "price": 4
+            }
+          ]
+        },
+        {
+          "id": "wave-kitchen-combo-2",
+          "restaurantId": "wave-kitchen",
+          "name": "كومبو روبيان كامل",
+          "description": "روبيان مقلي مع بطاطس ومشروب.",
+          "image": "https://images.unsplash.com/photo-1559847844-5315695dadae?w=800&q=80",
+          "price": 74,
+          "rating": 4.6,
+          "calories": 920,
+          "protein": 42,
+          "carbs": 70,
+          "fat": 40,
+          "category": "offers",
+          "isPopular": false,
+          "isOffer": true,
+          "offerPrice": null,
+          "isCombo": true,
+          "comboIncludes": [
+            "روبيان مقلي",
+            "بطاطس",
+            "صوص ثوم",
+            "مشروب"
+          ],
+          "spicyOption": false,
+          "cashbackPercent": null,
+          "addons": [
+            {
+              "id": "fries",
+              "name": "بطاطس مقلية",
+              "price": 8
+            },
+            {
+              "id": "cola",
+              "name": "كولا",
+              "price": 6
+            },
+            {
+              "id": "sauce",
+              "name": "صلصة إضافية",
+              "price": 3
+            },
+            {
+              "id": "bread",
+              "name": "خبز إضافي",
+              "price": 4
+            }
+          ]
+        },
+        {
+          "id": "wave-kitchen-combo-3",
+          "restaurantId": "wave-kitchen",
+          "name": "كومبو صيادية وجبة",
+          "description": "صيادية مع مقبلات بحرية.",
+          "image": "https://images.unsplash.com/photo-1615141982883-c7ad0e69fd62?w=800&q=80",
+          "price": 58,
+          "rating": 4.6,
+          "calories": 860,
+          "protein": 36,
+          "carbs": 90,
+          "fat": 26,
+          "category": "offers",
+          "isPopular": false,
+          "isOffer": true,
+          "offerPrice": null,
+          "isCombo": true,
+          "comboIncludes": [
+            "صيادية",
+            "سلطة بطاطس",
+            "مخلل",
+            "مشروب"
+          ],
           "spicyOption": false,
           "cashbackPercent": null,
           "addons": [
@@ -1787,7 +2447,9 @@
               "name": "خبز إضافي",
               "price": 4
             }
-          ]
+          ],
+          "isCombo": false,
+          "comboIncludes": []
         },
         {
           "id": "pearl-seafood-2",
@@ -1801,10 +2463,10 @@
           "protein": 36,
           "carbs": 28,
           "fat": 28,
-          "category": "offers",
+          "category": "menu",
           "isPopular": false,
-          "isOffer": true,
-          "offerPrice": 51,
+          "isOffer": false,
+          "offerPrice": null,
           "spicyOption": false,
           "cashbackPercent": null,
           "addons": [
@@ -1828,7 +2490,9 @@
               "name": "خبز إضافي",
               "price": 4
             }
-          ]
+          ],
+          "isCombo": false,
+          "comboIncludes": []
         },
         {
           "id": "pearl-seafood-3",
@@ -1869,7 +2533,9 @@
               "name": "خبز إضافي",
               "price": 4
             }
-          ]
+          ],
+          "isCombo": false,
+          "comboIncludes": []
         },
         {
           "id": "pearl-seafood-4",
@@ -1910,7 +2576,9 @@
               "name": "خبز إضافي",
               "price": 4
             }
-          ]
+          ],
+          "isCombo": false,
+          "comboIncludes": []
         },
         {
           "id": "pearl-seafood-5",
@@ -1951,7 +2619,9 @@
               "name": "خبز إضافي",
               "price": 4
             }
-          ]
+          ],
+          "isCombo": false,
+          "comboIncludes": []
         },
         {
           "id": "pearl-seafood-6",
@@ -1965,10 +2635,10 @@
           "protein": 18,
           "carbs": 14,
           "fat": 10,
-          "category": "offers",
+          "category": "menu",
           "isPopular": false,
-          "isOffer": true,
-          "offerPrice": 21,
+          "isOffer": false,
+          "offerPrice": null,
           "spicyOption": false,
           "cashbackPercent": 5,
           "addons": [
@@ -1992,7 +2662,9 @@
               "name": "خبز إضافي",
               "price": 4
             }
-          ]
+          ],
+          "isCombo": false,
+          "comboIncludes": []
         },
         {
           "id": "pearl-seafood-7",
@@ -2033,7 +2705,9 @@
               "name": "خبز إضافي",
               "price": 4
             }
-          ]
+          ],
+          "isCombo": false,
+          "comboIncludes": []
         },
         {
           "id": "pearl-seafood-8",
@@ -2074,7 +2748,9 @@
               "name": "خبز إضافي",
               "price": 4
             }
-          ]
+          ],
+          "isCombo": false,
+          "comboIncludes": []
         },
         {
           "id": "pearl-seafood-9",
@@ -2115,7 +2791,9 @@
               "name": "خبز إضافي",
               "price": 4
             }
-          ]
+          ],
+          "isCombo": false,
+          "comboIncludes": []
         },
         {
           "id": "pearl-seafood-10",
@@ -2129,12 +2807,159 @@
           "protein": 28,
           "carbs": 70,
           "fat": 16,
+          "category": "menu",
+          "isPopular": false,
+          "isOffer": false,
+          "offerPrice": null,
+          "spicyOption": false,
+          "cashbackPercent": 10,
+          "addons": [
+            {
+              "id": "fries",
+              "name": "بطاطس مقلية",
+              "price": 8
+            },
+            {
+              "id": "cola",
+              "name": "كولا",
+              "price": 6
+            },
+            {
+              "id": "sauce",
+              "name": "صلصة إضافية",
+              "price": 3
+            },
+            {
+              "id": "bread",
+              "name": "خبز إضافي",
+              "price": 4
+            }
+          ],
+          "isCombo": false,
+          "comboIncludes": []
+        },
+        {
+          "id": "pearl-seafood-combo-1",
+          "restaurantId": "pearl-seafood",
+          "name": "كومبو سمك مشوي",
+          "description": "سمك مع أرز وسلطة ومشروب.",
+          "image": "https://images.unsplash.com/photo-1559339352-11d035aa65de?w=800&q=80",
+          "price": 68,
+          "rating": 4.6,
+          "calories": 780,
+          "protein": 48,
+          "carbs": 55,
+          "fat": 28,
           "category": "offers",
           "isPopular": false,
           "isOffer": true,
-          "offerPrice": 41,
+          "offerPrice": null,
+          "isCombo": true,
+          "comboIncludes": [
+            "سمك مشوي",
+            "أرز",
+            "سلطة سيزر",
+            "ليمون",
+            "مشروب"
+          ],
           "spicyOption": false,
-          "cashbackPercent": 10,
+          "cashbackPercent": null,
+          "addons": [
+            {
+              "id": "fries",
+              "name": "بطاطس مقلية",
+              "price": 8
+            },
+            {
+              "id": "cola",
+              "name": "كولا",
+              "price": 6
+            },
+            {
+              "id": "sauce",
+              "name": "صلصة إضافية",
+              "price": 3
+            },
+            {
+              "id": "bread",
+              "name": "خبز إضافي",
+              "price": 4
+            }
+          ]
+        },
+        {
+          "id": "pearl-seafood-combo-2",
+          "restaurantId": "pearl-seafood",
+          "name": "كومبو روبيان كامل",
+          "description": "روبيان مقلي مع بطاطس ومشروب.",
+          "image": "https://images.unsplash.com/photo-1559847844-5315695dadae?w=800&q=80",
+          "price": 74,
+          "rating": 4.6,
+          "calories": 920,
+          "protein": 42,
+          "carbs": 70,
+          "fat": 40,
+          "category": "offers",
+          "isPopular": false,
+          "isOffer": true,
+          "offerPrice": null,
+          "isCombo": true,
+          "comboIncludes": [
+            "روبيان مقلي",
+            "بطاطس",
+            "صوص ثوم",
+            "مشروب"
+          ],
+          "spicyOption": false,
+          "cashbackPercent": null,
+          "addons": [
+            {
+              "id": "fries",
+              "name": "بطاطس مقلية",
+              "price": 8
+            },
+            {
+              "id": "cola",
+              "name": "كولا",
+              "price": 6
+            },
+            {
+              "id": "sauce",
+              "name": "صلصة إضافية",
+              "price": 3
+            },
+            {
+              "id": "bread",
+              "name": "خبز إضافي",
+              "price": 4
+            }
+          ]
+        },
+        {
+          "id": "pearl-seafood-combo-3",
+          "restaurantId": "pearl-seafood",
+          "name": "كومبو صيادية وجبة",
+          "description": "صيادية مع مقبلات بحرية.",
+          "image": "https://images.unsplash.com/photo-1615141982883-c7ad0e69fd62?w=800&q=80",
+          "price": 58,
+          "rating": 4.6,
+          "calories": 860,
+          "protein": 36,
+          "carbs": 90,
+          "fat": 26,
+          "category": "offers",
+          "isPopular": false,
+          "isOffer": true,
+          "offerPrice": null,
+          "isCombo": true,
+          "comboIncludes": [
+            "صيادية",
+            "سلطة بطاطس",
+            "مخلل",
+            "مشروب"
+          ],
+          "spicyOption": false,
+          "cashbackPercent": null,
           "addons": [
             {
               "id": "fries",
@@ -2219,7 +3044,9 @@
               "name": "خبز إضافي",
               "price": 4
             }
-          ]
+          ],
+          "isCombo": false,
+          "comboIncludes": []
         },
         {
           "id": "anchor-fish-2",
@@ -2233,10 +3060,10 @@
           "protein": 36,
           "carbs": 28,
           "fat": 28,
-          "category": "offers",
+          "category": "menu",
           "isPopular": false,
-          "isOffer": true,
-          "offerPrice": 45,
+          "isOffer": false,
+          "offerPrice": null,
           "spicyOption": false,
           "cashbackPercent": 10,
           "addons": [
@@ -2260,7 +3087,9 @@
               "name": "خبز إضافي",
               "price": 4
             }
-          ]
+          ],
+          "isCombo": false,
+          "comboIncludes": []
         },
         {
           "id": "anchor-fish-3",
@@ -2301,7 +3130,9 @@
               "name": "خبز إضافي",
               "price": 4
             }
-          ]
+          ],
+          "isCombo": false,
+          "comboIncludes": []
         },
         {
           "id": "anchor-fish-4",
@@ -2342,7 +3173,9 @@
               "name": "خبز إضافي",
               "price": 4
             }
-          ]
+          ],
+          "isCombo": false,
+          "comboIncludes": []
         },
         {
           "id": "anchor-fish-5",
@@ -2383,7 +3216,9 @@
               "name": "خبز إضافي",
               "price": 4
             }
-          ]
+          ],
+          "isCombo": false,
+          "comboIncludes": []
         },
         {
           "id": "anchor-fish-6",
@@ -2397,10 +3232,10 @@
           "protein": 18,
           "carbs": 14,
           "fat": 10,
-          "category": "offers",
+          "category": "menu",
           "isPopular": false,
-          "isOffer": true,
-          "offerPrice": 22,
+          "isOffer": false,
+          "offerPrice": null,
           "spicyOption": false,
           "cashbackPercent": null,
           "addons": [
@@ -2424,7 +3259,9 @@
               "name": "خبز إضافي",
               "price": 4
             }
-          ]
+          ],
+          "isCombo": false,
+          "comboIncludes": []
         },
         {
           "id": "anchor-fish-7",
@@ -2438,10 +3275,10 @@
           "protein": 40,
           "carbs": 8,
           "fat": 28,
-          "category": "offers",
+          "category": "menu",
           "isPopular": false,
-          "isOffer": true,
-          "offerPrice": 52,
+          "isOffer": false,
+          "offerPrice": null,
           "spicyOption": false,
           "cashbackPercent": 10,
           "addons": [
@@ -2465,7 +3302,9 @@
               "name": "خبز إضافي",
               "price": 4
             }
-          ]
+          ],
+          "isCombo": false,
+          "comboIncludes": []
         },
         {
           "id": "anchor-fish-8",
@@ -2506,7 +3345,9 @@
               "name": "خبز إضافي",
               "price": 4
             }
-          ]
+          ],
+          "isCombo": false,
+          "comboIncludes": []
         },
         {
           "id": "anchor-fish-9",
@@ -2547,7 +3388,9 @@
               "name": "خبز إضافي",
               "price": 4
             }
-          ]
+          ],
+          "isCombo": false,
+          "comboIncludes": []
         },
         {
           "id": "anchor-fish-10",
@@ -2565,6 +3408,153 @@
           "isPopular": false,
           "isOffer": false,
           "offerPrice": null,
+          "spicyOption": false,
+          "cashbackPercent": null,
+          "addons": [
+            {
+              "id": "fries",
+              "name": "بطاطس مقلية",
+              "price": 8
+            },
+            {
+              "id": "cola",
+              "name": "كولا",
+              "price": 6
+            },
+            {
+              "id": "sauce",
+              "name": "صلصة إضافية",
+              "price": 3
+            },
+            {
+              "id": "bread",
+              "name": "خبز إضافي",
+              "price": 4
+            }
+          ],
+          "isCombo": false,
+          "comboIncludes": []
+        },
+        {
+          "id": "anchor-fish-combo-1",
+          "restaurantId": "anchor-fish",
+          "name": "كومبو سمك مشوي",
+          "description": "سمك مع أرز وسلطة ومشروب.",
+          "image": "https://images.unsplash.com/photo-1559339352-11d035aa65de?w=800&q=80",
+          "price": 68,
+          "rating": 4.6,
+          "calories": 780,
+          "protein": 48,
+          "carbs": 55,
+          "fat": 28,
+          "category": "offers",
+          "isPopular": false,
+          "isOffer": true,
+          "offerPrice": null,
+          "isCombo": true,
+          "comboIncludes": [
+            "سمك مشوي",
+            "أرز",
+            "سلطة سيزر",
+            "ليمون",
+            "مشروب"
+          ],
+          "spicyOption": false,
+          "cashbackPercent": null,
+          "addons": [
+            {
+              "id": "fries",
+              "name": "بطاطس مقلية",
+              "price": 8
+            },
+            {
+              "id": "cola",
+              "name": "كولا",
+              "price": 6
+            },
+            {
+              "id": "sauce",
+              "name": "صلصة إضافية",
+              "price": 3
+            },
+            {
+              "id": "bread",
+              "name": "خبز إضافي",
+              "price": 4
+            }
+          ]
+        },
+        {
+          "id": "anchor-fish-combo-2",
+          "restaurantId": "anchor-fish",
+          "name": "كومبو روبيان كامل",
+          "description": "روبيان مقلي مع بطاطس ومشروب.",
+          "image": "https://images.unsplash.com/photo-1559847844-5315695dadae?w=800&q=80",
+          "price": 74,
+          "rating": 4.6,
+          "calories": 920,
+          "protein": 42,
+          "carbs": 70,
+          "fat": 40,
+          "category": "offers",
+          "isPopular": false,
+          "isOffer": true,
+          "offerPrice": null,
+          "isCombo": true,
+          "comboIncludes": [
+            "روبيان مقلي",
+            "بطاطس",
+            "صوص ثوم",
+            "مشروب"
+          ],
+          "spicyOption": false,
+          "cashbackPercent": null,
+          "addons": [
+            {
+              "id": "fries",
+              "name": "بطاطس مقلية",
+              "price": 8
+            },
+            {
+              "id": "cola",
+              "name": "كولا",
+              "price": 6
+            },
+            {
+              "id": "sauce",
+              "name": "صلصة إضافية",
+              "price": 3
+            },
+            {
+              "id": "bread",
+              "name": "خبز إضافي",
+              "price": 4
+            }
+          ]
+        },
+        {
+          "id": "anchor-fish-combo-3",
+          "restaurantId": "anchor-fish",
+          "name": "كومبو صيادية وجبة",
+          "description": "صيادية مع مقبلات بحرية.",
+          "image": "https://images.unsplash.com/photo-1615141982883-c7ad0e69fd62?w=800&q=80",
+          "price": 58,
+          "rating": 4.6,
+          "calories": 860,
+          "protein": 36,
+          "carbs": 90,
+          "fat": 26,
+          "category": "offers",
+          "isPopular": false,
+          "isOffer": true,
+          "offerPrice": null,
+          "isCombo": true,
+          "comboIncludes": [
+            "صيادية",
+            "سلطة بطاطس",
+            "مخلل",
+            "مشروب"
+          ],
           "spicyOption": false,
           "cashbackPercent": null,
           "addons": [
@@ -2651,7 +3641,9 @@
               "name": "خبز إضافي",
               "price": 4
             }
-          ]
+          ],
+          "isCombo": false,
+          "comboIncludes": []
         },
         {
           "id": "tide-table-2",
@@ -2665,10 +3657,10 @@
           "protein": 36,
           "carbs": 28,
           "fat": 28,
-          "category": "offers",
+          "category": "menu",
           "isPopular": false,
-          "isOffer": true,
-          "offerPrice": 52,
+          "isOffer": false,
+          "offerPrice": null,
           "spicyOption": false,
           "cashbackPercent": null,
           "addons": [
@@ -2692,7 +3684,9 @@
               "name": "خبز إضافي",
               "price": 4
             }
-          ]
+          ],
+          "isCombo": false,
+          "comboIncludes": []
         },
         {
           "id": "tide-table-3",
@@ -2733,7 +3727,9 @@
               "name": "خبز إضافي",
               "price": 4
             }
-          ]
+          ],
+          "isCombo": false,
+          "comboIncludes": []
         },
         {
           "id": "tide-table-4",
@@ -2747,10 +3743,10 @@
           "protein": 22,
           "carbs": 32,
           "fat": 20,
-          "category": "offers",
+          "category": "menu",
           "isPopular": false,
-          "isOffer": true,
-          "offerPrice": 32,
+          "isOffer": false,
+          "offerPrice": null,
           "spicyOption": false,
           "cashbackPercent": 5,
           "addons": [
@@ -2774,7 +3770,9 @@
               "name": "خبز إضافي",
               "price": 4
             }
-          ]
+          ],
+          "isCombo": false,
+          "comboIncludes": []
         },
         {
           "id": "tide-table-5",
@@ -2788,10 +3786,10 @@
           "protein": 24,
           "carbs": 40,
           "fat": 12,
-          "category": "offers",
+          "category": "menu",
           "isPopular": false,
-          "isOffer": true,
-          "offerPrice": 39,
+          "isOffer": false,
+          "offerPrice": null,
           "spicyOption": false,
           "cashbackPercent": 10,
           "addons": [
@@ -2815,7 +3813,9 @@
               "name": "خبز إضافي",
               "price": 4
             }
-          ]
+          ],
+          "isCombo": false,
+          "comboIncludes": []
         },
         {
           "id": "tide-table-6",
@@ -2856,7 +3856,9 @@
               "name": "خبز إضافي",
               "price": 4
             }
-          ]
+          ],
+          "isCombo": false,
+          "comboIncludes": []
         },
         {
           "id": "tide-table-7",
@@ -2897,7 +3899,9 @@
               "name": "خبز إضافي",
               "price": 4
             }
-          ]
+          ],
+          "isCombo": false,
+          "comboIncludes": []
         },
         {
           "id": "tide-table-8",
@@ -2911,10 +3915,10 @@
           "protein": 48,
           "carbs": 6,
           "fat": 24,
-          "category": "offers",
+          "category": "menu",
           "isPopular": false,
-          "isOffer": true,
-          "offerPrice": 58,
+          "isOffer": false,
+          "offerPrice": null,
           "spicyOption": false,
           "cashbackPercent": 5,
           "addons": [
@@ -2938,7 +3942,9 @@
               "name": "خبز إضافي",
               "price": 4
             }
-          ]
+          ],
+          "isCombo": false,
+          "comboIncludes": []
         },
         {
           "id": "tide-table-9",
@@ -2979,7 +3985,9 @@
               "name": "خبز إضافي",
               "price": 4
             }
-          ]
+          ],
+          "isCombo": false,
+          "comboIncludes": []
         },
         {
           "id": "tide-table-10",
@@ -2997,6 +4005,153 @@
           "isPopular": true,
           "isOffer": false,
           "offerPrice": null,
+          "spicyOption": false,
+          "cashbackPercent": null,
+          "addons": [
+            {
+              "id": "fries",
+              "name": "بطاطس مقلية",
+              "price": 8
+            },
+            {
+              "id": "cola",
+              "name": "كولا",
+              "price": 6
+            },
+            {
+              "id": "sauce",
+              "name": "صلصة إضافية",
+              "price": 3
+            },
+            {
+              "id": "bread",
+              "name": "خبز إضافي",
+              "price": 4
+            }
+          ],
+          "isCombo": false,
+          "comboIncludes": []
+        },
+        {
+          "id": "tide-table-combo-1",
+          "restaurantId": "tide-table",
+          "name": "كومبو سمك مشوي",
+          "description": "سمك مع أرز وسلطة ومشروب.",
+          "image": "https://images.unsplash.com/photo-1559339352-11d035aa65de?w=800&q=80",
+          "price": 68,
+          "rating": 4.6,
+          "calories": 780,
+          "protein": 48,
+          "carbs": 55,
+          "fat": 28,
+          "category": "offers",
+          "isPopular": false,
+          "isOffer": true,
+          "offerPrice": null,
+          "isCombo": true,
+          "comboIncludes": [
+            "سمك مشوي",
+            "أرز",
+            "سلطة سيزر",
+            "ليمون",
+            "مشروب"
+          ],
+          "spicyOption": false,
+          "cashbackPercent": null,
+          "addons": [
+            {
+              "id": "fries",
+              "name": "بطاطس مقلية",
+              "price": 8
+            },
+            {
+              "id": "cola",
+              "name": "كولا",
+              "price": 6
+            },
+            {
+              "id": "sauce",
+              "name": "صلصة إضافية",
+              "price": 3
+            },
+            {
+              "id": "bread",
+              "name": "خبز إضافي",
+              "price": 4
+            }
+          ]
+        },
+        {
+          "id": "tide-table-combo-2",
+          "restaurantId": "tide-table",
+          "name": "كومبو روبيان كامل",
+          "description": "روبيان مقلي مع بطاطس ومشروب.",
+          "image": "https://images.unsplash.com/photo-1559847844-5315695dadae?w=800&q=80",
+          "price": 74,
+          "rating": 4.6,
+          "calories": 920,
+          "protein": 42,
+          "carbs": 70,
+          "fat": 40,
+          "category": "offers",
+          "isPopular": false,
+          "isOffer": true,
+          "offerPrice": null,
+          "isCombo": true,
+          "comboIncludes": [
+            "روبيان مقلي",
+            "بطاطس",
+            "صوص ثوم",
+            "مشروب"
+          ],
+          "spicyOption": false,
+          "cashbackPercent": null,
+          "addons": [
+            {
+              "id": "fries",
+              "name": "بطاطس مقلية",
+              "price": 8
+            },
+            {
+              "id": "cola",
+              "name": "كولا",
+              "price": 6
+            },
+            {
+              "id": "sauce",
+              "name": "صلصة إضافية",
+              "price": 3
+            },
+            {
+              "id": "bread",
+              "name": "خبز إضافي",
+              "price": 4
+            }
+          ]
+        },
+        {
+          "id": "tide-table-combo-3",
+          "restaurantId": "tide-table",
+          "name": "كومبو صيادية وجبة",
+          "description": "صيادية مع مقبلات بحرية.",
+          "image": "https://images.unsplash.com/photo-1615141982883-c7ad0e69fd62?w=800&q=80",
+          "price": 58,
+          "rating": 4.6,
+          "calories": 860,
+          "protein": 36,
+          "carbs": 90,
+          "fat": 26,
+          "category": "offers",
+          "isPopular": false,
+          "isOffer": true,
+          "offerPrice": null,
+          "isCombo": true,
+          "comboIncludes": [
+            "صيادية",
+            "سلطة بطاطس",
+            "مخلل",
+            "مشروب"
+          ],
           "spicyOption": false,
           "cashbackPercent": null,
           "addons": [
@@ -3083,7 +4238,9 @@
               "name": "خبز إضافي",
               "price": 4
             }
-          ]
+          ],
+          "isCombo": false,
+          "comboIncludes": []
         },
         {
           "id": "salt-breeze-2",
@@ -3097,10 +4254,10 @@
           "protein": 36,
           "carbs": 28,
           "fat": 28,
-          "category": "offers",
+          "category": "menu",
           "isPopular": false,
-          "isOffer": true,
-          "offerPrice": 51,
+          "isOffer": false,
+          "offerPrice": null,
           "spicyOption": false,
           "cashbackPercent": 15,
           "addons": [
@@ -3124,7 +4281,9 @@
               "name": "خبز إضافي",
               "price": 4
             }
-          ]
+          ],
+          "isCombo": false,
+          "comboIncludes": []
         },
         {
           "id": "salt-breeze-3",
@@ -3165,7 +4324,9 @@
               "name": "خبز إضافي",
               "price": 4
             }
-          ]
+          ],
+          "isCombo": false,
+          "comboIncludes": []
         },
         {
           "id": "salt-breeze-4",
@@ -3179,10 +4340,10 @@
           "protein": 22,
           "carbs": 32,
           "fat": 20,
-          "category": "offers",
+          "category": "menu",
           "isPopular": false,
-          "isOffer": true,
-          "offerPrice": 30,
+          "isOffer": false,
+          "offerPrice": null,
           "spicyOption": false,
           "cashbackPercent": null,
           "addons": [
@@ -3206,7 +4367,9 @@
               "name": "خبز إضافي",
               "price": 4
             }
-          ]
+          ],
+          "isCombo": false,
+          "comboIncludes": []
         },
         {
           "id": "salt-breeze-5",
@@ -3220,10 +4383,10 @@
           "protein": 24,
           "carbs": 40,
           "fat": 12,
-          "category": "offers",
+          "category": "menu",
           "isPopular": false,
-          "isOffer": true,
-          "offerPrice": 38,
+          "isOffer": false,
+          "offerPrice": null,
           "spicyOption": false,
           "cashbackPercent": null,
           "addons": [
@@ -3247,7 +4410,9 @@
               "name": "خبز إضافي",
               "price": 4
             }
-          ]
+          ],
+          "isCombo": false,
+          "comboIncludes": []
         },
         {
           "id": "salt-breeze-6",
@@ -3288,7 +4453,9 @@
               "name": "خبز إضافي",
               "price": 4
             }
-          ]
+          ],
+          "isCombo": false,
+          "comboIncludes": []
         },
         {
           "id": "salt-breeze-7",
@@ -3302,10 +4469,10 @@
           "protein": 40,
           "carbs": 8,
           "fat": 28,
-          "category": "offers",
+          "category": "menu",
           "isPopular": false,
-          "isOffer": true,
-          "offerPrice": 59,
+          "isOffer": false,
+          "offerPrice": null,
           "spicyOption": false,
           "cashbackPercent": null,
           "addons": [
@@ -3329,7 +4496,9 @@
               "name": "خبز إضافي",
               "price": 4
             }
-          ]
+          ],
+          "isCombo": false,
+          "comboIncludes": []
         },
         {
           "id": "salt-breeze-8",
@@ -3370,7 +4539,9 @@
               "name": "خبز إضافي",
               "price": 4
             }
-          ]
+          ],
+          "isCombo": false,
+          "comboIncludes": []
         },
         {
           "id": "salt-breeze-9",
@@ -3411,7 +4582,9 @@
               "name": "خبز إضافي",
               "price": 4
             }
-          ]
+          ],
+          "isCombo": false,
+          "comboIncludes": []
         },
         {
           "id": "salt-breeze-10",
@@ -3429,6 +4602,153 @@
           "isPopular": false,
           "isOffer": false,
           "offerPrice": null,
+          "spicyOption": false,
+          "cashbackPercent": null,
+          "addons": [
+            {
+              "id": "fries",
+              "name": "بطاطس مقلية",
+              "price": 8
+            },
+            {
+              "id": "cola",
+              "name": "كولا",
+              "price": 6
+            },
+            {
+              "id": "sauce",
+              "name": "صلصة إضافية",
+              "price": 3
+            },
+            {
+              "id": "bread",
+              "name": "خبز إضافي",
+              "price": 4
+            }
+          ],
+          "isCombo": false,
+          "comboIncludes": []
+        },
+        {
+          "id": "salt-breeze-combo-1",
+          "restaurantId": "salt-breeze",
+          "name": "كومبو سمك مشوي",
+          "description": "سمك مع أرز وسلطة ومشروب.",
+          "image": "https://images.unsplash.com/photo-1559339352-11d035aa65de?w=800&q=80",
+          "price": 68,
+          "rating": 4.6,
+          "calories": 780,
+          "protein": 48,
+          "carbs": 55,
+          "fat": 28,
+          "category": "offers",
+          "isPopular": false,
+          "isOffer": true,
+          "offerPrice": null,
+          "isCombo": true,
+          "comboIncludes": [
+            "سمك مشوي",
+            "أرز",
+            "سلطة سيزر",
+            "ليمون",
+            "مشروب"
+          ],
+          "spicyOption": false,
+          "cashbackPercent": null,
+          "addons": [
+            {
+              "id": "fries",
+              "name": "بطاطس مقلية",
+              "price": 8
+            },
+            {
+              "id": "cola",
+              "name": "كولا",
+              "price": 6
+            },
+            {
+              "id": "sauce",
+              "name": "صلصة إضافية",
+              "price": 3
+            },
+            {
+              "id": "bread",
+              "name": "خبز إضافي",
+              "price": 4
+            }
+          ]
+        },
+        {
+          "id": "salt-breeze-combo-2",
+          "restaurantId": "salt-breeze",
+          "name": "كومبو روبيان كامل",
+          "description": "روبيان مقلي مع بطاطس ومشروب.",
+          "image": "https://images.unsplash.com/photo-1559847844-5315695dadae?w=800&q=80",
+          "price": 74,
+          "rating": 4.6,
+          "calories": 920,
+          "protein": 42,
+          "carbs": 70,
+          "fat": 40,
+          "category": "offers",
+          "isPopular": false,
+          "isOffer": true,
+          "offerPrice": null,
+          "isCombo": true,
+          "comboIncludes": [
+            "روبيان مقلي",
+            "بطاطس",
+            "صوص ثوم",
+            "مشروب"
+          ],
+          "spicyOption": false,
+          "cashbackPercent": null,
+          "addons": [
+            {
+              "id": "fries",
+              "name": "بطاطس مقلية",
+              "price": 8
+            },
+            {
+              "id": "cola",
+              "name": "كولا",
+              "price": 6
+            },
+            {
+              "id": "sauce",
+              "name": "صلصة إضافية",
+              "price": 3
+            },
+            {
+              "id": "bread",
+              "name": "خبز إضافي",
+              "price": 4
+            }
+          ]
+        },
+        {
+          "id": "salt-breeze-combo-3",
+          "restaurantId": "salt-breeze",
+          "name": "كومبو صيادية وجبة",
+          "description": "صيادية مع مقبلات بحرية.",
+          "image": "https://images.unsplash.com/photo-1615141982883-c7ad0e69fd62?w=800&q=80",
+          "price": 58,
+          "rating": 4.6,
+          "calories": 860,
+          "protein": 36,
+          "carbs": 90,
+          "fat": 26,
+          "category": "offers",
+          "isPopular": false,
+          "isOffer": true,
+          "offerPrice": null,
+          "isCombo": true,
+          "comboIncludes": [
+            "صيادية",
+            "سلطة بطاطس",
+            "مخلل",
+            "مشروب"
+          ],
           "spicyOption": false,
           "cashbackPercent": null,
           "addons": [

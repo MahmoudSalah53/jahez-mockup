@@ -40,6 +40,8 @@ const mealKeys = [
   "isPopular",
   "isOffer",
   "offerPrice",
+  "isCombo",
+  "comboIncludes",
   "spicyOption",
   "cashbackPercent",
   "addons",

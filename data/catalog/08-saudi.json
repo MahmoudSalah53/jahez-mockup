@@ -59,7 +59,9 @@
               "name": "خبز إضافي",
               "price": 4
             }
-          ]
+          ],
+          "isCombo": false,
+          "comboIncludes": []
         },
         {
           "id": "dar-almandi-2",
@@ -100,7 +102,9 @@
               "name": "خبز إضافي",
               "price": 4
             }
-          ]
+          ],
+          "isCombo": false,
+          "comboIncludes": []
         },
         {
           "id": "dar-almandi-3",
@@ -141,7 +145,9 @@
               "name": "خبز إضافي",
               "price": 4
             }
-          ]
+          ],
+          "isCombo": false,
+          "comboIncludes": []
         },
         {
           "id": "dar-almandi-4",
@@ -155,10 +161,10 @@
           "protein": 14,
           "carbs": 52,
           "fat": 16,
-          "category": "offers",
+          "category": "menu",
           "isPopular": false,
-          "isOffer": true,
-          "offerPrice": 26,
+          "isOffer": false,
+          "offerPrice": null,
           "spicyOption": false,
           "cashbackPercent": null,
           "addons": [
@@ -182,7 +188,9 @@
               "name": "خبز إضافي",
               "price": 4
             }
-          ]
+          ],
+          "isCombo": false,
+          "comboIncludes": []
         },
         {
           "id": "dar-almandi-5",
@@ -223,7 +231,9 @@
               "name": "خبز إضافي",
               "price": 4
             }
-          ]
+          ],
+          "isCombo": false,
+          "comboIncludes": []
         },
         {
           "id": "dar-almandi-6",
@@ -264,7 +274,9 @@
               "name": "خبز إضافي",
               "price": 4
             }
-          ]
+          ],
+          "isCombo": false,
+          "comboIncludes": []
         },
         {
           "id": "dar-almandi-7",
@@ -278,10 +290,10 @@
           "protein": 26,
           "carbs": 45,
           "fat": 16,
-          "category": "offers",
+          "category": "menu",
           "isPopular": false,
-          "isOffer": true,
-          "offerPrice": 30,
+          "isOffer": false,
+          "offerPrice": null,
           "spicyOption": false,
           "cashbackPercent": 5,
           "addons": [
@@ -305,7 +317,9 @@
               "name": "خبز إضافي",
               "price": 4
             }
-          ]
+          ],
+          "isCombo": false,
+          "comboIncludes": []
         },
         {
           "id": "dar-almandi-8",
@@ -319,10 +333,10 @@
           "protein": 46,
           "carbs": 68,
           "fat": 36,
-          "category": "offers",
+          "category": "menu",
           "isPopular": false,
-          "isOffer": true,
-          "offerPrice": 51,
+          "isOffer": false,
+          "offerPrice": null,
           "spicyOption": false,
           "cashbackPercent": 5,
           "addons": [
@@ -346,7 +360,9 @@
               "name": "خبز إضافي",
               "price": 4
             }
-          ]
+          ],
+          "isCombo": false,
+          "comboIncludes": []
         },
         {
           "id": "dar-almandi-9",
@@ -360,10 +376,10 @@
           "protein": 24,
           "carbs": 50,
           "fat": 18,
-          "category": "offers",
+          "category": "menu",
           "isPopular": false,
-          "isOffer": true,
-          "offerPrice": 33,
+          "isOffer": false,
+          "offerPrice": null,
           "spicyOption": false,
           "cashbackPercent": 10,
           "addons": [
@@ -387,7 +403,9 @@
               "name": "خبز إضافي",
               "price": 4
             }
-          ]
+          ],
+          "isCombo": false,
+          "comboIncludes": []
         },
         {
           "id": "dar-almandi-10",
@@ -405,6 +423,152 @@
           "isPopular": true,
           "isOffer": false,
           "offerPrice": null,
+          "spicyOption": false,
+          "cashbackPercent": null,
+          "addons": [
+            {
+              "id": "fries",
+              "name": "بطاطس مقلية",
+              "price": 8
+            },
+            {
+              "id": "cola",
+              "name": "كولا",
+              "price": 6
+            },
+            {
+              "id": "sauce",
+              "name": "صلصة إضافية",
+              "price": 3
+            },
+            {
+              "id": "bread",
+              "name": "خبز إضافي",
+              "price": 4
+            }
+          ],
+          "isCombo": false,
+          "comboIncludes": []
+        },
+        {
+          "id": "dar-almandi-combo-1",
+          "restaurantId": "dar-almandi",
+          "name": "كومبو كبسة فردي",
+          "description": "كبسة دجاج مع سلطة ومشروب.",
+          "image": "https://images.unsplash.com/photo-1512058564366-18510be2db19?w=800&q=80",
+          "price": 48,
+          "rating": 4.6,
+          "calories": 950,
+          "protein": 40,
+          "carbs": 95,
+          "fat": 28,
+          "category": "offers",
+          "isPopular": false,
+          "isOffer": true,
+          "offerPrice": null,
+          "isCombo": true,
+          "comboIncludes": [
+            "كبسة دجاج",
+            "سلطة طحينة",
+            "تمر",
+            "مشروب"
+          ],
+          "spicyOption": false,
+          "cashbackPercent": null,
+          "addons": [
+            {
+              "id": "fries",
+              "name": "بطاطس مقلية",
+              "price": 8
+            },
+            {
+              "id": "cola",
+              "name": "كولا",
+              "price": 6
+            },
+            {
+              "id": "sauce",
+              "name": "صلصة إضافية",
+              "price": 3
+            },
+            {
+              "id": "bread",
+              "name": "خبز إضافي",
+              "price": 4
+            }
+          ]
+        },
+        {
+          "id": "dar-almandi-combo-2",
+          "restaurantId": "dar-almandi",
+          "name": "كومبو مندي عائلي",
+          "description": "مندي لحم تكفي العائلة مع إضافات.",
+          "image": "https://images.unsplash.com/photo-1544025162-d76694265947?w=800&q=80",
+          "price": 149,
+          "rating": 4.6,
+          "calories": 2200,
+          "protein": 110,
+          "carbs": 180,
+          "fat": 90,
+          "category": "offers",
+          "isPopular": false,
+          "isOffer": true,
+          "offerPrice": null,
+          "isCombo": true,
+          "comboIncludes": [
+            "مندي لحم",
+            "شوربة",
+            "سلطة",
+            "٢ مشروب"
+          ],
+          "spicyOption": false,
+          "cashbackPercent": null,
+          "addons": [
+            {
+              "id": "fries",
+              "name": "بطاطس مقلية",
+              "price": 8
+            },
+            {
+              "id": "cola",
+              "name": "كولا",
+              "price": 6
+            },
+            {
+              "id": "sauce",
+              "name": "صلصة إضافية",
+              "price": 3
+            },
+            {
+              "id": "bread",
+              "name": "خبز إضافي",
+              "price": 4
+            }
+          ]
+        },
+        {
+          "id": "dar-almandi-combo-3",
+          "restaurantId": "dar-almandi",
+          "name": "كومبو جريش وهريس",
+          "description": "أطباق نجدية كلاسيكية في باكدج واحد.",
+          "image": "https://images.unsplash.com/photo-1600891964599-f61ba0e24092?w=800&q=80",
+          "price": 45,
+          "rating": 4.6,
+          "calories": 820,
+          "protein": 28,
+          "carbs": 90,
+          "fat": 26,
+          "category": "offers",
+          "isPopular": false,
+          "isOffer": true,
+          "offerPrice": null,
+          "isCombo": true,
+          "comboIncludes": [
+            "جريش",
+            "هريس صغير",
+            "تمر",
+            "قهوة عربية"
+          ],
           "spicyOption": false,
           "cashbackPercent": null,
           "addons": [
@@ -464,10 +628,10 @@
           "protein": 34,
           "carbs": 72,
           "fat": 18,
-          "category": "offers",
+          "category": "menu",
           "isPopular": false,
-          "isOffer": true,
-          "offerPrice": 33,
+          "isOffer": false,
+          "offerPrice": null,
           "spicyOption": false,
           "cashbackPercent": null,
           "addons": [
@@ -491,7 +655,9 @@
               "name": "خبز إضافي",
               "price": 4
             }
-          ]
+          ],
+          "isCombo": false,
+          "comboIncludes": []
         },
         {
           "id": "kabsa-palace-2",
@@ -532,7 +698,9 @@
               "name": "خبز إضافي",
               "price": 4
             }
-          ]
+          ],
+          "isCombo": false,
+          "comboIncludes": []
         },
         {
           "id": "kabsa-palace-3",
@@ -546,10 +714,10 @@
           "protein": 22,
           "carbs": 48,
           "fat": 20,
-          "category": "offers",
+          "category": "menu",
           "isPopular": false,
-          "isOffer": true,
-          "offerPrice": 30,
+          "isOffer": false,
+          "offerPrice": null,
           "spicyOption": false,
           "cashbackPercent": 15,
           "addons": [
@@ -573,7 +741,9 @@
               "name": "خبز إضافي",
               "price": 4
             }
-          ]
+          ],
+          "isCombo": false,
+          "comboIncludes": []
         },
         {
           "id": "kabsa-palace-4",
@@ -614,7 +784,9 @@
               "name": "خبز إضافي",
               "price": 4
             }
-          ]
+          ],
+          "isCombo": false,
+          "comboIncludes": []
         },
         {
           "id": "kabsa-palace-5",
@@ -655,7 +827,9 @@
               "name": "خبز إضافي",
               "price": 4
             }
-          ]
+          ],
+          "isCombo": false,
+          "comboIncludes": []
         },
         {
           "id": "kabsa-palace-6",
@@ -669,10 +843,10 @@
           "protein": 28,
           "carbs": 30,
           "fat": 22,
-          "category": "offers",
+          "category": "menu",
           "isPopular": false,
-          "isOffer": true,
-          "offerPrice": 33,
+          "isOffer": false,
+          "offerPrice": null,
           "spicyOption": false,
           "cashbackPercent": 15,
           "addons": [
@@ -696,7 +870,9 @@
               "name": "خبز إضافي",
               "price": 4
             }
-          ]
+          ],
+          "isCombo": false,
+          "comboIncludes": []
         },
         {
           "id": "kabsa-palace-7",
@@ -710,10 +886,10 @@
           "protein": 26,
           "carbs": 45,
           "fat": 16,
-          "category": "offers",
+          "category": "menu",
           "isPopular": false,
-          "isOffer": true,
-          "offerPrice": 27,
+          "isOffer": false,
+          "offerPrice": null,
           "spicyOption": false,
           "cashbackPercent": null,
           "addons": [
@@ -737,7 +913,9 @@
               "name": "خبز إضافي",
               "price": 4
             }
-          ]
+          ],
+          "isCombo": false,
+          "comboIncludes": []
         },
         {
           "id": "kabsa-palace-8",
@@ -778,7 +956,9 @@
               "name": "خبز إضافي",
               "price": 4
             }
-          ]
+          ],
+          "isCombo": false,
+          "comboIncludes": []
         },
         {
           "id": "kabsa-palace-9",
@@ -792,10 +972,103 @@
           "protein": 24,
           "carbs": 50,
           "fat": 18,
+          "category": "menu",
+          "isPopular": false,
+          "isOffer": false,
+          "offerPrice": null,
+          "spicyOption": false,
+          "cashbackPercent": null,
+          "addons": [
+            {
+              "id": "fries",
+              "name": "بطاطس مقلية",
+              "price": 8
+            },
+            {
+              "id": "cola",
+              "name": "كولا",
+              "price": 6
+            },
+            {
+              "id": "sauce",
+              "name": "صلصة إضافية",
+              "price": 3
+            },
+            {
+              "id": "bread",
+              "name": "خبز إضافي",
+              "price": 4
+            }
+          ],
+          "isCombo": false,
+          "comboIncludes": []
+        },
+        {
+          "id": "kabsa-palace-10",
+          "restaurantId": "kabsa-palace",
+          "name": "تمر وسمن",
+          "description": "تحلية تمر بالسمن البلدي.",
+          "image": "https://images.unsplash.com/photo-1611143669185-af224c5e3252?w=800&q=80",
+          "price": 18,
+          "rating": 4.2,
+          "calories": 320,
+          "protein": 3,
+          "carbs": 36,
+          "fat": 14,
+          "category": "popular",
+          "isPopular": true,
+          "isOffer": false,
+          "offerPrice": null,
+          "spicyOption": false,
+          "cashbackPercent": null,
+          "addons": [
+            {
+              "id": "fries",
+              "name": "بطاطس مقلية",
+              "price": 8
+            },
+            {
+              "id": "cola",
+              "name": "كولا",
+              "price": 6
+            },
+            {
+              "id": "sauce",
+              "name": "صلصة إضافية",
+              "price": 3
+            },
+            {
+              "id": "bread",
+              "name": "خبز إضافي",
+              "price": 4
+            }
+          ],
+          "isCombo": false,
+          "comboIncludes": []
+        },
+        {
+          "id": "kabsa-palace-combo-1",
+          "restaurantId": "kabsa-palace",
+          "name": "كومبو كبسة فردي",
+          "description": "كبسة دجاج مع سلطة ومشروب.",
+          "image": "https://images.unsplash.com/photo-1512058564366-18510be2db19?w=800&q=80",
+          "price": 48,
+          "rating": 4.6,
+          "calories": 950,
+          "protein": 40,
+          "carbs": 95,
+          "fat": 28,
           "category": "offers",
           "isPopular": false,
           "isOffer": true,
-          "offerPrice": 32,
+          "offerPrice": null,
+          "isCombo": true,
+          "comboIncludes": [
+            "كبسة دجاج",
+            "سلطة طحينة",
+            "تمر",
+            "مشروب"
+          ],
           "spicyOption": false,
           "cashbackPercent": null,
           "addons": [
@@ -822,21 +1095,76 @@
           ]
         },
         {
-          "id": "kabsa-palace-10",
+          "id": "kabsa-palace-combo-2",
           "restaurantId": "kabsa-palace",
-          "name": "تمر وسمن",
-          "description": "تحلية تمر بالسمن البلدي.",
-          "image": "https://images.unsplash.com/photo-1611143669185-af224c5e3252?w=800&q=80",
-          "price": 18,
-          "rating": 4.2,
-          "calories": 320,
-          "protein": 3,
-          "carbs": 36,
-          "fat": 14,
-          "category": "popular",
-          "isPopular": true,
-          "isOffer": false,
+          "name": "كومبو مندي عائلي",
+          "description": "مندي لحم تكفي العائلة مع إضافات.",
+          "image": "https://images.unsplash.com/photo-1544025162-d76694265947?w=800&q=80",
+          "price": 149,
+          "rating": 4.6,
+          "calories": 2200,
+          "protein": 110,
+          "carbs": 180,
+          "fat": 90,
+          "category": "offers",
+          "isPopular": false,
+          "isOffer": true,
           "offerPrice": null,
+          "isCombo": true,
+          "comboIncludes": [
+            "مندي لحم",
+            "شوربة",
+            "سلطة",
+            "٢ مشروب"
+          ],
+          "spicyOption": false,
+          "cashbackPercent": null,
+          "addons": [
+            {
+              "id": "fries",
+              "name": "بطاطس مقلية",
+              "price": 8
+            },
+            {
+              "id": "cola",
+              "name": "كولا",
+              "price": 6
+            },
+            {
+              "id": "sauce",
+              "name": "صلصة إضافية",
+              "price": 3
+            },
+            {
+              "id": "bread",
+              "name": "خبز إضافي",
+              "price": 4
+            }
+          ]
+        },
+        {
+          "id": "kabsa-palace-combo-3",
+          "restaurantId": "kabsa-palace",
+          "name": "كومبو جريش وهريس",
+          "description": "أطباق نجدية كلاسيكية في باكدج واحد.",
+          "image": "https://images.unsplash.com/photo-1600891964599-f61ba0e24092?w=800&q=80",
+          "price": 45,
+          "rating": 4.6,
+          "calories": 820,
+          "protein": 28,
+          "carbs": 90,
+          "fat": 26,
+          "category": "offers",
+          "isPopular": false,
+          "isOffer": true,
+          "offerPrice": null,
+          "isCombo": true,
+          "comboIncludes": [
+            "جريش",
+            "هريس صغير",
+            "تمر",
+            "قهوة عربية"
+          ],
           "spicyOption": false,
           "cashbackPercent": null,
           "addons": [
@@ -896,10 +1224,10 @@
           "protein": 34,
           "carbs": 72,
           "fat": 18,
-          "category": "offers",
+          "category": "menu",
           "isPopular": false,
-          "isOffer": true,
-          "offerPrice": 29,
+          "isOffer": false,
+          "offerPrice": null,
           "spicyOption": false,
           "cashbackPercent": null,
           "addons": [
@@ -923,7 +1251,9 @@
               "name": "خبز إضافي",
               "price": 4
             }
-          ]
+          ],
+          "isCombo": false,
+          "comboIncludes": []
         },
         {
           "id": "najd-table-2",
@@ -937,10 +1267,10 @@
           "protein": 42,
           "carbs": 70,
           "fat": 32,
-          "category": "offers",
+          "category": "menu",
           "isPopular": false,
-          "isOffer": true,
-          "offerPrice": 44,
+          "isOffer": false,
+          "offerPrice": null,
           "spicyOption": false,
           "cashbackPercent": null,
           "addons": [
@@ -964,7 +1294,9 @@
               "name": "خبز إضافي",
               "price": 4
             }
-          ]
+          ],
+          "isCombo": false,
+          "comboIncludes": []
         },
         {
           "id": "najd-table-3",
@@ -1005,7 +1337,9 @@
               "name": "خبز إضافي",
               "price": 4
             }
-          ]
+          ],
+          "isCombo": false,
+          "comboIncludes": []
         },
         {
           "id": "najd-table-4",
@@ -1019,10 +1353,10 @@
           "protein": 14,
           "carbs": 52,
           "fat": 16,
-          "category": "offers",
+          "category": "menu",
           "isPopular": false,
-          "isOffer": true,
-          "offerPrice": 27,
+          "isOffer": false,
+          "offerPrice": null,
           "spicyOption": false,
           "cashbackPercent": 10,
           "addons": [
@@ -1046,7 +1380,9 @@
               "name": "خبز إضافي",
               "price": 4
             }
-          ]
+          ],
+          "isCombo": false,
+          "comboIncludes": []
         },
         {
           "id": "najd-table-5",
@@ -1087,7 +1423,9 @@
               "name": "خبز إضافي",
               "price": 4
             }
-          ]
+          ],
+          "isCombo": false,
+          "comboIncludes": []
         },
         {
           "id": "najd-table-6",
@@ -1101,10 +1439,10 @@
           "protein": 28,
           "carbs": 30,
           "fat": 22,
-          "category": "offers",
+          "category": "menu",
           "isPopular": false,
-          "isOffer": true,
-          "offerPrice": 33,
+          "isOffer": false,
+          "offerPrice": null,
           "spicyOption": false,
           "cashbackPercent": 10,
           "addons": [
@@ -1128,7 +1466,9 @@
               "name": "خبز إضافي",
               "price": 4
             }
-          ]
+          ],
+          "isCombo": false,
+          "comboIncludes": []
         },
         {
           "id": "najd-table-7",
@@ -1169,7 +1509,9 @@
               "name": "خبز إضافي",
               "price": 4
             }
-          ]
+          ],
+          "isCombo": false,
+          "comboIncludes": []
         },
         {
           "id": "najd-table-8",
@@ -1210,7 +1552,9 @@
               "name": "خبز إضافي",
               "price": 4
             }
-          ]
+          ],
+          "isCombo": false,
+          "comboIncludes": []
         },
         {
           "id": "najd-table-9",
@@ -1251,7 +1595,9 @@
               "name": "خبز إضافي",
               "price": 4
             }
-          ]
+          ],
+          "isCombo": false,
+          "comboIncludes": []
         },
         {
           "id": "najd-table-10",
@@ -1269,6 +1615,152 @@
           "isPopular": false,
           "isOffer": false,
           "offerPrice": null,
+          "spicyOption": false,
+          "cashbackPercent": null,
+          "addons": [
+            {
+              "id": "fries",
+              "name": "بطاطس مقلية",
+              "price": 8
+            },
+            {
+              "id": "cola",
+              "name": "كولا",
+              "price": 6
+            },
+            {
+              "id": "sauce",
+              "name": "صلصة إضافية",
+              "price": 3
+            },
+            {
+              "id": "bread",
+              "name": "خبز إضافي",
+              "price": 4
+            }
+          ],
+          "isCombo": false,
+          "comboIncludes": []
+        },
+        {
+          "id": "najd-table-combo-1",
+          "restaurantId": "najd-table",
+          "name": "كومبو كبسة فردي",
+          "description": "كبسة دجاج مع سلطة ومشروب.",
+          "image": "https://images.unsplash.com/photo-1512058564366-18510be2db19?w=800&q=80",
+          "price": 48,
+          "rating": 4.6,
+          "calories": 950,
+          "protein": 40,
+          "carbs": 95,
+          "fat": 28,
+          "category": "offers",
+          "isPopular": false,
+          "isOffer": true,
+          "offerPrice": null,
+          "isCombo": true,
+          "comboIncludes": [
+            "كبسة دجاج",
+            "سلطة طحينة",
+            "تمر",
+            "مشروب"
+          ],
+          "spicyOption": false,
+          "cashbackPercent": null,
+          "addons": [
+            {
+              "id": "fries",
+              "name": "بطاطس مقلية",
+              "price": 8
+            },
+            {
+              "id": "cola",
+              "name": "كولا",
+              "price": 6
+            },
+            {
+              "id": "sauce",
+              "name": "صلصة إضافية",
+              "price": 3
+            },
+            {
+              "id": "bread",
+              "name": "خبز إضافي",
+              "price": 4
+            }
+          ]
+        },
+        {
+          "id": "najd-table-combo-2",
+          "restaurantId": "najd-table",
+          "name": "كومبو مندي عائلي",
+          "description": "مندي لحم تكفي العائلة مع إضافات.",
+          "image": "https://images.unsplash.com/photo-1544025162-d76694265947?w=800&q=80",
+          "price": 149,
+          "rating": 4.6,
+          "calories": 2200,
+          "protein": 110,
+          "carbs": 180,
+          "fat": 90,
+          "category": "offers",
+          "isPopular": false,
+          "isOffer": true,
+          "offerPrice": null,
+          "isCombo": true,
+          "comboIncludes": [
+            "مندي لحم",
+            "شوربة",
+            "سلطة",
+            "٢ مشروب"
+          ],
+          "spicyOption": false,
+          "cashbackPercent": null,
+          "addons": [
+            {
+              "id": "fries",
+              "name": "بطاطس مقلية",
+              "price": 8
+            },
+            {
+              "id": "cola",
+              "name": "كولا",
+              "price": 6
+            },
+            {
+              "id": "sauce",
+              "name": "صلصة إضافية",
+              "price": 3
+            },
+            {
+              "id": "bread",
+              "name": "خبز إضافي",
+              "price": 4
+            }
+          ]
+        },
+        {
+          "id": "najd-table-combo-3",
+          "restaurantId": "najd-table",
+          "name": "كومبو جريش وهريس",
+          "description": "أطباق نجدية كلاسيكية في باكدج واحد.",
+          "image": "https://images.unsplash.com/photo-1600891964599-f61ba0e24092?w=800&q=80",
+          "price": 45,
+          "rating": 4.6,
+          "calories": 820,
+          "protein": 28,
+          "carbs": 90,
+          "fat": 26,
+          "category": "offers",
+          "isPopular": false,
+          "isOffer": true,
+          "offerPrice": null,
+          "isCombo": true,
+          "comboIncludes": [
+            "جريش",
+            "هريس صغير",
+            "تمر",
+            "قهوة عربية"
+          ],
           "spicyOption": false,
           "cashbackPercent": null,
           "addons": [
@@ -1328,10 +1820,10 @@
           "protein": 34,
           "carbs": 72,
           "fat": 18,
-          "category": "offers",
+          "category": "menu",
           "isPopular": false,
-          "isOffer": true,
-          "offerPrice": 33,
+          "isOffer": false,
+          "offerPrice": null,
           "spicyOption": false,
           "cashbackPercent": null,
           "addons": [
@@ -1355,7 +1847,9 @@
               "name": "خبز إضافي",
               "price": 4
             }
-          ]
+          ],
+          "isCombo": false,
+          "comboIncludes": []
         },
         {
           "id": "harees-house-2",
@@ -1396,7 +1890,9 @@
               "name": "خبز إضافي",
               "price": 4
             }
-          ]
+          ],
+          "isCombo": false,
+          "comboIncludes": []
         },
         {
           "id": "harees-house-3",
@@ -1437,7 +1933,9 @@
               "name": "خبز إضافي",
               "price": 4
             }
-          ]
+          ],
+          "isCombo": false,
+          "comboIncludes": []
         },
         {
           "id": "harees-house-4",
@@ -1451,10 +1949,10 @@
           "protein": 14,
           "carbs": 52,
           "fat": 16,
-          "category": "offers",
+          "category": "menu",
           "isPopular": false,
-          "isOffer": true,
-          "offerPrice": 25,
+          "isOffer": false,
+          "offerPrice": null,
           "spicyOption": false,
           "cashbackPercent": null,
           "addons": [
@@ -1478,7 +1976,9 @@
               "name": "خبز إضافي",
               "price": 4
             }
-          ]
+          ],
+          "isCombo": false,
+          "comboIncludes": []
         },
         {
           "id": "harees-house-5",
@@ -1519,7 +2019,9 @@
               "name": "خبز إضافي",
               "price": 4
             }
-          ]
+          ],
+          "isCombo": false,
+          "comboIncludes": []
         },
         {
           "id": "harees-house-6",
@@ -1560,7 +2062,9 @@
               "name": "خبز إضافي",
               "price": 4
             }
-          ]
+          ],
+          "isCombo": false,
+          "comboIncludes": []
         },
         {
           "id": "harees-house-7",
@@ -1574,10 +2078,10 @@
           "protein": 26,
           "carbs": 45,
           "fat": 16,
-          "category": "offers",
+          "category": "menu",
           "isPopular": false,
-          "isOffer": true,
-          "offerPrice": 31,
+          "isOffer": false,
+          "offerPrice": null,
           "spicyOption": false,
           "cashbackPercent": null,
           "addons": [
@@ -1601,7 +2105,9 @@
               "name": "خبز إضافي",
               "price": 4
             }
-          ]
+          ],
+          "isCombo": false,
+          "comboIncludes": []
         },
         {
           "id": "harees-house-8",
@@ -1615,10 +2121,10 @@
           "protein": 46,
           "carbs": 68,
           "fat": 36,
-          "category": "offers",
+          "category": "menu",
           "isPopular": false,
-          "isOffer": true,
-          "offerPrice": 46,
+          "isOffer": false,
+          "offerPrice": null,
           "spicyOption": false,
           "cashbackPercent": null,
           "addons": [
@@ -1642,7 +2148,9 @@
               "name": "خبز إضافي",
               "price": 4
             }
-          ]
+          ],
+          "isCombo": false,
+          "comboIncludes": []
         },
         {
           "id": "harees-house-9",
@@ -1683,7 +2191,9 @@
               "name": "خبز إضافي",
               "price": 4
             }
-          ]
+          ],
+          "isCombo": false,
+          "comboIncludes": []
         },
         {
           "id": "harees-house-10",
@@ -1701,6 +2211,152 @@
           "isPopular": false,
           "isOffer": false,
           "offerPrice": null,
+          "spicyOption": false,
+          "cashbackPercent": null,
+          "addons": [
+            {
+              "id": "fries",
+              "name": "بطاطس مقلية",
+              "price": 8
+            },
+            {
+              "id": "cola",
+              "name": "كولا",
+              "price": 6
+            },
+            {
+              "id": "sauce",
+              "name": "صلصة إضافية",
+              "price": 3
+            },
+            {
+              "id": "bread",
+              "name": "خبز إضافي",
+              "price": 4
+            }
+          ],
+          "isCombo": false,
+          "comboIncludes": []
+        },
+        {
+          "id": "harees-house-combo-1",
+          "restaurantId": "harees-house",
+          "name": "كومبو كبسة فردي",
+          "description": "كبسة دجاج مع سلطة ومشروب.",
+          "image": "https://images.unsplash.com/photo-1512058564366-18510be2db19?w=800&q=80",
+          "price": 48,
+          "rating": 4.6,
+          "calories": 950,
+          "protein": 40,
+          "carbs": 95,
+          "fat": 28,
+          "category": "offers",
+          "isPopular": false,
+          "isOffer": true,
+          "offerPrice": null,
+          "isCombo": true,
+          "comboIncludes": [
+            "كبسة دجاج",
+            "سلطة طحينة",
+            "تمر",
+            "مشروب"
+          ],
+          "spicyOption": false,
+          "cashbackPercent": null,
+          "addons": [
+            {
+              "id": "fries",
+              "name": "بطاطس مقلية",
+              "price": 8
+            },
+            {
+              "id": "cola",
+              "name": "كولا",
+              "price": 6
+            },
+            {
+              "id": "sauce",
+              "name": "صلصة إضافية",
+              "price": 3
+            },
+            {
+              "id": "bread",
+              "name": "خبز إضافي",
+              "price": 4
+            }
+          ]
+        },
+        {
+          "id": "harees-house-combo-2",
+          "restaurantId": "harees-house",
+          "name": "كومبو مندي عائلي",
+          "description": "مندي لحم تكفي العائلة مع إضافات.",
+          "image": "https://images.unsplash.com/photo-1544025162-d76694265947?w=800&q=80",
+          "price": 149,
+          "rating": 4.6,
+          "calories": 2200,
+          "protein": 110,
+          "carbs": 180,
+          "fat": 90,
+          "category": "offers",
+          "isPopular": false,
+          "isOffer": true,
+          "offerPrice": null,
+          "isCombo": true,
+          "comboIncludes": [
+            "مندي لحم",
+            "شوربة",
+            "سلطة",
+            "٢ مشروب"
+          ],
+          "spicyOption": false,
+          "cashbackPercent": null,
+          "addons": [
+            {
+              "id": "fries",
+              "name": "بطاطس مقلية",
+              "price": 8
+            },
+            {
+              "id": "cola",
+              "name": "كولا",
+              "price": 6
+            },
+            {
+              "id": "sauce",
+              "name": "صلصة إضافية",
+              "price": 3
+            },
+            {
+              "id": "bread",
+              "name": "خبز إضافي",
+              "price": 4
+            }
+          ]
+        },
+        {
+          "id": "harees-house-combo-3",
+          "restaurantId": "harees-house",
+          "name": "كومبو جريش وهريس",
+          "description": "أطباق نجدية كلاسيكية في باكدج واحد.",
+          "image": "https://images.unsplash.com/photo-1600891964599-f61ba0e24092?w=800&q=80",
+          "price": 45,
+          "rating": 4.6,
+          "calories": 820,
+          "protein": 28,
+          "carbs": 90,
+          "fat": 26,
+          "category": "offers",
+          "isPopular": false,
+          "isOffer": true,
+          "offerPrice": null,
+          "isCombo": true,
+          "comboIncludes": [
+            "جريش",
+            "هريس صغير",
+            "تمر",
+            "قهوة عربية"
+          ],
           "spicyOption": false,
           "cashbackPercent": null,
           "addons": [
@@ -1787,7 +2443,9 @@
               "name": "خبز إضافي",
               "price": 4
             }
-          ]
+          ],
+          "isCombo": false,
+          "comboIncludes": []
         },
         {
           "id": "jareesh-corner-2",
@@ -1828,7 +2486,9 @@
               "name": "خبز إضافي",
               "price": 4
             }
-          ]
+          ],
+          "isCombo": false,
+          "comboIncludes": []
         },
         {
           "id": "jareesh-corner-3",
@@ -1869,7 +2529,9 @@
               "name": "خبز إضافي",
               "price": 4
             }
-          ]
+          ],
+          "isCombo": false,
+          "comboIncludes": []
         },
         {
           "id": "jareesh-corner-4",
@@ -1883,10 +2545,10 @@
           "protein": 14,
           "carbs": 52,
           "fat": 16,
-          "category": "offers",
+          "category": "menu",
           "isPopular": false,
-          "isOffer": true,
-          "offerPrice": 27,
+          "isOffer": false,
+          "offerPrice": null,
           "spicyOption": false,
           "cashbackPercent": 15,
           "addons": [
@@ -1910,7 +2572,9 @@
               "name": "خبز إضافي",
               "price": 4
             }
-          ]
+          ],
+          "isCombo": false,
+          "comboIncludes": []
         },
         {
           "id": "jareesh-corner-5",
@@ -1951,7 +2615,9 @@
               "name": "خبز إضافي",
               "price": 4
             }
-          ]
+          ],
+          "isCombo": false,
+          "comboIncludes": []
         },
         {
           "id": "jareesh-corner-6",
@@ -1965,10 +2631,10 @@
           "protein": 28,
           "carbs": 30,
           "fat": 22,
-          "category": "offers",
+          "category": "menu",
           "isPopular": false,
-          "isOffer": true,
-          "offerPrice": 31,
+          "isOffer": false,
+          "offerPrice": null,
           "spicyOption": false,
           "cashbackPercent": 15,
           "addons": [
@@ -1992,7 +2658,9 @@
               "name": "خبز إضافي",
               "price": 4
             }
-          ]
+          ],
+          "isCombo": false,
+          "comboIncludes": []
         },
         {
           "id": "jareesh-corner-7",
@@ -2033,7 +2701,9 @@
               "name": "خبز إضافي",
               "price": 4
             }
-          ]
+          ],
+          "isCombo": false,
+          "comboIncludes": []
         },
         {
           "id": "jareesh-corner-8",
@@ -2074,7 +2744,9 @@
               "name": "خبز إضافي",
               "price": 4
             }
-          ]
+          ],
+          "isCombo": false,
+          "comboIncludes": []
         },
         {
           "id": "jareesh-corner-9",
@@ -2115,7 +2787,9 @@
               "name": "خبز إضافي",
               "price": 4
             }
-          ]
+          ],
+          "isCombo": false,
+          "comboIncludes": []
         },
         {
           "id": "jareesh-corner-10",
@@ -2133,6 +2807,152 @@
           "isPopular": true,
           "isOffer": false,
           "offerPrice": null,
+          "spicyOption": false,
+          "cashbackPercent": null,
+          "addons": [
+            {
+              "id": "fries",
+              "name": "بطاطس مقلية",
+              "price": 8
+            },
+            {
+              "id": "cola",
+              "name": "كولا",
+              "price": 6
+            },
+            {
+              "id": "sauce",
+              "name": "صلصة إضافية",
+              "price": 3
+            },
+            {
+              "id": "bread",
+              "name": "خبز إضافي",
+              "price": 4
+            }
+          ],
+          "isCombo": false,
+          "comboIncludes": []
+        },
+        {
+          "id": "jareesh-corner-combo-1",
+          "restaurantId": "jareesh-corner",
+          "name": "كومبو كبسة فردي",
+          "description": "كبسة دجاج مع سلطة ومشروب.",
+          "image": "https://images.unsplash.com/photo-1512058564366-18510be2db19?w=800&q=80",
+          "price": 48,
+          "rating": 4.6,
+          "calories": 950,
+          "protein": 40,
+          "carbs": 95,
+          "fat": 28,
+          "category": "offers",
+          "isPopular": false,
+          "isOffer": true,
+          "offerPrice": null,
+          "isCombo": true,
+          "comboIncludes": [
+            "كبسة دجاج",
+            "سلطة طحينة",
+            "تمر",
+            "مشروب"
+          ],
+          "spicyOption": false,
+          "cashbackPercent": null,
+          "addons": [
+            {
+              "id": "fries",
+              "name": "بطاطس مقلية",
+              "price": 8
+            },
+            {
+              "id": "cola",
+              "name": "كولا",
+              "price": 6
+            },
+            {
+              "id": "sauce",
+              "name": "صلصة إضافية",
+              "price": 3
+            },
+            {
+              "id": "bread",
+              "name": "خبز إضافي",
+              "price": 4
+            }
+          ]
+        },
+        {
+          "id": "jareesh-corner-combo-2",
+          "restaurantId": "jareesh-corner",
+          "name": "كومبو مندي عائلي",
+          "description": "مندي لحم تكفي العائلة مع إضافات.",
+          "image": "https://images.unsplash.com/photo-1544025162-d76694265947?w=800&q=80",
+          "price": 149,
+          "rating": 4.6,
+          "calories": 2200,
+          "protein": 110,
+          "carbs": 180,
+          "fat": 90,
+          "category": "offers",
+          "isPopular": false,
+          "isOffer": true,
+          "offerPrice": null,
+          "isCombo": true,
+          "comboIncludes": [
+            "مندي لحم",
+            "شوربة",
+            "سلطة",
+            "٢ مشروب"
+          ],
+          "spicyOption": false,
+          "cashbackPercent": null,
+          "addons": [
+            {
+              "id": "fries",
+              "name": "بطاطس مقلية",
+              "price": 8
+            },
+            {
+              "id": "cola",
+              "name": "كولا",
+              "price": 6
+            },
+            {
+              "id": "sauce",
+              "name": "صلصة إضافية",
+              "price": 3
+            },
+            {
+              "id": "bread",
+              "name": "خبز إضافي",
+              "price": 4
+            }
+          ]
+        },
+        {
+          "id": "jareesh-corner-combo-3",
+          "restaurantId": "jareesh-corner",
+          "name": "كومبو جريش وهريس",
+          "description": "أطباق نجدية كلاسيكية في باكدج واحد.",
+          "image": "https://images.unsplash.com/photo-1600891964599-f61ba0e24092?w=800&q=80",
+          "price": 45,
+          "rating": 4.6,
+          "calories": 820,
+          "protein": 28,
+          "carbs": 90,
+          "fat": 26,
+          "category": "offers",
+          "isPopular": false,
+          "isOffer": true,
+          "offerPrice": null,
+          "isCombo": true,
+          "comboIncludes": [
+            "جريش",
+            "هريس صغير",
+            "تمر",
+            "قهوة عربية"
+          ],
           "spicyOption": false,
           "cashbackPercent": null,
           "addons": [
@@ -2219,7 +3039,9 @@
               "name": "خبز إضافي",
               "price": 4
             }
-          ]
+          ],
+          "isCombo": false,
+          "comboIncludes": []
         },
         {
           "id": "samak-wa-ruz-2",
@@ -2260,7 +3082,9 @@
               "name": "خبز إضافي",
               "price": 4
             }
-          ]
+          ],
+          "isCombo": false,
+          "comboIncludes": []
         },
         {
           "id": "samak-wa-ruz-3",
@@ -2274,10 +3098,10 @@
           "protein": 22,
           "carbs": 48,
           "fat": 20,
-          "category": "offers",
+          "category": "menu",
           "isPopular": false,
-          "isOffer": true,
-          "offerPrice": 29,
+          "isOffer": false,
+          "offerPrice": null,
           "spicyOption": false,
           "cashbackPercent": null,
           "addons": [
@@ -2301,7 +3125,9 @@
               "name": "خبز إضافي",
               "price": 4
             }
-          ]
+          ],
+          "isCombo": false,
+          "comboIncludes": []
         },
         {
           "id": "samak-wa-ruz-4",
@@ -2342,7 +3168,9 @@
               "name": "خبز إضافي",
               "price": 4
             }
-          ]
+          ],
+          "isCombo": false,
+          "comboIncludes": []
         },
         {
           "id": "samak-wa-ruz-5",
@@ -2383,7 +3211,9 @@
               "name": "خبز إضافي",
               "price": 4
             }
-          ]
+          ],
+          "isCombo": false,
+          "comboIncludes": []
         },
         {
           "id": "samak-wa-ruz-6",
@@ -2424,7 +3254,9 @@
               "name": "خبز إضافي",
               "price": 4
             }
-          ]
+          ],
+          "isCombo": false,
+          "comboIncludes": []
         },
         {
           "id": "samak-wa-ruz-7",
@@ -2438,10 +3270,10 @@
           "protein": 26,
           "carbs": 45,
           "fat": 16,
-          "category": "offers",
+          "category": "menu",
           "isPopular": false,
-          "isOffer": true,
-          "offerPrice": 31,
+          "isOffer": false,
+          "offerPrice": null,
           "spicyOption": false,
           "cashbackPercent": 15,
           "addons": [
@@ -2465,7 +3297,9 @@
               "name": "خبز إضافي",
               "price": 4
             }
-          ]
+          ],
+          "isCombo": false,
+          "comboIncludes": []
         },
         {
           "id": "samak-wa-ruz-8",
@@ -2479,10 +3313,10 @@
           "protein": 46,
           "carbs": 68,
           "fat": 36,
-          "category": "offers",
+          "category": "menu",
           "isPopular": false,
-          "isOffer": true,
-          "offerPrice": 44,
+          "isOffer": false,
+          "offerPrice": null,
           "spicyOption": false,
           "cashbackPercent": null,
           "addons": [
@@ -2506,7 +3340,9 @@
               "name": "خبز إضافي",
               "price": 4
             }
-          ]
+          ],
+          "isCombo": false,
+          "comboIncludes": []
         },
         {
           "id": "samak-wa-ruz-9",
@@ -2547,7 +3383,9 @@
               "name": "خبز إضافي",
               "price": 4
             }
-          ]
+          ],
+          "isCombo": false,
+          "comboIncludes": []
         },
         {
           "id": "samak-wa-ruz-10",
@@ -2565,6 +3403,152 @@
           "isPopular": false,
           "isOffer": false,
           "offerPrice": null,
+          "spicyOption": false,
+          "cashbackPercent": null,
+          "addons": [
+            {
+              "id": "fries",
+              "name": "بطاطس مقلية",
+              "price": 8
+            },
+            {
+              "id": "cola",
+              "name": "كولا",
+              "price": 6
+            },
+            {
+              "id": "sauce",
+              "name": "صلصة إضافية",
+              "price": 3
+            },
+            {
+              "id": "bread",
+              "name": "خبز إضافي",
+              "price": 4
+            }
+          ],
+          "isCombo": false,
+          "comboIncludes": []
+        },
+        {
+          "id": "samak-wa-ruz-combo-1",
+          "restaurantId": "samak-wa-ruz",
+          "name": "كومبو كبسة فردي",
+          "description": "كبسة دجاج مع سلطة ومشروب.",
+          "image": "https://images.unsplash.com/photo-1512058564366-18510be2db19?w=800&q=80",
+          "price": 48,
+          "rating": 4.6,
+          "calories": 950,
+          "protein": 40,
+          "carbs": 95,
+          "fat": 28,
+          "category": "offers",
+          "isPopular": false,
+          "isOffer": true,
+          "offerPrice": null,
+          "isCombo": true,
+          "comboIncludes": [
+            "كبسة دجاج",
+            "سلطة طحينة",
+            "تمر",
+            "مشروب"
+          ],
+          "spicyOption": false,
+          "cashbackPercent": null,
+          "addons": [
+            {
+              "id": "fries",
+              "name": "بطاطس مقلية",
+              "price": 8
+            },
+            {
+              "id": "cola",
+              "name": "كولا",
+              "price": 6
+            },
+            {
+              "id": "sauce",
+              "name": "صلصة إضافية",
+              "price": 3
+            },
+            {
+              "id": "bread",
+              "name": "خبز إضافي",
+              "price": 4
+            }
+          ]
+        },
+        {
+          "id": "samak-wa-ruz-combo-2",
+          "restaurantId": "samak-wa-ruz",
+          "name": "كومبو مندي عائلي",
+          "description": "مندي لحم تكفي العائلة مع إضافات.",
+          "image": "https://images.unsplash.com/photo-1544025162-d76694265947?w=800&q=80",
+          "price": 149,
+          "rating": 4.6,
+          "calories": 2200,
+          "protein": 110,
+          "carbs": 180,
+          "fat": 90,
+          "category": "offers",
+          "isPopular": false,
+          "isOffer": true,
+          "offerPrice": null,
+          "isCombo": true,
+          "comboIncludes": [
+            "مندي لحم",
+            "شوربة",
+            "سلطة",
+            "٢ مشروب"
+          ],
+          "spicyOption": false,
+          "cashbackPercent": null,
+          "addons": [
+            {
+              "id": "fries",
+              "name": "بطاطس مقلية",
+              "price": 8
+            },
+            {
+              "id": "cola",
+              "name": "كولا",
+              "price": 6
+            },
+            {
+              "id": "sauce",
+              "name": "صلصة إضافية",
+              "price": 3
+            },
+            {
+              "id": "bread",
+              "name": "خبز إضافي",
+              "price": 4
+            }
+          ]
+        },
+        {
+          "id": "samak-wa-ruz-combo-3",
+          "restaurantId": "samak-wa-ruz",
+          "name": "كومبو جريش وهريس",
+          "description": "أطباق نجدية كلاسيكية في باكدج واحد.",
+          "image": "https://images.unsplash.com/photo-1600891964599-f61ba0e24092?w=800&q=80",
+          "price": 45,
+          "rating": 4.6,
+          "calories": 820,
+          "protein": 28,
+          "carbs": 90,
+          "fat": 26,
+          "category": "offers",
+          "isPopular": false,
+          "isOffer": true,
+          "offerPrice": null,
+          "isCombo": true,
+          "comboIncludes": [
+            "جريش",
+            "هريس صغير",
+            "تمر",
+            "قهوة عربية"
+          ],
           "spicyOption": false,
           "cashbackPercent": null,
           "addons": [
@@ -2624,10 +3608,10 @@
           "protein": 34,
           "carbs": 72,
           "fat": 18,
-          "category": "offers",
+          "category": "menu",
           "isPopular": false,
-          "isOffer": true,
-          "offerPrice": 29,
+          "isOffer": false,
+          "offerPrice": null,
           "spicyOption": false,
           "cashbackPercent": 10,
           "addons": [
@@ -2651,7 +3635,9 @@
               "name": "خبز إضافي",
               "price": 4
             }
-          ]
+          ],
+          "isCombo": false,
+          "comboIncludes": []
         },
         {
           "id": "qursan-kitchen-2",
@@ -2692,7 +3678,9 @@
               "name": "خبز إضافي",
               "price": 4
             }
-          ]
+          ],
+          "isCombo": false,
+          "comboIncludes": []
         },
         {
           "id": "qursan-kitchen-3",
@@ -2733,7 +3721,9 @@
               "name": "خبز إضافي",
               "price": 4
             }
-          ]
+          ],
+          "isCombo": false,
+          "comboIncludes": []
         },
         {
           "id": "qursan-kitchen-4",
@@ -2774,7 +3764,9 @@
               "name": "خبز إضافي",
               "price": 4
             }
-          ]
+          ],
+          "isCombo": false,
+          "comboIncludes": []
         },
         {
           "id": "qursan-kitchen-5",
@@ -2788,10 +3780,10 @@
           "protein": 24,
           "carbs": 48,
           "fat": 18,
-          "category": "offers",
+          "category": "menu",
           "isPopular": false,
-          "isOffer": true,
-          "offerPrice": 28,
+          "isOffer": false,
+          "offerPrice": null,
           "spicyOption": false,
           "cashbackPercent": 10,
           "addons": [
@@ -2815,7 +3807,9 @@
               "name": "خبز إضافي",
               "price": 4
             }
-          ]
+          ],
+          "isCombo": false,
+          "comboIncludes": []
         },
         {
           "id": "qursan-kitchen-6",
@@ -2856,7 +3850,9 @@
               "name": "خبز إضافي",
               "price": 4
             }
-          ]
+          ],
+          "isCombo": false,
+          "comboIncludes": []
         },
         {
           "id": "qursan-kitchen-7",
@@ -2897,7 +3893,9 @@
               "name": "خبز إضافي",
               "price": 4
             }
-          ]
+          ],
+          "isCombo": false,
+          "comboIncludes": []
         },
         {
           "id": "qursan-kitchen-8",
@@ -2938,7 +3936,9 @@
               "name": "خبز إضافي",
               "price": 4
             }
-          ]
+          ],
+          "isCombo": false,
+          "comboIncludes": []
         },
         {
           "id": "qursan-kitchen-9",
@@ -2979,7 +3979,9 @@
               "name": "خبز إضافي",
               "price": 4
             }
-          ]
+          ],
+          "isCombo": false,
+          "comboIncludes": []
         },
         {
           "id": "qursan-kitchen-10",
@@ -2997,6 +3999,152 @@
           "isPopular": false,
           "isOffer": false,
           "offerPrice": null,
+          "spicyOption": false,
+          "cashbackPercent": null,
+          "addons": [
+            {
+              "id": "fries",
+              "name": "بطاطس مقلية",
+              "price": 8
+            },
+            {
+              "id": "cola",
+              "name": "كولا",
+              "price": 6
+            },
+            {
+              "id": "sauce",
+              "name": "صلصة إضافية",
+              "price": 3
+            },
+            {
+              "id": "bread",
+              "name": "خبز إضافي",
+              "price": 4
+            }
+          ],
+          "isCombo": false,
+          "comboIncludes": []
+        },
+        {
+          "id": "qursan-kitchen-combo-1",
+          "restaurantId": "qursan-kitchen",
+          "name": "كومبو كبسة فردي",
+          "description": "كبسة دجاج مع سلطة ومشروب.",
+          "image": "https://images.unsplash.com/photo-1512058564366-18510be2db19?w=800&q=80",
+          "price": 48,
+          "rating": 4.6,
+          "calories": 950,
+          "protein": 40,
+          "carbs": 95,
+          "fat": 28,
+          "category": "offers",
+          "isPopular": false,
+          "isOffer": true,
+          "offerPrice": null,
+          "isCombo": true,
+          "comboIncludes": [
+            "كبسة دجاج",
+            "سلطة طحينة",
+            "تمر",
+            "مشروب"
+          ],
+          "spicyOption": false,
+          "cashbackPercent": null,
+          "addons": [
+            {
+              "id": "fries",
+              "name": "بطاطس مقلية",
+              "price": 8
+            },
+            {
+              "id": "cola",
+              "name": "كولا",
+              "price": 6
+            },
+            {
+              "id": "sauce",
+              "name": "صلصة إضافية",
+              "price": 3
+            },
+            {
+              "id": "bread",
+              "name": "خبز إضافي",
+              "price": 4
+            }
+          ]
+        },
+        {
+          "id": "qursan-kitchen-combo-2",
+          "restaurantId": "qursan-kitchen",
+          "name": "كومبو مندي عائلي",
+          "description": "مندي لحم تكفي العائلة مع إضافات.",
+          "image": "https://images.unsplash.com/photo-1544025162-d76694265947?w=800&q=80",
+          "price": 149,
+          "rating": 4.6,
+          "calories": 2200,
+          "protein": 110,
+          "carbs": 180,
+          "fat": 90,
+          "category": "offers",
+          "isPopular": false,
+          "isOffer": true,
+          "offerPrice": null,
+          "isCombo": true,
+          "comboIncludes": [
+            "مندي لحم",
+            "شوربة",
+            "سلطة",
+            "٢ مشروب"
+          ],
+          "spicyOption": false,
+          "cashbackPercent": null,
+          "addons": [
+            {
+              "id": "fries",
+              "name": "بطاطس مقلية",
+              "price": 8
+            },
+            {
+              "id": "cola",
+              "name": "كولا",
+              "price": 6
+            },
+            {
+              "id": "sauce",
+              "name": "صلصة إضافية",
+              "price": 3
+            },
+            {
+              "id": "bread",
+              "name": "خبز إضافي",
+              "price": 4
+            }
+          ]
+        },
+        {
+          "id": "qursan-kitchen-combo-3",
+          "restaurantId": "qursan-kitchen",
+          "name": "كومبو جريش وهريس",
+          "description": "أطباق نجدية كلاسيكية في باكدج واحد.",
+          "image": "https://images.unsplash.com/photo-1600891964599-f61ba0e24092?w=800&q=80",
+          "price": 45,
+          "rating": 4.6,
+          "calories": 820,
+          "protein": 28,
+          "carbs": 90,
+          "fat": 26,
+          "category": "offers",
+          "isPopular": false,
+          "isOffer": true,
+          "offerPrice": null,
+          "isCombo": true,
+          "comboIncludes": [
+            "جريش",
+            "هريس صغير",
+            "تمر",
+            "قهوة عربية"
+          ],
           "spicyOption": false,
           "cashbackPercent": null,
           "addons": [
@@ -3083,7 +4231,9 @@
               "name": "خبز إضافي",
               "price": 4
             }
-          ]
+          ],
+          "isCombo": false,
+          "comboIncludes": []
         },
         {
           "id": "madafa-aloud-2",
@@ -3124,7 +4274,9 @@
               "name": "خبز إضافي",
               "price": 4
             }
-          ]
+          ],
+          "isCombo": false,
+          "comboIncludes": []
         },
         {
           "id": "madafa-aloud-3",
@@ -3165,7 +4317,9 @@
               "name": "خبز إضافي",
               "price": 4
             }
-          ]
+          ],
+          "isCombo": false,
+          "comboIncludes": []
         },
         {
           "id": "madafa-aloud-4",
@@ -3179,10 +4333,10 @@
           "protein": 14,
           "carbs": 52,
           "fat": 16,
-          "category": "offers",
+          "category": "menu",
           "isPopular": false,
-          "isOffer": true,
-          "offerPrice": 27,
+          "isOffer": false,
+          "offerPrice": null,
           "spicyOption": false,
           "cashbackPercent": null,
           "addons": [
@@ -3206,7 +4360,9 @@
               "name": "خبز إضافي",
               "price": 4
             }
-          ]
+          ],
+          "isCombo": false,
+          "comboIncludes": []
         },
         {
           "id": "madafa-aloud-5",
@@ -3247,7 +4403,9 @@
               "name": "خبز إضافي",
               "price": 4
             }
-          ]
+          ],
+          "isCombo": false,
+          "comboIncludes": []
         },
         {
           "id": "madafa-aloud-6",
@@ -3288,7 +4446,9 @@
               "name": "خبز إضافي",
               "price": 4
             }
-          ]
+          ],
+          "isCombo": false,
+          "comboIncludes": []
         },
         {
           "id": "madafa-aloud-7",
@@ -3329,7 +4489,9 @@
               "name": "خبز إضافي",
               "price": 4
             }
-          ]
+          ],
+          "isCombo": false,
+          "comboIncludes": []
         },
         {
           "id": "madafa-aloud-8",
@@ -3370,7 +4532,9 @@
               "name": "خبز إضافي",
               "price": 4
             }
-          ]
+          ],
+          "isCombo": false,
+          "comboIncludes": []
         },
         {
           "id": "madafa-aloud-9",
@@ -3411,7 +4575,9 @@
               "name": "خبز إضافي",
               "price": 4
             }
-          ]
+          ],
+          "isCombo": false,
+          "comboIncludes": []
         },
         {
           "id": "madafa-aloud-10",
@@ -3429,6 +4595,152 @@
           "isPopular": false,
           "isOffer": false,
           "offerPrice": null,
+          "spicyOption": false,
+          "cashbackPercent": null,
+          "addons": [
+            {
+              "id": "fries",
+              "name": "بطاطس مقلية",
+              "price": 8
+            },
+            {
+              "id": "cola",
+              "name": "كولا",
+              "price": 6
+            },
+            {
+              "id": "sauce",
+              "name": "صلصة إضافية",
+              "price": 3
+            },
+            {
+              "id": "bread",
+              "name": "خبز إضافي",
+              "price": 4
+            }
+          ],
+          "isCombo": false,
+          "comboIncludes": []
+        },
+        {
+          "id": "madafa-aloud-combo-1",
+          "restaurantId": "madafa-aloud",
+          "name": "كومبو كبسة فردي",
+          "description": "كبسة دجاج مع سلطة ومشروب.",
+          "image": "https://images.unsplash.com/photo-1512058564366-18510be2db19?w=800&q=80",
+          "price": 48,
+          "rating": 4.6,
+          "calories": 950,
+          "protein": 40,
+          "carbs": 95,
+          "fat": 28,
+          "category": "offers",
+          "isPopular": false,
+          "isOffer": true,
+          "offerPrice": null,
+          "isCombo": true,
+          "comboIncludes": [
+            "كبسة دجاج",
+            "سلطة طحينة",
+            "تمر",
+            "مشروب"
+          ],
+          "spicyOption": false,
+          "cashbackPercent": null,
+          "addons": [
+            {
+              "id": "fries",
+              "name": "بطاطس مقلية",
+              "price": 8
+            },
+            {
+              "id": "cola",
+              "name": "كولا",
+              "price": 6
+            },
+            {
+              "id": "sauce",
+              "name": "صلصة إضافية",
+              "price": 3
+            },
+            {
+              "id": "bread",
+              "name": "خبز إضافي",
+              "price": 4
+            }
+          ]
+        },
+        {
+          "id": "madafa-aloud-combo-2",
+          "restaurantId": "madafa-aloud",
+          "name": "كومبو مندي عائلي",
+          "description": "مندي لحم تكفي العائلة مع إضافات.",
+          "image": "https://images.unsplash.com/photo-1544025162-d76694265947?w=800&q=80",
+          "price": 149,
+          "rating": 4.6,
+          "calories": 2200,
+          "protein": 110,
+          "carbs": 180,
+          "fat": 90,
+          "category": "offers",
+          "isPopular": false,
+          "isOffer": true,
+          "offerPrice": null,
+          "isCombo": true,
+          "comboIncludes": [
+            "مندي لحم",
+            "شوربة",
+            "سلطة",
+            "٢ مشروب"
+          ],
+          "spicyOption": false,
+          "cashbackPercent": null,
+          "addons": [
+            {
+              "id": "fries",
+              "name": "بطاطس مقلية",
+              "price": 8
+            },
+            {
+              "id": "cola",
+              "name": "كولا",
+              "price": 6
+            },
+            {
+              "id": "sauce",
+              "name": "صلصة إضافية",
+              "price": 3
+            },
+            {
+              "id": "bread",
+              "name": "خبز إضافي",
+              "price": 4
+            }
+          ]
+        },
+        {
+          "id": "madafa-aloud-combo-3",
+          "restaurantId": "madafa-aloud",
+          "name": "كومبو جريش وهريس",
+          "description": "أطباق نجدية كلاسيكية في باكدج واحد.",
+          "image": "https://images.unsplash.com/photo-1600891964599-f61ba0e24092?w=800&q=80",
+          "price": 45,
+          "rating": 4.6,
+          "calories": 820,
+          "protein": 28,
+          "carbs": 90,
+          "fat": 26,
+          "category": "offers",
+          "isPopular": false,
+          "isOffer": true,
+          "offerPrice": null,
+          "isCombo": true,
+          "comboIncludes": [
+            "جريش",
+            "هريس صغير",
+            "تمر",
+            "قهوة عربية"
+          ],
           "spicyOption": false,
           "cashbackPercent": null,
           "addons": [

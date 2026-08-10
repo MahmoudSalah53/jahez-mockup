@@ -58,7 +58,9 @@
               "name": "خبز إضافي",
               "price": 4
             }
-          ]
+          ],
+          "isCombo": false,
+          "comboIncludes": []
         },
         {
           "id": "fahm-night-2",
@@ -99,7 +101,9 @@
               "name": "خبز إضافي",
               "price": 4
             }
-          ]
+          ],
+          "isCombo": false,
+          "comboIncludes": []
         },
         {
           "id": "fahm-night-3",
@@ -140,7 +144,9 @@
               "name": "خبز إضافي",
               "price": 4
             }
-          ]
+          ],
+          "isCombo": false,
+          "comboIncludes": []
         },
         {
           "id": "fahm-night-4",
@@ -154,10 +160,10 @@
           "protein": 38,
           "carbs": 20,
           "fat": 36,
-          "category": "offers",
+          "category": "menu",
           "isPopular": false,
-          "isOffer": true,
-          "offerPrice": 44,
+          "isOffer": false,
+          "offerPrice": null,
           "spicyOption": true,
           "cashbackPercent": null,
           "addons": [
@@ -181,7 +187,9 @@
               "name": "خبز إضافي",
               "price": 4
             }
-          ]
+          ],
+          "isCombo": false,
+          "comboIncludes": []
         },
         {
           "id": "fahm-night-5",
@@ -222,7 +230,9 @@
               "name": "خبز إضافي",
               "price": 4
             }
-          ]
+          ],
+          "isCombo": false,
+          "comboIncludes": []
         },
         {
           "id": "fahm-night-6",
@@ -236,10 +246,10 @@
           "protein": 22,
           "carbs": 48,
           "fat": 24,
-          "category": "offers",
+          "category": "menu",
           "isPopular": false,
-          "isOffer": true,
-          "offerPrice": 34,
+          "isOffer": false,
+          "offerPrice": null,
           "spicyOption": false,
           "cashbackPercent": 15,
           "addons": [
@@ -263,7 +273,9 @@
               "name": "خبز إضافي",
               "price": 4
             }
-          ]
+          ],
+          "isCombo": false,
+          "comboIncludes": []
         },
         {
           "id": "fahm-night-7",
@@ -304,7 +316,9 @@
               "name": "خبز إضافي",
               "price": 4
             }
-          ]
+          ],
+          "isCombo": false,
+          "comboIncludes": []
         },
         {
           "id": "fahm-night-8",
@@ -345,7 +359,9 @@
               "name": "خبز إضافي",
               "price": 4
             }
-          ]
+          ],
+          "isCombo": false,
+          "comboIncludes": []
         },
         {
           "id": "fahm-night-9",
@@ -386,7 +402,9 @@
               "name": "خبز إضافي",
               "price": 4
             }
-          ]
+          ],
+          "isCombo": false,
+          "comboIncludes": []
         },
         {
           "id": "fahm-night-10",
@@ -400,12 +418,160 @@
           "protein": 30,
           "carbs": 70,
           "fat": 22,
+          "category": "menu",
+          "isPopular": false,
+          "isOffer": false,
+          "offerPrice": null,
+          "spicyOption": false,
+          "cashbackPercent": 15,
+          "addons": [
+            {
+              "id": "fries",
+              "name": "بطاطس مقلية",
+              "price": 8
+            },
+            {
+              "id": "cola",
+              "name": "كولا",
+              "price": 6
+            },
+            {
+              "id": "sauce",
+              "name": "صلصة إضافية",
+              "price": 3
+            },
+            {
+              "id": "bread",
+              "name": "خبز إضافي",
+              "price": 4
+            }
+          ],
+          "isCombo": false,
+          "comboIncludes": []
+        },
+        {
+          "id": "fahm-night-combo-1",
+          "restaurantId": "fahm-night",
+          "name": "كومبو مشاوي فردي",
+          "description": "وجبة كاملة: مشاوي مع أرز ومشروب.",
+          "image": "https://images.unsplash.com/photo-1555939594-58d7cb561ad1?w=800&q=80",
+          "price": 59,
+          "rating": 4.6,
+          "calories": 980,
+          "protein": 48,
+          "carbs": 85,
+          "fat": 38,
           "category": "offers",
           "isPopular": false,
           "isOffer": true,
-          "offerPrice": 36,
-          "spicyOption": false,
-          "cashbackPercent": 15,
+          "offerPrice": null,
+          "isCombo": true,
+          "comboIncludes": [
+            "شيش طاووق",
+            "أرز أبيض",
+            "سلطة",
+            "مشروب غازي"
+          ],
+          "spicyOption": true,
+          "cashbackPercent": null,
+          "addons": [
+            {
+              "id": "fries",
+              "name": "بطاطس مقلية",
+              "price": 8
+            },
+            {
+              "id": "cola",
+              "name": "كولا",
+              "price": 6
+            },
+            {
+              "id": "sauce",
+              "name": "صلصة إضافية",
+              "price": 3
+            },
+            {
+              "id": "bread",
+              "name": "خبز إضافي",
+              "price": 4
+            }
+          ]
+        },
+        {
+          "id": "fahm-night-combo-2",
+          "restaurantId": "fahm-night",
+          "name": "كومبو عائلي مشاوي",
+          "description": "تشكيلة مشاوي تكفي ٣–٤ أشخاص مع مقبلات.",
+          "image": "https://images.unsplash.com/photo-1529692236671-f1f6cf9683ba?w=800&q=80",
+          "price": 189,
+          "rating": 4.6,
+          "calories": 2400,
+          "protein": 120,
+          "carbs": 180,
+          "fat": 110,
+          "category": "offers",
+          "isPopular": false,
+          "isOffer": true,
+          "offerPrice": null,
+          "isCombo": true,
+          "comboIncludes": [
+            "مشكل مشاوي",
+            "حمص",
+            "خبز",
+            "بطاطس",
+            "٢ مشروب"
+          ],
+          "spicyOption": true,
+          "cashbackPercent": null,
+          "addons": [
+            {
+              "id": "fries",
+              "name": "بطاطس مقلية",
+              "price": 8
+            },
+            {
+              "id": "cola",
+              "name": "كولا",
+              "price": 6
+            },
+            {
+              "id": "sauce",
+              "name": "صلصة إضافية",
+              "price": 3
+            },
+            {
+              "id": "bread",
+              "name": "خبز إضافي",
+              "price": 4
+            }
+          ]
+        },
+        {
+          "id": "fahm-night-combo-3",
+          "restaurantId": "fahm-night",
+          "name": "كومبو كباب كامل",
+          "description": "كباب لحم مع أرز ومقبلات ومشروب.",
+          "image": "https://images.unsplash.com/photo-1603360946369-dc9bb6258143?w=800&q=80",
+          "price": 72,
+          "rating": 4.6,
+          "calories": 1100,
+          "protein": 52,
+          "carbs": 90,
+          "fat": 45,
+          "category": "offers",
+          "isPopular": false,
+          "isOffer": true,
+          "offerPrice": null,
+          "isCombo": true,
+          "comboIncludes": [
+            "كباب لحم",
+            "أرز بخاري",
+            "طحينة",
+            "مخلل",
+            "كولا"
+          ],
+          "spicyOption": true,
+          "cashbackPercent": null,
           "addons": [
             {
               "id": "fries",
@@ -489,7 +655,9 @@
               "name": "خبز إضافي",
               "price": 4
             }
-          ]
+          ],
+          "isCombo": false,
+          "comboIncludes": []
         },
         {
           "id": "skewer-club-2",
@@ -530,7 +698,9 @@
               "name": "خبز إضافي",
               "price": 4
             }
-          ]
+          ],
+          "isCombo": false,
+          "comboIncludes": []
         },
         {
           "id": "skewer-club-3",
@@ -571,7 +741,9 @@
               "name": "خبز إضافي",
               "price": 4
             }
-          ]
+          ],
+          "isCombo": false,
+          "comboIncludes": []
         },
         {
           "id": "skewer-club-4",
@@ -612,7 +784,9 @@
               "name": "خبز إضافي",
               "price": 4
             }
-          ]
+          ],
+          "isCombo": false,
+          "comboIncludes": []
         },
         {
           "id": "skewer-club-5",
@@ -626,10 +800,10 @@
           "protein": 55,
           "carbs": 8,
           "fat": 48,
-          "category": "offers",
+          "category": "menu",
           "isPopular": false,
-          "isOffer": true,
-          "offerPrice": 50,
+          "isOffer": false,
+          "offerPrice": null,
           "spicyOption": true,
           "cashbackPercent": 15,
           "addons": [
@@ -653,7 +827,9 @@
               "name": "خبز إضافي",
               "price": 4
             }
-          ]
+          ],
+          "isCombo": false,
+          "comboIncludes": []
         },
         {
           "id": "skewer-club-6",
@@ -667,10 +843,10 @@
           "protein": 22,
           "carbs": 48,
           "fat": 24,
-          "category": "offers",
+          "category": "menu",
           "isPopular": false,
-          "isOffer": true,
-          "offerPrice": 29,
+          "isOffer": false,
+          "offerPrice": null,
           "spicyOption": false,
           "cashbackPercent": null,
           "addons": [
@@ -694,7 +870,9 @@
               "name": "خبز إضافي",
               "price": 4
             }
-          ]
+          ],
+          "isCombo": false,
+          "comboIncludes": []
         },
         {
           "id": "skewer-club-7",
@@ -735,7 +913,9 @@
               "name": "خبز إضافي",
               "price": 4
             }
-          ]
+          ],
+          "isCombo": false,
+          "comboIncludes": []
         },
         {
           "id": "skewer-club-8",
@@ -749,10 +929,146 @@
           "protein": 32,
           "carbs": 8,
           "fat": 22,
+          "category": "menu",
+          "isPopular": false,
+          "isOffer": false,
+          "offerPrice": null,
+          "spicyOption": true,
+          "cashbackPercent": null,
+          "addons": [
+            {
+              "id": "fries",
+              "name": "بطاطس مقلية",
+              "price": 8
+            },
+            {
+              "id": "cola",
+              "name": "كولا",
+              "price": 6
+            },
+            {
+              "id": "sauce",
+              "name": "صلصة إضافية",
+              "price": 3
+            },
+            {
+              "id": "bread",
+              "name": "خبز إضافي",
+              "price": 4
+            }
+          ],
+          "isCombo": false,
+          "comboIncludes": []
+        },
+        {
+          "id": "skewer-club-9",
+          "restaurantId": "skewer-club",
+          "name": "صينية مشاوي عائلية",
+          "description": "تشكيلة كبيرة تكفي ٤ أشخاص.",
+          "image": "https://images.unsplash.com/photo-1513104890138-7c749659a591?w=800&q=80",
+          "price": 149,
+          "rating": 4.2,
+          "calories": 1600,
+          "protein": 95,
+          "carbs": 90,
+          "fat": 85,
+          "category": "menu",
+          "isPopular": false,
+          "isOffer": false,
+          "offerPrice": null,
+          "spicyOption": true,
+          "cashbackPercent": 10,
+          "addons": [
+            {
+              "id": "fries",
+              "name": "بطاطس مقلية",
+              "price": 8
+            },
+            {
+              "id": "cola",
+              "name": "كولا",
+              "price": 6
+            },
+            {
+              "id": "sauce",
+              "name": "صلصة إضافية",
+              "price": 3
+            },
+            {
+              "id": "bread",
+              "name": "خبز إضافي",
+              "price": 4
+            }
+          ],
+          "isCombo": false,
+          "comboIncludes": []
+        },
+        {
+          "id": "skewer-club-10",
+          "restaurantId": "skewer-club",
+          "name": "أرز باللحم",
+          "description": "أرز بخاري مع قطع لحم طرية.",
+          "image": "https://images.unsplash.com/photo-1529006557810-274b9b2fc783?w=800&q=80",
+          "price": 44,
+          "rating": 4.3,
+          "calories": 680,
+          "protein": 30,
+          "carbs": 70,
+          "fat": 22,
+          "category": "menu",
+          "isPopular": false,
+          "isOffer": false,
+          "offerPrice": null,
+          "spicyOption": false,
+          "cashbackPercent": null,
+          "addons": [
+            {
+              "id": "fries",
+              "name": "بطاطس مقلية",
+              "price": 8
+            },
+            {
+              "id": "cola",
+              "name": "كولا",
+              "price": 6
+            },
+            {
+              "id": "sauce",
+              "name": "صلصة إضافية",
+              "price": 3
+            },
+            {
+              "id": "bread",
+              "name": "خبز إضافي",
+              "price": 4
+            }
+          ],
+          "isCombo": false,
+          "comboIncludes": []
+        },
+        {
+          "id": "skewer-club-combo-1",
+          "restaurantId": "skewer-club",
+          "name": "كومبو مشاوي فردي",
+          "description": "وجبة كاملة: مشاوي مع أرز ومشروب.",
+          "image": "https://images.unsplash.com/photo-1555939594-58d7cb561ad1?w=800&q=80",
+          "price": 59,
+          "rating": 4.6,
+          "calories": 980,
+          "protein": 48,
+          "carbs": 85,
+          "fat": 38,
           "category": "offers",
           "isPopular": false,
           "isOffer": true,
-          "offerPrice": 29,
+          "offerPrice": null,
+          "isCombo": true,
+          "comboIncludes": [
+            "شيش طاووق",
+            "أرز أبيض",
+            "سلطة",
+            "مشروب غازي"
+          ],
           "spicyOption": true,
           "cashbackPercent": null,
           "addons": [
@@ -779,23 +1095,31 @@
           ]
         },
         {
-          "id": "skewer-club-9",
+          "id": "skewer-club-combo-2",
           "restaurantId": "skewer-club",
-          "name": "صينية مشاوي عائلية",
-          "description": "تشكيلة كبيرة تكفي ٤ أشخاص.",
-          "image": "https://images.unsplash.com/photo-1513104890138-7c749659a591?w=800&q=80",
-          "price": 149,
-          "rating": 4.2,
-          "calories": 1600,
-          "protein": 95,
-          "carbs": 90,
-          "fat": 85,
+          "name": "كومبو عائلي مشاوي",
+          "description": "تشكيلة مشاوي تكفي ٣–٤ أشخاص مع مقبلات.",
+          "image": "https://images.unsplash.com/photo-1529692236671-f1f6cf9683ba?w=800&q=80",
+          "price": 189,
+          "rating": 4.6,
+          "calories": 2400,
+          "protein": 120,
+          "carbs": 180,
+          "fat": 110,
           "category": "offers",
           "isPopular": false,
           "isOffer": true,
-          "offerPrice": 114,
+          "offerPrice": null,
+          "isCombo": true,
+          "comboIncludes": [
+            "مشكل مشاوي",
+            "حمص",
+            "خبز",
+            "بطاطس",
+            "٢ مشروب"
+          ],
           "spicyOption": true,
-          "cashbackPercent": 10,
+          "cashbackPercent": null,
           "addons": [
             {
               "id": "fries",
@@ -820,22 +1144,30 @@
           ]
         },
         {
-          "id": "skewer-club-10",
+          "id": "skewer-club-combo-3",
           "restaurantId": "skewer-club",
-          "name": "أرز باللحم",
-          "description": "أرز بخاري مع قطع لحم طرية.",
-          "image": "https://images.unsplash.com/photo-1529006557810-274b9b2fc783?w=800&q=80",
-          "price": 44,
-          "rating": 4.3,
-          "calories": 680,
-          "protein": 30,
-          "carbs": 70,
-          "fat": 22,
-          "category": "menu",
+          "name": "كومبو كباب كامل",
+          "description": "كباب لحم مع أرز ومقبلات ومشروب.",
+          "image": "https://images.unsplash.com/photo-1603360946369-dc9bb6258143?w=800&q=80",
+          "price": 72,
+          "rating": 4.6,
+          "calories": 1100,
+          "protein": 52,
+          "carbs": 90,
+          "fat": 45,
+          "category": "offers",
           "isPopular": false,
-          "isOffer": false,
+          "isOffer": true,
           "offerPrice": null,
-          "spicyOption": false,
+          "isCombo": true,
+          "comboIncludes": [
+            "كباب لحم",
+            "أرز بخاري",
+            "طحينة",
+            "مخلل",
+            "كولا"
+          ],
+          "spicyOption": true,
           "cashbackPercent": null,
           "addons": [
             {
@@ -893,10 +1225,10 @@
           "protein": 50,
           "carbs": 58,
           "fat": 40,
-          "category": "offers",
+          "category": "menu",
           "isPopular": false,
-          "isOffer": true,
-          "offerPrice": 60,
+          "isOffer": false,
+          "offerPrice": null,
           "spicyOption": true,
           "cashbackPercent": null,
           "addons": [
@@ -920,7 +1252,9 @@
               "name": "خبز إضافي",
               "price": 4
             }
-          ]
+          ],
+          "isCombo": false,
+          "comboIncludes": []
         },
         {
           "id": "charcoal-yard-2",
@@ -961,7 +1295,9 @@
               "name": "خبز إضافي",
               "price": 4
             }
-          ]
+          ],
+          "isCombo": false,
+          "comboIncludes": []
         },
         {
           "id": "charcoal-yard-3",
@@ -975,10 +1311,10 @@
           "protein": 42,
           "carbs": 18,
           "fat": 22,
-          "category": "offers",
+          "category": "menu",
           "isPopular": false,
-          "isOffer": true,
-          "offerPrice": 39,
+          "isOffer": false,
+          "offerPrice": null,
           "spicyOption": true,
           "cashbackPercent": 10,
           "addons": [
@@ -1002,7 +1338,9 @@
               "name": "خبز إضافي",
               "price": 4
             }
-          ]
+          ],
+          "isCombo": false,
+          "comboIncludes": []
         },
         {
           "id": "charcoal-yard-4",
@@ -1016,10 +1354,10 @@
           "protein": 38,
           "carbs": 20,
           "fat": 36,
-          "category": "offers",
+          "category": "menu",
           "isPopular": false,
-          "isOffer": true,
-          "offerPrice": 47,
+          "isOffer": false,
+          "offerPrice": null,
           "spicyOption": true,
           "cashbackPercent": 5,
           "addons": [
@@ -1043,7 +1381,9 @@
               "name": "خبز إضافي",
               "price": 4
             }
-          ]
+          ],
+          "isCombo": false,
+          "comboIncludes": []
         },
         {
           "id": "charcoal-yard-5",
@@ -1084,7 +1424,9 @@
               "name": "خبز إضافي",
               "price": 4
             }
-          ]
+          ],
+          "isCombo": false,
+          "comboIncludes": []
         },
         {
           "id": "charcoal-yard-6",
@@ -1098,10 +1440,10 @@
           "protein": 22,
           "carbs": 48,
           "fat": 24,
-          "category": "offers",
+          "category": "menu",
           "isPopular": false,
-          "isOffer": true,
-          "offerPrice": 32,
+          "isOffer": false,
+          "offerPrice": null,
           "spicyOption": false,
           "cashbackPercent": null,
           "addons": [
@@ -1125,7 +1467,9 @@
               "name": "خبز إضافي",
               "price": 4
             }
-          ]
+          ],
+          "isCombo": false,
+          "comboIncludes": []
         },
         {
           "id": "charcoal-yard-7",
@@ -1166,7 +1510,9 @@
               "name": "خبز إضافي",
               "price": 4
             }
-          ]
+          ],
+          "isCombo": false,
+          "comboIncludes": []
         },
         {
           "id": "charcoal-yard-8",
@@ -1207,7 +1553,9 @@
               "name": "خبز إضافي",
               "price": 4
             }
-          ]
+          ],
+          "isCombo": false,
+          "comboIncludes": []
         },
         {
           "id": "charcoal-yard-9",
@@ -1248,7 +1596,9 @@
               "name": "خبز إضافي",
               "price": 4
             }
-          ]
+          ],
+          "isCombo": false,
+          "comboIncludes": []
         },
         {
           "id": "charcoal-yard-10",
@@ -1267,6 +1617,154 @@
           "isOffer": false,
           "offerPrice": null,
           "spicyOption": false,
+          "cashbackPercent": null,
+          "addons": [
+            {
+              "id": "fries",
+              "name": "بطاطس مقلية",
+              "price": 8
+            },
+            {
+              "id": "cola",
+              "name": "كولا",
+              "price": 6
+            },
+            {
+              "id": "sauce",
+              "name": "صلصة إضافية",
+              "price": 3
+            },
+            {
+              "id": "bread",
+              "name": "خبز إضافي",
+              "price": 4
+            }
+          ],
+          "isCombo": false,
+          "comboIncludes": []
+        },
+        {
+          "id": "charcoal-yard-combo-1",
+          "restaurantId": "charcoal-yard",
+          "name": "كومبو مشاوي فردي",
+          "description": "وجبة كاملة: مشاوي مع أرز ومشروب.",
+          "image": "https://images.unsplash.com/photo-1555939594-58d7cb561ad1?w=800&q=80",
+          "price": 59,
+          "rating": 4.6,
+          "calories": 980,
+          "protein": 48,
+          "carbs": 85,
+          "fat": 38,
+          "category": "offers",
+          "isPopular": false,
+          "isOffer": true,
+          "offerPrice": null,
+          "isCombo": true,
+          "comboIncludes": [
+            "شيش طاووق",
+            "أرز أبيض",
+            "سلطة",
+            "مشروب غازي"
+          ],
+          "spicyOption": true,
+          "cashbackPercent": null,
+          "addons": [
+            {
+              "id": "fries",
+              "name": "بطاطس مقلية",
+              "price": 8
+            },
+            {
+              "id": "cola",
+              "name": "كولا",
+              "price": 6
+            },
+            {
+              "id": "sauce",
+              "name": "صلصة إضافية",
+              "price": 3
+            },
+            {
+              "id": "bread",
+              "name": "خبز إضافي",
+              "price": 4
+            }
+          ]
+        },
+        {
+          "id": "charcoal-yard-combo-2",
+          "restaurantId": "charcoal-yard",
+          "name": "كومبو عائلي مشاوي",
+          "description": "تشكيلة مشاوي تكفي ٣–٤ أشخاص مع مقبلات.",
+          "image": "https://images.unsplash.com/photo-1529692236671-f1f6cf9683ba?w=800&q=80",
+          "price": 189,
+          "rating": 4.6,
+          "calories": 2400,
+          "protein": 120,
+          "carbs": 180,
+          "fat": 110,
+          "category": "offers",
+          "isPopular": false,
+          "isOffer": true,
+          "offerPrice": null,
+          "isCombo": true,
+          "comboIncludes": [
+            "مشكل مشاوي",
+            "حمص",
+            "خبز",
+            "بطاطس",
+            "٢ مشروب"
+          ],
+          "spicyOption": true,
+          "cashbackPercent": null,
+          "addons": [
+            {
+              "id": "fries",
+              "name": "بطاطس مقلية",
+              "price": 8
+            },
+            {
+              "id": "cola",
+              "name": "كولا",
+              "price": 6
+            },
+            {
+              "id": "sauce",
+              "name": "صلصة إضافية",
+              "price": 3
+            },
+            {
+              "id": "bread",
+              "name": "خبز إضافي",
+              "price": 4
+            }
+          ]
+        },
+        {
+          "id": "charcoal-yard-combo-3",
+          "restaurantId": "charcoal-yard",
+          "name": "كومبو كباب كامل",
+          "description": "كباب لحم مع أرز ومقبلات ومشروب.",
+          "image": "https://images.unsplash.com/photo-1603360946369-dc9bb6258143?w=800&q=80",
+          "price": 72,
+          "rating": 4.6,
+          "calories": 1100,
+          "protein": 52,
+          "carbs": 90,
+          "fat": 45,
+          "category": "offers",
+          "isPopular": false,
+          "isOffer": true,
+          "offerPrice": null,
+          "isCombo": true,
+          "comboIncludes": [
+            "كباب لحم",
+            "أرز بخاري",
+            "طحينة",
+            "مخلل",
+            "كولا"
+          ],
+          "spicyOption": true,
           "cashbackPercent": null,
           "addons": [
             {
@@ -1351,7 +1849,9 @@
               "name": "خبز إضافي",
               "price": 4
             }
-          ]
+          ],
+          "isCombo": false,
+          "comboIncludes": []
         },
         {
           "id": "meat-square-2",
@@ -1365,10 +1865,10 @@
           "protein": 54,
           "carbs": 10,
           "fat": 50,
-          "category": "offers",
+          "category": "menu",
           "isPopular": false,
-          "isOffer": true,
-          "offerPrice": 74,
+          "isOffer": false,
+          "offerPrice": null,
           "spicyOption": true,
           "cashbackPercent": null,
           "addons": [
@@ -1392,7 +1892,9 @@
               "name": "خبز إضافي",
               "price": 4
             }
-          ]
+          ],
+          "isCombo": false,
+          "comboIncludes": []
         },
         {
           "id": "meat-square-3",
@@ -1433,7 +1935,9 @@
               "name": "خبز إضافي",
               "price": 4
             }
-          ]
+          ],
+          "isCombo": false,
+          "comboIncludes": []
         },
         {
           "id": "meat-square-4",
@@ -1447,10 +1951,10 @@
           "protein": 38,
           "carbs": 20,
           "fat": 36,
-          "category": "offers",
+          "category": "menu",
           "isPopular": false,
-          "isOffer": true,
-          "offerPrice": 48,
+          "isOffer": false,
+          "offerPrice": null,
           "spicyOption": true,
           "cashbackPercent": 15,
           "addons": [
@@ -1474,7 +1978,9 @@
               "name": "خبز إضافي",
               "price": 4
             }
-          ]
+          ],
+          "isCombo": false,
+          "comboIncludes": []
         },
         {
           "id": "meat-square-5",
@@ -1515,7 +2021,9 @@
               "name": "خبز إضافي",
               "price": 4
             }
-          ]
+          ],
+          "isCombo": false,
+          "comboIncludes": []
         },
         {
           "id": "meat-square-6",
@@ -1556,7 +2064,9 @@
               "name": "خبز إضافي",
               "price": 4
             }
-          ]
+          ],
+          "isCombo": false,
+          "comboIncludes": []
         },
         {
           "id": "meat-square-7",
@@ -1597,7 +2107,9 @@
               "name": "خبز إضافي",
               "price": 4
             }
-          ]
+          ],
+          "isCombo": false,
+          "comboIncludes": []
         },
         {
           "id": "meat-square-8",
@@ -1638,7 +2150,9 @@
               "name": "خبز إضافي",
               "price": 4
             }
-          ]
+          ],
+          "isCombo": false,
+          "comboIncludes": []
         },
         {
           "id": "meat-square-9",
@@ -1652,12 +2166,105 @@
           "protein": 95,
           "carbs": 90,
           "fat": 85,
+          "category": "menu",
+          "isPopular": false,
+          "isOffer": false,
+          "offerPrice": null,
+          "spicyOption": true,
+          "cashbackPercent": 15,
+          "addons": [
+            {
+              "id": "fries",
+              "name": "بطاطس مقلية",
+              "price": 8
+            },
+            {
+              "id": "cola",
+              "name": "كولا",
+              "price": 6
+            },
+            {
+              "id": "sauce",
+              "name": "صلصة إضافية",
+              "price": 3
+            },
+            {
+              "id": "bread",
+              "name": "خبز إضافي",
+              "price": 4
+            }
+          ],
+          "isCombo": false,
+          "comboIncludes": []
+        },
+        {
+          "id": "meat-square-10",
+          "restaurantId": "meat-square",
+          "name": "أرز باللحم",
+          "description": "أرز بخاري مع قطع لحم طرية.",
+          "image": "https://images.unsplash.com/photo-1600891964599-f61ba0e24092?w=800&q=80",
+          "price": 44,
+          "rating": 4.5,
+          "calories": 680,
+          "protein": 30,
+          "carbs": 70,
+          "fat": 22,
+          "category": "menu",
+          "isPopular": false,
+          "isOffer": false,
+          "offerPrice": null,
+          "spicyOption": false,
+          "cashbackPercent": 5,
+          "addons": [
+            {
+              "id": "fries",
+              "name": "بطاطس مقلية",
+              "price": 8
+            },
+            {
+              "id": "cola",
+              "name": "كولا",
+              "price": 6
+            },
+            {
+              "id": "sauce",
+              "name": "صلصة إضافية",
+              "price": 3
+            },
+            {
+              "id": "bread",
+              "name": "خبز إضافي",
+              "price": 4
+            }
+          ],
+          "isCombo": false,
+          "comboIncludes": []
+        },
+        {
+          "id": "meat-square-combo-1",
+          "restaurantId": "meat-square",
+          "name": "كومبو مشاوي فردي",
+          "description": "وجبة كاملة: مشاوي مع أرز ومشروب.",
+          "image": "https://images.unsplash.com/photo-1555939594-58d7cb561ad1?w=800&q=80",
+          "price": 59,
+          "rating": 4.6,
+          "calories": 980,
+          "protein": 48,
+          "carbs": 85,
+          "fat": 38,
           "category": "offers",
           "isPopular": false,
           "isOffer": true,
-          "offerPrice": 127,
+          "offerPrice": null,
+          "isCombo": true,
+          "comboIncludes": [
+            "شيش طاووق",
+            "أرز أبيض",
+            "سلطة",
+            "مشروب غازي"
+          ],
           "spicyOption": true,
-          "cashbackPercent": 15,
+          "cashbackPercent": null,
           "addons": [
             {
               "id": "fries",
@@ -1682,23 +2289,80 @@
           ]
         },
         {
-          "id": "meat-square-10",
+          "id": "meat-square-combo-2",
           "restaurantId": "meat-square",
-          "name": "أرز باللحم",
-          "description": "أرز بخاري مع قطع لحم طرية.",
-          "image": "https://images.unsplash.com/photo-1600891964599-f61ba0e24092?w=800&q=80",
-          "price": 44,
-          "rating": 4.5,
-          "calories": 680,
-          "protein": 30,
-          "carbs": 70,
-          "fat": 22,
+          "name": "كومبو عائلي مشاوي",
+          "description": "تشكيلة مشاوي تكفي ٣–٤ أشخاص مع مقبلات.",
+          "image": "https://images.unsplash.com/photo-1529692236671-f1f6cf9683ba?w=800&q=80",
+          "price": 189,
+          "rating": 4.6,
+          "calories": 2400,
+          "protein": 120,
+          "carbs": 180,
+          "fat": 110,
           "category": "offers",
           "isPopular": false,
           "isOffer": true,
-          "offerPrice": 40,
-          "spicyOption": false,
-          "cashbackPercent": 5,
+          "offerPrice": null,
+          "isCombo": true,
+          "comboIncludes": [
+            "مشكل مشاوي",
+            "حمص",
+            "خبز",
+            "بطاطس",
+            "٢ مشروب"
+          ],
+          "spicyOption": true,
+          "cashbackPercent": null,
+          "addons": [
+            {
+              "id": "fries",
+              "name": "بطاطس مقلية",
+              "price": 8
+            },
+            {
+              "id": "cola",
+              "name": "كولا",
+              "price": 6
+            },
+            {
+              "id": "sauce",
+              "name": "صلصة إضافية",
+              "price": 3
+            },
+            {
+              "id": "bread",
+              "name": "خبز إضافي",
+              "price": 4
+            }
+          ]
+        },
+        {
+          "id": "meat-square-combo-3",
+          "restaurantId": "meat-square",
+          "name": "كومبو كباب كامل",
+          "description": "كباب لحم مع أرز ومقبلات ومشروب.",
+          "image": "https://images.unsplash.com/photo-1603360946369-dc9bb6258143?w=800&q=80",
+          "price": 72,
+          "rating": 4.6,
+          "calories": 1100,
+          "protein": 52,
+          "carbs": 90,
+          "fat": 45,
+          "category": "offers",
+          "isPopular": false,
+          "isOffer": true,
+          "offerPrice": null,
+          "isCombo": true,
+          "comboIncludes": [
+            "كباب لحم",
+            "أرز بخاري",
+            "طحينة",
+            "مخلل",
+            "كولا"
+          ],
+          "spicyOption": true,
+          "cashbackPercent": null,
           "addons": [
             {
               "id": "fries",

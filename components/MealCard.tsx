@@ -13,7 +13,7 @@ type Props = {
 /** Desktop marketplace dish card — not used on mobile list UI */
 export function MealCard({ meal, restaurantName, href }: Props) {
   const price = getMealPrice(meal);
-  const hasOffer = meal.isOffer && meal.offerPrice != null;
+  const isCombo = meal.isCombo || meal.isOffer;
 
   return (
     <Link
@@ -28,18 +28,13 @@ export function MealCard({ meal, restaurantName, href }: Props) {
           sizes="(max-width: 1024px) 33vw, 25vw"
           className="object-cover transition duration-500 group-hover:scale-105"
         />
-        {hasOffer && (
+        {isCombo && (
           <span className="absolute start-3 top-3 rounded-full bg-accent px-2.5 py-1 text-xs font-bold text-white shadow">
-            عرض
+            كومبو
           </span>
         )}
         <div className="absolute inset-x-0 bottom-0 bg-gradient-to-t from-black/70 to-transparent p-3 pt-10">
           <p className="text-lg font-bold text-white">{formatPrice(price)}</p>
-          {hasOffer ? (
-            <p className="text-xs text-white/70 line-through">
-              {formatPrice(meal.price)}
-            </p>
-          ) : null}
         </div>
       </div>
       <div className="flex flex-1 flex-col p-4">
@@ -49,9 +44,15 @@ export function MealCard({ meal, restaurantName, href }: Props) {
         {restaurantName ? (
           <p className="mt-1 truncate text-sm text-muted">{restaurantName}</p>
         ) : null}
-        <p className="mt-2 line-clamp-2 text-sm leading-relaxed text-muted">
-          {meal.description}
-        </p>
+        {isCombo && meal.comboIncludes?.length ? (
+          <p className="mt-2 line-clamp-2 text-sm leading-relaxed text-muted">
+            يشمل: {meal.comboIncludes.join(" · ")}
+          </p>
+        ) : (
+          <p className="mt-2 line-clamp-2 text-sm leading-relaxed text-muted">
+            {meal.description}
+          </p>
+        )}
         <div className="mt-auto flex items-center gap-1 pt-3 text-xs font-semibold text-foreground">
           <span className="text-star">★</span>
           {meal.rating.toFixed(1)}

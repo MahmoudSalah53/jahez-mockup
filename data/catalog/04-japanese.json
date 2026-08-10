@@ -58,7 +58,9 @@
               "name": "خبز إضافي",
               "price": 4
             }
-          ]
+          ],
+          "isCombo": false,
+          "comboIncludes": []
         },
         {
           "id": "tokyo-bite-2",
@@ -99,7 +101,9 @@
               "name": "خبز إضافي",
               "price": 4
             }
-          ]
+          ],
+          "isCombo": false,
+          "comboIncludes": []
         },
         {
           "id": "tokyo-bite-3",
@@ -140,7 +144,9 @@
               "name": "خبز إضافي",
               "price": 4
             }
-          ]
+          ],
+          "isCombo": false,
+          "comboIncludes": []
         },
         {
           "id": "tokyo-bite-4",
@@ -181,7 +187,9 @@
               "name": "خبز إضافي",
               "price": 4
             }
-          ]
+          ],
+          "isCombo": false,
+          "comboIncludes": []
         },
         {
           "id": "tokyo-bite-5",
@@ -222,7 +230,9 @@
               "name": "خبز إضافي",
               "price": 4
             }
-          ]
+          ],
+          "isCombo": false,
+          "comboIncludes": []
         },
         {
           "id": "tokyo-bite-6",
@@ -263,7 +273,9 @@
               "name": "خبز إضافي",
               "price": 4
             }
-          ]
+          ],
+          "isCombo": false,
+          "comboIncludes": []
         },
         {
           "id": "tokyo-bite-7",
@@ -304,7 +316,9 @@
               "name": "خبز إضافي",
               "price": 4
             }
-          ]
+          ],
+          "isCombo": false,
+          "comboIncludes": []
         },
         {
           "id": "tokyo-bite-8",
@@ -345,7 +359,9 @@
               "name": "خبز إضافي",
               "price": 4
             }
-          ]
+          ],
+          "isCombo": false,
+          "comboIncludes": []
         },
         {
           "id": "tokyo-bite-9",
@@ -386,7 +402,9 @@
               "name": "خبز إضافي",
               "price": 4
             }
-          ]
+          ],
+          "isCombo": false,
+          "comboIncludes": []
         },
         {
           "id": "tokyo-bite-10",
@@ -400,12 +418,158 @@
           "protein": 4,
           "carbs": 36,
           "fat": 10,
+          "category": "menu",
+          "isPopular": false,
+          "isOffer": false,
+          "offerPrice": null,
+          "spicyOption": false,
+          "cashbackPercent": 5,
+          "addons": [
+            {
+              "id": "fries",
+              "name": "بطاطس مقلية",
+              "price": 8
+            },
+            {
+              "id": "cola",
+              "name": "كولا",
+              "price": 6
+            },
+            {
+              "id": "sauce",
+              "name": "صلصة إضافية",
+              "price": 3
+            },
+            {
+              "id": "bread",
+              "name": "خبز إضافي",
+              "price": 4
+            }
+          ],
+          "isCombo": false,
+          "comboIncludes": []
+        },
+        {
+          "id": "tokyo-bite-combo-1",
+          "restaurantId": "tokyo-bite",
+          "name": "كومبو سوشي للمبتدئين",
+          "description": "رولز مع ميسو ومشروب.",
+          "image": "https://images.unsplash.com/photo-1579584425555-c3ce17fd4351?w=800&q=80",
+          "price": 78,
+          "rating": 4.6,
+          "calories": 720,
+          "protein": 34,
+          "carbs": 82,
+          "fat": 22,
           "category": "offers",
           "isPopular": false,
           "isOffer": true,
-          "offerPrice": 19,
+          "offerPrice": null,
+          "isCombo": true,
+          "comboIncludes": [
+            "رول كاليفورنيا",
+            "سوشي سالمون ×٤",
+            "شوربة ميسو",
+            "شاي أخضر"
+          ],
           "spicyOption": false,
-          "cashbackPercent": 5,
+          "cashbackPercent": null,
+          "addons": [
+            {
+              "id": "fries",
+              "name": "بطاطس مقلية",
+              "price": 8
+            },
+            {
+              "id": "cola",
+              "name": "كولا",
+              "price": 6
+            },
+            {
+              "id": "sauce",
+              "name": "صلصة إضافية",
+              "price": 3
+            },
+            {
+              "id": "bread",
+              "name": "خبز إضافي",
+              "price": 4
+            }
+          ]
+        },
+        {
+          "id": "tokyo-bite-combo-2",
+          "restaurantId": "tokyo-bite",
+          "name": "كومبو رامن وجبة",
+          "description": "رامن مع جيوزا ومشروب.",
+          "image": "https://images.unsplash.com/photo-1553621042-f6e147245754?w=800&q=80",
+          "price": 68,
+          "rating": 4.6,
+          "calories": 980,
+          "protein": 38,
+          "carbs": 95,
+          "fat": 32,
+          "category": "offers",
+          "isPopular": false,
+          "isOffer": true,
+          "offerPrice": null,
+          "isCombo": true,
+          "comboIncludes": [
+            "رامن",
+            "جيوزا ×٤",
+            "إدامامي",
+            "مشروب"
+          ],
+          "spicyOption": false,
+          "cashbackPercent": null,
+          "addons": [
+            {
+              "id": "fries",
+              "name": "بطاطس مقلية",
+              "price": 8
+            },
+            {
+              "id": "cola",
+              "name": "كولا",
+              "price": 6
+            },
+            {
+              "id": "sauce",
+              "name": "صلصة إضافية",
+              "price": 3
+            },
+            {
+              "id": "bread",
+              "name": "خبز إضافي",
+              "price": 4
+            }
+          ]
+        },
+        {
+          "id": "tokyo-bite-combo-3",
+          "restaurantId": "tokyo-bite",
+          "name": "كومبو ترياكي كامل",
+          "description": "دجاج ترياكي مع أرز وسلطة.",
+          "image": "https://images.unsplash.com/photo-1611143669185-af224c5e3252?w=800&q=80",
+          "price": 58,
+          "rating": 4.6,
+          "calories": 860,
+          "protein": 40,
+          "carbs": 88,
+          "fat": 20,
+          "category": "offers",
+          "isPopular": false,
+          "isOffer": true,
+          "offerPrice": null,
+          "isCombo": true,
+          "comboIncludes": [
+            "دجاج ترياكي",
+            "أرز ياباني",
+            "سلطة سي ويد",
+            "مشروب"
+          ],
+          "spicyOption": false,
+          "cashbackPercent": null,
           "addons": [
             {
               "id": "fries",
@@ -489,7 +653,9 @@
               "name": "خبز إضافي",
               "price": 4
             }
-          ]
+          ],
+          "isCombo": false,
+          "comboIncludes": []
         },
         {
           "id": "sakura-roll-2",
@@ -530,7 +696,9 @@
               "name": "خبز إضافي",
               "price": 4
             }
-          ]
+          ],
+          "isCombo": false,
+          "comboIncludes": []
         },
         {
           "id": "sakura-roll-3",
@@ -571,7 +739,9 @@
               "name": "خبز إضافي",
               "price": 4
             }
-          ]
+          ],
+          "isCombo": false,
+          "comboIncludes": []
         },
         {
           "id": "sakura-roll-4",
@@ -612,7 +782,9 @@
               "name": "خبز إضافي",
               "price": 4
             }
-          ]
+          ],
+          "isCombo": false,
+          "comboIncludes": []
         },
         {
           "id": "sakura-roll-5",
@@ -626,10 +798,10 @@
           "protein": 36,
           "carbs": 60,
           "fat": 28,
-          "category": "offers",
+          "category": "menu",
           "isPopular": false,
-          "isOffer": true,
-          "offerPrice": 38,
+          "isOffer": false,
+          "offerPrice": null,
           "spicyOption": false,
           "cashbackPercent": null,
           "addons": [
@@ -653,7 +825,9 @@
               "name": "خبز إضافي",
               "price": 4
             }
-          ]
+          ],
+          "isCombo": false,
+          "comboIncludes": []
         },
         {
           "id": "sakura-roll-6",
@@ -694,7 +868,9 @@
               "name": "خبز إضافي",
               "price": 4
             }
-          ]
+          ],
+          "isCombo": false,
+          "comboIncludes": []
         },
         {
           "id": "sakura-roll-7",
@@ -708,10 +884,10 @@
           "protein": 24,
           "carbs": 42,
           "fat": 26,
-          "category": "offers",
+          "category": "menu",
           "isPopular": false,
-          "isOffer": true,
-          "offerPrice": 46,
+          "isOffer": false,
+          "offerPrice": null,
           "spicyOption": false,
           "cashbackPercent": null,
           "addons": [
@@ -735,7 +911,9 @@
               "name": "خبز إضافي",
               "price": 4
             }
-          ]
+          ],
+          "isCombo": false,
+          "comboIncludes": []
         },
         {
           "id": "sakura-roll-8",
@@ -776,7 +954,9 @@
               "name": "خبز إضافي",
               "price": 4
             }
-          ]
+          ],
+          "isCombo": false,
+          "comboIncludes": []
         },
         {
           "id": "sakura-roll-9",
@@ -817,7 +997,9 @@
               "name": "خبز إضافي",
               "price": 4
             }
-          ]
+          ],
+          "isCombo": false,
+          "comboIncludes": []
         },
         {
           "id": "sakura-roll-10",
@@ -835,6 +1017,152 @@
           "isPopular": true,
           "isOffer": false,
           "offerPrice": null,
+          "spicyOption": false,
+          "cashbackPercent": null,
+          "addons": [
+            {
+              "id": "fries",
+              "name": "بطاطس مقلية",
+              "price": 8
+            },
+            {
+              "id": "cola",
+              "name": "كولا",
+              "price": 6
+            },
+            {
+              "id": "sauce",
+              "name": "صلصة إضافية",
+              "price": 3
+            },
+            {
+              "id": "bread",
+              "name": "خبز إضافي",
+              "price": 4
+            }
+          ],
+          "isCombo": false,
+          "comboIncludes": []
+        },
+        {
+          "id": "sakura-roll-combo-1",
+          "restaurantId": "sakura-roll",
+          "name": "كومبو سوشي للمبتدئين",
+          "description": "رولز مع ميسو ومشروب.",
+          "image": "https://images.unsplash.com/photo-1579584425555-c3ce17fd4351?w=800&q=80",
+          "price": 78,
+          "rating": 4.6,
+          "calories": 720,
+          "protein": 34,
+          "carbs": 82,
+          "fat": 22,
+          "category": "offers",
+          "isPopular": false,
+          "isOffer": true,
+          "offerPrice": null,
+          "isCombo": true,
+          "comboIncludes": [
+            "رول كاليفورنيا",
+            "سوشي سالمون ×٤",
+            "شوربة ميسو",
+            "شاي أخضر"
+          ],
+          "spicyOption": false,
+          "cashbackPercent": null,
+          "addons": [
+            {
+              "id": "fries",
+              "name": "بطاطس مقلية",
+              "price": 8
+            },
+            {
+              "id": "cola",
+              "name": "كولا",
+              "price": 6
+            },
+            {
+              "id": "sauce",
+              "name": "صلصة إضافية",
+              "price": 3
+            },
+            {
+              "id": "bread",
+              "name": "خبز إضافي",
+              "price": 4
+            }
+          ]
+        },
+        {
+          "id": "sakura-roll-combo-2",
+          "restaurantId": "sakura-roll",
+          "name": "كومبو رامن وجبة",
+          "description": "رامن مع جيوزا ومشروب.",
+          "image": "https://images.unsplash.com/photo-1553621042-f6e147245754?w=800&q=80",
+          "price": 68,
+          "rating": 4.6,
+          "calories": 980,
+          "protein": 38,
+          "carbs": 95,
+          "fat": 32,
+          "category": "offers",
+          "isPopular": false,
+          "isOffer": true,
+          "offerPrice": null,
+          "isCombo": true,
+          "comboIncludes": [
+            "رامن",
+            "جيوزا ×٤",
+            "إدامامي",
+            "مشروب"
+          ],
+          "spicyOption": false,
+          "cashbackPercent": null,
+          "addons": [
+            {
+              "id": "fries",
+              "name": "بطاطس مقلية",
+              "price": 8
+            },
+            {
+              "id": "cola",
+              "name": "كولا",
+              "price": 6
+            },
+            {
+              "id": "sauce",
+              "name": "صلصة إضافية",
+              "price": 3
+            },
+            {
+              "id": "bread",
+              "name": "خبز إضافي",
+              "price": 4
+            }
+          ]
+        },
+        {
+          "id": "sakura-roll-combo-3",
+          "restaurantId": "sakura-roll",
+          "name": "كومبو ترياكي كامل",
+          "description": "دجاج ترياكي مع أرز وسلطة.",
+          "image": "https://images.unsplash.com/photo-1611143669185-af224c5e3252?w=800&q=80",
+          "price": 58,
+          "rating": 4.6,
+          "calories": 860,
+          "protein": 40,
+          "carbs": 88,
+          "fat": 20,
+          "category": "offers",
+          "isPopular": false,
+          "isOffer": true,
+          "offerPrice": null,
+          "isCombo": true,
+          "comboIncludes": [
+            "دجاج ترياكي",
+            "أرز ياباني",
+            "سلطة سي ويد",
+            "مشروب"
+          ],
           "spicyOption": false,
           "cashbackPercent": null,
           "addons": [
@@ -920,7 +1248,9 @@
               "name": "خبز إضافي",
               "price": 4
             }
-          ]
+          ],
+          "isCombo": false,
+          "comboIncludes": []
         },
         {
           "id": "umami-house-2",
@@ -934,10 +1264,10 @@
           "protein": 16,
           "carbs": 44,
           "fat": 14,
-          "category": "offers",
+          "category": "menu",
           "isPopular": false,
-          "isOffer": true,
-          "offerPrice": 34,
+          "isOffer": false,
+          "offerPrice": null,
           "spicyOption": false,
           "cashbackPercent": 15,
           "addons": [
@@ -961,7 +1291,9 @@
               "name": "خبز إضافي",
               "price": 4
             }
-          ]
+          ],
+          "isCombo": false,
+          "comboIncludes": []
         },
         {
           "id": "umami-house-3",
@@ -1002,7 +1334,9 @@
               "name": "خبز إضافي",
               "price": 4
             }
-          ]
+          ],
+          "isCombo": false,
+          "comboIncludes": []
         },
         {
           "id": "umami-house-4",
@@ -1043,7 +1377,9 @@
               "name": "خبز إضافي",
               "price": 4
             }
-          ]
+          ],
+          "isCombo": false,
+          "comboIncludes": []
         },
         {
           "id": "umami-house-5",
@@ -1057,10 +1393,10 @@
           "protein": 36,
           "carbs": 60,
           "fat": 28,
-          "category": "offers",
+          "category": "menu",
           "isPopular": false,
-          "isOffer": true,
-          "offerPrice": 40,
+          "isOffer": false,
+          "offerPrice": null,
           "spicyOption": false,
           "cashbackPercent": null,
           "addons": [
@@ -1084,7 +1420,9 @@
               "name": "خبز إضافي",
               "price": 4
             }
-          ]
+          ],
+          "isCombo": false,
+          "comboIncludes": []
         },
         {
           "id": "umami-house-6",
@@ -1125,7 +1463,9 @@
               "name": "خبز إضافي",
               "price": 4
             }
-          ]
+          ],
+          "isCombo": false,
+          "comboIncludes": []
         },
         {
           "id": "umami-house-7",
@@ -1166,7 +1506,9 @@
               "name": "خبز إضافي",
               "price": 4
             }
-          ]
+          ],
+          "isCombo": false,
+          "comboIncludes": []
         },
         {
           "id": "umami-house-8",
@@ -1207,7 +1549,9 @@
               "name": "خبز إضافي",
               "price": 4
             }
-          ]
+          ],
+          "isCombo": false,
+          "comboIncludes": []
         },
         {
           "id": "umami-house-9",
@@ -1221,10 +1565,103 @@
           "protein": 14,
           "carbs": 28,
           "fat": 16,
+          "category": "menu",
+          "isPopular": false,
+          "isOffer": false,
+          "offerPrice": null,
+          "spicyOption": false,
+          "cashbackPercent": null,
+          "addons": [
+            {
+              "id": "fries",
+              "name": "بطاطس مقلية",
+              "price": 8
+            },
+            {
+              "id": "cola",
+              "name": "كولا",
+              "price": 6
+            },
+            {
+              "id": "sauce",
+              "name": "صلصة إضافية",
+              "price": 3
+            },
+            {
+              "id": "bread",
+              "name": "خبز إضافي",
+              "price": 4
+            }
+          ],
+          "isCombo": false,
+          "comboIncludes": []
+        },
+        {
+          "id": "umami-house-10",
+          "restaurantId": "umami-house",
+          "name": "موشي آيس كريم",
+          "description": "كرات أرز محشوة آيس كريم.",
+          "image": "https://images.unsplash.com/photo-1571091718767-18b5b1457add?w=800&q=80",
+          "price": 24,
+          "rating": 4.3,
+          "calories": 260,
+          "protein": 4,
+          "carbs": 36,
+          "fat": 10,
+          "category": "menu",
+          "isPopular": false,
+          "isOffer": false,
+          "offerPrice": null,
+          "spicyOption": false,
+          "cashbackPercent": 10,
+          "addons": [
+            {
+              "id": "fries",
+              "name": "بطاطس مقلية",
+              "price": 8
+            },
+            {
+              "id": "cola",
+              "name": "كولا",
+              "price": 6
+            },
+            {
+              "id": "sauce",
+              "name": "صلصة إضافية",
+              "price": 3
+            },
+            {
+              "id": "bread",
+              "name": "خبز إضافي",
+              "price": 4
+            }
+          ],
+          "isCombo": false,
+          "comboIncludes": []
+        },
+        {
+          "id": "umami-house-combo-1",
+          "restaurantId": "umami-house",
+          "name": "كومبو سوشي للمبتدئين",
+          "description": "رولز مع ميسو ومشروب.",
+          "image": "https://images.unsplash.com/photo-1579584425555-c3ce17fd4351?w=800&q=80",
+          "price": 78,
+          "rating": 4.6,
+          "calories": 720,
+          "protein": 34,
+          "carbs": 82,
+          "fat": 22,
           "category": "offers",
           "isPopular": false,
           "isOffer": true,
-          "offerPrice": 24,
+          "offerPrice": null,
+          "isCombo": true,
+          "comboIncludes": [
+            "رول كاليفورنيا",
+            "سوشي سالمون ×٤",
+            "شوربة ميسو",
+            "شاي أخضر"
+          ],
           "spicyOption": false,
           "cashbackPercent": null,
           "addons": [
@@ -1251,23 +1688,78 @@
           ]
         },
         {
-          "id": "umami-house-10",
+          "id": "umami-house-combo-2",
           "restaurantId": "umami-house",
-          "name": "موشي آيس كريم",
-          "description": "كرات أرز محشوة آيس كريم.",
-          "image": "https://images.unsplash.com/photo-1571091718767-18b5b1457add?w=800&q=80",
-          "price": 24,
-          "rating": 4.3,
-          "calories": 260,
-          "protein": 4,
-          "carbs": 36,
-          "fat": 10,
+          "name": "كومبو رامن وجبة",
+          "description": "رامن مع جيوزا ومشروب.",
+          "image": "https://images.unsplash.com/photo-1553621042-f6e147245754?w=800&q=80",
+          "price": 68,
+          "rating": 4.6,
+          "calories": 980,
+          "protein": 38,
+          "carbs": 95,
+          "fat": 32,
           "category": "offers",
           "isPopular": false,
           "isOffer": true,
-          "offerPrice": 21,
+          "offerPrice": null,
+          "isCombo": true,
+          "comboIncludes": [
+            "رامن",
+            "جيوزا ×٤",
+            "إدامامي",
+            "مشروب"
+          ],
           "spicyOption": false,
-          "cashbackPercent": 10,
+          "cashbackPercent": null,
+          "addons": [
+            {
+              "id": "fries",
+              "name": "بطاطس مقلية",
+              "price": 8
+            },
+            {
+              "id": "cola",
+              "name": "كولا",
+              "price": 6
+            },
+            {
+              "id": "sauce",
+              "name": "صلصة إضافية",
+              "price": 3
+            },
+            {
+              "id": "bread",
+              "name": "خبز إضافي",
+              "price": 4
+            }
+          ]
+        },
+        {
+          "id": "umami-house-combo-3",
+          "restaurantId": "umami-house",
+          "name": "كومبو ترياكي كامل",
+          "description": "دجاج ترياكي مع أرز وسلطة.",
+          "image": "https://images.unsplash.com/photo-1611143669185-af224c5e3252?w=800&q=80",
+          "price": 58,
+          "rating": 4.6,
+          "calories": 860,
+          "protein": 40,
+          "carbs": 88,
+          "fat": 20,
+          "category": "offers",
+          "isPopular": false,
+          "isOffer": true,
+          "offerPrice": null,
+          "isCombo": true,
+          "comboIncludes": [
+            "دجاج ترياكي",
+            "أرز ياباني",
+            "سلطة سي ويد",
+            "مشروب"
+          ],
+          "spicyOption": false,
+          "cashbackPercent": null,
           "addons": [
             {
               "id": "fries",
@@ -1351,7 +1843,9 @@
               "name": "خبز إضافي",
               "price": 4
             }
-          ]
+          ],
+          "isCombo": false,
+          "comboIncludes": []
         },
         {
           "id": "nori-kitchen-2",
@@ -1365,10 +1859,10 @@
           "protein": 16,
           "carbs": 44,
           "fat": 14,
-          "category": "offers",
+          "category": "menu",
           "isPopular": false,
-          "isOffer": true,
-          "offerPrice": 36,
+          "isOffer": false,
+          "offerPrice": null,
           "spicyOption": false,
           "cashbackPercent": 10,
           "addons": [
@@ -1392,7 +1886,9 @@
               "name": "خبز إضافي",
               "price": 4
             }
-          ]
+          ],
+          "isCombo": false,
+          "comboIncludes": []
         },
         {
           "id": "nori-kitchen-3",
@@ -1433,7 +1929,9 @@
               "name": "خبز إضافي",
               "price": 4
             }
-          ]
+          ],
+          "isCombo": false,
+          "comboIncludes": []
         },
         {
           "id": "nori-kitchen-4",
@@ -1474,7 +1972,9 @@
               "name": "خبز إضافي",
               "price": 4
             }
-          ]
+          ],
+          "isCombo": false,
+          "comboIncludes": []
         },
         {
           "id": "nori-kitchen-5",
@@ -1515,7 +2015,9 @@
               "name": "خبز إضافي",
               "price": 4
             }
-          ]
+          ],
+          "isCombo": false,
+          "comboIncludes": []
         },
         {
           "id": "nori-kitchen-6",
@@ -1556,7 +2058,9 @@
               "name": "خبز إضافي",
               "price": 4
             }
-          ]
+          ],
+          "isCombo": false,
+          "comboIncludes": []
         },
         {
           "id": "nori-kitchen-7",
@@ -1570,10 +2074,10 @@
           "protein": 24,
           "carbs": 42,
           "fat": 26,
-          "category": "offers",
+          "category": "menu",
           "isPopular": false,
-          "isOffer": true,
-          "offerPrice": 45,
+          "isOffer": false,
+          "offerPrice": null,
           "spicyOption": false,
           "cashbackPercent": 5,
           "addons": [
@@ -1597,7 +2101,9 @@
               "name": "خبز إضافي",
               "price": 4
             }
-          ]
+          ],
+          "isCombo": false,
+          "comboIncludes": []
         },
         {
           "id": "nori-kitchen-8",
@@ -1638,7 +2144,9 @@
               "name": "خبز إضافي",
               "price": 4
             }
-          ]
+          ],
+          "isCombo": false,
+          "comboIncludes": []
         },
         {
           "id": "nori-kitchen-9",
@@ -1679,7 +2187,9 @@
               "name": "خبز إضافي",
               "price": 4
             }
-          ]
+          ],
+          "isCombo": false,
+          "comboIncludes": []
         },
         {
           "id": "nori-kitchen-10",
@@ -1693,10 +2203,156 @@
           "protein": 4,
           "carbs": 36,
           "fat": 10,
+          "category": "menu",
+          "isPopular": false,
+          "isOffer": false,
+          "offerPrice": null,
+          "spicyOption": false,
+          "cashbackPercent": null,
+          "addons": [
+            {
+              "id": "fries",
+              "name": "بطاطس مقلية",
+              "price": 8
+            },
+            {
+              "id": "cola",
+              "name": "كولا",
+              "price": 6
+            },
+            {
+              "id": "sauce",
+              "name": "صلصة إضافية",
+              "price": 3
+            },
+            {
+              "id": "bread",
+              "name": "خبز إضافي",
+              "price": 4
+            }
+          ],
+          "isCombo": false,
+          "comboIncludes": []
+        },
+        {
+          "id": "nori-kitchen-combo-1",
+          "restaurantId": "nori-kitchen",
+          "name": "كومبو سوشي للمبتدئين",
+          "description": "رولز مع ميسو ومشروب.",
+          "image": "https://images.unsplash.com/photo-1579584425555-c3ce17fd4351?w=800&q=80",
+          "price": 78,
+          "rating": 4.6,
+          "calories": 720,
+          "protein": 34,
+          "carbs": 82,
+          "fat": 22,
           "category": "offers",
           "isPopular": false,
           "isOffer": true,
-          "offerPrice": 19,
+          "offerPrice": null,
+          "isCombo": true,
+          "comboIncludes": [
+            "رول كاليفورنيا",
+            "سوشي سالمون ×٤",
+            "شوربة ميسو",
+            "شاي أخضر"
+          ],
+          "spicyOption": false,
+          "cashbackPercent": null,
+          "addons": [
+            {
+              "id": "fries",
+              "name": "بطاطس مقلية",
+              "price": 8
+            },
+            {
+              "id": "cola",
+              "name": "كولا",
+              "price": 6
+            },
+            {
+              "id": "sauce",
+              "name": "صلصة إضافية",
+              "price": 3
+            },
+            {
+              "id": "bread",
+              "name": "خبز إضافي",
+              "price": 4
+            }
+          ]
+        },
+        {
+          "id": "nori-kitchen-combo-2",
+          "restaurantId": "nori-kitchen",
+          "name": "كومبو رامن وجبة",
+          "description": "رامن مع جيوزا ومشروب.",
+          "image": "https://images.unsplash.com/photo-1553621042-f6e147245754?w=800&q=80",
+          "price": 68,
+          "rating": 4.6,
+          "calories": 980,
+          "protein": 38,
+          "carbs": 95,
+          "fat": 32,
+          "category": "offers",
+          "isPopular": false,
+          "isOffer": true,
+          "offerPrice": null,
+          "isCombo": true,
+          "comboIncludes": [
+            "رامن",
+            "جيوزا ×٤",
+            "إدامامي",
+            "مشروب"
+          ],
+          "spicyOption": false,
+          "cashbackPercent": null,
+          "addons": [
+            {
+              "id": "fries",
+              "name": "بطاطس مقلية",
+              "price": 8
+            },
+            {
+              "id": "cola",
+              "name": "كولا",
+              "price": 6
+            },
+            {
+              "id": "sauce",
+              "name": "صلصة إضافية",
+              "price": 3
+            },
+            {
+              "id": "bread",
+              "name": "خبز إضافي",
+              "price": 4
+            }
+          ]
+        },
+        {
+          "id": "nori-kitchen-combo-3",
+          "restaurantId": "nori-kitchen",
+          "name": "كومبو ترياكي كامل",
+          "description": "دجاج ترياكي مع أرز وسلطة.",
+          "image": "https://images.unsplash.com/photo-1611143669185-af224c5e3252?w=800&q=80",
+          "price": 58,
+          "rating": 4.6,
+          "calories": 860,
+          "protein": 40,
+          "carbs": 88,
+          "fat": 20,
+          "category": "offers",
+          "isPopular": false,
+          "isOffer": true,
+          "offerPrice": null,
+          "isCombo": true,
+          "comboIncludes": [
+            "دجاج ترياكي",
+            "أرز ياباني",
+            "سلطة سي ويد",
+            "مشروب"
+          ],
           "spicyOption": false,
           "cashbackPercent": null,
           "addons": [
@@ -1782,7 +2438,9 @@
               "name": "خبز إضافي",
               "price": 4
             }
-          ]
+          ],
+          "isCombo": false,
+          "comboIncludes": []
         },
         {
           "id": "ramen-lane-2",
@@ -1796,10 +2454,10 @@
           "protein": 16,
           "carbs": 44,
           "fat": 14,
-          "category": "offers",
+          "category": "menu",
           "isPopular": false,
-          "isOffer": true,
-          "offerPrice": 36,
+          "isOffer": false,
+          "offerPrice": null,
           "spicyOption": false,
           "cashbackPercent": null,
           "addons": [
@@ -1823,7 +2481,9 @@
               "name": "خبز إضافي",
               "price": 4
             }
-          ]
+          ],
+          "isCombo": false,
+          "comboIncludes": []
         },
         {
           "id": "ramen-lane-3",
@@ -1864,7 +2524,9 @@
               "name": "خبز إضافي",
               "price": 4
             }
-          ]
+          ],
+          "isCombo": false,
+          "comboIncludes": []
         },
         {
           "id": "ramen-lane-4",
@@ -1905,7 +2567,9 @@
               "name": "خبز إضافي",
               "price": 4
             }
-          ]
+          ],
+          "isCombo": false,
+          "comboIncludes": []
         },
         {
           "id": "ramen-lane-5",
@@ -1946,7 +2610,9 @@
               "name": "خبز إضافي",
               "price": 4
             }
-          ]
+          ],
+          "isCombo": false,
+          "comboIncludes": []
         },
         {
           "id": "ramen-lane-6",
@@ -1987,7 +2653,9 @@
               "name": "خبز إضافي",
               "price": 4
             }
-          ]
+          ],
+          "isCombo": false,
+          "comboIncludes": []
         },
         {
           "id": "ramen-lane-7",
@@ -2028,7 +2696,9 @@
               "name": "خبز إضافي",
               "price": 4
             }
-          ]
+          ],
+          "isCombo": false,
+          "comboIncludes": []
         },
         {
           "id": "ramen-lane-8",
@@ -2069,7 +2739,9 @@
               "name": "خبز إضافي",
               "price": 4
             }
-          ]
+          ],
+          "isCombo": false,
+          "comboIncludes": []
         },
         {
           "id": "ramen-lane-9",
@@ -2110,7 +2782,9 @@
               "name": "خبز إضافي",
               "price": 4
             }
-          ]
+          ],
+          "isCombo": false,
+          "comboIncludes": []
         },
         {
           "id": "ramen-lane-10",
@@ -2128,6 +2802,152 @@
           "isPopular": false,
           "isOffer": false,
           "offerPrice": null,
+          "spicyOption": false,
+          "cashbackPercent": null,
+          "addons": [
+            {
+              "id": "fries",
+              "name": "بطاطس مقلية",
+              "price": 8
+            },
+            {
+              "id": "cola",
+              "name": "كولا",
+              "price": 6
+            },
+            {
+              "id": "sauce",
+              "name": "صلصة إضافية",
+              "price": 3
+            },
+            {
+              "id": "bread",
+              "name": "خبز إضافي",
+              "price": 4
+            }
+          ],
+          "isCombo": false,
+          "comboIncludes": []
+        },
+        {
+          "id": "ramen-lane-combo-1",
+          "restaurantId": "ramen-lane",
+          "name": "كومبو سوشي للمبتدئين",
+          "description": "رولز مع ميسو ومشروب.",
+          "image": "https://images.unsplash.com/photo-1579584425555-c3ce17fd4351?w=800&q=80",
+          "price": 78,
+          "rating": 4.6,
+          "calories": 720,
+          "protein": 34,
+          "carbs": 82,
+          "fat": 22,
+          "category": "offers",
+          "isPopular": false,
+          "isOffer": true,
+          "offerPrice": null,
+          "isCombo": true,
+          "comboIncludes": [
+            "رول كاليفورنيا",
+            "سوشي سالمون ×٤",
+            "شوربة ميسو",
+            "شاي أخضر"
+          ],
+          "spicyOption": false,
+          "cashbackPercent": null,
+          "addons": [
+            {
+              "id": "fries",
+              "name": "بطاطس مقلية",
+              "price": 8
+            },
+            {
+              "id": "cola",
+              "name": "كولا",
+              "price": 6
+            },
+            {
+              "id": "sauce",
+              "name": "صلصة إضافية",
+              "price": 3
+            },
+            {
+              "id": "bread",
+              "name": "خبز إضافي",
+              "price": 4
+            }
+          ]
+        },
+        {
+          "id": "ramen-lane-combo-2",
+          "restaurantId": "ramen-lane",
+          "name": "كومبو رامن وجبة",
+          "description": "رامن مع جيوزا ومشروب.",
+          "image": "https://images.unsplash.com/photo-1553621042-f6e147245754?w=800&q=80",
+          "price": 68,
+          "rating": 4.6,
+          "calories": 980,
+          "protein": 38,
+          "carbs": 95,
+          "fat": 32,
+          "category": "offers",
+          "isPopular": false,
+          "isOffer": true,
+          "offerPrice": null,
+          "isCombo": true,
+          "comboIncludes": [
+            "رامن",
+            "جيوزا ×٤",
+            "إدامامي",
+            "مشروب"
+          ],
+          "spicyOption": false,
+          "cashbackPercent": null,
+          "addons": [
+            {
+              "id": "fries",
+              "name": "بطاطس مقلية",
+              "price": 8
+            },
+            {
+              "id": "cola",
+              "name": "كولا",
+              "price": 6
+            },
+            {
+              "id": "sauce",
+              "name": "صلصة إضافية",
+              "price": 3
+            },
+            {
+              "id": "bread",
+              "name": "خبز إضافي",
+              "price": 4
+            }
+          ]
+        },
+        {
+          "id": "ramen-lane-combo-3",
+          "restaurantId": "ramen-lane",
+          "name": "كومبو ترياكي كامل",
+          "description": "دجاج ترياكي مع أرز وسلطة.",
+          "image": "https://images.unsplash.com/photo-1611143669185-af224c5e3252?w=800&q=80",
+          "price": 58,
+          "rating": 4.6,
+          "calories": 860,
+          "protein": 40,
+          "carbs": 88,
+          "fat": 20,
+          "category": "offers",
+          "isPopular": false,
+          "isOffer": true,
+          "offerPrice": null,
+          "isCombo": true,
+          "comboIncludes": [
+            "دجاج ترياكي",
+            "أرز ياباني",
+            "سلطة سي ويد",
+            "مشروب"
+          ],
           "spicyOption": false,
           "cashbackPercent": null,
           "addons": [
@@ -2213,7 +3033,9 @@
               "name": "خبز إضافي",
               "price": 4
             }
-          ]
+          ],
+          "isCombo": false,
+          "comboIncludes": []
         },
         {
           "id": "wasabi-bar-2",
@@ -2254,7 +3076,9 @@
               "name": "خبز إضافي",
               "price": 4
             }
-          ]
+          ],
+          "isCombo": false,
+          "comboIncludes": []
         },
         {
           "id": "wasabi-bar-3",
@@ -2295,7 +3119,9 @@
               "name": "خبز إضافي",
               "price": 4
             }
-          ]
+          ],
+          "isCombo": false,
+          "comboIncludes": []
         },
         {
           "id": "wasabi-bar-4",
@@ -2336,7 +3162,9 @@
               "name": "خبز إضافي",
               "price": 4
             }
-          ]
+          ],
+          "isCombo": false,
+          "comboIncludes": []
         },
         {
           "id": "wasabi-bar-5",
@@ -2377,7 +3205,9 @@
               "name": "خبز إضافي",
               "price": 4
             }
-          ]
+          ],
+          "isCombo": false,
+          "comboIncludes": []
         },
         {
           "id": "wasabi-bar-6",
@@ -2418,7 +3248,9 @@
               "name": "خبز إضافي",
               "price": 4
             }
-          ]
+          ],
+          "isCombo": false,
+          "comboIncludes": []
         },
         {
           "id": "wasabi-bar-7",
@@ -2432,10 +3264,10 @@
           "protein": 24,
           "carbs": 42,
           "fat": 26,
-          "category": "offers",
+          "category": "menu",
           "isPopular": false,
-          "isOffer": true,
-          "offerPrice": 46,
+          "isOffer": false,
+          "offerPrice": null,
           "spicyOption": false,
           "cashbackPercent": 5,
           "addons": [
@@ -2459,7 +3291,9 @@
               "name": "خبز إضافي",
               "price": 4
             }
-          ]
+          ],
+          "isCombo": false,
+          "comboIncludes": []
         },
         {
           "id": "wasabi-bar-8",
@@ -2500,7 +3334,9 @@
               "name": "خبز إضافي",
               "price": 4
             }
-          ]
+          ],
+          "isCombo": false,
+          "comboIncludes": []
         },
         {
           "id": "wasabi-bar-9",
@@ -2541,7 +3377,9 @@
               "name": "خبز إضافي",
               "price": 4
             }
-          ]
+          ],
+          "isCombo": false,
+          "comboIncludes": []
         },
         {
           "id": "wasabi-bar-10",
@@ -2555,12 +3393,158 @@
           "protein": 4,
           "carbs": 36,
           "fat": 10,
+          "category": "menu",
+          "isPopular": false,
+          "isOffer": false,
+          "offerPrice": null,
+          "spicyOption": false,
+          "cashbackPercent": 10,
+          "addons": [
+            {
+              "id": "fries",
+              "name": "بطاطس مقلية",
+              "price": 8
+            },
+            {
+              "id": "cola",
+              "name": "كولا",
+              "price": 6
+            },
+            {
+              "id": "sauce",
+              "name": "صلصة إضافية",
+              "price": 3
+            },
+            {
+              "id": "bread",
+              "name": "خبز إضافي",
+              "price": 4
+            }
+          ],
+          "isCombo": false,
+          "comboIncludes": []
+        },
+        {
+          "id": "wasabi-bar-combo-1",
+          "restaurantId": "wasabi-bar",
+          "name": "كومبو سوشي للمبتدئين",
+          "description": "رولز مع ميسو ومشروب.",
+          "image": "https://images.unsplash.com/photo-1579584425555-c3ce17fd4351?w=800&q=80",
+          "price": 78,
+          "rating": 4.6,
+          "calories": 720,
+          "protein": 34,
+          "carbs": 82,
+          "fat": 22,
           "category": "offers",
           "isPopular": false,
           "isOffer": true,
-          "offerPrice": 18,
+          "offerPrice": null,
+          "isCombo": true,
+          "comboIncludes": [
+            "رول كاليفورنيا",
+            "سوشي سالمون ×٤",
+            "شوربة ميسو",
+            "شاي أخضر"
+          ],
           "spicyOption": false,
-          "cashbackPercent": 10,
+          "cashbackPercent": null,
+          "addons": [
+            {
+              "id": "fries",
+              "name": "بطاطس مقلية",
+              "price": 8
+            },
+            {
+              "id": "cola",
+              "name": "كولا",
+              "price": 6
+            },
+            {
+              "id": "sauce",
+              "name": "صلصة إضافية",
+              "price": 3
+            },
+            {
+              "id": "bread",
+              "name": "خبز إضافي",
+              "price": 4
+            }
+          ]
+        },
+        {
+          "id": "wasabi-bar-combo-2",
+          "restaurantId": "wasabi-bar",
+          "name": "كومبو رامن وجبة",
+          "description": "رامن مع جيوزا ومشروب.",
+          "image": "https://images.unsplash.com/photo-1553621042-f6e147245754?w=800&q=80",
+          "price": 68,
+          "rating": 4.6,
+          "calories": 980,
+          "protein": 38,
+          "carbs": 95,
+          "fat": 32,
+          "category": "offers",
+          "isPopular": false,
+          "isOffer": true,
+          "offerPrice": null,
+          "isCombo": true,
+          "comboIncludes": [
+            "رامن",
+            "جيوزا ×٤",
+            "إدامامي",
+            "مشروب"
+          ],
+          "spicyOption": false,
+          "cashbackPercent": null,
+          "addons": [
+            {
+              "id": "fries",
+              "name": "بطاطس مقلية",
+              "price": 8
+            },
+            {
+              "id": "cola",
+              "name": "كولا",
+              "price": 6
+            },
+            {
+              "id": "sauce",
+              "name": "صلصة إضافية",
+              "price": 3
+            },
+            {
+              "id": "bread",
+              "name": "خبز إضافي",
+              "price": 4
+            }
+          ]
+        },
+        {
+          "id": "wasabi-bar-combo-3",
+          "restaurantId": "wasabi-bar",
+          "name": "كومبو ترياكي كامل",
+          "description": "دجاج ترياكي مع أرز وسلطة.",
+          "image": "https://images.unsplash.com/photo-1611143669185-af224c5e3252?w=800&q=80",
+          "price": 58,
+          "rating": 4.6,
+          "calories": 860,
+          "protein": 40,
+          "carbs": 88,
+          "fat": 20,
+          "category": "offers",
+          "isPopular": false,
+          "isOffer": true,
+          "offerPrice": null,
+          "isCombo": true,
+          "comboIncludes": [
+            "دجاج ترياكي",
+            "أرز ياباني",
+            "سلطة سي ويد",
+            "مشروب"
+          ],
+          "spicyOption": false,
+          "cashbackPercent": null,
           "addons": [
             {
               "id": "fries",
@@ -2617,10 +3601,10 @@
           "protein": 28,
           "carbs": 48,
           "fat": 12,
-          "category": "offers",
+          "category": "menu",
           "isPopular": false,
-          "isOffer": true,
-          "offerPrice": 43,
+          "isOffer": false,
+          "offerPrice": null,
           "spicyOption": false,
           "cashbackPercent": null,
           "addons": [
@@ -2644,7 +3628,9 @@
               "name": "خبز إضافي",
               "price": 4
             }
-          ]
+          ],
+          "isCombo": false,
+          "comboIncludes": []
         },
         {
           "id": "katsu-corner-2",
@@ -2685,7 +3671,9 @@
               "name": "خبز إضافي",
               "price": 4
             }
-          ]
+          ],
+          "isCombo": false,
+          "comboIncludes": []
         },
         {
           "id": "katsu-corner-3",
@@ -2699,10 +3687,10 @@
           "protein": 32,
           "carbs": 62,
           "fat": 28,
-          "category": "offers",
+          "category": "menu",
           "isPopular": false,
-          "isOffer": true,
-          "offerPrice": 41,
+          "isOffer": false,
+          "offerPrice": null,
           "spicyOption": false,
           "cashbackPercent": null,
           "addons": [
@@ -2726,7 +3714,9 @@
               "name": "خبز إضافي",
               "price": 4
             }
-          ]
+          ],
+          "isCombo": false,
+          "comboIncludes": []
         },
         {
           "id": "katsu-corner-4",
@@ -2767,7 +3757,9 @@
               "name": "خبز إضافي",
               "price": 4
             }
-          ]
+          ],
+          "isCombo": false,
+          "comboIncludes": []
         },
         {
           "id": "katsu-corner-5",
@@ -2808,7 +3800,9 @@
               "name": "خبز إضافي",
               "price": 4
             }
-          ]
+          ],
+          "isCombo": false,
+          "comboIncludes": []
         },
         {
           "id": "katsu-corner-6",
@@ -2822,10 +3816,10 @@
           "protein": 12,
           "carbs": 10,
           "fat": 6,
-          "category": "offers",
+          "category": "menu",
           "isPopular": false,
-          "isOffer": true,
-          "offerPrice": 14,
+          "isOffer": false,
+          "offerPrice": null,
           "spicyOption": false,
           "cashbackPercent": null,
           "addons": [
@@ -2849,7 +3843,9 @@
               "name": "خبز إضافي",
               "price": 4
             }
-          ]
+          ],
+          "isCombo": false,
+          "comboIncludes": []
         },
         {
           "id": "katsu-corner-7",
@@ -2890,7 +3886,9 @@
               "name": "خبز إضافي",
               "price": 4
             }
-          ]
+          ],
+          "isCombo": false,
+          "comboIncludes": []
         },
         {
           "id": "katsu-corner-8",
@@ -2931,7 +3929,9 @@
               "name": "خبز إضافي",
               "price": 4
             }
-          ]
+          ],
+          "isCombo": false,
+          "comboIncludes": []
         },
         {
           "id": "katsu-corner-9",
@@ -2972,7 +3972,9 @@
               "name": "خبز إضافي",
               "price": 4
             }
-          ]
+          ],
+          "isCombo": false,
+          "comboIncludes": []
         },
         {
           "id": "katsu-corner-10",
@@ -2990,6 +3992,152 @@
           "isPopular": false,
           "isOffer": false,
           "offerPrice": null,
+          "spicyOption": false,
+          "cashbackPercent": null,
+          "addons": [
+            {
+              "id": "fries",
+              "name": "بطاطس مقلية",
+              "price": 8
+            },
+            {
+              "id": "cola",
+              "name": "كولا",
+              "price": 6
+            },
+            {
+              "id": "sauce",
+              "name": "صلصة إضافية",
+              "price": 3
+            },
+            {
+              "id": "bread",
+              "name": "خبز إضافي",
+              "price": 4
+            }
+          ],
+          "isCombo": false,
+          "comboIncludes": []
+        },
+        {
+          "id": "katsu-corner-combo-1",
+          "restaurantId": "katsu-corner",
+          "name": "كومبو سوشي للمبتدئين",
+          "description": "رولز مع ميسو ومشروب.",
+          "image": "https://images.unsplash.com/photo-1579584425555-c3ce17fd4351?w=800&q=80",
+          "price": 78,
+          "rating": 4.6,
+          "calories": 720,
+          "protein": 34,
+          "carbs": 82,
+          "fat": 22,
+          "category": "offers",
+          "isPopular": false,
+          "isOffer": true,
+          "offerPrice": null,
+          "isCombo": true,
+          "comboIncludes": [
+            "رول كاليفورنيا",
+            "سوشي سالمون ×٤",
+            "شوربة ميسو",
+            "شاي أخضر"
+          ],
+          "spicyOption": false,
+          "cashbackPercent": null,
+          "addons": [
+            {
+              "id": "fries",
+              "name": "بطاطس مقلية",
+              "price": 8
+            },
+            {
+              "id": "cola",
+              "name": "كولا",
+              "price": 6
+            },
+            {
+              "id": "sauce",
+              "name": "صلصة إضافية",
+              "price": 3
+            },
+            {
+              "id": "bread",
+              "name": "خبز إضافي",
+              "price": 4
+            }
+          ]
+        },
+        {
+          "id": "katsu-corner-combo-2",
+          "restaurantId": "katsu-corner",
+          "name": "كومبو رامن وجبة",
+          "description": "رامن مع جيوزا ومشروب.",
+          "image": "https://images.unsplash.com/photo-1553621042-f6e147245754?w=800&q=80",
+          "price": 68,
+          "rating": 4.6,
+          "calories": 980,
+          "protein": 38,
+          "carbs": 95,
+          "fat": 32,
+          "category": "offers",
+          "isPopular": false,
+          "isOffer": true,
+          "offerPrice": null,
+          "isCombo": true,
+          "comboIncludes": [
+            "رامن",
+            "جيوزا ×٤",
+            "إدامامي",
+            "مشروب"
+          ],
+          "spicyOption": false,
+          "cashbackPercent": null,
+          "addons": [
+            {
+              "id": "fries",
+              "name": "بطاطس مقلية",
+              "price": 8
+            },
+            {
+              "id": "cola",
+              "name": "كولا",
+              "price": 6
+            },
+            {
+              "id": "sauce",
+              "name": "صلصة إضافية",
+              "price": 3
+            },
+            {
+              "id": "bread",
+              "name": "خبز إضافي",
+              "price": 4
+            }
+          ]
+        },
+        {
+          "id": "katsu-corner-combo-3",
+          "restaurantId": "katsu-corner",
+          "name": "كومبو ترياكي كامل",
+          "description": "دجاج ترياكي مع أرز وسلطة.",
+          "image": "https://images.unsplash.com/photo-1611143669185-af224c5e3252?w=800&q=80",
+          "price": 58,
+          "rating": 4.6,
+          "calories": 860,
+          "protein": 40,
+          "carbs": 88,
+          "fat": 20,
+          "category": "offers",
+          "isPopular": false,
+          "isOffer": true,
+          "offerPrice": null,
+          "isCombo": true,
+          "comboIncludes": [
+            "دجاج ترياكي",
+            "أرز ياباني",
+            "سلطة سي ويد",
+            "مشروب"
+          ],
           "spicyOption": false,
           "cashbackPercent": null,
           "addons": [
@@ -3075,7 +4223,9 @@
               "name": "خبز إضافي",
               "price": 4
             }
-          ]
+          ],
+          "isCombo": false,
+          "comboIncludes": []
         },
         {
           "id": "edo-express-2",
@@ -3116,7 +4266,9 @@
               "name": "خبز إضافي",
               "price": 4
             }
-          ]
+          ],
+          "isCombo": false,
+          "comboIncludes": []
         },
         {
           "id": "edo-express-3",
@@ -3157,7 +4309,9 @@
               "name": "خبز إضافي",
               "price": 4
             }
-          ]
+          ],
+          "isCombo": false,
+          "comboIncludes": []
         },
         {
           "id": "edo-express-4",
@@ -3171,10 +4325,10 @@
           "protein": 34,
           "carbs": 55,
           "fat": 16,
-          "category": "offers",
+          "category": "menu",
           "isPopular": false,
-          "isOffer": true,
-          "offerPrice": 35,
+          "isOffer": false,
+          "offerPrice": null,
           "spicyOption": false,
           "cashbackPercent": null,
           "addons": [
@@ -3198,7 +4352,9 @@
               "name": "خبز إضافي",
               "price": 4
             }
-          ]
+          ],
+          "isCombo": false,
+          "comboIncludes": []
         },
         {
           "id": "edo-express-5",
@@ -3239,7 +4395,9 @@
               "name": "خبز إضافي",
               "price": 4
             }
-          ]
+          ],
+          "isCombo": false,
+          "comboIncludes": []
         },
         {
           "id": "edo-express-6",
@@ -3280,7 +4438,9 @@
               "name": "خبز إضافي",
               "price": 4
             }
-          ]
+          ],
+          "isCombo": false,
+          "comboIncludes": []
         },
         {
           "id": "edo-express-7",
@@ -3321,7 +4481,9 @@
               "name": "خبز إضافي",
               "price": 4
             }
-          ]
+          ],
+          "isCombo": false,
+          "comboIncludes": []
         },
         {
           "id": "edo-express-8",
@@ -3362,7 +4524,9 @@
               "name": "خبز إضافي",
               "price": 4
             }
-          ]
+          ],
+          "isCombo": false,
+          "comboIncludes": []
         },
         {
           "id": "edo-express-9",
@@ -3403,7 +4567,9 @@
               "name": "خبز إضافي",
               "price": 4
             }
-          ]
+          ],
+          "isCombo": false,
+          "comboIncludes": []
         },
         {
           "id": "edo-express-10",
@@ -3421,6 +4587,152 @@
           "isPopular": true,
           "isOffer": false,
           "offerPrice": null,
+          "spicyOption": false,
+          "cashbackPercent": null,
+          "addons": [
+            {
+              "id": "fries",
+              "name": "بطاطس مقلية",
+              "price": 8
+            },
+            {
+              "id": "cola",
+              "name": "كولا",
+              "price": 6
+            },
+            {
+              "id": "sauce",
+              "name": "صلصة إضافية",
+              "price": 3
+            },
+            {
+              "id": "bread",
+              "name": "خبز إضافي",
+              "price": 4
+            }
+          ],
+          "isCombo": false,
+          "comboIncludes": []
+        },
+        {
+          "id": "edo-express-combo-1",
+          "restaurantId": "edo-express",
+          "name": "كومبو سوشي للمبتدئين",
+          "description": "رولز مع ميسو ومشروب.",
+          "image": "https://images.unsplash.com/photo-1579584425555-c3ce17fd4351?w=800&q=80",
+          "price": 78,
+          "rating": 4.6,
+          "calories": 720,
+          "protein": 34,
+          "carbs": 82,
+          "fat": 22,
+          "category": "offers",
+          "isPopular": false,
+          "isOffer": true,
+          "offerPrice": null,
+          "isCombo": true,
+          "comboIncludes": [
+            "رول كاليفورنيا",
+            "سوشي سالمون ×٤",
+            "شوربة ميسو",
+            "شاي أخضر"
+          ],
+          "spicyOption": false,
+          "cashbackPercent": null,
+          "addons": [
+            {
+              "id": "fries",
+              "name": "بطاطس مقلية",
+              "price": 8
+            },
+            {
+              "id": "cola",
+              "name": "كولا",
+              "price": 6
+            },
+            {
+              "id": "sauce",
+              "name": "صلصة إضافية",
+              "price": 3
+            },
+            {
+              "id": "bread",
+              "name": "خبز إضافي",
+              "price": 4
+            }
+          ]
+        },
+        {
+          "id": "edo-express-combo-2",
+          "restaurantId": "edo-express",
+          "name": "كومبو رامن وجبة",
+          "description": "رامن مع جيوزا ومشروب.",
+          "image": "https://images.unsplash.com/photo-1553621042-f6e147245754?w=800&q=80",
+          "price": 68,
+          "rating": 4.6,
+          "calories": 980,
+          "protein": 38,
+          "carbs": 95,
+          "fat": 32,
+          "category": "offers",
+          "isPopular": false,
+          "isOffer": true,
+          "offerPrice": null,
+          "isCombo": true,
+          "comboIncludes": [
+            "رامن",
+            "جيوزا ×٤",
+            "إدامامي",
+            "مشروب"
+          ],
+          "spicyOption": false,
+          "cashbackPercent": null,
+          "addons": [
+            {
+              "id": "fries",
+              "name": "بطاطس مقلية",
+              "price": 8
+            },
+            {
+              "id": "cola",
+              "name": "كولا",
+              "price": 6
+            },
+            {
+              "id": "sauce",
+              "name": "صلصة إضافية",
+              "price": 3
+            },
+            {
+              "id": "bread",
+              "name": "خبز إضافي",
+              "price": 4
+            }
+          ]
+        },
+        {
+          "id": "edo-express-combo-3",
+          "restaurantId": "edo-express",
+          "name": "كومبو ترياكي كامل",
+          "description": "دجاج ترياكي مع أرز وسلطة.",
+          "image": "https://images.unsplash.com/photo-1611143669185-af224c5e3252?w=800&q=80",
+          "price": 58,
+          "rating": 4.6,
+          "calories": 860,
+          "protein": 40,
+          "carbs": 88,
+          "fat": 20,
+          "category": "offers",
+          "isPopular": false,
+          "isOffer": true,
+          "offerPrice": null,
+          "isCombo": true,
+          "comboIncludes": [
+            "دجاج ترياكي",
+            "أرز ياباني",
+            "سلطة سي ويد",
+            "مشروب"
+          ],
           "spicyOption": false,
           "cashbackPercent": null,
           "addons": [

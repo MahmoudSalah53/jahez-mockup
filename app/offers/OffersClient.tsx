@@ -15,7 +15,7 @@ export function OffersClient() {
   const cuisine = searchParams.get("cuisine");
 
   const offers = useMemo(() => {
-    let base = meals.filter((m) => m.isOffer);
+    let base = meals.filter((m) => m.isCombo || m.isOffer);
     if (cashbackOnly) {
       base = base.filter((m) => (m.cashbackPercent ?? 0) > 0);
     }
@@ -25,7 +25,7 @@ export function OffersClient() {
         return r?.cuisine === cuisine;
       });
     }
-    return base;
+    return [...base].sort((a, b) => b.rating - a.rating);
   }, [cashbackOnly, cuisine]);
 
   const { visibleItems, sentinelRef, hasMore, pending } = useInfiniteList(
@@ -38,14 +38,16 @@ export function OffersClient() {
       ? `كاش باك · ${cuisine}`
       : "عروض الكاش باك"
     : cuisine
-      ? `عروض ${cuisine}`
-      : "العروض";
+      ? `كومبوهات ${cuisine}`
+      : "العروض والكومبوهات";
 
   return (
     <div className="mx-auto max-w-lg md:max-w-7xl">
       <div className="px-4 py-4 md:hidden">
         <h1 className="text-xl font-bold">{title}</h1>
-        <p className="mt-1 text-sm text-muted">{offers.length} عرض متاح الآن</p>
+        <p className="mt-1 text-sm text-muted">
+          {offers.length} كومبو ووجبة كاملة متاحة
+        </p>
       </div>
 
       <div className="relative hidden overflow-hidden md:block">
@@ -61,14 +63,14 @@ export function OffersClient() {
         <div className="relative mx-auto max-w-7xl px-8 py-14">
           <h1 className="text-4xl font-bold text-white">{title}</h1>
           <p className="mt-2 text-base text-white/80">
-            {offers.length} عرض متاح الآن — وفر أكثر مع كل طلب
+            {offers.length} كومبو — وجبات كاملة جاهزة للطلب
           </p>
         </div>
       </div>
 
       {offers.length === 0 ? (
         <p className="px-4 py-10 text-center text-sm text-muted sm:px-6">
-          لا توجد عروض حالياً
+          لا توجد كومبوهات حالياً
         </p>
       ) : (
         <>
@@ -113,7 +115,7 @@ export function OffersClient() {
               ? pending
                 ? "جاري تحميل المزيد…"
                 : "مرّر للمزيد"
-              : `تم عرض كل العروض (${offers.length})`}
+              : `تم عرض كل الكومبوهات (${offers.length})`}
           </div>
         </>
       )}
