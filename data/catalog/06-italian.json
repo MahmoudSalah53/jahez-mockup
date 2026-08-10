@@ -40,24 +40,29 @@
           "cashbackPercent": null,
           "addons": [
             {
-              "id": "fries",
-              "name": "بطاطس مقلية",
-              "price": 8
-            },
-            {
-              "id": "cola",
-              "name": "كولا",
+              "id": "parmesan",
+              "name": "جبنة بارميزان",
               "price": 6
             },
             {
-              "id": "sauce",
-              "name": "صلصة إضافية",
-              "price": 3
+              "id": "garlic-bread",
+              "name": "ثوم محمص",
+              "price": 8
             },
             {
-              "id": "bread",
-              "name": "خبز إضافي",
+              "id": "extra-sauce",
+              "name": "صلصة زيادة",
               "price": 4
+            },
+            {
+              "id": "drink",
+              "name": "مشروب",
+              "price": 6
+            },
+            {
+              "id": "side-salad",
+              "name": "سلطة صغيرة",
+              "price": 10
             }
           ],
           "isCombo": false,
@@ -83,24 +88,29 @@
           "cashbackPercent": null,
           "addons": [
             {
-              "id": "fries",
-              "name": "بطاطس مقلية",
-              "price": 8
-            },
-            {
-              "id": "cola",
-              "name": "كولا",
+              "id": "parmesan",
+              "name": "جبنة بارميزان",
               "price": 6
             },
             {
-              "id": "sauce",
-              "name": "صلصة إضافية",
-              "price": 3
+              "id": "garlic-bread",
+              "name": "ثوم محمص",
+              "price": 8
             },
             {
-              "id": "bread",
-              "name": "خبز إضافي",
+              "id": "extra-sauce",
+              "name": "صلصة زيادة",
               "price": 4
+            },
+            {
+              "id": "drink",
+              "name": "مشروب",
+              "price": 6
+            },
+            {
+              "id": "side-salad",
+              "name": "سلطة صغيرة",
+              "price": 10
             }
           ],
           "isCombo": false,
@@ -126,24 +136,29 @@
           "cashbackPercent": null,
           "addons": [
             {
-              "id": "fries",
-              "name": "بطاطس مقلية",
-              "price": 8
-            },
-            {
-              "id": "cola",
-              "name": "كولا",
+              "id": "parmesan",
+              "name": "جبنة بارميزان",
               "price": 6
             },
             {
-              "id": "sauce",
-              "name": "صلصة إضافية",
-              "price": 3
+              "id": "garlic-bread",
+              "name": "ثوم محمص",
+              "price": 8
             },
             {
-              "id": "bread",
-              "name": "خبز إضافي",
+              "id": "extra-sauce",
+              "name": "صلصة زيادة",
               "price": 4
+            },
+            {
+              "id": "drink",
+              "name": "مشروب",
+              "price": 6
+            },
+            {
+              "id": "side-salad",
+              "name": "سلطة صغيرة",
+              "price": 10
             }
           ],
           "isCombo": false,
@@ -169,24 +184,29 @@
           "cashbackPercent": null,
           "addons": [
             {
-              "id": "fries",
-              "name": "بطاطس مقلية",
-              "price": 8
-            },
-            {
-              "id": "cola",
-              "name": "كولا",
+              "id": "parmesan",
+              "name": "جبنة بارميزان",
               "price": 6
             },
             {
-              "id": "sauce",
-              "name": "صلصة إضافية",
-              "price": 3
+              "id": "garlic-bread",
+              "name": "ثوم محمص",
+              "price": 8
             },
             {
-              "id": "bread",
-              "name": "خبز إضافي",
+              "id": "extra-sauce",
+              "name": "صلصة زيادة",
               "price": 4
+            },
+            {
+              "id": "drink",
+              "name": "مشروب",
+              "price": 6
+            },
+            {
+              "id": "side-salad",
+              "name": "سلطة صغيرة",
+              "price": 10
             }
           ],
           "isCombo": false,
@@ -212,24 +232,29 @@
           "cashbackPercent": null,
           "addons": [
             {
-              "id": "fries",
-              "name": "بطاطس مقلية",
-              "price": 8
-            },
-            {
-              "id": "cola",
-              "name": "كولا",
+              "id": "parmesan",
+              "name": "جبنة بارميزان",
               "price": 6
             },
             {
-              "id": "sauce",
-              "name": "صلصة إضافية",
-              "price": 3
+              "id": "garlic-bread",
+              "name": "ثوم محمص",
+              "price": 8
             },
             {
-              "id": "bread",
-              "name": "خبز إضافي",
+              "id": "extra-sauce",
+              "name": "صلصة زيادة",
               "price": 4
+            },
+            {
+              "id": "drink",
+              "name": "مشروب",
+              "price": 6
+            },
+            {
+              "id": "side-salad",
+              "name": "سلطة صغيرة",
+              "price": 10
             }
           ],
           "isCombo": false,
@@ -255,24 +280,29 @@
           "cashbackPercent": null,
           "addons": [
             {
-              "id": "fries",
-              "name": "بطاطس مقلية",
-              "price": 8
-            },
-            {
-              "id": "cola",
-              "name": "كولا",
+              "id": "parmesan",
+              "name": "جبنة بارميزان",
               "price": 6
             },
             {
-              "id": "sauce",
-              "name": "صلصة إضافية",
-              "price": 3
+              "id": "garlic-bread",
+              "name": "ثوم محمص",
+              "price": 8
             },
             {
-              "id": "bread",
-              "name": "خبز إضافي",
+              "id": "extra-sauce",
+              "name": "صلصة زيادة",
               "price": 4
+            },
+            {
+              "id": "drink",
+              "name": "مشروب",
+              "price": 6
+            },
+            {
+              "id": "side-salad",
+              "name": "سلطة صغيرة",
+              "price": 10
             }
           ],
           "isCombo": false,
@@ -298,24 +328,29 @@
           "cashbackPercent": null,
           "addons": [
             {
-              "id": "fries",
-              "name": "بطاطس مقلية",
-              "price": 8
-            },
-            {
-              "id": "cola",
-              "name": "كولا",
+              "id": "parmesan",
+              "name": "جبنة بارميزان",
               "price": 6
             },
             {
-              "id": "sauce",
-              "name": "صلصة إضافية",
-              "price": 3
+              "id": "garlic-bread",
+              "name": "ثوم محمص",
+              "price": 8
             },
             {
-              "id": "bread",
-              "name": "خبز إضافي",
+              "id": "extra-sauce",
+              "name": "صلصة زيادة",
               "price": 4
+            },
+            {
+              "id": "drink",
+              "name": "مشروب",
+              "price": 6
+            },
+            {
+              "id": "side-salad",
+              "name": "سلطة صغيرة",
+              "price": 10
             }
           ],
           "isCombo": false,
@@ -341,24 +376,29 @@
           "cashbackPercent": 5,
           "addons": [
             {
-              "id": "fries",
-              "name": "بطاطس مقلية",
-              "price": 8
-            },
-            {
-              "id": "cola",
-              "name": "كولا",
+              "id": "parmesan",
+              "name": "جبنة بارميزان",
               "price": 6
             },
             {
-              "id": "sauce",
-              "name": "صلصة إضافية",
-              "price": 3
+              "id": "garlic-bread",
+              "name": "ثوم محمص",
+              "price": 8
             },
             {
-              "id": "bread",
-              "name": "خبز إضافي",
+              "id": "extra-sauce",
+              "name": "صلصة زيادة",
               "price": 4
+            },
+            {
+              "id": "drink",
+              "name": "مشروب",
+              "price": 6
+            },
+            {
+              "id": "side-salad",
+              "name": "سلطة صغيرة",
+              "price": 10
             }
           ],
           "isCombo": false,
@@ -384,24 +424,29 @@
           "cashbackPercent": null,
           "addons": [
             {
-              "id": "fries",
-              "name": "بطاطس مقلية",
-              "price": 8
-            },
-            {
-              "id": "cola",
-              "name": "كولا",
+              "id": "parmesan",
+              "name": "جبنة بارميزان",
               "price": 6
             },
             {
-              "id": "sauce",
-              "name": "صلصة إضافية",
-              "price": 3
+              "id": "garlic-bread",
+              "name": "ثوم محمص",
+              "price": 8
             },
             {
-              "id": "bread",
-              "name": "خبز إضافي",
+              "id": "extra-sauce",
+              "name": "صلصة زيادة",
               "price": 4
+            },
+            {
+              "id": "drink",
+              "name": "مشروب",
+              "price": 6
+            },
+            {
+              "id": "side-salad",
+              "name": "سلطة صغيرة",
+              "price": 10
             }
           ],
           "isCombo": false,
@@ -427,24 +472,29 @@
           "cashbackPercent": 15,
           "addons": [
             {
-              "id": "fries",
-              "name": "بطاطس مقلية",
-              "price": 8
-            },
-            {
-              "id": "cola",
-              "name": "كولا",
+              "id": "parmesan",
+              "name": "جبنة بارميزان",
               "price": 6
             },
             {
-              "id": "sauce",
-              "name": "صلصة إضافية",
-              "price": 3
+              "id": "garlic-bread",
+              "name": "ثوم محمص",
+              "price": 8
             },
             {
-              "id": "bread",
-              "name": "خبز إضافي",
+              "id": "extra-sauce",
+              "name": "صلصة زيادة",
               "price": 4
+            },
+            {
+              "id": "drink",
+              "name": "مشروب",
+              "price": 6
+            },
+            {
+              "id": "side-salad",
+              "name": "سلطة صغيرة",
+              "price": 10
             }
           ],
           "isCombo": false,
@@ -476,24 +526,29 @@
           "cashbackPercent": null,
           "addons": [
             {
-              "id": "fries",
-              "name": "بطاطس مقلية",
-              "price": 8
-            },
-            {
-              "id": "cola",
-              "name": "كولا",
+              "id": "parmesan",
+              "name": "جبنة بارميزان",
               "price": 6
             },
             {
-              "id": "sauce",
-              "name": "صلصة إضافية",
-              "price": 3
+              "id": "garlic-bread",
+              "name": "ثوم محمص",
+              "price": 8
             },
             {
-              "id": "bread",
-              "name": "خبز إضافي",
+              "id": "extra-sauce",
+              "name": "صلصة زيادة",
               "price": 4
+            },
+            {
+              "id": "drink",
+              "name": "مشروب",
+              "price": 6
+            },
+            {
+              "id": "side-salad",
+              "name": "سلطة صغيرة",
+              "price": 10
             }
           ]
         },
@@ -523,24 +578,29 @@
           "cashbackPercent": null,
           "addons": [
             {
-              "id": "fries",
-              "name": "بطاطس مقلية",
-              "price": 8
-            },
-            {
-              "id": "cola",
-              "name": "كولا",
+              "id": "parmesan",
+              "name": "جبنة بارميزان",
               "price": 6
             },
             {
-              "id": "sauce",
-              "name": "صلصة إضافية",
-              "price": 3
+              "id": "garlic-bread",
+              "name": "ثوم محمص",
+              "price": 8
             },
             {
-              "id": "bread",
-              "name": "خبز إضافي",
+              "id": "extra-sauce",
+              "name": "صلصة زيادة",
               "price": 4
+            },
+            {
+              "id": "drink",
+              "name": "مشروب",
+              "price": 6
+            },
+            {
+              "id": "side-salad",
+              "name": "سلطة صغيرة",
+              "price": 10
             }
           ]
         },
@@ -570,24 +630,29 @@
           "cashbackPercent": null,
           "addons": [
             {
-              "id": "fries",
-              "name": "بطاطس مقلية",
-              "price": 8
-            },
-            {
-              "id": "cola",
-              "name": "كولا",
+              "id": "parmesan",
+              "name": "جبنة بارميزان",
               "price": 6
             },
             {
-              "id": "sauce",
-              "name": "صلصة إضافية",
-              "price": 3
+              "id": "garlic-bread",
+              "name": "ثوم محمص",
+              "price": 8
             },
             {
-              "id": "bread",
-              "name": "خبز إضافي",
+              "id": "extra-sauce",
+              "name": "صلصة زيادة",
               "price": 4
+            },
+            {
+              "id": "drink",
+              "name": "مشروب",
+              "price": 6
+            },
+            {
+              "id": "side-salad",
+              "name": "سلطة صغيرة",
+              "price": 10
             }
           ]
         }
@@ -633,24 +698,29 @@
           "cashbackPercent": null,
           "addons": [
             {
-              "id": "fries",
-              "name": "بطاطس مقلية",
-              "price": 8
-            },
-            {
-              "id": "cola",
-              "name": "كولا",
+              "id": "parmesan",
+              "name": "جبنة بارميزان",
               "price": 6
             },
             {
-              "id": "sauce",
-              "name": "صلصة إضافية",
-              "price": 3
+              "id": "garlic-bread",
+              "name": "ثوم محمص",
+              "price": 8
             },
             {
-              "id": "bread",
-              "name": "خبز إضافي",
+              "id": "extra-sauce",
+              "name": "صلصة زيادة",
               "price": 4
+            },
+            {
+              "id": "drink",
+              "name": "مشروب",
+              "price": 6
+            },
+            {
+              "id": "side-salad",
+              "name": "سلطة صغيرة",
+              "price": 10
             }
           ],
           "isCombo": false,
@@ -676,24 +746,29 @@
           "cashbackPercent": null,
           "addons": [
             {
-              "id": "fries",
-              "name": "بطاطس مقلية",
-              "price": 8
-            },
-            {
-              "id": "cola",
-              "name": "كولا",
+              "id": "parmesan",
+              "name": "جبنة بارميزان",
               "price": 6
             },
             {
-              "id": "sauce",
-              "name": "صلصة إضافية",
-              "price": 3
+              "id": "garlic-bread",
+              "name": "ثوم محمص",
+              "price": 8
             },
             {
-              "id": "bread",
-              "name": "خبز إضافي",
+              "id": "extra-sauce",
+              "name": "صلصة زيادة",
               "price": 4
+            },
+            {
+              "id": "drink",
+              "name": "مشروب",
+              "price": 6
+            },
+            {
+              "id": "side-salad",
+              "name": "سلطة صغيرة",
+              "price": 10
             }
           ],
           "isCombo": false,
@@ -719,24 +794,29 @@
           "cashbackPercent": 5,
           "addons": [
             {
-              "id": "fries",
-              "name": "بطاطس مقلية",
-              "price": 8
-            },
-            {
-              "id": "cola",
-              "name": "كولا",
+              "id": "parmesan",
+              "name": "جبنة بارميزان",
               "price": 6
             },
             {
-              "id": "sauce",
-              "name": "صلصة إضافية",
-              "price": 3
+              "id": "garlic-bread",
+              "name": "ثوم محمص",
+              "price": 8
             },
             {
-              "id": "bread",
-              "name": "خبز إضافي",
+              "id": "extra-sauce",
+              "name": "صلصة زيادة",
               "price": 4
+            },
+            {
+              "id": "drink",
+              "name": "مشروب",
+              "price": 6
+            },
+            {
+              "id": "side-salad",
+              "name": "سلطة صغيرة",
+              "price": 10
             }
           ],
           "isCombo": false,
@@ -762,24 +842,29 @@
           "cashbackPercent": null,
           "addons": [
             {
-              "id": "fries",
-              "name": "بطاطس مقلية",
-              "price": 8
-            },
-            {
-              "id": "cola",
-              "name": "كولا",
+              "id": "parmesan",
+              "name": "جبنة بارميزان",
               "price": 6
             },
             {
-              "id": "sauce",
-              "name": "صلصة إضافية",
-              "price": 3
+              "id": "garlic-bread",
+              "name": "ثوم محمص",
+              "price": 8
             },
             {
-              "id": "bread",
-              "name": "خبز إضافي",
+              "id": "extra-sauce",
+              "name": "صلصة زيادة",
               "price": 4
+            },
+            {
+              "id": "drink",
+              "name": "مشروب",
+              "price": 6
+            },
+            {
+              "id": "side-salad",
+              "name": "سلطة صغيرة",
+              "price": 10
             }
           ],
           "isCombo": false,
@@ -805,24 +890,29 @@
           "cashbackPercent": null,
           "addons": [
             {
-              "id": "fries",
-              "name": "بطاطس مقلية",
-              "price": 8
-            },
-            {
-              "id": "cola",
-              "name": "كولا",
+              "id": "parmesan",
+              "name": "جبنة بارميزان",
               "price": 6
             },
             {
-              "id": "sauce",
-              "name": "صلصة إضافية",
-              "price": 3
+              "id": "garlic-bread",
+              "name": "ثوم محمص",
+              "price": 8
             },
             {
-              "id": "bread",
-              "name": "خبز إضافي",
+              "id": "extra-sauce",
+              "name": "صلصة زيادة",
               "price": 4
+            },
+            {
+              "id": "drink",
+              "name": "مشروب",
+              "price": 6
+            },
+            {
+              "id": "side-salad",
+              "name": "سلطة صغيرة",
+              "price": 10
             }
           ],
           "isCombo": false,
@@ -848,24 +938,29 @@
           "cashbackPercent": null,
           "addons": [
             {
-              "id": "fries",
-              "name": "بطاطس مقلية",
-              "price": 8
-            },
-            {
-              "id": "cola",
-              "name": "كولا",
+              "id": "parmesan",
+              "name": "جبنة بارميزان",
               "price": 6
             },
             {
-              "id": "sauce",
-              "name": "صلصة إضافية",
-              "price": 3
+              "id": "garlic-bread",
+              "name": "ثوم محمص",
+              "price": 8
             },
             {
-              "id": "bread",
-              "name": "خبز إضافي",
+              "id": "extra-sauce",
+              "name": "صلصة زيادة",
               "price": 4
+            },
+            {
+              "id": "drink",
+              "name": "مشروب",
+              "price": 6
+            },
+            {
+              "id": "side-salad",
+              "name": "سلطة صغيرة",
+              "price": 10
             }
           ],
           "isCombo": false,
@@ -891,24 +986,29 @@
           "cashbackPercent": null,
           "addons": [
             {
-              "id": "fries",
-              "name": "بطاطس مقلية",
-              "price": 8
-            },
-            {
-              "id": "cola",
-              "name": "كولا",
+              "id": "parmesan",
+              "name": "جبنة بارميزان",
               "price": 6
             },
             {
-              "id": "sauce",
-              "name": "صلصة إضافية",
-              "price": 3
+              "id": "garlic-bread",
+              "name": "ثوم محمص",
+              "price": 8
             },
             {
-              "id": "bread",
-              "name": "خبز إضافي",
+              "id": "extra-sauce",
+              "name": "صلصة زيادة",
               "price": 4
+            },
+            {
+              "id": "drink",
+              "name": "مشروب",
+              "price": 6
+            },
+            {
+              "id": "side-salad",
+              "name": "سلطة صغيرة",
+              "price": 10
             }
           ],
           "isCombo": false,
@@ -934,24 +1034,29 @@
           "cashbackPercent": null,
           "addons": [
             {
-              "id": "fries",
-              "name": "بطاطس مقلية",
-              "price": 8
-            },
-            {
-              "id": "cola",
-              "name": "كولا",
+              "id": "parmesan",
+              "name": "جبنة بارميزان",
               "price": 6
             },
             {
-              "id": "sauce",
-              "name": "صلصة إضافية",
-              "price": 3
+              "id": "garlic-bread",
+              "name": "ثوم محمص",
+              "price": 8
             },
             {
-              "id": "bread",
-              "name": "خبز إضافي",
+              "id": "extra-sauce",
+              "name": "صلصة زيادة",
               "price": 4
+            },
+            {
+              "id": "drink",
+              "name": "مشروب",
+              "price": 6
+            },
+            {
+              "id": "side-salad",
+              "name": "سلطة صغيرة",
+              "price": 10
             }
           ],
           "isCombo": false,
@@ -977,24 +1082,29 @@
           "cashbackPercent": null,
           "addons": [
             {
-              "id": "fries",
-              "name": "بطاطس مقلية",
-              "price": 8
-            },
-            {
-              "id": "cola",
-              "name": "كولا",
+              "id": "parmesan",
+              "name": "جبنة بارميزان",
               "price": 6
             },
             {
-              "id": "sauce",
-              "name": "صلصة إضافية",
-              "price": 3
+              "id": "garlic-bread",
+              "name": "ثوم محمص",
+              "price": 8
             },
             {
-              "id": "bread",
-              "name": "خبز إضافي",
+              "id": "extra-sauce",
+              "name": "صلصة زيادة",
               "price": 4
+            },
+            {
+              "id": "drink",
+              "name": "مشروب",
+              "price": 6
+            },
+            {
+              "id": "side-salad",
+              "name": "سلطة صغيرة",
+              "price": 10
             }
           ],
           "isCombo": false,
@@ -1020,24 +1130,29 @@
           "cashbackPercent": null,
           "addons": [
             {
-              "id": "fries",
-              "name": "بطاطس مقلية",
-              "price": 8
-            },
-            {
-              "id": "cola",
-              "name": "كولا",
+              "id": "parmesan",
+              "name": "جبنة بارميزان",
               "price": 6
             },
             {
-              "id": "sauce",
-              "name": "صلصة إضافية",
-              "price": 3
+              "id": "garlic-bread",
+              "name": "ثوم محمص",
+              "price": 8
             },
             {
-              "id": "bread",
-              "name": "خبز إضافي",
+              "id": "extra-sauce",
+              "name": "صلصة زيادة",
               "price": 4
+            },
+            {
+              "id": "drink",
+              "name": "مشروب",
+              "price": 6
+            },
+            {
+              "id": "side-salad",
+              "name": "سلطة صغيرة",
+              "price": 10
             }
           ],
           "isCombo": false,
@@ -1069,24 +1184,29 @@
           "cashbackPercent": null,
           "addons": [
             {
-              "id": "fries",
-              "name": "بطاطس مقلية",
-              "price": 8
-            },
-            {
-              "id": "cola",
-              "name": "كولا",
+              "id": "parmesan",
+              "name": "جبنة بارميزان",
               "price": 6
             },
             {
-              "id": "sauce",
-              "name": "صلصة إضافية",
-              "price": 3
+              "id": "garlic-bread",
+              "name": "ثوم محمص",
+              "price": 8
             },
             {
-              "id": "bread",
-              "name": "خبز إضافي",
+              "id": "extra-sauce",
+              "name": "صلصة زيادة",
               "price": 4
+            },
+            {
+              "id": "drink",
+              "name": "مشروب",
+              "price": 6
+            },
+            {
+              "id": "side-salad",
+              "name": "سلطة صغيرة",
+              "price": 10
             }
           ]
         },
@@ -1116,24 +1236,29 @@
           "cashbackPercent": null,
           "addons": [
             {
-              "id": "fries",
-              "name": "بطاطس مقلية",
-              "price": 8
-            },
-            {
-              "id": "cola",
-              "name": "كولا",
+              "id": "parmesan",
+              "name": "جبنة بارميزان",
               "price": 6
             },
             {
-              "id": "sauce",
-              "name": "صلصة إضافية",
-              "price": 3
+              "id": "garlic-bread",
+              "name": "ثوم محمص",
+              "price": 8
             },
             {
-              "id": "bread",
-              "name": "خبز إضافي",
+              "id": "extra-sauce",
+              "name": "صلصة زيادة",
               "price": 4
+            },
+            {
+              "id": "drink",
+              "name": "مشروب",
+              "price": 6
+            },
+            {
+              "id": "side-salad",
+              "name": "سلطة صغيرة",
+              "price": 10
             }
           ]
         },
@@ -1163,24 +1288,29 @@
           "cashbackPercent": null,
           "addons": [
             {
-              "id": "fries",
-              "name": "بطاطس مقلية",
-              "price": 8
-            },
-            {
-              "id": "cola",
-              "name": "كولا",
+              "id": "parmesan",
+              "name": "جبنة بارميزان",
               "price": 6
             },
             {
-              "id": "sauce",
-              "name": "صلصة إضافية",
-              "price": 3
+              "id": "garlic-bread",
+              "name": "ثوم محمص",
+              "price": 8
             },
             {
-              "id": "bread",
-              "name": "خبز إضافي",
+              "id": "extra-sauce",
+              "name": "صلصة زيادة",
               "price": 4
+            },
+            {
+              "id": "drink",
+              "name": "مشروب",
+              "price": 6
+            },
+            {
+              "id": "side-salad",
+              "name": "سلطة صغيرة",
+              "price": 10
             }
           ]
         }
@@ -1226,24 +1356,29 @@
           "cashbackPercent": 5,
           "addons": [
             {
-              "id": "fries",
-              "name": "بطاطس مقلية",
-              "price": 8
-            },
-            {
-              "id": "cola",
-              "name": "كولا",
+              "id": "parmesan",
+              "name": "جبنة بارميزان",
               "price": 6
             },
             {
-              "id": "sauce",
-              "name": "صلصة إضافية",
-              "price": 3
+              "id": "garlic-bread",
+              "name": "ثوم محمص",
+              "price": 8
             },
             {
-              "id": "bread",
-              "name": "خبز إضافي",
+              "id": "extra-sauce",
+              "name": "صلصة زيادة",
               "price": 4
+            },
+            {
+              "id": "drink",
+              "name": "مشروب",
+              "price": 6
+            },
+            {
+              "id": "side-salad",
+              "name": "سلطة صغيرة",
+              "price": 10
             }
           ],
           "isCombo": false,
@@ -1269,24 +1404,29 @@
           "cashbackPercent": null,
           "addons": [
             {
-              "id": "fries",
-              "name": "بطاطس مقلية",
-              "price": 8
-            },
-            {
-              "id": "cola",
-              "name": "كولا",
+              "id": "parmesan",
+              "name": "جبنة بارميزان",
               "price": 6
             },
             {
-              "id": "sauce",
-              "name": "صلصة إضافية",
-              "price": 3
+              "id": "garlic-bread",
+              "name": "ثوم محمص",
+              "price": 8
             },
             {
-              "id": "bread",
-              "name": "خبز إضافي",
+              "id": "extra-sauce",
+              "name": "صلصة زيادة",
               "price": 4
+            },
+            {
+              "id": "drink",
+              "name": "مشروب",
+              "price": 6
+            },
+            {
+              "id": "side-salad",
+              "name": "سلطة صغيرة",
+              "price": 10
             }
           ],
           "isCombo": false,
@@ -1312,24 +1452,29 @@
           "cashbackPercent": 10,
           "addons": [
             {
-              "id": "fries",
-              "name": "بطاطس مقلية",
-              "price": 8
-            },
-            {
-              "id": "cola",
-              "name": "كولا",
+              "id": "parmesan",
+              "name": "جبنة بارميزان",
               "price": 6
             },
             {
-              "id": "sauce",
-              "name": "صلصة إضافية",
-              "price": 3
+              "id": "garlic-bread",
+              "name": "ثوم محمص",
+              "price": 8
             },
             {
-              "id": "bread",
-              "name": "خبز إضافي",
+              "id": "extra-sauce",
+              "name": "صلصة زيادة",
               "price": 4
+            },
+            {
+              "id": "drink",
+              "name": "مشروب",
+              "price": 6
+            },
+            {
+              "id": "side-salad",
+              "name": "سلطة صغيرة",
+              "price": 10
             }
           ],
           "isCombo": false,
@@ -1355,24 +1500,29 @@
           "cashbackPercent": null,
           "addons": [
             {
-              "id": "fries",
-              "name": "بطاطس مقلية",
-              "price": 8
-            },
-            {
-              "id": "cola",
-              "name": "كولا",
+              "id": "parmesan",
+              "name": "جبنة بارميزان",
               "price": 6
             },
             {
-              "id": "sauce",
-              "name": "صلصة إضافية",
-              "price": 3
+              "id": "garlic-bread",
+              "name": "ثوم محمص",
+              "price": 8
             },
             {
-              "id": "bread",
-              "name": "خبز إضافي",
+              "id": "extra-sauce",
+              "name": "صلصة زيادة",
               "price": 4
+            },
+            {
+              "id": "drink",
+              "name": "مشروب",
+              "price": 6
+            },
+            {
+              "id": "side-salad",
+              "name": "سلطة صغيرة",
+              "price": 10
             }
           ],
           "isCombo": false,
@@ -1398,24 +1548,29 @@
           "cashbackPercent": null,
           "addons": [
             {
-              "id": "fries",
-              "name": "بطاطس مقلية",
-              "price": 8
-            },
-            {
-              "id": "cola",
-              "name": "كولا",
+              "id": "parmesan",
+              "name": "جبنة بارميزان",
               "price": 6
             },
             {
-              "id": "sauce",
-              "name": "صلصة إضافية",
-              "price": 3
+              "id": "garlic-bread",
+              "name": "ثوم محمص",
+              "price": 8
             },
             {
-              "id": "bread",
-              "name": "خبز إضافي",
+              "id": "extra-sauce",
+              "name": "صلصة زيادة",
               "price": 4
+            },
+            {
+              "id": "drink",
+              "name": "مشروب",
+              "price": 6
+            },
+            {
+              "id": "side-salad",
+              "name": "سلطة صغيرة",
+              "price": 10
             }
           ],
           "isCombo": false,
@@ -1441,24 +1596,29 @@
           "cashbackPercent": null,
           "addons": [
             {
-              "id": "fries",
-              "name": "بطاطس مقلية",
-              "price": 8
-            },
-            {
-              "id": "cola",
-              "name": "كولا",
+              "id": "parmesan",
+              "name": "جبنة بارميزان",
               "price": 6
             },
             {
-              "id": "sauce",
-              "name": "صلصة إضافية",
-              "price": 3
+              "id": "garlic-bread",
+              "name": "ثوم محمص",
+              "price": 8
             },
             {
-              "id": "bread",
-              "name": "خبز إضافي",
+              "id": "extra-sauce",
+              "name": "صلصة زيادة",
               "price": 4
+            },
+            {
+              "id": "drink",
+              "name": "مشروب",
+              "price": 6
+            },
+            {
+              "id": "side-salad",
+              "name": "سلطة صغيرة",
+              "price": 10
             }
           ],
           "isCombo": false,
@@ -1484,24 +1644,29 @@
           "cashbackPercent": null,
           "addons": [
             {
-              "id": "fries",
-              "name": "بطاطس مقلية",
-              "price": 8
-            },
-            {
-              "id": "cola",
-              "name": "كولا",
+              "id": "parmesan",
+              "name": "جبنة بارميزان",
               "price": 6
             },
             {
-              "id": "sauce",
-              "name": "صلصة إضافية",
-              "price": 3
+              "id": "garlic-bread",
+              "name": "ثوم محمص",
+              "price": 8
             },
             {
-              "id": "bread",
-              "name": "خبز إضافي",
+              "id": "extra-sauce",
+              "name": "صلصة زيادة",
               "price": 4
+            },
+            {
+              "id": "drink",
+              "name": "مشروب",
+              "price": 6
+            },
+            {
+              "id": "side-salad",
+              "name": "سلطة صغيرة",
+              "price": 10
             }
           ],
           "isCombo": false,
@@ -1527,24 +1692,29 @@
           "cashbackPercent": null,
           "addons": [
             {
-              "id": "fries",
-              "name": "بطاطس مقلية",
-              "price": 8
-            },
-            {
-              "id": "cola",
-              "name": "كولا",
+              "id": "parmesan",
+              "name": "جبنة بارميزان",
               "price": 6
             },
             {
-              "id": "sauce",
-              "name": "صلصة إضافية",
-              "price": 3
+              "id": "garlic-bread",
+              "name": "ثوم محمص",
+              "price": 8
             },
             {
-              "id": "bread",
-              "name": "خبز إضافي",
+              "id": "extra-sauce",
+              "name": "صلصة زيادة",
               "price": 4
+            },
+            {
+              "id": "drink",
+              "name": "مشروب",
+              "price": 6
+            },
+            {
+              "id": "side-salad",
+              "name": "سلطة صغيرة",
+              "price": 10
             }
           ],
           "isCombo": false,
@@ -1570,24 +1740,29 @@
           "cashbackPercent": null,
           "addons": [
             {
-              "id": "fries",
-              "name": "بطاطس مقلية",
-              "price": 8
-            },
-            {
-              "id": "cola",
-              "name": "كولا",
+              "id": "parmesan",
+              "name": "جبنة بارميزان",
               "price": 6
             },
             {
-              "id": "sauce",
-              "name": "صلصة إضافية",
-              "price": 3
+              "id": "garlic-bread",
+              "name": "ثوم محمص",
+              "price": 8
             },
             {
-              "id": "bread",
-              "name": "خبز إضافي",
+              "id": "extra-sauce",
+              "name": "صلصة زيادة",
               "price": 4
+            },
+            {
+              "id": "drink",
+              "name": "مشروب",
+              "price": 6
+            },
+            {
+              "id": "side-salad",
+              "name": "سلطة صغيرة",
+              "price": 10
             }
           ],
           "isCombo": false,
@@ -1613,24 +1788,29 @@
           "cashbackPercent": null,
           "addons": [
             {
-              "id": "fries",
-              "name": "بطاطس مقلية",
-              "price": 8
-            },
-            {
-              "id": "cola",
-              "name": "كولا",
+              "id": "parmesan",
+              "name": "جبنة بارميزان",
               "price": 6
             },
             {
-              "id": "sauce",
-              "name": "صلصة إضافية",
-              "price": 3
+              "id": "garlic-bread",
+              "name": "ثوم محمص",
+              "price": 8
             },
             {
-              "id": "bread",
-              "name": "خبز إضافي",
+              "id": "extra-sauce",
+              "name": "صلصة زيادة",
               "price": 4
+            },
+            {
+              "id": "drink",
+              "name": "مشروب",
+              "price": 6
+            },
+            {
+              "id": "side-salad",
+              "name": "سلطة صغيرة",
+              "price": 10
             }
           ],
           "isCombo": false,
@@ -1662,24 +1842,29 @@
           "cashbackPercent": null,
           "addons": [
             {
-              "id": "fries",
-              "name": "بطاطس مقلية",
-              "price": 8
-            },
-            {
-              "id": "cola",
-              "name": "كولا",
+              "id": "parmesan",
+              "name": "جبنة بارميزان",
               "price": 6
             },
             {
-              "id": "sauce",
-              "name": "صلصة إضافية",
-              "price": 3
+              "id": "garlic-bread",
+              "name": "ثوم محمص",
+              "price": 8
             },
             {
-              "id": "bread",
-              "name": "خبز إضافي",
+              "id": "extra-sauce",
+              "name": "صلصة زيادة",
               "price": 4
+            },
+            {
+              "id": "drink",
+              "name": "مشروب",
+              "price": 6
+            },
+            {
+              "id": "side-salad",
+              "name": "سلطة صغيرة",
+              "price": 10
             }
           ]
         },
@@ -1709,24 +1894,29 @@
           "cashbackPercent": null,
           "addons": [
             {
-              "id": "fries",
-              "name": "بطاطس مقلية",
-              "price": 8
-            },
-            {
-              "id": "cola",
-              "name": "كولا",
+              "id": "parmesan",
+              "name": "جبنة بارميزان",
               "price": 6
             },
             {
-              "id": "sauce",
-              "name": "صلصة إضافية",
-              "price": 3
+              "id": "garlic-bread",
+              "name": "ثوم محمص",
+              "price": 8
             },
             {
-              "id": "bread",
-              "name": "خبز إضافي",
+              "id": "extra-sauce",
+              "name": "صلصة زيادة",
               "price": 4
+            },
+            {
+              "id": "drink",
+              "name": "مشروب",
+              "price": 6
+            },
+            {
+              "id": "side-salad",
+              "name": "سلطة صغيرة",
+              "price": 10
             }
           ]
         },
@@ -1756,24 +1946,29 @@
           "cashbackPercent": null,
           "addons": [
             {
-              "id": "fries",
-              "name": "بطاطس مقلية",
-              "price": 8
-            },
-            {
-              "id": "cola",
-              "name": "كولا",
+              "id": "parmesan",
+              "name": "جبنة بارميزان",
               "price": 6
             },
             {
-              "id": "sauce",
-              "name": "صلصة إضافية",
-              "price": 3
+              "id": "garlic-bread",
+              "name": "ثوم محمص",
+              "price": 8
             },
             {
-              "id": "bread",
-              "name": "خبز إضافي",
+              "id": "extra-sauce",
+              "name": "صلصة زيادة",
               "price": 4
+            },
+            {
+              "id": "drink",
+              "name": "مشروب",
+              "price": 6
+            },
+            {
+              "id": "side-salad",
+              "name": "سلطة صغيرة",
+              "price": 10
             }
           ]
         }
@@ -1819,24 +2014,29 @@
           "cashbackPercent": null,
           "addons": [
             {
-              "id": "fries",
-              "name": "بطاطس مقلية",
-              "price": 8
-            },
-            {
-              "id": "cola",
-              "name": "كولا",
+              "id": "parmesan",
+              "name": "جبنة بارميزان",
               "price": 6
             },
             {
-              "id": "sauce",
-              "name": "صلصة إضافية",
-              "price": 3
+              "id": "garlic-bread",
+              "name": "ثوم محمص",
+              "price": 8
             },
             {
-              "id": "bread",
-              "name": "خبز إضافي",
+              "id": "extra-sauce",
+              "name": "صلصة زيادة",
               "price": 4
+            },
+            {
+              "id": "drink",
+              "name": "مشروب",
+              "price": 6
+            },
+            {
+              "id": "side-salad",
+              "name": "سلطة صغيرة",
+              "price": 10
             }
           ],
           "isCombo": false,
@@ -1862,24 +2062,29 @@
           "cashbackPercent": null,
           "addons": [
             {
-              "id": "fries",
-              "name": "بطاطس مقلية",
-              "price": 8
-            },
-            {
-              "id": "cola",
-              "name": "كولا",
+              "id": "parmesan",
+              "name": "جبنة بارميزان",
               "price": 6
             },
             {
-              "id": "sauce",
-              "name": "صلصة إضافية",
-              "price": 3
+              "id": "garlic-bread",
+              "name": "ثوم محمص",
+              "price": 8
             },
             {
-              "id": "bread",
-              "name": "خبز إضافي",
+              "id": "extra-sauce",
+              "name": "صلصة زيادة",
               "price": 4
+            },
+            {
+              "id": "drink",
+              "name": "مشروب",
+              "price": 6
+            },
+            {
+              "id": "side-salad",
+              "name": "سلطة صغيرة",
+              "price": 10
             }
           ],
           "isCombo": false,
@@ -1905,24 +2110,29 @@
           "cashbackPercent": null,
           "addons": [
             {
-              "id": "fries",
-              "name": "بطاطس مقلية",
-              "price": 8
-            },
-            {
-              "id": "cola",
-              "name": "كولا",
+              "id": "parmesan",
+              "name": "جبنة بارميزان",
               "price": 6
             },
             {
-              "id": "sauce",
-              "name": "صلصة إضافية",
-              "price": 3
+              "id": "garlic-bread",
+              "name": "ثوم محمص",
+              "price": 8
             },
             {
-              "id": "bread",
-              "name": "خبز إضافي",
+              "id": "extra-sauce",
+              "name": "صلصة زيادة",
               "price": 4
+            },
+            {
+              "id": "drink",
+              "name": "مشروب",
+              "price": 6
+            },
+            {
+              "id": "side-salad",
+              "name": "سلطة صغيرة",
+              "price": 10
             }
           ],
           "isCombo": false,
@@ -1948,24 +2158,29 @@
           "cashbackPercent": null,
           "addons": [
             {
-              "id": "fries",
-              "name": "بطاطس مقلية",
-              "price": 8
-            },
-            {
-              "id": "cola",
-              "name": "كولا",
+              "id": "parmesan",
+              "name": "جبنة بارميزان",
               "price": 6
             },
             {
-              "id": "sauce",
-              "name": "صلصة إضافية",
-              "price": 3
+              "id": "garlic-bread",
+              "name": "ثوم محمص",
+              "price": 8
             },
             {
-              "id": "bread",
-              "name": "خبز إضافي",
+              "id": "extra-sauce",
+              "name": "صلصة زيادة",
               "price": 4
+            },
+            {
+              "id": "drink",
+              "name": "مشروب",
+              "price": 6
+            },
+            {
+              "id": "side-salad",
+              "name": "سلطة صغيرة",
+              "price": 10
             }
           ],
           "isCombo": false,
@@ -1991,24 +2206,29 @@
           "cashbackPercent": null,
           "addons": [
             {
-              "id": "fries",
-              "name": "بطاطس مقلية",
-              "price": 8
-            },
-            {
-              "id": "cola",
-              "name": "كولا",
+              "id": "parmesan",
+              "name": "جبنة بارميزان",
               "price": 6
             },
             {
-              "id": "sauce",
-              "name": "صلصة إضافية",
-              "price": 3
+              "id": "garlic-bread",
+              "name": "ثوم محمص",
+              "price": 8
             },
             {
-              "id": "bread",
-              "name": "خبز إضافي",
+              "id": "extra-sauce",
+              "name": "صلصة زيادة",
               "price": 4
+            },
+            {
+              "id": "drink",
+              "name": "مشروب",
+              "price": 6
+            },
+            {
+              "id": "side-salad",
+              "name": "سلطة صغيرة",
+              "price": 10
             }
           ],
           "isCombo": false,
@@ -2034,24 +2254,29 @@
           "cashbackPercent": 15,
           "addons": [
             {
-              "id": "fries",
-              "name": "بطاطس مقلية",
-              "price": 8
-            },
-            {
-              "id": "cola",
-              "name": "كولا",
+              "id": "parmesan",
+              "name": "جبنة بارميزان",
               "price": 6
             },
             {
-              "id": "sauce",
-              "name": "صلصة إضافية",
-              "price": 3
+              "id": "garlic-bread",
+              "name": "ثوم محمص",
+              "price": 8
             },
             {
-              "id": "bread",
-              "name": "خبز إضافي",
+              "id": "extra-sauce",
+              "name": "صلصة زيادة",
               "price": 4
+            },
+            {
+              "id": "drink",
+              "name": "مشروب",
+              "price": 6
+            },
+            {
+              "id": "side-salad",
+              "name": "سلطة صغيرة",
+              "price": 10
             }
           ],
           "isCombo": false,
@@ -2077,24 +2302,29 @@
           "cashbackPercent": null,
           "addons": [
             {
-              "id": "fries",
-              "name": "بطاطس مقلية",
-              "price": 8
-            },
-            {
-              "id": "cola",
-              "name": "كولا",
+              "id": "parmesan",
+              "name": "جبنة بارميزان",
               "price": 6
             },
             {
-              "id": "sauce",
-              "name": "صلصة إضافية",
-              "price": 3
+              "id": "garlic-bread",
+              "name": "ثوم محمص",
+              "price": 8
             },
             {
-              "id": "bread",
-              "name": "خبز إضافي",
+              "id": "extra-sauce",
+              "name": "صلصة زيادة",
               "price": 4
+            },
+            {
+              "id": "drink",
+              "name": "مشروب",
+              "price": 6
+            },
+            {
+              "id": "side-salad",
+              "name": "سلطة صغيرة",
+              "price": 10
             }
           ],
           "isCombo": false,
@@ -2120,24 +2350,29 @@
           "cashbackPercent": 15,
           "addons": [
             {
-              "id": "fries",
-              "name": "بطاطس مقلية",
-              "price": 8
-            },
-            {
-              "id": "cola",
-              "name": "كولا",
+              "id": "parmesan",
+              "name": "جبنة بارميزان",
               "price": 6
             },
             {
-              "id": "sauce",
-              "name": "صلصة إضافية",
-              "price": 3
+              "id": "garlic-bread",
+              "name": "ثوم محمص",
+              "price": 8
             },
             {
-              "id": "bread",
-              "name": "خبز إضافي",
+              "id": "extra-sauce",
+              "name": "صلصة زيادة",
               "price": 4
+            },
+            {
+              "id": "drink",
+              "name": "مشروب",
+              "price": 6
+            },
+            {
+              "id": "side-salad",
+              "name": "سلطة صغيرة",
+              "price": 10
             }
           ],
           "isCombo": false,
@@ -2163,24 +2398,29 @@
           "cashbackPercent": null,
           "addons": [
             {
-              "id": "fries",
-              "name": "بطاطس مقلية",
-              "price": 8
-            },
-            {
-              "id": "cola",
-              "name": "كولا",
+              "id": "parmesan",
+              "name": "جبنة بارميزان",
               "price": 6
             },
             {
-              "id": "sauce",
-              "name": "صلصة إضافية",
-              "price": 3
+              "id": "garlic-bread",
+              "name": "ثوم محمص",
+              "price": 8
             },
             {
-              "id": "bread",
-              "name": "خبز إضافي",
+              "id": "extra-sauce",
+              "name": "صلصة زيادة",
               "price": 4
+            },
+            {
+              "id": "drink",
+              "name": "مشروب",
+              "price": 6
+            },
+            {
+              "id": "side-salad",
+              "name": "سلطة صغيرة",
+              "price": 10
             }
           ],
           "isCombo": false,
@@ -2206,24 +2446,29 @@
           "cashbackPercent": null,
           "addons": [
             {
-              "id": "fries",
-              "name": "بطاطس مقلية",
-              "price": 8
-            },
-            {
-              "id": "cola",
-              "name": "كولا",
+              "id": "parmesan",
+              "name": "جبنة بارميزان",
               "price": 6
             },
             {
-              "id": "sauce",
-              "name": "صلصة إضافية",
-              "price": 3
+              "id": "garlic-bread",
+              "name": "ثوم محمص",
+              "price": 8
             },
             {
-              "id": "bread",
-              "name": "خبز إضافي",
+              "id": "extra-sauce",
+              "name": "صلصة زيادة",
               "price": 4
+            },
+            {
+              "id": "drink",
+              "name": "مشروب",
+              "price": 6
+            },
+            {
+              "id": "side-salad",
+              "name": "سلطة صغيرة",
+              "price": 10
             }
           ],
           "isCombo": false,
@@ -2255,24 +2500,29 @@
           "cashbackPercent": null,
           "addons": [
             {
-              "id": "fries",
-              "name": "بطاطس مقلية",
-              "price": 8
-            },
-            {
-              "id": "cola",
-              "name": "كولا",
+              "id": "parmesan",
+              "name": "جبنة بارميزان",
               "price": 6
             },
             {
-              "id": "sauce",
-              "name": "صلصة إضافية",
-              "price": 3
+              "id": "garlic-bread",
+              "name": "ثوم محمص",
+              "price": 8
             },
             {
-              "id": "bread",
-              "name": "خبز إضافي",
+              "id": "extra-sauce",
+              "name": "صلصة زيادة",
               "price": 4
+            },
+            {
+              "id": "drink",
+              "name": "مشروب",
+              "price": 6
+            },
+            {
+              "id": "side-salad",
+              "name": "سلطة صغيرة",
+              "price": 10
             }
           ]
         },
@@ -2302,24 +2552,29 @@
           "cashbackPercent": null,
           "addons": [
             {
-              "id": "fries",
-              "name": "بطاطس مقلية",
-              "price": 8
-            },
-            {
-              "id": "cola",
-              "name": "كولا",
+              "id": "parmesan",
+              "name": "جبنة بارميزان",
               "price": 6
             },
             {
-              "id": "sauce",
-              "name": "صلصة إضافية",
-              "price": 3
+              "id": "garlic-bread",
+              "name": "ثوم محمص",
+              "price": 8
             },
             {
-              "id": "bread",
-              "name": "خبز إضافي",
+              "id": "extra-sauce",
+              "name": "صلصة زيادة",
               "price": 4
+            },
+            {
+              "id": "drink",
+              "name": "مشروب",
+              "price": 6
+            },
+            {
+              "id": "side-salad",
+              "name": "سلطة صغيرة",
+              "price": 10
             }
           ]
         },
@@ -2349,24 +2604,29 @@
           "cashbackPercent": null,
           "addons": [
             {
-              "id": "fries",
-              "name": "بطاطس مقلية",
-              "price": 8
-            },
-            {
-              "id": "cola",
-              "name": "كولا",
+              "id": "parmesan",
+              "name": "جبنة بارميزان",
               "price": 6
             },
             {
-              "id": "sauce",
-              "name": "صلصة إضافية",
-              "price": 3
+              "id": "garlic-bread",
+              "name": "ثوم محمص",
+              "price": 8
             },
             {
-              "id": "bread",
-              "name": "خبز إضافي",
+              "id": "extra-sauce",
+              "name": "صلصة زيادة",
               "price": 4
+            },
+            {
+              "id": "drink",
+              "name": "مشروب",
+              "price": 6
+            },
+            {
+              "id": "side-salad",
+              "name": "سلطة صغيرة",
+              "price": 10
             }
           ]
         }
@@ -2412,24 +2672,29 @@
           "cashbackPercent": null,
           "addons": [
             {
-              "id": "fries",
-              "name": "بطاطس مقلية",
-              "price": 8
-            },
-            {
-              "id": "cola",
-              "name": "كولا",
+              "id": "parmesan",
+              "name": "جبنة بارميزان",
               "price": 6
             },
             {
-              "id": "sauce",
-              "name": "صلصة إضافية",
-              "price": 3
+              "id": "garlic-bread",
+              "name": "ثوم محمص",
+              "price": 8
             },
             {
-              "id": "bread",
-              "name": "خبز إضافي",
+              "id": "extra-sauce",
+              "name": "صلصة زيادة",
               "price": 4
+            },
+            {
+              "id": "drink",
+              "name": "مشروب",
+              "price": 6
+            },
+            {
+              "id": "side-salad",
+              "name": "سلطة صغيرة",
+              "price": 10
             }
           ],
           "isCombo": false,
@@ -2455,24 +2720,29 @@
           "cashbackPercent": null,
           "addons": [
             {
-              "id": "fries",
-              "name": "بطاطس مقلية",
-              "price": 8
-            },
-            {
-              "id": "cola",
-              "name": "كولا",
+              "id": "parmesan",
+              "name": "جبنة بارميزان",
               "price": 6
             },
             {
-              "id": "sauce",
-              "name": "صلصة إضافية",
-              "price": 3
+              "id": "garlic-bread",
+              "name": "ثوم محمص",
+              "price": 8
             },
             {
-              "id": "bread",
-              "name": "خبز إضافي",
+              "id": "extra-sauce",
+              "name": "صلصة زيادة",
               "price": 4
+            },
+            {
+              "id": "drink",
+              "name": "مشروب",
+              "price": 6
+            },
+            {
+              "id": "side-salad",
+              "name": "سلطة صغيرة",
+              "price": 10
             }
           ],
           "isCombo": false,
@@ -2498,24 +2768,29 @@
           "cashbackPercent": null,
           "addons": [
             {
-              "id": "fries",
-              "name": "بطاطس مقلية",
-              "price": 8
-            },
-            {
-              "id": "cola",
-              "name": "كولا",
+              "id": "parmesan",
+              "name": "جبنة بارميزان",
               "price": 6
             },
             {
-              "id": "sauce",
-              "name": "صلصة إضافية",
-              "price": 3
+              "id": "garlic-bread",
+              "name": "ثوم محمص",
+              "price": 8
             },
             {
-              "id": "bread",
-              "name": "خبز إضافي",
+              "id": "extra-sauce",
+              "name": "صلصة زيادة",
               "price": 4
+            },
+            {
+              "id": "drink",
+              "name": "مشروب",
+              "price": 6
+            },
+            {
+              "id": "side-salad",
+              "name": "سلطة صغيرة",
+              "price": 10
             }
           ],
           "isCombo": false,
@@ -2541,24 +2816,29 @@
           "cashbackPercent": null,
           "addons": [
             {
-              "id": "fries",
-              "name": "بطاطس مقلية",
-              "price": 8
-            },
-            {
-              "id": "cola",
-              "name": "كولا",
+              "id": "parmesan",
+              "name": "جبنة بارميزان",
               "price": 6
             },
             {
-              "id": "sauce",
-              "name": "صلصة إضافية",
-              "price": 3
+              "id": "garlic-bread",
+              "name": "ثوم محمص",
+              "price": 8
             },
             {
-              "id": "bread",
-              "name": "خبز إضافي",
+              "id": "extra-sauce",
+              "name": "صلصة زيادة",
               "price": 4
+            },
+            {
+              "id": "drink",
+              "name": "مشروب",
+              "price": 6
+            },
+            {
+              "id": "side-salad",
+              "name": "سلطة صغيرة",
+              "price": 10
             }
           ],
           "isCombo": false,
@@ -2584,24 +2864,29 @@
           "cashbackPercent": null,
           "addons": [
             {
-              "id": "fries",
-              "name": "بطاطس مقلية",
-              "price": 8
-            },
-            {
-              "id": "cola",
-              "name": "كولا",
+              "id": "parmesan",
+              "name": "جبنة بارميزان",
               "price": 6
             },
             {
-              "id": "sauce",
-              "name": "صلصة إضافية",
-              "price": 3
+              "id": "garlic-bread",
+              "name": "ثوم محمص",
+              "price": 8
             },
             {
-              "id": "bread",
-              "name": "خبز إضافي",
+              "id": "extra-sauce",
+              "name": "صلصة زيادة",
               "price": 4
+            },
+            {
+              "id": "drink",
+              "name": "مشروب",
+              "price": 6
+            },
+            {
+              "id": "side-salad",
+              "name": "سلطة صغيرة",
+              "price": 10
             }
           ],
           "isCombo": false,
@@ -2627,24 +2912,29 @@
           "cashbackPercent": null,
           "addons": [
             {
-              "id": "fries",
-              "name": "بطاطس مقلية",
-              "price": 8
-            },
-            {
-              "id": "cola",
-              "name": "كولا",
+              "id": "parmesan",
+              "name": "جبنة بارميزان",
               "price": 6
             },
             {
-              "id": "sauce",
-              "name": "صلصة إضافية",
-              "price": 3
+              "id": "garlic-bread",
+              "name": "ثوم محمص",
+              "price": 8
             },
             {
-              "id": "bread",
-              "name": "خبز إضافي",
+              "id": "extra-sauce",
+              "name": "صلصة زيادة",
               "price": 4
+            },
+            {
+              "id": "drink",
+              "name": "مشروب",
+              "price": 6
+            },
+            {
+              "id": "side-salad",
+              "name": "سلطة صغيرة",
+              "price": 10
             }
           ],
           "isCombo": false,
@@ -2670,24 +2960,29 @@
           "cashbackPercent": null,
           "addons": [
             {
-              "id": "fries",
-              "name": "بطاطس مقلية",
-              "price": 8
-            },
-            {
-              "id": "cola",
-              "name": "كولا",
+              "id": "parmesan",
+              "name": "جبنة بارميزان",
               "price": 6
             },
             {
-              "id": "sauce",
-              "name": "صلصة إضافية",
-              "price": 3
+              "id": "garlic-bread",
+              "name": "ثوم محمص",
+              "price": 8
             },
             {
-              "id": "bread",
-              "name": "خبز إضافي",
+              "id": "extra-sauce",
+              "name": "صلصة زيادة",
               "price": 4
+            },
+            {
+              "id": "drink",
+              "name": "مشروب",
+              "price": 6
+            },
+            {
+              "id": "side-salad",
+              "name": "سلطة صغيرة",
+              "price": 10
             }
           ],
           "isCombo": false,
@@ -2713,24 +3008,29 @@
           "cashbackPercent": null,
           "addons": [
             {
-              "id": "fries",
-              "name": "بطاطس مقلية",
-              "price": 8
-            },
-            {
-              "id": "cola",
-              "name": "كولا",
+              "id": "parmesan",
+              "name": "جبنة بارميزان",
               "price": 6
             },
             {
-              "id": "sauce",
-              "name": "صلصة إضافية",
-              "price": 3
+              "id": "garlic-bread",
+              "name": "ثوم محمص",
+              "price": 8
             },
             {
-              "id": "bread",
-              "name": "خبز إضافي",
+              "id": "extra-sauce",
+              "name": "صلصة زيادة",
               "price": 4
+            },
+            {
+              "id": "drink",
+              "name": "مشروب",
+              "price": 6
+            },
+            {
+              "id": "side-salad",
+              "name": "سلطة صغيرة",
+              "price": 10
             }
           ],
           "isCombo": false,
@@ -2756,24 +3056,29 @@
           "cashbackPercent": null,
           "addons": [
             {
-              "id": "fries",
-              "name": "بطاطس مقلية",
-              "price": 8
-            },
-            {
-              "id": "cola",
-              "name": "كولا",
+              "id": "parmesan",
+              "name": "جبنة بارميزان",
               "price": 6
             },
             {
-              "id": "sauce",
-              "name": "صلصة إضافية",
-              "price": 3
+              "id": "garlic-bread",
+              "name": "ثوم محمص",
+              "price": 8
             },
             {
-              "id": "bread",
-              "name": "خبز إضافي",
+              "id": "extra-sauce",
+              "name": "صلصة زيادة",
               "price": 4
+            },
+            {
+              "id": "drink",
+              "name": "مشروب",
+              "price": 6
+            },
+            {
+              "id": "side-salad",
+              "name": "سلطة صغيرة",
+              "price": 10
             }
           ],
           "isCombo": false,
@@ -2799,24 +3104,29 @@
           "cashbackPercent": null,
           "addons": [
             {
-              "id": "fries",
-              "name": "بطاطس مقلية",
-              "price": 8
-            },
-            {
-              "id": "cola",
-              "name": "كولا",
+              "id": "parmesan",
+              "name": "جبنة بارميزان",
               "price": 6
             },
             {
-              "id": "sauce",
-              "name": "صلصة إضافية",
-              "price": 3
+              "id": "garlic-bread",
+              "name": "ثوم محمص",
+              "price": 8
             },
             {
-              "id": "bread",
-              "name": "خبز إضافي",
+              "id": "extra-sauce",
+              "name": "صلصة زيادة",
               "price": 4
+            },
+            {
+              "id": "drink",
+              "name": "مشروب",
+              "price": 6
+            },
+            {
+              "id": "side-salad",
+              "name": "سلطة صغيرة",
+              "price": 10
             }
           ],
           "isCombo": false,
@@ -2848,24 +3158,29 @@
           "cashbackPercent": null,
           "addons": [
             {
-              "id": "fries",
-              "name": "بطاطس مقلية",
-              "price": 8
-            },
-            {
-              "id": "cola",
-              "name": "كولا",
+              "id": "parmesan",
+              "name": "جبنة بارميزان",
               "price": 6
             },
             {
-              "id": "sauce",
-              "name": "صلصة إضافية",
-              "price": 3
+              "id": "garlic-bread",
+              "name": "ثوم محمص",
+              "price": 8
             },
             {
-              "id": "bread",
-              "name": "خبز إضافي",
+              "id": "extra-sauce",
+              "name": "صلصة زيادة",
               "price": 4
+            },
+            {
+              "id": "drink",
+              "name": "مشروب",
+              "price": 6
+            },
+            {
+              "id": "side-salad",
+              "name": "سلطة صغيرة",
+              "price": 10
             }
           ]
         },
@@ -2895,24 +3210,29 @@
           "cashbackPercent": null,
           "addons": [
             {
-              "id": "fries",
-              "name": "بطاطس مقلية",
-              "price": 8
-            },
-            {
-              "id": "cola",
-              "name": "كولا",
+              "id": "parmesan",
+              "name": "جبنة بارميزان",
               "price": 6
             },
             {
-              "id": "sauce",
-              "name": "صلصة إضافية",
-              "price": 3
+              "id": "garlic-bread",
+              "name": "ثوم محمص",
+              "price": 8
             },
             {
-              "id": "bread",
-              "name": "خبز إضافي",
+              "id": "extra-sauce",
+              "name": "صلصة زيادة",
               "price": 4
+            },
+            {
+              "id": "drink",
+              "name": "مشروب",
+              "price": 6
+            },
+            {
+              "id": "side-salad",
+              "name": "سلطة صغيرة",
+              "price": 10
             }
           ]
         },
@@ -2942,24 +3262,29 @@
           "cashbackPercent": null,
           "addons": [
             {
-              "id": "fries",
-              "name": "بطاطس مقلية",
-              "price": 8
-            },
-            {
-              "id": "cola",
-              "name": "كولا",
+              "id": "parmesan",
+              "name": "جبنة بارميزان",
               "price": 6
             },
             {
-              "id": "sauce",
-              "name": "صلصة إضافية",
-              "price": 3
+              "id": "garlic-bread",
+              "name": "ثوم محمص",
+              "price": 8
             },
             {
-              "id": "bread",
-              "name": "خبز إضافي",
+              "id": "extra-sauce",
+              "name": "صلصة زيادة",
               "price": 4
+            },
+            {
+              "id": "drink",
+              "name": "مشروب",
+              "price": 6
+            },
+            {
+              "id": "side-salad",
+              "name": "سلطة صغيرة",
+              "price": 10
             }
           ]
         }
@@ -3005,24 +3330,29 @@
           "cashbackPercent": null,
           "addons": [
             {
-              "id": "fries",
-              "name": "بطاطس مقلية",
-              "price": 8
-            },
-            {
-              "id": "cola",
-              "name": "كولا",
+              "id": "parmesan",
+              "name": "جبنة بارميزان",
               "price": 6
             },
             {
-              "id": "sauce",
-              "name": "صلصة إضافية",
-              "price": 3
+              "id": "garlic-bread",
+              "name": "ثوم محمص",
+              "price": 8
             },
             {
-              "id": "bread",
-              "name": "خبز إضافي",
+              "id": "extra-sauce",
+              "name": "صلصة زيادة",
               "price": 4
+            },
+            {
+              "id": "drink",
+              "name": "مشروب",
+              "price": 6
+            },
+            {
+              "id": "side-salad",
+              "name": "سلطة صغيرة",
+              "price": 10
             }
           ],
           "isCombo": false,
@@ -3048,24 +3378,29 @@
           "cashbackPercent": null,
           "addons": [
             {
-              "id": "fries",
-              "name": "بطاطس مقلية",
-              "price": 8
-            },
-            {
-              "id": "cola",
-              "name": "كولا",
+              "id": "parmesan",
+              "name": "جبنة بارميزان",
               "price": 6
             },
             {
-              "id": "sauce",
-              "name": "صلصة إضافية",
-              "price": 3
+              "id": "garlic-bread",
+              "name": "ثوم محمص",
+              "price": 8
             },
             {
-              "id": "bread",
-              "name": "خبز إضافي",
+              "id": "extra-sauce",
+              "name": "صلصة زيادة",
               "price": 4
+            },
+            {
+              "id": "drink",
+              "name": "مشروب",
+              "price": 6
+            },
+            {
+              "id": "side-salad",
+              "name": "سلطة صغيرة",
+              "price": 10
             }
           ],
           "isCombo": false,
@@ -3091,24 +3426,29 @@
           "cashbackPercent": null,
           "addons": [
             {
-              "id": "fries",
-              "name": "بطاطس مقلية",
-              "price": 8
-            },
-            {
-              "id": "cola",
-              "name": "كولا",
+              "id": "parmesan",
+              "name": "جبنة بارميزان",
               "price": 6
             },
             {
-              "id": "sauce",
-              "name": "صلصة إضافية",
-              "price": 3
+              "id": "garlic-bread",
+              "name": "ثوم محمص",
+              "price": 8
             },
             {
-              "id": "bread",
-              "name": "خبز إضافي",
+              "id": "extra-sauce",
+              "name": "صلصة زيادة",
               "price": 4
+            },
+            {
+              "id": "drink",
+              "name": "مشروب",
+              "price": 6
+            },
+            {
+              "id": "side-salad",
+              "name": "سلطة صغيرة",
+              "price": 10
             }
           ],
           "isCombo": false,
@@ -3134,24 +3474,29 @@
           "cashbackPercent": 5,
           "addons": [
             {
-              "id": "fries",
-              "name": "بطاطس مقلية",
-              "price": 8
-            },
-            {
-              "id": "cola",
-              "name": "كولا",
+              "id": "parmesan",
+              "name": "جبنة بارميزان",
               "price": 6
             },
             {
-              "id": "sauce",
-              "name": "صلصة إضافية",
-              "price": 3
+              "id": "garlic-bread",
+              "name": "ثوم محمص",
+              "price": 8
             },
             {
-              "id": "bread",
-              "name": "خبز إضافي",
+              "id": "extra-sauce",
+              "name": "صلصة زيادة",
               "price": 4
+            },
+            {
+              "id": "drink",
+              "name": "مشروب",
+              "price": 6
+            },
+            {
+              "id": "side-salad",
+              "name": "سلطة صغيرة",
+              "price": 10
             }
           ],
           "isCombo": false,
@@ -3177,24 +3522,29 @@
           "cashbackPercent": null,
           "addons": [
             {
-              "id": "fries",
-              "name": "بطاطس مقلية",
-              "price": 8
-            },
-            {
-              "id": "cola",
-              "name": "كولا",
+              "id": "parmesan",
+              "name": "جبنة بارميزان",
               "price": 6
             },
             {
-              "id": "sauce",
-              "name": "صلصة إضافية",
-              "price": 3
+              "id": "garlic-bread",
+              "name": "ثوم محمص",
+              "price": 8
             },
             {
-              "id": "bread",
-              "name": "خبز إضافي",
+              "id": "extra-sauce",
+              "name": "صلصة زيادة",
               "price": 4
+            },
+            {
+              "id": "drink",
+              "name": "مشروب",
+              "price": 6
+            },
+            {
+              "id": "side-salad",
+              "name": "سلطة صغيرة",
+              "price": 10
             }
           ],
           "isCombo": false,
@@ -3220,24 +3570,29 @@
           "cashbackPercent": null,
           "addons": [
             {
-              "id": "fries",
-              "name": "بطاطس مقلية",
-              "price": 8
-            },
-            {
-              "id": "cola",
-              "name": "كولا",
+              "id": "parmesan",
+              "name": "جبنة بارميزان",
               "price": 6
             },
             {
-              "id": "sauce",
-              "name": "صلصة إضافية",
-              "price": 3
+              "id": "garlic-bread",
+              "name": "ثوم محمص",
+              "price": 8
             },
             {
-              "id": "bread",
-              "name": "خبز إضافي",
+              "id": "extra-sauce",
+              "name": "صلصة زيادة",
               "price": 4
+            },
+            {
+              "id": "drink",
+              "name": "مشروب",
+              "price": 6
+            },
+            {
+              "id": "side-salad",
+              "name": "سلطة صغيرة",
+              "price": 10
             }
           ],
           "isCombo": false,
@@ -3263,24 +3618,29 @@
           "cashbackPercent": null,
           "addons": [
             {
-              "id": "fries",
-              "name": "بطاطس مقلية",
-              "price": 8
-            },
-            {
-              "id": "cola",
-              "name": "كولا",
+              "id": "parmesan",
+              "name": "جبنة بارميزان",
               "price": 6
             },
             {
-              "id": "sauce",
-              "name": "صلصة إضافية",
-              "price": 3
+              "id": "garlic-bread",
+              "name": "ثوم محمص",
+              "price": 8
             },
             {
-              "id": "bread",
-              "name": "خبز إضافي",
+              "id": "extra-sauce",
+              "name": "صلصة زيادة",
               "price": 4
+            },
+            {
+              "id": "drink",
+              "name": "مشروب",
+              "price": 6
+            },
+            {
+              "id": "side-salad",
+              "name": "سلطة صغيرة",
+              "price": 10
             }
           ],
           "isCombo": false,
@@ -3306,24 +3666,29 @@
           "cashbackPercent": null,
           "addons": [
             {
-              "id": "fries",
-              "name": "بطاطس مقلية",
-              "price": 8
-            },
-            {
-              "id": "cola",
-              "name": "كولا",
+              "id": "parmesan",
+              "name": "جبنة بارميزان",
               "price": 6
             },
             {
-              "id": "sauce",
-              "name": "صلصة إضافية",
-              "price": 3
+              "id": "garlic-bread",
+              "name": "ثوم محمص",
+              "price": 8
             },
             {
-              "id": "bread",
-              "name": "خبز إضافي",
+              "id": "extra-sauce",
+              "name": "صلصة زيادة",
               "price": 4
+            },
+            {
+              "id": "drink",
+              "name": "مشروب",
+              "price": 6
+            },
+            {
+              "id": "side-salad",
+              "name": "سلطة صغيرة",
+              "price": 10
             }
           ],
           "isCombo": false,
@@ -3349,24 +3714,29 @@
           "cashbackPercent": null,
           "addons": [
             {
-              "id": "fries",
-              "name": "بطاطس مقلية",
-              "price": 8
-            },
-            {
-              "id": "cola",
-              "name": "كولا",
+              "id": "parmesan",
+              "name": "جبنة بارميزان",
               "price": 6
             },
             {
-              "id": "sauce",
-              "name": "صلصة إضافية",
-              "price": 3
+              "id": "garlic-bread",
+              "name": "ثوم محمص",
+              "price": 8
             },
             {
-              "id": "bread",
-              "name": "خبز إضافي",
+              "id": "extra-sauce",
+              "name": "صلصة زيادة",
               "price": 4
+            },
+            {
+              "id": "drink",
+              "name": "مشروب",
+              "price": 6
+            },
+            {
+              "id": "side-salad",
+              "name": "سلطة صغيرة",
+              "price": 10
             }
           ],
           "isCombo": false,
@@ -3392,24 +3762,29 @@
           "cashbackPercent": null,
           "addons": [
             {
-              "id": "fries",
-              "name": "بطاطس مقلية",
-              "price": 8
-            },
-            {
-              "id": "cola",
-              "name": "كولا",
+              "id": "parmesan",
+              "name": "جبنة بارميزان",
               "price": 6
             },
             {
-              "id": "sauce",
-              "name": "صلصة إضافية",
-              "price": 3
+              "id": "garlic-bread",
+              "name": "ثوم محمص",
+              "price": 8
             },
             {
-              "id": "bread",
-              "name": "خبز إضافي",
+              "id": "extra-sauce",
+              "name": "صلصة زيادة",
               "price": 4
+            },
+            {
+              "id": "drink",
+              "name": "مشروب",
+              "price": 6
+            },
+            {
+              "id": "side-salad",
+              "name": "سلطة صغيرة",
+              "price": 10
             }
           ],
           "isCombo": false,
@@ -3441,24 +3816,29 @@
           "cashbackPercent": null,
           "addons": [
             {
-              "id": "fries",
-              "name": "بطاطس مقلية",
-              "price": 8
-            },
-            {
-              "id": "cola",
-              "name": "كولا",
+              "id": "parmesan",
+              "name": "جبنة بارميزان",
               "price": 6
             },
             {
-              "id": "sauce",
-              "name": "صلصة إضافية",
-              "price": 3
+              "id": "garlic-bread",
+              "name": "ثوم محمص",
+              "price": 8
             },
             {
-              "id": "bread",
-              "name": "خبز إضافي",
+              "id": "extra-sauce",
+              "name": "صلصة زيادة",
               "price": 4
+            },
+            {
+              "id": "drink",
+              "name": "مشروب",
+              "price": 6
+            },
+            {
+              "id": "side-salad",
+              "name": "سلطة صغيرة",
+              "price": 10
             }
           ]
         },
@@ -3488,24 +3868,29 @@
           "cashbackPercent": null,
           "addons": [
             {
-              "id": "fries",
-              "name": "بطاطس مقلية",
-              "price": 8
-            },
-            {
-              "id": "cola",
-              "name": "كولا",
+              "id": "parmesan",
+              "name": "جبنة بارميزان",
               "price": 6
             },
             {
-              "id": "sauce",
-              "name": "صلصة إضافية",
-              "price": 3
+              "id": "garlic-bread",
+              "name": "ثوم محمص",
+              "price": 8
             },
             {
-              "id": "bread",
-              "name": "خبز إضافي",
+              "id": "extra-sauce",
+              "name": "صلصة زيادة",
               "price": 4
+            },
+            {
+              "id": "drink",
+              "name": "مشروب",
+              "price": 6
+            },
+            {
+              "id": "side-salad",
+              "name": "سلطة صغيرة",
+              "price": 10
             }
           ]
         },
@@ -3535,24 +3920,29 @@
           "cashbackPercent": null,
           "addons": [
             {
-              "id": "fries",
-              "name": "بطاطس مقلية",
-              "price": 8
-            },
-            {
-              "id": "cola",
-              "name": "كولا",
+              "id": "parmesan",
+              "name": "جبنة بارميزان",
               "price": 6
             },
             {
-              "id": "sauce",
-              "name": "صلصة إضافية",
-              "price": 3
+              "id": "garlic-bread",
+              "name": "ثوم محمص",
+              "price": 8
             },
             {
-              "id": "bread",
-              "name": "خبز إضافي",
+              "id": "extra-sauce",
+              "name": "صلصة زيادة",
               "price": 4
+            },
+            {
+              "id": "drink",
+              "name": "مشروب",
+              "price": 6
+            },
+            {
+              "id": "side-salad",
+              "name": "سلطة صغيرة",
+              "price": 10
             }
           ]
         }
@@ -3598,24 +3988,29 @@
           "cashbackPercent": null,
           "addons": [
             {
-              "id": "fries",
-              "name": "بطاطس مقلية",
-              "price": 8
-            },
-            {
-              "id": "cola",
-              "name": "كولا",
+              "id": "parmesan",
+              "name": "جبنة بارميزان",
               "price": 6
             },
             {
-              "id": "sauce",
-              "name": "صلصة إضافية",
-              "price": 3
+              "id": "garlic-bread",
+              "name": "ثوم محمص",
+              "price": 8
             },
             {
-              "id": "bread",
-              "name": "خبز إضافي",
+              "id": "extra-sauce",
+              "name": "صلصة زيادة",
               "price": 4
+            },
+            {
+              "id": "drink",
+              "name": "مشروب",
+              "price": 6
+            },
+            {
+              "id": "side-salad",
+              "name": "سلطة صغيرة",
+              "price": 10
             }
           ],
           "isCombo": false,
@@ -3641,24 +4036,29 @@
           "cashbackPercent": null,
           "addons": [
             {
-              "id": "fries",
-              "name": "بطاطس مقلية",
-              "price": 8
-            },
-            {
-              "id": "cola",
-              "name": "كولا",
+              "id": "parmesan",
+              "name": "جبنة بارميزان",
               "price": 6
             },
             {
-              "id": "sauce",
-              "name": "صلصة إضافية",
-              "price": 3
+              "id": "garlic-bread",
+              "name": "ثوم محمص",
+              "price": 8
             },
             {
-              "id": "bread",
-              "name": "خبز إضافي",
+              "id": "extra-sauce",
+              "name": "صلصة زيادة",
               "price": 4
+            },
+            {
+              "id": "drink",
+              "name": "مشروب",
+              "price": 6
+            },
+            {
+              "id": "side-salad",
+              "name": "سلطة صغيرة",
+              "price": 10
             }
           ],
           "isCombo": false,
@@ -3684,24 +4084,29 @@
           "cashbackPercent": null,
           "addons": [
             {
-              "id": "fries",
-              "name": "بطاطس مقلية",
-              "price": 8
-            },
-            {
-              "id": "cola",
-              "name": "كولا",
+              "id": "parmesan",
+              "name": "جبنة بارميزان",
               "price": 6
             },
             {
-              "id": "sauce",
-              "name": "صلصة إضافية",
-              "price": 3
+              "id": "garlic-bread",
+              "name": "ثوم محمص",
+              "price": 8
             },
             {
-              "id": "bread",
-              "name": "خبز إضافي",
+              "id": "extra-sauce",
+              "name": "صلصة زيادة",
               "price": 4
+            },
+            {
+              "id": "drink",
+              "name": "مشروب",
+              "price": 6
+            },
+            {
+              "id": "side-salad",
+              "name": "سلطة صغيرة",
+              "price": 10
             }
           ],
           "isCombo": false,
@@ -3727,24 +4132,29 @@
           "cashbackPercent": null,
           "addons": [
             {
-              "id": "fries",
-              "name": "بطاطس مقلية",
-              "price": 8
-            },
-            {
-              "id": "cola",
-              "name": "كولا",
+              "id": "parmesan",
+              "name": "جبنة بارميزان",
               "price": 6
             },
             {
-              "id": "sauce",
-              "name": "صلصة إضافية",
-              "price": 3
+              "id": "garlic-bread",
+              "name": "ثوم محمص",
+              "price": 8
             },
             {
-              "id": "bread",
-              "name": "خبز إضافي",
+              "id": "extra-sauce",
+              "name": "صلصة زيادة",
               "price": 4
+            },
+            {
+              "id": "drink",
+              "name": "مشروب",
+              "price": 6
+            },
+            {
+              "id": "side-salad",
+              "name": "سلطة صغيرة",
+              "price": 10
             }
           ],
           "isCombo": false,
@@ -3770,24 +4180,29 @@
           "cashbackPercent": null,
           "addons": [
             {
-              "id": "fries",
-              "name": "بطاطس مقلية",
-              "price": 8
-            },
-            {
-              "id": "cola",
-              "name": "كولا",
+              "id": "parmesan",
+              "name": "جبنة بارميزان",
               "price": 6
             },
             {
-              "id": "sauce",
-              "name": "صلصة إضافية",
-              "price": 3
+              "id": "garlic-bread",
+              "name": "ثوم محمص",
+              "price": 8
             },
             {
-              "id": "bread",
-              "name": "خبز إضافي",
+              "id": "extra-sauce",
+              "name": "صلصة زيادة",
               "price": 4
+            },
+            {
+              "id": "drink",
+              "name": "مشروب",
+              "price": 6
+            },
+            {
+              "id": "side-salad",
+              "name": "سلطة صغيرة",
+              "price": 10
             }
           ],
           "isCombo": false,
@@ -3813,24 +4228,29 @@
           "cashbackPercent": 15,
           "addons": [
             {
-              "id": "fries",
-              "name": "بطاطس مقلية",
-              "price": 8
-            },
-            {
-              "id": "cola",
-              "name": "كولا",
+              "id": "parmesan",
+              "name": "جبنة بارميزان",
               "price": 6
             },
             {
-              "id": "sauce",
-              "name": "صلصة إضافية",
-              "price": 3
+              "id": "garlic-bread",
+              "name": "ثوم محمص",
+              "price": 8
             },
             {
-              "id": "bread",
-              "name": "خبز إضافي",
+              "id": "extra-sauce",
+              "name": "صلصة زيادة",
               "price": 4
+            },
+            {
+              "id": "drink",
+              "name": "مشروب",
+              "price": 6
+            },
+            {
+              "id": "side-salad",
+              "name": "سلطة صغيرة",
+              "price": 10
             }
           ],
           "isCombo": false,
@@ -3856,24 +4276,29 @@
           "cashbackPercent": 10,
           "addons": [
             {
-              "id": "fries",
-              "name": "بطاطس مقلية",
-              "price": 8
-            },
-            {
-              "id": "cola",
-              "name": "كولا",
+              "id": "parmesan",
+              "name": "جبنة بارميزان",
               "price": 6
             },
             {
-              "id": "sauce",
-              "name": "صلصة إضافية",
-              "price": 3
+              "id": "garlic-bread",
+              "name": "ثوم محمص",
+              "price": 8
             },
             {
-              "id": "bread",
-              "name": "خبز إضافي",
+              "id": "extra-sauce",
+              "name": "صلصة زيادة",
               "price": 4
+            },
+            {
+              "id": "drink",
+              "name": "مشروب",
+              "price": 6
+            },
+            {
+              "id": "side-salad",
+              "name": "سلطة صغيرة",
+              "price": 10
             }
           ],
           "isCombo": false,
@@ -3899,24 +4324,29 @@
           "cashbackPercent": null,
           "addons": [
             {
-              "id": "fries",
-              "name": "بطاطس مقلية",
-              "price": 8
-            },
-            {
-              "id": "cola",
-              "name": "كولا",
+              "id": "parmesan",
+              "name": "جبنة بارميزان",
               "price": 6
             },
             {
-              "id": "sauce",
-              "name": "صلصة إضافية",
-              "price": 3
+              "id": "garlic-bread",
+              "name": "ثوم محمص",
+              "price": 8
             },
             {
-              "id": "bread",
-              "name": "خبز إضافي",
+              "id": "extra-sauce",
+              "name": "صلصة زيادة",
               "price": 4
+            },
+            {
+              "id": "drink",
+              "name": "مشروب",
+              "price": 6
+            },
+            {
+              "id": "side-salad",
+              "name": "سلطة صغيرة",
+              "price": 10
             }
           ],
           "isCombo": false,
@@ -3942,24 +4372,29 @@
           "cashbackPercent": null,
           "addons": [
             {
-              "id": "fries",
-              "name": "بطاطس مقلية",
-              "price": 8
-            },
-            {
-              "id": "cola",
-              "name": "كولا",
+              "id": "parmesan",
+              "name": "جبنة بارميزان",
               "price": 6
             },
             {
-              "id": "sauce",
-              "name": "صلصة إضافية",
-              "price": 3
+              "id": "garlic-bread",
+              "name": "ثوم محمص",
+              "price": 8
             },
             {
-              "id": "bread",
-              "name": "خبز إضافي",
+              "id": "extra-sauce",
+              "name": "صلصة زيادة",
               "price": 4
+            },
+            {
+              "id": "drink",
+              "name": "مشروب",
+              "price": 6
+            },
+            {
+              "id": "side-salad",
+              "name": "سلطة صغيرة",
+              "price": 10
             }
           ],
           "isCombo": false,
@@ -3985,24 +4420,29 @@
           "cashbackPercent": null,
           "addons": [
             {
-              "id": "fries",
-              "name": "بطاطس مقلية",
-              "price": 8
-            },
-            {
-              "id": "cola",
-              "name": "كولا",
+              "id": "parmesan",
+              "name": "جبنة بارميزان",
               "price": 6
             },
             {
-              "id": "sauce",
-              "name": "صلصة إضافية",
-              "price": 3
+              "id": "garlic-bread",
+              "name": "ثوم محمص",
+              "price": 8
             },
             {
-              "id": "bread",
-              "name": "خبز إضافي",
+              "id": "extra-sauce",
+              "name": "صلصة زيادة",
               "price": 4
+            },
+            {
+              "id": "drink",
+              "name": "مشروب",
+              "price": 6
+            },
+            {
+              "id": "side-salad",
+              "name": "سلطة صغيرة",
+              "price": 10
             }
           ],
           "isCombo": false,
@@ -4034,24 +4474,29 @@
           "cashbackPercent": null,
           "addons": [
             {
-              "id": "fries",
-              "name": "بطاطس مقلية",
-              "price": 8
-            },
-            {
-              "id": "cola",
-              "name": "كولا",
+              "id": "parmesan",
+              "name": "جبنة بارميزان",
               "price": 6
             },
             {
-              "id": "sauce",
-              "name": "صلصة إضافية",
-              "price": 3
+              "id": "garlic-bread",
+              "name": "ثوم محمص",
+              "price": 8
             },
             {
-              "id": "bread",
-              "name": "خبز إضافي",
+              "id": "extra-sauce",
+              "name": "صلصة زيادة",
               "price": 4
+            },
+            {
+              "id": "drink",
+              "name": "مشروب",
+              "price": 6
+            },
+            {
+              "id": "side-salad",
+              "name": "سلطة صغيرة",
+              "price": 10
             }
           ]
         },
@@ -4081,24 +4526,29 @@
           "cashbackPercent": null,
           "addons": [
             {
-              "id": "fries",
-              "name": "بطاطس مقلية",
-              "price": 8
-            },
-            {
-              "id": "cola",
-              "name": "كولا",
+              "id": "parmesan",
+              "name": "جبنة بارميزان",
               "price": 6
             },
             {
-              "id": "sauce",
-              "name": "صلصة إضافية",
-              "price": 3
+              "id": "garlic-bread",
+              "name": "ثوم محمص",
+              "price": 8
             },
             {
-              "id": "bread",
-              "name": "خبز إضافي",
+              "id": "extra-sauce",
+              "name": "صلصة زيادة",
               "price": 4
+            },
+            {
+              "id": "drink",
+              "name": "مشروب",
+              "price": 6
+            },
+            {
+              "id": "side-salad",
+              "name": "سلطة صغيرة",
+              "price": 10
             }
           ]
         },
@@ -4128,24 +4578,29 @@
           "cashbackPercent": null,
           "addons": [
             {
-              "id": "fries",
-              "name": "بطاطس مقلية",
-              "price": 8
-            },
-            {
-              "id": "cola",
-              "name": "كولا",
+              "id": "parmesan",
+              "name": "جبنة بارميزان",
               "price": 6
             },
             {
-              "id": "sauce",
-              "name": "صلصة إضافية",
-              "price": 3
+              "id": "garlic-bread",
+              "name": "ثوم محمص",
+              "price": 8
             },
             {
-              "id": "bread",
-              "name": "خبز إضافي",
+              "id": "extra-sauce",
+              "name": "صلصة زيادة",
               "price": 4
+            },
+            {
+              "id": "drink",
+              "name": "مشروب",
+              "price": 6
+            },
+            {
+              "id": "side-salad",
+              "name": "سلطة صغيرة",
+              "price": 10
             }
           ]
         }
@@ -4191,24 +4646,29 @@
           "cashbackPercent": null,
           "addons": [
             {
-              "id": "fries",
-              "name": "بطاطس مقلية",
-              "price": 8
-            },
-            {
-              "id": "cola",
-              "name": "كولا",
+              "id": "parmesan",
+              "name": "جبنة بارميزان",
               "price": 6
             },
             {
-              "id": "sauce",
-              "name": "صلصة إضافية",
-              "price": 3
+              "id": "garlic-bread",
+              "name": "ثوم محمص",
+              "price": 8
             },
             {
-              "id": "bread",
-              "name": "خبز إضافي",
+              "id": "extra-sauce",
+              "name": "صلصة زيادة",
               "price": 4
+            },
+            {
+              "id": "drink",
+              "name": "مشروب",
+              "price": 6
+            },
+            {
+              "id": "side-salad",
+              "name": "سلطة صغيرة",
+              "price": 10
             }
           ],
           "isCombo": false,
@@ -4234,24 +4694,29 @@
           "cashbackPercent": null,
           "addons": [
             {
-              "id": "fries",
-              "name": "بطاطس مقلية",
-              "price": 8
-            },
-            {
-              "id": "cola",
-              "name": "كولا",
+              "id": "parmesan",
+              "name": "جبنة بارميزان",
               "price": 6
             },
             {
-              "id": "sauce",
-              "name": "صلصة إضافية",
-              "price": 3
+              "id": "garlic-bread",
+              "name": "ثوم محمص",
+              "price": 8
             },
             {
-              "id": "bread",
-              "name": "خبز إضافي",
+              "id": "extra-sauce",
+              "name": "صلصة زيادة",
               "price": 4
+            },
+            {
+              "id": "drink",
+              "name": "مشروب",
+              "price": 6
+            },
+            {
+              "id": "side-salad",
+              "name": "سلطة صغيرة",
+              "price": 10
             }
           ],
           "isCombo": false,
@@ -4277,24 +4742,29 @@
           "cashbackPercent": null,
           "addons": [
             {
-              "id": "fries",
-              "name": "بطاطس مقلية",
-              "price": 8
-            },
-            {
-              "id": "cola",
-              "name": "كولا",
+              "id": "parmesan",
+              "name": "جبنة بارميزان",
               "price": 6
             },
             {
-              "id": "sauce",
-              "name": "صلصة إضافية",
-              "price": 3
+              "id": "garlic-bread",
+              "name": "ثوم محمص",
+              "price": 8
             },
             {
-              "id": "bread",
-              "name": "خبز إضافي",
+              "id": "extra-sauce",
+              "name": "صلصة زيادة",
               "price": 4
+            },
+            {
+              "id": "drink",
+              "name": "مشروب",
+              "price": 6
+            },
+            {
+              "id": "side-salad",
+              "name": "سلطة صغيرة",
+              "price": 10
             }
           ],
           "isCombo": false,
@@ -4320,24 +4790,29 @@
           "cashbackPercent": null,
           "addons": [
             {
-              "id": "fries",
-              "name": "بطاطس مقلية",
-              "price": 8
-            },
-            {
-              "id": "cola",
-              "name": "كولا",
+              "id": "parmesan",
+              "name": "جبنة بارميزان",
               "price": 6
             },
             {
-              "id": "sauce",
-              "name": "صلصة إضافية",
-              "price": 3
+              "id": "garlic-bread",
+              "name": "ثوم محمص",
+              "price": 8
             },
             {
-              "id": "bread",
-              "name": "خبز إضافي",
+              "id": "extra-sauce",
+              "name": "صلصة زيادة",
               "price": 4
+            },
+            {
+              "id": "drink",
+              "name": "مشروب",
+              "price": 6
+            },
+            {
+              "id": "side-salad",
+              "name": "سلطة صغيرة",
+              "price": 10
             }
           ],
           "isCombo": false,
@@ -4363,24 +4838,29 @@
           "cashbackPercent": null,
           "addons": [
             {
-              "id": "fries",
-              "name": "بطاطس مقلية",
-              "price": 8
-            },
-            {
-              "id": "cola",
-              "name": "كولا",
+              "id": "parmesan",
+              "name": "جبنة بارميزان",
               "price": 6
             },
             {
-              "id": "sauce",
-              "name": "صلصة إضافية",
-              "price": 3
+              "id": "garlic-bread",
+              "name": "ثوم محمص",
+              "price": 8
             },
             {
-              "id": "bread",
-              "name": "خبز إضافي",
+              "id": "extra-sauce",
+              "name": "صلصة زيادة",
               "price": 4
+            },
+            {
+              "id": "drink",
+              "name": "مشروب",
+              "price": 6
+            },
+            {
+              "id": "side-salad",
+              "name": "سلطة صغيرة",
+              "price": 10
             }
           ],
           "isCombo": false,
@@ -4406,24 +4886,29 @@
           "cashbackPercent": null,
           "addons": [
             {
-              "id": "fries",
-              "name": "بطاطس مقلية",
-              "price": 8
-            },
-            {
-              "id": "cola",
-              "name": "كولا",
+              "id": "parmesan",
+              "name": "جبنة بارميزان",
               "price": 6
             },
             {
-              "id": "sauce",
-              "name": "صلصة إضافية",
-              "price": 3
+              "id": "garlic-bread",
+              "name": "ثوم محمص",
+              "price": 8
             },
             {
-              "id": "bread",
-              "name": "خبز إضافي",
+              "id": "extra-sauce",
+              "name": "صلصة زيادة",
               "price": 4
+            },
+            {
+              "id": "drink",
+              "name": "مشروب",
+              "price": 6
+            },
+            {
+              "id": "side-salad",
+              "name": "سلطة صغيرة",
+              "price": 10
             }
           ],
           "isCombo": false,
@@ -4449,24 +4934,29 @@
           "cashbackPercent": null,
           "addons": [
             {
-              "id": "fries",
-              "name": "بطاطس مقلية",
-              "price": 8
-            },
-            {
-              "id": "cola",
-              "name": "كولا",
+              "id": "parmesan",
+              "name": "جبنة بارميزان",
               "price": 6
             },
             {
-              "id": "sauce",
-              "name": "صلصة إضافية",
-              "price": 3
+              "id": "garlic-bread",
+              "name": "ثوم محمص",
+              "price": 8
             },
             {
-              "id": "bread",
-              "name": "خبز إضافي",
+              "id": "extra-sauce",
+              "name": "صلصة زيادة",
               "price": 4
+            },
+            {
+              "id": "drink",
+              "name": "مشروب",
+              "price": 6
+            },
+            {
+              "id": "side-salad",
+              "name": "سلطة صغيرة",
+              "price": 10
             }
           ],
           "isCombo": false,
@@ -4492,24 +4982,29 @@
           "cashbackPercent": null,
           "addons": [
             {
-              "id": "fries",
-              "name": "بطاطس مقلية",
-              "price": 8
-            },
-            {
-              "id": "cola",
-              "name": "كولا",
+              "id": "parmesan",
+              "name": "جبنة بارميزان",
               "price": 6
             },
             {
-              "id": "sauce",
-              "name": "صلصة إضافية",
-              "price": 3
+              "id": "garlic-bread",
+              "name": "ثوم محمص",
+              "price": 8
             },
             {
-              "id": "bread",
-              "name": "خبز إضافي",
+              "id": "extra-sauce",
+              "name": "صلصة زيادة",
               "price": 4
+            },
+            {
+              "id": "drink",
+              "name": "مشروب",
+              "price": 6
+            },
+            {
+              "id": "side-salad",
+              "name": "سلطة صغيرة",
+              "price": 10
             }
           ],
           "isCombo": false,
@@ -4535,24 +5030,29 @@
           "cashbackPercent": null,
           "addons": [
             {
-              "id": "fries",
-              "name": "بطاطس مقلية",
-              "price": 8
-            },
-            {
-              "id": "cola",
-              "name": "كولا",
+              "id": "parmesan",
+              "name": "جبنة بارميزان",
               "price": 6
             },
             {
-              "id": "sauce",
-              "name": "صلصة إضافية",
-              "price": 3
+              "id": "garlic-bread",
+              "name": "ثوم محمص",
+              "price": 8
             },
             {
-              "id": "bread",
-              "name": "خبز إضافي",
+              "id": "extra-sauce",
+              "name": "صلصة زيادة",
               "price": 4
+            },
+            {
+              "id": "drink",
+              "name": "مشروب",
+              "price": 6
+            },
+            {
+              "id": "side-salad",
+              "name": "سلطة صغيرة",
+              "price": 10
             }
           ],
           "isCombo": false,
@@ -4578,24 +5078,29 @@
           "cashbackPercent": null,
           "addons": [
             {
-              "id": "fries",
-              "name": "بطاطس مقلية",
-              "price": 8
-            },
-            {
-              "id": "cola",
-              "name": "كولا",
+              "id": "parmesan",
+              "name": "جبنة بارميزان",
               "price": 6
             },
             {
-              "id": "sauce",
-              "name": "صلصة إضافية",
-              "price": 3
+              "id": "garlic-bread",
+              "name": "ثوم محمص",
+              "price": 8
             },
             {
-              "id": "bread",
-              "name": "خبز إضافي",
+              "id": "extra-sauce",
+              "name": "صلصة زيادة",
               "price": 4
+            },
+            {
+              "id": "drink",
+              "name": "مشروب",
+              "price": 6
+            },
+            {
+              "id": "side-salad",
+              "name": "سلطة صغيرة",
+              "price": 10
             }
           ],
           "isCombo": false,
@@ -4627,24 +5132,29 @@
           "cashbackPercent": null,
           "addons": [
             {
-              "id": "fries",
-              "name": "بطاطس مقلية",
-              "price": 8
-            },
-            {
-              "id": "cola",
-              "name": "كولا",
+              "id": "parmesan",
+              "name": "جبنة بارميزان",
               "price": 6
             },
             {
-              "id": "sauce",
-              "name": "صلصة إضافية",
-              "price": 3
+              "id": "garlic-bread",
+              "name": "ثوم محمص",
+              "price": 8
             },
             {
-              "id": "bread",
-              "name": "خبز إضافي",
+              "id": "extra-sauce",
+              "name": "صلصة زيادة",
               "price": 4
+            },
+            {
+              "id": "drink",
+              "name": "مشروب",
+              "price": 6
+            },
+            {
+              "id": "side-salad",
+              "name": "سلطة صغيرة",
+              "price": 10
             }
           ]
         },
@@ -4674,24 +5184,29 @@
           "cashbackPercent": null,
           "addons": [
             {
-              "id": "fries",
-              "name": "بطاطس مقلية",
-              "price": 8
-            },
-            {
-              "id": "cola",
-              "name": "كولا",
+              "id": "parmesan",
+              "name": "جبنة بارميزان",
               "price": 6
             },
             {
-              "id": "sauce",
-              "name": "صلصة إضافية",
-              "price": 3
+              "id": "garlic-bread",
+              "name": "ثوم محمص",
+              "price": 8
             },
             {
-              "id": "bread",
-              "name": "خبز إضافي",
+              "id": "extra-sauce",
+              "name": "صلصة زيادة",
               "price": 4
+            },
+            {
+              "id": "drink",
+              "name": "مشروب",
+              "price": 6
+            },
+            {
+              "id": "side-salad",
+              "name": "سلطة صغيرة",
+              "price": 10
             }
           ]
         },
@@ -4721,24 +5236,29 @@
           "cashbackPercent": null,
           "addons": [
             {
-              "id": "fries",
-              "name": "بطاطس مقلية",
-              "price": 8
-            },
-            {
-              "id": "cola",
-              "name": "كولا",
+              "id": "parmesan",
+              "name": "جبنة بارميزان",
               "price": 6
             },
             {
-              "id": "sauce",
-              "name": "صلصة إضافية",
-              "price": 3
+              "id": "garlic-bread",
+              "name": "ثوم محمص",
+              "price": 8
             },
             {
-              "id": "bread",
-              "name": "خبز إضافي",
+              "id": "extra-sauce",
+              "name": "صلصة زيادة",
               "price": 4
+            },
+            {
+              "id": "drink",
+              "name": "مشروب",
+              "price": 6
+            },
+            {
+              "id": "side-salad",
+              "name": "سلطة صغيرة",
+              "price": 10
             }
           ]
         }

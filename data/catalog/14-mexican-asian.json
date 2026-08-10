@@ -39,9 +39,19 @@
           "cashbackPercent": null,
           "addons": [
             {
-              "id": "fries",
-              "name": "بطاطس مقلية",
+              "id": "extra-cheese",
+              "name": "جبنة إضافية",
+              "price": 5
+            },
+            {
+              "id": "bacon",
+              "name": "بيكون",
               "price": 8
+            },
+            {
+              "id": "large-fries",
+              "name": "بطاطس كبيرة",
+              "price": 10
             },
             {
               "id": "cola",
@@ -49,14 +59,9 @@
               "price": 6
             },
             {
-              "id": "sauce",
-              "name": "صلصة إضافية",
+              "id": "spicy-sauce",
+              "name": "صوص سبايسي",
               "price": 3
-            },
-            {
-              "id": "bread",
-              "name": "خبز إضافي",
-              "price": 4
             }
           ],
           "isCombo": false,
@@ -82,9 +87,19 @@
           "cashbackPercent": null,
           "addons": [
             {
-              "id": "fries",
-              "name": "بطاطس مقلية",
+              "id": "extra-cheese",
+              "name": "جبنة إضافية",
+              "price": 5
+            },
+            {
+              "id": "bacon",
+              "name": "بيكون",
               "price": 8
+            },
+            {
+              "id": "large-fries",
+              "name": "بطاطس كبيرة",
+              "price": 10
             },
             {
               "id": "cola",
@@ -92,14 +107,9 @@
               "price": 6
             },
             {
-              "id": "sauce",
-              "name": "صلصة إضافية",
+              "id": "spicy-sauce",
+              "name": "صوص سبايسي",
               "price": 3
-            },
-            {
-              "id": "bread",
-              "name": "خبز إضافي",
-              "price": 4
             }
           ],
           "isCombo": false,
@@ -125,9 +135,19 @@
           "cashbackPercent": null,
           "addons": [
             {
-              "id": "fries",
-              "name": "بطاطس مقلية",
+              "id": "extra-cheese",
+              "name": "جبنة إضافية",
+              "price": 5
+            },
+            {
+              "id": "bacon",
+              "name": "بيكون",
               "price": 8
+            },
+            {
+              "id": "large-fries",
+              "name": "بطاطس كبيرة",
+              "price": 10
             },
             {
               "id": "cola",
@@ -135,14 +155,9 @@
               "price": 6
             },
             {
-              "id": "sauce",
-              "name": "صلصة إضافية",
+              "id": "spicy-sauce",
+              "name": "صوص سبايسي",
               "price": 3
-            },
-            {
-              "id": "bread",
-              "name": "خبز إضافي",
-              "price": 4
             }
           ],
           "isCombo": false,
@@ -168,9 +183,19 @@
           "cashbackPercent": null,
           "addons": [
             {
-              "id": "fries",
-              "name": "بطاطس مقلية",
+              "id": "extra-cheese",
+              "name": "جبنة إضافية",
+              "price": 5
+            },
+            {
+              "id": "bacon",
+              "name": "بيكون",
               "price": 8
+            },
+            {
+              "id": "large-fries",
+              "name": "بطاطس كبيرة",
+              "price": 10
             },
             {
               "id": "cola",
@@ -178,14 +203,9 @@
               "price": 6
             },
             {
-              "id": "sauce",
-              "name": "صلصة إضافية",
+              "id": "spicy-sauce",
+              "name": "صوص سبايسي",
               "price": 3
-            },
-            {
-              "id": "bread",
-              "name": "خبز إضافي",
-              "price": 4
             }
           ],
           "isCombo": false,
@@ -211,9 +231,19 @@
           "cashbackPercent": null,
           "addons": [
             {
-              "id": "fries",
-              "name": "بطاطس مقلية",
+              "id": "extra-cheese",
+              "name": "جبنة إضافية",
+              "price": 5
+            },
+            {
+              "id": "bacon",
+              "name": "بيكون",
               "price": 8
+            },
+            {
+              "id": "large-fries",
+              "name": "بطاطس كبيرة",
+              "price": 10
             },
             {
               "id": "cola",
@@ -221,14 +251,9 @@
               "price": 6
             },
             {
-              "id": "sauce",
-              "name": "صلصة إضافية",
+              "id": "spicy-sauce",
+              "name": "صوص سبايسي",
               "price": 3
-            },
-            {
-              "id": "bread",
-              "name": "خبز إضافي",
-              "price": 4
             }
           ],
           "isCombo": false,
@@ -254,9 +279,19 @@
           "cashbackPercent": null,
           "addons": [
             {
-              "id": "fries",
-              "name": "بطاطس مقلية",
+              "id": "extra-cheese",
+              "name": "جبنة إضافية",
+              "price": 5
+            },
+            {
+              "id": "bacon",
+              "name": "بيكون",
               "price": 8
+            },
+            {
+              "id": "large-fries",
+              "name": "بطاطس كبيرة",
+              "price": 10
             },
             {
               "id": "cola",
@@ -264,14 +299,9 @@
               "price": 6
             },
             {
-              "id": "sauce",
-              "name": "صلصة إضافية",
+              "id": "spicy-sauce",
+              "name": "صوص سبايسي",
               "price": 3
-            },
-            {
-              "id": "bread",
-              "name": "خبز إضافي",
-              "price": 4
             }
           ],
           "isCombo": false,
@@ -297,9 +327,19 @@
           "cashbackPercent": 15,
           "addons": [
             {
-              "id": "fries",
-              "name": "بطاطس مقلية",
+              "id": "extra-cheese",
+              "name": "جبنة إضافية",
+              "price": 5
+            },
+            {
+              "id": "bacon",
+              "name": "بيكون",
               "price": 8
+            },
+            {
+              "id": "large-fries",
+              "name": "بطاطس كبيرة",
+              "price": 10
             },
             {
               "id": "cola",
@@ -307,14 +347,9 @@
               "price": 6
             },
             {
-              "id": "sauce",
-              "name": "صلصة إضافية",
+              "id": "spicy-sauce",
+              "name": "صوص سبايسي",
               "price": 3
-            },
-            {
-              "id": "bread",
-              "name": "خبز إضافي",
-              "price": 4
             }
           ],
           "isCombo": false,
@@ -340,9 +375,19 @@
           "cashbackPercent": null,
           "addons": [
             {
-              "id": "fries",
-              "name": "بطاطس مقلية",
+              "id": "extra-cheese",
+              "name": "جبنة إضافية",
+              "price": 5
+            },
+            {
+              "id": "bacon",
+              "name": "بيكون",
               "price": 8
+            },
+            {
+              "id": "large-fries",
+              "name": "بطاطس كبيرة",
+              "price": 10
             },
             {
               "id": "cola",
@@ -350,14 +395,9 @@
               "price": 6
             },
             {
-              "id": "sauce",
-              "name": "صلصة إضافية",
+              "id": "spicy-sauce",
+              "name": "صوص سبايسي",
               "price": 3
-            },
-            {
-              "id": "bread",
-              "name": "خبز إضافي",
-              "price": 4
             }
           ],
           "isCombo": false,
@@ -383,9 +423,19 @@
           "cashbackPercent": 10,
           "addons": [
             {
-              "id": "fries",
-              "name": "بطاطس مقلية",
+              "id": "extra-cheese",
+              "name": "جبنة إضافية",
+              "price": 5
+            },
+            {
+              "id": "bacon",
+              "name": "بيكون",
               "price": 8
+            },
+            {
+              "id": "large-fries",
+              "name": "بطاطس كبيرة",
+              "price": 10
             },
             {
               "id": "cola",
@@ -393,14 +443,9 @@
               "price": 6
             },
             {
-              "id": "sauce",
-              "name": "صلصة إضافية",
+              "id": "spicy-sauce",
+              "name": "صوص سبايسي",
               "price": 3
-            },
-            {
-              "id": "bread",
-              "name": "خبز إضافي",
-              "price": 4
             }
           ],
           "isCombo": false,
@@ -426,9 +471,19 @@
           "cashbackPercent": null,
           "addons": [
             {
-              "id": "fries",
-              "name": "بطاطس مقلية",
+              "id": "extra-cheese",
+              "name": "جبنة إضافية",
+              "price": 5
+            },
+            {
+              "id": "bacon",
+              "name": "بيكون",
               "price": 8
+            },
+            {
+              "id": "large-fries",
+              "name": "بطاطس كبيرة",
+              "price": 10
             },
             {
               "id": "cola",
@@ -436,14 +491,9 @@
               "price": 6
             },
             {
-              "id": "sauce",
-              "name": "صلصة إضافية",
+              "id": "spicy-sauce",
+              "name": "صوص سبايسي",
               "price": 3
-            },
-            {
-              "id": "bread",
-              "name": "خبز إضافي",
-              "price": 4
             }
           ],
           "isCombo": false,
@@ -475,9 +525,19 @@
           "cashbackPercent": null,
           "addons": [
             {
-              "id": "fries",
-              "name": "بطاطس مقلية",
+              "id": "extra-cheese",
+              "name": "جبنة إضافية",
+              "price": 5
+            },
+            {
+              "id": "bacon",
+              "name": "بيكون",
               "price": 8
+            },
+            {
+              "id": "large-fries",
+              "name": "بطاطس كبيرة",
+              "price": 10
             },
             {
               "id": "cola",
@@ -485,14 +545,9 @@
               "price": 6
             },
             {
-              "id": "sauce",
-              "name": "صلصة إضافية",
+              "id": "spicy-sauce",
+              "name": "صوص سبايسي",
               "price": 3
-            },
-            {
-              "id": "bread",
-              "name": "خبز إضافي",
-              "price": 4
             }
           ]
         },
@@ -523,9 +578,19 @@
           "cashbackPercent": null,
           "addons": [
             {
-              "id": "fries",
-              "name": "بطاطس مقلية",
+              "id": "extra-cheese",
+              "name": "جبنة إضافية",
+              "price": 5
+            },
+            {
+              "id": "bacon",
+              "name": "بيكون",
               "price": 8
+            },
+            {
+              "id": "large-fries",
+              "name": "بطاطس كبيرة",
+              "price": 10
             },
             {
               "id": "cola",
@@ -533,14 +598,9 @@
               "price": 6
             },
             {
-              "id": "sauce",
-              "name": "صلصة إضافية",
+              "id": "spicy-sauce",
+              "name": "صوص سبايسي",
               "price": 3
-            },
-            {
-              "id": "bread",
-              "name": "خبز إضافي",
-              "price": 4
             }
           ]
         },
@@ -571,9 +631,19 @@
           "cashbackPercent": null,
           "addons": [
             {
-              "id": "fries",
-              "name": "بطاطس مقلية",
+              "id": "extra-cheese",
+              "name": "جبنة إضافية",
+              "price": 5
+            },
+            {
+              "id": "bacon",
+              "name": "بيكون",
               "price": 8
+            },
+            {
+              "id": "large-fries",
+              "name": "بطاطس كبيرة",
+              "price": 10
             },
             {
               "id": "cola",
@@ -581,14 +651,9 @@
               "price": 6
             },
             {
-              "id": "sauce",
-              "name": "صلصة إضافية",
+              "id": "spicy-sauce",
+              "name": "صوص سبايسي",
               "price": 3
-            },
-            {
-              "id": "bread",
-              "name": "خبز إضافي",
-              "price": 4
             }
           ]
         }
@@ -633,9 +698,19 @@
           "cashbackPercent": null,
           "addons": [
             {
-              "id": "fries",
-              "name": "بطاطس مقلية",
+              "id": "extra-cheese",
+              "name": "جبنة إضافية",
+              "price": 5
+            },
+            {
+              "id": "bacon",
+              "name": "بيكون",
               "price": 8
+            },
+            {
+              "id": "large-fries",
+              "name": "بطاطس كبيرة",
+              "price": 10
             },
             {
               "id": "cola",
@@ -643,14 +718,9 @@
               "price": 6
             },
             {
-              "id": "sauce",
-              "name": "صلصة إضافية",
+              "id": "spicy-sauce",
+              "name": "صوص سبايسي",
               "price": 3
-            },
-            {
-              "id": "bread",
-              "name": "خبز إضافي",
-              "price": 4
             }
           ],
           "isCombo": false,
@@ -676,9 +746,19 @@
           "cashbackPercent": null,
           "addons": [
             {
-              "id": "fries",
-              "name": "بطاطس مقلية",
+              "id": "extra-cheese",
+              "name": "جبنة إضافية",
+              "price": 5
+            },
+            {
+              "id": "bacon",
+              "name": "بيكون",
               "price": 8
+            },
+            {
+              "id": "large-fries",
+              "name": "بطاطس كبيرة",
+              "price": 10
             },
             {
               "id": "cola",
@@ -686,14 +766,9 @@
               "price": 6
             },
             {
-              "id": "sauce",
-              "name": "صلصة إضافية",
+              "id": "spicy-sauce",
+              "name": "صوص سبايسي",
               "price": 3
-            },
-            {
-              "id": "bread",
-              "name": "خبز إضافي",
-              "price": 4
             }
           ],
           "isCombo": false,
@@ -719,9 +794,19 @@
           "cashbackPercent": null,
           "addons": [
             {
-              "id": "fries",
-              "name": "بطاطس مقلية",
+              "id": "extra-cheese",
+              "name": "جبنة إضافية",
+              "price": 5
+            },
+            {
+              "id": "bacon",
+              "name": "بيكون",
               "price": 8
+            },
+            {
+              "id": "large-fries",
+              "name": "بطاطس كبيرة",
+              "price": 10
             },
             {
               "id": "cola",
@@ -729,14 +814,9 @@
               "price": 6
             },
             {
-              "id": "sauce",
-              "name": "صلصة إضافية",
+              "id": "spicy-sauce",
+              "name": "صوص سبايسي",
               "price": 3
-            },
-            {
-              "id": "bread",
-              "name": "خبز إضافي",
-              "price": 4
             }
           ],
           "isCombo": false,
@@ -762,9 +842,19 @@
           "cashbackPercent": null,
           "addons": [
             {
-              "id": "fries",
-              "name": "بطاطس مقلية",
+              "id": "extra-cheese",
+              "name": "جبنة إضافية",
+              "price": 5
+            },
+            {
+              "id": "bacon",
+              "name": "بيكون",
               "price": 8
+            },
+            {
+              "id": "large-fries",
+              "name": "بطاطس كبيرة",
+              "price": 10
             },
             {
               "id": "cola",
@@ -772,14 +862,9 @@
               "price": 6
             },
             {
-              "id": "sauce",
-              "name": "صلصة إضافية",
+              "id": "spicy-sauce",
+              "name": "صوص سبايسي",
               "price": 3
-            },
-            {
-              "id": "bread",
-              "name": "خبز إضافي",
-              "price": 4
             }
           ],
           "isCombo": false,
@@ -805,9 +890,19 @@
           "cashbackPercent": null,
           "addons": [
             {
-              "id": "fries",
-              "name": "بطاطس مقلية",
+              "id": "extra-cheese",
+              "name": "جبنة إضافية",
+              "price": 5
+            },
+            {
+              "id": "bacon",
+              "name": "بيكون",
               "price": 8
+            },
+            {
+              "id": "large-fries",
+              "name": "بطاطس كبيرة",
+              "price": 10
             },
             {
               "id": "cola",
@@ -815,14 +910,9 @@
               "price": 6
             },
             {
-              "id": "sauce",
-              "name": "صلصة إضافية",
+              "id": "spicy-sauce",
+              "name": "صوص سبايسي",
               "price": 3
-            },
-            {
-              "id": "bread",
-              "name": "خبز إضافي",
-              "price": 4
             }
           ],
           "isCombo": false,
@@ -848,9 +938,19 @@
           "cashbackPercent": null,
           "addons": [
             {
-              "id": "fries",
-              "name": "بطاطس مقلية",
+              "id": "extra-cheese",
+              "name": "جبنة إضافية",
+              "price": 5
+            },
+            {
+              "id": "bacon",
+              "name": "بيكون",
               "price": 8
+            },
+            {
+              "id": "large-fries",
+              "name": "بطاطس كبيرة",
+              "price": 10
             },
             {
               "id": "cola",
@@ -858,14 +958,9 @@
               "price": 6
             },
             {
-              "id": "sauce",
-              "name": "صلصة إضافية",
+              "id": "spicy-sauce",
+              "name": "صوص سبايسي",
               "price": 3
-            },
-            {
-              "id": "bread",
-              "name": "خبز إضافي",
-              "price": 4
             }
           ],
           "isCombo": false,
@@ -891,9 +986,19 @@
           "cashbackPercent": 15,
           "addons": [
             {
-              "id": "fries",
-              "name": "بطاطس مقلية",
+              "id": "extra-cheese",
+              "name": "جبنة إضافية",
+              "price": 5
+            },
+            {
+              "id": "bacon",
+              "name": "بيكون",
               "price": 8
+            },
+            {
+              "id": "large-fries",
+              "name": "بطاطس كبيرة",
+              "price": 10
             },
             {
               "id": "cola",
@@ -901,14 +1006,9 @@
               "price": 6
             },
             {
-              "id": "sauce",
-              "name": "صلصة إضافية",
+              "id": "spicy-sauce",
+              "name": "صوص سبايسي",
               "price": 3
-            },
-            {
-              "id": "bread",
-              "name": "خبز إضافي",
-              "price": 4
             }
           ],
           "isCombo": false,
@@ -934,9 +1034,19 @@
           "cashbackPercent": null,
           "addons": [
             {
-              "id": "fries",
-              "name": "بطاطس مقلية",
+              "id": "extra-cheese",
+              "name": "جبنة إضافية",
+              "price": 5
+            },
+            {
+              "id": "bacon",
+              "name": "بيكون",
               "price": 8
+            },
+            {
+              "id": "large-fries",
+              "name": "بطاطس كبيرة",
+              "price": 10
             },
             {
               "id": "cola",
@@ -944,14 +1054,9 @@
               "price": 6
             },
             {
-              "id": "sauce",
-              "name": "صلصة إضافية",
+              "id": "spicy-sauce",
+              "name": "صوص سبايسي",
               "price": 3
-            },
-            {
-              "id": "bread",
-              "name": "خبز إضافي",
-              "price": 4
             }
           ],
           "isCombo": false,
@@ -977,9 +1082,19 @@
           "cashbackPercent": null,
           "addons": [
             {
-              "id": "fries",
-              "name": "بطاطس مقلية",
+              "id": "extra-cheese",
+              "name": "جبنة إضافية",
+              "price": 5
+            },
+            {
+              "id": "bacon",
+              "name": "بيكون",
               "price": 8
+            },
+            {
+              "id": "large-fries",
+              "name": "بطاطس كبيرة",
+              "price": 10
             },
             {
               "id": "cola",
@@ -987,14 +1102,9 @@
               "price": 6
             },
             {
-              "id": "sauce",
-              "name": "صلصة إضافية",
+              "id": "spicy-sauce",
+              "name": "صوص سبايسي",
               "price": 3
-            },
-            {
-              "id": "bread",
-              "name": "خبز إضافي",
-              "price": 4
             }
           ],
           "isCombo": false,
@@ -1020,9 +1130,19 @@
           "cashbackPercent": 5,
           "addons": [
             {
-              "id": "fries",
-              "name": "بطاطس مقلية",
+              "id": "extra-cheese",
+              "name": "جبنة إضافية",
+              "price": 5
+            },
+            {
+              "id": "bacon",
+              "name": "بيكون",
               "price": 8
+            },
+            {
+              "id": "large-fries",
+              "name": "بطاطس كبيرة",
+              "price": 10
             },
             {
               "id": "cola",
@@ -1030,14 +1150,9 @@
               "price": 6
             },
             {
-              "id": "sauce",
-              "name": "صلصة إضافية",
+              "id": "spicy-sauce",
+              "name": "صوص سبايسي",
               "price": 3
-            },
-            {
-              "id": "bread",
-              "name": "خبز إضافي",
-              "price": 4
             }
           ],
           "isCombo": false,
@@ -1069,9 +1184,19 @@
           "cashbackPercent": null,
           "addons": [
             {
-              "id": "fries",
-              "name": "بطاطس مقلية",
+              "id": "extra-cheese",
+              "name": "جبنة إضافية",
+              "price": 5
+            },
+            {
+              "id": "bacon",
+              "name": "بيكون",
               "price": 8
+            },
+            {
+              "id": "large-fries",
+              "name": "بطاطس كبيرة",
+              "price": 10
             },
             {
               "id": "cola",
@@ -1079,14 +1204,9 @@
               "price": 6
             },
             {
-              "id": "sauce",
-              "name": "صلصة إضافية",
+              "id": "spicy-sauce",
+              "name": "صوص سبايسي",
               "price": 3
-            },
-            {
-              "id": "bread",
-              "name": "خبز إضافي",
-              "price": 4
             }
           ]
         },
@@ -1117,9 +1237,19 @@
           "cashbackPercent": null,
           "addons": [
             {
-              "id": "fries",
-              "name": "بطاطس مقلية",
+              "id": "extra-cheese",
+              "name": "جبنة إضافية",
+              "price": 5
+            },
+            {
+              "id": "bacon",
+              "name": "بيكون",
               "price": 8
+            },
+            {
+              "id": "large-fries",
+              "name": "بطاطس كبيرة",
+              "price": 10
             },
             {
               "id": "cola",
@@ -1127,14 +1257,9 @@
               "price": 6
             },
             {
-              "id": "sauce",
-              "name": "صلصة إضافية",
+              "id": "spicy-sauce",
+              "name": "صوص سبايسي",
               "price": 3
-            },
-            {
-              "id": "bread",
-              "name": "خبز إضافي",
-              "price": 4
             }
           ]
         },
@@ -1165,9 +1290,19 @@
           "cashbackPercent": null,
           "addons": [
             {
-              "id": "fries",
-              "name": "بطاطس مقلية",
+              "id": "extra-cheese",
+              "name": "جبنة إضافية",
+              "price": 5
+            },
+            {
+              "id": "bacon",
+              "name": "بيكون",
               "price": 8
+            },
+            {
+              "id": "large-fries",
+              "name": "بطاطس كبيرة",
+              "price": 10
             },
             {
               "id": "cola",
@@ -1175,14 +1310,9 @@
               "price": 6
             },
             {
-              "id": "sauce",
-              "name": "صلصة إضافية",
+              "id": "spicy-sauce",
+              "name": "صوص سبايسي",
               "price": 3
-            },
-            {
-              "id": "bread",
-              "name": "خبز إضافي",
-              "price": 4
             }
           ]
         }
@@ -1227,9 +1357,19 @@
           "cashbackPercent": null,
           "addons": [
             {
-              "id": "fries",
-              "name": "بطاطس مقلية",
+              "id": "extra-cheese",
+              "name": "جبنة إضافية",
+              "price": 5
+            },
+            {
+              "id": "bacon",
+              "name": "بيكون",
               "price": 8
+            },
+            {
+              "id": "large-fries",
+              "name": "بطاطس كبيرة",
+              "price": 10
             },
             {
               "id": "cola",
@@ -1237,14 +1377,9 @@
               "price": 6
             },
             {
-              "id": "sauce",
-              "name": "صلصة إضافية",
+              "id": "spicy-sauce",
+              "name": "صوص سبايسي",
               "price": 3
-            },
-            {
-              "id": "bread",
-              "name": "خبز إضافي",
-              "price": 4
             }
           ],
           "isCombo": false,
@@ -1270,9 +1405,19 @@
           "cashbackPercent": null,
           "addons": [
             {
-              "id": "fries",
-              "name": "بطاطس مقلية",
+              "id": "extra-cheese",
+              "name": "جبنة إضافية",
+              "price": 5
+            },
+            {
+              "id": "bacon",
+              "name": "بيكون",
               "price": 8
+            },
+            {
+              "id": "large-fries",
+              "name": "بطاطس كبيرة",
+              "price": 10
             },
             {
               "id": "cola",
@@ -1280,14 +1425,9 @@
               "price": 6
             },
             {
-              "id": "sauce",
-              "name": "صلصة إضافية",
+              "id": "spicy-sauce",
+              "name": "صوص سبايسي",
               "price": 3
-            },
-            {
-              "id": "bread",
-              "name": "خبز إضافي",
-              "price": 4
             }
           ],
           "isCombo": false,
@@ -1313,9 +1453,19 @@
           "cashbackPercent": null,
           "addons": [
             {
-              "id": "fries",
-              "name": "بطاطس مقلية",
+              "id": "extra-cheese",
+              "name": "جبنة إضافية",
+              "price": 5
+            },
+            {
+              "id": "bacon",
+              "name": "بيكون",
               "price": 8
+            },
+            {
+              "id": "large-fries",
+              "name": "بطاطس كبيرة",
+              "price": 10
             },
             {
               "id": "cola",
@@ -1323,14 +1473,9 @@
               "price": 6
             },
             {
-              "id": "sauce",
-              "name": "صلصة إضافية",
+              "id": "spicy-sauce",
+              "name": "صوص سبايسي",
               "price": 3
-            },
-            {
-              "id": "bread",
-              "name": "خبز إضافي",
-              "price": 4
             }
           ],
           "isCombo": false,
@@ -1356,9 +1501,19 @@
           "cashbackPercent": 10,
           "addons": [
             {
-              "id": "fries",
-              "name": "بطاطس مقلية",
+              "id": "extra-cheese",
+              "name": "جبنة إضافية",
+              "price": 5
+            },
+            {
+              "id": "bacon",
+              "name": "بيكون",
               "price": 8
+            },
+            {
+              "id": "large-fries",
+              "name": "بطاطس كبيرة",
+              "price": 10
             },
             {
               "id": "cola",
@@ -1366,14 +1521,9 @@
               "price": 6
             },
             {
-              "id": "sauce",
-              "name": "صلصة إضافية",
+              "id": "spicy-sauce",
+              "name": "صوص سبايسي",
               "price": 3
-            },
-            {
-              "id": "bread",
-              "name": "خبز إضافي",
-              "price": 4
             }
           ],
           "isCombo": false,
@@ -1399,9 +1549,19 @@
           "cashbackPercent": null,
           "addons": [
             {
-              "id": "fries",
-              "name": "بطاطس مقلية",
+              "id": "extra-cheese",
+              "name": "جبنة إضافية",
+              "price": 5
+            },
+            {
+              "id": "bacon",
+              "name": "بيكون",
               "price": 8
+            },
+            {
+              "id": "large-fries",
+              "name": "بطاطس كبيرة",
+              "price": 10
             },
             {
               "id": "cola",
@@ -1409,14 +1569,9 @@
               "price": 6
             },
             {
-              "id": "sauce",
-              "name": "صلصة إضافية",
+              "id": "spicy-sauce",
+              "name": "صوص سبايسي",
               "price": 3
-            },
-            {
-              "id": "bread",
-              "name": "خبز إضافي",
-              "price": 4
             }
           ],
           "isCombo": false,
@@ -1442,9 +1597,19 @@
           "cashbackPercent": 10,
           "addons": [
             {
-              "id": "fries",
-              "name": "بطاطس مقلية",
+              "id": "extra-cheese",
+              "name": "جبنة إضافية",
+              "price": 5
+            },
+            {
+              "id": "bacon",
+              "name": "بيكون",
               "price": 8
+            },
+            {
+              "id": "large-fries",
+              "name": "بطاطس كبيرة",
+              "price": 10
             },
             {
               "id": "cola",
@@ -1452,14 +1617,9 @@
               "price": 6
             },
             {
-              "id": "sauce",
-              "name": "صلصة إضافية",
+              "id": "spicy-sauce",
+              "name": "صوص سبايسي",
               "price": 3
-            },
-            {
-              "id": "bread",
-              "name": "خبز إضافي",
-              "price": 4
             }
           ],
           "isCombo": false,
@@ -1485,9 +1645,19 @@
           "cashbackPercent": null,
           "addons": [
             {
-              "id": "fries",
-              "name": "بطاطس مقلية",
+              "id": "extra-cheese",
+              "name": "جبنة إضافية",
+              "price": 5
+            },
+            {
+              "id": "bacon",
+              "name": "بيكون",
               "price": 8
+            },
+            {
+              "id": "large-fries",
+              "name": "بطاطس كبيرة",
+              "price": 10
             },
             {
               "id": "cola",
@@ -1495,14 +1665,9 @@
               "price": 6
             },
             {
-              "id": "sauce",
-              "name": "صلصة إضافية",
+              "id": "spicy-sauce",
+              "name": "صوص سبايسي",
               "price": 3
-            },
-            {
-              "id": "bread",
-              "name": "خبز إضافي",
-              "price": 4
             }
           ],
           "isCombo": false,
@@ -1528,9 +1693,19 @@
           "cashbackPercent": null,
           "addons": [
             {
-              "id": "fries",
-              "name": "بطاطس مقلية",
+              "id": "extra-cheese",
+              "name": "جبنة إضافية",
+              "price": 5
+            },
+            {
+              "id": "bacon",
+              "name": "بيكون",
               "price": 8
+            },
+            {
+              "id": "large-fries",
+              "name": "بطاطس كبيرة",
+              "price": 10
             },
             {
               "id": "cola",
@@ -1538,14 +1713,9 @@
               "price": 6
             },
             {
-              "id": "sauce",
-              "name": "صلصة إضافية",
+              "id": "spicy-sauce",
+              "name": "صوص سبايسي",
               "price": 3
-            },
-            {
-              "id": "bread",
-              "name": "خبز إضافي",
-              "price": 4
             }
           ],
           "isCombo": false,
@@ -1571,9 +1741,19 @@
           "cashbackPercent": null,
           "addons": [
             {
-              "id": "fries",
-              "name": "بطاطس مقلية",
+              "id": "extra-cheese",
+              "name": "جبنة إضافية",
+              "price": 5
+            },
+            {
+              "id": "bacon",
+              "name": "بيكون",
               "price": 8
+            },
+            {
+              "id": "large-fries",
+              "name": "بطاطس كبيرة",
+              "price": 10
             },
             {
               "id": "cola",
@@ -1581,14 +1761,9 @@
               "price": 6
             },
             {
-              "id": "sauce",
-              "name": "صلصة إضافية",
+              "id": "spicy-sauce",
+              "name": "صوص سبايسي",
               "price": 3
-            },
-            {
-              "id": "bread",
-              "name": "خبز إضافي",
-              "price": 4
             }
           ],
           "isCombo": false,
@@ -1614,9 +1789,19 @@
           "cashbackPercent": null,
           "addons": [
             {
-              "id": "fries",
-              "name": "بطاطس مقلية",
+              "id": "extra-cheese",
+              "name": "جبنة إضافية",
+              "price": 5
+            },
+            {
+              "id": "bacon",
+              "name": "بيكون",
               "price": 8
+            },
+            {
+              "id": "large-fries",
+              "name": "بطاطس كبيرة",
+              "price": 10
             },
             {
               "id": "cola",
@@ -1624,14 +1809,9 @@
               "price": 6
             },
             {
-              "id": "sauce",
-              "name": "صلصة إضافية",
+              "id": "spicy-sauce",
+              "name": "صوص سبايسي",
               "price": 3
-            },
-            {
-              "id": "bread",
-              "name": "خبز إضافي",
-              "price": 4
             }
           ],
           "isCombo": false,
@@ -1663,9 +1843,19 @@
           "cashbackPercent": null,
           "addons": [
             {
-              "id": "fries",
-              "name": "بطاطس مقلية",
+              "id": "extra-cheese",
+              "name": "جبنة إضافية",
+              "price": 5
+            },
+            {
+              "id": "bacon",
+              "name": "بيكون",
               "price": 8
+            },
+            {
+              "id": "large-fries",
+              "name": "بطاطس كبيرة",
+              "price": 10
             },
             {
               "id": "cola",
@@ -1673,14 +1863,9 @@
               "price": 6
             },
             {
-              "id": "sauce",
-              "name": "صلصة إضافية",
+              "id": "spicy-sauce",
+              "name": "صوص سبايسي",
               "price": 3
-            },
-            {
-              "id": "bread",
-              "name": "خبز إضافي",
-              "price": 4
             }
           ]
         },
@@ -1711,9 +1896,19 @@
           "cashbackPercent": null,
           "addons": [
             {
-              "id": "fries",
-              "name": "بطاطس مقلية",
+              "id": "extra-cheese",
+              "name": "جبنة إضافية",
+              "price": 5
+            },
+            {
+              "id": "bacon",
+              "name": "بيكون",
               "price": 8
+            },
+            {
+              "id": "large-fries",
+              "name": "بطاطس كبيرة",
+              "price": 10
             },
             {
               "id": "cola",
@@ -1721,14 +1916,9 @@
               "price": 6
             },
             {
-              "id": "sauce",
-              "name": "صلصة إضافية",
+              "id": "spicy-sauce",
+              "name": "صوص سبايسي",
               "price": 3
-            },
-            {
-              "id": "bread",
-              "name": "خبز إضافي",
-              "price": 4
             }
           ]
         },
@@ -1759,9 +1949,19 @@
           "cashbackPercent": null,
           "addons": [
             {
-              "id": "fries",
-              "name": "بطاطس مقلية",
+              "id": "extra-cheese",
+              "name": "جبنة إضافية",
+              "price": 5
+            },
+            {
+              "id": "bacon",
+              "name": "بيكون",
               "price": 8
+            },
+            {
+              "id": "large-fries",
+              "name": "بطاطس كبيرة",
+              "price": 10
             },
             {
               "id": "cola",
@@ -1769,14 +1969,9 @@
               "price": 6
             },
             {
-              "id": "sauce",
-              "name": "صلصة إضافية",
+              "id": "spicy-sauce",
+              "name": "صوص سبايسي",
               "price": 3
-            },
-            {
-              "id": "bread",
-              "name": "خبز إضافي",
-              "price": 4
             }
           ]
         }
@@ -1821,9 +2016,19 @@
           "cashbackPercent": null,
           "addons": [
             {
-              "id": "fries",
-              "name": "بطاطس مقلية",
+              "id": "extra-cheese",
+              "name": "جبنة إضافية",
+              "price": 5
+            },
+            {
+              "id": "bacon",
+              "name": "بيكون",
               "price": 8
+            },
+            {
+              "id": "large-fries",
+              "name": "بطاطس كبيرة",
+              "price": 10
             },
             {
               "id": "cola",
@@ -1831,14 +2036,9 @@
               "price": 6
             },
             {
-              "id": "sauce",
-              "name": "صلصة إضافية",
+              "id": "spicy-sauce",
+              "name": "صوص سبايسي",
               "price": 3
-            },
-            {
-              "id": "bread",
-              "name": "خبز إضافي",
-              "price": 4
             }
           ],
           "isCombo": false,
@@ -1864,9 +2064,19 @@
           "cashbackPercent": null,
           "addons": [
             {
-              "id": "fries",
-              "name": "بطاطس مقلية",
+              "id": "extra-cheese",
+              "name": "جبنة إضافية",
+              "price": 5
+            },
+            {
+              "id": "bacon",
+              "name": "بيكون",
               "price": 8
+            },
+            {
+              "id": "large-fries",
+              "name": "بطاطس كبيرة",
+              "price": 10
             },
             {
               "id": "cola",
@@ -1874,14 +2084,9 @@
               "price": 6
             },
             {
-              "id": "sauce",
-              "name": "صلصة إضافية",
+              "id": "spicy-sauce",
+              "name": "صوص سبايسي",
               "price": 3
-            },
-            {
-              "id": "bread",
-              "name": "خبز إضافي",
-              "price": 4
             }
           ],
           "isCombo": false,
@@ -1907,9 +2112,19 @@
           "cashbackPercent": null,
           "addons": [
             {
-              "id": "fries",
-              "name": "بطاطس مقلية",
+              "id": "extra-cheese",
+              "name": "جبنة إضافية",
+              "price": 5
+            },
+            {
+              "id": "bacon",
+              "name": "بيكون",
               "price": 8
+            },
+            {
+              "id": "large-fries",
+              "name": "بطاطس كبيرة",
+              "price": 10
             },
             {
               "id": "cola",
@@ -1917,14 +2132,9 @@
               "price": 6
             },
             {
-              "id": "sauce",
-              "name": "صلصة إضافية",
+              "id": "spicy-sauce",
+              "name": "صوص سبايسي",
               "price": 3
-            },
-            {
-              "id": "bread",
-              "name": "خبز إضافي",
-              "price": 4
             }
           ],
           "isCombo": false,
@@ -1950,9 +2160,19 @@
           "cashbackPercent": null,
           "addons": [
             {
-              "id": "fries",
-              "name": "بطاطس مقلية",
+              "id": "extra-cheese",
+              "name": "جبنة إضافية",
+              "price": 5
+            },
+            {
+              "id": "bacon",
+              "name": "بيكون",
               "price": 8
+            },
+            {
+              "id": "large-fries",
+              "name": "بطاطس كبيرة",
+              "price": 10
             },
             {
               "id": "cola",
@@ -1960,14 +2180,9 @@
               "price": 6
             },
             {
-              "id": "sauce",
-              "name": "صلصة إضافية",
+              "id": "spicy-sauce",
+              "name": "صوص سبايسي",
               "price": 3
-            },
-            {
-              "id": "bread",
-              "name": "خبز إضافي",
-              "price": 4
             }
           ],
           "isCombo": false,
@@ -1993,9 +2208,19 @@
           "cashbackPercent": null,
           "addons": [
             {
-              "id": "fries",
-              "name": "بطاطس مقلية",
+              "id": "extra-cheese",
+              "name": "جبنة إضافية",
+              "price": 5
+            },
+            {
+              "id": "bacon",
+              "name": "بيكون",
               "price": 8
+            },
+            {
+              "id": "large-fries",
+              "name": "بطاطس كبيرة",
+              "price": 10
             },
             {
               "id": "cola",
@@ -2003,14 +2228,9 @@
               "price": 6
             },
             {
-              "id": "sauce",
-              "name": "صلصة إضافية",
+              "id": "spicy-sauce",
+              "name": "صوص سبايسي",
               "price": 3
-            },
-            {
-              "id": "bread",
-              "name": "خبز إضافي",
-              "price": 4
             }
           ],
           "isCombo": false,
@@ -2036,9 +2256,19 @@
           "cashbackPercent": null,
           "addons": [
             {
-              "id": "fries",
-              "name": "بطاطس مقلية",
+              "id": "extra-cheese",
+              "name": "جبنة إضافية",
+              "price": 5
+            },
+            {
+              "id": "bacon",
+              "name": "بيكون",
               "price": 8
+            },
+            {
+              "id": "large-fries",
+              "name": "بطاطس كبيرة",
+              "price": 10
             },
             {
               "id": "cola",
@@ -2046,14 +2276,9 @@
               "price": 6
             },
             {
-              "id": "sauce",
-              "name": "صلصة إضافية",
+              "id": "spicy-sauce",
+              "name": "صوص سبايسي",
               "price": 3
-            },
-            {
-              "id": "bread",
-              "name": "خبز إضافي",
-              "price": 4
             }
           ],
           "isCombo": false,
@@ -2079,9 +2304,19 @@
           "cashbackPercent": null,
           "addons": [
             {
-              "id": "fries",
-              "name": "بطاطس مقلية",
+              "id": "extra-cheese",
+              "name": "جبنة إضافية",
+              "price": 5
+            },
+            {
+              "id": "bacon",
+              "name": "بيكون",
               "price": 8
+            },
+            {
+              "id": "large-fries",
+              "name": "بطاطس كبيرة",
+              "price": 10
             },
             {
               "id": "cola",
@@ -2089,14 +2324,9 @@
               "price": 6
             },
             {
-              "id": "sauce",
-              "name": "صلصة إضافية",
+              "id": "spicy-sauce",
+              "name": "صوص سبايسي",
               "price": 3
-            },
-            {
-              "id": "bread",
-              "name": "خبز إضافي",
-              "price": 4
             }
           ],
           "isCombo": false,
@@ -2122,9 +2352,19 @@
           "cashbackPercent": null,
           "addons": [
             {
-              "id": "fries",
-              "name": "بطاطس مقلية",
+              "id": "extra-cheese",
+              "name": "جبنة إضافية",
+              "price": 5
+            },
+            {
+              "id": "bacon",
+              "name": "بيكون",
               "price": 8
+            },
+            {
+              "id": "large-fries",
+              "name": "بطاطس كبيرة",
+              "price": 10
             },
             {
               "id": "cola",
@@ -2132,14 +2372,9 @@
               "price": 6
             },
             {
-              "id": "sauce",
-              "name": "صلصة إضافية",
+              "id": "spicy-sauce",
+              "name": "صوص سبايسي",
               "price": 3
-            },
-            {
-              "id": "bread",
-              "name": "خبز إضافي",
-              "price": 4
             }
           ],
           "isCombo": false,
@@ -2165,9 +2400,19 @@
           "cashbackPercent": null,
           "addons": [
             {
-              "id": "fries",
-              "name": "بطاطس مقلية",
+              "id": "extra-cheese",
+              "name": "جبنة إضافية",
+              "price": 5
+            },
+            {
+              "id": "bacon",
+              "name": "بيكون",
               "price": 8
+            },
+            {
+              "id": "large-fries",
+              "name": "بطاطس كبيرة",
+              "price": 10
             },
             {
               "id": "cola",
@@ -2175,14 +2420,9 @@
               "price": 6
             },
             {
-              "id": "sauce",
-              "name": "صلصة إضافية",
+              "id": "spicy-sauce",
+              "name": "صوص سبايسي",
               "price": 3
-            },
-            {
-              "id": "bread",
-              "name": "خبز إضافي",
-              "price": 4
             }
           ],
           "isCombo": false,
@@ -2208,9 +2448,19 @@
           "cashbackPercent": null,
           "addons": [
             {
-              "id": "fries",
-              "name": "بطاطس مقلية",
+              "id": "extra-cheese",
+              "name": "جبنة إضافية",
+              "price": 5
+            },
+            {
+              "id": "bacon",
+              "name": "بيكون",
               "price": 8
+            },
+            {
+              "id": "large-fries",
+              "name": "بطاطس كبيرة",
+              "price": 10
             },
             {
               "id": "cola",
@@ -2218,14 +2468,9 @@
               "price": 6
             },
             {
-              "id": "sauce",
-              "name": "صلصة إضافية",
+              "id": "spicy-sauce",
+              "name": "صوص سبايسي",
               "price": 3
-            },
-            {
-              "id": "bread",
-              "name": "خبز إضافي",
-              "price": 4
             }
           ],
           "isCombo": false,
@@ -2257,9 +2502,19 @@
           "cashbackPercent": null,
           "addons": [
             {
-              "id": "fries",
-              "name": "بطاطس مقلية",
+              "id": "extra-cheese",
+              "name": "جبنة إضافية",
+              "price": 5
+            },
+            {
+              "id": "bacon",
+              "name": "بيكون",
               "price": 8
+            },
+            {
+              "id": "large-fries",
+              "name": "بطاطس كبيرة",
+              "price": 10
             },
             {
               "id": "cola",
@@ -2267,14 +2522,9 @@
               "price": 6
             },
             {
-              "id": "sauce",
-              "name": "صلصة إضافية",
+              "id": "spicy-sauce",
+              "name": "صوص سبايسي",
               "price": 3
-            },
-            {
-              "id": "bread",
-              "name": "خبز إضافي",
-              "price": 4
             }
           ]
         },
@@ -2305,9 +2555,19 @@
           "cashbackPercent": null,
           "addons": [
             {
-              "id": "fries",
-              "name": "بطاطس مقلية",
+              "id": "extra-cheese",
+              "name": "جبنة إضافية",
+              "price": 5
+            },
+            {
+              "id": "bacon",
+              "name": "بيكون",
               "price": 8
+            },
+            {
+              "id": "large-fries",
+              "name": "بطاطس كبيرة",
+              "price": 10
             },
             {
               "id": "cola",
@@ -2315,14 +2575,9 @@
               "price": 6
             },
             {
-              "id": "sauce",
-              "name": "صلصة إضافية",
+              "id": "spicy-sauce",
+              "name": "صوص سبايسي",
               "price": 3
-            },
-            {
-              "id": "bread",
-              "name": "خبز إضافي",
-              "price": 4
             }
           ]
         },
@@ -2353,9 +2608,19 @@
           "cashbackPercent": null,
           "addons": [
             {
-              "id": "fries",
-              "name": "بطاطس مقلية",
+              "id": "extra-cheese",
+              "name": "جبنة إضافية",
+              "price": 5
+            },
+            {
+              "id": "bacon",
+              "name": "بيكون",
               "price": 8
+            },
+            {
+              "id": "large-fries",
+              "name": "بطاطس كبيرة",
+              "price": 10
             },
             {
               "id": "cola",
@@ -2363,14 +2628,9 @@
               "price": 6
             },
             {
-              "id": "sauce",
-              "name": "صلصة إضافية",
+              "id": "spicy-sauce",
+              "name": "صوص سبايسي",
               "price": 3
-            },
-            {
-              "id": "bread",
-              "name": "خبز إضافي",
-              "price": 4
             }
           ]
         }
@@ -2415,9 +2675,19 @@
           "cashbackPercent": null,
           "addons": [
             {
-              "id": "fries",
-              "name": "بطاطس مقلية",
+              "id": "extra-cheese",
+              "name": "جبنة إضافية",
+              "price": 5
+            },
+            {
+              "id": "bacon",
+              "name": "بيكون",
               "price": 8
+            },
+            {
+              "id": "large-fries",
+              "name": "بطاطس كبيرة",
+              "price": 10
             },
             {
               "id": "cola",
@@ -2425,14 +2695,9 @@
               "price": 6
             },
             {
-              "id": "sauce",
-              "name": "صلصة إضافية",
+              "id": "spicy-sauce",
+              "name": "صوص سبايسي",
               "price": 3
-            },
-            {
-              "id": "bread",
-              "name": "خبز إضافي",
-              "price": 4
             }
           ],
           "isCombo": false,
@@ -2458,9 +2723,19 @@
           "cashbackPercent": null,
           "addons": [
             {
-              "id": "fries",
-              "name": "بطاطس مقلية",
+              "id": "extra-cheese",
+              "name": "جبنة إضافية",
+              "price": 5
+            },
+            {
+              "id": "bacon",
+              "name": "بيكون",
               "price": 8
+            },
+            {
+              "id": "large-fries",
+              "name": "بطاطس كبيرة",
+              "price": 10
             },
             {
               "id": "cola",
@@ -2468,14 +2743,9 @@
               "price": 6
             },
             {
-              "id": "sauce",
-              "name": "صلصة إضافية",
+              "id": "spicy-sauce",
+              "name": "صوص سبايسي",
               "price": 3
-            },
-            {
-              "id": "bread",
-              "name": "خبز إضافي",
-              "price": 4
             }
           ],
           "isCombo": false,
@@ -2501,9 +2771,19 @@
           "cashbackPercent": null,
           "addons": [
             {
-              "id": "fries",
-              "name": "بطاطس مقلية",
+              "id": "extra-cheese",
+              "name": "جبنة إضافية",
+              "price": 5
+            },
+            {
+              "id": "bacon",
+              "name": "بيكون",
               "price": 8
+            },
+            {
+              "id": "large-fries",
+              "name": "بطاطس كبيرة",
+              "price": 10
             },
             {
               "id": "cola",
@@ -2511,14 +2791,9 @@
               "price": 6
             },
             {
-              "id": "sauce",
-              "name": "صلصة إضافية",
+              "id": "spicy-sauce",
+              "name": "صوص سبايسي",
               "price": 3
-            },
-            {
-              "id": "bread",
-              "name": "خبز إضافي",
-              "price": 4
             }
           ],
           "isCombo": false,
@@ -2544,9 +2819,19 @@
           "cashbackPercent": null,
           "addons": [
             {
-              "id": "fries",
-              "name": "بطاطس مقلية",
+              "id": "extra-cheese",
+              "name": "جبنة إضافية",
+              "price": 5
+            },
+            {
+              "id": "bacon",
+              "name": "بيكون",
               "price": 8
+            },
+            {
+              "id": "large-fries",
+              "name": "بطاطس كبيرة",
+              "price": 10
             },
             {
               "id": "cola",
@@ -2554,14 +2839,9 @@
               "price": 6
             },
             {
-              "id": "sauce",
-              "name": "صلصة إضافية",
+              "id": "spicy-sauce",
+              "name": "صوص سبايسي",
               "price": 3
-            },
-            {
-              "id": "bread",
-              "name": "خبز إضافي",
-              "price": 4
             }
           ],
           "isCombo": false,
@@ -2587,9 +2867,19 @@
           "cashbackPercent": null,
           "addons": [
             {
-              "id": "fries",
-              "name": "بطاطس مقلية",
+              "id": "extra-cheese",
+              "name": "جبنة إضافية",
+              "price": 5
+            },
+            {
+              "id": "bacon",
+              "name": "بيكون",
               "price": 8
+            },
+            {
+              "id": "large-fries",
+              "name": "بطاطس كبيرة",
+              "price": 10
             },
             {
               "id": "cola",
@@ -2597,14 +2887,9 @@
               "price": 6
             },
             {
-              "id": "sauce",
-              "name": "صلصة إضافية",
+              "id": "spicy-sauce",
+              "name": "صوص سبايسي",
               "price": 3
-            },
-            {
-              "id": "bread",
-              "name": "خبز إضافي",
-              "price": 4
             }
           ],
           "isCombo": false,
@@ -2630,9 +2915,19 @@
           "cashbackPercent": null,
           "addons": [
             {
-              "id": "fries",
-              "name": "بطاطس مقلية",
+              "id": "extra-cheese",
+              "name": "جبنة إضافية",
+              "price": 5
+            },
+            {
+              "id": "bacon",
+              "name": "بيكون",
               "price": 8
+            },
+            {
+              "id": "large-fries",
+              "name": "بطاطس كبيرة",
+              "price": 10
             },
             {
               "id": "cola",
@@ -2640,14 +2935,9 @@
               "price": 6
             },
             {
-              "id": "sauce",
-              "name": "صلصة إضافية",
+              "id": "spicy-sauce",
+              "name": "صوص سبايسي",
               "price": 3
-            },
-            {
-              "id": "bread",
-              "name": "خبز إضافي",
-              "price": 4
             }
           ],
           "isCombo": false,
@@ -2673,9 +2963,19 @@
           "cashbackPercent": null,
           "addons": [
             {
-              "id": "fries",
-              "name": "بطاطس مقلية",
+              "id": "extra-cheese",
+              "name": "جبنة إضافية",
+              "price": 5
+            },
+            {
+              "id": "bacon",
+              "name": "بيكون",
               "price": 8
+            },
+            {
+              "id": "large-fries",
+              "name": "بطاطس كبيرة",
+              "price": 10
             },
             {
               "id": "cola",
@@ -2683,14 +2983,9 @@
               "price": 6
             },
             {
-              "id": "sauce",
-              "name": "صلصة إضافية",
+              "id": "spicy-sauce",
+              "name": "صوص سبايسي",
               "price": 3
-            },
-            {
-              "id": "bread",
-              "name": "خبز إضافي",
-              "price": 4
             }
           ],
           "isCombo": false,
@@ -2716,9 +3011,19 @@
           "cashbackPercent": null,
           "addons": [
             {
-              "id": "fries",
-              "name": "بطاطس مقلية",
+              "id": "extra-cheese",
+              "name": "جبنة إضافية",
+              "price": 5
+            },
+            {
+              "id": "bacon",
+              "name": "بيكون",
               "price": 8
+            },
+            {
+              "id": "large-fries",
+              "name": "بطاطس كبيرة",
+              "price": 10
             },
             {
               "id": "cola",
@@ -2726,14 +3031,9 @@
               "price": 6
             },
             {
-              "id": "sauce",
-              "name": "صلصة إضافية",
+              "id": "spicy-sauce",
+              "name": "صوص سبايسي",
               "price": 3
-            },
-            {
-              "id": "bread",
-              "name": "خبز إضافي",
-              "price": 4
             }
           ],
           "isCombo": false,
@@ -2759,9 +3059,19 @@
           "cashbackPercent": null,
           "addons": [
             {
-              "id": "fries",
-              "name": "بطاطس مقلية",
+              "id": "extra-cheese",
+              "name": "جبنة إضافية",
+              "price": 5
+            },
+            {
+              "id": "bacon",
+              "name": "بيكون",
               "price": 8
+            },
+            {
+              "id": "large-fries",
+              "name": "بطاطس كبيرة",
+              "price": 10
             },
             {
               "id": "cola",
@@ -2769,14 +3079,9 @@
               "price": 6
             },
             {
-              "id": "sauce",
-              "name": "صلصة إضافية",
+              "id": "spicy-sauce",
+              "name": "صوص سبايسي",
               "price": 3
-            },
-            {
-              "id": "bread",
-              "name": "خبز إضافي",
-              "price": 4
             }
           ],
           "isCombo": false,
@@ -2802,9 +3107,19 @@
           "cashbackPercent": null,
           "addons": [
             {
-              "id": "fries",
-              "name": "بطاطس مقلية",
+              "id": "extra-cheese",
+              "name": "جبنة إضافية",
+              "price": 5
+            },
+            {
+              "id": "bacon",
+              "name": "بيكون",
               "price": 8
+            },
+            {
+              "id": "large-fries",
+              "name": "بطاطس كبيرة",
+              "price": 10
             },
             {
               "id": "cola",
@@ -2812,14 +3127,9 @@
               "price": 6
             },
             {
-              "id": "sauce",
-              "name": "صلصة إضافية",
+              "id": "spicy-sauce",
+              "name": "صوص سبايسي",
               "price": 3
-            },
-            {
-              "id": "bread",
-              "name": "خبز إضافي",
-              "price": 4
             }
           ],
           "isCombo": false,
@@ -2851,9 +3161,19 @@
           "cashbackPercent": null,
           "addons": [
             {
-              "id": "fries",
-              "name": "بطاطس مقلية",
+              "id": "extra-cheese",
+              "name": "جبنة إضافية",
+              "price": 5
+            },
+            {
+              "id": "bacon",
+              "name": "بيكون",
               "price": 8
+            },
+            {
+              "id": "large-fries",
+              "name": "بطاطس كبيرة",
+              "price": 10
             },
             {
               "id": "cola",
@@ -2861,14 +3181,9 @@
               "price": 6
             },
             {
-              "id": "sauce",
-              "name": "صلصة إضافية",
+              "id": "spicy-sauce",
+              "name": "صوص سبايسي",
               "price": 3
-            },
-            {
-              "id": "bread",
-              "name": "خبز إضافي",
-              "price": 4
             }
           ]
         },
@@ -2899,9 +3214,19 @@
           "cashbackPercent": null,
           "addons": [
             {
-              "id": "fries",
-              "name": "بطاطس مقلية",
+              "id": "extra-cheese",
+              "name": "جبنة إضافية",
+              "price": 5
+            },
+            {
+              "id": "bacon",
+              "name": "بيكون",
               "price": 8
+            },
+            {
+              "id": "large-fries",
+              "name": "بطاطس كبيرة",
+              "price": 10
             },
             {
               "id": "cola",
@@ -2909,14 +3234,9 @@
               "price": 6
             },
             {
-              "id": "sauce",
-              "name": "صلصة إضافية",
+              "id": "spicy-sauce",
+              "name": "صوص سبايسي",
               "price": 3
-            },
-            {
-              "id": "bread",
-              "name": "خبز إضافي",
-              "price": 4
             }
           ]
         },
@@ -2947,9 +3267,19 @@
           "cashbackPercent": null,
           "addons": [
             {
-              "id": "fries",
-              "name": "بطاطس مقلية",
+              "id": "extra-cheese",
+              "name": "جبنة إضافية",
+              "price": 5
+            },
+            {
+              "id": "bacon",
+              "name": "بيكون",
               "price": 8
+            },
+            {
+              "id": "large-fries",
+              "name": "بطاطس كبيرة",
+              "price": 10
             },
             {
               "id": "cola",
@@ -2957,14 +3287,9 @@
               "price": 6
             },
             {
-              "id": "sauce",
-              "name": "صلصة إضافية",
+              "id": "spicy-sauce",
+              "name": "صوص سبايسي",
               "price": 3
-            },
-            {
-              "id": "bread",
-              "name": "خبز إضافي",
-              "price": 4
             }
           ]
         }
@@ -3009,9 +3334,19 @@
           "cashbackPercent": null,
           "addons": [
             {
-              "id": "fries",
-              "name": "بطاطس مقلية",
+              "id": "extra-cheese",
+              "name": "جبنة إضافية",
+              "price": 5
+            },
+            {
+              "id": "bacon",
+              "name": "بيكون",
               "price": 8
+            },
+            {
+              "id": "large-fries",
+              "name": "بطاطس كبيرة",
+              "price": 10
             },
             {
               "id": "cola",
@@ -3019,14 +3354,9 @@
               "price": 6
             },
             {
-              "id": "sauce",
-              "name": "صلصة إضافية",
+              "id": "spicy-sauce",
+              "name": "صوص سبايسي",
               "price": 3
-            },
-            {
-              "id": "bread",
-              "name": "خبز إضافي",
-              "price": 4
             }
           ],
           "isCombo": false,
@@ -3052,9 +3382,19 @@
           "cashbackPercent": null,
           "addons": [
             {
-              "id": "fries",
-              "name": "بطاطس مقلية",
+              "id": "extra-cheese",
+              "name": "جبنة إضافية",
+              "price": 5
+            },
+            {
+              "id": "bacon",
+              "name": "بيكون",
               "price": 8
+            },
+            {
+              "id": "large-fries",
+              "name": "بطاطس كبيرة",
+              "price": 10
             },
             {
               "id": "cola",
@@ -3062,14 +3402,9 @@
               "price": 6
             },
             {
-              "id": "sauce",
-              "name": "صلصة إضافية",
+              "id": "spicy-sauce",
+              "name": "صوص سبايسي",
               "price": 3
-            },
-            {
-              "id": "bread",
-              "name": "خبز إضافي",
-              "price": 4
             }
           ],
           "isCombo": false,
@@ -3095,9 +3430,19 @@
           "cashbackPercent": null,
           "addons": [
             {
-              "id": "fries",
-              "name": "بطاطس مقلية",
+              "id": "extra-cheese",
+              "name": "جبنة إضافية",
+              "price": 5
+            },
+            {
+              "id": "bacon",
+              "name": "بيكون",
               "price": 8
+            },
+            {
+              "id": "large-fries",
+              "name": "بطاطس كبيرة",
+              "price": 10
             },
             {
               "id": "cola",
@@ -3105,14 +3450,9 @@
               "price": 6
             },
             {
-              "id": "sauce",
-              "name": "صلصة إضافية",
+              "id": "spicy-sauce",
+              "name": "صوص سبايسي",
               "price": 3
-            },
-            {
-              "id": "bread",
-              "name": "خبز إضافي",
-              "price": 4
             }
           ],
           "isCombo": false,
@@ -3138,9 +3478,19 @@
           "cashbackPercent": null,
           "addons": [
             {
-              "id": "fries",
-              "name": "بطاطس مقلية",
+              "id": "extra-cheese",
+              "name": "جبنة إضافية",
+              "price": 5
+            },
+            {
+              "id": "bacon",
+              "name": "بيكون",
               "price": 8
+            },
+            {
+              "id": "large-fries",
+              "name": "بطاطس كبيرة",
+              "price": 10
             },
             {
               "id": "cola",
@@ -3148,14 +3498,9 @@
               "price": 6
             },
             {
-              "id": "sauce",
-              "name": "صلصة إضافية",
+              "id": "spicy-sauce",
+              "name": "صوص سبايسي",
               "price": 3
-            },
-            {
-              "id": "bread",
-              "name": "خبز إضافي",
-              "price": 4
             }
           ],
           "isCombo": false,
@@ -3181,9 +3526,19 @@
           "cashbackPercent": 15,
           "addons": [
             {
-              "id": "fries",
-              "name": "بطاطس مقلية",
+              "id": "extra-cheese",
+              "name": "جبنة إضافية",
+              "price": 5
+            },
+            {
+              "id": "bacon",
+              "name": "بيكون",
               "price": 8
+            },
+            {
+              "id": "large-fries",
+              "name": "بطاطس كبيرة",
+              "price": 10
             },
             {
               "id": "cola",
@@ -3191,14 +3546,9 @@
               "price": 6
             },
             {
-              "id": "sauce",
-              "name": "صلصة إضافية",
+              "id": "spicy-sauce",
+              "name": "صوص سبايسي",
               "price": 3
-            },
-            {
-              "id": "bread",
-              "name": "خبز إضافي",
-              "price": 4
             }
           ],
           "isCombo": false,
@@ -3224,9 +3574,19 @@
           "cashbackPercent": null,
           "addons": [
             {
-              "id": "fries",
-              "name": "بطاطس مقلية",
+              "id": "extra-cheese",
+              "name": "جبنة إضافية",
+              "price": 5
+            },
+            {
+              "id": "bacon",
+              "name": "بيكون",
               "price": 8
+            },
+            {
+              "id": "large-fries",
+              "name": "بطاطس كبيرة",
+              "price": 10
             },
             {
               "id": "cola",
@@ -3234,14 +3594,9 @@
               "price": 6
             },
             {
-              "id": "sauce",
-              "name": "صلصة إضافية",
+              "id": "spicy-sauce",
+              "name": "صوص سبايسي",
               "price": 3
-            },
-            {
-              "id": "bread",
-              "name": "خبز إضافي",
-              "price": 4
             }
           ],
           "isCombo": false,
@@ -3267,9 +3622,19 @@
           "cashbackPercent": null,
           "addons": [
             {
-              "id": "fries",
-              "name": "بطاطس مقلية",
+              "id": "extra-cheese",
+              "name": "جبنة إضافية",
+              "price": 5
+            },
+            {
+              "id": "bacon",
+              "name": "بيكون",
               "price": 8
+            },
+            {
+              "id": "large-fries",
+              "name": "بطاطس كبيرة",
+              "price": 10
             },
             {
               "id": "cola",
@@ -3277,14 +3642,9 @@
               "price": 6
             },
             {
-              "id": "sauce",
-              "name": "صلصة إضافية",
+              "id": "spicy-sauce",
+              "name": "صوص سبايسي",
               "price": 3
-            },
-            {
-              "id": "bread",
-              "name": "خبز إضافي",
-              "price": 4
             }
           ],
           "isCombo": false,
@@ -3310,9 +3670,19 @@
           "cashbackPercent": null,
           "addons": [
             {
-              "id": "fries",
-              "name": "بطاطس مقلية",
+              "id": "extra-cheese",
+              "name": "جبنة إضافية",
+              "price": 5
+            },
+            {
+              "id": "bacon",
+              "name": "بيكون",
               "price": 8
+            },
+            {
+              "id": "large-fries",
+              "name": "بطاطس كبيرة",
+              "price": 10
             },
             {
               "id": "cola",
@@ -3320,14 +3690,9 @@
               "price": 6
             },
             {
-              "id": "sauce",
-              "name": "صلصة إضافية",
+              "id": "spicy-sauce",
+              "name": "صوص سبايسي",
               "price": 3
-            },
-            {
-              "id": "bread",
-              "name": "خبز إضافي",
-              "price": 4
             }
           ],
           "isCombo": false,
@@ -3353,9 +3718,19 @@
           "cashbackPercent": null,
           "addons": [
             {
-              "id": "fries",
-              "name": "بطاطس مقلية",
+              "id": "extra-cheese",
+              "name": "جبنة إضافية",
+              "price": 5
+            },
+            {
+              "id": "bacon",
+              "name": "بيكون",
               "price": 8
+            },
+            {
+              "id": "large-fries",
+              "name": "بطاطس كبيرة",
+              "price": 10
             },
             {
               "id": "cola",
@@ -3363,14 +3738,9 @@
               "price": 6
             },
             {
-              "id": "sauce",
-              "name": "صلصة إضافية",
+              "id": "spicy-sauce",
+              "name": "صوص سبايسي",
               "price": 3
-            },
-            {
-              "id": "bread",
-              "name": "خبز إضافي",
-              "price": 4
             }
           ],
           "isCombo": false,
@@ -3396,9 +3766,19 @@
           "cashbackPercent": null,
           "addons": [
             {
-              "id": "fries",
-              "name": "بطاطس مقلية",
+              "id": "extra-cheese",
+              "name": "جبنة إضافية",
+              "price": 5
+            },
+            {
+              "id": "bacon",
+              "name": "بيكون",
               "price": 8
+            },
+            {
+              "id": "large-fries",
+              "name": "بطاطس كبيرة",
+              "price": 10
             },
             {
               "id": "cola",
@@ -3406,14 +3786,9 @@
               "price": 6
             },
             {
-              "id": "sauce",
-              "name": "صلصة إضافية",
+              "id": "spicy-sauce",
+              "name": "صوص سبايسي",
               "price": 3
-            },
-            {
-              "id": "bread",
-              "name": "خبز إضافي",
-              "price": 4
             }
           ],
           "isCombo": false,
@@ -3445,9 +3820,19 @@
           "cashbackPercent": null,
           "addons": [
             {
-              "id": "fries",
-              "name": "بطاطس مقلية",
+              "id": "extra-cheese",
+              "name": "جبنة إضافية",
+              "price": 5
+            },
+            {
+              "id": "bacon",
+              "name": "بيكون",
               "price": 8
+            },
+            {
+              "id": "large-fries",
+              "name": "بطاطس كبيرة",
+              "price": 10
             },
             {
               "id": "cola",
@@ -3455,14 +3840,9 @@
               "price": 6
             },
             {
-              "id": "sauce",
-              "name": "صلصة إضافية",
+              "id": "spicy-sauce",
+              "name": "صوص سبايسي",
               "price": 3
-            },
-            {
-              "id": "bread",
-              "name": "خبز إضافي",
-              "price": 4
             }
           ]
         },
@@ -3493,9 +3873,19 @@
           "cashbackPercent": null,
           "addons": [
             {
-              "id": "fries",
-              "name": "بطاطس مقلية",
+              "id": "extra-cheese",
+              "name": "جبنة إضافية",
+              "price": 5
+            },
+            {
+              "id": "bacon",
+              "name": "بيكون",
               "price": 8
+            },
+            {
+              "id": "large-fries",
+              "name": "بطاطس كبيرة",
+              "price": 10
             },
             {
               "id": "cola",
@@ -3503,14 +3893,9 @@
               "price": 6
             },
             {
-              "id": "sauce",
-              "name": "صلصة إضافية",
+              "id": "spicy-sauce",
+              "name": "صوص سبايسي",
               "price": 3
-            },
-            {
-              "id": "bread",
-              "name": "خبز إضافي",
-              "price": 4
             }
           ]
         },
@@ -3541,9 +3926,19 @@
           "cashbackPercent": null,
           "addons": [
             {
-              "id": "fries",
-              "name": "بطاطس مقلية",
+              "id": "extra-cheese",
+              "name": "جبنة إضافية",
+              "price": 5
+            },
+            {
+              "id": "bacon",
+              "name": "بيكون",
               "price": 8
+            },
+            {
+              "id": "large-fries",
+              "name": "بطاطس كبيرة",
+              "price": 10
             },
             {
               "id": "cola",
@@ -3551,14 +3946,9 @@
               "price": 6
             },
             {
-              "id": "sauce",
-              "name": "صلصة إضافية",
+              "id": "spicy-sauce",
+              "name": "صوص سبايسي",
               "price": 3
-            },
-            {
-              "id": "bread",
-              "name": "خبز إضافي",
-              "price": 4
             }
           ]
         }
@@ -3603,9 +3993,19 @@
           "cashbackPercent": null,
           "addons": [
             {
-              "id": "fries",
-              "name": "بطاطس مقلية",
+              "id": "extra-cheese",
+              "name": "جبنة إضافية",
+              "price": 5
+            },
+            {
+              "id": "bacon",
+              "name": "بيكون",
               "price": 8
+            },
+            {
+              "id": "large-fries",
+              "name": "بطاطس كبيرة",
+              "price": 10
             },
             {
               "id": "cola",
@@ -3613,14 +4013,9 @@
               "price": 6
             },
             {
-              "id": "sauce",
-              "name": "صلصة إضافية",
+              "id": "spicy-sauce",
+              "name": "صوص سبايسي",
               "price": 3
-            },
-            {
-              "id": "bread",
-              "name": "خبز إضافي",
-              "price": 4
             }
           ],
           "isCombo": false,
@@ -3646,9 +4041,19 @@
           "cashbackPercent": null,
           "addons": [
             {
-              "id": "fries",
-              "name": "بطاطس مقلية",
+              "id": "extra-cheese",
+              "name": "جبنة إضافية",
+              "price": 5
+            },
+            {
+              "id": "bacon",
+              "name": "بيكون",
               "price": 8
+            },
+            {
+              "id": "large-fries",
+              "name": "بطاطس كبيرة",
+              "price": 10
             },
             {
               "id": "cola",
@@ -3656,14 +4061,9 @@
               "price": 6
             },
             {
-              "id": "sauce",
-              "name": "صلصة إضافية",
+              "id": "spicy-sauce",
+              "name": "صوص سبايسي",
               "price": 3
-            },
-            {
-              "id": "bread",
-              "name": "خبز إضافي",
-              "price": 4
             }
           ],
           "isCombo": false,
@@ -3689,9 +4089,19 @@
           "cashbackPercent": null,
           "addons": [
             {
-              "id": "fries",
-              "name": "بطاطس مقلية",
+              "id": "extra-cheese",
+              "name": "جبنة إضافية",
+              "price": 5
+            },
+            {
+              "id": "bacon",
+              "name": "بيكون",
               "price": 8
+            },
+            {
+              "id": "large-fries",
+              "name": "بطاطس كبيرة",
+              "price": 10
             },
             {
               "id": "cola",
@@ -3699,14 +4109,9 @@
               "price": 6
             },
             {
-              "id": "sauce",
-              "name": "صلصة إضافية",
+              "id": "spicy-sauce",
+              "name": "صوص سبايسي",
               "price": 3
-            },
-            {
-              "id": "bread",
-              "name": "خبز إضافي",
-              "price": 4
             }
           ],
           "isCombo": false,
@@ -3732,9 +4137,19 @@
           "cashbackPercent": null,
           "addons": [
             {
-              "id": "fries",
-              "name": "بطاطس مقلية",
+              "id": "extra-cheese",
+              "name": "جبنة إضافية",
+              "price": 5
+            },
+            {
+              "id": "bacon",
+              "name": "بيكون",
               "price": 8
+            },
+            {
+              "id": "large-fries",
+              "name": "بطاطس كبيرة",
+              "price": 10
             },
             {
               "id": "cola",
@@ -3742,14 +4157,9 @@
               "price": 6
             },
             {
-              "id": "sauce",
-              "name": "صلصة إضافية",
+              "id": "spicy-sauce",
+              "name": "صوص سبايسي",
               "price": 3
-            },
-            {
-              "id": "bread",
-              "name": "خبز إضافي",
-              "price": 4
             }
           ],
           "isCombo": false,
@@ -3775,9 +4185,19 @@
           "cashbackPercent": null,
           "addons": [
             {
-              "id": "fries",
-              "name": "بطاطس مقلية",
+              "id": "extra-cheese",
+              "name": "جبنة إضافية",
+              "price": 5
+            },
+            {
+              "id": "bacon",
+              "name": "بيكون",
               "price": 8
+            },
+            {
+              "id": "large-fries",
+              "name": "بطاطس كبيرة",
+              "price": 10
             },
             {
               "id": "cola",
@@ -3785,14 +4205,9 @@
               "price": 6
             },
             {
-              "id": "sauce",
-              "name": "صلصة إضافية",
+              "id": "spicy-sauce",
+              "name": "صوص سبايسي",
               "price": 3
-            },
-            {
-              "id": "bread",
-              "name": "خبز إضافي",
-              "price": 4
             }
           ],
           "isCombo": false,
@@ -3818,9 +4233,19 @@
           "cashbackPercent": null,
           "addons": [
             {
-              "id": "fries",
-              "name": "بطاطس مقلية",
+              "id": "extra-cheese",
+              "name": "جبنة إضافية",
+              "price": 5
+            },
+            {
+              "id": "bacon",
+              "name": "بيكون",
               "price": 8
+            },
+            {
+              "id": "large-fries",
+              "name": "بطاطس كبيرة",
+              "price": 10
             },
             {
               "id": "cola",
@@ -3828,14 +4253,9 @@
               "price": 6
             },
             {
-              "id": "sauce",
-              "name": "صلصة إضافية",
+              "id": "spicy-sauce",
+              "name": "صوص سبايسي",
               "price": 3
-            },
-            {
-              "id": "bread",
-              "name": "خبز إضافي",
-              "price": 4
             }
           ],
           "isCombo": false,
@@ -3861,9 +4281,19 @@
           "cashbackPercent": null,
           "addons": [
             {
-              "id": "fries",
-              "name": "بطاطس مقلية",
+              "id": "extra-cheese",
+              "name": "جبنة إضافية",
+              "price": 5
+            },
+            {
+              "id": "bacon",
+              "name": "بيكون",
               "price": 8
+            },
+            {
+              "id": "large-fries",
+              "name": "بطاطس كبيرة",
+              "price": 10
             },
             {
               "id": "cola",
@@ -3871,14 +4301,9 @@
               "price": 6
             },
             {
-              "id": "sauce",
-              "name": "صلصة إضافية",
+              "id": "spicy-sauce",
+              "name": "صوص سبايسي",
               "price": 3
-            },
-            {
-              "id": "bread",
-              "name": "خبز إضافي",
-              "price": 4
             }
           ],
           "isCombo": false,
@@ -3904,9 +4329,19 @@
           "cashbackPercent": 15,
           "addons": [
             {
-              "id": "fries",
-              "name": "بطاطس مقلية",
+              "id": "extra-cheese",
+              "name": "جبنة إضافية",
+              "price": 5
+            },
+            {
+              "id": "bacon",
+              "name": "بيكون",
               "price": 8
+            },
+            {
+              "id": "large-fries",
+              "name": "بطاطس كبيرة",
+              "price": 10
             },
             {
               "id": "cola",
@@ -3914,14 +4349,9 @@
               "price": 6
             },
             {
-              "id": "sauce",
-              "name": "صلصة إضافية",
+              "id": "spicy-sauce",
+              "name": "صوص سبايسي",
               "price": 3
-            },
-            {
-              "id": "bread",
-              "name": "خبز إضافي",
-              "price": 4
             }
           ],
           "isCombo": false,
@@ -3947,9 +4377,19 @@
           "cashbackPercent": null,
           "addons": [
             {
-              "id": "fries",
-              "name": "بطاطس مقلية",
+              "id": "extra-cheese",
+              "name": "جبنة إضافية",
+              "price": 5
+            },
+            {
+              "id": "bacon",
+              "name": "بيكون",
               "price": 8
+            },
+            {
+              "id": "large-fries",
+              "name": "بطاطس كبيرة",
+              "price": 10
             },
             {
               "id": "cola",
@@ -3957,14 +4397,9 @@
               "price": 6
             },
             {
-              "id": "sauce",
-              "name": "صلصة إضافية",
+              "id": "spicy-sauce",
+              "name": "صوص سبايسي",
               "price": 3
-            },
-            {
-              "id": "bread",
-              "name": "خبز إضافي",
-              "price": 4
             }
           ],
           "isCombo": false,
@@ -3990,9 +4425,19 @@
           "cashbackPercent": null,
           "addons": [
             {
-              "id": "fries",
-              "name": "بطاطس مقلية",
+              "id": "extra-cheese",
+              "name": "جبنة إضافية",
+              "price": 5
+            },
+            {
+              "id": "bacon",
+              "name": "بيكون",
               "price": 8
+            },
+            {
+              "id": "large-fries",
+              "name": "بطاطس كبيرة",
+              "price": 10
             },
             {
               "id": "cola",
@@ -4000,14 +4445,9 @@
               "price": 6
             },
             {
-              "id": "sauce",
-              "name": "صلصة إضافية",
+              "id": "spicy-sauce",
+              "name": "صوص سبايسي",
               "price": 3
-            },
-            {
-              "id": "bread",
-              "name": "خبز إضافي",
-              "price": 4
             }
           ],
           "isCombo": false,
@@ -4039,9 +4479,19 @@
           "cashbackPercent": null,
           "addons": [
             {
-              "id": "fries",
-              "name": "بطاطس مقلية",
+              "id": "extra-cheese",
+              "name": "جبنة إضافية",
+              "price": 5
+            },
+            {
+              "id": "bacon",
+              "name": "بيكون",
               "price": 8
+            },
+            {
+              "id": "large-fries",
+              "name": "بطاطس كبيرة",
+              "price": 10
             },
             {
               "id": "cola",
@@ -4049,14 +4499,9 @@
               "price": 6
             },
             {
-              "id": "sauce",
-              "name": "صلصة إضافية",
+              "id": "spicy-sauce",
+              "name": "صوص سبايسي",
               "price": 3
-            },
-            {
-              "id": "bread",
-              "name": "خبز إضافي",
-              "price": 4
             }
           ]
         },
@@ -4087,9 +4532,19 @@
           "cashbackPercent": null,
           "addons": [
             {
-              "id": "fries",
-              "name": "بطاطس مقلية",
+              "id": "extra-cheese",
+              "name": "جبنة إضافية",
+              "price": 5
+            },
+            {
+              "id": "bacon",
+              "name": "بيكون",
               "price": 8
+            },
+            {
+              "id": "large-fries",
+              "name": "بطاطس كبيرة",
+              "price": 10
             },
             {
               "id": "cola",
@@ -4097,14 +4552,9 @@
               "price": 6
             },
             {
-              "id": "sauce",
-              "name": "صلصة إضافية",
+              "id": "spicy-sauce",
+              "name": "صوص سبايسي",
               "price": 3
-            },
-            {
-              "id": "bread",
-              "name": "خبز إضافي",
-              "price": 4
             }
           ]
         },
@@ -4135,9 +4585,19 @@
           "cashbackPercent": null,
           "addons": [
             {
-              "id": "fries",
-              "name": "بطاطس مقلية",
+              "id": "extra-cheese",
+              "name": "جبنة إضافية",
+              "price": 5
+            },
+            {
+              "id": "bacon",
+              "name": "بيكون",
               "price": 8
+            },
+            {
+              "id": "large-fries",
+              "name": "بطاطس كبيرة",
+              "price": 10
             },
             {
               "id": "cola",
@@ -4145,14 +4605,9 @@
               "price": 6
             },
             {
-              "id": "sauce",
-              "name": "صلصة إضافية",
+              "id": "spicy-sauce",
+              "name": "صوص سبايسي",
               "price": 3
-            },
-            {
-              "id": "bread",
-              "name": "خبز إضافي",
-              "price": 4
             }
           ]
         }
@@ -4197,9 +4652,19 @@
           "cashbackPercent": null,
           "addons": [
             {
-              "id": "fries",
-              "name": "بطاطس مقلية",
+              "id": "extra-cheese",
+              "name": "جبنة إضافية",
+              "price": 5
+            },
+            {
+              "id": "bacon",
+              "name": "بيكون",
               "price": 8
+            },
+            {
+              "id": "large-fries",
+              "name": "بطاطس كبيرة",
+              "price": 10
             },
             {
               "id": "cola",
@@ -4207,14 +4672,9 @@
               "price": 6
             },
             {
-              "id": "sauce",
-              "name": "صلصة إضافية",
+              "id": "spicy-sauce",
+              "name": "صوص سبايسي",
               "price": 3
-            },
-            {
-              "id": "bread",
-              "name": "خبز إضافي",
-              "price": 4
             }
           ],
           "isCombo": false,
@@ -4240,9 +4700,19 @@
           "cashbackPercent": null,
           "addons": [
             {
-              "id": "fries",
-              "name": "بطاطس مقلية",
+              "id": "extra-cheese",
+              "name": "جبنة إضافية",
+              "price": 5
+            },
+            {
+              "id": "bacon",
+              "name": "بيكون",
               "price": 8
+            },
+            {
+              "id": "large-fries",
+              "name": "بطاطس كبيرة",
+              "price": 10
             },
             {
               "id": "cola",
@@ -4250,14 +4720,9 @@
               "price": 6
             },
             {
-              "id": "sauce",
-              "name": "صلصة إضافية",
+              "id": "spicy-sauce",
+              "name": "صوص سبايسي",
               "price": 3
-            },
-            {
-              "id": "bread",
-              "name": "خبز إضافي",
-              "price": 4
             }
           ],
           "isCombo": false,
@@ -4283,9 +4748,19 @@
           "cashbackPercent": null,
           "addons": [
             {
-              "id": "fries",
-              "name": "بطاطس مقلية",
+              "id": "extra-cheese",
+              "name": "جبنة إضافية",
+              "price": 5
+            },
+            {
+              "id": "bacon",
+              "name": "بيكون",
               "price": 8
+            },
+            {
+              "id": "large-fries",
+              "name": "بطاطس كبيرة",
+              "price": 10
             },
             {
               "id": "cola",
@@ -4293,14 +4768,9 @@
               "price": 6
             },
             {
-              "id": "sauce",
-              "name": "صلصة إضافية",
+              "id": "spicy-sauce",
+              "name": "صوص سبايسي",
               "price": 3
-            },
-            {
-              "id": "bread",
-              "name": "خبز إضافي",
-              "price": 4
             }
           ],
           "isCombo": false,
@@ -4326,9 +4796,19 @@
           "cashbackPercent": null,
           "addons": [
             {
-              "id": "fries",
-              "name": "بطاطس مقلية",
+              "id": "extra-cheese",
+              "name": "جبنة إضافية",
+              "price": 5
+            },
+            {
+              "id": "bacon",
+              "name": "بيكون",
               "price": 8
+            },
+            {
+              "id": "large-fries",
+              "name": "بطاطس كبيرة",
+              "price": 10
             },
             {
               "id": "cola",
@@ -4336,14 +4816,9 @@
               "price": 6
             },
             {
-              "id": "sauce",
-              "name": "صلصة إضافية",
+              "id": "spicy-sauce",
+              "name": "صوص سبايسي",
               "price": 3
-            },
-            {
-              "id": "bread",
-              "name": "خبز إضافي",
-              "price": 4
             }
           ],
           "isCombo": false,
@@ -4369,9 +4844,19 @@
           "cashbackPercent": null,
           "addons": [
             {
-              "id": "fries",
-              "name": "بطاطس مقلية",
+              "id": "extra-cheese",
+              "name": "جبنة إضافية",
+              "price": 5
+            },
+            {
+              "id": "bacon",
+              "name": "بيكون",
               "price": 8
+            },
+            {
+              "id": "large-fries",
+              "name": "بطاطس كبيرة",
+              "price": 10
             },
             {
               "id": "cola",
@@ -4379,14 +4864,9 @@
               "price": 6
             },
             {
-              "id": "sauce",
-              "name": "صلصة إضافية",
+              "id": "spicy-sauce",
+              "name": "صوص سبايسي",
               "price": 3
-            },
-            {
-              "id": "bread",
-              "name": "خبز إضافي",
-              "price": 4
             }
           ],
           "isCombo": false,
@@ -4412,9 +4892,19 @@
           "cashbackPercent": null,
           "addons": [
             {
-              "id": "fries",
-              "name": "بطاطس مقلية",
+              "id": "extra-cheese",
+              "name": "جبنة إضافية",
+              "price": 5
+            },
+            {
+              "id": "bacon",
+              "name": "بيكون",
               "price": 8
+            },
+            {
+              "id": "large-fries",
+              "name": "بطاطس كبيرة",
+              "price": 10
             },
             {
               "id": "cola",
@@ -4422,14 +4912,9 @@
               "price": 6
             },
             {
-              "id": "sauce",
-              "name": "صلصة إضافية",
+              "id": "spicy-sauce",
+              "name": "صوص سبايسي",
               "price": 3
-            },
-            {
-              "id": "bread",
-              "name": "خبز إضافي",
-              "price": 4
             }
           ],
           "isCombo": false,
@@ -4455,9 +4940,19 @@
           "cashbackPercent": null,
           "addons": [
             {
-              "id": "fries",
-              "name": "بطاطس مقلية",
+              "id": "extra-cheese",
+              "name": "جبنة إضافية",
+              "price": 5
+            },
+            {
+              "id": "bacon",
+              "name": "بيكون",
               "price": 8
+            },
+            {
+              "id": "large-fries",
+              "name": "بطاطس كبيرة",
+              "price": 10
             },
             {
               "id": "cola",
@@ -4465,14 +4960,9 @@
               "price": 6
             },
             {
-              "id": "sauce",
-              "name": "صلصة إضافية",
+              "id": "spicy-sauce",
+              "name": "صوص سبايسي",
               "price": 3
-            },
-            {
-              "id": "bread",
-              "name": "خبز إضافي",
-              "price": 4
             }
           ],
           "isCombo": false,
@@ -4498,9 +4988,19 @@
           "cashbackPercent": null,
           "addons": [
             {
-              "id": "fries",
-              "name": "بطاطس مقلية",
+              "id": "extra-cheese",
+              "name": "جبنة إضافية",
+              "price": 5
+            },
+            {
+              "id": "bacon",
+              "name": "بيكون",
               "price": 8
+            },
+            {
+              "id": "large-fries",
+              "name": "بطاطس كبيرة",
+              "price": 10
             },
             {
               "id": "cola",
@@ -4508,14 +5008,9 @@
               "price": 6
             },
             {
-              "id": "sauce",
-              "name": "صلصة إضافية",
+              "id": "spicy-sauce",
+              "name": "صوص سبايسي",
               "price": 3
-            },
-            {
-              "id": "bread",
-              "name": "خبز إضافي",
-              "price": 4
             }
           ],
           "isCombo": false,
@@ -4541,9 +5036,19 @@
           "cashbackPercent": null,
           "addons": [
             {
-              "id": "fries",
-              "name": "بطاطس مقلية",
+              "id": "extra-cheese",
+              "name": "جبنة إضافية",
+              "price": 5
+            },
+            {
+              "id": "bacon",
+              "name": "بيكون",
               "price": 8
+            },
+            {
+              "id": "large-fries",
+              "name": "بطاطس كبيرة",
+              "price": 10
             },
             {
               "id": "cola",
@@ -4551,14 +5056,9 @@
               "price": 6
             },
             {
-              "id": "sauce",
-              "name": "صلصة إضافية",
+              "id": "spicy-sauce",
+              "name": "صوص سبايسي",
               "price": 3
-            },
-            {
-              "id": "bread",
-              "name": "خبز إضافي",
-              "price": 4
             }
           ],
           "isCombo": false,
@@ -4584,9 +5084,19 @@
           "cashbackPercent": null,
           "addons": [
             {
-              "id": "fries",
-              "name": "بطاطس مقلية",
+              "id": "extra-cheese",
+              "name": "جبنة إضافية",
+              "price": 5
+            },
+            {
+              "id": "bacon",
+              "name": "بيكون",
               "price": 8
+            },
+            {
+              "id": "large-fries",
+              "name": "بطاطس كبيرة",
+              "price": 10
             },
             {
               "id": "cola",
@@ -4594,14 +5104,9 @@
               "price": 6
             },
             {
-              "id": "sauce",
-              "name": "صلصة إضافية",
+              "id": "spicy-sauce",
+              "name": "صوص سبايسي",
               "price": 3
-            },
-            {
-              "id": "bread",
-              "name": "خبز إضافي",
-              "price": 4
             }
           ],
           "isCombo": false,
@@ -4633,9 +5138,19 @@
           "cashbackPercent": null,
           "addons": [
             {
-              "id": "fries",
-              "name": "بطاطس مقلية",
+              "id": "extra-cheese",
+              "name": "جبنة إضافية",
+              "price": 5
+            },
+            {
+              "id": "bacon",
+              "name": "بيكون",
               "price": 8
+            },
+            {
+              "id": "large-fries",
+              "name": "بطاطس كبيرة",
+              "price": 10
             },
             {
               "id": "cola",
@@ -4643,14 +5158,9 @@
               "price": 6
             },
             {
-              "id": "sauce",
-              "name": "صلصة إضافية",
+              "id": "spicy-sauce",
+              "name": "صوص سبايسي",
               "price": 3
-            },
-            {
-              "id": "bread",
-              "name": "خبز إضافي",
-              "price": 4
             }
           ]
         },
@@ -4681,9 +5191,19 @@
           "cashbackPercent": null,
           "addons": [
             {
-              "id": "fries",
-              "name": "بطاطس مقلية",
+              "id": "extra-cheese",
+              "name": "جبنة إضافية",
+              "price": 5
+            },
+            {
+              "id": "bacon",
+              "name": "بيكون",
               "price": 8
+            },
+            {
+              "id": "large-fries",
+              "name": "بطاطس كبيرة",
+              "price": 10
             },
             {
               "id": "cola",
@@ -4691,14 +5211,9 @@
               "price": 6
             },
             {
-              "id": "sauce",
-              "name": "صلصة إضافية",
+              "id": "spicy-sauce",
+              "name": "صوص سبايسي",
               "price": 3
-            },
-            {
-              "id": "bread",
-              "name": "خبز إضافي",
-              "price": 4
             }
           ]
         },
@@ -4729,9 +5244,19 @@
           "cashbackPercent": null,
           "addons": [
             {
-              "id": "fries",
-              "name": "بطاطس مقلية",
+              "id": "extra-cheese",
+              "name": "جبنة إضافية",
+              "price": 5
+            },
+            {
+              "id": "bacon",
+              "name": "بيكون",
               "price": 8
+            },
+            {
+              "id": "large-fries",
+              "name": "بطاطس كبيرة",
+              "price": 10
             },
             {
               "id": "cola",
@@ -4739,14 +5264,9 @@
               "price": 6
             },
             {
-              "id": "sauce",
-              "name": "صلصة إضافية",
+              "id": "spicy-sauce",
+              "name": "صوص سبايسي",
               "price": 3
-            },
-            {
-              "id": "bread",
-              "name": "خبز إضافي",
-              "price": 4
             }
           ]
         }

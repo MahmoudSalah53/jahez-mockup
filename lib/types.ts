@@ -82,8 +82,9 @@ export type Order = {
 };
 
 export const DEFAULT_ADDONS: MealAddon[] = [
-  { id: "fries", name: "بطاطس مقلية", price: 8 },
+  { id: "extra-cheese", name: "جبنة إضافية", price: 5 },
+  { id: "bacon", name: "بيكون", price: 8 },
+  { id: "large-fries", name: "بطاطس كبيرة", price: 10 },
   { id: "cola", name: "كولا", price: 6 },
-  { id: "sauce", name: "صلصة إضافية", price: 3 },
-  { id: "bread", name: "خبز إضافي", price: 4 },
+  { id: "spicy-sauce", name: "صوص سبايسي", price: 3 },
 ];

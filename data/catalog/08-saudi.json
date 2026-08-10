@@ -40,9 +40,19 @@
           "cashbackPercent": null,
           "addons": [
             {
-              "id": "fries",
-              "name": "بطاطس مقلية",
-              "price": 8
+              "id": "garlic-sauce",
+              "name": "صوص ثوم",
+              "price": 3
+            },
+            {
+              "id": "pickles",
+              "name": "مخلل",
+              "price": 3
+            },
+            {
+              "id": "extra-rice",
+              "name": "أرز إضافي",
+              "price": 6
             },
             {
               "id": "cola",
@@ -50,14 +60,9 @@
               "price": 6
             },
             {
-              "id": "sauce",
-              "name": "صلصة إضافية",
-              "price": 3
-            },
-            {
-              "id": "bread",
-              "name": "خبز إضافي",
-              "price": 4
+              "id": "side-salad",
+              "name": "سلطة صغيرة",
+              "price": 8
             }
           ],
           "isCombo": false,
@@ -83,9 +88,19 @@
           "cashbackPercent": null,
           "addons": [
             {
-              "id": "fries",
-              "name": "بطاطس مقلية",
-              "price": 8
+              "id": "garlic-sauce",
+              "name": "صوص ثوم",
+              "price": 3
+            },
+            {
+              "id": "pickles",
+              "name": "مخلل",
+              "price": 3
+            },
+            {
+              "id": "extra-rice",
+              "name": "أرز إضافي",
+              "price": 6
             },
             {
               "id": "cola",
@@ -93,14 +108,9 @@
               "price": 6
             },
             {
-              "id": "sauce",
-              "name": "صلصة إضافية",
-              "price": 3
-            },
-            {
-              "id": "bread",
-              "name": "خبز إضافي",
-              "price": 4
+              "id": "side-salad",
+              "name": "سلطة صغيرة",
+              "price": 8
             }
           ],
           "isCombo": false,
@@ -126,9 +136,19 @@
           "cashbackPercent": null,
           "addons": [
             {
-              "id": "fries",
-              "name": "بطاطس مقلية",
-              "price": 8
+              "id": "garlic-sauce",
+              "name": "صوص ثوم",
+              "price": 3
+            },
+            {
+              "id": "pickles",
+              "name": "مخلل",
+              "price": 3
+            },
+            {
+              "id": "extra-rice",
+              "name": "أرز إضافي",
+              "price": 6
             },
             {
               "id": "cola",
@@ -136,14 +156,9 @@
               "price": 6
             },
             {
-              "id": "sauce",
-              "name": "صلصة إضافية",
-              "price": 3
-            },
-            {
-              "id": "bread",
-              "name": "خبز إضافي",
-              "price": 4
+              "id": "side-salad",
+              "name": "سلطة صغيرة",
+              "price": 8
             }
           ],
           "isCombo": false,
@@ -169,9 +184,19 @@
           "cashbackPercent": null,
           "addons": [
             {
-              "id": "fries",
-              "name": "بطاطس مقلية",
-              "price": 8
+              "id": "garlic-sauce",
+              "name": "صوص ثوم",
+              "price": 3
+            },
+            {
+              "id": "pickles",
+              "name": "مخلل",
+              "price": 3
+            },
+            {
+              "id": "extra-rice",
+              "name": "أرز إضافي",
+              "price": 6
             },
             {
               "id": "cola",
@@ -179,14 +204,9 @@
               "price": 6
             },
             {
-              "id": "sauce",
-              "name": "صلصة إضافية",
-              "price": 3
-            },
-            {
-              "id": "bread",
-              "name": "خبز إضافي",
-              "price": 4
+              "id": "side-salad",
+              "name": "سلطة صغيرة",
+              "price": 8
             }
           ],
           "isCombo": false,
@@ -212,9 +232,19 @@
           "cashbackPercent": null,
           "addons": [
             {
-              "id": "fries",
-              "name": "بطاطس مقلية",
-              "price": 8
+              "id": "garlic-sauce",
+              "name": "صوص ثوم",
+              "price": 3
+            },
+            {
+              "id": "pickles",
+              "name": "مخلل",
+              "price": 3
+            },
+            {
+              "id": "extra-rice",
+              "name": "أرز إضافي",
+              "price": 6
             },
             {
               "id": "cola",
@@ -222,14 +252,9 @@
               "price": 6
             },
             {
-              "id": "sauce",
-              "name": "صلصة إضافية",
-              "price": 3
-            },
-            {
-              "id": "bread",
-              "name": "خبز إضافي",
-              "price": 4
+              "id": "side-salad",
+              "name": "سلطة صغيرة",
+              "price": 8
             }
           ],
           "isCombo": false,
@@ -255,9 +280,19 @@
           "cashbackPercent": null,
           "addons": [
             {
-              "id": "fries",
-              "name": "بطاطس مقلية",
-              "price": 8
+              "id": "garlic-sauce",
+              "name": "صوص ثوم",
+              "price": 3
+            },
+            {
+              "id": "pickles",
+              "name": "مخلل",
+              "price": 3
+            },
+            {
+              "id": "extra-rice",
+              "name": "أرز إضافي",
+              "price": 6
             },
             {
               "id": "cola",
@@ -265,14 +300,9 @@
               "price": 6
             },
             {
-              "id": "sauce",
-              "name": "صلصة إضافية",
-              "price": 3
-            },
-            {
-              "id": "bread",
-              "name": "خبز إضافي",
-              "price": 4
+              "id": "side-salad",
+              "name": "سلطة صغيرة",
+              "price": 8
             }
           ],
           "isCombo": false,
@@ -298,9 +328,19 @@
           "cashbackPercent": 5,
           "addons": [
             {
-              "id": "fries",
-              "name": "بطاطس مقلية",
-              "price": 8
+              "id": "garlic-sauce",
+              "name": "صوص ثوم",
+              "price": 3
+            },
+            {
+              "id": "pickles",
+              "name": "مخلل",
+              "price": 3
+            },
+            {
+              "id": "extra-rice",
+              "name": "أرز إضافي",
+              "price": 6
             },
             {
               "id": "cola",
@@ -308,14 +348,9 @@
               "price": 6
             },
             {
-              "id": "sauce",
-              "name": "صلصة إضافية",
-              "price": 3
-            },
-            {
-              "id": "bread",
-              "name": "خبز إضافي",
-              "price": 4
+              "id": "side-salad",
+              "name": "سلطة صغيرة",
+              "price": 8
             }
           ],
           "isCombo": false,
@@ -341,9 +376,19 @@
           "cashbackPercent": 5,
           "addons": [
             {
-              "id": "fries",
-              "name": "بطاطس مقلية",
-              "price": 8
+              "id": "garlic-sauce",
+              "name": "صوص ثوم",
+              "price": 3
+            },
+            {
+              "id": "pickles",
+              "name": "مخلل",
+              "price": 3
+            },
+            {
+              "id": "extra-rice",
+              "name": "أرز إضافي",
+              "price": 6
             },
             {
               "id": "cola",
@@ -351,14 +396,9 @@
               "price": 6
             },
             {
-              "id": "sauce",
-              "name": "صلصة إضافية",
-              "price": 3
-            },
-            {
-              "id": "bread",
-              "name": "خبز إضافي",
-              "price": 4
+              "id": "side-salad",
+              "name": "سلطة صغيرة",
+              "price": 8
             }
           ],
           "isCombo": false,
@@ -384,9 +424,19 @@
           "cashbackPercent": 10,
           "addons": [
             {
-              "id": "fries",
-              "name": "بطاطس مقلية",
-              "price": 8
+              "id": "garlic-sauce",
+              "name": "صوص ثوم",
+              "price": 3
+            },
+            {
+              "id": "pickles",
+              "name": "مخلل",
+              "price": 3
+            },
+            {
+              "id": "extra-rice",
+              "name": "أرز إضافي",
+              "price": 6
             },
             {
               "id": "cola",
@@ -394,14 +444,9 @@
               "price": 6
             },
             {
-              "id": "sauce",
-              "name": "صلصة إضافية",
-              "price": 3
-            },
-            {
-              "id": "bread",
-              "name": "خبز إضافي",
-              "price": 4
+              "id": "side-salad",
+              "name": "سلطة صغيرة",
+              "price": 8
             }
           ],
           "isCombo": false,
@@ -427,9 +472,19 @@
           "cashbackPercent": null,
           "addons": [
             {
-              "id": "fries",
-              "name": "بطاطس مقلية",
-              "price": 8
+              "id": "garlic-sauce",
+              "name": "صوص ثوم",
+              "price": 3
+            },
+            {
+              "id": "pickles",
+              "name": "مخلل",
+              "price": 3
+            },
+            {
+              "id": "extra-rice",
+              "name": "أرز إضافي",
+              "price": 6
             },
             {
               "id": "cola",
@@ -437,14 +492,9 @@
               "price": 6
             },
             {
-              "id": "sauce",
-              "name": "صلصة إضافية",
-              "price": 3
-            },
-            {
-              "id": "bread",
-              "name": "خبز إضافي",
-              "price": 4
+              "id": "side-salad",
+              "name": "سلطة صغيرة",
+              "price": 8
             }
           ],
           "isCombo": false,
@@ -477,9 +527,19 @@
           "cashbackPercent": null,
           "addons": [
             {
-              "id": "fries",
-              "name": "بطاطس مقلية",
-              "price": 8
+              "id": "garlic-sauce",
+              "name": "صوص ثوم",
+              "price": 3
+            },
+            {
+              "id": "pickles",
+              "name": "مخلل",
+              "price": 3
+            },
+            {
+              "id": "extra-rice",
+              "name": "أرز إضافي",
+              "price": 6
             },
             {
               "id": "cola",
@@ -487,14 +547,9 @@
               "price": 6
             },
             {
-              "id": "sauce",
-              "name": "صلصة إضافية",
-              "price": 3
-            },
-            {
-              "id": "bread",
-              "name": "خبز إضافي",
-              "price": 4
+              "id": "side-salad",
+              "name": "سلطة صغيرة",
+              "price": 8
             }
           ]
         },
@@ -525,9 +580,19 @@
           "cashbackPercent": null,
           "addons": [
             {
-              "id": "fries",
-              "name": "بطاطس مقلية",
-              "price": 8
+              "id": "garlic-sauce",
+              "name": "صوص ثوم",
+              "price": 3
+            },
+            {
+              "id": "pickles",
+              "name": "مخلل",
+              "price": 3
+            },
+            {
+              "id": "extra-rice",
+              "name": "أرز إضافي",
+              "price": 6
             },
             {
               "id": "cola",
@@ -535,14 +600,9 @@
               "price": 6
             },
             {
-              "id": "sauce",
-              "name": "صلصة إضافية",
-              "price": 3
-            },
-            {
-              "id": "bread",
-              "name": "خبز إضافي",
-              "price": 4
+              "id": "side-salad",
+              "name": "سلطة صغيرة",
+              "price": 8
             }
           ]
         },
@@ -573,9 +633,19 @@
           "cashbackPercent": null,
           "addons": [
             {
-              "id": "fries",
-              "name": "بطاطس مقلية",
-              "price": 8
+              "id": "garlic-sauce",
+              "name": "صوص ثوم",
+              "price": 3
+            },
+            {
+              "id": "pickles",
+              "name": "مخلل",
+              "price": 3
+            },
+            {
+              "id": "extra-rice",
+              "name": "أرز إضافي",
+              "price": 6
             },
             {
               "id": "cola",
@@ -583,14 +653,9 @@
               "price": 6
             },
             {
-              "id": "sauce",
-              "name": "صلصة إضافية",
-              "price": 3
-            },
-            {
-              "id": "bread",
-              "name": "خبز إضافي",
-              "price": 4
+              "id": "side-salad",
+              "name": "سلطة صغيرة",
+              "price": 8
             }
           ]
         }
@@ -636,9 +701,19 @@
           "cashbackPercent": null,
           "addons": [
             {
-              "id": "fries",
-              "name": "بطاطس مقلية",
-              "price": 8
+              "id": "garlic-sauce",
+              "name": "صوص ثوم",
+              "price": 3
+            },
+            {
+              "id": "pickles",
+              "name": "مخلل",
+              "price": 3
+            },
+            {
+              "id": "extra-rice",
+              "name": "أرز إضافي",
+              "price": 6
             },
             {
               "id": "cola",
@@ -646,14 +721,9 @@
               "price": 6
             },
             {
-              "id": "sauce",
-              "name": "صلصة إضافية",
-              "price": 3
-            },
-            {
-              "id": "bread",
-              "name": "خبز إضافي",
-              "price": 4
+              "id": "side-salad",
+              "name": "سلطة صغيرة",
+              "price": 8
             }
           ],
           "isCombo": false,
@@ -679,9 +749,19 @@
           "cashbackPercent": null,
           "addons": [
             {
-              "id": "fries",
-              "name": "بطاطس مقلية",
-              "price": 8
+              "id": "garlic-sauce",
+              "name": "صوص ثوم",
+              "price": 3
+            },
+            {
+              "id": "pickles",
+              "name": "مخلل",
+              "price": 3
+            },
+            {
+              "id": "extra-rice",
+              "name": "أرز إضافي",
+              "price": 6
             },
             {
               "id": "cola",
@@ -689,14 +769,9 @@
               "price": 6
             },
             {
-              "id": "sauce",
-              "name": "صلصة إضافية",
-              "price": 3
-            },
-            {
-              "id": "bread",
-              "name": "خبز إضافي",
-              "price": 4
+              "id": "side-salad",
+              "name": "سلطة صغيرة",
+              "price": 8
             }
           ],
           "isCombo": false,
@@ -722,9 +797,19 @@
           "cashbackPercent": 15,
           "addons": [
             {
-              "id": "fries",
-              "name": "بطاطس مقلية",
-              "price": 8
+              "id": "garlic-sauce",
+              "name": "صوص ثوم",
+              "price": 3
+            },
+            {
+              "id": "pickles",
+              "name": "مخلل",
+              "price": 3
+            },
+            {
+              "id": "extra-rice",
+              "name": "أرز إضافي",
+              "price": 6
             },
             {
               "id": "cola",
@@ -732,14 +817,9 @@
               "price": 6
             },
             {
-              "id": "sauce",
-              "name": "صلصة إضافية",
-              "price": 3
-            },
-            {
-              "id": "bread",
-              "name": "خبز إضافي",
-              "price": 4
+              "id": "side-salad",
+              "name": "سلطة صغيرة",
+              "price": 8
             }
           ],
           "isCombo": false,
@@ -765,9 +845,19 @@
           "cashbackPercent": null,
           "addons": [
             {
-              "id": "fries",
-              "name": "بطاطس مقلية",
-              "price": 8
+              "id": "garlic-sauce",
+              "name": "صوص ثوم",
+              "price": 3
+            },
+            {
+              "id": "pickles",
+              "name": "مخلل",
+              "price": 3
+            },
+            {
+              "id": "extra-rice",
+              "name": "أرز إضافي",
+              "price": 6
             },
             {
               "id": "cola",
@@ -775,14 +865,9 @@
               "price": 6
             },
             {
-              "id": "sauce",
-              "name": "صلصة إضافية",
-              "price": 3
-            },
-            {
-              "id": "bread",
-              "name": "خبز إضافي",
-              "price": 4
+              "id": "side-salad",
+              "name": "سلطة صغيرة",
+              "price": 8
             }
           ],
           "isCombo": false,
@@ -808,9 +893,19 @@
           "cashbackPercent": null,
           "addons": [
             {
-              "id": "fries",
-              "name": "بطاطس مقلية",
-              "price": 8
+              "id": "garlic-sauce",
+              "name": "صوص ثوم",
+              "price": 3
+            },
+            {
+              "id": "pickles",
+              "name": "مخلل",
+              "price": 3
+            },
+            {
+              "id": "extra-rice",
+              "name": "أرز إضافي",
+              "price": 6
             },
             {
               "id": "cola",
@@ -818,14 +913,9 @@
               "price": 6
             },
             {
-              "id": "sauce",
-              "name": "صلصة إضافية",
-              "price": 3
-            },
-            {
-              "id": "bread",
-              "name": "خبز إضافي",
-              "price": 4
+              "id": "side-salad",
+              "name": "سلطة صغيرة",
+              "price": 8
             }
           ],
           "isCombo": false,
@@ -851,9 +941,19 @@
           "cashbackPercent": 15,
           "addons": [
             {
-              "id": "fries",
-              "name": "بطاطس مقلية",
-              "price": 8
+              "id": "garlic-sauce",
+              "name": "صوص ثوم",
+              "price": 3
+            },
+            {
+              "id": "pickles",
+              "name": "مخلل",
+              "price": 3
+            },
+            {
+              "id": "extra-rice",
+              "name": "أرز إضافي",
+              "price": 6
             },
             {
               "id": "cola",
@@ -861,14 +961,9 @@
               "price": 6
             },
             {
-              "id": "sauce",
-              "name": "صلصة إضافية",
-              "price": 3
-            },
-            {
-              "id": "bread",
-              "name": "خبز إضافي",
-              "price": 4
+              "id": "side-salad",
+              "name": "سلطة صغيرة",
+              "price": 8
             }
           ],
           "isCombo": false,
@@ -894,9 +989,19 @@
           "cashbackPercent": null,
           "addons": [
             {
-              "id": "fries",
-              "name": "بطاطس مقلية",
-              "price": 8
+              "id": "garlic-sauce",
+              "name": "صوص ثوم",
+              "price": 3
+            },
+            {
+              "id": "pickles",
+              "name": "مخلل",
+              "price": 3
+            },
+            {
+              "id": "extra-rice",
+              "name": "أرز إضافي",
+              "price": 6
             },
             {
               "id": "cola",
@@ -904,14 +1009,9 @@
               "price": 6
             },
             {
-              "id": "sauce",
-              "name": "صلصة إضافية",
-              "price": 3
-            },
-            {
-              "id": "bread",
-              "name": "خبز إضافي",
-              "price": 4
+              "id": "side-salad",
+              "name": "سلطة صغيرة",
+              "price": 8
             }
           ],
           "isCombo": false,
@@ -937,9 +1037,19 @@
           "cashbackPercent": null,
           "addons": [
             {
-              "id": "fries",
-              "name": "بطاطس مقلية",
-              "price": 8
+              "id": "garlic-sauce",
+              "name": "صوص ثوم",
+              "price": 3
+            },
+            {
+              "id": "pickles",
+              "name": "مخلل",
+              "price": 3
+            },
+            {
+              "id": "extra-rice",
+              "name": "أرز إضافي",
+              "price": 6
             },
             {
               "id": "cola",
@@ -947,14 +1057,9 @@
               "price": 6
             },
             {
-              "id": "sauce",
-              "name": "صلصة إضافية",
-              "price": 3
-            },
-            {
-              "id": "bread",
-              "name": "خبز إضافي",
-              "price": 4
+              "id": "side-salad",
+              "name": "سلطة صغيرة",
+              "price": 8
             }
           ],
           "isCombo": false,
@@ -980,9 +1085,19 @@
           "cashbackPercent": null,
           "addons": [
             {
-              "id": "fries",
-              "name": "بطاطس مقلية",
-              "price": 8
+              "id": "garlic-sauce",
+              "name": "صوص ثوم",
+              "price": 3
+            },
+            {
+              "id": "pickles",
+              "name": "مخلل",
+              "price": 3
+            },
+            {
+              "id": "extra-rice",
+              "name": "أرز إضافي",
+              "price": 6
             },
             {
               "id": "cola",
@@ -990,14 +1105,9 @@
               "price": 6
             },
             {
-              "id": "sauce",
-              "name": "صلصة إضافية",
-              "price": 3
-            },
-            {
-              "id": "bread",
-              "name": "خبز إضافي",
-              "price": 4
+              "id": "side-salad",
+              "name": "سلطة صغيرة",
+              "price": 8
             }
           ],
           "isCombo": false,
@@ -1023,9 +1133,19 @@
           "cashbackPercent": null,
           "addons": [
             {
-              "id": "fries",
-              "name": "بطاطس مقلية",
-              "price": 8
+              "id": "garlic-sauce",
+              "name": "صوص ثوم",
+              "price": 3
+            },
+            {
+              "id": "pickles",
+              "name": "مخلل",
+              "price": 3
+            },
+            {
+              "id": "extra-rice",
+              "name": "أرز إضافي",
+              "price": 6
             },
             {
               "id": "cola",
@@ -1033,14 +1153,9 @@
               "price": 6
             },
             {
-              "id": "sauce",
-              "name": "صلصة إضافية",
-              "price": 3
-            },
-            {
-              "id": "bread",
-              "name": "خبز إضافي",
-              "price": 4
+              "id": "side-salad",
+              "name": "سلطة صغيرة",
+              "price": 8
             }
           ],
           "isCombo": false,
@@ -1073,9 +1188,19 @@
           "cashbackPercent": null,
           "addons": [
             {
-              "id": "fries",
-              "name": "بطاطس مقلية",
-              "price": 8
+              "id": "garlic-sauce",
+              "name": "صوص ثوم",
+              "price": 3
+            },
+            {
+              "id": "pickles",
+              "name": "مخلل",
+              "price": 3
+            },
+            {
+              "id": "extra-rice",
+              "name": "أرز إضافي",
+              "price": 6
             },
             {
               "id": "cola",
@@ -1083,14 +1208,9 @@
               "price": 6
             },
             {
-              "id": "sauce",
-              "name": "صلصة إضافية",
-              "price": 3
-            },
-            {
-              "id": "bread",
-              "name": "خبز إضافي",
-              "price": 4
+              "id": "side-salad",
+              "name": "سلطة صغيرة",
+              "price": 8
             }
           ]
         },
@@ -1121,9 +1241,19 @@
           "cashbackPercent": null,
           "addons": [
             {
-              "id": "fries",
-              "name": "بطاطس مقلية",
-              "price": 8
+              "id": "garlic-sauce",
+              "name": "صوص ثوم",
+              "price": 3
+            },
+            {
+              "id": "pickles",
+              "name": "مخلل",
+              "price": 3
+            },
+            {
+              "id": "extra-rice",
+              "name": "أرز إضافي",
+              "price": 6
             },
             {
               "id": "cola",
@@ -1131,14 +1261,9 @@
               "price": 6
             },
             {
-              "id": "sauce",
-              "name": "صلصة إضافية",
-              "price": 3
-            },
-            {
-              "id": "bread",
-              "name": "خبز إضافي",
-              "price": 4
+              "id": "side-salad",
+              "name": "سلطة صغيرة",
+              "price": 8
             }
           ]
         },
@@ -1169,9 +1294,19 @@
           "cashbackPercent": null,
           "addons": [
             {
-              "id": "fries",
-              "name": "بطاطس مقلية",
-              "price": 8
+              "id": "garlic-sauce",
+              "name": "صوص ثوم",
+              "price": 3
+            },
+            {
+              "id": "pickles",
+              "name": "مخلل",
+              "price": 3
+            },
+            {
+              "id": "extra-rice",
+              "name": "أرز إضافي",
+              "price": 6
             },
             {
               "id": "cola",
@@ -1179,14 +1314,9 @@
               "price": 6
             },
             {
-              "id": "sauce",
-              "name": "صلصة إضافية",
-              "price": 3
-            },
-            {
-              "id": "bread",
-              "name": "خبز إضافي",
-              "price": 4
+              "id": "side-salad",
+              "name": "سلطة صغيرة",
+              "price": 8
             }
           ]
         }
@@ -1232,9 +1362,19 @@
           "cashbackPercent": null,
           "addons": [
             {
-              "id": "fries",
-              "name": "بطاطس مقلية",
-              "price": 8
+              "id": "garlic-sauce",
+              "name": "صوص ثوم",
+              "price": 3
+            },
+            {
+              "id": "pickles",
+              "name": "مخلل",
+              "price": 3
+            },
+            {
+              "id": "extra-rice",
+              "name": "أرز إضافي",
+              "price": 6
             },
             {
               "id": "cola",
@@ -1242,14 +1382,9 @@
               "price": 6
             },
             {
-              "id": "sauce",
-              "name": "صلصة إضافية",
-              "price": 3
-            },
-            {
-              "id": "bread",
-              "name": "خبز إضافي",
-              "price": 4
+              "id": "side-salad",
+              "name": "سلطة صغيرة",
+              "price": 8
             }
           ],
           "isCombo": false,
@@ -1275,9 +1410,19 @@
           "cashbackPercent": null,
           "addons": [
             {
-              "id": "fries",
-              "name": "بطاطس مقلية",
-              "price": 8
+              "id": "garlic-sauce",
+              "name": "صوص ثوم",
+              "price": 3
+            },
+            {
+              "id": "pickles",
+              "name": "مخلل",
+              "price": 3
+            },
+            {
+              "id": "extra-rice",
+              "name": "أرز إضافي",
+              "price": 6
             },
             {
               "id": "cola",
@@ -1285,14 +1430,9 @@
               "price": 6
             },
             {
-              "id": "sauce",
-              "name": "صلصة إضافية",
-              "price": 3
-            },
-            {
-              "id": "bread",
-              "name": "خبز إضافي",
-              "price": 4
+              "id": "side-salad",
+              "name": "سلطة صغيرة",
+              "price": 8
             }
           ],
           "isCombo": false,
@@ -1318,9 +1458,19 @@
           "cashbackPercent": null,
           "addons": [
             {
-              "id": "fries",
-              "name": "بطاطس مقلية",
-              "price": 8
+              "id": "garlic-sauce",
+              "name": "صوص ثوم",
+              "price": 3
+            },
+            {
+              "id": "pickles",
+              "name": "مخلل",
+              "price": 3
+            },
+            {
+              "id": "extra-rice",
+              "name": "أرز إضافي",
+              "price": 6
             },
             {
               "id": "cola",
@@ -1328,14 +1478,9 @@
               "price": 6
             },
             {
-              "id": "sauce",
-              "name": "صلصة إضافية",
-              "price": 3
-            },
-            {
-              "id": "bread",
-              "name": "خبز إضافي",
-              "price": 4
+              "id": "side-salad",
+              "name": "سلطة صغيرة",
+              "price": 8
             }
           ],
           "isCombo": false,
@@ -1361,9 +1506,19 @@
           "cashbackPercent": 10,
           "addons": [
             {
-              "id": "fries",
-              "name": "بطاطس مقلية",
-              "price": 8
+              "id": "garlic-sauce",
+              "name": "صوص ثوم",
+              "price": 3
+            },
+            {
+              "id": "pickles",
+              "name": "مخلل",
+              "price": 3
+            },
+            {
+              "id": "extra-rice",
+              "name": "أرز إضافي",
+              "price": 6
             },
             {
               "id": "cola",
@@ -1371,14 +1526,9 @@
               "price": 6
             },
             {
-              "id": "sauce",
-              "name": "صلصة إضافية",
-              "price": 3
-            },
-            {
-              "id": "bread",
-              "name": "خبز إضافي",
-              "price": 4
+              "id": "side-salad",
+              "name": "سلطة صغيرة",
+              "price": 8
             }
           ],
           "isCombo": false,
@@ -1404,9 +1554,19 @@
           "cashbackPercent": null,
           "addons": [
             {
-              "id": "fries",
-              "name": "بطاطس مقلية",
-              "price": 8
+              "id": "garlic-sauce",
+              "name": "صوص ثوم",
+              "price": 3
+            },
+            {
+              "id": "pickles",
+              "name": "مخلل",
+              "price": 3
+            },
+            {
+              "id": "extra-rice",
+              "name": "أرز إضافي",
+              "price": 6
             },
             {
               "id": "cola",
@@ -1414,14 +1574,9 @@
               "price": 6
             },
             {
-              "id": "sauce",
-              "name": "صلصة إضافية",
-              "price": 3
-            },
-            {
-              "id": "bread",
-              "name": "خبز إضافي",
-              "price": 4
+              "id": "side-salad",
+              "name": "سلطة صغيرة",
+              "price": 8
             }
           ],
           "isCombo": false,
@@ -1447,9 +1602,19 @@
           "cashbackPercent": 10,
           "addons": [
             {
-              "id": "fries",
-              "name": "بطاطس مقلية",
-              "price": 8
+              "id": "garlic-sauce",
+              "name": "صوص ثوم",
+              "price": 3
+            },
+            {
+              "id": "pickles",
+              "name": "مخلل",
+              "price": 3
+            },
+            {
+              "id": "extra-rice",
+              "name": "أرز إضافي",
+              "price": 6
             },
             {
               "id": "cola",
@@ -1457,14 +1622,9 @@
               "price": 6
             },
             {
-              "id": "sauce",
-              "name": "صلصة إضافية",
-              "price": 3
-            },
-            {
-              "id": "bread",
-              "name": "خبز إضافي",
-              "price": 4
+              "id": "side-salad",
+              "name": "سلطة صغيرة",
+              "price": 8
             }
           ],
           "isCombo": false,
@@ -1490,9 +1650,19 @@
           "cashbackPercent": null,
           "addons": [
             {
-              "id": "fries",
-              "name": "بطاطس مقلية",
-              "price": 8
+              "id": "garlic-sauce",
+              "name": "صوص ثوم",
+              "price": 3
+            },
+            {
+              "id": "pickles",
+              "name": "مخلل",
+              "price": 3
+            },
+            {
+              "id": "extra-rice",
+              "name": "أرز إضافي",
+              "price": 6
             },
             {
               "id": "cola",
@@ -1500,14 +1670,9 @@
               "price": 6
             },
             {
-              "id": "sauce",
-              "name": "صلصة إضافية",
-              "price": 3
-            },
-            {
-              "id": "bread",
-              "name": "خبز إضافي",
-              "price": 4
+              "id": "side-salad",
+              "name": "سلطة صغيرة",
+              "price": 8
             }
           ],
           "isCombo": false,
@@ -1533,9 +1698,19 @@
           "cashbackPercent": null,
           "addons": [
             {
-              "id": "fries",
-              "name": "بطاطس مقلية",
-              "price": 8
+              "id": "garlic-sauce",
+              "name": "صوص ثوم",
+              "price": 3
+            },
+            {
+              "id": "pickles",
+              "name": "مخلل",
+              "price": 3
+            },
+            {
+              "id": "extra-rice",
+              "name": "أرز إضافي",
+              "price": 6
             },
             {
               "id": "cola",
@@ -1543,14 +1718,9 @@
               "price": 6
             },
             {
-              "id": "sauce",
-              "name": "صلصة إضافية",
-              "price": 3
-            },
-            {
-              "id": "bread",
-              "name": "خبز إضافي",
-              "price": 4
+              "id": "side-salad",
+              "name": "سلطة صغيرة",
+              "price": 8
             }
           ],
           "isCombo": false,
@@ -1576,9 +1746,19 @@
           "cashbackPercent": null,
           "addons": [
             {
-              "id": "fries",
-              "name": "بطاطس مقلية",
-              "price": 8
+              "id": "garlic-sauce",
+              "name": "صوص ثوم",
+              "price": 3
+            },
+            {
+              "id": "pickles",
+              "name": "مخلل",
+              "price": 3
+            },
+            {
+              "id": "extra-rice",
+              "name": "أرز إضافي",
+              "price": 6
             },
             {
               "id": "cola",
@@ -1586,14 +1766,9 @@
               "price": 6
             },
             {
-              "id": "sauce",
-              "name": "صلصة إضافية",
-              "price": 3
-            },
-            {
-              "id": "bread",
-              "name": "خبز إضافي",
-              "price": 4
+              "id": "side-salad",
+              "name": "سلطة صغيرة",
+              "price": 8
             }
           ],
           "isCombo": false,
@@ -1619,9 +1794,19 @@
           "cashbackPercent": null,
           "addons": [
             {
-              "id": "fries",
-              "name": "بطاطس مقلية",
-              "price": 8
+              "id": "garlic-sauce",
+              "name": "صوص ثوم",
+              "price": 3
+            },
+            {
+              "id": "pickles",
+              "name": "مخلل",
+              "price": 3
+            },
+            {
+              "id": "extra-rice",
+              "name": "أرز إضافي",
+              "price": 6
             },
             {
               "id": "cola",
@@ -1629,14 +1814,9 @@
               "price": 6
             },
             {
-              "id": "sauce",
-              "name": "صلصة إضافية",
-              "price": 3
-            },
-            {
-              "id": "bread",
-              "name": "خبز إضافي",
-              "price": 4
+              "id": "side-salad",
+              "name": "سلطة صغيرة",
+              "price": 8
             }
           ],
           "isCombo": false,
@@ -1669,9 +1849,19 @@
           "cashbackPercent": null,
           "addons": [
             {
-              "id": "fries",
-              "name": "بطاطس مقلية",
-              "price": 8
+              "id": "garlic-sauce",
+              "name": "صوص ثوم",
+              "price": 3
+            },
+            {
+              "id": "pickles",
+              "name": "مخلل",
+              "price": 3
+            },
+            {
+              "id": "extra-rice",
+              "name": "أرز إضافي",
+              "price": 6
             },
             {
               "id": "cola",
@@ -1679,14 +1869,9 @@
               "price": 6
             },
             {
-              "id": "sauce",
-              "name": "صلصة إضافية",
-              "price": 3
-            },
-            {
-              "id": "bread",
-              "name": "خبز إضافي",
-              "price": 4
+              "id": "side-salad",
+              "name": "سلطة صغيرة",
+              "price": 8
             }
           ]
         },
@@ -1717,9 +1902,19 @@
           "cashbackPercent": null,
           "addons": [
             {
-              "id": "fries",
-              "name": "بطاطس مقلية",
-              "price": 8
+              "id": "garlic-sauce",
+              "name": "صوص ثوم",
+              "price": 3
+            },
+            {
+              "id": "pickles",
+              "name": "مخلل",
+              "price": 3
+            },
+            {
+              "id": "extra-rice",
+              "name": "أرز إضافي",
+              "price": 6
             },
             {
               "id": "cola",
@@ -1727,14 +1922,9 @@
               "price": 6
             },
             {
-              "id": "sauce",
-              "name": "صلصة إضافية",
-              "price": 3
-            },
-            {
-              "id": "bread",
-              "name": "خبز إضافي",
-              "price": 4
+              "id": "side-salad",
+              "name": "سلطة صغيرة",
+              "price": 8
             }
           ]
         },
@@ -1765,9 +1955,19 @@
           "cashbackPercent": null,
           "addons": [
             {
-              "id": "fries",
-              "name": "بطاطس مقلية",
-              "price": 8
+              "id": "garlic-sauce",
+              "name": "صوص ثوم",
+              "price": 3
+            },
+            {
+              "id": "pickles",
+              "name": "مخلل",
+              "price": 3
+            },
+            {
+              "id": "extra-rice",
+              "name": "أرز إضافي",
+              "price": 6
             },
             {
               "id": "cola",
@@ -1775,14 +1975,9 @@
               "price": 6
             },
             {
-              "id": "sauce",
-              "name": "صلصة إضافية",
-              "price": 3
-            },
-            {
-              "id": "bread",
-              "name": "خبز إضافي",
-              "price": 4
+              "id": "side-salad",
+              "name": "سلطة صغيرة",
+              "price": 8
             }
           ]
         }
@@ -1828,9 +2023,19 @@
           "cashbackPercent": null,
           "addons": [
             {
-              "id": "fries",
-              "name": "بطاطس مقلية",
-              "price": 8
+              "id": "garlic-sauce",
+              "name": "صوص ثوم",
+              "price": 3
+            },
+            {
+              "id": "pickles",
+              "name": "مخلل",
+              "price": 3
+            },
+            {
+              "id": "extra-rice",
+              "name": "أرز إضافي",
+              "price": 6
             },
             {
               "id": "cola",
@@ -1838,14 +2043,9 @@
               "price": 6
             },
             {
-              "id": "sauce",
-              "name": "صلصة إضافية",
-              "price": 3
-            },
-            {
-              "id": "bread",
-              "name": "خبز إضافي",
-              "price": 4
+              "id": "side-salad",
+              "name": "سلطة صغيرة",
+              "price": 8
             }
           ],
           "isCombo": false,
@@ -1871,9 +2071,19 @@
           "cashbackPercent": null,
           "addons": [
             {
-              "id": "fries",
-              "name": "بطاطس مقلية",
-              "price": 8
+              "id": "garlic-sauce",
+              "name": "صوص ثوم",
+              "price": 3
+            },
+            {
+              "id": "pickles",
+              "name": "مخلل",
+              "price": 3
+            },
+            {
+              "id": "extra-rice",
+              "name": "أرز إضافي",
+              "price": 6
             },
             {
               "id": "cola",
@@ -1881,14 +2091,9 @@
               "price": 6
             },
             {
-              "id": "sauce",
-              "name": "صلصة إضافية",
-              "price": 3
-            },
-            {
-              "id": "bread",
-              "name": "خبز إضافي",
-              "price": 4
+              "id": "side-salad",
+              "name": "سلطة صغيرة",
+              "price": 8
             }
           ],
           "isCombo": false,
@@ -1914,9 +2119,19 @@
           "cashbackPercent": null,
           "addons": [
             {
-              "id": "fries",
-              "name": "بطاطس مقلية",
-              "price": 8
+              "id": "garlic-sauce",
+              "name": "صوص ثوم",
+              "price": 3
+            },
+            {
+              "id": "pickles",
+              "name": "مخلل",
+              "price": 3
+            },
+            {
+              "id": "extra-rice",
+              "name": "أرز إضافي",
+              "price": 6
             },
             {
               "id": "cola",
@@ -1924,14 +2139,9 @@
               "price": 6
             },
             {
-              "id": "sauce",
-              "name": "صلصة إضافية",
-              "price": 3
-            },
-            {
-              "id": "bread",
-              "name": "خبز إضافي",
-              "price": 4
+              "id": "side-salad",
+              "name": "سلطة صغيرة",
+              "price": 8
             }
           ],
           "isCombo": false,
@@ -1957,9 +2167,19 @@
           "cashbackPercent": null,
           "addons": [
             {
-              "id": "fries",
-              "name": "بطاطس مقلية",
-              "price": 8
+              "id": "garlic-sauce",
+              "name": "صوص ثوم",
+              "price": 3
+            },
+            {
+              "id": "pickles",
+              "name": "مخلل",
+              "price": 3
+            },
+            {
+              "id": "extra-rice",
+              "name": "أرز إضافي",
+              "price": 6
             },
             {
               "id": "cola",
@@ -1967,14 +2187,9 @@
               "price": 6
             },
             {
-              "id": "sauce",
-              "name": "صلصة إضافية",
-              "price": 3
-            },
-            {
-              "id": "bread",
-              "name": "خبز إضافي",
-              "price": 4
+              "id": "side-salad",
+              "name": "سلطة صغيرة",
+              "price": 8
             }
           ],
           "isCombo": false,
@@ -2000,9 +2215,19 @@
           "cashbackPercent": null,
           "addons": [
             {
-              "id": "fries",
-              "name": "بطاطس مقلية",
-              "price": 8
+              "id": "garlic-sauce",
+              "name": "صوص ثوم",
+              "price": 3
+            },
+            {
+              "id": "pickles",
+              "name": "مخلل",
+              "price": 3
+            },
+            {
+              "id": "extra-rice",
+              "name": "أرز إضافي",
+              "price": 6
             },
             {
               "id": "cola",
@@ -2010,14 +2235,9 @@
               "price": 6
             },
             {
-              "id": "sauce",
-              "name": "صلصة إضافية",
-              "price": 3
-            },
-            {
-              "id": "bread",
-              "name": "خبز إضافي",
-              "price": 4
+              "id": "side-salad",
+              "name": "سلطة صغيرة",
+              "price": 8
             }
           ],
           "isCombo": false,
@@ -2043,9 +2263,19 @@
           "cashbackPercent": null,
           "addons": [
             {
-              "id": "fries",
-              "name": "بطاطس مقلية",
-              "price": 8
+              "id": "garlic-sauce",
+              "name": "صوص ثوم",
+              "price": 3
+            },
+            {
+              "id": "pickles",
+              "name": "مخلل",
+              "price": 3
+            },
+            {
+              "id": "extra-rice",
+              "name": "أرز إضافي",
+              "price": 6
             },
             {
               "id": "cola",
@@ -2053,14 +2283,9 @@
               "price": 6
             },
             {
-              "id": "sauce",
-              "name": "صلصة إضافية",
-              "price": 3
-            },
-            {
-              "id": "bread",
-              "name": "خبز إضافي",
-              "price": 4
+              "id": "side-salad",
+              "name": "سلطة صغيرة",
+              "price": 8
             }
           ],
           "isCombo": false,
@@ -2086,9 +2311,19 @@
           "cashbackPercent": null,
           "addons": [
             {
-              "id": "fries",
-              "name": "بطاطس مقلية",
-              "price": 8
+              "id": "garlic-sauce",
+              "name": "صوص ثوم",
+              "price": 3
+            },
+            {
+              "id": "pickles",
+              "name": "مخلل",
+              "price": 3
+            },
+            {
+              "id": "extra-rice",
+              "name": "أرز إضافي",
+              "price": 6
             },
             {
               "id": "cola",
@@ -2096,14 +2331,9 @@
               "price": 6
             },
             {
-              "id": "sauce",
-              "name": "صلصة إضافية",
-              "price": 3
-            },
-            {
-              "id": "bread",
-              "name": "خبز إضافي",
-              "price": 4
+              "id": "side-salad",
+              "name": "سلطة صغيرة",
+              "price": 8
             }
           ],
           "isCombo": false,
@@ -2129,9 +2359,19 @@
           "cashbackPercent": null,
           "addons": [
             {
-              "id": "fries",
-              "name": "بطاطس مقلية",
-              "price": 8
+              "id": "garlic-sauce",
+              "name": "صوص ثوم",
+              "price": 3
+            },
+            {
+              "id": "pickles",
+              "name": "مخلل",
+              "price": 3
+            },
+            {
+              "id": "extra-rice",
+              "name": "أرز إضافي",
+              "price": 6
             },
             {
               "id": "cola",
@@ -2139,14 +2379,9 @@
               "price": 6
             },
             {
-              "id": "sauce",
-              "name": "صلصة إضافية",
-              "price": 3
-            },
-            {
-              "id": "bread",
-              "name": "خبز إضافي",
-              "price": 4
+              "id": "side-salad",
+              "name": "سلطة صغيرة",
+              "price": 8
             }
           ],
           "isCombo": false,
@@ -2172,9 +2407,19 @@
           "cashbackPercent": null,
           "addons": [
             {
-              "id": "fries",
-              "name": "بطاطس مقلية",
-              "price": 8
+              "id": "garlic-sauce",
+              "name": "صوص ثوم",
+              "price": 3
+            },
+            {
+              "id": "pickles",
+              "name": "مخلل",
+              "price": 3
+            },
+            {
+              "id": "extra-rice",
+              "name": "أرز إضافي",
+              "price": 6
             },
             {
               "id": "cola",
@@ -2182,14 +2427,9 @@
               "price": 6
             },
             {
-              "id": "sauce",
-              "name": "صلصة إضافية",
-              "price": 3
-            },
-            {
-              "id": "bread",
-              "name": "خبز إضافي",
-              "price": 4
+              "id": "side-salad",
+              "name": "سلطة صغيرة",
+              "price": 8
             }
           ],
           "isCombo": false,
@@ -2215,9 +2455,19 @@
           "cashbackPercent": null,
           "addons": [
             {
-              "id": "fries",
-              "name": "بطاطس مقلية",
-              "price": 8
+              "id": "garlic-sauce",
+              "name": "صوص ثوم",
+              "price": 3
+            },
+            {
+              "id": "pickles",
+              "name": "مخلل",
+              "price": 3
+            },
+            {
+              "id": "extra-rice",
+              "name": "أرز إضافي",
+              "price": 6
             },
             {
               "id": "cola",
@@ -2225,14 +2475,9 @@
               "price": 6
             },
             {
-              "id": "sauce",
-              "name": "صلصة إضافية",
-              "price": 3
-            },
-            {
-              "id": "bread",
-              "name": "خبز إضافي",
-              "price": 4
+              "id": "side-salad",
+              "name": "سلطة صغيرة",
+              "price": 8
             }
           ],
           "isCombo": false,
@@ -2265,9 +2510,19 @@
           "cashbackPercent": null,
           "addons": [
             {
-              "id": "fries",
-              "name": "بطاطس مقلية",
-              "price": 8
+              "id": "garlic-sauce",
+              "name": "صوص ثوم",
+              "price": 3
+            },
+            {
+              "id": "pickles",
+              "name": "مخلل",
+              "price": 3
+            },
+            {
+              "id": "extra-rice",
+              "name": "أرز إضافي",
+              "price": 6
             },
             {
               "id": "cola",
@@ -2275,14 +2530,9 @@
               "price": 6
             },
             {
-              "id": "sauce",
-              "name": "صلصة إضافية",
-              "price": 3
-            },
-            {
-              "id": "bread",
-              "name": "خبز إضافي",
-              "price": 4
+              "id": "side-salad",
+              "name": "سلطة صغيرة",
+              "price": 8
             }
           ]
         },
@@ -2313,9 +2563,19 @@
           "cashbackPercent": null,
           "addons": [
             {
-              "id": "fries",
-              "name": "بطاطس مقلية",
-              "price": 8
+              "id": "garlic-sauce",
+              "name": "صوص ثوم",
+              "price": 3
+            },
+            {
+              "id": "pickles",
+              "name": "مخلل",
+              "price": 3
+            },
+            {
+              "id": "extra-rice",
+              "name": "أرز إضافي",
+              "price": 6
             },
             {
               "id": "cola",
@@ -2323,14 +2583,9 @@
               "price": 6
             },
             {
-              "id": "sauce",
-              "name": "صلصة إضافية",
-              "price": 3
-            },
-            {
-              "id": "bread",
-              "name": "خبز إضافي",
-              "price": 4
+              "id": "side-salad",
+              "name": "سلطة صغيرة",
+              "price": 8
             }
           ]
         },
@@ -2361,9 +2616,19 @@
           "cashbackPercent": null,
           "addons": [
             {
-              "id": "fries",
-              "name": "بطاطس مقلية",
-              "price": 8
+              "id": "garlic-sauce",
+              "name": "صوص ثوم",
+              "price": 3
+            },
+            {
+              "id": "pickles",
+              "name": "مخلل",
+              "price": 3
+            },
+            {
+              "id": "extra-rice",
+              "name": "أرز إضافي",
+              "price": 6
             },
             {
               "id": "cola",
@@ -2371,14 +2636,9 @@
               "price": 6
             },
             {
-              "id": "sauce",
-              "name": "صلصة إضافية",
-              "price": 3
-            },
-            {
-              "id": "bread",
-              "name": "خبز إضافي",
-              "price": 4
+              "id": "side-salad",
+              "name": "سلطة صغيرة",
+              "price": 8
             }
           ]
         }
@@ -2424,9 +2684,19 @@
           "cashbackPercent": null,
           "addons": [
             {
-              "id": "fries",
-              "name": "بطاطس مقلية",
-              "price": 8
+              "id": "garlic-sauce",
+              "name": "صوص ثوم",
+              "price": 3
+            },
+            {
+              "id": "pickles",
+              "name": "مخلل",
+              "price": 3
+            },
+            {
+              "id": "extra-rice",
+              "name": "أرز إضافي",
+              "price": 6
             },
             {
               "id": "cola",
@@ -2434,14 +2704,9 @@
               "price": 6
             },
             {
-              "id": "sauce",
-              "name": "صلصة إضافية",
-              "price": 3
-            },
-            {
-              "id": "bread",
-              "name": "خبز إضافي",
-              "price": 4
+              "id": "side-salad",
+              "name": "سلطة صغيرة",
+              "price": 8
             }
           ],
           "isCombo": false,
@@ -2467,9 +2732,19 @@
           "cashbackPercent": null,
           "addons": [
             {
-              "id": "fries",
-              "name": "بطاطس مقلية",
-              "price": 8
+              "id": "garlic-sauce",
+              "name": "صوص ثوم",
+              "price": 3
+            },
+            {
+              "id": "pickles",
+              "name": "مخلل",
+              "price": 3
+            },
+            {
+              "id": "extra-rice",
+              "name": "أرز إضافي",
+              "price": 6
             },
             {
               "id": "cola",
@@ -2477,14 +2752,9 @@
               "price": 6
             },
             {
-              "id": "sauce",
-              "name": "صلصة إضافية",
-              "price": 3
-            },
-            {
-              "id": "bread",
-              "name": "خبز إضافي",
-              "price": 4
+              "id": "side-salad",
+              "name": "سلطة صغيرة",
+              "price": 8
             }
           ],
           "isCombo": false,
@@ -2510,9 +2780,19 @@
           "cashbackPercent": null,
           "addons": [
             {
-              "id": "fries",
-              "name": "بطاطس مقلية",
-              "price": 8
+              "id": "garlic-sauce",
+              "name": "صوص ثوم",
+              "price": 3
+            },
+            {
+              "id": "pickles",
+              "name": "مخلل",
+              "price": 3
+            },
+            {
+              "id": "extra-rice",
+              "name": "أرز إضافي",
+              "price": 6
             },
             {
               "id": "cola",
@@ -2520,14 +2800,9 @@
               "price": 6
             },
             {
-              "id": "sauce",
-              "name": "صلصة إضافية",
-              "price": 3
-            },
-            {
-              "id": "bread",
-              "name": "خبز إضافي",
-              "price": 4
+              "id": "side-salad",
+              "name": "سلطة صغيرة",
+              "price": 8
             }
           ],
           "isCombo": false,
@@ -2553,9 +2828,19 @@
           "cashbackPercent": 15,
           "addons": [
             {
-              "id": "fries",
-              "name": "بطاطس مقلية",
-              "price": 8
+              "id": "garlic-sauce",
+              "name": "صوص ثوم",
+              "price": 3
+            },
+            {
+              "id": "pickles",
+              "name": "مخلل",
+              "price": 3
+            },
+            {
+              "id": "extra-rice",
+              "name": "أرز إضافي",
+              "price": 6
             },
             {
               "id": "cola",
@@ -2563,14 +2848,9 @@
               "price": 6
             },
             {
-              "id": "sauce",
-              "name": "صلصة إضافية",
-              "price": 3
-            },
-            {
-              "id": "bread",
-              "name": "خبز إضافي",
-              "price": 4
+              "id": "side-salad",
+              "name": "سلطة صغيرة",
+              "price": 8
             }
           ],
           "isCombo": false,
@@ -2596,9 +2876,19 @@
           "cashbackPercent": null,
           "addons": [
             {
-              "id": "fries",
-              "name": "بطاطس مقلية",
-              "price": 8
+              "id": "garlic-sauce",
+              "name": "صوص ثوم",
+              "price": 3
+            },
+            {
+              "id": "pickles",
+              "name": "مخلل",
+              "price": 3
+            },
+            {
+              "id": "extra-rice",
+              "name": "أرز إضافي",
+              "price": 6
             },
             {
               "id": "cola",
@@ -2606,14 +2896,9 @@
               "price": 6
             },
             {
-              "id": "sauce",
-              "name": "صلصة إضافية",
-              "price": 3
-            },
-            {
-              "id": "bread",
-              "name": "خبز إضافي",
-              "price": 4
+              "id": "side-salad",
+              "name": "سلطة صغيرة",
+              "price": 8
             }
           ],
           "isCombo": false,
@@ -2639,9 +2924,19 @@
           "cashbackPercent": 15,
           "addons": [
             {
-              "id": "fries",
-              "name": "بطاطس مقلية",
-              "price": 8
+              "id": "garlic-sauce",
+              "name": "صوص ثوم",
+              "price": 3
+            },
+            {
+              "id": "pickles",
+              "name": "مخلل",
+              "price": 3
+            },
+            {
+              "id": "extra-rice",
+              "name": "أرز إضافي",
+              "price": 6
             },
             {
               "id": "cola",
@@ -2649,14 +2944,9 @@
               "price": 6
             },
             {
-              "id": "sauce",
-              "name": "صلصة إضافية",
-              "price": 3
-            },
-            {
-              "id": "bread",
-              "name": "خبز إضافي",
-              "price": 4
+              "id": "side-salad",
+              "name": "سلطة صغيرة",
+              "price": 8
             }
           ],
           "isCombo": false,
@@ -2682,9 +2972,19 @@
           "cashbackPercent": null,
           "addons": [
             {
-              "id": "fries",
-              "name": "بطاطس مقلية",
-              "price": 8
+              "id": "garlic-sauce",
+              "name": "صوص ثوم",
+              "price": 3
+            },
+            {
+              "id": "pickles",
+              "name": "مخلل",
+              "price": 3
+            },
+            {
+              "id": "extra-rice",
+              "name": "أرز إضافي",
+              "price": 6
             },
             {
               "id": "cola",
@@ -2692,14 +2992,9 @@
               "price": 6
             },
             {
-              "id": "sauce",
-              "name": "صلصة إضافية",
-              "price": 3
-            },
-            {
-              "id": "bread",
-              "name": "خبز إضافي",
-              "price": 4
+              "id": "side-salad",
+              "name": "سلطة صغيرة",
+              "price": 8
             }
           ],
           "isCombo": false,
@@ -2725,9 +3020,19 @@
           "cashbackPercent": null,
           "addons": [
             {
-              "id": "fries",
-              "name": "بطاطس مقلية",
-              "price": 8
+              "id": "garlic-sauce",
+              "name": "صوص ثوم",
+              "price": 3
+            },
+            {
+              "id": "pickles",
+              "name": "مخلل",
+              "price": 3
+            },
+            {
+              "id": "extra-rice",
+              "name": "أرز إضافي",
+              "price": 6
             },
             {
               "id": "cola",
@@ -2735,14 +3040,9 @@
               "price": 6
             },
             {
-              "id": "sauce",
-              "name": "صلصة إضافية",
-              "price": 3
-            },
-            {
-              "id": "bread",
-              "name": "خبز إضافي",
-              "price": 4
+              "id": "side-salad",
+              "name": "سلطة صغيرة",
+              "price": 8
             }
           ],
           "isCombo": false,
@@ -2768,9 +3068,19 @@
           "cashbackPercent": null,
           "addons": [
             {
-              "id": "fries",
-              "name": "بطاطس مقلية",
-              "price": 8
+              "id": "garlic-sauce",
+              "name": "صوص ثوم",
+              "price": 3
+            },
+            {
+              "id": "pickles",
+              "name": "مخلل",
+              "price": 3
+            },
+            {
+              "id": "extra-rice",
+              "name": "أرز إضافي",
+              "price": 6
             },
             {
               "id": "cola",
@@ -2778,14 +3088,9 @@
               "price": 6
             },
             {
-              "id": "sauce",
-              "name": "صلصة إضافية",
-              "price": 3
-            },
-            {
-              "id": "bread",
-              "name": "خبز إضافي",
-              "price": 4
+              "id": "side-salad",
+              "name": "سلطة صغيرة",
+              "price": 8
             }
           ],
           "isCombo": false,
@@ -2811,9 +3116,19 @@
           "cashbackPercent": null,
           "addons": [
             {
-              "id": "fries",
-              "name": "بطاطس مقلية",
-              "price": 8
+              "id": "garlic-sauce",
+              "name": "صوص ثوم",
+              "price": 3
+            },
+            {
+              "id": "pickles",
+              "name": "مخلل",
+              "price": 3
+            },
+            {
+              "id": "extra-rice",
+              "name": "أرز إضافي",
+              "price": 6
             },
             {
               "id": "cola",
@@ -2821,14 +3136,9 @@
               "price": 6
             },
             {
-              "id": "sauce",
-              "name": "صلصة إضافية",
-              "price": 3
-            },
-            {
-              "id": "bread",
-              "name": "خبز إضافي",
-              "price": 4
+              "id": "side-salad",
+              "name": "سلطة صغيرة",
+              "price": 8
             }
           ],
           "isCombo": false,
@@ -2861,9 +3171,19 @@
           "cashbackPercent": null,
           "addons": [
             {
-              "id": "fries",
-              "name": "بطاطس مقلية",
-              "price": 8
+              "id": "garlic-sauce",
+              "name": "صوص ثوم",
+              "price": 3
+            },
+            {
+              "id": "pickles",
+              "name": "مخلل",
+              "price": 3
+            },
+            {
+              "id": "extra-rice",
+              "name": "أرز إضافي",
+              "price": 6
             },
             {
               "id": "cola",
@@ -2871,14 +3191,9 @@
               "price": 6
             },
             {
-              "id": "sauce",
-              "name": "صلصة إضافية",
-              "price": 3
-            },
-            {
-              "id": "bread",
-              "name": "خبز إضافي",
-              "price": 4
+              "id": "side-salad",
+              "name": "سلطة صغيرة",
+              "price": 8
             }
           ]
         },
@@ -2909,9 +3224,19 @@
           "cashbackPercent": null,
           "addons": [
             {
-              "id": "fries",
-              "name": "بطاطس مقلية",
-              "price": 8
+              "id": "garlic-sauce",
+              "name": "صوص ثوم",
+              "price": 3
+            },
+            {
+              "id": "pickles",
+              "name": "مخلل",
+              "price": 3
+            },
+            {
+              "id": "extra-rice",
+              "name": "أرز إضافي",
+              "price": 6
             },
             {
               "id": "cola",
@@ -2919,14 +3244,9 @@
               "price": 6
             },
             {
-              "id": "sauce",
-              "name": "صلصة إضافية",
-              "price": 3
-            },
-            {
-              "id": "bread",
-              "name": "خبز إضافي",
-              "price": 4
+              "id": "side-salad",
+              "name": "سلطة صغيرة",
+              "price": 8
             }
           ]
         },
@@ -2957,9 +3277,19 @@
           "cashbackPercent": null,
           "addons": [
             {
-              "id": "fries",
-              "name": "بطاطس مقلية",
-              "price": 8
+              "id": "garlic-sauce",
+              "name": "صوص ثوم",
+              "price": 3
+            },
+            {
+              "id": "pickles",
+              "name": "مخلل",
+              "price": 3
+            },
+            {
+              "id": "extra-rice",
+              "name": "أرز إضافي",
+              "price": 6
             },
             {
               "id": "cola",
@@ -2967,14 +3297,9 @@
               "price": 6
             },
             {
-              "id": "sauce",
-              "name": "صلصة إضافية",
-              "price": 3
-            },
-            {
-              "id": "bread",
-              "name": "خبز إضافي",
-              "price": 4
+              "id": "side-salad",
+              "name": "سلطة صغيرة",
+              "price": 8
             }
           ]
         }
@@ -3020,9 +3345,19 @@
           "cashbackPercent": null,
           "addons": [
             {
-              "id": "fries",
-              "name": "بطاطس مقلية",
-              "price": 8
+              "id": "garlic-sauce",
+              "name": "صوص ثوم",
+              "price": 3
+            },
+            {
+              "id": "pickles",
+              "name": "مخلل",
+              "price": 3
+            },
+            {
+              "id": "extra-rice",
+              "name": "أرز إضافي",
+              "price": 6
             },
             {
               "id": "cola",
@@ -3030,14 +3365,9 @@
               "price": 6
             },
             {
-              "id": "sauce",
-              "name": "صلصة إضافية",
-              "price": 3
-            },
-            {
-              "id": "bread",
-              "name": "خبز إضافي",
-              "price": 4
+              "id": "side-salad",
+              "name": "سلطة صغيرة",
+              "price": 8
             }
           ],
           "isCombo": false,
@@ -3063,9 +3393,19 @@
           "cashbackPercent": null,
           "addons": [
             {
-              "id": "fries",
-              "name": "بطاطس مقلية",
-              "price": 8
+              "id": "garlic-sauce",
+              "name": "صوص ثوم",
+              "price": 3
+            },
+            {
+              "id": "pickles",
+              "name": "مخلل",
+              "price": 3
+            },
+            {
+              "id": "extra-rice",
+              "name": "أرز إضافي",
+              "price": 6
             },
             {
               "id": "cola",
@@ -3073,14 +3413,9 @@
               "price": 6
             },
             {
-              "id": "sauce",
-              "name": "صلصة إضافية",
-              "price": 3
-            },
-            {
-              "id": "bread",
-              "name": "خبز إضافي",
-              "price": 4
+              "id": "side-salad",
+              "name": "سلطة صغيرة",
+              "price": 8
             }
           ],
           "isCombo": false,
@@ -3106,9 +3441,19 @@
           "cashbackPercent": null,
           "addons": [
             {
-              "id": "fries",
-              "name": "بطاطس مقلية",
-              "price": 8
+              "id": "garlic-sauce",
+              "name": "صوص ثوم",
+              "price": 3
+            },
+            {
+              "id": "pickles",
+              "name": "مخلل",
+              "price": 3
+            },
+            {
+              "id": "extra-rice",
+              "name": "أرز إضافي",
+              "price": 6
             },
             {
               "id": "cola",
@@ -3116,14 +3461,9 @@
               "price": 6
             },
             {
-              "id": "sauce",
-              "name": "صلصة إضافية",
-              "price": 3
-            },
-            {
-              "id": "bread",
-              "name": "خبز إضافي",
-              "price": 4
+              "id": "side-salad",
+              "name": "سلطة صغيرة",
+              "price": 8
             }
           ],
           "isCombo": false,
@@ -3149,9 +3489,19 @@
           "cashbackPercent": null,
           "addons": [
             {
-              "id": "fries",
-              "name": "بطاطس مقلية",
-              "price": 8
+              "id": "garlic-sauce",
+              "name": "صوص ثوم",
+              "price": 3
+            },
+            {
+              "id": "pickles",
+              "name": "مخلل",
+              "price": 3
+            },
+            {
+              "id": "extra-rice",
+              "name": "أرز إضافي",
+              "price": 6
             },
             {
               "id": "cola",
@@ -3159,14 +3509,9 @@
               "price": 6
             },
             {
-              "id": "sauce",
-              "name": "صلصة إضافية",
-              "price": 3
-            },
-            {
-              "id": "bread",
-              "name": "خبز إضافي",
-              "price": 4
+              "id": "side-salad",
+              "name": "سلطة صغيرة",
+              "price": 8
             }
           ],
           "isCombo": false,
@@ -3192,9 +3537,19 @@
           "cashbackPercent": null,
           "addons": [
             {
-              "id": "fries",
-              "name": "بطاطس مقلية",
-              "price": 8
+              "id": "garlic-sauce",
+              "name": "صوص ثوم",
+              "price": 3
+            },
+            {
+              "id": "pickles",
+              "name": "مخلل",
+              "price": 3
+            },
+            {
+              "id": "extra-rice",
+              "name": "أرز إضافي",
+              "price": 6
             },
             {
               "id": "cola",
@@ -3202,14 +3557,9 @@
               "price": 6
             },
             {
-              "id": "sauce",
-              "name": "صلصة إضافية",
-              "price": 3
-            },
-            {
-              "id": "bread",
-              "name": "خبز إضافي",
-              "price": 4
+              "id": "side-salad",
+              "name": "سلطة صغيرة",
+              "price": 8
             }
           ],
           "isCombo": false,
@@ -3235,9 +3585,19 @@
           "cashbackPercent": null,
           "addons": [
             {
-              "id": "fries",
-              "name": "بطاطس مقلية",
-              "price": 8
+              "id": "garlic-sauce",
+              "name": "صوص ثوم",
+              "price": 3
+            },
+            {
+              "id": "pickles",
+              "name": "مخلل",
+              "price": 3
+            },
+            {
+              "id": "extra-rice",
+              "name": "أرز إضافي",
+              "price": 6
             },
             {
               "id": "cola",
@@ -3245,14 +3605,9 @@
               "price": 6
             },
             {
-              "id": "sauce",
-              "name": "صلصة إضافية",
-              "price": 3
-            },
-            {
-              "id": "bread",
-              "name": "خبز إضافي",
-              "price": 4
+              "id": "side-salad",
+              "name": "سلطة صغيرة",
+              "price": 8
             }
           ],
           "isCombo": false,
@@ -3278,9 +3633,19 @@
           "cashbackPercent": 15,
           "addons": [
             {
-              "id": "fries",
-              "name": "بطاطس مقلية",
-              "price": 8
+              "id": "garlic-sauce",
+              "name": "صوص ثوم",
+              "price": 3
+            },
+            {
+              "id": "pickles",
+              "name": "مخلل",
+              "price": 3
+            },
+            {
+              "id": "extra-rice",
+              "name": "أرز إضافي",
+              "price": 6
             },
             {
               "id": "cola",
@@ -3288,14 +3653,9 @@
               "price": 6
             },
             {
-              "id": "sauce",
-              "name": "صلصة إضافية",
-              "price": 3
-            },
-            {
-              "id": "bread",
-              "name": "خبز إضافي",
-              "price": 4
+              "id": "side-salad",
+              "name": "سلطة صغيرة",
+              "price": 8
             }
           ],
           "isCombo": false,
@@ -3321,9 +3681,19 @@
           "cashbackPercent": null,
           "addons": [
             {
-              "id": "fries",
-              "name": "بطاطس مقلية",
-              "price": 8
+              "id": "garlic-sauce",
+              "name": "صوص ثوم",
+              "price": 3
+            },
+            {
+              "id": "pickles",
+              "name": "مخلل",
+              "price": 3
+            },
+            {
+              "id": "extra-rice",
+              "name": "أرز إضافي",
+              "price": 6
             },
             {
               "id": "cola",
@@ -3331,14 +3701,9 @@
               "price": 6
             },
             {
-              "id": "sauce",
-              "name": "صلصة إضافية",
-              "price": 3
-            },
-            {
-              "id": "bread",
-              "name": "خبز إضافي",
-              "price": 4
+              "id": "side-salad",
+              "name": "سلطة صغيرة",
+              "price": 8
             }
           ],
           "isCombo": false,
@@ -3364,9 +3729,19 @@
           "cashbackPercent": null,
           "addons": [
             {
-              "id": "fries",
-              "name": "بطاطس مقلية",
-              "price": 8
+              "id": "garlic-sauce",
+              "name": "صوص ثوم",
+              "price": 3
+            },
+            {
+              "id": "pickles",
+              "name": "مخلل",
+              "price": 3
+            },
+            {
+              "id": "extra-rice",
+              "name": "أرز إضافي",
+              "price": 6
             },
             {
               "id": "cola",
@@ -3374,14 +3749,9 @@
               "price": 6
             },
             {
-              "id": "sauce",
-              "name": "صلصة إضافية",
-              "price": 3
-            },
-            {
-              "id": "bread",
-              "name": "خبز إضافي",
-              "price": 4
+              "id": "side-salad",
+              "name": "سلطة صغيرة",
+              "price": 8
             }
           ],
           "isCombo": false,
@@ -3407,9 +3777,19 @@
           "cashbackPercent": null,
           "addons": [
             {
-              "id": "fries",
-              "name": "بطاطس مقلية",
-              "price": 8
+              "id": "garlic-sauce",
+              "name": "صوص ثوم",
+              "price": 3
+            },
+            {
+              "id": "pickles",
+              "name": "مخلل",
+              "price": 3
+            },
+            {
+              "id": "extra-rice",
+              "name": "أرز إضافي",
+              "price": 6
             },
             {
               "id": "cola",
@@ -3417,14 +3797,9 @@
               "price": 6
             },
             {
-              "id": "sauce",
-              "name": "صلصة إضافية",
-              "price": 3
-            },
-            {
-              "id": "bread",
-              "name": "خبز إضافي",
-              "price": 4
+              "id": "side-salad",
+              "name": "سلطة صغيرة",
+              "price": 8
             }
           ],
           "isCombo": false,
@@ -3457,9 +3832,19 @@
           "cashbackPercent": null,
           "addons": [
             {
-              "id": "fries",
-              "name": "بطاطس مقلية",
-              "price": 8
+              "id": "garlic-sauce",
+              "name": "صوص ثوم",
+              "price": 3
+            },
+            {
+              "id": "pickles",
+              "name": "مخلل",
+              "price": 3
+            },
+            {
+              "id": "extra-rice",
+              "name": "أرز إضافي",
+              "price": 6
             },
             {
               "id": "cola",
@@ -3467,14 +3852,9 @@
               "price": 6
             },
             {
-              "id": "sauce",
-              "name": "صلصة إضافية",
-              "price": 3
-            },
-            {
-              "id": "bread",
-              "name": "خبز إضافي",
-              "price": 4
+              "id": "side-salad",
+              "name": "سلطة صغيرة",
+              "price": 8
             }
           ]
         },
@@ -3505,9 +3885,19 @@
           "cashbackPercent": null,
           "addons": [
             {
-              "id": "fries",
-              "name": "بطاطس مقلية",
-              "price": 8
+              "id": "garlic-sauce",
+              "name": "صوص ثوم",
+              "price": 3
+            },
+            {
+              "id": "pickles",
+              "name": "مخلل",
+              "price": 3
+            },
+            {
+              "id": "extra-rice",
+              "name": "أرز إضافي",
+              "price": 6
             },
             {
               "id": "cola",
@@ -3515,14 +3905,9 @@
               "price": 6
             },
             {
-              "id": "sauce",
-              "name": "صلصة إضافية",
-              "price": 3
-            },
-            {
-              "id": "bread",
-              "name": "خبز إضافي",
-              "price": 4
+              "id": "side-salad",
+              "name": "سلطة صغيرة",
+              "price": 8
             }
           ]
         },
@@ -3553,9 +3938,19 @@
           "cashbackPercent": null,
           "addons": [
             {
-              "id": "fries",
-              "name": "بطاطس مقلية",
-              "price": 8
+              "id": "garlic-sauce",
+              "name": "صوص ثوم",
+              "price": 3
+            },
+            {
+              "id": "pickles",
+              "name": "مخلل",
+              "price": 3
+            },
+            {
+              "id": "extra-rice",
+              "name": "أرز إضافي",
+              "price": 6
             },
             {
               "id": "cola",
@@ -3563,14 +3958,9 @@
               "price": 6
             },
             {
-              "id": "sauce",
-              "name": "صلصة إضافية",
-              "price": 3
-            },
-            {
-              "id": "bread",
-              "name": "خبز إضافي",
-              "price": 4
+              "id": "side-salad",
+              "name": "سلطة صغيرة",
+              "price": 8
             }
           ]
         }
@@ -3616,9 +4006,19 @@
           "cashbackPercent": 10,
           "addons": [
             {
-              "id": "fries",
-              "name": "بطاطس مقلية",
-              "price": 8
+              "id": "garlic-sauce",
+              "name": "صوص ثوم",
+              "price": 3
+            },
+            {
+              "id": "pickles",
+              "name": "مخلل",
+              "price": 3
+            },
+            {
+              "id": "extra-rice",
+              "name": "أرز إضافي",
+              "price": 6
             },
             {
               "id": "cola",
@@ -3626,14 +4026,9 @@
               "price": 6
             },
             {
-              "id": "sauce",
-              "name": "صلصة إضافية",
-              "price": 3
-            },
-            {
-              "id": "bread",
-              "name": "خبز إضافي",
-              "price": 4
+              "id": "side-salad",
+              "name": "سلطة صغيرة",
+              "price": 8
             }
           ],
           "isCombo": false,
@@ -3659,9 +4054,19 @@
           "cashbackPercent": null,
           "addons": [
             {
-              "id": "fries",
-              "name": "بطاطس مقلية",
-              "price": 8
+              "id": "garlic-sauce",
+              "name": "صوص ثوم",
+              "price": 3
+            },
+            {
+              "id": "pickles",
+              "name": "مخلل",
+              "price": 3
+            },
+            {
+              "id": "extra-rice",
+              "name": "أرز إضافي",
+              "price": 6
             },
             {
               "id": "cola",
@@ -3669,14 +4074,9 @@
               "price": 6
             },
             {
-              "id": "sauce",
-              "name": "صلصة إضافية",
-              "price": 3
-            },
-            {
-              "id": "bread",
-              "name": "خبز إضافي",
-              "price": 4
+              "id": "side-salad",
+              "name": "سلطة صغيرة",
+              "price": 8
             }
           ],
           "isCombo": false,
@@ -3702,9 +4102,19 @@
           "cashbackPercent": null,
           "addons": [
             {
-              "id": "fries",
-              "name": "بطاطس مقلية",
-              "price": 8
+              "id": "garlic-sauce",
+              "name": "صوص ثوم",
+              "price": 3
+            },
+            {
+              "id": "pickles",
+              "name": "مخلل",
+              "price": 3
+            },
+            {
+              "id": "extra-rice",
+              "name": "أرز إضافي",
+              "price": 6
             },
             {
               "id": "cola",
@@ -3712,14 +4122,9 @@
               "price": 6
             },
             {
-              "id": "sauce",
-              "name": "صلصة إضافية",
-              "price": 3
-            },
-            {
-              "id": "bread",
-              "name": "خبز إضافي",
-              "price": 4
+              "id": "side-salad",
+              "name": "سلطة صغيرة",
+              "price": 8
             }
           ],
           "isCombo": false,
@@ -3745,9 +4150,19 @@
           "cashbackPercent": null,
           "addons": [
             {
-              "id": "fries",
-              "name": "بطاطس مقلية",
-              "price": 8
+              "id": "garlic-sauce",
+              "name": "صوص ثوم",
+              "price": 3
+            },
+            {
+              "id": "pickles",
+              "name": "مخلل",
+              "price": 3
+            },
+            {
+              "id": "extra-rice",
+              "name": "أرز إضافي",
+              "price": 6
             },
             {
               "id": "cola",
@@ -3755,14 +4170,9 @@
               "price": 6
             },
             {
-              "id": "sauce",
-              "name": "صلصة إضافية",
-              "price": 3
-            },
-            {
-              "id": "bread",
-              "name": "خبز إضافي",
-              "price": 4
+              "id": "side-salad",
+              "name": "سلطة صغيرة",
+              "price": 8
             }
           ],
           "isCombo": false,
@@ -3788,9 +4198,19 @@
           "cashbackPercent": 10,
           "addons": [
             {
-              "id": "fries",
-              "name": "بطاطس مقلية",
-              "price": 8
+              "id": "garlic-sauce",
+              "name": "صوص ثوم",
+              "price": 3
+            },
+            {
+              "id": "pickles",
+              "name": "مخلل",
+              "price": 3
+            },
+            {
+              "id": "extra-rice",
+              "name": "أرز إضافي",
+              "price": 6
             },
             {
               "id": "cola",
@@ -3798,14 +4218,9 @@
               "price": 6
             },
             {
-              "id": "sauce",
-              "name": "صلصة إضافية",
-              "price": 3
-            },
-            {
-              "id": "bread",
-              "name": "خبز إضافي",
-              "price": 4
+              "id": "side-salad",
+              "name": "سلطة صغيرة",
+              "price": 8
             }
           ],
           "isCombo": false,
@@ -3831,9 +4246,19 @@
           "cashbackPercent": null,
           "addons": [
             {
-              "id": "fries",
-              "name": "بطاطس مقلية",
-              "price": 8
+              "id": "garlic-sauce",
+              "name": "صوص ثوم",
+              "price": 3
+            },
+            {
+              "id": "pickles",
+              "name": "مخلل",
+              "price": 3
+            },
+            {
+              "id": "extra-rice",
+              "name": "أرز إضافي",
+              "price": 6
             },
             {
               "id": "cola",
@@ -3841,14 +4266,9 @@
               "price": 6
             },
             {
-              "id": "sauce",
-              "name": "صلصة إضافية",
-              "price": 3
-            },
-            {
-              "id": "bread",
-              "name": "خبز إضافي",
-              "price": 4
+              "id": "side-salad",
+              "name": "سلطة صغيرة",
+              "price": 8
             }
           ],
           "isCombo": false,
@@ -3874,9 +4294,19 @@
           "cashbackPercent": null,
           "addons": [
             {
-              "id": "fries",
-              "name": "بطاطس مقلية",
-              "price": 8
+              "id": "garlic-sauce",
+              "name": "صوص ثوم",
+              "price": 3
+            },
+            {
+              "id": "pickles",
+              "name": "مخلل",
+              "price": 3
+            },
+            {
+              "id": "extra-rice",
+              "name": "أرز إضافي",
+              "price": 6
             },
             {
               "id": "cola",
@@ -3884,14 +4314,9 @@
               "price": 6
             },
             {
-              "id": "sauce",
-              "name": "صلصة إضافية",
-              "price": 3
-            },
-            {
-              "id": "bread",
-              "name": "خبز إضافي",
-              "price": 4
+              "id": "side-salad",
+              "name": "سلطة صغيرة",
+              "price": 8
             }
           ],
           "isCombo": false,
@@ -3917,9 +4342,19 @@
           "cashbackPercent": null,
           "addons": [
             {
-              "id": "fries",
-              "name": "بطاطس مقلية",
-              "price": 8
+              "id": "garlic-sauce",
+              "name": "صوص ثوم",
+              "price": 3
+            },
+            {
+              "id": "pickles",
+              "name": "مخلل",
+              "price": 3
+            },
+            {
+              "id": "extra-rice",
+              "name": "أرز إضافي",
+              "price": 6
             },
             {
               "id": "cola",
@@ -3927,14 +4362,9 @@
               "price": 6
             },
             {
-              "id": "sauce",
-              "name": "صلصة إضافية",
-              "price": 3
-            },
-            {
-              "id": "bread",
-              "name": "خبز إضافي",
-              "price": 4
+              "id": "side-salad",
+              "name": "سلطة صغيرة",
+              "price": 8
             }
           ],
           "isCombo": false,
@@ -3960,9 +4390,19 @@
           "cashbackPercent": null,
           "addons": [
             {
-              "id": "fries",
-              "name": "بطاطس مقلية",
-              "price": 8
+              "id": "garlic-sauce",
+              "name": "صوص ثوم",
+              "price": 3
+            },
+            {
+              "id": "pickles",
+              "name": "مخلل",
+              "price": 3
+            },
+            {
+              "id": "extra-rice",
+              "name": "أرز إضافي",
+              "price": 6
             },
             {
               "id": "cola",
@@ -3970,14 +4410,9 @@
               "price": 6
             },
             {
-              "id": "sauce",
-              "name": "صلصة إضافية",
-              "price": 3
-            },
-            {
-              "id": "bread",
-              "name": "خبز إضافي",
-              "price": 4
+              "id": "side-salad",
+              "name": "سلطة صغيرة",
+              "price": 8
             }
           ],
           "isCombo": false,
@@ -4003,9 +4438,19 @@
           "cashbackPercent": null,
           "addons": [
             {
-              "id": "fries",
-              "name": "بطاطس مقلية",
-              "price": 8
+              "id": "garlic-sauce",
+              "name": "صوص ثوم",
+              "price": 3
+            },
+            {
+              "id": "pickles",
+              "name": "مخلل",
+              "price": 3
+            },
+            {
+              "id": "extra-rice",
+              "name": "أرز إضافي",
+              "price": 6
             },
             {
               "id": "cola",
@@ -4013,14 +4458,9 @@
               "price": 6
             },
             {
-              "id": "sauce",
-              "name": "صلصة إضافية",
-              "price": 3
-            },
-            {
-              "id": "bread",
-              "name": "خبز إضافي",
-              "price": 4
+              "id": "side-salad",
+              "name": "سلطة صغيرة",
+              "price": 8
             }
           ],
           "isCombo": false,
@@ -4053,9 +4493,19 @@
           "cashbackPercent": null,
           "addons": [
             {
-              "id": "fries",
-              "name": "بطاطس مقلية",
-              "price": 8
+              "id": "garlic-sauce",
+              "name": "صوص ثوم",
+              "price": 3
+            },
+            {
+              "id": "pickles",
+              "name": "مخلل",
+              "price": 3
+            },
+            {
+              "id": "extra-rice",
+              "name": "أرز إضافي",
+              "price": 6
             },
             {
               "id": "cola",
@@ -4063,14 +4513,9 @@
               "price": 6
             },
             {
-              "id": "sauce",
-              "name": "صلصة إضافية",
-              "price": 3
-            },
-            {
-              "id": "bread",
-              "name": "خبز إضافي",
-              "price": 4
+              "id": "side-salad",
+              "name": "سلطة صغيرة",
+              "price": 8
             }
           ]
         },
@@ -4101,9 +4546,19 @@
           "cashbackPercent": null,
           "addons": [
             {
-              "id": "fries",
-              "name": "بطاطس مقلية",
-              "price": 8
+              "id": "garlic-sauce",
+              "name": "صوص ثوم",
+              "price": 3
+            },
+            {
+              "id": "pickles",
+              "name": "مخلل",
+              "price": 3
+            },
+            {
+              "id": "extra-rice",
+              "name": "أرز إضافي",
+              "price": 6
             },
             {
               "id": "cola",
@@ -4111,14 +4566,9 @@
               "price": 6
             },
             {
-              "id": "sauce",
-              "name": "صلصة إضافية",
-              "price": 3
-            },
-            {
-              "id": "bread",
-              "name": "خبز إضافي",
-              "price": 4
+              "id": "side-salad",
+              "name": "سلطة صغيرة",
+              "price": 8
             }
           ]
         },
@@ -4149,9 +4599,19 @@
           "cashbackPercent": null,
           "addons": [
             {
-              "id": "fries",
-              "name": "بطاطس مقلية",
-              "price": 8
+              "id": "garlic-sauce",
+              "name": "صوص ثوم",
+              "price": 3
+            },
+            {
+              "id": "pickles",
+              "name": "مخلل",
+              "price": 3
+            },
+            {
+              "id": "extra-rice",
+              "name": "أرز إضافي",
+              "price": 6
             },
             {
               "id": "cola",
@@ -4159,14 +4619,9 @@
               "price": 6
             },
             {
-              "id": "sauce",
-              "name": "صلصة إضافية",
-              "price": 3
-            },
-            {
-              "id": "bread",
-              "name": "خبز إضافي",
-              "price": 4
+              "id": "side-salad",
+              "name": "سلطة صغيرة",
+              "price": 8
             }
           ]
         }
@@ -4212,9 +4667,19 @@
           "cashbackPercent": null,
           "addons": [
             {
-              "id": "fries",
-              "name": "بطاطس مقلية",
-              "price": 8
+              "id": "garlic-sauce",
+              "name": "صوص ثوم",
+              "price": 3
+            },
+            {
+              "id": "pickles",
+              "name": "مخلل",
+              "price": 3
+            },
+            {
+              "id": "extra-rice",
+              "name": "أرز إضافي",
+              "price": 6
             },
             {
               "id": "cola",
@@ -4222,14 +4687,9 @@
               "price": 6
             },
             {
-              "id": "sauce",
-              "name": "صلصة إضافية",
-              "price": 3
-            },
-            {
-              "id": "bread",
-              "name": "خبز إضافي",
-              "price": 4
+              "id": "side-salad",
+              "name": "سلطة صغيرة",
+              "price": 8
             }
           ],
           "isCombo": false,
@@ -4255,9 +4715,19 @@
           "cashbackPercent": null,
           "addons": [
             {
-              "id": "fries",
-              "name": "بطاطس مقلية",
-              "price": 8
+              "id": "garlic-sauce",
+              "name": "صوص ثوم",
+              "price": 3
+            },
+            {
+              "id": "pickles",
+              "name": "مخلل",
+              "price": 3
+            },
+            {
+              "id": "extra-rice",
+              "name": "أرز إضافي",
+              "price": 6
             },
             {
               "id": "cola",
@@ -4265,14 +4735,9 @@
               "price": 6
             },
             {
-              "id": "sauce",
-              "name": "صلصة إضافية",
-              "price": 3
-            },
-            {
-              "id": "bread",
-              "name": "خبز إضافي",
-              "price": 4
+              "id": "side-salad",
+              "name": "سلطة صغيرة",
+              "price": 8
             }
           ],
           "isCombo": false,
@@ -4298,9 +4763,19 @@
           "cashbackPercent": null,
           "addons": [
             {
-              "id": "fries",
-              "name": "بطاطس مقلية",
-              "price": 8
+              "id": "garlic-sauce",
+              "name": "صوص ثوم",
+              "price": 3
+            },
+            {
+              "id": "pickles",
+              "name": "مخلل",
+              "price": 3
+            },
+            {
+              "id": "extra-rice",
+              "name": "أرز إضافي",
+              "price": 6
             },
             {
               "id": "cola",
@@ -4308,14 +4783,9 @@
               "price": 6
             },
             {
-              "id": "sauce",
-              "name": "صلصة إضافية",
-              "price": 3
-            },
-            {
-              "id": "bread",
-              "name": "خبز إضافي",
-              "price": 4
+              "id": "side-salad",
+              "name": "سلطة صغيرة",
+              "price": 8
             }
           ],
           "isCombo": false,
@@ -4341,9 +4811,19 @@
           "cashbackPercent": null,
           "addons": [
             {
-              "id": "fries",
-              "name": "بطاطس مقلية",
-              "price": 8
+              "id": "garlic-sauce",
+              "name": "صوص ثوم",
+              "price": 3
+            },
+            {
+              "id": "pickles",
+              "name": "مخلل",
+              "price": 3
+            },
+            {
+              "id": "extra-rice",
+              "name": "أرز إضافي",
+              "price": 6
             },
             {
               "id": "cola",
@@ -4351,14 +4831,9 @@
               "price": 6
             },
             {
-              "id": "sauce",
-              "name": "صلصة إضافية",
-              "price": 3
-            },
-            {
-              "id": "bread",
-              "name": "خبز إضافي",
-              "price": 4
+              "id": "side-salad",
+              "name": "سلطة صغيرة",
+              "price": 8
             }
           ],
           "isCombo": false,
@@ -4384,9 +4859,19 @@
           "cashbackPercent": null,
           "addons": [
             {
-              "id": "fries",
-              "name": "بطاطس مقلية",
-              "price": 8
+              "id": "garlic-sauce",
+              "name": "صوص ثوم",
+              "price": 3
+            },
+            {
+              "id": "pickles",
+              "name": "مخلل",
+              "price": 3
+            },
+            {
+              "id": "extra-rice",
+              "name": "أرز إضافي",
+              "price": 6
             },
             {
               "id": "cola",
@@ -4394,14 +4879,9 @@
               "price": 6
             },
             {
-              "id": "sauce",
-              "name": "صلصة إضافية",
-              "price": 3
-            },
-            {
-              "id": "bread",
-              "name": "خبز إضافي",
-              "price": 4
+              "id": "side-salad",
+              "name": "سلطة صغيرة",
+              "price": 8
             }
           ],
           "isCombo": false,
@@ -4427,9 +4907,19 @@
           "cashbackPercent": null,
           "addons": [
             {
-              "id": "fries",
-              "name": "بطاطس مقلية",
-              "price": 8
+              "id": "garlic-sauce",
+              "name": "صوص ثوم",
+              "price": 3
+            },
+            {
+              "id": "pickles",
+              "name": "مخلل",
+              "price": 3
+            },
+            {
+              "id": "extra-rice",
+              "name": "أرز إضافي",
+              "price": 6
             },
             {
               "id": "cola",
@@ -4437,14 +4927,9 @@
               "price": 6
             },
             {
-              "id": "sauce",
-              "name": "صلصة إضافية",
-              "price": 3
-            },
-            {
-              "id": "bread",
-              "name": "خبز إضافي",
-              "price": 4
+              "id": "side-salad",
+              "name": "سلطة صغيرة",
+              "price": 8
             }
           ],
           "isCombo": false,
@@ -4470,9 +4955,19 @@
           "cashbackPercent": null,
           "addons": [
             {
-              "id": "fries",
-              "name": "بطاطس مقلية",
-              "price": 8
+              "id": "garlic-sauce",
+              "name": "صوص ثوم",
+              "price": 3
+            },
+            {
+              "id": "pickles",
+              "name": "مخلل",
+              "price": 3
+            },
+            {
+              "id": "extra-rice",
+              "name": "أرز إضافي",
+              "price": 6
             },
             {
               "id": "cola",
@@ -4480,14 +4975,9 @@
               "price": 6
             },
             {
-              "id": "sauce",
-              "name": "صلصة إضافية",
-              "price": 3
-            },
-            {
-              "id": "bread",
-              "name": "خبز إضافي",
-              "price": 4
+              "id": "side-salad",
+              "name": "سلطة صغيرة",
+              "price": 8
             }
           ],
           "isCombo": false,
@@ -4513,9 +5003,19 @@
           "cashbackPercent": null,
           "addons": [
             {
-              "id": "fries",
-              "name": "بطاطس مقلية",
-              "price": 8
+              "id": "garlic-sauce",
+              "name": "صوص ثوم",
+              "price": 3
+            },
+            {
+              "id": "pickles",
+              "name": "مخلل",
+              "price": 3
+            },
+            {
+              "id": "extra-rice",
+              "name": "أرز إضافي",
+              "price": 6
             },
             {
               "id": "cola",
@@ -4523,14 +5023,9 @@
               "price": 6
             },
             {
-              "id": "sauce",
-              "name": "صلصة إضافية",
-              "price": 3
-            },
-            {
-              "id": "bread",
-              "name": "خبز إضافي",
-              "price": 4
+              "id": "side-salad",
+              "name": "سلطة صغيرة",
+              "price": 8
             }
           ],
           "isCombo": false,
@@ -4556,9 +5051,19 @@
           "cashbackPercent": null,
           "addons": [
             {
-              "id": "fries",
-              "name": "بطاطس مقلية",
-              "price": 8
+              "id": "garlic-sauce",
+              "name": "صوص ثوم",
+              "price": 3
+            },
+            {
+              "id": "pickles",
+              "name": "مخلل",
+              "price": 3
+            },
+            {
+              "id": "extra-rice",
+              "name": "أرز إضافي",
+              "price": 6
             },
             {
               "id": "cola",
@@ -4566,14 +5071,9 @@
               "price": 6
             },
             {
-              "id": "sauce",
-              "name": "صلصة إضافية",
-              "price": 3
-            },
-            {
-              "id": "bread",
-              "name": "خبز إضافي",
-              "price": 4
+              "id": "side-salad",
+              "name": "سلطة صغيرة",
+              "price": 8
             }
           ],
           "isCombo": false,
@@ -4599,9 +5099,19 @@
           "cashbackPercent": null,
           "addons": [
             {
-              "id": "fries",
-              "name": "بطاطس مقلية",
-              "price": 8
+              "id": "garlic-sauce",
+              "name": "صوص ثوم",
+              "price": 3
+            },
+            {
+              "id": "pickles",
+              "name": "مخلل",
+              "price": 3
+            },
+            {
+              "id": "extra-rice",
+              "name": "أرز إضافي",
+              "price": 6
             },
             {
               "id": "cola",
@@ -4609,14 +5119,9 @@
               "price": 6
             },
             {
-              "id": "sauce",
-              "name": "صلصة إضافية",
-              "price": 3
-            },
-            {
-              "id": "bread",
-              "name": "خبز إضافي",
-              "price": 4
+              "id": "side-salad",
+              "name": "سلطة صغيرة",
+              "price": 8
             }
           ],
           "isCombo": false,
@@ -4649,9 +5154,19 @@
           "cashbackPercent": null,
           "addons": [
             {
-              "id": "fries",
-              "name": "بطاطس مقلية",
-              "price": 8
+              "id": "garlic-sauce",
+              "name": "صوص ثوم",
+              "price": 3
+            },
+            {
+              "id": "pickles",
+              "name": "مخلل",
+              "price": 3
+            },
+            {
+              "id": "extra-rice",
+              "name": "أرز إضافي",
+              "price": 6
             },
             {
               "id": "cola",
@@ -4659,14 +5174,9 @@
               "price": 6
             },
             {
-              "id": "sauce",
-              "name": "صلصة إضافية",
-              "price": 3
-            },
-            {
-              "id": "bread",
-              "name": "خبز إضافي",
-              "price": 4
+              "id": "side-salad",
+              "name": "سلطة صغيرة",
+              "price": 8
             }
           ]
         },
@@ -4697,9 +5207,19 @@
           "cashbackPercent": null,
           "addons": [
             {
-              "id": "fries",
-              "name": "بطاطس مقلية",
-              "price": 8
+              "id": "garlic-sauce",
+              "name": "صوص ثوم",
+              "price": 3
+            },
+            {
+              "id": "pickles",
+              "name": "مخلل",
+              "price": 3
+            },
+            {
+              "id": "extra-rice",
+              "name": "أرز إضافي",
+              "price": 6
             },
             {
               "id": "cola",
@@ -4707,14 +5227,9 @@
               "price": 6
             },
             {
-              "id": "sauce",
-              "name": "صلصة إضافية",
-              "price": 3
-            },
-            {
-              "id": "bread",
-              "name": "خبز إضافي",
-              "price": 4
+              "id": "side-salad",
+              "name": "سلطة صغيرة",
+              "price": 8
             }
           ]
         },
@@ -4745,9 +5260,19 @@
           "cashbackPercent": null,
           "addons": [
             {
-              "id": "fries",
-              "name": "بطاطس مقلية",
-              "price": 8
+              "id": "garlic-sauce",
+              "name": "صوص ثوم",
+              "price": 3
+            },
+            {
+              "id": "pickles",
+              "name": "مخلل",
+              "price": 3
+            },
+            {
+              "id": "extra-rice",
+              "name": "أرز إضافي",
+              "price": 6
             },
             {
               "id": "cola",
@@ -4755,14 +5280,9 @@
               "price": 6
             },
             {
-              "id": "sauce",
-              "name": "صلصة إضافية",
-              "price": 3
-            },
-            {
-              "id": "bread",
-              "name": "خبز إضافي",
-              "price": 4
+              "id": "side-salad",
+              "name": "سلطة صغيرة",
+              "price": 8
             }
           ]
         }

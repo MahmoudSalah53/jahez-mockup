@@ -40,24 +40,29 @@
           "cashbackPercent": null,
           "addons": [
             {
-              "id": "fries",
-              "name": "بطاطس مقلية",
+              "id": "avocado",
+              "name": "أفوكادو",
               "price": 8
             },
             {
-              "id": "cola",
-              "name": "كولا",
-              "price": 6
+              "id": "boiled-egg",
+              "name": "بيض مسلوق",
+              "price": 4
             },
             {
-              "id": "sauce",
-              "name": "صلصة إضافية",
+              "id": "yogurt-sauce",
+              "name": "صوص يوناني",
               "price": 3
             },
             {
-              "id": "bread",
-              "name": "خبز إضافي",
-              "price": 4
+              "id": "water",
+              "name": "ماء",
+              "price": 3
+            },
+            {
+              "id": "extra-salad",
+              "name": "سلطة زيادة",
+              "price": 8
             }
           ],
           "isCombo": false,
@@ -83,24 +88,29 @@
           "cashbackPercent": 15,
           "addons": [
             {
-              "id": "fries",
-              "name": "بطاطس مقلية",
+              "id": "avocado",
+              "name": "أفوكادو",
               "price": 8
             },
             {
-              "id": "cola",
-              "name": "كولا",
-              "price": 6
+              "id": "boiled-egg",
+              "name": "بيض مسلوق",
+              "price": 4
             },
             {
-              "id": "sauce",
-              "name": "صلصة إضافية",
+              "id": "yogurt-sauce",
+              "name": "صوص يوناني",
               "price": 3
             },
             {
-              "id": "bread",
-              "name": "خبز إضافي",
-              "price": 4
+              "id": "water",
+              "name": "ماء",
+              "price": 3
+            },
+            {
+              "id": "extra-salad",
+              "name": "سلطة زيادة",
+              "price": 8
             }
           ],
           "isCombo": false,
@@ -126,24 +136,29 @@
           "cashbackPercent": null,
           "addons": [
             {
-              "id": "fries",
-              "name": "بطاطس مقلية",
+              "id": "avocado",
+              "name": "أفوكادو",
               "price": 8
             },
             {
-              "id": "cola",
-              "name": "كولا",
-              "price": 6
+              "id": "boiled-egg",
+              "name": "بيض مسلوق",
+              "price": 4
             },
             {
-              "id": "sauce",
-              "name": "صلصة إضافية",
+              "id": "yogurt-sauce",
+              "name": "صوص يوناني",
               "price": 3
             },
             {
-              "id": "bread",
-              "name": "خبز إضافي",
-              "price": 4
+              "id": "water",
+              "name": "ماء",
+              "price": 3
+            },
+            {
+              "id": "extra-salad",
+              "name": "سلطة زيادة",
+              "price": 8
             }
           ],
           "isCombo": false,
@@ -169,24 +184,29 @@
           "cashbackPercent": 10,
           "addons": [
             {
-              "id": "fries",
-              "name": "بطاطس مقلية",
+              "id": "avocado",
+              "name": "أفوكادو",
               "price": 8
             },
             {
-              "id": "cola",
-              "name": "كولا",
-              "price": 6
+              "id": "boiled-egg",
+              "name": "بيض مسلوق",
+              "price": 4
             },
             {
-              "id": "sauce",
-              "name": "صلصة إضافية",
+              "id": "yogurt-sauce",
+              "name": "صوص يوناني",
               "price": 3
             },
             {
-              "id": "bread",
-              "name": "خبز إضافي",
-              "price": 4
+              "id": "water",
+              "name": "ماء",
+              "price": 3
+            },
+            {
+              "id": "extra-salad",
+              "name": "سلطة زيادة",
+              "price": 8
             }
           ],
           "isCombo": false,
@@ -212,24 +232,29 @@
           "cashbackPercent": 15,
           "addons": [
             {
-              "id": "fries",
-              "name": "بطاطس مقلية",
+              "id": "avocado",
+              "name": "أفوكادو",
               "price": 8
             },
             {
-              "id": "cola",
-              "name": "كولا",
-              "price": 6
+              "id": "boiled-egg",
+              "name": "بيض مسلوق",
+              "price": 4
             },
             {
-              "id": "sauce",
-              "name": "صلصة إضافية",
+              "id": "yogurt-sauce",
+              "name": "صوص يوناني",
               "price": 3
             },
             {
-              "id": "bread",
-              "name": "خبز إضافي",
-              "price": 4
+              "id": "water",
+              "name": "ماء",
+              "price": 3
+            },
+            {
+              "id": "extra-salad",
+              "name": "سلطة زيادة",
+              "price": 8
             }
           ],
           "isCombo": false,
@@ -255,24 +280,29 @@
           "cashbackPercent": null,
           "addons": [
             {
-              "id": "fries",
-              "name": "بطاطس مقلية",
+              "id": "avocado",
+              "name": "أفوكادو",
               "price": 8
             },
             {
-              "id": "cola",
-              "name": "كولا",
-              "price": 6
+              "id": "boiled-egg",
+              "name": "بيض مسلوق",
+              "price": 4
             },
             {
-              "id": "sauce",
-              "name": "صلصة إضافية",
+              "id": "yogurt-sauce",
+              "name": "صوص يوناني",
               "price": 3
             },
             {
-              "id": "bread",
-              "name": "خبز إضافي",
-              "price": 4
+              "id": "water",
+              "name": "ماء",
+              "price": 3
+            },
+            {
+              "id": "extra-salad",
+              "name": "سلطة زيادة",
+              "price": 8
             }
           ],
           "isCombo": false,
@@ -298,24 +328,29 @@
           "cashbackPercent": null,
           "addons": [
             {
-              "id": "fries",
-              "name": "بطاطس مقلية",
+              "id": "avocado",
+              "name": "أفوكادو",
               "price": 8
             },
             {
-              "id": "cola",
-              "name": "كولا",
-              "price": 6
+              "id": "boiled-egg",
+              "name": "بيض مسلوق",
+              "price": 4
             },
             {
-              "id": "sauce",
-              "name": "صلصة إضافية",
+              "id": "yogurt-sauce",
+              "name": "صوص يوناني",
               "price": 3
             },
             {
-              "id": "bread",
-              "name": "خبز إضافي",
-              "price": 4
+              "id": "water",
+              "name": "ماء",
+              "price": 3
+            },
+            {
+              "id": "extra-salad",
+              "name": "سلطة زيادة",
+              "price": 8
             }
           ],
           "isCombo": false,
@@ -341,24 +376,29 @@
           "cashbackPercent": null,
           "addons": [
             {
-              "id": "fries",
-              "name": "بطاطس مقلية",
+              "id": "avocado",
+              "name": "أفوكادو",
               "price": 8
             },
             {
-              "id": "cola",
-              "name": "كولا",
-              "price": 6
+              "id": "boiled-egg",
+              "name": "بيض مسلوق",
+              "price": 4
             },
             {
-              "id": "sauce",
-              "name": "صلصة إضافية",
+              "id": "yogurt-sauce",
+              "name": "صوص يوناني",
               "price": 3
             },
             {
-              "id": "bread",
-              "name": "خبز إضافي",
-              "price": 4
+              "id": "water",
+              "name": "ماء",
+              "price": 3
+            },
+            {
+              "id": "extra-salad",
+              "name": "سلطة زيادة",
+              "price": 8
             }
           ],
           "isCombo": false,
@@ -384,24 +424,29 @@
           "cashbackPercent": null,
           "addons": [
             {
-              "id": "fries",
-              "name": "بطاطس مقلية",
+              "id": "avocado",
+              "name": "أفوكادو",
               "price": 8
             },
             {
-              "id": "cola",
-              "name": "كولا",
-              "price": 6
+              "id": "boiled-egg",
+              "name": "بيض مسلوق",
+              "price": 4
             },
             {
-              "id": "sauce",
-              "name": "صلصة إضافية",
+              "id": "yogurt-sauce",
+              "name": "صوص يوناني",
               "price": 3
             },
             {
-              "id": "bread",
-              "name": "خبز إضافي",
-              "price": 4
+              "id": "water",
+              "name": "ماء",
+              "price": 3
+            },
+            {
+              "id": "extra-salad",
+              "name": "سلطة زيادة",
+              "price": 8
             }
           ],
           "isCombo": false,
@@ -427,24 +472,29 @@
           "cashbackPercent": 15,
           "addons": [
             {
-              "id": "fries",
-              "name": "بطاطس مقلية",
+              "id": "avocado",
+              "name": "أفوكادو",
               "price": 8
             },
             {
-              "id": "cola",
-              "name": "كولا",
-              "price": 6
+              "id": "boiled-egg",
+              "name": "بيض مسلوق",
+              "price": 4
             },
             {
-              "id": "sauce",
-              "name": "صلصة إضافية",
+              "id": "yogurt-sauce",
+              "name": "صوص يوناني",
               "price": 3
             },
             {
-              "id": "bread",
-              "name": "خبز إضافي",
-              "price": 4
+              "id": "water",
+              "name": "ماء",
+              "price": 3
+            },
+            {
+              "id": "extra-salad",
+              "name": "سلطة زيادة",
+              "price": 8
             }
           ],
           "isCombo": false,
@@ -477,24 +527,29 @@
           "cashbackPercent": null,
           "addons": [
             {
-              "id": "fries",
-              "name": "بطاطس مقلية",
+              "id": "avocado",
+              "name": "أفوكادو",
               "price": 8
             },
             {
-              "id": "cola",
-              "name": "كولا",
-              "price": 6
+              "id": "boiled-egg",
+              "name": "بيض مسلوق",
+              "price": 4
             },
             {
-              "id": "sauce",
-              "name": "صلصة إضافية",
+              "id": "yogurt-sauce",
+              "name": "صوص يوناني",
               "price": 3
             },
             {
-              "id": "bread",
-              "name": "خبز إضافي",
-              "price": 4
+              "id": "water",
+              "name": "ماء",
+              "price": 3
+            },
+            {
+              "id": "extra-salad",
+              "name": "سلطة زيادة",
+              "price": 8
             }
           ]
         },
@@ -524,24 +579,29 @@
           "cashbackPercent": null,
           "addons": [
             {
-              "id": "fries",
-              "name": "بطاطس مقلية",
+              "id": "avocado",
+              "name": "أفوكادو",
               "price": 8
             },
             {
-              "id": "cola",
-              "name": "كولا",
-              "price": 6
+              "id": "boiled-egg",
+              "name": "بيض مسلوق",
+              "price": 4
             },
             {
-              "id": "sauce",
-              "name": "صلصة إضافية",
+              "id": "yogurt-sauce",
+              "name": "صوص يوناني",
               "price": 3
             },
             {
-              "id": "bread",
-              "name": "خبز إضافي",
-              "price": 4
+              "id": "water",
+              "name": "ماء",
+              "price": 3
+            },
+            {
+              "id": "extra-salad",
+              "name": "سلطة زيادة",
+              "price": 8
             }
           ]
         },
@@ -572,24 +632,29 @@
           "cashbackPercent": null,
           "addons": [
             {
-              "id": "fries",
-              "name": "بطاطس مقلية",
+              "id": "avocado",
+              "name": "أفوكادو",
               "price": 8
             },
             {
-              "id": "cola",
-              "name": "كولا",
-              "price": 6
+              "id": "boiled-egg",
+              "name": "بيض مسلوق",
+              "price": 4
             },
             {
-              "id": "sauce",
-              "name": "صلصة إضافية",
+              "id": "yogurt-sauce",
+              "name": "صوص يوناني",
               "price": 3
             },
             {
-              "id": "bread",
-              "name": "خبز إضافي",
-              "price": 4
+              "id": "water",
+              "name": "ماء",
+              "price": 3
+            },
+            {
+              "id": "extra-salad",
+              "name": "سلطة زيادة",
+              "price": 8
             }
           ]
         }
@@ -635,24 +700,29 @@
           "cashbackPercent": null,
           "addons": [
             {
-              "id": "fries",
-              "name": "بطاطس مقلية",
+              "id": "avocado",
+              "name": "أفوكادو",
               "price": 8
             },
             {
-              "id": "cola",
-              "name": "كولا",
-              "price": 6
+              "id": "boiled-egg",
+              "name": "بيض مسلوق",
+              "price": 4
             },
             {
-              "id": "sauce",
-              "name": "صلصة إضافية",
+              "id": "yogurt-sauce",
+              "name": "صوص يوناني",
               "price": 3
             },
             {
-              "id": "bread",
-              "name": "خبز إضافي",
-              "price": 4
+              "id": "water",
+              "name": "ماء",
+              "price": 3
+            },
+            {
+              "id": "extra-salad",
+              "name": "سلطة زيادة",
+              "price": 8
             }
           ],
           "isCombo": false,
@@ -678,24 +748,29 @@
           "cashbackPercent": null,
           "addons": [
             {
-              "id": "fries",
-              "name": "بطاطس مقلية",
+              "id": "avocado",
+              "name": "أفوكادو",
               "price": 8
             },
             {
-              "id": "cola",
-              "name": "كولا",
-              "price": 6
+              "id": "boiled-egg",
+              "name": "بيض مسلوق",
+              "price": 4
             },
             {
-              "id": "sauce",
-              "name": "صلصة إضافية",
+              "id": "yogurt-sauce",
+              "name": "صوص يوناني",
               "price": 3
             },
             {
-              "id": "bread",
-              "name": "خبز إضافي",
-              "price": 4
+              "id": "water",
+              "name": "ماء",
+              "price": 3
+            },
+            {
+              "id": "extra-salad",
+              "name": "سلطة زيادة",
+              "price": 8
             }
           ],
           "isCombo": false,
@@ -721,24 +796,29 @@
           "cashbackPercent": null,
           "addons": [
             {
-              "id": "fries",
-              "name": "بطاطس مقلية",
+              "id": "avocado",
+              "name": "أفوكادو",
               "price": 8
             },
             {
-              "id": "cola",
-              "name": "كولا",
-              "price": 6
+              "id": "boiled-egg",
+              "name": "بيض مسلوق",
+              "price": 4
             },
             {
-              "id": "sauce",
-              "name": "صلصة إضافية",
+              "id": "yogurt-sauce",
+              "name": "صوص يوناني",
               "price": 3
             },
             {
-              "id": "bread",
-              "name": "خبز إضافي",
-              "price": 4
+              "id": "water",
+              "name": "ماء",
+              "price": 3
+            },
+            {
+              "id": "extra-salad",
+              "name": "سلطة زيادة",
+              "price": 8
             }
           ],
           "isCombo": false,
@@ -764,24 +844,29 @@
           "cashbackPercent": null,
           "addons": [
             {
-              "id": "fries",
-              "name": "بطاطس مقلية",
+              "id": "avocado",
+              "name": "أفوكادو",
               "price": 8
             },
             {
-              "id": "cola",
-              "name": "كولا",
-              "price": 6
+              "id": "boiled-egg",
+              "name": "بيض مسلوق",
+              "price": 4
             },
             {
-              "id": "sauce",
-              "name": "صلصة إضافية",
+              "id": "yogurt-sauce",
+              "name": "صوص يوناني",
               "price": 3
             },
             {
-              "id": "bread",
-              "name": "خبز إضافي",
-              "price": 4
+              "id": "water",
+              "name": "ماء",
+              "price": 3
+            },
+            {
+              "id": "extra-salad",
+              "name": "سلطة زيادة",
+              "price": 8
             }
           ],
           "isCombo": false,
@@ -807,24 +892,29 @@
           "cashbackPercent": null,
           "addons": [
             {
-              "id": "fries",
-              "name": "بطاطس مقلية",
+              "id": "avocado",
+              "name": "أفوكادو",
               "price": 8
             },
             {
-              "id": "cola",
-              "name": "كولا",
-              "price": 6
+              "id": "boiled-egg",
+              "name": "بيض مسلوق",
+              "price": 4
             },
             {
-              "id": "sauce",
-              "name": "صلصة إضافية",
+              "id": "yogurt-sauce",
+              "name": "صوص يوناني",
               "price": 3
             },
             {
-              "id": "bread",
-              "name": "خبز إضافي",
-              "price": 4
+              "id": "water",
+              "name": "ماء",
+              "price": 3
+            },
+            {
+              "id": "extra-salad",
+              "name": "سلطة زيادة",
+              "price": 8
             }
           ],
           "isCombo": false,
@@ -850,24 +940,29 @@
           "cashbackPercent": null,
           "addons": [
             {
-              "id": "fries",
-              "name": "بطاطس مقلية",
+              "id": "avocado",
+              "name": "أفوكادو",
               "price": 8
             },
             {
-              "id": "cola",
-              "name": "كولا",
-              "price": 6
+              "id": "boiled-egg",
+              "name": "بيض مسلوق",
+              "price": 4
             },
             {
-              "id": "sauce",
-              "name": "صلصة إضافية",
+              "id": "yogurt-sauce",
+              "name": "صوص يوناني",
               "price": 3
             },
             {
-              "id": "bread",
-              "name": "خبز إضافي",
-              "price": 4
+              "id": "water",
+              "name": "ماء",
+              "price": 3
+            },
+            {
+              "id": "extra-salad",
+              "name": "سلطة زيادة",
+              "price": 8
             }
           ],
           "isCombo": false,
@@ -893,24 +988,29 @@
           "cashbackPercent": null,
           "addons": [
             {
-              "id": "fries",
-              "name": "بطاطس مقلية",
+              "id": "avocado",
+              "name": "أفوكادو",
               "price": 8
             },
             {
-              "id": "cola",
-              "name": "كولا",
-              "price": 6
+              "id": "boiled-egg",
+              "name": "بيض مسلوق",
+              "price": 4
             },
             {
-              "id": "sauce",
-              "name": "صلصة إضافية",
+              "id": "yogurt-sauce",
+              "name": "صوص يوناني",
               "price": 3
             },
             {
-              "id": "bread",
-              "name": "خبز إضافي",
-              "price": 4
+              "id": "water",
+              "name": "ماء",
+              "price": 3
+            },
+            {
+              "id": "extra-salad",
+              "name": "سلطة زيادة",
+              "price": 8
             }
           ],
           "isCombo": false,
@@ -936,24 +1036,29 @@
           "cashbackPercent": null,
           "addons": [
             {
-              "id": "fries",
-              "name": "بطاطس مقلية",
+              "id": "avocado",
+              "name": "أفوكادو",
               "price": 8
             },
             {
-              "id": "cola",
-              "name": "كولا",
-              "price": 6
+              "id": "boiled-egg",
+              "name": "بيض مسلوق",
+              "price": 4
             },
             {
-              "id": "sauce",
-              "name": "صلصة إضافية",
+              "id": "yogurt-sauce",
+              "name": "صوص يوناني",
               "price": 3
             },
             {
-              "id": "bread",
-              "name": "خبز إضافي",
-              "price": 4
+              "id": "water",
+              "name": "ماء",
+              "price": 3
+            },
+            {
+              "id": "extra-salad",
+              "name": "سلطة زيادة",
+              "price": 8
             }
           ],
           "isCombo": false,
@@ -979,24 +1084,29 @@
           "cashbackPercent": null,
           "addons": [
             {
-              "id": "fries",
-              "name": "بطاطس مقلية",
+              "id": "avocado",
+              "name": "أفوكادو",
               "price": 8
             },
             {
-              "id": "cola",
-              "name": "كولا",
-              "price": 6
+              "id": "boiled-egg",
+              "name": "بيض مسلوق",
+              "price": 4
             },
             {
-              "id": "sauce",
-              "name": "صلصة إضافية",
+              "id": "yogurt-sauce",
+              "name": "صوص يوناني",
               "price": 3
             },
             {
-              "id": "bread",
-              "name": "خبز إضافي",
-              "price": 4
+              "id": "water",
+              "name": "ماء",
+              "price": 3
+            },
+            {
+              "id": "extra-salad",
+              "name": "سلطة زيادة",
+              "price": 8
             }
           ],
           "isCombo": false,
@@ -1022,24 +1132,29 @@
           "cashbackPercent": null,
           "addons": [
             {
-              "id": "fries",
-              "name": "بطاطس مقلية",
+              "id": "avocado",
+              "name": "أفوكادو",
               "price": 8
             },
             {
-              "id": "cola",
-              "name": "كولا",
-              "price": 6
+              "id": "boiled-egg",
+              "name": "بيض مسلوق",
+              "price": 4
             },
             {
-              "id": "sauce",
-              "name": "صلصة إضافية",
+              "id": "yogurt-sauce",
+              "name": "صوص يوناني",
               "price": 3
             },
             {
-              "id": "bread",
-              "name": "خبز إضافي",
-              "price": 4
+              "id": "water",
+              "name": "ماء",
+              "price": 3
+            },
+            {
+              "id": "extra-salad",
+              "name": "سلطة زيادة",
+              "price": 8
             }
           ],
           "isCombo": false,
@@ -1072,24 +1187,29 @@
           "cashbackPercent": null,
           "addons": [
             {
-              "id": "fries",
-              "name": "بطاطس مقلية",
+              "id": "avocado",
+              "name": "أفوكادو",
               "price": 8
             },
             {
-              "id": "cola",
-              "name": "كولا",
-              "price": 6
+              "id": "boiled-egg",
+              "name": "بيض مسلوق",
+              "price": 4
             },
             {
-              "id": "sauce",
-              "name": "صلصة إضافية",
+              "id": "yogurt-sauce",
+              "name": "صوص يوناني",
               "price": 3
             },
             {
-              "id": "bread",
-              "name": "خبز إضافي",
-              "price": 4
+              "id": "water",
+              "name": "ماء",
+              "price": 3
+            },
+            {
+              "id": "extra-salad",
+              "name": "سلطة زيادة",
+              "price": 8
             }
           ]
         },
@@ -1119,24 +1239,29 @@
           "cashbackPercent": null,
           "addons": [
             {
-              "id": "fries",
-              "name": "بطاطس مقلية",
+              "id": "avocado",
+              "name": "أفوكادو",
               "price": 8
             },
             {
-              "id": "cola",
-              "name": "كولا",
-              "price": 6
+              "id": "boiled-egg",
+              "name": "بيض مسلوق",
+              "price": 4
             },
             {
-              "id": "sauce",
-              "name": "صلصة إضافية",
+              "id": "yogurt-sauce",
+              "name": "صوص يوناني",
               "price": 3
             },
             {
-              "id": "bread",
-              "name": "خبز إضافي",
-              "price": 4
+              "id": "water",
+              "name": "ماء",
+              "price": 3
+            },
+            {
+              "id": "extra-salad",
+              "name": "سلطة زيادة",
+              "price": 8
             }
           ]
         },
@@ -1167,24 +1292,29 @@
           "cashbackPercent": null,
           "addons": [
             {
-              "id": "fries",
-              "name": "بطاطس مقلية",
+              "id": "avocado",
+              "name": "أفوكادو",
               "price": 8
             },
             {
-              "id": "cola",
-              "name": "كولا",
-              "price": 6
+              "id": "boiled-egg",
+              "name": "بيض مسلوق",
+              "price": 4
             },
             {
-              "id": "sauce",
-              "name": "صلصة إضافية",
+              "id": "yogurt-sauce",
+              "name": "صوص يوناني",
               "price": 3
             },
             {
-              "id": "bread",
-              "name": "خبز إضافي",
-              "price": 4
+              "id": "water",
+              "name": "ماء",
+              "price": 3
+            },
+            {
+              "id": "extra-salad",
+              "name": "سلطة زيادة",
+              "price": 8
             }
           ]
         }
@@ -1230,24 +1360,29 @@
           "cashbackPercent": 10,
           "addons": [
             {
-              "id": "fries",
-              "name": "بطاطس مقلية",
+              "id": "avocado",
+              "name": "أفوكادو",
               "price": 8
             },
             {
-              "id": "cola",
-              "name": "كولا",
-              "price": 6
+              "id": "boiled-egg",
+              "name": "بيض مسلوق",
+              "price": 4
             },
             {
-              "id": "sauce",
-              "name": "صلصة إضافية",
+              "id": "yogurt-sauce",
+              "name": "صوص يوناني",
               "price": 3
             },
             {
-              "id": "bread",
-              "name": "خبز إضافي",
-              "price": 4
+              "id": "water",
+              "name": "ماء",
+              "price": 3
+            },
+            {
+              "id": "extra-salad",
+              "name": "سلطة زيادة",
+              "price": 8
             }
           ],
           "isCombo": false,
@@ -1273,24 +1408,29 @@
           "cashbackPercent": null,
           "addons": [
             {
-              "id": "fries",
-              "name": "بطاطس مقلية",
+              "id": "avocado",
+              "name": "أفوكادو",
               "price": 8
             },
             {
-              "id": "cola",
-              "name": "كولا",
-              "price": 6
+              "id": "boiled-egg",
+              "name": "بيض مسلوق",
+              "price": 4
             },
             {
-              "id": "sauce",
-              "name": "صلصة إضافية",
+              "id": "yogurt-sauce",
+              "name": "صوص يوناني",
               "price": 3
             },
             {
-              "id": "bread",
-              "name": "خبز إضافي",
-              "price": 4
+              "id": "water",
+              "name": "ماء",
+              "price": 3
+            },
+            {
+              "id": "extra-salad",
+              "name": "سلطة زيادة",
+              "price": 8
             }
           ],
           "isCombo": false,
@@ -1316,24 +1456,29 @@
           "cashbackPercent": null,
           "addons": [
             {
-              "id": "fries",
-              "name": "بطاطس مقلية",
+              "id": "avocado",
+              "name": "أفوكادو",
               "price": 8
             },
             {
-              "id": "cola",
-              "name": "كولا",
-              "price": 6
+              "id": "boiled-egg",
+              "name": "بيض مسلوق",
+              "price": 4
             },
             {
-              "id": "sauce",
-              "name": "صلصة إضافية",
+              "id": "yogurt-sauce",
+              "name": "صوص يوناني",
               "price": 3
             },
             {
-              "id": "bread",
-              "name": "خبز إضافي",
-              "price": 4
+              "id": "water",
+              "name": "ماء",
+              "price": 3
+            },
+            {
+              "id": "extra-salad",
+              "name": "سلطة زيادة",
+              "price": 8
             }
           ],
           "isCombo": false,
@@ -1359,24 +1504,29 @@
           "cashbackPercent": 5,
           "addons": [
             {
-              "id": "fries",
-              "name": "بطاطس مقلية",
+              "id": "avocado",
+              "name": "أفوكادو",
               "price": 8
             },
             {
-              "id": "cola",
-              "name": "كولا",
-              "price": 6
+              "id": "boiled-egg",
+              "name": "بيض مسلوق",
+              "price": 4
             },
             {
-              "id": "sauce",
-              "name": "صلصة إضافية",
+              "id": "yogurt-sauce",
+              "name": "صوص يوناني",
               "price": 3
             },
             {
-              "id": "bread",
-              "name": "خبز إضافي",
-              "price": 4
+              "id": "water",
+              "name": "ماء",
+              "price": 3
+            },
+            {
+              "id": "extra-salad",
+              "name": "سلطة زيادة",
+              "price": 8
             }
           ],
           "isCombo": false,
@@ -1402,24 +1552,29 @@
           "cashbackPercent": null,
           "addons": [
             {
-              "id": "fries",
-              "name": "بطاطس مقلية",
+              "id": "avocado",
+              "name": "أفوكادو",
               "price": 8
             },
             {
-              "id": "cola",
-              "name": "كولا",
-              "price": 6
+              "id": "boiled-egg",
+              "name": "بيض مسلوق",
+              "price": 4
             },
             {
-              "id": "sauce",
-              "name": "صلصة إضافية",
+              "id": "yogurt-sauce",
+              "name": "صوص يوناني",
               "price": 3
             },
             {
-              "id": "bread",
-              "name": "خبز إضافي",
-              "price": 4
+              "id": "water",
+              "name": "ماء",
+              "price": 3
+            },
+            {
+              "id": "extra-salad",
+              "name": "سلطة زيادة",
+              "price": 8
             }
           ],
           "isCombo": false,
@@ -1445,24 +1600,29 @@
           "cashbackPercent": null,
           "addons": [
             {
-              "id": "fries",
-              "name": "بطاطس مقلية",
+              "id": "avocado",
+              "name": "أفوكادو",
               "price": 8
             },
             {
-              "id": "cola",
-              "name": "كولا",
-              "price": 6
+              "id": "boiled-egg",
+              "name": "بيض مسلوق",
+              "price": 4
             },
             {
-              "id": "sauce",
-              "name": "صلصة إضافية",
+              "id": "yogurt-sauce",
+              "name": "صوص يوناني",
               "price": 3
             },
             {
-              "id": "bread",
-              "name": "خبز إضافي",
-              "price": 4
+              "id": "water",
+              "name": "ماء",
+              "price": 3
+            },
+            {
+              "id": "extra-salad",
+              "name": "سلطة زيادة",
+              "price": 8
             }
           ],
           "isCombo": false,
@@ -1488,24 +1648,29 @@
           "cashbackPercent": null,
           "addons": [
             {
-              "id": "fries",
-              "name": "بطاطس مقلية",
+              "id": "avocado",
+              "name": "أفوكادو",
               "price": 8
             },
             {
-              "id": "cola",
-              "name": "كولا",
-              "price": 6
+              "id": "boiled-egg",
+              "name": "بيض مسلوق",
+              "price": 4
             },
             {
-              "id": "sauce",
-              "name": "صلصة إضافية",
+              "id": "yogurt-sauce",
+              "name": "صوص يوناني",
               "price": 3
             },
             {
-              "id": "bread",
-              "name": "خبز إضافي",
-              "price": 4
+              "id": "water",
+              "name": "ماء",
+              "price": 3
+            },
+            {
+              "id": "extra-salad",
+              "name": "سلطة زيادة",
+              "price": 8
             }
           ],
           "isCombo": false,
@@ -1531,24 +1696,29 @@
           "cashbackPercent": null,
           "addons": [
             {
-              "id": "fries",
-              "name": "بطاطس مقلية",
+              "id": "avocado",
+              "name": "أفوكادو",
               "price": 8
             },
             {
-              "id": "cola",
-              "name": "كولا",
-              "price": 6
+              "id": "boiled-egg",
+              "name": "بيض مسلوق",
+              "price": 4
             },
             {
-              "id": "sauce",
-              "name": "صلصة إضافية",
+              "id": "yogurt-sauce",
+              "name": "صوص يوناني",
               "price": 3
             },
             {
-              "id": "bread",
-              "name": "خبز إضافي",
-              "price": 4
+              "id": "water",
+              "name": "ماء",
+              "price": 3
+            },
+            {
+              "id": "extra-salad",
+              "name": "سلطة زيادة",
+              "price": 8
             }
           ],
           "isCombo": false,
@@ -1574,24 +1744,29 @@
           "cashbackPercent": null,
           "addons": [
             {
-              "id": "fries",
-              "name": "بطاطس مقلية",
+              "id": "avocado",
+              "name": "أفوكادو",
               "price": 8
             },
             {
-              "id": "cola",
-              "name": "كولا",
-              "price": 6
+              "id": "boiled-egg",
+              "name": "بيض مسلوق",
+              "price": 4
             },
             {
-              "id": "sauce",
-              "name": "صلصة إضافية",
+              "id": "yogurt-sauce",
+              "name": "صوص يوناني",
               "price": 3
             },
             {
-              "id": "bread",
-              "name": "خبز إضافي",
-              "price": 4
+              "id": "water",
+              "name": "ماء",
+              "price": 3
+            },
+            {
+              "id": "extra-salad",
+              "name": "سلطة زيادة",
+              "price": 8
             }
           ],
           "isCombo": false,
@@ -1617,24 +1792,29 @@
           "cashbackPercent": null,
           "addons": [
             {
-              "id": "fries",
-              "name": "بطاطس مقلية",
+              "id": "avocado",
+              "name": "أفوكادو",
               "price": 8
             },
             {
-              "id": "cola",
-              "name": "كولا",
-              "price": 6
+              "id": "boiled-egg",
+              "name": "بيض مسلوق",
+              "price": 4
             },
             {
-              "id": "sauce",
-              "name": "صلصة إضافية",
+              "id": "yogurt-sauce",
+              "name": "صوص يوناني",
               "price": 3
             },
             {
-              "id": "bread",
-              "name": "خبز إضافي",
-              "price": 4
+              "id": "water",
+              "name": "ماء",
+              "price": 3
+            },
+            {
+              "id": "extra-salad",
+              "name": "سلطة زيادة",
+              "price": 8
             }
           ],
           "isCombo": false,
@@ -1667,24 +1847,29 @@
           "cashbackPercent": null,
           "addons": [
             {
-              "id": "fries",
-              "name": "بطاطس مقلية",
+              "id": "avocado",
+              "name": "أفوكادو",
               "price": 8
             },
             {
-              "id": "cola",
-              "name": "كولا",
-              "price": 6
+              "id": "boiled-egg",
+              "name": "بيض مسلوق",
+              "price": 4
             },
             {
-              "id": "sauce",
-              "name": "صلصة إضافية",
+              "id": "yogurt-sauce",
+              "name": "صوص يوناني",
               "price": 3
             },
             {
-              "id": "bread",
-              "name": "خبز إضافي",
-              "price": 4
+              "id": "water",
+              "name": "ماء",
+              "price": 3
+            },
+            {
+              "id": "extra-salad",
+              "name": "سلطة زيادة",
+              "price": 8
             }
           ]
         },
@@ -1714,24 +1899,29 @@
           "cashbackPercent": null,
           "addons": [
             {
-              "id": "fries",
-              "name": "بطاطس مقلية",
+              "id": "avocado",
+              "name": "أفوكادو",
               "price": 8
             },
             {
-              "id": "cola",
-              "name": "كولا",
-              "price": 6
+              "id": "boiled-egg",
+              "name": "بيض مسلوق",
+              "price": 4
             },
             {
-              "id": "sauce",
-              "name": "صلصة إضافية",
+              "id": "yogurt-sauce",
+              "name": "صوص يوناني",
               "price": 3
             },
             {
-              "id": "bread",
-              "name": "خبز إضافي",
-              "price": 4
+              "id": "water",
+              "name": "ماء",
+              "price": 3
+            },
+            {
+              "id": "extra-salad",
+              "name": "سلطة زيادة",
+              "price": 8
             }
           ]
         },
@@ -1762,24 +1952,29 @@
           "cashbackPercent": null,
           "addons": [
             {
-              "id": "fries",
-              "name": "بطاطس مقلية",
+              "id": "avocado",
+              "name": "أفوكادو",
               "price": 8
             },
             {
-              "id": "cola",
-              "name": "كولا",
-              "price": 6
+              "id": "boiled-egg",
+              "name": "بيض مسلوق",
+              "price": 4
             },
             {
-              "id": "sauce",
-              "name": "صلصة إضافية",
+              "id": "yogurt-sauce",
+              "name": "صوص يوناني",
               "price": 3
             },
             {
-              "id": "bread",
-              "name": "خبز إضافي",
-              "price": 4
+              "id": "water",
+              "name": "ماء",
+              "price": 3
+            },
+            {
+              "id": "extra-salad",
+              "name": "سلطة زيادة",
+              "price": 8
             }
           ]
         }
@@ -1825,24 +2020,29 @@
           "cashbackPercent": 5,
           "addons": [
             {
-              "id": "fries",
-              "name": "بطاطس مقلية",
+              "id": "avocado",
+              "name": "أفوكادو",
               "price": 8
             },
             {
-              "id": "cola",
-              "name": "كولا",
-              "price": 6
+              "id": "boiled-egg",
+              "name": "بيض مسلوق",
+              "price": 4
             },
             {
-              "id": "sauce",
-              "name": "صلصة إضافية",
+              "id": "yogurt-sauce",
+              "name": "صوص يوناني",
               "price": 3
             },
             {
-              "id": "bread",
-              "name": "خبز إضافي",
-              "price": 4
+              "id": "water",
+              "name": "ماء",
+              "price": 3
+            },
+            {
+              "id": "extra-salad",
+              "name": "سلطة زيادة",
+              "price": 8
             }
           ],
           "isCombo": false,
@@ -1868,24 +2068,29 @@
           "cashbackPercent": null,
           "addons": [
             {
-              "id": "fries",
-              "name": "بطاطس مقلية",
+              "id": "avocado",
+              "name": "أفوكادو",
               "price": 8
             },
             {
-              "id": "cola",
-              "name": "كولا",
-              "price": 6
+              "id": "boiled-egg",
+              "name": "بيض مسلوق",
+              "price": 4
             },
             {
-              "id": "sauce",
-              "name": "صلصة إضافية",
+              "id": "yogurt-sauce",
+              "name": "صوص يوناني",
               "price": 3
             },
             {
-              "id": "bread",
-              "name": "خبز إضافي",
-              "price": 4
+              "id": "water",
+              "name": "ماء",
+              "price": 3
+            },
+            {
+              "id": "extra-salad",
+              "name": "سلطة زيادة",
+              "price": 8
             }
           ],
           "isCombo": false,
@@ -1911,24 +2116,29 @@
           "cashbackPercent": null,
           "addons": [
             {
-              "id": "fries",
-              "name": "بطاطس مقلية",
+              "id": "avocado",
+              "name": "أفوكادو",
               "price": 8
             },
             {
-              "id": "cola",
-              "name": "كولا",
-              "price": 6
+              "id": "boiled-egg",
+              "name": "بيض مسلوق",
+              "price": 4
             },
             {
-              "id": "sauce",
-              "name": "صلصة إضافية",
+              "id": "yogurt-sauce",
+              "name": "صوص يوناني",
               "price": 3
             },
             {
-              "id": "bread",
-              "name": "خبز إضافي",
-              "price": 4
+              "id": "water",
+              "name": "ماء",
+              "price": 3
+            },
+            {
+              "id": "extra-salad",
+              "name": "سلطة زيادة",
+              "price": 8
             }
           ],
           "isCombo": false,
@@ -1954,24 +2164,29 @@
           "cashbackPercent": null,
           "addons": [
             {
-              "id": "fries",
-              "name": "بطاطس مقلية",
+              "id": "avocado",
+              "name": "أفوكادو",
               "price": 8
             },
             {
-              "id": "cola",
-              "name": "كولا",
-              "price": 6
+              "id": "boiled-egg",
+              "name": "بيض مسلوق",
+              "price": 4
             },
             {
-              "id": "sauce",
-              "name": "صلصة إضافية",
+              "id": "yogurt-sauce",
+              "name": "صوص يوناني",
               "price": 3
             },
             {
-              "id": "bread",
-              "name": "خبز إضافي",
-              "price": 4
+              "id": "water",
+              "name": "ماء",
+              "price": 3
+            },
+            {
+              "id": "extra-salad",
+              "name": "سلطة زيادة",
+              "price": 8
             }
           ],
           "isCombo": false,
@@ -1997,24 +2212,29 @@
           "cashbackPercent": null,
           "addons": [
             {
-              "id": "fries",
-              "name": "بطاطس مقلية",
+              "id": "avocado",
+              "name": "أفوكادو",
               "price": 8
             },
             {
-              "id": "cola",
-              "name": "كولا",
-              "price": 6
+              "id": "boiled-egg",
+              "name": "بيض مسلوق",
+              "price": 4
             },
             {
-              "id": "sauce",
-              "name": "صلصة إضافية",
+              "id": "yogurt-sauce",
+              "name": "صوص يوناني",
               "price": 3
             },
             {
-              "id": "bread",
-              "name": "خبز إضافي",
-              "price": 4
+              "id": "water",
+              "name": "ماء",
+              "price": 3
+            },
+            {
+              "id": "extra-salad",
+              "name": "سلطة زيادة",
+              "price": 8
             }
           ],
           "isCombo": false,
@@ -2040,24 +2260,29 @@
           "cashbackPercent": 15,
           "addons": [
             {
-              "id": "fries",
-              "name": "بطاطس مقلية",
+              "id": "avocado",
+              "name": "أفوكادو",
               "price": 8
             },
             {
-              "id": "cola",
-              "name": "كولا",
-              "price": 6
+              "id": "boiled-egg",
+              "name": "بيض مسلوق",
+              "price": 4
             },
             {
-              "id": "sauce",
-              "name": "صلصة إضافية",
+              "id": "yogurt-sauce",
+              "name": "صوص يوناني",
               "price": 3
             },
             {
-              "id": "bread",
-              "name": "خبز إضافي",
-              "price": 4
+              "id": "water",
+              "name": "ماء",
+              "price": 3
+            },
+            {
+              "id": "extra-salad",
+              "name": "سلطة زيادة",
+              "price": 8
             }
           ],
           "isCombo": false,
@@ -2083,24 +2308,29 @@
           "cashbackPercent": null,
           "addons": [
             {
-              "id": "fries",
-              "name": "بطاطس مقلية",
+              "id": "avocado",
+              "name": "أفوكادو",
               "price": 8
             },
             {
-              "id": "cola",
-              "name": "كولا",
-              "price": 6
+              "id": "boiled-egg",
+              "name": "بيض مسلوق",
+              "price": 4
             },
             {
-              "id": "sauce",
-              "name": "صلصة إضافية",
+              "id": "yogurt-sauce",
+              "name": "صوص يوناني",
               "price": 3
             },
             {
-              "id": "bread",
-              "name": "خبز إضافي",
-              "price": 4
+              "id": "water",
+              "name": "ماء",
+              "price": 3
+            },
+            {
+              "id": "extra-salad",
+              "name": "سلطة زيادة",
+              "price": 8
             }
           ],
           "isCombo": false,
@@ -2126,24 +2356,29 @@
           "cashbackPercent": null,
           "addons": [
             {
-              "id": "fries",
-              "name": "بطاطس مقلية",
+              "id": "avocado",
+              "name": "أفوكادو",
               "price": 8
             },
             {
-              "id": "cola",
-              "name": "كولا",
-              "price": 6
+              "id": "boiled-egg",
+              "name": "بيض مسلوق",
+              "price": 4
             },
             {
-              "id": "sauce",
-              "name": "صلصة إضافية",
+              "id": "yogurt-sauce",
+              "name": "صوص يوناني",
               "price": 3
             },
             {
-              "id": "bread",
-              "name": "خبز إضافي",
-              "price": 4
+              "id": "water",
+              "name": "ماء",
+              "price": 3
+            },
+            {
+              "id": "extra-salad",
+              "name": "سلطة زيادة",
+              "price": 8
             }
           ],
           "isCombo": false,
@@ -2169,24 +2404,29 @@
           "cashbackPercent": null,
           "addons": [
             {
-              "id": "fries",
-              "name": "بطاطس مقلية",
+              "id": "avocado",
+              "name": "أفوكادو",
               "price": 8
             },
             {
-              "id": "cola",
-              "name": "كولا",
-              "price": 6
+              "id": "boiled-egg",
+              "name": "بيض مسلوق",
+              "price": 4
             },
             {
-              "id": "sauce",
-              "name": "صلصة إضافية",
+              "id": "yogurt-sauce",
+              "name": "صوص يوناني",
               "price": 3
             },
             {
-              "id": "bread",
-              "name": "خبز إضافي",
-              "price": 4
+              "id": "water",
+              "name": "ماء",
+              "price": 3
+            },
+            {
+              "id": "extra-salad",
+              "name": "سلطة زيادة",
+              "price": 8
             }
           ],
           "isCombo": false,
@@ -2212,24 +2452,29 @@
           "cashbackPercent": null,
           "addons": [
             {
-              "id": "fries",
-              "name": "بطاطس مقلية",
+              "id": "avocado",
+              "name": "أفوكادو",
               "price": 8
             },
             {
-              "id": "cola",
-              "name": "كولا",
-              "price": 6
+              "id": "boiled-egg",
+              "name": "بيض مسلوق",
+              "price": 4
             },
             {
-              "id": "sauce",
-              "name": "صلصة إضافية",
+              "id": "yogurt-sauce",
+              "name": "صوص يوناني",
               "price": 3
             },
             {
-              "id": "bread",
-              "name": "خبز إضافي",
-              "price": 4
+              "id": "water",
+              "name": "ماء",
+              "price": 3
+            },
+            {
+              "id": "extra-salad",
+              "name": "سلطة زيادة",
+              "price": 8
             }
           ],
           "isCombo": false,
@@ -2262,24 +2507,29 @@
           "cashbackPercent": null,
           "addons": [
             {
-              "id": "fries",
-              "name": "بطاطس مقلية",
+              "id": "avocado",
+              "name": "أفوكادو",
               "price": 8
             },
             {
-              "id": "cola",
-              "name": "كولا",
-              "price": 6
+              "id": "boiled-egg",
+              "name": "بيض مسلوق",
+              "price": 4
             },
             {
-              "id": "sauce",
-              "name": "صلصة إضافية",
+              "id": "yogurt-sauce",
+              "name": "صوص يوناني",
               "price": 3
             },
             {
-              "id": "bread",
-              "name": "خبز إضافي",
-              "price": 4
+              "id": "water",
+              "name": "ماء",
+              "price": 3
+            },
+            {
+              "id": "extra-salad",
+              "name": "سلطة زيادة",
+              "price": 8
             }
           ]
         },
@@ -2309,24 +2559,29 @@
           "cashbackPercent": null,
           "addons": [
             {
-              "id": "fries",
-              "name": "بطاطس مقلية",
+              "id": "avocado",
+              "name": "أفوكادو",
               "price": 8
             },
             {
-              "id": "cola",
-              "name": "كولا",
-              "price": 6
+              "id": "boiled-egg",
+              "name": "بيض مسلوق",
+              "price": 4
             },
             {
-              "id": "sauce",
-              "name": "صلصة إضافية",
+              "id": "yogurt-sauce",
+              "name": "صوص يوناني",
               "price": 3
             },
             {
-              "id": "bread",
-              "name": "خبز إضافي",
-              "price": 4
+              "id": "water",
+              "name": "ماء",
+              "price": 3
+            },
+            {
+              "id": "extra-salad",
+              "name": "سلطة زيادة",
+              "price": 8
             }
           ]
         },
@@ -2357,24 +2612,29 @@
           "cashbackPercent": null,
           "addons": [
             {
-              "id": "fries",
-              "name": "بطاطس مقلية",
+              "id": "avocado",
+              "name": "أفوكادو",
               "price": 8
             },
             {
-              "id": "cola",
-              "name": "كولا",
-              "price": 6
+              "id": "boiled-egg",
+              "name": "بيض مسلوق",
+              "price": 4
             },
             {
-              "id": "sauce",
-              "name": "صلصة إضافية",
+              "id": "yogurt-sauce",
+              "name": "صوص يوناني",
               "price": 3
             },
             {
-              "id": "bread",
-              "name": "خبز إضافي",
-              "price": 4
+              "id": "water",
+              "name": "ماء",
+              "price": 3
+            },
+            {
+              "id": "extra-salad",
+              "name": "سلطة زيادة",
+              "price": 8
             }
           ]
         }
@@ -2420,24 +2680,29 @@
           "cashbackPercent": null,
           "addons": [
             {
-              "id": "fries",
-              "name": "بطاطس مقلية",
+              "id": "avocado",
+              "name": "أفوكادو",
               "price": 8
             },
             {
-              "id": "cola",
-              "name": "كولا",
-              "price": 6
+              "id": "boiled-egg",
+              "name": "بيض مسلوق",
+              "price": 4
             },
             {
-              "id": "sauce",
-              "name": "صلصة إضافية",
+              "id": "yogurt-sauce",
+              "name": "صوص يوناني",
               "price": 3
             },
             {
-              "id": "bread",
-              "name": "خبز إضافي",
-              "price": 4
+              "id": "water",
+              "name": "ماء",
+              "price": 3
+            },
+            {
+              "id": "extra-salad",
+              "name": "سلطة زيادة",
+              "price": 8
             }
           ],
           "isCombo": false,
@@ -2463,24 +2728,29 @@
           "cashbackPercent": null,
           "addons": [
             {
-              "id": "fries",
-              "name": "بطاطس مقلية",
+              "id": "avocado",
+              "name": "أفوكادو",
               "price": 8
             },
             {
-              "id": "cola",
-              "name": "كولا",
-              "price": 6
+              "id": "boiled-egg",
+              "name": "بيض مسلوق",
+              "price": 4
             },
             {
-              "id": "sauce",
-              "name": "صلصة إضافية",
+              "id": "yogurt-sauce",
+              "name": "صوص يوناني",
               "price": 3
             },
             {
-              "id": "bread",
-              "name": "خبز إضافي",
-              "price": 4
+              "id": "water",
+              "name": "ماء",
+              "price": 3
+            },
+            {
+              "id": "extra-salad",
+              "name": "سلطة زيادة",
+              "price": 8
             }
           ],
           "isCombo": false,
@@ -2506,24 +2776,29 @@
           "cashbackPercent": 10,
           "addons": [
             {
-              "id": "fries",
-              "name": "بطاطس مقلية",
+              "id": "avocado",
+              "name": "أفوكادو",
               "price": 8
             },
             {
-              "id": "cola",
-              "name": "كولا",
-              "price": 6
+              "id": "boiled-egg",
+              "name": "بيض مسلوق",
+              "price": 4
             },
             {
-              "id": "sauce",
-              "name": "صلصة إضافية",
+              "id": "yogurt-sauce",
+              "name": "صوص يوناني",
               "price": 3
             },
             {
-              "id": "bread",
-              "name": "خبز إضافي",
-              "price": 4
+              "id": "water",
+              "name": "ماء",
+              "price": 3
+            },
+            {
+              "id": "extra-salad",
+              "name": "سلطة زيادة",
+              "price": 8
             }
           ],
           "isCombo": false,
@@ -2549,24 +2824,29 @@
           "cashbackPercent": 15,
           "addons": [
             {
-              "id": "fries",
-              "name": "بطاطس مقلية",
+              "id": "avocado",
+              "name": "أفوكادو",
               "price": 8
             },
             {
-              "id": "cola",
-              "name": "كولا",
-              "price": 6
+              "id": "boiled-egg",
+              "name": "بيض مسلوق",
+              "price": 4
             },
             {
-              "id": "sauce",
-              "name": "صلصة إضافية",
+              "id": "yogurt-sauce",
+              "name": "صوص يوناني",
               "price": 3
             },
             {
-              "id": "bread",
-              "name": "خبز إضافي",
-              "price": 4
+              "id": "water",
+              "name": "ماء",
+              "price": 3
+            },
+            {
+              "id": "extra-salad",
+              "name": "سلطة زيادة",
+              "price": 8
             }
           ],
           "isCombo": false,
@@ -2592,24 +2872,29 @@
           "cashbackPercent": null,
           "addons": [
             {
-              "id": "fries",
-              "name": "بطاطس مقلية",
+              "id": "avocado",
+              "name": "أفوكادو",
               "price": 8
             },
             {
-              "id": "cola",
-              "name": "كولا",
-              "price": 6
+              "id": "boiled-egg",
+              "name": "بيض مسلوق",
+              "price": 4
             },
             {
-              "id": "sauce",
-              "name": "صلصة إضافية",
+              "id": "yogurt-sauce",
+              "name": "صوص يوناني",
               "price": 3
             },
             {
-              "id": "bread",
-              "name": "خبز إضافي",
-              "price": 4
+              "id": "water",
+              "name": "ماء",
+              "price": 3
+            },
+            {
+              "id": "extra-salad",
+              "name": "سلطة زيادة",
+              "price": 8
             }
           ],
           "isCombo": false,
@@ -2635,24 +2920,29 @@
           "cashbackPercent": null,
           "addons": [
             {
-              "id": "fries",
-              "name": "بطاطس مقلية",
+              "id": "avocado",
+              "name": "أفوكادو",
               "price": 8
             },
             {
-              "id": "cola",
-              "name": "كولا",
-              "price": 6
+              "id": "boiled-egg",
+              "name": "بيض مسلوق",
+              "price": 4
             },
             {
-              "id": "sauce",
-              "name": "صلصة إضافية",
+              "id": "yogurt-sauce",
+              "name": "صوص يوناني",
               "price": 3
             },
             {
-              "id": "bread",
-              "name": "خبز إضافي",
-              "price": 4
+              "id": "water",
+              "name": "ماء",
+              "price": 3
+            },
+            {
+              "id": "extra-salad",
+              "name": "سلطة زيادة",
+              "price": 8
             }
           ],
           "isCombo": false,
@@ -2678,24 +2968,29 @@
           "cashbackPercent": null,
           "addons": [
             {
-              "id": "fries",
-              "name": "بطاطس مقلية",
+              "id": "avocado",
+              "name": "أفوكادو",
               "price": 8
             },
             {
-              "id": "cola",
-              "name": "كولا",
-              "price": 6
+              "id": "boiled-egg",
+              "name": "بيض مسلوق",
+              "price": 4
             },
             {
-              "id": "sauce",
-              "name": "صلصة إضافية",
+              "id": "yogurt-sauce",
+              "name": "صوص يوناني",
               "price": 3
             },
             {
-              "id": "bread",
-              "name": "خبز إضافي",
-              "price": 4
+              "id": "water",
+              "name": "ماء",
+              "price": 3
+            },
+            {
+              "id": "extra-salad",
+              "name": "سلطة زيادة",
+              "price": 8
             }
           ],
           "isCombo": false,
@@ -2721,24 +3016,29 @@
           "cashbackPercent": null,
           "addons": [
             {
-              "id": "fries",
-              "name": "بطاطس مقلية",
+              "id": "avocado",
+              "name": "أفوكادو",
               "price": 8
             },
             {
-              "id": "cola",
-              "name": "كولا",
-              "price": 6
+              "id": "boiled-egg",
+              "name": "بيض مسلوق",
+              "price": 4
             },
             {
-              "id": "sauce",
-              "name": "صلصة إضافية",
+              "id": "yogurt-sauce",
+              "name": "صوص يوناني",
               "price": 3
             },
             {
-              "id": "bread",
-              "name": "خبز إضافي",
-              "price": 4
+              "id": "water",
+              "name": "ماء",
+              "price": 3
+            },
+            {
+              "id": "extra-salad",
+              "name": "سلطة زيادة",
+              "price": 8
             }
           ],
           "isCombo": false,
@@ -2764,24 +3064,29 @@
           "cashbackPercent": null,
           "addons": [
             {
-              "id": "fries",
-              "name": "بطاطس مقلية",
+              "id": "avocado",
+              "name": "أفوكادو",
               "price": 8
             },
             {
-              "id": "cola",
-              "name": "كولا",
-              "price": 6
+              "id": "boiled-egg",
+              "name": "بيض مسلوق",
+              "price": 4
             },
             {
-              "id": "sauce",
-              "name": "صلصة إضافية",
+              "id": "yogurt-sauce",
+              "name": "صوص يوناني",
               "price": 3
             },
             {
-              "id": "bread",
-              "name": "خبز إضافي",
-              "price": 4
+              "id": "water",
+              "name": "ماء",
+              "price": 3
+            },
+            {
+              "id": "extra-salad",
+              "name": "سلطة زيادة",
+              "price": 8
             }
           ],
           "isCombo": false,
@@ -2807,24 +3112,29 @@
           "cashbackPercent": null,
           "addons": [
             {
-              "id": "fries",
-              "name": "بطاطس مقلية",
+              "id": "avocado",
+              "name": "أفوكادو",
               "price": 8
             },
             {
-              "id": "cola",
-              "name": "كولا",
-              "price": 6
+              "id": "boiled-egg",
+              "name": "بيض مسلوق",
+              "price": 4
             },
             {
-              "id": "sauce",
-              "name": "صلصة إضافية",
+              "id": "yogurt-sauce",
+              "name": "صوص يوناني",
               "price": 3
             },
             {
-              "id": "bread",
-              "name": "خبز إضافي",
-              "price": 4
+              "id": "water",
+              "name": "ماء",
+              "price": 3
+            },
+            {
+              "id": "extra-salad",
+              "name": "سلطة زيادة",
+              "price": 8
             }
           ],
           "isCombo": false,
@@ -2857,24 +3167,29 @@
           "cashbackPercent": null,
           "addons": [
             {
-              "id": "fries",
-              "name": "بطاطس مقلية",
+              "id": "avocado",
+              "name": "أفوكادو",
               "price": 8
             },
             {
-              "id": "cola",
-              "name": "كولا",
-              "price": 6
+              "id": "boiled-egg",
+              "name": "بيض مسلوق",
+              "price": 4
             },
             {
-              "id": "sauce",
-              "name": "صلصة إضافية",
+              "id": "yogurt-sauce",
+              "name": "صوص يوناني",
               "price": 3
             },
             {
-              "id": "bread",
-              "name": "خبز إضافي",
-              "price": 4
+              "id": "water",
+              "name": "ماء",
+              "price": 3
+            },
+            {
+              "id": "extra-salad",
+              "name": "سلطة زيادة",
+              "price": 8
             }
           ]
         },
@@ -2904,24 +3219,29 @@
           "cashbackPercent": null,
           "addons": [
             {
-              "id": "fries",
-              "name": "بطاطس مقلية",
+              "id": "avocado",
+              "name": "أفوكادو",
               "price": 8
             },
             {
-              "id": "cola",
-              "name": "كولا",
-              "price": 6
+              "id": "boiled-egg",
+              "name": "بيض مسلوق",
+              "price": 4
             },
             {
-              "id": "sauce",
-              "name": "صلصة إضافية",
+              "id": "yogurt-sauce",
+              "name": "صوص يوناني",
               "price": 3
             },
             {
-              "id": "bread",
-              "name": "خبز إضافي",
-              "price": 4
+              "id": "water",
+              "name": "ماء",
+              "price": 3
+            },
+            {
+              "id": "extra-salad",
+              "name": "سلطة زيادة",
+              "price": 8
             }
           ]
         },
@@ -2952,24 +3272,29 @@
           "cashbackPercent": null,
           "addons": [
             {
-              "id": "fries",
-              "name": "بطاطس مقلية",
+              "id": "avocado",
+              "name": "أفوكادو",
               "price": 8
             },
             {
-              "id": "cola",
-              "name": "كولا",
-              "price": 6
+              "id": "boiled-egg",
+              "name": "بيض مسلوق",
+              "price": 4
             },
             {
-              "id": "sauce",
-              "name": "صلصة إضافية",
+              "id": "yogurt-sauce",
+              "name": "صوص يوناني",
               "price": 3
             },
             {
-              "id": "bread",
-              "name": "خبز إضافي",
-              "price": 4
+              "id": "water",
+              "name": "ماء",
+              "price": 3
+            },
+            {
+              "id": "extra-salad",
+              "name": "سلطة زيادة",
+              "price": 8
             }
           ]
         }
@@ -3015,24 +3340,29 @@
           "cashbackPercent": null,
           "addons": [
             {
-              "id": "fries",
-              "name": "بطاطس مقلية",
+              "id": "avocado",
+              "name": "أفوكادو",
               "price": 8
             },
             {
-              "id": "cola",
-              "name": "كولا",
-              "price": 6
+              "id": "boiled-egg",
+              "name": "بيض مسلوق",
+              "price": 4
             },
             {
-              "id": "sauce",
-              "name": "صلصة إضافية",
+              "id": "yogurt-sauce",
+              "name": "صوص يوناني",
               "price": 3
             },
             {
-              "id": "bread",
-              "name": "خبز إضافي",
-              "price": 4
+              "id": "water",
+              "name": "ماء",
+              "price": 3
+            },
+            {
+              "id": "extra-salad",
+              "name": "سلطة زيادة",
+              "price": 8
             }
           ],
           "isCombo": false,
@@ -3058,24 +3388,29 @@
           "cashbackPercent": 5,
           "addons": [
             {
-              "id": "fries",
-              "name": "بطاطس مقلية",
+              "id": "avocado",
+              "name": "أفوكادو",
               "price": 8
             },
             {
-              "id": "cola",
-              "name": "كولا",
-              "price": 6
+              "id": "boiled-egg",
+              "name": "بيض مسلوق",
+              "price": 4
             },
             {
-              "id": "sauce",
-              "name": "صلصة إضافية",
+              "id": "yogurt-sauce",
+              "name": "صوص يوناني",
               "price": 3
             },
             {
-              "id": "bread",
-              "name": "خبز إضافي",
-              "price": 4
+              "id": "water",
+              "name": "ماء",
+              "price": 3
+            },
+            {
+              "id": "extra-salad",
+              "name": "سلطة زيادة",
+              "price": 8
             }
           ],
           "isCombo": false,
@@ -3101,24 +3436,29 @@
           "cashbackPercent": null,
           "addons": [
             {
-              "id": "fries",
-              "name": "بطاطس مقلية",
+              "id": "avocado",
+              "name": "أفوكادو",
               "price": 8
             },
             {
-              "id": "cola",
-              "name": "كولا",
-              "price": 6
+              "id": "boiled-egg",
+              "name": "بيض مسلوق",
+              "price": 4
             },
             {
-              "id": "sauce",
-              "name": "صلصة إضافية",
+              "id": "yogurt-sauce",
+              "name": "صوص يوناني",
               "price": 3
             },
             {
-              "id": "bread",
-              "name": "خبز إضافي",
-              "price": 4
+              "id": "water",
+              "name": "ماء",
+              "price": 3
+            },
+            {
+              "id": "extra-salad",
+              "name": "سلطة زيادة",
+              "price": 8
             }
           ],
           "isCombo": false,
@@ -3144,24 +3484,29 @@
           "cashbackPercent": null,
           "addons": [
             {
-              "id": "fries",
-              "name": "بطاطس مقلية",
+              "id": "avocado",
+              "name": "أفوكادو",
               "price": 8
             },
             {
-              "id": "cola",
-              "name": "كولا",
-              "price": 6
+              "id": "boiled-egg",
+              "name": "بيض مسلوق",
+              "price": 4
             },
             {
-              "id": "sauce",
-              "name": "صلصة إضافية",
+              "id": "yogurt-sauce",
+              "name": "صوص يوناني",
               "price": 3
             },
             {
-              "id": "bread",
-              "name": "خبز إضافي",
-              "price": 4
+              "id": "water",
+              "name": "ماء",
+              "price": 3
+            },
+            {
+              "id": "extra-salad",
+              "name": "سلطة زيادة",
+              "price": 8
             }
           ],
           "isCombo": false,
@@ -3187,24 +3532,29 @@
           "cashbackPercent": 10,
           "addons": [
             {
-              "id": "fries",
-              "name": "بطاطس مقلية",
+              "id": "avocado",
+              "name": "أفوكادو",
               "price": 8
             },
             {
-              "id": "cola",
-              "name": "كولا",
-              "price": 6
+              "id": "boiled-egg",
+              "name": "بيض مسلوق",
+              "price": 4
             },
             {
-              "id": "sauce",
-              "name": "صلصة إضافية",
+              "id": "yogurt-sauce",
+              "name": "صوص يوناني",
               "price": 3
             },
             {
-              "id": "bread",
-              "name": "خبز إضافي",
-              "price": 4
+              "id": "water",
+              "name": "ماء",
+              "price": 3
+            },
+            {
+              "id": "extra-salad",
+              "name": "سلطة زيادة",
+              "price": 8
             }
           ],
           "isCombo": false,
@@ -3230,24 +3580,29 @@
           "cashbackPercent": null,
           "addons": [
             {
-              "id": "fries",
-              "name": "بطاطس مقلية",
+              "id": "avocado",
+              "name": "أفوكادو",
               "price": 8
             },
             {
-              "id": "cola",
-              "name": "كولا",
-              "price": 6
+              "id": "boiled-egg",
+              "name": "بيض مسلوق",
+              "price": 4
             },
             {
-              "id": "sauce",
-              "name": "صلصة إضافية",
+              "id": "yogurt-sauce",
+              "name": "صوص يوناني",
               "price": 3
             },
             {
-              "id": "bread",
-              "name": "خبز إضافي",
-              "price": 4
+              "id": "water",
+              "name": "ماء",
+              "price": 3
+            },
+            {
+              "id": "extra-salad",
+              "name": "سلطة زيادة",
+              "price": 8
             }
           ],
           "isCombo": false,
@@ -3273,24 +3628,29 @@
           "cashbackPercent": null,
           "addons": [
             {
-              "id": "fries",
-              "name": "بطاطس مقلية",
+              "id": "avocado",
+              "name": "أفوكادو",
               "price": 8
             },
             {
-              "id": "cola",
-              "name": "كولا",
-              "price": 6
+              "id": "boiled-egg",
+              "name": "بيض مسلوق",
+              "price": 4
             },
             {
-              "id": "sauce",
-              "name": "صلصة إضافية",
+              "id": "yogurt-sauce",
+              "name": "صوص يوناني",
               "price": 3
             },
             {
-              "id": "bread",
-              "name": "خبز إضافي",
-              "price": 4
+              "id": "water",
+              "name": "ماء",
+              "price": 3
+            },
+            {
+              "id": "extra-salad",
+              "name": "سلطة زيادة",
+              "price": 8
             }
           ],
           "isCombo": false,
@@ -3316,24 +3676,29 @@
           "cashbackPercent": 10,
           "addons": [
             {
-              "id": "fries",
-              "name": "بطاطس مقلية",
+              "id": "avocado",
+              "name": "أفوكادو",
               "price": 8
             },
             {
-              "id": "cola",
-              "name": "كولا",
-              "price": 6
+              "id": "boiled-egg",
+              "name": "بيض مسلوق",
+              "price": 4
             },
             {
-              "id": "sauce",
-              "name": "صلصة إضافية",
+              "id": "yogurt-sauce",
+              "name": "صوص يوناني",
               "price": 3
             },
             {
-              "id": "bread",
-              "name": "خبز إضافي",
-              "price": 4
+              "id": "water",
+              "name": "ماء",
+              "price": 3
+            },
+            {
+              "id": "extra-salad",
+              "name": "سلطة زيادة",
+              "price": 8
             }
           ],
           "isCombo": false,
@@ -3359,24 +3724,29 @@
           "cashbackPercent": null,
           "addons": [
             {
-              "id": "fries",
-              "name": "بطاطس مقلية",
+              "id": "avocado",
+              "name": "أفوكادو",
               "price": 8
             },
             {
-              "id": "cola",
-              "name": "كولا",
-              "price": 6
+              "id": "boiled-egg",
+              "name": "بيض مسلوق",
+              "price": 4
             },
             {
-              "id": "sauce",
-              "name": "صلصة إضافية",
+              "id": "yogurt-sauce",
+              "name": "صوص يوناني",
               "price": 3
             },
             {
-              "id": "bread",
-              "name": "خبز إضافي",
-              "price": 4
+              "id": "water",
+              "name": "ماء",
+              "price": 3
+            },
+            {
+              "id": "extra-salad",
+              "name": "سلطة زيادة",
+              "price": 8
             }
           ],
           "isCombo": false,
@@ -3402,24 +3772,29 @@
           "cashbackPercent": null,
           "addons": [
             {
-              "id": "fries",
-              "name": "بطاطس مقلية",
+              "id": "avocado",
+              "name": "أفوكادو",
               "price": 8
             },
             {
-              "id": "cola",
-              "name": "كولا",
-              "price": 6
+              "id": "boiled-egg",
+              "name": "بيض مسلوق",
+              "price": 4
             },
             {
-              "id": "sauce",
-              "name": "صلصة إضافية",
+              "id": "yogurt-sauce",
+              "name": "صوص يوناني",
               "price": 3
             },
             {
-              "id": "bread",
-              "name": "خبز إضافي",
-              "price": 4
+              "id": "water",
+              "name": "ماء",
+              "price": 3
+            },
+            {
+              "id": "extra-salad",
+              "name": "سلطة زيادة",
+              "price": 8
             }
           ],
           "isCombo": false,
@@ -3452,24 +3827,29 @@
           "cashbackPercent": null,
           "addons": [
             {
-              "id": "fries",
-              "name": "بطاطس مقلية",
+              "id": "avocado",
+              "name": "أفوكادو",
               "price": 8
             },
             {
-              "id": "cola",
-              "name": "كولا",
-              "price": 6
+              "id": "boiled-egg",
+              "name": "بيض مسلوق",
+              "price": 4
             },
             {
-              "id": "sauce",
-              "name": "صلصة إضافية",
+              "id": "yogurt-sauce",
+              "name": "صوص يوناني",
               "price": 3
             },
             {
-              "id": "bread",
-              "name": "خبز إضافي",
-              "price": 4
+              "id": "water",
+              "name": "ماء",
+              "price": 3
+            },
+            {
+              "id": "extra-salad",
+              "name": "سلطة زيادة",
+              "price": 8
             }
           ]
         },
@@ -3499,24 +3879,29 @@
           "cashbackPercent": null,
           "addons": [
             {
-              "id": "fries",
-              "name": "بطاطس مقلية",
+              "id": "avocado",
+              "name": "أفوكادو",
               "price": 8
             },
             {
-              "id": "cola",
-              "name": "كولا",
-              "price": 6
+              "id": "boiled-egg",
+              "name": "بيض مسلوق",
+              "price": 4
             },
             {
-              "id": "sauce",
-              "name": "صلصة إضافية",
+              "id": "yogurt-sauce",
+              "name": "صوص يوناني",
               "price": 3
             },
             {
-              "id": "bread",
-              "name": "خبز إضافي",
-              "price": 4
+              "id": "water",
+              "name": "ماء",
+              "price": 3
+            },
+            {
+              "id": "extra-salad",
+              "name": "سلطة زيادة",
+              "price": 8
             }
           ]
         },
@@ -3547,24 +3932,29 @@
           "cashbackPercent": null,
           "addons": [
             {
-              "id": "fries",
-              "name": "بطاطس مقلية",
+              "id": "avocado",
+              "name": "أفوكادو",
               "price": 8
             },
             {
-              "id": "cola",
-              "name": "كولا",
-              "price": 6
+              "id": "boiled-egg",
+              "name": "بيض مسلوق",
+              "price": 4
             },
             {
-              "id": "sauce",
-              "name": "صلصة إضافية",
+              "id": "yogurt-sauce",
+              "name": "صوص يوناني",
               "price": 3
             },
             {
-              "id": "bread",
-              "name": "خبز إضافي",
-              "price": 4
+              "id": "water",
+              "name": "ماء",
+              "price": 3
+            },
+            {
+              "id": "extra-salad",
+              "name": "سلطة زيادة",
+              "price": 8
             }
           ]
         }
@@ -3610,24 +4000,29 @@
           "cashbackPercent": null,
           "addons": [
             {
-              "id": "fries",
-              "name": "بطاطس مقلية",
+              "id": "avocado",
+              "name": "أفوكادو",
               "price": 8
             },
             {
-              "id": "cola",
-              "name": "كولا",
-              "price": 6
+              "id": "boiled-egg",
+              "name": "بيض مسلوق",
+              "price": 4
             },
             {
-              "id": "sauce",
-              "name": "صلصة إضافية",
+              "id": "yogurt-sauce",
+              "name": "صوص يوناني",
               "price": 3
             },
             {
-              "id": "bread",
-              "name": "خبز إضافي",
-              "price": 4
+              "id": "water",
+              "name": "ماء",
+              "price": 3
+            },
+            {
+              "id": "extra-salad",
+              "name": "سلطة زيادة",
+              "price": 8
             }
           ],
           "isCombo": false,
@@ -3653,24 +4048,29 @@
           "cashbackPercent": null,
           "addons": [
             {
-              "id": "fries",
-              "name": "بطاطس مقلية",
+              "id": "avocado",
+              "name": "أفوكادو",
               "price": 8
             },
             {
-              "id": "cola",
-              "name": "كولا",
-              "price": 6
+              "id": "boiled-egg",
+              "name": "بيض مسلوق",
+              "price": 4
             },
             {
-              "id": "sauce",
-              "name": "صلصة إضافية",
+              "id": "yogurt-sauce",
+              "name": "صوص يوناني",
               "price": 3
             },
             {
-              "id": "bread",
-              "name": "خبز إضافي",
-              "price": 4
+              "id": "water",
+              "name": "ماء",
+              "price": 3
+            },
+            {
+              "id": "extra-salad",
+              "name": "سلطة زيادة",
+              "price": 8
             }
           ],
           "isCombo": false,
@@ -3696,24 +4096,29 @@
           "cashbackPercent": null,
           "addons": [
             {
-              "id": "fries",
-              "name": "بطاطس مقلية",
+              "id": "avocado",
+              "name": "أفوكادو",
               "price": 8
             },
             {
-              "id": "cola",
-              "name": "كولا",
-              "price": 6
+              "id": "boiled-egg",
+              "name": "بيض مسلوق",
+              "price": 4
             },
             {
-              "id": "sauce",
-              "name": "صلصة إضافية",
+              "id": "yogurt-sauce",
+              "name": "صوص يوناني",
               "price": 3
             },
             {
-              "id": "bread",
-              "name": "خبز إضافي",
-              "price": 4
+              "id": "water",
+              "name": "ماء",
+              "price": 3
+            },
+            {
+              "id": "extra-salad",
+              "name": "سلطة زيادة",
+              "price": 8
             }
           ],
           "isCombo": false,
@@ -3739,24 +4144,29 @@
           "cashbackPercent": 15,
           "addons": [
             {
-              "id": "fries",
-              "name": "بطاطس مقلية",
+              "id": "avocado",
+              "name": "أفوكادو",
               "price": 8
             },
             {
-              "id": "cola",
-              "name": "كولا",
-              "price": 6
+              "id": "boiled-egg",
+              "name": "بيض مسلوق",
+              "price": 4
             },
             {
-              "id": "sauce",
-              "name": "صلصة إضافية",
+              "id": "yogurt-sauce",
+              "name": "صوص يوناني",
               "price": 3
             },
             {
-              "id": "bread",
-              "name": "خبز إضافي",
-              "price": 4
+              "id": "water",
+              "name": "ماء",
+              "price": 3
+            },
+            {
+              "id": "extra-salad",
+              "name": "سلطة زيادة",
+              "price": 8
             }
           ],
           "isCombo": false,
@@ -3782,24 +4192,29 @@
           "cashbackPercent": null,
           "addons": [
             {
-              "id": "fries",
-              "name": "بطاطس مقلية",
+              "id": "avocado",
+              "name": "أفوكادو",
               "price": 8
             },
             {
-              "id": "cola",
-              "name": "كولا",
-              "price": 6
+              "id": "boiled-egg",
+              "name": "بيض مسلوق",
+              "price": 4
             },
             {
-              "id": "sauce",
-              "name": "صلصة إضافية",
+              "id": "yogurt-sauce",
+              "name": "صوص يوناني",
               "price": 3
             },
             {
-              "id": "bread",
-              "name": "خبز إضافي",
-              "price": 4
+              "id": "water",
+              "name": "ماء",
+              "price": 3
+            },
+            {
+              "id": "extra-salad",
+              "name": "سلطة زيادة",
+              "price": 8
             }
           ],
           "isCombo": false,
@@ -3825,24 +4240,29 @@
           "cashbackPercent": 10,
           "addons": [
             {
-              "id": "fries",
-              "name": "بطاطس مقلية",
+              "id": "avocado",
+              "name": "أفوكادو",
               "price": 8
             },
             {
-              "id": "cola",
-              "name": "كولا",
-              "price": 6
+              "id": "boiled-egg",
+              "name": "بيض مسلوق",
+              "price": 4
             },
             {
-              "id": "sauce",
-              "name": "صلصة إضافية",
+              "id": "yogurt-sauce",
+              "name": "صوص يوناني",
               "price": 3
             },
             {
-              "id": "bread",
-              "name": "خبز إضافي",
-              "price": 4
+              "id": "water",
+              "name": "ماء",
+              "price": 3
+            },
+            {
+              "id": "extra-salad",
+              "name": "سلطة زيادة",
+              "price": 8
             }
           ],
           "isCombo": false,
@@ -3868,24 +4288,29 @@
           "cashbackPercent": null,
           "addons": [
             {
-              "id": "fries",
-              "name": "بطاطس مقلية",
+              "id": "avocado",
+              "name": "أفوكادو",
               "price": 8
             },
             {
-              "id": "cola",
-              "name": "كولا",
-              "price": 6
+              "id": "boiled-egg",
+              "name": "بيض مسلوق",
+              "price": 4
             },
             {
-              "id": "sauce",
-              "name": "صلصة إضافية",
+              "id": "yogurt-sauce",
+              "name": "صوص يوناني",
               "price": 3
             },
             {
-              "id": "bread",
-              "name": "خبز إضافي",
-              "price": 4
+              "id": "water",
+              "name": "ماء",
+              "price": 3
+            },
+            {
+              "id": "extra-salad",
+              "name": "سلطة زيادة",
+              "price": 8
             }
           ],
           "isCombo": false,
@@ -3911,24 +4336,29 @@
           "cashbackPercent": null,
           "addons": [
             {
-              "id": "fries",
-              "name": "بطاطس مقلية",
+              "id": "avocado",
+              "name": "أفوكادو",
               "price": 8
             },
             {
-              "id": "cola",
-              "name": "كولا",
-              "price": 6
+              "id": "boiled-egg",
+              "name": "بيض مسلوق",
+              "price": 4
             },
             {
-              "id": "sauce",
-              "name": "صلصة إضافية",
+              "id": "yogurt-sauce",
+              "name": "صوص يوناني",
               "price": 3
             },
             {
-              "id": "bread",
-              "name": "خبز إضافي",
-              "price": 4
+              "id": "water",
+              "name": "ماء",
+              "price": 3
+            },
+            {
+              "id": "extra-salad",
+              "name": "سلطة زيادة",
+              "price": 8
             }
           ],
           "isCombo": false,
@@ -3954,24 +4384,29 @@
           "cashbackPercent": null,
           "addons": [
             {
-              "id": "fries",
-              "name": "بطاطس مقلية",
+              "id": "avocado",
+              "name": "أفوكادو",
               "price": 8
             },
             {
-              "id": "cola",
-              "name": "كولا",
-              "price": 6
+              "id": "boiled-egg",
+              "name": "بيض مسلوق",
+              "price": 4
             },
             {
-              "id": "sauce",
-              "name": "صلصة إضافية",
+              "id": "yogurt-sauce",
+              "name": "صوص يوناني",
               "price": 3
             },
             {
-              "id": "bread",
-              "name": "خبز إضافي",
-              "price": 4
+              "id": "water",
+              "name": "ماء",
+              "price": 3
+            },
+            {
+              "id": "extra-salad",
+              "name": "سلطة زيادة",
+              "price": 8
             }
           ],
           "isCombo": false,
@@ -3997,24 +4432,29 @@
           "cashbackPercent": null,
           "addons": [
             {
-              "id": "fries",
-              "name": "بطاطس مقلية",
+              "id": "avocado",
+              "name": "أفوكادو",
               "price": 8
             },
             {
-              "id": "cola",
-              "name": "كولا",
-              "price": 6
+              "id": "boiled-egg",
+              "name": "بيض مسلوق",
+              "price": 4
             },
             {
-              "id": "sauce",
-              "name": "صلصة إضافية",
+              "id": "yogurt-sauce",
+              "name": "صوص يوناني",
               "price": 3
             },
             {
-              "id": "bread",
-              "name": "خبز إضافي",
-              "price": 4
+              "id": "water",
+              "name": "ماء",
+              "price": 3
+            },
+            {
+              "id": "extra-salad",
+              "name": "سلطة زيادة",
+              "price": 8
             }
           ],
           "isCombo": false,
@@ -4047,24 +4487,29 @@
           "cashbackPercent": null,
           "addons": [
             {
-              "id": "fries",
-              "name": "بطاطس مقلية",
+              "id": "avocado",
+              "name": "أفوكادو",
               "price": 8
             },
             {
-              "id": "cola",
-              "name": "كولا",
-              "price": 6
+              "id": "boiled-egg",
+              "name": "بيض مسلوق",
+              "price": 4
             },
             {
-              "id": "sauce",
-              "name": "صلصة إضافية",
+              "id": "yogurt-sauce",
+              "name": "صوص يوناني",
               "price": 3
             },
             {
-              "id": "bread",
-              "name": "خبز إضافي",
-              "price": 4
+              "id": "water",
+              "name": "ماء",
+              "price": 3
+            },
+            {
+              "id": "extra-salad",
+              "name": "سلطة زيادة",
+              "price": 8
             }
           ]
         },
@@ -4094,24 +4539,29 @@
           "cashbackPercent": null,
           "addons": [
             {
-              "id": "fries",
-              "name": "بطاطس مقلية",
+              "id": "avocado",
+              "name": "أفوكادو",
               "price": 8
             },
             {
-              "id": "cola",
-              "name": "كولا",
-              "price": 6
+              "id": "boiled-egg",
+              "name": "بيض مسلوق",
+              "price": 4
             },
             {
-              "id": "sauce",
-              "name": "صلصة إضافية",
+              "id": "yogurt-sauce",
+              "name": "صوص يوناني",
               "price": 3
             },
             {
-              "id": "bread",
-              "name": "خبز إضافي",
-              "price": 4
+              "id": "water",
+              "name": "ماء",
+              "price": 3
+            },
+            {
+              "id": "extra-salad",
+              "name": "سلطة زيادة",
+              "price": 8
             }
           ]
         },
@@ -4142,24 +4592,29 @@
           "cashbackPercent": null,
           "addons": [
             {
-              "id": "fries",
-              "name": "بطاطس مقلية",
+              "id": "avocado",
+              "name": "أفوكادو",
               "price": 8
             },
             {
-              "id": "cola",
-              "name": "كولا",
-              "price": 6
+              "id": "boiled-egg",
+              "name": "بيض مسلوق",
+              "price": 4
             },
             {
-              "id": "sauce",
-              "name": "صلصة إضافية",
+              "id": "yogurt-sauce",
+              "name": "صوص يوناني",
               "price": 3
             },
             {
-              "id": "bread",
-              "name": "خبز إضافي",
-              "price": 4
+              "id": "water",
+              "name": "ماء",
+              "price": 3
+            },
+            {
+              "id": "extra-salad",
+              "name": "سلطة زيادة",
+              "price": 8
             }
           ]
         }
@@ -4205,24 +4660,29 @@
           "cashbackPercent": 15,
           "addons": [
             {
-              "id": "fries",
-              "name": "بطاطس مقلية",
+              "id": "avocado",
+              "name": "أفوكادو",
               "price": 8
             },
             {
-              "id": "cola",
-              "name": "كولا",
-              "price": 6
+              "id": "boiled-egg",
+              "name": "بيض مسلوق",
+              "price": 4
             },
             {
-              "id": "sauce",
-              "name": "صلصة إضافية",
+              "id": "yogurt-sauce",
+              "name": "صوص يوناني",
               "price": 3
             },
             {
-              "id": "bread",
-              "name": "خبز إضافي",
-              "price": 4
+              "id": "water",
+              "name": "ماء",
+              "price": 3
+            },
+            {
+              "id": "extra-salad",
+              "name": "سلطة زيادة",
+              "price": 8
             }
           ],
           "isCombo": false,
@@ -4248,24 +4708,29 @@
           "cashbackPercent": null,
           "addons": [
             {
-              "id": "fries",
-              "name": "بطاطس مقلية",
+              "id": "avocado",
+              "name": "أفوكادو",
               "price": 8
             },
             {
-              "id": "cola",
-              "name": "كولا",
-              "price": 6
+              "id": "boiled-egg",
+              "name": "بيض مسلوق",
+              "price": 4
             },
             {
-              "id": "sauce",
-              "name": "صلصة إضافية",
+              "id": "yogurt-sauce",
+              "name": "صوص يوناني",
               "price": 3
             },
             {
-              "id": "bread",
-              "name": "خبز إضافي",
-              "price": 4
+              "id": "water",
+              "name": "ماء",
+              "price": 3
+            },
+            {
+              "id": "extra-salad",
+              "name": "سلطة زيادة",
+              "price": 8
             }
           ],
           "isCombo": false,
@@ -4291,24 +4756,29 @@
           "cashbackPercent": null,
           "addons": [
             {
-              "id": "fries",
-              "name": "بطاطس مقلية",
+              "id": "avocado",
+              "name": "أفوكادو",
               "price": 8
             },
             {
-              "id": "cola",
-              "name": "كولا",
-              "price": 6
+              "id": "boiled-egg",
+              "name": "بيض مسلوق",
+              "price": 4
             },
             {
-              "id": "sauce",
-              "name": "صلصة إضافية",
+              "id": "yogurt-sauce",
+              "name": "صوص يوناني",
               "price": 3
             },
             {
-              "id": "bread",
-              "name": "خبز إضافي",
-              "price": 4
+              "id": "water",
+              "name": "ماء",
+              "price": 3
+            },
+            {
+              "id": "extra-salad",
+              "name": "سلطة زيادة",
+              "price": 8
             }
           ],
           "isCombo": false,
@@ -4334,24 +4804,29 @@
           "cashbackPercent": null,
           "addons": [
             {
-              "id": "fries",
-              "name": "بطاطس مقلية",
+              "id": "avocado",
+              "name": "أفوكادو",
               "price": 8
             },
             {
-              "id": "cola",
-              "name": "كولا",
-              "price": 6
+              "id": "boiled-egg",
+              "name": "بيض مسلوق",
+              "price": 4
             },
             {
-              "id": "sauce",
-              "name": "صلصة إضافية",
+              "id": "yogurt-sauce",
+              "name": "صوص يوناني",
               "price": 3
             },
             {
-              "id": "bread",
-              "name": "خبز إضافي",
-              "price": 4
+              "id": "water",
+              "name": "ماء",
+              "price": 3
+            },
+            {
+              "id": "extra-salad",
+              "name": "سلطة زيادة",
+              "price": 8
             }
           ],
           "isCombo": false,
@@ -4377,24 +4852,29 @@
           "cashbackPercent": null,
           "addons": [
             {
-              "id": "fries",
-              "name": "بطاطس مقلية",
+              "id": "avocado",
+              "name": "أفوكادو",
               "price": 8
             },
             {
-              "id": "cola",
-              "name": "كولا",
-              "price": 6
+              "id": "boiled-egg",
+              "name": "بيض مسلوق",
+              "price": 4
             },
             {
-              "id": "sauce",
-              "name": "صلصة إضافية",
+              "id": "yogurt-sauce",
+              "name": "صوص يوناني",
               "price": 3
             },
             {
-              "id": "bread",
-              "name": "خبز إضافي",
-              "price": 4
+              "id": "water",
+              "name": "ماء",
+              "price": 3
+            },
+            {
+              "id": "extra-salad",
+              "name": "سلطة زيادة",
+              "price": 8
             }
           ],
           "isCombo": false,
@@ -4420,24 +4900,29 @@
           "cashbackPercent": null,
           "addons": [
             {
-              "id": "fries",
-              "name": "بطاطس مقلية",
+              "id": "avocado",
+              "name": "أفوكادو",
               "price": 8
             },
             {
-              "id": "cola",
-              "name": "كولا",
-              "price": 6
+              "id": "boiled-egg",
+              "name": "بيض مسلوق",
+              "price": 4
             },
             {
-              "id": "sauce",
-              "name": "صلصة إضافية",
+              "id": "yogurt-sauce",
+              "name": "صوص يوناني",
               "price": 3
             },
             {
-              "id": "bread",
-              "name": "خبز إضافي",
-              "price": 4
+              "id": "water",
+              "name": "ماء",
+              "price": 3
+            },
+            {
+              "id": "extra-salad",
+              "name": "سلطة زيادة",
+              "price": 8
             }
           ],
           "isCombo": false,
@@ -4463,24 +4948,29 @@
           "cashbackPercent": null,
           "addons": [
             {
-              "id": "fries",
-              "name": "بطاطس مقلية",
+              "id": "avocado",
+              "name": "أفوكادو",
               "price": 8
             },
             {
-              "id": "cola",
-              "name": "كولا",
-              "price": 6
+              "id": "boiled-egg",
+              "name": "بيض مسلوق",
+              "price": 4
             },
             {
-              "id": "sauce",
-              "name": "صلصة إضافية",
+              "id": "yogurt-sauce",
+              "name": "صوص يوناني",
               "price": 3
             },
             {
-              "id": "bread",
-              "name": "خبز إضافي",
-              "price": 4
+              "id": "water",
+              "name": "ماء",
+              "price": 3
+            },
+            {
+              "id": "extra-salad",
+              "name": "سلطة زيادة",
+              "price": 8
             }
           ],
           "isCombo": false,
@@ -4506,24 +4996,29 @@
           "cashbackPercent": null,
           "addons": [
             {
-              "id": "fries",
-              "name": "بطاطس مقلية",
+              "id": "avocado",
+              "name": "أفوكادو",
               "price": 8
             },
             {
-              "id": "cola",
-              "name": "كولا",
-              "price": 6
+              "id": "boiled-egg",
+              "name": "بيض مسلوق",
+              "price": 4
             },
             {
-              "id": "sauce",
-              "name": "صلصة إضافية",
+              "id": "yogurt-sauce",
+              "name": "صوص يوناني",
               "price": 3
             },
             {
-              "id": "bread",
-              "name": "خبز إضافي",
-              "price": 4
+              "id": "water",
+              "name": "ماء",
+              "price": 3
+            },
+            {
+              "id": "extra-salad",
+              "name": "سلطة زيادة",
+              "price": 8
             }
           ],
           "isCombo": false,
@@ -4549,24 +5044,29 @@
           "cashbackPercent": null,
           "addons": [
             {
-              "id": "fries",
-              "name": "بطاطس مقلية",
+              "id": "avocado",
+              "name": "أفوكادو",
               "price": 8
             },
             {
-              "id": "cola",
-              "name": "كولا",
-              "price": 6
+              "id": "boiled-egg",
+              "name": "بيض مسلوق",
+              "price": 4
             },
             {
-              "id": "sauce",
-              "name": "صلصة إضافية",
+              "id": "yogurt-sauce",
+              "name": "صوص يوناني",
               "price": 3
             },
             {
-              "id": "bread",
-              "name": "خبز إضافي",
-              "price": 4
+              "id": "water",
+              "name": "ماء",
+              "price": 3
+            },
+            {
+              "id": "extra-salad",
+              "name": "سلطة زيادة",
+              "price": 8
             }
           ],
           "isCombo": false,
@@ -4592,24 +5092,29 @@
           "cashbackPercent": null,
           "addons": [
             {
-              "id": "fries",
-              "name": "بطاطس مقلية",
+              "id": "avocado",
+              "name": "أفوكادو",
               "price": 8
             },
             {
-              "id": "cola",
-              "name": "كولا",
-              "price": 6
+              "id": "boiled-egg",
+              "name": "بيض مسلوق",
+              "price": 4
             },
             {
-              "id": "sauce",
-              "name": "صلصة إضافية",
+              "id": "yogurt-sauce",
+              "name": "صوص يوناني",
               "price": 3
             },
             {
-              "id": "bread",
-              "name": "خبز إضافي",
-              "price": 4
+              "id": "water",
+              "name": "ماء",
+              "price": 3
+            },
+            {
+              "id": "extra-salad",
+              "name": "سلطة زيادة",
+              "price": 8
             }
           ],
           "isCombo": false,
@@ -4642,24 +5147,29 @@
           "cashbackPercent": null,
           "addons": [
             {
-              "id": "fries",
-              "name": "بطاطس مقلية",
+              "id": "avocado",
+              "name": "أفوكادو",
               "price": 8
             },
             {
-              "id": "cola",
-              "name": "كولا",
-              "price": 6
+              "id": "boiled-egg",
+              "name": "بيض مسلوق",
+              "price": 4
             },
             {
-              "id": "sauce",
-              "name": "صلصة إضافية",
+              "id": "yogurt-sauce",
+              "name": "صوص يوناني",
               "price": 3
             },
             {
-              "id": "bread",
-              "name": "خبز إضافي",
-              "price": 4
+              "id": "water",
+              "name": "ماء",
+              "price": 3
+            },
+            {
+              "id": "extra-salad",
+              "name": "سلطة زيادة",
+              "price": 8
             }
           ]
         },
@@ -4689,24 +5199,29 @@
           "cashbackPercent": null,
           "addons": [
             {
-              "id": "fries",
-              "name": "بطاطس مقلية",
+              "id": "avocado",
+              "name": "أفوكادو",
               "price": 8
             },
             {
-              "id": "cola",
-              "name": "كولا",
-              "price": 6
+              "id": "boiled-egg",
+              "name": "بيض مسلوق",
+              "price": 4
             },
             {
-              "id": "sauce",
-              "name": "صلصة إضافية",
+              "id": "yogurt-sauce",
+              "name": "صوص يوناني",
               "price": 3
             },
             {
-              "id": "bread",
-              "name": "خبز إضافي",
-              "price": 4
+              "id": "water",
+              "name": "ماء",
+              "price": 3
+            },
+            {
+              "id": "extra-salad",
+              "name": "سلطة زيادة",
+              "price": 8
             }
           ]
         },
@@ -4737,24 +5252,29 @@
           "cashbackPercent": null,
           "addons": [
             {
-              "id": "fries",
-              "name": "بطاطس مقلية",
+              "id": "avocado",
+              "name": "أفوكادو",
               "price": 8
             },
             {
-              "id": "cola",
-              "name": "كولا",
-              "price": 6
+              "id": "boiled-egg",
+              "name": "بيض مسلوق",
+              "price": 4
             },
             {
-              "id": "sauce",
-              "name": "صلصة إضافية",
+              "id": "yogurt-sauce",
+              "name": "صوص يوناني",
               "price": 3
             },
             {
-              "id": "bread",
-              "name": "خبز إضافي",
-              "price": 4
+              "id": "water",
+              "name": "ماء",
+              "price": 3
+            },
+            {
+              "id": "extra-salad",
+              "name": "سلطة زيادة",
+              "price": 8
             }
           ]
         }
