@@ -32,11 +32,7 @@ function cuisineThumb(cuisine: string): string {
 }
 
 function offerScore(meal: Meal): number {
-  const discount =
-    meal.offerPrice != null && meal.price > 0
-      ? (meal.price - meal.offerPrice) / meal.price
-      : 0;
-  return discount * 100 + meal.rating * 2 + (meal.cashbackPercent ?? 0);
+  return meal.rating * 10 + (meal.isCombo ? 5 : 0) + (meal.cashbackPercent ?? 0);
 }
 
 export function HomeDesktop() {
@@ -155,7 +151,7 @@ export function HomeDesktop() {
                 <div className="absolute inset-0 bg-gradient-to-t from-black/80 via-black/25 to-transparent" />
                 <div className="absolute inset-x-0 bottom-0 p-6 text-white">
                   <span className="mb-2 inline-block rounded-full bg-accent px-3 py-1 text-[11px] font-bold">
-                    عرض قوي
+                    كومبو
                   </span>
                   <p className="text-xl font-bold lg:text-2xl">{meal.name}</p>
                   <p className="mt-1 text-sm text-white/80">
@@ -196,15 +192,15 @@ export function HomeDesktop() {
         title="عروض قوية"
         subtitle={
           cuisine === "الكل"
-            ? "أفضل الخصومات المتاحة للتوصيل الآن"
-            : `عروض مختارة من مطابخ ${cuisine}`
+            ? "كومبوهات ووجبات كاملة جاهزة للطلب"
+            : `كومبوهات مختارة من مطابخ ${cuisine}`
         }
         href={offersAllHref}
         linkLabel="عرض الكل"
       >
         {offerMeals.length === 0 ? (
           <p className="rounded-3xl border border-dashed border-border bg-surface px-6 py-16 text-center text-muted">
-            لا توجد عروض في «{cuisine}» حالياً
+            لا توجد كومبوهات في «{cuisine}» حالياً
           </p>
         ) : (
           <div className="grid grid-cols-4 gap-5">

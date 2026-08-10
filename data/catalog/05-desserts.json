@@ -58,7 +58,9 @@
               "name": "خبز إضافي",
               "price": 4
             }
-          ]
+          ],
+          "isCombo": false,
+          "comboIncludes": []
         },
         {
           "id": "sukkar-lane-2",
@@ -72,10 +74,10 @@
           "protein": 8,
           "carbs": 48,
           "fat": 28,
-          "category": "offers",
+          "category": "menu",
           "isPopular": false,
-          "isOffer": true,
-          "offerPrice": 28,
+          "isOffer": false,
+          "offerPrice": null,
           "spicyOption": false,
           "cashbackPercent": null,
           "addons": [
@@ -99,7 +101,9 @@
               "name": "خبز إضافي",
               "price": 4
             }
-          ]
+          ],
+          "isCombo": false,
+          "comboIncludes": []
         },
         {
           "id": "sukkar-lane-3",
@@ -140,7 +144,9 @@
               "name": "خبز إضافي",
               "price": 4
             }
-          ]
+          ],
+          "isCombo": false,
+          "comboIncludes": []
         },
         {
           "id": "sukkar-lane-4",
@@ -181,7 +187,9 @@
               "name": "خبز إضافي",
               "price": 4
             }
-          ]
+          ],
+          "isCombo": false,
+          "comboIncludes": []
         },
         {
           "id": "sukkar-lane-5",
@@ -195,10 +203,10 @@
           "protein": 6,
           "carbs": 48,
           "fat": 32,
-          "category": "offers",
+          "category": "menu",
           "isPopular": false,
-          "isOffer": true,
-          "offerPrice": 20,
+          "isOffer": false,
+          "offerPrice": null,
           "spicyOption": false,
           "cashbackPercent": null,
           "addons": [
@@ -222,7 +230,9 @@
               "name": "خبز إضافي",
               "price": 4
             }
-          ]
+          ],
+          "isCombo": false,
+          "comboIncludes": []
         },
         {
           "id": "sukkar-lane-6",
@@ -263,7 +273,9 @@
               "name": "خبز إضافي",
               "price": 4
             }
-          ]
+          ],
+          "isCombo": false,
+          "comboIncludes": []
         },
         {
           "id": "sukkar-lane-7",
@@ -304,7 +316,9 @@
               "name": "خبز إضافي",
               "price": 4
             }
-          ]
+          ],
+          "isCombo": false,
+          "comboIncludes": []
         },
         {
           "id": "sukkar-lane-8",
@@ -345,7 +359,9 @@
               "name": "خبز إضافي",
               "price": 4
             }
-          ]
+          ],
+          "isCombo": false,
+          "comboIncludes": []
         },
         {
           "id": "sukkar-lane-9",
@@ -386,7 +402,9 @@
               "name": "خبز إضافي",
               "price": 4
             }
-          ]
+          ],
+          "isCombo": false,
+          "comboIncludes": []
         },
         {
           "id": "sukkar-lane-10",
@@ -400,12 +418,156 @@
           "protein": 7,
           "carbs": 44,
           "fat": 28,
+          "category": "menu",
+          "isPopular": false,
+          "isOffer": false,
+          "offerPrice": null,
+          "spicyOption": false,
+          "cashbackPercent": 5,
+          "addons": [
+            {
+              "id": "fries",
+              "name": "بطاطس مقلية",
+              "price": 8
+            },
+            {
+              "id": "cola",
+              "name": "كولا",
+              "price": 6
+            },
+            {
+              "id": "sauce",
+              "name": "صلصة إضافية",
+              "price": 3
+            },
+            {
+              "id": "bread",
+              "name": "خبز إضافي",
+              "price": 4
+            }
+          ],
+          "isCombo": false,
+          "comboIncludes": []
+        },
+        {
+          "id": "sukkar-lane-combo-1",
+          "restaurantId": "sukkar-lane",
+          "name": "كومبو حلا وقهوة",
+          "description": "تحلية مع مشروب ساخن.",
+          "image": "https://images.unsplash.com/photo-1488477181946-6428a0291777?w=800&q=80",
+          "price": 36,
+          "rating": 4.6,
+          "calories": 620,
+          "protein": 12,
+          "carbs": 78,
+          "fat": 26,
           "category": "offers",
           "isPopular": false,
           "isOffer": true,
-          "offerPrice": 25,
+          "offerPrice": null,
+          "isCombo": true,
+          "comboIncludes": [
+            "كنافة أو كيك",
+            "لاتيه أو شاي",
+            "تمر"
+          ],
           "spicyOption": false,
-          "cashbackPercent": 5,
+          "cashbackPercent": null,
+          "addons": [
+            {
+              "id": "fries",
+              "name": "بطاطس مقلية",
+              "price": 8
+            },
+            {
+              "id": "cola",
+              "name": "كولا",
+              "price": 6
+            },
+            {
+              "id": "sauce",
+              "name": "صلصة إضافية",
+              "price": 3
+            },
+            {
+              "id": "bread",
+              "name": "خبز إضافي",
+              "price": 4
+            }
+          ]
+        },
+        {
+          "id": "sukkar-lane-combo-2",
+          "restaurantId": "sukkar-lane",
+          "name": "كومبو وافل آيس",
+          "description": "وافل مع آيس كريم وإضافات.",
+          "image": "https://images.unsplash.com/photo-1578985545062-69928b1d9587?w=800&q=80",
+          "price": 42,
+          "rating": 4.6,
+          "calories": 780,
+          "protein": 10,
+          "carbs": 95,
+          "fat": 34,
+          "category": "offers",
+          "isPopular": false,
+          "isOffer": true,
+          "offerPrice": null,
+          "isCombo": true,
+          "comboIncludes": [
+            "وافل",
+            "سكوب آيس كريم",
+            "شوكولاتة",
+            "فراولة"
+          ],
+          "spicyOption": false,
+          "cashbackPercent": null,
+          "addons": [
+            {
+              "id": "fries",
+              "name": "بطاطس مقلية",
+              "price": 8
+            },
+            {
+              "id": "cola",
+              "name": "كولا",
+              "price": 6
+            },
+            {
+              "id": "sauce",
+              "name": "صلصة إضافية",
+              "price": 3
+            },
+            {
+              "id": "bread",
+              "name": "خبز إضافي",
+              "price": 4
+            }
+          ]
+        },
+        {
+          "id": "sukkar-lane-combo-3",
+          "restaurantId": "sukkar-lane",
+          "name": "كومبو بقلاوة وشاي",
+          "description": "بقلاوة مشكلة مع شاي كرك.",
+          "image": "https://images.unsplash.com/photo-1563805042-7684c019e1cb?w=800&q=80",
+          "price": 32,
+          "rating": 4.6,
+          "calories": 540,
+          "protein": 8,
+          "carbs": 62,
+          "fat": 28,
+          "category": "offers",
+          "isPopular": false,
+          "isOffer": true,
+          "offerPrice": null,
+          "isCombo": true,
+          "comboIncludes": [
+            "بقلاوة مشكلة",
+            "شاي كرك",
+            "مكسرات"
+          ],
+          "spicyOption": false,
+          "cashbackPercent": null,
           "addons": [
             {
               "id": "fries",
@@ -489,7 +651,9 @@
               "name": "خبز إضافي",
               "price": 4
             }
-          ]
+          ],
+          "isCombo": false,
+          "comboIncludes": []
         },
         {
           "id": "creamery-riyadh-2",
@@ -530,7 +694,9 @@
               "name": "خبز إضافي",
               "price": 4
             }
-          ]
+          ],
+          "isCombo": false,
+          "comboIncludes": []
         },
         {
           "id": "creamery-riyadh-3",
@@ -544,10 +710,10 @@
           "protein": 8,
           "carbs": 40,
           "fat": 26,
-          "category": "offers",
+          "category": "menu",
           "isPopular": false,
-          "isOffer": true,
-          "offerPrice": 27,
+          "isOffer": false,
+          "offerPrice": null,
           "spicyOption": false,
           "cashbackPercent": 10,
           "addons": [
@@ -571,7 +737,9 @@
               "name": "خبز إضافي",
               "price": 4
             }
-          ]
+          ],
+          "isCombo": false,
+          "comboIncludes": []
         },
         {
           "id": "creamery-riyadh-4",
@@ -612,7 +780,9 @@
               "name": "خبز إضافي",
               "price": 4
             }
-          ]
+          ],
+          "isCombo": false,
+          "comboIncludes": []
         },
         {
           "id": "creamery-riyadh-5",
@@ -653,7 +823,9 @@
               "name": "خبز إضافي",
               "price": 4
             }
-          ]
+          ],
+          "isCombo": false,
+          "comboIncludes": []
         },
         {
           "id": "creamery-riyadh-6",
@@ -694,7 +866,9 @@
               "name": "خبز إضافي",
               "price": 4
             }
-          ]
+          ],
+          "isCombo": false,
+          "comboIncludes": []
         },
         {
           "id": "creamery-riyadh-7",
@@ -735,7 +909,9 @@
               "name": "خبز إضافي",
               "price": 4
             }
-          ]
+          ],
+          "isCombo": false,
+          "comboIncludes": []
         },
         {
           "id": "creamery-riyadh-8",
@@ -776,7 +952,9 @@
               "name": "خبز إضافي",
               "price": 4
             }
-          ]
+          ],
+          "isCombo": false,
+          "comboIncludes": []
         },
         {
           "id": "creamery-riyadh-9",
@@ -817,7 +995,9 @@
               "name": "خبز إضافي",
               "price": 4
             }
-          ]
+          ],
+          "isCombo": false,
+          "comboIncludes": []
         },
         {
           "id": "creamery-riyadh-10",
@@ -831,12 +1011,156 @@
           "protein": 7,
           "carbs": 44,
           "fat": 28,
+          "category": "menu",
+          "isPopular": false,
+          "isOffer": false,
+          "offerPrice": null,
+          "spicyOption": false,
+          "cashbackPercent": 5,
+          "addons": [
+            {
+              "id": "fries",
+              "name": "بطاطس مقلية",
+              "price": 8
+            },
+            {
+              "id": "cola",
+              "name": "كولا",
+              "price": 6
+            },
+            {
+              "id": "sauce",
+              "name": "صلصة إضافية",
+              "price": 3
+            },
+            {
+              "id": "bread",
+              "name": "خبز إضافي",
+              "price": 4
+            }
+          ],
+          "isCombo": false,
+          "comboIncludes": []
+        },
+        {
+          "id": "creamery-riyadh-combo-1",
+          "restaurantId": "creamery-riyadh",
+          "name": "كومبو حلا وقهوة",
+          "description": "تحلية مع مشروب ساخن.",
+          "image": "https://images.unsplash.com/photo-1488477181946-6428a0291777?w=800&q=80",
+          "price": 36,
+          "rating": 4.6,
+          "calories": 620,
+          "protein": 12,
+          "carbs": 78,
+          "fat": 26,
           "category": "offers",
           "isPopular": false,
           "isOffer": true,
-          "offerPrice": 24,
+          "offerPrice": null,
+          "isCombo": true,
+          "comboIncludes": [
+            "كنافة أو كيك",
+            "لاتيه أو شاي",
+            "تمر"
+          ],
           "spicyOption": false,
-          "cashbackPercent": 5,
+          "cashbackPercent": null,
+          "addons": [
+            {
+              "id": "fries",
+              "name": "بطاطس مقلية",
+              "price": 8
+            },
+            {
+              "id": "cola",
+              "name": "كولا",
+              "price": 6
+            },
+            {
+              "id": "sauce",
+              "name": "صلصة إضافية",
+              "price": 3
+            },
+            {
+              "id": "bread",
+              "name": "خبز إضافي",
+              "price": 4
+            }
+          ]
+        },
+        {
+          "id": "creamery-riyadh-combo-2",
+          "restaurantId": "creamery-riyadh",
+          "name": "كومبو وافل آيس",
+          "description": "وافل مع آيس كريم وإضافات.",
+          "image": "https://images.unsplash.com/photo-1578985545062-69928b1d9587?w=800&q=80",
+          "price": 42,
+          "rating": 4.6,
+          "calories": 780,
+          "protein": 10,
+          "carbs": 95,
+          "fat": 34,
+          "category": "offers",
+          "isPopular": false,
+          "isOffer": true,
+          "offerPrice": null,
+          "isCombo": true,
+          "comboIncludes": [
+            "وافل",
+            "سكوب آيس كريم",
+            "شوكولاتة",
+            "فراولة"
+          ],
+          "spicyOption": false,
+          "cashbackPercent": null,
+          "addons": [
+            {
+              "id": "fries",
+              "name": "بطاطس مقلية",
+              "price": 8
+            },
+            {
+              "id": "cola",
+              "name": "كولا",
+              "price": 6
+            },
+            {
+              "id": "sauce",
+              "name": "صلصة إضافية",
+              "price": 3
+            },
+            {
+              "id": "bread",
+              "name": "خبز إضافي",
+              "price": 4
+            }
+          ]
+        },
+        {
+          "id": "creamery-riyadh-combo-3",
+          "restaurantId": "creamery-riyadh",
+          "name": "كومبو بقلاوة وشاي",
+          "description": "بقلاوة مشكلة مع شاي كرك.",
+          "image": "https://images.unsplash.com/photo-1563805042-7684c019e1cb?w=800&q=80",
+          "price": 32,
+          "rating": 4.6,
+          "calories": 540,
+          "protein": 8,
+          "carbs": 62,
+          "fat": 28,
+          "category": "offers",
+          "isPopular": false,
+          "isOffer": true,
+          "offerPrice": null,
+          "isCombo": true,
+          "comboIncludes": [
+            "بقلاوة مشكلة",
+            "شاي كرك",
+            "مكسرات"
+          ],
+          "spicyOption": false,
+          "cashbackPercent": null,
           "addons": [
             {
               "id": "fries",
@@ -893,10 +1217,10 @@
           "protein": 10,
           "carbs": 52,
           "fat": 22,
-          "category": "offers",
+          "category": "menu",
           "isPopular": false,
-          "isOffer": true,
-          "offerPrice": 21,
+          "isOffer": false,
+          "offerPrice": null,
           "spicyOption": false,
           "cashbackPercent": 5,
           "addons": [
@@ -920,7 +1244,9 @@
               "name": "خبز إضافي",
               "price": 4
             }
-          ]
+          ],
+          "isCombo": false,
+          "comboIncludes": []
         },
         {
           "id": "kunafa-lab-2",
@@ -961,7 +1287,9 @@
               "name": "خبز إضافي",
               "price": 4
             }
-          ]
+          ],
+          "isCombo": false,
+          "comboIncludes": []
         },
         {
           "id": "kunafa-lab-3",
@@ -1002,7 +1330,9 @@
               "name": "خبز إضافي",
               "price": 4
             }
-          ]
+          ],
+          "isCombo": false,
+          "comboIncludes": []
         },
         {
           "id": "kunafa-lab-4",
@@ -1043,7 +1373,9 @@
               "name": "خبز إضافي",
               "price": 4
             }
-          ]
+          ],
+          "isCombo": false,
+          "comboIncludes": []
         },
         {
           "id": "kunafa-lab-5",
@@ -1084,7 +1416,9 @@
               "name": "خبز إضافي",
               "price": 4
             }
-          ]
+          ],
+          "isCombo": false,
+          "comboIncludes": []
         },
         {
           "id": "kunafa-lab-6",
@@ -1098,10 +1432,10 @@
           "protein": 4,
           "carbs": 32,
           "fat": 14,
-          "category": "offers",
+          "category": "menu",
           "isPopular": false,
-          "isOffer": true,
-          "offerPrice": 14,
+          "isOffer": false,
+          "offerPrice": null,
           "spicyOption": false,
           "cashbackPercent": 5,
           "addons": [
@@ -1125,7 +1459,9 @@
               "name": "خبز إضافي",
               "price": 4
             }
-          ]
+          ],
+          "isCombo": false,
+          "comboIncludes": []
         },
         {
           "id": "kunafa-lab-7",
@@ -1166,7 +1502,9 @@
               "name": "خبز إضافي",
               "price": 4
             }
-          ]
+          ],
+          "isCombo": false,
+          "comboIncludes": []
         },
         {
           "id": "kunafa-lab-8",
@@ -1180,10 +1518,10 @@
           "protein": 6,
           "carbs": 40,
           "fat": 16,
-          "category": "offers",
+          "category": "menu",
           "isPopular": false,
-          "isOffer": true,
-          "offerPrice": 19,
+          "isOffer": false,
+          "offerPrice": null,
           "spicyOption": false,
           "cashbackPercent": null,
           "addons": [
@@ -1207,7 +1545,9 @@
               "name": "خبز إضافي",
               "price": 4
             }
-          ]
+          ],
+          "isCombo": false,
+          "comboIncludes": []
         },
         {
           "id": "kunafa-lab-9",
@@ -1248,7 +1588,9 @@
               "name": "خبز إضافي",
               "price": 4
             }
-          ]
+          ],
+          "isCombo": false,
+          "comboIncludes": []
         },
         {
           "id": "kunafa-lab-10",
@@ -1266,6 +1608,150 @@
           "isPopular": false,
           "isOffer": false,
           "offerPrice": null,
+          "spicyOption": false,
+          "cashbackPercent": null,
+          "addons": [
+            {
+              "id": "fries",
+              "name": "بطاطس مقلية",
+              "price": 8
+            },
+            {
+              "id": "cola",
+              "name": "كولا",
+              "price": 6
+            },
+            {
+              "id": "sauce",
+              "name": "صلصة إضافية",
+              "price": 3
+            },
+            {
+              "id": "bread",
+              "name": "خبز إضافي",
+              "price": 4
+            }
+          ],
+          "isCombo": false,
+          "comboIncludes": []
+        },
+        {
+          "id": "kunafa-lab-combo-1",
+          "restaurantId": "kunafa-lab",
+          "name": "كومبو حلا وقهوة",
+          "description": "تحلية مع مشروب ساخن.",
+          "image": "https://images.unsplash.com/photo-1488477181946-6428a0291777?w=800&q=80",
+          "price": 36,
+          "rating": 4.6,
+          "calories": 620,
+          "protein": 12,
+          "carbs": 78,
+          "fat": 26,
+          "category": "offers",
+          "isPopular": false,
+          "isOffer": true,
+          "offerPrice": null,
+          "isCombo": true,
+          "comboIncludes": [
+            "كنافة أو كيك",
+            "لاتيه أو شاي",
+            "تمر"
+          ],
+          "spicyOption": false,
+          "cashbackPercent": null,
+          "addons": [
+            {
+              "id": "fries",
+              "name": "بطاطس مقلية",
+              "price": 8
+            },
+            {
+              "id": "cola",
+              "name": "كولا",
+              "price": 6
+            },
+            {
+              "id": "sauce",
+              "name": "صلصة إضافية",
+              "price": 3
+            },
+            {
+              "id": "bread",
+              "name": "خبز إضافي",
+              "price": 4
+            }
+          ]
+        },
+        {
+          "id": "kunafa-lab-combo-2",
+          "restaurantId": "kunafa-lab",
+          "name": "كومبو وافل آيس",
+          "description": "وافل مع آيس كريم وإضافات.",
+          "image": "https://images.unsplash.com/photo-1578985545062-69928b1d9587?w=800&q=80",
+          "price": 42,
+          "rating": 4.6,
+          "calories": 780,
+          "protein": 10,
+          "carbs": 95,
+          "fat": 34,
+          "category": "offers",
+          "isPopular": false,
+          "isOffer": true,
+          "offerPrice": null,
+          "isCombo": true,
+          "comboIncludes": [
+            "وافل",
+            "سكوب آيس كريم",
+            "شوكولاتة",
+            "فراولة"
+          ],
+          "spicyOption": false,
+          "cashbackPercent": null,
+          "addons": [
+            {
+              "id": "fries",
+              "name": "بطاطس مقلية",
+              "price": 8
+            },
+            {
+              "id": "cola",
+              "name": "كولا",
+              "price": 6
+            },
+            {
+              "id": "sauce",
+              "name": "صلصة إضافية",
+              "price": 3
+            },
+            {
+              "id": "bread",
+              "name": "خبز إضافي",
+              "price": 4
+            }
+          ]
+        },
+        {
+          "id": "kunafa-lab-combo-3",
+          "restaurantId": "kunafa-lab",
+          "name": "كومبو بقلاوة وشاي",
+          "description": "بقلاوة مشكلة مع شاي كرك.",
+          "image": "https://images.unsplash.com/photo-1563805042-7684c019e1cb?w=800&q=80",
+          "price": 32,
+          "rating": 4.6,
+          "calories": 540,
+          "protein": 8,
+          "carbs": 62,
+          "fat": 28,
+          "category": "offers",
+          "isPopular": false,
+          "isOffer": true,
+          "offerPrice": null,
+          "isCombo": true,
+          "comboIncludes": [
+            "بقلاوة مشكلة",
+            "شاي كرك",
+            "مكسرات"
+          ],
           "spicyOption": false,
           "cashbackPercent": null,
           "addons": [
@@ -1351,7 +1837,9 @@
               "name": "خبز إضافي",
               "price": 4
             }
-          ]
+          ],
+          "isCombo": false,
+          "comboIncludes": []
         },
         {
           "id": "choc-atelier-2",
@@ -1365,10 +1853,10 @@
           "protein": 8,
           "carbs": 48,
           "fat": 28,
-          "category": "offers",
+          "category": "menu",
           "isPopular": false,
-          "isOffer": true,
-          "offerPrice": 27,
+          "isOffer": false,
+          "offerPrice": null,
           "spicyOption": false,
           "cashbackPercent": null,
           "addons": [
@@ -1392,7 +1880,9 @@
               "name": "خبز إضافي",
               "price": 4
             }
-          ]
+          ],
+          "isCombo": false,
+          "comboIncludes": []
         },
         {
           "id": "choc-atelier-3",
@@ -1433,7 +1923,9 @@
               "name": "خبز إضافي",
               "price": 4
             }
-          ]
+          ],
+          "isCombo": false,
+          "comboIncludes": []
         },
         {
           "id": "choc-atelier-4",
@@ -1474,7 +1966,9 @@
               "name": "خبز إضافي",
               "price": 4
             }
-          ]
+          ],
+          "isCombo": false,
+          "comboIncludes": []
         },
         {
           "id": "choc-atelier-5",
@@ -1515,7 +2009,9 @@
               "name": "خبز إضافي",
               "price": 4
             }
-          ]
+          ],
+          "isCombo": false,
+          "comboIncludes": []
         },
         {
           "id": "choc-atelier-6",
@@ -1556,7 +2052,9 @@
               "name": "خبز إضافي",
               "price": 4
             }
-          ]
+          ],
+          "isCombo": false,
+          "comboIncludes": []
         },
         {
           "id": "choc-atelier-7",
@@ -1597,7 +2095,9 @@
               "name": "خبز إضافي",
               "price": 4
             }
-          ]
+          ],
+          "isCombo": false,
+          "comboIncludes": []
         },
         {
           "id": "choc-atelier-8",
@@ -1638,7 +2138,9 @@
               "name": "خبز إضافي",
               "price": 4
             }
-          ]
+          ],
+          "isCombo": false,
+          "comboIncludes": []
         },
         {
           "id": "choc-atelier-9",
@@ -1679,7 +2181,9 @@
               "name": "خبز إضافي",
               "price": 4
             }
-          ]
+          ],
+          "isCombo": false,
+          "comboIncludes": []
         },
         {
           "id": "choc-atelier-10",
@@ -1697,6 +2201,150 @@
           "isPopular": true,
           "isOffer": false,
           "offerPrice": null,
+          "spicyOption": false,
+          "cashbackPercent": null,
+          "addons": [
+            {
+              "id": "fries",
+              "name": "بطاطس مقلية",
+              "price": 8
+            },
+            {
+              "id": "cola",
+              "name": "كولا",
+              "price": 6
+            },
+            {
+              "id": "sauce",
+              "name": "صلصة إضافية",
+              "price": 3
+            },
+            {
+              "id": "bread",
+              "name": "خبز إضافي",
+              "price": 4
+            }
+          ],
+          "isCombo": false,
+          "comboIncludes": []
+        },
+        {
+          "id": "choc-atelier-combo-1",
+          "restaurantId": "choc-atelier",
+          "name": "كومبو حلا وقهوة",
+          "description": "تحلية مع مشروب ساخن.",
+          "image": "https://images.unsplash.com/photo-1488477181946-6428a0291777?w=800&q=80",
+          "price": 36,
+          "rating": 4.6,
+          "calories": 620,
+          "protein": 12,
+          "carbs": 78,
+          "fat": 26,
+          "category": "offers",
+          "isPopular": false,
+          "isOffer": true,
+          "offerPrice": null,
+          "isCombo": true,
+          "comboIncludes": [
+            "كنافة أو كيك",
+            "لاتيه أو شاي",
+            "تمر"
+          ],
+          "spicyOption": false,
+          "cashbackPercent": null,
+          "addons": [
+            {
+              "id": "fries",
+              "name": "بطاطس مقلية",
+              "price": 8
+            },
+            {
+              "id": "cola",
+              "name": "كولا",
+              "price": 6
+            },
+            {
+              "id": "sauce",
+              "name": "صلصة إضافية",
+              "price": 3
+            },
+            {
+              "id": "bread",
+              "name": "خبز إضافي",
+              "price": 4
+            }
+          ]
+        },
+        {
+          "id": "choc-atelier-combo-2",
+          "restaurantId": "choc-atelier",
+          "name": "كومبو وافل آيس",
+          "description": "وافل مع آيس كريم وإضافات.",
+          "image": "https://images.unsplash.com/photo-1578985545062-69928b1d9587?w=800&q=80",
+          "price": 42,
+          "rating": 4.6,
+          "calories": 780,
+          "protein": 10,
+          "carbs": 95,
+          "fat": 34,
+          "category": "offers",
+          "isPopular": false,
+          "isOffer": true,
+          "offerPrice": null,
+          "isCombo": true,
+          "comboIncludes": [
+            "وافل",
+            "سكوب آيس كريم",
+            "شوكولاتة",
+            "فراولة"
+          ],
+          "spicyOption": false,
+          "cashbackPercent": null,
+          "addons": [
+            {
+              "id": "fries",
+              "name": "بطاطس مقلية",
+              "price": 8
+            },
+            {
+              "id": "cola",
+              "name": "كولا",
+              "price": 6
+            },
+            {
+              "id": "sauce",
+              "name": "صلصة إضافية",
+              "price": 3
+            },
+            {
+              "id": "bread",
+              "name": "خبز إضافي",
+              "price": 4
+            }
+          ]
+        },
+        {
+          "id": "choc-atelier-combo-3",
+          "restaurantId": "choc-atelier",
+          "name": "كومبو بقلاوة وشاي",
+          "description": "بقلاوة مشكلة مع شاي كرك.",
+          "image": "https://images.unsplash.com/photo-1563805042-7684c019e1cb?w=800&q=80",
+          "price": 32,
+          "rating": 4.6,
+          "calories": 540,
+          "protein": 8,
+          "carbs": 62,
+          "fat": 28,
+          "category": "offers",
+          "isPopular": false,
+          "isOffer": true,
+          "offerPrice": null,
+          "isCombo": true,
+          "comboIncludes": [
+            "بقلاوة مشكلة",
+            "شاي كرك",
+            "مكسرات"
+          ],
           "spicyOption": false,
           "cashbackPercent": null,
           "addons": [
@@ -1755,10 +2403,10 @@
           "protein": 10,
           "carbs": 52,
           "fat": 22,
-          "category": "offers",
+          "category": "menu",
           "isPopular": false,
-          "isOffer": true,
-          "offerPrice": 22,
+          "isOffer": false,
+          "offerPrice": null,
           "spicyOption": false,
           "cashbackPercent": null,
           "addons": [
@@ -1782,7 +2430,9 @@
               "name": "خبز إضافي",
               "price": 4
             }
-          ]
+          ],
+          "isCombo": false,
+          "comboIncludes": []
         },
         {
           "id": "date-delight-2",
@@ -1796,10 +2446,10 @@
           "protein": 8,
           "carbs": 48,
           "fat": 28,
-          "category": "offers",
+          "category": "menu",
           "isPopular": false,
-          "isOffer": true,
-          "offerPrice": 27,
+          "isOffer": false,
+          "offerPrice": null,
           "spicyOption": false,
           "cashbackPercent": 15,
           "addons": [
@@ -1823,7 +2473,9 @@
               "name": "خبز إضافي",
               "price": 4
             }
-          ]
+          ],
+          "isCombo": false,
+          "comboIncludes": []
         },
         {
           "id": "date-delight-3",
@@ -1864,7 +2516,9 @@
               "name": "خبز إضافي",
               "price": 4
             }
-          ]
+          ],
+          "isCombo": false,
+          "comboIncludes": []
         },
         {
           "id": "date-delight-4",
@@ -1878,10 +2532,10 @@
           "protein": 10,
           "carbs": 70,
           "fat": 28,
-          "category": "offers",
+          "category": "menu",
           "isPopular": false,
-          "isOffer": true,
-          "offerPrice": 29,
+          "isOffer": false,
+          "offerPrice": null,
           "spicyOption": false,
           "cashbackPercent": 10,
           "addons": [
@@ -1905,7 +2559,9 @@
               "name": "خبز إضافي",
               "price": 4
             }
-          ]
+          ],
+          "isCombo": false,
+          "comboIncludes": []
         },
         {
           "id": "date-delight-5",
@@ -1946,7 +2602,9 @@
               "name": "خبز إضافي",
               "price": 4
             }
-          ]
+          ],
+          "isCombo": false,
+          "comboIncludes": []
         },
         {
           "id": "date-delight-6",
@@ -1987,7 +2645,9 @@
               "name": "خبز إضافي",
               "price": 4
             }
-          ]
+          ],
+          "isCombo": false,
+          "comboIncludes": []
         },
         {
           "id": "date-delight-7",
@@ -2001,10 +2661,10 @@
           "protein": 5,
           "carbs": 50,
           "fat": 18,
-          "category": "offers",
+          "category": "menu",
           "isPopular": false,
-          "isOffer": true,
-          "offerPrice": 18,
+          "isOffer": false,
+          "offerPrice": null,
           "spicyOption": false,
           "cashbackPercent": 5,
           "addons": [
@@ -2028,7 +2688,9 @@
               "name": "خبز إضافي",
               "price": 4
             }
-          ]
+          ],
+          "isCombo": false,
+          "comboIncludes": []
         },
         {
           "id": "date-delight-8",
@@ -2069,7 +2731,9 @@
               "name": "خبز إضافي",
               "price": 4
             }
-          ]
+          ],
+          "isCombo": false,
+          "comboIncludes": []
         },
         {
           "id": "date-delight-9",
@@ -2110,7 +2774,9 @@
               "name": "خبز إضافي",
               "price": 4
             }
-          ]
+          ],
+          "isCombo": false,
+          "comboIncludes": []
         },
         {
           "id": "date-delight-10",
@@ -2124,10 +2790,154 @@
           "protein": 7,
           "carbs": 44,
           "fat": 28,
+          "category": "menu",
+          "isPopular": false,
+          "isOffer": false,
+          "offerPrice": null,
+          "spicyOption": false,
+          "cashbackPercent": null,
+          "addons": [
+            {
+              "id": "fries",
+              "name": "بطاطس مقلية",
+              "price": 8
+            },
+            {
+              "id": "cola",
+              "name": "كولا",
+              "price": 6
+            },
+            {
+              "id": "sauce",
+              "name": "صلصة إضافية",
+              "price": 3
+            },
+            {
+              "id": "bread",
+              "name": "خبز إضافي",
+              "price": 4
+            }
+          ],
+          "isCombo": false,
+          "comboIncludes": []
+        },
+        {
+          "id": "date-delight-combo-1",
+          "restaurantId": "date-delight",
+          "name": "كومبو حلا وقهوة",
+          "description": "تحلية مع مشروب ساخن.",
+          "image": "https://images.unsplash.com/photo-1488477181946-6428a0291777?w=800&q=80",
+          "price": 36,
+          "rating": 4.6,
+          "calories": 620,
+          "protein": 12,
+          "carbs": 78,
+          "fat": 26,
           "category": "offers",
           "isPopular": false,
           "isOffer": true,
-          "offerPrice": 26,
+          "offerPrice": null,
+          "isCombo": true,
+          "comboIncludes": [
+            "كنافة أو كيك",
+            "لاتيه أو شاي",
+            "تمر"
+          ],
+          "spicyOption": false,
+          "cashbackPercent": null,
+          "addons": [
+            {
+              "id": "fries",
+              "name": "بطاطس مقلية",
+              "price": 8
+            },
+            {
+              "id": "cola",
+              "name": "كولا",
+              "price": 6
+            },
+            {
+              "id": "sauce",
+              "name": "صلصة إضافية",
+              "price": 3
+            },
+            {
+              "id": "bread",
+              "name": "خبز إضافي",
+              "price": 4
+            }
+          ]
+        },
+        {
+          "id": "date-delight-combo-2",
+          "restaurantId": "date-delight",
+          "name": "كومبو وافل آيس",
+          "description": "وافل مع آيس كريم وإضافات.",
+          "image": "https://images.unsplash.com/photo-1578985545062-69928b1d9587?w=800&q=80",
+          "price": 42,
+          "rating": 4.6,
+          "calories": 780,
+          "protein": 10,
+          "carbs": 95,
+          "fat": 34,
+          "category": "offers",
+          "isPopular": false,
+          "isOffer": true,
+          "offerPrice": null,
+          "isCombo": true,
+          "comboIncludes": [
+            "وافل",
+            "سكوب آيس كريم",
+            "شوكولاتة",
+            "فراولة"
+          ],
+          "spicyOption": false,
+          "cashbackPercent": null,
+          "addons": [
+            {
+              "id": "fries",
+              "name": "بطاطس مقلية",
+              "price": 8
+            },
+            {
+              "id": "cola",
+              "name": "كولا",
+              "price": 6
+            },
+            {
+              "id": "sauce",
+              "name": "صلصة إضافية",
+              "price": 3
+            },
+            {
+              "id": "bread",
+              "name": "خبز إضافي",
+              "price": 4
+            }
+          ]
+        },
+        {
+          "id": "date-delight-combo-3",
+          "restaurantId": "date-delight",
+          "name": "كومبو بقلاوة وشاي",
+          "description": "بقلاوة مشكلة مع شاي كرك.",
+          "image": "https://images.unsplash.com/photo-1563805042-7684c019e1cb?w=800&q=80",
+          "price": 32,
+          "rating": 4.6,
+          "calories": 540,
+          "protein": 8,
+          "carbs": 62,
+          "fat": 28,
+          "category": "offers",
+          "isPopular": false,
+          "isOffer": true,
+          "offerPrice": null,
+          "isCombo": true,
+          "comboIncludes": [
+            "بقلاوة مشكلة",
+            "شاي كرك",
+            "مكسرات"
+          ],
           "spicyOption": false,
           "cashbackPercent": null,
           "addons": [
@@ -2186,10 +2996,10 @@
           "protein": 10,
           "carbs": 52,
           "fat": 22,
-          "category": "offers",
+          "category": "menu",
           "isPopular": false,
-          "isOffer": true,
-          "offerPrice": 22,
+          "isOffer": false,
+          "offerPrice": null,
           "spicyOption": false,
           "cashbackPercent": 5,
           "addons": [
@@ -2213,7 +3023,9 @@
               "name": "خبز إضافي",
               "price": 4
             }
-          ]
+          ],
+          "isCombo": false,
+          "comboIncludes": []
         },
         {
           "id": "waffle-nest-2",
@@ -2254,7 +3066,9 @@
               "name": "خبز إضافي",
               "price": 4
             }
-          ]
+          ],
+          "isCombo": false,
+          "comboIncludes": []
         },
         {
           "id": "waffle-nest-3",
@@ -2295,7 +3109,9 @@
               "name": "خبز إضافي",
               "price": 4
             }
-          ]
+          ],
+          "isCombo": false,
+          "comboIncludes": []
         },
         {
           "id": "waffle-nest-4",
@@ -2336,7 +3152,9 @@
               "name": "خبز إضافي",
               "price": 4
             }
-          ]
+          ],
+          "isCombo": false,
+          "comboIncludes": []
         },
         {
           "id": "waffle-nest-5",
@@ -2377,7 +3195,9 @@
               "name": "خبز إضافي",
               "price": 4
             }
-          ]
+          ],
+          "isCombo": false,
+          "comboIncludes": []
         },
         {
           "id": "waffle-nest-6",
@@ -2418,7 +3238,9 @@
               "name": "خبز إضافي",
               "price": 4
             }
-          ]
+          ],
+          "isCombo": false,
+          "comboIncludes": []
         },
         {
           "id": "waffle-nest-7",
@@ -2459,7 +3281,9 @@
               "name": "خبز إضافي",
               "price": 4
             }
-          ]
+          ],
+          "isCombo": false,
+          "comboIncludes": []
         },
         {
           "id": "waffle-nest-8",
@@ -2500,7 +3324,9 @@
               "name": "خبز إضافي",
               "price": 4
             }
-          ]
+          ],
+          "isCombo": false,
+          "comboIncludes": []
         },
         {
           "id": "waffle-nest-9",
@@ -2514,10 +3340,102 @@
           "protein": 8,
           "carbs": 38,
           "fat": 24,
+          "category": "menu",
+          "isPopular": false,
+          "isOffer": false,
+          "offerPrice": null,
+          "spicyOption": false,
+          "cashbackPercent": null,
+          "addons": [
+            {
+              "id": "fries",
+              "name": "بطاطس مقلية",
+              "price": 8
+            },
+            {
+              "id": "cola",
+              "name": "كولا",
+              "price": 6
+            },
+            {
+              "id": "sauce",
+              "name": "صلصة إضافية",
+              "price": 3
+            },
+            {
+              "id": "bread",
+              "name": "خبز إضافي",
+              "price": 4
+            }
+          ],
+          "isCombo": false,
+          "comboIncludes": []
+        },
+        {
+          "id": "waffle-nest-10",
+          "restaurantId": "waffle-nest",
+          "name": "مولتن كيك",
+          "description": "كيكة شوكولاتة سائلة من الداخل.",
+          "image": "https://images.unsplash.com/photo-1600891964599-f61ba0e24092?w=800&q=80",
+          "price": 29,
+          "rating": 4.2,
+          "calories": 490,
+          "protein": 7,
+          "carbs": 44,
+          "fat": 28,
+          "category": "menu",
+          "isPopular": false,
+          "isOffer": false,
+          "offerPrice": null,
+          "spicyOption": false,
+          "cashbackPercent": null,
+          "addons": [
+            {
+              "id": "fries",
+              "name": "بطاطس مقلية",
+              "price": 8
+            },
+            {
+              "id": "cola",
+              "name": "كولا",
+              "price": 6
+            },
+            {
+              "id": "sauce",
+              "name": "صلصة إضافية",
+              "price": 3
+            },
+            {
+              "id": "bread",
+              "name": "خبز إضافي",
+              "price": 4
+            }
+          ],
+          "isCombo": false,
+          "comboIncludes": []
+        },
+        {
+          "id": "waffle-nest-combo-1",
+          "restaurantId": "waffle-nest",
+          "name": "كومبو حلا وقهوة",
+          "description": "تحلية مع مشروب ساخن.",
+          "image": "https://images.unsplash.com/photo-1488477181946-6428a0291777?w=800&q=80",
+          "price": 36,
+          "rating": 4.6,
+          "calories": 620,
+          "protein": 12,
+          "carbs": 78,
+          "fat": 26,
           "category": "offers",
           "isPopular": false,
           "isOffer": true,
-          "offerPrice": 27,
+          "offerPrice": null,
+          "isCombo": true,
+          "comboIncludes": [
+            "كنافة أو كيك",
+            "لاتيه أو شاي",
+            "تمر"
+          ],
           "spicyOption": false,
           "cashbackPercent": null,
           "addons": [
@@ -2544,21 +3462,75 @@
           ]
         },
         {
-          "id": "waffle-nest-10",
+          "id": "waffle-nest-combo-2",
           "restaurantId": "waffle-nest",
-          "name": "مولتن كيك",
-          "description": "كيكة شوكولاتة سائلة من الداخل.",
-          "image": "https://images.unsplash.com/photo-1600891964599-f61ba0e24092?w=800&q=80",
-          "price": 29,
-          "rating": 4.2,
-          "calories": 490,
-          "protein": 7,
-          "carbs": 44,
-          "fat": 28,
-          "category": "menu",
+          "name": "كومبو وافل آيس",
+          "description": "وافل مع آيس كريم وإضافات.",
+          "image": "https://images.unsplash.com/photo-1578985545062-69928b1d9587?w=800&q=80",
+          "price": 42,
+          "rating": 4.6,
+          "calories": 780,
+          "protein": 10,
+          "carbs": 95,
+          "fat": 34,
+          "category": "offers",
           "isPopular": false,
-          "isOffer": false,
+          "isOffer": true,
           "offerPrice": null,
+          "isCombo": true,
+          "comboIncludes": [
+            "وافل",
+            "سكوب آيس كريم",
+            "شوكولاتة",
+            "فراولة"
+          ],
+          "spicyOption": false,
+          "cashbackPercent": null,
+          "addons": [
+            {
+              "id": "fries",
+              "name": "بطاطس مقلية",
+              "price": 8
+            },
+            {
+              "id": "cola",
+              "name": "كولا",
+              "price": 6
+            },
+            {
+              "id": "sauce",
+              "name": "صلصة إضافية",
+              "price": 3
+            },
+            {
+              "id": "bread",
+              "name": "خبز إضافي",
+              "price": 4
+            }
+          ]
+        },
+        {
+          "id": "waffle-nest-combo-3",
+          "restaurantId": "waffle-nest",
+          "name": "كومبو بقلاوة وشاي",
+          "description": "بقلاوة مشكلة مع شاي كرك.",
+          "image": "https://images.unsplash.com/photo-1563805042-7684c019e1cb?w=800&q=80",
+          "price": 32,
+          "rating": 4.6,
+          "calories": 540,
+          "protein": 8,
+          "carbs": 62,
+          "fat": 28,
+          "category": "offers",
+          "isPopular": false,
+          "isOffer": true,
+          "offerPrice": null,
+          "isCombo": true,
+          "comboIncludes": [
+            "بقلاوة مشكلة",
+            "شاي كرك",
+            "مكسرات"
+          ],
           "spicyOption": false,
           "cashbackPercent": null,
           "addons": [
@@ -2644,7 +3616,9 @@
               "name": "خبز إضافي",
               "price": 4
             }
-          ]
+          ],
+          "isCombo": false,
+          "comboIncludes": []
         },
         {
           "id": "baklava-house-2",
@@ -2658,10 +3632,10 @@
           "protein": 8,
           "carbs": 48,
           "fat": 28,
-          "category": "offers",
+          "category": "menu",
           "isPopular": false,
-          "isOffer": true,
-          "offerPrice": 27,
+          "isOffer": false,
+          "offerPrice": null,
           "spicyOption": false,
           "cashbackPercent": null,
           "addons": [
@@ -2685,7 +3659,9 @@
               "name": "خبز إضافي",
               "price": 4
             }
-          ]
+          ],
+          "isCombo": false,
+          "comboIncludes": []
         },
         {
           "id": "baklava-house-3",
@@ -2726,7 +3702,9 @@
               "name": "خبز إضافي",
               "price": 4
             }
-          ]
+          ],
+          "isCombo": false,
+          "comboIncludes": []
         },
         {
           "id": "baklava-house-4",
@@ -2767,7 +3745,9 @@
               "name": "خبز إضافي",
               "price": 4
             }
-          ]
+          ],
+          "isCombo": false,
+          "comboIncludes": []
         },
         {
           "id": "baklava-house-5",
@@ -2808,7 +3788,9 @@
               "name": "خبز إضافي",
               "price": 4
             }
-          ]
+          ],
+          "isCombo": false,
+          "comboIncludes": []
         },
         {
           "id": "baklava-house-6",
@@ -2849,7 +3831,9 @@
               "name": "خبز إضافي",
               "price": 4
             }
-          ]
+          ],
+          "isCombo": false,
+          "comboIncludes": []
         },
         {
           "id": "baklava-house-7",
@@ -2890,7 +3874,9 @@
               "name": "خبز إضافي",
               "price": 4
             }
-          ]
+          ],
+          "isCombo": false,
+          "comboIncludes": []
         },
         {
           "id": "baklava-house-8",
@@ -2931,7 +3917,9 @@
               "name": "خبز إضافي",
               "price": 4
             }
-          ]
+          ],
+          "isCombo": false,
+          "comboIncludes": []
         },
         {
           "id": "baklava-house-9",
@@ -2972,7 +3960,9 @@
               "name": "خبز إضافي",
               "price": 4
             }
-          ]
+          ],
+          "isCombo": false,
+          "comboIncludes": []
         },
         {
           "id": "baklava-house-10",
@@ -2990,6 +3980,150 @@
           "isPopular": false,
           "isOffer": false,
           "offerPrice": null,
+          "spicyOption": false,
+          "cashbackPercent": null,
+          "addons": [
+            {
+              "id": "fries",
+              "name": "بطاطس مقلية",
+              "price": 8
+            },
+            {
+              "id": "cola",
+              "name": "كولا",
+              "price": 6
+            },
+            {
+              "id": "sauce",
+              "name": "صلصة إضافية",
+              "price": 3
+            },
+            {
+              "id": "bread",
+              "name": "خبز إضافي",
+              "price": 4
+            }
+          ],
+          "isCombo": false,
+          "comboIncludes": []
+        },
+        {
+          "id": "baklava-house-combo-1",
+          "restaurantId": "baklava-house",
+          "name": "كومبو حلا وقهوة",
+          "description": "تحلية مع مشروب ساخن.",
+          "image": "https://images.unsplash.com/photo-1488477181946-6428a0291777?w=800&q=80",
+          "price": 36,
+          "rating": 4.6,
+          "calories": 620,
+          "protein": 12,
+          "carbs": 78,
+          "fat": 26,
+          "category": "offers",
+          "isPopular": false,
+          "isOffer": true,
+          "offerPrice": null,
+          "isCombo": true,
+          "comboIncludes": [
+            "كنافة أو كيك",
+            "لاتيه أو شاي",
+            "تمر"
+          ],
+          "spicyOption": false,
+          "cashbackPercent": null,
+          "addons": [
+            {
+              "id": "fries",
+              "name": "بطاطس مقلية",
+              "price": 8
+            },
+            {
+              "id": "cola",
+              "name": "كولا",
+              "price": 6
+            },
+            {
+              "id": "sauce",
+              "name": "صلصة إضافية",
+              "price": 3
+            },
+            {
+              "id": "bread",
+              "name": "خبز إضافي",
+              "price": 4
+            }
+          ]
+        },
+        {
+          "id": "baklava-house-combo-2",
+          "restaurantId": "baklava-house",
+          "name": "كومبو وافل آيس",
+          "description": "وافل مع آيس كريم وإضافات.",
+          "image": "https://images.unsplash.com/photo-1578985545062-69928b1d9587?w=800&q=80",
+          "price": 42,
+          "rating": 4.6,
+          "calories": 780,
+          "protein": 10,
+          "carbs": 95,
+          "fat": 34,
+          "category": "offers",
+          "isPopular": false,
+          "isOffer": true,
+          "offerPrice": null,
+          "isCombo": true,
+          "comboIncludes": [
+            "وافل",
+            "سكوب آيس كريم",
+            "شوكولاتة",
+            "فراولة"
+          ],
+          "spicyOption": false,
+          "cashbackPercent": null,
+          "addons": [
+            {
+              "id": "fries",
+              "name": "بطاطس مقلية",
+              "price": 8
+            },
+            {
+              "id": "cola",
+              "name": "كولا",
+              "price": 6
+            },
+            {
+              "id": "sauce",
+              "name": "صلصة إضافية",
+              "price": 3
+            },
+            {
+              "id": "bread",
+              "name": "خبز إضافي",
+              "price": 4
+            }
+          ]
+        },
+        {
+          "id": "baklava-house-combo-3",
+          "restaurantId": "baklava-house",
+          "name": "كومبو بقلاوة وشاي",
+          "description": "بقلاوة مشكلة مع شاي كرك.",
+          "image": "https://images.unsplash.com/photo-1563805042-7684c019e1cb?w=800&q=80",
+          "price": 32,
+          "rating": 4.6,
+          "calories": 540,
+          "protein": 8,
+          "carbs": 62,
+          "fat": 28,
+          "category": "offers",
+          "isPopular": false,
+          "isOffer": true,
+          "offerPrice": null,
+          "isCombo": true,
+          "comboIncludes": [
+            "بقلاوة مشكلة",
+            "شاي كرك",
+            "مكسرات"
+          ],
           "spicyOption": false,
           "cashbackPercent": null,
           "addons": [
@@ -3075,7 +4209,9 @@
               "name": "خبز إضافي",
               "price": 4
             }
-          ]
+          ],
+          "isCombo": false,
+          "comboIncludes": []
         },
         {
           "id": "sweet-noon-2",
@@ -3116,7 +4252,9 @@
               "name": "خبز إضافي",
               "price": 4
             }
-          ]
+          ],
+          "isCombo": false,
+          "comboIncludes": []
         },
         {
           "id": "sweet-noon-3",
@@ -3157,7 +4295,9 @@
               "name": "خبز إضافي",
               "price": 4
             }
-          ]
+          ],
+          "isCombo": false,
+          "comboIncludes": []
         },
         {
           "id": "sweet-noon-4",
@@ -3198,7 +4338,9 @@
               "name": "خبز إضافي",
               "price": 4
             }
-          ]
+          ],
+          "isCombo": false,
+          "comboIncludes": []
         },
         {
           "id": "sweet-noon-5",
@@ -3212,10 +4354,10 @@
           "protein": 6,
           "carbs": 48,
           "fat": 32,
-          "category": "offers",
+          "category": "menu",
           "isPopular": false,
-          "isOffer": true,
-          "offerPrice": 21,
+          "isOffer": false,
+          "offerPrice": null,
           "spicyOption": false,
           "cashbackPercent": 10,
           "addons": [
@@ -3239,7 +4381,9 @@
               "name": "خبز إضافي",
               "price": 4
             }
-          ]
+          ],
+          "isCombo": false,
+          "comboIncludes": []
         },
         {
           "id": "sweet-noon-6",
@@ -3253,10 +4397,10 @@
           "protein": 4,
           "carbs": 32,
           "fat": 14,
-          "category": "offers",
+          "category": "menu",
           "isPopular": false,
-          "isOffer": true,
-          "offerPrice": 14,
+          "isOffer": false,
+          "offerPrice": null,
           "spicyOption": false,
           "cashbackPercent": 5,
           "addons": [
@@ -3280,7 +4424,9 @@
               "name": "خبز إضافي",
               "price": 4
             }
-          ]
+          ],
+          "isCombo": false,
+          "comboIncludes": []
         },
         {
           "id": "sweet-noon-7",
@@ -3321,7 +4467,9 @@
               "name": "خبز إضافي",
               "price": 4
             }
-          ]
+          ],
+          "isCombo": false,
+          "comboIncludes": []
         },
         {
           "id": "sweet-noon-8",
@@ -3335,10 +4483,10 @@
           "protein": 6,
           "carbs": 40,
           "fat": 16,
-          "category": "offers",
+          "category": "menu",
           "isPopular": false,
-          "isOffer": true,
-          "offerPrice": 20,
+          "isOffer": false,
+          "offerPrice": null,
           "spicyOption": false,
           "cashbackPercent": null,
           "addons": [
@@ -3362,7 +4510,9 @@
               "name": "خبز إضافي",
               "price": 4
             }
-          ]
+          ],
+          "isCombo": false,
+          "comboIncludes": []
         },
         {
           "id": "sweet-noon-9",
@@ -3403,7 +4553,9 @@
               "name": "خبز إضافي",
               "price": 4
             }
-          ]
+          ],
+          "isCombo": false,
+          "comboIncludes": []
         },
         {
           "id": "sweet-noon-10",
@@ -3421,6 +4573,150 @@
           "isPopular": true,
           "isOffer": false,
           "offerPrice": null,
+          "spicyOption": false,
+          "cashbackPercent": null,
+          "addons": [
+            {
+              "id": "fries",
+              "name": "بطاطس مقلية",
+              "price": 8
+            },
+            {
+              "id": "cola",
+              "name": "كولا",
+              "price": 6
+            },
+            {
+              "id": "sauce",
+              "name": "صلصة إضافية",
+              "price": 3
+            },
+            {
+              "id": "bread",
+              "name": "خبز إضافي",
+              "price": 4
+            }
+          ],
+          "isCombo": false,
+          "comboIncludes": []
+        },
+        {
+          "id": "sweet-noon-combo-1",
+          "restaurantId": "sweet-noon",
+          "name": "كومبو حلا وقهوة",
+          "description": "تحلية مع مشروب ساخن.",
+          "image": "https://images.unsplash.com/photo-1488477181946-6428a0291777?w=800&q=80",
+          "price": 36,
+          "rating": 4.6,
+          "calories": 620,
+          "protein": 12,
+          "carbs": 78,
+          "fat": 26,
+          "category": "offers",
+          "isPopular": false,
+          "isOffer": true,
+          "offerPrice": null,
+          "isCombo": true,
+          "comboIncludes": [
+            "كنافة أو كيك",
+            "لاتيه أو شاي",
+            "تمر"
+          ],
+          "spicyOption": false,
+          "cashbackPercent": null,
+          "addons": [
+            {
+              "id": "fries",
+              "name": "بطاطس مقلية",
+              "price": 8
+            },
+            {
+              "id": "cola",
+              "name": "كولا",
+              "price": 6
+            },
+            {
+              "id": "sauce",
+              "name": "صلصة إضافية",
+              "price": 3
+            },
+            {
+              "id": "bread",
+              "name": "خبز إضافي",
+              "price": 4
+            }
+          ]
+        },
+        {
+          "id": "sweet-noon-combo-2",
+          "restaurantId": "sweet-noon",
+          "name": "كومبو وافل آيس",
+          "description": "وافل مع آيس كريم وإضافات.",
+          "image": "https://images.unsplash.com/photo-1578985545062-69928b1d9587?w=800&q=80",
+          "price": 42,
+          "rating": 4.6,
+          "calories": 780,
+          "protein": 10,
+          "carbs": 95,
+          "fat": 34,
+          "category": "offers",
+          "isPopular": false,
+          "isOffer": true,
+          "offerPrice": null,
+          "isCombo": true,
+          "comboIncludes": [
+            "وافل",
+            "سكوب آيس كريم",
+            "شوكولاتة",
+            "فراولة"
+          ],
+          "spicyOption": false,
+          "cashbackPercent": null,
+          "addons": [
+            {
+              "id": "fries",
+              "name": "بطاطس مقلية",
+              "price": 8
+            },
+            {
+              "id": "cola",
+              "name": "كولا",
+              "price": 6
+            },
+            {
+              "id": "sauce",
+              "name": "صلصة إضافية",
+              "price": 3
+            },
+            {
+              "id": "bread",
+              "name": "خبز إضافي",
+              "price": 4
+            }
+          ]
+        },
+        {
+          "id": "sweet-noon-combo-3",
+          "restaurantId": "sweet-noon",
+          "name": "كومبو بقلاوة وشاي",
+          "description": "بقلاوة مشكلة مع شاي كرك.",
+          "image": "https://images.unsplash.com/photo-1563805042-7684c019e1cb?w=800&q=80",
+          "price": 32,
+          "rating": 4.6,
+          "calories": 540,
+          "protein": 8,
+          "carbs": 62,
+          "fat": 28,
+          "category": "offers",
+          "isPopular": false,
+          "isOffer": true,
+          "offerPrice": null,
+          "isCombo": true,
+          "comboIncludes": [
+            "بقلاوة مشكلة",
+            "شاي كرك",
+            "مكسرات"
+          ],
           "spicyOption": false,
           "cashbackPercent": null,
           "addons": [

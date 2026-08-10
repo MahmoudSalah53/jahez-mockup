@@ -497,13 +497,8 @@ function buildRestaurant([id, name], pack, indexInPack) {
     const [mealName, description, price, calories, protein, carbs, fat, spicyOption] =
       mealDef;
     const mealId = `${id}-${mealIdx + 1}`;
-    const isOffer = rand() > 0.72;
-    const isPopular = !isOffer && rand() > 0.55;
-    const cat = isOffer ? "offers" : isPopular ? "popular" : "menu";
-    const offerPrice = isOffer
-      ? Math.max(5, Math.round(price * (0.75 + rand() * 0.15)))
-      : null;
-    const cashbackPercent = isOffer && rand() > 0.5 ? [5, 10, 15][Math.floor(rand() * 3)] : null;
+    const isPopular = rand() > 0.55;
+    const cat = isPopular ? "popular" : "menu";
     const mealRating = round1(4.1 + rand() * 0.8);
 
     return {
@@ -520,28 +515,23 @@ function buildRestaurant([id, name], pack, indexInPack) {
       fat,
       category: cat,
       isPopular: Boolean(isPopular),
-      isOffer: Boolean(isOffer),
-      offerPrice,
+      isOffer: false,
+      offerPrice: null,
+      isCombo: false,
+      comboIncludes: [],
       spicyOption: Boolean(spicyOption),
-      cashbackPercent,
+      cashbackPercent: null,
       addons: DEFAULT_ADDONS.map((a) => ({ ...a })),
     };
   });
 
-  // ensure at least one popular and one offer-ish distribution
   if (!meals.some((m) => m.isPopular)) {
     meals[0].isPopular = true;
     meals[0].category = "popular";
-    meals[0].isOffer = false;
-    meals[0].offerPrice = null;
   }
-  if (!meals.some((m) => m.isOffer)) {
-    const m = meals[1];
-    m.isOffer = true;
-    m.category = "offers";
-    m.isPopular = false;
-    m.offerPrice = Math.max(5, Math.round(m.price * 0.85));
-  }
+
+  // Combos are attached later by apply-combo-offers.mjs (or call shared templates).
+  // Keep expand output combo-ready: regular meals only here.
 
   return {
     id,
@@ -596,6 +586,8 @@ function assertRestaurant(r) {
     "isPopular",
     "isOffer",
     "offerPrice",
+    "isCombo",
+    "comboIncludes",
     "spicyOption",
     "cashbackPercent",
     "addons",

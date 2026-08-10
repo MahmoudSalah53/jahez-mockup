@@ -59,7 +59,9 @@
               "name": "خبز إضافي",
               "price": 4
             }
-          ]
+          ],
+          "isCombo": false,
+          "comboIncludes": []
         },
         {
           "id": "spice-route-2",
@@ -100,7 +102,9 @@
               "name": "خبز إضافي",
               "price": 4
             }
-          ]
+          ],
+          "isCombo": false,
+          "comboIncludes": []
         },
         {
           "id": "spice-route-3",
@@ -141,7 +145,9 @@
               "name": "خبز إضافي",
               "price": 4
             }
-          ]
+          ],
+          "isCombo": false,
+          "comboIncludes": []
         },
         {
           "id": "spice-route-4",
@@ -182,7 +188,9 @@
               "name": "خبز إضافي",
               "price": 4
             }
-          ]
+          ],
+          "isCombo": false,
+          "comboIncludes": []
         },
         {
           "id": "spice-route-5",
@@ -196,10 +204,10 @@
           "protein": 6,
           "carbs": 36,
           "fat": 8,
-          "category": "offers",
+          "category": "menu",
           "isPopular": false,
-          "isOffer": true,
-          "offerPrice": 11,
+          "isOffer": false,
+          "offerPrice": null,
           "spicyOption": false,
           "cashbackPercent": null,
           "addons": [
@@ -223,7 +231,9 @@
               "name": "خبز إضافي",
               "price": 4
             }
-          ]
+          ],
+          "isCombo": false,
+          "comboIncludes": []
         },
         {
           "id": "spice-route-6",
@@ -264,7 +274,9 @@
               "name": "خبز إضافي",
               "price": 4
             }
-          ]
+          ],
+          "isCombo": false,
+          "comboIncludes": []
         },
         {
           "id": "spice-route-7",
@@ -278,10 +290,10 @@
           "protein": 20,
           "carbs": 22,
           "fat": 28,
-          "category": "offers",
+          "category": "menu",
           "isPopular": false,
-          "isOffer": true,
-          "offerPrice": 30,
+          "isOffer": false,
+          "offerPrice": null,
           "spicyOption": true,
           "cashbackPercent": null,
           "addons": [
@@ -305,7 +317,9 @@
               "name": "خبز إضافي",
               "price": 4
             }
-          ]
+          ],
+          "isCombo": false,
+          "comboIncludes": []
         },
         {
           "id": "spice-route-8",
@@ -346,7 +360,9 @@
               "name": "خبز إضافي",
               "price": 4
             }
-          ]
+          ],
+          "isCombo": false,
+          "comboIncludes": []
         },
         {
           "id": "spice-route-9",
@@ -387,7 +403,9 @@
               "name": "خبز إضافي",
               "price": 4
             }
-          ]
+          ],
+          "isCombo": false,
+          "comboIncludes": []
         },
         {
           "id": "spice-route-10",
@@ -406,6 +424,153 @@
           "isOffer": false,
           "offerPrice": null,
           "spicyOption": false,
+          "cashbackPercent": null,
+          "addons": [
+            {
+              "id": "fries",
+              "name": "بطاطس مقلية",
+              "price": 8
+            },
+            {
+              "id": "cola",
+              "name": "كولا",
+              "price": 6
+            },
+            {
+              "id": "sauce",
+              "name": "صلصة إضافية",
+              "price": 3
+            },
+            {
+              "id": "bread",
+              "name": "خبز إضافي",
+              "price": 4
+            }
+          ],
+          "isCombo": false,
+          "comboIncludes": []
+        },
+        {
+          "id": "spice-route-combo-1",
+          "restaurantId": "spice-route",
+          "name": "كومبو برياني وجبة",
+          "description": "برياني مع رايتا ونان ومشروب.",
+          "image": "https://images.unsplash.com/photo-1585937421612-70a008356fbe?w=800&q=80",
+          "price": 54,
+          "rating": 4.6,
+          "calories": 1050,
+          "protein": 40,
+          "carbs": 110,
+          "fat": 32,
+          "category": "offers",
+          "isPopular": false,
+          "isOffer": true,
+          "offerPrice": null,
+          "isCombo": true,
+          "comboIncludes": [
+            "برياني دجاج",
+            "رايتا",
+            "نان",
+            "لاسي أو مشروب"
+          ],
+          "spicyOption": true,
+          "cashbackPercent": null,
+          "addons": [
+            {
+              "id": "fries",
+              "name": "بطاطس مقلية",
+              "price": 8
+            },
+            {
+              "id": "cola",
+              "name": "كولا",
+              "price": 6
+            },
+            {
+              "id": "sauce",
+              "name": "صلصة إضافية",
+              "price": 3
+            },
+            {
+              "id": "bread",
+              "name": "خبز إضافي",
+              "price": 4
+            }
+          ]
+        },
+        {
+          "id": "spice-route-combo-2",
+          "restaurantId": "spice-route",
+          "name": "كومبو كاري كامل",
+          "description": "كاري مع أرز وخبز.",
+          "image": "https://images.unsplash.com/photo-1565557623262-b51c2513a641?w=800&q=80",
+          "price": 58,
+          "rating": 4.6,
+          "calories": 980,
+          "protein": 38,
+          "carbs": 95,
+          "fat": 36,
+          "category": "offers",
+          "isPopular": false,
+          "isOffer": true,
+          "offerPrice": null,
+          "isCombo": true,
+          "comboIncludes": [
+            "تيكا ماسالا",
+            "أرز بسمتي",
+            "نان ثوم",
+            "مشروب"
+          ],
+          "spicyOption": true,
+          "cashbackPercent": null,
+          "addons": [
+            {
+              "id": "fries",
+              "name": "بطاطس مقلية",
+              "price": 8
+            },
+            {
+              "id": "cola",
+              "name": "كولا",
+              "price": 6
+            },
+            {
+              "id": "sauce",
+              "name": "صلصة إضافية",
+              "price": 3
+            },
+            {
+              "id": "bread",
+              "name": "خبز إضافي",
+              "price": 4
+            }
+          ]
+        },
+        {
+          "id": "spice-route-combo-3",
+          "restaurantId": "spice-route",
+          "name": "كومبو ثالي هندي",
+          "description": "تشكيلة أطباق صغيرة في وجبة واحدة.",
+          "image": "https://images.unsplash.com/photo-1588168333986-5078d3ae3976?w=800&q=80",
+          "price": 64,
+          "rating": 4.6,
+          "calories": 880,
+          "protein": 28,
+          "carbs": 100,
+          "fat": 28,
+          "category": "offers",
+          "isPopular": false,
+          "isOffer": true,
+          "offerPrice": null,
+          "isCombo": true,
+          "comboIncludes": [
+            "دال",
+            "كاري خضار",
+            "أرز",
+            "نان",
+            "مخلل"
+          ],
+          "spicyOption": true,
           "cashbackPercent": null,
           "addons": [
             {
@@ -491,7 +656,9 @@
               "name": "خبز إضافي",
               "price": 4
             }
-          ]
+          ],
+          "isCombo": false,
+          "comboIncludes": []
         },
         {
           "id": "tandoor-flame-2",
@@ -532,7 +699,9 @@
               "name": "خبز إضافي",
               "price": 4
             }
-          ]
+          ],
+          "isCombo": false,
+          "comboIncludes": []
         },
         {
           "id": "tandoor-flame-3",
@@ -573,7 +742,9 @@
               "name": "خبز إضافي",
               "price": 4
             }
-          ]
+          ],
+          "isCombo": false,
+          "comboIncludes": []
         },
         {
           "id": "tandoor-flame-4",
@@ -614,7 +785,9 @@
               "name": "خبز إضافي",
               "price": 4
             }
-          ]
+          ],
+          "isCombo": false,
+          "comboIncludes": []
         },
         {
           "id": "tandoor-flame-5",
@@ -628,10 +801,10 @@
           "protein": 6,
           "carbs": 36,
           "fat": 8,
-          "category": "offers",
+          "category": "menu",
           "isPopular": false,
-          "isOffer": true,
-          "offerPrice": 11,
+          "isOffer": false,
+          "offerPrice": null,
           "spicyOption": false,
           "cashbackPercent": null,
           "addons": [
@@ -655,7 +828,9 @@
               "name": "خبز إضافي",
               "price": 4
             }
-          ]
+          ],
+          "isCombo": false,
+          "comboIncludes": []
         },
         {
           "id": "tandoor-flame-6",
@@ -696,7 +871,9 @@
               "name": "خبز إضافي",
               "price": 4
             }
-          ]
+          ],
+          "isCombo": false,
+          "comboIncludes": []
         },
         {
           "id": "tandoor-flame-7",
@@ -737,7 +914,9 @@
               "name": "خبز إضافي",
               "price": 4
             }
-          ]
+          ],
+          "isCombo": false,
+          "comboIncludes": []
         },
         {
           "id": "tandoor-flame-8",
@@ -751,10 +930,10 @@
           "protein": 8,
           "carbs": 36,
           "fat": 12,
-          "category": "offers",
+          "category": "menu",
           "isPopular": false,
-          "isOffer": true,
-          "offerPrice": 18,
+          "isOffer": false,
+          "offerPrice": null,
           "spicyOption": true,
           "cashbackPercent": 10,
           "addons": [
@@ -778,7 +957,9 @@
               "name": "خبز إضافي",
               "price": 4
             }
-          ]
+          ],
+          "isCombo": false,
+          "comboIncludes": []
         },
         {
           "id": "tandoor-flame-9",
@@ -792,10 +973,103 @@
           "protein": 28,
           "carbs": 90,
           "fat": 30,
+          "category": "menu",
+          "isPopular": false,
+          "isOffer": false,
+          "offerPrice": null,
+          "spicyOption": true,
+          "cashbackPercent": null,
+          "addons": [
+            {
+              "id": "fries",
+              "name": "بطاطس مقلية",
+              "price": 8
+            },
+            {
+              "id": "cola",
+              "name": "كولا",
+              "price": 6
+            },
+            {
+              "id": "sauce",
+              "name": "صلصة إضافية",
+              "price": 3
+            },
+            {
+              "id": "bread",
+              "name": "خبز إضافي",
+              "price": 4
+            }
+          ],
+          "isCombo": false,
+          "comboIncludes": []
+        },
+        {
+          "id": "tandoor-flame-10",
+          "restaurantId": "tandoor-flame",
+          "name": "مانجو لاسي",
+          "description": "مشروب لبن بالمانجو.",
+          "image": "https://images.unsplash.com/photo-1517248135467-4c7edcad34c4?w=800&q=80",
+          "price": 16,
+          "rating": 4.7,
+          "calories": 220,
+          "protein": 6,
+          "carbs": 28,
+          "fat": 8,
+          "category": "popular",
+          "isPopular": true,
+          "isOffer": false,
+          "offerPrice": null,
+          "spicyOption": false,
+          "cashbackPercent": null,
+          "addons": [
+            {
+              "id": "fries",
+              "name": "بطاطس مقلية",
+              "price": 8
+            },
+            {
+              "id": "cola",
+              "name": "كولا",
+              "price": 6
+            },
+            {
+              "id": "sauce",
+              "name": "صلصة إضافية",
+              "price": 3
+            },
+            {
+              "id": "bread",
+              "name": "خبز إضافي",
+              "price": 4
+            }
+          ],
+          "isCombo": false,
+          "comboIncludes": []
+        },
+        {
+          "id": "tandoor-flame-combo-1",
+          "restaurantId": "tandoor-flame",
+          "name": "كومبو برياني وجبة",
+          "description": "برياني مع رايتا ونان ومشروب.",
+          "image": "https://images.unsplash.com/photo-1585937421612-70a008356fbe?w=800&q=80",
+          "price": 54,
+          "rating": 4.6,
+          "calories": 1050,
+          "protein": 40,
+          "carbs": 110,
+          "fat": 32,
           "category": "offers",
           "isPopular": false,
           "isOffer": true,
-          "offerPrice": 47,
+          "offerPrice": null,
+          "isCombo": true,
+          "comboIncludes": [
+            "برياني دجاج",
+            "رايتا",
+            "نان",
+            "لاسي أو مشروب"
+          ],
           "spicyOption": true,
           "cashbackPercent": null,
           "addons": [
@@ -822,22 +1096,78 @@
           ]
         },
         {
-          "id": "tandoor-flame-10",
+          "id": "tandoor-flame-combo-2",
           "restaurantId": "tandoor-flame",
-          "name": "مانجو لاسي",
-          "description": "مشروب لبن بالمانجو.",
-          "image": "https://images.unsplash.com/photo-1517248135467-4c7edcad34c4?w=800&q=80",
-          "price": 16,
-          "rating": 4.7,
-          "calories": 220,
-          "protein": 6,
-          "carbs": 28,
-          "fat": 8,
-          "category": "popular",
-          "isPopular": true,
-          "isOffer": false,
+          "name": "كومبو كاري كامل",
+          "description": "كاري مع أرز وخبز.",
+          "image": "https://images.unsplash.com/photo-1565557623262-b51c2513a641?w=800&q=80",
+          "price": 58,
+          "rating": 4.6,
+          "calories": 980,
+          "protein": 38,
+          "carbs": 95,
+          "fat": 36,
+          "category": "offers",
+          "isPopular": false,
+          "isOffer": true,
           "offerPrice": null,
-          "spicyOption": false,
+          "isCombo": true,
+          "comboIncludes": [
+            "تيكا ماسالا",
+            "أرز بسمتي",
+            "نان ثوم",
+            "مشروب"
+          ],
+          "spicyOption": true,
+          "cashbackPercent": null,
+          "addons": [
+            {
+              "id": "fries",
+              "name": "بطاطس مقلية",
+              "price": 8
+            },
+            {
+              "id": "cola",
+              "name": "كولا",
+              "price": 6
+            },
+            {
+              "id": "sauce",
+              "name": "صلصة إضافية",
+              "price": 3
+            },
+            {
+              "id": "bread",
+              "name": "خبز إضافي",
+              "price": 4
+            }
+          ]
+        },
+        {
+          "id": "tandoor-flame-combo-3",
+          "restaurantId": "tandoor-flame",
+          "name": "كومبو ثالي هندي",
+          "description": "تشكيلة أطباق صغيرة في وجبة واحدة.",
+          "image": "https://images.unsplash.com/photo-1588168333986-5078d3ae3976?w=800&q=80",
+          "price": 64,
+          "rating": 4.6,
+          "calories": 880,
+          "protein": 28,
+          "carbs": 100,
+          "fat": 28,
+          "category": "offers",
+          "isPopular": false,
+          "isOffer": true,
+          "offerPrice": null,
+          "isCombo": true,
+          "comboIncludes": [
+            "دال",
+            "كاري خضار",
+            "أرز",
+            "نان",
+            "مخلل"
+          ],
+          "spicyOption": true,
           "cashbackPercent": null,
           "addons": [
             {
@@ -923,7 +1253,9 @@
               "name": "خبز إضافي",
               "price": 4
             }
-          ]
+          ],
+          "isCombo": false,
+          "comboIncludes": []
         },
         {
           "id": "masala-bowl-2",
@@ -937,10 +1269,10 @@
           "protein": 36,
           "carbs": 40,
           "fat": 32,
-          "category": "offers",
+          "category": "menu",
           "isPopular": false,
-          "isOffer": true,
-          "offerPrice": 37,
+          "isOffer": false,
+          "offerPrice": null,
           "spicyOption": true,
           "cashbackPercent": 15,
           "addons": [
@@ -964,7 +1296,9 @@
               "name": "خبز إضافي",
               "price": 4
             }
-          ]
+          ],
+          "isCombo": false,
+          "comboIncludes": []
         },
         {
           "id": "masala-bowl-3",
@@ -1005,7 +1339,9 @@
               "name": "خبز إضافي",
               "price": 4
             }
-          ]
+          ],
+          "isCombo": false,
+          "comboIncludes": []
         },
         {
           "id": "masala-bowl-4",
@@ -1046,7 +1382,9 @@
               "name": "خبز إضافي",
               "price": 4
             }
-          ]
+          ],
+          "isCombo": false,
+          "comboIncludes": []
         },
         {
           "id": "masala-bowl-5",
@@ -1060,10 +1398,10 @@
           "protein": 6,
           "carbs": 36,
           "fat": 8,
-          "category": "offers",
+          "category": "menu",
           "isPopular": false,
-          "isOffer": true,
-          "offerPrice": 11,
+          "isOffer": false,
+          "offerPrice": null,
           "spicyOption": false,
           "cashbackPercent": null,
           "addons": [
@@ -1087,7 +1425,9 @@
               "name": "خبز إضافي",
               "price": 4
             }
-          ]
+          ],
+          "isCombo": false,
+          "comboIncludes": []
         },
         {
           "id": "masala-bowl-6",
@@ -1128,7 +1468,9 @@
               "name": "خبز إضافي",
               "price": 4
             }
-          ]
+          ],
+          "isCombo": false,
+          "comboIncludes": []
         },
         {
           "id": "masala-bowl-7",
@@ -1142,10 +1484,10 @@
           "protein": 20,
           "carbs": 22,
           "fat": 28,
-          "category": "offers",
+          "category": "menu",
           "isPopular": false,
-          "isOffer": true,
-          "offerPrice": 27,
+          "isOffer": false,
+          "offerPrice": null,
           "spicyOption": true,
           "cashbackPercent": null,
           "addons": [
@@ -1169,7 +1511,9 @@
               "name": "خبز إضافي",
               "price": 4
             }
-          ]
+          ],
+          "isCombo": false,
+          "comboIncludes": []
         },
         {
           "id": "masala-bowl-8",
@@ -1210,7 +1554,9 @@
               "name": "خبز إضافي",
               "price": 4
             }
-          ]
+          ],
+          "isCombo": false,
+          "comboIncludes": []
         },
         {
           "id": "masala-bowl-9",
@@ -1251,7 +1597,9 @@
               "name": "خبز إضافي",
               "price": 4
             }
-          ]
+          ],
+          "isCombo": false,
+          "comboIncludes": []
         },
         {
           "id": "masala-bowl-10",
@@ -1265,11 +1613,158 @@
           "protein": 6,
           "carbs": 28,
           "fat": 8,
+          "category": "menu",
+          "isPopular": false,
+          "isOffer": false,
+          "offerPrice": null,
+          "spicyOption": false,
+          "cashbackPercent": null,
+          "addons": [
+            {
+              "id": "fries",
+              "name": "بطاطس مقلية",
+              "price": 8
+            },
+            {
+              "id": "cola",
+              "name": "كولا",
+              "price": 6
+            },
+            {
+              "id": "sauce",
+              "name": "صلصة إضافية",
+              "price": 3
+            },
+            {
+              "id": "bread",
+              "name": "خبز إضافي",
+              "price": 4
+            }
+          ],
+          "isCombo": false,
+          "comboIncludes": []
+        },
+        {
+          "id": "masala-bowl-combo-1",
+          "restaurantId": "masala-bowl",
+          "name": "كومبو برياني وجبة",
+          "description": "برياني مع رايتا ونان ومشروب.",
+          "image": "https://images.unsplash.com/photo-1585937421612-70a008356fbe?w=800&q=80",
+          "price": 54,
+          "rating": 4.6,
+          "calories": 1050,
+          "protein": 40,
+          "carbs": 110,
+          "fat": 32,
           "category": "offers",
           "isPopular": false,
           "isOffer": true,
-          "offerPrice": 14,
-          "spicyOption": false,
+          "offerPrice": null,
+          "isCombo": true,
+          "comboIncludes": [
+            "برياني دجاج",
+            "رايتا",
+            "نان",
+            "لاسي أو مشروب"
+          ],
+          "spicyOption": true,
+          "cashbackPercent": null,
+          "addons": [
+            {
+              "id": "fries",
+              "name": "بطاطس مقلية",
+              "price": 8
+            },
+            {
+              "id": "cola",
+              "name": "كولا",
+              "price": 6
+            },
+            {
+              "id": "sauce",
+              "name": "صلصة إضافية",
+              "price": 3
+            },
+            {
+              "id": "bread",
+              "name": "خبز إضافي",
+              "price": 4
+            }
+          ]
+        },
+        {
+          "id": "masala-bowl-combo-2",
+          "restaurantId": "masala-bowl",
+          "name": "كومبو كاري كامل",
+          "description": "كاري مع أرز وخبز.",
+          "image": "https://images.unsplash.com/photo-1565557623262-b51c2513a641?w=800&q=80",
+          "price": 58,
+          "rating": 4.6,
+          "calories": 980,
+          "protein": 38,
+          "carbs": 95,
+          "fat": 36,
+          "category": "offers",
+          "isPopular": false,
+          "isOffer": true,
+          "offerPrice": null,
+          "isCombo": true,
+          "comboIncludes": [
+            "تيكا ماسالا",
+            "أرز بسمتي",
+            "نان ثوم",
+            "مشروب"
+          ],
+          "spicyOption": true,
+          "cashbackPercent": null,
+          "addons": [
+            {
+              "id": "fries",
+              "name": "بطاطس مقلية",
+              "price": 8
+            },
+            {
+              "id": "cola",
+              "name": "كولا",
+              "price": 6
+            },
+            {
+              "id": "sauce",
+              "name": "صلصة إضافية",
+              "price": 3
+            },
+            {
+              "id": "bread",
+              "name": "خبز إضافي",
+              "price": 4
+            }
+          ]
+        },
+        {
+          "id": "masala-bowl-combo-3",
+          "restaurantId": "masala-bowl",
+          "name": "كومبو ثالي هندي",
+          "description": "تشكيلة أطباق صغيرة في وجبة واحدة.",
+          "image": "https://images.unsplash.com/photo-1588168333986-5078d3ae3976?w=800&q=80",
+          "price": 64,
+          "rating": 4.6,
+          "calories": 880,
+          "protein": 28,
+          "carbs": 100,
+          "fat": 28,
+          "category": "offers",
+          "isPopular": false,
+          "isOffer": true,
+          "offerPrice": null,
+          "isCombo": true,
+          "comboIncludes": [
+            "دال",
+            "كاري خضار",
+            "أرز",
+            "نان",
+            "مخلل"
+          ],
+          "spicyOption": true,
           "cashbackPercent": null,
           "addons": [
             {
@@ -1355,7 +1850,9 @@
               "name": "خبز إضافي",
               "price": 4
             }
-          ]
+          ],
+          "isCombo": false,
+          "comboIncludes": []
         },
         {
           "id": "curry-garden-2",
@@ -1396,7 +1893,9 @@
               "name": "خبز إضافي",
               "price": 4
             }
-          ]
+          ],
+          "isCombo": false,
+          "comboIncludes": []
         },
         {
           "id": "curry-garden-3",
@@ -1437,7 +1936,9 @@
               "name": "خبز إضافي",
               "price": 4
             }
-          ]
+          ],
+          "isCombo": false,
+          "comboIncludes": []
         },
         {
           "id": "curry-garden-4",
@@ -1451,10 +1952,10 @@
           "protein": 16,
           "carbs": 40,
           "fat": 16,
-          "category": "offers",
+          "category": "menu",
           "isPopular": false,
-          "isOffer": true,
-          "offerPrice": 23,
+          "isOffer": false,
+          "offerPrice": null,
           "spicyOption": false,
           "cashbackPercent": null,
           "addons": [
@@ -1478,7 +1979,9 @@
               "name": "خبز إضافي",
               "price": 4
             }
-          ]
+          ],
+          "isCombo": false,
+          "comboIncludes": []
         },
         {
           "id": "curry-garden-5",
@@ -1519,7 +2022,9 @@
               "name": "خبز إضافي",
               "price": 4
             }
-          ]
+          ],
+          "isCombo": false,
+          "comboIncludes": []
         },
         {
           "id": "curry-garden-6",
@@ -1560,7 +2065,9 @@
               "name": "خبز إضافي",
               "price": 4
             }
-          ]
+          ],
+          "isCombo": false,
+          "comboIncludes": []
         },
         {
           "id": "curry-garden-7",
@@ -1601,7 +2108,9 @@
               "name": "خبز إضافي",
               "price": 4
             }
-          ]
+          ],
+          "isCombo": false,
+          "comboIncludes": []
         },
         {
           "id": "curry-garden-8",
@@ -1615,10 +2124,10 @@
           "protein": 8,
           "carbs": 36,
           "fat": 12,
-          "category": "offers",
+          "category": "menu",
           "isPopular": false,
-          "isOffer": true,
-          "offerPrice": 18,
+          "isOffer": false,
+          "offerPrice": null,
           "spicyOption": true,
           "cashbackPercent": 5,
           "addons": [
@@ -1642,7 +2151,9 @@
               "name": "خبز إضافي",
               "price": 4
             }
-          ]
+          ],
+          "isCombo": false,
+          "comboIncludes": []
         },
         {
           "id": "curry-garden-9",
@@ -1656,10 +2167,10 @@
           "protein": 28,
           "carbs": 90,
           "fat": 30,
-          "category": "offers",
+          "category": "menu",
           "isPopular": false,
-          "isOffer": true,
-          "offerPrice": 43,
+          "isOffer": false,
+          "offerPrice": null,
           "spicyOption": true,
           "cashbackPercent": 5,
           "addons": [
@@ -1683,7 +2194,9 @@
               "name": "خبز إضافي",
               "price": 4
             }
-          ]
+          ],
+          "isCombo": false,
+          "comboIncludes": []
         },
         {
           "id": "curry-garden-10",
@@ -1702,6 +2215,153 @@
           "isOffer": false,
           "offerPrice": null,
           "spicyOption": false,
+          "cashbackPercent": null,
+          "addons": [
+            {
+              "id": "fries",
+              "name": "بطاطس مقلية",
+              "price": 8
+            },
+            {
+              "id": "cola",
+              "name": "كولا",
+              "price": 6
+            },
+            {
+              "id": "sauce",
+              "name": "صلصة إضافية",
+              "price": 3
+            },
+            {
+              "id": "bread",
+              "name": "خبز إضافي",
+              "price": 4
+            }
+          ],
+          "isCombo": false,
+          "comboIncludes": []
+        },
+        {
+          "id": "curry-garden-combo-1",
+          "restaurantId": "curry-garden",
+          "name": "كومبو برياني وجبة",
+          "description": "برياني مع رايتا ونان ومشروب.",
+          "image": "https://images.unsplash.com/photo-1585937421612-70a008356fbe?w=800&q=80",
+          "price": 54,
+          "rating": 4.6,
+          "calories": 1050,
+          "protein": 40,
+          "carbs": 110,
+          "fat": 32,
+          "category": "offers",
+          "isPopular": false,
+          "isOffer": true,
+          "offerPrice": null,
+          "isCombo": true,
+          "comboIncludes": [
+            "برياني دجاج",
+            "رايتا",
+            "نان",
+            "لاسي أو مشروب"
+          ],
+          "spicyOption": true,
+          "cashbackPercent": null,
+          "addons": [
+            {
+              "id": "fries",
+              "name": "بطاطس مقلية",
+              "price": 8
+            },
+            {
+              "id": "cola",
+              "name": "كولا",
+              "price": 6
+            },
+            {
+              "id": "sauce",
+              "name": "صلصة إضافية",
+              "price": 3
+            },
+            {
+              "id": "bread",
+              "name": "خبز إضافي",
+              "price": 4
+            }
+          ]
+        },
+        {
+          "id": "curry-garden-combo-2",
+          "restaurantId": "curry-garden",
+          "name": "كومبو كاري كامل",
+          "description": "كاري مع أرز وخبز.",
+          "image": "https://images.unsplash.com/photo-1565557623262-b51c2513a641?w=800&q=80",
+          "price": 58,
+          "rating": 4.6,
+          "calories": 980,
+          "protein": 38,
+          "carbs": 95,
+          "fat": 36,
+          "category": "offers",
+          "isPopular": false,
+          "isOffer": true,
+          "offerPrice": null,
+          "isCombo": true,
+          "comboIncludes": [
+            "تيكا ماسالا",
+            "أرز بسمتي",
+            "نان ثوم",
+            "مشروب"
+          ],
+          "spicyOption": true,
+          "cashbackPercent": null,
+          "addons": [
+            {
+              "id": "fries",
+              "name": "بطاطس مقلية",
+              "price": 8
+            },
+            {
+              "id": "cola",
+              "name": "كولا",
+              "price": 6
+            },
+            {
+              "id": "sauce",
+              "name": "صلصة إضافية",
+              "price": 3
+            },
+            {
+              "id": "bread",
+              "name": "خبز إضافي",
+              "price": 4
+            }
+          ]
+        },
+        {
+          "id": "curry-garden-combo-3",
+          "restaurantId": "curry-garden",
+          "name": "كومبو ثالي هندي",
+          "description": "تشكيلة أطباق صغيرة في وجبة واحدة.",
+          "image": "https://images.unsplash.com/photo-1588168333986-5078d3ae3976?w=800&q=80",
+          "price": 64,
+          "rating": 4.6,
+          "calories": 880,
+          "protein": 28,
+          "carbs": 100,
+          "fat": 28,
+          "category": "offers",
+          "isPopular": false,
+          "isOffer": true,
+          "offerPrice": null,
+          "isCombo": true,
+          "comboIncludes": [
+            "دال",
+            "كاري خضار",
+            "أرز",
+            "نان",
+            "مخلل"
+          ],
+          "spicyOption": true,
           "cashbackPercent": null,
           "addons": [
             {
@@ -1787,7 +2447,9 @@
               "name": "خبز إضافي",
               "price": 4
             }
-          ]
+          ],
+          "isCombo": false,
+          "comboIncludes": []
         },
         {
           "id": "biryani-dar-2",
@@ -1801,10 +2463,10 @@
           "protein": 36,
           "carbs": 40,
           "fat": 32,
-          "category": "offers",
+          "category": "menu",
           "isPopular": false,
-          "isOffer": true,
-          "offerPrice": 41,
+          "isOffer": false,
+          "offerPrice": null,
           "spicyOption": true,
           "cashbackPercent": 5,
           "addons": [
@@ -1828,7 +2490,9 @@
               "name": "خبز إضافي",
               "price": 4
             }
-          ]
+          ],
+          "isCombo": false,
+          "comboIncludes": []
         },
         {
           "id": "biryani-dar-3",
@@ -1842,10 +2506,10 @@
           "protein": 38,
           "carbs": 28,
           "fat": 42,
-          "category": "offers",
+          "category": "menu",
           "isPopular": false,
-          "isOffer": true,
-          "offerPrice": 40,
+          "isOffer": false,
+          "offerPrice": null,
           "spicyOption": true,
           "cashbackPercent": 10,
           "addons": [
@@ -1869,7 +2533,9 @@
               "name": "خبز إضافي",
               "price": 4
             }
-          ]
+          ],
+          "isCombo": false,
+          "comboIncludes": []
         },
         {
           "id": "biryani-dar-4",
@@ -1910,7 +2576,9 @@
               "name": "خبز إضافي",
               "price": 4
             }
-          ]
+          ],
+          "isCombo": false,
+          "comboIncludes": []
         },
         {
           "id": "biryani-dar-5",
@@ -1924,10 +2592,10 @@
           "protein": 6,
           "carbs": 36,
           "fat": 8,
-          "category": "offers",
+          "category": "menu",
           "isPopular": false,
-          "isOffer": true,
-          "offerPrice": 12,
+          "isOffer": false,
+          "offerPrice": null,
           "spicyOption": false,
           "cashbackPercent": 10,
           "addons": [
@@ -1951,7 +2619,9 @@
               "name": "خبز إضافي",
               "price": 4
             }
-          ]
+          ],
+          "isCombo": false,
+          "comboIncludes": []
         },
         {
           "id": "biryani-dar-6",
@@ -1965,10 +2635,10 @@
           "protein": 6,
           "carbs": 30,
           "fat": 12,
-          "category": "offers",
+          "category": "menu",
           "isPopular": false,
-          "isOffer": true,
-          "offerPrice": 14,
+          "isOffer": false,
+          "offerPrice": null,
           "spicyOption": false,
           "cashbackPercent": 10,
           "addons": [
@@ -1992,7 +2662,9 @@
               "name": "خبز إضافي",
               "price": 4
             }
-          ]
+          ],
+          "isCombo": false,
+          "comboIncludes": []
         },
         {
           "id": "biryani-dar-7",
@@ -2033,7 +2705,9 @@
               "name": "خبز إضافي",
               "price": 4
             }
-          ]
+          ],
+          "isCombo": false,
+          "comboIncludes": []
         },
         {
           "id": "biryani-dar-8",
@@ -2074,7 +2748,9 @@
               "name": "خبز إضافي",
               "price": 4
             }
-          ]
+          ],
+          "isCombo": false,
+          "comboIncludes": []
         },
         {
           "id": "biryani-dar-9",
@@ -2115,7 +2791,9 @@
               "name": "خبز إضافي",
               "price": 4
             }
-          ]
+          ],
+          "isCombo": false,
+          "comboIncludes": []
         },
         {
           "id": "biryani-dar-10",
@@ -2129,11 +2807,158 @@
           "protein": 6,
           "carbs": 28,
           "fat": 8,
+          "category": "menu",
+          "isPopular": false,
+          "isOffer": false,
+          "offerPrice": null,
+          "spicyOption": false,
+          "cashbackPercent": null,
+          "addons": [
+            {
+              "id": "fries",
+              "name": "بطاطس مقلية",
+              "price": 8
+            },
+            {
+              "id": "cola",
+              "name": "كولا",
+              "price": 6
+            },
+            {
+              "id": "sauce",
+              "name": "صلصة إضافية",
+              "price": 3
+            },
+            {
+              "id": "bread",
+              "name": "خبز إضافي",
+              "price": 4
+            }
+          ],
+          "isCombo": false,
+          "comboIncludes": []
+        },
+        {
+          "id": "biryani-dar-combo-1",
+          "restaurantId": "biryani-dar",
+          "name": "كومبو برياني وجبة",
+          "description": "برياني مع رايتا ونان ومشروب.",
+          "image": "https://images.unsplash.com/photo-1585937421612-70a008356fbe?w=800&q=80",
+          "price": 54,
+          "rating": 4.6,
+          "calories": 1050,
+          "protein": 40,
+          "carbs": 110,
+          "fat": 32,
           "category": "offers",
           "isPopular": false,
           "isOffer": true,
-          "offerPrice": 13,
-          "spicyOption": false,
+          "offerPrice": null,
+          "isCombo": true,
+          "comboIncludes": [
+            "برياني دجاج",
+            "رايتا",
+            "نان",
+            "لاسي أو مشروب"
+          ],
+          "spicyOption": true,
+          "cashbackPercent": null,
+          "addons": [
+            {
+              "id": "fries",
+              "name": "بطاطس مقلية",
+              "price": 8
+            },
+            {
+              "id": "cola",
+              "name": "كولا",
+              "price": 6
+            },
+            {
+              "id": "sauce",
+              "name": "صلصة إضافية",
+              "price": 3
+            },
+            {
+              "id": "bread",
+              "name": "خبز إضافي",
+              "price": 4
+            }
+          ]
+        },
+        {
+          "id": "biryani-dar-combo-2",
+          "restaurantId": "biryani-dar",
+          "name": "كومبو كاري كامل",
+          "description": "كاري مع أرز وخبز.",
+          "image": "https://images.unsplash.com/photo-1565557623262-b51c2513a641?w=800&q=80",
+          "price": 58,
+          "rating": 4.6,
+          "calories": 980,
+          "protein": 38,
+          "carbs": 95,
+          "fat": 36,
+          "category": "offers",
+          "isPopular": false,
+          "isOffer": true,
+          "offerPrice": null,
+          "isCombo": true,
+          "comboIncludes": [
+            "تيكا ماسالا",
+            "أرز بسمتي",
+            "نان ثوم",
+            "مشروب"
+          ],
+          "spicyOption": true,
+          "cashbackPercent": null,
+          "addons": [
+            {
+              "id": "fries",
+              "name": "بطاطس مقلية",
+              "price": 8
+            },
+            {
+              "id": "cola",
+              "name": "كولا",
+              "price": 6
+            },
+            {
+              "id": "sauce",
+              "name": "صلصة إضافية",
+              "price": 3
+            },
+            {
+              "id": "bread",
+              "name": "خبز إضافي",
+              "price": 4
+            }
+          ]
+        },
+        {
+          "id": "biryani-dar-combo-3",
+          "restaurantId": "biryani-dar",
+          "name": "كومبو ثالي هندي",
+          "description": "تشكيلة أطباق صغيرة في وجبة واحدة.",
+          "image": "https://images.unsplash.com/photo-1588168333986-5078d3ae3976?w=800&q=80",
+          "price": 64,
+          "rating": 4.6,
+          "calories": 880,
+          "protein": 28,
+          "carbs": 100,
+          "fat": 28,
+          "category": "offers",
+          "isPopular": false,
+          "isOffer": true,
+          "offerPrice": null,
+          "isCombo": true,
+          "comboIncludes": [
+            "دال",
+            "كاري خضار",
+            "أرز",
+            "نان",
+            "مخلل"
+          ],
+          "spicyOption": true,
           "cashbackPercent": null,
           "addons": [
             {
@@ -2219,7 +3044,9 @@
               "name": "خبز إضافي",
               "price": 4
             }
-          ]
+          ],
+          "isCombo": false,
+          "comboIncludes": []
         },
         {
           "id": "naan-house-2",
@@ -2260,7 +3087,9 @@
               "name": "خبز إضافي",
               "price": 4
             }
-          ]
+          ],
+          "isCombo": false,
+          "comboIncludes": []
         },
         {
           "id": "naan-house-3",
@@ -2301,7 +3130,9 @@
               "name": "خبز إضافي",
               "price": 4
             }
-          ]
+          ],
+          "isCombo": false,
+          "comboIncludes": []
         },
         {
           "id": "naan-house-4",
@@ -2342,7 +3173,9 @@
               "name": "خبز إضافي",
               "price": 4
             }
-          ]
+          ],
+          "isCombo": false,
+          "comboIncludes": []
         },
         {
           "id": "naan-house-5",
@@ -2356,10 +3189,10 @@
           "protein": 6,
           "carbs": 36,
           "fat": 8,
-          "category": "offers",
+          "category": "menu",
           "isPopular": false,
-          "isOffer": true,
-          "offerPrice": 12,
+          "isOffer": false,
+          "offerPrice": null,
           "spicyOption": false,
           "cashbackPercent": 5,
           "addons": [
@@ -2383,7 +3216,9 @@
               "name": "خبز إضافي",
               "price": 4
             }
-          ]
+          ],
+          "isCombo": false,
+          "comboIncludes": []
         },
         {
           "id": "naan-house-6",
@@ -2424,7 +3259,9 @@
               "name": "خبز إضافي",
               "price": 4
             }
-          ]
+          ],
+          "isCombo": false,
+          "comboIncludes": []
         },
         {
           "id": "naan-house-7",
@@ -2465,7 +3302,9 @@
               "name": "خبز إضافي",
               "price": 4
             }
-          ]
+          ],
+          "isCombo": false,
+          "comboIncludes": []
         },
         {
           "id": "naan-house-8",
@@ -2479,10 +3318,10 @@
           "protein": 8,
           "carbs": 36,
           "fat": 12,
-          "category": "offers",
+          "category": "menu",
           "isPopular": false,
-          "isOffer": true,
-          "offerPrice": 20,
+          "isOffer": false,
+          "offerPrice": null,
           "spicyOption": true,
           "cashbackPercent": 10,
           "addons": [
@@ -2506,7 +3345,9 @@
               "name": "خبز إضافي",
               "price": 4
             }
-          ]
+          ],
+          "isCombo": false,
+          "comboIncludes": []
         },
         {
           "id": "naan-house-9",
@@ -2547,7 +3388,9 @@
               "name": "خبز إضافي",
               "price": 4
             }
-          ]
+          ],
+          "isCombo": false,
+          "comboIncludes": []
         },
         {
           "id": "naan-house-10",
@@ -2566,6 +3409,153 @@
           "isOffer": false,
           "offerPrice": null,
           "spicyOption": false,
+          "cashbackPercent": null,
+          "addons": [
+            {
+              "id": "fries",
+              "name": "بطاطس مقلية",
+              "price": 8
+            },
+            {
+              "id": "cola",
+              "name": "كولا",
+              "price": 6
+            },
+            {
+              "id": "sauce",
+              "name": "صلصة إضافية",
+              "price": 3
+            },
+            {
+              "id": "bread",
+              "name": "خبز إضافي",
+              "price": 4
+            }
+          ],
+          "isCombo": false,
+          "comboIncludes": []
+        },
+        {
+          "id": "naan-house-combo-1",
+          "restaurantId": "naan-house",
+          "name": "كومبو برياني وجبة",
+          "description": "برياني مع رايتا ونان ومشروب.",
+          "image": "https://images.unsplash.com/photo-1585937421612-70a008356fbe?w=800&q=80",
+          "price": 54,
+          "rating": 4.6,
+          "calories": 1050,
+          "protein": 40,
+          "carbs": 110,
+          "fat": 32,
+          "category": "offers",
+          "isPopular": false,
+          "isOffer": true,
+          "offerPrice": null,
+          "isCombo": true,
+          "comboIncludes": [
+            "برياني دجاج",
+            "رايتا",
+            "نان",
+            "لاسي أو مشروب"
+          ],
+          "spicyOption": true,
+          "cashbackPercent": null,
+          "addons": [
+            {
+              "id": "fries",
+              "name": "بطاطس مقلية",
+              "price": 8
+            },
+            {
+              "id": "cola",
+              "name": "كولا",
+              "price": 6
+            },
+            {
+              "id": "sauce",
+              "name": "صلصة إضافية",
+              "price": 3
+            },
+            {
+              "id": "bread",
+              "name": "خبز إضافي",
+              "price": 4
+            }
+          ]
+        },
+        {
+          "id": "naan-house-combo-2",
+          "restaurantId": "naan-house",
+          "name": "كومبو كاري كامل",
+          "description": "كاري مع أرز وخبز.",
+          "image": "https://images.unsplash.com/photo-1565557623262-b51c2513a641?w=800&q=80",
+          "price": 58,
+          "rating": 4.6,
+          "calories": 980,
+          "protein": 38,
+          "carbs": 95,
+          "fat": 36,
+          "category": "offers",
+          "isPopular": false,
+          "isOffer": true,
+          "offerPrice": null,
+          "isCombo": true,
+          "comboIncludes": [
+            "تيكا ماسالا",
+            "أرز بسمتي",
+            "نان ثوم",
+            "مشروب"
+          ],
+          "spicyOption": true,
+          "cashbackPercent": null,
+          "addons": [
+            {
+              "id": "fries",
+              "name": "بطاطس مقلية",
+              "price": 8
+            },
+            {
+              "id": "cola",
+              "name": "كولا",
+              "price": 6
+            },
+            {
+              "id": "sauce",
+              "name": "صلصة إضافية",
+              "price": 3
+            },
+            {
+              "id": "bread",
+              "name": "خبز إضافي",
+              "price": 4
+            }
+          ]
+        },
+        {
+          "id": "naan-house-combo-3",
+          "restaurantId": "naan-house",
+          "name": "كومبو ثالي هندي",
+          "description": "تشكيلة أطباق صغيرة في وجبة واحدة.",
+          "image": "https://images.unsplash.com/photo-1588168333986-5078d3ae3976?w=800&q=80",
+          "price": 64,
+          "rating": 4.6,
+          "calories": 880,
+          "protein": 28,
+          "carbs": 100,
+          "fat": 28,
+          "category": "offers",
+          "isPopular": false,
+          "isOffer": true,
+          "offerPrice": null,
+          "isCombo": true,
+          "comboIncludes": [
+            "دال",
+            "كاري خضار",
+            "أرز",
+            "نان",
+            "مخلل"
+          ],
+          "spicyOption": true,
           "cashbackPercent": null,
           "addons": [
             {
@@ -2651,7 +3641,9 @@
               "name": "خبز إضافي",
               "price": 4
             }
-          ]
+          ],
+          "isCombo": false,
+          "comboIncludes": []
         },
         {
           "id": "tikka-spot-2",
@@ -2665,10 +3657,10 @@
           "protein": 36,
           "carbs": 40,
           "fat": 32,
-          "category": "offers",
+          "category": "menu",
           "isPopular": false,
-          "isOffer": true,
-          "offerPrice": 39,
+          "isOffer": false,
+          "offerPrice": null,
           "spicyOption": true,
           "cashbackPercent": 10,
           "addons": [
@@ -2692,7 +3684,9 @@
               "name": "خبز إضافي",
               "price": 4
             }
-          ]
+          ],
+          "isCombo": false,
+          "comboIncludes": []
         },
         {
           "id": "tikka-spot-3",
@@ -2733,7 +3727,9 @@
               "name": "خبز إضافي",
               "price": 4
             }
-          ]
+          ],
+          "isCombo": false,
+          "comboIncludes": []
         },
         {
           "id": "tikka-spot-4",
@@ -2774,7 +3770,9 @@
               "name": "خبز إضافي",
               "price": 4
             }
-          ]
+          ],
+          "isCombo": false,
+          "comboIncludes": []
         },
         {
           "id": "tikka-spot-5",
@@ -2815,7 +3813,9 @@
               "name": "خبز إضافي",
               "price": 4
             }
-          ]
+          ],
+          "isCombo": false,
+          "comboIncludes": []
         },
         {
           "id": "tikka-spot-6",
@@ -2856,7 +3856,9 @@
               "name": "خبز إضافي",
               "price": 4
             }
-          ]
+          ],
+          "isCombo": false,
+          "comboIncludes": []
         },
         {
           "id": "tikka-spot-7",
@@ -2897,7 +3899,9 @@
               "name": "خبز إضافي",
               "price": 4
             }
-          ]
+          ],
+          "isCombo": false,
+          "comboIncludes": []
         },
         {
           "id": "tikka-spot-8",
@@ -2938,7 +3942,9 @@
               "name": "خبز إضافي",
               "price": 4
             }
-          ]
+          ],
+          "isCombo": false,
+          "comboIncludes": []
         },
         {
           "id": "tikka-spot-9",
@@ -2979,7 +3985,9 @@
               "name": "خبز إضافي",
               "price": 4
             }
-          ]
+          ],
+          "isCombo": false,
+          "comboIncludes": []
         },
         {
           "id": "tikka-spot-10",
@@ -2998,6 +4006,153 @@
           "isOffer": false,
           "offerPrice": null,
           "spicyOption": false,
+          "cashbackPercent": null,
+          "addons": [
+            {
+              "id": "fries",
+              "name": "بطاطس مقلية",
+              "price": 8
+            },
+            {
+              "id": "cola",
+              "name": "كولا",
+              "price": 6
+            },
+            {
+              "id": "sauce",
+              "name": "صلصة إضافية",
+              "price": 3
+            },
+            {
+              "id": "bread",
+              "name": "خبز إضافي",
+              "price": 4
+            }
+          ],
+          "isCombo": false,
+          "comboIncludes": []
+        },
+        {
+          "id": "tikka-spot-combo-1",
+          "restaurantId": "tikka-spot",
+          "name": "كومبو برياني وجبة",
+          "description": "برياني مع رايتا ونان ومشروب.",
+          "image": "https://images.unsplash.com/photo-1585937421612-70a008356fbe?w=800&q=80",
+          "price": 54,
+          "rating": 4.6,
+          "calories": 1050,
+          "protein": 40,
+          "carbs": 110,
+          "fat": 32,
+          "category": "offers",
+          "isPopular": false,
+          "isOffer": true,
+          "offerPrice": null,
+          "isCombo": true,
+          "comboIncludes": [
+            "برياني دجاج",
+            "رايتا",
+            "نان",
+            "لاسي أو مشروب"
+          ],
+          "spicyOption": true,
+          "cashbackPercent": null,
+          "addons": [
+            {
+              "id": "fries",
+              "name": "بطاطس مقلية",
+              "price": 8
+            },
+            {
+              "id": "cola",
+              "name": "كولا",
+              "price": 6
+            },
+            {
+              "id": "sauce",
+              "name": "صلصة إضافية",
+              "price": 3
+            },
+            {
+              "id": "bread",
+              "name": "خبز إضافي",
+              "price": 4
+            }
+          ]
+        },
+        {
+          "id": "tikka-spot-combo-2",
+          "restaurantId": "tikka-spot",
+          "name": "كومبو كاري كامل",
+          "description": "كاري مع أرز وخبز.",
+          "image": "https://images.unsplash.com/photo-1565557623262-b51c2513a641?w=800&q=80",
+          "price": 58,
+          "rating": 4.6,
+          "calories": 980,
+          "protein": 38,
+          "carbs": 95,
+          "fat": 36,
+          "category": "offers",
+          "isPopular": false,
+          "isOffer": true,
+          "offerPrice": null,
+          "isCombo": true,
+          "comboIncludes": [
+            "تيكا ماسالا",
+            "أرز بسمتي",
+            "نان ثوم",
+            "مشروب"
+          ],
+          "spicyOption": true,
+          "cashbackPercent": null,
+          "addons": [
+            {
+              "id": "fries",
+              "name": "بطاطس مقلية",
+              "price": 8
+            },
+            {
+              "id": "cola",
+              "name": "كولا",
+              "price": 6
+            },
+            {
+              "id": "sauce",
+              "name": "صلصة إضافية",
+              "price": 3
+            },
+            {
+              "id": "bread",
+              "name": "خبز إضافي",
+              "price": 4
+            }
+          ]
+        },
+        {
+          "id": "tikka-spot-combo-3",
+          "restaurantId": "tikka-spot",
+          "name": "كومبو ثالي هندي",
+          "description": "تشكيلة أطباق صغيرة في وجبة واحدة.",
+          "image": "https://images.unsplash.com/photo-1588168333986-5078d3ae3976?w=800&q=80",
+          "price": 64,
+          "rating": 4.6,
+          "calories": 880,
+          "protein": 28,
+          "carbs": 100,
+          "fat": 28,
+          "category": "offers",
+          "isPopular": false,
+          "isOffer": true,
+          "offerPrice": null,
+          "isCombo": true,
+          "comboIncludes": [
+            "دال",
+            "كاري خضار",
+            "أرز",
+            "نان",
+            "مخلل"
+          ],
+          "spicyOption": true,
           "cashbackPercent": null,
           "addons": [
             {
@@ -3083,7 +4238,9 @@
               "name": "خبز إضافي",
               "price": 4
             }
-          ]
+          ],
+          "isCombo": false,
+          "comboIncludes": []
         },
         {
           "id": "delhi-express-2",
@@ -3097,10 +4254,10 @@
           "protein": 36,
           "carbs": 40,
           "fat": 32,
-          "category": "offers",
+          "category": "menu",
           "isPopular": false,
-          "isOffer": true,
-          "offerPrice": 40,
+          "isOffer": false,
+          "offerPrice": null,
           "spicyOption": true,
           "cashbackPercent": 10,
           "addons": [
@@ -3124,7 +4281,9 @@
               "name": "خبز إضافي",
               "price": 4
             }
-          ]
+          ],
+          "isCombo": false,
+          "comboIncludes": []
         },
         {
           "id": "delhi-express-3",
@@ -3165,7 +4324,9 @@
               "name": "خبز إضافي",
               "price": 4
             }
-          ]
+          ],
+          "isCombo": false,
+          "comboIncludes": []
         },
         {
           "id": "delhi-express-4",
@@ -3206,7 +4367,9 @@
               "name": "خبز إضافي",
               "price": 4
             }
-          ]
+          ],
+          "isCombo": false,
+          "comboIncludes": []
         },
         {
           "id": "delhi-express-5",
@@ -3247,7 +4410,9 @@
               "name": "خبز إضافي",
               "price": 4
             }
-          ]
+          ],
+          "isCombo": false,
+          "comboIncludes": []
         },
         {
           "id": "delhi-express-6",
@@ -3288,7 +4453,9 @@
               "name": "خبز إضافي",
               "price": 4
             }
-          ]
+          ],
+          "isCombo": false,
+          "comboIncludes": []
         },
         {
           "id": "delhi-express-7",
@@ -3329,7 +4496,9 @@
               "name": "خبز إضافي",
               "price": 4
             }
-          ]
+          ],
+          "isCombo": false,
+          "comboIncludes": []
         },
         {
           "id": "delhi-express-8",
@@ -3370,7 +4539,9 @@
               "name": "خبز إضافي",
               "price": 4
             }
-          ]
+          ],
+          "isCombo": false,
+          "comboIncludes": []
         },
         {
           "id": "delhi-express-9",
@@ -3411,7 +4582,9 @@
               "name": "خبز إضافي",
               "price": 4
             }
-          ]
+          ],
+          "isCombo": false,
+          "comboIncludes": []
         },
         {
           "id": "delhi-express-10",
@@ -3430,6 +4603,153 @@
           "isOffer": false,
           "offerPrice": null,
           "spicyOption": false,
+          "cashbackPercent": null,
+          "addons": [
+            {
+              "id": "fries",
+              "name": "بطاطس مقلية",
+              "price": 8
+            },
+            {
+              "id": "cola",
+              "name": "كولا",
+              "price": 6
+            },
+            {
+              "id": "sauce",
+              "name": "صلصة إضافية",
+              "price": 3
+            },
+            {
+              "id": "bread",
+              "name": "خبز إضافي",
+              "price": 4
+            }
+          ],
+          "isCombo": false,
+          "comboIncludes": []
+        },
+        {
+          "id": "delhi-express-combo-1",
+          "restaurantId": "delhi-express",
+          "name": "كومبو برياني وجبة",
+          "description": "برياني مع رايتا ونان ومشروب.",
+          "image": "https://images.unsplash.com/photo-1585937421612-70a008356fbe?w=800&q=80",
+          "price": 54,
+          "rating": 4.6,
+          "calories": 1050,
+          "protein": 40,
+          "carbs": 110,
+          "fat": 32,
+          "category": "offers",
+          "isPopular": false,
+          "isOffer": true,
+          "offerPrice": null,
+          "isCombo": true,
+          "comboIncludes": [
+            "برياني دجاج",
+            "رايتا",
+            "نان",
+            "لاسي أو مشروب"
+          ],
+          "spicyOption": true,
+          "cashbackPercent": null,
+          "addons": [
+            {
+              "id": "fries",
+              "name": "بطاطس مقلية",
+              "price": 8
+            },
+            {
+              "id": "cola",
+              "name": "كولا",
+              "price": 6
+            },
+            {
+              "id": "sauce",
+              "name": "صلصة إضافية",
+              "price": 3
+            },
+            {
+              "id": "bread",
+              "name": "خبز إضافي",
+              "price": 4
+            }
+          ]
+        },
+        {
+          "id": "delhi-express-combo-2",
+          "restaurantId": "delhi-express",
+          "name": "كومبو كاري كامل",
+          "description": "كاري مع أرز وخبز.",
+          "image": "https://images.unsplash.com/photo-1565557623262-b51c2513a641?w=800&q=80",
+          "price": 58,
+          "rating": 4.6,
+          "calories": 980,
+          "protein": 38,
+          "carbs": 95,
+          "fat": 36,
+          "category": "offers",
+          "isPopular": false,
+          "isOffer": true,
+          "offerPrice": null,
+          "isCombo": true,
+          "comboIncludes": [
+            "تيكا ماسالا",
+            "أرز بسمتي",
+            "نان ثوم",
+            "مشروب"
+          ],
+          "spicyOption": true,
+          "cashbackPercent": null,
+          "addons": [
+            {
+              "id": "fries",
+              "name": "بطاطس مقلية",
+              "price": 8
+            },
+            {
+              "id": "cola",
+              "name": "كولا",
+              "price": 6
+            },
+            {
+              "id": "sauce",
+              "name": "صلصة إضافية",
+              "price": 3
+            },
+            {
+              "id": "bread",
+              "name": "خبز إضافي",
+              "price": 4
+            }
+          ]
+        },
+        {
+          "id": "delhi-express-combo-3",
+          "restaurantId": "delhi-express",
+          "name": "كومبو ثالي هندي",
+          "description": "تشكيلة أطباق صغيرة في وجبة واحدة.",
+          "image": "https://images.unsplash.com/photo-1588168333986-5078d3ae3976?w=800&q=80",
+          "price": 64,
+          "rating": 4.6,
+          "calories": 880,
+          "protein": 28,
+          "carbs": 100,
+          "fat": 28,
+          "category": "offers",
+          "isPopular": false,
+          "isOffer": true,
+          "offerPrice": null,
+          "isCombo": true,
+          "comboIncludes": [
+            "دال",
+            "كاري خضار",
+            "أرز",
+            "نان",
+            "مخلل"
+          ],
+          "spicyOption": true,
           "cashbackPercent": null,
           "addons": [
             {

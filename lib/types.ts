@@ -37,8 +37,12 @@ export type Meal = {
   fat: number;
   category: MealCategory;
   isPopular: boolean;
+  /** True for combo/package deals shown under العروض (not price discounts). */
   isOffer: boolean;
   offerPrice: number | null;
+  isCombo: boolean;
+  /** Items included in a combo package (Arabic labels). */
+  comboIncludes: string[];
   spicyOption: boolean;
   cashbackPercent: number | null;
   addons: MealAddon[];

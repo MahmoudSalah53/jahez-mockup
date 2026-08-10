@@ -11,7 +11,7 @@ import { cn } from "@/lib/cn";
 
 const tabs: { id: "all" | MealCategory; label: string }[] = [
   { id: "all", label: "الكل" },
-  { id: "offers", label: "عروض" },
+  { id: "offers", label: "كومبو" },
   { id: "popular", label: "الأكثر طلباً" },
   { id: "menu", label: "القائمة" },
 ];
@@ -27,11 +27,11 @@ export function RestaurantMenu({ restaurant, meals }: Props) {
   const filtered = useMemo(() => {
     if (tab === "all") return meals;
     if (tab === "offers")
-      return meals.filter((m) => m.isOffer || m.category === "offers");
+      return meals.filter((m) => m.isCombo || m.isOffer || m.category === "offers");
     if (tab === "popular")
       return meals.filter((m) => m.isPopular || m.category === "popular");
     return meals.filter(
-      (m) => m.category === "menu" || (!m.isOffer && !m.isPopular),
+      (m) => !m.isCombo && !m.isOffer && (m.category === "menu" || !m.isPopular),
     );
   }, [meals, tab]);
 

@@ -12,8 +12,12 @@ type Props = {
 
 export function MealListItem({ meal, href, restaurantName }: Props) {
   const price = getMealPrice(meal);
-  const hasOffer = meal.isOffer && meal.offerPrice != null;
+  const isCombo = meal.isCombo || meal.isOffer;
   const link = href ?? `/meals/${meal.id}`;
+  const subtitle =
+    isCombo && meal.comboIncludes?.length
+      ? `يشمل: ${meal.comboIncludes.join(" · ")}`
+      : meal.description;
 
   return (
     <Link
@@ -28,9 +32,9 @@ export function MealListItem({ meal, href, restaurantName }: Props) {
           sizes="64px"
           className="object-cover"
         />
-        {hasOffer && (
+        {isCombo && (
           <span className="absolute start-1 top-1 rounded bg-accent px-1 text-[9px] font-bold text-white">
-            عرض
+            كومبو
           </span>
         )}
       </div>
@@ -41,18 +45,11 @@ export function MealListItem({ meal, href, restaurantName }: Props) {
         {restaurantName && (
           <p className="truncate text-xs text-muted">{restaurantName}</p>
         )}
-        <p className="mt-0.5 line-clamp-1 text-xs text-muted">
-          {meal.description}
-        </p>
+        <p className="mt-0.5 line-clamp-1 text-xs text-muted">{subtitle}</p>
         <div className="mt-1.5 flex items-center gap-2">
           <span className="text-sm font-semibold text-accent">
             {formatPrice(price)}
           </span>
-          {hasOffer && (
-            <span className="text-xs text-muted line-through">
-              {formatPrice(meal.price)}
-            </span>
-          )}
           <span className="text-[11px] text-muted">{meal.calories} سعرة</span>
         </div>
       </div>

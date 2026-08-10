@@ -59,7 +59,9 @@
               "name": "خبز إضافي",
               "price": 4
             }
-          ]
+          ],
+          "isCombo": false,
+          "comboIncludes": []
         },
         {
           "id": "nonna-oven-2",
@@ -100,7 +102,9 @@
               "name": "خبز إضافي",
               "price": 4
             }
-          ]
+          ],
+          "isCombo": false,
+          "comboIncludes": []
         },
         {
           "id": "nonna-oven-3",
@@ -114,10 +118,10 @@
           "protein": 26,
           "carbs": 68,
           "fat": 30,
-          "category": "offers",
+          "category": "menu",
           "isPopular": false,
-          "isOffer": true,
-          "offerPrice": 40,
+          "isOffer": false,
+          "offerPrice": null,
           "spicyOption": false,
           "cashbackPercent": null,
           "addons": [
@@ -141,7 +145,9 @@
               "name": "خبز إضافي",
               "price": 4
             }
-          ]
+          ],
+          "isCombo": false,
+          "comboIncludes": []
         },
         {
           "id": "nonna-oven-4",
@@ -182,7 +188,9 @@
               "name": "خبز إضافي",
               "price": 4
             }
-          ]
+          ],
+          "isCombo": false,
+          "comboIncludes": []
         },
         {
           "id": "nonna-oven-5",
@@ -223,7 +231,9 @@
               "name": "خبز إضافي",
               "price": 4
             }
-          ]
+          ],
+          "isCombo": false,
+          "comboIncludes": []
         },
         {
           "id": "nonna-oven-6",
@@ -264,7 +274,9 @@
               "name": "خبز إضافي",
               "price": 4
             }
-          ]
+          ],
+          "isCombo": false,
+          "comboIncludes": []
         },
         {
           "id": "nonna-oven-7",
@@ -305,7 +317,9 @@
               "name": "خبز إضافي",
               "price": 4
             }
-          ]
+          ],
+          "isCombo": false,
+          "comboIncludes": []
         },
         {
           "id": "nonna-oven-8",
@@ -319,10 +333,10 @@
           "protein": 6,
           "carbs": 32,
           "fat": 10,
-          "category": "offers",
+          "category": "menu",
           "isPopular": false,
-          "isOffer": true,
-          "offerPrice": 19,
+          "isOffer": false,
+          "offerPrice": null,
           "spicyOption": false,
           "cashbackPercent": 5,
           "addons": [
@@ -346,7 +360,9 @@
               "name": "خبز إضافي",
               "price": 4
             }
-          ]
+          ],
+          "isCombo": false,
+          "comboIncludes": []
         },
         {
           "id": "nonna-oven-9",
@@ -387,7 +403,9 @@
               "name": "خبز إضافي",
               "price": 4
             }
-          ]
+          ],
+          "isCombo": false,
+          "comboIncludes": []
         },
         {
           "id": "nonna-oven-10",
@@ -401,12 +419,155 @@
           "protein": 6,
           "carbs": 34,
           "fat": 18,
+          "category": "menu",
+          "isPopular": false,
+          "isOffer": false,
+          "offerPrice": null,
+          "spicyOption": false,
+          "cashbackPercent": 15,
+          "addons": [
+            {
+              "id": "fries",
+              "name": "بطاطس مقلية",
+              "price": 8
+            },
+            {
+              "id": "cola",
+              "name": "كولا",
+              "price": 6
+            },
+            {
+              "id": "sauce",
+              "name": "صلصة إضافية",
+              "price": 3
+            },
+            {
+              "id": "bread",
+              "name": "خبز إضافي",
+              "price": 4
+            }
+          ],
+          "isCombo": false,
+          "comboIncludes": []
+        },
+        {
+          "id": "nonna-oven-combo-1",
+          "restaurantId": "nonna-oven",
+          "name": "كومبو بيتزا فردي",
+          "description": "بيتزا شخصية مع مشروب وسلطة.",
+          "image": "https://images.unsplash.com/photo-1513104890138-7c749659a591?w=800&q=80",
+          "price": 55,
+          "rating": 4.6,
+          "calories": 980,
+          "protein": 32,
+          "carbs": 105,
+          "fat": 36,
           "category": "offers",
           "isPopular": false,
           "isOffer": true,
-          "offerPrice": 22,
+          "offerPrice": null,
+          "isCombo": true,
+          "comboIncludes": [
+            "بيتزا مارغريتا",
+            "سلطة سيزر صغيرة",
+            "مشروب"
+          ],
           "spicyOption": false,
-          "cashbackPercent": 15,
+          "cashbackPercent": null,
+          "addons": [
+            {
+              "id": "fries",
+              "name": "بطاطس مقلية",
+              "price": 8
+            },
+            {
+              "id": "cola",
+              "name": "كولا",
+              "price": 6
+            },
+            {
+              "id": "sauce",
+              "name": "صلصة إضافية",
+              "price": 3
+            },
+            {
+              "id": "bread",
+              "name": "خبز إضافي",
+              "price": 4
+            }
+          ]
+        },
+        {
+          "id": "nonna-oven-combo-2",
+          "restaurantId": "nonna-oven",
+          "name": "كومبو باستا كامل",
+          "description": "باستا مع خبز وثوم ومشروب.",
+          "image": "https://images.unsplash.com/photo-1551183053-bf91a1d81141?w=800&q=80",
+          "price": 52,
+          "rating": 4.6,
+          "calories": 920,
+          "protein": 28,
+          "carbs": 88,
+          "fat": 38,
+          "category": "offers",
+          "isPopular": false,
+          "isOffer": true,
+          "offerPrice": null,
+          "isCombo": true,
+          "comboIncludes": [
+            "باستا كاربونارا",
+            "ثوم محمص",
+            "مشروب"
+          ],
+          "spicyOption": false,
+          "cashbackPercent": null,
+          "addons": [
+            {
+              "id": "fries",
+              "name": "بطاطس مقلية",
+              "price": 8
+            },
+            {
+              "id": "cola",
+              "name": "كولا",
+              "price": 6
+            },
+            {
+              "id": "sauce",
+              "name": "صلصة إضافية",
+              "price": 3
+            },
+            {
+              "id": "bread",
+              "name": "خبز إضافي",
+              "price": 4
+            }
+          ]
+        },
+        {
+          "id": "nonna-oven-combo-3",
+          "restaurantId": "nonna-oven",
+          "name": "كومبو عائلي بيتزا",
+          "description": "بيتزا كبيرة مع مقبلات ومشروبات.",
+          "image": "https://images.unsplash.com/photo-1565299624946-b28f40a0ae38?w=800&q=80",
+          "price": 99,
+          "rating": 4.6,
+          "calories": 1800,
+          "protein": 60,
+          "carbs": 190,
+          "fat": 70,
+          "category": "offers",
+          "isPopular": false,
+          "isOffer": true,
+          "offerPrice": null,
+          "isCombo": true,
+          "comboIncludes": [
+            "بيتزا كبيرة",
+            "بروشيتا",
+            "٢ مشروب"
+          ],
+          "spicyOption": true,
+          "cashbackPercent": null,
           "addons": [
             {
               "id": "fries",
@@ -491,7 +652,9 @@
               "name": "خبز إضافي",
               "price": 4
             }
-          ]
+          ],
+          "isCombo": false,
+          "comboIncludes": []
         },
         {
           "id": "roma-pasta-2",
@@ -532,7 +695,9 @@
               "name": "خبز إضافي",
               "price": 4
             }
-          ]
+          ],
+          "isCombo": false,
+          "comboIncludes": []
         },
         {
           "id": "roma-pasta-3",
@@ -546,10 +711,10 @@
           "protein": 26,
           "carbs": 68,
           "fat": 30,
-          "category": "offers",
+          "category": "menu",
           "isPopular": false,
-          "isOffer": true,
-          "offerPrice": 37,
+          "isOffer": false,
+          "offerPrice": null,
           "spicyOption": false,
           "cashbackPercent": 5,
           "addons": [
@@ -573,7 +738,9 @@
               "name": "خبز إضافي",
               "price": 4
             }
-          ]
+          ],
+          "isCombo": false,
+          "comboIncludes": []
         },
         {
           "id": "roma-pasta-4",
@@ -614,7 +781,9 @@
               "name": "خبز إضافي",
               "price": 4
             }
-          ]
+          ],
+          "isCombo": false,
+          "comboIncludes": []
         },
         {
           "id": "roma-pasta-5",
@@ -655,7 +824,9 @@
               "name": "خبز إضافي",
               "price": 4
             }
-          ]
+          ],
+          "isCombo": false,
+          "comboIncludes": []
         },
         {
           "id": "roma-pasta-6",
@@ -696,7 +867,9 @@
               "name": "خبز إضافي",
               "price": 4
             }
-          ]
+          ],
+          "isCombo": false,
+          "comboIncludes": []
         },
         {
           "id": "roma-pasta-7",
@@ -737,7 +910,9 @@
               "name": "خبز إضافي",
               "price": 4
             }
-          ]
+          ],
+          "isCombo": false,
+          "comboIncludes": []
         },
         {
           "id": "roma-pasta-8",
@@ -751,10 +926,10 @@
           "protein": 6,
           "carbs": 32,
           "fat": 10,
-          "category": "offers",
+          "category": "menu",
           "isPopular": false,
-          "isOffer": true,
-          "offerPrice": 17,
+          "isOffer": false,
+          "offerPrice": null,
           "spicyOption": false,
           "cashbackPercent": null,
           "addons": [
@@ -778,7 +953,9 @@
               "name": "خبز إضافي",
               "price": 4
             }
-          ]
+          ],
+          "isCombo": false,
+          "comboIncludes": []
         },
         {
           "id": "roma-pasta-9",
@@ -819,7 +996,9 @@
               "name": "خبز إضافي",
               "price": 4
             }
-          ]
+          ],
+          "isCombo": false,
+          "comboIncludes": []
         },
         {
           "id": "roma-pasta-10",
@@ -838,6 +1017,149 @@
           "isOffer": false,
           "offerPrice": null,
           "spicyOption": false,
+          "cashbackPercent": null,
+          "addons": [
+            {
+              "id": "fries",
+              "name": "بطاطس مقلية",
+              "price": 8
+            },
+            {
+              "id": "cola",
+              "name": "كولا",
+              "price": 6
+            },
+            {
+              "id": "sauce",
+              "name": "صلصة إضافية",
+              "price": 3
+            },
+            {
+              "id": "bread",
+              "name": "خبز إضافي",
+              "price": 4
+            }
+          ],
+          "isCombo": false,
+          "comboIncludes": []
+        },
+        {
+          "id": "roma-pasta-combo-1",
+          "restaurantId": "roma-pasta",
+          "name": "كومبو بيتزا فردي",
+          "description": "بيتزا شخصية مع مشروب وسلطة.",
+          "image": "https://images.unsplash.com/photo-1513104890138-7c749659a591?w=800&q=80",
+          "price": 55,
+          "rating": 4.6,
+          "calories": 980,
+          "protein": 32,
+          "carbs": 105,
+          "fat": 36,
+          "category": "offers",
+          "isPopular": false,
+          "isOffer": true,
+          "offerPrice": null,
+          "isCombo": true,
+          "comboIncludes": [
+            "بيتزا مارغريتا",
+            "سلطة سيزر صغيرة",
+            "مشروب"
+          ],
+          "spicyOption": false,
+          "cashbackPercent": null,
+          "addons": [
+            {
+              "id": "fries",
+              "name": "بطاطس مقلية",
+              "price": 8
+            },
+            {
+              "id": "cola",
+              "name": "كولا",
+              "price": 6
+            },
+            {
+              "id": "sauce",
+              "name": "صلصة إضافية",
+              "price": 3
+            },
+            {
+              "id": "bread",
+              "name": "خبز إضافي",
+              "price": 4
+            }
+          ]
+        },
+        {
+          "id": "roma-pasta-combo-2",
+          "restaurantId": "roma-pasta",
+          "name": "كومبو باستا كامل",
+          "description": "باستا مع خبز وثوم ومشروب.",
+          "image": "https://images.unsplash.com/photo-1551183053-bf91a1d81141?w=800&q=80",
+          "price": 52,
+          "rating": 4.6,
+          "calories": 920,
+          "protein": 28,
+          "carbs": 88,
+          "fat": 38,
+          "category": "offers",
+          "isPopular": false,
+          "isOffer": true,
+          "offerPrice": null,
+          "isCombo": true,
+          "comboIncludes": [
+            "باستا كاربونارا",
+            "ثوم محمص",
+            "مشروب"
+          ],
+          "spicyOption": false,
+          "cashbackPercent": null,
+          "addons": [
+            {
+              "id": "fries",
+              "name": "بطاطس مقلية",
+              "price": 8
+            },
+            {
+              "id": "cola",
+              "name": "كولا",
+              "price": 6
+            },
+            {
+              "id": "sauce",
+              "name": "صلصة إضافية",
+              "price": 3
+            },
+            {
+              "id": "bread",
+              "name": "خبز إضافي",
+              "price": 4
+            }
+          ]
+        },
+        {
+          "id": "roma-pasta-combo-3",
+          "restaurantId": "roma-pasta",
+          "name": "كومبو عائلي بيتزا",
+          "description": "بيتزا كبيرة مع مقبلات ومشروبات.",
+          "image": "https://images.unsplash.com/photo-1565299624946-b28f40a0ae38?w=800&q=80",
+          "price": 99,
+          "rating": 4.6,
+          "calories": 1800,
+          "protein": 60,
+          "carbs": 190,
+          "fat": 70,
+          "category": "offers",
+          "isPopular": false,
+          "isOffer": true,
+          "offerPrice": null,
+          "isCombo": true,
+          "comboIncludes": [
+            "بيتزا كبيرة",
+            "بروشيتا",
+            "٢ مشروب"
+          ],
+          "spicyOption": true,
           "cashbackPercent": null,
           "addons": [
             {
@@ -896,10 +1218,10 @@
           "protein": 24,
           "carbs": 72,
           "fat": 24,
-          "category": "offers",
+          "category": "menu",
           "isPopular": false,
-          "isOffer": true,
-          "offerPrice": 35,
+          "isOffer": false,
+          "offerPrice": null,
           "spicyOption": false,
           "cashbackPercent": 5,
           "addons": [
@@ -923,7 +1245,9 @@
               "name": "خبز إضافي",
               "price": 4
             }
-          ]
+          ],
+          "isCombo": false,
+          "comboIncludes": []
         },
         {
           "id": "truffle-table-2",
@@ -937,10 +1261,10 @@
           "protein": 28,
           "carbs": 70,
           "fat": 32,
-          "category": "offers",
+          "category": "menu",
           "isPopular": false,
-          "isOffer": true,
-          "offerPrice": 38,
+          "isOffer": false,
+          "offerPrice": null,
           "spicyOption": true,
           "cashbackPercent": null,
           "addons": [
@@ -964,7 +1288,9 @@
               "name": "خبز إضافي",
               "price": 4
             }
-          ]
+          ],
+          "isCombo": false,
+          "comboIncludes": []
         },
         {
           "id": "truffle-table-3",
@@ -978,10 +1304,10 @@
           "protein": 26,
           "carbs": 68,
           "fat": 30,
-          "category": "offers",
+          "category": "menu",
           "isPopular": false,
-          "isOffer": true,
-          "offerPrice": 37,
+          "isOffer": false,
+          "offerPrice": null,
           "spicyOption": false,
           "cashbackPercent": 10,
           "addons": [
@@ -1005,7 +1331,9 @@
               "name": "خبز إضافي",
               "price": 4
             }
-          ]
+          ],
+          "isCombo": false,
+          "comboIncludes": []
         },
         {
           "id": "truffle-table-4",
@@ -1019,10 +1347,10 @@
           "protein": 34,
           "carbs": 60,
           "fat": 38,
-          "category": "offers",
+          "category": "menu",
           "isPopular": false,
-          "isOffer": true,
-          "offerPrice": 40,
+          "isOffer": false,
+          "offerPrice": null,
           "spicyOption": false,
           "cashbackPercent": null,
           "addons": [
@@ -1046,7 +1374,9 @@
               "name": "خبز إضافي",
               "price": 4
             }
-          ]
+          ],
+          "isCombo": false,
+          "comboIncludes": []
         },
         {
           "id": "truffle-table-5",
@@ -1087,7 +1417,9 @@
               "name": "خبز إضافي",
               "price": 4
             }
-          ]
+          ],
+          "isCombo": false,
+          "comboIncludes": []
         },
         {
           "id": "truffle-table-6",
@@ -1128,7 +1460,9 @@
               "name": "خبز إضافي",
               "price": 4
             }
-          ]
+          ],
+          "isCombo": false,
+          "comboIncludes": []
         },
         {
           "id": "truffle-table-7",
@@ -1169,7 +1503,9 @@
               "name": "خبز إضافي",
               "price": 4
             }
-          ]
+          ],
+          "isCombo": false,
+          "comboIncludes": []
         },
         {
           "id": "truffle-table-8",
@@ -1210,7 +1546,9 @@
               "name": "خبز إضافي",
               "price": 4
             }
-          ]
+          ],
+          "isCombo": false,
+          "comboIncludes": []
         },
         {
           "id": "truffle-table-9",
@@ -1251,7 +1589,9 @@
               "name": "خبز إضافي",
               "price": 4
             }
-          ]
+          ],
+          "isCombo": false,
+          "comboIncludes": []
         },
         {
           "id": "truffle-table-10",
@@ -1270,6 +1610,149 @@
           "isOffer": false,
           "offerPrice": null,
           "spicyOption": false,
+          "cashbackPercent": null,
+          "addons": [
+            {
+              "id": "fries",
+              "name": "بطاطس مقلية",
+              "price": 8
+            },
+            {
+              "id": "cola",
+              "name": "كولا",
+              "price": 6
+            },
+            {
+              "id": "sauce",
+              "name": "صلصة إضافية",
+              "price": 3
+            },
+            {
+              "id": "bread",
+              "name": "خبز إضافي",
+              "price": 4
+            }
+          ],
+          "isCombo": false,
+          "comboIncludes": []
+        },
+        {
+          "id": "truffle-table-combo-1",
+          "restaurantId": "truffle-table",
+          "name": "كومبو بيتزا فردي",
+          "description": "بيتزا شخصية مع مشروب وسلطة.",
+          "image": "https://images.unsplash.com/photo-1513104890138-7c749659a591?w=800&q=80",
+          "price": 55,
+          "rating": 4.6,
+          "calories": 980,
+          "protein": 32,
+          "carbs": 105,
+          "fat": 36,
+          "category": "offers",
+          "isPopular": false,
+          "isOffer": true,
+          "offerPrice": null,
+          "isCombo": true,
+          "comboIncludes": [
+            "بيتزا مارغريتا",
+            "سلطة سيزر صغيرة",
+            "مشروب"
+          ],
+          "spicyOption": false,
+          "cashbackPercent": null,
+          "addons": [
+            {
+              "id": "fries",
+              "name": "بطاطس مقلية",
+              "price": 8
+            },
+            {
+              "id": "cola",
+              "name": "كولا",
+              "price": 6
+            },
+            {
+              "id": "sauce",
+              "name": "صلصة إضافية",
+              "price": 3
+            },
+            {
+              "id": "bread",
+              "name": "خبز إضافي",
+              "price": 4
+            }
+          ]
+        },
+        {
+          "id": "truffle-table-combo-2",
+          "restaurantId": "truffle-table",
+          "name": "كومبو باستا كامل",
+          "description": "باستا مع خبز وثوم ومشروب.",
+          "image": "https://images.unsplash.com/photo-1551183053-bf91a1d81141?w=800&q=80",
+          "price": 52,
+          "rating": 4.6,
+          "calories": 920,
+          "protein": 28,
+          "carbs": 88,
+          "fat": 38,
+          "category": "offers",
+          "isPopular": false,
+          "isOffer": true,
+          "offerPrice": null,
+          "isCombo": true,
+          "comboIncludes": [
+            "باستا كاربونارا",
+            "ثوم محمص",
+            "مشروب"
+          ],
+          "spicyOption": false,
+          "cashbackPercent": null,
+          "addons": [
+            {
+              "id": "fries",
+              "name": "بطاطس مقلية",
+              "price": 8
+            },
+            {
+              "id": "cola",
+              "name": "كولا",
+              "price": 6
+            },
+            {
+              "id": "sauce",
+              "name": "صلصة إضافية",
+              "price": 3
+            },
+            {
+              "id": "bread",
+              "name": "خبز إضافي",
+              "price": 4
+            }
+          ]
+        },
+        {
+          "id": "truffle-table-combo-3",
+          "restaurantId": "truffle-table",
+          "name": "كومبو عائلي بيتزا",
+          "description": "بيتزا كبيرة مع مقبلات ومشروبات.",
+          "image": "https://images.unsplash.com/photo-1565299624946-b28f40a0ae38?w=800&q=80",
+          "price": 99,
+          "rating": 4.6,
+          "calories": 1800,
+          "protein": 60,
+          "carbs": 190,
+          "fat": 70,
+          "category": "offers",
+          "isPopular": false,
+          "isOffer": true,
+          "offerPrice": null,
+          "isCombo": true,
+          "comboIncludes": [
+            "بيتزا كبيرة",
+            "بروشيتا",
+            "٢ مشروب"
+          ],
+          "spicyOption": true,
           "cashbackPercent": null,
           "addons": [
             {
@@ -1355,7 +1838,9 @@
               "name": "خبز إضافي",
               "price": 4
             }
-          ]
+          ],
+          "isCombo": false,
+          "comboIncludes": []
         },
         {
           "id": "olive-crust-2",
@@ -1396,7 +1881,9 @@
               "name": "خبز إضافي",
               "price": 4
             }
-          ]
+          ],
+          "isCombo": false,
+          "comboIncludes": []
         },
         {
           "id": "olive-crust-3",
@@ -1437,7 +1924,9 @@
               "name": "خبز إضافي",
               "price": 4
             }
-          ]
+          ],
+          "isCombo": false,
+          "comboIncludes": []
         },
         {
           "id": "olive-crust-4",
@@ -1478,7 +1967,9 @@
               "name": "خبز إضافي",
               "price": 4
             }
-          ]
+          ],
+          "isCombo": false,
+          "comboIncludes": []
         },
         {
           "id": "olive-crust-5",
@@ -1519,7 +2010,9 @@
               "name": "خبز إضافي",
               "price": 4
             }
-          ]
+          ],
+          "isCombo": false,
+          "comboIncludes": []
         },
         {
           "id": "olive-crust-6",
@@ -1533,10 +2026,10 @@
           "protein": 14,
           "carbs": 58,
           "fat": 20,
-          "category": "offers",
+          "category": "menu",
           "isPopular": false,
-          "isOffer": true,
-          "offerPrice": 39,
+          "isOffer": false,
+          "offerPrice": null,
           "spicyOption": false,
           "cashbackPercent": 15,
           "addons": [
@@ -1560,7 +2053,9 @@
               "name": "خبز إضافي",
               "price": 4
             }
-          ]
+          ],
+          "isCombo": false,
+          "comboIncludes": []
         },
         {
           "id": "olive-crust-7",
@@ -1601,7 +2096,9 @@
               "name": "خبز إضافي",
               "price": 4
             }
-          ]
+          ],
+          "isCombo": false,
+          "comboIncludes": []
         },
         {
           "id": "olive-crust-8",
@@ -1615,10 +2112,10 @@
           "protein": 6,
           "carbs": 32,
           "fat": 10,
-          "category": "offers",
+          "category": "menu",
           "isPopular": false,
-          "isOffer": true,
-          "offerPrice": 18,
+          "isOffer": false,
+          "offerPrice": null,
           "spicyOption": false,
           "cashbackPercent": 15,
           "addons": [
@@ -1642,7 +2139,9 @@
               "name": "خبز إضافي",
               "price": 4
             }
-          ]
+          ],
+          "isCombo": false,
+          "comboIncludes": []
         },
         {
           "id": "olive-crust-9",
@@ -1683,7 +2182,9 @@
               "name": "خبز إضافي",
               "price": 4
             }
-          ]
+          ],
+          "isCombo": false,
+          "comboIncludes": []
         },
         {
           "id": "olive-crust-10",
@@ -1702,6 +2203,149 @@
           "isOffer": false,
           "offerPrice": null,
           "spicyOption": false,
+          "cashbackPercent": null,
+          "addons": [
+            {
+              "id": "fries",
+              "name": "بطاطس مقلية",
+              "price": 8
+            },
+            {
+              "id": "cola",
+              "name": "كولا",
+              "price": 6
+            },
+            {
+              "id": "sauce",
+              "name": "صلصة إضافية",
+              "price": 3
+            },
+            {
+              "id": "bread",
+              "name": "خبز إضافي",
+              "price": 4
+            }
+          ],
+          "isCombo": false,
+          "comboIncludes": []
+        },
+        {
+          "id": "olive-crust-combo-1",
+          "restaurantId": "olive-crust",
+          "name": "كومبو بيتزا فردي",
+          "description": "بيتزا شخصية مع مشروب وسلطة.",
+          "image": "https://images.unsplash.com/photo-1513104890138-7c749659a591?w=800&q=80",
+          "price": 55,
+          "rating": 4.6,
+          "calories": 980,
+          "protein": 32,
+          "carbs": 105,
+          "fat": 36,
+          "category": "offers",
+          "isPopular": false,
+          "isOffer": true,
+          "offerPrice": null,
+          "isCombo": true,
+          "comboIncludes": [
+            "بيتزا مارغريتا",
+            "سلطة سيزر صغيرة",
+            "مشروب"
+          ],
+          "spicyOption": false,
+          "cashbackPercent": null,
+          "addons": [
+            {
+              "id": "fries",
+              "name": "بطاطس مقلية",
+              "price": 8
+            },
+            {
+              "id": "cola",
+              "name": "كولا",
+              "price": 6
+            },
+            {
+              "id": "sauce",
+              "name": "صلصة إضافية",
+              "price": 3
+            },
+            {
+              "id": "bread",
+              "name": "خبز إضافي",
+              "price": 4
+            }
+          ]
+        },
+        {
+          "id": "olive-crust-combo-2",
+          "restaurantId": "olive-crust",
+          "name": "كومبو باستا كامل",
+          "description": "باستا مع خبز وثوم ومشروب.",
+          "image": "https://images.unsplash.com/photo-1551183053-bf91a1d81141?w=800&q=80",
+          "price": 52,
+          "rating": 4.6,
+          "calories": 920,
+          "protein": 28,
+          "carbs": 88,
+          "fat": 38,
+          "category": "offers",
+          "isPopular": false,
+          "isOffer": true,
+          "offerPrice": null,
+          "isCombo": true,
+          "comboIncludes": [
+            "باستا كاربونارا",
+            "ثوم محمص",
+            "مشروب"
+          ],
+          "spicyOption": false,
+          "cashbackPercent": null,
+          "addons": [
+            {
+              "id": "fries",
+              "name": "بطاطس مقلية",
+              "price": 8
+            },
+            {
+              "id": "cola",
+              "name": "كولا",
+              "price": 6
+            },
+            {
+              "id": "sauce",
+              "name": "صلصة إضافية",
+              "price": 3
+            },
+            {
+              "id": "bread",
+              "name": "خبز إضافي",
+              "price": 4
+            }
+          ]
+        },
+        {
+          "id": "olive-crust-combo-3",
+          "restaurantId": "olive-crust",
+          "name": "كومبو عائلي بيتزا",
+          "description": "بيتزا كبيرة مع مقبلات ومشروبات.",
+          "image": "https://images.unsplash.com/photo-1565299624946-b28f40a0ae38?w=800&q=80",
+          "price": 99,
+          "rating": 4.6,
+          "calories": 1800,
+          "protein": 60,
+          "carbs": 190,
+          "fat": 70,
+          "category": "offers",
+          "isPopular": false,
+          "isOffer": true,
+          "offerPrice": null,
+          "isCombo": true,
+          "comboIncludes": [
+            "بيتزا كبيرة",
+            "بروشيتا",
+            "٢ مشروب"
+          ],
+          "spicyOption": true,
           "cashbackPercent": null,
           "addons": [
             {
@@ -1787,7 +2431,9 @@
               "name": "خبز إضافي",
               "price": 4
             }
-          ]
+          ],
+          "isCombo": false,
+          "comboIncludes": []
         },
         {
           "id": "vesuvio-pizza-2",
@@ -1828,7 +2474,9 @@
               "name": "خبز إضافي",
               "price": 4
             }
-          ]
+          ],
+          "isCombo": false,
+          "comboIncludes": []
         },
         {
           "id": "vesuvio-pizza-3",
@@ -1869,7 +2517,9 @@
               "name": "خبز إضافي",
               "price": 4
             }
-          ]
+          ],
+          "isCombo": false,
+          "comboIncludes": []
         },
         {
           "id": "vesuvio-pizza-4",
@@ -1910,7 +2560,9 @@
               "name": "خبز إضافي",
               "price": 4
             }
-          ]
+          ],
+          "isCombo": false,
+          "comboIncludes": []
         },
         {
           "id": "vesuvio-pizza-5",
@@ -1951,7 +2603,9 @@
               "name": "خبز إضافي",
               "price": 4
             }
-          ]
+          ],
+          "isCombo": false,
+          "comboIncludes": []
         },
         {
           "id": "vesuvio-pizza-6",
@@ -1965,10 +2619,10 @@
           "protein": 14,
           "carbs": 58,
           "fat": 20,
-          "category": "offers",
+          "category": "menu",
           "isPopular": false,
-          "isOffer": true,
-          "offerPrice": 35,
+          "isOffer": false,
+          "offerPrice": null,
           "spicyOption": false,
           "cashbackPercent": null,
           "addons": [
@@ -1992,7 +2646,9 @@
               "name": "خبز إضافي",
               "price": 4
             }
-          ]
+          ],
+          "isCombo": false,
+          "comboIncludes": []
         },
         {
           "id": "vesuvio-pizza-7",
@@ -2033,7 +2689,9 @@
               "name": "خبز إضافي",
               "price": 4
             }
-          ]
+          ],
+          "isCombo": false,
+          "comboIncludes": []
         },
         {
           "id": "vesuvio-pizza-8",
@@ -2074,7 +2732,9 @@
               "name": "خبز إضافي",
               "price": 4
             }
-          ]
+          ],
+          "isCombo": false,
+          "comboIncludes": []
         },
         {
           "id": "vesuvio-pizza-9",
@@ -2115,7 +2775,9 @@
               "name": "خبز إضافي",
               "price": 4
             }
-          ]
+          ],
+          "isCombo": false,
+          "comboIncludes": []
         },
         {
           "id": "vesuvio-pizza-10",
@@ -2134,6 +2796,149 @@
           "isOffer": false,
           "offerPrice": null,
           "spicyOption": false,
+          "cashbackPercent": null,
+          "addons": [
+            {
+              "id": "fries",
+              "name": "بطاطس مقلية",
+              "price": 8
+            },
+            {
+              "id": "cola",
+              "name": "كولا",
+              "price": 6
+            },
+            {
+              "id": "sauce",
+              "name": "صلصة إضافية",
+              "price": 3
+            },
+            {
+              "id": "bread",
+              "name": "خبز إضافي",
+              "price": 4
+            }
+          ],
+          "isCombo": false,
+          "comboIncludes": []
+        },
+        {
+          "id": "vesuvio-pizza-combo-1",
+          "restaurantId": "vesuvio-pizza",
+          "name": "كومبو بيتزا فردي",
+          "description": "بيتزا شخصية مع مشروب وسلطة.",
+          "image": "https://images.unsplash.com/photo-1513104890138-7c749659a591?w=800&q=80",
+          "price": 55,
+          "rating": 4.6,
+          "calories": 980,
+          "protein": 32,
+          "carbs": 105,
+          "fat": 36,
+          "category": "offers",
+          "isPopular": false,
+          "isOffer": true,
+          "offerPrice": null,
+          "isCombo": true,
+          "comboIncludes": [
+            "بيتزا مارغريتا",
+            "سلطة سيزر صغيرة",
+            "مشروب"
+          ],
+          "spicyOption": false,
+          "cashbackPercent": null,
+          "addons": [
+            {
+              "id": "fries",
+              "name": "بطاطس مقلية",
+              "price": 8
+            },
+            {
+              "id": "cola",
+              "name": "كولا",
+              "price": 6
+            },
+            {
+              "id": "sauce",
+              "name": "صلصة إضافية",
+              "price": 3
+            },
+            {
+              "id": "bread",
+              "name": "خبز إضافي",
+              "price": 4
+            }
+          ]
+        },
+        {
+          "id": "vesuvio-pizza-combo-2",
+          "restaurantId": "vesuvio-pizza",
+          "name": "كومبو باستا كامل",
+          "description": "باستا مع خبز وثوم ومشروب.",
+          "image": "https://images.unsplash.com/photo-1551183053-bf91a1d81141?w=800&q=80",
+          "price": 52,
+          "rating": 4.6,
+          "calories": 920,
+          "protein": 28,
+          "carbs": 88,
+          "fat": 38,
+          "category": "offers",
+          "isPopular": false,
+          "isOffer": true,
+          "offerPrice": null,
+          "isCombo": true,
+          "comboIncludes": [
+            "باستا كاربونارا",
+            "ثوم محمص",
+            "مشروب"
+          ],
+          "spicyOption": false,
+          "cashbackPercent": null,
+          "addons": [
+            {
+              "id": "fries",
+              "name": "بطاطس مقلية",
+              "price": 8
+            },
+            {
+              "id": "cola",
+              "name": "كولا",
+              "price": 6
+            },
+            {
+              "id": "sauce",
+              "name": "صلصة إضافية",
+              "price": 3
+            },
+            {
+              "id": "bread",
+              "name": "خبز إضافي",
+              "price": 4
+            }
+          ]
+        },
+        {
+          "id": "vesuvio-pizza-combo-3",
+          "restaurantId": "vesuvio-pizza",
+          "name": "كومبو عائلي بيتزا",
+          "description": "بيتزا كبيرة مع مقبلات ومشروبات.",
+          "image": "https://images.unsplash.com/photo-1565299624946-b28f40a0ae38?w=800&q=80",
+          "price": 99,
+          "rating": 4.6,
+          "calories": 1800,
+          "protein": 60,
+          "carbs": 190,
+          "fat": 70,
+          "category": "offers",
+          "isPopular": false,
+          "isOffer": true,
+          "offerPrice": null,
+          "isCombo": true,
+          "comboIncludes": [
+            "بيتزا كبيرة",
+            "بروشيتا",
+            "٢ مشروب"
+          ],
+          "spicyOption": true,
           "cashbackPercent": null,
           "addons": [
             {
@@ -2192,10 +2997,10 @@
           "protein": 24,
           "carbs": 72,
           "fat": 24,
-          "category": "offers",
+          "category": "menu",
           "isPopular": false,
-          "isOffer": true,
-          "offerPrice": 36,
+          "isOffer": false,
+          "offerPrice": null,
           "spicyOption": false,
           "cashbackPercent": null,
           "addons": [
@@ -2219,7 +3024,9 @@
               "name": "خبز إضافي",
               "price": 4
             }
-          ]
+          ],
+          "isCombo": false,
+          "comboIncludes": []
         },
         {
           "id": "basilico-2",
@@ -2260,7 +3067,9 @@
               "name": "خبز إضافي",
               "price": 4
             }
-          ]
+          ],
+          "isCombo": false,
+          "comboIncludes": []
         },
         {
           "id": "basilico-3",
@@ -2301,7 +3110,9 @@
               "name": "خبز إضافي",
               "price": 4
             }
-          ]
+          ],
+          "isCombo": false,
+          "comboIncludes": []
         },
         {
           "id": "basilico-4",
@@ -2315,10 +3126,10 @@
           "protein": 34,
           "carbs": 60,
           "fat": 38,
-          "category": "offers",
+          "category": "menu",
           "isPopular": false,
-          "isOffer": true,
-          "offerPrice": 46,
+          "isOffer": false,
+          "offerPrice": null,
           "spicyOption": false,
           "cashbackPercent": 5,
           "addons": [
@@ -2342,7 +3153,9 @@
               "name": "خبز إضافي",
               "price": 4
             }
-          ]
+          ],
+          "isCombo": false,
+          "comboIncludes": []
         },
         {
           "id": "basilico-5",
@@ -2383,7 +3196,9 @@
               "name": "خبز إضافي",
               "price": 4
             }
-          ]
+          ],
+          "isCombo": false,
+          "comboIncludes": []
         },
         {
           "id": "basilico-6",
@@ -2424,7 +3239,9 @@
               "name": "خبز إضافي",
               "price": 4
             }
-          ]
+          ],
+          "isCombo": false,
+          "comboIncludes": []
         },
         {
           "id": "basilico-7",
@@ -2465,7 +3282,9 @@
               "name": "خبز إضافي",
               "price": 4
             }
-          ]
+          ],
+          "isCombo": false,
+          "comboIncludes": []
         },
         {
           "id": "basilico-8",
@@ -2506,7 +3325,9 @@
               "name": "خبز إضافي",
               "price": 4
             }
-          ]
+          ],
+          "isCombo": false,
+          "comboIncludes": []
         },
         {
           "id": "basilico-9",
@@ -2547,7 +3368,9 @@
               "name": "خبز إضافي",
               "price": 4
             }
-          ]
+          ],
+          "isCombo": false,
+          "comboIncludes": []
         },
         {
           "id": "basilico-10",
@@ -2561,11 +3384,154 @@
           "protein": 6,
           "carbs": 34,
           "fat": 18,
+          "category": "menu",
+          "isPopular": false,
+          "isOffer": false,
+          "offerPrice": null,
+          "spicyOption": false,
+          "cashbackPercent": null,
+          "addons": [
+            {
+              "id": "fries",
+              "name": "بطاطس مقلية",
+              "price": 8
+            },
+            {
+              "id": "cola",
+              "name": "كولا",
+              "price": 6
+            },
+            {
+              "id": "sauce",
+              "name": "صلصة إضافية",
+              "price": 3
+            },
+            {
+              "id": "bread",
+              "name": "خبز إضافي",
+              "price": 4
+            }
+          ],
+          "isCombo": false,
+          "comboIncludes": []
+        },
+        {
+          "id": "basilico-combo-1",
+          "restaurantId": "basilico",
+          "name": "كومبو بيتزا فردي",
+          "description": "بيتزا شخصية مع مشروب وسلطة.",
+          "image": "https://images.unsplash.com/photo-1513104890138-7c749659a591?w=800&q=80",
+          "price": 55,
+          "rating": 4.6,
+          "calories": 980,
+          "protein": 32,
+          "carbs": 105,
+          "fat": 36,
           "category": "offers",
           "isPopular": false,
           "isOffer": true,
-          "offerPrice": 22,
+          "offerPrice": null,
+          "isCombo": true,
+          "comboIncludes": [
+            "بيتزا مارغريتا",
+            "سلطة سيزر صغيرة",
+            "مشروب"
+          ],
           "spicyOption": false,
+          "cashbackPercent": null,
+          "addons": [
+            {
+              "id": "fries",
+              "name": "بطاطس مقلية",
+              "price": 8
+            },
+            {
+              "id": "cola",
+              "name": "كولا",
+              "price": 6
+            },
+            {
+              "id": "sauce",
+              "name": "صلصة إضافية",
+              "price": 3
+            },
+            {
+              "id": "bread",
+              "name": "خبز إضافي",
+              "price": 4
+            }
+          ]
+        },
+        {
+          "id": "basilico-combo-2",
+          "restaurantId": "basilico",
+          "name": "كومبو باستا كامل",
+          "description": "باستا مع خبز وثوم ومشروب.",
+          "image": "https://images.unsplash.com/photo-1551183053-bf91a1d81141?w=800&q=80",
+          "price": 52,
+          "rating": 4.6,
+          "calories": 920,
+          "protein": 28,
+          "carbs": 88,
+          "fat": 38,
+          "category": "offers",
+          "isPopular": false,
+          "isOffer": true,
+          "offerPrice": null,
+          "isCombo": true,
+          "comboIncludes": [
+            "باستا كاربونارا",
+            "ثوم محمص",
+            "مشروب"
+          ],
+          "spicyOption": false,
+          "cashbackPercent": null,
+          "addons": [
+            {
+              "id": "fries",
+              "name": "بطاطس مقلية",
+              "price": 8
+            },
+            {
+              "id": "cola",
+              "name": "كولا",
+              "price": 6
+            },
+            {
+              "id": "sauce",
+              "name": "صلصة إضافية",
+              "price": 3
+            },
+            {
+              "id": "bread",
+              "name": "خبز إضافي",
+              "price": 4
+            }
+          ]
+        },
+        {
+          "id": "basilico-combo-3",
+          "restaurantId": "basilico",
+          "name": "كومبو عائلي بيتزا",
+          "description": "بيتزا كبيرة مع مقبلات ومشروبات.",
+          "image": "https://images.unsplash.com/photo-1565299624946-b28f40a0ae38?w=800&q=80",
+          "price": 99,
+          "rating": 4.6,
+          "calories": 1800,
+          "protein": 60,
+          "carbs": 190,
+          "fat": 70,
+          "category": "offers",
+          "isPopular": false,
+          "isOffer": true,
+          "offerPrice": null,
+          "isCombo": true,
+          "comboIncludes": [
+            "بيتزا كبيرة",
+            "بروشيتا",
+            "٢ مشروب"
+          ],
+          "spicyOption": true,
           "cashbackPercent": null,
           "addons": [
             {
@@ -2651,7 +3617,9 @@
               "name": "خبز إضافي",
               "price": 4
             }
-          ]
+          ],
+          "isCombo": false,
+          "comboIncludes": []
         },
         {
           "id": "formaggio-2",
@@ -2692,7 +3660,9 @@
               "name": "خبز إضافي",
               "price": 4
             }
-          ]
+          ],
+          "isCombo": false,
+          "comboIncludes": []
         },
         {
           "id": "formaggio-3",
@@ -2733,7 +3703,9 @@
               "name": "خبز إضافي",
               "price": 4
             }
-          ]
+          ],
+          "isCombo": false,
+          "comboIncludes": []
         },
         {
           "id": "formaggio-4",
@@ -2774,7 +3746,9 @@
               "name": "خبز إضافي",
               "price": 4
             }
-          ]
+          ],
+          "isCombo": false,
+          "comboIncludes": []
         },
         {
           "id": "formaggio-5",
@@ -2815,7 +3789,9 @@
               "name": "خبز إضافي",
               "price": 4
             }
-          ]
+          ],
+          "isCombo": false,
+          "comboIncludes": []
         },
         {
           "id": "formaggio-6",
@@ -2829,10 +3805,10 @@
           "protein": 14,
           "carbs": 58,
           "fat": 20,
-          "category": "offers",
+          "category": "menu",
           "isPopular": false,
-          "isOffer": true,
-          "offerPrice": 36,
+          "isOffer": false,
+          "offerPrice": null,
           "spicyOption": false,
           "cashbackPercent": 15,
           "addons": [
@@ -2856,7 +3832,9 @@
               "name": "خبز إضافي",
               "price": 4
             }
-          ]
+          ],
+          "isCombo": false,
+          "comboIncludes": []
         },
         {
           "id": "formaggio-7",
@@ -2870,10 +3848,10 @@
           "protein": 18,
           "carbs": 16,
           "fat": 18,
-          "category": "offers",
+          "category": "menu",
           "isPopular": false,
-          "isOffer": true,
-          "offerPrice": 24,
+          "isOffer": false,
+          "offerPrice": null,
           "spicyOption": false,
           "cashbackPercent": 10,
           "addons": [
@@ -2897,7 +3875,9 @@
               "name": "خبز إضافي",
               "price": 4
             }
-          ]
+          ],
+          "isCombo": false,
+          "comboIncludes": []
         },
         {
           "id": "formaggio-8",
@@ -2911,10 +3891,10 @@
           "protein": 6,
           "carbs": 32,
           "fat": 10,
-          "category": "offers",
+          "category": "menu",
           "isPopular": false,
-          "isOffer": true,
-          "offerPrice": 20,
+          "isOffer": false,
+          "offerPrice": null,
           "spicyOption": false,
           "cashbackPercent": null,
           "addons": [
@@ -2938,7 +3918,9 @@
               "name": "خبز إضافي",
               "price": 4
             }
-          ]
+          ],
+          "isCombo": false,
+          "comboIncludes": []
         },
         {
           "id": "formaggio-9",
@@ -2979,7 +3961,9 @@
               "name": "خبز إضافي",
               "price": 4
             }
-          ]
+          ],
+          "isCombo": false,
+          "comboIncludes": []
         },
         {
           "id": "formaggio-10",
@@ -2998,6 +3982,149 @@
           "isOffer": false,
           "offerPrice": null,
           "spicyOption": false,
+          "cashbackPercent": null,
+          "addons": [
+            {
+              "id": "fries",
+              "name": "بطاطس مقلية",
+              "price": 8
+            },
+            {
+              "id": "cola",
+              "name": "كولا",
+              "price": 6
+            },
+            {
+              "id": "sauce",
+              "name": "صلصة إضافية",
+              "price": 3
+            },
+            {
+              "id": "bread",
+              "name": "خبز إضافي",
+              "price": 4
+            }
+          ],
+          "isCombo": false,
+          "comboIncludes": []
+        },
+        {
+          "id": "formaggio-combo-1",
+          "restaurantId": "formaggio",
+          "name": "كومبو بيتزا فردي",
+          "description": "بيتزا شخصية مع مشروب وسلطة.",
+          "image": "https://images.unsplash.com/photo-1513104890138-7c749659a591?w=800&q=80",
+          "price": 55,
+          "rating": 4.6,
+          "calories": 980,
+          "protein": 32,
+          "carbs": 105,
+          "fat": 36,
+          "category": "offers",
+          "isPopular": false,
+          "isOffer": true,
+          "offerPrice": null,
+          "isCombo": true,
+          "comboIncludes": [
+            "بيتزا مارغريتا",
+            "سلطة سيزر صغيرة",
+            "مشروب"
+          ],
+          "spicyOption": false,
+          "cashbackPercent": null,
+          "addons": [
+            {
+              "id": "fries",
+              "name": "بطاطس مقلية",
+              "price": 8
+            },
+            {
+              "id": "cola",
+              "name": "كولا",
+              "price": 6
+            },
+            {
+              "id": "sauce",
+              "name": "صلصة إضافية",
+              "price": 3
+            },
+            {
+              "id": "bread",
+              "name": "خبز إضافي",
+              "price": 4
+            }
+          ]
+        },
+        {
+          "id": "formaggio-combo-2",
+          "restaurantId": "formaggio",
+          "name": "كومبو باستا كامل",
+          "description": "باستا مع خبز وثوم ومشروب.",
+          "image": "https://images.unsplash.com/photo-1551183053-bf91a1d81141?w=800&q=80",
+          "price": 52,
+          "rating": 4.6,
+          "calories": 920,
+          "protein": 28,
+          "carbs": 88,
+          "fat": 38,
+          "category": "offers",
+          "isPopular": false,
+          "isOffer": true,
+          "offerPrice": null,
+          "isCombo": true,
+          "comboIncludes": [
+            "باستا كاربونارا",
+            "ثوم محمص",
+            "مشروب"
+          ],
+          "spicyOption": false,
+          "cashbackPercent": null,
+          "addons": [
+            {
+              "id": "fries",
+              "name": "بطاطس مقلية",
+              "price": 8
+            },
+            {
+              "id": "cola",
+              "name": "كولا",
+              "price": 6
+            },
+            {
+              "id": "sauce",
+              "name": "صلصة إضافية",
+              "price": 3
+            },
+            {
+              "id": "bread",
+              "name": "خبز إضافي",
+              "price": 4
+            }
+          ]
+        },
+        {
+          "id": "formaggio-combo-3",
+          "restaurantId": "formaggio",
+          "name": "كومبو عائلي بيتزا",
+          "description": "بيتزا كبيرة مع مقبلات ومشروبات.",
+          "image": "https://images.unsplash.com/photo-1565299624946-b28f40a0ae38?w=800&q=80",
+          "price": 99,
+          "rating": 4.6,
+          "calories": 1800,
+          "protein": 60,
+          "carbs": 190,
+          "fat": 70,
+          "category": "offers",
+          "isPopular": false,
+          "isOffer": true,
+          "offerPrice": null,
+          "isCombo": true,
+          "comboIncludes": [
+            "بيتزا كبيرة",
+            "بروشيتا",
+            "٢ مشروب"
+          ],
+          "spicyOption": true,
           "cashbackPercent": null,
           "addons": [
             {
@@ -3083,7 +4210,9 @@
               "name": "خبز إضافي",
               "price": 4
             }
-          ]
+          ],
+          "isCombo": false,
+          "comboIncludes": []
         },
         {
           "id": "amico-kitchen-2",
@@ -3124,7 +4253,9 @@
               "name": "خبز إضافي",
               "price": 4
             }
-          ]
+          ],
+          "isCombo": false,
+          "comboIncludes": []
         },
         {
           "id": "amico-kitchen-3",
@@ -3165,7 +4296,9 @@
               "name": "خبز إضافي",
               "price": 4
             }
-          ]
+          ],
+          "isCombo": false,
+          "comboIncludes": []
         },
         {
           "id": "amico-kitchen-4",
@@ -3206,7 +4339,9 @@
               "name": "خبز إضافي",
               "price": 4
             }
-          ]
+          ],
+          "isCombo": false,
+          "comboIncludes": []
         },
         {
           "id": "amico-kitchen-5",
@@ -3220,10 +4355,10 @@
           "protein": 16,
           "carbs": 70,
           "fat": 14,
-          "category": "offers",
+          "category": "menu",
           "isPopular": false,
-          "isOffer": true,
-          "offerPrice": 29,
+          "isOffer": false,
+          "offerPrice": null,
           "spicyOption": true,
           "cashbackPercent": null,
           "addons": [
@@ -3247,7 +4382,9 @@
               "name": "خبز إضافي",
               "price": 4
             }
-          ]
+          ],
+          "isCombo": false,
+          "comboIncludes": []
         },
         {
           "id": "amico-kitchen-6",
@@ -3288,7 +4425,9 @@
               "name": "خبز إضافي",
               "price": 4
             }
-          ]
+          ],
+          "isCombo": false,
+          "comboIncludes": []
         },
         {
           "id": "amico-kitchen-7",
@@ -3329,7 +4468,9 @@
               "name": "خبز إضافي",
               "price": 4
             }
-          ]
+          ],
+          "isCombo": false,
+          "comboIncludes": []
         },
         {
           "id": "amico-kitchen-8",
@@ -3370,7 +4511,9 @@
               "name": "خبز إضافي",
               "price": 4
             }
-          ]
+          ],
+          "isCombo": false,
+          "comboIncludes": []
         },
         {
           "id": "amico-kitchen-9",
@@ -3411,7 +4554,9 @@
               "name": "خبز إضافي",
               "price": 4
             }
-          ]
+          ],
+          "isCombo": false,
+          "comboIncludes": []
         },
         {
           "id": "amico-kitchen-10",
@@ -3430,6 +4575,149 @@
           "isOffer": false,
           "offerPrice": null,
           "spicyOption": false,
+          "cashbackPercent": null,
+          "addons": [
+            {
+              "id": "fries",
+              "name": "بطاطس مقلية",
+              "price": 8
+            },
+            {
+              "id": "cola",
+              "name": "كولا",
+              "price": 6
+            },
+            {
+              "id": "sauce",
+              "name": "صلصة إضافية",
+              "price": 3
+            },
+            {
+              "id": "bread",
+              "name": "خبز إضافي",
+              "price": 4
+            }
+          ],
+          "isCombo": false,
+          "comboIncludes": []
+        },
+        {
+          "id": "amico-kitchen-combo-1",
+          "restaurantId": "amico-kitchen",
+          "name": "كومبو بيتزا فردي",
+          "description": "بيتزا شخصية مع مشروب وسلطة.",
+          "image": "https://images.unsplash.com/photo-1513104890138-7c749659a591?w=800&q=80",
+          "price": 55,
+          "rating": 4.6,
+          "calories": 980,
+          "protein": 32,
+          "carbs": 105,
+          "fat": 36,
+          "category": "offers",
+          "isPopular": false,
+          "isOffer": true,
+          "offerPrice": null,
+          "isCombo": true,
+          "comboIncludes": [
+            "بيتزا مارغريتا",
+            "سلطة سيزر صغيرة",
+            "مشروب"
+          ],
+          "spicyOption": false,
+          "cashbackPercent": null,
+          "addons": [
+            {
+              "id": "fries",
+              "name": "بطاطس مقلية",
+              "price": 8
+            },
+            {
+              "id": "cola",
+              "name": "كولا",
+              "price": 6
+            },
+            {
+              "id": "sauce",
+              "name": "صلصة إضافية",
+              "price": 3
+            },
+            {
+              "id": "bread",
+              "name": "خبز إضافي",
+              "price": 4
+            }
+          ]
+        },
+        {
+          "id": "amico-kitchen-combo-2",
+          "restaurantId": "amico-kitchen",
+          "name": "كومبو باستا كامل",
+          "description": "باستا مع خبز وثوم ومشروب.",
+          "image": "https://images.unsplash.com/photo-1551183053-bf91a1d81141?w=800&q=80",
+          "price": 52,
+          "rating": 4.6,
+          "calories": 920,
+          "protein": 28,
+          "carbs": 88,
+          "fat": 38,
+          "category": "offers",
+          "isPopular": false,
+          "isOffer": true,
+          "offerPrice": null,
+          "isCombo": true,
+          "comboIncludes": [
+            "باستا كاربونارا",
+            "ثوم محمص",
+            "مشروب"
+          ],
+          "spicyOption": false,
+          "cashbackPercent": null,
+          "addons": [
+            {
+              "id": "fries",
+              "name": "بطاطس مقلية",
+              "price": 8
+            },
+            {
+              "id": "cola",
+              "name": "كولا",
+              "price": 6
+            },
+            {
+              "id": "sauce",
+              "name": "صلصة إضافية",
+              "price": 3
+            },
+            {
+              "id": "bread",
+              "name": "خبز إضافي",
+              "price": 4
+            }
+          ]
+        },
+        {
+          "id": "amico-kitchen-combo-3",
+          "restaurantId": "amico-kitchen",
+          "name": "كومبو عائلي بيتزا",
+          "description": "بيتزا كبيرة مع مقبلات ومشروبات.",
+          "image": "https://images.unsplash.com/photo-1565299624946-b28f40a0ae38?w=800&q=80",
+          "price": 99,
+          "rating": 4.6,
+          "calories": 1800,
+          "protein": 60,
+          "carbs": 190,
+          "fat": 70,
+          "category": "offers",
+          "isPopular": false,
+          "isOffer": true,
+          "offerPrice": null,
+          "isCombo": true,
+          "comboIncludes": [
+            "بيتزا كبيرة",
+            "بروشيتا",
+            "٢ مشروب"
+          ],
+          "spicyOption": true,
           "cashbackPercent": null,
           "addons": [
             {

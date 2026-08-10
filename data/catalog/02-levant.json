@@ -59,7 +59,9 @@
               "name": "خبز إضافي",
               "price": 4
             }
-          ]
+          ],
+          "isCombo": false,
+          "comboIncludes": []
         },
         {
           "id": "sham-alaseel-2",
@@ -100,7 +102,9 @@
               "name": "خبز إضافي",
               "price": 4
             }
-          ]
+          ],
+          "isCombo": false,
+          "comboIncludes": []
         },
         {
           "id": "sham-alaseel-3",
@@ -141,7 +145,9 @@
               "name": "خبز إضافي",
               "price": 4
             }
-          ]
+          ],
+          "isCombo": false,
+          "comboIncludes": []
         },
         {
           "id": "sham-alaseel-4",
@@ -155,10 +161,10 @@
           "protein": 14,
           "carbs": 38,
           "fat": 18,
-          "category": "offers",
+          "category": "menu",
           "isPopular": false,
-          "isOffer": true,
-          "offerPrice": 19,
+          "isOffer": false,
+          "offerPrice": null,
           "spicyOption": false,
           "cashbackPercent": 5,
           "addons": [
@@ -182,7 +188,9 @@
               "name": "خبز إضافي",
               "price": 4
             }
-          ]
+          ],
+          "isCombo": false,
+          "comboIncludes": []
         },
         {
           "id": "sham-alaseel-5",
@@ -223,7 +231,9 @@
               "name": "خبز إضافي",
               "price": 4
             }
-          ]
+          ],
+          "isCombo": false,
+          "comboIncludes": []
         },
         {
           "id": "sham-alaseel-6",
@@ -237,10 +247,10 @@
           "protein": 20,
           "carbs": 32,
           "fat": 26,
-          "category": "offers",
+          "category": "menu",
           "isPopular": false,
-          "isOffer": true,
-          "offerPrice": 26,
+          "isOffer": false,
+          "offerPrice": null,
           "spicyOption": false,
           "cashbackPercent": null,
           "addons": [
@@ -264,7 +274,9 @@
               "name": "خبز إضافي",
               "price": 4
             }
-          ]
+          ],
+          "isCombo": false,
+          "comboIncludes": []
         },
         {
           "id": "sham-alaseel-7",
@@ -305,7 +317,9 @@
               "name": "خبز إضافي",
               "price": 4
             }
-          ]
+          ],
+          "isCombo": false,
+          "comboIncludes": []
         },
         {
           "id": "sham-alaseel-8",
@@ -319,10 +333,10 @@
           "protein": 6,
           "carbs": 22,
           "fat": 10,
-          "category": "offers",
+          "category": "menu",
           "isPopular": false,
-          "isOffer": true,
-          "offerPrice": 18,
+          "isOffer": false,
+          "offerPrice": null,
           "spicyOption": false,
           "cashbackPercent": null,
           "addons": [
@@ -346,7 +360,9 @@
               "name": "خبز إضافي",
               "price": 4
             }
-          ]
+          ],
+          "isCombo": false,
+          "comboIncludes": []
         },
         {
           "id": "sham-alaseel-9",
@@ -387,7 +403,9 @@
               "name": "خبز إضافي",
               "price": 4
             }
-          ]
+          ],
+          "isCombo": false,
+          "comboIncludes": []
         },
         {
           "id": "sham-alaseel-10",
@@ -401,12 +419,161 @@
           "protein": 36,
           "carbs": 18,
           "fat": 38,
+          "category": "menu",
+          "isPopular": false,
+          "isOffer": false,
+          "offerPrice": null,
+          "spicyOption": true,
+          "cashbackPercent": 10,
+          "addons": [
+            {
+              "id": "fries",
+              "name": "بطاطس مقلية",
+              "price": 8
+            },
+            {
+              "id": "cola",
+              "name": "كولا",
+              "price": 6
+            },
+            {
+              "id": "sauce",
+              "name": "صلصة إضافية",
+              "price": 3
+            },
+            {
+              "id": "bread",
+              "name": "خبز إضافي",
+              "price": 4
+            }
+          ],
+          "isCombo": false,
+          "comboIncludes": []
+        },
+        {
+          "id": "sham-alaseel-combo-1",
+          "restaurantId": "sham-alaseel",
+          "name": "كومبو شاورما كامل",
+          "description": "شاورما مع بطاطس ومشروب وسلطة.",
+          "image": "https://images.unsplash.com/photo-1529006557810-274b9b2fc783?w=800&q=80",
+          "price": 42,
+          "rating": 4.6,
+          "calories": 920,
+          "protein": 38,
+          "carbs": 78,
+          "fat": 36,
           "category": "offers",
           "isPopular": false,
           "isOffer": true,
-          "offerPrice": 43,
-          "spicyOption": true,
-          "cashbackPercent": 10,
+          "offerPrice": null,
+          "isCombo": true,
+          "comboIncludes": [
+            "شاورما دجاج",
+            "بطاطس مقلية",
+            "سلطة",
+            "ثوم",
+            "مشروب"
+          ],
+          "spicyOption": false,
+          "cashbackPercent": null,
+          "addons": [
+            {
+              "id": "fries",
+              "name": "بطاطس مقلية",
+              "price": 8
+            },
+            {
+              "id": "cola",
+              "name": "كولا",
+              "price": 6
+            },
+            {
+              "id": "sauce",
+              "name": "صلصة إضافية",
+              "price": 3
+            },
+            {
+              "id": "bread",
+              "name": "خبز إضافي",
+              "price": 4
+            }
+          ]
+        },
+        {
+          "id": "sham-alaseel-combo-2",
+          "restaurantId": "sham-alaseel",
+          "name": "كومبو مقبلات شامية",
+          "description": "تشكيلة مقبلات مع خبز ومشروب.",
+          "image": "https://images.unsplash.com/photo-1626082927389-6cd097cdc6ec?w=800&q=80",
+          "price": 48,
+          "rating": 4.6,
+          "calories": 780,
+          "protein": 22,
+          "carbs": 70,
+          "fat": 38,
+          "category": "offers",
+          "isPopular": false,
+          "isOffer": true,
+          "offerPrice": null,
+          "isCombo": true,
+          "comboIncludes": [
+            "حمص",
+            "متبل",
+            "فتوش",
+            "خبز عربي",
+            "عصير"
+          ],
+          "spicyOption": false,
+          "cashbackPercent": null,
+          "addons": [
+            {
+              "id": "fries",
+              "name": "بطاطس مقلية",
+              "price": 8
+            },
+            {
+              "id": "cola",
+              "name": "كولا",
+              "price": 6
+            },
+            {
+              "id": "sauce",
+              "name": "صلصة إضافية",
+              "price": 3
+            },
+            {
+              "id": "bread",
+              "name": "خبز إضافي",
+              "price": 4
+            }
+          ]
+        },
+        {
+          "id": "sham-alaseel-combo-3",
+          "restaurantId": "sham-alaseel",
+          "name": "كومبو فلافل وجبة",
+          "description": "صحن فلافل كامل مع إضافات.",
+          "image": "https://images.unsplash.com/photo-1601050690117-94f5f6fa8bd7?w=800&q=80",
+          "price": 28,
+          "rating": 4.6,
+          "calories": 650,
+          "protein": 18,
+          "carbs": 72,
+          "fat": 24,
+          "category": "offers",
+          "isPopular": false,
+          "isOffer": true,
+          "offerPrice": null,
+          "isCombo": true,
+          "comboIncludes": [
+            "فلافل",
+            "حمص",
+            "مخلل",
+            "خبز",
+            "مشروب"
+          ],
+          "spicyOption": false,
+          "cashbackPercent": null,
           "addons": [
             {
               "id": "fries",
@@ -491,7 +658,9 @@
               "name": "خبز إضافي",
               "price": 4
             }
-          ]
+          ],
+          "isCombo": false,
+          "comboIncludes": []
         },
         {
           "id": "beit-falafel-2",
@@ -505,10 +674,10 @@
           "protein": 16,
           "carbs": 42,
           "fat": 20,
-          "category": "offers",
+          "category": "menu",
           "isPopular": false,
-          "isOffer": true,
-          "offerPrice": 31,
+          "isOffer": false,
+          "offerPrice": null,
           "spicyOption": false,
           "cashbackPercent": null,
           "addons": [
@@ -532,7 +701,9 @@
               "name": "خبز إضافي",
               "price": 4
             }
-          ]
+          ],
+          "isCombo": false,
+          "comboIncludes": []
         },
         {
           "id": "beit-falafel-3",
@@ -573,7 +744,9 @@
               "name": "خبز إضافي",
               "price": 4
             }
-          ]
+          ],
+          "isCombo": false,
+          "comboIncludes": []
         },
         {
           "id": "beit-falafel-4",
@@ -614,7 +787,9 @@
               "name": "خبز إضافي",
               "price": 4
             }
-          ]
+          ],
+          "isCombo": false,
+          "comboIncludes": []
         },
         {
           "id": "beit-falafel-5",
@@ -655,7 +830,9 @@
               "name": "خبز إضافي",
               "price": 4
             }
-          ]
+          ],
+          "isCombo": false,
+          "comboIncludes": []
         },
         {
           "id": "beit-falafel-6",
@@ -696,7 +873,9 @@
               "name": "خبز إضافي",
               "price": 4
             }
-          ]
+          ],
+          "isCombo": false,
+          "comboIncludes": []
         },
         {
           "id": "beit-falafel-7",
@@ -737,7 +916,9 @@
               "name": "خبز إضافي",
               "price": 4
             }
-          ]
+          ],
+          "isCombo": false,
+          "comboIncludes": []
         },
         {
           "id": "beit-falafel-8",
@@ -778,7 +959,9 @@
               "name": "خبز إضافي",
               "price": 4
             }
-          ]
+          ],
+          "isCombo": false,
+          "comboIncludes": []
         },
         {
           "id": "beit-falafel-9",
@@ -819,7 +1002,9 @@
               "name": "خبز إضافي",
               "price": 4
             }
-          ]
+          ],
+          "isCombo": false,
+          "comboIncludes": []
         },
         {
           "id": "beit-falafel-10",
@@ -838,6 +1023,155 @@
           "isOffer": false,
           "offerPrice": null,
           "spicyOption": true,
+          "cashbackPercent": null,
+          "addons": [
+            {
+              "id": "fries",
+              "name": "بطاطس مقلية",
+              "price": 8
+            },
+            {
+              "id": "cola",
+              "name": "كولا",
+              "price": 6
+            },
+            {
+              "id": "sauce",
+              "name": "صلصة إضافية",
+              "price": 3
+            },
+            {
+              "id": "bread",
+              "name": "خبز إضافي",
+              "price": 4
+            }
+          ],
+          "isCombo": false,
+          "comboIncludes": []
+        },
+        {
+          "id": "beit-falafel-combo-1",
+          "restaurantId": "beit-falafel",
+          "name": "كومبو شاورما كامل",
+          "description": "شاورما مع بطاطس ومشروب وسلطة.",
+          "image": "https://images.unsplash.com/photo-1529006557810-274b9b2fc783?w=800&q=80",
+          "price": 42,
+          "rating": 4.6,
+          "calories": 920,
+          "protein": 38,
+          "carbs": 78,
+          "fat": 36,
+          "category": "offers",
+          "isPopular": false,
+          "isOffer": true,
+          "offerPrice": null,
+          "isCombo": true,
+          "comboIncludes": [
+            "شاورما دجاج",
+            "بطاطس مقلية",
+            "سلطة",
+            "ثوم",
+            "مشروب"
+          ],
+          "spicyOption": false,
+          "cashbackPercent": null,
+          "addons": [
+            {
+              "id": "fries",
+              "name": "بطاطس مقلية",
+              "price": 8
+            },
+            {
+              "id": "cola",
+              "name": "كولا",
+              "price": 6
+            },
+            {
+              "id": "sauce",
+              "name": "صلصة إضافية",
+              "price": 3
+            },
+            {
+              "id": "bread",
+              "name": "خبز إضافي",
+              "price": 4
+            }
+          ]
+        },
+        {
+          "id": "beit-falafel-combo-2",
+          "restaurantId": "beit-falafel",
+          "name": "كومبو مقبلات شامية",
+          "description": "تشكيلة مقبلات مع خبز ومشروب.",
+          "image": "https://images.unsplash.com/photo-1626082927389-6cd097cdc6ec?w=800&q=80",
+          "price": 48,
+          "rating": 4.6,
+          "calories": 780,
+          "protein": 22,
+          "carbs": 70,
+          "fat": 38,
+          "category": "offers",
+          "isPopular": false,
+          "isOffer": true,
+          "offerPrice": null,
+          "isCombo": true,
+          "comboIncludes": [
+            "حمص",
+            "متبل",
+            "فتوش",
+            "خبز عربي",
+            "عصير"
+          ],
+          "spicyOption": false,
+          "cashbackPercent": null,
+          "addons": [
+            {
+              "id": "fries",
+              "name": "بطاطس مقلية",
+              "price": 8
+            },
+            {
+              "id": "cola",
+              "name": "كولا",
+              "price": 6
+            },
+            {
+              "id": "sauce",
+              "name": "صلصة إضافية",
+              "price": 3
+            },
+            {
+              "id": "bread",
+              "name": "خبز إضافي",
+              "price": 4
+            }
+          ]
+        },
+        {
+          "id": "beit-falafel-combo-3",
+          "restaurantId": "beit-falafel",
+          "name": "كومبو فلافل وجبة",
+          "description": "صحن فلافل كامل مع إضافات.",
+          "image": "https://images.unsplash.com/photo-1601050690117-94f5f6fa8bd7?w=800&q=80",
+          "price": 28,
+          "rating": 4.6,
+          "calories": 650,
+          "protein": 18,
+          "carbs": 72,
+          "fat": 24,
+          "category": "offers",
+          "isPopular": false,
+          "isOffer": true,
+          "offerPrice": null,
+          "isCombo": true,
+          "comboIncludes": [
+            "فلافل",
+            "حمص",
+            "مخلل",
+            "خبز",
+            "مشروب"
+          ],
+          "spicyOption": false,
           "cashbackPercent": null,
           "addons": [
             {
@@ -923,7 +1257,9 @@
               "name": "خبز إضافي",
               "price": 4
             }
-          ]
+          ],
+          "isCombo": false,
+          "comboIncludes": []
         },
         {
           "id": "dimashq-kitchen-2",
@@ -964,7 +1300,9 @@
               "name": "خبز إضافي",
               "price": 4
             }
-          ]
+          ],
+          "isCombo": false,
+          "comboIncludes": []
         },
         {
           "id": "dimashq-kitchen-3",
@@ -978,10 +1316,10 @@
           "protein": 30,
           "carbs": 40,
           "fat": 22,
-          "category": "offers",
+          "category": "menu",
           "isPopular": false,
-          "isOffer": true,
-          "offerPrice": 23,
+          "isOffer": false,
+          "offerPrice": null,
           "spicyOption": true,
           "cashbackPercent": null,
           "addons": [
@@ -1005,7 +1343,9 @@
               "name": "خبز إضافي",
               "price": 4
             }
-          ]
+          ],
+          "isCombo": false,
+          "comboIncludes": []
         },
         {
           "id": "dimashq-kitchen-4",
@@ -1046,7 +1386,9 @@
               "name": "خبز إضافي",
               "price": 4
             }
-          ]
+          ],
+          "isCombo": false,
+          "comboIncludes": []
         },
         {
           "id": "dimashq-kitchen-5",
@@ -1087,7 +1429,9 @@
               "name": "خبز إضافي",
               "price": 4
             }
-          ]
+          ],
+          "isCombo": false,
+          "comboIncludes": []
         },
         {
           "id": "dimashq-kitchen-6",
@@ -1128,7 +1472,9 @@
               "name": "خبز إضافي",
               "price": 4
             }
-          ]
+          ],
+          "isCombo": false,
+          "comboIncludes": []
         },
         {
           "id": "dimashq-kitchen-7",
@@ -1169,7 +1515,9 @@
               "name": "خبز إضافي",
               "price": 4
             }
-          ]
+          ],
+          "isCombo": false,
+          "comboIncludes": []
         },
         {
           "id": "dimashq-kitchen-8",
@@ -1183,10 +1531,10 @@
           "protein": 6,
           "carbs": 22,
           "fat": 10,
-          "category": "offers",
+          "category": "menu",
           "isPopular": false,
-          "isOffer": true,
-          "offerPrice": 20,
+          "isOffer": false,
+          "offerPrice": null,
           "spicyOption": false,
           "cashbackPercent": null,
           "addons": [
@@ -1210,7 +1558,9 @@
               "name": "خبز إضافي",
               "price": 4
             }
-          ]
+          ],
+          "isCombo": false,
+          "comboIncludes": []
         },
         {
           "id": "dimashq-kitchen-9",
@@ -1224,10 +1574,104 @@
           "protein": 12,
           "carbs": 48,
           "fat": 16,
+          "category": "menu",
+          "isPopular": false,
+          "isOffer": false,
+          "offerPrice": null,
+          "spicyOption": false,
+          "cashbackPercent": null,
+          "addons": [
+            {
+              "id": "fries",
+              "name": "بطاطس مقلية",
+              "price": 8
+            },
+            {
+              "id": "cola",
+              "name": "كولا",
+              "price": 6
+            },
+            {
+              "id": "sauce",
+              "name": "صلصة إضافية",
+              "price": 3
+            },
+            {
+              "id": "bread",
+              "name": "خبز إضافي",
+              "price": 4
+            }
+          ],
+          "isCombo": false,
+          "comboIncludes": []
+        },
+        {
+          "id": "dimashq-kitchen-10",
+          "restaurantId": "dimashq-kitchen",
+          "name": "كباب حلبي",
+          "description": "كباب لحم ببهارات حلبية.",
+          "image": "https://images.unsplash.com/photo-1455619452474-d2be8b1e70cd?w=800&q=80",
+          "price": 52,
+          "rating": 4.4,
+          "calories": 600,
+          "protein": 36,
+          "carbs": 18,
+          "fat": 38,
+          "category": "menu",
+          "isPopular": false,
+          "isOffer": false,
+          "offerPrice": null,
+          "spicyOption": true,
+          "cashbackPercent": null,
+          "addons": [
+            {
+              "id": "fries",
+              "name": "بطاطس مقلية",
+              "price": 8
+            },
+            {
+              "id": "cola",
+              "name": "كولا",
+              "price": 6
+            },
+            {
+              "id": "sauce",
+              "name": "صلصة إضافية",
+              "price": 3
+            },
+            {
+              "id": "bread",
+              "name": "خبز إضافي",
+              "price": 4
+            }
+          ],
+          "isCombo": false,
+          "comboIncludes": []
+        },
+        {
+          "id": "dimashq-kitchen-combo-1",
+          "restaurantId": "dimashq-kitchen",
+          "name": "كومبو شاورما كامل",
+          "description": "شاورما مع بطاطس ومشروب وسلطة.",
+          "image": "https://images.unsplash.com/photo-1529006557810-274b9b2fc783?w=800&q=80",
+          "price": 42,
+          "rating": 4.6,
+          "calories": 920,
+          "protein": 38,
+          "carbs": 78,
+          "fat": 36,
           "category": "offers",
           "isPopular": false,
           "isOffer": true,
-          "offerPrice": 31,
+          "offerPrice": null,
+          "isCombo": true,
+          "comboIncludes": [
+            "شاورما دجاج",
+            "بطاطس مقلية",
+            "سلطة",
+            "ثوم",
+            "مشروب"
+          ],
           "spicyOption": false,
           "cashbackPercent": null,
           "addons": [
@@ -1254,22 +1698,79 @@
           ]
         },
         {
-          "id": "dimashq-kitchen-10",
+          "id": "dimashq-kitchen-combo-2",
           "restaurantId": "dimashq-kitchen",
-          "name": "كباب حلبي",
-          "description": "كباب لحم ببهارات حلبية.",
-          "image": "https://images.unsplash.com/photo-1455619452474-d2be8b1e70cd?w=800&q=80",
-          "price": 52,
-          "rating": 4.4,
-          "calories": 600,
-          "protein": 36,
-          "carbs": 18,
+          "name": "كومبو مقبلات شامية",
+          "description": "تشكيلة مقبلات مع خبز ومشروب.",
+          "image": "https://images.unsplash.com/photo-1626082927389-6cd097cdc6ec?w=800&q=80",
+          "price": 48,
+          "rating": 4.6,
+          "calories": 780,
+          "protein": 22,
+          "carbs": 70,
           "fat": 38,
           "category": "offers",
           "isPopular": false,
           "isOffer": true,
-          "offerPrice": 40,
-          "spicyOption": true,
+          "offerPrice": null,
+          "isCombo": true,
+          "comboIncludes": [
+            "حمص",
+            "متبل",
+            "فتوش",
+            "خبز عربي",
+            "عصير"
+          ],
+          "spicyOption": false,
+          "cashbackPercent": null,
+          "addons": [
+            {
+              "id": "fries",
+              "name": "بطاطس مقلية",
+              "price": 8
+            },
+            {
+              "id": "cola",
+              "name": "كولا",
+              "price": 6
+            },
+            {
+              "id": "sauce",
+              "name": "صلصة إضافية",
+              "price": 3
+            },
+            {
+              "id": "bread",
+              "name": "خبز إضافي",
+              "price": 4
+            }
+          ]
+        },
+        {
+          "id": "dimashq-kitchen-combo-3",
+          "restaurantId": "dimashq-kitchen",
+          "name": "كومبو فلافل وجبة",
+          "description": "صحن فلافل كامل مع إضافات.",
+          "image": "https://images.unsplash.com/photo-1601050690117-94f5f6fa8bd7?w=800&q=80",
+          "price": 28,
+          "rating": 4.6,
+          "calories": 650,
+          "protein": 18,
+          "carbs": 72,
+          "fat": 24,
+          "category": "offers",
+          "isPopular": false,
+          "isOffer": true,
+          "offerPrice": null,
+          "isCombo": true,
+          "comboIncludes": [
+            "فلافل",
+            "حمص",
+            "مخلل",
+            "خبز",
+            "مشروب"
+          ],
+          "spicyOption": false,
           "cashbackPercent": null,
           "addons": [
             {
@@ -1355,7 +1856,9 @@
               "name": "خبز إضافي",
               "price": 4
             }
-          ]
+          ],
+          "isCombo": false,
+          "comboIncludes": []
         },
         {
           "id": "halab-taam-2",
@@ -1369,10 +1872,10 @@
           "protein": 16,
           "carbs": 42,
           "fat": 20,
-          "category": "offers",
+          "category": "menu",
           "isPopular": false,
-          "isOffer": true,
-          "offerPrice": 29,
+          "isOffer": false,
+          "offerPrice": null,
           "spicyOption": false,
           "cashbackPercent": null,
           "addons": [
@@ -1396,7 +1899,9 @@
               "name": "خبز إضافي",
               "price": 4
             }
-          ]
+          ],
+          "isCombo": false,
+          "comboIncludes": []
         },
         {
           "id": "halab-taam-3",
@@ -1410,10 +1915,10 @@
           "protein": 30,
           "carbs": 40,
           "fat": 22,
-          "category": "offers",
+          "category": "menu",
           "isPopular": false,
-          "isOffer": true,
-          "offerPrice": 23,
+          "isOffer": false,
+          "offerPrice": null,
           "spicyOption": true,
           "cashbackPercent": 15,
           "addons": [
@@ -1437,7 +1942,9 @@
               "name": "خبز إضافي",
               "price": 4
             }
-          ]
+          ],
+          "isCombo": false,
+          "comboIncludes": []
         },
         {
           "id": "halab-taam-4",
@@ -1478,7 +1985,9 @@
               "name": "خبز إضافي",
               "price": 4
             }
-          ]
+          ],
+          "isCombo": false,
+          "comboIncludes": []
         },
         {
           "id": "halab-taam-5",
@@ -1519,7 +2028,9 @@
               "name": "خبز إضافي",
               "price": 4
             }
-          ]
+          ],
+          "isCombo": false,
+          "comboIncludes": []
         },
         {
           "id": "halab-taam-6",
@@ -1533,10 +2044,10 @@
           "protein": 20,
           "carbs": 32,
           "fat": 26,
-          "category": "offers",
+          "category": "menu",
           "isPopular": false,
-          "isOffer": true,
-          "offerPrice": 27,
+          "isOffer": false,
+          "offerPrice": null,
           "spicyOption": false,
           "cashbackPercent": 10,
           "addons": [
@@ -1560,7 +2071,9 @@
               "name": "خبز إضافي",
               "price": 4
             }
-          ]
+          ],
+          "isCombo": false,
+          "comboIncludes": []
         },
         {
           "id": "halab-taam-7",
@@ -1601,7 +2114,9 @@
               "name": "خبز إضافي",
               "price": 4
             }
-          ]
+          ],
+          "isCombo": false,
+          "comboIncludes": []
         },
         {
           "id": "halab-taam-8",
@@ -1642,7 +2157,9 @@
               "name": "خبز إضافي",
               "price": 4
             }
-          ]
+          ],
+          "isCombo": false,
+          "comboIncludes": []
         },
         {
           "id": "halab-taam-9",
@@ -1656,10 +2173,104 @@
           "protein": 12,
           "carbs": 48,
           "fat": 16,
+          "category": "menu",
+          "isPopular": false,
+          "isOffer": false,
+          "offerPrice": null,
+          "spicyOption": false,
+          "cashbackPercent": null,
+          "addons": [
+            {
+              "id": "fries",
+              "name": "بطاطس مقلية",
+              "price": 8
+            },
+            {
+              "id": "cola",
+              "name": "كولا",
+              "price": 6
+            },
+            {
+              "id": "sauce",
+              "name": "صلصة إضافية",
+              "price": 3
+            },
+            {
+              "id": "bread",
+              "name": "خبز إضافي",
+              "price": 4
+            }
+          ],
+          "isCombo": false,
+          "comboIncludes": []
+        },
+        {
+          "id": "halab-taam-10",
+          "restaurantId": "halab-taam",
+          "name": "كباب حلبي",
+          "description": "كباب لحم ببهارات حلبية.",
+          "image": "https://images.unsplash.com/photo-1542838132-92c53300491e?w=800&q=80",
+          "price": 52,
+          "rating": 4.2,
+          "calories": 600,
+          "protein": 36,
+          "carbs": 18,
+          "fat": 38,
+          "category": "menu",
+          "isPopular": false,
+          "isOffer": false,
+          "offerPrice": null,
+          "spicyOption": true,
+          "cashbackPercent": null,
+          "addons": [
+            {
+              "id": "fries",
+              "name": "بطاطس مقلية",
+              "price": 8
+            },
+            {
+              "id": "cola",
+              "name": "كولا",
+              "price": 6
+            },
+            {
+              "id": "sauce",
+              "name": "صلصة إضافية",
+              "price": 3
+            },
+            {
+              "id": "bread",
+              "name": "خبز إضافي",
+              "price": 4
+            }
+          ],
+          "isCombo": false,
+          "comboIncludes": []
+        },
+        {
+          "id": "halab-taam-combo-1",
+          "restaurantId": "halab-taam",
+          "name": "كومبو شاورما كامل",
+          "description": "شاورما مع بطاطس ومشروب وسلطة.",
+          "image": "https://images.unsplash.com/photo-1529006557810-274b9b2fc783?w=800&q=80",
+          "price": 42,
+          "rating": 4.6,
+          "calories": 920,
+          "protein": 38,
+          "carbs": 78,
+          "fat": 36,
           "category": "offers",
           "isPopular": false,
           "isOffer": true,
-          "offerPrice": 29,
+          "offerPrice": null,
+          "isCombo": true,
+          "comboIncludes": [
+            "شاورما دجاج",
+            "بطاطس مقلية",
+            "سلطة",
+            "ثوم",
+            "مشروب"
+          ],
           "spicyOption": false,
           "cashbackPercent": null,
           "addons": [
@@ -1686,22 +2297,79 @@
           ]
         },
         {
-          "id": "halab-taam-10",
+          "id": "halab-taam-combo-2",
           "restaurantId": "halab-taam",
-          "name": "كباب حلبي",
-          "description": "كباب لحم ببهارات حلبية.",
-          "image": "https://images.unsplash.com/photo-1542838132-92c53300491e?w=800&q=80",
-          "price": 52,
-          "rating": 4.2,
-          "calories": 600,
-          "protein": 36,
-          "carbs": 18,
+          "name": "كومبو مقبلات شامية",
+          "description": "تشكيلة مقبلات مع خبز ومشروب.",
+          "image": "https://images.unsplash.com/photo-1626082927389-6cd097cdc6ec?w=800&q=80",
+          "price": 48,
+          "rating": 4.6,
+          "calories": 780,
+          "protein": 22,
+          "carbs": 70,
           "fat": 38,
-          "category": "menu",
+          "category": "offers",
           "isPopular": false,
-          "isOffer": false,
+          "isOffer": true,
           "offerPrice": null,
-          "spicyOption": true,
+          "isCombo": true,
+          "comboIncludes": [
+            "حمص",
+            "متبل",
+            "فتوش",
+            "خبز عربي",
+            "عصير"
+          ],
+          "spicyOption": false,
+          "cashbackPercent": null,
+          "addons": [
+            {
+              "id": "fries",
+              "name": "بطاطس مقلية",
+              "price": 8
+            },
+            {
+              "id": "cola",
+              "name": "كولا",
+              "price": 6
+            },
+            {
+              "id": "sauce",
+              "name": "صلصة إضافية",
+              "price": 3
+            },
+            {
+              "id": "bread",
+              "name": "خبز إضافي",
+              "price": 4
+            }
+          ]
+        },
+        {
+          "id": "halab-taam-combo-3",
+          "restaurantId": "halab-taam",
+          "name": "كومبو فلافل وجبة",
+          "description": "صحن فلافل كامل مع إضافات.",
+          "image": "https://images.unsplash.com/photo-1601050690117-94f5f6fa8bd7?w=800&q=80",
+          "price": 28,
+          "rating": 4.6,
+          "calories": 650,
+          "protein": 18,
+          "carbs": 72,
+          "fat": 24,
+          "category": "offers",
+          "isPopular": false,
+          "isOffer": true,
+          "offerPrice": null,
+          "isCombo": true,
+          "comboIncludes": [
+            "فلافل",
+            "حمص",
+            "مخلل",
+            "خبز",
+            "مشروب"
+          ],
+          "spicyOption": false,
           "cashbackPercent": null,
           "addons": [
             {
@@ -1760,10 +2428,10 @@
           "protein": 18,
           "carbs": 28,
           "fat": 22,
-          "category": "offers",
+          "category": "menu",
           "isPopular": false,
-          "isOffer": true,
-          "offerPrice": 27,
+          "isOffer": false,
+          "offerPrice": null,
           "spicyOption": false,
           "cashbackPercent": 15,
           "addons": [
@@ -1787,7 +2455,9 @@
               "name": "خبز إضافي",
               "price": 4
             }
-          ]
+          ],
+          "isCombo": false,
+          "comboIncludes": []
         },
         {
           "id": "zaatar-wzeit-2",
@@ -1828,7 +2498,9 @@
               "name": "خبز إضافي",
               "price": 4
             }
-          ]
+          ],
+          "isCombo": false,
+          "comboIncludes": []
         },
         {
           "id": "zaatar-wzeit-3",
@@ -1869,7 +2541,9 @@
               "name": "خبز إضافي",
               "price": 4
             }
-          ]
+          ],
+          "isCombo": false,
+          "comboIncludes": []
         },
         {
           "id": "zaatar-wzeit-4",
@@ -1910,7 +2584,9 @@
               "name": "خبز إضافي",
               "price": 4
             }
-          ]
+          ],
+          "isCombo": false,
+          "comboIncludes": []
         },
         {
           "id": "zaatar-wzeit-5",
@@ -1951,7 +2627,9 @@
               "name": "خبز إضافي",
               "price": 4
             }
-          ]
+          ],
+          "isCombo": false,
+          "comboIncludes": []
         },
         {
           "id": "zaatar-wzeit-6",
@@ -1992,7 +2670,9 @@
               "name": "خبز إضافي",
               "price": 4
             }
-          ]
+          ],
+          "isCombo": false,
+          "comboIncludes": []
         },
         {
           "id": "zaatar-wzeit-7",
@@ -2033,7 +2713,9 @@
               "name": "خبز إضافي",
               "price": 4
             }
-          ]
+          ],
+          "isCombo": false,
+          "comboIncludes": []
         },
         {
           "id": "zaatar-wzeit-8",
@@ -2047,10 +2729,10 @@
           "protein": 6,
           "carbs": 22,
           "fat": 10,
-          "category": "offers",
+          "category": "menu",
           "isPopular": false,
-          "isOffer": true,
-          "offerPrice": 19,
+          "isOffer": false,
+          "offerPrice": null,
           "spicyOption": false,
           "cashbackPercent": 10,
           "addons": [
@@ -2074,7 +2756,9 @@
               "name": "خبز إضافي",
               "price": 4
             }
-          ]
+          ],
+          "isCombo": false,
+          "comboIncludes": []
         },
         {
           "id": "zaatar-wzeit-9",
@@ -2115,7 +2799,9 @@
               "name": "خبز إضافي",
               "price": 4
             }
-          ]
+          ],
+          "isCombo": false,
+          "comboIncludes": []
         },
         {
           "id": "zaatar-wzeit-10",
@@ -2134,6 +2820,155 @@
           "isOffer": false,
           "offerPrice": null,
           "spicyOption": true,
+          "cashbackPercent": null,
+          "addons": [
+            {
+              "id": "fries",
+              "name": "بطاطس مقلية",
+              "price": 8
+            },
+            {
+              "id": "cola",
+              "name": "كولا",
+              "price": 6
+            },
+            {
+              "id": "sauce",
+              "name": "صلصة إضافية",
+              "price": 3
+            },
+            {
+              "id": "bread",
+              "name": "خبز إضافي",
+              "price": 4
+            }
+          ],
+          "isCombo": false,
+          "comboIncludes": []
+        },
+        {
+          "id": "zaatar-wzeit-combo-1",
+          "restaurantId": "zaatar-wzeit",
+          "name": "كومبو شاورما كامل",
+          "description": "شاورما مع بطاطس ومشروب وسلطة.",
+          "image": "https://images.unsplash.com/photo-1529006557810-274b9b2fc783?w=800&q=80",
+          "price": 42,
+          "rating": 4.6,
+          "calories": 920,
+          "protein": 38,
+          "carbs": 78,
+          "fat": 36,
+          "category": "offers",
+          "isPopular": false,
+          "isOffer": true,
+          "offerPrice": null,
+          "isCombo": true,
+          "comboIncludes": [
+            "شاورما دجاج",
+            "بطاطس مقلية",
+            "سلطة",
+            "ثوم",
+            "مشروب"
+          ],
+          "spicyOption": false,
+          "cashbackPercent": null,
+          "addons": [
+            {
+              "id": "fries",
+              "name": "بطاطس مقلية",
+              "price": 8
+            },
+            {
+              "id": "cola",
+              "name": "كولا",
+              "price": 6
+            },
+            {
+              "id": "sauce",
+              "name": "صلصة إضافية",
+              "price": 3
+            },
+            {
+              "id": "bread",
+              "name": "خبز إضافي",
+              "price": 4
+            }
+          ]
+        },
+        {
+          "id": "zaatar-wzeit-combo-2",
+          "restaurantId": "zaatar-wzeit",
+          "name": "كومبو مقبلات شامية",
+          "description": "تشكيلة مقبلات مع خبز ومشروب.",
+          "image": "https://images.unsplash.com/photo-1626082927389-6cd097cdc6ec?w=800&q=80",
+          "price": 48,
+          "rating": 4.6,
+          "calories": 780,
+          "protein": 22,
+          "carbs": 70,
+          "fat": 38,
+          "category": "offers",
+          "isPopular": false,
+          "isOffer": true,
+          "offerPrice": null,
+          "isCombo": true,
+          "comboIncludes": [
+            "حمص",
+            "متبل",
+            "فتوش",
+            "خبز عربي",
+            "عصير"
+          ],
+          "spicyOption": false,
+          "cashbackPercent": null,
+          "addons": [
+            {
+              "id": "fries",
+              "name": "بطاطس مقلية",
+              "price": 8
+            },
+            {
+              "id": "cola",
+              "name": "كولا",
+              "price": 6
+            },
+            {
+              "id": "sauce",
+              "name": "صلصة إضافية",
+              "price": 3
+            },
+            {
+              "id": "bread",
+              "name": "خبز إضافي",
+              "price": 4
+            }
+          ]
+        },
+        {
+          "id": "zaatar-wzeit-combo-3",
+          "restaurantId": "zaatar-wzeit",
+          "name": "كومبو فلافل وجبة",
+          "description": "صحن فلافل كامل مع إضافات.",
+          "image": "https://images.unsplash.com/photo-1601050690117-94f5f6fa8bd7?w=800&q=80",
+          "price": 28,
+          "rating": 4.6,
+          "calories": 650,
+          "protein": 18,
+          "carbs": 72,
+          "fat": 24,
+          "category": "offers",
+          "isPopular": false,
+          "isOffer": true,
+          "offerPrice": null,
+          "isCombo": true,
+          "comboIncludes": [
+            "فلافل",
+            "حمص",
+            "مخلل",
+            "خبز",
+            "مشروب"
+          ],
+          "spicyOption": false,
           "cashbackPercent": null,
           "addons": [
             {
@@ -2192,10 +3027,10 @@
           "protein": 18,
           "carbs": 28,
           "fat": 22,
-          "category": "offers",
+          "category": "menu",
           "isPopular": false,
-          "isOffer": true,
-          "offerPrice": 27,
+          "isOffer": false,
+          "offerPrice": null,
           "spicyOption": false,
           "cashbackPercent": null,
           "addons": [
@@ -2219,7 +3054,9 @@
               "name": "خبز إضافي",
               "price": 4
             }
-          ]
+          ],
+          "isCombo": false,
+          "comboIncludes": []
         },
         {
           "id": "laban-wbasil-2",
@@ -2260,7 +3097,9 @@
               "name": "خبز إضافي",
               "price": 4
             }
-          ]
+          ],
+          "isCombo": false,
+          "comboIncludes": []
         },
         {
           "id": "laban-wbasil-3",
@@ -2301,7 +3140,9 @@
               "name": "خبز إضافي",
               "price": 4
             }
-          ]
+          ],
+          "isCombo": false,
+          "comboIncludes": []
         },
         {
           "id": "laban-wbasil-4",
@@ -2342,7 +3183,9 @@
               "name": "خبز إضافي",
               "price": 4
             }
-          ]
+          ],
+          "isCombo": false,
+          "comboIncludes": []
         },
         {
           "id": "laban-wbasil-5",
@@ -2383,7 +3226,9 @@
               "name": "خبز إضافي",
               "price": 4
             }
-          ]
+          ],
+          "isCombo": false,
+          "comboIncludes": []
         },
         {
           "id": "laban-wbasil-6",
@@ -2424,7 +3269,9 @@
               "name": "خبز إضافي",
               "price": 4
             }
-          ]
+          ],
+          "isCombo": false,
+          "comboIncludes": []
         },
         {
           "id": "laban-wbasil-7",
@@ -2465,7 +3312,9 @@
               "name": "خبز إضافي",
               "price": 4
             }
-          ]
+          ],
+          "isCombo": false,
+          "comboIncludes": []
         },
         {
           "id": "laban-wbasil-8",
@@ -2506,7 +3355,9 @@
               "name": "خبز إضافي",
               "price": 4
             }
-          ]
+          ],
+          "isCombo": false,
+          "comboIncludes": []
         },
         {
           "id": "laban-wbasil-9",
@@ -2547,7 +3398,9 @@
               "name": "خبز إضافي",
               "price": 4
             }
-          ]
+          ],
+          "isCombo": false,
+          "comboIncludes": []
         },
         {
           "id": "laban-wbasil-10",
@@ -2561,12 +3414,161 @@
           "protein": 36,
           "carbs": 18,
           "fat": 38,
+          "category": "menu",
+          "isPopular": false,
+          "isOffer": false,
+          "offerPrice": null,
+          "spicyOption": true,
+          "cashbackPercent": 5,
+          "addons": [
+            {
+              "id": "fries",
+              "name": "بطاطس مقلية",
+              "price": 8
+            },
+            {
+              "id": "cola",
+              "name": "كولا",
+              "price": 6
+            },
+            {
+              "id": "sauce",
+              "name": "صلصة إضافية",
+              "price": 3
+            },
+            {
+              "id": "bread",
+              "name": "خبز إضافي",
+              "price": 4
+            }
+          ],
+          "isCombo": false,
+          "comboIncludes": []
+        },
+        {
+          "id": "laban-wbasil-combo-1",
+          "restaurantId": "laban-wbasil",
+          "name": "كومبو شاورما كامل",
+          "description": "شاورما مع بطاطس ومشروب وسلطة.",
+          "image": "https://images.unsplash.com/photo-1529006557810-274b9b2fc783?w=800&q=80",
+          "price": 42,
+          "rating": 4.6,
+          "calories": 920,
+          "protein": 38,
+          "carbs": 78,
+          "fat": 36,
           "category": "offers",
           "isPopular": false,
           "isOffer": true,
-          "offerPrice": 45,
-          "spicyOption": true,
-          "cashbackPercent": 5,
+          "offerPrice": null,
+          "isCombo": true,
+          "comboIncludes": [
+            "شاورما دجاج",
+            "بطاطس مقلية",
+            "سلطة",
+            "ثوم",
+            "مشروب"
+          ],
+          "spicyOption": false,
+          "cashbackPercent": null,
+          "addons": [
+            {
+              "id": "fries",
+              "name": "بطاطس مقلية",
+              "price": 8
+            },
+            {
+              "id": "cola",
+              "name": "كولا",
+              "price": 6
+            },
+            {
+              "id": "sauce",
+              "name": "صلصة إضافية",
+              "price": 3
+            },
+            {
+              "id": "bread",
+              "name": "خبز إضافي",
+              "price": 4
+            }
+          ]
+        },
+        {
+          "id": "laban-wbasil-combo-2",
+          "restaurantId": "laban-wbasil",
+          "name": "كومبو مقبلات شامية",
+          "description": "تشكيلة مقبلات مع خبز ومشروب.",
+          "image": "https://images.unsplash.com/photo-1626082927389-6cd097cdc6ec?w=800&q=80",
+          "price": 48,
+          "rating": 4.6,
+          "calories": 780,
+          "protein": 22,
+          "carbs": 70,
+          "fat": 38,
+          "category": "offers",
+          "isPopular": false,
+          "isOffer": true,
+          "offerPrice": null,
+          "isCombo": true,
+          "comboIncludes": [
+            "حمص",
+            "متبل",
+            "فتوش",
+            "خبز عربي",
+            "عصير"
+          ],
+          "spicyOption": false,
+          "cashbackPercent": null,
+          "addons": [
+            {
+              "id": "fries",
+              "name": "بطاطس مقلية",
+              "price": 8
+            },
+            {
+              "id": "cola",
+              "name": "كولا",
+              "price": 6
+            },
+            {
+              "id": "sauce",
+              "name": "صلصة إضافية",
+              "price": 3
+            },
+            {
+              "id": "bread",
+              "name": "خبز إضافي",
+              "price": 4
+            }
+          ]
+        },
+        {
+          "id": "laban-wbasil-combo-3",
+          "restaurantId": "laban-wbasil",
+          "name": "كومبو فلافل وجبة",
+          "description": "صحن فلافل كامل مع إضافات.",
+          "image": "https://images.unsplash.com/photo-1601050690117-94f5f6fa8bd7?w=800&q=80",
+          "price": 28,
+          "rating": 4.6,
+          "calories": 650,
+          "protein": 18,
+          "carbs": 72,
+          "fat": 24,
+          "category": "offers",
+          "isPopular": false,
+          "isOffer": true,
+          "offerPrice": null,
+          "isCombo": true,
+          "comboIncludes": [
+            "فلافل",
+            "حمص",
+            "مخلل",
+            "خبز",
+            "مشروب"
+          ],
+          "spicyOption": false,
+          "cashbackPercent": null,
           "addons": [
             {
               "id": "fries",
@@ -2651,7 +3653,9 @@
               "name": "خبز إضافي",
               "price": 4
             }
-          ]
+          ],
+          "isCombo": false,
+          "comboIncludes": []
         },
         {
           "id": "manakeesh-street-2",
@@ -2665,10 +3669,10 @@
           "protein": 16,
           "carbs": 42,
           "fat": 20,
-          "category": "offers",
+          "category": "menu",
           "isPopular": false,
-          "isOffer": true,
-          "offerPrice": 28,
+          "isOffer": false,
+          "offerPrice": null,
           "spicyOption": false,
           "cashbackPercent": 5,
           "addons": [
@@ -2692,7 +3696,9 @@
               "name": "خبز إضافي",
               "price": 4
             }
-          ]
+          ],
+          "isCombo": false,
+          "comboIncludes": []
         },
         {
           "id": "manakeesh-street-3",
@@ -2733,7 +3739,9 @@
               "name": "خبز إضافي",
               "price": 4
             }
-          ]
+          ],
+          "isCombo": false,
+          "comboIncludes": []
         },
         {
           "id": "manakeesh-street-4",
@@ -2774,7 +3782,9 @@
               "name": "خبز إضافي",
               "price": 4
             }
-          ]
+          ],
+          "isCombo": false,
+          "comboIncludes": []
         },
         {
           "id": "manakeesh-street-5",
@@ -2788,10 +3798,10 @@
           "protein": 8,
           "carbs": 36,
           "fat": 12,
-          "category": "offers",
+          "category": "menu",
           "isPopular": false,
-          "isOffer": true,
-          "offerPrice": 14,
+          "isOffer": false,
+          "offerPrice": null,
           "spicyOption": false,
           "cashbackPercent": 10,
           "addons": [
@@ -2815,7 +3825,9 @@
               "name": "خبز إضافي",
               "price": 4
             }
-          ]
+          ],
+          "isCombo": false,
+          "comboIncludes": []
         },
         {
           "id": "manakeesh-street-6",
@@ -2829,10 +3841,10 @@
           "protein": 20,
           "carbs": 32,
           "fat": 26,
-          "category": "offers",
+          "category": "menu",
           "isPopular": false,
-          "isOffer": true,
-          "offerPrice": 26,
+          "isOffer": false,
+          "offerPrice": null,
           "spicyOption": false,
           "cashbackPercent": 15,
           "addons": [
@@ -2856,7 +3868,9 @@
               "name": "خبز إضافي",
               "price": 4
             }
-          ]
+          ],
+          "isCombo": false,
+          "comboIncludes": []
         },
         {
           "id": "manakeesh-street-7",
@@ -2897,7 +3911,9 @@
               "name": "خبز إضافي",
               "price": 4
             }
-          ]
+          ],
+          "isCombo": false,
+          "comboIncludes": []
         },
         {
           "id": "manakeesh-street-8",
@@ -2911,10 +3927,10 @@
           "protein": 6,
           "carbs": 22,
           "fat": 10,
-          "category": "offers",
+          "category": "menu",
           "isPopular": false,
-          "isOffer": true,
-          "offerPrice": 19,
+          "isOffer": false,
+          "offerPrice": null,
           "spicyOption": false,
           "cashbackPercent": 15,
           "addons": [
@@ -2938,7 +3954,9 @@
               "name": "خبز إضافي",
               "price": 4
             }
-          ]
+          ],
+          "isCombo": false,
+          "comboIncludes": []
         },
         {
           "id": "manakeesh-street-9",
@@ -2952,10 +3970,104 @@
           "protein": 12,
           "carbs": 48,
           "fat": 16,
+          "category": "menu",
+          "isPopular": false,
+          "isOffer": false,
+          "offerPrice": null,
+          "spicyOption": false,
+          "cashbackPercent": null,
+          "addons": [
+            {
+              "id": "fries",
+              "name": "بطاطس مقلية",
+              "price": 8
+            },
+            {
+              "id": "cola",
+              "name": "كولا",
+              "price": 6
+            },
+            {
+              "id": "sauce",
+              "name": "صلصة إضافية",
+              "price": 3
+            },
+            {
+              "id": "bread",
+              "name": "خبز إضافي",
+              "price": 4
+            }
+          ],
+          "isCombo": false,
+          "comboIncludes": []
+        },
+        {
+          "id": "manakeesh-street-10",
+          "restaurantId": "manakeesh-street",
+          "name": "كباب حلبي",
+          "description": "كباب لحم ببهارات حلبية.",
+          "image": "https://images.unsplash.com/photo-1606755962773-d324e0a13086?w=800&q=80",
+          "price": 52,
+          "rating": 4.5,
+          "calories": 600,
+          "protein": 36,
+          "carbs": 18,
+          "fat": 38,
+          "category": "menu",
+          "isPopular": false,
+          "isOffer": false,
+          "offerPrice": null,
+          "spicyOption": true,
+          "cashbackPercent": null,
+          "addons": [
+            {
+              "id": "fries",
+              "name": "بطاطس مقلية",
+              "price": 8
+            },
+            {
+              "id": "cola",
+              "name": "كولا",
+              "price": 6
+            },
+            {
+              "id": "sauce",
+              "name": "صلصة إضافية",
+              "price": 3
+            },
+            {
+              "id": "bread",
+              "name": "خبز إضافي",
+              "price": 4
+            }
+          ],
+          "isCombo": false,
+          "comboIncludes": []
+        },
+        {
+          "id": "manakeesh-street-combo-1",
+          "restaurantId": "manakeesh-street",
+          "name": "كومبو شاورما كامل",
+          "description": "شاورما مع بطاطس ومشروب وسلطة.",
+          "image": "https://images.unsplash.com/photo-1529006557810-274b9b2fc783?w=800&q=80",
+          "price": 42,
+          "rating": 4.6,
+          "calories": 920,
+          "protein": 38,
+          "carbs": 78,
+          "fat": 36,
           "category": "offers",
           "isPopular": false,
           "isOffer": true,
-          "offerPrice": 33,
+          "offerPrice": null,
+          "isCombo": true,
+          "comboIncludes": [
+            "شاورما دجاج",
+            "بطاطس مقلية",
+            "سلطة",
+            "ثوم",
+            "مشروب"
+          ],
           "spicyOption": false,
           "cashbackPercent": null,
           "addons": [
@@ -2982,22 +4094,79 @@
           ]
         },
         {
-          "id": "manakeesh-street-10",
+          "id": "manakeesh-street-combo-2",
           "restaurantId": "manakeesh-street",
-          "name": "كباب حلبي",
-          "description": "كباب لحم ببهارات حلبية.",
-          "image": "https://images.unsplash.com/photo-1606755962773-d324e0a13086?w=800&q=80",
-          "price": 52,
-          "rating": 4.5,
-          "calories": 600,
-          "protein": 36,
-          "carbs": 18,
+          "name": "كومبو مقبلات شامية",
+          "description": "تشكيلة مقبلات مع خبز ومشروب.",
+          "image": "https://images.unsplash.com/photo-1626082927389-6cd097cdc6ec?w=800&q=80",
+          "price": 48,
+          "rating": 4.6,
+          "calories": 780,
+          "protein": 22,
+          "carbs": 70,
           "fat": 38,
           "category": "offers",
           "isPopular": false,
           "isOffer": true,
-          "offerPrice": 45,
-          "spicyOption": true,
+          "offerPrice": null,
+          "isCombo": true,
+          "comboIncludes": [
+            "حمص",
+            "متبل",
+            "فتوش",
+            "خبز عربي",
+            "عصير"
+          ],
+          "spicyOption": false,
+          "cashbackPercent": null,
+          "addons": [
+            {
+              "id": "fries",
+              "name": "بطاطس مقلية",
+              "price": 8
+            },
+            {
+              "id": "cola",
+              "name": "كولا",
+              "price": 6
+            },
+            {
+              "id": "sauce",
+              "name": "صلصة إضافية",
+              "price": 3
+            },
+            {
+              "id": "bread",
+              "name": "خبز إضافي",
+              "price": 4
+            }
+          ]
+        },
+        {
+          "id": "manakeesh-street-combo-3",
+          "restaurantId": "manakeesh-street",
+          "name": "كومبو فلافل وجبة",
+          "description": "صحن فلافل كامل مع إضافات.",
+          "image": "https://images.unsplash.com/photo-1601050690117-94f5f6fa8bd7?w=800&q=80",
+          "price": 28,
+          "rating": 4.6,
+          "calories": 650,
+          "protein": 18,
+          "carbs": 72,
+          "fat": 24,
+          "category": "offers",
+          "isPopular": false,
+          "isOffer": true,
+          "offerPrice": null,
+          "isCombo": true,
+          "comboIncludes": [
+            "فلافل",
+            "حمص",
+            "مخلل",
+            "خبز",
+            "مشروب"
+          ],
+          "spicyOption": false,
           "cashbackPercent": null,
           "addons": [
             {
@@ -3056,10 +4225,10 @@
           "protein": 18,
           "carbs": 28,
           "fat": 22,
-          "category": "offers",
+          "category": "menu",
           "isPopular": false,
-          "isOffer": true,
-          "offerPrice": 27,
+          "isOffer": false,
+          "offerPrice": null,
           "spicyOption": false,
           "cashbackPercent": 10,
           "addons": [
@@ -3083,7 +4252,9 @@
               "name": "خبز إضافي",
               "price": 4
             }
-          ]
+          ],
+          "isCombo": false,
+          "comboIncludes": []
         },
         {
           "id": "hummus-house-2",
@@ -3124,7 +4295,9 @@
               "name": "خبز إضافي",
               "price": 4
             }
-          ]
+          ],
+          "isCombo": false,
+          "comboIncludes": []
         },
         {
           "id": "hummus-house-3",
@@ -3165,7 +4338,9 @@
               "name": "خبز إضافي",
               "price": 4
             }
-          ]
+          ],
+          "isCombo": false,
+          "comboIncludes": []
         },
         {
           "id": "hummus-house-4",
@@ -3206,7 +4381,9 @@
               "name": "خبز إضافي",
               "price": 4
             }
-          ]
+          ],
+          "isCombo": false,
+          "comboIncludes": []
         },
         {
           "id": "hummus-house-5",
@@ -3220,10 +4397,10 @@
           "protein": 8,
           "carbs": 36,
           "fat": 12,
-          "category": "offers",
+          "category": "menu",
           "isPopular": false,
-          "isOffer": true,
-          "offerPrice": 15,
+          "isOffer": false,
+          "offerPrice": null,
           "spicyOption": false,
           "cashbackPercent": null,
           "addons": [
@@ -3247,7 +4424,9 @@
               "name": "خبز إضافي",
               "price": 4
             }
-          ]
+          ],
+          "isCombo": false,
+          "comboIncludes": []
         },
         {
           "id": "hummus-house-6",
@@ -3261,10 +4440,10 @@
           "protein": 20,
           "carbs": 32,
           "fat": 26,
-          "category": "offers",
+          "category": "menu",
           "isPopular": false,
-          "isOffer": true,
-          "offerPrice": 29,
+          "isOffer": false,
+          "offerPrice": null,
           "spicyOption": false,
           "cashbackPercent": null,
           "addons": [
@@ -3288,7 +4467,9 @@
               "name": "خبز إضافي",
               "price": 4
             }
-          ]
+          ],
+          "isCombo": false,
+          "comboIncludes": []
         },
         {
           "id": "hummus-house-7",
@@ -3329,7 +4510,9 @@
               "name": "خبز إضافي",
               "price": 4
             }
-          ]
+          ],
+          "isCombo": false,
+          "comboIncludes": []
         },
         {
           "id": "hummus-house-8",
@@ -3370,7 +4553,9 @@
               "name": "خبز إضافي",
               "price": 4
             }
-          ]
+          ],
+          "isCombo": false,
+          "comboIncludes": []
         },
         {
           "id": "hummus-house-9",
@@ -3411,7 +4596,9 @@
               "name": "خبز إضافي",
               "price": 4
             }
-          ]
+          ],
+          "isCombo": false,
+          "comboIncludes": []
         },
         {
           "id": "hummus-house-10",
@@ -3425,12 +4612,161 @@
           "protein": 36,
           "carbs": 18,
           "fat": 38,
+          "category": "menu",
+          "isPopular": false,
+          "isOffer": false,
+          "offerPrice": null,
+          "spicyOption": true,
+          "cashbackPercent": 5,
+          "addons": [
+            {
+              "id": "fries",
+              "name": "بطاطس مقلية",
+              "price": 8
+            },
+            {
+              "id": "cola",
+              "name": "كولا",
+              "price": 6
+            },
+            {
+              "id": "sauce",
+              "name": "صلصة إضافية",
+              "price": 3
+            },
+            {
+              "id": "bread",
+              "name": "خبز إضافي",
+              "price": 4
+            }
+          ],
+          "isCombo": false,
+          "comboIncludes": []
+        },
+        {
+          "id": "hummus-house-combo-1",
+          "restaurantId": "hummus-house",
+          "name": "كومبو شاورما كامل",
+          "description": "شاورما مع بطاطس ومشروب وسلطة.",
+          "image": "https://images.unsplash.com/photo-1529006557810-274b9b2fc783?w=800&q=80",
+          "price": 42,
+          "rating": 4.6,
+          "calories": 920,
+          "protein": 38,
+          "carbs": 78,
+          "fat": 36,
           "category": "offers",
           "isPopular": false,
           "isOffer": true,
-          "offerPrice": 40,
-          "spicyOption": true,
-          "cashbackPercent": 5,
+          "offerPrice": null,
+          "isCombo": true,
+          "comboIncludes": [
+            "شاورما دجاج",
+            "بطاطس مقلية",
+            "سلطة",
+            "ثوم",
+            "مشروب"
+          ],
+          "spicyOption": false,
+          "cashbackPercent": null,
+          "addons": [
+            {
+              "id": "fries",
+              "name": "بطاطس مقلية",
+              "price": 8
+            },
+            {
+              "id": "cola",
+              "name": "كولا",
+              "price": 6
+            },
+            {
+              "id": "sauce",
+              "name": "صلصة إضافية",
+              "price": 3
+            },
+            {
+              "id": "bread",
+              "name": "خبز إضافي",
+              "price": 4
+            }
+          ]
+        },
+        {
+          "id": "hummus-house-combo-2",
+          "restaurantId": "hummus-house",
+          "name": "كومبو مقبلات شامية",
+          "description": "تشكيلة مقبلات مع خبز ومشروب.",
+          "image": "https://images.unsplash.com/photo-1626082927389-6cd097cdc6ec?w=800&q=80",
+          "price": 48,
+          "rating": 4.6,
+          "calories": 780,
+          "protein": 22,
+          "carbs": 70,
+          "fat": 38,
+          "category": "offers",
+          "isPopular": false,
+          "isOffer": true,
+          "offerPrice": null,
+          "isCombo": true,
+          "comboIncludes": [
+            "حمص",
+            "متبل",
+            "فتوش",
+            "خبز عربي",
+            "عصير"
+          ],
+          "spicyOption": false,
+          "cashbackPercent": null,
+          "addons": [
+            {
+              "id": "fries",
+              "name": "بطاطس مقلية",
+              "price": 8
+            },
+            {
+              "id": "cola",
+              "name": "كولا",
+              "price": 6
+            },
+            {
+              "id": "sauce",
+              "name": "صلصة إضافية",
+              "price": 3
+            },
+            {
+              "id": "bread",
+              "name": "خبز إضافي",
+              "price": 4
+            }
+          ]
+        },
+        {
+          "id": "hummus-house-combo-3",
+          "restaurantId": "hummus-house",
+          "name": "كومبو فلافل وجبة",
+          "description": "صحن فلافل كامل مع إضافات.",
+          "image": "https://images.unsplash.com/photo-1601050690117-94f5f6fa8bd7?w=800&q=80",
+          "price": 28,
+          "rating": 4.6,
+          "calories": 650,
+          "protein": 18,
+          "carbs": 72,
+          "fat": 24,
+          "category": "offers",
+          "isPopular": false,
+          "isOffer": true,
+          "offerPrice": null,
+          "isCombo": true,
+          "comboIncludes": [
+            "فلافل",
+            "حمص",
+            "مخلل",
+            "خبز",
+            "مشروب"
+          ],
+          "spicyOption": false,
+          "cashbackPercent": null,
           "addons": [
             {
               "id": "fries",

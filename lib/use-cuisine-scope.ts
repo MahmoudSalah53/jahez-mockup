@@ -29,12 +29,20 @@ export function useCuisineScope() {
   );
 
   const offerMeals = useMemo(
-    () => scopedMeals.filter((m) => m.isOffer).slice(0, 8),
+    () =>
+      scopedMeals
+        .filter((m) => m.isCombo || m.isOffer)
+        .sort((a, b) => b.rating - a.rating)
+        .slice(0, 8),
     [scopedMeals],
   );
 
   const promoMeals = useMemo(
-    () => scopedMeals.filter((m) => m.isOffer).slice(0, 3),
+    () =>
+      scopedMeals
+        .filter((m) => m.isCombo || m.isOffer)
+        .sort((a, b) => b.rating - a.rating)
+        .slice(0, 3),
     [scopedMeals],
   );
 
