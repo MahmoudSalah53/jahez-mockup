@@ -19,7 +19,7 @@ const OPEN_PILL_PX = 250;
 const OPEN_PILL_DESKTOP_PX = 290;
 const OPEN_H = 48;
 const OPEN_H_DESKTOP = 56;
-const TEASE_VISIBLE_MS = 2500;
+const TEASE_VISIBLE_MS = 3000;
 const TEASE_GAP_MS = 60_000;
 const INTRO_DELAY_MS = 500;
 
