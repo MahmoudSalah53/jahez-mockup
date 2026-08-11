@@ -7,6 +7,7 @@
 import { readdirSync, readFileSync, writeFileSync } from "fs";
 import { dirname, join } from "path";
 import { fileURLToPath } from "url";
+import { dishImage, realisticPrice } from "./catalog-media.mjs";
 
 const __dirname = dirname(fileURLToPath(import.meta.url));
 const root = join(__dirname, "..");
@@ -91,67 +92,6 @@ function getAddonsForCuisine(cuisine) {
   return list.map((a) => ({ ...a }));
 }
 
-function foodImg(photoId) {
-  return `https://images.unsplash.com/${photoId}?w=800&q=80`;
-}
-
-const FOOD_IMAGES_BY_CUISINE = {
-  مشاوي: [
-    "photo-1555939594-58d7cb561ad1",
-    "photo-1529692236671-f1f6cf9683ba",
-    "photo-1603360946369-dc9bb6258143",
-  ],
-  شامي: [
-    "photo-1529006557810-274b9b2fc783",
-    "photo-1626082927389-6cd097cdc6ec",
-    "photo-1601050690117-94f5f6fa8bd7",
-  ],
-  برجر: [
-    "photo-1568901346375-23c9450c58cd",
-    "photo-1553979459-d2229ba7433b",
-    "photo-1571091718767-18b5b1457add",
-  ],
-  ياباني: [
-    "photo-1579584425555-c3ce17fd4351",
-    "photo-1553621042-f6e147245754",
-    "photo-1611143669185-af224c5e3252",
-  ],
-  حلويات: [
-    "photo-1488477181946-6428a0291777",
-    "photo-1578985545062-69928b1d9587",
-    "photo-1563805042-7684c019e1cb",
-  ],
-  إيطالي: [
-    "photo-1513104890138-7c749659a591",
-    "photo-1551183053-bf91a1d81141",
-    "photo-1565299624946-b28f40a0ae38",
-  ],
-  هندي: [
-    "photo-1585937421612-70a008356fbe",
-    "photo-1565557623262-b51c2513a641",
-    "photo-1588168333986-5078d3ae3976",
-  ],
-  سعودي: [
-    "photo-1512058564366-18510be2db19",
-    "photo-1544025162-d76694265947",
-    "photo-1600891964599-f61ba0e24092",
-  ],
-  بحري: [
-    "photo-1559339352-11d035aa65de",
-    "photo-1559847844-5315695dadae",
-    "photo-1615141982883-c7ad0e69fd62",
-  ],
-  صحي: [
-    "photo-1512621776951-a57141f2eefd",
-    "photo-1546069901-ba9599a7e63c",
-    "photo-1490645935967-10de6ba17061",
-  ],
-  بقالة: [
-    "photo-1504674900247-0877df9cc836",
-    "photo-1482049016688-2d3e1b311543",
-    "photo-1498837167922-ddd27525d352",
-  ],
-};
 
 /**
  * Each cuisine: 3 templates — combo | family | deal (generic «عرض»).
@@ -165,7 +105,7 @@ const OFFERS_BY_CUISINE = {
       nameTitle: "وجبة مشاوي فردية",
       description: "طبق رئيسي مع أرز وسلطة ومشروب — وجبة كاملة لشخص واحد.",
       includes: ["شيش طاووق", "أرز أبيض", "سلطة", "مشروب غازي"],
-      price: 59,
+      price: 32,
       calories: 980,
       protein: 48,
       carbs: 85,
@@ -178,7 +118,7 @@ const OFFERS_BY_CUISINE = {
       nameTitle: "وجبة عائلية مشاوي",
       description: "تشكيلة تكفي ٣–٤ أشخاص مع مقبلات ومشروبات.",
       includes: ["مشكل مشاوي", "حمص", "خبز", "بطاطس", "٢ مشروب"],
-      price: 189,
+      price: 109,
       calories: 2400,
       protein: 120,
       carbs: 180,
@@ -191,7 +131,7 @@ const OFFERS_BY_CUISINE = {
       nameTitle: "اشتري كباب واحصل على الثاني مجاناً",
       description: "عرض: كبابين بنفس السعر — مع طحينة ومخلل.",
       includes: ["كباب لحم", "كباب لحم إضافي", "طحينة", "مخلل"],
-      price: 72,
+      price: 41,
       calories: 1100,
       protein: 52,
       carbs: 40,
@@ -206,7 +146,7 @@ const OFFERS_BY_CUISINE = {
       nameTitle: "وجبة شاورما كاملة",
       description: "شاورما مع بطاطس ومشروب وسلطة.",
       includes: ["شاورما دجاج", "بطاطس", "سلطة", "ثوم", "مشروب"],
-      price: 42,
+      price: 26,
       calories: 920,
       protein: 38,
       carbs: 78,
@@ -247,7 +187,7 @@ const OFFERS_BY_CUISINE = {
       nameTitle: "وجبة برجر كاملة",
       description: "برجر مع بطاطس ومشروب.",
       includes: ["برجر لحم", "بطاطس كبيرة", "كولا"],
-      price: 49,
+      price: 32,
       calories: 1150,
       protein: 36,
       carbs: 95,
@@ -260,7 +200,7 @@ const OFFERS_BY_CUISINE = {
       nameTitle: "وجبة عائلية برجر",
       description: "أربعة برجر مع بطاطس عائلية وأربعة مشروبات.",
       includes: ["٤ برجر", "بطاطس عائلية", "٤ مشروب", "صوصات"],
-      price: 149,
+      price: 89,
       calories: 3200,
       protein: 120,
       carbs: 280,
@@ -465,7 +405,7 @@ const OFFERS_BY_CUISINE = {
       nameTitle: "وجبة عائلية مندي",
       description: "مندي لحم تكفي العائلة مع شوربة وسلطة ومشروبين.",
       includes: ["مندي لحم", "شوربة", "سلطة", "٢ مشروب"],
-      price: 149,
+      price: 99,
       calories: 2200,
       protein: 110,
       carbs: 180,
@@ -506,7 +446,7 @@ const OFFERS_BY_CUISINE = {
       nameTitle: "وجبة عائلية بحرية",
       description: "سمك وروبيان وأرز وسلطة ومشروبين للمشاركة.",
       includes: ["سمك", "روبيان", "أرز", "سلطة", "٢ مشروب"],
-      price: 169,
+      price: 109,
       calories: 1600,
       protein: 95,
       carbs: 100,
@@ -612,7 +552,6 @@ const OFFERS_BY_CUISINE = {
 };
 
 const FALLBACK_OFFERS = OFFERS_BY_CUISINE["برجر"];
-const FALLBACK_FOOD = FOOD_IMAGES_BY_CUISINE["برجر"];
 
 const MEAL_KEYS = [
   "id",
@@ -662,14 +601,20 @@ function normalizeRegularMeal(m) {
   return next;
 }
 
-function buildOfferMeal(restaurant, template, image) {
+function buildOfferMeal(restaurant, template) {
+  const drafted = {
+    ...template,
+    isOffer: true,
+    offerKind: template.kind,
+    price: template.price,
+  };
   return {
     id: `${restaurant.id}-${template.slug}`,
     restaurantId: restaurant.id,
     name: template.nameTitle,
     description: template.description,
-    image,
-    price: template.price,
+    image: dishImage(template.nameTitle, restaurant.cuisine),
+    price: realisticPrice(drafted, restaurant.cuisine),
     rating: 4.6,
     calories: template.calories,
     protein: template.protein,
@@ -706,11 +651,8 @@ function upgradeRestaurant(r) {
     }));
 
   const templates = OFFERS_BY_CUISINE[r.cuisine] ?? FALLBACK_OFFERS;
-  const foodPool = FOOD_IMAGES_BY_CUISINE[r.cuisine] ?? FALLBACK_FOOD;
 
-  const offers = templates.map((t, i) =>
-    buildOfferMeal(r, t, foodImg(foodPool[i % foodPool.length])),
-  );
+  const offers = templates.map((t) => buildOfferMeal(r, t));
 
   for (const m of [...regular, ...offers]) assertMealKeys(m);
 

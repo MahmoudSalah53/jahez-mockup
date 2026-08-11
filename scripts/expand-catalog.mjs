@@ -7,6 +7,11 @@
 import { mkdirSync, readFileSync, writeFileSync } from "fs";
 import { dirname, join } from "path";
 import { fileURLToPath } from "url";
+import {
+  dishImage,
+  realisticPrice,
+  restaurantCover,
+} from "./catalog-media.mjs";
 
 const __dirname = dirname(fileURLToPath(import.meta.url));
 const root = join(__dirname, "..");
@@ -580,8 +585,11 @@ function buildRestaurant([id, name], pack, indexInPack) {
       restaurantId: id,
       name: mealName,
       description,
-      image: pick(IMAGES),
-      price,
+      image: dishImage(mealName, pack.cuisine, mealIdx),
+      price: realisticPrice(
+        { price, isOffer: false },
+        pack.cuisine,
+      ),
       rating: mealRating,
       calories,
       protein,
@@ -611,7 +619,7 @@ function buildRestaurant([id, name], pack, indexInPack) {
   return {
     id,
     name,
-    image: pick(IMAGES),
+    image: restaurantCover(pack.cuisine, indexInPack),
     rating,
     cuisine: pack.cuisine,
     deliveryTime: pick(times),
