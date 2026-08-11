@@ -601,18 +601,63 @@ function normalizeRegularMeal(m) {
   return next;
 }
 
+function hashSeed(str) {
+  let h = 0;
+  for (let i = 0; i < str.length; i++) h = (h * 31 + str.charCodeAt(i)) | 0;
+  return Math.abs(h);
+}
+
+/** Deterministic party size 3–10 from restaurant id. */
+function familyServes(restaurantId) {
+  return 3 + (hashSeed(restaurantId) % 8);
+}
+
+function familyPrice(basePrice, serves) {
+  const factor = 0.72 + ((serves - 3) / 7) * 0.55;
+  return Math.round(basePrice * factor);
+}
+
+function familyDescription(base, serves) {
+  const cleaned = String(base)
+    .replace(/تكفي\s*العائلة/g, "")
+    .replace(/تكفي\s*[0-9٠-٩]+\s*[–\-]\s*[0-9٠-٩]+\s*أشخاص/g, "")
+    .replace(/للعائلة/g, "")
+    .replace(/\s+/g, " ")
+    .replace(/\s+\./g, ".")
+    .trim()
+    .replace(/[،,]\s*$/, "");
+  const lead = cleaned
+    ? cleaned.endsWith(".")
+      ? cleaned
+      : `${cleaned}.`
+    : "";
+  return `${lead} تكفي ${serves} أشخاص.`.trim();
+}
+
 function buildOfferMeal(restaurant, template) {
+  const isFamily = template.kind === "family";
+  const serves = isFamily ? familyServes(restaurant.id) : null;
+  const name = isFamily
+    ? `${template.nameTitle} لـ ${serves} أشخاص`
+    : template.nameTitle;
+  const description = isFamily
+    ? familyDescription(template.description, serves)
+    : template.description;
+  const price = isFamily
+    ? familyPrice(template.price, serves)
+    : template.price;
+
   const drafted = {
     ...template,
     isOffer: true,
     offerKind: template.kind,
-    price: template.price,
+    price,
   };
   return {
     id: `${restaurant.id}-${template.slug}`,
     restaurantId: restaurant.id,
-    name: template.nameTitle,
-    description: template.description,
+    name,
+    description,
     image: dishImage(template.nameTitle, restaurant.cuisine),
     price: realisticPrice(drafted, restaurant.cuisine),
     rating: 4.6,

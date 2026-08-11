@@ -1,6 +1,6 @@
 "use client";
 
-import { useMemo } from "react";
+import { useMemo, useState } from "react";
 import { useSearchParams } from "next/navigation";
 import { meals } from "@/data/meals";
 import { getRestaurantById } from "@/data/restaurants";
@@ -8,11 +8,21 @@ import { MealListItem } from "@/components/MealListItem";
 import { MealCard } from "@/components/MealCard";
 import { LIST_PAGE_SIZE } from "@/lib/list-limits";
 import { useInfiniteList } from "@/lib/use-infinite-list";
+import { cn } from "@/lib/cn";
+import type { OfferKind } from "@/lib/types";
+
+const TABS: { id: "all" | OfferKind; label: string }[] = [
+  { id: "all", label: "الكل" },
+  { id: "combo", label: "كومبو" },
+  { id: "family", label: "عائلي" },
+  { id: "deal", label: "عرض" },
+];
 
 export function OffersClient() {
   const searchParams = useSearchParams();
   const cashbackOnly = searchParams.get("cashback") === "1";
   const cuisine = searchParams.get("cuisine");
+  const [tab, setTab] = useState<(typeof TABS)[number]["id"]>("all");
 
   const offers = useMemo(() => {
     let base = meals.filter((m) => m.isCombo || m.isOffer);
@@ -25,8 +35,11 @@ export function OffersClient() {
         return r?.cuisine === cuisine;
       });
     }
+    if (tab !== "all") {
+      base = base.filter((m) => m.offerKind === tab);
+    }
     return [...base].sort((a, b) => b.rating - a.rating);
-  }, [cashbackOnly, cuisine]);
+  }, [cashbackOnly, cuisine, tab]);
 
   const { visibleItems, sentinelRef, hasMore, pending } = useInfiniteList(
     offers,
@@ -66,6 +79,24 @@ export function OffersClient() {
             {offers.length} عرض — كومبو · عائلي · تشكيلة بسعر ثابت
           </p>
         </div>
+      </div>
+
+      <div className="flex gap-2 overflow-x-auto px-4 py-3 md:px-8 [-ms-overflow-style:none] [scrollbar-width:none] [&::-webkit-scrollbar]:hidden">
+        {TABS.map((t) => (
+          <button
+            key={t.id}
+            type="button"
+            onClick={() => setTab(t.id)}
+            className={cn(
+              "shrink-0 rounded-full border px-3 py-1.5 text-xs font-medium transition-colors md:px-4 md:text-sm",
+              tab === t.id
+                ? "border-accent bg-accent text-white"
+                : "border-border bg-background text-foreground",
+            )}
+          >
+            {t.label}
+          </button>
+        ))}
       </div>
 
       {offers.length === 0 ? (
