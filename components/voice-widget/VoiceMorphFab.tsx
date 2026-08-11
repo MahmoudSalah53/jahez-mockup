@@ -1,12 +1,7 @@
 "use client";
 
 import { AnimatePresence, motion } from "motion/react";
-import {
-  Microphone,
-  MicrophoneSlash,
-  SparkleIcon,
-  XIcon,
-} from "@phosphor-icons/react";
+import { Microphone, MicrophoneSlash, XIcon } from "@phosphor-icons/react";
 import { useEffect, useRef, useState } from "react";
 import type { RemoteAudioTrack } from "livekit-client";
 import { FakeBarVisualizer } from "@/components/voice-widget/FakeBarVisualizer";
@@ -16,17 +11,25 @@ import { cn } from "@/lib/cn";
 
 export type VoicePhase = "closed" | "connecting" | "listening";
 
-const CIRCLE_PX = 48;
-const CIRCLE_DESKTOP_PX = 56;
-const TEASE_PILL_PX = 138;
-const TEASE_PILL_DESKTOP_PX = 160;
-const OPEN_PILL_PX = 260;
-const OPEN_PILL_DESKTOP_PX = 300;
-const OPEN_H = 52;
-const OPEN_H_DESKTOP = 60;
+const CIRCLE_PX = 44;
+const CIRCLE_DESKTOP_PX = 52;
+const TEASE_PILL_PX = 142;
+const TEASE_PILL_DESKTOP_PX = 164;
+const OPEN_PILL_PX = 250;
+const OPEN_PILL_DESKTOP_PX = 290;
+const OPEN_H = 48;
+const OPEN_H_DESKTOP = 56;
 const TEASE_VISIBLE_MS = 2500;
 const TEASE_GAP_MS = 60_000;
 const INTRO_DELAY_MS = 500;
+
+/** Coda mark — lavender of the O, not Jahez red. */
+const CODA_FAB_BG = "bg-[linear-gradient(145deg,#8B6FF0_0%,#C4B5FD_100%)]";
+const CODA_FAB_BG_X = "bg-[linear-gradient(90deg,#8B6FF0_0%,#C4B5FD_100%)]";
+const CODA_FAB_BG_Y = "bg-[linear-gradient(180deg,#8B6FF0,#C4B5FD)]";
+const CODA_PULSE = "bg-[#8B6FF0]/15";
+const CODA_SHADOW = "shadow-[0_4px_12px_rgba(139,111,240,0.38)]";
+const CODA_MUTE = "bg-[#EEE8FF] text-[#6D5AE6]";
 
 const morphSpring = {
   type: "spring" as const,
@@ -239,7 +242,7 @@ export function VoiceMorphFab({
     >
       {/* خلفية مغلقة — تتلاشى أثناء الفتح */}
       <motion.span
-        className="absolute inset-0 rounded-full bg-[linear-gradient(90deg,#c62828_0%,#e85a4f_100%)]"
+        className={cn("absolute inset-0 rounded-full", CODA_FAB_BG_X)}
         initial={false}
         animate={{ opacity: open ? 0 : 1 }}
         transition={{ duration: 0.35, ease: [0.22, 1, 0.36, 1] }}
@@ -257,7 +260,10 @@ export function VoiceMorphFab({
 
       {open ? (
         <span
-          className="pointer-events-none absolute inset-y-0 start-0 z-[1] w-1 bg-[linear-gradient(180deg,#c62828,#e85a4f)]"
+          className={cn(
+            "pointer-events-none absolute inset-y-0 start-0 z-[1] w-1",
+            CODA_FAB_BG_Y,
+          )}
           aria-hidden
         />
       ) : null}
@@ -278,17 +284,17 @@ export function VoiceMorphFab({
           >
             <span
               className={cn(
-                "grid shrink-0 place-items-center",
-                desktop ? "size-14" : "size-12",
+                "grid shrink-0 place-items-center overflow-hidden rounded-full",
+                desktop ? "size-[52px]" : "size-11",
               )}
             >
-              <SparkleIcon
-                size={desktop ? 26 : 22}
-                weight="fill"
-                className={cn(
-                  "text-white",
-                  desktop ? "size-[26px]" : "size-[22px]",
-                )}
+              <img
+                src="/coda-mark.png"
+                alt=""
+                width={desktop ? 52 : 44}
+                height={desktop ? 52 : 44}
+                className="size-full scale-[1.12] object-cover"
+                draggable={false}
               />
             </span>
             <motion.span
@@ -299,7 +305,7 @@ export function VoiceMorphFab({
               }}
               transition={{ duration: 0.28, ease: [0.22, 1, 0.36, 1] }}
               className={cn(
-                "overflow-hidden whitespace-nowrap pe-4 font-bold text-white",
+                "overflow-hidden whitespace-nowrap ps-3 pe-4 font-bold text-white",
                 desktop ? "text-[15px]" : "text-sm",
               )}
             >
@@ -328,7 +334,7 @@ export function VoiceMorphFab({
             >
               {/* نبضة خفيفة في الاتصال والاستماع */}
               <motion.span
-                className="absolute inset-0 rounded-full bg-[#c62828]/10"
+                className={cn("absolute inset-0 rounded-full", CODA_PULSE)}
                 animate={
                   connecting || waveActive
                     ? {
@@ -352,8 +358,8 @@ export function VoiceMorphFab({
               <div
                 className={cn(
                   "relative z-10 grid place-items-center rounded-full",
-                  "bg-[linear-gradient(145deg,#c62828_0%,#e85a4f_100%)]",
-                  "shadow-[0_4px_12px_rgba(198,40,40,0.35)]",
+                  CODA_FAB_BG,
+                  CODA_SHADOW,
                   desktop ? "size-11" : "size-10",
                 )}
               >
@@ -401,7 +407,7 @@ export function VoiceMorphFab({
                   "disabled:cursor-not-allowed disabled:opacity-40",
                   micOn
                     ? "text-fg1 hover:bg-black/[0.05] hover:text-fg0"
-                    : "bg-[#fdecea] text-[#c62828]",
+                    : CODA_MUTE,
                 )}
               >
                 {micOn ? (
