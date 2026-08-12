@@ -4,19 +4,19 @@
       "id": "tokyo-bite",
       "name": "لقمة طوكيو",
       "image": "https://images.unsplash.com/photo-1579584425555-c3ce17fd4351?w=800&q=80",
-      "rating": 4.3,
+      "rating": 4.6,
       "cuisine": "ياباني",
-      "deliveryTime": "40–55 د",
-      "deliveryFee": 0,
-      "minOrder": 40,
-      "distanceKm": 1.2,
+      "deliveryTime": "35–50 د",
+      "deliveryFee": 12,
+      "minOrder": 50,
+      "distanceKm": 5.3,
       "verified": true,
       "tags": [
         "ياباني",
         "سوشي"
       ],
-      "featured": true,
-      "open24h": null,
+      "featured": null,
+      "open24h": true,
       "fastDelivery": null,
       "meals": [
         {
@@ -26,7 +26,7 @@
           "description": "قطع سالمون طازج على أرز.",
           "image": "https://images.unsplash.com/photo-1579584425555-c3ce17fd4351?w=800&q=80",
           "price": 54,
-          "rating": 4.3,
+          "rating": 4.2,
           "calories": 420,
           "protein": 28,
           "carbs": 48,
@@ -35,6 +35,9 @@
           "isPopular": false,
           "isOffer": false,
           "offerPrice": null,
+          "isCombo": false,
+          "offerKind": null,
+          "comboIncludes": [],
           "spicyOption": false,
           "cashbackPercent": null,
           "addons": [
@@ -63,10 +66,7 @@
               "name": "جيوزا ×٢",
               "price": 12
             }
-          ],
-          "isCombo": false,
-          "comboIncludes": [],
-          "offerKind": null
+          ]
         },
         {
           "id": "tokyo-bite-2",
@@ -75,7 +75,7 @@
           "description": "كراب وأفوكادو وخيار.",
           "image": "https://images.unsplash.com/photo-1553621042-f6e147245754?w=800&q=80",
           "price": 42,
-          "rating": 4.2,
+          "rating": 4.6,
           "calories": 380,
           "protein": 16,
           "carbs": 44,
@@ -84,6 +84,9 @@
           "isPopular": false,
           "isOffer": false,
           "offerPrice": null,
+          "isCombo": false,
+          "offerKind": null,
+          "comboIncludes": [],
           "spicyOption": false,
           "cashbackPercent": null,
           "addons": [
@@ -112,10 +115,7 @@
               "name": "جيوزا ×٢",
               "price": 12
             }
-          ],
-          "isCombo": false,
-          "comboIncludes": [],
-          "offerKind": null
+          ]
         },
         {
           "id": "tokyo-bite-3",
@@ -124,7 +124,7 @@
           "description": "مرق غني مع نودلز وبيض.",
           "image": "https://images.unsplash.com/photo-1569718212165-3a8278d5f624?w=800&q=80",
           "price": 48,
-          "rating": 4.2,
+          "rating": 4.3,
           "calories": 680,
           "protein": 32,
           "carbs": 62,
@@ -133,6 +133,9 @@
           "isPopular": false,
           "isOffer": false,
           "offerPrice": null,
+          "isCombo": false,
+          "offerKind": null,
+          "comboIncludes": [],
           "spicyOption": false,
           "cashbackPercent": null,
           "addons": [
@@ -161,10 +164,7 @@
               "name": "جيوزا ×٢",
               "price": 12
             }
-          ],
-          "isCombo": false,
-          "comboIncludes": [],
-          "offerKind": null
+          ]
         },
         {
           "id": "tokyo-bite-4",
@@ -173,15 +173,18 @@
           "description": "دجاج بصلصة ترياكي وأرز.",
           "image": "https://images.unsplash.com/photo-1512058564366-18510be2db19?w=800&q=80",
           "price": 44,
-          "rating": 4.3,
+          "rating": 4.5,
           "calories": 560,
           "protein": 34,
           "carbs": 55,
           "fat": 16,
-          "category": "popular",
-          "isPopular": true,
+          "category": "menu",
+          "isPopular": false,
           "isOffer": false,
           "offerPrice": null,
+          "isCombo": false,
+          "offerKind": null,
+          "comboIncludes": [],
           "spicyOption": false,
           "cashbackPercent": null,
           "addons": [
@@ -210,10 +213,7 @@
               "name": "جيوزا ×٢",
               "price": 12
             }
-          ],
-          "isCombo": false,
-          "comboIncludes": [],
-          "offerKind": null
+          ]
         },
         {
           "id": "tokyo-bite-5",
@@ -222,15 +222,18 @@
           "description": "شينيتزل لحم مع أرز وبيض.",
           "image": "https://images.unsplash.com/photo-1569718212165-3a8278d5f624?w=800&q=80",
           "price": 46,
-          "rating": 4.4,
+          "rating": 4.9,
           "calories": 720,
           "protein": 36,
           "carbs": 60,
           "fat": 28,
-          "category": "menu",
-          "isPopular": false,
+          "category": "popular",
+          "isPopular": true,
           "isOffer": false,
           "offerPrice": null,
+          "isCombo": false,
+          "offerKind": null,
+          "comboIncludes": [],
           "spicyOption": false,
           "cashbackPercent": null,
           "addons": [
@@ -259,10 +262,7 @@
               "name": "جيوزا ×٢",
               "price": 12
             }
-          ],
-          "isCombo": false,
-          "comboIncludes": [],
-          "offerKind": null
+          ]
         },
         {
           "id": "tokyo-bite-6",
@@ -280,6 +280,9 @@
           "isPopular": true,
           "isOffer": false,
           "offerPrice": null,
+          "isCombo": false,
+          "offerKind": null,
+          "comboIncludes": [],
           "spicyOption": false,
           "cashbackPercent": null,
           "addons": [
@@ -308,10 +311,7 @@
               "name": "جيوزا ×٢",
               "price": 12
             }
-          ],
-          "isCombo": false,
-          "comboIncludes": [],
-          "offerKind": null
+          ]
         },
         {
           "id": "tokyo-bite-7",
@@ -325,10 +325,13 @@
           "protein": 24,
           "carbs": 42,
           "fat": 26,
-          "category": "menu",
-          "isPopular": false,
+          "category": "popular",
+          "isPopular": true,
           "isOffer": false,
           "offerPrice": null,
+          "isCombo": false,
+          "offerKind": null,
+          "comboIncludes": [],
           "spicyOption": false,
           "cashbackPercent": null,
           "addons": [
@@ -357,10 +360,7 @@
               "name": "جيوزا ×٢",
               "price": 12
             }
-          ],
-          "isCombo": false,
-          "comboIncludes": [],
-          "offerKind": null
+          ]
         },
         {
           "id": "tokyo-bite-8",
@@ -369,15 +369,18 @@
           "description": "تشكيلة سمك نيء.",
           "image": "https://images.unsplash.com/photo-1553621042-f6e147245754?w=800&q=80",
           "price": 53,
-          "rating": 4.2,
+          "rating": 4.1,
           "calories": 280,
           "protein": 36,
           "carbs": 4,
           "fat": 10,
-          "category": "menu",
-          "isPopular": false,
+          "category": "popular",
+          "isPopular": true,
           "isOffer": false,
           "offerPrice": null,
+          "isCombo": false,
+          "offerKind": null,
+          "comboIncludes": [],
           "spicyOption": false,
           "cashbackPercent": null,
           "addons": [
@@ -406,10 +409,7 @@
               "name": "جيوزا ×٢",
               "price": 12
             }
-          ],
-          "isCombo": false,
-          "comboIncludes": [],
-          "offerKind": null
+          ]
         },
         {
           "id": "tokyo-bite-9",
@@ -418,15 +418,18 @@
           "description": "زلابية لحم مشوية.",
           "image": "https://images.unsplash.com/photo-1611143669185-af224c5e3252?w=800&q=80",
           "price": 32,
-          "rating": 4.7,
+          "rating": 4.8,
           "calories": 340,
           "protein": 14,
           "carbs": 28,
           "fat": 16,
-          "category": "menu",
-          "isPopular": false,
+          "category": "popular",
+          "isPopular": true,
           "isOffer": false,
           "offerPrice": null,
+          "isCombo": false,
+          "offerKind": null,
+          "comboIncludes": [],
           "spicyOption": false,
           "cashbackPercent": null,
           "addons": [
@@ -455,10 +458,7 @@
               "name": "جيوزا ×٢",
               "price": 12
             }
-          ],
-          "isCombo": false,
-          "comboIncludes": [],
-          "offerKind": null
+          ]
         },
         {
           "id": "tokyo-bite-10",
@@ -467,17 +467,20 @@
           "description": "كرات أرز محشوة آيس كريم.",
           "image": "https://images.unsplash.com/photo-1563805042-7684c019e1cb?w=800&q=80",
           "price": 24,
-          "rating": 4.7,
+          "rating": 4.6,
           "calories": 260,
           "protein": 4,
           "carbs": 36,
           "fat": 10,
-          "category": "menu",
-          "isPopular": false,
+          "category": "popular",
+          "isPopular": true,
           "isOffer": false,
           "offerPrice": null,
+          "isCombo": false,
+          "offerKind": null,
+          "comboIncludes": [],
           "spicyOption": false,
-          "cashbackPercent": 5,
+          "cashbackPercent": null,
           "addons": [
             {
               "id": "extra-soy",
@@ -504,10 +507,7 @@
               "name": "جيوزا ×٢",
               "price": 12
             }
-          ],
-          "isCombo": false,
-          "comboIncludes": [],
-          "offerKind": null
+          ]
         },
         {
           "id": "tokyo-bite-offer-1",
@@ -567,7 +567,7 @@
           "id": "tokyo-bite-offer-2",
           "restaurantId": "tokyo-bite",
           "name": "وجبة عائلية سوشي لـ 6 أشخاص",
-          "description": "6 صحن سوشي مع إضافات ومشروبات. تكفي 6 أشخاص.",
+          "description": "6 صحن سوشي مع ميسو وزنجبيل وواسابي. تكفي 6 أشخاص.",
           "image": "https://images.unsplash.com/photo-1579584425555-c3ce17fd4351?w=800&q=80",
           "price": 109,
           "rating": 4.6,
@@ -677,12 +677,12 @@
       "id": "sakura-roll",
       "name": "ساكورا رول",
       "image": "https://images.unsplash.com/photo-1579584425555-c3ce17fd4351?w=800&q=80",
-      "rating": 4.4,
+      "rating": 4.3,
       "cuisine": "ياباني",
-      "deliveryTime": "30–45 د",
-      "deliveryFee": 12,
-      "minOrder": 45,
-      "distanceKm": 4.1,
+      "deliveryTime": "25–35 د",
+      "deliveryFee": 8,
+      "minOrder": 30,
+      "distanceKm": 1.3,
       "verified": true,
       "tags": [
         "ياباني",
@@ -699,7 +699,7 @@
           "description": "قطع سالمون طازج على أرز.",
           "image": "https://images.unsplash.com/photo-1579584425555-c3ce17fd4351?w=800&q=80",
           "price": 54,
-          "rating": 4.5,
+          "rating": 4.3,
           "calories": 420,
           "protein": 28,
           "carbs": 48,
@@ -708,6 +708,9 @@
           "isPopular": false,
           "isOffer": false,
           "offerPrice": null,
+          "isCombo": false,
+          "offerKind": null,
+          "comboIncludes": [],
           "spicyOption": false,
           "cashbackPercent": null,
           "addons": [
@@ -736,10 +739,7 @@
               "name": "جيوزا ×٢",
               "price": 12
             }
-          ],
-          "isCombo": false,
-          "comboIncludes": [],
-          "offerKind": null
+          ]
         },
         {
           "id": "sakura-roll-2",
@@ -748,15 +748,18 @@
           "description": "كراب وأفوكادو وخيار.",
           "image": "https://images.unsplash.com/photo-1553621042-f6e147245754?w=800&q=80",
           "price": 42,
-          "rating": 4.7,
+          "rating": 4.9,
           "calories": 380,
           "protein": 16,
           "carbs": 44,
           "fat": 14,
-          "category": "menu",
-          "isPopular": false,
+          "category": "popular",
+          "isPopular": true,
           "isOffer": false,
           "offerPrice": null,
+          "isCombo": false,
+          "offerKind": null,
+          "comboIncludes": [],
           "spicyOption": false,
           "cashbackPercent": null,
           "addons": [
@@ -785,10 +788,7 @@
               "name": "جيوزا ×٢",
               "price": 12
             }
-          ],
-          "isCombo": false,
-          "comboIncludes": [],
-          "offerKind": null
+          ]
         },
         {
           "id": "sakura-roll-3",
@@ -806,6 +806,9 @@
           "isPopular": false,
           "isOffer": false,
           "offerPrice": null,
+          "isCombo": false,
+          "offerKind": null,
+          "comboIncludes": [],
           "spicyOption": false,
           "cashbackPercent": null,
           "addons": [
@@ -834,10 +837,7 @@
               "name": "جيوزا ×٢",
               "price": 12
             }
-          ],
-          "isCombo": false,
-          "comboIncludes": [],
-          "offerKind": null
+          ]
         },
         {
           "id": "sakura-roll-4",
@@ -846,7 +846,7 @@
           "description": "دجاج بصلصة ترياكي وأرز.",
           "image": "https://images.unsplash.com/photo-1512058564366-18510be2db19?w=800&q=80",
           "price": 44,
-          "rating": 4.6,
+          "rating": 4.8,
           "calories": 560,
           "protein": 34,
           "carbs": 55,
@@ -855,6 +855,9 @@
           "isPopular": true,
           "isOffer": false,
           "offerPrice": null,
+          "isCombo": false,
+          "offerKind": null,
+          "comboIncludes": [],
           "spicyOption": false,
           "cashbackPercent": null,
           "addons": [
@@ -883,10 +886,7 @@
               "name": "جيوزا ×٢",
               "price": 12
             }
-          ],
-          "isCombo": false,
-          "comboIncludes": [],
-          "offerKind": null
+          ]
         },
         {
           "id": "sakura-roll-5",
@@ -895,15 +895,18 @@
           "description": "شينيتزل لحم مع أرز وبيض.",
           "image": "https://images.unsplash.com/photo-1569718212165-3a8278d5f624?w=800&q=80",
           "price": 46,
-          "rating": 4.7,
+          "rating": 4.2,
           "calories": 720,
           "protein": 36,
           "carbs": 60,
           "fat": 28,
-          "category": "menu",
-          "isPopular": false,
+          "category": "popular",
+          "isPopular": true,
           "isOffer": false,
           "offerPrice": null,
+          "isCombo": false,
+          "offerKind": null,
+          "comboIncludes": [],
           "spicyOption": false,
           "cashbackPercent": null,
           "addons": [
@@ -932,10 +935,7 @@
               "name": "جيوزا ×٢",
               "price": 12
             }
-          ],
-          "isCombo": false,
-          "comboIncludes": [],
-          "offerKind": null
+          ]
         },
         {
           "id": "sakura-roll-6",
@@ -944,15 +944,18 @@
           "description": "فول الصويا المملح.",
           "image": "https://images.unsplash.com/photo-1553621042-f6e147245754?w=800&q=80",
           "price": 18,
-          "rating": 4.4,
+          "rating": 4.8,
           "calories": 160,
           "protein": 12,
           "carbs": 10,
           "fat": 6,
-          "category": "menu",
-          "isPopular": false,
+          "category": "popular",
+          "isPopular": true,
           "isOffer": false,
           "offerPrice": null,
+          "isCombo": false,
+          "offerKind": null,
+          "comboIncludes": [],
           "spicyOption": false,
           "cashbackPercent": null,
           "addons": [
@@ -981,10 +984,7 @@
               "name": "جيوزا ×٢",
               "price": 12
             }
-          ],
-          "isCombo": false,
-          "comboIncludes": [],
-          "offerKind": null
+          ]
         },
         {
           "id": "sakura-roll-7",
@@ -993,15 +993,18 @@
           "description": "روبيان مقرمش مع صوص tentuyu.",
           "image": "https://images.unsplash.com/photo-1559847844-5315695dadae?w=800&q=80",
           "price": 52,
-          "rating": 4.2,
+          "rating": 4.3,
           "calories": 510,
           "protein": 24,
           "carbs": 42,
           "fat": 26,
-          "category": "menu",
-          "isPopular": false,
+          "category": "popular",
+          "isPopular": true,
           "isOffer": false,
           "offerPrice": null,
+          "isCombo": false,
+          "offerKind": null,
+          "comboIncludes": [],
           "spicyOption": false,
           "cashbackPercent": null,
           "addons": [
@@ -1030,10 +1033,7 @@
               "name": "جيوزا ×٢",
               "price": 12
             }
-          ],
-          "isCombo": false,
-          "comboIncludes": [],
-          "offerKind": null
+          ]
         },
         {
           "id": "sakura-roll-8",
@@ -1042,15 +1042,18 @@
           "description": "تشكيلة سمك نيء.",
           "image": "https://images.unsplash.com/photo-1553621042-f6e147245754?w=800&q=80",
           "price": 53,
-          "rating": 4.3,
+          "rating": 4.4,
           "calories": 280,
           "protein": 36,
           "carbs": 4,
           "fat": 10,
-          "category": "menu",
-          "isPopular": false,
+          "category": "popular",
+          "isPopular": true,
           "isOffer": false,
           "offerPrice": null,
+          "isCombo": false,
+          "offerKind": null,
+          "comboIncludes": [],
           "spicyOption": false,
           "cashbackPercent": null,
           "addons": [
@@ -1079,10 +1082,7 @@
               "name": "جيوزا ×٢",
               "price": 12
             }
-          ],
-          "isCombo": false,
-          "comboIncludes": [],
-          "offerKind": null
+          ]
         },
         {
           "id": "sakura-roll-9",
@@ -1100,6 +1100,9 @@
           "isPopular": false,
           "isOffer": false,
           "offerPrice": null,
+          "isCombo": false,
+          "offerKind": null,
+          "comboIncludes": [],
           "spicyOption": false,
           "cashbackPercent": null,
           "addons": [
@@ -1128,10 +1131,7 @@
               "name": "جيوزا ×٢",
               "price": 12
             }
-          ],
-          "isCombo": false,
-          "comboIncludes": [],
-          "offerKind": null
+          ]
         },
         {
           "id": "sakura-roll-10",
@@ -1140,7 +1140,7 @@
           "description": "كرات أرز محشوة آيس كريم.",
           "image": "https://images.unsplash.com/photo-1563805042-7684c019e1cb?w=800&q=80",
           "price": 24,
-          "rating": 4.9,
+          "rating": 4.7,
           "calories": 260,
           "protein": 4,
           "carbs": 36,
@@ -1149,6 +1149,9 @@
           "isPopular": true,
           "isOffer": false,
           "offerPrice": null,
+          "isCombo": false,
+          "offerKind": null,
+          "comboIncludes": [],
           "spicyOption": false,
           "cashbackPercent": null,
           "addons": [
@@ -1177,10 +1180,7 @@
               "name": "جيوزا ×٢",
               "price": 12
             }
-          ],
-          "isCombo": false,
-          "comboIncludes": [],
-          "offerKind": null
+          ]
         },
         {
           "id": "sakura-roll-offer-1",
@@ -1240,7 +1240,7 @@
           "id": "sakura-roll-offer-2",
           "restaurantId": "sakura-roll",
           "name": "وجبة عائلية سوشي لـ 6 أشخاص",
-          "description": "6 صحن سوشي مع إضافات ومشروبات. تكفي 6 أشخاص.",
+          "description": "6 صحن سوشي مع ميسو وزنجبيل وواسابي. تكفي 6 أشخاص.",
           "image": "https://images.unsplash.com/photo-1579584425555-c3ce17fd4351?w=800&q=80",
           "price": 109,
           "rating": 4.6,
@@ -1352,17 +1352,17 @@
       "image": "https://images.unsplash.com/photo-1579584425555-c3ce17fd4351?w=800&q=80",
       "rating": 4.5,
       "cuisine": "ياباني",
-      "deliveryTime": "20–30 د",
-      "deliveryFee": 12,
-      "minOrder": 30,
-      "distanceKm": 2.1,
+      "deliveryTime": "35–50 د",
+      "deliveryFee": 5,
+      "minOrder": 35,
+      "distanceKm": 1.5,
       "verified": true,
       "tags": [
         "ياباني",
         "سوشي"
       ],
-      "featured": true,
-      "open24h": true,
+      "featured": null,
+      "open24h": null,
       "fastDelivery": true,
       "meals": [
         {
@@ -1372,7 +1372,7 @@
           "description": "قطع سالمون طازج على أرز.",
           "image": "https://images.unsplash.com/photo-1579584425555-c3ce17fd4351?w=800&q=80",
           "price": 54,
-          "rating": 4.8,
+          "rating": 4.7,
           "calories": 420,
           "protein": 28,
           "carbs": 48,
@@ -1381,6 +1381,9 @@
           "isPopular": false,
           "isOffer": false,
           "offerPrice": null,
+          "isCombo": false,
+          "offerKind": null,
+          "comboIncludes": [],
           "spicyOption": false,
           "cashbackPercent": null,
           "addons": [
@@ -1409,10 +1412,7 @@
               "name": "جيوزا ×٢",
               "price": 12
             }
-          ],
-          "isCombo": false,
-          "comboIncludes": [],
-          "offerKind": null
+          ]
         },
         {
           "id": "umami-house-2",
@@ -1421,17 +1421,20 @@
           "description": "كراب وأفوكادو وخيار.",
           "image": "https://images.unsplash.com/photo-1611143669185-af224c5e3252?w=800&q=80",
           "price": 42,
-          "rating": 4.5,
+          "rating": 4.2,
           "calories": 380,
           "protein": 16,
           "carbs": 44,
           "fat": 14,
-          "category": "menu",
-          "isPopular": false,
+          "category": "popular",
+          "isPopular": true,
           "isOffer": false,
           "offerPrice": null,
+          "isCombo": false,
+          "offerKind": null,
+          "comboIncludes": [],
           "spicyOption": false,
-          "cashbackPercent": 15,
+          "cashbackPercent": null,
           "addons": [
             {
               "id": "extra-soy",
@@ -1458,10 +1461,7 @@
               "name": "جيوزا ×٢",
               "price": 12
             }
-          ],
-          "isCombo": false,
-          "comboIncludes": [],
-          "offerKind": null
+          ]
         },
         {
           "id": "umami-house-3",
@@ -1470,15 +1470,18 @@
           "description": "مرق غني مع نودلز وبيض.",
           "image": "https://images.unsplash.com/photo-1569718212165-3a8278d5f624?w=800&q=80",
           "price": 48,
-          "rating": 4.2,
+          "rating": 4.8,
           "calories": 680,
           "protein": 32,
           "carbs": 62,
           "fat": 28,
-          "category": "menu",
-          "isPopular": false,
+          "category": "popular",
+          "isPopular": true,
           "isOffer": false,
           "offerPrice": null,
+          "isCombo": false,
+          "offerKind": null,
+          "comboIncludes": [],
           "spicyOption": false,
           "cashbackPercent": null,
           "addons": [
@@ -1507,10 +1510,7 @@
               "name": "جيوزا ×٢",
               "price": 12
             }
-          ],
-          "isCombo": false,
-          "comboIncludes": [],
-          "offerKind": null
+          ]
         },
         {
           "id": "umami-house-4",
@@ -1519,15 +1519,18 @@
           "description": "دجاج بصلصة ترياكي وأرز.",
           "image": "https://images.unsplash.com/photo-1512058564366-18510be2db19?w=800&q=80",
           "price": 44,
-          "rating": 4.7,
+          "rating": 4.6,
           "calories": 560,
           "protein": 34,
           "carbs": 55,
           "fat": 16,
-          "category": "popular",
-          "isPopular": true,
+          "category": "menu",
+          "isPopular": false,
           "isOffer": false,
           "offerPrice": null,
+          "isCombo": false,
+          "offerKind": null,
+          "comboIncludes": [],
           "spicyOption": false,
           "cashbackPercent": null,
           "addons": [
@@ -1556,10 +1559,7 @@
               "name": "جيوزا ×٢",
               "price": 12
             }
-          ],
-          "isCombo": false,
-          "comboIncludes": [],
-          "offerKind": null
+          ]
         },
         {
           "id": "umami-house-5",
@@ -1568,7 +1568,7 @@
           "description": "شينيتزل لحم مع أرز وبيض.",
           "image": "https://images.unsplash.com/photo-1579584425555-c3ce17fd4351?w=800&q=80",
           "price": 46,
-          "rating": 4.6,
+          "rating": 4.3,
           "calories": 720,
           "protein": 36,
           "carbs": 60,
@@ -1577,6 +1577,9 @@
           "isPopular": false,
           "isOffer": false,
           "offerPrice": null,
+          "isCombo": false,
+          "offerKind": null,
+          "comboIncludes": [],
           "spicyOption": false,
           "cashbackPercent": null,
           "addons": [
@@ -1605,10 +1608,7 @@
               "name": "جيوزا ×٢",
               "price": 12
             }
-          ],
-          "isCombo": false,
-          "comboIncludes": [],
-          "offerKind": null
+          ]
         },
         {
           "id": "umami-house-6",
@@ -1622,10 +1622,13 @@
           "protein": 12,
           "carbs": 10,
           "fat": 6,
-          "category": "menu",
-          "isPopular": false,
+          "category": "popular",
+          "isPopular": true,
           "isOffer": false,
           "offerPrice": null,
+          "isCombo": false,
+          "offerKind": null,
+          "comboIncludes": [],
           "spicyOption": false,
           "cashbackPercent": null,
           "addons": [
@@ -1654,10 +1657,7 @@
               "name": "جيوزا ×٢",
               "price": 12
             }
-          ],
-          "isCombo": false,
-          "comboIncludes": [],
-          "offerKind": null
+          ]
         },
         {
           "id": "umami-house-7",
@@ -1666,15 +1666,18 @@
           "description": "روبيان مقرمش مع صوص tentuyu.",
           "image": "https://images.unsplash.com/photo-1559847844-5315695dadae?w=800&q=80",
           "price": 52,
-          "rating": 4.6,
+          "rating": 4.7,
           "calories": 510,
           "protein": 24,
           "carbs": 42,
           "fat": 26,
-          "category": "popular",
-          "isPopular": true,
+          "category": "menu",
+          "isPopular": false,
           "isOffer": false,
           "offerPrice": null,
+          "isCombo": false,
+          "offerKind": null,
+          "comboIncludes": [],
           "spicyOption": false,
           "cashbackPercent": null,
           "addons": [
@@ -1703,10 +1706,7 @@
               "name": "جيوزا ×٢",
               "price": 12
             }
-          ],
-          "isCombo": false,
-          "comboIncludes": [],
-          "offerKind": null
+          ]
         },
         {
           "id": "umami-house-8",
@@ -1715,15 +1715,18 @@
           "description": "تشكيلة سمك نيء.",
           "image": "https://images.unsplash.com/photo-1553621042-f6e147245754?w=800&q=80",
           "price": 53,
-          "rating": 4.2,
+          "rating": 4.8,
           "calories": 280,
           "protein": 36,
           "carbs": 4,
           "fat": 10,
-          "category": "menu",
-          "isPopular": false,
+          "category": "popular",
+          "isPopular": true,
           "isOffer": false,
           "offerPrice": null,
+          "isCombo": false,
+          "offerKind": null,
+          "comboIncludes": [],
           "spicyOption": false,
           "cashbackPercent": null,
           "addons": [
@@ -1752,10 +1755,7 @@
               "name": "جيوزا ×٢",
               "price": 12
             }
-          ],
-          "isCombo": false,
-          "comboIncludes": [],
-          "offerKind": null
+          ]
         },
         {
           "id": "umami-house-9",
@@ -1764,7 +1764,7 @@
           "description": "زلابية لحم مشوية.",
           "image": "https://images.unsplash.com/photo-1611143669185-af224c5e3252?w=800&q=80",
           "price": 32,
-          "rating": 4.6,
+          "rating": 4.7,
           "calories": 340,
           "protein": 14,
           "carbs": 28,
@@ -1773,6 +1773,9 @@
           "isPopular": false,
           "isOffer": false,
           "offerPrice": null,
+          "isCombo": false,
+          "offerKind": null,
+          "comboIncludes": [],
           "spicyOption": false,
           "cashbackPercent": null,
           "addons": [
@@ -1801,10 +1804,7 @@
               "name": "جيوزا ×٢",
               "price": 12
             }
-          ],
-          "isCombo": false,
-          "comboIncludes": [],
-          "offerKind": null
+          ]
         },
         {
           "id": "umami-house-10",
@@ -1813,7 +1813,7 @@
           "description": "كرات أرز محشوة آيس كريم.",
           "image": "https://images.unsplash.com/photo-1563805042-7684c019e1cb?w=800&q=80",
           "price": 24,
-          "rating": 4.3,
+          "rating": 4.8,
           "calories": 260,
           "protein": 4,
           "carbs": 36,
@@ -1822,8 +1822,11 @@
           "isPopular": false,
           "isOffer": false,
           "offerPrice": null,
+          "isCombo": false,
+          "offerKind": null,
+          "comboIncludes": [],
           "spicyOption": false,
-          "cashbackPercent": 10,
+          "cashbackPercent": null,
           "addons": [
             {
               "id": "extra-soy",
@@ -1850,10 +1853,7 @@
               "name": "جيوزا ×٢",
               "price": 12
             }
-          ],
-          "isCombo": false,
-          "comboIncludes": [],
-          "offerKind": null
+          ]
         },
         {
           "id": "umami-house-offer-1",
@@ -1913,7 +1913,7 @@
           "id": "umami-house-offer-2",
           "restaurantId": "umami-house",
           "name": "وجبة عائلية سوشي لـ 3 أشخاص",
-          "description": "3 صحن سوشي مع إضافات ومشروبات. تكفي 3 أشخاص.",
+          "description": "3 صحن سوشي مع ميسو وزنجبيل وواسابي. تكفي 3 أشخاص.",
           "image": "https://images.unsplash.com/photo-1579584425555-c3ce17fd4351?w=800&q=80",
           "price": 86,
           "rating": 4.6,
@@ -2023,20 +2023,20 @@
       "id": "nori-kitchen",
       "name": "مطبخ النوري",
       "image": "https://images.unsplash.com/photo-1611143669185-af224c5e3252?w=800&q=80",
-      "rating": 4.4,
+      "rating": 4.3,
       "cuisine": "ياباني",
       "deliveryTime": "40–55 د",
-      "deliveryFee": 0,
-      "minOrder": 50,
-      "distanceKm": 1.5,
+      "deliveryFee": 6,
+      "minOrder": 35,
+      "distanceKm": 1.7,
       "verified": null,
       "tags": [
         "ياباني",
         "سوشي"
       ],
-      "featured": true,
-      "open24h": null,
-      "fastDelivery": true,
+      "featured": null,
+      "open24h": true,
+      "fastDelivery": null,
       "meals": [
         {
           "id": "nori-kitchen-1",
@@ -2045,7 +2045,7 @@
           "description": "قطع سالمون طازج على أرز.",
           "image": "https://images.unsplash.com/photo-1579584425555-c3ce17fd4351?w=800&q=80",
           "price": 54,
-          "rating": 4.2,
+          "rating": 4.7,
           "calories": 420,
           "protein": 28,
           "carbs": 48,
@@ -2054,6 +2054,9 @@
           "isPopular": true,
           "isOffer": false,
           "offerPrice": null,
+          "isCombo": false,
+          "offerKind": null,
+          "comboIncludes": [],
           "spicyOption": false,
           "cashbackPercent": null,
           "addons": [
@@ -2082,10 +2085,7 @@
               "name": "جيوزا ×٢",
               "price": 12
             }
-          ],
-          "isCombo": false,
-          "comboIncludes": [],
-          "offerKind": null
+          ]
         },
         {
           "id": "nori-kitchen-2",
@@ -2094,7 +2094,7 @@
           "description": "كراب وأفوكادو وخيار.",
           "image": "https://images.unsplash.com/photo-1553621042-f6e147245754?w=800&q=80",
           "price": 42,
-          "rating": 4.9,
+          "rating": 4.1,
           "calories": 380,
           "protein": 16,
           "carbs": 44,
@@ -2103,8 +2103,11 @@
           "isPopular": false,
           "isOffer": false,
           "offerPrice": null,
+          "isCombo": false,
+          "offerKind": null,
+          "comboIncludes": [],
           "spicyOption": false,
-          "cashbackPercent": 10,
+          "cashbackPercent": null,
           "addons": [
             {
               "id": "extra-soy",
@@ -2131,10 +2134,7 @@
               "name": "جيوزا ×٢",
               "price": 12
             }
-          ],
-          "isCombo": false,
-          "comboIncludes": [],
-          "offerKind": null
+          ]
         },
         {
           "id": "nori-kitchen-3",
@@ -2143,15 +2143,18 @@
           "description": "مرق غني مع نودلز وبيض.",
           "image": "https://images.unsplash.com/photo-1569718212165-3a8278d5f624?w=800&q=80",
           "price": 48,
-          "rating": 4.4,
+          "rating": 4.8,
           "calories": 680,
           "protein": 32,
           "carbs": 62,
           "fat": 28,
-          "category": "menu",
-          "isPopular": false,
+          "category": "popular",
+          "isPopular": true,
           "isOffer": false,
           "offerPrice": null,
+          "isCombo": false,
+          "offerKind": null,
+          "comboIncludes": [],
           "spicyOption": false,
           "cashbackPercent": null,
           "addons": [
@@ -2180,10 +2183,7 @@
               "name": "جيوزا ×٢",
               "price": 12
             }
-          ],
-          "isCombo": false,
-          "comboIncludes": [],
-          "offerKind": null
+          ]
         },
         {
           "id": "nori-kitchen-4",
@@ -2192,15 +2192,18 @@
           "description": "دجاج بصلصة ترياكي وأرز.",
           "image": "https://images.unsplash.com/photo-1512058564366-18510be2db19?w=800&q=80",
           "price": 44,
-          "rating": 4.6,
+          "rating": 4.3,
           "calories": 560,
           "protein": 34,
           "carbs": 55,
           "fat": 16,
-          "category": "popular",
-          "isPopular": true,
+          "category": "menu",
+          "isPopular": false,
           "isOffer": false,
           "offerPrice": null,
+          "isCombo": false,
+          "offerKind": null,
+          "comboIncludes": [],
           "spicyOption": false,
           "cashbackPercent": null,
           "addons": [
@@ -2229,10 +2232,7 @@
               "name": "جيوزا ×٢",
               "price": 12
             }
-          ],
-          "isCombo": false,
-          "comboIncludes": [],
-          "offerKind": null
+          ]
         },
         {
           "id": "nori-kitchen-5",
@@ -2241,7 +2241,7 @@
           "description": "شينيتزل لحم مع أرز وبيض.",
           "image": "https://images.unsplash.com/photo-1569718212165-3a8278d5f624?w=800&q=80",
           "price": 46,
-          "rating": 4.8,
+          "rating": 4.7,
           "calories": 720,
           "protein": 36,
           "carbs": 60,
@@ -2250,6 +2250,9 @@
           "isPopular": false,
           "isOffer": false,
           "offerPrice": null,
+          "isCombo": false,
+          "offerKind": null,
+          "comboIncludes": [],
           "spicyOption": false,
           "cashbackPercent": null,
           "addons": [
@@ -2278,10 +2281,7 @@
               "name": "جيوزا ×٢",
               "price": 12
             }
-          ],
-          "isCombo": false,
-          "comboIncludes": [],
-          "offerKind": null
+          ]
         },
         {
           "id": "nori-kitchen-6",
@@ -2290,15 +2290,18 @@
           "description": "فول الصويا المملح.",
           "image": "https://images.unsplash.com/photo-1553621042-f6e147245754?w=800&q=80",
           "price": 18,
-          "rating": 4.4,
+          "rating": 4.3,
           "calories": 160,
           "protein": 12,
           "carbs": 10,
           "fat": 6,
-          "category": "menu",
-          "isPopular": false,
+          "category": "popular",
+          "isPopular": true,
           "isOffer": false,
           "offerPrice": null,
+          "isCombo": false,
+          "offerKind": null,
+          "comboIncludes": [],
           "spicyOption": false,
           "cashbackPercent": null,
           "addons": [
@@ -2327,10 +2330,7 @@
               "name": "جيوزا ×٢",
               "price": 12
             }
-          ],
-          "isCombo": false,
-          "comboIncludes": [],
-          "offerKind": null
+          ]
         },
         {
           "id": "nori-kitchen-7",
@@ -2339,7 +2339,7 @@
           "description": "روبيان مقرمش مع صوص tentuyu.",
           "image": "https://images.unsplash.com/photo-1559847844-5315695dadae?w=800&q=80",
           "price": 52,
-          "rating": 4.1,
+          "rating": 4.9,
           "calories": 510,
           "protein": 24,
           "carbs": 42,
@@ -2348,8 +2348,11 @@
           "isPopular": false,
           "isOffer": false,
           "offerPrice": null,
+          "isCombo": false,
+          "offerKind": null,
+          "comboIncludes": [],
           "spicyOption": false,
-          "cashbackPercent": 5,
+          "cashbackPercent": null,
           "addons": [
             {
               "id": "extra-soy",
@@ -2376,10 +2379,7 @@
               "name": "جيوزا ×٢",
               "price": 12
             }
-          ],
-          "isCombo": false,
-          "comboIncludes": [],
-          "offerKind": null
+          ]
         },
         {
           "id": "nori-kitchen-8",
@@ -2393,10 +2393,13 @@
           "protein": 36,
           "carbs": 4,
           "fat": 10,
-          "category": "popular",
-          "isPopular": true,
+          "category": "menu",
+          "isPopular": false,
           "isOffer": false,
           "offerPrice": null,
+          "isCombo": false,
+          "offerKind": null,
+          "comboIncludes": [],
           "spicyOption": false,
           "cashbackPercent": null,
           "addons": [
@@ -2425,10 +2428,7 @@
               "name": "جيوزا ×٢",
               "price": 12
             }
-          ],
-          "isCombo": false,
-          "comboIncludes": [],
-          "offerKind": null
+          ]
         },
         {
           "id": "nori-kitchen-9",
@@ -2437,15 +2437,18 @@
           "description": "زلابية لحم مشوية.",
           "image": "https://images.unsplash.com/photo-1611143669185-af224c5e3252?w=800&q=80",
           "price": 32,
-          "rating": 4.3,
+          "rating": 4.7,
           "calories": 340,
           "protein": 14,
           "carbs": 28,
           "fat": 16,
-          "category": "popular",
-          "isPopular": true,
+          "category": "menu",
+          "isPopular": false,
           "isOffer": false,
           "offerPrice": null,
+          "isCombo": false,
+          "offerKind": null,
+          "comboIncludes": [],
           "spicyOption": false,
           "cashbackPercent": null,
           "addons": [
@@ -2474,10 +2477,7 @@
               "name": "جيوزا ×٢",
               "price": 12
             }
-          ],
-          "isCombo": false,
-          "comboIncludes": [],
-          "offerKind": null
+          ]
         },
         {
           "id": "nori-kitchen-10",
@@ -2486,7 +2486,7 @@
           "description": "كرات أرز محشوة آيس كريم.",
           "image": "https://images.unsplash.com/photo-1563805042-7684c019e1cb?w=800&q=80",
           "price": 24,
-          "rating": 4.5,
+          "rating": 4.1,
           "calories": 260,
           "protein": 4,
           "carbs": 36,
@@ -2495,6 +2495,9 @@
           "isPopular": false,
           "isOffer": false,
           "offerPrice": null,
+          "isCombo": false,
+          "offerKind": null,
+          "comboIncludes": [],
           "spicyOption": false,
           "cashbackPercent": null,
           "addons": [
@@ -2523,10 +2526,7 @@
               "name": "جيوزا ×٢",
               "price": 12
             }
-          ],
-          "isCombo": false,
-          "comboIncludes": [],
-          "offerKind": null
+          ]
         },
         {
           "id": "nori-kitchen-offer-1",
@@ -2586,7 +2586,7 @@
           "id": "nori-kitchen-offer-2",
           "restaurantId": "nori-kitchen",
           "name": "وجبة عائلية سوشي لـ 4 أشخاص",
-          "description": "4 صحن سوشي مع إضافات ومشروبات. تكفي 4 أشخاص.",
+          "description": "4 صحن سوشي مع ميسو وزنجبيل وواسابي. تكفي 4 أشخاص.",
           "image": "https://images.unsplash.com/photo-1579584425555-c3ce17fd4351?w=800&q=80",
           "price": 107,
           "rating": 4.6,
@@ -2700,9 +2700,9 @@
       "cuisine": "ياباني",
       "deliveryTime": "30–45 د",
       "deliveryFee": 5,
-      "minOrder": 30,
-      "distanceKm": 0.8,
-      "verified": null,
+      "minOrder": 25,
+      "distanceKm": 4.8,
+      "verified": true,
       "tags": [
         "ياباني",
         "سوشي"
@@ -2718,15 +2718,18 @@
           "description": "قطع سالمون طازج على أرز.",
           "image": "https://images.unsplash.com/photo-1579584425555-c3ce17fd4351?w=800&q=80",
           "price": 54,
-          "rating": 4.4,
+          "rating": 4.7,
           "calories": 420,
           "protein": 28,
           "carbs": 48,
           "fat": 12,
-          "category": "popular",
-          "isPopular": true,
+          "category": "menu",
+          "isPopular": false,
           "isOffer": false,
           "offerPrice": null,
+          "isCombo": false,
+          "offerKind": null,
+          "comboIncludes": [],
           "spicyOption": false,
           "cashbackPercent": null,
           "addons": [
@@ -2755,10 +2758,7 @@
               "name": "جيوزا ×٢",
               "price": 12
             }
-          ],
-          "isCombo": false,
-          "comboIncludes": [],
-          "offerKind": null
+          ]
         },
         {
           "id": "ramen-lane-2",
@@ -2767,15 +2767,18 @@
           "description": "كراب وأفوكادو وخيار.",
           "image": "https://images.unsplash.com/photo-1579584425555-c3ce17fd4351?w=800&q=80",
           "price": 42,
-          "rating": 4.7,
+          "rating": 4.6,
           "calories": 380,
           "protein": 16,
           "carbs": 44,
           "fat": 14,
-          "category": "menu",
-          "isPopular": false,
+          "category": "popular",
+          "isPopular": true,
           "isOffer": false,
           "offerPrice": null,
+          "isCombo": false,
+          "offerKind": null,
+          "comboIncludes": [],
           "spicyOption": false,
           "cashbackPercent": null,
           "addons": [
@@ -2804,10 +2807,7 @@
               "name": "جيوزا ×٢",
               "price": 12
             }
-          ],
-          "isCombo": false,
-          "comboIncludes": [],
-          "offerKind": null
+          ]
         },
         {
           "id": "ramen-lane-3",
@@ -2816,15 +2816,18 @@
           "description": "مرق غني مع نودلز وبيض.",
           "image": "https://images.unsplash.com/photo-1569718212165-3a8278d5f624?w=800&q=80",
           "price": 48,
-          "rating": 4.6,
+          "rating": 4.2,
           "calories": 680,
           "protein": 32,
           "carbs": 62,
           "fat": 28,
-          "category": "popular",
-          "isPopular": true,
+          "category": "menu",
+          "isPopular": false,
           "isOffer": false,
           "offerPrice": null,
+          "isCombo": false,
+          "offerKind": null,
+          "comboIncludes": [],
           "spicyOption": false,
           "cashbackPercent": null,
           "addons": [
@@ -2853,10 +2856,7 @@
               "name": "جيوزا ×٢",
               "price": 12
             }
-          ],
-          "isCombo": false,
-          "comboIncludes": [],
-          "offerKind": null
+          ]
         },
         {
           "id": "ramen-lane-4",
@@ -2865,15 +2865,18 @@
           "description": "دجاج بصلصة ترياكي وأرز.",
           "image": "https://images.unsplash.com/photo-1512058564366-18510be2db19?w=800&q=80",
           "price": 44,
-          "rating": 4.4,
+          "rating": 4.3,
           "calories": 560,
           "protein": 34,
           "carbs": 55,
           "fat": 16,
-          "category": "popular",
-          "isPopular": true,
+          "category": "menu",
+          "isPopular": false,
           "isOffer": false,
           "offerPrice": null,
+          "isCombo": false,
+          "offerKind": null,
+          "comboIncludes": [],
           "spicyOption": false,
           "cashbackPercent": null,
           "addons": [
@@ -2902,10 +2905,7 @@
               "name": "جيوزا ×٢",
               "price": 12
             }
-          ],
-          "isCombo": false,
-          "comboIncludes": [],
-          "offerKind": null
+          ]
         },
         {
           "id": "ramen-lane-5",
@@ -2914,15 +2914,18 @@
           "description": "شينيتزل لحم مع أرز وبيض.",
           "image": "https://images.unsplash.com/photo-1611143669185-af224c5e3252?w=800&q=80",
           "price": 46,
-          "rating": 4.8,
+          "rating": 4.2,
           "calories": 720,
           "protein": 36,
           "carbs": 60,
           "fat": 28,
-          "category": "popular",
-          "isPopular": true,
+          "category": "menu",
+          "isPopular": false,
           "isOffer": false,
           "offerPrice": null,
+          "isCombo": false,
+          "offerKind": null,
+          "comboIncludes": [],
           "spicyOption": false,
           "cashbackPercent": null,
           "addons": [
@@ -2951,10 +2954,7 @@
               "name": "جيوزا ×٢",
               "price": 12
             }
-          ],
-          "isCombo": false,
-          "comboIncludes": [],
-          "offerKind": null
+          ]
         },
         {
           "id": "ramen-lane-6",
@@ -2963,15 +2963,18 @@
           "description": "فول الصويا المملح.",
           "image": "https://images.unsplash.com/photo-1579584425555-c3ce17fd4351?w=800&q=80",
           "price": 18,
-          "rating": 4.4,
+          "rating": 4.8,
           "calories": 160,
           "protein": 12,
           "carbs": 10,
           "fat": 6,
-          "category": "menu",
-          "isPopular": false,
+          "category": "popular",
+          "isPopular": true,
           "isOffer": false,
           "offerPrice": null,
+          "isCombo": false,
+          "offerKind": null,
+          "comboIncludes": [],
           "spicyOption": false,
           "cashbackPercent": null,
           "addons": [
@@ -3000,10 +3003,7 @@
               "name": "جيوزا ×٢",
               "price": 12
             }
-          ],
-          "isCombo": false,
-          "comboIncludes": [],
-          "offerKind": null
+          ]
         },
         {
           "id": "ramen-lane-7",
@@ -3012,15 +3012,18 @@
           "description": "روبيان مقرمش مع صوص tentuyu.",
           "image": "https://images.unsplash.com/photo-1559847844-5315695dadae?w=800&q=80",
           "price": 52,
-          "rating": 4.9,
+          "rating": 4.8,
           "calories": 510,
           "protein": 24,
           "carbs": 42,
           "fat": 26,
-          "category": "menu",
-          "isPopular": false,
+          "category": "popular",
+          "isPopular": true,
           "isOffer": false,
           "offerPrice": null,
+          "isCombo": false,
+          "offerKind": null,
+          "comboIncludes": [],
           "spicyOption": false,
           "cashbackPercent": null,
           "addons": [
@@ -3049,10 +3052,7 @@
               "name": "جيوزا ×٢",
               "price": 12
             }
-          ],
-          "isCombo": false,
-          "comboIncludes": [],
-          "offerKind": null
+          ]
         },
         {
           "id": "ramen-lane-8",
@@ -3061,15 +3061,18 @@
           "description": "تشكيلة سمك نيء.",
           "image": "https://images.unsplash.com/photo-1553621042-f6e147245754?w=800&q=80",
           "price": 53,
-          "rating": 4.9,
+          "rating": 4.4,
           "calories": 280,
           "protein": 36,
           "carbs": 4,
           "fat": 10,
-          "category": "menu",
-          "isPopular": false,
+          "category": "popular",
+          "isPopular": true,
           "isOffer": false,
           "offerPrice": null,
+          "isCombo": false,
+          "offerKind": null,
+          "comboIncludes": [],
           "spicyOption": false,
           "cashbackPercent": null,
           "addons": [
@@ -3098,10 +3101,7 @@
               "name": "جيوزا ×٢",
               "price": 12
             }
-          ],
-          "isCombo": false,
-          "comboIncludes": [],
-          "offerKind": null
+          ]
         },
         {
           "id": "ramen-lane-9",
@@ -3110,7 +3110,7 @@
           "description": "زلابية لحم مشوية.",
           "image": "https://images.unsplash.com/photo-1611143669185-af224c5e3252?w=800&q=80",
           "price": 32,
-          "rating": 4.6,
+          "rating": 4.2,
           "calories": 340,
           "protein": 14,
           "carbs": 28,
@@ -3119,6 +3119,9 @@
           "isPopular": false,
           "isOffer": false,
           "offerPrice": null,
+          "isCombo": false,
+          "offerKind": null,
+          "comboIncludes": [],
           "spicyOption": false,
           "cashbackPercent": null,
           "addons": [
@@ -3147,10 +3150,7 @@
               "name": "جيوزا ×٢",
               "price": 12
             }
-          ],
-          "isCombo": false,
-          "comboIncludes": [],
-          "offerKind": null
+          ]
         },
         {
           "id": "ramen-lane-10",
@@ -3159,15 +3159,18 @@
           "description": "كرات أرز محشوة آيس كريم.",
           "image": "https://images.unsplash.com/photo-1563805042-7684c019e1cb?w=800&q=80",
           "price": 24,
-          "rating": 4.6,
+          "rating": 4.7,
           "calories": 260,
           "protein": 4,
           "carbs": 36,
           "fat": 10,
-          "category": "menu",
-          "isPopular": false,
+          "category": "popular",
+          "isPopular": true,
           "isOffer": false,
           "offerPrice": null,
+          "isCombo": false,
+          "offerKind": null,
+          "comboIncludes": [],
           "spicyOption": false,
           "cashbackPercent": null,
           "addons": [
@@ -3196,10 +3199,7 @@
               "name": "جيوزا ×٢",
               "price": 12
             }
-          ],
-          "isCombo": false,
-          "comboIncludes": [],
-          "offerKind": null
+          ]
         },
         {
           "id": "ramen-lane-offer-1",
@@ -3259,7 +3259,7 @@
           "id": "ramen-lane-offer-2",
           "restaurantId": "ramen-lane",
           "name": "وجبة عائلية سوشي لـ 5 أشخاص",
-          "description": "5 صحن سوشي مع إضافات ومشروبات. تكفي 5 أشخاص.",
+          "description": "5 صحن سوشي مع ميسو وزنجبيل وواسابي. تكفي 5 أشخاص.",
           "image": "https://images.unsplash.com/photo-1579584425555-c3ce17fd4351?w=800&q=80",
           "price": 109,
           "rating": 4.6,
@@ -3369,13 +3369,13 @@
       "id": "wasabi-bar",
       "name": "واسابي بار",
       "image": "https://images.unsplash.com/photo-1579584425555-c3ce17fd4351?w=800&q=80",
-      "rating": 4.9,
+      "rating": 4.5,
       "cuisine": "ياباني",
       "deliveryTime": "35–50 د",
-      "deliveryFee": 12,
-      "minOrder": 25,
-      "distanceKm": 5.1,
-      "verified": true,
+      "deliveryFee": 5,
+      "minOrder": 30,
+      "distanceKm": 1.8,
+      "verified": null,
       "tags": [
         "ياباني",
         "سوشي"
@@ -3391,15 +3391,18 @@
           "description": "قطع سالمون طازج على أرز.",
           "image": "https://images.unsplash.com/photo-1579584425555-c3ce17fd4351?w=800&q=80",
           "price": 54,
-          "rating": 4.6,
+          "rating": 4.1,
           "calories": 420,
           "protein": 28,
           "carbs": 48,
           "fat": 12,
-          "category": "popular",
-          "isPopular": true,
+          "category": "menu",
+          "isPopular": false,
           "isOffer": false,
           "offerPrice": null,
+          "isCombo": false,
+          "offerKind": null,
+          "comboIncludes": [],
           "spicyOption": false,
           "cashbackPercent": null,
           "addons": [
@@ -3428,10 +3431,7 @@
               "name": "جيوزا ×٢",
               "price": 12
             }
-          ],
-          "isCombo": false,
-          "comboIncludes": [],
-          "offerKind": null
+          ]
         },
         {
           "id": "wasabi-bar-2",
@@ -3440,15 +3440,18 @@
           "description": "كراب وأفوكادو وخيار.",
           "image": "https://images.unsplash.com/photo-1569718212165-3a8278d5f624?w=800&q=80",
           "price": 42,
-          "rating": 4.8,
+          "rating": 4.7,
           "calories": 380,
           "protein": 16,
           "carbs": 44,
           "fat": 14,
-          "category": "popular",
-          "isPopular": true,
+          "category": "menu",
+          "isPopular": false,
           "isOffer": false,
           "offerPrice": null,
+          "isCombo": false,
+          "offerKind": null,
+          "comboIncludes": [],
           "spicyOption": false,
           "cashbackPercent": null,
           "addons": [
@@ -3477,10 +3480,7 @@
               "name": "جيوزا ×٢",
               "price": 12
             }
-          ],
-          "isCombo": false,
-          "comboIncludes": [],
-          "offerKind": null
+          ]
         },
         {
           "id": "wasabi-bar-3",
@@ -3489,15 +3489,18 @@
           "description": "مرق غني مع نودلز وبيض.",
           "image": "https://images.unsplash.com/photo-1569718212165-3a8278d5f624?w=800&q=80",
           "price": 48,
-          "rating": 4.5,
+          "rating": 4.4,
           "calories": 680,
           "protein": 32,
           "carbs": 62,
           "fat": 28,
-          "category": "menu",
-          "isPopular": false,
+          "category": "popular",
+          "isPopular": true,
           "isOffer": false,
           "offerPrice": null,
+          "isCombo": false,
+          "offerKind": null,
+          "comboIncludes": [],
           "spicyOption": false,
           "cashbackPercent": null,
           "addons": [
@@ -3526,10 +3529,7 @@
               "name": "جيوزا ×٢",
               "price": 12
             }
-          ],
-          "isCombo": false,
-          "comboIncludes": [],
-          "offerKind": null
+          ]
         },
         {
           "id": "wasabi-bar-4",
@@ -3547,6 +3547,9 @@
           "isPopular": true,
           "isOffer": false,
           "offerPrice": null,
+          "isCombo": false,
+          "offerKind": null,
+          "comboIncludes": [],
           "spicyOption": false,
           "cashbackPercent": null,
           "addons": [
@@ -3575,10 +3578,7 @@
               "name": "جيوزا ×٢",
               "price": 12
             }
-          ],
-          "isCombo": false,
-          "comboIncludes": [],
-          "offerKind": null
+          ]
         },
         {
           "id": "wasabi-bar-5",
@@ -3587,7 +3587,7 @@
           "description": "شينيتزل لحم مع أرز وبيض.",
           "image": "https://images.unsplash.com/photo-1569718212165-3a8278d5f624?w=800&q=80",
           "price": 46,
-          "rating": 4.5,
+          "rating": 4.2,
           "calories": 720,
           "protein": 36,
           "carbs": 60,
@@ -3596,6 +3596,9 @@
           "isPopular": true,
           "isOffer": false,
           "offerPrice": null,
+          "isCombo": false,
+          "offerKind": null,
+          "comboIncludes": [],
           "spicyOption": false,
           "cashbackPercent": null,
           "addons": [
@@ -3624,10 +3627,7 @@
               "name": "جيوزا ×٢",
               "price": 12
             }
-          ],
-          "isCombo": false,
-          "comboIncludes": [],
-          "offerKind": null
+          ]
         },
         {
           "id": "wasabi-bar-6",
@@ -3636,15 +3636,18 @@
           "description": "فول الصويا المملح.",
           "image": "https://images.unsplash.com/photo-1569718212165-3a8278d5f624?w=800&q=80",
           "price": 18,
-          "rating": 4.8,
+          "rating": 4.2,
           "calories": 160,
           "protein": 12,
           "carbs": 10,
           "fat": 6,
-          "category": "popular",
-          "isPopular": true,
+          "category": "menu",
+          "isPopular": false,
           "isOffer": false,
           "offerPrice": null,
+          "isCombo": false,
+          "offerKind": null,
+          "comboIncludes": [],
           "spicyOption": false,
           "cashbackPercent": null,
           "addons": [
@@ -3673,10 +3676,7 @@
               "name": "جيوزا ×٢",
               "price": 12
             }
-          ],
-          "isCombo": false,
-          "comboIncludes": [],
-          "offerKind": null
+          ]
         },
         {
           "id": "wasabi-bar-7",
@@ -3685,7 +3685,7 @@
           "description": "روبيان مقرمش مع صوص tentuyu.",
           "image": "https://images.unsplash.com/photo-1559847844-5315695dadae?w=800&q=80",
           "price": 52,
-          "rating": 4.6,
+          "rating": 4.1,
           "calories": 510,
           "protein": 24,
           "carbs": 42,
@@ -3694,8 +3694,11 @@
           "isPopular": false,
           "isOffer": false,
           "offerPrice": null,
+          "isCombo": false,
+          "offerKind": null,
+          "comboIncludes": [],
           "spicyOption": false,
-          "cashbackPercent": 5,
+          "cashbackPercent": null,
           "addons": [
             {
               "id": "extra-soy",
@@ -3722,10 +3725,7 @@
               "name": "جيوزا ×٢",
               "price": 12
             }
-          ],
-          "isCombo": false,
-          "comboIncludes": [],
-          "offerKind": null
+          ]
         },
         {
           "id": "wasabi-bar-8",
@@ -3734,15 +3734,18 @@
           "description": "تشكيلة سمك نيء.",
           "image": "https://images.unsplash.com/photo-1553621042-f6e147245754?w=800&q=80",
           "price": 53,
-          "rating": 4.3,
+          "rating": 4.5,
           "calories": 280,
           "protein": 36,
           "carbs": 4,
           "fat": 10,
-          "category": "popular",
-          "isPopular": true,
+          "category": "menu",
+          "isPopular": false,
           "isOffer": false,
           "offerPrice": null,
+          "isCombo": false,
+          "offerKind": null,
+          "comboIncludes": [],
           "spicyOption": false,
           "cashbackPercent": null,
           "addons": [
@@ -3771,10 +3774,7 @@
               "name": "جيوزا ×٢",
               "price": 12
             }
-          ],
-          "isCombo": false,
-          "comboIncludes": [],
-          "offerKind": null
+          ]
         },
         {
           "id": "wasabi-bar-9",
@@ -3783,15 +3783,18 @@
           "description": "زلابية لحم مشوية.",
           "image": "https://images.unsplash.com/photo-1611143669185-af224c5e3252?w=800&q=80",
           "price": 32,
-          "rating": 4.2,
+          "rating": 4.1,
           "calories": 340,
           "protein": 14,
           "carbs": 28,
           "fat": 16,
-          "category": "popular",
-          "isPopular": true,
+          "category": "menu",
+          "isPopular": false,
           "isOffer": false,
           "offerPrice": null,
+          "isCombo": false,
+          "offerKind": null,
+          "comboIncludes": [],
           "spicyOption": false,
           "cashbackPercent": null,
           "addons": [
@@ -3820,10 +3823,7 @@
               "name": "جيوزا ×٢",
               "price": 12
             }
-          ],
-          "isCombo": false,
-          "comboIncludes": [],
-          "offerKind": null
+          ]
         },
         {
           "id": "wasabi-bar-10",
@@ -3837,12 +3837,15 @@
           "protein": 4,
           "carbs": 36,
           "fat": 10,
-          "category": "menu",
-          "isPopular": false,
+          "category": "popular",
+          "isPopular": true,
           "isOffer": false,
           "offerPrice": null,
+          "isCombo": false,
+          "offerKind": null,
+          "comboIncludes": [],
           "spicyOption": false,
-          "cashbackPercent": 10,
+          "cashbackPercent": null,
           "addons": [
             {
               "id": "extra-soy",
@@ -3869,10 +3872,7 @@
               "name": "جيوزا ×٢",
               "price": 12
             }
-          ],
-          "isCombo": false,
-          "comboIncludes": [],
-          "offerKind": null
+          ]
         },
         {
           "id": "wasabi-bar-offer-1",
@@ -3932,7 +3932,7 @@
           "id": "wasabi-bar-offer-2",
           "restaurantId": "wasabi-bar",
           "name": "وجبة عائلية سوشي لـ 4 أشخاص",
-          "description": "4 صحن سوشي مع إضافات ومشروبات. تكفي 4 أشخاص.",
+          "description": "4 صحن سوشي مع ميسو وزنجبيل وواسابي. تكفي 4 أشخاص.",
           "image": "https://images.unsplash.com/photo-1579584425555-c3ce17fd4351?w=800&q=80",
           "price": 107,
           "rating": 4.6,
@@ -4042,12 +4042,12 @@
       "id": "katsu-corner",
       "name": "ركن الكاتسو",
       "image": "https://images.unsplash.com/photo-1579584425555-c3ce17fd4351?w=800&q=80",
-      "rating": 4.5,
+      "rating": 4.6,
       "cuisine": "ياباني",
-      "deliveryTime": "25–35 د",
-      "deliveryFee": 12,
-      "minOrder": 50,
-      "distanceKm": 5.8,
+      "deliveryTime": "35–50 د",
+      "deliveryFee": 10,
+      "minOrder": 25,
+      "distanceKm": 2.8,
       "verified": true,
       "tags": [
         "ياباني",
@@ -4064,7 +4064,7 @@
           "description": "قطع سالمون طازج على أرز.",
           "image": "https://images.unsplash.com/photo-1579584425555-c3ce17fd4351?w=800&q=80",
           "price": 54,
-          "rating": 4.7,
+          "rating": 4.4,
           "calories": 420,
           "protein": 28,
           "carbs": 48,
@@ -4073,6 +4073,9 @@
           "isPopular": false,
           "isOffer": false,
           "offerPrice": null,
+          "isCombo": false,
+          "offerKind": null,
+          "comboIncludes": [],
           "spicyOption": false,
           "cashbackPercent": null,
           "addons": [
@@ -4101,10 +4104,7 @@
               "name": "جيوزا ×٢",
               "price": 12
             }
-          ],
-          "isCombo": false,
-          "comboIncludes": [],
-          "offerKind": null
+          ]
         },
         {
           "id": "katsu-corner-2",
@@ -4113,15 +4113,18 @@
           "description": "كراب وأفوكادو وخيار.",
           "image": "https://images.unsplash.com/photo-1611143669185-af224c5e3252?w=800&q=80",
           "price": 42,
-          "rating": 4.8,
+          "rating": 4.4,
           "calories": 380,
           "protein": 16,
           "carbs": 44,
           "fat": 14,
-          "category": "popular",
-          "isPopular": true,
+          "category": "menu",
+          "isPopular": false,
           "isOffer": false,
           "offerPrice": null,
+          "isCombo": false,
+          "offerKind": null,
+          "comboIncludes": [],
           "spicyOption": false,
           "cashbackPercent": null,
           "addons": [
@@ -4150,10 +4153,7 @@
               "name": "جيوزا ×٢",
               "price": 12
             }
-          ],
-          "isCombo": false,
-          "comboIncludes": [],
-          "offerKind": null
+          ]
         },
         {
           "id": "katsu-corner-3",
@@ -4162,7 +4162,7 @@
           "description": "مرق غني مع نودلز وبيض.",
           "image": "https://images.unsplash.com/photo-1569718212165-3a8278d5f624?w=800&q=80",
           "price": 48,
-          "rating": 4.4,
+          "rating": 4.2,
           "calories": 680,
           "protein": 32,
           "carbs": 62,
@@ -4171,6 +4171,9 @@
           "isPopular": false,
           "isOffer": false,
           "offerPrice": null,
+          "isCombo": false,
+          "offerKind": null,
+          "comboIncludes": [],
           "spicyOption": false,
           "cashbackPercent": null,
           "addons": [
@@ -4199,10 +4202,7 @@
               "name": "جيوزا ×٢",
               "price": 12
             }
-          ],
-          "isCombo": false,
-          "comboIncludes": [],
-          "offerKind": null
+          ]
         },
         {
           "id": "katsu-corner-4",
@@ -4211,7 +4211,7 @@
           "description": "دجاج بصلصة ترياكي وأرز.",
           "image": "https://images.unsplash.com/photo-1512058564366-18510be2db19?w=800&q=80",
           "price": 44,
-          "rating": 4.3,
+          "rating": 4.7,
           "calories": 560,
           "protein": 34,
           "carbs": 55,
@@ -4220,6 +4220,9 @@
           "isPopular": false,
           "isOffer": false,
           "offerPrice": null,
+          "isCombo": false,
+          "offerKind": null,
+          "comboIncludes": [],
           "spicyOption": false,
           "cashbackPercent": null,
           "addons": [
@@ -4248,10 +4251,7 @@
               "name": "جيوزا ×٢",
               "price": 12
             }
-          ],
-          "isCombo": false,
-          "comboIncludes": [],
-          "offerKind": null
+          ]
         },
         {
           "id": "katsu-corner-5",
@@ -4269,6 +4269,9 @@
           "isPopular": true,
           "isOffer": false,
           "offerPrice": null,
+          "isCombo": false,
+          "offerKind": null,
+          "comboIncludes": [],
           "spicyOption": false,
           "cashbackPercent": null,
           "addons": [
@@ -4297,10 +4300,7 @@
               "name": "جيوزا ×٢",
               "price": 12
             }
-          ],
-          "isCombo": false,
-          "comboIncludes": [],
-          "offerKind": null
+          ]
         },
         {
           "id": "katsu-corner-6",
@@ -4309,7 +4309,7 @@
           "description": "فول الصويا المملح.",
           "image": "https://images.unsplash.com/photo-1611143669185-af224c5e3252?w=800&q=80",
           "price": 18,
-          "rating": 4.3,
+          "rating": 4.4,
           "calories": 160,
           "protein": 12,
           "carbs": 10,
@@ -4318,6 +4318,9 @@
           "isPopular": false,
           "isOffer": false,
           "offerPrice": null,
+          "isCombo": false,
+          "offerKind": null,
+          "comboIncludes": [],
           "spicyOption": false,
           "cashbackPercent": null,
           "addons": [
@@ -4346,10 +4349,7 @@
               "name": "جيوزا ×٢",
               "price": 12
             }
-          ],
-          "isCombo": false,
-          "comboIncludes": [],
-          "offerKind": null
+          ]
         },
         {
           "id": "katsu-corner-7",
@@ -4358,7 +4358,7 @@
           "description": "روبيان مقرمش مع صوص tentuyu.",
           "image": "https://images.unsplash.com/photo-1559847844-5315695dadae?w=800&q=80",
           "price": 52,
-          "rating": 4.8,
+          "rating": 4.7,
           "calories": 510,
           "protein": 24,
           "carbs": 42,
@@ -4367,6 +4367,9 @@
           "isPopular": false,
           "isOffer": false,
           "offerPrice": null,
+          "isCombo": false,
+          "offerKind": null,
+          "comboIncludes": [],
           "spicyOption": false,
           "cashbackPercent": null,
           "addons": [
@@ -4395,10 +4398,7 @@
               "name": "جيوزا ×٢",
               "price": 12
             }
-          ],
-          "isCombo": false,
-          "comboIncludes": [],
-          "offerKind": null
+          ]
         },
         {
           "id": "katsu-corner-8",
@@ -4407,15 +4407,18 @@
           "description": "تشكيلة سمك نيء.",
           "image": "https://images.unsplash.com/photo-1553621042-f6e147245754?w=800&q=80",
           "price": 53,
-          "rating": 4.5,
+          "rating": 4.8,
           "calories": 280,
           "protein": 36,
           "carbs": 4,
           "fat": 10,
-          "category": "popular",
-          "isPopular": true,
+          "category": "menu",
+          "isPopular": false,
           "isOffer": false,
           "offerPrice": null,
+          "isCombo": false,
+          "offerKind": null,
+          "comboIncludes": [],
           "spicyOption": false,
           "cashbackPercent": null,
           "addons": [
@@ -4444,10 +4447,7 @@
               "name": "جيوزا ×٢",
               "price": 12
             }
-          ],
-          "isCombo": false,
-          "comboIncludes": [],
-          "offerKind": null
+          ]
         },
         {
           "id": "katsu-corner-9",
@@ -4456,15 +4456,18 @@
           "description": "زلابية لحم مشوية.",
           "image": "https://images.unsplash.com/photo-1611143669185-af224c5e3252?w=800&q=80",
           "price": 32,
-          "rating": 4.3,
+          "rating": 4.6,
           "calories": 340,
           "protein": 14,
           "carbs": 28,
           "fat": 16,
-          "category": "menu",
-          "isPopular": false,
+          "category": "popular",
+          "isPopular": true,
           "isOffer": false,
           "offerPrice": null,
+          "isCombo": false,
+          "offerKind": null,
+          "comboIncludes": [],
           "spicyOption": false,
           "cashbackPercent": null,
           "addons": [
@@ -4493,10 +4496,7 @@
               "name": "جيوزا ×٢",
               "price": 12
             }
-          ],
-          "isCombo": false,
-          "comboIncludes": [],
-          "offerKind": null
+          ]
         },
         {
           "id": "katsu-corner-10",
@@ -4505,15 +4505,18 @@
           "description": "كرات أرز محشوة آيس كريم.",
           "image": "https://images.unsplash.com/photo-1563805042-7684c019e1cb?w=800&q=80",
           "price": 24,
-          "rating": 4.9,
+          "rating": 4.5,
           "calories": 260,
           "protein": 4,
           "carbs": 36,
           "fat": 10,
-          "category": "menu",
-          "isPopular": false,
+          "category": "popular",
+          "isPopular": true,
           "isOffer": false,
           "offerPrice": null,
+          "isCombo": false,
+          "offerKind": null,
+          "comboIncludes": [],
           "spicyOption": false,
           "cashbackPercent": null,
           "addons": [
@@ -4542,10 +4545,7 @@
               "name": "جيوزا ×٢",
               "price": 12
             }
-          ],
-          "isCombo": false,
-          "comboIncludes": [],
-          "offerKind": null
+          ]
         },
         {
           "id": "katsu-corner-offer-1",
@@ -4605,7 +4605,7 @@
           "id": "katsu-corner-offer-2",
           "restaurantId": "katsu-corner",
           "name": "وجبة عائلية سوشي لـ 5 أشخاص",
-          "description": "5 صحن سوشي مع إضافات ومشروبات. تكفي 5 أشخاص.",
+          "description": "5 صحن سوشي مع ميسو وزنجبيل وواسابي. تكفي 5 أشخاص.",
           "image": "https://images.unsplash.com/photo-1579584425555-c3ce17fd4351?w=800&q=80",
           "price": 109,
           "rating": 4.6,
@@ -4715,20 +4715,20 @@
       "id": "edo-express",
       "name": "إدو إكسبرس",
       "image": "https://images.unsplash.com/photo-1579584425555-c3ce17fd4351?w=800&q=80",
-      "rating": 4.4,
+      "rating": 4.3,
       "cuisine": "ياباني",
-      "deliveryTime": "30–45 د",
-      "deliveryFee": 8,
-      "minOrder": 50,
-      "distanceKm": 4.1,
-      "verified": true,
+      "deliveryTime": "25–35 د",
+      "deliveryFee": 12,
+      "minOrder": 25,
+      "distanceKm": 1.3,
+      "verified": null,
       "tags": [
         "ياباني",
         "سوشي"
       ],
       "featured": null,
       "open24h": null,
-      "fastDelivery": null,
+      "fastDelivery": true,
       "meals": [
         {
           "id": "edo-express-1",
@@ -4737,7 +4737,7 @@
           "description": "قطع سالمون طازج على أرز.",
           "image": "https://images.unsplash.com/photo-1579584425555-c3ce17fd4351?w=800&q=80",
           "price": 54,
-          "rating": 4.4,
+          "rating": 4.5,
           "calories": 420,
           "protein": 28,
           "carbs": 48,
@@ -4746,6 +4746,9 @@
           "isPopular": false,
           "isOffer": false,
           "offerPrice": null,
+          "isCombo": false,
+          "offerKind": null,
+          "comboIncludes": [],
           "spicyOption": false,
           "cashbackPercent": null,
           "addons": [
@@ -4774,10 +4777,7 @@
               "name": "جيوزا ×٢",
               "price": 12
             }
-          ],
-          "isCombo": false,
-          "comboIncludes": [],
-          "offerKind": null
+          ]
         },
         {
           "id": "edo-express-2",
@@ -4786,15 +4786,18 @@
           "description": "كراب وأفوكادو وخيار.",
           "image": "https://images.unsplash.com/photo-1553621042-f6e147245754?w=800&q=80",
           "price": 42,
-          "rating": 4.3,
+          "rating": 4.9,
           "calories": 380,
           "protein": 16,
           "carbs": 44,
           "fat": 14,
-          "category": "menu",
-          "isPopular": false,
+          "category": "popular",
+          "isPopular": true,
           "isOffer": false,
           "offerPrice": null,
+          "isCombo": false,
+          "offerKind": null,
+          "comboIncludes": [],
           "spicyOption": false,
           "cashbackPercent": null,
           "addons": [
@@ -4823,10 +4826,7 @@
               "name": "جيوزا ×٢",
               "price": 12
             }
-          ],
-          "isCombo": false,
-          "comboIncludes": [],
-          "offerKind": null
+          ]
         },
         {
           "id": "edo-express-3",
@@ -4835,15 +4835,18 @@
           "description": "مرق غني مع نودلز وبيض.",
           "image": "https://images.unsplash.com/photo-1569718212165-3a8278d5f624?w=800&q=80",
           "price": 48,
-          "rating": 4.4,
+          "rating": 4.5,
           "calories": 680,
           "protein": 32,
           "carbs": 62,
           "fat": 28,
-          "category": "popular",
-          "isPopular": true,
+          "category": "menu",
+          "isPopular": false,
           "isOffer": false,
           "offerPrice": null,
+          "isCombo": false,
+          "offerKind": null,
+          "comboIncludes": [],
           "spicyOption": false,
           "cashbackPercent": null,
           "addons": [
@@ -4872,10 +4875,7 @@
               "name": "جيوزا ×٢",
               "price": 12
             }
-          ],
-          "isCombo": false,
-          "comboIncludes": [],
-          "offerKind": null
+          ]
         },
         {
           "id": "edo-express-4",
@@ -4884,15 +4884,18 @@
           "description": "دجاج بصلصة ترياكي وأرز.",
           "image": "https://images.unsplash.com/photo-1512058564366-18510be2db19?w=800&q=80",
           "price": 44,
-          "rating": 4.8,
+          "rating": 4.2,
           "calories": 560,
           "protein": 34,
           "carbs": 55,
           "fat": 16,
-          "category": "menu",
-          "isPopular": false,
+          "category": "popular",
+          "isPopular": true,
           "isOffer": false,
           "offerPrice": null,
+          "isCombo": false,
+          "offerKind": null,
+          "comboIncludes": [],
           "spicyOption": false,
           "cashbackPercent": null,
           "addons": [
@@ -4921,10 +4924,7 @@
               "name": "جيوزا ×٢",
               "price": 12
             }
-          ],
-          "isCombo": false,
-          "comboIncludes": [],
-          "offerKind": null
+          ]
         },
         {
           "id": "edo-express-5",
@@ -4933,15 +4933,18 @@
           "description": "شينيتزل لحم مع أرز وبيض.",
           "image": "https://images.unsplash.com/photo-1553621042-f6e147245754?w=800&q=80",
           "price": 46,
-          "rating": 4.6,
+          "rating": 4.8,
           "calories": 720,
           "protein": 36,
           "carbs": 60,
           "fat": 28,
-          "category": "menu",
-          "isPopular": false,
+          "category": "popular",
+          "isPopular": true,
           "isOffer": false,
           "offerPrice": null,
+          "isCombo": false,
+          "offerKind": null,
+          "comboIncludes": [],
           "spicyOption": false,
           "cashbackPercent": null,
           "addons": [
@@ -4970,10 +4973,7 @@
               "name": "جيوزا ×٢",
               "price": 12
             }
-          ],
-          "isCombo": false,
-          "comboIncludes": [],
-          "offerKind": null
+          ]
         },
         {
           "id": "edo-express-6",
@@ -4982,7 +4982,7 @@
           "description": "فول الصويا المملح.",
           "image": "https://images.unsplash.com/photo-1553621042-f6e147245754?w=800&q=80",
           "price": 18,
-          "rating": 4.3,
+          "rating": 4.8,
           "calories": 160,
           "protein": 12,
           "carbs": 10,
@@ -4991,6 +4991,9 @@
           "isPopular": false,
           "isOffer": false,
           "offerPrice": null,
+          "isCombo": false,
+          "offerKind": null,
+          "comboIncludes": [],
           "spicyOption": false,
           "cashbackPercent": null,
           "addons": [
@@ -5019,10 +5022,7 @@
               "name": "جيوزا ×٢",
               "price": 12
             }
-          ],
-          "isCombo": false,
-          "comboIncludes": [],
-          "offerKind": null
+          ]
         },
         {
           "id": "edo-express-7",
@@ -5031,15 +5031,18 @@
           "description": "روبيان مقرمش مع صوص tentuyu.",
           "image": "https://images.unsplash.com/photo-1559847844-5315695dadae?w=800&q=80",
           "price": 52,
-          "rating": 4.8,
+          "rating": 4.5,
           "calories": 510,
           "protein": 24,
           "carbs": 42,
           "fat": 26,
-          "category": "menu",
-          "isPopular": false,
+          "category": "popular",
+          "isPopular": true,
           "isOffer": false,
           "offerPrice": null,
+          "isCombo": false,
+          "offerKind": null,
+          "comboIncludes": [],
           "spicyOption": false,
           "cashbackPercent": null,
           "addons": [
@@ -5068,10 +5071,7 @@
               "name": "جيوزا ×٢",
               "price": 12
             }
-          ],
-          "isCombo": false,
-          "comboIncludes": [],
-          "offerKind": null
+          ]
         },
         {
           "id": "edo-express-8",
@@ -5080,15 +5080,18 @@
           "description": "تشكيلة سمك نيء.",
           "image": "https://images.unsplash.com/photo-1553621042-f6e147245754?w=800&q=80",
           "price": 53,
-          "rating": 4.3,
+          "rating": 4.4,
           "calories": 280,
           "protein": 36,
           "carbs": 4,
           "fat": 10,
-          "category": "menu",
-          "isPopular": false,
+          "category": "popular",
+          "isPopular": true,
           "isOffer": false,
           "offerPrice": null,
+          "isCombo": false,
+          "offerKind": null,
+          "comboIncludes": [],
           "spicyOption": false,
           "cashbackPercent": null,
           "addons": [
@@ -5117,10 +5120,7 @@
               "name": "جيوزا ×٢",
               "price": 12
             }
-          ],
-          "isCombo": false,
-          "comboIncludes": [],
-          "offerKind": null
+          ]
         },
         {
           "id": "edo-express-9",
@@ -5129,15 +5129,18 @@
           "description": "زلابية لحم مشوية.",
           "image": "https://images.unsplash.com/photo-1611143669185-af224c5e3252?w=800&q=80",
           "price": 32,
-          "rating": 4.3,
+          "rating": 4.1,
           "calories": 340,
           "protein": 14,
           "carbs": 28,
           "fat": 16,
-          "category": "menu",
-          "isPopular": false,
+          "category": "popular",
+          "isPopular": true,
           "isOffer": false,
           "offerPrice": null,
+          "isCombo": false,
+          "offerKind": null,
+          "comboIncludes": [],
           "spicyOption": false,
           "cashbackPercent": null,
           "addons": [
@@ -5166,10 +5169,7 @@
               "name": "جيوزا ×٢",
               "price": 12
             }
-          ],
-          "isCombo": false,
-          "comboIncludes": [],
-          "offerKind": null
+          ]
         },
         {
           "id": "edo-express-10",
@@ -5178,7 +5178,7 @@
           "description": "كرات أرز محشوة آيس كريم.",
           "image": "https://images.unsplash.com/photo-1563805042-7684c019e1cb?w=800&q=80",
           "price": 24,
-          "rating": 4.6,
+          "rating": 4.1,
           "calories": 260,
           "protein": 4,
           "carbs": 36,
@@ -5187,6 +5187,9 @@
           "isPopular": true,
           "isOffer": false,
           "offerPrice": null,
+          "isCombo": false,
+          "offerKind": null,
+          "comboIncludes": [],
           "spicyOption": false,
           "cashbackPercent": null,
           "addons": [
@@ -5215,10 +5218,7 @@
               "name": "جيوزا ×٢",
               "price": 12
             }
-          ],
-          "isCombo": false,
-          "comboIncludes": [],
-          "offerKind": null
+          ]
         },
         {
           "id": "edo-express-offer-1",
@@ -5278,7 +5278,7 @@
           "id": "edo-express-offer-2",
           "restaurantId": "edo-express",
           "name": "وجبة عائلية سوشي لـ 6 أشخاص",
-          "description": "6 صحن سوشي مع إضافات ومشروبات. تكفي 6 أشخاص.",
+          "description": "6 صحن سوشي مع ميسو وزنجبيل وواسابي. تكفي 6 أشخاص.",
           "image": "https://images.unsplash.com/photo-1579584425555-c3ce17fd4351?w=800&q=80",
           "price": 109,
           "rating": 4.6,

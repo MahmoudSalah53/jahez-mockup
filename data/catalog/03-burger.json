@@ -4,20 +4,20 @@
       "id": "smash-lab",
       "name": "مختبر السماش",
       "image": "https://images.unsplash.com/photo-1568901346375-23c9450c58cd?w=800&q=80",
-      "rating": 4.4,
+      "rating": 4.3,
       "cuisine": "برجر",
-      "deliveryTime": "40–55 د",
-      "deliveryFee": 8,
-      "minOrder": 35,
-      "distanceKm": 0.6,
-      "verified": true,
+      "deliveryTime": "30–45 د",
+      "deliveryFee": 0,
+      "minOrder": 45,
+      "distanceKm": 2.4,
+      "verified": null,
       "tags": [
         "برجر",
         "وجبات سريعة"
       ],
       "featured": null,
       "open24h": null,
-      "fastDelivery": null,
+      "fastDelivery": true,
       "meals": [
         {
           "id": "smash-lab-1",
@@ -26,15 +26,18 @@
           "description": "لحم أنجوس مع خس وطماطم.",
           "image": "https://images.unsplash.com/photo-1568901346375-23c9450c58cd?w=800&q=80",
           "price": 32,
-          "rating": 4.4,
+          "rating": 4.5,
           "calories": 640,
           "protein": 32,
           "carbs": 42,
           "fat": 34,
-          "category": "menu",
-          "isPopular": false,
+          "category": "popular",
+          "isPopular": true,
           "isOffer": false,
           "offerPrice": null,
+          "isCombo": false,
+          "offerKind": null,
+          "comboIncludes": [],
           "spicyOption": false,
           "cashbackPercent": null,
           "addons": [
@@ -63,10 +66,7 @@
               "name": "صوص سبايسي",
               "price": 3
             }
-          ],
-          "isCombo": false,
-          "comboIncludes": [],
-          "offerKind": null
+          ]
         },
         {
           "id": "smash-lab-2",
@@ -75,7 +75,7 @@
           "description": "شريحتان لحم مع جبنة ذائبة.",
           "image": "https://images.unsplash.com/photo-1553979459-d2229ba7433b?w=800&q=80",
           "price": 30,
-          "rating": 4.4,
+          "rating": 4.6,
           "calories": 820,
           "protein": 44,
           "carbs": 40,
@@ -84,6 +84,9 @@
           "isPopular": true,
           "isOffer": false,
           "offerPrice": null,
+          "isCombo": false,
+          "offerKind": null,
+          "comboIncludes": [],
           "spicyOption": false,
           "cashbackPercent": null,
           "addons": [
@@ -112,10 +115,7 @@
               "name": "صوص سبايسي",
               "price": 3
             }
-          ],
-          "isCombo": false,
-          "comboIncludes": [],
-          "offerKind": null
+          ]
         },
         {
           "id": "smash-lab-3",
@@ -124,7 +124,7 @@
           "description": "دجاج مقرمش مع مايونيز حار.",
           "image": "https://images.unsplash.com/photo-1571091718767-18b5b1457add?w=800&q=80",
           "price": 30,
-          "rating": 4.2,
+          "rating": 4.4,
           "calories": 710,
           "protein": 28,
           "carbs": 48,
@@ -133,6 +133,9 @@
           "isPopular": false,
           "isOffer": false,
           "offerPrice": null,
+          "isCombo": false,
+          "offerKind": null,
+          "comboIncludes": [],
           "spicyOption": true,
           "cashbackPercent": null,
           "addons": [
@@ -161,10 +164,7 @@
               "name": "صوص سبايسي",
               "price": 3
             }
-          ],
-          "isCombo": false,
-          "comboIncludes": [],
-          "offerKind": null
+          ]
         },
         {
           "id": "smash-lab-4",
@@ -173,15 +173,18 @@
           "description": "لحم مسحوق على الشواية.",
           "image": "https://images.unsplash.com/photo-1568901346375-23c9450c58cd?w=800&q=80",
           "price": 29,
-          "rating": 4.8,
+          "rating": 4.3,
           "calories": 690,
           "protein": 34,
           "carbs": 38,
           "fat": 40,
-          "category": "popular",
-          "isPopular": true,
+          "category": "menu",
+          "isPopular": false,
           "isOffer": false,
           "offerPrice": null,
+          "isCombo": false,
+          "offerKind": null,
+          "comboIncludes": [],
           "spicyOption": false,
           "cashbackPercent": null,
           "addons": [
@@ -210,10 +213,7 @@
               "name": "صوص سبايسي",
               "price": 3
             }
-          ],
-          "isCombo": false,
-          "comboIncludes": [],
-          "offerKind": null
+          ]
         },
         {
           "id": "smash-lab-5",
@@ -227,10 +227,13 @@
           "protein": 30,
           "carbs": 40,
           "fat": 42,
-          "category": "menu",
-          "isPopular": false,
+          "category": "popular",
+          "isPopular": true,
           "isOffer": false,
           "offerPrice": null,
+          "isCombo": false,
+          "offerKind": null,
+          "comboIncludes": [],
           "spicyOption": false,
           "cashbackPercent": null,
           "addons": [
@@ -259,10 +262,7 @@
               "name": "صوص سبايسي",
               "price": 3
             }
-          ],
-          "isCombo": false,
-          "comboIncludes": [],
-          "offerKind": null
+          ]
         },
         {
           "id": "smash-lab-6",
@@ -271,15 +271,18 @@
           "description": "لحم مع بيكون مقرمش.",
           "image": "https://images.unsplash.com/photo-1568901346375-23c9450c58cd?w=800&q=80",
           "price": 30,
-          "rating": 4.8,
+          "rating": 4.2,
           "calories": 860,
           "protein": 38,
           "carbs": 36,
           "fat": 52,
-          "category": "popular",
-          "isPopular": true,
+          "category": "menu",
+          "isPopular": false,
           "isOffer": false,
           "offerPrice": null,
+          "isCombo": false,
+          "offerKind": null,
+          "comboIncludes": [],
           "spicyOption": false,
           "cashbackPercent": null,
           "addons": [
@@ -308,10 +311,7 @@
               "name": "صوص سبايسي",
               "price": 3
             }
-          ],
-          "isCombo": false,
-          "comboIncludes": [],
-          "offerKind": null
+          ]
         },
         {
           "id": "smash-lab-7",
@@ -329,8 +329,11 @@
           "isPopular": false,
           "isOffer": false,
           "offerPrice": null,
+          "isCombo": false,
+          "offerKind": null,
+          "comboIncludes": [],
           "spicyOption": false,
-          "cashbackPercent": 5,
+          "cashbackPercent": null,
           "addons": [
             {
               "id": "extra-cheese",
@@ -357,10 +360,7 @@
               "name": "صوص سبايسي",
               "price": 3
             }
-          ],
-          "isCombo": false,
-          "comboIncludes": [],
-          "offerKind": null
+          ]
         },
         {
           "id": "smash-lab-8",
@@ -369,15 +369,18 @@
           "description": "باتي نباتي مع أفوكادو.",
           "image": "https://images.unsplash.com/photo-1568901346375-23c9450c58cd?w=800&q=80",
           "price": 30,
-          "rating": 4.2,
+          "rating": 4.5,
           "calories": 580,
           "protein": 22,
           "carbs": 48,
           "fat": 26,
-          "category": "popular",
-          "isPopular": true,
+          "category": "menu",
+          "isPopular": false,
           "isOffer": false,
           "offerPrice": null,
+          "isCombo": false,
+          "offerKind": null,
+          "comboIncludes": [],
           "spicyOption": false,
           "cashbackPercent": null,
           "addons": [
@@ -406,10 +409,7 @@
               "name": "صوص سبايسي",
               "price": 3
             }
-          ],
-          "isCombo": false,
-          "comboIncludes": [],
-          "offerKind": null
+          ]
         },
         {
           "id": "smash-lab-9",
@@ -418,7 +418,7 @@
           "description": "ثلاث شرائح لحم للعشاق.",
           "image": "https://images.unsplash.com/photo-1568901346375-23c9450c58cd?w=800&q=80",
           "price": 30,
-          "rating": 4.6,
+          "rating": 4.5,
           "calories": 1100,
           "protein": 58,
           "carbs": 42,
@@ -427,6 +427,9 @@
           "isPopular": false,
           "isOffer": false,
           "offerPrice": null,
+          "isCombo": false,
+          "offerKind": null,
+          "comboIncludes": [],
           "spicyOption": false,
           "cashbackPercent": null,
           "addons": [
@@ -455,10 +458,7 @@
               "name": "صوص سبايسي",
               "price": 3
             }
-          ],
-          "isCombo": false,
-          "comboIncludes": [],
-          "offerKind": null
+          ]
         },
         {
           "id": "smash-lab-10",
@@ -467,7 +467,7 @@
           "description": "دجاج حار مع رانش.",
           "image": "https://images.unsplash.com/photo-1553979459-d2229ba7433b?w=800&q=80",
           "price": 29,
-          "rating": 4.7,
+          "rating": 4.4,
           "calories": 750,
           "protein": 30,
           "carbs": 46,
@@ -476,6 +476,9 @@
           "isPopular": false,
           "isOffer": false,
           "offerPrice": null,
+          "isCombo": false,
+          "offerKind": null,
+          "comboIncludes": [],
           "spicyOption": true,
           "cashbackPercent": null,
           "addons": [
@@ -504,10 +507,7 @@
               "name": "صوص سبايسي",
               "price": 3
             }
-          ],
-          "isCombo": false,
-          "comboIncludes": [],
-          "offerKind": null
+          ]
         },
         {
           "id": "smash-lab-offer-1",
@@ -566,7 +566,7 @@
           "id": "smash-lab-offer-2",
           "restaurantId": "smash-lab",
           "name": "وجبة عائلية برجر لـ 3 أشخاص",
-          "description": "3 برجر مع إضافات ومشروبات. تكفي 3 أشخاص.",
+          "description": "3 برجر مع بطاطس عائلية وصوصات. تكفي 3 أشخاص.",
           "image": "/offers/3-burger.webp",
           "price": 64,
           "rating": 4.6,
@@ -676,17 +676,17 @@
       "image": "https://images.unsplash.com/photo-1551782450-a2132b4ba21d?w=800&q=80",
       "rating": 4.4,
       "cuisine": "برجر",
-      "deliveryTime": "40–55 د",
-      "deliveryFee": 12,
-      "minOrder": 40,
-      "distanceKm": 3.4,
+      "deliveryTime": "35–50 د",
+      "deliveryFee": 6,
+      "minOrder": 25,
+      "distanceKm": 1.4,
       "verified": true,
       "tags": [
         "برجر",
         "وجبات سريعة"
       ],
       "featured": true,
-      "open24h": null,
+      "open24h": true,
       "fastDelivery": null,
       "meals": [
         {
@@ -696,7 +696,7 @@
           "description": "لحم أنجوس مع خس وطماطم.",
           "image": "https://images.unsplash.com/photo-1568901346375-23c9450c58cd?w=800&q=80",
           "price": 32,
-          "rating": 4.3,
+          "rating": 4.2,
           "calories": 640,
           "protein": 32,
           "carbs": 42,
@@ -705,6 +705,9 @@
           "isPopular": false,
           "isOffer": false,
           "offerPrice": null,
+          "isCombo": false,
+          "offerKind": null,
+          "comboIncludes": [],
           "spicyOption": false,
           "cashbackPercent": null,
           "addons": [
@@ -733,10 +736,7 @@
               "name": "صوص سبايسي",
               "price": 3
             }
-          ],
-          "isCombo": false,
-          "comboIncludes": [],
-          "offerKind": null
+          ]
         },
         {
           "id": "bun-city-2",
@@ -745,7 +745,7 @@
           "description": "شريحتان لحم مع جبنة ذائبة.",
           "image": "https://images.unsplash.com/photo-1553979459-d2229ba7433b?w=800&q=80",
           "price": 30,
-          "rating": 4.8,
+          "rating": 4.2,
           "calories": 820,
           "protein": 44,
           "carbs": 40,
@@ -754,6 +754,9 @@
           "isPopular": false,
           "isOffer": false,
           "offerPrice": null,
+          "isCombo": false,
+          "offerKind": null,
+          "comboIncludes": [],
           "spicyOption": false,
           "cashbackPercent": null,
           "addons": [
@@ -782,10 +785,7 @@
               "name": "صوص سبايسي",
               "price": 3
             }
-          ],
-          "isCombo": false,
-          "comboIncludes": [],
-          "offerKind": null
+          ]
         },
         {
           "id": "bun-city-3",
@@ -794,7 +794,7 @@
           "description": "دجاج مقرمش مع مايونيز حار.",
           "image": "https://images.unsplash.com/photo-1571091718767-18b5b1457add?w=800&q=80",
           "price": 30,
-          "rating": 4.2,
+          "rating": 4.6,
           "calories": 710,
           "protein": 28,
           "carbs": 48,
@@ -803,6 +803,9 @@
           "isPopular": false,
           "isOffer": false,
           "offerPrice": null,
+          "isCombo": false,
+          "offerKind": null,
+          "comboIncludes": [],
           "spicyOption": true,
           "cashbackPercent": null,
           "addons": [
@@ -831,10 +834,7 @@
               "name": "صوص سبايسي",
               "price": 3
             }
-          ],
-          "isCombo": false,
-          "comboIncludes": [],
-          "offerKind": null
+          ]
         },
         {
           "id": "bun-city-4",
@@ -843,7 +843,7 @@
           "description": "لحم مسحوق على الشواية.",
           "image": "https://images.unsplash.com/photo-1568901346375-23c9450c58cd?w=800&q=80",
           "price": 29,
-          "rating": 4.7,
+          "rating": 4.5,
           "calories": 690,
           "protein": 34,
           "carbs": 38,
@@ -852,6 +852,9 @@
           "isPopular": false,
           "isOffer": false,
           "offerPrice": null,
+          "isCombo": false,
+          "offerKind": null,
+          "comboIncludes": [],
           "spicyOption": false,
           "cashbackPercent": null,
           "addons": [
@@ -880,10 +883,7 @@
               "name": "صوص سبايسي",
               "price": 3
             }
-          ],
-          "isCombo": false,
-          "comboIncludes": [],
-          "offerKind": null
+          ]
         },
         {
           "id": "bun-city-5",
@@ -892,15 +892,18 @@
           "description": "فطر وجبنة سويسرية.",
           "image": "https://images.unsplash.com/photo-1573080496219-bb080dd4f877?w=800&q=80",
           "price": 30,
-          "rating": 4.1,
+          "rating": 4.3,
           "calories": 730,
           "protein": 30,
           "carbs": 40,
           "fat": 42,
-          "category": "menu",
-          "isPopular": false,
+          "category": "popular",
+          "isPopular": true,
           "isOffer": false,
           "offerPrice": null,
+          "isCombo": false,
+          "offerKind": null,
+          "comboIncludes": [],
           "spicyOption": false,
           "cashbackPercent": null,
           "addons": [
@@ -929,10 +932,7 @@
               "name": "صوص سبايسي",
               "price": 3
             }
-          ],
-          "isCombo": false,
-          "comboIncludes": [],
-          "offerKind": null
+          ]
         },
         {
           "id": "bun-city-6",
@@ -941,7 +941,7 @@
           "description": "لحم مع بيكون مقرمش.",
           "image": "https://images.unsplash.com/photo-1568901346375-23c9450c58cd?w=800&q=80",
           "price": 30,
-          "rating": 4.3,
+          "rating": 4.1,
           "calories": 860,
           "protein": 38,
           "carbs": 36,
@@ -950,8 +950,11 @@
           "isPopular": false,
           "isOffer": false,
           "offerPrice": null,
+          "isCombo": false,
+          "offerKind": null,
+          "comboIncludes": [],
           "spicyOption": false,
-          "cashbackPercent": 15,
+          "cashbackPercent": null,
           "addons": [
             {
               "id": "extra-cheese",
@@ -978,10 +981,7 @@
               "name": "صوص سبايسي",
               "price": 3
             }
-          ],
-          "isCombo": false,
-          "comboIncludes": [],
-          "offerKind": null
+          ]
         },
         {
           "id": "bun-city-7",
@@ -990,15 +990,18 @@
           "description": "بطاطس مقلية مع صوص.",
           "image": "https://images.unsplash.com/photo-1573080496219-bb080dd4f877?w=800&q=80",
           "price": 16,
-          "rating": 4.9,
+          "rating": 4.7,
           "calories": 480,
           "protein": 6,
           "carbs": 55,
           "fat": 24,
-          "category": "menu",
-          "isPopular": false,
+          "category": "popular",
+          "isPopular": true,
           "isOffer": false,
           "offerPrice": null,
+          "isCombo": false,
+          "offerKind": null,
+          "comboIncludes": [],
           "spicyOption": false,
           "cashbackPercent": null,
           "addons": [
@@ -1027,10 +1030,7 @@
               "name": "صوص سبايسي",
               "price": 3
             }
-          ],
-          "isCombo": false,
-          "comboIncludes": [],
-          "offerKind": null
+          ]
         },
         {
           "id": "bun-city-8",
@@ -1039,15 +1039,18 @@
           "description": "باتي نباتي مع أفوكادو.",
           "image": "https://images.unsplash.com/photo-1568901346375-23c9450c58cd?w=800&q=80",
           "price": 30,
-          "rating": 4.4,
+          "rating": 4.5,
           "calories": 580,
           "protein": 22,
           "carbs": 48,
           "fat": 26,
-          "category": "menu",
-          "isPopular": false,
+          "category": "popular",
+          "isPopular": true,
           "isOffer": false,
           "offerPrice": null,
+          "isCombo": false,
+          "offerKind": null,
+          "comboIncludes": [],
           "spicyOption": false,
           "cashbackPercent": null,
           "addons": [
@@ -1076,10 +1079,7 @@
               "name": "صوص سبايسي",
               "price": 3
             }
-          ],
-          "isCombo": false,
-          "comboIncludes": [],
-          "offerKind": null
+          ]
         },
         {
           "id": "bun-city-9",
@@ -1088,7 +1088,7 @@
           "description": "ثلاث شرائح لحم للعشاق.",
           "image": "https://images.unsplash.com/photo-1573080496219-bb080dd4f877?w=800&q=80",
           "price": 30,
-          "rating": 4.7,
+          "rating": 4.2,
           "calories": 1100,
           "protein": 58,
           "carbs": 42,
@@ -1097,6 +1097,9 @@
           "isPopular": true,
           "isOffer": false,
           "offerPrice": null,
+          "isCombo": false,
+          "offerKind": null,
+          "comboIncludes": [],
           "spicyOption": false,
           "cashbackPercent": null,
           "addons": [
@@ -1125,10 +1128,7 @@
               "name": "صوص سبايسي",
               "price": 3
             }
-          ],
-          "isCombo": false,
-          "comboIncludes": [],
-          "offerKind": null
+          ]
         },
         {
           "id": "bun-city-10",
@@ -1137,7 +1137,7 @@
           "description": "دجاج حار مع رانش.",
           "image": "https://images.unsplash.com/photo-1571091718767-18b5b1457add?w=800&q=80",
           "price": 29,
-          "rating": 4.4,
+          "rating": 4.5,
           "calories": 750,
           "protein": 30,
           "carbs": 46,
@@ -1146,6 +1146,9 @@
           "isPopular": false,
           "isOffer": false,
           "offerPrice": null,
+          "isCombo": false,
+          "offerKind": null,
+          "comboIncludes": [],
           "spicyOption": true,
           "cashbackPercent": null,
           "addons": [
@@ -1174,10 +1177,7 @@
               "name": "صوص سبايسي",
               "price": 3
             }
-          ],
-          "isCombo": false,
-          "comboIncludes": [],
-          "offerKind": null
+          ]
         },
         {
           "id": "bun-city-offer-1",
@@ -1236,7 +1236,7 @@
           "id": "bun-city-offer-2",
           "restaurantId": "bun-city",
           "name": "وجبة عائلية برجر لـ 6 أشخاص",
-          "description": "6 برجر مع إضافات ومشروبات. تكفي 6 أشخاص.",
+          "description": "6 برجر مع بطاطس عائلية وصوصات. تكفي 6 أشخاص.",
           "image": "/offers/6-burgers.jpg",
           "price": 82,
           "rating": 4.6,
@@ -1344,12 +1344,12 @@
       "id": "grill-burger-co",
       "name": "جرل برجر",
       "image": "https://images.unsplash.com/photo-1568901346375-23c9450c58cd?w=800&q=80",
-      "rating": 4.3,
+      "rating": 4.6,
       "cuisine": "برجر",
-      "deliveryTime": "40–55 د",
-      "deliveryFee": 8,
-      "minOrder": 45,
-      "distanceKm": 5.1,
+      "deliveryTime": "30–45 د",
+      "deliveryFee": 6,
+      "minOrder": 30,
+      "distanceKm": 5.8,
       "verified": true,
       "tags": [
         "برجر",
@@ -1357,7 +1357,7 @@
       ],
       "featured": null,
       "open24h": null,
-      "fastDelivery": null,
+      "fastDelivery": true,
       "meals": [
         {
           "id": "grill-burger-co-1",
@@ -1366,15 +1366,18 @@
           "description": "لحم أنجوس مع خس وطماطم.",
           "image": "https://images.unsplash.com/photo-1568901346375-23c9450c58cd?w=800&q=80",
           "price": 32,
-          "rating": 4.3,
+          "rating": 4.7,
           "calories": 640,
           "protein": 32,
           "carbs": 42,
           "fat": 34,
-          "category": "menu",
-          "isPopular": false,
+          "category": "popular",
+          "isPopular": true,
           "isOffer": false,
           "offerPrice": null,
+          "isCombo": false,
+          "offerKind": null,
+          "comboIncludes": [],
           "spicyOption": false,
           "cashbackPercent": null,
           "addons": [
@@ -1403,10 +1406,7 @@
               "name": "صوص سبايسي",
               "price": 3
             }
-          ],
-          "isCombo": false,
-          "comboIncludes": [],
-          "offerKind": null
+          ]
         },
         {
           "id": "grill-burger-co-2",
@@ -1415,15 +1415,18 @@
           "description": "شريحتان لحم مع جبنة ذائبة.",
           "image": "https://images.unsplash.com/photo-1553979459-d2229ba7433b?w=800&q=80",
           "price": 30,
-          "rating": 4.4,
+          "rating": 4.8,
           "calories": 820,
           "protein": 44,
           "carbs": 40,
           "fat": 48,
-          "category": "popular",
-          "isPopular": true,
+          "category": "menu",
+          "isPopular": false,
           "isOffer": false,
           "offerPrice": null,
+          "isCombo": false,
+          "offerKind": null,
+          "comboIncludes": [],
           "spicyOption": false,
           "cashbackPercent": null,
           "addons": [
@@ -1452,10 +1455,7 @@
               "name": "صوص سبايسي",
               "price": 3
             }
-          ],
-          "isCombo": false,
-          "comboIncludes": [],
-          "offerKind": null
+          ]
         },
         {
           "id": "grill-burger-co-3",
@@ -1464,17 +1464,20 @@
           "description": "دجاج مقرمش مع مايونيز حار.",
           "image": "https://images.unsplash.com/photo-1571091718767-18b5b1457add?w=800&q=80",
           "price": 30,
-          "rating": 4.4,
+          "rating": 4.5,
           "calories": 710,
           "protein": 28,
           "carbs": 48,
           "fat": 36,
-          "category": "menu",
-          "isPopular": false,
+          "category": "popular",
+          "isPopular": true,
           "isOffer": false,
           "offerPrice": null,
+          "isCombo": false,
+          "offerKind": null,
+          "comboIncludes": [],
           "spicyOption": true,
-          "cashbackPercent": 5,
+          "cashbackPercent": null,
           "addons": [
             {
               "id": "extra-cheese",
@@ -1501,10 +1504,7 @@
               "name": "صوص سبايسي",
               "price": 3
             }
-          ],
-          "isCombo": false,
-          "comboIncludes": [],
-          "offerKind": null
+          ]
         },
         {
           "id": "grill-burger-co-4",
@@ -1513,17 +1513,20 @@
           "description": "لحم مسحوق على الشواية.",
           "image": "https://images.unsplash.com/photo-1568901346375-23c9450c58cd?w=800&q=80",
           "price": 29,
-          "rating": 4.5,
+          "rating": 4.7,
           "calories": 690,
           "protein": 34,
           "carbs": 38,
           "fat": 40,
-          "category": "menu",
-          "isPopular": false,
+          "category": "popular",
+          "isPopular": true,
           "isOffer": false,
           "offerPrice": null,
+          "isCombo": false,
+          "offerKind": null,
+          "comboIncludes": [],
           "spicyOption": false,
-          "cashbackPercent": 10,
+          "cashbackPercent": null,
           "addons": [
             {
               "id": "extra-cheese",
@@ -1550,10 +1553,7 @@
               "name": "صوص سبايسي",
               "price": 3
             }
-          ],
-          "isCombo": false,
-          "comboIncludes": [],
-          "offerKind": null
+          ]
         },
         {
           "id": "grill-burger-co-5",
@@ -1567,10 +1567,13 @@
           "protein": 30,
           "carbs": 40,
           "fat": 42,
-          "category": "popular",
-          "isPopular": true,
+          "category": "menu",
+          "isPopular": false,
           "isOffer": false,
           "offerPrice": null,
+          "isCombo": false,
+          "offerKind": null,
+          "comboIncludes": [],
           "spicyOption": false,
           "cashbackPercent": null,
           "addons": [
@@ -1599,10 +1602,7 @@
               "name": "صوص سبايسي",
               "price": 3
             }
-          ],
-          "isCombo": false,
-          "comboIncludes": [],
-          "offerKind": null
+          ]
         },
         {
           "id": "grill-burger-co-6",
@@ -1611,15 +1611,18 @@
           "description": "لحم مع بيكون مقرمش.",
           "image": "https://images.unsplash.com/photo-1568901346375-23c9450c58cd?w=800&q=80",
           "price": 30,
-          "rating": 4.6,
+          "rating": 4.2,
           "calories": 860,
           "protein": 38,
           "carbs": 36,
           "fat": 52,
-          "category": "popular",
-          "isPopular": true,
+          "category": "menu",
+          "isPopular": false,
           "isOffer": false,
           "offerPrice": null,
+          "isCombo": false,
+          "offerKind": null,
+          "comboIncludes": [],
           "spicyOption": false,
           "cashbackPercent": null,
           "addons": [
@@ -1648,10 +1651,7 @@
               "name": "صوص سبايسي",
               "price": 3
             }
-          ],
-          "isCombo": false,
-          "comboIncludes": [],
-          "offerKind": null
+          ]
         },
         {
           "id": "grill-burger-co-7",
@@ -1660,15 +1660,18 @@
           "description": "بطاطس مقلية مع صوص.",
           "image": "https://images.unsplash.com/photo-1573080496219-bb080dd4f877?w=800&q=80",
           "price": 16,
-          "rating": 4.6,
+          "rating": 4.4,
           "calories": 480,
           "protein": 6,
           "carbs": 55,
           "fat": 24,
-          "category": "popular",
-          "isPopular": true,
+          "category": "menu",
+          "isPopular": false,
           "isOffer": false,
           "offerPrice": null,
+          "isCombo": false,
+          "offerKind": null,
+          "comboIncludes": [],
           "spicyOption": false,
           "cashbackPercent": null,
           "addons": [
@@ -1697,10 +1700,7 @@
               "name": "صوص سبايسي",
               "price": 3
             }
-          ],
-          "isCombo": false,
-          "comboIncludes": [],
-          "offerKind": null
+          ]
         },
         {
           "id": "grill-burger-co-8",
@@ -1709,15 +1709,18 @@
           "description": "باتي نباتي مع أفوكادو.",
           "image": "https://images.unsplash.com/photo-1568901346375-23c9450c58cd?w=800&q=80",
           "price": 30,
-          "rating": 4.2,
+          "rating": 4.9,
           "calories": 580,
           "protein": 22,
           "carbs": 48,
           "fat": 26,
-          "category": "menu",
-          "isPopular": false,
+          "category": "popular",
+          "isPopular": true,
           "isOffer": false,
           "offerPrice": null,
+          "isCombo": false,
+          "offerKind": null,
+          "comboIncludes": [],
           "spicyOption": false,
           "cashbackPercent": null,
           "addons": [
@@ -1746,10 +1749,7 @@
               "name": "صوص سبايسي",
               "price": 3
             }
-          ],
-          "isCombo": false,
-          "comboIncludes": [],
-          "offerKind": null
+          ]
         },
         {
           "id": "grill-burger-co-9",
@@ -1758,7 +1758,7 @@
           "description": "ثلاث شرائح لحم للعشاق.",
           "image": "https://images.unsplash.com/photo-1553979459-d2229ba7433b?w=800&q=80",
           "price": 30,
-          "rating": 4.7,
+          "rating": 4.5,
           "calories": 1100,
           "protein": 58,
           "carbs": 42,
@@ -1767,6 +1767,9 @@
           "isPopular": true,
           "isOffer": false,
           "offerPrice": null,
+          "isCombo": false,
+          "offerKind": null,
+          "comboIncludes": [],
           "spicyOption": false,
           "cashbackPercent": null,
           "addons": [
@@ -1795,10 +1798,7 @@
               "name": "صوص سبايسي",
               "price": 3
             }
-          ],
-          "isCombo": false,
-          "comboIncludes": [],
-          "offerKind": null
+          ]
         },
         {
           "id": "grill-burger-co-10",
@@ -1816,6 +1816,9 @@
           "isPopular": false,
           "isOffer": false,
           "offerPrice": null,
+          "isCombo": false,
+          "offerKind": null,
+          "comboIncludes": [],
           "spicyOption": true,
           "cashbackPercent": null,
           "addons": [
@@ -1844,10 +1847,7 @@
               "name": "صوص سبايسي",
               "price": 3
             }
-          ],
-          "isCombo": false,
-          "comboIncludes": [],
-          "offerKind": null
+          ]
         },
         {
           "id": "grill-burger-co-offer-1",
@@ -1906,7 +1906,7 @@
           "id": "grill-burger-co-offer-2",
           "restaurantId": "grill-burger-co",
           "name": "وجبة عائلية برجر لـ 4 أشخاص",
-          "description": "4 برجر مع إضافات ومشروبات. تكفي 4 أشخاص.",
+          "description": "4 برجر مع بطاطس عائلية وصوصات. تكفي 4 أشخاص.",
           "image": "/offers/4-burger.jpg",
           "price": 80,
           "rating": 4.6,
@@ -2014,20 +2014,20 @@
       "id": "cheese-stack",
       "name": "تشيز ستاك",
       "image": "https://images.unsplash.com/photo-1571091718767-18b5b1457add?w=800&q=80",
-      "rating": 4.6,
+      "rating": 4.5,
       "cuisine": "برجر",
-      "deliveryTime": "30–45 د",
-      "deliveryFee": 5,
+      "deliveryTime": "25–35 د",
+      "deliveryFee": 8,
       "minOrder": 45,
-      "distanceKm": 4.7,
+      "distanceKm": 1.9,
       "verified": true,
       "tags": [
         "برجر",
         "وجبات سريعة"
       ],
       "featured": null,
-      "open24h": null,
-      "fastDelivery": null,
+      "open24h": true,
+      "fastDelivery": true,
       "meals": [
         {
           "id": "cheese-stack-1",
@@ -2036,7 +2036,7 @@
           "description": "لحم أنجوس مع خس وطماطم.",
           "image": "https://images.unsplash.com/photo-1568901346375-23c9450c58cd?w=800&q=80",
           "price": 32,
-          "rating": 4.4,
+          "rating": 4.7,
           "calories": 640,
           "protein": 32,
           "carbs": 42,
@@ -2045,6 +2045,9 @@
           "isPopular": false,
           "isOffer": false,
           "offerPrice": null,
+          "isCombo": false,
+          "offerKind": null,
+          "comboIncludes": [],
           "spicyOption": false,
           "cashbackPercent": null,
           "addons": [
@@ -2073,10 +2076,7 @@
               "name": "صوص سبايسي",
               "price": 3
             }
-          ],
-          "isCombo": false,
-          "comboIncludes": [],
-          "offerKind": null
+          ]
         },
         {
           "id": "cheese-stack-2",
@@ -2085,7 +2085,7 @@
           "description": "شريحتان لحم مع جبنة ذائبة.",
           "image": "https://images.unsplash.com/photo-1553979459-d2229ba7433b?w=800&q=80",
           "price": 30,
-          "rating": 4.6,
+          "rating": 4.7,
           "calories": 820,
           "protein": 44,
           "carbs": 40,
@@ -2094,8 +2094,11 @@
           "isPopular": false,
           "isOffer": false,
           "offerPrice": null,
+          "isCombo": false,
+          "offerKind": null,
+          "comboIncludes": [],
           "spicyOption": false,
-          "cashbackPercent": 5,
+          "cashbackPercent": null,
           "addons": [
             {
               "id": "extra-cheese",
@@ -2122,10 +2125,7 @@
               "name": "صوص سبايسي",
               "price": 3
             }
-          ],
-          "isCombo": false,
-          "comboIncludes": [],
-          "offerKind": null
+          ]
         },
         {
           "id": "cheese-stack-3",
@@ -2134,7 +2134,7 @@
           "description": "دجاج مقرمش مع مايونيز حار.",
           "image": "https://images.unsplash.com/photo-1571091718767-18b5b1457add?w=800&q=80",
           "price": 30,
-          "rating": 4.6,
+          "rating": 4.7,
           "calories": 710,
           "protein": 28,
           "carbs": 48,
@@ -2143,6 +2143,9 @@
           "isPopular": false,
           "isOffer": false,
           "offerPrice": null,
+          "isCombo": false,
+          "offerKind": null,
+          "comboIncludes": [],
           "spicyOption": true,
           "cashbackPercent": null,
           "addons": [
@@ -2171,10 +2174,7 @@
               "name": "صوص سبايسي",
               "price": 3
             }
-          ],
-          "isCombo": false,
-          "comboIncludes": [],
-          "offerKind": null
+          ]
         },
         {
           "id": "cheese-stack-4",
@@ -2183,15 +2183,18 @@
           "description": "لحم مسحوق على الشواية.",
           "image": "https://images.unsplash.com/photo-1568901346375-23c9450c58cd?w=800&q=80",
           "price": 29,
-          "rating": 4.2,
+          "rating": 4.4,
           "calories": 690,
           "protein": 34,
           "carbs": 38,
           "fat": 40,
-          "category": "menu",
-          "isPopular": false,
+          "category": "popular",
+          "isPopular": true,
           "isOffer": false,
           "offerPrice": null,
+          "isCombo": false,
+          "offerKind": null,
+          "comboIncludes": [],
           "spicyOption": false,
           "cashbackPercent": null,
           "addons": [
@@ -2220,10 +2223,7 @@
               "name": "صوص سبايسي",
               "price": 3
             }
-          ],
-          "isCombo": false,
-          "comboIncludes": [],
-          "offerKind": null
+          ]
         },
         {
           "id": "cheese-stack-5",
@@ -2232,15 +2232,18 @@
           "description": "فطر وجبنة سويسرية.",
           "image": "https://images.unsplash.com/photo-1571091718767-18b5b1457add?w=800&q=80",
           "price": 30,
-          "rating": 4.3,
+          "rating": 4.5,
           "calories": 730,
           "protein": 30,
           "carbs": 40,
           "fat": 42,
-          "category": "menu",
-          "isPopular": false,
+          "category": "popular",
+          "isPopular": true,
           "isOffer": false,
           "offerPrice": null,
+          "isCombo": false,
+          "offerKind": null,
+          "comboIncludes": [],
           "spicyOption": false,
           "cashbackPercent": null,
           "addons": [
@@ -2269,10 +2272,7 @@
               "name": "صوص سبايسي",
               "price": 3
             }
-          ],
-          "isCombo": false,
-          "comboIncludes": [],
-          "offerKind": null
+          ]
         },
         {
           "id": "cheese-stack-6",
@@ -2281,15 +2281,18 @@
           "description": "لحم مع بيكون مقرمش.",
           "image": "https://images.unsplash.com/photo-1568901346375-23c9450c58cd?w=800&q=80",
           "price": 30,
-          "rating": 4.4,
+          "rating": 4.8,
           "calories": 860,
           "protein": 38,
           "carbs": 36,
           "fat": 52,
-          "category": "popular",
-          "isPopular": true,
+          "category": "menu",
+          "isPopular": false,
           "isOffer": false,
           "offerPrice": null,
+          "isCombo": false,
+          "offerKind": null,
+          "comboIncludes": [],
           "spicyOption": false,
           "cashbackPercent": null,
           "addons": [
@@ -2318,10 +2321,7 @@
               "name": "صوص سبايسي",
               "price": 3
             }
-          ],
-          "isCombo": false,
-          "comboIncludes": [],
-          "offerKind": null
+          ]
         },
         {
           "id": "cheese-stack-7",
@@ -2335,10 +2335,13 @@
           "protein": 6,
           "carbs": 55,
           "fat": 24,
-          "category": "menu",
-          "isPopular": false,
+          "category": "popular",
+          "isPopular": true,
           "isOffer": false,
           "offerPrice": null,
+          "isCombo": false,
+          "offerKind": null,
+          "comboIncludes": [],
           "spicyOption": false,
           "cashbackPercent": null,
           "addons": [
@@ -2367,10 +2370,7 @@
               "name": "صوص سبايسي",
               "price": 3
             }
-          ],
-          "isCombo": false,
-          "comboIncludes": [],
-          "offerKind": null
+          ]
         },
         {
           "id": "cheese-stack-8",
@@ -2379,15 +2379,18 @@
           "description": "باتي نباتي مع أفوكادو.",
           "image": "https://images.unsplash.com/photo-1568901346375-23c9450c58cd?w=800&q=80",
           "price": 30,
-          "rating": 4.9,
+          "rating": 4.4,
           "calories": 580,
           "protein": 22,
           "carbs": 48,
           "fat": 26,
-          "category": "popular",
-          "isPopular": true,
+          "category": "menu",
+          "isPopular": false,
           "isOffer": false,
           "offerPrice": null,
+          "isCombo": false,
+          "offerKind": null,
+          "comboIncludes": [],
           "spicyOption": false,
           "cashbackPercent": null,
           "addons": [
@@ -2416,10 +2419,7 @@
               "name": "صوص سبايسي",
               "price": 3
             }
-          ],
-          "isCombo": false,
-          "comboIncludes": [],
-          "offerKind": null
+          ]
         },
         {
           "id": "cheese-stack-9",
@@ -2428,15 +2428,18 @@
           "description": "ثلاث شرائح لحم للعشاق.",
           "image": "https://images.unsplash.com/photo-1571091718767-18b5b1457add?w=800&q=80",
           "price": 30,
-          "rating": 4.8,
+          "rating": 4.5,
           "calories": 1100,
           "protein": 58,
           "carbs": 42,
           "fat": 68,
-          "category": "popular",
-          "isPopular": true,
+          "category": "menu",
+          "isPopular": false,
           "isOffer": false,
           "offerPrice": null,
+          "isCombo": false,
+          "offerKind": null,
+          "comboIncludes": [],
           "spicyOption": false,
           "cashbackPercent": null,
           "addons": [
@@ -2465,10 +2468,7 @@
               "name": "صوص سبايسي",
               "price": 3
             }
-          ],
-          "isCombo": false,
-          "comboIncludes": [],
-          "offerKind": null
+          ]
         },
         {
           "id": "cheese-stack-10",
@@ -2486,6 +2486,9 @@
           "isPopular": true,
           "isOffer": false,
           "offerPrice": null,
+          "isCombo": false,
+          "offerKind": null,
+          "comboIncludes": [],
           "spicyOption": true,
           "cashbackPercent": null,
           "addons": [
@@ -2514,10 +2517,7 @@
               "name": "صوص سبايسي",
               "price": 3
             }
-          ],
-          "isCombo": false,
-          "comboIncludes": [],
-          "offerKind": null
+          ]
         },
         {
           "id": "cheese-stack-offer-1",
@@ -2576,7 +2576,7 @@
           "id": "cheese-stack-offer-2",
           "restaurantId": "cheese-stack",
           "name": "وجبة عائلية برجر لـ 5 أشخاص",
-          "description": "5 برجر مع إضافات ومشروبات. تكفي 5 أشخاص.",
+          "description": "5 برجر مع بطاطس عائلية وصوصات. تكفي 5 أشخاص.",
           "image": "/offers/5-burger.jpg",
           "price": 82,
           "rating": 4.6,
@@ -2684,20 +2684,20 @@
       "id": "fire-patty",
       "name": "فاير باتي",
       "image": "https://images.unsplash.com/photo-1551782450-a2132b4ba21d?w=800&q=80",
-      "rating": 4.2,
+      "rating": 4.5,
       "cuisine": "برجر",
-      "deliveryTime": "30–45 د",
+      "deliveryTime": "35–50 د",
       "deliveryFee": 8,
       "minOrder": 35,
-      "distanceKm": 5.5,
+      "distanceKm": 2.5,
       "verified": true,
       "tags": [
         "برجر",
         "وجبات سريعة"
       ],
-      "featured": null,
+      "featured": true,
       "open24h": null,
-      "fastDelivery": true,
+      "fastDelivery": null,
       "meals": [
         {
           "id": "fire-patty-1",
@@ -2706,7 +2706,7 @@
           "description": "لحم أنجوس مع خس وطماطم.",
           "image": "https://images.unsplash.com/photo-1568901346375-23c9450c58cd?w=800&q=80",
           "price": 32,
-          "rating": 4.2,
+          "rating": 4.8,
           "calories": 640,
           "protein": 32,
           "carbs": 42,
@@ -2715,8 +2715,11 @@
           "isPopular": false,
           "isOffer": false,
           "offerPrice": null,
+          "isCombo": false,
+          "offerKind": null,
+          "comboIncludes": [],
           "spicyOption": false,
-          "cashbackPercent": 5,
+          "cashbackPercent": null,
           "addons": [
             {
               "id": "extra-cheese",
@@ -2743,10 +2746,7 @@
               "name": "صوص سبايسي",
               "price": 3
             }
-          ],
-          "isCombo": false,
-          "comboIncludes": [],
-          "offerKind": null
+          ]
         },
         {
           "id": "fire-patty-2",
@@ -2755,15 +2755,18 @@
           "description": "شريحتان لحم مع جبنة ذائبة.",
           "image": "https://images.unsplash.com/photo-1553979459-d2229ba7433b?w=800&q=80",
           "price": 30,
-          "rating": 4.4,
+          "rating": 4.6,
           "calories": 820,
           "protein": 44,
           "carbs": 40,
           "fat": 48,
-          "category": "menu",
-          "isPopular": false,
+          "category": "popular",
+          "isPopular": true,
           "isOffer": false,
           "offerPrice": null,
+          "isCombo": false,
+          "offerKind": null,
+          "comboIncludes": [],
           "spicyOption": false,
           "cashbackPercent": null,
           "addons": [
@@ -2792,10 +2795,7 @@
               "name": "صوص سبايسي",
               "price": 3
             }
-          ],
-          "isCombo": false,
-          "comboIncludes": [],
-          "offerKind": null
+          ]
         },
         {
           "id": "fire-patty-3",
@@ -2804,7 +2804,7 @@
           "description": "دجاج مقرمش مع مايونيز حار.",
           "image": "https://images.unsplash.com/photo-1571091718767-18b5b1457add?w=800&q=80",
           "price": 30,
-          "rating": 4.7,
+          "rating": 4.3,
           "calories": 710,
           "protein": 28,
           "carbs": 48,
@@ -2813,8 +2813,11 @@
           "isPopular": false,
           "isOffer": false,
           "offerPrice": null,
+          "isCombo": false,
+          "offerKind": null,
+          "comboIncludes": [],
           "spicyOption": true,
-          "cashbackPercent": 5,
+          "cashbackPercent": null,
           "addons": [
             {
               "id": "extra-cheese",
@@ -2841,10 +2844,7 @@
               "name": "صوص سبايسي",
               "price": 3
             }
-          ],
-          "isCombo": false,
-          "comboIncludes": [],
-          "offerKind": null
+          ]
         },
         {
           "id": "fire-patty-4",
@@ -2853,7 +2853,7 @@
           "description": "لحم مسحوق على الشواية.",
           "image": "https://images.unsplash.com/photo-1568901346375-23c9450c58cd?w=800&q=80",
           "price": 29,
-          "rating": 4.9,
+          "rating": 4.7,
           "calories": 690,
           "protein": 34,
           "carbs": 38,
@@ -2862,6 +2862,9 @@
           "isPopular": true,
           "isOffer": false,
           "offerPrice": null,
+          "isCombo": false,
+          "offerKind": null,
+          "comboIncludes": [],
           "spicyOption": false,
           "cashbackPercent": null,
           "addons": [
@@ -2890,10 +2893,7 @@
               "name": "صوص سبايسي",
               "price": 3
             }
-          ],
-          "isCombo": false,
-          "comboIncludes": [],
-          "offerKind": null
+          ]
         },
         {
           "id": "fire-patty-5",
@@ -2902,15 +2902,18 @@
           "description": "فطر وجبنة سويسرية.",
           "image": "https://images.unsplash.com/photo-1553979459-d2229ba7433b?w=800&q=80",
           "price": 30,
-          "rating": 4.7,
+          "rating": 4.4,
           "calories": 730,
           "protein": 30,
           "carbs": 40,
           "fat": 42,
-          "category": "menu",
-          "isPopular": false,
+          "category": "popular",
+          "isPopular": true,
           "isOffer": false,
           "offerPrice": null,
+          "isCombo": false,
+          "offerKind": null,
+          "comboIncludes": [],
           "spicyOption": false,
           "cashbackPercent": null,
           "addons": [
@@ -2939,10 +2942,7 @@
               "name": "صوص سبايسي",
               "price": 3
             }
-          ],
-          "isCombo": false,
-          "comboIncludes": [],
-          "offerKind": null
+          ]
         },
         {
           "id": "fire-patty-6",
@@ -2951,15 +2951,18 @@
           "description": "لحم مع بيكون مقرمش.",
           "image": "https://images.unsplash.com/photo-1568901346375-23c9450c58cd?w=800&q=80",
           "price": 30,
-          "rating": 4.6,
+          "rating": 4.4,
           "calories": 860,
           "protein": 38,
           "carbs": 36,
           "fat": 52,
-          "category": "popular",
-          "isPopular": true,
+          "category": "menu",
+          "isPopular": false,
           "isOffer": false,
           "offerPrice": null,
+          "isCombo": false,
+          "offerKind": null,
+          "comboIncludes": [],
           "spicyOption": false,
           "cashbackPercent": null,
           "addons": [
@@ -2988,10 +2991,7 @@
               "name": "صوص سبايسي",
               "price": 3
             }
-          ],
-          "isCombo": false,
-          "comboIncludes": [],
-          "offerKind": null
+          ]
         },
         {
           "id": "fire-patty-7",
@@ -3009,6 +3009,9 @@
           "isPopular": false,
           "isOffer": false,
           "offerPrice": null,
+          "isCombo": false,
+          "offerKind": null,
+          "comboIncludes": [],
           "spicyOption": false,
           "cashbackPercent": null,
           "addons": [
@@ -3037,10 +3040,7 @@
               "name": "صوص سبايسي",
               "price": 3
             }
-          ],
-          "isCombo": false,
-          "comboIncludes": [],
-          "offerKind": null
+          ]
         },
         {
           "id": "fire-patty-8",
@@ -3049,64 +3049,18 @@
           "description": "باتي نباتي مع أفوكادو.",
           "image": "https://images.unsplash.com/photo-1568901346375-23c9450c58cd?w=800&q=80",
           "price": 30,
-          "rating": 4.4,
+          "rating": 4.8,
           "calories": 580,
           "protein": 22,
           "carbs": 48,
           "fat": 26,
-          "category": "menu",
-          "isPopular": false,
+          "category": "popular",
+          "isPopular": true,
           "isOffer": false,
           "offerPrice": null,
-          "spicyOption": false,
-          "cashbackPercent": 15,
-          "addons": [
-            {
-              "id": "extra-cheese",
-              "name": "جبنة إضافية",
-              "price": 5
-            },
-            {
-              "id": "bacon",
-              "name": "بيكون",
-              "price": 8
-            },
-            {
-              "id": "large-fries",
-              "name": "بطاطس كبيرة",
-              "price": 10
-            },
-            {
-              "id": "cola",
-              "name": "كولا",
-              "price": 6
-            },
-            {
-              "id": "spicy-sauce",
-              "name": "صوص سبايسي",
-              "price": 3
-            }
-          ],
           "isCombo": false,
+          "offerKind": null,
           "comboIncludes": [],
-          "offerKind": null
-        },
-        {
-          "id": "fire-patty-9",
-          "restaurantId": "fire-patty",
-          "name": "تريبل ستاك",
-          "description": "ثلاث شرائح لحم للعشاق.",
-          "image": "https://images.unsplash.com/photo-1553979459-d2229ba7433b?w=800&q=80",
-          "price": 30,
-          "rating": 4.5,
-          "calories": 1100,
-          "protein": 58,
-          "carbs": 42,
-          "fat": 68,
-          "category": "menu",
-          "isPopular": false,
-          "isOffer": false,
-          "offerPrice": null,
           "spicyOption": false,
           "cashbackPercent": null,
           "addons": [
@@ -3135,10 +3089,56 @@
               "name": "صوص سبايسي",
               "price": 3
             }
-          ],
+          ]
+        },
+        {
+          "id": "fire-patty-9",
+          "restaurantId": "fire-patty",
+          "name": "تريبل ستاك",
+          "description": "ثلاث شرائح لحم للعشاق.",
+          "image": "https://images.unsplash.com/photo-1553979459-d2229ba7433b?w=800&q=80",
+          "price": 30,
+          "rating": 4.8,
+          "calories": 1100,
+          "protein": 58,
+          "carbs": 42,
+          "fat": 68,
+          "category": "popular",
+          "isPopular": true,
+          "isOffer": false,
+          "offerPrice": null,
           "isCombo": false,
+          "offerKind": null,
           "comboIncludes": [],
-          "offerKind": null
+          "spicyOption": false,
+          "cashbackPercent": null,
+          "addons": [
+            {
+              "id": "extra-cheese",
+              "name": "جبنة إضافية",
+              "price": 5
+            },
+            {
+              "id": "bacon",
+              "name": "بيكون",
+              "price": 8
+            },
+            {
+              "id": "large-fries",
+              "name": "بطاطس كبيرة",
+              "price": 10
+            },
+            {
+              "id": "cola",
+              "name": "كولا",
+              "price": 6
+            },
+            {
+              "id": "spicy-sauce",
+              "name": "صوص سبايسي",
+              "price": 3
+            }
+          ]
         },
         {
           "id": "fire-patty-10",
@@ -3147,7 +3147,7 @@
           "description": "دجاج حار مع رانش.",
           "image": "https://images.unsplash.com/photo-1568901346375-23c9450c58cd?w=800&q=80",
           "price": 29,
-          "rating": 4.5,
+          "rating": 4.6,
           "calories": 750,
           "protein": 30,
           "carbs": 46,
@@ -3156,6 +3156,9 @@
           "isPopular": true,
           "isOffer": false,
           "offerPrice": null,
+          "isCombo": false,
+          "offerKind": null,
+          "comboIncludes": [],
           "spicyOption": true,
           "cashbackPercent": null,
           "addons": [
@@ -3184,10 +3187,7 @@
               "name": "صوص سبايسي",
               "price": 3
             }
-          ],
-          "isCombo": false,
-          "comboIncludes": [],
-          "offerKind": null
+          ]
         },
         {
           "id": "fire-patty-offer-1",
@@ -3246,7 +3246,7 @@
           "id": "fire-patty-offer-2",
           "restaurantId": "fire-patty",
           "name": "وجبة عائلية برجر لـ 6 أشخاص",
-          "description": "6 برجر مع إضافات ومشروبات. تكفي 6 أشخاص.",
+          "description": "6 برجر مع بطاطس عائلية وصوصات. تكفي 6 أشخاص.",
           "image": "/offers/6-burgers.jpg",
           "price": 82,
           "rating": 4.6,
@@ -3354,18 +3354,18 @@
       "id": "urban-bun",
       "name": "أوربان بان",
       "image": "https://images.unsplash.com/photo-1568901346375-23c9450c58cd?w=800&q=80",
-      "rating": 4.4,
+      "rating": 4.3,
       "cuisine": "برجر",
-      "deliveryTime": "35–50 د",
+      "deliveryTime": "30–45 د",
       "deliveryFee": 8,
-      "minOrder": 50,
-      "distanceKm": 3.1,
+      "minOrder": 30,
+      "distanceKm": 4,
       "verified": true,
       "tags": [
         "برجر",
         "وجبات سريعة"
       ],
-      "featured": true,
+      "featured": null,
       "open24h": null,
       "fastDelivery": null,
       "meals": [
@@ -3376,15 +3376,18 @@
           "description": "لحم أنجوس مع خس وطماطم.",
           "image": "https://images.unsplash.com/photo-1568901346375-23c9450c58cd?w=800&q=80",
           "price": 32,
-          "rating": 4.5,
+          "rating": 4.4,
           "calories": 640,
           "protein": 32,
           "carbs": 42,
           "fat": 34,
-          "category": "menu",
-          "isPopular": false,
+          "category": "popular",
+          "isPopular": true,
           "isOffer": false,
           "offerPrice": null,
+          "isCombo": false,
+          "offerKind": null,
+          "comboIncludes": [],
           "spicyOption": false,
           "cashbackPercent": null,
           "addons": [
@@ -3413,10 +3416,7 @@
               "name": "صوص سبايسي",
               "price": 3
             }
-          ],
-          "isCombo": false,
-          "comboIncludes": [],
-          "offerKind": null
+          ]
         },
         {
           "id": "urban-bun-2",
@@ -3425,15 +3425,18 @@
           "description": "شريحتان لحم مع جبنة ذائبة.",
           "image": "https://images.unsplash.com/photo-1553979459-d2229ba7433b?w=800&q=80",
           "price": 30,
-          "rating": 4.6,
+          "rating": 4.7,
           "calories": 820,
           "protein": 44,
           "carbs": 40,
           "fat": 48,
-          "category": "menu",
-          "isPopular": false,
+          "category": "popular",
+          "isPopular": true,
           "isOffer": false,
           "offerPrice": null,
+          "isCombo": false,
+          "offerKind": null,
+          "comboIncludes": [],
           "spicyOption": false,
           "cashbackPercent": null,
           "addons": [
@@ -3462,10 +3465,7 @@
               "name": "صوص سبايسي",
               "price": 3
             }
-          ],
-          "isCombo": false,
-          "comboIncludes": [],
-          "offerKind": null
+          ]
         },
         {
           "id": "urban-bun-3",
@@ -3474,15 +3474,18 @@
           "description": "دجاج مقرمش مع مايونيز حار.",
           "image": "https://images.unsplash.com/photo-1571091718767-18b5b1457add?w=800&q=80",
           "price": 30,
-          "rating": 4.7,
+          "rating": 4.6,
           "calories": 710,
           "protein": 28,
           "carbs": 48,
           "fat": 36,
-          "category": "menu",
-          "isPopular": false,
+          "category": "popular",
+          "isPopular": true,
           "isOffer": false,
           "offerPrice": null,
+          "isCombo": false,
+          "offerKind": null,
+          "comboIncludes": [],
           "spicyOption": true,
           "cashbackPercent": null,
           "addons": [
@@ -3511,10 +3514,7 @@
               "name": "صوص سبايسي",
               "price": 3
             }
-          ],
-          "isCombo": false,
-          "comboIncludes": [],
-          "offerKind": null
+          ]
         },
         {
           "id": "urban-bun-4",
@@ -3523,7 +3523,7 @@
           "description": "لحم مسحوق على الشواية.",
           "image": "https://images.unsplash.com/photo-1568901346375-23c9450c58cd?w=800&q=80",
           "price": 29,
-          "rating": 4.5,
+          "rating": 4.7,
           "calories": 690,
           "protein": 34,
           "carbs": 38,
@@ -3532,8 +3532,11 @@
           "isPopular": false,
           "isOffer": false,
           "offerPrice": null,
+          "isCombo": false,
+          "offerKind": null,
+          "comboIncludes": [],
           "spicyOption": false,
-          "cashbackPercent": 15,
+          "cashbackPercent": null,
           "addons": [
             {
               "id": "extra-cheese",
@@ -3560,10 +3563,7 @@
               "name": "صوص سبايسي",
               "price": 3
             }
-          ],
-          "isCombo": false,
-          "comboIncludes": [],
-          "offerKind": null
+          ]
         },
         {
           "id": "urban-bun-5",
@@ -3577,10 +3577,13 @@
           "protein": 30,
           "carbs": 40,
           "fat": 42,
-          "category": "popular",
-          "isPopular": true,
+          "category": "menu",
+          "isPopular": false,
           "isOffer": false,
           "offerPrice": null,
+          "isCombo": false,
+          "offerKind": null,
+          "comboIncludes": [],
           "spicyOption": false,
           "cashbackPercent": null,
           "addons": [
@@ -3609,10 +3612,7 @@
               "name": "صوص سبايسي",
               "price": 3
             }
-          ],
-          "isCombo": false,
-          "comboIncludes": [],
-          "offerKind": null
+          ]
         },
         {
           "id": "urban-bun-6",
@@ -3621,15 +3621,18 @@
           "description": "لحم مع بيكون مقرمش.",
           "image": "https://images.unsplash.com/photo-1568901346375-23c9450c58cd?w=800&q=80",
           "price": 30,
-          "rating": 4.6,
+          "rating": 4.4,
           "calories": 860,
           "protein": 38,
           "carbs": 36,
           "fat": 52,
-          "category": "menu",
-          "isPopular": false,
+          "category": "popular",
+          "isPopular": true,
           "isOffer": false,
           "offerPrice": null,
+          "isCombo": false,
+          "offerKind": null,
+          "comboIncludes": [],
           "spicyOption": false,
           "cashbackPercent": null,
           "addons": [
@@ -3658,10 +3661,7 @@
               "name": "صوص سبايسي",
               "price": 3
             }
-          ],
-          "isCombo": false,
-          "comboIncludes": [],
-          "offerKind": null
+          ]
         },
         {
           "id": "urban-bun-7",
@@ -3670,15 +3670,18 @@
           "description": "بطاطس مقلية مع صوص.",
           "image": "https://images.unsplash.com/photo-1573080496219-bb080dd4f877?w=800&q=80",
           "price": 16,
-          "rating": 4.8,
+          "rating": 4.2,
           "calories": 480,
           "protein": 6,
           "carbs": 55,
           "fat": 24,
-          "category": "menu",
-          "isPopular": false,
+          "category": "popular",
+          "isPopular": true,
           "isOffer": false,
           "offerPrice": null,
+          "isCombo": false,
+          "offerKind": null,
+          "comboIncludes": [],
           "spicyOption": false,
           "cashbackPercent": null,
           "addons": [
@@ -3707,10 +3710,7 @@
               "name": "صوص سبايسي",
               "price": 3
             }
-          ],
-          "isCombo": false,
-          "comboIncludes": [],
-          "offerKind": null
+          ]
         },
         {
           "id": "urban-bun-8",
@@ -3719,15 +3719,18 @@
           "description": "باتي نباتي مع أفوكادو.",
           "image": "https://images.unsplash.com/photo-1568901346375-23c9450c58cd?w=800&q=80",
           "price": 30,
-          "rating": 4.4,
+          "rating": 4.9,
           "calories": 580,
           "protein": 22,
           "carbs": 48,
           "fat": 26,
-          "category": "popular",
-          "isPopular": true,
+          "category": "menu",
+          "isPopular": false,
           "isOffer": false,
           "offerPrice": null,
+          "isCombo": false,
+          "offerKind": null,
+          "comboIncludes": [],
           "spicyOption": false,
           "cashbackPercent": null,
           "addons": [
@@ -3756,10 +3759,7 @@
               "name": "صوص سبايسي",
               "price": 3
             }
-          ],
-          "isCombo": false,
-          "comboIncludes": [],
-          "offerKind": null
+          ]
         },
         {
           "id": "urban-bun-9",
@@ -3768,15 +3768,18 @@
           "description": "ثلاث شرائح لحم للعشاق.",
           "image": "https://images.unsplash.com/photo-1568901346375-23c9450c58cd?w=800&q=80",
           "price": 30,
-          "rating": 4.1,
+          "rating": 4.2,
           "calories": 1100,
           "protein": 58,
           "carbs": 42,
           "fat": 68,
-          "category": "menu",
-          "isPopular": false,
+          "category": "popular",
+          "isPopular": true,
           "isOffer": false,
           "offerPrice": null,
+          "isCombo": false,
+          "offerKind": null,
+          "comboIncludes": [],
           "spicyOption": false,
           "cashbackPercent": null,
           "addons": [
@@ -3805,10 +3808,7 @@
               "name": "صوص سبايسي",
               "price": 3
             }
-          ],
-          "isCombo": false,
-          "comboIncludes": [],
-          "offerKind": null
+          ]
         },
         {
           "id": "urban-bun-10",
@@ -3817,15 +3817,18 @@
           "description": "دجاج حار مع رانش.",
           "image": "https://images.unsplash.com/photo-1553979459-d2229ba7433b?w=800&q=80",
           "price": 29,
-          "rating": 4.1,
+          "rating": 4.2,
           "calories": 750,
           "protein": 30,
           "carbs": 46,
           "fat": 38,
-          "category": "popular",
-          "isPopular": true,
+          "category": "menu",
+          "isPopular": false,
           "isOffer": false,
           "offerPrice": null,
+          "isCombo": false,
+          "offerKind": null,
+          "comboIncludes": [],
           "spicyOption": true,
           "cashbackPercent": null,
           "addons": [
@@ -3854,10 +3857,7 @@
               "name": "صوص سبايسي",
               "price": 3
             }
-          ],
-          "isCombo": false,
-          "comboIncludes": [],
-          "offerKind": null
+          ]
         },
         {
           "id": "urban-bun-offer-1",
@@ -3916,7 +3916,7 @@
           "id": "urban-bun-offer-2",
           "restaurantId": "urban-bun",
           "name": "وجبة عائلية برجر لـ 3 أشخاص",
-          "description": "3 برجر مع إضافات ومشروبات. تكفي 3 أشخاص.",
+          "description": "3 برجر مع بطاطس عائلية وصوصات. تكفي 3 أشخاص.",
           "image": "/offers/3-burger.webp",
           "price": 64,
           "rating": 4.6,
@@ -4024,13 +4024,13 @@
       "id": "double-deck",
       "name": "دبل ديك",
       "image": "https://images.unsplash.com/photo-1551782450-a2132b4ba21d?w=800&q=80",
-      "rating": 4.2,
+      "rating": 4.8,
       "cuisine": "برجر",
-      "deliveryTime": "40–55 د",
-      "deliveryFee": 6,
-      "minOrder": 25,
-      "distanceKm": 1.1,
-      "verified": true,
+      "deliveryTime": "35–50 د",
+      "deliveryFee": 12,
+      "minOrder": 45,
+      "distanceKm": 0.9,
+      "verified": null,
       "tags": [
         "برجر",
         "وجبات سريعة"
@@ -4046,15 +4046,18 @@
           "description": "لحم أنجوس مع خس وطماطم.",
           "image": "https://images.unsplash.com/photo-1568901346375-23c9450c58cd?w=800&q=80",
           "price": 32,
-          "rating": 4.3,
+          "rating": 4.5,
           "calories": 640,
           "protein": 32,
           "carbs": 42,
           "fat": 34,
-          "category": "popular",
-          "isPopular": true,
+          "category": "menu",
+          "isPopular": false,
           "isOffer": false,
           "offerPrice": null,
+          "isCombo": false,
+          "offerKind": null,
+          "comboIncludes": [],
           "spicyOption": false,
           "cashbackPercent": null,
           "addons": [
@@ -4083,10 +4086,7 @@
               "name": "صوص سبايسي",
               "price": 3
             }
-          ],
-          "isCombo": false,
-          "comboIncludes": [],
-          "offerKind": null
+          ]
         },
         {
           "id": "double-deck-2",
@@ -4095,15 +4095,18 @@
           "description": "شريحتان لحم مع جبنة ذائبة.",
           "image": "https://images.unsplash.com/photo-1553979459-d2229ba7433b?w=800&q=80",
           "price": 30,
-          "rating": 4.7,
+          "rating": 4.6,
           "calories": 820,
           "protein": 44,
           "carbs": 40,
           "fat": 48,
-          "category": "menu",
-          "isPopular": false,
+          "category": "popular",
+          "isPopular": true,
           "isOffer": false,
           "offerPrice": null,
+          "isCombo": false,
+          "offerKind": null,
+          "comboIncludes": [],
           "spicyOption": false,
           "cashbackPercent": null,
           "addons": [
@@ -4132,10 +4135,7 @@
               "name": "صوص سبايسي",
               "price": 3
             }
-          ],
-          "isCombo": false,
-          "comboIncludes": [],
-          "offerKind": null
+          ]
         },
         {
           "id": "double-deck-3",
@@ -4144,15 +4144,18 @@
           "description": "دجاج مقرمش مع مايونيز حار.",
           "image": "https://images.unsplash.com/photo-1571091718767-18b5b1457add?w=800&q=80",
           "price": 30,
-          "rating": 4.6,
+          "rating": 4.9,
           "calories": 710,
           "protein": 28,
           "carbs": 48,
           "fat": 36,
-          "category": "menu",
-          "isPopular": false,
+          "category": "popular",
+          "isPopular": true,
           "isOffer": false,
           "offerPrice": null,
+          "isCombo": false,
+          "offerKind": null,
+          "comboIncludes": [],
           "spicyOption": true,
           "cashbackPercent": null,
           "addons": [
@@ -4181,10 +4184,7 @@
               "name": "صوص سبايسي",
               "price": 3
             }
-          ],
-          "isCombo": false,
-          "comboIncludes": [],
-          "offerKind": null
+          ]
         },
         {
           "id": "double-deck-4",
@@ -4193,7 +4193,7 @@
           "description": "لحم مسحوق على الشواية.",
           "image": "https://images.unsplash.com/photo-1568901346375-23c9450c58cd?w=800&q=80",
           "price": 29,
-          "rating": 4.3,
+          "rating": 4.6,
           "calories": 690,
           "protein": 34,
           "carbs": 38,
@@ -4202,6 +4202,9 @@
           "isPopular": true,
           "isOffer": false,
           "offerPrice": null,
+          "isCombo": false,
+          "offerKind": null,
+          "comboIncludes": [],
           "spicyOption": false,
           "cashbackPercent": null,
           "addons": [
@@ -4230,10 +4233,7 @@
               "name": "صوص سبايسي",
               "price": 3
             }
-          ],
-          "isCombo": false,
-          "comboIncludes": [],
-          "offerKind": null
+          ]
         },
         {
           "id": "double-deck-5",
@@ -4242,15 +4242,18 @@
           "description": "فطر وجبنة سويسرية.",
           "image": "https://images.unsplash.com/photo-1573080496219-bb080dd4f877?w=800&q=80",
           "price": 30,
-          "rating": 4.2,
+          "rating": 4.6,
           "calories": 730,
           "protein": 30,
           "carbs": 40,
           "fat": 42,
-          "category": "menu",
-          "isPopular": false,
+          "category": "popular",
+          "isPopular": true,
           "isOffer": false,
           "offerPrice": null,
+          "isCombo": false,
+          "offerKind": null,
+          "comboIncludes": [],
           "spicyOption": false,
           "cashbackPercent": null,
           "addons": [
@@ -4279,10 +4282,7 @@
               "name": "صوص سبايسي",
               "price": 3
             }
-          ],
-          "isCombo": false,
-          "comboIncludes": [],
-          "offerKind": null
+          ]
         },
         {
           "id": "double-deck-6",
@@ -4291,7 +4291,7 @@
           "description": "لحم مع بيكون مقرمش.",
           "image": "https://images.unsplash.com/photo-1568901346375-23c9450c58cd?w=800&q=80",
           "price": 30,
-          "rating": 4.9,
+          "rating": 4.7,
           "calories": 860,
           "protein": 38,
           "carbs": 36,
@@ -4300,8 +4300,11 @@
           "isPopular": false,
           "isOffer": false,
           "offerPrice": null,
+          "isCombo": false,
+          "offerKind": null,
+          "comboIncludes": [],
           "spicyOption": false,
-          "cashbackPercent": 15,
+          "cashbackPercent": null,
           "addons": [
             {
               "id": "extra-cheese",
@@ -4328,10 +4331,7 @@
               "name": "صوص سبايسي",
               "price": 3
             }
-          ],
-          "isCombo": false,
-          "comboIncludes": [],
-          "offerKind": null
+          ]
         },
         {
           "id": "double-deck-7",
@@ -4349,6 +4349,9 @@
           "isPopular": false,
           "isOffer": false,
           "offerPrice": null,
+          "isCombo": false,
+          "offerKind": null,
+          "comboIncludes": [],
           "spicyOption": false,
           "cashbackPercent": null,
           "addons": [
@@ -4377,10 +4380,7 @@
               "name": "صوص سبايسي",
               "price": 3
             }
-          ],
-          "isCombo": false,
-          "comboIncludes": [],
-          "offerKind": null
+          ]
         },
         {
           "id": "double-deck-8",
@@ -4389,15 +4389,18 @@
           "description": "باتي نباتي مع أفوكادو.",
           "image": "https://images.unsplash.com/photo-1568901346375-23c9450c58cd?w=800&q=80",
           "price": 30,
-          "rating": 4.9,
+          "rating": 4.6,
           "calories": 580,
           "protein": 22,
           "carbs": 48,
           "fat": 26,
-          "category": "menu",
-          "isPopular": false,
+          "category": "popular",
+          "isPopular": true,
           "isOffer": false,
           "offerPrice": null,
+          "isCombo": false,
+          "offerKind": null,
+          "comboIncludes": [],
           "spicyOption": false,
           "cashbackPercent": null,
           "addons": [
@@ -4426,10 +4429,7 @@
               "name": "صوص سبايسي",
               "price": 3
             }
-          ],
-          "isCombo": false,
-          "comboIncludes": [],
-          "offerKind": null
+          ]
         },
         {
           "id": "double-deck-9",
@@ -4438,7 +4438,7 @@
           "description": "ثلاث شرائح لحم للعشاق.",
           "image": "https://images.unsplash.com/photo-1573080496219-bb080dd4f877?w=800&q=80",
           "price": 30,
-          "rating": 4.3,
+          "rating": 4.2,
           "calories": 1100,
           "protein": 58,
           "carbs": 42,
@@ -4447,6 +4447,9 @@
           "isPopular": false,
           "isOffer": false,
           "offerPrice": null,
+          "isCombo": false,
+          "offerKind": null,
+          "comboIncludes": [],
           "spicyOption": false,
           "cashbackPercent": null,
           "addons": [
@@ -4475,10 +4478,7 @@
               "name": "صوص سبايسي",
               "price": 3
             }
-          ],
-          "isCombo": false,
-          "comboIncludes": [],
-          "offerKind": null
+          ]
         },
         {
           "id": "double-deck-10",
@@ -4487,7 +4487,7 @@
           "description": "دجاج حار مع رانش.",
           "image": "https://images.unsplash.com/photo-1568901346375-23c9450c58cd?w=800&q=80",
           "price": 29,
-          "rating": 4.6,
+          "rating": 4.7,
           "calories": 750,
           "protein": 30,
           "carbs": 46,
@@ -4496,6 +4496,9 @@
           "isPopular": false,
           "isOffer": false,
           "offerPrice": null,
+          "isCombo": false,
+          "offerKind": null,
+          "comboIncludes": [],
           "spicyOption": true,
           "cashbackPercent": null,
           "addons": [
@@ -4524,10 +4527,7 @@
               "name": "صوص سبايسي",
               "price": 3
             }
-          ],
-          "isCombo": false,
-          "comboIncludes": [],
-          "offerKind": null
+          ]
         },
         {
           "id": "double-deck-offer-1",
@@ -4586,7 +4586,7 @@
           "id": "double-deck-offer-2",
           "restaurantId": "double-deck",
           "name": "وجبة عائلية برجر لـ 6 أشخاص",
-          "description": "6 برجر مع إضافات ومشروبات. تكفي 6 أشخاص.",
+          "description": "6 برجر مع بطاطس عائلية وصوصات. تكفي 6 أشخاص.",
           "image": "/offers/6-burgers.jpg",
           "price": 82,
           "rating": 4.6,
@@ -4694,19 +4694,19 @@
       "id": "crispy-yard",
       "name": "كريسبي يارد",
       "image": "https://images.unsplash.com/photo-1551782450-a2132b4ba21d?w=800&q=80",
-      "rating": 4.4,
+      "rating": 4.5,
       "cuisine": "برجر",
-      "deliveryTime": "35–50 د",
-      "deliveryFee": 10,
-      "minOrder": 40,
-      "distanceKm": 3.4,
-      "verified": null,
+      "deliveryTime": "30–45 د",
+      "deliveryFee": 6,
+      "minOrder": 30,
+      "distanceKm": 2.6,
+      "verified": true,
       "tags": [
         "برجر",
         "وجبات سريعة"
       ],
       "featured": null,
-      "open24h": true,
+      "open24h": null,
       "fastDelivery": null,
       "meals": [
         {
@@ -4716,15 +4716,18 @@
           "description": "لحم أنجوس مع خس وطماطم.",
           "image": "https://images.unsplash.com/photo-1568901346375-23c9450c58cd?w=800&q=80",
           "price": 32,
-          "rating": 4.9,
+          "rating": 4.8,
           "calories": 640,
           "protein": 32,
           "carbs": 42,
           "fat": 34,
-          "category": "menu",
-          "isPopular": false,
+          "category": "popular",
+          "isPopular": true,
           "isOffer": false,
           "offerPrice": null,
+          "isCombo": false,
+          "offerKind": null,
+          "comboIncludes": [],
           "spicyOption": false,
           "cashbackPercent": null,
           "addons": [
@@ -4753,10 +4756,7 @@
               "name": "صوص سبايسي",
               "price": 3
             }
-          ],
-          "isCombo": false,
-          "comboIncludes": [],
-          "offerKind": null
+          ]
         },
         {
           "id": "crispy-yard-2",
@@ -4765,15 +4765,18 @@
           "description": "شريحتان لحم مع جبنة ذائبة.",
           "image": "https://images.unsplash.com/photo-1553979459-d2229ba7433b?w=800&q=80",
           "price": 30,
-          "rating": 4.7,
+          "rating": 4.8,
           "calories": 820,
           "protein": 44,
           "carbs": 40,
           "fat": 48,
-          "category": "menu",
-          "isPopular": false,
+          "category": "popular",
+          "isPopular": true,
           "isOffer": false,
           "offerPrice": null,
+          "isCombo": false,
+          "offerKind": null,
+          "comboIncludes": [],
           "spicyOption": false,
           "cashbackPercent": null,
           "addons": [
@@ -4802,10 +4805,7 @@
               "name": "صوص سبايسي",
               "price": 3
             }
-          ],
-          "isCombo": false,
-          "comboIncludes": [],
-          "offerKind": null
+          ]
         },
         {
           "id": "crispy-yard-3",
@@ -4823,6 +4823,9 @@
           "isPopular": false,
           "isOffer": false,
           "offerPrice": null,
+          "isCombo": false,
+          "offerKind": null,
+          "comboIncludes": [],
           "spicyOption": true,
           "cashbackPercent": null,
           "addons": [
@@ -4851,10 +4854,7 @@
               "name": "صوص سبايسي",
               "price": 3
             }
-          ],
-          "isCombo": false,
-          "comboIncludes": [],
-          "offerKind": null
+          ]
         },
         {
           "id": "crispy-yard-4",
@@ -4868,10 +4868,13 @@
           "protein": 34,
           "carbs": 38,
           "fat": 40,
-          "category": "popular",
-          "isPopular": true,
+          "category": "menu",
+          "isPopular": false,
           "isOffer": false,
           "offerPrice": null,
+          "isCombo": false,
+          "offerKind": null,
+          "comboIncludes": [],
           "spicyOption": false,
           "cashbackPercent": null,
           "addons": [
@@ -4900,10 +4903,7 @@
               "name": "صوص سبايسي",
               "price": 3
             }
-          ],
-          "isCombo": false,
-          "comboIncludes": [],
-          "offerKind": null
+          ]
         },
         {
           "id": "crispy-yard-5",
@@ -4912,15 +4912,18 @@
           "description": "فطر وجبنة سويسرية.",
           "image": "https://images.unsplash.com/photo-1573080496219-bb080dd4f877?w=800&q=80",
           "price": 30,
-          "rating": 4.3,
+          "rating": 4.6,
           "calories": 730,
           "protein": 30,
           "carbs": 40,
           "fat": 42,
-          "category": "menu",
-          "isPopular": false,
+          "category": "popular",
+          "isPopular": true,
           "isOffer": false,
           "offerPrice": null,
+          "isCombo": false,
+          "offerKind": null,
+          "comboIncludes": [],
           "spicyOption": false,
           "cashbackPercent": null,
           "addons": [
@@ -4949,10 +4952,7 @@
               "name": "صوص سبايسي",
               "price": 3
             }
-          ],
-          "isCombo": false,
-          "comboIncludes": [],
-          "offerKind": null
+          ]
         },
         {
           "id": "crispy-yard-6",
@@ -4961,15 +4961,18 @@
           "description": "لحم مع بيكون مقرمش.",
           "image": "https://images.unsplash.com/photo-1568901346375-23c9450c58cd?w=800&q=80",
           "price": 30,
-          "rating": 4.8,
+          "rating": 4.7,
           "calories": 860,
           "protein": 38,
           "carbs": 36,
           "fat": 52,
-          "category": "menu",
-          "isPopular": false,
+          "category": "popular",
+          "isPopular": true,
           "isOffer": false,
           "offerPrice": null,
+          "isCombo": false,
+          "offerKind": null,
+          "comboIncludes": [],
           "spicyOption": false,
           "cashbackPercent": null,
           "addons": [
@@ -4998,10 +5001,7 @@
               "name": "صوص سبايسي",
               "price": 3
             }
-          ],
-          "isCombo": false,
-          "comboIncludes": [],
-          "offerKind": null
+          ]
         },
         {
           "id": "crispy-yard-7",
@@ -5010,7 +5010,7 @@
           "description": "بطاطس مقلية مع صوص.",
           "image": "https://images.unsplash.com/photo-1573080496219-bb080dd4f877?w=800&q=80",
           "price": 16,
-          "rating": 4.5,
+          "rating": 4.1,
           "calories": 480,
           "protein": 6,
           "carbs": 55,
@@ -5019,6 +5019,9 @@
           "isPopular": false,
           "isOffer": false,
           "offerPrice": null,
+          "isCombo": false,
+          "offerKind": null,
+          "comboIncludes": [],
           "spicyOption": false,
           "cashbackPercent": null,
           "addons": [
@@ -5047,10 +5050,7 @@
               "name": "صوص سبايسي",
               "price": 3
             }
-          ],
-          "isCombo": false,
-          "comboIncludes": [],
-          "offerKind": null
+          ]
         },
         {
           "id": "crispy-yard-8",
@@ -5059,7 +5059,7 @@
           "description": "باتي نباتي مع أفوكادو.",
           "image": "https://images.unsplash.com/photo-1568901346375-23c9450c58cd?w=800&q=80",
           "price": 30,
-          "rating": 4.5,
+          "rating": 4.4,
           "calories": 580,
           "protein": 22,
           "carbs": 48,
@@ -5068,6 +5068,9 @@
           "isPopular": true,
           "isOffer": false,
           "offerPrice": null,
+          "isCombo": false,
+          "offerKind": null,
+          "comboIncludes": [],
           "spicyOption": false,
           "cashbackPercent": null,
           "addons": [
@@ -5096,10 +5099,7 @@
               "name": "صوص سبايسي",
               "price": 3
             }
-          ],
-          "isCombo": false,
-          "comboIncludes": [],
-          "offerKind": null
+          ]
         },
         {
           "id": "crispy-yard-9",
@@ -5108,7 +5108,7 @@
           "description": "ثلاث شرائح لحم للعشاق.",
           "image": "https://images.unsplash.com/photo-1573080496219-bb080dd4f877?w=800&q=80",
           "price": 30,
-          "rating": 4.4,
+          "rating": 4.2,
           "calories": 1100,
           "protein": 58,
           "carbs": 42,
@@ -5117,6 +5117,9 @@
           "isPopular": false,
           "isOffer": false,
           "offerPrice": null,
+          "isCombo": false,
+          "offerKind": null,
+          "comboIncludes": [],
           "spicyOption": false,
           "cashbackPercent": null,
           "addons": [
@@ -5145,10 +5148,7 @@
               "name": "صوص سبايسي",
               "price": 3
             }
-          ],
-          "isCombo": false,
-          "comboIncludes": [],
-          "offerKind": null
+          ]
         },
         {
           "id": "crispy-yard-10",
@@ -5157,7 +5157,7 @@
           "description": "دجاج حار مع رانش.",
           "image": "https://images.unsplash.com/photo-1568901346375-23c9450c58cd?w=800&q=80",
           "price": 29,
-          "rating": 4.2,
+          "rating": 4.4,
           "calories": 750,
           "protein": 30,
           "carbs": 46,
@@ -5166,6 +5166,9 @@
           "isPopular": true,
           "isOffer": false,
           "offerPrice": null,
+          "isCombo": false,
+          "offerKind": null,
+          "comboIncludes": [],
           "spicyOption": true,
           "cashbackPercent": null,
           "addons": [
@@ -5194,10 +5197,7 @@
               "name": "صوص سبايسي",
               "price": 3
             }
-          ],
-          "isCombo": false,
-          "comboIncludes": [],
-          "offerKind": null
+          ]
         },
         {
           "id": "crispy-yard-offer-1",
@@ -5256,7 +5256,7 @@
           "id": "crispy-yard-offer-2",
           "restaurantId": "crispy-yard",
           "name": "وجبة عائلية برجر لـ 6 أشخاص",
-          "description": "6 برجر مع إضافات ومشروبات. تكفي 6 أشخاص.",
+          "description": "6 برجر مع بطاطس عائلية وصوصات. تكفي 6 أشخاص.",
           "image": "/offers/6-burgers.jpg",
           "price": 82,
           "rating": 4.6,

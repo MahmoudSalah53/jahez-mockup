@@ -6,19 +6,19 @@
       "image": "https://images.unsplash.com/photo-1565299624946-b28f40a0ae38?w=800&q=80",
       "rating": 4.8,
       "cuisine": "إيطالي",
-      "deliveryTime": "25–35 د",
-      "deliveryFee": 0,
-      "minOrder": 35,
-      "distanceKm": 0.9,
-      "verified": null,
+      "deliveryTime": "40–55 د",
+      "deliveryFee": 6,
+      "minOrder": 40,
+      "distanceKm": 5.5,
+      "verified": true,
       "tags": [
         "إيطالي",
         "بيتزا",
         "باستا"
       ],
       "featured": null,
-      "open24h": true,
-      "fastDelivery": null,
+      "open24h": null,
+      "fastDelivery": true,
       "meals": [
         {
           "id": "nonna-oven-1",
@@ -27,7 +27,7 @@
           "description": "صلصة طماطم وموزاريلا وريحان.",
           "image": "https://images.unsplash.com/photo-1513104890138-7c749659a591?w=800&q=80",
           "price": 37,
-          "rating": 4.6,
+          "rating": 4.4,
           "calories": 680,
           "protein": 24,
           "carbs": 72,
@@ -36,6 +36,9 @@
           "isPopular": false,
           "isOffer": false,
           "offerPrice": null,
+          "isCombo": false,
+          "offerKind": null,
+          "comboIncludes": [],
           "spicyOption": false,
           "cashbackPercent": null,
           "addons": [
@@ -64,10 +67,7 @@
               "name": "سلطة صغيرة",
               "price": 10
             }
-          ],
-          "isCombo": false,
-          "comboIncludes": [],
-          "offerKind": null
+          ]
         },
         {
           "id": "nonna-oven-2",
@@ -76,7 +76,7 @@
           "description": "بيتزا بيبروني حارة.",
           "image": "https://images.unsplash.com/photo-1513104890138-7c749659a591?w=800&q=80",
           "price": 37,
-          "rating": 4.7,
+          "rating": 4.6,
           "calories": 760,
           "protein": 28,
           "carbs": 70,
@@ -85,6 +85,9 @@
           "isPopular": true,
           "isOffer": false,
           "offerPrice": null,
+          "isCombo": false,
+          "offerKind": null,
+          "comboIncludes": [],
           "spicyOption": true,
           "cashbackPercent": null,
           "addons": [
@@ -113,10 +116,7 @@
               "name": "سلطة صغيرة",
               "price": 10
             }
-          ],
-          "isCombo": false,
-          "comboIncludes": [],
-          "offerKind": null
+          ]
         },
         {
           "id": "nonna-oven-3",
@@ -125,7 +125,7 @@
           "description": "سباغيتي مع بيض وجبنة.",
           "image": "https://images.unsplash.com/photo-1551183053-bf91a1d81141?w=800&q=80",
           "price": 40,
-          "rating": 4.3,
+          "rating": 4.6,
           "calories": 720,
           "protein": 26,
           "carbs": 68,
@@ -134,6 +134,9 @@
           "isPopular": false,
           "isOffer": false,
           "offerPrice": null,
+          "isCombo": false,
+          "offerKind": null,
+          "comboIncludes": [],
           "spicyOption": false,
           "cashbackPercent": null,
           "addons": [
@@ -162,10 +165,7 @@
               "name": "سلطة صغيرة",
               "price": 10
             }
-          ],
-          "isCombo": false,
-          "comboIncludes": [],
-          "offerKind": null
+          ]
         },
         {
           "id": "nonna-oven-4",
@@ -174,15 +174,18 @@
           "description": "طبقات باستا ولحم وبيشاميل.",
           "image": "https://images.unsplash.com/photo-1551183053-bf91a1d81141?w=800&q=80",
           "price": 39,
-          "rating": 4.2,
+          "rating": 4.5,
           "calories": 820,
           "protein": 34,
           "carbs": 60,
           "fat": 38,
-          "category": "popular",
-          "isPopular": true,
+          "category": "menu",
+          "isPopular": false,
           "isOffer": false,
           "offerPrice": null,
+          "isCombo": false,
+          "offerKind": null,
+          "comboIncludes": [],
           "spicyOption": false,
           "cashbackPercent": null,
           "addons": [
@@ -211,10 +214,7 @@
               "name": "سلطة صغيرة",
               "price": 10
             }
-          ],
-          "isCombo": false,
-          "comboIncludes": [],
-          "offerKind": null
+          ]
         },
         {
           "id": "nonna-oven-5",
@@ -223,7 +223,7 @@
           "description": "باستا بصلصة طماطم حارة.",
           "image": "https://images.unsplash.com/photo-1513104890138-7c749659a591?w=800&q=80",
           "price": 38,
-          "rating": 4.5,
+          "rating": 4.8,
           "calories": 580,
           "protein": 16,
           "carbs": 70,
@@ -232,6 +232,9 @@
           "isPopular": false,
           "isOffer": false,
           "offerPrice": null,
+          "isCombo": false,
+          "offerKind": null,
+          "comboIncludes": [],
           "spicyOption": true,
           "cashbackPercent": null,
           "addons": [
@@ -260,10 +263,7 @@
               "name": "سلطة صغيرة",
               "price": 10
             }
-          ],
-          "isCombo": false,
-          "comboIncludes": [],
-          "offerKind": null
+          ]
         },
         {
           "id": "nonna-oven-6",
@@ -272,15 +272,18 @@
           "description": "أرز إيطالي كريمي بالفطر.",
           "image": "https://images.unsplash.com/photo-1513104890138-7c749659a591?w=800&q=80",
           "price": 39,
-          "rating": 4.7,
+          "rating": 4.6,
           "calories": 540,
           "protein": 14,
           "carbs": 58,
           "fat": 20,
-          "category": "menu",
-          "isPopular": false,
+          "category": "popular",
+          "isPopular": true,
           "isOffer": false,
           "offerPrice": null,
+          "isCombo": false,
+          "offerKind": null,
+          "comboIncludes": [],
           "spicyOption": false,
           "cashbackPercent": null,
           "addons": [
@@ -309,10 +312,7 @@
               "name": "سلطة صغيرة",
               "price": 10
             }
-          ],
-          "isCombo": false,
-          "comboIncludes": [],
-          "offerKind": null
+          ]
         },
         {
           "id": "nonna-oven-7",
@@ -321,15 +321,18 @@
           "description": "خس ورُمان وكروتون.",
           "image": "https://images.unsplash.com/photo-1512621776951-a57141f2eefd?w=800&q=80",
           "price": 28,
-          "rating": 4.8,
+          "rating": 4.4,
           "calories": 320,
           "protein": 18,
           "carbs": 16,
           "fat": 18,
-          "category": "menu",
-          "isPopular": false,
+          "category": "popular",
+          "isPopular": true,
           "isOffer": false,
           "offerPrice": null,
+          "isCombo": false,
+          "offerKind": null,
+          "comboIncludes": [],
           "spicyOption": false,
           "cashbackPercent": null,
           "addons": [
@@ -358,10 +361,7 @@
               "name": "سلطة صغيرة",
               "price": 10
             }
-          ],
-          "isCombo": false,
-          "comboIncludes": [],
-          "offerKind": null
+          ]
         },
         {
           "id": "nonna-oven-8",
@@ -370,7 +370,7 @@
           "description": "خبز محمص مع طماطم وثوم.",
           "image": "https://images.unsplash.com/photo-1513104890138-7c749659a591?w=800&q=80",
           "price": 22,
-          "rating": 4.1,
+          "rating": 4.4,
           "calories": 280,
           "protein": 6,
           "carbs": 32,
@@ -379,55 +379,9 @@
           "isPopular": false,
           "isOffer": false,
           "offerPrice": null,
-          "spicyOption": false,
-          "cashbackPercent": 5,
-          "addons": [
-            {
-              "id": "parmesan",
-              "name": "جبنة بارميزان",
-              "price": 6
-            },
-            {
-              "id": "garlic-bread",
-              "name": "ثوم محمص",
-              "price": 8
-            },
-            {
-              "id": "extra-sauce",
-              "name": "صلصة زيادة",
-              "price": 4
-            },
-            {
-              "id": "drink",
-              "name": "مشروب",
-              "price": 6
-            },
-            {
-              "id": "side-salad",
-              "name": "سلطة صغيرة",
-              "price": 10
-            }
-          ],
           "isCombo": false,
+          "offerKind": null,
           "comboIncludes": [],
-          "offerKind": null
-        },
-        {
-          "id": "nonna-oven-9",
-          "restaurantId": "nonna-oven",
-          "name": "كالتزوني",
-          "description": "بيتزا مطوية محشوة.",
-          "image": "https://images.unsplash.com/photo-1513104890138-7c749659a591?w=800&q=80",
-          "price": 40,
-          "rating": 4.3,
-          "calories": 740,
-          "protein": 26,
-          "carbs": 68,
-          "fat": 28,
-          "category": "popular",
-          "isPopular": true,
-          "isOffer": false,
-          "offerPrice": null,
           "spicyOption": false,
           "cashbackPercent": null,
           "addons": [
@@ -456,29 +410,29 @@
               "name": "سلطة صغيرة",
               "price": 10
             }
-          ],
-          "isCombo": false,
-          "comboIncludes": [],
-          "offerKind": null
+          ]
         },
         {
-          "id": "nonna-oven-10",
+          "id": "nonna-oven-9",
           "restaurantId": "nonna-oven",
-          "name": "تيراميسو صغير",
-          "description": "تحلية إيطالية كلاسيكية.",
-          "image": "https://images.unsplash.com/photo-1565299624946-b28f40a0ae38?w=800&q=80",
-          "price": 26,
-          "rating": 4.4,
-          "calories": 360,
-          "protein": 6,
-          "carbs": 34,
-          "fat": 18,
+          "name": "كالتزوني",
+          "description": "بيتزا مطوية محشوة.",
+          "image": "https://images.unsplash.com/photo-1513104890138-7c749659a591?w=800&q=80",
+          "price": 40,
+          "rating": 4.1,
+          "calories": 740,
+          "protein": 26,
+          "carbs": 68,
+          "fat": 28,
           "category": "menu",
           "isPopular": false,
           "isOffer": false,
           "offerPrice": null,
+          "isCombo": false,
+          "offerKind": null,
+          "comboIncludes": [],
           "spicyOption": false,
-          "cashbackPercent": 15,
+          "cashbackPercent": null,
           "addons": [
             {
               "id": "parmesan",
@@ -505,10 +459,56 @@
               "name": "سلطة صغيرة",
               "price": 10
             }
-          ],
+          ]
+        },
+        {
+          "id": "nonna-oven-10",
+          "restaurantId": "nonna-oven",
+          "name": "تيراميسو صغير",
+          "description": "تحلية إيطالية كلاسيكية.",
+          "image": "https://images.unsplash.com/photo-1565299624946-b28f40a0ae38?w=800&q=80",
+          "price": 26,
+          "rating": 4.5,
+          "calories": 360,
+          "protein": 6,
+          "carbs": 34,
+          "fat": 18,
+          "category": "menu",
+          "isPopular": false,
+          "isOffer": false,
+          "offerPrice": null,
           "isCombo": false,
+          "offerKind": null,
           "comboIncludes": [],
-          "offerKind": null
+          "spicyOption": false,
+          "cashbackPercent": null,
+          "addons": [
+            {
+              "id": "parmesan",
+              "name": "جبنة بارميزان",
+              "price": 6
+            },
+            {
+              "id": "garlic-bread",
+              "name": "ثوم محمص",
+              "price": 8
+            },
+            {
+              "id": "extra-sauce",
+              "name": "صلصة زيادة",
+              "price": 4
+            },
+            {
+              "id": "drink",
+              "name": "مشروب",
+              "price": 6
+            },
+            {
+              "id": "side-salad",
+              "name": "سلطة صغيرة",
+              "price": 10
+            }
+          ]
         },
         {
           "id": "nonna-oven-offer-1",
@@ -567,7 +567,7 @@
           "id": "nonna-oven-offer-2",
           "restaurantId": "nonna-oven",
           "name": "وجبة عائلية بيتزا لـ 4 أشخاص",
-          "description": "4 بيتزا مع إضافات ومشروبات. تكفي 4 أشخاص.",
+          "description": "4 بيتزا مع بروشيتا وسلطة. تكفي 4 أشخاص.",
           "image": "/offers/4-pizza.jpg",
           "price": 73,
           "rating": 4.6,
@@ -676,13 +676,13 @@
       "id": "roma-pasta",
       "name": "باستا روما",
       "image": "https://images.unsplash.com/photo-1565299624946-b28f40a0ae38?w=800&q=80",
-      "rating": 4.7,
+      "rating": 4.2,
       "cuisine": "إيطالي",
-      "deliveryTime": "40–55 د",
-      "deliveryFee": 0,
+      "deliveryTime": "25–35 د",
+      "deliveryFee": 10,
       "minOrder": 35,
-      "distanceKm": 5.8,
-      "verified": null,
+      "distanceKm": 4.2,
+      "verified": true,
       "tags": [
         "إيطالي",
         "بيتزا",
@@ -699,7 +699,7 @@
           "description": "صلصة طماطم وموزاريلا وريحان.",
           "image": "https://images.unsplash.com/photo-1551183053-bf91a1d81141?w=800&q=80",
           "price": 37,
-          "rating": 4.9,
+          "rating": 4.8,
           "calories": 680,
           "protein": 24,
           "carbs": 72,
@@ -708,6 +708,9 @@
           "isPopular": true,
           "isOffer": false,
           "offerPrice": null,
+          "isCombo": false,
+          "offerKind": null,
+          "comboIncludes": [],
           "spicyOption": false,
           "cashbackPercent": null,
           "addons": [
@@ -736,10 +739,7 @@
               "name": "سلطة صغيرة",
               "price": 10
             }
-          ],
-          "isCombo": false,
-          "comboIncludes": [],
-          "offerKind": null
+          ]
         },
         {
           "id": "roma-pasta-2",
@@ -748,7 +748,7 @@
           "description": "بيتزا بيبروني حارة.",
           "image": "https://images.unsplash.com/photo-1513104890138-7c749659a591?w=800&q=80",
           "price": 37,
-          "rating": 4.2,
+          "rating": 4.1,
           "calories": 760,
           "protein": 28,
           "carbs": 70,
@@ -757,6 +757,9 @@
           "isPopular": true,
           "isOffer": false,
           "offerPrice": null,
+          "isCombo": false,
+          "offerKind": null,
+          "comboIncludes": [],
           "spicyOption": true,
           "cashbackPercent": null,
           "addons": [
@@ -785,10 +788,7 @@
               "name": "سلطة صغيرة",
               "price": 10
             }
-          ],
-          "isCombo": false,
-          "comboIncludes": [],
-          "offerKind": null
+          ]
         },
         {
           "id": "roma-pasta-3",
@@ -797,7 +797,7 @@
           "description": "سباغيتي مع بيض وجبنة.",
           "image": "https://images.unsplash.com/photo-1551183053-bf91a1d81141?w=800&q=80",
           "price": 40,
-          "rating": 4.8,
+          "rating": 4.7,
           "calories": 720,
           "protein": 26,
           "carbs": 68,
@@ -806,55 +806,9 @@
           "isPopular": false,
           "isOffer": false,
           "offerPrice": null,
-          "spicyOption": false,
-          "cashbackPercent": 5,
-          "addons": [
-            {
-              "id": "parmesan",
-              "name": "جبنة بارميزان",
-              "price": 6
-            },
-            {
-              "id": "garlic-bread",
-              "name": "ثوم محمص",
-              "price": 8
-            },
-            {
-              "id": "extra-sauce",
-              "name": "صلصة زيادة",
-              "price": 4
-            },
-            {
-              "id": "drink",
-              "name": "مشروب",
-              "price": 6
-            },
-            {
-              "id": "side-salad",
-              "name": "سلطة صغيرة",
-              "price": 10
-            }
-          ],
           "isCombo": false,
+          "offerKind": null,
           "comboIncludes": [],
-          "offerKind": null
-        },
-        {
-          "id": "roma-pasta-4",
-          "restaurantId": "roma-pasta",
-          "name": "لازانيا لحم",
-          "description": "طبقات باستا ولحم وبيشاميل.",
-          "image": "https://images.unsplash.com/photo-1551183053-bf91a1d81141?w=800&q=80",
-          "price": 39,
-          "rating": 4.9,
-          "calories": 820,
-          "protein": 34,
-          "carbs": 60,
-          "fat": 38,
-          "category": "menu",
-          "isPopular": false,
-          "isOffer": false,
-          "offerPrice": null,
           "spicyOption": false,
           "cashbackPercent": null,
           "addons": [
@@ -883,10 +837,56 @@
               "name": "سلطة صغيرة",
               "price": 10
             }
-          ],
+          ]
+        },
+        {
+          "id": "roma-pasta-4",
+          "restaurantId": "roma-pasta",
+          "name": "لازانيا لحم",
+          "description": "طبقات باستا ولحم وبيشاميل.",
+          "image": "https://images.unsplash.com/photo-1551183053-bf91a1d81141?w=800&q=80",
+          "price": 39,
+          "rating": 4.8,
+          "calories": 820,
+          "protein": 34,
+          "carbs": 60,
+          "fat": 38,
+          "category": "menu",
+          "isPopular": false,
+          "isOffer": false,
+          "offerPrice": null,
           "isCombo": false,
+          "offerKind": null,
           "comboIncludes": [],
-          "offerKind": null
+          "spicyOption": false,
+          "cashbackPercent": null,
+          "addons": [
+            {
+              "id": "parmesan",
+              "name": "جبنة بارميزان",
+              "price": 6
+            },
+            {
+              "id": "garlic-bread",
+              "name": "ثوم محمص",
+              "price": 8
+            },
+            {
+              "id": "extra-sauce",
+              "name": "صلصة زيادة",
+              "price": 4
+            },
+            {
+              "id": "drink",
+              "name": "مشروب",
+              "price": 6
+            },
+            {
+              "id": "side-salad",
+              "name": "سلطة صغيرة",
+              "price": 10
+            }
+          ]
         },
         {
           "id": "roma-pasta-5",
@@ -895,15 +895,18 @@
           "description": "باستا بصلصة طماطم حارة.",
           "image": "https://images.unsplash.com/photo-1513104890138-7c749659a591?w=800&q=80",
           "price": 38,
-          "rating": 4.2,
+          "rating": 4.8,
           "calories": 580,
           "protein": 16,
           "carbs": 70,
           "fat": 14,
-          "category": "menu",
-          "isPopular": false,
+          "category": "popular",
+          "isPopular": true,
           "isOffer": false,
           "offerPrice": null,
+          "isCombo": false,
+          "offerKind": null,
+          "comboIncludes": [],
           "spicyOption": true,
           "cashbackPercent": null,
           "addons": [
@@ -932,10 +935,7 @@
               "name": "سلطة صغيرة",
               "price": 10
             }
-          ],
-          "isCombo": false,
-          "comboIncludes": [],
-          "offerKind": null
+          ]
         },
         {
           "id": "roma-pasta-6",
@@ -944,7 +944,7 @@
           "description": "أرز إيطالي كريمي بالفطر.",
           "image": "https://images.unsplash.com/photo-1565299624946-b28f40a0ae38?w=800&q=80",
           "price": 39,
-          "rating": 4.1,
+          "rating": 4.7,
           "calories": 540,
           "protein": 14,
           "carbs": 58,
@@ -953,6 +953,9 @@
           "isPopular": false,
           "isOffer": false,
           "offerPrice": null,
+          "isCombo": false,
+          "offerKind": null,
+          "comboIncludes": [],
           "spicyOption": false,
           "cashbackPercent": null,
           "addons": [
@@ -981,10 +984,7 @@
               "name": "سلطة صغيرة",
               "price": 10
             }
-          ],
-          "isCombo": false,
-          "comboIncludes": [],
-          "offerKind": null
+          ]
         },
         {
           "id": "roma-pasta-7",
@@ -993,7 +993,7 @@
           "description": "خس ورُمان وكروتون.",
           "image": "https://images.unsplash.com/photo-1512621776951-a57141f2eefd?w=800&q=80",
           "price": 28,
-          "rating": 4.3,
+          "rating": 4.9,
           "calories": 320,
           "protein": 18,
           "carbs": 16,
@@ -1002,6 +1002,9 @@
           "isPopular": false,
           "isOffer": false,
           "offerPrice": null,
+          "isCombo": false,
+          "offerKind": null,
+          "comboIncludes": [],
           "spicyOption": false,
           "cashbackPercent": null,
           "addons": [
@@ -1030,10 +1033,7 @@
               "name": "سلطة صغيرة",
               "price": 10
             }
-          ],
-          "isCombo": false,
-          "comboIncludes": [],
-          "offerKind": null
+          ]
         },
         {
           "id": "roma-pasta-8",
@@ -1047,10 +1047,13 @@
           "protein": 6,
           "carbs": 32,
           "fat": 10,
-          "category": "menu",
-          "isPopular": false,
+          "category": "popular",
+          "isPopular": true,
           "isOffer": false,
           "offerPrice": null,
+          "isCombo": false,
+          "offerKind": null,
+          "comboIncludes": [],
           "spicyOption": false,
           "cashbackPercent": null,
           "addons": [
@@ -1079,10 +1082,7 @@
               "name": "سلطة صغيرة",
               "price": 10
             }
-          ],
-          "isCombo": false,
-          "comboIncludes": [],
-          "offerKind": null
+          ]
         },
         {
           "id": "roma-pasta-9",
@@ -1091,15 +1091,18 @@
           "description": "بيتزا مطوية محشوة.",
           "image": "https://images.unsplash.com/photo-1565299624946-b28f40a0ae38?w=800&q=80",
           "price": 40,
-          "rating": 4.5,
+          "rating": 4.6,
           "calories": 740,
           "protein": 26,
           "carbs": 68,
           "fat": 28,
-          "category": "menu",
-          "isPopular": false,
+          "category": "popular",
+          "isPopular": true,
           "isOffer": false,
           "offerPrice": null,
+          "isCombo": false,
+          "offerKind": null,
+          "comboIncludes": [],
           "spicyOption": false,
           "cashbackPercent": null,
           "addons": [
@@ -1128,10 +1131,7 @@
               "name": "سلطة صغيرة",
               "price": 10
             }
-          ],
-          "isCombo": false,
-          "comboIncludes": [],
-          "offerKind": null
+          ]
         },
         {
           "id": "roma-pasta-10",
@@ -1140,7 +1140,7 @@
           "description": "تحلية إيطالية كلاسيكية.",
           "image": "https://images.unsplash.com/photo-1551183053-bf91a1d81141?w=800&q=80",
           "price": 26,
-          "rating": 4.9,
+          "rating": 4.7,
           "calories": 360,
           "protein": 6,
           "carbs": 34,
@@ -1149,6 +1149,9 @@
           "isPopular": false,
           "isOffer": false,
           "offerPrice": null,
+          "isCombo": false,
+          "offerKind": null,
+          "comboIncludes": [],
           "spicyOption": false,
           "cashbackPercent": null,
           "addons": [
@@ -1177,10 +1180,7 @@
               "name": "سلطة صغيرة",
               "price": 10
             }
-          ],
-          "isCombo": false,
-          "comboIncludes": [],
-          "offerKind": null
+          ]
         },
         {
           "id": "roma-pasta-offer-1",
@@ -1239,7 +1239,7 @@
           "id": "roma-pasta-offer-2",
           "restaurantId": "roma-pasta",
           "name": "وجبة عائلية بيتزا لـ 4 أشخاص",
-          "description": "4 بيتزا مع إضافات ومشروبات. تكفي 4 أشخاص.",
+          "description": "4 بيتزا مع بروشيتا وسلطة. تكفي 4 أشخاص.",
           "image": "/offers/4-pizza.jpg",
           "price": 73,
           "rating": 4.6,
@@ -1348,11 +1348,11 @@
       "id": "truffle-table",
       "name": "طاولة الكمأة",
       "image": "https://images.unsplash.com/photo-1565299624946-b28f40a0ae38?w=800&q=80",
-      "rating": 4.4,
+      "rating": 4.3,
       "cuisine": "إيطالي",
-      "deliveryTime": "35–50 د",
-      "deliveryFee": 10,
-      "minOrder": 25,
+      "deliveryTime": "25–35 د",
+      "deliveryFee": 5,
+      "minOrder": 35,
       "distanceKm": 0.9,
       "verified": true,
       "tags": [
@@ -1376,12 +1376,15 @@
           "protein": 24,
           "carbs": 72,
           "fat": 24,
-          "category": "menu",
-          "isPopular": false,
+          "category": "popular",
+          "isPopular": true,
           "isOffer": false,
           "offerPrice": null,
+          "isCombo": false,
+          "offerKind": null,
+          "comboIncludes": [],
           "spicyOption": false,
-          "cashbackPercent": 5,
+          "cashbackPercent": null,
           "addons": [
             {
               "id": "parmesan",
@@ -1408,10 +1411,7 @@
               "name": "سلطة صغيرة",
               "price": 10
             }
-          ],
-          "isCombo": false,
-          "comboIncludes": [],
-          "offerKind": null
+          ]
         },
         {
           "id": "truffle-table-2",
@@ -1420,15 +1420,18 @@
           "description": "بيتزا بيبروني حارة.",
           "image": "https://images.unsplash.com/photo-1513104890138-7c749659a591?w=800&q=80",
           "price": 37,
-          "rating": 4.3,
+          "rating": 4.4,
           "calories": 760,
           "protein": 28,
           "carbs": 70,
           "fat": 32,
-          "category": "menu",
-          "isPopular": false,
+          "category": "popular",
+          "isPopular": true,
           "isOffer": false,
           "offerPrice": null,
+          "isCombo": false,
+          "offerKind": null,
+          "comboIncludes": [],
           "spicyOption": true,
           "cashbackPercent": null,
           "addons": [
@@ -1457,10 +1460,7 @@
               "name": "سلطة صغيرة",
               "price": 10
             }
-          ],
-          "isCombo": false,
-          "comboIncludes": [],
-          "offerKind": null
+          ]
         },
         {
           "id": "truffle-table-3",
@@ -1478,55 +1478,9 @@
           "isPopular": false,
           "isOffer": false,
           "offerPrice": null,
-          "spicyOption": false,
-          "cashbackPercent": 10,
-          "addons": [
-            {
-              "id": "parmesan",
-              "name": "جبنة بارميزان",
-              "price": 6
-            },
-            {
-              "id": "garlic-bread",
-              "name": "ثوم محمص",
-              "price": 8
-            },
-            {
-              "id": "extra-sauce",
-              "name": "صلصة زيادة",
-              "price": 4
-            },
-            {
-              "id": "drink",
-              "name": "مشروب",
-              "price": 6
-            },
-            {
-              "id": "side-salad",
-              "name": "سلطة صغيرة",
-              "price": 10
-            }
-          ],
           "isCombo": false,
+          "offerKind": null,
           "comboIncludes": [],
-          "offerKind": null
-        },
-        {
-          "id": "truffle-table-4",
-          "restaurantId": "truffle-table",
-          "name": "لازانيا لحم",
-          "description": "طبقات باستا ولحم وبيشاميل.",
-          "image": "https://images.unsplash.com/photo-1551183053-bf91a1d81141?w=800&q=80",
-          "price": 39,
-          "rating": 4.7,
-          "calories": 820,
-          "protein": 34,
-          "carbs": 60,
-          "fat": 38,
-          "category": "menu",
-          "isPopular": false,
-          "isOffer": false,
-          "offerPrice": null,
           "spicyOption": false,
           "cashbackPercent": null,
           "addons": [
@@ -1555,10 +1509,56 @@
               "name": "سلطة صغيرة",
               "price": 10
             }
-          ],
+          ]
+        },
+        {
+          "id": "truffle-table-4",
+          "restaurantId": "truffle-table",
+          "name": "لازانيا لحم",
+          "description": "طبقات باستا ولحم وبيشاميل.",
+          "image": "https://images.unsplash.com/photo-1551183053-bf91a1d81141?w=800&q=80",
+          "price": 39,
+          "rating": 4.7,
+          "calories": 820,
+          "protein": 34,
+          "carbs": 60,
+          "fat": 38,
+          "category": "menu",
+          "isPopular": false,
+          "isOffer": false,
+          "offerPrice": null,
           "isCombo": false,
+          "offerKind": null,
           "comboIncludes": [],
-          "offerKind": null
+          "spicyOption": false,
+          "cashbackPercent": null,
+          "addons": [
+            {
+              "id": "parmesan",
+              "name": "جبنة بارميزان",
+              "price": 6
+            },
+            {
+              "id": "garlic-bread",
+              "name": "ثوم محمص",
+              "price": 8
+            },
+            {
+              "id": "extra-sauce",
+              "name": "صلصة زيادة",
+              "price": 4
+            },
+            {
+              "id": "drink",
+              "name": "مشروب",
+              "price": 6
+            },
+            {
+              "id": "side-salad",
+              "name": "سلطة صغيرة",
+              "price": 10
+            }
+          ]
         },
         {
           "id": "truffle-table-5",
@@ -1567,15 +1567,18 @@
           "description": "باستا بصلصة طماطم حارة.",
           "image": "https://images.unsplash.com/photo-1513104890138-7c749659a591?w=800&q=80",
           "price": 38,
-          "rating": 4.4,
+          "rating": 4.3,
           "calories": 580,
           "protein": 16,
           "carbs": 70,
           "fat": 14,
-          "category": "menu",
-          "isPopular": false,
+          "category": "popular",
+          "isPopular": true,
           "isOffer": false,
           "offerPrice": null,
+          "isCombo": false,
+          "offerKind": null,
+          "comboIncludes": [],
           "spicyOption": true,
           "cashbackPercent": null,
           "addons": [
@@ -1604,10 +1607,7 @@
               "name": "سلطة صغيرة",
               "price": 10
             }
-          ],
-          "isCombo": false,
-          "comboIncludes": [],
-          "offerKind": null
+          ]
         },
         {
           "id": "truffle-table-6",
@@ -1616,15 +1616,18 @@
           "description": "أرز إيطالي كريمي بالفطر.",
           "image": "https://images.unsplash.com/photo-1565299624946-b28f40a0ae38?w=800&q=80",
           "price": 39,
-          "rating": 4.7,
+          "rating": 4.6,
           "calories": 540,
           "protein": 14,
           "carbs": 58,
           "fat": 20,
-          "category": "menu",
-          "isPopular": false,
+          "category": "popular",
+          "isPopular": true,
           "isOffer": false,
           "offerPrice": null,
+          "isCombo": false,
+          "offerKind": null,
+          "comboIncludes": [],
           "spicyOption": false,
           "cashbackPercent": null,
           "addons": [
@@ -1653,10 +1656,7 @@
               "name": "سلطة صغيرة",
               "price": 10
             }
-          ],
-          "isCombo": false,
-          "comboIncludes": [],
-          "offerKind": null
+          ]
         },
         {
           "id": "truffle-table-7",
@@ -1665,15 +1665,18 @@
           "description": "خس ورُمان وكروتون.",
           "image": "https://images.unsplash.com/photo-1512621776951-a57141f2eefd?w=800&q=80",
           "price": 28,
-          "rating": 4.5,
+          "rating": 4.1,
           "calories": 320,
           "protein": 18,
           "carbs": 16,
           "fat": 18,
-          "category": "popular",
-          "isPopular": true,
+          "category": "menu",
+          "isPopular": false,
           "isOffer": false,
           "offerPrice": null,
+          "isCombo": false,
+          "offerKind": null,
+          "comboIncludes": [],
           "spicyOption": false,
           "cashbackPercent": null,
           "addons": [
@@ -1702,10 +1705,7 @@
               "name": "سلطة صغيرة",
               "price": 10
             }
-          ],
-          "isCombo": false,
-          "comboIncludes": [],
-          "offerKind": null
+          ]
         },
         {
           "id": "truffle-table-8",
@@ -1714,7 +1714,7 @@
           "description": "خبز محمص مع طماطم وثوم.",
           "image": "https://images.unsplash.com/photo-1513104890138-7c749659a591?w=800&q=80",
           "price": 22,
-          "rating": 4.8,
+          "rating": 4.9,
           "calories": 280,
           "protein": 6,
           "carbs": 32,
@@ -1723,6 +1723,9 @@
           "isPopular": false,
           "isOffer": false,
           "offerPrice": null,
+          "isCombo": false,
+          "offerKind": null,
+          "comboIncludes": [],
           "spicyOption": false,
           "cashbackPercent": null,
           "addons": [
@@ -1751,10 +1754,7 @@
               "name": "سلطة صغيرة",
               "price": 10
             }
-          ],
-          "isCombo": false,
-          "comboIncludes": [],
-          "offerKind": null
+          ]
         },
         {
           "id": "truffle-table-9",
@@ -1763,15 +1763,18 @@
           "description": "بيتزا مطوية محشوة.",
           "image": "https://images.unsplash.com/photo-1565299624946-b28f40a0ae38?w=800&q=80",
           "price": 40,
-          "rating": 4.6,
+          "rating": 4.4,
           "calories": 740,
           "protein": 26,
           "carbs": 68,
           "fat": 28,
-          "category": "popular",
-          "isPopular": true,
+          "category": "menu",
+          "isPopular": false,
           "isOffer": false,
           "offerPrice": null,
+          "isCombo": false,
+          "offerKind": null,
+          "comboIncludes": [],
           "spicyOption": false,
           "cashbackPercent": null,
           "addons": [
@@ -1800,10 +1803,7 @@
               "name": "سلطة صغيرة",
               "price": 10
             }
-          ],
-          "isCombo": false,
-          "comboIncludes": [],
-          "offerKind": null
+          ]
         },
         {
           "id": "truffle-table-10",
@@ -1812,15 +1812,18 @@
           "description": "تحلية إيطالية كلاسيكية.",
           "image": "https://images.unsplash.com/photo-1551183053-bf91a1d81141?w=800&q=80",
           "price": 26,
-          "rating": 4.3,
+          "rating": 4.7,
           "calories": 360,
           "protein": 6,
           "carbs": 34,
           "fat": 18,
-          "category": "menu",
-          "isPopular": false,
+          "category": "popular",
+          "isPopular": true,
           "isOffer": false,
           "offerPrice": null,
+          "isCombo": false,
+          "offerKind": null,
+          "comboIncludes": [],
           "spicyOption": false,
           "cashbackPercent": null,
           "addons": [
@@ -1849,10 +1852,7 @@
               "name": "سلطة صغيرة",
               "price": 10
             }
-          ],
-          "isCombo": false,
-          "comboIncludes": [],
-          "offerKind": null
+          ]
         },
         {
           "id": "truffle-table-offer-1",
@@ -1911,7 +1911,7 @@
           "id": "truffle-table-offer-2",
           "restaurantId": "truffle-table",
           "name": "وجبة عائلية بيتزا لـ 6 أشخاص",
-          "description": "6 بيتزا مع إضافات ومشروبات. تكفي 6 أشخاص.",
+          "description": "6 بيتزا مع بروشيتا وسلطة. تكفي 6 أشخاص.",
           "image": "/offers/6-pizza.jpg",
           "price": 73,
           "rating": 4.6,
@@ -2020,12 +2020,12 @@
       "id": "olive-crust",
       "name": "قشرة الزيتون",
       "image": "https://images.unsplash.com/photo-1551183053-bf91a1d81141?w=800&q=80",
-      "rating": 4.5,
+      "rating": 4.9,
       "cuisine": "إيطالي",
-      "deliveryTime": "20–30 د",
-      "deliveryFee": 12,
-      "minOrder": 40,
-      "distanceKm": 6.3,
+      "deliveryTime": "25–35 د",
+      "deliveryFee": 5,
+      "minOrder": 45,
+      "distanceKm": 4.2,
       "verified": true,
       "tags": [
         "إيطالي",
@@ -2034,7 +2034,7 @@
       ],
       "featured": null,
       "open24h": null,
-      "fastDelivery": null,
+      "fastDelivery": true,
       "meals": [
         {
           "id": "olive-crust-1",
@@ -2043,15 +2043,18 @@
           "description": "صلصة طماطم وموزاريلا وريحان.",
           "image": "https://images.unsplash.com/photo-1565299624946-b28f40a0ae38?w=800&q=80",
           "price": 37,
-          "rating": 4.2,
+          "rating": 4.6,
           "calories": 680,
           "protein": 24,
           "carbs": 72,
           "fat": 24,
-          "category": "popular",
-          "isPopular": true,
+          "category": "menu",
+          "isPopular": false,
           "isOffer": false,
           "offerPrice": null,
+          "isCombo": false,
+          "offerKind": null,
+          "comboIncludes": [],
           "spicyOption": false,
           "cashbackPercent": null,
           "addons": [
@@ -2080,10 +2083,7 @@
               "name": "سلطة صغيرة",
               "price": 10
             }
-          ],
-          "isCombo": false,
-          "comboIncludes": [],
-          "offerKind": null
+          ]
         },
         {
           "id": "olive-crust-2",
@@ -2092,7 +2092,7 @@
           "description": "بيتزا بيبروني حارة.",
           "image": "https://images.unsplash.com/photo-1551183053-bf91a1d81141?w=800&q=80",
           "price": 37,
-          "rating": 4.1,
+          "rating": 4.9,
           "calories": 760,
           "protein": 28,
           "carbs": 70,
@@ -2101,6 +2101,9 @@
           "isPopular": false,
           "isOffer": false,
           "offerPrice": null,
+          "isCombo": false,
+          "offerKind": null,
+          "comboIncludes": [],
           "spicyOption": true,
           "cashbackPercent": null,
           "addons": [
@@ -2129,10 +2132,7 @@
               "name": "سلطة صغيرة",
               "price": 10
             }
-          ],
-          "isCombo": false,
-          "comboIncludes": [],
-          "offerKind": null
+          ]
         },
         {
           "id": "olive-crust-3",
@@ -2141,15 +2141,18 @@
           "description": "سباغيتي مع بيض وجبنة.",
           "image": "https://images.unsplash.com/photo-1551183053-bf91a1d81141?w=800&q=80",
           "price": 40,
-          "rating": 4.3,
+          "rating": 4.2,
           "calories": 720,
           "protein": 26,
           "carbs": 68,
           "fat": 30,
-          "category": "menu",
-          "isPopular": false,
+          "category": "popular",
+          "isPopular": true,
           "isOffer": false,
           "offerPrice": null,
+          "isCombo": false,
+          "offerKind": null,
+          "comboIncludes": [],
           "spicyOption": false,
           "cashbackPercent": null,
           "addons": [
@@ -2178,10 +2181,7 @@
               "name": "سلطة صغيرة",
               "price": 10
             }
-          ],
-          "isCombo": false,
-          "comboIncludes": [],
-          "offerKind": null
+          ]
         },
         {
           "id": "olive-crust-4",
@@ -2190,7 +2190,7 @@
           "description": "طبقات باستا ولحم وبيشاميل.",
           "image": "https://images.unsplash.com/photo-1551183053-bf91a1d81141?w=800&q=80",
           "price": 39,
-          "rating": 4.5,
+          "rating": 4.7,
           "calories": 820,
           "protein": 34,
           "carbs": 60,
@@ -2199,6 +2199,9 @@
           "isPopular": false,
           "isOffer": false,
           "offerPrice": null,
+          "isCombo": false,
+          "offerKind": null,
+          "comboIncludes": [],
           "spicyOption": false,
           "cashbackPercent": null,
           "addons": [
@@ -2227,10 +2230,7 @@
               "name": "سلطة صغيرة",
               "price": 10
             }
-          ],
-          "isCombo": false,
-          "comboIncludes": [],
-          "offerKind": null
+          ]
         },
         {
           "id": "olive-crust-5",
@@ -2239,7 +2239,7 @@
           "description": "باستا بصلصة طماطم حارة.",
           "image": "https://images.unsplash.com/photo-1551183053-bf91a1d81141?w=800&q=80",
           "price": 38,
-          "rating": 4.3,
+          "rating": 4.8,
           "calories": 580,
           "protein": 16,
           "carbs": 70,
@@ -2248,6 +2248,9 @@
           "isPopular": false,
           "isOffer": false,
           "offerPrice": null,
+          "isCombo": false,
+          "offerKind": null,
+          "comboIncludes": [],
           "spicyOption": true,
           "cashbackPercent": null,
           "addons": [
@@ -2276,10 +2279,7 @@
               "name": "سلطة صغيرة",
               "price": 10
             }
-          ],
-          "isCombo": false,
-          "comboIncludes": [],
-          "offerKind": null
+          ]
         },
         {
           "id": "olive-crust-6",
@@ -2288,7 +2288,7 @@
           "description": "أرز إيطالي كريمي بالفطر.",
           "image": "https://images.unsplash.com/photo-1513104890138-7c749659a591?w=800&q=80",
           "price": 39,
-          "rating": 4.6,
+          "rating": 4.2,
           "calories": 540,
           "protein": 14,
           "carbs": 58,
@@ -2297,55 +2297,9 @@
           "isPopular": false,
           "isOffer": false,
           "offerPrice": null,
-          "spicyOption": false,
-          "cashbackPercent": 15,
-          "addons": [
-            {
-              "id": "parmesan",
-              "name": "جبنة بارميزان",
-              "price": 6
-            },
-            {
-              "id": "garlic-bread",
-              "name": "ثوم محمص",
-              "price": 8
-            },
-            {
-              "id": "extra-sauce",
-              "name": "صلصة زيادة",
-              "price": 4
-            },
-            {
-              "id": "drink",
-              "name": "مشروب",
-              "price": 6
-            },
-            {
-              "id": "side-salad",
-              "name": "سلطة صغيرة",
-              "price": 10
-            }
-          ],
           "isCombo": false,
+          "offerKind": null,
           "comboIncludes": [],
-          "offerKind": null
-        },
-        {
-          "id": "olive-crust-7",
-          "restaurantId": "olive-crust",
-          "name": "سلطة سيزر",
-          "description": "خس ورُمان وكروتون.",
-          "image": "https://images.unsplash.com/photo-1512621776951-a57141f2eefd?w=800&q=80",
-          "price": 28,
-          "rating": 4.1,
-          "calories": 320,
-          "protein": 18,
-          "carbs": 16,
-          "fat": 18,
-          "category": "menu",
-          "isPopular": false,
-          "isOffer": false,
-          "offerPrice": null,
           "spicyOption": false,
           "cashbackPercent": null,
           "addons": [
@@ -2374,29 +2328,29 @@
               "name": "سلطة صغيرة",
               "price": 10
             }
-          ],
-          "isCombo": false,
-          "comboIncludes": [],
-          "offerKind": null
+          ]
         },
         {
-          "id": "olive-crust-8",
+          "id": "olive-crust-7",
           "restaurantId": "olive-crust",
-          "name": "بروشيتا",
-          "description": "خبز محمص مع طماطم وثوم.",
-          "image": "https://images.unsplash.com/photo-1551183053-bf91a1d81141?w=800&q=80",
-          "price": 22,
-          "rating": 4.8,
-          "calories": 280,
-          "protein": 6,
-          "carbs": 32,
-          "fat": 10,
-          "category": "menu",
-          "isPopular": false,
+          "name": "سلطة سيزر",
+          "description": "خس ورُمان وكروتون.",
+          "image": "https://images.unsplash.com/photo-1512621776951-a57141f2eefd?w=800&q=80",
+          "price": 28,
+          "rating": 4.3,
+          "calories": 320,
+          "protein": 18,
+          "carbs": 16,
+          "fat": 18,
+          "category": "popular",
+          "isPopular": true,
           "isOffer": false,
           "offerPrice": null,
+          "isCombo": false,
+          "offerKind": null,
+          "comboIncludes": [],
           "spicyOption": false,
-          "cashbackPercent": 15,
+          "cashbackPercent": null,
           "addons": [
             {
               "id": "parmesan",
@@ -2423,10 +2377,56 @@
               "name": "سلطة صغيرة",
               "price": 10
             }
-          ],
+          ]
+        },
+        {
+          "id": "olive-crust-8",
+          "restaurantId": "olive-crust",
+          "name": "بروشيتا",
+          "description": "خبز محمص مع طماطم وثوم.",
+          "image": "https://images.unsplash.com/photo-1551183053-bf91a1d81141?w=800&q=80",
+          "price": 22,
+          "rating": 4.6,
+          "calories": 280,
+          "protein": 6,
+          "carbs": 32,
+          "fat": 10,
+          "category": "menu",
+          "isPopular": false,
+          "isOffer": false,
+          "offerPrice": null,
           "isCombo": false,
+          "offerKind": null,
           "comboIncludes": [],
-          "offerKind": null
+          "spicyOption": false,
+          "cashbackPercent": null,
+          "addons": [
+            {
+              "id": "parmesan",
+              "name": "جبنة بارميزان",
+              "price": 6
+            },
+            {
+              "id": "garlic-bread",
+              "name": "ثوم محمص",
+              "price": 8
+            },
+            {
+              "id": "extra-sauce",
+              "name": "صلصة زيادة",
+              "price": 4
+            },
+            {
+              "id": "drink",
+              "name": "مشروب",
+              "price": 6
+            },
+            {
+              "id": "side-salad",
+              "name": "سلطة صغيرة",
+              "price": 10
+            }
+          ]
         },
         {
           "id": "olive-crust-9",
@@ -2444,6 +2444,9 @@
           "isPopular": true,
           "isOffer": false,
           "offerPrice": null,
+          "isCombo": false,
+          "offerKind": null,
+          "comboIncludes": [],
           "spicyOption": false,
           "cashbackPercent": null,
           "addons": [
@@ -2472,10 +2475,7 @@
               "name": "سلطة صغيرة",
               "price": 10
             }
-          ],
-          "isCombo": false,
-          "comboIncludes": [],
-          "offerKind": null
+          ]
         },
         {
           "id": "olive-crust-10",
@@ -2484,7 +2484,7 @@
           "description": "تحلية إيطالية كلاسيكية.",
           "image": "https://images.unsplash.com/photo-1551183053-bf91a1d81141?w=800&q=80",
           "price": 26,
-          "rating": 4.5,
+          "rating": 4.1,
           "calories": 360,
           "protein": 6,
           "carbs": 34,
@@ -2493,6 +2493,9 @@
           "isPopular": false,
           "isOffer": false,
           "offerPrice": null,
+          "isCombo": false,
+          "offerKind": null,
+          "comboIncludes": [],
           "spicyOption": false,
           "cashbackPercent": null,
           "addons": [
@@ -2521,10 +2524,7 @@
               "name": "سلطة صغيرة",
               "price": 10
             }
-          ],
-          "isCombo": false,
-          "comboIncludes": [],
-          "offerKind": null
+          ]
         },
         {
           "id": "olive-crust-offer-1",
@@ -2583,7 +2583,7 @@
           "id": "olive-crust-offer-2",
           "restaurantId": "olive-crust",
           "name": "وجبة عائلية بيتزا لـ 6 أشخاص",
-          "description": "6 بيتزا مع إضافات ومشروبات. تكفي 6 أشخاص.",
+          "description": "6 بيتزا مع بروشيتا وسلطة. تكفي 6 أشخاص.",
           "image": "/offers/6-pizza.jpg",
           "price": 73,
           "rating": 4.6,
@@ -2692,13 +2692,13 @@
       "id": "vesuvio-pizza",
       "name": "بيتزا فيزوفيو",
       "image": "https://images.unsplash.com/photo-1565299624946-b28f40a0ae38?w=800&q=80",
-      "rating": 4.6,
+      "rating": 4.5,
       "cuisine": "إيطالي",
       "deliveryTime": "40–55 د",
-      "deliveryFee": 0,
-      "minOrder": 35,
-      "distanceKm": 6.1,
-      "verified": null,
+      "deliveryFee": 5,
+      "minOrder": 30,
+      "distanceKm": 5.9,
+      "verified": true,
       "tags": [
         "إيطالي",
         "بيتزا",
@@ -2715,15 +2715,18 @@
           "description": "صلصة طماطم وموزاريلا وريحان.",
           "image": "https://images.unsplash.com/photo-1551183053-bf91a1d81141?w=800&q=80",
           "price": 37,
-          "rating": 4.5,
+          "rating": 4.6,
           "calories": 680,
           "protein": 24,
           "carbs": 72,
           "fat": 24,
-          "category": "popular",
-          "isPopular": true,
+          "category": "menu",
+          "isPopular": false,
           "isOffer": false,
           "offerPrice": null,
+          "isCombo": false,
+          "offerKind": null,
+          "comboIncludes": [],
           "spicyOption": false,
           "cashbackPercent": null,
           "addons": [
@@ -2752,10 +2755,7 @@
               "name": "سلطة صغيرة",
               "price": 10
             }
-          ],
-          "isCombo": false,
-          "comboIncludes": [],
-          "offerKind": null
+          ]
         },
         {
           "id": "vesuvio-pizza-2",
@@ -2764,15 +2764,18 @@
           "description": "بيتزا بيبروني حارة.",
           "image": "https://images.unsplash.com/photo-1513104890138-7c749659a591?w=800&q=80",
           "price": 37,
-          "rating": 4.3,
+          "rating": 4.8,
           "calories": 760,
           "protein": 28,
           "carbs": 70,
           "fat": 32,
-          "category": "popular",
-          "isPopular": true,
+          "category": "menu",
+          "isPopular": false,
           "isOffer": false,
           "offerPrice": null,
+          "isCombo": false,
+          "offerKind": null,
+          "comboIncludes": [],
           "spicyOption": true,
           "cashbackPercent": null,
           "addons": [
@@ -2801,10 +2804,7 @@
               "name": "سلطة صغيرة",
               "price": 10
             }
-          ],
-          "isCombo": false,
-          "comboIncludes": [],
-          "offerKind": null
+          ]
         },
         {
           "id": "vesuvio-pizza-3",
@@ -2813,15 +2813,18 @@
           "description": "سباغيتي مع بيض وجبنة.",
           "image": "https://images.unsplash.com/photo-1551183053-bf91a1d81141?w=800&q=80",
           "price": 40,
-          "rating": 4.5,
+          "rating": 4.4,
           "calories": 720,
           "protein": 26,
           "carbs": 68,
           "fat": 30,
-          "category": "popular",
-          "isPopular": true,
+          "category": "menu",
+          "isPopular": false,
           "isOffer": false,
           "offerPrice": null,
+          "isCombo": false,
+          "offerKind": null,
+          "comboIncludes": [],
           "spicyOption": false,
           "cashbackPercent": null,
           "addons": [
@@ -2850,10 +2853,7 @@
               "name": "سلطة صغيرة",
               "price": 10
             }
-          ],
-          "isCombo": false,
-          "comboIncludes": [],
-          "offerKind": null
+          ]
         },
         {
           "id": "vesuvio-pizza-4",
@@ -2862,7 +2862,7 @@
           "description": "طبقات باستا ولحم وبيشاميل.",
           "image": "https://images.unsplash.com/photo-1551183053-bf91a1d81141?w=800&q=80",
           "price": 39,
-          "rating": 4.8,
+          "rating": 4.1,
           "calories": 820,
           "protein": 34,
           "carbs": 60,
@@ -2871,6 +2871,9 @@
           "isPopular": false,
           "isOffer": false,
           "offerPrice": null,
+          "isCombo": false,
+          "offerKind": null,
+          "comboIncludes": [],
           "spicyOption": false,
           "cashbackPercent": null,
           "addons": [
@@ -2899,10 +2902,7 @@
               "name": "سلطة صغيرة",
               "price": 10
             }
-          ],
-          "isCombo": false,
-          "comboIncludes": [],
-          "offerKind": null
+          ]
         },
         {
           "id": "vesuvio-pizza-5",
@@ -2911,7 +2911,7 @@
           "description": "باستا بصلصة طماطم حارة.",
           "image": "https://images.unsplash.com/photo-1513104890138-7c749659a591?w=800&q=80",
           "price": 38,
-          "rating": 4.9,
+          "rating": 4.7,
           "calories": 580,
           "protein": 16,
           "carbs": 70,
@@ -2920,6 +2920,9 @@
           "isPopular": false,
           "isOffer": false,
           "offerPrice": null,
+          "isCombo": false,
+          "offerKind": null,
+          "comboIncludes": [],
           "spicyOption": true,
           "cashbackPercent": null,
           "addons": [
@@ -2948,10 +2951,7 @@
               "name": "سلطة صغيرة",
               "price": 10
             }
-          ],
-          "isCombo": false,
-          "comboIncludes": [],
-          "offerKind": null
+          ]
         },
         {
           "id": "vesuvio-pizza-6",
@@ -2960,7 +2960,7 @@
           "description": "أرز إيطالي كريمي بالفطر.",
           "image": "https://images.unsplash.com/photo-1565299624946-b28f40a0ae38?w=800&q=80",
           "price": 39,
-          "rating": 4.7,
+          "rating": 4.9,
           "calories": 540,
           "protein": 14,
           "carbs": 58,
@@ -2969,6 +2969,9 @@
           "isPopular": false,
           "isOffer": false,
           "offerPrice": null,
+          "isCombo": false,
+          "offerKind": null,
+          "comboIncludes": [],
           "spicyOption": false,
           "cashbackPercent": null,
           "addons": [
@@ -2997,10 +3000,7 @@
               "name": "سلطة صغيرة",
               "price": 10
             }
-          ],
-          "isCombo": false,
-          "comboIncludes": [],
-          "offerKind": null
+          ]
         },
         {
           "id": "vesuvio-pizza-7",
@@ -3014,10 +3014,13 @@
           "protein": 18,
           "carbs": 16,
           "fat": 18,
-          "category": "popular",
-          "isPopular": true,
+          "category": "menu",
+          "isPopular": false,
           "isOffer": false,
           "offerPrice": null,
+          "isCombo": false,
+          "offerKind": null,
+          "comboIncludes": [],
           "spicyOption": false,
           "cashbackPercent": null,
           "addons": [
@@ -3046,10 +3049,7 @@
               "name": "سلطة صغيرة",
               "price": 10
             }
-          ],
-          "isCombo": false,
-          "comboIncludes": [],
-          "offerKind": null
+          ]
         },
         {
           "id": "vesuvio-pizza-8",
@@ -3058,15 +3058,18 @@
           "description": "خبز محمص مع طماطم وثوم.",
           "image": "https://images.unsplash.com/photo-1513104890138-7c749659a591?w=800&q=80",
           "price": 22,
-          "rating": 4.6,
+          "rating": 4.7,
           "calories": 280,
           "protein": 6,
           "carbs": 32,
           "fat": 10,
-          "category": "popular",
-          "isPopular": true,
+          "category": "menu",
+          "isPopular": false,
           "isOffer": false,
           "offerPrice": null,
+          "isCombo": false,
+          "offerKind": null,
+          "comboIncludes": [],
           "spicyOption": false,
           "cashbackPercent": null,
           "addons": [
@@ -3095,10 +3098,7 @@
               "name": "سلطة صغيرة",
               "price": 10
             }
-          ],
-          "isCombo": false,
-          "comboIncludes": [],
-          "offerKind": null
+          ]
         },
         {
           "id": "vesuvio-pizza-9",
@@ -3107,7 +3107,7 @@
           "description": "بيتزا مطوية محشوة.",
           "image": "https://images.unsplash.com/photo-1565299624946-b28f40a0ae38?w=800&q=80",
           "price": 40,
-          "rating": 4.7,
+          "rating": 4.2,
           "calories": 740,
           "protein": 26,
           "carbs": 68,
@@ -3116,6 +3116,9 @@
           "isPopular": false,
           "isOffer": false,
           "offerPrice": null,
+          "isCombo": false,
+          "offerKind": null,
+          "comboIncludes": [],
           "spicyOption": false,
           "cashbackPercent": null,
           "addons": [
@@ -3144,10 +3147,7 @@
               "name": "سلطة صغيرة",
               "price": 10
             }
-          ],
-          "isCombo": false,
-          "comboIncludes": [],
-          "offerKind": null
+          ]
         },
         {
           "id": "vesuvio-pizza-10",
@@ -3165,6 +3165,9 @@
           "isPopular": true,
           "isOffer": false,
           "offerPrice": null,
+          "isCombo": false,
+          "offerKind": null,
+          "comboIncludes": [],
           "spicyOption": false,
           "cashbackPercent": null,
           "addons": [
@@ -3193,10 +3196,7 @@
               "name": "سلطة صغيرة",
               "price": 10
             }
-          ],
-          "isCombo": false,
-          "comboIncludes": [],
-          "offerKind": null
+          ]
         },
         {
           "id": "vesuvio-pizza-offer-1",
@@ -3255,7 +3255,7 @@
           "id": "vesuvio-pizza-offer-2",
           "restaurantId": "vesuvio-pizza",
           "name": "وجبة عائلية بيتزا لـ 5 أشخاص",
-          "description": "5 بيتزا مع إضافات ومشروبات. تكفي 5 أشخاص.",
+          "description": "5 بيتزا مع بروشيتا وسلطة. تكفي 5 أشخاص.",
           "image": "/offers/5-pizza.jpg",
           "price": 73,
           "rating": 4.6,
@@ -3364,13 +3364,13 @@
       "id": "basilico",
       "name": "بازيليكو",
       "image": "https://images.unsplash.com/photo-1513104890138-7c749659a591?w=800&q=80",
-      "rating": 4.4,
+      "rating": 4.6,
       "cuisine": "إيطالي",
-      "deliveryTime": "40–55 د",
-      "deliveryFee": 10,
+      "deliveryTime": "30–45 د",
+      "deliveryFee": 8,
       "minOrder": 30,
-      "distanceKm": 6.3,
-      "verified": true,
+      "distanceKm": 3.7,
+      "verified": null,
       "tags": [
         "إيطالي",
         "بيتزا",
@@ -3378,7 +3378,7 @@
       ],
       "featured": null,
       "open24h": null,
-      "fastDelivery": true,
+      "fastDelivery": null,
       "meals": [
         {
           "id": "basilico-1",
@@ -3387,7 +3387,7 @@
           "description": "صلصة طماطم وموزاريلا وريحان.",
           "image": "https://images.unsplash.com/photo-1565299624946-b28f40a0ae38?w=800&q=80",
           "price": 37,
-          "rating": 4.8,
+          "rating": 4.2,
           "calories": 680,
           "protein": 24,
           "carbs": 72,
@@ -3396,6 +3396,9 @@
           "isPopular": false,
           "isOffer": false,
           "offerPrice": null,
+          "isCombo": false,
+          "offerKind": null,
+          "comboIncludes": [],
           "spicyOption": false,
           "cashbackPercent": null,
           "addons": [
@@ -3424,10 +3427,7 @@
               "name": "سلطة صغيرة",
               "price": 10
             }
-          ],
-          "isCombo": false,
-          "comboIncludes": [],
-          "offerKind": null
+          ]
         },
         {
           "id": "basilico-2",
@@ -3436,15 +3436,18 @@
           "description": "بيتزا بيبروني حارة.",
           "image": "https://images.unsplash.com/photo-1565299624946-b28f40a0ae38?w=800&q=80",
           "price": 37,
-          "rating": 4.7,
+          "rating": 4.1,
           "calories": 760,
           "protein": 28,
           "carbs": 70,
           "fat": 32,
-          "category": "popular",
-          "isPopular": true,
+          "category": "menu",
+          "isPopular": false,
           "isOffer": false,
           "offerPrice": null,
+          "isCombo": false,
+          "offerKind": null,
+          "comboIncludes": [],
           "spicyOption": true,
           "cashbackPercent": null,
           "addons": [
@@ -3473,10 +3476,7 @@
               "name": "سلطة صغيرة",
               "price": 10
             }
-          ],
-          "isCombo": false,
-          "comboIncludes": [],
-          "offerKind": null
+          ]
         },
         {
           "id": "basilico-3",
@@ -3485,15 +3485,18 @@
           "description": "سباغيتي مع بيض وجبنة.",
           "image": "https://images.unsplash.com/photo-1551183053-bf91a1d81141?w=800&q=80",
           "price": 40,
-          "rating": 4.8,
+          "rating": 4.2,
           "calories": 720,
           "protein": 26,
           "carbs": 68,
           "fat": 30,
-          "category": "popular",
-          "isPopular": true,
+          "category": "menu",
+          "isPopular": false,
           "isOffer": false,
           "offerPrice": null,
+          "isCombo": false,
+          "offerKind": null,
+          "comboIncludes": [],
           "spicyOption": false,
           "cashbackPercent": null,
           "addons": [
@@ -3522,10 +3525,7 @@
               "name": "سلطة صغيرة",
               "price": 10
             }
-          ],
-          "isCombo": false,
-          "comboIncludes": [],
-          "offerKind": null
+          ]
         },
         {
           "id": "basilico-4",
@@ -3534,7 +3534,7 @@
           "description": "طبقات باستا ولحم وبيشاميل.",
           "image": "https://images.unsplash.com/photo-1551183053-bf91a1d81141?w=800&q=80",
           "price": 39,
-          "rating": 4.2,
+          "rating": 4.6,
           "calories": 820,
           "protein": 34,
           "carbs": 60,
@@ -3543,8 +3543,11 @@
           "isPopular": false,
           "isOffer": false,
           "offerPrice": null,
+          "isCombo": false,
+          "offerKind": null,
+          "comboIncludes": [],
           "spicyOption": false,
-          "cashbackPercent": 5,
+          "cashbackPercent": null,
           "addons": [
             {
               "id": "parmesan",
@@ -3571,10 +3574,7 @@
               "name": "سلطة صغيرة",
               "price": 10
             }
-          ],
-          "isCombo": false,
-          "comboIncludes": [],
-          "offerKind": null
+          ]
         },
         {
           "id": "basilico-5",
@@ -3588,10 +3588,13 @@
           "protein": 16,
           "carbs": 70,
           "fat": 14,
-          "category": "menu",
-          "isPopular": false,
+          "category": "popular",
+          "isPopular": true,
           "isOffer": false,
           "offerPrice": null,
+          "isCombo": false,
+          "offerKind": null,
+          "comboIncludes": [],
           "spicyOption": true,
           "cashbackPercent": null,
           "addons": [
@@ -3620,10 +3623,7 @@
               "name": "سلطة صغيرة",
               "price": 10
             }
-          ],
-          "isCombo": false,
-          "comboIncludes": [],
-          "offerKind": null
+          ]
         },
         {
           "id": "basilico-6",
@@ -3632,7 +3632,7 @@
           "description": "أرز إيطالي كريمي بالفطر.",
           "image": "https://images.unsplash.com/photo-1565299624946-b28f40a0ae38?w=800&q=80",
           "price": 39,
-          "rating": 4.8,
+          "rating": 4.3,
           "calories": 540,
           "protein": 14,
           "carbs": 58,
@@ -3641,6 +3641,9 @@
           "isPopular": false,
           "isOffer": false,
           "offerPrice": null,
+          "isCombo": false,
+          "offerKind": null,
+          "comboIncludes": [],
           "spicyOption": false,
           "cashbackPercent": null,
           "addons": [
@@ -3669,10 +3672,7 @@
               "name": "سلطة صغيرة",
               "price": 10
             }
-          ],
-          "isCombo": false,
-          "comboIncludes": [],
-          "offerKind": null
+          ]
         },
         {
           "id": "basilico-7",
@@ -3681,7 +3681,7 @@
           "description": "خس ورُمان وكروتون.",
           "image": "https://images.unsplash.com/photo-1512621776951-a57141f2eefd?w=800&q=80",
           "price": 28,
-          "rating": 4.7,
+          "rating": 4.4,
           "calories": 320,
           "protein": 18,
           "carbs": 16,
@@ -3690,6 +3690,9 @@
           "isPopular": false,
           "isOffer": false,
           "offerPrice": null,
+          "isCombo": false,
+          "offerKind": null,
+          "comboIncludes": [],
           "spicyOption": false,
           "cashbackPercent": null,
           "addons": [
@@ -3718,10 +3721,7 @@
               "name": "سلطة صغيرة",
               "price": 10
             }
-          ],
-          "isCombo": false,
-          "comboIncludes": [],
-          "offerKind": null
+          ]
         },
         {
           "id": "basilico-8",
@@ -3730,15 +3730,18 @@
           "description": "خبز محمص مع طماطم وثوم.",
           "image": "https://images.unsplash.com/photo-1565299624946-b28f40a0ae38?w=800&q=80",
           "price": 22,
-          "rating": 4.5,
+          "rating": 4.3,
           "calories": 280,
           "protein": 6,
           "carbs": 32,
           "fat": 10,
-          "category": "menu",
-          "isPopular": false,
+          "category": "popular",
+          "isPopular": true,
           "isOffer": false,
           "offerPrice": null,
+          "isCombo": false,
+          "offerKind": null,
+          "comboIncludes": [],
           "spicyOption": false,
           "cashbackPercent": null,
           "addons": [
@@ -3767,10 +3770,7 @@
               "name": "سلطة صغيرة",
               "price": 10
             }
-          ],
-          "isCombo": false,
-          "comboIncludes": [],
-          "offerKind": null
+          ]
         },
         {
           "id": "basilico-9",
@@ -3779,15 +3779,18 @@
           "description": "بيتزا مطوية محشوة.",
           "image": "https://images.unsplash.com/photo-1565299624946-b28f40a0ae38?w=800&q=80",
           "price": 40,
-          "rating": 4.7,
+          "rating": 4.5,
           "calories": 740,
           "protein": 26,
           "carbs": 68,
           "fat": 28,
-          "category": "menu",
-          "isPopular": false,
+          "category": "popular",
+          "isPopular": true,
           "isOffer": false,
           "offerPrice": null,
+          "isCombo": false,
+          "offerKind": null,
+          "comboIncludes": [],
           "spicyOption": false,
           "cashbackPercent": null,
           "addons": [
@@ -3816,10 +3819,7 @@
               "name": "سلطة صغيرة",
               "price": 10
             }
-          ],
-          "isCombo": false,
-          "comboIncludes": [],
-          "offerKind": null
+          ]
         },
         {
           "id": "basilico-10",
@@ -3828,7 +3828,7 @@
           "description": "تحلية إيطالية كلاسيكية.",
           "image": "https://images.unsplash.com/photo-1565299624946-b28f40a0ae38?w=800&q=80",
           "price": 26,
-          "rating": 4.2,
+          "rating": 4.3,
           "calories": 360,
           "protein": 6,
           "carbs": 34,
@@ -3837,6 +3837,9 @@
           "isPopular": false,
           "isOffer": false,
           "offerPrice": null,
+          "isCombo": false,
+          "offerKind": null,
+          "comboIncludes": [],
           "spicyOption": false,
           "cashbackPercent": null,
           "addons": [
@@ -3865,10 +3868,7 @@
               "name": "سلطة صغيرة",
               "price": 10
             }
-          ],
-          "isCombo": false,
-          "comboIncludes": [],
-          "offerKind": null
+          ]
         },
         {
           "id": "basilico-offer-1",
@@ -3927,7 +3927,7 @@
           "id": "basilico-offer-2",
           "restaurantId": "basilico",
           "name": "وجبة عائلية بيتزا لـ 5 أشخاص",
-          "description": "5 بيتزا مع إضافات ومشروبات. تكفي 5 أشخاص.",
+          "description": "5 بيتزا مع بروشيتا وسلطة. تكفي 5 أشخاص.",
           "image": "/offers/5-pizza.jpg",
           "price": 73,
           "rating": 4.6,
@@ -4036,19 +4036,19 @@
       "id": "formaggio",
       "name": "فورماجيو",
       "image": "https://images.unsplash.com/photo-1565299624946-b28f40a0ae38?w=800&q=80",
-      "rating": 4.9,
+      "rating": 4.5,
       "cuisine": "إيطالي",
-      "deliveryTime": "40–55 د",
-      "deliveryFee": 12,
-      "minOrder": 25,
-      "distanceKm": 6.3,
-      "verified": true,
+      "deliveryTime": "30–45 د",
+      "deliveryFee": 8,
+      "minOrder": 35,
+      "distanceKm": 2,
+      "verified": null,
       "tags": [
         "إيطالي",
         "بيتزا",
         "باستا"
       ],
-      "featured": true,
+      "featured": null,
       "open24h": null,
       "fastDelivery": null,
       "meals": [
@@ -4059,15 +4059,18 @@
           "description": "صلصة طماطم وموزاريلا وريحان.",
           "image": "https://images.unsplash.com/photo-1513104890138-7c749659a591?w=800&q=80",
           "price": 37,
-          "rating": 4.6,
+          "rating": 4.8,
           "calories": 680,
           "protein": 24,
           "carbs": 72,
           "fat": 24,
-          "category": "menu",
-          "isPopular": false,
+          "category": "popular",
+          "isPopular": true,
           "isOffer": false,
           "offerPrice": null,
+          "isCombo": false,
+          "offerKind": null,
+          "comboIncludes": [],
           "spicyOption": false,
           "cashbackPercent": null,
           "addons": [
@@ -4096,10 +4099,7 @@
               "name": "سلطة صغيرة",
               "price": 10
             }
-          ],
-          "isCombo": false,
-          "comboIncludes": [],
-          "offerKind": null
+          ]
         },
         {
           "id": "formaggio-2",
@@ -4108,15 +4108,18 @@
           "description": "بيتزا بيبروني حارة.",
           "image": "https://images.unsplash.com/photo-1565299624946-b28f40a0ae38?w=800&q=80",
           "price": 37,
-          "rating": 4.6,
+          "rating": 4.3,
           "calories": 760,
           "protein": 28,
           "carbs": 70,
           "fat": 32,
-          "category": "menu",
-          "isPopular": false,
+          "category": "popular",
+          "isPopular": true,
           "isOffer": false,
           "offerPrice": null,
+          "isCombo": false,
+          "offerKind": null,
+          "comboIncludes": [],
           "spicyOption": true,
           "cashbackPercent": null,
           "addons": [
@@ -4145,10 +4148,7 @@
               "name": "سلطة صغيرة",
               "price": 10
             }
-          ],
-          "isCombo": false,
-          "comboIncludes": [],
-          "offerKind": null
+          ]
         },
         {
           "id": "formaggio-3",
@@ -4157,15 +4157,18 @@
           "description": "سباغيتي مع بيض وجبنة.",
           "image": "https://images.unsplash.com/photo-1551183053-bf91a1d81141?w=800&q=80",
           "price": 40,
-          "rating": 4.2,
+          "rating": 4.3,
           "calories": 720,
           "protein": 26,
           "carbs": 68,
           "fat": 30,
-          "category": "menu",
-          "isPopular": false,
+          "category": "popular",
+          "isPopular": true,
           "isOffer": false,
           "offerPrice": null,
+          "isCombo": false,
+          "offerKind": null,
+          "comboIncludes": [],
           "spicyOption": false,
           "cashbackPercent": null,
           "addons": [
@@ -4194,10 +4197,7 @@
               "name": "سلطة صغيرة",
               "price": 10
             }
-          ],
-          "isCombo": false,
-          "comboIncludes": [],
-          "offerKind": null
+          ]
         },
         {
           "id": "formaggio-4",
@@ -4211,10 +4211,13 @@
           "protein": 34,
           "carbs": 60,
           "fat": 38,
-          "category": "menu",
-          "isPopular": false,
+          "category": "popular",
+          "isPopular": true,
           "isOffer": false,
           "offerPrice": null,
+          "isCombo": false,
+          "offerKind": null,
+          "comboIncludes": [],
           "spicyOption": false,
           "cashbackPercent": null,
           "addons": [
@@ -4243,10 +4246,7 @@
               "name": "سلطة صغيرة",
               "price": 10
             }
-          ],
-          "isCombo": false,
-          "comboIncludes": [],
-          "offerKind": null
+          ]
         },
         {
           "id": "formaggio-5",
@@ -4255,15 +4255,18 @@
           "description": "باستا بصلصة طماطم حارة.",
           "image": "https://images.unsplash.com/photo-1565299624946-b28f40a0ae38?w=800&q=80",
           "price": 38,
-          "rating": 4.1,
+          "rating": 4.8,
           "calories": 580,
           "protein": 16,
           "carbs": 70,
           "fat": 14,
-          "category": "popular",
-          "isPopular": true,
+          "category": "menu",
+          "isPopular": false,
           "isOffer": false,
           "offerPrice": null,
+          "isCombo": false,
+          "offerKind": null,
+          "comboIncludes": [],
           "spicyOption": true,
           "cashbackPercent": null,
           "addons": [
@@ -4292,10 +4295,7 @@
               "name": "سلطة صغيرة",
               "price": 10
             }
-          ],
-          "isCombo": false,
-          "comboIncludes": [],
-          "offerKind": null
+          ]
         },
         {
           "id": "formaggio-6",
@@ -4304,7 +4304,7 @@
           "description": "أرز إيطالي كريمي بالفطر.",
           "image": "https://images.unsplash.com/photo-1551183053-bf91a1d81141?w=800&q=80",
           "price": 39,
-          "rating": 4.2,
+          "rating": 4.9,
           "calories": 540,
           "protein": 14,
           "carbs": 58,
@@ -4313,8 +4313,11 @@
           "isPopular": false,
           "isOffer": false,
           "offerPrice": null,
+          "isCombo": false,
+          "offerKind": null,
+          "comboIncludes": [],
           "spicyOption": false,
-          "cashbackPercent": 15,
+          "cashbackPercent": null,
           "addons": [
             {
               "id": "parmesan",
@@ -4341,10 +4344,7 @@
               "name": "سلطة صغيرة",
               "price": 10
             }
-          ],
-          "isCombo": false,
-          "comboIncludes": [],
-          "offerKind": null
+          ]
         },
         {
           "id": "formaggio-7",
@@ -4353,17 +4353,20 @@
           "description": "خس ورُمان وكروتون.",
           "image": "https://images.unsplash.com/photo-1512621776951-a57141f2eefd?w=800&q=80",
           "price": 28,
-          "rating": 4.5,
+          "rating": 4.6,
           "calories": 320,
           "protein": 18,
           "carbs": 16,
           "fat": 18,
-          "category": "menu",
-          "isPopular": false,
+          "category": "popular",
+          "isPopular": true,
           "isOffer": false,
           "offerPrice": null,
+          "isCombo": false,
+          "offerKind": null,
+          "comboIncludes": [],
           "spicyOption": false,
-          "cashbackPercent": 10,
+          "cashbackPercent": null,
           "addons": [
             {
               "id": "parmesan",
@@ -4390,10 +4393,7 @@
               "name": "سلطة صغيرة",
               "price": 10
             }
-          ],
-          "isCombo": false,
-          "comboIncludes": [],
-          "offerKind": null
+          ]
         },
         {
           "id": "formaggio-8",
@@ -4402,7 +4402,7 @@
           "description": "خبز محمص مع طماطم وثوم.",
           "image": "https://images.unsplash.com/photo-1565299624946-b28f40a0ae38?w=800&q=80",
           "price": 22,
-          "rating": 4.3,
+          "rating": 4.6,
           "calories": 280,
           "protein": 6,
           "carbs": 32,
@@ -4411,6 +4411,9 @@
           "isPopular": false,
           "isOffer": false,
           "offerPrice": null,
+          "isCombo": false,
+          "offerKind": null,
+          "comboIncludes": [],
           "spicyOption": false,
           "cashbackPercent": null,
           "addons": [
@@ -4439,10 +4442,7 @@
               "name": "سلطة صغيرة",
               "price": 10
             }
-          ],
-          "isCombo": false,
-          "comboIncludes": [],
-          "offerKind": null
+          ]
         },
         {
           "id": "formaggio-9",
@@ -4451,7 +4451,7 @@
           "description": "بيتزا مطوية محشوة.",
           "image": "https://images.unsplash.com/photo-1551183053-bf91a1d81141?w=800&q=80",
           "price": 40,
-          "rating": 4.8,
+          "rating": 4.1,
           "calories": 740,
           "protein": 26,
           "carbs": 68,
@@ -4460,6 +4460,9 @@
           "isPopular": false,
           "isOffer": false,
           "offerPrice": null,
+          "isCombo": false,
+          "offerKind": null,
+          "comboIncludes": [],
           "spicyOption": false,
           "cashbackPercent": null,
           "addons": [
@@ -4488,10 +4491,7 @@
               "name": "سلطة صغيرة",
               "price": 10
             }
-          ],
-          "isCombo": false,
-          "comboIncludes": [],
-          "offerKind": null
+          ]
         },
         {
           "id": "formaggio-10",
@@ -4500,7 +4500,7 @@
           "description": "تحلية إيطالية كلاسيكية.",
           "image": "https://images.unsplash.com/photo-1565299624946-b28f40a0ae38?w=800&q=80",
           "price": 26,
-          "rating": 4.8,
+          "rating": 4.5,
           "calories": 360,
           "protein": 6,
           "carbs": 34,
@@ -4509,6 +4509,9 @@
           "isPopular": false,
           "isOffer": false,
           "offerPrice": null,
+          "isCombo": false,
+          "offerKind": null,
+          "comboIncludes": [],
           "spicyOption": false,
           "cashbackPercent": null,
           "addons": [
@@ -4537,10 +4540,7 @@
               "name": "سلطة صغيرة",
               "price": 10
             }
-          ],
-          "isCombo": false,
-          "comboIncludes": [],
-          "offerKind": null
+          ]
         },
         {
           "id": "formaggio-offer-1",
@@ -4599,7 +4599,7 @@
           "id": "formaggio-offer-2",
           "restaurantId": "formaggio",
           "name": "وجبة عائلية بيتزا لـ 6 أشخاص",
-          "description": "6 بيتزا مع إضافات ومشروبات. تكفي 6 أشخاص.",
+          "description": "6 بيتزا مع بروشيتا وسلطة. تكفي 6 أشخاص.",
           "image": "/offers/6-pizza.jpg",
           "price": 73,
           "rating": 4.6,
@@ -4708,13 +4708,13 @@
       "id": "amico-kitchen",
       "name": "مطبخ أميكو",
       "image": "https://images.unsplash.com/photo-1513104890138-7c749659a591?w=800&q=80",
-      "rating": 4.4,
+      "rating": 4.3,
       "cuisine": "إيطالي",
       "deliveryTime": "30–45 د",
-      "deliveryFee": 12,
-      "minOrder": 40,
-      "distanceKm": 3.6,
-      "verified": true,
+      "deliveryFee": 6,
+      "minOrder": 30,
+      "distanceKm": 4.8,
+      "verified": null,
       "tags": [
         "إيطالي",
         "بيتزا",
@@ -4722,7 +4722,7 @@
       ],
       "featured": null,
       "open24h": null,
-      "fastDelivery": null,
+      "fastDelivery": true,
       "meals": [
         {
           "id": "amico-kitchen-1",
@@ -4731,15 +4731,18 @@
           "description": "صلصة طماطم وموزاريلا وريحان.",
           "image": "https://images.unsplash.com/photo-1513104890138-7c749659a591?w=800&q=80",
           "price": 37,
-          "rating": 4.1,
+          "rating": 4.5,
           "calories": 680,
           "protein": 24,
           "carbs": 72,
           "fat": 24,
-          "category": "menu",
-          "isPopular": false,
+          "category": "popular",
+          "isPopular": true,
           "isOffer": false,
           "offerPrice": null,
+          "isCombo": false,
+          "offerKind": null,
+          "comboIncludes": [],
           "spicyOption": false,
           "cashbackPercent": null,
           "addons": [
@@ -4768,10 +4771,7 @@
               "name": "سلطة صغيرة",
               "price": 10
             }
-          ],
-          "isCombo": false,
-          "comboIncludes": [],
-          "offerKind": null
+          ]
         },
         {
           "id": "amico-kitchen-2",
@@ -4780,7 +4780,7 @@
           "description": "بيتزا بيبروني حارة.",
           "image": "https://images.unsplash.com/photo-1513104890138-7c749659a591?w=800&q=80",
           "price": 37,
-          "rating": 4.3,
+          "rating": 4.6,
           "calories": 760,
           "protein": 28,
           "carbs": 70,
@@ -4789,6 +4789,9 @@
           "isPopular": true,
           "isOffer": false,
           "offerPrice": null,
+          "isCombo": false,
+          "offerKind": null,
+          "comboIncludes": [],
           "spicyOption": true,
           "cashbackPercent": null,
           "addons": [
@@ -4817,10 +4820,7 @@
               "name": "سلطة صغيرة",
               "price": 10
             }
-          ],
-          "isCombo": false,
-          "comboIncludes": [],
-          "offerKind": null
+          ]
         },
         {
           "id": "amico-kitchen-3",
@@ -4829,15 +4829,18 @@
           "description": "سباغيتي مع بيض وجبنة.",
           "image": "https://images.unsplash.com/photo-1551183053-bf91a1d81141?w=800&q=80",
           "price": 40,
-          "rating": 4.4,
+          "rating": 4.8,
           "calories": 720,
           "protein": 26,
           "carbs": 68,
           "fat": 30,
-          "category": "popular",
-          "isPopular": true,
+          "category": "menu",
+          "isPopular": false,
           "isOffer": false,
           "offerPrice": null,
+          "isCombo": false,
+          "offerKind": null,
+          "comboIncludes": [],
           "spicyOption": false,
           "cashbackPercent": null,
           "addons": [
@@ -4866,10 +4869,7 @@
               "name": "سلطة صغيرة",
               "price": 10
             }
-          ],
-          "isCombo": false,
-          "comboIncludes": [],
-          "offerKind": null
+          ]
         },
         {
           "id": "amico-kitchen-4",
@@ -4878,7 +4878,7 @@
           "description": "طبقات باستا ولحم وبيشاميل.",
           "image": "https://images.unsplash.com/photo-1551183053-bf91a1d81141?w=800&q=80",
           "price": 39,
-          "rating": 4.5,
+          "rating": 4.4,
           "calories": 820,
           "protein": 34,
           "carbs": 60,
@@ -4887,6 +4887,9 @@
           "isPopular": true,
           "isOffer": false,
           "offerPrice": null,
+          "isCombo": false,
+          "offerKind": null,
+          "comboIncludes": [],
           "spicyOption": false,
           "cashbackPercent": null,
           "addons": [
@@ -4915,10 +4918,7 @@
               "name": "سلطة صغيرة",
               "price": 10
             }
-          ],
-          "isCombo": false,
-          "comboIncludes": [],
-          "offerKind": null
+          ]
         },
         {
           "id": "amico-kitchen-5",
@@ -4927,15 +4927,18 @@
           "description": "باستا بصلصة طماطم حارة.",
           "image": "https://images.unsplash.com/photo-1513104890138-7c749659a591?w=800&q=80",
           "price": 38,
-          "rating": 4.5,
+          "rating": 4.2,
           "calories": 580,
           "protein": 16,
           "carbs": 70,
           "fat": 14,
-          "category": "menu",
-          "isPopular": false,
+          "category": "popular",
+          "isPopular": true,
           "isOffer": false,
           "offerPrice": null,
+          "isCombo": false,
+          "offerKind": null,
+          "comboIncludes": [],
           "spicyOption": true,
           "cashbackPercent": null,
           "addons": [
@@ -4964,10 +4967,7 @@
               "name": "سلطة صغيرة",
               "price": 10
             }
-          ],
-          "isCombo": false,
-          "comboIncludes": [],
-          "offerKind": null
+          ]
         },
         {
           "id": "amico-kitchen-6",
@@ -4976,15 +4976,18 @@
           "description": "أرز إيطالي كريمي بالفطر.",
           "image": "https://images.unsplash.com/photo-1513104890138-7c749659a591?w=800&q=80",
           "price": 39,
-          "rating": 4.2,
+          "rating": 4.3,
           "calories": 540,
           "protein": 14,
           "carbs": 58,
           "fat": 20,
-          "category": "popular",
-          "isPopular": true,
+          "category": "menu",
+          "isPopular": false,
           "isOffer": false,
           "offerPrice": null,
+          "isCombo": false,
+          "offerKind": null,
+          "comboIncludes": [],
           "spicyOption": false,
           "cashbackPercent": null,
           "addons": [
@@ -5013,10 +5016,7 @@
               "name": "سلطة صغيرة",
               "price": 10
             }
-          ],
-          "isCombo": false,
-          "comboIncludes": [],
-          "offerKind": null
+          ]
         },
         {
           "id": "amico-kitchen-7",
@@ -5034,6 +5034,9 @@
           "isPopular": false,
           "isOffer": false,
           "offerPrice": null,
+          "isCombo": false,
+          "offerKind": null,
+          "comboIncludes": [],
           "spicyOption": false,
           "cashbackPercent": null,
           "addons": [
@@ -5062,10 +5065,7 @@
               "name": "سلطة صغيرة",
               "price": 10
             }
-          ],
-          "isCombo": false,
-          "comboIncludes": [],
-          "offerKind": null
+          ]
         },
         {
           "id": "amico-kitchen-8",
@@ -5079,10 +5079,13 @@
           "protein": 6,
           "carbs": 32,
           "fat": 10,
-          "category": "menu",
-          "isPopular": false,
+          "category": "popular",
+          "isPopular": true,
           "isOffer": false,
           "offerPrice": null,
+          "isCombo": false,
+          "offerKind": null,
+          "comboIncludes": [],
           "spicyOption": false,
           "cashbackPercent": null,
           "addons": [
@@ -5111,10 +5114,7 @@
               "name": "سلطة صغيرة",
               "price": 10
             }
-          ],
-          "isCombo": false,
-          "comboIncludes": [],
-          "offerKind": null
+          ]
         },
         {
           "id": "amico-kitchen-9",
@@ -5123,15 +5123,18 @@
           "description": "بيتزا مطوية محشوة.",
           "image": "https://images.unsplash.com/photo-1513104890138-7c749659a591?w=800&q=80",
           "price": 40,
-          "rating": 4.7,
+          "rating": 4.2,
           "calories": 740,
           "protein": 26,
           "carbs": 68,
           "fat": 28,
-          "category": "popular",
-          "isPopular": true,
+          "category": "menu",
+          "isPopular": false,
           "isOffer": false,
           "offerPrice": null,
+          "isCombo": false,
+          "offerKind": null,
+          "comboIncludes": [],
           "spicyOption": false,
           "cashbackPercent": null,
           "addons": [
@@ -5160,10 +5163,7 @@
               "name": "سلطة صغيرة",
               "price": 10
             }
-          ],
-          "isCombo": false,
-          "comboIncludes": [],
-          "offerKind": null
+          ]
         },
         {
           "id": "amico-kitchen-10",
@@ -5172,7 +5172,7 @@
           "description": "تحلية إيطالية كلاسيكية.",
           "image": "https://images.unsplash.com/photo-1565299624946-b28f40a0ae38?w=800&q=80",
           "price": 26,
-          "rating": 4.7,
+          "rating": 4.5,
           "calories": 360,
           "protein": 6,
           "carbs": 34,
@@ -5181,6 +5181,9 @@
           "isPopular": false,
           "isOffer": false,
           "offerPrice": null,
+          "isCombo": false,
+          "offerKind": null,
+          "comboIncludes": [],
           "spicyOption": false,
           "cashbackPercent": null,
           "addons": [
@@ -5209,10 +5212,7 @@
               "name": "سلطة صغيرة",
               "price": 10
             }
-          ],
-          "isCombo": false,
-          "comboIncludes": [],
-          "offerKind": null
+          ]
         },
         {
           "id": "amico-kitchen-offer-1",
@@ -5271,7 +5271,7 @@
           "id": "amico-kitchen-offer-2",
           "restaurantId": "amico-kitchen",
           "name": "وجبة عائلية بيتزا لـ 3 أشخاص",
-          "description": "3 بيتزا مع إضافات ومشروبات. تكفي 3 أشخاص.",
+          "description": "3 بيتزا مع بروشيتا وسلطة. تكفي 3 أشخاص.",
           "image": "/offers/3-pizza.jpg",
           "price": 71,
           "rating": 4.6,

@@ -73,6 +73,13 @@ const ADDONS_BY_CUISINE: Record<string, MealAddon[]> = {
     { id: "nuts", name: "مكسرات", price: 6 },
   ],
   بقالة: [],
+  "فرايد تشيكن": [
+    { id: "extra-piece", name: "قطعة إضافية", price: 8 },
+    { id: "large-fries", name: "بطاطس كبيرة", price: 10 },
+    { id: "coleslaw", name: "كول سلو", price: 6 },
+    { id: "spicy-sauce", name: "صوص سبايسي", price: 3 },
+    { id: "cola", name: "كولا", price: 6 },
+  ],
 };
 
 export function getAddonsForCuisine(cuisine: string): MealAddon[] {

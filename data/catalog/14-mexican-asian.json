@@ -4,20 +4,20 @@
       "id": "taco-fiesta",
       "name": "تاكو فييستا",
       "image": "https://images.unsplash.com/photo-1568901346375-23c9450c58cd?w=800&q=80",
-      "rating": 4.8,
+      "rating": 4.5,
       "cuisine": "برجر",
-      "deliveryTime": "25–35 د",
-      "deliveryFee": 8,
-      "minOrder": 30,
-      "distanceKm": 5.3,
+      "deliveryTime": "20–30 د",
+      "deliveryFee": 5,
+      "minOrder": 50,
+      "distanceKm": 5.6,
       "verified": true,
       "tags": [
         "عالمي",
         "سريع"
       ],
-      "featured": true,
+      "featured": null,
       "open24h": null,
-      "fastDelivery": null,
+      "fastDelivery": true,
       "meals": [
         {
           "id": "taco-fiesta-1",
@@ -35,6 +35,9 @@
           "isPopular": false,
           "isOffer": false,
           "offerPrice": null,
+          "isCombo": false,
+          "offerKind": null,
+          "comboIncludes": [],
           "spicyOption": true,
           "cashbackPercent": null,
           "addons": [
@@ -63,10 +66,7 @@
               "name": "صوص سبايسي",
               "price": 3
             }
-          ],
-          "isCombo": false,
-          "comboIncludes": [],
-          "offerKind": null
+          ]
         },
         {
           "id": "taco-fiesta-2",
@@ -75,15 +75,18 @@
           "description": "بوريتو محشي أرز ودجاج.",
           "image": "https://images.unsplash.com/photo-1598103442097-8b74394b95c6?w=800&q=80",
           "price": 29,
-          "rating": 4.9,
+          "rating": 4.7,
           "calories": 620,
           "protein": 30,
           "carbs": 58,
           "fat": 22,
-          "category": "popular",
-          "isPopular": true,
+          "category": "menu",
+          "isPopular": false,
           "isOffer": false,
           "offerPrice": null,
+          "isCombo": false,
+          "offerKind": null,
+          "comboIncludes": [],
           "spicyOption": true,
           "cashbackPercent": null,
           "addons": [
@@ -112,10 +115,7 @@
               "name": "صوص سبايسي",
               "price": 3
             }
-          ],
-          "isCombo": false,
-          "comboIncludes": [],
-          "offerKind": null
+          ]
         },
         {
           "id": "taco-fiesta-3",
@@ -124,7 +124,7 @@
           "description": "خبز باو محشي لحم.",
           "image": "https://images.unsplash.com/photo-1571091718767-18b5b1457add?w=800&q=80",
           "price": 28,
-          "rating": 4.4,
+          "rating": 4.6,
           "calories": 360,
           "protein": 16,
           "carbs": 34,
@@ -133,6 +133,9 @@
           "isPopular": false,
           "isOffer": false,
           "offerPrice": null,
+          "isCombo": false,
+          "offerKind": null,
+          "comboIncludes": [],
           "spicyOption": false,
           "cashbackPercent": null,
           "addons": [
@@ -161,10 +164,7 @@
               "name": "صوص سبايسي",
               "price": 3
             }
-          ],
-          "isCombo": false,
-          "comboIncludes": [],
-          "offerKind": null
+          ]
         },
         {
           "id": "taco-fiesta-4",
@@ -173,7 +173,7 @@
           "description": "نودلز بصلصة صويا وخضار.",
           "image": "https://images.unsplash.com/photo-1568901346375-23c9450c58cd?w=800&q=80",
           "price": 32,
-          "rating": 4.2,
+          "rating": 4.7,
           "calories": 520,
           "protein": 14,
           "carbs": 70,
@@ -182,6 +182,9 @@
           "isPopular": true,
           "isOffer": false,
           "offerPrice": null,
+          "isCombo": false,
+          "offerKind": null,
+          "comboIncludes": [],
           "spicyOption": false,
           "cashbackPercent": null,
           "addons": [
@@ -210,10 +213,7 @@
               "name": "صوص سبايسي",
               "price": 3
             }
-          ],
-          "isCombo": false,
-          "comboIncludes": [],
-          "offerKind": null
+          ]
         },
         {
           "id": "taco-fiesta-5",
@@ -222,15 +222,18 @@
           "description": "أرز كوري مع خضار وبيض.",
           "image": "https://images.unsplash.com/photo-1571091718767-18b5b1457add?w=800&q=80",
           "price": 30,
-          "rating": 4.8,
+          "rating": 4.1,
           "calories": 580,
           "protein": 22,
           "carbs": 72,
           "fat": 16,
-          "category": "menu",
-          "isPopular": false,
+          "category": "popular",
+          "isPopular": true,
           "isOffer": false,
           "offerPrice": null,
+          "isCombo": false,
+          "offerKind": null,
+          "comboIncludes": [],
           "spicyOption": false,
           "cashbackPercent": null,
           "addons": [
@@ -259,10 +262,7 @@
               "name": "صوص سبايسي",
               "price": 3
             }
-          ],
-          "isCombo": false,
-          "comboIncludes": [],
-          "offerKind": null
+          ]
         },
         {
           "id": "taco-fiesta-6",
@@ -271,7 +271,7 @@
           "description": "أسياخ دجاج مع فول سوداني.",
           "image": "https://images.unsplash.com/photo-1598103442097-8b74394b95c6?w=800&q=80",
           "price": 32,
-          "rating": 4.3,
+          "rating": 4.2,
           "calories": 440,
           "protein": 32,
           "carbs": 18,
@@ -280,6 +280,9 @@
           "isPopular": false,
           "isOffer": false,
           "offerPrice": null,
+          "isCombo": false,
+          "offerKind": null,
+          "comboIncludes": [],
           "spicyOption": true,
           "cashbackPercent": null,
           "addons": [
@@ -308,10 +311,7 @@
               "name": "صوص سبايسي",
               "price": 3
             }
-          ],
-          "isCombo": false,
-          "comboIncludes": [],
-          "offerKind": null
+          ]
         },
         {
           "id": "taco-fiesta-7",
@@ -320,7 +320,7 @@
           "description": "مرق فيتنامي مع نودلز.",
           "image": "https://images.unsplash.com/photo-1571091718767-18b5b1457add?w=800&q=80",
           "price": 30,
-          "rating": 4.5,
+          "rating": 4.4,
           "calories": 390,
           "protein": 24,
           "carbs": 40,
@@ -329,8 +329,11 @@
           "isPopular": false,
           "isOffer": false,
           "offerPrice": null,
+          "isCombo": false,
+          "offerKind": null,
+          "comboIncludes": [],
           "spicyOption": false,
-          "cashbackPercent": 15,
+          "cashbackPercent": null,
           "addons": [
             {
               "id": "extra-cheese",
@@ -357,10 +360,7 @@
               "name": "صوص سبايسي",
               "price": 3
             }
-          ],
-          "isCombo": false,
-          "comboIncludes": [],
-          "offerKind": null
+          ]
         },
         {
           "id": "taco-fiesta-8",
@@ -369,15 +369,18 @@
           "description": "نودلز تايلندي بالروبيان.",
           "image": "https://images.unsplash.com/photo-1568901346375-23c9450c58cd?w=800&q=80",
           "price": 30,
-          "rating": 4.2,
+          "rating": 4.6,
           "calories": 610,
           "protein": 26,
           "carbs": 68,
           "fat": 18,
-          "category": "menu",
-          "isPopular": false,
+          "category": "popular",
+          "isPopular": true,
           "isOffer": false,
           "offerPrice": null,
+          "isCombo": false,
+          "offerKind": null,
+          "comboIncludes": [],
           "spicyOption": true,
           "cashbackPercent": null,
           "addons": [
@@ -406,10 +409,7 @@
               "name": "صوص سبايسي",
               "price": 3
             }
-          ],
-          "isCombo": false,
-          "comboIncludes": [],
-          "offerKind": null
+          ]
         },
         {
           "id": "taco-fiesta-9",
@@ -423,12 +423,15 @@
           "protein": 26,
           "carbs": 42,
           "fat": 18,
-          "category": "menu",
-          "isPopular": false,
+          "category": "popular",
+          "isPopular": true,
           "isOffer": false,
           "offerPrice": null,
+          "isCombo": false,
+          "offerKind": null,
+          "comboIncludes": [],
           "spicyOption": true,
-          "cashbackPercent": 10,
+          "cashbackPercent": null,
           "addons": [
             {
               "id": "extra-cheese",
@@ -455,10 +458,7 @@
               "name": "صوص سبايسي",
               "price": 3
             }
-          ],
-          "isCombo": false,
-          "comboIncludes": [],
-          "offerKind": null
+          ]
         },
         {
           "id": "taco-fiesta-10",
@@ -472,10 +472,13 @@
           "protein": 8,
           "carbs": 30,
           "fat": 12,
-          "category": "popular",
-          "isPopular": true,
+          "category": "menu",
+          "isPopular": false,
           "isOffer": false,
           "offerPrice": null,
+          "isCombo": false,
+          "offerKind": null,
+          "comboIncludes": [],
           "spicyOption": false,
           "cashbackPercent": null,
           "addons": [
@@ -504,10 +507,7 @@
               "name": "صوص سبايسي",
               "price": 3
             }
-          ],
-          "isCombo": false,
-          "comboIncludes": [],
-          "offerKind": null
+          ]
         },
         {
           "id": "taco-fiesta-offer-1",
@@ -566,7 +566,7 @@
           "id": "taco-fiesta-offer-2",
           "restaurantId": "taco-fiesta",
           "name": "وجبة عائلية برجر لـ 5 أشخاص",
-          "description": "5 برجر مع إضافات ومشروبات. تكفي 5 أشخاص.",
+          "description": "5 برجر مع بطاطس عائلية وصوصات. تكفي 5 أشخاص.",
           "image": "/offers/5-burger.jpg",
           "price": 82,
           "rating": 4.6,
@@ -674,12 +674,12 @@
       "id": "wrap-republic",
       "name": "جمهورية الراب",
       "image": "https://images.unsplash.com/photo-1571091718767-18b5b1457add?w=800&q=80",
-      "rating": 4.5,
+      "rating": 4.9,
       "cuisine": "برجر",
       "deliveryTime": "40–55 د",
       "deliveryFee": 8,
-      "minOrder": 30,
-      "distanceKm": 2.6,
+      "minOrder": 50,
+      "distanceKm": 2.2,
       "verified": true,
       "tags": [
         "عالمي",
@@ -687,7 +687,7 @@
       ],
       "featured": null,
       "open24h": null,
-      "fastDelivery": true,
+      "fastDelivery": null,
       "meals": [
         {
           "id": "wrap-republic-1",
@@ -696,7 +696,7 @@
           "description": "تاكو لحم مع صلصة حارة.",
           "image": "https://images.unsplash.com/photo-1565299624946-b28f40a0ae38?w=800&q=80",
           "price": 30,
-          "rating": 4.6,
+          "rating": 4.2,
           "calories": 480,
           "protein": 24,
           "carbs": 36,
@@ -705,6 +705,9 @@
           "isPopular": true,
           "isOffer": false,
           "offerPrice": null,
+          "isCombo": false,
+          "offerKind": null,
+          "comboIncludes": [],
           "spicyOption": true,
           "cashbackPercent": null,
           "addons": [
@@ -733,10 +736,7 @@
               "name": "صوص سبايسي",
               "price": 3
             }
-          ],
-          "isCombo": false,
-          "comboIncludes": [],
-          "offerKind": null
+          ]
         },
         {
           "id": "wrap-republic-2",
@@ -745,15 +745,18 @@
           "description": "بوريتو محشي أرز ودجاج.",
           "image": "https://images.unsplash.com/photo-1598103442097-8b74394b95c6?w=800&q=80",
           "price": 29,
-          "rating": 4.9,
+          "rating": 4.3,
           "calories": 620,
           "protein": 30,
           "carbs": 58,
           "fat": 22,
-          "category": "menu",
-          "isPopular": false,
+          "category": "popular",
+          "isPopular": true,
           "isOffer": false,
           "offerPrice": null,
+          "isCombo": false,
+          "offerKind": null,
+          "comboIncludes": [],
           "spicyOption": true,
           "cashbackPercent": null,
           "addons": [
@@ -782,10 +785,7 @@
               "name": "صوص سبايسي",
               "price": 3
             }
-          ],
-          "isCombo": false,
-          "comboIncludes": [],
-          "offerKind": null
+          ]
         },
         {
           "id": "wrap-republic-3",
@@ -794,7 +794,7 @@
           "description": "خبز باو محشي لحم.",
           "image": "https://images.unsplash.com/photo-1553979459-d2229ba7433b?w=800&q=80",
           "price": 28,
-          "rating": 4.2,
+          "rating": 4.8,
           "calories": 360,
           "protein": 16,
           "carbs": 34,
@@ -803,6 +803,9 @@
           "isPopular": false,
           "isOffer": false,
           "offerPrice": null,
+          "isCombo": false,
+          "offerKind": null,
+          "comboIncludes": [],
           "spicyOption": false,
           "cashbackPercent": null,
           "addons": [
@@ -831,10 +834,7 @@
               "name": "صوص سبايسي",
               "price": 3
             }
-          ],
-          "isCombo": false,
-          "comboIncludes": [],
-          "offerKind": null
+          ]
         },
         {
           "id": "wrap-republic-4",
@@ -843,7 +843,7 @@
           "description": "نودلز بصلصة صويا وخضار.",
           "image": "https://images.unsplash.com/photo-1553979459-d2229ba7433b?w=800&q=80",
           "price": 32,
-          "rating": 4.5,
+          "rating": 4.3,
           "calories": 520,
           "protein": 14,
           "carbs": 70,
@@ -852,6 +852,9 @@
           "isPopular": false,
           "isOffer": false,
           "offerPrice": null,
+          "isCombo": false,
+          "offerKind": null,
+          "comboIncludes": [],
           "spicyOption": false,
           "cashbackPercent": null,
           "addons": [
@@ -880,10 +883,7 @@
               "name": "صوص سبايسي",
               "price": 3
             }
-          ],
-          "isCombo": false,
-          "comboIncludes": [],
-          "offerKind": null
+          ]
         },
         {
           "id": "wrap-republic-5",
@@ -892,15 +892,18 @@
           "description": "أرز كوري مع خضار وبيض.",
           "image": "https://images.unsplash.com/photo-1553979459-d2229ba7433b?w=800&q=80",
           "price": 30,
-          "rating": 4.7,
+          "rating": 4.8,
           "calories": 580,
           "protein": 22,
           "carbs": 72,
           "fat": 16,
-          "category": "popular",
-          "isPopular": true,
+          "category": "menu",
+          "isPopular": false,
           "isOffer": false,
           "offerPrice": null,
+          "isCombo": false,
+          "offerKind": null,
+          "comboIncludes": [],
           "spicyOption": false,
           "cashbackPercent": null,
           "addons": [
@@ -929,10 +932,7 @@
               "name": "صوص سبايسي",
               "price": 3
             }
-          ],
-          "isCombo": false,
-          "comboIncludes": [],
-          "offerKind": null
+          ]
         },
         {
           "id": "wrap-republic-6",
@@ -941,7 +941,7 @@
           "description": "أسياخ دجاج مع فول سوداني.",
           "image": "https://images.unsplash.com/photo-1598103442097-8b74394b95c6?w=800&q=80",
           "price": 32,
-          "rating": 4.7,
+          "rating": 4.2,
           "calories": 440,
           "protein": 32,
           "carbs": 18,
@@ -950,6 +950,9 @@
           "isPopular": false,
           "isOffer": false,
           "offerPrice": null,
+          "isCombo": false,
+          "offerKind": null,
+          "comboIncludes": [],
           "spicyOption": true,
           "cashbackPercent": null,
           "addons": [
@@ -978,10 +981,7 @@
               "name": "صوص سبايسي",
               "price": 3
             }
-          ],
-          "isCombo": false,
-          "comboIncludes": [],
-          "offerKind": null
+          ]
         },
         {
           "id": "wrap-republic-7",
@@ -990,7 +990,7 @@
           "description": "مرق فيتنامي مع نودلز.",
           "image": "https://images.unsplash.com/photo-1553979459-d2229ba7433b?w=800&q=80",
           "price": 30,
-          "rating": 4.3,
+          "rating": 4.4,
           "calories": 390,
           "protein": 24,
           "carbs": 40,
@@ -999,8 +999,11 @@
           "isPopular": false,
           "isOffer": false,
           "offerPrice": null,
+          "isCombo": false,
+          "offerKind": null,
+          "comboIncludes": [],
           "spicyOption": false,
-          "cashbackPercent": 15,
+          "cashbackPercent": null,
           "addons": [
             {
               "id": "extra-cheese",
@@ -1027,10 +1030,7 @@
               "name": "صوص سبايسي",
               "price": 3
             }
-          ],
-          "isCombo": false,
-          "comboIncludes": [],
-          "offerKind": null
+          ]
         },
         {
           "id": "wrap-republic-8",
@@ -1039,7 +1039,7 @@
           "description": "نودلز تايلندي بالروبيان.",
           "image": "https://images.unsplash.com/photo-1553979459-d2229ba7433b?w=800&q=80",
           "price": 30,
-          "rating": 4.3,
+          "rating": 4.2,
           "calories": 610,
           "protein": 26,
           "carbs": 68,
@@ -1048,6 +1048,9 @@
           "isPopular": false,
           "isOffer": false,
           "offerPrice": null,
+          "isCombo": false,
+          "offerKind": null,
+          "comboIncludes": [],
           "spicyOption": true,
           "cashbackPercent": null,
           "addons": [
@@ -1076,10 +1079,7 @@
               "name": "صوص سبايسي",
               "price": 3
             }
-          ],
-          "isCombo": false,
-          "comboIncludes": [],
-          "offerKind": null
+          ]
         },
         {
           "id": "wrap-republic-9",
@@ -1088,15 +1088,18 @@
           "description": "راب بخلطة آسيوية.",
           "image": "https://images.unsplash.com/photo-1529006557810-274b9b2fc783?w=800&q=80",
           "price": 30,
-          "rating": 4.8,
+          "rating": 4.5,
           "calories": 500,
           "protein": 26,
           "carbs": 42,
           "fat": 18,
-          "category": "popular",
-          "isPopular": true,
+          "category": "menu",
+          "isPopular": false,
           "isOffer": false,
           "offerPrice": null,
+          "isCombo": false,
+          "offerKind": null,
+          "comboIncludes": [],
           "spicyOption": true,
           "cashbackPercent": null,
           "addons": [
@@ -1125,10 +1128,7 @@
               "name": "صوص سبايسي",
               "price": 3
             }
-          ],
-          "isCombo": false,
-          "comboIncludes": [],
-          "offerKind": null
+          ]
         },
         {
           "id": "wrap-republic-10",
@@ -1146,8 +1146,11 @@
           "isPopular": false,
           "isOffer": false,
           "offerPrice": null,
+          "isCombo": false,
+          "offerKind": null,
+          "comboIncludes": [],
           "spicyOption": false,
-          "cashbackPercent": 5,
+          "cashbackPercent": null,
           "addons": [
             {
               "id": "extra-cheese",
@@ -1174,10 +1177,7 @@
               "name": "صوص سبايسي",
               "price": 3
             }
-          ],
-          "isCombo": false,
-          "comboIncludes": [],
-          "offerKind": null
+          ]
         },
         {
           "id": "wrap-republic-offer-1",
@@ -1236,7 +1236,7 @@
           "id": "wrap-republic-offer-2",
           "restaurantId": "wrap-republic",
           "name": "وجبة عائلية برجر لـ 4 أشخاص",
-          "description": "4 برجر مع إضافات ومشروبات. تكفي 4 أشخاص.",
+          "description": "4 برجر مع بطاطس عائلية وصوصات. تكفي 4 أشخاص.",
           "image": "/offers/4-burger.jpg",
           "price": 80,
           "rating": 4.6,
@@ -1344,18 +1344,18 @@
       "id": "bao-street",
       "name": "شارع الباو",
       "image": "https://images.unsplash.com/photo-1571091718767-18b5b1457add?w=800&q=80",
-      "rating": 4.3,
+      "rating": 4.6,
       "cuisine": "برجر",
-      "deliveryTime": "20–30 د",
-      "deliveryFee": 0,
-      "minOrder": 45,
-      "distanceKm": 3.5,
-      "verified": true,
+      "deliveryTime": "35–50 د",
+      "deliveryFee": 5,
+      "minOrder": 30,
+      "distanceKm": 4.2,
+      "verified": null,
       "tags": [
         "عالمي",
         "سريع"
       ],
-      "featured": true,
+      "featured": null,
       "open24h": null,
       "fastDelivery": null,
       "meals": [
@@ -1366,7 +1366,7 @@
           "description": "تاكو لحم مع صلصة حارة.",
           "image": "https://images.unsplash.com/photo-1565299624946-b28f40a0ae38?w=800&q=80",
           "price": 30,
-          "rating": 4.3,
+          "rating": 4.1,
           "calories": 480,
           "protein": 24,
           "carbs": 36,
@@ -1375,6 +1375,9 @@
           "isPopular": false,
           "isOffer": false,
           "offerPrice": null,
+          "isCombo": false,
+          "offerKind": null,
+          "comboIncludes": [],
           "spicyOption": true,
           "cashbackPercent": null,
           "addons": [
@@ -1403,10 +1406,7 @@
               "name": "صوص سبايسي",
               "price": 3
             }
-          ],
-          "isCombo": false,
-          "comboIncludes": [],
-          "offerKind": null
+          ]
         },
         {
           "id": "bao-street-2",
@@ -1415,7 +1415,7 @@
           "description": "بوريتو محشي أرز ودجاج.",
           "image": "https://images.unsplash.com/photo-1598103442097-8b74394b95c6?w=800&q=80",
           "price": 29,
-          "rating": 4.6,
+          "rating": 4.2,
           "calories": 620,
           "protein": 30,
           "carbs": 58,
@@ -1424,6 +1424,9 @@
           "isPopular": false,
           "isOffer": false,
           "offerPrice": null,
+          "isCombo": false,
+          "offerKind": null,
+          "comboIncludes": [],
           "spicyOption": true,
           "cashbackPercent": null,
           "addons": [
@@ -1452,10 +1455,7 @@
               "name": "صوص سبايسي",
               "price": 3
             }
-          ],
-          "isCombo": false,
-          "comboIncludes": [],
-          "offerKind": null
+          ]
         },
         {
           "id": "bao-street-3",
@@ -1464,7 +1464,7 @@
           "description": "خبز باو محشي لحم.",
           "image": "https://images.unsplash.com/photo-1568901346375-23c9450c58cd?w=800&q=80",
           "price": 28,
-          "rating": 4.2,
+          "rating": 4.3,
           "calories": 360,
           "protein": 16,
           "carbs": 34,
@@ -1473,6 +1473,9 @@
           "isPopular": true,
           "isOffer": false,
           "offerPrice": null,
+          "isCombo": false,
+          "offerKind": null,
+          "comboIncludes": [],
           "spicyOption": false,
           "cashbackPercent": null,
           "addons": [
@@ -1501,10 +1504,7 @@
               "name": "صوص سبايسي",
               "price": 3
             }
-          ],
-          "isCombo": false,
-          "comboIncludes": [],
-          "offerKind": null
+          ]
         },
         {
           "id": "bao-street-4",
@@ -1513,7 +1513,7 @@
           "description": "نودلز بصلصة صويا وخضار.",
           "image": "https://images.unsplash.com/photo-1568901346375-23c9450c58cd?w=800&q=80",
           "price": 32,
-          "rating": 4.1,
+          "rating": 4.3,
           "calories": 520,
           "protein": 14,
           "carbs": 70,
@@ -1522,8 +1522,11 @@
           "isPopular": false,
           "isOffer": false,
           "offerPrice": null,
+          "isCombo": false,
+          "offerKind": null,
+          "comboIncludes": [],
           "spicyOption": false,
-          "cashbackPercent": 10,
+          "cashbackPercent": null,
           "addons": [
             {
               "id": "extra-cheese",
@@ -1550,10 +1553,7 @@
               "name": "صوص سبايسي",
               "price": 3
             }
-          ],
-          "isCombo": false,
-          "comboIncludes": [],
-          "offerKind": null
+          ]
         },
         {
           "id": "bao-street-5",
@@ -1562,15 +1562,18 @@
           "description": "أرز كوري مع خضار وبيض.",
           "image": "https://images.unsplash.com/photo-1568901346375-23c9450c58cd?w=800&q=80",
           "price": 30,
-          "rating": 4.1,
+          "rating": 4.8,
           "calories": 580,
           "protein": 22,
           "carbs": 72,
           "fat": 16,
-          "category": "menu",
-          "isPopular": false,
+          "category": "popular",
+          "isPopular": true,
           "isOffer": false,
           "offerPrice": null,
+          "isCombo": false,
+          "offerKind": null,
+          "comboIncludes": [],
           "spicyOption": false,
           "cashbackPercent": null,
           "addons": [
@@ -1599,10 +1602,7 @@
               "name": "صوص سبايسي",
               "price": 3
             }
-          ],
-          "isCombo": false,
-          "comboIncludes": [],
-          "offerKind": null
+          ]
         },
         {
           "id": "bao-street-6",
@@ -1611,17 +1611,20 @@
           "description": "أسياخ دجاج مع فول سوداني.",
           "image": "https://images.unsplash.com/photo-1598103442097-8b74394b95c6?w=800&q=80",
           "price": 32,
-          "rating": 4.6,
+          "rating": 4.4,
           "calories": 440,
           "protein": 32,
           "carbs": 18,
           "fat": 20,
-          "category": "menu",
-          "isPopular": false,
+          "category": "popular",
+          "isPopular": true,
           "isOffer": false,
           "offerPrice": null,
+          "isCombo": false,
+          "offerKind": null,
+          "comboIncludes": [],
           "spicyOption": true,
-          "cashbackPercent": 10,
+          "cashbackPercent": null,
           "addons": [
             {
               "id": "extra-cheese",
@@ -1648,10 +1651,7 @@
               "name": "صوص سبايسي",
               "price": 3
             }
-          ],
-          "isCombo": false,
-          "comboIncludes": [],
-          "offerKind": null
+          ]
         },
         {
           "id": "bao-street-7",
@@ -1660,15 +1660,18 @@
           "description": "مرق فيتنامي مع نودلز.",
           "image": "https://images.unsplash.com/photo-1568901346375-23c9450c58cd?w=800&q=80",
           "price": 30,
-          "rating": 4.1,
+          "rating": 4.5,
           "calories": 390,
           "protein": 24,
           "carbs": 40,
           "fat": 10,
-          "category": "popular",
-          "isPopular": true,
+          "category": "menu",
+          "isPopular": false,
           "isOffer": false,
           "offerPrice": null,
+          "isCombo": false,
+          "offerKind": null,
+          "comboIncludes": [],
           "spicyOption": false,
           "cashbackPercent": null,
           "addons": [
@@ -1697,10 +1700,7 @@
               "name": "صوص سبايسي",
               "price": 3
             }
-          ],
-          "isCombo": false,
-          "comboIncludes": [],
-          "offerKind": null
+          ]
         },
         {
           "id": "bao-street-8",
@@ -1709,15 +1709,18 @@
           "description": "نودلز تايلندي بالروبيان.",
           "image": "https://images.unsplash.com/photo-1568901346375-23c9450c58cd?w=800&q=80",
           "price": 30,
-          "rating": 4.5,
+          "rating": 4.1,
           "calories": 610,
           "protein": 26,
           "carbs": 68,
           "fat": 18,
-          "category": "popular",
-          "isPopular": true,
+          "category": "menu",
+          "isPopular": false,
           "isOffer": false,
           "offerPrice": null,
+          "isCombo": false,
+          "offerKind": null,
+          "comboIncludes": [],
           "spicyOption": true,
           "cashbackPercent": null,
           "addons": [
@@ -1746,10 +1749,7 @@
               "name": "صوص سبايسي",
               "price": 3
             }
-          ],
-          "isCombo": false,
-          "comboIncludes": [],
-          "offerKind": null
+          ]
         },
         {
           "id": "bao-street-9",
@@ -1758,7 +1758,7 @@
           "description": "راب بخلطة آسيوية.",
           "image": "https://images.unsplash.com/photo-1529006557810-274b9b2fc783?w=800&q=80",
           "price": 30,
-          "rating": 4.3,
+          "rating": 4.4,
           "calories": 500,
           "protein": 26,
           "carbs": 42,
@@ -1767,6 +1767,9 @@
           "isPopular": true,
           "isOffer": false,
           "offerPrice": null,
+          "isCombo": false,
+          "offerKind": null,
+          "comboIncludes": [],
           "spicyOption": true,
           "cashbackPercent": null,
           "addons": [
@@ -1795,10 +1798,7 @@
               "name": "صوص سبايسي",
               "price": 3
             }
-          ],
-          "isCombo": false,
-          "comboIncludes": [],
-          "offerKind": null
+          ]
         },
         {
           "id": "bao-street-10",
@@ -1807,7 +1807,7 @@
           "description": "لفائف ربيعية مقرمشة.",
           "image": "https://images.unsplash.com/photo-1553979459-d2229ba7433b?w=800&q=80",
           "price": 22,
-          "rating": 4.7,
+          "rating": 4.4,
           "calories": 280,
           "protein": 8,
           "carbs": 30,
@@ -1816,6 +1816,9 @@
           "isPopular": false,
           "isOffer": false,
           "offerPrice": null,
+          "isCombo": false,
+          "offerKind": null,
+          "comboIncludes": [],
           "spicyOption": false,
           "cashbackPercent": null,
           "addons": [
@@ -1844,10 +1847,7 @@
               "name": "صوص سبايسي",
               "price": 3
             }
-          ],
-          "isCombo": false,
-          "comboIncludes": [],
-          "offerKind": null
+          ]
         },
         {
           "id": "bao-street-offer-1",
@@ -1906,7 +1906,7 @@
           "id": "bao-street-offer-2",
           "restaurantId": "bao-street",
           "name": "وجبة عائلية برجر لـ 3 أشخاص",
-          "description": "3 برجر مع إضافات ومشروبات. تكفي 3 أشخاص.",
+          "description": "3 برجر مع بطاطس عائلية وصوصات. تكفي 3 أشخاص.",
           "image": "/offers/3-burger.webp",
           "price": 64,
           "rating": 4.6,
@@ -2014,18 +2014,18 @@
       "id": "noodle-box",
       "name": "صندوق النودلز",
       "image": "https://images.unsplash.com/photo-1571091718767-18b5b1457add?w=800&q=80",
-      "rating": 4.2,
+      "rating": 4.5,
       "cuisine": "برجر",
-      "deliveryTime": "20–30 د",
-      "deliveryFee": 6,
-      "minOrder": 25,
-      "distanceKm": 0.9,
-      "verified": true,
+      "deliveryTime": "40–55 د",
+      "deliveryFee": 0,
+      "minOrder": 50,
+      "distanceKm": 2.5,
+      "verified": null,
       "tags": [
         "عالمي",
         "سريع"
       ],
-      "featured": true,
+      "featured": null,
       "open24h": null,
       "fastDelivery": true,
       "meals": [
@@ -2036,7 +2036,7 @@
           "description": "تاكو لحم مع صلصة حارة.",
           "image": "https://images.unsplash.com/photo-1565299624946-b28f40a0ae38?w=800&q=80",
           "price": 30,
-          "rating": 4.1,
+          "rating": 4.5,
           "calories": 480,
           "protein": 24,
           "carbs": 36,
@@ -2045,6 +2045,9 @@
           "isPopular": false,
           "isOffer": false,
           "offerPrice": null,
+          "isCombo": false,
+          "offerKind": null,
+          "comboIncludes": [],
           "spicyOption": true,
           "cashbackPercent": null,
           "addons": [
@@ -2073,10 +2076,7 @@
               "name": "صوص سبايسي",
               "price": 3
             }
-          ],
-          "isCombo": false,
-          "comboIncludes": [],
-          "offerKind": null
+          ]
         },
         {
           "id": "noodle-box-2",
@@ -2085,7 +2085,7 @@
           "description": "بوريتو محشي أرز ودجاج.",
           "image": "https://images.unsplash.com/photo-1598103442097-8b74394b95c6?w=800&q=80",
           "price": 29,
-          "rating": 4.6,
+          "rating": 4.3,
           "calories": 620,
           "protein": 30,
           "carbs": 58,
@@ -2094,6 +2094,9 @@
           "isPopular": true,
           "isOffer": false,
           "offerPrice": null,
+          "isCombo": false,
+          "offerKind": null,
+          "comboIncludes": [],
           "spicyOption": true,
           "cashbackPercent": null,
           "addons": [
@@ -2122,10 +2125,7 @@
               "name": "صوص سبايسي",
               "price": 3
             }
-          ],
-          "isCombo": false,
-          "comboIncludes": [],
-          "offerKind": null
+          ]
         },
         {
           "id": "noodle-box-3",
@@ -2139,10 +2139,13 @@
           "protein": 16,
           "carbs": 34,
           "fat": 12,
-          "category": "menu",
-          "isPopular": false,
+          "category": "popular",
+          "isPopular": true,
           "isOffer": false,
           "offerPrice": null,
+          "isCombo": false,
+          "offerKind": null,
+          "comboIncludes": [],
           "spicyOption": false,
           "cashbackPercent": null,
           "addons": [
@@ -2171,10 +2174,7 @@
               "name": "صوص سبايسي",
               "price": 3
             }
-          ],
-          "isCombo": false,
-          "comboIncludes": [],
-          "offerKind": null
+          ]
         },
         {
           "id": "noodle-box-4",
@@ -2183,7 +2183,7 @@
           "description": "نودلز بصلصة صويا وخضار.",
           "image": "https://images.unsplash.com/photo-1573080496219-bb080dd4f877?w=800&q=80",
           "price": 32,
-          "rating": 4.9,
+          "rating": 4.6,
           "calories": 520,
           "protein": 14,
           "carbs": 70,
@@ -2192,6 +2192,9 @@
           "isPopular": false,
           "isOffer": false,
           "offerPrice": null,
+          "isCombo": false,
+          "offerKind": null,
+          "comboIncludes": [],
           "spicyOption": false,
           "cashbackPercent": null,
           "addons": [
@@ -2220,10 +2223,7 @@
               "name": "صوص سبايسي",
               "price": 3
             }
-          ],
-          "isCombo": false,
-          "comboIncludes": [],
-          "offerKind": null
+          ]
         },
         {
           "id": "noodle-box-5",
@@ -2232,15 +2232,18 @@
           "description": "أرز كوري مع خضار وبيض.",
           "image": "https://images.unsplash.com/photo-1573080496219-bb080dd4f877?w=800&q=80",
           "price": 30,
-          "rating": 4.4,
+          "rating": 4.1,
           "calories": 580,
           "protein": 22,
           "carbs": 72,
           "fat": 16,
-          "category": "menu",
-          "isPopular": false,
+          "category": "popular",
+          "isPopular": true,
           "isOffer": false,
           "offerPrice": null,
+          "isCombo": false,
+          "offerKind": null,
+          "comboIncludes": [],
           "spicyOption": false,
           "cashbackPercent": null,
           "addons": [
@@ -2269,10 +2272,7 @@
               "name": "صوص سبايسي",
               "price": 3
             }
-          ],
-          "isCombo": false,
-          "comboIncludes": [],
-          "offerKind": null
+          ]
         },
         {
           "id": "noodle-box-6",
@@ -2281,7 +2281,7 @@
           "description": "أسياخ دجاج مع فول سوداني.",
           "image": "https://images.unsplash.com/photo-1598103442097-8b74394b95c6?w=800&q=80",
           "price": 32,
-          "rating": 4.4,
+          "rating": 4.7,
           "calories": 440,
           "protein": 32,
           "carbs": 18,
@@ -2290,6 +2290,9 @@
           "isPopular": false,
           "isOffer": false,
           "offerPrice": null,
+          "isCombo": false,
+          "offerKind": null,
+          "comboIncludes": [],
           "spicyOption": true,
           "cashbackPercent": null,
           "addons": [
@@ -2318,10 +2321,7 @@
               "name": "صوص سبايسي",
               "price": 3
             }
-          ],
-          "isCombo": false,
-          "comboIncludes": [],
-          "offerKind": null
+          ]
         },
         {
           "id": "noodle-box-7",
@@ -2330,7 +2330,7 @@
           "description": "مرق فيتنامي مع نودلز.",
           "image": "https://images.unsplash.com/photo-1573080496219-bb080dd4f877?w=800&q=80",
           "price": 30,
-          "rating": 4.3,
+          "rating": 4.2,
           "calories": 390,
           "protein": 24,
           "carbs": 40,
@@ -2339,6 +2339,9 @@
           "isPopular": false,
           "isOffer": false,
           "offerPrice": null,
+          "isCombo": false,
+          "offerKind": null,
+          "comboIncludes": [],
           "spicyOption": false,
           "cashbackPercent": null,
           "addons": [
@@ -2367,10 +2370,7 @@
               "name": "صوص سبايسي",
               "price": 3
             }
-          ],
-          "isCombo": false,
-          "comboIncludes": [],
-          "offerKind": null
+          ]
         },
         {
           "id": "noodle-box-8",
@@ -2379,7 +2379,7 @@
           "description": "نودلز تايلندي بالروبيان.",
           "image": "https://images.unsplash.com/photo-1573080496219-bb080dd4f877?w=800&q=80",
           "price": 30,
-          "rating": 4.3,
+          "rating": 4.1,
           "calories": 610,
           "protein": 26,
           "carbs": 68,
@@ -2388,6 +2388,9 @@
           "isPopular": false,
           "isOffer": false,
           "offerPrice": null,
+          "isCombo": false,
+          "offerKind": null,
+          "comboIncludes": [],
           "spicyOption": true,
           "cashbackPercent": null,
           "addons": [
@@ -2416,10 +2419,7 @@
               "name": "صوص سبايسي",
               "price": 3
             }
-          ],
-          "isCombo": false,
-          "comboIncludes": [],
-          "offerKind": null
+          ]
         },
         {
           "id": "noodle-box-9",
@@ -2428,7 +2428,7 @@
           "description": "راب بخلطة آسيوية.",
           "image": "https://images.unsplash.com/photo-1529006557810-274b9b2fc783?w=800&q=80",
           "price": 30,
-          "rating": 4.7,
+          "rating": 4.5,
           "calories": 500,
           "protein": 26,
           "carbs": 42,
@@ -2437,6 +2437,9 @@
           "isPopular": false,
           "isOffer": false,
           "offerPrice": null,
+          "isCombo": false,
+          "offerKind": null,
+          "comboIncludes": [],
           "spicyOption": true,
           "cashbackPercent": null,
           "addons": [
@@ -2465,10 +2468,7 @@
               "name": "صوص سبايسي",
               "price": 3
             }
-          ],
-          "isCombo": false,
-          "comboIncludes": [],
-          "offerKind": null
+          ]
         },
         {
           "id": "noodle-box-10",
@@ -2477,7 +2477,7 @@
           "description": "لفائف ربيعية مقرمشة.",
           "image": "https://images.unsplash.com/photo-1568901346375-23c9450c58cd?w=800&q=80",
           "price": 22,
-          "rating": 4.8,
+          "rating": 4.5,
           "calories": 280,
           "protein": 8,
           "carbs": 30,
@@ -2486,6 +2486,9 @@
           "isPopular": false,
           "isOffer": false,
           "offerPrice": null,
+          "isCombo": false,
+          "offerKind": null,
+          "comboIncludes": [],
           "spicyOption": false,
           "cashbackPercent": null,
           "addons": [
@@ -2514,10 +2517,7 @@
               "name": "صوص سبايسي",
               "price": 3
             }
-          ],
-          "isCombo": false,
-          "comboIncludes": [],
-          "offerKind": null
+          ]
         },
         {
           "id": "noodle-box-offer-1",
@@ -2576,7 +2576,7 @@
           "id": "noodle-box-offer-2",
           "restaurantId": "noodle-box",
           "name": "وجبة عائلية برجر لـ 6 أشخاص",
-          "description": "6 برجر مع إضافات ومشروبات. تكفي 6 أشخاص.",
+          "description": "6 برجر مع بطاطس عائلية وصوصات. تكفي 6 أشخاص.",
           "image": "/offers/6-burgers.jpg",
           "price": 82,
           "rating": 4.6,
@@ -2684,20 +2684,20 @@
       "id": "kimchi-kitchen",
       "name": "مطبخ الكيمتشي",
       "image": "https://images.unsplash.com/photo-1571091718767-18b5b1457add?w=800&q=80",
-      "rating": 4.4,
+      "rating": 4.9,
       "cuisine": "برجر",
-      "deliveryTime": "20–30 د",
+      "deliveryTime": "40–55 د",
       "deliveryFee": 8,
-      "minOrder": 40,
-      "distanceKm": 6.2,
-      "verified": true,
+      "minOrder": 25,
+      "distanceKm": 3.8,
+      "verified": null,
       "tags": [
         "عالمي",
         "سريع"
       ],
       "featured": null,
       "open24h": null,
-      "fastDelivery": null,
+      "fastDelivery": true,
       "meals": [
         {
           "id": "kimchi-kitchen-1",
@@ -2711,10 +2711,13 @@
           "protein": 24,
           "carbs": 36,
           "fat": 22,
-          "category": "menu",
-          "isPopular": false,
+          "category": "popular",
+          "isPopular": true,
           "isOffer": false,
           "offerPrice": null,
+          "isCombo": false,
+          "offerKind": null,
+          "comboIncludes": [],
           "spicyOption": true,
           "cashbackPercent": null,
           "addons": [
@@ -2743,10 +2746,7 @@
               "name": "صوص سبايسي",
               "price": 3
             }
-          ],
-          "isCombo": false,
-          "comboIncludes": [],
-          "offerKind": null
+          ]
         },
         {
           "id": "kimchi-kitchen-2",
@@ -2755,15 +2755,18 @@
           "description": "بوريتو محشي أرز ودجاج.",
           "image": "https://images.unsplash.com/photo-1598103442097-8b74394b95c6?w=800&q=80",
           "price": 29,
-          "rating": 4.2,
+          "rating": 4.5,
           "calories": 620,
           "protein": 30,
           "carbs": 58,
           "fat": 22,
-          "category": "popular",
-          "isPopular": true,
+          "category": "menu",
+          "isPopular": false,
           "isOffer": false,
           "offerPrice": null,
+          "isCombo": false,
+          "offerKind": null,
+          "comboIncludes": [],
           "spicyOption": true,
           "cashbackPercent": null,
           "addons": [
@@ -2792,10 +2795,7 @@
               "name": "صوص سبايسي",
               "price": 3
             }
-          ],
-          "isCombo": false,
-          "comboIncludes": [],
-          "offerKind": null
+          ]
         },
         {
           "id": "kimchi-kitchen-3",
@@ -2804,7 +2804,7 @@
           "description": "خبز باو محشي لحم.",
           "image": "https://images.unsplash.com/photo-1568901346375-23c9450c58cd?w=800&q=80",
           "price": 28,
-          "rating": 4.6,
+          "rating": 4.5,
           "calories": 360,
           "protein": 16,
           "carbs": 34,
@@ -2813,6 +2813,9 @@
           "isPopular": false,
           "isOffer": false,
           "offerPrice": null,
+          "isCombo": false,
+          "offerKind": null,
+          "comboIncludes": [],
           "spicyOption": false,
           "cashbackPercent": null,
           "addons": [
@@ -2841,10 +2844,7 @@
               "name": "صوص سبايسي",
               "price": 3
             }
-          ],
-          "isCombo": false,
-          "comboIncludes": [],
-          "offerKind": null
+          ]
         },
         {
           "id": "kimchi-kitchen-4",
@@ -2853,15 +2853,18 @@
           "description": "نودلز بصلصة صويا وخضار.",
           "image": "https://images.unsplash.com/photo-1568901346375-23c9450c58cd?w=800&q=80",
           "price": 32,
-          "rating": 4.3,
+          "rating": 4.6,
           "calories": 520,
           "protein": 14,
           "carbs": 70,
           "fat": 12,
-          "category": "popular",
-          "isPopular": true,
+          "category": "menu",
+          "isPopular": false,
           "isOffer": false,
           "offerPrice": null,
+          "isCombo": false,
+          "offerKind": null,
+          "comboIncludes": [],
           "spicyOption": false,
           "cashbackPercent": null,
           "addons": [
@@ -2890,10 +2893,7 @@
               "name": "صوص سبايسي",
               "price": 3
             }
-          ],
-          "isCombo": false,
-          "comboIncludes": [],
-          "offerKind": null
+          ]
         },
         {
           "id": "kimchi-kitchen-5",
@@ -2902,15 +2902,18 @@
           "description": "أرز كوري مع خضار وبيض.",
           "image": "https://images.unsplash.com/photo-1568901346375-23c9450c58cd?w=800&q=80",
           "price": 30,
-          "rating": 4.2,
+          "rating": 4.7,
           "calories": 580,
           "protein": 22,
           "carbs": 72,
           "fat": 16,
-          "category": "menu",
-          "isPopular": false,
+          "category": "popular",
+          "isPopular": true,
           "isOffer": false,
           "offerPrice": null,
+          "isCombo": false,
+          "offerKind": null,
+          "comboIncludes": [],
           "spicyOption": false,
           "cashbackPercent": null,
           "addons": [
@@ -2939,10 +2942,7 @@
               "name": "صوص سبايسي",
               "price": 3
             }
-          ],
-          "isCombo": false,
-          "comboIncludes": [],
-          "offerKind": null
+          ]
         },
         {
           "id": "kimchi-kitchen-6",
@@ -2951,15 +2951,18 @@
           "description": "أسياخ دجاج مع فول سوداني.",
           "image": "https://images.unsplash.com/photo-1598103442097-8b74394b95c6?w=800&q=80",
           "price": 32,
-          "rating": 4.7,
+          "rating": 4.4,
           "calories": 440,
           "protein": 32,
           "carbs": 18,
           "fat": 20,
-          "category": "menu",
-          "isPopular": false,
+          "category": "popular",
+          "isPopular": true,
           "isOffer": false,
           "offerPrice": null,
+          "isCombo": false,
+          "offerKind": null,
+          "comboIncludes": [],
           "spicyOption": true,
           "cashbackPercent": null,
           "addons": [
@@ -2988,10 +2991,7 @@
               "name": "صوص سبايسي",
               "price": 3
             }
-          ],
-          "isCombo": false,
-          "comboIncludes": [],
-          "offerKind": null
+          ]
         },
         {
           "id": "kimchi-kitchen-7",
@@ -3000,7 +3000,7 @@
           "description": "مرق فيتنامي مع نودلز.",
           "image": "https://images.unsplash.com/photo-1568901346375-23c9450c58cd?w=800&q=80",
           "price": 30,
-          "rating": 4.9,
+          "rating": 4.3,
           "calories": 390,
           "protein": 24,
           "carbs": 40,
@@ -3009,6 +3009,9 @@
           "isPopular": false,
           "isOffer": false,
           "offerPrice": null,
+          "isCombo": false,
+          "offerKind": null,
+          "comboIncludes": [],
           "spicyOption": false,
           "cashbackPercent": null,
           "addons": [
@@ -3037,10 +3040,7 @@
               "name": "صوص سبايسي",
               "price": 3
             }
-          ],
-          "isCombo": false,
-          "comboIncludes": [],
-          "offerKind": null
+          ]
         },
         {
           "id": "kimchi-kitchen-8",
@@ -3049,7 +3049,7 @@
           "description": "نودلز تايلندي بالروبيان.",
           "image": "https://images.unsplash.com/photo-1568901346375-23c9450c58cd?w=800&q=80",
           "price": 30,
-          "rating": 4.4,
+          "rating": 4.3,
           "calories": 610,
           "protein": 26,
           "carbs": 68,
@@ -3058,6 +3058,9 @@
           "isPopular": false,
           "isOffer": false,
           "offerPrice": null,
+          "isCombo": false,
+          "offerKind": null,
+          "comboIncludes": [],
           "spicyOption": true,
           "cashbackPercent": null,
           "addons": [
@@ -3086,10 +3089,7 @@
               "name": "صوص سبايسي",
               "price": 3
             }
-          ],
-          "isCombo": false,
-          "comboIncludes": [],
-          "offerKind": null
+          ]
         },
         {
           "id": "kimchi-kitchen-9",
@@ -3098,7 +3098,7 @@
           "description": "راب بخلطة آسيوية.",
           "image": "https://images.unsplash.com/photo-1529006557810-274b9b2fc783?w=800&q=80",
           "price": 30,
-          "rating": 4.4,
+          "rating": 4.8,
           "calories": 500,
           "protein": 26,
           "carbs": 42,
@@ -3107,6 +3107,9 @@
           "isPopular": false,
           "isOffer": false,
           "offerPrice": null,
+          "isCombo": false,
+          "offerKind": null,
+          "comboIncludes": [],
           "spicyOption": true,
           "cashbackPercent": null,
           "addons": [
@@ -3135,10 +3138,7 @@
               "name": "صوص سبايسي",
               "price": 3
             }
-          ],
-          "isCombo": false,
-          "comboIncludes": [],
-          "offerKind": null
+          ]
         },
         {
           "id": "kimchi-kitchen-10",
@@ -3147,7 +3147,7 @@
           "description": "لفائف ربيعية مقرمشة.",
           "image": "https://images.unsplash.com/photo-1553979459-d2229ba7433b?w=800&q=80",
           "price": 22,
-          "rating": 4.3,
+          "rating": 4.6,
           "calories": 280,
           "protein": 8,
           "carbs": 30,
@@ -3156,6 +3156,9 @@
           "isPopular": false,
           "isOffer": false,
           "offerPrice": null,
+          "isCombo": false,
+          "offerKind": null,
+          "comboIncludes": [],
           "spicyOption": false,
           "cashbackPercent": null,
           "addons": [
@@ -3184,10 +3187,7 @@
               "name": "صوص سبايسي",
               "price": 3
             }
-          ],
-          "isCombo": false,
-          "comboIncludes": [],
-          "offerKind": null
+          ]
         },
         {
           "id": "kimchi-kitchen-offer-1",
@@ -3246,7 +3246,7 @@
           "id": "kimchi-kitchen-offer-2",
           "restaurantId": "kimchi-kitchen",
           "name": "وجبة عائلية برجر لـ 3 أشخاص",
-          "description": "3 برجر مع إضافات ومشروبات. تكفي 3 أشخاص.",
+          "description": "3 برجر مع بطاطس عائلية وصوصات. تكفي 3 أشخاص.",
           "image": "/offers/3-burger.webp",
           "price": 64,
           "rating": 4.6,
@@ -3354,13 +3354,13 @@
       "id": "satay-house",
       "name": "بيت الساتيه",
       "image": "https://images.unsplash.com/photo-1571091718767-18b5b1457add?w=800&q=80",
-      "rating": 4.8,
+      "rating": 4.3,
       "cuisine": "برجر",
-      "deliveryTime": "40–55 د",
-      "deliveryFee": 12,
-      "minOrder": 45,
-      "distanceKm": 2.4,
-      "verified": true,
+      "deliveryTime": "30–45 د",
+      "deliveryFee": 0,
+      "minOrder": 50,
+      "distanceKm": 4.4,
+      "verified": null,
       "tags": [
         "عالمي",
         "سريع"
@@ -3376,7 +3376,7 @@
           "description": "تاكو لحم مع صلصة حارة.",
           "image": "https://images.unsplash.com/photo-1565299624946-b28f40a0ae38?w=800&q=80",
           "price": 30,
-          "rating": 4.1,
+          "rating": 4.8,
           "calories": 480,
           "protein": 24,
           "carbs": 36,
@@ -3385,6 +3385,9 @@
           "isPopular": true,
           "isOffer": false,
           "offerPrice": null,
+          "isCombo": false,
+          "offerKind": null,
+          "comboIncludes": [],
           "spicyOption": true,
           "cashbackPercent": null,
           "addons": [
@@ -3413,10 +3416,7 @@
               "name": "صوص سبايسي",
               "price": 3
             }
-          ],
-          "isCombo": false,
-          "comboIncludes": [],
-          "offerKind": null
+          ]
         },
         {
           "id": "satay-house-2",
@@ -3425,15 +3425,18 @@
           "description": "بوريتو محشي أرز ودجاج.",
           "image": "https://images.unsplash.com/photo-1598103442097-8b74394b95c6?w=800&q=80",
           "price": 29,
-          "rating": 4.8,
+          "rating": 4.3,
           "calories": 620,
           "protein": 30,
           "carbs": 58,
           "fat": 22,
-          "category": "menu",
-          "isPopular": false,
+          "category": "popular",
+          "isPopular": true,
           "isOffer": false,
           "offerPrice": null,
+          "isCombo": false,
+          "offerKind": null,
+          "comboIncludes": [],
           "spicyOption": true,
           "cashbackPercent": null,
           "addons": [
@@ -3462,10 +3465,7 @@
               "name": "صوص سبايسي",
               "price": 3
             }
-          ],
-          "isCombo": false,
-          "comboIncludes": [],
-          "offerKind": null
+          ]
         },
         {
           "id": "satay-house-3",
@@ -3483,6 +3483,9 @@
           "isPopular": false,
           "isOffer": false,
           "offerPrice": null,
+          "isCombo": false,
+          "offerKind": null,
+          "comboIncludes": [],
           "spicyOption": false,
           "cashbackPercent": null,
           "addons": [
@@ -3511,10 +3514,7 @@
               "name": "صوص سبايسي",
               "price": 3
             }
-          ],
-          "isCombo": false,
-          "comboIncludes": [],
-          "offerKind": null
+          ]
         },
         {
           "id": "satay-house-4",
@@ -3523,15 +3523,18 @@
           "description": "نودلز بصلصة صويا وخضار.",
           "image": "https://images.unsplash.com/photo-1573080496219-bb080dd4f877?w=800&q=80",
           "price": 32,
-          "rating": 4.5,
+          "rating": 4.9,
           "calories": 520,
           "protein": 14,
           "carbs": 70,
           "fat": 12,
-          "category": "menu",
-          "isPopular": false,
+          "category": "popular",
+          "isPopular": true,
           "isOffer": false,
           "offerPrice": null,
+          "isCombo": false,
+          "offerKind": null,
+          "comboIncludes": [],
           "spicyOption": false,
           "cashbackPercent": null,
           "addons": [
@@ -3560,10 +3563,7 @@
               "name": "صوص سبايسي",
               "price": 3
             }
-          ],
-          "isCombo": false,
-          "comboIncludes": [],
-          "offerKind": null
+          ]
         },
         {
           "id": "satay-house-5",
@@ -3572,17 +3572,20 @@
           "description": "أرز كوري مع خضار وبيض.",
           "image": "https://images.unsplash.com/photo-1573080496219-bb080dd4f877?w=800&q=80",
           "price": 30,
-          "rating": 4.4,
+          "rating": 4.5,
           "calories": 580,
           "protein": 22,
           "carbs": 72,
           "fat": 16,
-          "category": "menu",
-          "isPopular": false,
+          "category": "popular",
+          "isPopular": true,
           "isOffer": false,
           "offerPrice": null,
+          "isCombo": false,
+          "offerKind": null,
+          "comboIncludes": [],
           "spicyOption": false,
-          "cashbackPercent": 15,
+          "cashbackPercent": null,
           "addons": [
             {
               "id": "extra-cheese",
@@ -3609,10 +3612,7 @@
               "name": "صوص سبايسي",
               "price": 3
             }
-          ],
-          "isCombo": false,
-          "comboIncludes": [],
-          "offerKind": null
+          ]
         },
         {
           "id": "satay-house-6",
@@ -3621,7 +3621,7 @@
           "description": "أسياخ دجاج مع فول سوداني.",
           "image": "https://images.unsplash.com/photo-1598103442097-8b74394b95c6?w=800&q=80",
           "price": 32,
-          "rating": 4.8,
+          "rating": 4.6,
           "calories": 440,
           "protein": 32,
           "carbs": 18,
@@ -3630,6 +3630,9 @@
           "isPopular": true,
           "isOffer": false,
           "offerPrice": null,
+          "isCombo": false,
+          "offerKind": null,
+          "comboIncludes": [],
           "spicyOption": true,
           "cashbackPercent": null,
           "addons": [
@@ -3658,10 +3661,7 @@
               "name": "صوص سبايسي",
               "price": 3
             }
-          ],
-          "isCombo": false,
-          "comboIncludes": [],
-          "offerKind": null
+          ]
         },
         {
           "id": "satay-house-7",
@@ -3670,15 +3670,18 @@
           "description": "مرق فيتنامي مع نودلز.",
           "image": "https://images.unsplash.com/photo-1573080496219-bb080dd4f877?w=800&q=80",
           "price": 30,
-          "rating": 4.9,
+          "rating": 4.6,
           "calories": 390,
           "protein": 24,
           "carbs": 40,
           "fat": 10,
-          "category": "popular",
-          "isPopular": true,
+          "category": "menu",
+          "isPopular": false,
           "isOffer": false,
           "offerPrice": null,
+          "isCombo": false,
+          "offerKind": null,
+          "comboIncludes": [],
           "spicyOption": false,
           "cashbackPercent": null,
           "addons": [
@@ -3707,10 +3710,7 @@
               "name": "صوص سبايسي",
               "price": 3
             }
-          ],
-          "isCombo": false,
-          "comboIncludes": [],
-          "offerKind": null
+          ]
         },
         {
           "id": "satay-house-8",
@@ -3719,7 +3719,7 @@
           "description": "نودلز تايلندي بالروبيان.",
           "image": "https://images.unsplash.com/photo-1573080496219-bb080dd4f877?w=800&q=80",
           "price": 30,
-          "rating": 4.4,
+          "rating": 4.8,
           "calories": 610,
           "protein": 26,
           "carbs": 68,
@@ -3728,6 +3728,9 @@
           "isPopular": false,
           "isOffer": false,
           "offerPrice": null,
+          "isCombo": false,
+          "offerKind": null,
+          "comboIncludes": [],
           "spicyOption": true,
           "cashbackPercent": null,
           "addons": [
@@ -3756,10 +3759,7 @@
               "name": "صوص سبايسي",
               "price": 3
             }
-          ],
-          "isCombo": false,
-          "comboIncludes": [],
-          "offerKind": null
+          ]
         },
         {
           "id": "satay-house-9",
@@ -3768,7 +3768,7 @@
           "description": "راب بخلطة آسيوية.",
           "image": "https://images.unsplash.com/photo-1529006557810-274b9b2fc783?w=800&q=80",
           "price": 30,
-          "rating": 4.6,
+          "rating": 4.2,
           "calories": 500,
           "protein": 26,
           "carbs": 42,
@@ -3777,6 +3777,9 @@
           "isPopular": false,
           "isOffer": false,
           "offerPrice": null,
+          "isCombo": false,
+          "offerKind": null,
+          "comboIncludes": [],
           "spicyOption": true,
           "cashbackPercent": null,
           "addons": [
@@ -3805,10 +3808,7 @@
               "name": "صوص سبايسي",
               "price": 3
             }
-          ],
-          "isCombo": false,
-          "comboIncludes": [],
-          "offerKind": null
+          ]
         },
         {
           "id": "satay-house-10",
@@ -3817,7 +3817,7 @@
           "description": "لفائف ربيعية مقرمشة.",
           "image": "https://images.unsplash.com/photo-1568901346375-23c9450c58cd?w=800&q=80",
           "price": 22,
-          "rating": 4.4,
+          "rating": 4.3,
           "calories": 280,
           "protein": 8,
           "carbs": 30,
@@ -3826,6 +3826,9 @@
           "isPopular": true,
           "isOffer": false,
           "offerPrice": null,
+          "isCombo": false,
+          "offerKind": null,
+          "comboIncludes": [],
           "spicyOption": false,
           "cashbackPercent": null,
           "addons": [
@@ -3854,10 +3857,7 @@
               "name": "صوص سبايسي",
               "price": 3
             }
-          ],
-          "isCombo": false,
-          "comboIncludes": [],
-          "offerKind": null
+          ]
         },
         {
           "id": "satay-house-offer-1",
@@ -3916,7 +3916,7 @@
           "id": "satay-house-offer-2",
           "restaurantId": "satay-house",
           "name": "وجبة عائلية برجر لـ 4 أشخاص",
-          "description": "4 برجر مع إضافات ومشروبات. تكفي 4 أشخاص.",
+          "description": "4 برجر مع بطاطس عائلية وصوصات. تكفي 4 أشخاص.",
           "image": "/offers/4-burger.jpg",
           "price": 80,
           "rating": 4.6,
@@ -4024,19 +4024,19 @@
       "id": "pho-bowl",
       "name": "بول الفو",
       "image": "https://images.unsplash.com/photo-1551782450-a2132b4ba21d?w=800&q=80",
-      "rating": 4.6,
+      "rating": 4.8,
       "cuisine": "برجر",
-      "deliveryTime": "25–35 د",
-      "deliveryFee": 12,
-      "minOrder": 45,
-      "distanceKm": 2.1,
+      "deliveryTime": "40–55 د",
+      "deliveryFee": 6,
+      "minOrder": 25,
+      "distanceKm": 3.7,
       "verified": true,
       "tags": [
         "عالمي",
         "سريع"
       ],
       "featured": null,
-      "open24h": null,
+      "open24h": true,
       "fastDelivery": null,
       "meals": [
         {
@@ -4046,15 +4046,18 @@
           "description": "تاكو لحم مع صلصة حارة.",
           "image": "https://images.unsplash.com/photo-1565299624946-b28f40a0ae38?w=800&q=80",
           "price": 30,
-          "rating": 4.4,
+          "rating": 4.5,
           "calories": 480,
           "protein": 24,
           "carbs": 36,
           "fat": 22,
-          "category": "popular",
-          "isPopular": true,
+          "category": "menu",
+          "isPopular": false,
           "isOffer": false,
           "offerPrice": null,
+          "isCombo": false,
+          "offerKind": null,
+          "comboIncludes": [],
           "spicyOption": true,
           "cashbackPercent": null,
           "addons": [
@@ -4083,10 +4086,7 @@
               "name": "صوص سبايسي",
               "price": 3
             }
-          ],
-          "isCombo": false,
-          "comboIncludes": [],
-          "offerKind": null
+          ]
         },
         {
           "id": "pho-bowl-2",
@@ -4104,6 +4104,9 @@
           "isPopular": false,
           "isOffer": false,
           "offerPrice": null,
+          "isCombo": false,
+          "offerKind": null,
+          "comboIncludes": [],
           "spicyOption": true,
           "cashbackPercent": null,
           "addons": [
@@ -4132,10 +4135,7 @@
               "name": "صوص سبايسي",
               "price": 3
             }
-          ],
-          "isCombo": false,
-          "comboIncludes": [],
-          "offerKind": null
+          ]
         },
         {
           "id": "pho-bowl-3",
@@ -4144,15 +4144,18 @@
           "description": "خبز باو محشي لحم.",
           "image": "https://images.unsplash.com/photo-1568901346375-23c9450c58cd?w=800&q=80",
           "price": 28,
-          "rating": 4.8,
+          "rating": 4.3,
           "calories": 360,
           "protein": 16,
           "carbs": 34,
           "fat": 12,
-          "category": "popular",
-          "isPopular": true,
+          "category": "menu",
+          "isPopular": false,
           "isOffer": false,
           "offerPrice": null,
+          "isCombo": false,
+          "offerKind": null,
+          "comboIncludes": [],
           "spicyOption": false,
           "cashbackPercent": null,
           "addons": [
@@ -4181,10 +4184,7 @@
               "name": "صوص سبايسي",
               "price": 3
             }
-          ],
-          "isCombo": false,
-          "comboIncludes": [],
-          "offerKind": null
+          ]
         },
         {
           "id": "pho-bowl-4",
@@ -4193,15 +4193,18 @@
           "description": "نودلز بصلصة صويا وخضار.",
           "image": "https://images.unsplash.com/photo-1571091718767-18b5b1457add?w=800&q=80",
           "price": 32,
-          "rating": 4.2,
+          "rating": 4.6,
           "calories": 520,
           "protein": 14,
           "carbs": 70,
           "fat": 12,
-          "category": "menu",
-          "isPopular": false,
+          "category": "popular",
+          "isPopular": true,
           "isOffer": false,
           "offerPrice": null,
+          "isCombo": false,
+          "offerKind": null,
+          "comboIncludes": [],
           "spicyOption": false,
           "cashbackPercent": null,
           "addons": [
@@ -4230,10 +4233,7 @@
               "name": "صوص سبايسي",
               "price": 3
             }
-          ],
-          "isCombo": false,
-          "comboIncludes": [],
-          "offerKind": null
+          ]
         },
         {
           "id": "pho-bowl-5",
@@ -4242,15 +4242,18 @@
           "description": "أرز كوري مع خضار وبيض.",
           "image": "https://images.unsplash.com/photo-1568901346375-23c9450c58cd?w=800&q=80",
           "price": 30,
-          "rating": 4.2,
+          "rating": 4.7,
           "calories": 580,
           "protein": 22,
           "carbs": 72,
           "fat": 16,
-          "category": "menu",
-          "isPopular": false,
+          "category": "popular",
+          "isPopular": true,
           "isOffer": false,
           "offerPrice": null,
+          "isCombo": false,
+          "offerKind": null,
+          "comboIncludes": [],
           "spicyOption": false,
           "cashbackPercent": null,
           "addons": [
@@ -4279,10 +4282,7 @@
               "name": "صوص سبايسي",
               "price": 3
             }
-          ],
-          "isCombo": false,
-          "comboIncludes": [],
-          "offerKind": null
+          ]
         },
         {
           "id": "pho-bowl-6",
@@ -4291,7 +4291,7 @@
           "description": "أسياخ دجاج مع فول سوداني.",
           "image": "https://images.unsplash.com/photo-1598103442097-8b74394b95c6?w=800&q=80",
           "price": 32,
-          "rating": 4.8,
+          "rating": 4.3,
           "calories": 440,
           "protein": 32,
           "carbs": 18,
@@ -4300,6 +4300,9 @@
           "isPopular": true,
           "isOffer": false,
           "offerPrice": null,
+          "isCombo": false,
+          "offerKind": null,
+          "comboIncludes": [],
           "spicyOption": true,
           "cashbackPercent": null,
           "addons": [
@@ -4328,10 +4331,7 @@
               "name": "صوص سبايسي",
               "price": 3
             }
-          ],
-          "isCombo": false,
-          "comboIncludes": [],
-          "offerKind": null
+          ]
         },
         {
           "id": "pho-bowl-7",
@@ -4340,7 +4340,7 @@
           "description": "مرق فيتنامي مع نودلز.",
           "image": "https://images.unsplash.com/photo-1568901346375-23c9450c58cd?w=800&q=80",
           "price": 30,
-          "rating": 4.5,
+          "rating": 4.3,
           "calories": 390,
           "protein": 24,
           "carbs": 40,
@@ -4349,6 +4349,9 @@
           "isPopular": false,
           "isOffer": false,
           "offerPrice": null,
+          "isCombo": false,
+          "offerKind": null,
+          "comboIncludes": [],
           "spicyOption": false,
           "cashbackPercent": null,
           "addons": [
@@ -4377,10 +4380,7 @@
               "name": "صوص سبايسي",
               "price": 3
             }
-          ],
-          "isCombo": false,
-          "comboIncludes": [],
-          "offerKind": null
+          ]
         },
         {
           "id": "pho-bowl-8",
@@ -4389,7 +4389,7 @@
           "description": "نودلز تايلندي بالروبيان.",
           "image": "https://images.unsplash.com/photo-1571091718767-18b5b1457add?w=800&q=80",
           "price": 30,
-          "rating": 4.3,
+          "rating": 4.8,
           "calories": 610,
           "protein": 26,
           "carbs": 68,
@@ -4398,55 +4398,9 @@
           "isPopular": false,
           "isOffer": false,
           "offerPrice": null,
-          "spicyOption": true,
-          "cashbackPercent": 15,
-          "addons": [
-            {
-              "id": "extra-cheese",
-              "name": "جبنة إضافية",
-              "price": 5
-            },
-            {
-              "id": "bacon",
-              "name": "بيكون",
-              "price": 8
-            },
-            {
-              "id": "large-fries",
-              "name": "بطاطس كبيرة",
-              "price": 10
-            },
-            {
-              "id": "cola",
-              "name": "كولا",
-              "price": 6
-            },
-            {
-              "id": "spicy-sauce",
-              "name": "صوص سبايسي",
-              "price": 3
-            }
-          ],
           "isCombo": false,
+          "offerKind": null,
           "comboIncludes": [],
-          "offerKind": null
-        },
-        {
-          "id": "pho-bowl-9",
-          "restaurantId": "pho-bowl",
-          "name": "راب شاورما آسيوي",
-          "description": "راب بخلطة آسيوية.",
-          "image": "https://images.unsplash.com/photo-1529006557810-274b9b2fc783?w=800&q=80",
-          "price": 30,
-          "rating": 4.3,
-          "calories": 500,
-          "protein": 26,
-          "carbs": 42,
-          "fat": 18,
-          "category": "menu",
-          "isPopular": false,
-          "isOffer": false,
-          "offerPrice": null,
           "spicyOption": true,
           "cashbackPercent": null,
           "addons": [
@@ -4475,10 +4429,56 @@
               "name": "صوص سبايسي",
               "price": 3
             }
-          ],
+          ]
+        },
+        {
+          "id": "pho-bowl-9",
+          "restaurantId": "pho-bowl",
+          "name": "راب شاورما آسيوي",
+          "description": "راب بخلطة آسيوية.",
+          "image": "https://images.unsplash.com/photo-1529006557810-274b9b2fc783?w=800&q=80",
+          "price": 30,
+          "rating": 4.7,
+          "calories": 500,
+          "protein": 26,
+          "carbs": 42,
+          "fat": 18,
+          "category": "popular",
+          "isPopular": true,
+          "isOffer": false,
+          "offerPrice": null,
           "isCombo": false,
+          "offerKind": null,
           "comboIncludes": [],
-          "offerKind": null
+          "spicyOption": true,
+          "cashbackPercent": null,
+          "addons": [
+            {
+              "id": "extra-cheese",
+              "name": "جبنة إضافية",
+              "price": 5
+            },
+            {
+              "id": "bacon",
+              "name": "بيكون",
+              "price": 8
+            },
+            {
+              "id": "large-fries",
+              "name": "بطاطس كبيرة",
+              "price": 10
+            },
+            {
+              "id": "cola",
+              "name": "كولا",
+              "price": 6
+            },
+            {
+              "id": "spicy-sauce",
+              "name": "صوص سبايسي",
+              "price": 3
+            }
+          ]
         },
         {
           "id": "pho-bowl-10",
@@ -4487,15 +4487,18 @@
           "description": "لفائف ربيعية مقرمشة.",
           "image": "https://images.unsplash.com/photo-1553979459-d2229ba7433b?w=800&q=80",
           "price": 22,
-          "rating": 4.3,
+          "rating": 4.1,
           "calories": 280,
           "protein": 8,
           "carbs": 30,
           "fat": 12,
-          "category": "menu",
-          "isPopular": false,
+          "category": "popular",
+          "isPopular": true,
           "isOffer": false,
           "offerPrice": null,
+          "isCombo": false,
+          "offerKind": null,
+          "comboIncludes": [],
           "spicyOption": false,
           "cashbackPercent": null,
           "addons": [
@@ -4524,10 +4527,7 @@
               "name": "صوص سبايسي",
               "price": 3
             }
-          ],
-          "isCombo": false,
-          "comboIncludes": [],
-          "offerKind": null
+          ]
         },
         {
           "id": "pho-bowl-offer-1",
@@ -4586,7 +4586,7 @@
           "id": "pho-bowl-offer-2",
           "restaurantId": "pho-bowl",
           "name": "وجبة عائلية برجر لـ 3 أشخاص",
-          "description": "3 برجر مع إضافات ومشروبات. تكفي 3 أشخاص.",
+          "description": "3 برجر مع بطاطس عائلية وصوصات. تكفي 3 أشخاص.",
           "image": "/offers/3-burger.webp",
           "price": 64,
           "rating": 4.6,
@@ -4694,18 +4694,18 @@
       "id": "padthai-express",
       "name": "باد تاي إكسبرس",
       "image": "https://images.unsplash.com/photo-1568901346375-23c9450c58cd?w=800&q=80",
-      "rating": 4.7,
+      "rating": 4.5,
       "cuisine": "برجر",
       "deliveryTime": "35–50 د",
       "deliveryFee": 8,
       "minOrder": 45,
-      "distanceKm": 1.9,
+      "distanceKm": 2.5,
       "verified": true,
       "tags": [
         "عالمي",
         "سريع"
       ],
-      "featured": true,
+      "featured": null,
       "open24h": null,
       "fastDelivery": null,
       "meals": [
@@ -4716,7 +4716,7 @@
           "description": "تاكو لحم مع صلصة حارة.",
           "image": "https://images.unsplash.com/photo-1565299624946-b28f40a0ae38?w=800&q=80",
           "price": 30,
-          "rating": 4.3,
+          "rating": 4.2,
           "calories": 480,
           "protein": 24,
           "carbs": 36,
@@ -4725,6 +4725,9 @@
           "isPopular": true,
           "isOffer": false,
           "offerPrice": null,
+          "isCombo": false,
+          "offerKind": null,
+          "comboIncludes": [],
           "spicyOption": true,
           "cashbackPercent": null,
           "addons": [
@@ -4753,10 +4756,7 @@
               "name": "صوص سبايسي",
               "price": 3
             }
-          ],
-          "isCombo": false,
-          "comboIncludes": [],
-          "offerKind": null
+          ]
         },
         {
           "id": "padthai-express-2",
@@ -4765,15 +4765,18 @@
           "description": "بوريتو محشي أرز ودجاج.",
           "image": "https://images.unsplash.com/photo-1598103442097-8b74394b95c6?w=800&q=80",
           "price": 29,
-          "rating": 4.5,
+          "rating": 4.2,
           "calories": 620,
           "protein": 30,
           "carbs": 58,
           "fat": 22,
-          "category": "menu",
-          "isPopular": false,
+          "category": "popular",
+          "isPopular": true,
           "isOffer": false,
           "offerPrice": null,
+          "isCombo": false,
+          "offerKind": null,
+          "comboIncludes": [],
           "spicyOption": true,
           "cashbackPercent": null,
           "addons": [
@@ -4802,10 +4805,7 @@
               "name": "صوص سبايسي",
               "price": 3
             }
-          ],
-          "isCombo": false,
-          "comboIncludes": [],
-          "offerKind": null
+          ]
         },
         {
           "id": "padthai-express-3",
@@ -4814,15 +4814,18 @@
           "description": "خبز باو محشي لحم.",
           "image": "https://images.unsplash.com/photo-1571091718767-18b5b1457add?w=800&q=80",
           "price": 28,
-          "rating": 4.3,
+          "rating": 4.2,
           "calories": 360,
           "protein": 16,
           "carbs": 34,
           "fat": 12,
-          "category": "menu",
-          "isPopular": false,
+          "category": "popular",
+          "isPopular": true,
           "isOffer": false,
           "offerPrice": null,
+          "isCombo": false,
+          "offerKind": null,
+          "comboIncludes": [],
           "spicyOption": false,
           "cashbackPercent": null,
           "addons": [
@@ -4851,10 +4854,7 @@
               "name": "صوص سبايسي",
               "price": 3
             }
-          ],
-          "isCombo": false,
-          "comboIncludes": [],
-          "offerKind": null
+          ]
         },
         {
           "id": "padthai-express-4",
@@ -4863,7 +4863,7 @@
           "description": "نودلز بصلصة صويا وخضار.",
           "image": "https://images.unsplash.com/photo-1568901346375-23c9450c58cd?w=800&q=80",
           "price": 32,
-          "rating": 4.6,
+          "rating": 4.7,
           "calories": 520,
           "protein": 14,
           "carbs": 70,
@@ -4872,6 +4872,9 @@
           "isPopular": true,
           "isOffer": false,
           "offerPrice": null,
+          "isCombo": false,
+          "offerKind": null,
+          "comboIncludes": [],
           "spicyOption": false,
           "cashbackPercent": null,
           "addons": [
@@ -4900,10 +4903,7 @@
               "name": "صوص سبايسي",
               "price": 3
             }
-          ],
-          "isCombo": false,
-          "comboIncludes": [],
-          "offerKind": null
+          ]
         },
         {
           "id": "padthai-express-5",
@@ -4912,7 +4912,7 @@
           "description": "أرز كوري مع خضار وبيض.",
           "image": "https://images.unsplash.com/photo-1571091718767-18b5b1457add?w=800&q=80",
           "price": 30,
-          "rating": 4.9,
+          "rating": 4.6,
           "calories": 580,
           "protein": 22,
           "carbs": 72,
@@ -4921,6 +4921,9 @@
           "isPopular": false,
           "isOffer": false,
           "offerPrice": null,
+          "isCombo": false,
+          "offerKind": null,
+          "comboIncludes": [],
           "spicyOption": false,
           "cashbackPercent": null,
           "addons": [
@@ -4949,10 +4952,7 @@
               "name": "صوص سبايسي",
               "price": 3
             }
-          ],
-          "isCombo": false,
-          "comboIncludes": [],
-          "offerKind": null
+          ]
         },
         {
           "id": "padthai-express-6",
@@ -4961,15 +4961,18 @@
           "description": "أسياخ دجاج مع فول سوداني.",
           "image": "https://images.unsplash.com/photo-1598103442097-8b74394b95c6?w=800&q=80",
           "price": 32,
-          "rating": 4.9,
+          "rating": 4.7,
           "calories": 440,
           "protein": 32,
           "carbs": 18,
           "fat": 20,
-          "category": "popular",
-          "isPopular": true,
+          "category": "menu",
+          "isPopular": false,
           "isOffer": false,
           "offerPrice": null,
+          "isCombo": false,
+          "offerKind": null,
+          "comboIncludes": [],
           "spicyOption": true,
           "cashbackPercent": null,
           "addons": [
@@ -4998,10 +5001,7 @@
               "name": "صوص سبايسي",
               "price": 3
             }
-          ],
-          "isCombo": false,
-          "comboIncludes": [],
-          "offerKind": null
+          ]
         },
         {
           "id": "padthai-express-7",
@@ -5010,7 +5010,7 @@
           "description": "مرق فيتنامي مع نودلز.",
           "image": "https://images.unsplash.com/photo-1571091718767-18b5b1457add?w=800&q=80",
           "price": 30,
-          "rating": 4.6,
+          "rating": 4.2,
           "calories": 390,
           "protein": 24,
           "carbs": 40,
@@ -5019,6 +5019,9 @@
           "isPopular": true,
           "isOffer": false,
           "offerPrice": null,
+          "isCombo": false,
+          "offerKind": null,
+          "comboIncludes": [],
           "spicyOption": false,
           "cashbackPercent": null,
           "addons": [
@@ -5047,10 +5050,7 @@
               "name": "صوص سبايسي",
               "price": 3
             }
-          ],
-          "isCombo": false,
-          "comboIncludes": [],
-          "offerKind": null
+          ]
         },
         {
           "id": "padthai-express-8",
@@ -5059,15 +5059,18 @@
           "description": "نودلز تايلندي بالروبيان.",
           "image": "https://images.unsplash.com/photo-1568901346375-23c9450c58cd?w=800&q=80",
           "price": 30,
-          "rating": 4.1,
+          "rating": 4.4,
           "calories": 610,
           "protein": 26,
           "carbs": 68,
           "fat": 18,
-          "category": "popular",
-          "isPopular": true,
+          "category": "menu",
+          "isPopular": false,
           "isOffer": false,
           "offerPrice": null,
+          "isCombo": false,
+          "offerKind": null,
+          "comboIncludes": [],
           "spicyOption": true,
           "cashbackPercent": null,
           "addons": [
@@ -5096,10 +5099,7 @@
               "name": "صوص سبايسي",
               "price": 3
             }
-          ],
-          "isCombo": false,
-          "comboIncludes": [],
-          "offerKind": null
+          ]
         },
         {
           "id": "padthai-express-9",
@@ -5108,7 +5108,7 @@
           "description": "راب بخلطة آسيوية.",
           "image": "https://images.unsplash.com/photo-1529006557810-274b9b2fc783?w=800&q=80",
           "price": 30,
-          "rating": 4.3,
+          "rating": 4.5,
           "calories": 500,
           "protein": 26,
           "carbs": 42,
@@ -5117,6 +5117,9 @@
           "isPopular": false,
           "isOffer": false,
           "offerPrice": null,
+          "isCombo": false,
+          "offerKind": null,
+          "comboIncludes": [],
           "spicyOption": true,
           "cashbackPercent": null,
           "addons": [
@@ -5145,10 +5148,7 @@
               "name": "صوص سبايسي",
               "price": 3
             }
-          ],
-          "isCombo": false,
-          "comboIncludes": [],
-          "offerKind": null
+          ]
         },
         {
           "id": "padthai-express-10",
@@ -5157,15 +5157,18 @@
           "description": "لفائف ربيعية مقرمشة.",
           "image": "https://images.unsplash.com/photo-1573080496219-bb080dd4f877?w=800&q=80",
           "price": 22,
-          "rating": 4.7,
+          "rating": 4.5,
           "calories": 280,
           "protein": 8,
           "carbs": 30,
           "fat": 12,
-          "category": "menu",
-          "isPopular": false,
+          "category": "popular",
+          "isPopular": true,
           "isOffer": false,
           "offerPrice": null,
+          "isCombo": false,
+          "offerKind": null,
+          "comboIncludes": [],
           "spicyOption": false,
           "cashbackPercent": null,
           "addons": [
@@ -5194,10 +5197,7 @@
               "name": "صوص سبايسي",
               "price": 3
             }
-          ],
-          "isCombo": false,
-          "comboIncludes": [],
-          "offerKind": null
+          ]
         },
         {
           "id": "padthai-express-offer-1",
@@ -5256,7 +5256,7 @@
           "id": "padthai-express-offer-2",
           "restaurantId": "padthai-express",
           "name": "وجبة عائلية برجر لـ 5 أشخاص",
-          "description": "5 برجر مع إضافات ومشروبات. تكفي 5 أشخاص.",
+          "description": "5 برجر مع بطاطس عائلية وصوصات. تكفي 5 أشخاص.",
           "image": "/offers/5-burger.jpg",
           "price": 82,
           "rating": 4.6,

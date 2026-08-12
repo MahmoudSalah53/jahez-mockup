@@ -4,19 +4,19 @@
       "id": "sukkar-lane",
       "name": "زقاق السكر",
       "image": "https://images.unsplash.com/photo-1578985545062-69928b1d9587?w=800&q=80",
-      "rating": 4.7,
+      "rating": 4.9,
       "cuisine": "حلويات",
-      "deliveryTime": "40–55 د",
-      "deliveryFee": 10,
-      "minOrder": 30,
-      "distanceKm": 3.5,
+      "deliveryTime": "25–35 د",
+      "deliveryFee": 0,
+      "minOrder": 25,
+      "distanceKm": 5.4,
       "verified": true,
       "tags": [
         "حلويات",
         "كافيه"
       ],
-      "featured": true,
-      "open24h": true,
+      "featured": null,
+      "open24h": null,
       "fastDelivery": null,
       "meals": [
         {
@@ -26,7 +26,7 @@
           "description": "كنافة بالجبنة مع قطر.",
           "image": "https://images.unsplash.com/photo-1488477181946-6428a0291777?w=800&q=80",
           "price": 22,
-          "rating": 4.8,
+          "rating": 4.2,
           "calories": 480,
           "protein": 10,
           "carbs": 52,
@@ -35,6 +35,9 @@
           "isPopular": false,
           "isOffer": false,
           "offerPrice": null,
+          "isCombo": false,
+          "offerKind": null,
+          "comboIncludes": [],
           "spicyOption": false,
           "cashbackPercent": null,
           "addons": [
@@ -63,10 +66,7 @@
               "name": "مكسرات",
               "price": 6
             }
-          ],
-          "isCombo": false,
-          "comboIncludes": [],
-          "offerKind": null
+          ]
         },
         {
           "id": "sukkar-lane-2",
@@ -75,15 +75,18 @@
           "description": "بقلاوة مكسرات وفستق.",
           "image": "https://images.unsplash.com/photo-1578985545062-69928b1d9587?w=800&q=80",
           "price": 22,
-          "rating": 4.7,
+          "rating": 4.1,
           "calories": 520,
           "protein": 8,
           "carbs": 48,
           "fat": 28,
-          "category": "menu",
-          "isPopular": false,
+          "category": "popular",
+          "isPopular": true,
           "isOffer": false,
           "offerPrice": null,
+          "isCombo": false,
+          "offerKind": null,
+          "comboIncludes": [],
           "spicyOption": false,
           "cashbackPercent": null,
           "addons": [
@@ -112,10 +115,7 @@
               "name": "مكسرات",
               "price": 6
             }
-          ],
-          "isCombo": false,
-          "comboIncludes": [],
-          "offerKind": null
+          ]
         },
         {
           "id": "sukkar-lane-3",
@@ -124,7 +124,7 @@
           "description": "تشيز كيك بالفراولة.",
           "image": "https://images.unsplash.com/photo-1533134242443-d4fd215305ad?w=800&q=80",
           "price": 22,
-          "rating": 4.1,
+          "rating": 4.9,
           "calories": 450,
           "protein": 8,
           "carbs": 40,
@@ -133,6 +133,9 @@
           "isPopular": true,
           "isOffer": false,
           "offerPrice": null,
+          "isCombo": false,
+          "offerKind": null,
+          "comboIncludes": [],
           "spicyOption": false,
           "cashbackPercent": null,
           "addons": [
@@ -161,10 +164,7 @@
               "name": "مكسرات",
               "price": 6
             }
-          ],
-          "isCombo": false,
-          "comboIncludes": [],
-          "offerKind": null
+          ]
         },
         {
           "id": "sukkar-lane-4",
@@ -173,7 +173,7 @@
           "description": "وافل مع آيس كريم وشوكولاتة.",
           "image": "https://images.unsplash.com/photo-1563805042-7684c019e1cb?w=800&q=80",
           "price": 22,
-          "rating": 4.7,
+          "rating": 4.3,
           "calories": 610,
           "protein": 10,
           "carbs": 70,
@@ -182,6 +182,9 @@
           "isPopular": true,
           "isOffer": false,
           "offerPrice": null,
+          "isCombo": false,
+          "offerKind": null,
+          "comboIncludes": [],
           "spicyOption": false,
           "cashbackPercent": null,
           "addons": [
@@ -210,10 +213,7 @@
               "name": "مكسرات",
               "price": 6
             }
-          ],
-          "isCombo": false,
-          "comboIncludes": [],
-          "offerKind": null
+          ]
         },
         {
           "id": "sukkar-lane-5",
@@ -222,7 +222,7 @@
           "description": "براوني مع صوص شوكولاتة.",
           "image": "https://images.unsplash.com/photo-1563805042-7684c019e1cb?w=800&q=80",
           "price": 23,
-          "rating": 4.4,
+          "rating": 4.1,
           "calories": 540,
           "protein": 6,
           "carbs": 48,
@@ -231,6 +231,9 @@
           "isPopular": false,
           "isOffer": false,
           "offerPrice": null,
+          "isCombo": false,
+          "offerKind": null,
+          "comboIncludes": [],
           "spicyOption": false,
           "cashbackPercent": null,
           "addons": [
@@ -259,10 +262,7 @@
               "name": "مكسرات",
               "price": 6
             }
-          ],
-          "isCombo": false,
-          "comboIncludes": [],
-          "offerKind": null
+          ]
         },
         {
           "id": "sukkar-lane-6",
@@ -271,7 +271,7 @@
           "description": "نكهتان من اختيارك.",
           "image": "https://images.unsplash.com/photo-1563805042-7684c019e1cb?w=800&q=80",
           "price": 18,
-          "rating": 4.5,
+          "rating": 4.9,
           "calories": 280,
           "protein": 4,
           "carbs": 32,
@@ -280,6 +280,9 @@
           "isPopular": false,
           "isOffer": false,
           "offerPrice": null,
+          "isCombo": false,
+          "offerKind": null,
+          "comboIncludes": [],
           "spicyOption": false,
           "cashbackPercent": null,
           "addons": [
@@ -308,10 +311,7 @@
               "name": "مكسرات",
               "price": 6
             }
-          ],
-          "isCombo": false,
-          "comboIncludes": [],
-          "offerKind": null
+          ]
         },
         {
           "id": "sukkar-lane-7",
@@ -320,7 +320,7 @@
           "description": "لقيمات مقرمشة مع سمن وعسل.",
           "image": "https://images.unsplash.com/photo-1563805042-7684c019e1cb?w=800&q=80",
           "price": 22,
-          "rating": 4.3,
+          "rating": 4.9,
           "calories": 420,
           "protein": 5,
           "carbs": 50,
@@ -329,6 +329,9 @@
           "isPopular": true,
           "isOffer": false,
           "offerPrice": null,
+          "isCombo": false,
+          "offerKind": null,
+          "comboIncludes": [],
           "spicyOption": false,
           "cashbackPercent": null,
           "addons": [
@@ -357,10 +360,7 @@
               "name": "مكسرات",
               "price": 6
             }
-          ],
-          "isCombo": false,
-          "comboIncludes": [],
-          "offerKind": null
+          ]
         },
         {
           "id": "sukkar-lane-8",
@@ -369,15 +369,18 @@
           "description": "تمر باللوز والشوكولاتة.",
           "image": "https://images.unsplash.com/photo-1559181567-c3190ca9959b?w=800&q=80",
           "price": 21,
-          "rating": 4.4,
+          "rating": 4.3,
           "calories": 360,
           "protein": 6,
           "carbs": 40,
           "fat": 16,
-          "category": "menu",
-          "isPopular": false,
+          "category": "popular",
+          "isPopular": true,
           "isOffer": false,
           "offerPrice": null,
+          "isCombo": false,
+          "offerKind": null,
+          "comboIncludes": [],
           "spicyOption": false,
           "cashbackPercent": null,
           "addons": [
@@ -406,10 +409,7 @@
               "name": "مكسرات",
               "price": 6
             }
-          ],
-          "isCombo": false,
-          "comboIncludes": [],
-          "offerKind": null
+          ]
         },
         {
           "id": "sukkar-lane-9",
@@ -418,15 +418,18 @@
           "description": "تيراميسو إيطالي كلاسيك.",
           "image": "https://images.unsplash.com/photo-1563805042-7684c019e1cb?w=800&q=80",
           "price": 22,
-          "rating": 4.5,
+          "rating": 4.2,
           "calories": 430,
           "protein": 8,
           "carbs": 38,
           "fat": 24,
-          "category": "popular",
-          "isPopular": true,
+          "category": "menu",
+          "isPopular": false,
           "isOffer": false,
           "offerPrice": null,
+          "isCombo": false,
+          "offerKind": null,
+          "comboIncludes": [],
           "spicyOption": false,
           "cashbackPercent": null,
           "addons": [
@@ -455,10 +458,7 @@
               "name": "مكسرات",
               "price": 6
             }
-          ],
-          "isCombo": false,
-          "comboIncludes": [],
-          "offerKind": null
+          ]
         },
         {
           "id": "sukkar-lane-10",
@@ -467,7 +467,7 @@
           "description": "كيكة شوكولاتة سائلة من الداخل.",
           "image": "https://images.unsplash.com/photo-1578985545062-69928b1d9587?w=800&q=80",
           "price": 22,
-          "rating": 4.2,
+          "rating": 4.9,
           "calories": 490,
           "protein": 7,
           "carbs": 44,
@@ -476,8 +476,11 @@
           "isPopular": false,
           "isOffer": false,
           "offerPrice": null,
+          "isCombo": false,
+          "offerKind": null,
+          "comboIncludes": [],
           "spicyOption": false,
-          "cashbackPercent": 5,
+          "cashbackPercent": null,
           "addons": [
             {
               "id": "choc-sauce",
@@ -504,10 +507,7 @@
               "name": "مكسرات",
               "price": 6
             }
-          ],
-          "isCombo": false,
-          "comboIncludes": [],
-          "offerKind": null
+          ]
         },
         {
           "id": "sukkar-lane-offer-1",
@@ -565,7 +565,7 @@
           "id": "sukkar-lane-offer-2",
           "restaurantId": "sukkar-lane",
           "name": "تشكيلة حلا عائلية لـ 5 أشخاص",
-          "description": "5 قطعة حلا مع إضافات ومشروبات. تكفي 5 أشخاص.",
+          "description": "5 قطعة حلا مع قهوة وصوص. تكفي 5 أشخاص.",
           "image": "https://images.unsplash.com/photo-1578985545062-69928b1d9587?w=800&q=80",
           "price": 75,
           "rating": 4.6,
@@ -674,20 +674,20 @@
       "id": "creamery-riyadh",
       "name": "كريمري الرياض",
       "image": "https://images.unsplash.com/photo-1488477181946-6428a0291777?w=800&q=80",
-      "rating": 4.2,
+      "rating": 4.5,
       "cuisine": "حلويات",
-      "deliveryTime": "30–45 د",
+      "deliveryTime": "25–35 د",
       "deliveryFee": 5,
-      "minOrder": 25,
-      "distanceKm": 4.2,
-      "verified": null,
+      "minOrder": 35,
+      "distanceKm": 4.4,
+      "verified": true,
       "tags": [
         "حلويات",
         "كافيه"
       ],
       "featured": null,
       "open24h": null,
-      "fastDelivery": true,
+      "fastDelivery": null,
       "meals": [
         {
           "id": "creamery-riyadh-1",
@@ -696,15 +696,18 @@
           "description": "كنافة بالجبنة مع قطر.",
           "image": "https://images.unsplash.com/photo-1488477181946-6428a0291777?w=800&q=80",
           "price": 22,
-          "rating": 4.4,
+          "rating": 4.3,
           "calories": 480,
           "protein": 10,
           "carbs": 52,
           "fat": 22,
-          "category": "popular",
-          "isPopular": true,
+          "category": "menu",
+          "isPopular": false,
           "isOffer": false,
           "offerPrice": null,
+          "isCombo": false,
+          "offerKind": null,
+          "comboIncludes": [],
           "spicyOption": false,
           "cashbackPercent": null,
           "addons": [
@@ -733,10 +736,7 @@
               "name": "مكسرات",
               "price": 6
             }
-          ],
-          "isCombo": false,
-          "comboIncludes": [],
-          "offerKind": null
+          ]
         },
         {
           "id": "creamery-riyadh-2",
@@ -745,7 +745,7 @@
           "description": "بقلاوة مكسرات وفستق.",
           "image": "https://images.unsplash.com/photo-1578985545062-69928b1d9587?w=800&q=80",
           "price": 22,
-          "rating": 4.6,
+          "rating": 4.7,
           "calories": 520,
           "protein": 8,
           "carbs": 48,
@@ -754,6 +754,9 @@
           "isPopular": false,
           "isOffer": false,
           "offerPrice": null,
+          "isCombo": false,
+          "offerKind": null,
+          "comboIncludes": [],
           "spicyOption": false,
           "cashbackPercent": null,
           "addons": [
@@ -782,10 +785,7 @@
               "name": "مكسرات",
               "price": 6
             }
-          ],
-          "isCombo": false,
-          "comboIncludes": [],
-          "offerKind": null
+          ]
         },
         {
           "id": "creamery-riyadh-3",
@@ -794,7 +794,7 @@
           "description": "تشيز كيك بالفراولة.",
           "image": "https://images.unsplash.com/photo-1533134242443-d4fd215305ad?w=800&q=80",
           "price": 22,
-          "rating": 4.3,
+          "rating": 4.7,
           "calories": 450,
           "protein": 8,
           "carbs": 40,
@@ -803,8 +803,11 @@
           "isPopular": false,
           "isOffer": false,
           "offerPrice": null,
+          "isCombo": false,
+          "offerKind": null,
+          "comboIncludes": [],
           "spicyOption": false,
-          "cashbackPercent": 10,
+          "cashbackPercent": null,
           "addons": [
             {
               "id": "choc-sauce",
@@ -831,10 +834,7 @@
               "name": "مكسرات",
               "price": 6
             }
-          ],
-          "isCombo": false,
-          "comboIncludes": [],
-          "offerKind": null
+          ]
         },
         {
           "id": "creamery-riyadh-4",
@@ -852,6 +852,9 @@
           "isPopular": false,
           "isOffer": false,
           "offerPrice": null,
+          "isCombo": false,
+          "offerKind": null,
+          "comboIncludes": [],
           "spicyOption": false,
           "cashbackPercent": null,
           "addons": [
@@ -880,10 +883,7 @@
               "name": "مكسرات",
               "price": 6
             }
-          ],
-          "isCombo": false,
-          "comboIncludes": [],
-          "offerKind": null
+          ]
         },
         {
           "id": "creamery-riyadh-5",
@@ -892,15 +892,18 @@
           "description": "براوني مع صوص شوكولاتة.",
           "image": "https://images.unsplash.com/photo-1563805042-7684c019e1cb?w=800&q=80",
           "price": 23,
-          "rating": 4.5,
+          "rating": 4.7,
           "calories": 540,
           "protein": 6,
           "carbs": 48,
           "fat": 32,
-          "category": "menu",
-          "isPopular": false,
+          "category": "popular",
+          "isPopular": true,
           "isOffer": false,
           "offerPrice": null,
+          "isCombo": false,
+          "offerKind": null,
+          "comboIncludes": [],
           "spicyOption": false,
           "cashbackPercent": null,
           "addons": [
@@ -929,10 +932,7 @@
               "name": "مكسرات",
               "price": 6
             }
-          ],
-          "isCombo": false,
-          "comboIncludes": [],
-          "offerKind": null
+          ]
         },
         {
           "id": "creamery-riyadh-6",
@@ -941,7 +941,7 @@
           "description": "نكهتان من اختيارك.",
           "image": "https://images.unsplash.com/photo-1563805042-7684c019e1cb?w=800&q=80",
           "price": 18,
-          "rating": 4.4,
+          "rating": 4.8,
           "calories": 280,
           "protein": 4,
           "carbs": 32,
@@ -950,6 +950,9 @@
           "isPopular": false,
           "isOffer": false,
           "offerPrice": null,
+          "isCombo": false,
+          "offerKind": null,
+          "comboIncludes": [],
           "spicyOption": false,
           "cashbackPercent": null,
           "addons": [
@@ -978,10 +981,7 @@
               "name": "مكسرات",
               "price": 6
             }
-          ],
-          "isCombo": false,
-          "comboIncludes": [],
-          "offerKind": null
+          ]
         },
         {
           "id": "creamery-riyadh-7",
@@ -990,7 +990,7 @@
           "description": "لقيمات مقرمشة مع سمن وعسل.",
           "image": "https://images.unsplash.com/photo-1563805042-7684c019e1cb?w=800&q=80",
           "price": 22,
-          "rating": 4.2,
+          "rating": 4.4,
           "calories": 420,
           "protein": 5,
           "carbs": 50,
@@ -999,6 +999,9 @@
           "isPopular": false,
           "isOffer": false,
           "offerPrice": null,
+          "isCombo": false,
+          "offerKind": null,
+          "comboIncludes": [],
           "spicyOption": false,
           "cashbackPercent": null,
           "addons": [
@@ -1027,10 +1030,7 @@
               "name": "مكسرات",
               "price": 6
             }
-          ],
-          "isCombo": false,
-          "comboIncludes": [],
-          "offerKind": null
+          ]
         },
         {
           "id": "creamery-riyadh-8",
@@ -1039,7 +1039,7 @@
           "description": "تمر باللوز والشوكولاتة.",
           "image": "https://images.unsplash.com/photo-1559181567-c3190ca9959b?w=800&q=80",
           "price": 21,
-          "rating": 4.9,
+          "rating": 4.3,
           "calories": 360,
           "protein": 6,
           "carbs": 40,
@@ -1048,6 +1048,9 @@
           "isPopular": false,
           "isOffer": false,
           "offerPrice": null,
+          "isCombo": false,
+          "offerKind": null,
+          "comboIncludes": [],
           "spicyOption": false,
           "cashbackPercent": null,
           "addons": [
@@ -1076,10 +1079,7 @@
               "name": "مكسرات",
               "price": 6
             }
-          ],
-          "isCombo": false,
-          "comboIncludes": [],
-          "offerKind": null
+          ]
         },
         {
           "id": "creamery-riyadh-9",
@@ -1088,7 +1088,7 @@
           "description": "تيراميسو إيطالي كلاسيك.",
           "image": "https://images.unsplash.com/photo-1563805042-7684c019e1cb?w=800&q=80",
           "price": 22,
-          "rating": 4.3,
+          "rating": 4.5,
           "calories": 430,
           "protein": 8,
           "carbs": 38,
@@ -1097,6 +1097,9 @@
           "isPopular": false,
           "isOffer": false,
           "offerPrice": null,
+          "isCombo": false,
+          "offerKind": null,
+          "comboIncludes": [],
           "spicyOption": false,
           "cashbackPercent": null,
           "addons": [
@@ -1125,10 +1128,7 @@
               "name": "مكسرات",
               "price": 6
             }
-          ],
-          "isCombo": false,
-          "comboIncludes": [],
-          "offerKind": null
+          ]
         },
         {
           "id": "creamery-riyadh-10",
@@ -1137,17 +1137,20 @@
           "description": "كيكة شوكولاتة سائلة من الداخل.",
           "image": "https://images.unsplash.com/photo-1578985545062-69928b1d9587?w=800&q=80",
           "price": 22,
-          "rating": 4.4,
+          "rating": 4.6,
           "calories": 490,
           "protein": 7,
           "carbs": 44,
           "fat": 28,
-          "category": "menu",
-          "isPopular": false,
+          "category": "popular",
+          "isPopular": true,
           "isOffer": false,
           "offerPrice": null,
+          "isCombo": false,
+          "offerKind": null,
+          "comboIncludes": [],
           "spicyOption": false,
-          "cashbackPercent": 5,
+          "cashbackPercent": null,
           "addons": [
             {
               "id": "choc-sauce",
@@ -1174,10 +1177,7 @@
               "name": "مكسرات",
               "price": 6
             }
-          ],
-          "isCombo": false,
-          "comboIncludes": [],
-          "offerKind": null
+          ]
         },
         {
           "id": "creamery-riyadh-offer-1",
@@ -1235,7 +1235,7 @@
           "id": "creamery-riyadh-offer-2",
           "restaurantId": "creamery-riyadh",
           "name": "تشكيلة حلا عائلية لـ 5 أشخاص",
-          "description": "5 قطعة حلا مع إضافات ومشروبات. تكفي 5 أشخاص.",
+          "description": "5 قطعة حلا مع قهوة وصوص. تكفي 5 أشخاص.",
           "image": "https://images.unsplash.com/photo-1578985545062-69928b1d9587?w=800&q=80",
           "price": 75,
           "rating": 4.6,
@@ -1344,20 +1344,20 @@
       "id": "kunafa-lab",
       "name": "مختبر الكنافة",
       "image": "https://images.unsplash.com/photo-1578985545062-69928b1d9587?w=800&q=80",
-      "rating": 4.3,
+      "rating": 4.4,
       "cuisine": "حلويات",
       "deliveryTime": "20–30 د",
       "deliveryFee": 10,
-      "minOrder": 25,
-      "distanceKm": 4.8,
-      "verified": null,
+      "minOrder": 30,
+      "distanceKm": 3.8,
+      "verified": true,
       "tags": [
         "حلويات",
         "كافيه"
       ],
       "featured": null,
       "open24h": null,
-      "fastDelivery": null,
+      "fastDelivery": true,
       "meals": [
         {
           "id": "kunafa-lab-1",
@@ -1366,17 +1366,20 @@
           "description": "كنافة بالجبنة مع قطر.",
           "image": "https://images.unsplash.com/photo-1488477181946-6428a0291777?w=800&q=80",
           "price": 22,
-          "rating": 4.8,
+          "rating": 4.7,
           "calories": 480,
           "protein": 10,
           "carbs": 52,
           "fat": 22,
-          "category": "menu",
-          "isPopular": false,
+          "category": "popular",
+          "isPopular": true,
           "isOffer": false,
           "offerPrice": null,
+          "isCombo": false,
+          "offerKind": null,
+          "comboIncludes": [],
           "spicyOption": false,
-          "cashbackPercent": 5,
+          "cashbackPercent": null,
           "addons": [
             {
               "id": "choc-sauce",
@@ -1403,10 +1406,7 @@
               "name": "مكسرات",
               "price": 6
             }
-          ],
-          "isCombo": false,
-          "comboIncludes": [],
-          "offerKind": null
+          ]
         },
         {
           "id": "kunafa-lab-2",
@@ -1415,15 +1415,18 @@
           "description": "بقلاوة مكسرات وفستق.",
           "image": "https://images.unsplash.com/photo-1578985545062-69928b1d9587?w=800&q=80",
           "price": 22,
-          "rating": 4.4,
+          "rating": 4.5,
           "calories": 520,
           "protein": 8,
           "carbs": 48,
           "fat": 28,
-          "category": "menu",
-          "isPopular": false,
+          "category": "popular",
+          "isPopular": true,
           "isOffer": false,
           "offerPrice": null,
+          "isCombo": false,
+          "offerKind": null,
+          "comboIncludes": [],
           "spicyOption": false,
           "cashbackPercent": null,
           "addons": [
@@ -1452,10 +1455,7 @@
               "name": "مكسرات",
               "price": 6
             }
-          ],
-          "isCombo": false,
-          "comboIncludes": [],
-          "offerKind": null
+          ]
         },
         {
           "id": "kunafa-lab-3",
@@ -1464,15 +1464,18 @@
           "description": "تشيز كيك بالفراولة.",
           "image": "https://images.unsplash.com/photo-1533134242443-d4fd215305ad?w=800&q=80",
           "price": 22,
-          "rating": 4.7,
+          "rating": 4.2,
           "calories": 450,
           "protein": 8,
           "carbs": 40,
           "fat": 26,
-          "category": "menu",
-          "isPopular": false,
+          "category": "popular",
+          "isPopular": true,
           "isOffer": false,
           "offerPrice": null,
+          "isCombo": false,
+          "offerKind": null,
+          "comboIncludes": [],
           "spicyOption": false,
           "cashbackPercent": null,
           "addons": [
@@ -1501,10 +1504,7 @@
               "name": "مكسرات",
               "price": 6
             }
-          ],
-          "isCombo": false,
-          "comboIncludes": [],
-          "offerKind": null
+          ]
         },
         {
           "id": "kunafa-lab-4",
@@ -1513,7 +1513,7 @@
           "description": "وافل مع آيس كريم وشوكولاتة.",
           "image": "https://images.unsplash.com/photo-1563805042-7684c019e1cb?w=800&q=80",
           "price": 22,
-          "rating": 4.2,
+          "rating": 4.3,
           "calories": 610,
           "protein": 10,
           "carbs": 70,
@@ -1522,6 +1522,9 @@
           "isPopular": true,
           "isOffer": false,
           "offerPrice": null,
+          "isCombo": false,
+          "offerKind": null,
+          "comboIncludes": [],
           "spicyOption": false,
           "cashbackPercent": null,
           "addons": [
@@ -1550,10 +1553,7 @@
               "name": "مكسرات",
               "price": 6
             }
-          ],
-          "isCombo": false,
-          "comboIncludes": [],
-          "offerKind": null
+          ]
         },
         {
           "id": "kunafa-lab-5",
@@ -1562,7 +1562,7 @@
           "description": "براوني مع صوص شوكولاتة.",
           "image": "https://images.unsplash.com/photo-1488477181946-6428a0291777?w=800&q=80",
           "price": 23,
-          "rating": 4.5,
+          "rating": 4.4,
           "calories": 540,
           "protein": 6,
           "carbs": 48,
@@ -1571,6 +1571,9 @@
           "isPopular": false,
           "isOffer": false,
           "offerPrice": null,
+          "isCombo": false,
+          "offerKind": null,
+          "comboIncludes": [],
           "spicyOption": false,
           "cashbackPercent": null,
           "addons": [
@@ -1599,10 +1602,7 @@
               "name": "مكسرات",
               "price": 6
             }
-          ],
-          "isCombo": false,
-          "comboIncludes": [],
-          "offerKind": null
+          ]
         },
         {
           "id": "kunafa-lab-6",
@@ -1611,17 +1611,20 @@
           "description": "نكهتان من اختيارك.",
           "image": "https://images.unsplash.com/photo-1563805042-7684c019e1cb?w=800&q=80",
           "price": 18,
-          "rating": 4.2,
+          "rating": 4.6,
           "calories": 280,
           "protein": 4,
           "carbs": 32,
           "fat": 14,
-          "category": "menu",
-          "isPopular": false,
+          "category": "popular",
+          "isPopular": true,
           "isOffer": false,
           "offerPrice": null,
+          "isCombo": false,
+          "offerKind": null,
+          "comboIncludes": [],
           "spicyOption": false,
-          "cashbackPercent": 5,
+          "cashbackPercent": null,
           "addons": [
             {
               "id": "choc-sauce",
@@ -1648,10 +1651,7 @@
               "name": "مكسرات",
               "price": 6
             }
-          ],
-          "isCombo": false,
-          "comboIncludes": [],
-          "offerKind": null
+          ]
         },
         {
           "id": "kunafa-lab-7",
@@ -1660,7 +1660,7 @@
           "description": "لقيمات مقرمشة مع سمن وعسل.",
           "image": "https://images.unsplash.com/photo-1488477181946-6428a0291777?w=800&q=80",
           "price": 22,
-          "rating": 4.9,
+          "rating": 4.4,
           "calories": 420,
           "protein": 5,
           "carbs": 50,
@@ -1669,6 +1669,9 @@
           "isPopular": false,
           "isOffer": false,
           "offerPrice": null,
+          "isCombo": false,
+          "offerKind": null,
+          "comboIncludes": [],
           "spicyOption": false,
           "cashbackPercent": null,
           "addons": [
@@ -1697,10 +1700,7 @@
               "name": "مكسرات",
               "price": 6
             }
-          ],
-          "isCombo": false,
-          "comboIncludes": [],
-          "offerKind": null
+          ]
         },
         {
           "id": "kunafa-lab-8",
@@ -1709,15 +1709,18 @@
           "description": "تمر باللوز والشوكولاتة.",
           "image": "https://images.unsplash.com/photo-1559181567-c3190ca9959b?w=800&q=80",
           "price": 21,
-          "rating": 4.4,
+          "rating": 4.6,
           "calories": 360,
           "protein": 6,
           "carbs": 40,
           "fat": 16,
-          "category": "menu",
-          "isPopular": false,
+          "category": "popular",
+          "isPopular": true,
           "isOffer": false,
           "offerPrice": null,
+          "isCombo": false,
+          "offerKind": null,
+          "comboIncludes": [],
           "spicyOption": false,
           "cashbackPercent": null,
           "addons": [
@@ -1746,10 +1749,7 @@
               "name": "مكسرات",
               "price": 6
             }
-          ],
-          "isCombo": false,
-          "comboIncludes": [],
-          "offerKind": null
+          ]
         },
         {
           "id": "kunafa-lab-9",
@@ -1758,15 +1758,18 @@
           "description": "تيراميسو إيطالي كلاسيك.",
           "image": "https://images.unsplash.com/photo-1488477181946-6428a0291777?w=800&q=80",
           "price": 22,
-          "rating": 4.3,
+          "rating": 4.8,
           "calories": 430,
           "protein": 8,
           "carbs": 38,
           "fat": 24,
-          "category": "menu",
-          "isPopular": false,
+          "category": "popular",
+          "isPopular": true,
           "isOffer": false,
           "offerPrice": null,
+          "isCombo": false,
+          "offerKind": null,
+          "comboIncludes": [],
           "spicyOption": false,
           "cashbackPercent": null,
           "addons": [
@@ -1795,10 +1798,7 @@
               "name": "مكسرات",
               "price": 6
             }
-          ],
-          "isCombo": false,
-          "comboIncludes": [],
-          "offerKind": null
+          ]
         },
         {
           "id": "kunafa-lab-10",
@@ -1807,7 +1807,7 @@
           "description": "كيكة شوكولاتة سائلة من الداخل.",
           "image": "https://images.unsplash.com/photo-1578985545062-69928b1d9587?w=800&q=80",
           "price": 22,
-          "rating": 4.5,
+          "rating": 4.1,
           "calories": 490,
           "protein": 7,
           "carbs": 44,
@@ -1816,6 +1816,9 @@
           "isPopular": false,
           "isOffer": false,
           "offerPrice": null,
+          "isCombo": false,
+          "offerKind": null,
+          "comboIncludes": [],
           "spicyOption": false,
           "cashbackPercent": null,
           "addons": [
@@ -1844,10 +1847,7 @@
               "name": "مكسرات",
               "price": 6
             }
-          ],
-          "isCombo": false,
-          "comboIncludes": [],
-          "offerKind": null
+          ]
         },
         {
           "id": "kunafa-lab-offer-1",
@@ -1905,7 +1905,7 @@
           "id": "kunafa-lab-offer-2",
           "restaurantId": "kunafa-lab",
           "name": "تشكيلة حلا عائلية لـ 3 أشخاص",
-          "description": "3 قطعة حلا مع إضافات ومشروبات. تكفي 3 أشخاص.",
+          "description": "3 قطعة حلا مع قهوة وصوص. تكفي 3 أشخاص.",
           "image": "https://images.unsplash.com/photo-1519676867240-f03562e64548?w=800&q=80",
           "price": 50,
           "rating": 4.6,
@@ -2014,13 +2014,13 @@
       "id": "choc-atelier",
       "name": "أتولييه الشوكولاتة",
       "image": "https://images.unsplash.com/photo-1578985545062-69928b1d9587?w=800&q=80",
-      "rating": 4.7,
+      "rating": 4.6,
       "cuisine": "حلويات",
       "deliveryTime": "30–45 د",
-      "deliveryFee": 10,
+      "deliveryFee": 6,
       "minOrder": 45,
-      "distanceKm": 3.2,
-      "verified": null,
+      "distanceKm": 4.9,
+      "verified": true,
       "tags": [
         "حلويات",
         "كافيه"
@@ -2036,15 +2036,18 @@
           "description": "كنافة بالجبنة مع قطر.",
           "image": "https://images.unsplash.com/photo-1488477181946-6428a0291777?w=800&q=80",
           "price": 22,
-          "rating": 4.2,
+          "rating": 4.4,
           "calories": 480,
           "protein": 10,
           "carbs": 52,
           "fat": 22,
-          "category": "menu",
-          "isPopular": false,
+          "category": "popular",
+          "isPopular": true,
           "isOffer": false,
           "offerPrice": null,
+          "isCombo": false,
+          "offerKind": null,
+          "comboIncludes": [],
           "spicyOption": false,
           "cashbackPercent": null,
           "addons": [
@@ -2073,10 +2076,7 @@
               "name": "مكسرات",
               "price": 6
             }
-          ],
-          "isCombo": false,
-          "comboIncludes": [],
-          "offerKind": null
+          ]
         },
         {
           "id": "choc-atelier-2",
@@ -2085,15 +2085,18 @@
           "description": "بقلاوة مكسرات وفستق.",
           "image": "https://images.unsplash.com/photo-1578985545062-69928b1d9587?w=800&q=80",
           "price": 22,
-          "rating": 4.4,
+          "rating": 4.8,
           "calories": 520,
           "protein": 8,
           "carbs": 48,
           "fat": 28,
-          "category": "menu",
-          "isPopular": false,
+          "category": "popular",
+          "isPopular": true,
           "isOffer": false,
           "offerPrice": null,
+          "isCombo": false,
+          "offerKind": null,
+          "comboIncludes": [],
           "spicyOption": false,
           "cashbackPercent": null,
           "addons": [
@@ -2122,10 +2125,7 @@
               "name": "مكسرات",
               "price": 6
             }
-          ],
-          "isCombo": false,
-          "comboIncludes": [],
-          "offerKind": null
+          ]
         },
         {
           "id": "choc-atelier-3",
@@ -2134,7 +2134,7 @@
           "description": "تشيز كيك بالفراولة.",
           "image": "https://images.unsplash.com/photo-1533134242443-d4fd215305ad?w=800&q=80",
           "price": 22,
-          "rating": 4.2,
+          "rating": 4.3,
           "calories": 450,
           "protein": 8,
           "carbs": 40,
@@ -2143,6 +2143,9 @@
           "isPopular": true,
           "isOffer": false,
           "offerPrice": null,
+          "isCombo": false,
+          "offerKind": null,
+          "comboIncludes": [],
           "spicyOption": false,
           "cashbackPercent": null,
           "addons": [
@@ -2171,10 +2174,7 @@
               "name": "مكسرات",
               "price": 6
             }
-          ],
-          "isCombo": false,
-          "comboIncludes": [],
-          "offerKind": null
+          ]
         },
         {
           "id": "choc-atelier-4",
@@ -2192,6 +2192,9 @@
           "isPopular": true,
           "isOffer": false,
           "offerPrice": null,
+          "isCombo": false,
+          "offerKind": null,
+          "comboIncludes": [],
           "spicyOption": false,
           "cashbackPercent": null,
           "addons": [
@@ -2220,10 +2223,7 @@
               "name": "مكسرات",
               "price": 6
             }
-          ],
-          "isCombo": false,
-          "comboIncludes": [],
-          "offerKind": null
+          ]
         },
         {
           "id": "choc-atelier-5",
@@ -2232,15 +2232,18 @@
           "description": "براوني مع صوص شوكولاتة.",
           "image": "https://images.unsplash.com/photo-1488477181946-6428a0291777?w=800&q=80",
           "price": 23,
-          "rating": 4.8,
+          "rating": 4.5,
           "calories": 540,
           "protein": 6,
           "carbs": 48,
           "fat": 32,
-          "category": "popular",
-          "isPopular": true,
+          "category": "menu",
+          "isPopular": false,
           "isOffer": false,
           "offerPrice": null,
+          "isCombo": false,
+          "offerKind": null,
+          "comboIncludes": [],
           "spicyOption": false,
           "cashbackPercent": null,
           "addons": [
@@ -2269,10 +2272,7 @@
               "name": "مكسرات",
               "price": 6
             }
-          ],
-          "isCombo": false,
-          "comboIncludes": [],
-          "offerKind": null
+          ]
         },
         {
           "id": "choc-atelier-6",
@@ -2281,15 +2281,18 @@
           "description": "نكهتان من اختيارك.",
           "image": "https://images.unsplash.com/photo-1563805042-7684c019e1cb?w=800&q=80",
           "price": 18,
-          "rating": 4.7,
+          "rating": 4.4,
           "calories": 280,
           "protein": 4,
           "carbs": 32,
           "fat": 14,
-          "category": "popular",
-          "isPopular": true,
+          "category": "menu",
+          "isPopular": false,
           "isOffer": false,
           "offerPrice": null,
+          "isCombo": false,
+          "offerKind": null,
+          "comboIncludes": [],
           "spicyOption": false,
           "cashbackPercent": null,
           "addons": [
@@ -2318,10 +2321,7 @@
               "name": "مكسرات",
               "price": 6
             }
-          ],
-          "isCombo": false,
-          "comboIncludes": [],
-          "offerKind": null
+          ]
         },
         {
           "id": "choc-atelier-7",
@@ -2330,15 +2330,18 @@
           "description": "لقيمات مقرمشة مع سمن وعسل.",
           "image": "https://images.unsplash.com/photo-1488477181946-6428a0291777?w=800&q=80",
           "price": 22,
-          "rating": 4.6,
+          "rating": 4.5,
           "calories": 420,
           "protein": 5,
           "carbs": 50,
           "fat": 18,
-          "category": "popular",
-          "isPopular": true,
+          "category": "menu",
+          "isPopular": false,
           "isOffer": false,
           "offerPrice": null,
+          "isCombo": false,
+          "offerKind": null,
+          "comboIncludes": [],
           "spicyOption": false,
           "cashbackPercent": null,
           "addons": [
@@ -2367,10 +2370,7 @@
               "name": "مكسرات",
               "price": 6
             }
-          ],
-          "isCombo": false,
-          "comboIncludes": [],
-          "offerKind": null
+          ]
         },
         {
           "id": "choc-atelier-8",
@@ -2379,7 +2379,7 @@
           "description": "تمر باللوز والشوكولاتة.",
           "image": "https://images.unsplash.com/photo-1559181567-c3190ca9959b?w=800&q=80",
           "price": 21,
-          "rating": 4.8,
+          "rating": 4.1,
           "calories": 360,
           "protein": 6,
           "carbs": 40,
@@ -2388,6 +2388,9 @@
           "isPopular": false,
           "isOffer": false,
           "offerPrice": null,
+          "isCombo": false,
+          "offerKind": null,
+          "comboIncludes": [],
           "spicyOption": false,
           "cashbackPercent": null,
           "addons": [
@@ -2416,10 +2419,7 @@
               "name": "مكسرات",
               "price": 6
             }
-          ],
-          "isCombo": false,
-          "comboIncludes": [],
-          "offerKind": null
+          ]
         },
         {
           "id": "choc-atelier-9",
@@ -2428,15 +2428,18 @@
           "description": "تيراميسو إيطالي كلاسيك.",
           "image": "https://images.unsplash.com/photo-1488477181946-6428a0291777?w=800&q=80",
           "price": 22,
-          "rating": 4.7,
+          "rating": 4.3,
           "calories": 430,
           "protein": 8,
           "carbs": 38,
           "fat": 24,
-          "category": "menu",
-          "isPopular": false,
+          "category": "popular",
+          "isPopular": true,
           "isOffer": false,
           "offerPrice": null,
+          "isCombo": false,
+          "offerKind": null,
+          "comboIncludes": [],
           "spicyOption": false,
           "cashbackPercent": null,
           "addons": [
@@ -2465,10 +2468,7 @@
               "name": "مكسرات",
               "price": 6
             }
-          ],
-          "isCombo": false,
-          "comboIncludes": [],
-          "offerKind": null
+          ]
         },
         {
           "id": "choc-atelier-10",
@@ -2477,15 +2477,18 @@
           "description": "كيكة شوكولاتة سائلة من الداخل.",
           "image": "https://images.unsplash.com/photo-1578985545062-69928b1d9587?w=800&q=80",
           "price": 22,
-          "rating": 4.3,
+          "rating": 4.2,
           "calories": 490,
           "protein": 7,
           "carbs": 44,
           "fat": 28,
-          "category": "popular",
-          "isPopular": true,
+          "category": "menu",
+          "isPopular": false,
           "isOffer": false,
           "offerPrice": null,
+          "isCombo": false,
+          "offerKind": null,
+          "comboIncludes": [],
           "spicyOption": false,
           "cashbackPercent": null,
           "addons": [
@@ -2514,10 +2517,7 @@
               "name": "مكسرات",
               "price": 6
             }
-          ],
-          "isCombo": false,
-          "comboIncludes": [],
-          "offerKind": null
+          ]
         },
         {
           "id": "choc-atelier-offer-1",
@@ -2575,7 +2575,7 @@
           "id": "choc-atelier-offer-2",
           "restaurantId": "choc-atelier",
           "name": "تشكيلة حلا عائلية لـ 3 أشخاص",
-          "description": "3 قطعة حلا مع إضافات ومشروبات. تكفي 3 أشخاص.",
+          "description": "3 قطعة حلا مع قهوة وصوص. تكفي 3 أشخاص.",
           "image": "https://images.unsplash.com/photo-1519676867240-f03562e64548?w=800&q=80",
           "price": 50,
           "rating": 4.6,
@@ -2684,13 +2684,13 @@
       "id": "date-delight",
       "name": "متعة التمر",
       "image": "https://images.unsplash.com/photo-1578985545062-69928b1d9587?w=800&q=80",
-      "rating": 4.3,
+      "rating": 4.8,
       "cuisine": "حلويات",
-      "deliveryTime": "20–30 د",
-      "deliveryFee": 5,
-      "minOrder": 25,
-      "distanceKm": 4.9,
-      "verified": true,
+      "deliveryTime": "35–50 د",
+      "deliveryFee": 12,
+      "minOrder": 50,
+      "distanceKm": 0.6,
+      "verified": null,
       "tags": [
         "حلويات",
         "كافيه"
@@ -2715,6 +2715,9 @@
           "isPopular": false,
           "isOffer": false,
           "offerPrice": null,
+          "isCombo": false,
+          "offerKind": null,
+          "comboIncludes": [],
           "spicyOption": false,
           "cashbackPercent": null,
           "addons": [
@@ -2743,10 +2746,7 @@
               "name": "مكسرات",
               "price": 6
             }
-          ],
-          "isCombo": false,
-          "comboIncludes": [],
-          "offerKind": null
+          ]
         },
         {
           "id": "date-delight-2",
@@ -2755,7 +2755,7 @@
           "description": "بقلاوة مكسرات وفستق.",
           "image": "https://images.unsplash.com/photo-1578985545062-69928b1d9587?w=800&q=80",
           "price": 22,
-          "rating": 4.8,
+          "rating": 4.5,
           "calories": 520,
           "protein": 8,
           "carbs": 48,
@@ -2764,8 +2764,11 @@
           "isPopular": false,
           "isOffer": false,
           "offerPrice": null,
+          "isCombo": false,
+          "offerKind": null,
+          "comboIncludes": [],
           "spicyOption": false,
-          "cashbackPercent": 15,
+          "cashbackPercent": null,
           "addons": [
             {
               "id": "choc-sauce",
@@ -2792,10 +2795,7 @@
               "name": "مكسرات",
               "price": 6
             }
-          ],
-          "isCombo": false,
-          "comboIncludes": [],
-          "offerKind": null
+          ]
         },
         {
           "id": "date-delight-3",
@@ -2804,7 +2804,7 @@
           "description": "تشيز كيك بالفراولة.",
           "image": "https://images.unsplash.com/photo-1533134242443-d4fd215305ad?w=800&q=80",
           "price": 22,
-          "rating": 4.5,
+          "rating": 4.3,
           "calories": 450,
           "protein": 8,
           "carbs": 40,
@@ -2813,6 +2813,9 @@
           "isPopular": false,
           "isOffer": false,
           "offerPrice": null,
+          "isCombo": false,
+          "offerKind": null,
+          "comboIncludes": [],
           "spicyOption": false,
           "cashbackPercent": null,
           "addons": [
@@ -2841,10 +2844,7 @@
               "name": "مكسرات",
               "price": 6
             }
-          ],
-          "isCombo": false,
-          "comboIncludes": [],
-          "offerKind": null
+          ]
         },
         {
           "id": "date-delight-4",
@@ -2853,17 +2853,20 @@
           "description": "وافل مع آيس كريم وشوكولاتة.",
           "image": "https://images.unsplash.com/photo-1563805042-7684c019e1cb?w=800&q=80",
           "price": 22,
-          "rating": 4.5,
+          "rating": 4.3,
           "calories": 610,
           "protein": 10,
           "carbs": 70,
           "fat": 28,
-          "category": "menu",
-          "isPopular": false,
+          "category": "popular",
+          "isPopular": true,
           "isOffer": false,
           "offerPrice": null,
+          "isCombo": false,
+          "offerKind": null,
+          "comboIncludes": [],
           "spicyOption": false,
-          "cashbackPercent": 10,
+          "cashbackPercent": null,
           "addons": [
             {
               "id": "choc-sauce",
@@ -2890,10 +2893,7 @@
               "name": "مكسرات",
               "price": 6
             }
-          ],
-          "isCombo": false,
-          "comboIncludes": [],
-          "offerKind": null
+          ]
         },
         {
           "id": "date-delight-5",
@@ -2902,15 +2902,18 @@
           "description": "براوني مع صوص شوكولاتة.",
           "image": "https://images.unsplash.com/photo-1563805042-7684c019e1cb?w=800&q=80",
           "price": 23,
-          "rating": 4.6,
+          "rating": 4.4,
           "calories": 540,
           "protein": 6,
           "carbs": 48,
           "fat": 32,
-          "category": "menu",
-          "isPopular": false,
+          "category": "popular",
+          "isPopular": true,
           "isOffer": false,
           "offerPrice": null,
+          "isCombo": false,
+          "offerKind": null,
+          "comboIncludes": [],
           "spicyOption": false,
           "cashbackPercent": null,
           "addons": [
@@ -2939,10 +2942,7 @@
               "name": "مكسرات",
               "price": 6
             }
-          ],
-          "isCombo": false,
-          "comboIncludes": [],
-          "offerKind": null
+          ]
         },
         {
           "id": "date-delight-6",
@@ -2951,15 +2951,18 @@
           "description": "نكهتان من اختيارك.",
           "image": "https://images.unsplash.com/photo-1563805042-7684c019e1cb?w=800&q=80",
           "price": 18,
-          "rating": 4.7,
+          "rating": 4.4,
           "calories": 280,
           "protein": 4,
           "carbs": 32,
           "fat": 14,
-          "category": "menu",
-          "isPopular": false,
+          "category": "popular",
+          "isPopular": true,
           "isOffer": false,
           "offerPrice": null,
+          "isCombo": false,
+          "offerKind": null,
+          "comboIncludes": [],
           "spicyOption": false,
           "cashbackPercent": null,
           "addons": [
@@ -2988,10 +2991,7 @@
               "name": "مكسرات",
               "price": 6
             }
-          ],
-          "isCombo": false,
-          "comboIncludes": [],
-          "offerKind": null
+          ]
         },
         {
           "id": "date-delight-7",
@@ -3000,7 +3000,7 @@
           "description": "لقيمات مقرمشة مع سمن وعسل.",
           "image": "https://images.unsplash.com/photo-1563805042-7684c019e1cb?w=800&q=80",
           "price": 22,
-          "rating": 4.3,
+          "rating": 4.8,
           "calories": 420,
           "protein": 5,
           "carbs": 50,
@@ -3009,8 +3009,11 @@
           "isPopular": false,
           "isOffer": false,
           "offerPrice": null,
+          "isCombo": false,
+          "offerKind": null,
+          "comboIncludes": [],
           "spicyOption": false,
-          "cashbackPercent": 5,
+          "cashbackPercent": null,
           "addons": [
             {
               "id": "choc-sauce",
@@ -3037,10 +3040,7 @@
               "name": "مكسرات",
               "price": 6
             }
-          ],
-          "isCombo": false,
-          "comboIncludes": [],
-          "offerKind": null
+          ]
         },
         {
           "id": "date-delight-8",
@@ -3049,15 +3049,18 @@
           "description": "تمر باللوز والشوكولاتة.",
           "image": "https://images.unsplash.com/photo-1559181567-c3190ca9959b?w=800&q=80",
           "price": 21,
-          "rating": 4.5,
+          "rating": 4.6,
           "calories": 360,
           "protein": 6,
           "carbs": 40,
           "fat": 16,
-          "category": "popular",
-          "isPopular": true,
+          "category": "menu",
+          "isPopular": false,
           "isOffer": false,
           "offerPrice": null,
+          "isCombo": false,
+          "offerKind": null,
+          "comboIncludes": [],
           "spicyOption": false,
           "cashbackPercent": null,
           "addons": [
@@ -3086,10 +3089,7 @@
               "name": "مكسرات",
               "price": 6
             }
-          ],
-          "isCombo": false,
-          "comboIncludes": [],
-          "offerKind": null
+          ]
         },
         {
           "id": "date-delight-9",
@@ -3098,7 +3098,7 @@
           "description": "تيراميسو إيطالي كلاسيك.",
           "image": "https://images.unsplash.com/photo-1563805042-7684c019e1cb?w=800&q=80",
           "price": 22,
-          "rating": 4.7,
+          "rating": 4.9,
           "calories": 430,
           "protein": 8,
           "carbs": 38,
@@ -3107,6 +3107,9 @@
           "isPopular": true,
           "isOffer": false,
           "offerPrice": null,
+          "isCombo": false,
+          "offerKind": null,
+          "comboIncludes": [],
           "spicyOption": false,
           "cashbackPercent": null,
           "addons": [
@@ -3135,10 +3138,7 @@
               "name": "مكسرات",
               "price": 6
             }
-          ],
-          "isCombo": false,
-          "comboIncludes": [],
-          "offerKind": null
+          ]
         },
         {
           "id": "date-delight-10",
@@ -3147,7 +3147,7 @@
           "description": "كيكة شوكولاتة سائلة من الداخل.",
           "image": "https://images.unsplash.com/photo-1578985545062-69928b1d9587?w=800&q=80",
           "price": 22,
-          "rating": 4.1,
+          "rating": 4.3,
           "calories": 490,
           "protein": 7,
           "carbs": 44,
@@ -3156,6 +3156,9 @@
           "isPopular": false,
           "isOffer": false,
           "offerPrice": null,
+          "isCombo": false,
+          "offerKind": null,
+          "comboIncludes": [],
           "spicyOption": false,
           "cashbackPercent": null,
           "addons": [
@@ -3184,10 +3187,7 @@
               "name": "مكسرات",
               "price": 6
             }
-          ],
-          "isCombo": false,
-          "comboIncludes": [],
-          "offerKind": null
+          ]
         },
         {
           "id": "date-delight-offer-1",
@@ -3245,7 +3245,7 @@
           "id": "date-delight-offer-2",
           "restaurantId": "date-delight",
           "name": "تشكيلة حلا عائلية لـ 5 أشخاص",
-          "description": "5 قطعة حلا مع إضافات ومشروبات. تكفي 5 أشخاص.",
+          "description": "5 قطعة حلا مع قهوة وصوص. تكفي 5 أشخاص.",
           "image": "https://images.unsplash.com/photo-1578985545062-69928b1d9587?w=800&q=80",
           "price": 75,
           "rating": 4.6,
@@ -3354,19 +3354,19 @@
       "id": "waffle-nest",
       "name": "عش الوافل",
       "image": "https://images.unsplash.com/photo-1563805042-7684c019e1cb?w=800&q=80",
-      "rating": 4.5,
+      "rating": 4.8,
       "cuisine": "حلويات",
-      "deliveryTime": "30–45 د",
-      "deliveryFee": 10,
-      "minOrder": 25,
-      "distanceKm": 2.8,
-      "verified": null,
+      "deliveryTime": "40–55 د",
+      "deliveryFee": 8,
+      "minOrder": 35,
+      "distanceKm": 4.3,
+      "verified": true,
       "tags": [
         "حلويات",
         "كافيه"
       ],
       "featured": null,
-      "open24h": true,
+      "open24h": null,
       "fastDelivery": null,
       "meals": [
         {
@@ -3376,7 +3376,7 @@
           "description": "كنافة بالجبنة مع قطر.",
           "image": "https://images.unsplash.com/photo-1488477181946-6428a0291777?w=800&q=80",
           "price": 22,
-          "rating": 4.3,
+          "rating": 4.5,
           "calories": 480,
           "protein": 10,
           "carbs": 52,
@@ -3385,8 +3385,11 @@
           "isPopular": false,
           "isOffer": false,
           "offerPrice": null,
+          "isCombo": false,
+          "offerKind": null,
+          "comboIncludes": [],
           "spicyOption": false,
-          "cashbackPercent": 5,
+          "cashbackPercent": null,
           "addons": [
             {
               "id": "choc-sauce",
@@ -3413,10 +3416,7 @@
               "name": "مكسرات",
               "price": 6
             }
-          ],
-          "isCombo": false,
-          "comboIncludes": [],
-          "offerKind": null
+          ]
         },
         {
           "id": "waffle-nest-2",
@@ -3434,6 +3434,9 @@
           "isPopular": false,
           "isOffer": false,
           "offerPrice": null,
+          "isCombo": false,
+          "offerKind": null,
+          "comboIncludes": [],
           "spicyOption": false,
           "cashbackPercent": null,
           "addons": [
@@ -3462,10 +3465,7 @@
               "name": "مكسرات",
               "price": 6
             }
-          ],
-          "isCombo": false,
-          "comboIncludes": [],
-          "offerKind": null
+          ]
         },
         {
           "id": "waffle-nest-3",
@@ -3474,15 +3474,18 @@
           "description": "تشيز كيك بالفراولة.",
           "image": "https://images.unsplash.com/photo-1533134242443-d4fd215305ad?w=800&q=80",
           "price": 22,
-          "rating": 4.8,
+          "rating": 4.9,
           "calories": 450,
           "protein": 8,
           "carbs": 40,
           "fat": 26,
-          "category": "popular",
-          "isPopular": true,
+          "category": "menu",
+          "isPopular": false,
           "isOffer": false,
           "offerPrice": null,
+          "isCombo": false,
+          "offerKind": null,
+          "comboIncludes": [],
           "spicyOption": false,
           "cashbackPercent": null,
           "addons": [
@@ -3511,10 +3514,7 @@
               "name": "مكسرات",
               "price": 6
             }
-          ],
-          "isCombo": false,
-          "comboIncludes": [],
-          "offerKind": null
+          ]
         },
         {
           "id": "waffle-nest-4",
@@ -3523,15 +3523,18 @@
           "description": "وافل مع آيس كريم وشوكولاتة.",
           "image": "https://images.unsplash.com/photo-1563805042-7684c019e1cb?w=800&q=80",
           "price": 22,
-          "rating": 4.2,
+          "rating": 4.8,
           "calories": 610,
           "protein": 10,
           "carbs": 70,
           "fat": 28,
-          "category": "popular",
-          "isPopular": true,
+          "category": "menu",
+          "isPopular": false,
           "isOffer": false,
           "offerPrice": null,
+          "isCombo": false,
+          "offerKind": null,
+          "comboIncludes": [],
           "spicyOption": false,
           "cashbackPercent": null,
           "addons": [
@@ -3560,10 +3563,7 @@
               "name": "مكسرات",
               "price": 6
             }
-          ],
-          "isCombo": false,
-          "comboIncludes": [],
-          "offerKind": null
+          ]
         },
         {
           "id": "waffle-nest-5",
@@ -3572,7 +3572,7 @@
           "description": "براوني مع صوص شوكولاتة.",
           "image": "https://images.unsplash.com/photo-1563805042-7684c019e1cb?w=800&q=80",
           "price": 23,
-          "rating": 4.2,
+          "rating": 4.8,
           "calories": 540,
           "protein": 6,
           "carbs": 48,
@@ -3581,6 +3581,9 @@
           "isPopular": true,
           "isOffer": false,
           "offerPrice": null,
+          "isCombo": false,
+          "offerKind": null,
+          "comboIncludes": [],
           "spicyOption": false,
           "cashbackPercent": null,
           "addons": [
@@ -3609,10 +3612,7 @@
               "name": "مكسرات",
               "price": 6
             }
-          ],
-          "isCombo": false,
-          "comboIncludes": [],
-          "offerKind": null
+          ]
         },
         {
           "id": "waffle-nest-6",
@@ -3621,15 +3621,18 @@
           "description": "نكهتان من اختيارك.",
           "image": "https://images.unsplash.com/photo-1563805042-7684c019e1cb?w=800&q=80",
           "price": 18,
-          "rating": 4.3,
+          "rating": 4.1,
           "calories": 280,
           "protein": 4,
           "carbs": 32,
           "fat": 14,
-          "category": "menu",
-          "isPopular": false,
+          "category": "popular",
+          "isPopular": true,
           "isOffer": false,
           "offerPrice": null,
+          "isCombo": false,
+          "offerKind": null,
+          "comboIncludes": [],
           "spicyOption": false,
           "cashbackPercent": null,
           "addons": [
@@ -3658,10 +3661,7 @@
               "name": "مكسرات",
               "price": 6
             }
-          ],
-          "isCombo": false,
-          "comboIncludes": [],
-          "offerKind": null
+          ]
         },
         {
           "id": "waffle-nest-7",
@@ -3670,7 +3670,7 @@
           "description": "لقيمات مقرمشة مع سمن وعسل.",
           "image": "https://images.unsplash.com/photo-1563805042-7684c019e1cb?w=800&q=80",
           "price": 22,
-          "rating": 4.7,
+          "rating": 4.3,
           "calories": 420,
           "protein": 5,
           "carbs": 50,
@@ -3679,6 +3679,9 @@
           "isPopular": false,
           "isOffer": false,
           "offerPrice": null,
+          "isCombo": false,
+          "offerKind": null,
+          "comboIncludes": [],
           "spicyOption": false,
           "cashbackPercent": null,
           "addons": [
@@ -3707,10 +3710,7 @@
               "name": "مكسرات",
               "price": 6
             }
-          ],
-          "isCombo": false,
-          "comboIncludes": [],
-          "offerKind": null
+          ]
         },
         {
           "id": "waffle-nest-8",
@@ -3719,7 +3719,7 @@
           "description": "تمر باللوز والشوكولاتة.",
           "image": "https://images.unsplash.com/photo-1559181567-c3190ca9959b?w=800&q=80",
           "price": 21,
-          "rating": 4.1,
+          "rating": 4.5,
           "calories": 360,
           "protein": 6,
           "carbs": 40,
@@ -3728,6 +3728,9 @@
           "isPopular": false,
           "isOffer": false,
           "offerPrice": null,
+          "isCombo": false,
+          "offerKind": null,
+          "comboIncludes": [],
           "spicyOption": false,
           "cashbackPercent": null,
           "addons": [
@@ -3756,10 +3759,7 @@
               "name": "مكسرات",
               "price": 6
             }
-          ],
-          "isCombo": false,
-          "comboIncludes": [],
-          "offerKind": null
+          ]
         },
         {
           "id": "waffle-nest-9",
@@ -3768,7 +3768,7 @@
           "description": "تيراميسو إيطالي كلاسيك.",
           "image": "https://images.unsplash.com/photo-1563805042-7684c019e1cb?w=800&q=80",
           "price": 22,
-          "rating": 4.1,
+          "rating": 4.5,
           "calories": 430,
           "protein": 8,
           "carbs": 38,
@@ -3777,6 +3777,9 @@
           "isPopular": false,
           "isOffer": false,
           "offerPrice": null,
+          "isCombo": false,
+          "offerKind": null,
+          "comboIncludes": [],
           "spicyOption": false,
           "cashbackPercent": null,
           "addons": [
@@ -3805,10 +3808,7 @@
               "name": "مكسرات",
               "price": 6
             }
-          ],
-          "isCombo": false,
-          "comboIncludes": [],
-          "offerKind": null
+          ]
         },
         {
           "id": "waffle-nest-10",
@@ -3817,15 +3817,18 @@
           "description": "كيكة شوكولاتة سائلة من الداخل.",
           "image": "https://images.unsplash.com/photo-1578985545062-69928b1d9587?w=800&q=80",
           "price": 22,
-          "rating": 4.2,
+          "rating": 4.7,
           "calories": 490,
           "protein": 7,
           "carbs": 44,
           "fat": 28,
-          "category": "menu",
-          "isPopular": false,
+          "category": "popular",
+          "isPopular": true,
           "isOffer": false,
           "offerPrice": null,
+          "isCombo": false,
+          "offerKind": null,
+          "comboIncludes": [],
           "spicyOption": false,
           "cashbackPercent": null,
           "addons": [
@@ -3854,10 +3857,7 @@
               "name": "مكسرات",
               "price": 6
             }
-          ],
-          "isCombo": false,
-          "comboIncludes": [],
-          "offerKind": null
+          ]
         },
         {
           "id": "waffle-nest-offer-1",
@@ -3915,7 +3915,7 @@
           "id": "waffle-nest-offer-2",
           "restaurantId": "waffle-nest",
           "name": "تشكيلة حلا عائلية لـ 5 أشخاص",
-          "description": "5 قطعة حلا مع إضافات ومشروبات. تكفي 5 أشخاص.",
+          "description": "5 قطعة حلا مع قهوة وصوص. تكفي 5 أشخاص.",
           "image": "https://images.unsplash.com/photo-1578985545062-69928b1d9587?w=800&q=80",
           "price": 75,
           "rating": 4.6,
@@ -4024,12 +4024,12 @@
       "id": "baklava-house",
       "name": "بيت البقلاوة",
       "image": "https://images.unsplash.com/photo-1578985545062-69928b1d9587?w=800&q=80",
-      "rating": 4.4,
+      "rating": 4.3,
       "cuisine": "حلويات",
-      "deliveryTime": "35–50 د",
-      "deliveryFee": 6,
-      "minOrder": 40,
-      "distanceKm": 2.5,
+      "deliveryTime": "20–30 د",
+      "deliveryFee": 10,
+      "minOrder": 25,
+      "distanceKm": 3,
       "verified": true,
       "tags": [
         "حلويات",
@@ -4046,7 +4046,7 @@
           "description": "كنافة بالجبنة مع قطر.",
           "image": "https://images.unsplash.com/photo-1488477181946-6428a0291777?w=800&q=80",
           "price": 22,
-          "rating": 4.3,
+          "rating": 4.2,
           "calories": 480,
           "protein": 10,
           "carbs": 52,
@@ -4055,6 +4055,9 @@
           "isPopular": false,
           "isOffer": false,
           "offerPrice": null,
+          "isCombo": false,
+          "offerKind": null,
+          "comboIncludes": [],
           "spicyOption": false,
           "cashbackPercent": null,
           "addons": [
@@ -4083,10 +4086,7 @@
               "name": "مكسرات",
               "price": 6
             }
-          ],
-          "isCombo": false,
-          "comboIncludes": [],
-          "offerKind": null
+          ]
         },
         {
           "id": "baklava-house-2",
@@ -4095,15 +4095,18 @@
           "description": "بقلاوة مكسرات وفستق.",
           "image": "https://images.unsplash.com/photo-1578985545062-69928b1d9587?w=800&q=80",
           "price": 22,
-          "rating": 4.7,
+          "rating": 4.6,
           "calories": 520,
           "protein": 8,
           "carbs": 48,
           "fat": 28,
-          "category": "menu",
-          "isPopular": false,
+          "category": "popular",
+          "isPopular": true,
           "isOffer": false,
           "offerPrice": null,
+          "isCombo": false,
+          "offerKind": null,
+          "comboIncludes": [],
           "spicyOption": false,
           "cashbackPercent": null,
           "addons": [
@@ -4132,10 +4135,7 @@
               "name": "مكسرات",
               "price": 6
             }
-          ],
-          "isCombo": false,
-          "comboIncludes": [],
-          "offerKind": null
+          ]
         },
         {
           "id": "baklava-house-3",
@@ -4144,7 +4144,7 @@
           "description": "تشيز كيك بالفراولة.",
           "image": "https://images.unsplash.com/photo-1533134242443-d4fd215305ad?w=800&q=80",
           "price": 22,
-          "rating": 4.8,
+          "rating": 4.7,
           "calories": 450,
           "protein": 8,
           "carbs": 40,
@@ -4153,6 +4153,9 @@
           "isPopular": false,
           "isOffer": false,
           "offerPrice": null,
+          "isCombo": false,
+          "offerKind": null,
+          "comboIncludes": [],
           "spicyOption": false,
           "cashbackPercent": null,
           "addons": [
@@ -4181,10 +4184,7 @@
               "name": "مكسرات",
               "price": 6
             }
-          ],
-          "isCombo": false,
-          "comboIncludes": [],
-          "offerKind": null
+          ]
         },
         {
           "id": "baklava-house-4",
@@ -4193,7 +4193,7 @@
           "description": "وافل مع آيس كريم وشوكولاتة.",
           "image": "https://images.unsplash.com/photo-1563805042-7684c019e1cb?w=800&q=80",
           "price": 22,
-          "rating": 4.8,
+          "rating": 4.7,
           "calories": 610,
           "protein": 10,
           "carbs": 70,
@@ -4202,6 +4202,9 @@
           "isPopular": true,
           "isOffer": false,
           "offerPrice": null,
+          "isCombo": false,
+          "offerKind": null,
+          "comboIncludes": [],
           "spicyOption": false,
           "cashbackPercent": null,
           "addons": [
@@ -4230,10 +4233,7 @@
               "name": "مكسرات",
               "price": 6
             }
-          ],
-          "isCombo": false,
-          "comboIncludes": [],
-          "offerKind": null
+          ]
         },
         {
           "id": "baklava-house-5",
@@ -4242,15 +4242,18 @@
           "description": "براوني مع صوص شوكولاتة.",
           "image": "https://images.unsplash.com/photo-1578985545062-69928b1d9587?w=800&q=80",
           "price": 23,
-          "rating": 4.2,
+          "rating": 4.8,
           "calories": 540,
           "protein": 6,
           "carbs": 48,
           "fat": 32,
-          "category": "menu",
-          "isPopular": false,
+          "category": "popular",
+          "isPopular": true,
           "isOffer": false,
           "offerPrice": null,
+          "isCombo": false,
+          "offerKind": null,
+          "comboIncludes": [],
           "spicyOption": false,
           "cashbackPercent": null,
           "addons": [
@@ -4279,10 +4282,7 @@
               "name": "مكسرات",
               "price": 6
             }
-          ],
-          "isCombo": false,
-          "comboIncludes": [],
-          "offerKind": null
+          ]
         },
         {
           "id": "baklava-house-6",
@@ -4291,7 +4291,7 @@
           "description": "نكهتان من اختيارك.",
           "image": "https://images.unsplash.com/photo-1563805042-7684c019e1cb?w=800&q=80",
           "price": 18,
-          "rating": 4.6,
+          "rating": 4.8,
           "calories": 280,
           "protein": 4,
           "carbs": 32,
@@ -4300,6 +4300,9 @@
           "isPopular": false,
           "isOffer": false,
           "offerPrice": null,
+          "isCombo": false,
+          "offerKind": null,
+          "comboIncludes": [],
           "spicyOption": false,
           "cashbackPercent": null,
           "addons": [
@@ -4328,10 +4331,7 @@
               "name": "مكسرات",
               "price": 6
             }
-          ],
-          "isCombo": false,
-          "comboIncludes": [],
-          "offerKind": null
+          ]
         },
         {
           "id": "baklava-house-7",
@@ -4340,15 +4340,18 @@
           "description": "لقيمات مقرمشة مع سمن وعسل.",
           "image": "https://images.unsplash.com/photo-1578985545062-69928b1d9587?w=800&q=80",
           "price": 22,
-          "rating": 4.8,
+          "rating": 4.7,
           "calories": 420,
           "protein": 5,
           "carbs": 50,
           "fat": 18,
-          "category": "menu",
-          "isPopular": false,
+          "category": "popular",
+          "isPopular": true,
           "isOffer": false,
           "offerPrice": null,
+          "isCombo": false,
+          "offerKind": null,
+          "comboIncludes": [],
           "spicyOption": false,
           "cashbackPercent": null,
           "addons": [
@@ -4377,10 +4380,7 @@
               "name": "مكسرات",
               "price": 6
             }
-          ],
-          "isCombo": false,
-          "comboIncludes": [],
-          "offerKind": null
+          ]
         },
         {
           "id": "baklava-house-8",
@@ -4389,7 +4389,7 @@
           "description": "تمر باللوز والشوكولاتة.",
           "image": "https://images.unsplash.com/photo-1559181567-c3190ca9959b?w=800&q=80",
           "price": 21,
-          "rating": 4.5,
+          "rating": 4.6,
           "calories": 360,
           "protein": 6,
           "carbs": 40,
@@ -4398,6 +4398,9 @@
           "isPopular": true,
           "isOffer": false,
           "offerPrice": null,
+          "isCombo": false,
+          "offerKind": null,
+          "comboIncludes": [],
           "spicyOption": false,
           "cashbackPercent": null,
           "addons": [
@@ -4426,10 +4429,7 @@
               "name": "مكسرات",
               "price": 6
             }
-          ],
-          "isCombo": false,
-          "comboIncludes": [],
-          "offerKind": null
+          ]
         },
         {
           "id": "baklava-house-9",
@@ -4438,7 +4438,7 @@
           "description": "تيراميسو إيطالي كلاسيك.",
           "image": "https://images.unsplash.com/photo-1578985545062-69928b1d9587?w=800&q=80",
           "price": 22,
-          "rating": 4.2,
+          "rating": 4.4,
           "calories": 430,
           "protein": 8,
           "carbs": 38,
@@ -4447,6 +4447,9 @@
           "isPopular": true,
           "isOffer": false,
           "offerPrice": null,
+          "isCombo": false,
+          "offerKind": null,
+          "comboIncludes": [],
           "spicyOption": false,
           "cashbackPercent": null,
           "addons": [
@@ -4475,10 +4478,7 @@
               "name": "مكسرات",
               "price": 6
             }
-          ],
-          "isCombo": false,
-          "comboIncludes": [],
-          "offerKind": null
+          ]
         },
         {
           "id": "baklava-house-10",
@@ -4487,15 +4487,18 @@
           "description": "كيكة شوكولاتة سائلة من الداخل.",
           "image": "https://images.unsplash.com/photo-1578985545062-69928b1d9587?w=800&q=80",
           "price": 22,
-          "rating": 4.3,
+          "rating": 4.8,
           "calories": 490,
           "protein": 7,
           "carbs": 44,
           "fat": 28,
-          "category": "menu",
-          "isPopular": false,
+          "category": "popular",
+          "isPopular": true,
           "isOffer": false,
           "offerPrice": null,
+          "isCombo": false,
+          "offerKind": null,
+          "comboIncludes": [],
           "spicyOption": false,
           "cashbackPercent": null,
           "addons": [
@@ -4524,10 +4527,7 @@
               "name": "مكسرات",
               "price": 6
             }
-          ],
-          "isCombo": false,
-          "comboIncludes": [],
-          "offerKind": null
+          ]
         },
         {
           "id": "baklava-house-offer-1",
@@ -4585,7 +4585,7 @@
           "id": "baklava-house-offer-2",
           "restaurantId": "baklava-house",
           "name": "تشكيلة حلا عائلية لـ 4 أشخاص",
-          "description": "4 قطعة حلا مع إضافات ومشروبات. تكفي 4 أشخاص.",
+          "description": "4 قطعة حلا مع قهوة وصوص. تكفي 4 أشخاص.",
           "image": "https://images.unsplash.com/photo-1563805042-7684c019e1cb?w=800&q=80",
           "price": 62,
           "rating": 4.6,
@@ -4694,12 +4694,12 @@
       "id": "sweet-noon",
       "name": "حلاوة الظهر",
       "image": "https://images.unsplash.com/photo-1578985545062-69928b1d9587?w=800&q=80",
-      "rating": 4.5,
+      "rating": 4.3,
       "cuisine": "حلويات",
-      "deliveryTime": "40–55 د",
-      "deliveryFee": 12,
+      "deliveryTime": "30–45 د",
+      "deliveryFee": 8,
       "minOrder": 25,
-      "distanceKm": 1.8,
+      "distanceKm": 3.4,
       "verified": true,
       "tags": [
         "حلويات",
@@ -4707,7 +4707,7 @@
       ],
       "featured": true,
       "open24h": null,
-      "fastDelivery": null,
+      "fastDelivery": true,
       "meals": [
         {
           "id": "sweet-noon-1",
@@ -4716,15 +4716,18 @@
           "description": "كنافة بالجبنة مع قطر.",
           "image": "https://images.unsplash.com/photo-1488477181946-6428a0291777?w=800&q=80",
           "price": 22,
-          "rating": 4.9,
+          "rating": 4.3,
           "calories": 480,
           "protein": 10,
           "carbs": 52,
           "fat": 22,
-          "category": "popular",
-          "isPopular": true,
+          "category": "menu",
+          "isPopular": false,
           "isOffer": false,
           "offerPrice": null,
+          "isCombo": false,
+          "offerKind": null,
+          "comboIncludes": [],
           "spicyOption": false,
           "cashbackPercent": null,
           "addons": [
@@ -4753,10 +4756,7 @@
               "name": "مكسرات",
               "price": 6
             }
-          ],
-          "isCombo": false,
-          "comboIncludes": [],
-          "offerKind": null
+          ]
         },
         {
           "id": "sweet-noon-2",
@@ -4765,7 +4765,7 @@
           "description": "بقلاوة مكسرات وفستق.",
           "image": "https://images.unsplash.com/photo-1578985545062-69928b1d9587?w=800&q=80",
           "price": 22,
-          "rating": 4.2,
+          "rating": 4.8,
           "calories": 520,
           "protein": 8,
           "carbs": 48,
@@ -4774,6 +4774,9 @@
           "isPopular": false,
           "isOffer": false,
           "offerPrice": null,
+          "isCombo": false,
+          "offerKind": null,
+          "comboIncludes": [],
           "spicyOption": false,
           "cashbackPercent": null,
           "addons": [
@@ -4802,10 +4805,7 @@
               "name": "مكسرات",
               "price": 6
             }
-          ],
-          "isCombo": false,
-          "comboIncludes": [],
-          "offerKind": null
+          ]
         },
         {
           "id": "sweet-noon-3",
@@ -4814,7 +4814,7 @@
           "description": "تشيز كيك بالفراولة.",
           "image": "https://images.unsplash.com/photo-1533134242443-d4fd215305ad?w=800&q=80",
           "price": 22,
-          "rating": 4.6,
+          "rating": 4.8,
           "calories": 450,
           "protein": 8,
           "carbs": 40,
@@ -4823,6 +4823,9 @@
           "isPopular": false,
           "isOffer": false,
           "offerPrice": null,
+          "isCombo": false,
+          "offerKind": null,
+          "comboIncludes": [],
           "spicyOption": false,
           "cashbackPercent": null,
           "addons": [
@@ -4851,10 +4854,7 @@
               "name": "مكسرات",
               "price": 6
             }
-          ],
-          "isCombo": false,
-          "comboIncludes": [],
-          "offerKind": null
+          ]
         },
         {
           "id": "sweet-noon-4",
@@ -4863,7 +4863,7 @@
           "description": "وافل مع آيس كريم وشوكولاتة.",
           "image": "https://images.unsplash.com/photo-1563805042-7684c019e1cb?w=800&q=80",
           "price": 22,
-          "rating": 4.7,
+          "rating": 4.4,
           "calories": 610,
           "protein": 10,
           "carbs": 70,
@@ -4872,6 +4872,9 @@
           "isPopular": true,
           "isOffer": false,
           "offerPrice": null,
+          "isCombo": false,
+          "offerKind": null,
+          "comboIncludes": [],
           "spicyOption": false,
           "cashbackPercent": null,
           "addons": [
@@ -4900,10 +4903,7 @@
               "name": "مكسرات",
               "price": 6
             }
-          ],
-          "isCombo": false,
-          "comboIncludes": [],
-          "offerKind": null
+          ]
         },
         {
           "id": "sweet-noon-5",
@@ -4912,7 +4912,7 @@
           "description": "براوني مع صوص شوكولاتة.",
           "image": "https://images.unsplash.com/photo-1519676867240-f03562e64548?w=800&q=80",
           "price": 23,
-          "rating": 4.7,
+          "rating": 4.3,
           "calories": 540,
           "protein": 6,
           "carbs": 48,
@@ -4921,8 +4921,11 @@
           "isPopular": false,
           "isOffer": false,
           "offerPrice": null,
+          "isCombo": false,
+          "offerKind": null,
+          "comboIncludes": [],
           "spicyOption": false,
-          "cashbackPercent": 10,
+          "cashbackPercent": null,
           "addons": [
             {
               "id": "choc-sauce",
@@ -4949,10 +4952,7 @@
               "name": "مكسرات",
               "price": 6
             }
-          ],
-          "isCombo": false,
-          "comboIncludes": [],
-          "offerKind": null
+          ]
         },
         {
           "id": "sweet-noon-6",
@@ -4961,7 +4961,7 @@
           "description": "نكهتان من اختيارك.",
           "image": "https://images.unsplash.com/photo-1563805042-7684c019e1cb?w=800&q=80",
           "price": 18,
-          "rating": 4.6,
+          "rating": 4.5,
           "calories": 280,
           "protein": 4,
           "carbs": 32,
@@ -4970,8 +4970,11 @@
           "isPopular": false,
           "isOffer": false,
           "offerPrice": null,
+          "isCombo": false,
+          "offerKind": null,
+          "comboIncludes": [],
           "spicyOption": false,
-          "cashbackPercent": 5,
+          "cashbackPercent": null,
           "addons": [
             {
               "id": "choc-sauce",
@@ -4998,10 +5001,7 @@
               "name": "مكسرات",
               "price": 6
             }
-          ],
-          "isCombo": false,
-          "comboIncludes": [],
-          "offerKind": null
+          ]
         },
         {
           "id": "sweet-noon-7",
@@ -5019,6 +5019,9 @@
           "isPopular": false,
           "isOffer": false,
           "offerPrice": null,
+          "isCombo": false,
+          "offerKind": null,
+          "comboIncludes": [],
           "spicyOption": false,
           "cashbackPercent": null,
           "addons": [
@@ -5047,10 +5050,7 @@
               "name": "مكسرات",
               "price": 6
             }
-          ],
-          "isCombo": false,
-          "comboIncludes": [],
-          "offerKind": null
+          ]
         },
         {
           "id": "sweet-noon-8",
@@ -5059,7 +5059,7 @@
           "description": "تمر باللوز والشوكولاتة.",
           "image": "https://images.unsplash.com/photo-1559181567-c3190ca9959b?w=800&q=80",
           "price": 21,
-          "rating": 4.3,
+          "rating": 4.6,
           "calories": 360,
           "protein": 6,
           "carbs": 40,
@@ -5068,6 +5068,9 @@
           "isPopular": false,
           "isOffer": false,
           "offerPrice": null,
+          "isCombo": false,
+          "offerKind": null,
+          "comboIncludes": [],
           "spicyOption": false,
           "cashbackPercent": null,
           "addons": [
@@ -5096,10 +5099,7 @@
               "name": "مكسرات",
               "price": 6
             }
-          ],
-          "isCombo": false,
-          "comboIncludes": [],
-          "offerKind": null
+          ]
         },
         {
           "id": "sweet-noon-9",
@@ -5108,15 +5108,18 @@
           "description": "تيراميسو إيطالي كلاسيك.",
           "image": "https://images.unsplash.com/photo-1519676867240-f03562e64548?w=800&q=80",
           "price": 22,
-          "rating": 4.2,
+          "rating": 4.6,
           "calories": 430,
           "protein": 8,
           "carbs": 38,
           "fat": 24,
-          "category": "menu",
-          "isPopular": false,
+          "category": "popular",
+          "isPopular": true,
           "isOffer": false,
           "offerPrice": null,
+          "isCombo": false,
+          "offerKind": null,
+          "comboIncludes": [],
           "spicyOption": false,
           "cashbackPercent": null,
           "addons": [
@@ -5145,10 +5148,7 @@
               "name": "مكسرات",
               "price": 6
             }
-          ],
-          "isCombo": false,
-          "comboIncludes": [],
-          "offerKind": null
+          ]
         },
         {
           "id": "sweet-noon-10",
@@ -5157,15 +5157,18 @@
           "description": "كيكة شوكولاتة سائلة من الداخل.",
           "image": "https://images.unsplash.com/photo-1578985545062-69928b1d9587?w=800&q=80",
           "price": 22,
-          "rating": 4.5,
+          "rating": 4.7,
           "calories": 490,
           "protein": 7,
           "carbs": 44,
           "fat": 28,
-          "category": "popular",
-          "isPopular": true,
+          "category": "menu",
+          "isPopular": false,
           "isOffer": false,
           "offerPrice": null,
+          "isCombo": false,
+          "offerKind": null,
+          "comboIncludes": [],
           "spicyOption": false,
           "cashbackPercent": null,
           "addons": [
@@ -5194,10 +5197,7 @@
               "name": "مكسرات",
               "price": 6
             }
-          ],
-          "isCombo": false,
-          "comboIncludes": [],
-          "offerKind": null
+          ]
         },
         {
           "id": "sweet-noon-offer-1",
@@ -5255,7 +5255,7 @@
           "id": "sweet-noon-offer-2",
           "restaurantId": "sweet-noon",
           "name": "تشكيلة حلا عائلية لـ 4 أشخاص",
-          "description": "4 قطعة حلا مع إضافات ومشروبات. تكفي 4 أشخاص.",
+          "description": "4 قطعة حلا مع قهوة وصوص. تكفي 4 أشخاص.",
           "image": "https://images.unsplash.com/photo-1563805042-7684c019e1cb?w=800&q=80",
           "price": 62,
           "rating": 4.6,

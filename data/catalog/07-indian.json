@@ -4,13 +4,13 @@
       "id": "spice-route",
       "name": "طريق التوابل",
       "image": "https://images.unsplash.com/photo-1585937421612-70a008356fbe?w=800&q=80",
-      "rating": 4.3,
+      "rating": 4.4,
       "cuisine": "هندي",
       "deliveryTime": "30–45 د",
-      "deliveryFee": 8,
-      "minOrder": 40,
-      "distanceKm": 2.5,
-      "verified": true,
+      "deliveryFee": 0,
+      "minOrder": 25,
+      "distanceKm": 1.9,
+      "verified": null,
       "tags": [
         "هندي",
         "كاري",
@@ -18,7 +18,7 @@
       ],
       "featured": null,
       "open24h": null,
-      "fastDelivery": null,
+      "fastDelivery": true,
       "meals": [
         {
           "id": "spice-route-1",
@@ -27,15 +27,18 @@
           "description": "أرز برياني مع دجاج وتوابل.",
           "image": "https://images.unsplash.com/photo-1585937421612-70a008356fbe?w=800&q=80",
           "price": 33,
-          "rating": 4.7,
+          "rating": 4.3,
           "calories": 720,
           "protein": 32,
           "carbs": 78,
           "fat": 22,
-          "category": "menu",
-          "isPopular": false,
+          "category": "popular",
+          "isPopular": true,
           "isOffer": false,
           "offerPrice": null,
+          "isCombo": false,
+          "offerKind": null,
+          "comboIncludes": [],
           "spicyOption": true,
           "cashbackPercent": null,
           "addons": [
@@ -64,10 +67,7 @@
               "name": "أرز إضافي",
               "price": 6
             }
-          ],
-          "isCombo": false,
-          "comboIncludes": [],
-          "offerKind": null
+          ]
         },
         {
           "id": "spice-route-2",
@@ -76,15 +76,18 @@
           "description": "دجاج مشوي بصلصة كريمية.",
           "image": "https://images.unsplash.com/photo-1588168333986-5078d3ae3976?w=800&q=80",
           "price": 33,
-          "rating": 4.2,
+          "rating": 4.4,
           "calories": 680,
           "protein": 36,
           "carbs": 40,
           "fat": 32,
-          "category": "menu",
-          "isPopular": false,
+          "category": "popular",
+          "isPopular": true,
           "isOffer": false,
           "offerPrice": null,
+          "isCombo": false,
+          "offerKind": null,
+          "comboIncludes": [],
           "spicyOption": true,
           "cashbackPercent": null,
           "addons": [
@@ -113,10 +116,7 @@
               "name": "أرز إضافي",
               "price": 6
             }
-          ],
-          "isCombo": false,
-          "comboIncludes": [],
-          "offerKind": null
+          ]
         },
         {
           "id": "spice-route-3",
@@ -125,7 +125,7 @@
           "description": "لحم بقري بصلصة بالتي.",
           "image": "https://images.unsplash.com/photo-1565557623262-b51c2513a641?w=800&q=80",
           "price": 33,
-          "rating": 4.7,
+          "rating": 4.8,
           "calories": 740,
           "protein": 38,
           "carbs": 28,
@@ -134,6 +134,9 @@
           "isPopular": false,
           "isOffer": false,
           "offerPrice": null,
+          "isCombo": false,
+          "offerKind": null,
+          "comboIncludes": [],
           "spicyOption": true,
           "cashbackPercent": null,
           "addons": [
@@ -162,10 +165,7 @@
               "name": "أرز إضافي",
               "price": 6
             }
-          ],
-          "isCombo": false,
-          "comboIncludes": [],
-          "offerKind": null
+          ]
         },
         {
           "id": "spice-route-4",
@@ -174,15 +174,18 @@
           "description": "عدس أسود بالزبدة.",
           "image": "https://images.unsplash.com/photo-1585937421612-70a008356fbe?w=800&q=80",
           "price": 28,
-          "rating": 4.4,
+          "rating": 4.3,
           "calories": 420,
           "protein": 16,
           "carbs": 40,
           "fat": 16,
-          "category": "popular",
-          "isPopular": true,
+          "category": "menu",
+          "isPopular": false,
           "isOffer": false,
           "offerPrice": null,
+          "isCombo": false,
+          "offerKind": null,
+          "comboIncludes": [],
           "spicyOption": false,
           "cashbackPercent": null,
           "addons": [
@@ -211,10 +214,7 @@
               "name": "أرز إضافي",
               "price": 6
             }
-          ],
-          "isCombo": false,
-          "comboIncludes": [],
-          "offerKind": null
+          ]
         },
         {
           "id": "spice-route-5",
@@ -223,15 +223,18 @@
           "description": "خبز تندور بالثوم.",
           "image": "https://images.unsplash.com/photo-1588168333986-5078d3ae3976?w=800&q=80",
           "price": 14,
-          "rating": 4.7,
+          "rating": 4.6,
           "calories": 260,
           "protein": 6,
           "carbs": 36,
           "fat": 8,
-          "category": "menu",
-          "isPopular": false,
+          "category": "popular",
+          "isPopular": true,
           "isOffer": false,
           "offerPrice": null,
+          "isCombo": false,
+          "offerKind": null,
+          "comboIncludes": [],
           "spicyOption": false,
           "cashbackPercent": null,
           "addons": [
@@ -260,10 +263,7 @@
               "name": "أرز إضافي",
               "price": 6
             }
-          ],
-          "isCombo": false,
-          "comboIncludes": [],
-          "offerKind": null
+          ]
         },
         {
           "id": "spice-route-6",
@@ -272,15 +272,18 @@
           "description": "سمبوسة مقرمشة مع تشاتني.",
           "image": "https://images.unsplash.com/photo-1565557623262-b51c2513a641?w=800&q=80",
           "price": 18,
-          "rating": 4.4,
+          "rating": 4.6,
           "calories": 280,
           "protein": 6,
           "carbs": 30,
           "fat": 12,
-          "category": "menu",
-          "isPopular": false,
+          "category": "popular",
+          "isPopular": true,
           "isOffer": false,
           "offerPrice": null,
+          "isCombo": false,
+          "offerKind": null,
+          "comboIncludes": [],
           "spicyOption": false,
           "cashbackPercent": null,
           "addons": [
@@ -309,10 +312,7 @@
               "name": "أرز إضافي",
               "price": 6
             }
-          ],
-          "isCombo": false,
-          "comboIncludes": [],
-          "offerKind": null
+          ]
         },
         {
           "id": "spice-route-7",
@@ -321,15 +321,18 @@
           "description": "جبنة بانيير مشوية.",
           "image": "https://images.unsplash.com/photo-1588168333986-5078d3ae3976?w=800&q=80",
           "price": 32,
-          "rating": 4.6,
+          "rating": 4.4,
           "calories": 480,
           "protein": 20,
           "carbs": 22,
           "fat": 28,
-          "category": "menu",
-          "isPopular": false,
+          "category": "popular",
+          "isPopular": true,
           "isOffer": false,
           "offerPrice": null,
+          "isCombo": false,
+          "offerKind": null,
+          "comboIncludes": [],
           "spicyOption": true,
           "cashbackPercent": null,
           "addons": [
@@ -358,10 +361,7 @@
               "name": "أرز إضافي",
               "price": 6
             }
-          ],
-          "isCombo": false,
-          "comboIncludes": [],
-          "offerKind": null
+          ]
         },
         {
           "id": "spice-route-8",
@@ -370,7 +370,7 @@
           "description": "تشات هندي حار وحامض.",
           "image": "https://images.unsplash.com/photo-1588168333986-5078d3ae3976?w=800&q=80",
           "price": 24,
-          "rating": 4.7,
+          "rating": 4.2,
           "calories": 340,
           "protein": 8,
           "carbs": 36,
@@ -379,6 +379,9 @@
           "isPopular": true,
           "isOffer": false,
           "offerPrice": null,
+          "isCombo": false,
+          "offerKind": null,
+          "comboIncludes": [],
           "spicyOption": true,
           "cashbackPercent": null,
           "addons": [
@@ -407,10 +410,7 @@
               "name": "أرز إضافي",
               "price": 6
             }
-          ],
-          "isCombo": false,
-          "comboIncludes": [],
-          "offerKind": null
+          ]
         },
         {
           "id": "spice-route-9",
@@ -419,15 +419,18 @@
           "description": "تشكيلة أطباق هندية صغيرة.",
           "image": "https://images.unsplash.com/photo-1565557623262-b51c2513a641?w=800&q=80",
           "price": 33,
-          "rating": 4.6,
+          "rating": 4.4,
           "calories": 800,
           "protein": 28,
           "carbs": 90,
           "fat": 30,
-          "category": "menu",
-          "isPopular": false,
+          "category": "popular",
+          "isPopular": true,
           "isOffer": false,
           "offerPrice": null,
+          "isCombo": false,
+          "offerKind": null,
+          "comboIncludes": [],
           "spicyOption": true,
           "cashbackPercent": null,
           "addons": [
@@ -456,10 +459,7 @@
               "name": "أرز إضافي",
               "price": 6
             }
-          ],
-          "isCombo": false,
-          "comboIncludes": [],
-          "offerKind": null
+          ]
         },
         {
           "id": "spice-route-10",
@@ -468,7 +468,7 @@
           "description": "مشروب لبن بالمانجو.",
           "image": "https://images.unsplash.com/photo-1565557623262-b51c2513a641?w=800&q=80",
           "price": 16,
-          "rating": 4.3,
+          "rating": 4.6,
           "calories": 220,
           "protein": 6,
           "carbs": 28,
@@ -477,6 +477,9 @@
           "isPopular": true,
           "isOffer": false,
           "offerPrice": null,
+          "isCombo": false,
+          "offerKind": null,
+          "comboIncludes": [],
           "spicyOption": false,
           "cashbackPercent": null,
           "addons": [
@@ -505,10 +508,7 @@
               "name": "أرز إضافي",
               "price": 6
             }
-          ],
-          "isCombo": false,
-          "comboIncludes": [],
-          "offerKind": null
+          ]
         },
         {
           "id": "spice-route-offer-1",
@@ -568,7 +568,7 @@
           "id": "spice-route-offer-2",
           "restaurantId": "spice-route",
           "name": "وجبة عائلية ثالي لـ 5 أشخاص",
-          "description": "5 طبق ثالي مع إضافات ومشروبات. تكفي 5 أشخاص.",
+          "description": "5 طبق ثالي مع نان وأرز ومخلل. تكفي 5 أشخاص.",
           "image": "https://images.unsplash.com/photo-1565557623262-b51c2513a641?w=800&q=80",
           "price": 109,
           "rating": 4.6,
@@ -678,21 +678,21 @@
       "id": "tandoor-flame",
       "name": "لهب التندور",
       "image": "https://images.unsplash.com/photo-1588168333986-5078d3ae3976?w=800&q=80",
-      "rating": 4.4,
+      "rating": 4.8,
       "cuisine": "هندي",
-      "deliveryTime": "35–50 د",
-      "deliveryFee": 6,
-      "minOrder": 45,
-      "distanceKm": 5.1,
+      "deliveryTime": "20–30 د",
+      "deliveryFee": 10,
+      "minOrder": 25,
+      "distanceKm": 1,
       "verified": true,
       "tags": [
         "هندي",
         "كاري",
         "حار"
       ],
-      "featured": true,
+      "featured": null,
       "open24h": null,
-      "fastDelivery": null,
+      "fastDelivery": true,
       "meals": [
         {
           "id": "tandoor-flame-1",
@@ -701,7 +701,7 @@
           "description": "أرز برياني مع دجاج وتوابل.",
           "image": "https://images.unsplash.com/photo-1585937421612-70a008356fbe?w=800&q=80",
           "price": 33,
-          "rating": 4.5,
+          "rating": 4.9,
           "calories": 720,
           "protein": 32,
           "carbs": 78,
@@ -710,6 +710,9 @@
           "isPopular": false,
           "isOffer": false,
           "offerPrice": null,
+          "isCombo": false,
+          "offerKind": null,
+          "comboIncludes": [],
           "spicyOption": true,
           "cashbackPercent": null,
           "addons": [
@@ -738,10 +741,7 @@
               "name": "أرز إضافي",
               "price": 6
             }
-          ],
-          "isCombo": false,
-          "comboIncludes": [],
-          "offerKind": null
+          ]
         },
         {
           "id": "tandoor-flame-2",
@@ -750,7 +750,7 @@
           "description": "دجاج مشوي بصلصة كريمية.",
           "image": "https://images.unsplash.com/photo-1588168333986-5078d3ae3976?w=800&q=80",
           "price": 33,
-          "rating": 4.7,
+          "rating": 4.3,
           "calories": 680,
           "protein": 36,
           "carbs": 40,
@@ -759,6 +759,9 @@
           "isPopular": true,
           "isOffer": false,
           "offerPrice": null,
+          "isCombo": false,
+          "offerKind": null,
+          "comboIncludes": [],
           "spicyOption": true,
           "cashbackPercent": null,
           "addons": [
@@ -787,10 +790,7 @@
               "name": "أرز إضافي",
               "price": 6
             }
-          ],
-          "isCombo": false,
-          "comboIncludes": [],
-          "offerKind": null
+          ]
         },
         {
           "id": "tandoor-flame-3",
@@ -799,7 +799,7 @@
           "description": "لحم بقري بصلصة بالتي.",
           "image": "https://images.unsplash.com/photo-1588168333986-5078d3ae3976?w=800&q=80",
           "price": 33,
-          "rating": 4.5,
+          "rating": 4.1,
           "calories": 740,
           "protein": 38,
           "carbs": 28,
@@ -808,6 +808,9 @@
           "isPopular": true,
           "isOffer": false,
           "offerPrice": null,
+          "isCombo": false,
+          "offerKind": null,
+          "comboIncludes": [],
           "spicyOption": true,
           "cashbackPercent": null,
           "addons": [
@@ -836,10 +839,7 @@
               "name": "أرز إضافي",
               "price": 6
             }
-          ],
-          "isCombo": false,
-          "comboIncludes": [],
-          "offerKind": null
+          ]
         },
         {
           "id": "tandoor-flame-4",
@@ -857,6 +857,9 @@
           "isPopular": false,
           "isOffer": false,
           "offerPrice": null,
+          "isCombo": false,
+          "offerKind": null,
+          "comboIncludes": [],
           "spicyOption": false,
           "cashbackPercent": null,
           "addons": [
@@ -885,10 +888,7 @@
               "name": "أرز إضافي",
               "price": 6
             }
-          ],
-          "isCombo": false,
-          "comboIncludes": [],
-          "offerKind": null
+          ]
         },
         {
           "id": "tandoor-flame-5",
@@ -902,10 +902,13 @@
           "protein": 6,
           "carbs": 36,
           "fat": 8,
-          "category": "menu",
-          "isPopular": false,
+          "category": "popular",
+          "isPopular": true,
           "isOffer": false,
           "offerPrice": null,
+          "isCombo": false,
+          "offerKind": null,
+          "comboIncludes": [],
           "spicyOption": false,
           "cashbackPercent": null,
           "addons": [
@@ -934,10 +937,7 @@
               "name": "أرز إضافي",
               "price": 6
             }
-          ],
-          "isCombo": false,
-          "comboIncludes": [],
-          "offerKind": null
+          ]
         },
         {
           "id": "tandoor-flame-6",
@@ -946,7 +946,7 @@
           "description": "سمبوسة مقرمشة مع تشاتني.",
           "image": "https://images.unsplash.com/photo-1588168333986-5078d3ae3976?w=800&q=80",
           "price": 18,
-          "rating": 4.5,
+          "rating": 4.8,
           "calories": 280,
           "protein": 6,
           "carbs": 30,
@@ -955,6 +955,9 @@
           "isPopular": false,
           "isOffer": false,
           "offerPrice": null,
+          "isCombo": false,
+          "offerKind": null,
+          "comboIncludes": [],
           "spicyOption": false,
           "cashbackPercent": null,
           "addons": [
@@ -983,10 +986,7 @@
               "name": "أرز إضافي",
               "price": 6
             }
-          ],
-          "isCombo": false,
-          "comboIncludes": [],
-          "offerKind": null
+          ]
         },
         {
           "id": "tandoor-flame-7",
@@ -995,15 +995,18 @@
           "description": "جبنة بانيير مشوية.",
           "image": "https://images.unsplash.com/photo-1588168333986-5078d3ae3976?w=800&q=80",
           "price": 32,
-          "rating": 4.3,
+          "rating": 4.8,
           "calories": 480,
           "protein": 20,
           "carbs": 22,
           "fat": 28,
-          "category": "menu",
-          "isPopular": false,
+          "category": "popular",
+          "isPopular": true,
           "isOffer": false,
           "offerPrice": null,
+          "isCombo": false,
+          "offerKind": null,
+          "comboIncludes": [],
           "spicyOption": true,
           "cashbackPercent": null,
           "addons": [
@@ -1032,10 +1035,7 @@
               "name": "أرز إضافي",
               "price": 6
             }
-          ],
-          "isCombo": false,
-          "comboIncludes": [],
-          "offerKind": null
+          ]
         },
         {
           "id": "tandoor-flame-8",
@@ -1044,64 +1044,18 @@
           "description": "تشات هندي حار وحامض.",
           "image": "https://images.unsplash.com/photo-1585937421612-70a008356fbe?w=800&q=80",
           "price": 24,
-          "rating": 4.5,
+          "rating": 4.2,
           "calories": 340,
           "protein": 8,
           "carbs": 36,
           "fat": 12,
-          "category": "menu",
-          "isPopular": false,
+          "category": "popular",
+          "isPopular": true,
           "isOffer": false,
           "offerPrice": null,
-          "spicyOption": true,
-          "cashbackPercent": 10,
-          "addons": [
-            {
-              "id": "extra-naan",
-              "name": "نان إضافي",
-              "price": 7
-            },
-            {
-              "id": "raita",
-              "name": "رايتا",
-              "price": 5
-            },
-            {
-              "id": "indian-pickle",
-              "name": "مخلل هندي",
-              "price": 4
-            },
-            {
-              "id": "lassi",
-              "name": "لاسي",
-              "price": 10
-            },
-            {
-              "id": "extra-rice",
-              "name": "أرز إضافي",
-              "price": 6
-            }
-          ],
           "isCombo": false,
+          "offerKind": null,
           "comboIncludes": [],
-          "offerKind": null
-        },
-        {
-          "id": "tandoor-flame-9",
-          "restaurantId": "tandoor-flame",
-          "name": "مطبخ ثالي",
-          "description": "تشكيلة أطباق هندية صغيرة.",
-          "image": "https://images.unsplash.com/photo-1588168333986-5078d3ae3976?w=800&q=80",
-          "price": 33,
-          "rating": 4.6,
-          "calories": 800,
-          "protein": 28,
-          "carbs": 90,
-          "fat": 30,
-          "category": "menu",
-          "isPopular": false,
-          "isOffer": false,
-          "offerPrice": null,
           "spicyOption": true,
           "cashbackPercent": null,
           "addons": [
@@ -1130,10 +1084,56 @@
               "name": "أرز إضافي",
               "price": 6
             }
-          ],
+          ]
+        },
+        {
+          "id": "tandoor-flame-9",
+          "restaurantId": "tandoor-flame",
+          "name": "مطبخ ثالي",
+          "description": "تشكيلة أطباق هندية صغيرة.",
+          "image": "https://images.unsplash.com/photo-1588168333986-5078d3ae3976?w=800&q=80",
+          "price": 33,
+          "rating": 4.5,
+          "calories": 800,
+          "protein": 28,
+          "carbs": 90,
+          "fat": 30,
+          "category": "menu",
+          "isPopular": false,
+          "isOffer": false,
+          "offerPrice": null,
           "isCombo": false,
+          "offerKind": null,
           "comboIncludes": [],
-          "offerKind": null
+          "spicyOption": true,
+          "cashbackPercent": null,
+          "addons": [
+            {
+              "id": "extra-naan",
+              "name": "نان إضافي",
+              "price": 7
+            },
+            {
+              "id": "raita",
+              "name": "رايتا",
+              "price": 5
+            },
+            {
+              "id": "indian-pickle",
+              "name": "مخلل هندي",
+              "price": 4
+            },
+            {
+              "id": "lassi",
+              "name": "لاسي",
+              "price": 10
+            },
+            {
+              "id": "extra-rice",
+              "name": "أرز إضافي",
+              "price": 6
+            }
+          ]
         },
         {
           "id": "tandoor-flame-10",
@@ -1142,7 +1142,7 @@
           "description": "مشروب لبن بالمانجو.",
           "image": "https://images.unsplash.com/photo-1588168333986-5078d3ae3976?w=800&q=80",
           "price": 16,
-          "rating": 4.7,
+          "rating": 4.1,
           "calories": 220,
           "protein": 6,
           "carbs": 28,
@@ -1151,6 +1151,9 @@
           "isPopular": true,
           "isOffer": false,
           "offerPrice": null,
+          "isCombo": false,
+          "offerKind": null,
+          "comboIncludes": [],
           "spicyOption": false,
           "cashbackPercent": null,
           "addons": [
@@ -1179,10 +1182,7 @@
               "name": "أرز إضافي",
               "price": 6
             }
-          ],
-          "isCombo": false,
-          "comboIncludes": [],
-          "offerKind": null
+          ]
         },
         {
           "id": "tandoor-flame-offer-1",
@@ -1242,7 +1242,7 @@
           "id": "tandoor-flame-offer-2",
           "restaurantId": "tandoor-flame",
           "name": "وجبة عائلية ثالي لـ 6 أشخاص",
-          "description": "6 طبق ثالي مع إضافات ومشروبات. تكفي 6 أشخاص.",
+          "description": "6 طبق ثالي مع نان وأرز ومخلل. تكفي 6 أشخاص.",
           "image": "https://images.unsplash.com/photo-1588168333986-5078d3ae3976?w=800&q=80",
           "price": 109,
           "rating": 4.6,
@@ -1352,13 +1352,13 @@
       "id": "masala-bowl",
       "name": "بول الماسالا",
       "image": "https://images.unsplash.com/photo-1585937421612-70a008356fbe?w=800&q=80",
-      "rating": 4.3,
+      "rating": 4.6,
       "cuisine": "هندي",
-      "deliveryTime": "25–35 د",
-      "deliveryFee": 12,
+      "deliveryTime": "35–50 د",
+      "deliveryFee": 5,
       "minOrder": 50,
-      "distanceKm": 2.5,
-      "verified": null,
+      "distanceKm": 6,
+      "verified": true,
       "tags": [
         "هندي",
         "كاري",
@@ -1366,7 +1366,7 @@
       ],
       "featured": null,
       "open24h": null,
-      "fastDelivery": null,
+      "fastDelivery": true,
       "meals": [
         {
           "id": "masala-bowl-1",
@@ -1375,7 +1375,7 @@
           "description": "أرز برياني مع دجاج وتوابل.",
           "image": "https://images.unsplash.com/photo-1585937421612-70a008356fbe?w=800&q=80",
           "price": 33,
-          "rating": 4.7,
+          "rating": 4.2,
           "calories": 720,
           "protein": 32,
           "carbs": 78,
@@ -1384,6 +1384,9 @@
           "isPopular": false,
           "isOffer": false,
           "offerPrice": null,
+          "isCombo": false,
+          "offerKind": null,
+          "comboIncludes": [],
           "spicyOption": true,
           "cashbackPercent": null,
           "addons": [
@@ -1412,10 +1415,7 @@
               "name": "أرز إضافي",
               "price": 6
             }
-          ],
-          "isCombo": false,
-          "comboIncludes": [],
-          "offerKind": null
+          ]
         },
         {
           "id": "masala-bowl-2",
@@ -1424,7 +1424,7 @@
           "description": "دجاج مشوي بصلصة كريمية.",
           "image": "https://images.unsplash.com/photo-1588168333986-5078d3ae3976?w=800&q=80",
           "price": 33,
-          "rating": 4.1,
+          "rating": 4.2,
           "calories": 680,
           "protein": 36,
           "carbs": 40,
@@ -1433,8 +1433,11 @@
           "isPopular": false,
           "isOffer": false,
           "offerPrice": null,
+          "isCombo": false,
+          "offerKind": null,
+          "comboIncludes": [],
           "spicyOption": true,
-          "cashbackPercent": 15,
+          "cashbackPercent": null,
           "addons": [
             {
               "id": "extra-naan",
@@ -1461,10 +1464,7 @@
               "name": "أرز إضافي",
               "price": 6
             }
-          ],
-          "isCombo": false,
-          "comboIncludes": [],
-          "offerKind": null
+          ]
         },
         {
           "id": "masala-bowl-3",
@@ -1473,7 +1473,7 @@
           "description": "لحم بقري بصلصة بالتي.",
           "image": "https://images.unsplash.com/photo-1588168333986-5078d3ae3976?w=800&q=80",
           "price": 33,
-          "rating": 4.6,
+          "rating": 4.2,
           "calories": 740,
           "protein": 38,
           "carbs": 28,
@@ -1482,6 +1482,9 @@
           "isPopular": true,
           "isOffer": false,
           "offerPrice": null,
+          "isCombo": false,
+          "offerKind": null,
+          "comboIncludes": [],
           "spicyOption": true,
           "cashbackPercent": null,
           "addons": [
@@ -1510,10 +1513,7 @@
               "name": "أرز إضافي",
               "price": 6
             }
-          ],
-          "isCombo": false,
-          "comboIncludes": [],
-          "offerKind": null
+          ]
         },
         {
           "id": "masala-bowl-4",
@@ -1522,15 +1522,18 @@
           "description": "عدس أسود بالزبدة.",
           "image": "https://images.unsplash.com/photo-1588168333986-5078d3ae3976?w=800&q=80",
           "price": 28,
-          "rating": 4.5,
+          "rating": 4.2,
           "calories": 420,
           "protein": 16,
           "carbs": 40,
           "fat": 16,
-          "category": "menu",
-          "isPopular": false,
+          "category": "popular",
+          "isPopular": true,
           "isOffer": false,
           "offerPrice": null,
+          "isCombo": false,
+          "offerKind": null,
+          "comboIncludes": [],
           "spicyOption": false,
           "cashbackPercent": null,
           "addons": [
@@ -1559,10 +1562,7 @@
               "name": "أرز إضافي",
               "price": 6
             }
-          ],
-          "isCombo": false,
-          "comboIncludes": [],
-          "offerKind": null
+          ]
         },
         {
           "id": "masala-bowl-5",
@@ -1571,7 +1571,7 @@
           "description": "خبز تندور بالثوم.",
           "image": "https://images.unsplash.com/photo-1588168333986-5078d3ae3976?w=800&q=80",
           "price": 14,
-          "rating": 4.3,
+          "rating": 4.8,
           "calories": 260,
           "protein": 6,
           "carbs": 36,
@@ -1580,6 +1580,9 @@
           "isPopular": false,
           "isOffer": false,
           "offerPrice": null,
+          "isCombo": false,
+          "offerKind": null,
+          "comboIncludes": [],
           "spicyOption": false,
           "cashbackPercent": null,
           "addons": [
@@ -1608,10 +1611,7 @@
               "name": "أرز إضافي",
               "price": 6
             }
-          ],
-          "isCombo": false,
-          "comboIncludes": [],
-          "offerKind": null
+          ]
         },
         {
           "id": "masala-bowl-6",
@@ -1620,7 +1620,7 @@
           "description": "سمبوسة مقرمشة مع تشاتني.",
           "image": "https://images.unsplash.com/photo-1588168333986-5078d3ae3976?w=800&q=80",
           "price": 18,
-          "rating": 4.5,
+          "rating": 4.7,
           "calories": 280,
           "protein": 6,
           "carbs": 30,
@@ -1629,6 +1629,9 @@
           "isPopular": false,
           "isOffer": false,
           "offerPrice": null,
+          "isCombo": false,
+          "offerKind": null,
+          "comboIncludes": [],
           "spicyOption": false,
           "cashbackPercent": null,
           "addons": [
@@ -1657,10 +1660,7 @@
               "name": "أرز إضافي",
               "price": 6
             }
-          ],
-          "isCombo": false,
-          "comboIncludes": [],
-          "offerKind": null
+          ]
         },
         {
           "id": "masala-bowl-7",
@@ -1669,7 +1669,7 @@
           "description": "جبنة بانيير مشوية.",
           "image": "https://images.unsplash.com/photo-1588168333986-5078d3ae3976?w=800&q=80",
           "price": 32,
-          "rating": 4.6,
+          "rating": 4.5,
           "calories": 480,
           "protein": 20,
           "carbs": 22,
@@ -1678,6 +1678,9 @@
           "isPopular": false,
           "isOffer": false,
           "offerPrice": null,
+          "isCombo": false,
+          "offerKind": null,
+          "comboIncludes": [],
           "spicyOption": true,
           "cashbackPercent": null,
           "addons": [
@@ -1706,10 +1709,7 @@
               "name": "أرز إضافي",
               "price": 6
             }
-          ],
-          "isCombo": false,
-          "comboIncludes": [],
-          "offerKind": null
+          ]
         },
         {
           "id": "masala-bowl-8",
@@ -1718,15 +1718,18 @@
           "description": "تشات هندي حار وحامض.",
           "image": "https://images.unsplash.com/photo-1588168333986-5078d3ae3976?w=800&q=80",
           "price": 24,
-          "rating": 4.2,
+          "rating": 4.7,
           "calories": 340,
           "protein": 8,
           "carbs": 36,
           "fat": 12,
-          "category": "menu",
-          "isPopular": false,
+          "category": "popular",
+          "isPopular": true,
           "isOffer": false,
           "offerPrice": null,
+          "isCombo": false,
+          "offerKind": null,
+          "comboIncludes": [],
           "spicyOption": true,
           "cashbackPercent": null,
           "addons": [
@@ -1755,10 +1758,7 @@
               "name": "أرز إضافي",
               "price": 6
             }
-          ],
-          "isCombo": false,
-          "comboIncludes": [],
-          "offerKind": null
+          ]
         },
         {
           "id": "masala-bowl-9",
@@ -1767,15 +1767,18 @@
           "description": "تشكيلة أطباق هندية صغيرة.",
           "image": "https://images.unsplash.com/photo-1588168333986-5078d3ae3976?w=800&q=80",
           "price": 33,
-          "rating": 4.9,
+          "rating": 4.4,
           "calories": 800,
           "protein": 28,
           "carbs": 90,
           "fat": 30,
-          "category": "menu",
-          "isPopular": false,
+          "category": "popular",
+          "isPopular": true,
           "isOffer": false,
           "offerPrice": null,
+          "isCombo": false,
+          "offerKind": null,
+          "comboIncludes": [],
           "spicyOption": true,
           "cashbackPercent": null,
           "addons": [
@@ -1804,10 +1807,7 @@
               "name": "أرز إضافي",
               "price": 6
             }
-          ],
-          "isCombo": false,
-          "comboIncludes": [],
-          "offerKind": null
+          ]
         },
         {
           "id": "masala-bowl-10",
@@ -1816,15 +1816,18 @@
           "description": "مشروب لبن بالمانجو.",
           "image": "https://images.unsplash.com/photo-1588168333986-5078d3ae3976?w=800&q=80",
           "price": 16,
-          "rating": 4.3,
+          "rating": 4.4,
           "calories": 220,
           "protein": 6,
           "carbs": 28,
           "fat": 8,
-          "category": "menu",
-          "isPopular": false,
+          "category": "popular",
+          "isPopular": true,
           "isOffer": false,
           "offerPrice": null,
+          "isCombo": false,
+          "offerKind": null,
+          "comboIncludes": [],
           "spicyOption": false,
           "cashbackPercent": null,
           "addons": [
@@ -1853,10 +1856,7 @@
               "name": "أرز إضافي",
               "price": 6
             }
-          ],
-          "isCombo": false,
-          "comboIncludes": [],
-          "offerKind": null
+          ]
         },
         {
           "id": "masala-bowl-offer-1",
@@ -1916,7 +1916,7 @@
           "id": "masala-bowl-offer-2",
           "restaurantId": "masala-bowl",
           "name": "وجبة عائلية ثالي لـ 3 أشخاص",
-          "description": "3 طبق ثالي مع إضافات ومشروبات. تكفي 3 أشخاص.",
+          "description": "3 طبق ثالي مع نان وأرز ومخلل. تكفي 3 أشخاص.",
           "image": "https://images.unsplash.com/photo-1588168333986-5078d3ae3976?w=800&q=80",
           "price": 86,
           "rating": 4.6,
@@ -2026,12 +2026,12 @@
       "id": "curry-garden",
       "name": "حديقة الكاري",
       "image": "https://images.unsplash.com/photo-1585937421612-70a008356fbe?w=800&q=80",
-      "rating": 4.4,
+      "rating": 4.5,
       "cuisine": "هندي",
       "deliveryTime": "30–45 د",
-      "deliveryFee": 12,
+      "deliveryFee": 5,
       "minOrder": 40,
-      "distanceKm": 1.3,
+      "distanceKm": 4.6,
       "verified": true,
       "tags": [
         "هندي",
@@ -2039,8 +2039,8 @@
         "حار"
       ],
       "featured": null,
-      "open24h": null,
-      "fastDelivery": true,
+      "open24h": true,
+      "fastDelivery": null,
       "meals": [
         {
           "id": "curry-garden-1",
@@ -2049,15 +2049,18 @@
           "description": "أرز برياني مع دجاج وتوابل.",
           "image": "https://images.unsplash.com/photo-1585937421612-70a008356fbe?w=800&q=80",
           "price": 33,
-          "rating": 4.1,
+          "rating": 4.8,
           "calories": 720,
           "protein": 32,
           "carbs": 78,
           "fat": 22,
-          "category": "popular",
-          "isPopular": true,
+          "category": "menu",
+          "isPopular": false,
           "isOffer": false,
           "offerPrice": null,
+          "isCombo": false,
+          "offerKind": null,
+          "comboIncludes": [],
           "spicyOption": true,
           "cashbackPercent": null,
           "addons": [
@@ -2086,10 +2089,7 @@
               "name": "أرز إضافي",
               "price": 6
             }
-          ],
-          "isCombo": false,
-          "comboIncludes": [],
-          "offerKind": null
+          ]
         },
         {
           "id": "curry-garden-2",
@@ -2098,15 +2098,18 @@
           "description": "دجاج مشوي بصلصة كريمية.",
           "image": "https://images.unsplash.com/photo-1588168333986-5078d3ae3976?w=800&q=80",
           "price": 33,
-          "rating": 4.3,
+          "rating": 4.5,
           "calories": 680,
           "protein": 36,
           "carbs": 40,
           "fat": 32,
-          "category": "menu",
-          "isPopular": false,
+          "category": "popular",
+          "isPopular": true,
           "isOffer": false,
           "offerPrice": null,
+          "isCombo": false,
+          "offerKind": null,
+          "comboIncludes": [],
           "spicyOption": true,
           "cashbackPercent": null,
           "addons": [
@@ -2135,10 +2138,7 @@
               "name": "أرز إضافي",
               "price": 6
             }
-          ],
-          "isCombo": false,
-          "comboIncludes": [],
-          "offerKind": null
+          ]
         },
         {
           "id": "curry-garden-3",
@@ -2147,15 +2147,18 @@
           "description": "لحم بقري بصلصة بالتي.",
           "image": "https://images.unsplash.com/photo-1585937421612-70a008356fbe?w=800&q=80",
           "price": 33,
-          "rating": 4.6,
+          "rating": 4.4,
           "calories": 740,
           "protein": 38,
           "carbs": 28,
           "fat": 42,
-          "category": "popular",
-          "isPopular": true,
+          "category": "menu",
+          "isPopular": false,
           "isOffer": false,
           "offerPrice": null,
+          "isCombo": false,
+          "offerKind": null,
+          "comboIncludes": [],
           "spicyOption": true,
           "cashbackPercent": null,
           "addons": [
@@ -2184,10 +2187,7 @@
               "name": "أرز إضافي",
               "price": 6
             }
-          ],
-          "isCombo": false,
-          "comboIncludes": [],
-          "offerKind": null
+          ]
         },
         {
           "id": "curry-garden-4",
@@ -2196,15 +2196,18 @@
           "description": "عدس أسود بالزبدة.",
           "image": "https://images.unsplash.com/photo-1588168333986-5078d3ae3976?w=800&q=80",
           "price": 28,
-          "rating": 4.6,
+          "rating": 4.9,
           "calories": 420,
           "protein": 16,
           "carbs": 40,
           "fat": 16,
-          "category": "menu",
-          "isPopular": false,
+          "category": "popular",
+          "isPopular": true,
           "isOffer": false,
           "offerPrice": null,
+          "isCombo": false,
+          "offerKind": null,
+          "comboIncludes": [],
           "spicyOption": false,
           "cashbackPercent": null,
           "addons": [
@@ -2233,10 +2236,7 @@
               "name": "أرز إضافي",
               "price": 6
             }
-          ],
-          "isCombo": false,
-          "comboIncludes": [],
-          "offerKind": null
+          ]
         },
         {
           "id": "curry-garden-5",
@@ -2245,7 +2245,7 @@
           "description": "خبز تندور بالثوم.",
           "image": "https://images.unsplash.com/photo-1588168333986-5078d3ae3976?w=800&q=80",
           "price": 14,
-          "rating": 4.1,
+          "rating": 4.6,
           "calories": 260,
           "protein": 6,
           "carbs": 36,
@@ -2254,6 +2254,9 @@
           "isPopular": true,
           "isOffer": false,
           "offerPrice": null,
+          "isCombo": false,
+          "offerKind": null,
+          "comboIncludes": [],
           "spicyOption": false,
           "cashbackPercent": null,
           "addons": [
@@ -2282,10 +2285,7 @@
               "name": "أرز إضافي",
               "price": 6
             }
-          ],
-          "isCombo": false,
-          "comboIncludes": [],
-          "offerKind": null
+          ]
         },
         {
           "id": "curry-garden-6",
@@ -2294,7 +2294,7 @@
           "description": "سمبوسة مقرمشة مع تشاتني.",
           "image": "https://images.unsplash.com/photo-1585937421612-70a008356fbe?w=800&q=80",
           "price": 18,
-          "rating": 4.9,
+          "rating": 4.1,
           "calories": 280,
           "protein": 6,
           "carbs": 30,
@@ -2303,6 +2303,9 @@
           "isPopular": false,
           "isOffer": false,
           "offerPrice": null,
+          "isCombo": false,
+          "offerKind": null,
+          "comboIncludes": [],
           "spicyOption": false,
           "cashbackPercent": null,
           "addons": [
@@ -2331,10 +2334,7 @@
               "name": "أرز إضافي",
               "price": 6
             }
-          ],
-          "isCombo": false,
-          "comboIncludes": [],
-          "offerKind": null
+          ]
         },
         {
           "id": "curry-garden-7",
@@ -2343,15 +2343,18 @@
           "description": "جبنة بانيير مشوية.",
           "image": "https://images.unsplash.com/photo-1588168333986-5078d3ae3976?w=800&q=80",
           "price": 32,
-          "rating": 4.8,
+          "rating": 4.3,
           "calories": 480,
           "protein": 20,
           "carbs": 22,
           "fat": 28,
-          "category": "popular",
-          "isPopular": true,
+          "category": "menu",
+          "isPopular": false,
           "isOffer": false,
           "offerPrice": null,
+          "isCombo": false,
+          "offerKind": null,
+          "comboIncludes": [],
           "spicyOption": true,
           "cashbackPercent": null,
           "addons": [
@@ -2380,10 +2383,7 @@
               "name": "أرز إضافي",
               "price": 6
             }
-          ],
-          "isCombo": false,
-          "comboIncludes": [],
-          "offerKind": null
+          ]
         },
         {
           "id": "curry-garden-8",
@@ -2392,17 +2392,20 @@
           "description": "تشات هندي حار وحامض.",
           "image": "https://images.unsplash.com/photo-1565557623262-b51c2513a641?w=800&q=80",
           "price": 24,
-          "rating": 4.6,
+          "rating": 4.3,
           "calories": 340,
           "protein": 8,
           "carbs": 36,
           "fat": 12,
-          "category": "menu",
-          "isPopular": false,
+          "category": "popular",
+          "isPopular": true,
           "isOffer": false,
           "offerPrice": null,
+          "isCombo": false,
+          "offerKind": null,
+          "comboIncludes": [],
           "spicyOption": true,
-          "cashbackPercent": 5,
+          "cashbackPercent": null,
           "addons": [
             {
               "id": "extra-naan",
@@ -2429,10 +2432,7 @@
               "name": "أرز إضافي",
               "price": 6
             }
-          ],
-          "isCombo": false,
-          "comboIncludes": [],
-          "offerKind": null
+          ]
         },
         {
           "id": "curry-garden-9",
@@ -2441,7 +2441,7 @@
           "description": "تشكيلة أطباق هندية صغيرة.",
           "image": "https://images.unsplash.com/photo-1585937421612-70a008356fbe?w=800&q=80",
           "price": 33,
-          "rating": 4.3,
+          "rating": 4.5,
           "calories": 800,
           "protein": 28,
           "carbs": 90,
@@ -2450,8 +2450,11 @@
           "isPopular": false,
           "isOffer": false,
           "offerPrice": null,
+          "isCombo": false,
+          "offerKind": null,
+          "comboIncludes": [],
           "spicyOption": true,
-          "cashbackPercent": 5,
+          "cashbackPercent": null,
           "addons": [
             {
               "id": "extra-naan",
@@ -2478,10 +2481,7 @@
               "name": "أرز إضافي",
               "price": 6
             }
-          ],
-          "isCombo": false,
-          "comboIncludes": [],
-          "offerKind": null
+          ]
         },
         {
           "id": "curry-garden-10",
@@ -2490,15 +2490,18 @@
           "description": "مشروب لبن بالمانجو.",
           "image": "https://images.unsplash.com/photo-1565557623262-b51c2513a641?w=800&q=80",
           "price": 16,
-          "rating": 4.2,
+          "rating": 4.3,
           "calories": 220,
           "protein": 6,
           "carbs": 28,
           "fat": 8,
-          "category": "menu",
-          "isPopular": false,
+          "category": "popular",
+          "isPopular": true,
           "isOffer": false,
           "offerPrice": null,
+          "isCombo": false,
+          "offerKind": null,
+          "comboIncludes": [],
           "spicyOption": false,
           "cashbackPercent": null,
           "addons": [
@@ -2527,10 +2530,7 @@
               "name": "أرز إضافي",
               "price": 6
             }
-          ],
-          "isCombo": false,
-          "comboIncludes": [],
-          "offerKind": null
+          ]
         },
         {
           "id": "curry-garden-offer-1",
@@ -2590,7 +2590,7 @@
           "id": "curry-garden-offer-2",
           "restaurantId": "curry-garden",
           "name": "وجبة عائلية ثالي لـ 4 أشخاص",
-          "description": "4 طبق ثالي مع إضافات ومشروبات. تكفي 4 أشخاص.",
+          "description": "4 طبق ثالي مع نان وأرز ومخلل. تكفي 4 أشخاص.",
           "image": "https://images.unsplash.com/photo-1588168333986-5078d3ae3976?w=800&q=80",
           "price": 107,
           "rating": 4.6,
@@ -2704,16 +2704,16 @@
       "cuisine": "هندي",
       "deliveryTime": "40–55 د",
       "deliveryFee": 5,
-      "minOrder": 40,
-      "distanceKm": 4.5,
-      "verified": null,
+      "minOrder": 30,
+      "distanceKm": 3.5,
+      "verified": true,
       "tags": [
         "هندي",
         "كاري",
         "حار"
       ],
-      "featured": null,
-      "open24h": null,
+      "featured": true,
+      "open24h": true,
       "fastDelivery": null,
       "meals": [
         {
@@ -2723,15 +2723,18 @@
           "description": "أرز برياني مع دجاج وتوابل.",
           "image": "https://images.unsplash.com/photo-1585937421612-70a008356fbe?w=800&q=80",
           "price": 33,
-          "rating": 4.8,
+          "rating": 4.3,
           "calories": 720,
           "protein": 32,
           "carbs": 78,
           "fat": 22,
-          "category": "popular",
-          "isPopular": true,
+          "category": "menu",
+          "isPopular": false,
           "isOffer": false,
           "offerPrice": null,
+          "isCombo": false,
+          "offerKind": null,
+          "comboIncludes": [],
           "spicyOption": true,
           "cashbackPercent": null,
           "addons": [
@@ -2760,10 +2763,7 @@
               "name": "أرز إضافي",
               "price": 6
             }
-          ],
-          "isCombo": false,
-          "comboIncludes": [],
-          "offerKind": null
+          ]
         },
         {
           "id": "biryani-dar-2",
@@ -2772,7 +2772,7 @@
           "description": "دجاج مشوي بصلصة كريمية.",
           "image": "https://images.unsplash.com/photo-1588168333986-5078d3ae3976?w=800&q=80",
           "price": 33,
-          "rating": 4.6,
+          "rating": 4.7,
           "calories": 680,
           "protein": 36,
           "carbs": 40,
@@ -2781,8 +2781,11 @@
           "isPopular": false,
           "isOffer": false,
           "offerPrice": null,
+          "isCombo": false,
+          "offerKind": null,
+          "comboIncludes": [],
           "spicyOption": true,
-          "cashbackPercent": 5,
+          "cashbackPercent": null,
           "addons": [
             {
               "id": "extra-naan",
@@ -2809,10 +2812,7 @@
               "name": "أرز إضافي",
               "price": 6
             }
-          ],
-          "isCombo": false,
-          "comboIncludes": [],
-          "offerKind": null
+          ]
         },
         {
           "id": "biryani-dar-3",
@@ -2821,7 +2821,7 @@
           "description": "لحم بقري بصلصة بالتي.",
           "image": "https://images.unsplash.com/photo-1585937421612-70a008356fbe?w=800&q=80",
           "price": 33,
-          "rating": 4.6,
+          "rating": 4.7,
           "calories": 740,
           "protein": 38,
           "carbs": 28,
@@ -2830,8 +2830,11 @@
           "isPopular": false,
           "isOffer": false,
           "offerPrice": null,
+          "isCombo": false,
+          "offerKind": null,
+          "comboIncludes": [],
           "spicyOption": true,
-          "cashbackPercent": 10,
+          "cashbackPercent": null,
           "addons": [
             {
               "id": "extra-naan",
@@ -2858,10 +2861,7 @@
               "name": "أرز إضافي",
               "price": 6
             }
-          ],
-          "isCombo": false,
-          "comboIncludes": [],
-          "offerKind": null
+          ]
         },
         {
           "id": "biryani-dar-4",
@@ -2870,7 +2870,7 @@
           "description": "عدس أسود بالزبدة.",
           "image": "https://images.unsplash.com/photo-1588168333986-5078d3ae3976?w=800&q=80",
           "price": 28,
-          "rating": 4.7,
+          "rating": 4.1,
           "calories": 420,
           "protein": 16,
           "carbs": 40,
@@ -2879,6 +2879,9 @@
           "isPopular": true,
           "isOffer": false,
           "offerPrice": null,
+          "isCombo": false,
+          "offerKind": null,
+          "comboIncludes": [],
           "spicyOption": false,
           "cashbackPercent": null,
           "addons": [
@@ -2907,10 +2910,7 @@
               "name": "أرز إضافي",
               "price": 6
             }
-          ],
-          "isCombo": false,
-          "comboIncludes": [],
-          "offerKind": null
+          ]
         },
         {
           "id": "biryani-dar-5",
@@ -2924,12 +2924,15 @@
           "protein": 6,
           "carbs": 36,
           "fat": 8,
-          "category": "menu",
-          "isPopular": false,
+          "category": "popular",
+          "isPopular": true,
           "isOffer": false,
           "offerPrice": null,
+          "isCombo": false,
+          "offerKind": null,
+          "comboIncludes": [],
           "spicyOption": false,
-          "cashbackPercent": 10,
+          "cashbackPercent": null,
           "addons": [
             {
               "id": "extra-naan",
@@ -2956,10 +2959,7 @@
               "name": "أرز إضافي",
               "price": 6
             }
-          ],
-          "isCombo": false,
-          "comboIncludes": [],
-          "offerKind": null
+          ]
         },
         {
           "id": "biryani-dar-6",
@@ -2968,17 +2968,20 @@
           "description": "سمبوسة مقرمشة مع تشاتني.",
           "image": "https://images.unsplash.com/photo-1585937421612-70a008356fbe?w=800&q=80",
           "price": 18,
-          "rating": 4.8,
+          "rating": 4.6,
           "calories": 280,
           "protein": 6,
           "carbs": 30,
           "fat": 12,
-          "category": "menu",
-          "isPopular": false,
+          "category": "popular",
+          "isPopular": true,
           "isOffer": false,
           "offerPrice": null,
+          "isCombo": false,
+          "offerKind": null,
+          "comboIncludes": [],
           "spicyOption": false,
-          "cashbackPercent": 10,
+          "cashbackPercent": null,
           "addons": [
             {
               "id": "extra-naan",
@@ -3005,10 +3008,7 @@
               "name": "أرز إضافي",
               "price": 6
             }
-          ],
-          "isCombo": false,
-          "comboIncludes": [],
-          "offerKind": null
+          ]
         },
         {
           "id": "biryani-dar-7",
@@ -3017,15 +3017,18 @@
           "description": "جبنة بانيير مشوية.",
           "image": "https://images.unsplash.com/photo-1588168333986-5078d3ae3976?w=800&q=80",
           "price": 32,
-          "rating": 4.3,
+          "rating": 4.7,
           "calories": 480,
           "protein": 20,
           "carbs": 22,
           "fat": 28,
-          "category": "menu",
-          "isPopular": false,
+          "category": "popular",
+          "isPopular": true,
           "isOffer": false,
           "offerPrice": null,
+          "isCombo": false,
+          "offerKind": null,
+          "comboIncludes": [],
           "spicyOption": true,
           "cashbackPercent": null,
           "addons": [
@@ -3054,10 +3057,7 @@
               "name": "أرز إضافي",
               "price": 6
             }
-          ],
-          "isCombo": false,
-          "comboIncludes": [],
-          "offerKind": null
+          ]
         },
         {
           "id": "biryani-dar-8",
@@ -3066,7 +3066,7 @@
           "description": "تشات هندي حار وحامض.",
           "image": "https://images.unsplash.com/photo-1565557623262-b51c2513a641?w=800&q=80",
           "price": 24,
-          "rating": 4.8,
+          "rating": 4.6,
           "calories": 340,
           "protein": 8,
           "carbs": 36,
@@ -3075,6 +3075,9 @@
           "isPopular": true,
           "isOffer": false,
           "offerPrice": null,
+          "isCombo": false,
+          "offerKind": null,
+          "comboIncludes": [],
           "spicyOption": true,
           "cashbackPercent": null,
           "addons": [
@@ -3103,10 +3106,7 @@
               "name": "أرز إضافي",
               "price": 6
             }
-          ],
-          "isCombo": false,
-          "comboIncludes": [],
-          "offerKind": null
+          ]
         },
         {
           "id": "biryani-dar-9",
@@ -3115,7 +3115,7 @@
           "description": "تشكيلة أطباق هندية صغيرة.",
           "image": "https://images.unsplash.com/photo-1585937421612-70a008356fbe?w=800&q=80",
           "price": 33,
-          "rating": 4.7,
+          "rating": 4.6,
           "calories": 800,
           "protein": 28,
           "carbs": 90,
@@ -3124,6 +3124,9 @@
           "isPopular": true,
           "isOffer": false,
           "offerPrice": null,
+          "isCombo": false,
+          "offerKind": null,
+          "comboIncludes": [],
           "spicyOption": true,
           "cashbackPercent": null,
           "addons": [
@@ -3152,10 +3155,7 @@
               "name": "أرز إضافي",
               "price": 6
             }
-          ],
-          "isCombo": false,
-          "comboIncludes": [],
-          "offerKind": null
+          ]
         },
         {
           "id": "biryani-dar-10",
@@ -3164,15 +3164,18 @@
           "description": "مشروب لبن بالمانجو.",
           "image": "https://images.unsplash.com/photo-1585937421612-70a008356fbe?w=800&q=80",
           "price": 16,
-          "rating": 4.8,
+          "rating": 4.1,
           "calories": 220,
           "protein": 6,
           "carbs": 28,
           "fat": 8,
-          "category": "menu",
-          "isPopular": false,
+          "category": "popular",
+          "isPopular": true,
           "isOffer": false,
           "offerPrice": null,
+          "isCombo": false,
+          "offerKind": null,
+          "comboIncludes": [],
           "spicyOption": false,
           "cashbackPercent": null,
           "addons": [
@@ -3201,10 +3204,7 @@
               "name": "أرز إضافي",
               "price": 6
             }
-          ],
-          "isCombo": false,
-          "comboIncludes": [],
-          "offerKind": null
+          ]
         },
         {
           "id": "biryani-dar-offer-1",
@@ -3264,7 +3264,7 @@
           "id": "biryani-dar-offer-2",
           "restaurantId": "biryani-dar",
           "name": "وجبة عائلية ثالي لـ 5 أشخاص",
-          "description": "5 طبق ثالي مع إضافات ومشروبات. تكفي 5 أشخاص.",
+          "description": "5 طبق ثالي مع نان وأرز ومخلل. تكفي 5 أشخاص.",
           "image": "https://images.unsplash.com/photo-1588168333986-5078d3ae3976?w=800&q=80",
           "price": 109,
           "rating": 4.6,
@@ -3376,18 +3376,18 @@
       "image": "https://images.unsplash.com/photo-1565557623262-b51c2513a641?w=800&q=80",
       "rating": 4.4,
       "cuisine": "هندي",
-      "deliveryTime": "25–35 د",
-      "deliveryFee": 5,
+      "deliveryTime": "40–55 د",
+      "deliveryFee": 8,
       "minOrder": 25,
-      "distanceKm": 5.3,
+      "distanceKm": 4.4,
       "verified": true,
       "tags": [
         "هندي",
         "كاري",
         "حار"
       ],
-      "featured": null,
-      "open24h": true,
+      "featured": true,
+      "open24h": null,
       "fastDelivery": null,
       "meals": [
         {
@@ -3397,7 +3397,7 @@
           "description": "أرز برياني مع دجاج وتوابل.",
           "image": "https://images.unsplash.com/photo-1585937421612-70a008356fbe?w=800&q=80",
           "price": 33,
-          "rating": 4.3,
+          "rating": 4.2,
           "calories": 720,
           "protein": 32,
           "carbs": 78,
@@ -3406,6 +3406,9 @@
           "isPopular": false,
           "isOffer": false,
           "offerPrice": null,
+          "isCombo": false,
+          "offerKind": null,
+          "comboIncludes": [],
           "spicyOption": true,
           "cashbackPercent": null,
           "addons": [
@@ -3434,10 +3437,7 @@
               "name": "أرز إضافي",
               "price": 6
             }
-          ],
-          "isCombo": false,
-          "comboIncludes": [],
-          "offerKind": null
+          ]
         },
         {
           "id": "naan-house-2",
@@ -3446,7 +3446,7 @@
           "description": "دجاج مشوي بصلصة كريمية.",
           "image": "https://images.unsplash.com/photo-1588168333986-5078d3ae3976?w=800&q=80",
           "price": 33,
-          "rating": 4.9,
+          "rating": 4.3,
           "calories": 680,
           "protein": 36,
           "carbs": 40,
@@ -3455,6 +3455,9 @@
           "isPopular": false,
           "isOffer": false,
           "offerPrice": null,
+          "isCombo": false,
+          "offerKind": null,
+          "comboIncludes": [],
           "spicyOption": true,
           "cashbackPercent": null,
           "addons": [
@@ -3483,10 +3486,7 @@
               "name": "أرز إضافي",
               "price": 6
             }
-          ],
-          "isCombo": false,
-          "comboIncludes": [],
-          "offerKind": null
+          ]
         },
         {
           "id": "naan-house-3",
@@ -3495,15 +3495,18 @@
           "description": "لحم بقري بصلصة بالتي.",
           "image": "https://images.unsplash.com/photo-1565557623262-b51c2513a641?w=800&q=80",
           "price": 33,
-          "rating": 4.7,
+          "rating": 4.1,
           "calories": 740,
           "protein": 38,
           "carbs": 28,
           "fat": 42,
-          "category": "menu",
-          "isPopular": false,
+          "category": "popular",
+          "isPopular": true,
           "isOffer": false,
           "offerPrice": null,
+          "isCombo": false,
+          "offerKind": null,
+          "comboIncludes": [],
           "spicyOption": true,
           "cashbackPercent": null,
           "addons": [
@@ -3532,10 +3535,7 @@
               "name": "أرز إضافي",
               "price": 6
             }
-          ],
-          "isCombo": false,
-          "comboIncludes": [],
-          "offerKind": null
+          ]
         },
         {
           "id": "naan-house-4",
@@ -3544,7 +3544,7 @@
           "description": "عدس أسود بالزبدة.",
           "image": "https://images.unsplash.com/photo-1565557623262-b51c2513a641?w=800&q=80",
           "price": 28,
-          "rating": 4.2,
+          "rating": 4.1,
           "calories": 420,
           "protein": 16,
           "carbs": 40,
@@ -3553,6 +3553,9 @@
           "isPopular": false,
           "isOffer": false,
           "offerPrice": null,
+          "isCombo": false,
+          "offerKind": null,
+          "comboIncludes": [],
           "spicyOption": false,
           "cashbackPercent": null,
           "addons": [
@@ -3581,10 +3584,7 @@
               "name": "أرز إضافي",
               "price": 6
             }
-          ],
-          "isCombo": false,
-          "comboIncludes": [],
-          "offerKind": null
+          ]
         },
         {
           "id": "naan-house-5",
@@ -3593,17 +3593,20 @@
           "description": "خبز تندور بالثوم.",
           "image": "https://images.unsplash.com/photo-1588168333986-5078d3ae3976?w=800&q=80",
           "price": 14,
-          "rating": 4.6,
+          "rating": 4.8,
           "calories": 260,
           "protein": 6,
           "carbs": 36,
           "fat": 8,
-          "category": "menu",
-          "isPopular": false,
+          "category": "popular",
+          "isPopular": true,
           "isOffer": false,
           "offerPrice": null,
+          "isCombo": false,
+          "offerKind": null,
+          "comboIncludes": [],
           "spicyOption": false,
-          "cashbackPercent": 5,
+          "cashbackPercent": null,
           "addons": [
             {
               "id": "extra-naan",
@@ -3630,10 +3633,7 @@
               "name": "أرز إضافي",
               "price": 6
             }
-          ],
-          "isCombo": false,
-          "comboIncludes": [],
-          "offerKind": null
+          ]
         },
         {
           "id": "naan-house-6",
@@ -3642,7 +3642,7 @@
           "description": "سمبوسة مقرمشة مع تشاتني.",
           "image": "https://images.unsplash.com/photo-1565557623262-b51c2513a641?w=800&q=80",
           "price": 18,
-          "rating": 4.7,
+          "rating": 4.3,
           "calories": 280,
           "protein": 6,
           "carbs": 30,
@@ -3651,6 +3651,9 @@
           "isPopular": false,
           "isOffer": false,
           "offerPrice": null,
+          "isCombo": false,
+          "offerKind": null,
+          "comboIncludes": [],
           "spicyOption": false,
           "cashbackPercent": null,
           "addons": [
@@ -3679,10 +3682,7 @@
               "name": "أرز إضافي",
               "price": 6
             }
-          ],
-          "isCombo": false,
-          "comboIncludes": [],
-          "offerKind": null
+          ]
         },
         {
           "id": "naan-house-7",
@@ -3691,7 +3691,7 @@
           "description": "جبنة بانيير مشوية.",
           "image": "https://images.unsplash.com/photo-1588168333986-5078d3ae3976?w=800&q=80",
           "price": 32,
-          "rating": 4.9,
+          "rating": 4.3,
           "calories": 480,
           "protein": 20,
           "carbs": 22,
@@ -3700,6 +3700,9 @@
           "isPopular": true,
           "isOffer": false,
           "offerPrice": null,
+          "isCombo": false,
+          "offerKind": null,
+          "comboIncludes": [],
           "spicyOption": true,
           "cashbackPercent": null,
           "addons": [
@@ -3728,10 +3731,7 @@
               "name": "أرز إضافي",
               "price": 6
             }
-          ],
-          "isCombo": false,
-          "comboIncludes": [],
-          "offerKind": null
+          ]
         },
         {
           "id": "naan-house-8",
@@ -3740,7 +3740,7 @@
           "description": "تشات هندي حار وحامض.",
           "image": "https://images.unsplash.com/photo-1565557623262-b51c2513a641?w=800&q=80",
           "price": 24,
-          "rating": 4.3,
+          "rating": 4.5,
           "calories": 340,
           "protein": 8,
           "carbs": 36,
@@ -3749,55 +3749,9 @@
           "isPopular": false,
           "isOffer": false,
           "offerPrice": null,
-          "spicyOption": true,
-          "cashbackPercent": 10,
-          "addons": [
-            {
-              "id": "extra-naan",
-              "name": "نان إضافي",
-              "price": 7
-            },
-            {
-              "id": "raita",
-              "name": "رايتا",
-              "price": 5
-            },
-            {
-              "id": "indian-pickle",
-              "name": "مخلل هندي",
-              "price": 4
-            },
-            {
-              "id": "lassi",
-              "name": "لاسي",
-              "price": 10
-            },
-            {
-              "id": "extra-rice",
-              "name": "أرز إضافي",
-              "price": 6
-            }
-          ],
           "isCombo": false,
+          "offerKind": null,
           "comboIncludes": [],
-          "offerKind": null
-        },
-        {
-          "id": "naan-house-9",
-          "restaurantId": "naan-house",
-          "name": "مطبخ ثالي",
-          "description": "تشكيلة أطباق هندية صغيرة.",
-          "image": "https://images.unsplash.com/photo-1565557623262-b51c2513a641?w=800&q=80",
-          "price": 33,
-          "rating": 4.8,
-          "calories": 800,
-          "protein": 28,
-          "carbs": 90,
-          "fat": 30,
-          "category": "menu",
-          "isPopular": false,
-          "isOffer": false,
-          "offerPrice": null,
           "spicyOption": true,
           "cashbackPercent": null,
           "addons": [
@@ -3826,10 +3780,56 @@
               "name": "أرز إضافي",
               "price": 6
             }
-          ],
+          ]
+        },
+        {
+          "id": "naan-house-9",
+          "restaurantId": "naan-house",
+          "name": "مطبخ ثالي",
+          "description": "تشكيلة أطباق هندية صغيرة.",
+          "image": "https://images.unsplash.com/photo-1565557623262-b51c2513a641?w=800&q=80",
+          "price": 33,
+          "rating": 4.2,
+          "calories": 800,
+          "protein": 28,
+          "carbs": 90,
+          "fat": 30,
+          "category": "popular",
+          "isPopular": true,
+          "isOffer": false,
+          "offerPrice": null,
           "isCombo": false,
+          "offerKind": null,
           "comboIncludes": [],
-          "offerKind": null
+          "spicyOption": true,
+          "cashbackPercent": null,
+          "addons": [
+            {
+              "id": "extra-naan",
+              "name": "نان إضافي",
+              "price": 7
+            },
+            {
+              "id": "raita",
+              "name": "رايتا",
+              "price": 5
+            },
+            {
+              "id": "indian-pickle",
+              "name": "مخلل هندي",
+              "price": 4
+            },
+            {
+              "id": "lassi",
+              "name": "لاسي",
+              "price": 10
+            },
+            {
+              "id": "extra-rice",
+              "name": "أرز إضافي",
+              "price": 6
+            }
+          ]
         },
         {
           "id": "naan-house-10",
@@ -3838,15 +3838,18 @@
           "description": "مشروب لبن بالمانجو.",
           "image": "https://images.unsplash.com/photo-1565557623262-b51c2513a641?w=800&q=80",
           "price": 16,
-          "rating": 4.4,
+          "rating": 4.5,
           "calories": 220,
           "protein": 6,
           "carbs": 28,
           "fat": 8,
-          "category": "menu",
-          "isPopular": false,
+          "category": "popular",
+          "isPopular": true,
           "isOffer": false,
           "offerPrice": null,
+          "isCombo": false,
+          "offerKind": null,
+          "comboIncludes": [],
           "spicyOption": false,
           "cashbackPercent": null,
           "addons": [
@@ -3875,10 +3878,7 @@
               "name": "أرز إضافي",
               "price": 6
             }
-          ],
-          "isCombo": false,
-          "comboIncludes": [],
-          "offerKind": null
+          ]
         },
         {
           "id": "naan-house-offer-1",
@@ -3938,7 +3938,7 @@
           "id": "naan-house-offer-2",
           "restaurantId": "naan-house",
           "name": "وجبة عائلية ثالي لـ 4 أشخاص",
-          "description": "4 طبق ثالي مع إضافات ومشروبات. تكفي 4 أشخاص.",
+          "description": "4 طبق ثالي مع نان وأرز ومخلل. تكفي 4 أشخاص.",
           "image": "https://images.unsplash.com/photo-1585937421612-70a008356fbe?w=800&q=80",
           "price": 107,
           "rating": 4.6,
@@ -4048,19 +4048,19 @@
       "id": "tikka-spot",
       "name": "تيكا سبوت",
       "image": "https://images.unsplash.com/photo-1585937421612-70a008356fbe?w=800&q=80",
-      "rating": 4.5,
+      "rating": 4.9,
       "cuisine": "هندي",
-      "deliveryTime": "35–50 د",
-      "deliveryFee": 10,
-      "minOrder": 30,
-      "distanceKm": 4.3,
+      "deliveryTime": "40–55 د",
+      "deliveryFee": 0,
+      "minOrder": 45,
+      "distanceKm": 1.1,
       "verified": true,
       "tags": [
         "هندي",
         "كاري",
         "حار"
       ],
-      "featured": null,
+      "featured": true,
       "open24h": null,
       "fastDelivery": null,
       "meals": [
@@ -4071,15 +4071,18 @@
           "description": "أرز برياني مع دجاج وتوابل.",
           "image": "https://images.unsplash.com/photo-1585937421612-70a008356fbe?w=800&q=80",
           "price": 33,
-          "rating": 4.5,
+          "rating": 4.6,
           "calories": 720,
           "protein": 32,
           "carbs": 78,
           "fat": 22,
-          "category": "menu",
-          "isPopular": false,
+          "category": "popular",
+          "isPopular": true,
           "isOffer": false,
           "offerPrice": null,
+          "isCombo": false,
+          "offerKind": null,
+          "comboIncludes": [],
           "spicyOption": true,
           "cashbackPercent": null,
           "addons": [
@@ -4108,10 +4111,7 @@
               "name": "أرز إضافي",
               "price": 6
             }
-          ],
-          "isCombo": false,
-          "comboIncludes": [],
-          "offerKind": null
+          ]
         },
         {
           "id": "tikka-spot-2",
@@ -4120,7 +4120,7 @@
           "description": "دجاج مشوي بصلصة كريمية.",
           "image": "https://images.unsplash.com/photo-1588168333986-5078d3ae3976?w=800&q=80",
           "price": 33,
-          "rating": 4.4,
+          "rating": 4.3,
           "calories": 680,
           "protein": 36,
           "carbs": 40,
@@ -4129,8 +4129,11 @@
           "isPopular": false,
           "isOffer": false,
           "offerPrice": null,
+          "isCombo": false,
+          "offerKind": null,
+          "comboIncludes": [],
           "spicyOption": true,
-          "cashbackPercent": 10,
+          "cashbackPercent": null,
           "addons": [
             {
               "id": "extra-naan",
@@ -4157,10 +4160,7 @@
               "name": "أرز إضافي",
               "price": 6
             }
-          ],
-          "isCombo": false,
-          "comboIncludes": [],
-          "offerKind": null
+          ]
         },
         {
           "id": "tikka-spot-3",
@@ -4169,7 +4169,7 @@
           "description": "لحم بقري بصلصة بالتي.",
           "image": "https://images.unsplash.com/photo-1588168333986-5078d3ae3976?w=800&q=80",
           "price": 33,
-          "rating": 4.6,
+          "rating": 4.8,
           "calories": 740,
           "protein": 38,
           "carbs": 28,
@@ -4178,6 +4178,9 @@
           "isPopular": true,
           "isOffer": false,
           "offerPrice": null,
+          "isCombo": false,
+          "offerKind": null,
+          "comboIncludes": [],
           "spicyOption": true,
           "cashbackPercent": null,
           "addons": [
@@ -4206,10 +4209,7 @@
               "name": "أرز إضافي",
               "price": 6
             }
-          ],
-          "isCombo": false,
-          "comboIncludes": [],
-          "offerKind": null
+          ]
         },
         {
           "id": "tikka-spot-4",
@@ -4218,15 +4218,18 @@
           "description": "عدس أسود بالزبدة.",
           "image": "https://images.unsplash.com/photo-1565557623262-b51c2513a641?w=800&q=80",
           "price": 28,
-          "rating": 4.7,
+          "rating": 4.3,
           "calories": 420,
           "protein": 16,
           "carbs": 40,
           "fat": 16,
-          "category": "menu",
-          "isPopular": false,
+          "category": "popular",
+          "isPopular": true,
           "isOffer": false,
           "offerPrice": null,
+          "isCombo": false,
+          "offerKind": null,
+          "comboIncludes": [],
           "spicyOption": false,
           "cashbackPercent": null,
           "addons": [
@@ -4255,10 +4258,7 @@
               "name": "أرز إضافي",
               "price": 6
             }
-          ],
-          "isCombo": false,
-          "comboIncludes": [],
-          "offerKind": null
+          ]
         },
         {
           "id": "tikka-spot-5",
@@ -4267,15 +4267,18 @@
           "description": "خبز تندور بالثوم.",
           "image": "https://images.unsplash.com/photo-1588168333986-5078d3ae3976?w=800&q=80",
           "price": 14,
-          "rating": 4.2,
+          "rating": 4.5,
           "calories": 260,
           "protein": 6,
           "carbs": 36,
           "fat": 8,
-          "category": "popular",
-          "isPopular": true,
+          "category": "menu",
+          "isPopular": false,
           "isOffer": false,
           "offerPrice": null,
+          "isCombo": false,
+          "offerKind": null,
+          "comboIncludes": [],
           "spicyOption": false,
           "cashbackPercent": null,
           "addons": [
@@ -4304,10 +4307,7 @@
               "name": "أرز إضافي",
               "price": 6
             }
-          ],
-          "isCombo": false,
-          "comboIncludes": [],
-          "offerKind": null
+          ]
         },
         {
           "id": "tikka-spot-6",
@@ -4316,15 +4316,18 @@
           "description": "سمبوسة مقرمشة مع تشاتني.",
           "image": "https://images.unsplash.com/photo-1588168333986-5078d3ae3976?w=800&q=80",
           "price": 18,
-          "rating": 4.8,
+          "rating": 4.1,
           "calories": 280,
           "protein": 6,
           "carbs": 30,
           "fat": 12,
-          "category": "menu",
-          "isPopular": false,
+          "category": "popular",
+          "isPopular": true,
           "isOffer": false,
           "offerPrice": null,
+          "isCombo": false,
+          "offerKind": null,
+          "comboIncludes": [],
           "spicyOption": false,
           "cashbackPercent": null,
           "addons": [
@@ -4353,10 +4356,7 @@
               "name": "أرز إضافي",
               "price": 6
             }
-          ],
-          "isCombo": false,
-          "comboIncludes": [],
-          "offerKind": null
+          ]
         },
         {
           "id": "tikka-spot-7",
@@ -4365,15 +4365,18 @@
           "description": "جبنة بانيير مشوية.",
           "image": "https://images.unsplash.com/photo-1588168333986-5078d3ae3976?w=800&q=80",
           "price": 32,
-          "rating": 4.8,
+          "rating": 4.2,
           "calories": 480,
           "protein": 20,
           "carbs": 22,
           "fat": 28,
-          "category": "menu",
-          "isPopular": false,
+          "category": "popular",
+          "isPopular": true,
           "isOffer": false,
           "offerPrice": null,
+          "isCombo": false,
+          "offerKind": null,
+          "comboIncludes": [],
           "spicyOption": true,
           "cashbackPercent": null,
           "addons": [
@@ -4402,10 +4405,7 @@
               "name": "أرز إضافي",
               "price": 6
             }
-          ],
-          "isCombo": false,
-          "comboIncludes": [],
-          "offerKind": null
+          ]
         },
         {
           "id": "tikka-spot-8",
@@ -4419,10 +4419,13 @@
           "protein": 8,
           "carbs": 36,
           "fat": 12,
-          "category": "menu",
-          "isPopular": false,
+          "category": "popular",
+          "isPopular": true,
           "isOffer": false,
           "offerPrice": null,
+          "isCombo": false,
+          "offerKind": null,
+          "comboIncludes": [],
           "spicyOption": true,
           "cashbackPercent": null,
           "addons": [
@@ -4451,10 +4454,7 @@
               "name": "أرز إضافي",
               "price": 6
             }
-          ],
-          "isCombo": false,
-          "comboIncludes": [],
-          "offerKind": null
+          ]
         },
         {
           "id": "tikka-spot-9",
@@ -4468,10 +4468,13 @@
           "protein": 28,
           "carbs": 90,
           "fat": 30,
-          "category": "menu",
-          "isPopular": false,
+          "category": "popular",
+          "isPopular": true,
           "isOffer": false,
           "offerPrice": null,
+          "isCombo": false,
+          "offerKind": null,
+          "comboIncludes": [],
           "spicyOption": true,
           "cashbackPercent": null,
           "addons": [
@@ -4500,10 +4503,7 @@
               "name": "أرز إضافي",
               "price": 6
             }
-          ],
-          "isCombo": false,
-          "comboIncludes": [],
-          "offerKind": null
+          ]
         },
         {
           "id": "tikka-spot-10",
@@ -4521,6 +4521,9 @@
           "isPopular": true,
           "isOffer": false,
           "offerPrice": null,
+          "isCombo": false,
+          "offerKind": null,
+          "comboIncludes": [],
           "spicyOption": false,
           "cashbackPercent": null,
           "addons": [
@@ -4549,10 +4552,7 @@
               "name": "أرز إضافي",
               "price": 6
             }
-          ],
-          "isCombo": false,
-          "comboIncludes": [],
-          "offerKind": null
+          ]
         },
         {
           "id": "tikka-spot-offer-1",
@@ -4612,7 +4612,7 @@
           "id": "tikka-spot-offer-2",
           "restaurantId": "tikka-spot",
           "name": "وجبة عائلية ثالي لـ 4 أشخاص",
-          "description": "4 طبق ثالي مع إضافات ومشروبات. تكفي 4 أشخاص.",
+          "description": "4 طبق ثالي مع نان وأرز ومخلل. تكفي 4 أشخاص.",
           "image": "https://images.unsplash.com/photo-1565557623262-b51c2513a641?w=800&q=80",
           "price": 107,
           "rating": 4.6,
@@ -4722,19 +4722,19 @@
       "id": "delhi-express",
       "name": "دلهي إكسبرس",
       "image": "https://images.unsplash.com/photo-1585937421612-70a008356fbe?w=800&q=80",
-      "rating": 4.2,
+      "rating": 4.8,
       "cuisine": "هندي",
-      "deliveryTime": "25–35 د",
-      "deliveryFee": 5,
-      "minOrder": 40,
-      "distanceKm": 0.6,
+      "deliveryTime": "20–30 د",
+      "deliveryFee": 6,
+      "minOrder": 45,
+      "distanceKm": 5.6,
       "verified": null,
       "tags": [
         "هندي",
         "كاري",
         "حار"
       ],
-      "featured": null,
+      "featured": true,
       "open24h": null,
       "fastDelivery": null,
       "meals": [
@@ -4745,7 +4745,7 @@
           "description": "أرز برياني مع دجاج وتوابل.",
           "image": "https://images.unsplash.com/photo-1585937421612-70a008356fbe?w=800&q=80",
           "price": 33,
-          "rating": 4.4,
+          "rating": 4.7,
           "calories": 720,
           "protein": 32,
           "carbs": 78,
@@ -4754,6 +4754,9 @@
           "isPopular": false,
           "isOffer": false,
           "offerPrice": null,
+          "isCombo": false,
+          "offerKind": null,
+          "comboIncludes": [],
           "spicyOption": true,
           "cashbackPercent": null,
           "addons": [
@@ -4782,10 +4785,7 @@
               "name": "أرز إضافي",
               "price": 6
             }
-          ],
-          "isCombo": false,
-          "comboIncludes": [],
-          "offerKind": null
+          ]
         },
         {
           "id": "delhi-express-2",
@@ -4794,7 +4794,7 @@
           "description": "دجاج مشوي بصلصة كريمية.",
           "image": "https://images.unsplash.com/photo-1588168333986-5078d3ae3976?w=800&q=80",
           "price": 33,
-          "rating": 4.3,
+          "rating": 4.2,
           "calories": 680,
           "protein": 36,
           "carbs": 40,
@@ -4803,8 +4803,11 @@
           "isPopular": false,
           "isOffer": false,
           "offerPrice": null,
+          "isCombo": false,
+          "offerKind": null,
+          "comboIncludes": [],
           "spicyOption": true,
-          "cashbackPercent": 10,
+          "cashbackPercent": null,
           "addons": [
             {
               "id": "extra-naan",
@@ -4831,10 +4834,7 @@
               "name": "أرز إضافي",
               "price": 6
             }
-          ],
-          "isCombo": false,
-          "comboIncludes": [],
-          "offerKind": null
+          ]
         },
         {
           "id": "delhi-express-3",
@@ -4843,7 +4843,7 @@
           "description": "لحم بقري بصلصة بالتي.",
           "image": "https://images.unsplash.com/photo-1588168333986-5078d3ae3976?w=800&q=80",
           "price": 33,
-          "rating": 4.9,
+          "rating": 4.6,
           "calories": 740,
           "protein": 38,
           "carbs": 28,
@@ -4852,6 +4852,9 @@
           "isPopular": false,
           "isOffer": false,
           "offerPrice": null,
+          "isCombo": false,
+          "offerKind": null,
+          "comboIncludes": [],
           "spicyOption": true,
           "cashbackPercent": null,
           "addons": [
@@ -4880,10 +4883,7 @@
               "name": "أرز إضافي",
               "price": 6
             }
-          ],
-          "isCombo": false,
-          "comboIncludes": [],
-          "offerKind": null
+          ]
         },
         {
           "id": "delhi-express-4",
@@ -4892,7 +4892,7 @@
           "description": "عدس أسود بالزبدة.",
           "image": "https://images.unsplash.com/photo-1565557623262-b51c2513a641?w=800&q=80",
           "price": 28,
-          "rating": 4.7,
+          "rating": 4.6,
           "calories": 420,
           "protein": 16,
           "carbs": 40,
@@ -4901,6 +4901,9 @@
           "isPopular": false,
           "isOffer": false,
           "offerPrice": null,
+          "isCombo": false,
+          "offerKind": null,
+          "comboIncludes": [],
           "spicyOption": false,
           "cashbackPercent": null,
           "addons": [
@@ -4929,10 +4932,7 @@
               "name": "أرز إضافي",
               "price": 6
             }
-          ],
-          "isCombo": false,
-          "comboIncludes": [],
-          "offerKind": null
+          ]
         },
         {
           "id": "delhi-express-5",
@@ -4941,7 +4941,7 @@
           "description": "خبز تندور بالثوم.",
           "image": "https://images.unsplash.com/photo-1588168333986-5078d3ae3976?w=800&q=80",
           "price": 14,
-          "rating": 4.4,
+          "rating": 4.1,
           "calories": 260,
           "protein": 6,
           "carbs": 36,
@@ -4950,6 +4950,9 @@
           "isPopular": true,
           "isOffer": false,
           "offerPrice": null,
+          "isCombo": false,
+          "offerKind": null,
+          "comboIncludes": [],
           "spicyOption": false,
           "cashbackPercent": null,
           "addons": [
@@ -4978,10 +4981,7 @@
               "name": "أرز إضافي",
               "price": 6
             }
-          ],
-          "isCombo": false,
-          "comboIncludes": [],
-          "offerKind": null
+          ]
         },
         {
           "id": "delhi-express-6",
@@ -4990,7 +4990,7 @@
           "description": "سمبوسة مقرمشة مع تشاتني.",
           "image": "https://images.unsplash.com/photo-1588168333986-5078d3ae3976?w=800&q=80",
           "price": 18,
-          "rating": 4.8,
+          "rating": 4.4,
           "calories": 280,
           "protein": 6,
           "carbs": 30,
@@ -4999,6 +4999,9 @@
           "isPopular": true,
           "isOffer": false,
           "offerPrice": null,
+          "isCombo": false,
+          "offerKind": null,
+          "comboIncludes": [],
           "spicyOption": false,
           "cashbackPercent": null,
           "addons": [
@@ -5027,10 +5030,7 @@
               "name": "أرز إضافي",
               "price": 6
             }
-          ],
-          "isCombo": false,
-          "comboIncludes": [],
-          "offerKind": null
+          ]
         },
         {
           "id": "delhi-express-7",
@@ -5039,15 +5039,18 @@
           "description": "جبنة بانيير مشوية.",
           "image": "https://images.unsplash.com/photo-1588168333986-5078d3ae3976?w=800&q=80",
           "price": 32,
-          "rating": 4.3,
+          "rating": 4.7,
           "calories": 480,
           "protein": 20,
           "carbs": 22,
           "fat": 28,
-          "category": "popular",
-          "isPopular": true,
+          "category": "menu",
+          "isPopular": false,
           "isOffer": false,
           "offerPrice": null,
+          "isCombo": false,
+          "offerKind": null,
+          "comboIncludes": [],
           "spicyOption": true,
           "cashbackPercent": null,
           "addons": [
@@ -5076,10 +5079,7 @@
               "name": "أرز إضافي",
               "price": 6
             }
-          ],
-          "isCombo": false,
-          "comboIncludes": [],
-          "offerKind": null
+          ]
         },
         {
           "id": "delhi-express-8",
@@ -5097,6 +5097,9 @@
           "isPopular": false,
           "isOffer": false,
           "offerPrice": null,
+          "isCombo": false,
+          "offerKind": null,
+          "comboIncludes": [],
           "spicyOption": true,
           "cashbackPercent": null,
           "addons": [
@@ -5125,10 +5128,7 @@
               "name": "أرز إضافي",
               "price": 6
             }
-          ],
-          "isCombo": false,
-          "comboIncludes": [],
-          "offerKind": null
+          ]
         },
         {
           "id": "delhi-express-9",
@@ -5137,7 +5137,7 @@
           "description": "تشكيلة أطباق هندية صغيرة.",
           "image": "https://images.unsplash.com/photo-1588168333986-5078d3ae3976?w=800&q=80",
           "price": 33,
-          "rating": 4.7,
+          "rating": 4.8,
           "calories": 800,
           "protein": 28,
           "carbs": 90,
@@ -5146,6 +5146,9 @@
           "isPopular": false,
           "isOffer": false,
           "offerPrice": null,
+          "isCombo": false,
+          "offerKind": null,
+          "comboIncludes": [],
           "spicyOption": true,
           "cashbackPercent": null,
           "addons": [
@@ -5174,10 +5177,7 @@
               "name": "أرز إضافي",
               "price": 6
             }
-          ],
-          "isCombo": false,
-          "comboIncludes": [],
-          "offerKind": null
+          ]
         },
         {
           "id": "delhi-express-10",
@@ -5186,15 +5186,18 @@
           "description": "مشروب لبن بالمانجو.",
           "image": "https://images.unsplash.com/photo-1588168333986-5078d3ae3976?w=800&q=80",
           "price": 16,
-          "rating": 4.1,
+          "rating": 4.8,
           "calories": 220,
           "protein": 6,
           "carbs": 28,
           "fat": 8,
-          "category": "menu",
-          "isPopular": false,
+          "category": "popular",
+          "isPopular": true,
           "isOffer": false,
           "offerPrice": null,
+          "isCombo": false,
+          "offerKind": null,
+          "comboIncludes": [],
           "spicyOption": false,
           "cashbackPercent": null,
           "addons": [
@@ -5223,10 +5226,7 @@
               "name": "أرز إضافي",
               "price": 6
             }
-          ],
-          "isCombo": false,
-          "comboIncludes": [],
-          "offerKind": null
+          ]
         },
         {
           "id": "delhi-express-offer-1",
@@ -5286,7 +5286,7 @@
           "id": "delhi-express-offer-2",
           "restaurantId": "delhi-express",
           "name": "وجبة عائلية ثالي لـ 6 أشخاص",
-          "description": "6 طبق ثالي مع إضافات ومشروبات. تكفي 6 أشخاص.",
+          "description": "6 طبق ثالي مع نان وأرز ومخلل. تكفي 6 أشخاص.",
           "image": "https://images.unsplash.com/photo-1585937421612-70a008356fbe?w=800&q=80",
           "price": 109,
           "rating": 4.6,

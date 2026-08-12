@@ -6,7 +6,7 @@
       "image": "https://images.unsplash.com/photo-1555939594-58d7cb561ad1?w=800&q=80",
       "rating": 4.3,
       "cuisine": "مشاوي",
-      "deliveryTime": "35–50 د",
+      "deliveryTime": "40–55 د",
       "deliveryFee": 5,
       "minOrder": 40,
       "distanceKm": 3.3,
@@ -27,15 +27,18 @@
           "description": "تشكيلة لحم ودجاج وكباب مع أرز.",
           "image": "https://images.unsplash.com/photo-1555939594-58d7cb561ad1?w=800&q=80",
           "price": 66,
-          "rating": 4.2,
+          "rating": 4.7,
           "calories": 840,
           "protein": 50,
           "carbs": 58,
           "fat": 40,
-          "category": "popular",
-          "isPopular": true,
+          "category": "menu",
+          "isPopular": false,
           "isOffer": false,
           "offerPrice": null,
+          "isCombo": false,
+          "offerKind": null,
+          "comboIncludes": [],
           "spicyOption": true,
           "cashbackPercent": null,
           "addons": [
@@ -64,10 +67,7 @@
               "name": "سلطة صغيرة",
               "price": 8
             }
-          ],
-          "isCombo": false,
-          "comboIncludes": [],
-          "offerKind": null
+          ]
         },
         {
           "id": "nar-aljamar-2",
@@ -76,7 +76,7 @@
           "description": "ريش غنم على الفحم مع طحينة.",
           "image": "https://images.unsplash.com/photo-1529692236671-f1f6cf9683ba?w=800&q=80",
           "price": 62,
-          "rating": 4.2,
+          "rating": 4.9,
           "calories": 720,
           "protein": 54,
           "carbs": 10,
@@ -85,6 +85,9 @@
           "isPopular": false,
           "isOffer": false,
           "offerPrice": null,
+          "isCombo": false,
+          "offerKind": null,
+          "comboIncludes": [],
           "spicyOption": true,
           "cashbackPercent": null,
           "addons": [
@@ -113,10 +116,7 @@
               "name": "سلطة صغيرة",
               "price": 8
             }
-          ],
-          "isCombo": false,
-          "comboIncludes": [],
-          "offerKind": null
+          ]
         },
         {
           "id": "nar-aljamar-3",
@@ -125,15 +125,18 @@
           "description": "قطع دجاج متبلة مشوية.",
           "image": "https://images.unsplash.com/photo-1603360946369-dc9bb6258143?w=800&q=80",
           "price": 48,
-          "rating": 4.7,
+          "rating": 4.2,
           "calories": 480,
           "protein": 42,
           "carbs": 18,
           "fat": 22,
-          "category": "menu",
-          "isPopular": false,
+          "category": "popular",
+          "isPopular": true,
           "isOffer": false,
           "offerPrice": null,
+          "isCombo": false,
+          "offerKind": null,
+          "comboIncludes": [],
           "spicyOption": true,
           "cashbackPercent": null,
           "addons": [
@@ -162,10 +165,7 @@
               "name": "سلطة صغيرة",
               "price": 8
             }
-          ],
-          "isCombo": false,
-          "comboIncludes": [],
-          "offerKind": null
+          ]
         },
         {
           "id": "nar-aljamar-4",
@@ -183,6 +183,9 @@
           "isPopular": false,
           "isOffer": false,
           "offerPrice": null,
+          "isCombo": false,
+          "offerKind": null,
+          "comboIncludes": [],
           "spicyOption": true,
           "cashbackPercent": null,
           "addons": [
@@ -211,10 +214,7 @@
               "name": "سلطة صغيرة",
               "price": 8
             }
-          ],
-          "isCombo": false,
-          "comboIncludes": [],
-          "offerKind": null
+          ]
         },
         {
           "id": "nar-aljamar-5",
@@ -223,15 +223,18 @@
           "description": "دجاجة كاملة متبلة على الفحم.",
           "image": "https://images.unsplash.com/photo-1598103442097-8b74394b95c6?w=800&q=80",
           "price": 62,
-          "rating": 4.9,
+          "rating": 4.6,
           "calories": 780,
           "protein": 55,
           "carbs": 8,
           "fat": 48,
-          "category": "menu",
-          "isPopular": false,
+          "category": "popular",
+          "isPopular": true,
           "isOffer": false,
           "offerPrice": null,
+          "isCombo": false,
+          "offerKind": null,
+          "comboIncludes": [],
           "spicyOption": true,
           "cashbackPercent": null,
           "addons": [
@@ -260,10 +263,7 @@
               "name": "سلطة صغيرة",
               "price": 8
             }
-          ],
-          "isCombo": false,
-          "comboIncludes": [],
-          "offerKind": null
+          ]
         },
         {
           "id": "nar-aljamar-6",
@@ -272,7 +272,7 @@
           "description": "عجينة رقيقة مع لحم مفروم.",
           "image": "https://images.unsplash.com/photo-1555939594-58d7cb561ad1?w=800&q=80",
           "price": 38,
-          "rating": 4.6,
+          "rating": 4.7,
           "calories": 520,
           "protein": 22,
           "carbs": 48,
@@ -281,6 +281,9 @@
           "isPopular": false,
           "isOffer": false,
           "offerPrice": null,
+          "isCombo": false,
+          "offerKind": null,
+          "comboIncludes": [],
           "spicyOption": false,
           "cashbackPercent": null,
           "addons": [
@@ -309,10 +312,7 @@
               "name": "سلطة صغيرة",
               "price": 8
             }
-          ],
-          "isCombo": false,
-          "comboIncludes": [],
-          "offerKind": null
+          ]
         },
         {
           "id": "nar-aljamar-7",
@@ -321,15 +321,18 @@
           "description": "نقانق بقري مع خضار مشوية.",
           "image": "https://images.unsplash.com/photo-1603360946369-dc9bb6258143?w=800&q=80",
           "price": 42,
-          "rating": 4.6,
+          "rating": 4.7,
           "calories": 560,
           "protein": 28,
           "carbs": 15,
           "fat": 38,
-          "category": "popular",
-          "isPopular": true,
+          "category": "menu",
+          "isPopular": false,
           "isOffer": false,
           "offerPrice": null,
+          "isCombo": false,
+          "offerKind": null,
+          "comboIncludes": [],
           "spicyOption": true,
           "cashbackPercent": null,
           "addons": [
@@ -358,10 +361,7 @@
               "name": "سلطة صغيرة",
               "price": 8
             }
-          ],
-          "isCombo": false,
-          "comboIncludes": [],
-          "offerKind": null
+          ]
         },
         {
           "id": "nar-aljamar-8",
@@ -370,15 +370,18 @@
           "description": "كبدة غنم مع ثوم وليمون.",
           "image": "https://images.unsplash.com/photo-1555939594-58d7cb561ad1?w=800&q=80",
           "price": 36,
-          "rating": 4.8,
+          "rating": 4.1,
           "calories": 390,
           "protein": 32,
           "carbs": 8,
           "fat": 22,
-          "category": "menu",
-          "isPopular": false,
+          "category": "popular",
+          "isPopular": true,
           "isOffer": false,
           "offerPrice": null,
+          "isCombo": false,
+          "offerKind": null,
+          "comboIncludes": [],
           "spicyOption": true,
           "cashbackPercent": null,
           "addons": [
@@ -407,10 +410,7 @@
               "name": "سلطة صغيرة",
               "price": 8
             }
-          ],
-          "isCombo": false,
-          "comboIncludes": [],
-          "offerKind": null
+          ]
         },
         {
           "id": "nar-aljamar-9",
@@ -419,7 +419,7 @@
           "description": "تشكيلة كبيرة تكفي ٤ أشخاص.",
           "image": "https://images.unsplash.com/photo-1555939594-58d7cb561ad1?w=800&q=80",
           "price": 62,
-          "rating": 4.9,
+          "rating": 4.2,
           "calories": 1600,
           "protein": 95,
           "carbs": 90,
@@ -428,6 +428,9 @@
           "isPopular": false,
           "isOffer": false,
           "offerPrice": null,
+          "isCombo": false,
+          "offerKind": null,
+          "comboIncludes": [],
           "spicyOption": true,
           "cashbackPercent": null,
           "addons": [
@@ -456,10 +459,7 @@
               "name": "سلطة صغيرة",
               "price": 8
             }
-          ],
-          "isCombo": false,
-          "comboIncludes": [],
-          "offerKind": null
+          ]
         },
         {
           "id": "nar-aljamar-10",
@@ -468,15 +468,18 @@
           "description": "أرز بخاري مع قطع لحم طرية.",
           "image": "https://images.unsplash.com/photo-1598103442097-8b74394b95c6?w=800&q=80",
           "price": 44,
-          "rating": 4.6,
+          "rating": 4.4,
           "calories": 680,
           "protein": 30,
           "carbs": 70,
           "fat": 22,
-          "category": "menu",
-          "isPopular": false,
+          "category": "popular",
+          "isPopular": true,
           "isOffer": false,
           "offerPrice": null,
+          "isCombo": false,
+          "offerKind": null,
+          "comboIncludes": [],
           "spicyOption": false,
           "cashbackPercent": null,
           "addons": [
@@ -505,10 +508,7 @@
               "name": "سلطة صغيرة",
               "price": 8
             }
-          ],
-          "isCombo": false,
-          "comboIncludes": [],
-          "offerKind": null
+          ]
         },
         {
           "id": "nar-aljamar-offer-1",
@@ -568,7 +568,7 @@
           "id": "nar-aljamar-offer-2",
           "restaurantId": "nar-aljamar",
           "name": "وجبة عائلية مشاوي لـ 5 أشخاص",
-          "description": "5 صحن مشاوي مع إضافات ومشروبات. تكفي 5 أشخاص.",
+          "description": "5 صحن مشاوي مع حمص وخبز وبطاطس. تكفي 5 أشخاص.",
           "image": "https://images.unsplash.com/photo-1555939594-58d7cb561ad1?w=800&q=80",
           "price": 118,
           "rating": 4.6,
@@ -679,13 +679,13 @@
       "id": "shawaya-alqasr",
       "name": "شواية القصر",
       "image": "https://images.unsplash.com/photo-1555939594-58d7cb561ad1?w=800&q=80",
-      "rating": 4.3,
+      "rating": 4.4,
       "cuisine": "مشاوي",
-      "deliveryTime": "20–30 د",
-      "deliveryFee": 10,
-      "minOrder": 40,
-      "distanceKm": 0.9,
-      "verified": true,
+      "deliveryTime": "40–55 د",
+      "deliveryFee": 5,
+      "minOrder": 25,
+      "distanceKm": 4.2,
+      "verified": null,
       "tags": [
         "مشاوي",
         "لحوم",
@@ -702,15 +702,18 @@
           "description": "تشكيلة لحم ودجاج وكباب مع أرز.",
           "image": "https://images.unsplash.com/photo-1555939594-58d7cb561ad1?w=800&q=80",
           "price": 66,
-          "rating": 4.6,
+          "rating": 4.4,
           "calories": 840,
           "protein": 50,
           "carbs": 58,
           "fat": 40,
-          "category": "menu",
-          "isPopular": false,
+          "category": "popular",
+          "isPopular": true,
           "isOffer": false,
           "offerPrice": null,
+          "isCombo": false,
+          "offerKind": null,
+          "comboIncludes": [],
           "spicyOption": true,
           "cashbackPercent": null,
           "addons": [
@@ -739,10 +742,7 @@
               "name": "سلطة صغيرة",
               "price": 8
             }
-          ],
-          "isCombo": false,
-          "comboIncludes": [],
-          "offerKind": null
+          ]
         },
         {
           "id": "shawaya-alqasr-2",
@@ -751,7 +751,7 @@
           "description": "ريش غنم على الفحم مع طحينة.",
           "image": "https://images.unsplash.com/photo-1529692236671-f1f6cf9683ba?w=800&q=80",
           "price": 62,
-          "rating": 4.3,
+          "rating": 4.8,
           "calories": 720,
           "protein": 54,
           "carbs": 10,
@@ -760,6 +760,9 @@
           "isPopular": false,
           "isOffer": false,
           "offerPrice": null,
+          "isCombo": false,
+          "offerKind": null,
+          "comboIncludes": [],
           "spicyOption": true,
           "cashbackPercent": null,
           "addons": [
@@ -788,10 +791,7 @@
               "name": "سلطة صغيرة",
               "price": 8
             }
-          ],
-          "isCombo": false,
-          "comboIncludes": [],
-          "offerKind": null
+          ]
         },
         {
           "id": "shawaya-alqasr-3",
@@ -800,15 +800,18 @@
           "description": "قطع دجاج متبلة مشوية.",
           "image": "https://images.unsplash.com/photo-1598103442097-8b74394b95c6?w=800&q=80",
           "price": 48,
-          "rating": 4.2,
+          "rating": 4.1,
           "calories": 480,
           "protein": 42,
           "carbs": 18,
           "fat": 22,
-          "category": "popular",
-          "isPopular": true,
+          "category": "menu",
+          "isPopular": false,
           "isOffer": false,
           "offerPrice": null,
+          "isCombo": false,
+          "offerKind": null,
+          "comboIncludes": [],
           "spicyOption": true,
           "cashbackPercent": null,
           "addons": [
@@ -837,10 +840,7 @@
               "name": "سلطة صغيرة",
               "price": 8
             }
-          ],
-          "isCombo": false,
-          "comboIncludes": [],
-          "offerKind": null
+          ]
         },
         {
           "id": "shawaya-alqasr-4",
@@ -849,7 +849,7 @@
           "description": "كباب لحم بقري مع بصل مشوي.",
           "image": "https://images.unsplash.com/photo-1603360946369-dc9bb6258143?w=800&q=80",
           "price": 55,
-          "rating": 4.3,
+          "rating": 4.9,
           "calories": 610,
           "protein": 38,
           "carbs": 20,
@@ -858,6 +858,9 @@
           "isPopular": false,
           "isOffer": false,
           "offerPrice": null,
+          "isCombo": false,
+          "offerKind": null,
+          "comboIncludes": [],
           "spicyOption": true,
           "cashbackPercent": null,
           "addons": [
@@ -886,10 +889,7 @@
               "name": "سلطة صغيرة",
               "price": 8
             }
-          ],
-          "isCombo": false,
-          "comboIncludes": [],
-          "offerKind": null
+          ]
         },
         {
           "id": "shawaya-alqasr-5",
@@ -898,15 +898,18 @@
           "description": "دجاجة كاملة متبلة على الفحم.",
           "image": "https://images.unsplash.com/photo-1598103442097-8b74394b95c6?w=800&q=80",
           "price": 62,
-          "rating": 4.6,
+          "rating": 4.3,
           "calories": 780,
           "protein": 55,
           "carbs": 8,
           "fat": 48,
-          "category": "popular",
-          "isPopular": true,
+          "category": "menu",
+          "isPopular": false,
           "isOffer": false,
           "offerPrice": null,
+          "isCombo": false,
+          "offerKind": null,
+          "comboIncludes": [],
           "spicyOption": true,
           "cashbackPercent": null,
           "addons": [
@@ -935,10 +938,7 @@
               "name": "سلطة صغيرة",
               "price": 8
             }
-          ],
-          "isCombo": false,
-          "comboIncludes": [],
-          "offerKind": null
+          ]
         },
         {
           "id": "shawaya-alqasr-6",
@@ -947,7 +947,7 @@
           "description": "عجينة رقيقة مع لحم مفروم.",
           "image": "https://images.unsplash.com/photo-1598103442097-8b74394b95c6?w=800&q=80",
           "price": 38,
-          "rating": 4.4,
+          "rating": 4.6,
           "calories": 520,
           "protein": 22,
           "carbs": 48,
@@ -956,6 +956,9 @@
           "isPopular": false,
           "isOffer": false,
           "offerPrice": null,
+          "isCombo": false,
+          "offerKind": null,
+          "comboIncludes": [],
           "spicyOption": false,
           "cashbackPercent": null,
           "addons": [
@@ -984,10 +987,7 @@
               "name": "سلطة صغيرة",
               "price": 8
             }
-          ],
-          "isCombo": false,
-          "comboIncludes": [],
-          "offerKind": null
+          ]
         },
         {
           "id": "shawaya-alqasr-7",
@@ -996,15 +996,18 @@
           "description": "نقانق بقري مع خضار مشوية.",
           "image": "https://images.unsplash.com/photo-1598103442097-8b74394b95c6?w=800&q=80",
           "price": 42,
-          "rating": 4.4,
+          "rating": 4.5,
           "calories": 560,
           "protein": 28,
           "carbs": 15,
           "fat": 38,
-          "category": "menu",
-          "isPopular": false,
+          "category": "popular",
+          "isPopular": true,
           "isOffer": false,
           "offerPrice": null,
+          "isCombo": false,
+          "offerKind": null,
+          "comboIncludes": [],
           "spicyOption": true,
           "cashbackPercent": null,
           "addons": [
@@ -1033,10 +1036,7 @@
               "name": "سلطة صغيرة",
               "price": 8
             }
-          ],
-          "isCombo": false,
-          "comboIncludes": [],
-          "offerKind": null
+          ]
         },
         {
           "id": "shawaya-alqasr-8",
@@ -1045,15 +1045,18 @@
           "description": "كبدة غنم مع ثوم وليمون.",
           "image": "https://images.unsplash.com/photo-1598103442097-8b74394b95c6?w=800&q=80",
           "price": 36,
-          "rating": 4.9,
+          "rating": 4.2,
           "calories": 390,
           "protein": 32,
           "carbs": 8,
           "fat": 22,
-          "category": "menu",
-          "isPopular": false,
+          "category": "popular",
+          "isPopular": true,
           "isOffer": false,
           "offerPrice": null,
+          "isCombo": false,
+          "offerKind": null,
+          "comboIncludes": [],
           "spicyOption": true,
           "cashbackPercent": null,
           "addons": [
@@ -1082,10 +1085,7 @@
               "name": "سلطة صغيرة",
               "price": 8
             }
-          ],
-          "isCombo": false,
-          "comboIncludes": [],
-          "offerKind": null
+          ]
         },
         {
           "id": "shawaya-alqasr-9",
@@ -1094,15 +1094,18 @@
           "description": "تشكيلة كبيرة تكفي ٤ أشخاص.",
           "image": "https://images.unsplash.com/photo-1555939594-58d7cb561ad1?w=800&q=80",
           "price": 62,
-          "rating": 4.9,
+          "rating": 4.5,
           "calories": 1600,
           "protein": 95,
           "carbs": 90,
           "fat": 85,
-          "category": "menu",
-          "isPopular": false,
+          "category": "popular",
+          "isPopular": true,
           "isOffer": false,
           "offerPrice": null,
+          "isCombo": false,
+          "offerKind": null,
+          "comboIncludes": [],
           "spicyOption": true,
           "cashbackPercent": null,
           "addons": [
@@ -1131,10 +1134,7 @@
               "name": "سلطة صغيرة",
               "price": 8
             }
-          ],
-          "isCombo": false,
-          "comboIncludes": [],
-          "offerKind": null
+          ]
         },
         {
           "id": "shawaya-alqasr-10",
@@ -1143,7 +1143,7 @@
           "description": "أرز بخاري مع قطع لحم طرية.",
           "image": "https://images.unsplash.com/photo-1555939594-58d7cb561ad1?w=800&q=80",
           "price": 44,
-          "rating": 4.6,
+          "rating": 4.4,
           "calories": 680,
           "protein": 30,
           "carbs": 70,
@@ -1152,6 +1152,9 @@
           "isPopular": false,
           "isOffer": false,
           "offerPrice": null,
+          "isCombo": false,
+          "offerKind": null,
+          "comboIncludes": [],
           "spicyOption": false,
           "cashbackPercent": null,
           "addons": [
@@ -1180,10 +1183,7 @@
               "name": "سلطة صغيرة",
               "price": 8
             }
-          ],
-          "isCombo": false,
-          "comboIncludes": [],
-          "offerKind": null
+          ]
         },
         {
           "id": "shawaya-alqasr-offer-1",
@@ -1243,7 +1243,7 @@
           "id": "shawaya-alqasr-offer-2",
           "restaurantId": "shawaya-alqasr",
           "name": "وجبة عائلية مشاوي لـ 4 أشخاص",
-          "description": "4 صحن مشاوي مع إضافات ومشروبات. تكفي 4 أشخاص.",
+          "description": "4 صحن مشاوي مع حمص وخبز وبطاطس. تكفي 4 أشخاص.",
           "image": "https://images.unsplash.com/photo-1555939594-58d7cb561ad1?w=800&q=80",
           "price": 98,
           "rating": 4.6,
@@ -1354,12 +1354,12 @@
       "id": "lahm-wa-fahm",
       "name": "لحم وفحم",
       "image": "https://images.unsplash.com/photo-1544025162-d76694265947?w=800&q=80",
-      "rating": 4.3,
+      "rating": 4.8,
       "cuisine": "مشاوي",
-      "deliveryTime": "20–30 د",
-      "deliveryFee": 0,
-      "minOrder": 45,
-      "distanceKm": 0.9,
+      "deliveryTime": "25–35 د",
+      "deliveryFee": 12,
+      "minOrder": 40,
+      "distanceKm": 2.1,
       "verified": true,
       "tags": [
         "مشاوي",
@@ -1377,7 +1377,7 @@
           "description": "تشكيلة لحم ودجاج وكباب مع أرز.",
           "image": "https://images.unsplash.com/photo-1555939594-58d7cb561ad1?w=800&q=80",
           "price": 66,
-          "rating": 4.7,
+          "rating": 4.5,
           "calories": 840,
           "protein": 50,
           "carbs": 58,
@@ -1386,6 +1386,9 @@
           "isPopular": false,
           "isOffer": false,
           "offerPrice": null,
+          "isCombo": false,
+          "offerKind": null,
+          "comboIncludes": [],
           "spicyOption": true,
           "cashbackPercent": null,
           "addons": [
@@ -1414,10 +1417,7 @@
               "name": "سلطة صغيرة",
               "price": 8
             }
-          ],
-          "isCombo": false,
-          "comboIncludes": [],
-          "offerKind": null
+          ]
         },
         {
           "id": "lahm-wa-fahm-2",
@@ -1426,15 +1426,18 @@
           "description": "ريش غنم على الفحم مع طحينة.",
           "image": "https://images.unsplash.com/photo-1529692236671-f1f6cf9683ba?w=800&q=80",
           "price": 62,
-          "rating": 4.5,
+          "rating": 4.6,
           "calories": 720,
           "protein": 54,
           "carbs": 10,
           "fat": 50,
-          "category": "popular",
-          "isPopular": true,
+          "category": "menu",
+          "isPopular": false,
           "isOffer": false,
           "offerPrice": null,
+          "isCombo": false,
+          "offerKind": null,
+          "comboIncludes": [],
           "spicyOption": true,
           "cashbackPercent": null,
           "addons": [
@@ -1463,10 +1466,7 @@
               "name": "سلطة صغيرة",
               "price": 8
             }
-          ],
-          "isCombo": false,
-          "comboIncludes": [],
-          "offerKind": null
+          ]
         },
         {
           "id": "lahm-wa-fahm-3",
@@ -1475,7 +1475,7 @@
           "description": "قطع دجاج متبلة مشوية.",
           "image": "https://images.unsplash.com/photo-1555939594-58d7cb561ad1?w=800&q=80",
           "price": 48,
-          "rating": 4.4,
+          "rating": 4.5,
           "calories": 480,
           "protein": 42,
           "carbs": 18,
@@ -1484,6 +1484,9 @@
           "isPopular": false,
           "isOffer": false,
           "offerPrice": null,
+          "isCombo": false,
+          "offerKind": null,
+          "comboIncludes": [],
           "spicyOption": true,
           "cashbackPercent": null,
           "addons": [
@@ -1512,10 +1515,7 @@
               "name": "سلطة صغيرة",
               "price": 8
             }
-          ],
-          "isCombo": false,
-          "comboIncludes": [],
-          "offerKind": null
+          ]
         },
         {
           "id": "lahm-wa-fahm-4",
@@ -1524,7 +1524,7 @@
           "description": "كباب لحم بقري مع بصل مشوي.",
           "image": "https://images.unsplash.com/photo-1603360946369-dc9bb6258143?w=800&q=80",
           "price": 55,
-          "rating": 4.6,
+          "rating": 4.3,
           "calories": 610,
           "protein": 38,
           "carbs": 20,
@@ -1533,6 +1533,9 @@
           "isPopular": false,
           "isOffer": false,
           "offerPrice": null,
+          "isCombo": false,
+          "offerKind": null,
+          "comboIncludes": [],
           "spicyOption": true,
           "cashbackPercent": null,
           "addons": [
@@ -1561,10 +1564,7 @@
               "name": "سلطة صغيرة",
               "price": 8
             }
-          ],
-          "isCombo": false,
-          "comboIncludes": [],
-          "offerKind": null
+          ]
         },
         {
           "id": "lahm-wa-fahm-5",
@@ -1573,7 +1573,7 @@
           "description": "دجاجة كاملة متبلة على الفحم.",
           "image": "https://images.unsplash.com/photo-1598103442097-8b74394b95c6?w=800&q=80",
           "price": 62,
-          "rating": 4.5,
+          "rating": 4.8,
           "calories": 780,
           "protein": 55,
           "carbs": 8,
@@ -1582,6 +1582,9 @@
           "isPopular": false,
           "isOffer": false,
           "offerPrice": null,
+          "isCombo": false,
+          "offerKind": null,
+          "comboIncludes": [],
           "spicyOption": true,
           "cashbackPercent": null,
           "addons": [
@@ -1610,10 +1613,7 @@
               "name": "سلطة صغيرة",
               "price": 8
             }
-          ],
-          "isCombo": false,
-          "comboIncludes": [],
-          "offerKind": null
+          ]
         },
         {
           "id": "lahm-wa-fahm-6",
@@ -1622,15 +1622,18 @@
           "description": "عجينة رقيقة مع لحم مفروم.",
           "image": "https://images.unsplash.com/photo-1603360946369-dc9bb6258143?w=800&q=80",
           "price": 38,
-          "rating": 4.6,
+          "rating": 4.7,
           "calories": 520,
           "protein": 22,
           "carbs": 48,
           "fat": 24,
-          "category": "menu",
-          "isPopular": false,
+          "category": "popular",
+          "isPopular": true,
           "isOffer": false,
           "offerPrice": null,
+          "isCombo": false,
+          "offerKind": null,
+          "comboIncludes": [],
           "spicyOption": false,
           "cashbackPercent": null,
           "addons": [
@@ -1659,10 +1662,7 @@
               "name": "سلطة صغيرة",
               "price": 8
             }
-          ],
-          "isCombo": false,
-          "comboIncludes": [],
-          "offerKind": null
+          ]
         },
         {
           "id": "lahm-wa-fahm-7",
@@ -1671,15 +1671,18 @@
           "description": "نقانق بقري مع خضار مشوية.",
           "image": "https://images.unsplash.com/photo-1555939594-58d7cb561ad1?w=800&q=80",
           "price": 42,
-          "rating": 4.4,
+          "rating": 4.3,
           "calories": 560,
           "protein": 28,
           "carbs": 15,
           "fat": 38,
-          "category": "menu",
-          "isPopular": false,
+          "category": "popular",
+          "isPopular": true,
           "isOffer": false,
           "offerPrice": null,
+          "isCombo": false,
+          "offerKind": null,
+          "comboIncludes": [],
           "spicyOption": true,
           "cashbackPercent": null,
           "addons": [
@@ -1708,10 +1711,7 @@
               "name": "سلطة صغيرة",
               "price": 8
             }
-          ],
-          "isCombo": false,
-          "comboIncludes": [],
-          "offerKind": null
+          ]
         },
         {
           "id": "lahm-wa-fahm-8",
@@ -1720,7 +1720,7 @@
           "description": "كبدة غنم مع ثوم وليمون.",
           "image": "https://images.unsplash.com/photo-1603360946369-dc9bb6258143?w=800&q=80",
           "price": 36,
-          "rating": 4.5,
+          "rating": 4.7,
           "calories": 390,
           "protein": 32,
           "carbs": 8,
@@ -1729,6 +1729,9 @@
           "isPopular": true,
           "isOffer": false,
           "offerPrice": null,
+          "isCombo": false,
+          "offerKind": null,
+          "comboIncludes": [],
           "spicyOption": true,
           "cashbackPercent": null,
           "addons": [
@@ -1757,10 +1760,7 @@
               "name": "سلطة صغيرة",
               "price": 8
             }
-          ],
-          "isCombo": false,
-          "comboIncludes": [],
-          "offerKind": null
+          ]
         },
         {
           "id": "lahm-wa-fahm-9",
@@ -1769,7 +1769,7 @@
           "description": "تشكيلة كبيرة تكفي ٤ أشخاص.",
           "image": "https://images.unsplash.com/photo-1555939594-58d7cb561ad1?w=800&q=80",
           "price": 62,
-          "rating": 4.2,
+          "rating": 4.4,
           "calories": 1600,
           "protein": 95,
           "carbs": 90,
@@ -1778,6 +1778,9 @@
           "isPopular": false,
           "isOffer": false,
           "offerPrice": null,
+          "isCombo": false,
+          "offerKind": null,
+          "comboIncludes": [],
           "spicyOption": true,
           "cashbackPercent": null,
           "addons": [
@@ -1806,10 +1809,7 @@
               "name": "سلطة صغيرة",
               "price": 8
             }
-          ],
-          "isCombo": false,
-          "comboIncludes": [],
-          "offerKind": null
+          ]
         },
         {
           "id": "lahm-wa-fahm-10",
@@ -1818,15 +1818,18 @@
           "description": "أرز بخاري مع قطع لحم طرية.",
           "image": "https://images.unsplash.com/photo-1529692236671-f1f6cf9683ba?w=800&q=80",
           "price": 44,
-          "rating": 4.3,
+          "rating": 4.5,
           "calories": 680,
           "protein": 30,
           "carbs": 70,
           "fat": 22,
-          "category": "menu",
-          "isPopular": false,
+          "category": "popular",
+          "isPopular": true,
           "isOffer": false,
           "offerPrice": null,
+          "isCombo": false,
+          "offerKind": null,
+          "comboIncludes": [],
           "spicyOption": false,
           "cashbackPercent": null,
           "addons": [
@@ -1855,10 +1858,7 @@
               "name": "سلطة صغيرة",
               "price": 8
             }
-          ],
-          "isCombo": false,
-          "comboIncludes": [],
-          "offerKind": null
+          ]
         },
         {
           "id": "lahm-wa-fahm-offer-1",
@@ -1918,7 +1918,7 @@
           "id": "lahm-wa-fahm-offer-2",
           "restaurantId": "lahm-wa-fahm",
           "name": "وجبة عائلية مشاوي لـ 3 أشخاص",
-          "description": "3 صحن مشاوي مع إضافات ومشروبات. تكفي 3 أشخاص.",
+          "description": "3 صحن مشاوي مع حمص وخبز وبطاطس. تكفي 3 أشخاص.",
           "image": "https://images.unsplash.com/photo-1555939594-58d7cb561ad1?w=800&q=80",
           "price": 78,
           "rating": 4.6,
@@ -2029,20 +2029,20 @@
       "id": "majalis-almashawi",
       "name": "مجالس المشاوي",
       "image": "https://images.unsplash.com/photo-1555939594-58d7cb561ad1?w=800&q=80",
-      "rating": 4.6,
+      "rating": 4.5,
       "cuisine": "مشاوي",
-      "deliveryTime": "20–30 د",
-      "deliveryFee": 12,
+      "deliveryTime": "35–50 د",
+      "deliveryFee": 8,
       "minOrder": 40,
-      "distanceKm": 2.2,
-      "verified": null,
+      "distanceKm": 1.3,
+      "verified": true,
       "tags": [
         "مشاوي",
         "لحوم",
         "فحم"
       ],
-      "featured": null,
-      "open24h": true,
+      "featured": true,
+      "open24h": null,
       "fastDelivery": null,
       "meals": [
         {
@@ -2052,15 +2052,18 @@
           "description": "تشكيلة لحم ودجاج وكباب مع أرز.",
           "image": "https://images.unsplash.com/photo-1555939594-58d7cb561ad1?w=800&q=80",
           "price": 66,
-          "rating": 4.3,
+          "rating": 4.9,
           "calories": 840,
           "protein": 50,
           "carbs": 58,
           "fat": 40,
-          "category": "popular",
-          "isPopular": true,
+          "category": "menu",
+          "isPopular": false,
           "isOffer": false,
           "offerPrice": null,
+          "isCombo": false,
+          "offerKind": null,
+          "comboIncludes": [],
           "spicyOption": true,
           "cashbackPercent": null,
           "addons": [
@@ -2089,10 +2092,7 @@
               "name": "سلطة صغيرة",
               "price": 8
             }
-          ],
-          "isCombo": false,
-          "comboIncludes": [],
-          "offerKind": null
+          ]
         },
         {
           "id": "majalis-almashawi-2",
@@ -2101,15 +2101,18 @@
           "description": "ريش غنم على الفحم مع طحينة.",
           "image": "https://images.unsplash.com/photo-1529692236671-f1f6cf9683ba?w=800&q=80",
           "price": 62,
-          "rating": 4.1,
+          "rating": 4.6,
           "calories": 720,
           "protein": 54,
           "carbs": 10,
           "fat": 50,
-          "category": "popular",
-          "isPopular": true,
+          "category": "menu",
+          "isPopular": false,
           "isOffer": false,
           "offerPrice": null,
+          "isCombo": false,
+          "offerKind": null,
+          "comboIncludes": [],
           "spicyOption": true,
           "cashbackPercent": null,
           "addons": [
@@ -2138,10 +2141,7 @@
               "name": "سلطة صغيرة",
               "price": 8
             }
-          ],
-          "isCombo": false,
-          "comboIncludes": [],
-          "offerKind": null
+          ]
         },
         {
           "id": "majalis-almashawi-3",
@@ -2150,15 +2150,18 @@
           "description": "قطع دجاج متبلة مشوية.",
           "image": "https://images.unsplash.com/photo-1529692236671-f1f6cf9683ba?w=800&q=80",
           "price": 48,
-          "rating": 4.8,
+          "rating": 4.6,
           "calories": 480,
           "protein": 42,
           "carbs": 18,
           "fat": 22,
-          "category": "popular",
-          "isPopular": true,
+          "category": "menu",
+          "isPopular": false,
           "isOffer": false,
           "offerPrice": null,
+          "isCombo": false,
+          "offerKind": null,
+          "comboIncludes": [],
           "spicyOption": true,
           "cashbackPercent": null,
           "addons": [
@@ -2187,10 +2190,7 @@
               "name": "سلطة صغيرة",
               "price": 8
             }
-          ],
-          "isCombo": false,
-          "comboIncludes": [],
-          "offerKind": null
+          ]
         },
         {
           "id": "majalis-almashawi-4",
@@ -2199,7 +2199,7 @@
           "description": "كباب لحم بقري مع بصل مشوي.",
           "image": "https://images.unsplash.com/photo-1603360946369-dc9bb6258143?w=800&q=80",
           "price": 55,
-          "rating": 4.2,
+          "rating": 4.3,
           "calories": 610,
           "protein": 38,
           "carbs": 20,
@@ -2208,6 +2208,9 @@
           "isPopular": true,
           "isOffer": false,
           "offerPrice": null,
+          "isCombo": false,
+          "offerKind": null,
+          "comboIncludes": [],
           "spicyOption": true,
           "cashbackPercent": null,
           "addons": [
@@ -2236,10 +2239,7 @@
               "name": "سلطة صغيرة",
               "price": 8
             }
-          ],
-          "isCombo": false,
-          "comboIncludes": [],
-          "offerKind": null
+          ]
         },
         {
           "id": "majalis-almashawi-5",
@@ -2248,7 +2248,7 @@
           "description": "دجاجة كاملة متبلة على الفحم.",
           "image": "https://images.unsplash.com/photo-1598103442097-8b74394b95c6?w=800&q=80",
           "price": 62,
-          "rating": 4.4,
+          "rating": 4.2,
           "calories": 780,
           "protein": 55,
           "carbs": 8,
@@ -2257,6 +2257,9 @@
           "isPopular": false,
           "isOffer": false,
           "offerPrice": null,
+          "isCombo": false,
+          "offerKind": null,
+          "comboIncludes": [],
           "spicyOption": true,
           "cashbackPercent": null,
           "addons": [
@@ -2285,10 +2288,7 @@
               "name": "سلطة صغيرة",
               "price": 8
             }
-          ],
-          "isCombo": false,
-          "comboIncludes": [],
-          "offerKind": null
+          ]
         },
         {
           "id": "majalis-almashawi-6",
@@ -2297,7 +2297,7 @@
           "description": "عجينة رقيقة مع لحم مفروم.",
           "image": "https://images.unsplash.com/photo-1598103442097-8b74394b95c6?w=800&q=80",
           "price": 38,
-          "rating": 4.5,
+          "rating": 4.7,
           "calories": 520,
           "protein": 22,
           "carbs": 48,
@@ -2306,6 +2306,9 @@
           "isPopular": false,
           "isOffer": false,
           "offerPrice": null,
+          "isCombo": false,
+          "offerKind": null,
+          "comboIncludes": [],
           "spicyOption": false,
           "cashbackPercent": null,
           "addons": [
@@ -2334,10 +2337,7 @@
               "name": "سلطة صغيرة",
               "price": 8
             }
-          ],
-          "isCombo": false,
-          "comboIncludes": [],
-          "offerKind": null
+          ]
         },
         {
           "id": "majalis-almashawi-7",
@@ -2346,15 +2346,18 @@
           "description": "نقانق بقري مع خضار مشوية.",
           "image": "https://images.unsplash.com/photo-1529692236671-f1f6cf9683ba?w=800&q=80",
           "price": 42,
-          "rating": 4.3,
+          "rating": 4.5,
           "calories": 560,
           "protein": 28,
           "carbs": 15,
           "fat": 38,
-          "category": "popular",
-          "isPopular": true,
+          "category": "menu",
+          "isPopular": false,
           "isOffer": false,
           "offerPrice": null,
+          "isCombo": false,
+          "offerKind": null,
+          "comboIncludes": [],
           "spicyOption": true,
           "cashbackPercent": null,
           "addons": [
@@ -2383,10 +2386,7 @@
               "name": "سلطة صغيرة",
               "price": 8
             }
-          ],
-          "isCombo": false,
-          "comboIncludes": [],
-          "offerKind": null
+          ]
         },
         {
           "id": "majalis-almashawi-8",
@@ -2395,15 +2395,18 @@
           "description": "كبدة غنم مع ثوم وليمون.",
           "image": "https://images.unsplash.com/photo-1598103442097-8b74394b95c6?w=800&q=80",
           "price": 36,
-          "rating": 4.9,
+          "rating": 4.4,
           "calories": 390,
           "protein": 32,
           "carbs": 8,
           "fat": 22,
-          "category": "popular",
-          "isPopular": true,
+          "category": "menu",
+          "isPopular": false,
           "isOffer": false,
           "offerPrice": null,
+          "isCombo": false,
+          "offerKind": null,
+          "comboIncludes": [],
           "spicyOption": true,
           "cashbackPercent": null,
           "addons": [
@@ -2432,10 +2435,7 @@
               "name": "سلطة صغيرة",
               "price": 8
             }
-          ],
-          "isCombo": false,
-          "comboIncludes": [],
-          "offerKind": null
+          ]
         },
         {
           "id": "majalis-almashawi-9",
@@ -2444,7 +2444,7 @@
           "description": "تشكيلة كبيرة تكفي ٤ أشخاص.",
           "image": "https://images.unsplash.com/photo-1555939594-58d7cb561ad1?w=800&q=80",
           "price": 62,
-          "rating": 4.4,
+          "rating": 4.8,
           "calories": 1600,
           "protein": 95,
           "carbs": 90,
@@ -2453,6 +2453,9 @@
           "isPopular": false,
           "isOffer": false,
           "offerPrice": null,
+          "isCombo": false,
+          "offerKind": null,
+          "comboIncludes": [],
           "spicyOption": true,
           "cashbackPercent": null,
           "addons": [
@@ -2481,10 +2484,7 @@
               "name": "سلطة صغيرة",
               "price": 8
             }
-          ],
-          "isCombo": false,
-          "comboIncludes": [],
-          "offerKind": null
+          ]
         },
         {
           "id": "majalis-almashawi-10",
@@ -2493,15 +2493,18 @@
           "description": "أرز بخاري مع قطع لحم طرية.",
           "image": "https://images.unsplash.com/photo-1603360946369-dc9bb6258143?w=800&q=80",
           "price": 44,
-          "rating": 4.6,
+          "rating": 4.4,
           "calories": 680,
           "protein": 30,
           "carbs": 70,
           "fat": 22,
-          "category": "menu",
-          "isPopular": false,
+          "category": "popular",
+          "isPopular": true,
           "isOffer": false,
           "offerPrice": null,
+          "isCombo": false,
+          "offerKind": null,
+          "comboIncludes": [],
           "spicyOption": false,
           "cashbackPercent": null,
           "addons": [
@@ -2530,10 +2533,7 @@
               "name": "سلطة صغيرة",
               "price": 8
             }
-          ],
-          "isCombo": false,
-          "comboIncludes": [],
-          "offerKind": null
+          ]
         },
         {
           "id": "majalis-almashawi-offer-1",
@@ -2593,7 +2593,7 @@
           "id": "majalis-almashawi-offer-2",
           "restaurantId": "majalis-almashawi",
           "name": "وجبة عائلية مشاوي لـ 4 أشخاص",
-          "description": "4 صحن مشاوي مع إضافات ومشروبات. تكفي 4 أشخاص.",
+          "description": "4 صحن مشاوي مع حمص وخبز وبطاطس. تكفي 4 أشخاص.",
           "image": "https://images.unsplash.com/photo-1555939594-58d7cb561ad1?w=800&q=80",
           "price": 98,
           "rating": 4.6,
@@ -2704,13 +2704,13 @@
       "id": "dukhan-house",
       "name": "بيت الدخان",
       "image": "https://images.unsplash.com/photo-1555939594-58d7cb561ad1?w=800&q=80",
-      "rating": 4.8,
+      "rating": 4.2,
       "cuisine": "مشاوي",
-      "deliveryTime": "35–50 د",
-      "deliveryFee": 10,
-      "minOrder": 50,
-      "distanceKm": 4.4,
-      "verified": true,
+      "deliveryTime": "20–30 د",
+      "deliveryFee": 0,
+      "minOrder": 45,
+      "distanceKm": 3.8,
+      "verified": null,
       "tags": [
         "مشاوي",
         "لحوم",
@@ -2718,7 +2718,7 @@
       ],
       "featured": null,
       "open24h": null,
-      "fastDelivery": true,
+      "fastDelivery": null,
       "meals": [
         {
           "id": "dukhan-house-1",
@@ -2727,15 +2727,18 @@
           "description": "تشكيلة لحم ودجاج وكباب مع أرز.",
           "image": "https://images.unsplash.com/photo-1555939594-58d7cb561ad1?w=800&q=80",
           "price": 66,
-          "rating": 4.1,
+          "rating": 4.4,
           "calories": 840,
           "protein": 50,
           "carbs": 58,
           "fat": 40,
-          "category": "menu",
-          "isPopular": false,
+          "category": "popular",
+          "isPopular": true,
           "isOffer": false,
           "offerPrice": null,
+          "isCombo": false,
+          "offerKind": null,
+          "comboIncludes": [],
           "spicyOption": true,
           "cashbackPercent": null,
           "addons": [
@@ -2764,10 +2767,7 @@
               "name": "سلطة صغيرة",
               "price": 8
             }
-          ],
-          "isCombo": false,
-          "comboIncludes": [],
-          "offerKind": null
+          ]
         },
         {
           "id": "dukhan-house-2",
@@ -2781,10 +2781,13 @@
           "protein": 54,
           "carbs": 10,
           "fat": 50,
-          "category": "popular",
-          "isPopular": true,
+          "category": "menu",
+          "isPopular": false,
           "isOffer": false,
           "offerPrice": null,
+          "isCombo": false,
+          "offerKind": null,
+          "comboIncludes": [],
           "spicyOption": true,
           "cashbackPercent": null,
           "addons": [
@@ -2813,10 +2816,7 @@
               "name": "سلطة صغيرة",
               "price": 8
             }
-          ],
-          "isCombo": false,
-          "comboIncludes": [],
-          "offerKind": null
+          ]
         },
         {
           "id": "dukhan-house-3",
@@ -2825,15 +2825,18 @@
           "description": "قطع دجاج متبلة مشوية.",
           "image": "https://images.unsplash.com/photo-1603360946369-dc9bb6258143?w=800&q=80",
           "price": 48,
-          "rating": 4.6,
+          "rating": 4.3,
           "calories": 480,
           "protein": 42,
           "carbs": 18,
           "fat": 22,
-          "category": "menu",
-          "isPopular": false,
+          "category": "popular",
+          "isPopular": true,
           "isOffer": false,
           "offerPrice": null,
+          "isCombo": false,
+          "offerKind": null,
+          "comboIncludes": [],
           "spicyOption": true,
           "cashbackPercent": null,
           "addons": [
@@ -2862,10 +2865,7 @@
               "name": "سلطة صغيرة",
               "price": 8
             }
-          ],
-          "isCombo": false,
-          "comboIncludes": [],
-          "offerKind": null
+          ]
         },
         {
           "id": "dukhan-house-4",
@@ -2874,15 +2874,18 @@
           "description": "كباب لحم بقري مع بصل مشوي.",
           "image": "https://images.unsplash.com/photo-1603360946369-dc9bb6258143?w=800&q=80",
           "price": 55,
-          "rating": 4.8,
+          "rating": 4.5,
           "calories": 610,
           "protein": 38,
           "carbs": 20,
           "fat": 36,
-          "category": "popular",
-          "isPopular": true,
+          "category": "menu",
+          "isPopular": false,
           "isOffer": false,
           "offerPrice": null,
+          "isCombo": false,
+          "offerKind": null,
+          "comboIncludes": [],
           "spicyOption": true,
           "cashbackPercent": null,
           "addons": [
@@ -2911,10 +2914,7 @@
               "name": "سلطة صغيرة",
               "price": 8
             }
-          ],
-          "isCombo": false,
-          "comboIncludes": [],
-          "offerKind": null
+          ]
         },
         {
           "id": "dukhan-house-5",
@@ -2928,10 +2928,13 @@
           "protein": 55,
           "carbs": 8,
           "fat": 48,
-          "category": "menu",
-          "isPopular": false,
+          "category": "popular",
+          "isPopular": true,
           "isOffer": false,
           "offerPrice": null,
+          "isCombo": false,
+          "offerKind": null,
+          "comboIncludes": [],
           "spicyOption": true,
           "cashbackPercent": null,
           "addons": [
@@ -2960,10 +2963,7 @@
               "name": "سلطة صغيرة",
               "price": 8
             }
-          ],
-          "isCombo": false,
-          "comboIncludes": [],
-          "offerKind": null
+          ]
         },
         {
           "id": "dukhan-house-6",
@@ -2972,15 +2972,18 @@
           "description": "عجينة رقيقة مع لحم مفروم.",
           "image": "https://images.unsplash.com/photo-1603360946369-dc9bb6258143?w=800&q=80",
           "price": 38,
-          "rating": 4.2,
+          "rating": 4.6,
           "calories": 520,
           "protein": 22,
           "carbs": 48,
           "fat": 24,
-          "category": "popular",
-          "isPopular": true,
+          "category": "menu",
+          "isPopular": false,
           "isOffer": false,
           "offerPrice": null,
+          "isCombo": false,
+          "offerKind": null,
+          "comboIncludes": [],
           "spicyOption": false,
           "cashbackPercent": null,
           "addons": [
@@ -3009,10 +3012,7 @@
               "name": "سلطة صغيرة",
               "price": 8
             }
-          ],
-          "isCombo": false,
-          "comboIncludes": [],
-          "offerKind": null
+          ]
         },
         {
           "id": "dukhan-house-7",
@@ -3021,15 +3021,18 @@
           "description": "نقانق بقري مع خضار مشوية.",
           "image": "https://images.unsplash.com/photo-1603360946369-dc9bb6258143?w=800&q=80",
           "price": 42,
-          "rating": 4.3,
+          "rating": 4.7,
           "calories": 560,
           "protein": 28,
           "carbs": 15,
           "fat": 38,
-          "category": "menu",
-          "isPopular": false,
+          "category": "popular",
+          "isPopular": true,
           "isOffer": false,
           "offerPrice": null,
+          "isCombo": false,
+          "offerKind": null,
+          "comboIncludes": [],
           "spicyOption": true,
           "cashbackPercent": null,
           "addons": [
@@ -3058,10 +3061,7 @@
               "name": "سلطة صغيرة",
               "price": 8
             }
-          ],
-          "isCombo": false,
-          "comboIncludes": [],
-          "offerKind": null
+          ]
         },
         {
           "id": "dukhan-house-8",
@@ -3070,7 +3070,7 @@
           "description": "كبدة غنم مع ثوم وليمون.",
           "image": "https://images.unsplash.com/photo-1603360946369-dc9bb6258143?w=800&q=80",
           "price": 36,
-          "rating": 4.8,
+          "rating": 4.4,
           "calories": 390,
           "protein": 32,
           "carbs": 8,
@@ -3079,55 +3079,9 @@
           "isPopular": false,
           "isOffer": false,
           "offerPrice": null,
-          "spicyOption": true,
-          "cashbackPercent": 5,
-          "addons": [
-            {
-              "id": "garlic-sauce",
-              "name": "صوص ثوم",
-              "price": 3
-            },
-            {
-              "id": "pickles",
-              "name": "مخلل",
-              "price": 3
-            },
-            {
-              "id": "extra-rice",
-              "name": "أرز إضافي",
-              "price": 6
-            },
-            {
-              "id": "cola",
-              "name": "كولا",
-              "price": 6
-            },
-            {
-              "id": "side-salad",
-              "name": "سلطة صغيرة",
-              "price": 8
-            }
-          ],
           "isCombo": false,
+          "offerKind": null,
           "comboIncludes": [],
-          "offerKind": null
-        },
-        {
-          "id": "dukhan-house-9",
-          "restaurantId": "dukhan-house",
-          "name": "صينية مشاوي عائلية",
-          "description": "تشكيلة كبيرة تكفي ٤ أشخاص.",
-          "image": "https://images.unsplash.com/photo-1555939594-58d7cb561ad1?w=800&q=80",
-          "price": 62,
-          "rating": 4.7,
-          "calories": 1600,
-          "protein": 95,
-          "carbs": 90,
-          "fat": 85,
-          "category": "menu",
-          "isPopular": false,
-          "isOffer": false,
-          "offerPrice": null,
           "spicyOption": true,
           "cashbackPercent": null,
           "addons": [
@@ -3156,10 +3110,56 @@
               "name": "سلطة صغيرة",
               "price": 8
             }
-          ],
+          ]
+        },
+        {
+          "id": "dukhan-house-9",
+          "restaurantId": "dukhan-house",
+          "name": "صينية مشاوي عائلية",
+          "description": "تشكيلة كبيرة تكفي ٤ أشخاص.",
+          "image": "https://images.unsplash.com/photo-1555939594-58d7cb561ad1?w=800&q=80",
+          "price": 62,
+          "rating": 4.3,
+          "calories": 1600,
+          "protein": 95,
+          "carbs": 90,
+          "fat": 85,
+          "category": "menu",
+          "isPopular": false,
+          "isOffer": false,
+          "offerPrice": null,
           "isCombo": false,
+          "offerKind": null,
           "comboIncludes": [],
-          "offerKind": null
+          "spicyOption": true,
+          "cashbackPercent": null,
+          "addons": [
+            {
+              "id": "garlic-sauce",
+              "name": "صوص ثوم",
+              "price": 3
+            },
+            {
+              "id": "pickles",
+              "name": "مخلل",
+              "price": 3
+            },
+            {
+              "id": "extra-rice",
+              "name": "أرز إضافي",
+              "price": 6
+            },
+            {
+              "id": "cola",
+              "name": "كولا",
+              "price": 6
+            },
+            {
+              "id": "side-salad",
+              "name": "سلطة صغيرة",
+              "price": 8
+            }
+          ]
         },
         {
           "id": "dukhan-house-10",
@@ -3168,15 +3168,18 @@
           "description": "أرز بخاري مع قطع لحم طرية.",
           "image": "https://images.unsplash.com/photo-1598103442097-8b74394b95c6?w=800&q=80",
           "price": 44,
-          "rating": 4.9,
+          "rating": 4.5,
           "calories": 680,
           "protein": 30,
           "carbs": 70,
           "fat": 22,
-          "category": "menu",
-          "isPopular": false,
+          "category": "popular",
+          "isPopular": true,
           "isOffer": false,
           "offerPrice": null,
+          "isCombo": false,
+          "offerKind": null,
+          "comboIncludes": [],
           "spicyOption": false,
           "cashbackPercent": null,
           "addons": [
@@ -3205,10 +3208,7 @@
               "name": "سلطة صغيرة",
               "price": 8
             }
-          ],
-          "isCombo": false,
-          "comboIncludes": [],
-          "offerKind": null
+          ]
         },
         {
           "id": "dukhan-house-offer-1",
@@ -3268,7 +3268,7 @@
           "id": "dukhan-house-offer-2",
           "restaurantId": "dukhan-house",
           "name": "وجبة عائلية مشاوي لـ 5 أشخاص",
-          "description": "5 صحن مشاوي مع إضافات ومشروبات. تكفي 5 أشخاص.",
+          "description": "5 صحن مشاوي مع حمص وخبز وبطاطس. تكفي 5 أشخاص.",
           "image": "https://images.unsplash.com/photo-1555939594-58d7cb561ad1?w=800&q=80",
           "price": 118,
           "rating": 4.6,
@@ -3379,12 +3379,12 @@
       "id": "kabab-alwadi",
       "name": "كباب الوادي",
       "image": "https://images.unsplash.com/photo-1544025162-d76694265947?w=800&q=80",
-      "rating": 4.6,
+      "rating": 4.7,
       "cuisine": "مشاوي",
-      "deliveryTime": "20–30 د",
-      "deliveryFee": 8,
-      "minOrder": 45,
-      "distanceKm": 5.2,
+      "deliveryTime": "40–55 د",
+      "deliveryFee": 0,
+      "minOrder": 25,
+      "distanceKm": 1.1,
       "verified": null,
       "tags": [
         "مشاوي",
@@ -3402,15 +3402,18 @@
           "description": "تشكيلة لحم ودجاج وكباب مع أرز.",
           "image": "https://images.unsplash.com/photo-1555939594-58d7cb561ad1?w=800&q=80",
           "price": 66,
-          "rating": 4.3,
+          "rating": 4.2,
           "calories": 840,
           "protein": 50,
           "carbs": 58,
           "fat": 40,
-          "category": "popular",
-          "isPopular": true,
+          "category": "menu",
+          "isPopular": false,
           "isOffer": false,
           "offerPrice": null,
+          "isCombo": false,
+          "offerKind": null,
+          "comboIncludes": [],
           "spicyOption": true,
           "cashbackPercent": null,
           "addons": [
@@ -3439,10 +3442,7 @@
               "name": "سلطة صغيرة",
               "price": 8
             }
-          ],
-          "isCombo": false,
-          "comboIncludes": [],
-          "offerKind": null
+          ]
         },
         {
           "id": "kabab-alwadi-2",
@@ -3451,7 +3451,7 @@
           "description": "ريش غنم على الفحم مع طحينة.",
           "image": "https://images.unsplash.com/photo-1529692236671-f1f6cf9683ba?w=800&q=80",
           "price": 62,
-          "rating": 4.7,
+          "rating": 4.8,
           "calories": 720,
           "protein": 54,
           "carbs": 10,
@@ -3460,6 +3460,9 @@
           "isPopular": false,
           "isOffer": false,
           "offerPrice": null,
+          "isCombo": false,
+          "offerKind": null,
+          "comboIncludes": [],
           "spicyOption": true,
           "cashbackPercent": null,
           "addons": [
@@ -3488,10 +3491,7 @@
               "name": "سلطة صغيرة",
               "price": 8
             }
-          ],
-          "isCombo": false,
-          "comboIncludes": [],
-          "offerKind": null
+          ]
         },
         {
           "id": "kabab-alwadi-3",
@@ -3500,15 +3500,18 @@
           "description": "قطع دجاج متبلة مشوية.",
           "image": "https://images.unsplash.com/photo-1603360946369-dc9bb6258143?w=800&q=80",
           "price": 48,
-          "rating": 4.9,
+          "rating": 4.3,
           "calories": 480,
           "protein": 42,
           "carbs": 18,
           "fat": 22,
-          "category": "popular",
-          "isPopular": true,
+          "category": "menu",
+          "isPopular": false,
           "isOffer": false,
           "offerPrice": null,
+          "isCombo": false,
+          "offerKind": null,
+          "comboIncludes": [],
           "spicyOption": true,
           "cashbackPercent": null,
           "addons": [
@@ -3537,10 +3540,7 @@
               "name": "سلطة صغيرة",
               "price": 8
             }
-          ],
-          "isCombo": false,
-          "comboIncludes": [],
-          "offerKind": null
+          ]
         },
         {
           "id": "kabab-alwadi-4",
@@ -3549,15 +3549,18 @@
           "description": "كباب لحم بقري مع بصل مشوي.",
           "image": "https://images.unsplash.com/photo-1603360946369-dc9bb6258143?w=800&q=80",
           "price": 55,
-          "rating": 4.7,
+          "rating": 4.2,
           "calories": 610,
           "protein": 38,
           "carbs": 20,
           "fat": 36,
-          "category": "popular",
-          "isPopular": true,
+          "category": "menu",
+          "isPopular": false,
           "isOffer": false,
           "offerPrice": null,
+          "isCombo": false,
+          "offerKind": null,
+          "comboIncludes": [],
           "spicyOption": true,
           "cashbackPercent": null,
           "addons": [
@@ -3586,10 +3589,7 @@
               "name": "سلطة صغيرة",
               "price": 8
             }
-          ],
-          "isCombo": false,
-          "comboIncludes": [],
-          "offerKind": null
+          ]
         },
         {
           "id": "kabab-alwadi-5",
@@ -3598,15 +3598,18 @@
           "description": "دجاجة كاملة متبلة على الفحم.",
           "image": "https://images.unsplash.com/photo-1598103442097-8b74394b95c6?w=800&q=80",
           "price": 62,
-          "rating": 4.1,
+          "rating": 4.3,
           "calories": 780,
           "protein": 55,
           "carbs": 8,
           "fat": 48,
-          "category": "menu",
-          "isPopular": false,
+          "category": "popular",
+          "isPopular": true,
           "isOffer": false,
           "offerPrice": null,
+          "isCombo": false,
+          "offerKind": null,
+          "comboIncludes": [],
           "spicyOption": true,
           "cashbackPercent": null,
           "addons": [
@@ -3635,10 +3638,7 @@
               "name": "سلطة صغيرة",
               "price": 8
             }
-          ],
-          "isCombo": false,
-          "comboIncludes": [],
-          "offerKind": null
+          ]
         },
         {
           "id": "kabab-alwadi-6",
@@ -3647,15 +3647,18 @@
           "description": "عجينة رقيقة مع لحم مفروم.",
           "image": "https://images.unsplash.com/photo-1555939594-58d7cb561ad1?w=800&q=80",
           "price": 38,
-          "rating": 4.7,
+          "rating": 4.6,
           "calories": 520,
           "protein": 22,
           "carbs": 48,
           "fat": 24,
-          "category": "popular",
-          "isPopular": true,
+          "category": "menu",
+          "isPopular": false,
           "isOffer": false,
           "offerPrice": null,
+          "isCombo": false,
+          "offerKind": null,
+          "comboIncludes": [],
           "spicyOption": false,
           "cashbackPercent": null,
           "addons": [
@@ -3684,10 +3687,7 @@
               "name": "سلطة صغيرة",
               "price": 8
             }
-          ],
-          "isCombo": false,
-          "comboIncludes": [],
-          "offerKind": null
+          ]
         },
         {
           "id": "kabab-alwadi-7",
@@ -3696,7 +3696,7 @@
           "description": "نقانق بقري مع خضار مشوية.",
           "image": "https://images.unsplash.com/photo-1603360946369-dc9bb6258143?w=800&q=80",
           "price": 42,
-          "rating": 4.6,
+          "rating": 4.3,
           "calories": 560,
           "protein": 28,
           "carbs": 15,
@@ -3705,6 +3705,9 @@
           "isPopular": false,
           "isOffer": false,
           "offerPrice": null,
+          "isCombo": false,
+          "offerKind": null,
+          "comboIncludes": [],
           "spicyOption": true,
           "cashbackPercent": null,
           "addons": [
@@ -3733,10 +3736,7 @@
               "name": "سلطة صغيرة",
               "price": 8
             }
-          ],
-          "isCombo": false,
-          "comboIncludes": [],
-          "offerKind": null
+          ]
         },
         {
           "id": "kabab-alwadi-8",
@@ -3745,17 +3745,20 @@
           "description": "كبدة غنم مع ثوم وليمون.",
           "image": "https://images.unsplash.com/photo-1555939594-58d7cb561ad1?w=800&q=80",
           "price": 36,
-          "rating": 4.6,
+          "rating": 4.9,
           "calories": 390,
           "protein": 32,
           "carbs": 8,
           "fat": 22,
-          "category": "menu",
-          "isPopular": false,
+          "category": "popular",
+          "isPopular": true,
           "isOffer": false,
           "offerPrice": null,
+          "isCombo": false,
+          "offerKind": null,
+          "comboIncludes": [],
           "spicyOption": true,
-          "cashbackPercent": 15,
+          "cashbackPercent": null,
           "addons": [
             {
               "id": "garlic-sauce",
@@ -3782,10 +3785,7 @@
               "name": "سلطة صغيرة",
               "price": 8
             }
-          ],
-          "isCombo": false,
-          "comboIncludes": [],
-          "offerKind": null
+          ]
         },
         {
           "id": "kabab-alwadi-9",
@@ -3794,7 +3794,7 @@
           "description": "تشكيلة كبيرة تكفي ٤ أشخاص.",
           "image": "https://images.unsplash.com/photo-1555939594-58d7cb561ad1?w=800&q=80",
           "price": 62,
-          "rating": 4.2,
+          "rating": 4.3,
           "calories": 1600,
           "protein": 95,
           "carbs": 90,
@@ -3803,8 +3803,11 @@
           "isPopular": false,
           "isOffer": false,
           "offerPrice": null,
+          "isCombo": false,
+          "offerKind": null,
+          "comboIncludes": [],
           "spicyOption": true,
-          "cashbackPercent": 15,
+          "cashbackPercent": null,
           "addons": [
             {
               "id": "garlic-sauce",
@@ -3831,10 +3834,7 @@
               "name": "سلطة صغيرة",
               "price": 8
             }
-          ],
-          "isCombo": false,
-          "comboIncludes": [],
-          "offerKind": null
+          ]
         },
         {
           "id": "kabab-alwadi-10",
@@ -3843,15 +3843,18 @@
           "description": "أرز بخاري مع قطع لحم طرية.",
           "image": "https://images.unsplash.com/photo-1598103442097-8b74394b95c6?w=800&q=80",
           "price": 44,
-          "rating": 4.6,
+          "rating": 4.8,
           "calories": 680,
           "protein": 30,
           "carbs": 70,
           "fat": 22,
-          "category": "popular",
-          "isPopular": true,
+          "category": "menu",
+          "isPopular": false,
           "isOffer": false,
           "offerPrice": null,
+          "isCombo": false,
+          "offerKind": null,
+          "comboIncludes": [],
           "spicyOption": false,
           "cashbackPercent": null,
           "addons": [
@@ -3880,10 +3883,7 @@
               "name": "سلطة صغيرة",
               "price": 8
             }
-          ],
-          "isCombo": false,
-          "comboIncludes": [],
-          "offerKind": null
+          ]
         },
         {
           "id": "kabab-alwadi-offer-1",
@@ -3943,7 +3943,7 @@
           "id": "kabab-alwadi-offer-2",
           "restaurantId": "kabab-alwadi",
           "name": "وجبة عائلية مشاوي لـ 5 أشخاص",
-          "description": "5 صحن مشاوي مع إضافات ومشروبات. تكفي 5 أشخاص.",
+          "description": "5 صحن مشاوي مع حمص وخبز وبطاطس. تكفي 5 أشخاص.",
           "image": "https://images.unsplash.com/photo-1555939594-58d7cb561ad1?w=800&q=80",
           "price": 118,
           "rating": 4.6,
@@ -4054,12 +4054,12 @@
       "id": "fahm-riyadh",
       "name": "فحم الرياض",
       "image": "https://images.unsplash.com/photo-1544025162-d76694265947?w=800&q=80",
-      "rating": 4.2,
+      "rating": 4.4,
       "cuisine": "مشاوي",
-      "deliveryTime": "20–30 د",
-      "deliveryFee": 12,
-      "minOrder": 30,
-      "distanceKm": 1.5,
+      "deliveryTime": "35–50 د",
+      "deliveryFee": 5,
+      "minOrder": 40,
+      "distanceKm": 1.4,
       "verified": null,
       "tags": [
         "مشاوي",
@@ -4068,7 +4068,7 @@
       ],
       "featured": null,
       "open24h": null,
-      "fastDelivery": true,
+      "fastDelivery": null,
       "meals": [
         {
           "id": "fahm-riyadh-1",
@@ -4077,7 +4077,7 @@
           "description": "تشكيلة لحم ودجاج وكباب مع أرز.",
           "image": "https://images.unsplash.com/photo-1555939594-58d7cb561ad1?w=800&q=80",
           "price": 66,
-          "rating": 4.2,
+          "rating": 4.8,
           "calories": 840,
           "protein": 50,
           "carbs": 58,
@@ -4086,6 +4086,9 @@
           "isPopular": false,
           "isOffer": false,
           "offerPrice": null,
+          "isCombo": false,
+          "offerKind": null,
+          "comboIncludes": [],
           "spicyOption": true,
           "cashbackPercent": null,
           "addons": [
@@ -4114,10 +4117,7 @@
               "name": "سلطة صغيرة",
               "price": 8
             }
-          ],
-          "isCombo": false,
-          "comboIncludes": [],
-          "offerKind": null
+          ]
         },
         {
           "id": "fahm-riyadh-2",
@@ -4126,7 +4126,7 @@
           "description": "ريش غنم على الفحم مع طحينة.",
           "image": "https://images.unsplash.com/photo-1529692236671-f1f6cf9683ba?w=800&q=80",
           "price": 62,
-          "rating": 4.8,
+          "rating": 4.5,
           "calories": 720,
           "protein": 54,
           "carbs": 10,
@@ -4135,6 +4135,9 @@
           "isPopular": false,
           "isOffer": false,
           "offerPrice": null,
+          "isCombo": false,
+          "offerKind": null,
+          "comboIncludes": [],
           "spicyOption": true,
           "cashbackPercent": null,
           "addons": [
@@ -4163,10 +4166,7 @@
               "name": "سلطة صغيرة",
               "price": 8
             }
-          ],
-          "isCombo": false,
-          "comboIncludes": [],
-          "offerKind": null
+          ]
         },
         {
           "id": "fahm-riyadh-3",
@@ -4184,6 +4184,9 @@
           "isPopular": false,
           "isOffer": false,
           "offerPrice": null,
+          "isCombo": false,
+          "offerKind": null,
+          "comboIncludes": [],
           "spicyOption": true,
           "cashbackPercent": null,
           "addons": [
@@ -4212,10 +4215,7 @@
               "name": "سلطة صغيرة",
               "price": 8
             }
-          ],
-          "isCombo": false,
-          "comboIncludes": [],
-          "offerKind": null
+          ]
         },
         {
           "id": "fahm-riyadh-4",
@@ -4233,8 +4233,11 @@
           "isPopular": false,
           "isOffer": false,
           "offerPrice": null,
+          "isCombo": false,
+          "offerKind": null,
+          "comboIncludes": [],
           "spicyOption": true,
-          "cashbackPercent": 15,
+          "cashbackPercent": null,
           "addons": [
             {
               "id": "garlic-sauce",
@@ -4261,10 +4264,7 @@
               "name": "سلطة صغيرة",
               "price": 8
             }
-          ],
-          "isCombo": false,
-          "comboIncludes": [],
-          "offerKind": null
+          ]
         },
         {
           "id": "fahm-riyadh-5",
@@ -4273,7 +4273,7 @@
           "description": "دجاجة كاملة متبلة على الفحم.",
           "image": "https://images.unsplash.com/photo-1598103442097-8b74394b95c6?w=800&q=80",
           "price": 62,
-          "rating": 4.3,
+          "rating": 4.7,
           "calories": 780,
           "protein": 55,
           "carbs": 8,
@@ -4282,8 +4282,11 @@
           "isPopular": false,
           "isOffer": false,
           "offerPrice": null,
+          "isCombo": false,
+          "offerKind": null,
+          "comboIncludes": [],
           "spicyOption": true,
-          "cashbackPercent": 10,
+          "cashbackPercent": null,
           "addons": [
             {
               "id": "garlic-sauce",
@@ -4310,10 +4313,7 @@
               "name": "سلطة صغيرة",
               "price": 8
             }
-          ],
-          "isCombo": false,
-          "comboIncludes": [],
-          "offerKind": null
+          ]
         },
         {
           "id": "fahm-riyadh-6",
@@ -4322,7 +4322,7 @@
           "description": "عجينة رقيقة مع لحم مفروم.",
           "image": "https://images.unsplash.com/photo-1603360946369-dc9bb6258143?w=800&q=80",
           "price": 38,
-          "rating": 4.7,
+          "rating": 4.6,
           "calories": 520,
           "protein": 22,
           "carbs": 48,
@@ -4331,6 +4331,9 @@
           "isPopular": false,
           "isOffer": false,
           "offerPrice": null,
+          "isCombo": false,
+          "offerKind": null,
+          "comboIncludes": [],
           "spicyOption": false,
           "cashbackPercent": null,
           "addons": [
@@ -4359,10 +4362,7 @@
               "name": "سلطة صغيرة",
               "price": 8
             }
-          ],
-          "isCombo": false,
-          "comboIncludes": [],
-          "offerKind": null
+          ]
         },
         {
           "id": "fahm-riyadh-7",
@@ -4371,17 +4371,20 @@
           "description": "نقانق بقري مع خضار مشوية.",
           "image": "https://images.unsplash.com/photo-1555939594-58d7cb561ad1?w=800&q=80",
           "price": 42,
-          "rating": 4.3,
+          "rating": 4.6,
           "calories": 560,
           "protein": 28,
           "carbs": 15,
           "fat": 38,
-          "category": "menu",
-          "isPopular": false,
+          "category": "popular",
+          "isPopular": true,
           "isOffer": false,
           "offerPrice": null,
+          "isCombo": false,
+          "offerKind": null,
+          "comboIncludes": [],
           "spicyOption": true,
-          "cashbackPercent": 5,
+          "cashbackPercent": null,
           "addons": [
             {
               "id": "garlic-sauce",
@@ -4408,10 +4411,7 @@
               "name": "سلطة صغيرة",
               "price": 8
             }
-          ],
-          "isCombo": false,
-          "comboIncludes": [],
-          "offerKind": null
+          ]
         },
         {
           "id": "fahm-riyadh-8",
@@ -4420,15 +4420,18 @@
           "description": "كبدة غنم مع ثوم وليمون.",
           "image": "https://images.unsplash.com/photo-1603360946369-dc9bb6258143?w=800&q=80",
           "price": 36,
-          "rating": 4.7,
+          "rating": 4.5,
           "calories": 390,
           "protein": 32,
           "carbs": 8,
           "fat": 22,
-          "category": "popular",
-          "isPopular": true,
+          "category": "menu",
+          "isPopular": false,
           "isOffer": false,
           "offerPrice": null,
+          "isCombo": false,
+          "offerKind": null,
+          "comboIncludes": [],
           "spicyOption": true,
           "cashbackPercent": null,
           "addons": [
@@ -4457,10 +4460,7 @@
               "name": "سلطة صغيرة",
               "price": 8
             }
-          ],
-          "isCombo": false,
-          "comboIncludes": [],
-          "offerKind": null
+          ]
         },
         {
           "id": "fahm-riyadh-9",
@@ -4469,7 +4469,7 @@
           "description": "تشكيلة كبيرة تكفي ٤ أشخاص.",
           "image": "https://images.unsplash.com/photo-1555939594-58d7cb561ad1?w=800&q=80",
           "price": 62,
-          "rating": 4.5,
+          "rating": 4.9,
           "calories": 1600,
           "protein": 95,
           "carbs": 90,
@@ -4478,6 +4478,9 @@
           "isPopular": false,
           "isOffer": false,
           "offerPrice": null,
+          "isCombo": false,
+          "offerKind": null,
+          "comboIncludes": [],
           "spicyOption": true,
           "cashbackPercent": null,
           "addons": [
@@ -4506,10 +4509,7 @@
               "name": "سلطة صغيرة",
               "price": 8
             }
-          ],
-          "isCombo": false,
-          "comboIncludes": [],
-          "offerKind": null
+          ]
         },
         {
           "id": "fahm-riyadh-10",
@@ -4518,15 +4518,18 @@
           "description": "أرز بخاري مع قطع لحم طرية.",
           "image": "https://images.unsplash.com/photo-1529692236671-f1f6cf9683ba?w=800&q=80",
           "price": 44,
-          "rating": 4.9,
+          "rating": 4.2,
           "calories": 680,
           "protein": 30,
           "carbs": 70,
           "fat": 22,
-          "category": "popular",
-          "isPopular": true,
+          "category": "menu",
+          "isPopular": false,
           "isOffer": false,
           "offerPrice": null,
+          "isCombo": false,
+          "offerKind": null,
+          "comboIncludes": [],
           "spicyOption": false,
           "cashbackPercent": null,
           "addons": [
@@ -4555,10 +4558,7 @@
               "name": "سلطة صغيرة",
               "price": 8
             }
-          ],
-          "isCombo": false,
-          "comboIncludes": [],
-          "offerKind": null
+          ]
         },
         {
           "id": "fahm-riyadh-offer-1",
@@ -4618,7 +4618,7 @@
           "id": "fahm-riyadh-offer-2",
           "restaurantId": "fahm-riyadh",
           "name": "وجبة عائلية مشاوي لـ 3 أشخاص",
-          "description": "3 صحن مشاوي مع إضافات ومشروبات. تكفي 3 أشخاص.",
+          "description": "3 صحن مشاوي مع حمص وخبز وبطاطس. تكفي 3 أشخاص.",
           "image": "https://images.unsplash.com/photo-1555939594-58d7cb561ad1?w=800&q=80",
           "price": 78,
           "rating": 4.6,
@@ -4729,21 +4729,21 @@
       "id": "mashawi-alnakheel",
       "name": "مشاوي النخيل",
       "image": "https://images.unsplash.com/photo-1544025162-d76694265947?w=800&q=80",
-      "rating": 4.8,
+      "rating": 4.6,
       "cuisine": "مشاوي",
-      "deliveryTime": "35–50 د",
+      "deliveryTime": "20–30 د",
       "deliveryFee": 12,
-      "minOrder": 40,
-      "distanceKm": 4.1,
+      "minOrder": 25,
+      "distanceKm": 5.2,
       "verified": true,
       "tags": [
         "مشاوي",
         "لحوم",
         "فحم"
       ],
-      "featured": true,
+      "featured": null,
       "open24h": null,
-      "fastDelivery": true,
+      "fastDelivery": null,
       "meals": [
         {
           "id": "mashawi-alnakheel-1",
@@ -4752,15 +4752,18 @@
           "description": "تشكيلة لحم ودجاج وكباب مع أرز.",
           "image": "https://images.unsplash.com/photo-1555939594-58d7cb561ad1?w=800&q=80",
           "price": 66,
-          "rating": 4.8,
+          "rating": 4.2,
           "calories": 840,
           "protein": 50,
           "carbs": 58,
           "fat": 40,
-          "category": "popular",
-          "isPopular": true,
+          "category": "menu",
+          "isPopular": false,
           "isOffer": false,
           "offerPrice": null,
+          "isCombo": false,
+          "offerKind": null,
+          "comboIncludes": [],
           "spicyOption": true,
           "cashbackPercent": null,
           "addons": [
@@ -4789,10 +4792,7 @@
               "name": "سلطة صغيرة",
               "price": 8
             }
-          ],
-          "isCombo": false,
-          "comboIncludes": [],
-          "offerKind": null
+          ]
         },
         {
           "id": "mashawi-alnakheel-2",
@@ -4801,15 +4801,18 @@
           "description": "ريش غنم على الفحم مع طحينة.",
           "image": "https://images.unsplash.com/photo-1529692236671-f1f6cf9683ba?w=800&q=80",
           "price": 62,
-          "rating": 4.6,
+          "rating": 4.4,
           "calories": 720,
           "protein": 54,
           "carbs": 10,
           "fat": 50,
-          "category": "menu",
-          "isPopular": false,
+          "category": "popular",
+          "isPopular": true,
           "isOffer": false,
           "offerPrice": null,
+          "isCombo": false,
+          "offerKind": null,
+          "comboIncludes": [],
           "spicyOption": true,
           "cashbackPercent": null,
           "addons": [
@@ -4838,10 +4841,7 @@
               "name": "سلطة صغيرة",
               "price": 8
             }
-          ],
-          "isCombo": false,
-          "comboIncludes": [],
-          "offerKind": null
+          ]
         },
         {
           "id": "mashawi-alnakheel-3",
@@ -4850,7 +4850,7 @@
           "description": "قطع دجاج متبلة مشوية.",
           "image": "https://images.unsplash.com/photo-1603360946369-dc9bb6258143?w=800&q=80",
           "price": 48,
-          "rating": 4.8,
+          "rating": 4.1,
           "calories": 480,
           "protein": 42,
           "carbs": 18,
@@ -4859,6 +4859,9 @@
           "isPopular": false,
           "isOffer": false,
           "offerPrice": null,
+          "isCombo": false,
+          "offerKind": null,
+          "comboIncludes": [],
           "spicyOption": true,
           "cashbackPercent": null,
           "addons": [
@@ -4887,10 +4890,7 @@
               "name": "سلطة صغيرة",
               "price": 8
             }
-          ],
-          "isCombo": false,
-          "comboIncludes": [],
-          "offerKind": null
+          ]
         },
         {
           "id": "mashawi-alnakheel-4",
@@ -4899,15 +4899,18 @@
           "description": "كباب لحم بقري مع بصل مشوي.",
           "image": "https://images.unsplash.com/photo-1603360946369-dc9bb6258143?w=800&q=80",
           "price": 55,
-          "rating": 4.5,
+          "rating": 4.2,
           "calories": 610,
           "protein": 38,
           "carbs": 20,
           "fat": 36,
-          "category": "menu",
-          "isPopular": false,
+          "category": "popular",
+          "isPopular": true,
           "isOffer": false,
           "offerPrice": null,
+          "isCombo": false,
+          "offerKind": null,
+          "comboIncludes": [],
           "spicyOption": true,
           "cashbackPercent": null,
           "addons": [
@@ -4936,10 +4939,7 @@
               "name": "سلطة صغيرة",
               "price": 8
             }
-          ],
-          "isCombo": false,
-          "comboIncludes": [],
-          "offerKind": null
+          ]
         },
         {
           "id": "mashawi-alnakheel-5",
@@ -4948,17 +4948,20 @@
           "description": "دجاجة كاملة متبلة على الفحم.",
           "image": "https://images.unsplash.com/photo-1598103442097-8b74394b95c6?w=800&q=80",
           "price": 62,
-          "rating": 4.4,
+          "rating": 4.6,
           "calories": 780,
           "protein": 55,
           "carbs": 8,
           "fat": 48,
-          "category": "menu",
-          "isPopular": false,
+          "category": "popular",
+          "isPopular": true,
           "isOffer": false,
           "offerPrice": null,
+          "isCombo": false,
+          "offerKind": null,
+          "comboIncludes": [],
           "spicyOption": true,
-          "cashbackPercent": 10,
+          "cashbackPercent": null,
           "addons": [
             {
               "id": "garlic-sauce",
@@ -4985,10 +4988,7 @@
               "name": "سلطة صغيرة",
               "price": 8
             }
-          ],
-          "isCombo": false,
-          "comboIncludes": [],
-          "offerKind": null
+          ]
         },
         {
           "id": "mashawi-alnakheel-6",
@@ -4997,7 +4997,7 @@
           "description": "عجينة رقيقة مع لحم مفروم.",
           "image": "https://images.unsplash.com/photo-1603360946369-dc9bb6258143?w=800&q=80",
           "price": 38,
-          "rating": 4.7,
+          "rating": 4.4,
           "calories": 520,
           "protein": 22,
           "carbs": 48,
@@ -5006,6 +5006,9 @@
           "isPopular": false,
           "isOffer": false,
           "offerPrice": null,
+          "isCombo": false,
+          "offerKind": null,
+          "comboIncludes": [],
           "spicyOption": false,
           "cashbackPercent": null,
           "addons": [
@@ -5034,10 +5037,7 @@
               "name": "سلطة صغيرة",
               "price": 8
             }
-          ],
-          "isCombo": false,
-          "comboIncludes": [],
-          "offerKind": null
+          ]
         },
         {
           "id": "mashawi-alnakheel-7",
@@ -5046,7 +5046,7 @@
           "description": "نقانق بقري مع خضار مشوية.",
           "image": "https://images.unsplash.com/photo-1603360946369-dc9bb6258143?w=800&q=80",
           "price": 42,
-          "rating": 4.3,
+          "rating": 4.6,
           "calories": 560,
           "protein": 28,
           "carbs": 15,
@@ -5055,6 +5055,9 @@
           "isPopular": false,
           "isOffer": false,
           "offerPrice": null,
+          "isCombo": false,
+          "offerKind": null,
+          "comboIncludes": [],
           "spicyOption": true,
           "cashbackPercent": null,
           "addons": [
@@ -5083,10 +5086,7 @@
               "name": "سلطة صغيرة",
               "price": 8
             }
-          ],
-          "isCombo": false,
-          "comboIncludes": [],
-          "offerKind": null
+          ]
         },
         {
           "id": "mashawi-alnakheel-8",
@@ -5095,15 +5095,18 @@
           "description": "كبدة غنم مع ثوم وليمون.",
           "image": "https://images.unsplash.com/photo-1603360946369-dc9bb6258143?w=800&q=80",
           "price": 36,
-          "rating": 4.8,
+          "rating": 4.2,
           "calories": 390,
           "protein": 32,
           "carbs": 8,
           "fat": 22,
-          "category": "menu",
-          "isPopular": false,
+          "category": "popular",
+          "isPopular": true,
           "isOffer": false,
           "offerPrice": null,
+          "isCombo": false,
+          "offerKind": null,
+          "comboIncludes": [],
           "spicyOption": true,
           "cashbackPercent": null,
           "addons": [
@@ -5132,10 +5135,7 @@
               "name": "سلطة صغيرة",
               "price": 8
             }
-          ],
-          "isCombo": false,
-          "comboIncludes": [],
-          "offerKind": null
+          ]
         },
         {
           "id": "mashawi-alnakheel-9",
@@ -5144,7 +5144,7 @@
           "description": "تشكيلة كبيرة تكفي ٤ أشخاص.",
           "image": "https://images.unsplash.com/photo-1555939594-58d7cb561ad1?w=800&q=80",
           "price": 62,
-          "rating": 4.5,
+          "rating": 4.8,
           "calories": 1600,
           "protein": 95,
           "carbs": 90,
@@ -5153,6 +5153,9 @@
           "isPopular": true,
           "isOffer": false,
           "offerPrice": null,
+          "isCombo": false,
+          "offerKind": null,
+          "comboIncludes": [],
           "spicyOption": true,
           "cashbackPercent": null,
           "addons": [
@@ -5181,10 +5184,7 @@
               "name": "سلطة صغيرة",
               "price": 8
             }
-          ],
-          "isCombo": false,
-          "comboIncludes": [],
-          "offerKind": null
+          ]
         },
         {
           "id": "mashawi-alnakheel-10",
@@ -5193,15 +5193,18 @@
           "description": "أرز بخاري مع قطع لحم طرية.",
           "image": "https://images.unsplash.com/photo-1598103442097-8b74394b95c6?w=800&q=80",
           "price": 44,
-          "rating": 4.9,
+          "rating": 4.6,
           "calories": 680,
           "protein": 30,
           "carbs": 70,
           "fat": 22,
-          "category": "menu",
-          "isPopular": false,
+          "category": "popular",
+          "isPopular": true,
           "isOffer": false,
           "offerPrice": null,
+          "isCombo": false,
+          "offerKind": null,
+          "comboIncludes": [],
           "spicyOption": false,
           "cashbackPercent": null,
           "addons": [
@@ -5230,10 +5233,7 @@
               "name": "سلطة صغيرة",
               "price": 8
             }
-          ],
-          "isCombo": false,
-          "comboIncludes": [],
-          "offerKind": null
+          ]
         },
         {
           "id": "mashawi-alnakheel-offer-1",
@@ -5293,7 +5293,7 @@
           "id": "mashawi-alnakheel-offer-2",
           "restaurantId": "mashawi-alnakheel",
           "name": "وجبة عائلية مشاوي لـ 5 أشخاص",
-          "description": "5 صحن مشاوي مع إضافات ومشروبات. تكفي 5 أشخاص.",
+          "description": "5 صحن مشاوي مع حمص وخبز وبطاطس. تكفي 5 أشخاص.",
           "image": "https://images.unsplash.com/photo-1555939594-58d7cb561ad1?w=800&q=80",
           "price": 118,
           "rating": 4.6,

@@ -4,12 +4,12 @@
       "id": "sham-alaseel",
       "name": "شام الأصيل",
       "image": "https://images.unsplash.com/photo-1529006557810-274b9b2fc783?w=800&q=80",
-      "rating": 4.8,
+      "rating": 4.7,
       "cuisine": "شامي",
-      "deliveryTime": "25–35 د",
-      "deliveryFee": 12,
-      "minOrder": 50,
-      "distanceKm": 6.3,
+      "deliveryTime": "35–50 د",
+      "deliveryFee": 0,
+      "minOrder": 25,
+      "distanceKm": 6.2,
       "verified": null,
       "tags": [
         "شامي",
@@ -27,7 +27,7 @@
           "description": "حمص كريمي مع لحم مفروم وصنوبر.",
           "image": "https://images.unsplash.com/photo-1601050690117-94f5f6fa8bd7?w=800&q=80",
           "price": 25,
-          "rating": 4.2,
+          "rating": 4.3,
           "calories": 390,
           "protein": 18,
           "carbs": 28,
@@ -36,6 +36,9 @@
           "isPopular": false,
           "isOffer": false,
           "offerPrice": null,
+          "isCombo": false,
+          "offerKind": null,
+          "comboIncludes": [],
           "spicyOption": false,
           "cashbackPercent": null,
           "addons": [
@@ -64,10 +67,7 @@
               "name": "خبز عربي",
               "price": 4
             }
-          ],
-          "isCombo": false,
-          "comboIncludes": [],
-          "offerKind": null
+          ]
         },
         {
           "id": "sham-alaseel-2",
@@ -76,15 +76,18 @@
           "description": "خبز وحمص ولبن مع سمنة.",
           "image": "https://images.unsplash.com/photo-1626082927389-6cd097cdc6ec?w=800&q=80",
           "price": 26,
-          "rating": 4.1,
+          "rating": 4.8,
           "calories": 450,
           "protein": 16,
           "carbs": 42,
           "fat": 20,
-          "category": "popular",
-          "isPopular": true,
+          "category": "menu",
+          "isPopular": false,
           "isOffer": false,
           "offerPrice": null,
+          "isCombo": false,
+          "offerKind": null,
+          "comboIncludes": [],
           "spicyOption": false,
           "cashbackPercent": null,
           "addons": [
@@ -113,10 +116,7 @@
               "name": "خبز عربي",
               "price": 4
             }
-          ],
-          "isCombo": false,
-          "comboIncludes": [],
-          "offerKind": null
+          ]
         },
         {
           "id": "sham-alaseel-3",
@@ -125,15 +125,18 @@
           "description": "شاورما دجاج مع ثوم ومخلل.",
           "image": "https://images.unsplash.com/photo-1529006557810-274b9b2fc783?w=800&q=80",
           "price": 25,
-          "rating": 4.3,
+          "rating": 4.8,
           "calories": 520,
           "protein": 30,
           "carbs": 40,
           "fat": 22,
-          "category": "popular",
-          "isPopular": true,
+          "category": "menu",
+          "isPopular": false,
           "isOffer": false,
           "offerPrice": null,
+          "isCombo": false,
+          "offerKind": null,
+          "comboIncludes": [],
           "spicyOption": true,
           "cashbackPercent": null,
           "addons": [
@@ -162,10 +165,7 @@
               "name": "خبز عربي",
               "price": 4
             }
-          ],
-          "isCombo": false,
-          "comboIncludes": [],
-          "offerKind": null
+          ]
         },
         {
           "id": "sham-alaseel-4",
@@ -174,7 +174,7 @@
           "description": "فلافل مقرمشة مع سلطة وتحينة.",
           "image": "https://images.unsplash.com/photo-1626082927389-6cd097cdc6ec?w=800&q=80",
           "price": 22,
-          "rating": 4.4,
+          "rating": 4.8,
           "calories": 410,
           "protein": 14,
           "carbs": 38,
@@ -183,8 +183,11 @@
           "isPopular": false,
           "isOffer": false,
           "offerPrice": null,
+          "isCombo": false,
+          "offerKind": null,
+          "comboIncludes": [],
           "spicyOption": false,
-          "cashbackPercent": 5,
+          "cashbackPercent": null,
           "addons": [
             {
               "id": "extra-garlic",
@@ -211,10 +214,7 @@
               "name": "خبز عربي",
               "price": 4
             }
-          ],
-          "isCombo": false,
-          "comboIncludes": [],
-          "offerKind": null
+          ]
         },
         {
           "id": "sham-alaseel-5",
@@ -223,15 +223,18 @@
           "description": "عجينة طازجة بزعتر وزيت زيتون.",
           "image": "https://images.unsplash.com/photo-1601050690117-94f5f6fa8bd7?w=800&q=80",
           "price": 18,
-          "rating": 4.8,
+          "rating": 4.2,
           "calories": 320,
           "protein": 8,
           "carbs": 36,
           "fat": 12,
-          "category": "menu",
-          "isPopular": false,
+          "category": "popular",
+          "isPopular": true,
           "isOffer": false,
           "offerPrice": null,
+          "isCombo": false,
+          "offerKind": null,
+          "comboIncludes": [],
           "spicyOption": false,
           "cashbackPercent": null,
           "addons": [
@@ -260,10 +263,7 @@
               "name": "خبز عربي",
               "price": 4
             }
-          ],
-          "isCombo": false,
-          "comboIncludes": [],
-          "offerKind": null
+          ]
         },
         {
           "id": "sham-alaseel-6",
@@ -272,7 +272,7 @@
           "description": "كبة محشوة لحم مع لبن.",
           "image": "https://images.unsplash.com/photo-1529042410759-befb1204b468?w=800&q=80",
           "price": 26,
-          "rating": 4.4,
+          "rating": 4.7,
           "calories": 480,
           "protein": 20,
           "carbs": 32,
@@ -281,6 +281,9 @@
           "isPopular": false,
           "isOffer": false,
           "offerPrice": null,
+          "isCombo": false,
+          "offerKind": null,
+          "comboIncludes": [],
           "spicyOption": false,
           "cashbackPercent": null,
           "addons": [
@@ -309,10 +312,7 @@
               "name": "خبز عربي",
               "price": 4
             }
-          ],
-          "isCombo": false,
-          "comboIncludes": [],
-          "offerKind": null
+          ]
         },
         {
           "id": "sham-alaseel-7",
@@ -321,15 +321,18 @@
           "description": "دجاج مع سماق وبصل في خبز.",
           "image": "https://images.unsplash.com/photo-1512621776951-a57141f2eefd?w=800&q=80",
           "price": 26,
-          "rating": 4.8,
+          "rating": 4.3,
           "calories": 560,
           "protein": 28,
           "carbs": 45,
           "fat": 24,
-          "category": "popular",
-          "isPopular": true,
+          "category": "menu",
+          "isPopular": false,
           "isOffer": false,
           "offerPrice": null,
+          "isCombo": false,
+          "offerKind": null,
+          "comboIncludes": [],
           "spicyOption": false,
           "cashbackPercent": null,
           "addons": [
@@ -358,10 +361,7 @@
               "name": "خبز عربي",
               "price": 4
             }
-          ],
-          "isCombo": false,
-          "comboIncludes": [],
-          "offerKind": null
+          ]
         },
         {
           "id": "sham-alaseel-8",
@@ -370,7 +370,7 @@
           "description": "سلطة خضار مقرمشة مع خل رمان.",
           "image": "https://images.unsplash.com/photo-1512621776951-a57141f2eefd?w=800&q=80",
           "price": 24,
-          "rating": 4.7,
+          "rating": 4.9,
           "calories": 210,
           "protein": 6,
           "carbs": 22,
@@ -379,6 +379,9 @@
           "isPopular": false,
           "isOffer": false,
           "offerPrice": null,
+          "isCombo": false,
+          "offerKind": null,
+          "comboIncludes": [],
           "spicyOption": false,
           "cashbackPercent": null,
           "addons": [
@@ -407,10 +410,7 @@
               "name": "خبز عربي",
               "price": 4
             }
-          ],
-          "isCombo": false,
-          "comboIncludes": [],
-          "offerKind": null
+          ]
         },
         {
           "id": "sham-alaseel-9",
@@ -419,15 +419,18 @@
           "description": "كوسا وباذنجان محشي أرز.",
           "image": "https://images.unsplash.com/photo-1512621776951-a57141f2eefd?w=800&q=80",
           "price": 26,
-          "rating": 4.2,
+          "rating": 4.4,
           "calories": 440,
           "protein": 12,
           "carbs": 48,
           "fat": 16,
-          "category": "menu",
-          "isPopular": false,
+          "category": "popular",
+          "isPopular": true,
           "isOffer": false,
           "offerPrice": null,
+          "isCombo": false,
+          "offerKind": null,
+          "comboIncludes": [],
           "spicyOption": false,
           "cashbackPercent": null,
           "addons": [
@@ -456,10 +459,7 @@
               "name": "خبز عربي",
               "price": 4
             }
-          ],
-          "isCombo": false,
-          "comboIncludes": [],
-          "offerKind": null
+          ]
         },
         {
           "id": "sham-alaseel-10",
@@ -468,17 +468,20 @@
           "description": "كباب لحم ببهارات حلبية.",
           "image": "https://images.unsplash.com/photo-1603360946369-dc9bb6258143?w=800&q=80",
           "price": 26,
-          "rating": 4.2,
+          "rating": 4.6,
           "calories": 600,
           "protein": 36,
           "carbs": 18,
           "fat": 38,
-          "category": "menu",
-          "isPopular": false,
+          "category": "popular",
+          "isPopular": true,
           "isOffer": false,
           "offerPrice": null,
+          "isCombo": false,
+          "offerKind": null,
+          "comboIncludes": [],
           "spicyOption": true,
-          "cashbackPercent": 10,
+          "cashbackPercent": null,
           "addons": [
             {
               "id": "extra-garlic",
@@ -505,10 +508,7 @@
               "name": "خبز عربي",
               "price": 4
             }
-          ],
-          "isCombo": false,
-          "comboIncludes": [],
-          "offerKind": null
+          ]
         },
         {
           "id": "sham-alaseel-offer-1",
@@ -569,7 +569,7 @@
           "id": "sham-alaseel-offer-2",
           "restaurantId": "sham-alaseel",
           "name": "وجبة عائلية شاورما لـ 4 أشخاص",
-          "description": "4 شاورما مع إضافات ومشروبات. تكفي 4 أشخاص.",
+          "description": "4 شاورما مع بطاطس عائلية وثوم ومخلل. تكفي 4 أشخاص.",
           "image": "/offers/4-shawrma.jpg",
           "price": 71,
           "rating": 4.6,
@@ -682,10 +682,10 @@
       "image": "https://images.unsplash.com/photo-1601050690117-94f5f6fa8bd7?w=800&q=80",
       "rating": 4.8,
       "cuisine": "شامي",
-      "deliveryTime": "30–45 د",
-      "deliveryFee": 8,
+      "deliveryTime": "40–55 د",
+      "deliveryFee": 10,
       "minOrder": 25,
-      "distanceKm": 1.3,
+      "distanceKm": 0.8,
       "verified": true,
       "tags": [
         "شامي",
@@ -694,7 +694,7 @@
       ],
       "featured": null,
       "open24h": null,
-      "fastDelivery": null,
+      "fastDelivery": true,
       "meals": [
         {
           "id": "beit-falafel-1",
@@ -703,7 +703,7 @@
           "description": "حمص كريمي مع لحم مفروم وصنوبر.",
           "image": "https://images.unsplash.com/photo-1601050690117-94f5f6fa8bd7?w=800&q=80",
           "price": 25,
-          "rating": 4.1,
+          "rating": 4.8,
           "calories": 390,
           "protein": 18,
           "carbs": 28,
@@ -712,6 +712,9 @@
           "isPopular": false,
           "isOffer": false,
           "offerPrice": null,
+          "isCombo": false,
+          "offerKind": null,
+          "comboIncludes": [],
           "spicyOption": false,
           "cashbackPercent": null,
           "addons": [
@@ -740,10 +743,7 @@
               "name": "خبز عربي",
               "price": 4
             }
-          ],
-          "isCombo": false,
-          "comboIncludes": [],
-          "offerKind": null
+          ]
         },
         {
           "id": "beit-falafel-2",
@@ -752,7 +752,7 @@
           "description": "خبز وحمص ولبن مع سمنة.",
           "image": "https://images.unsplash.com/photo-1601050690117-94f5f6fa8bd7?w=800&q=80",
           "price": 26,
-          "rating": 4.4,
+          "rating": 4.5,
           "calories": 450,
           "protein": 16,
           "carbs": 42,
@@ -761,6 +761,9 @@
           "isPopular": false,
           "isOffer": false,
           "offerPrice": null,
+          "isCombo": false,
+          "offerKind": null,
+          "comboIncludes": [],
           "spicyOption": false,
           "cashbackPercent": null,
           "addons": [
@@ -789,10 +792,7 @@
               "name": "خبز عربي",
               "price": 4
             }
-          ],
-          "isCombo": false,
-          "comboIncludes": [],
-          "offerKind": null
+          ]
         },
         {
           "id": "beit-falafel-3",
@@ -810,6 +810,9 @@
           "isPopular": true,
           "isOffer": false,
           "offerPrice": null,
+          "isCombo": false,
+          "offerKind": null,
+          "comboIncludes": [],
           "spicyOption": true,
           "cashbackPercent": null,
           "addons": [
@@ -838,10 +841,7 @@
               "name": "خبز عربي",
               "price": 4
             }
-          ],
-          "isCombo": false,
-          "comboIncludes": [],
-          "offerKind": null
+          ]
         },
         {
           "id": "beit-falafel-4",
@@ -850,7 +850,7 @@
           "description": "فلافل مقرمشة مع سلطة وتحينة.",
           "image": "https://images.unsplash.com/photo-1626082927389-6cd097cdc6ec?w=800&q=80",
           "price": 22,
-          "rating": 4.2,
+          "rating": 4.8,
           "calories": 410,
           "protein": 14,
           "carbs": 38,
@@ -859,6 +859,9 @@
           "isPopular": false,
           "isOffer": false,
           "offerPrice": null,
+          "isCombo": false,
+          "offerKind": null,
+          "comboIncludes": [],
           "spicyOption": false,
           "cashbackPercent": null,
           "addons": [
@@ -887,10 +890,7 @@
               "name": "خبز عربي",
               "price": 4
             }
-          ],
-          "isCombo": false,
-          "comboIncludes": [],
-          "offerKind": null
+          ]
         },
         {
           "id": "beit-falafel-5",
@@ -899,15 +899,18 @@
           "description": "عجينة طازجة بزعتر وزيت زيتون.",
           "image": "https://images.unsplash.com/photo-1601050690117-94f5f6fa8bd7?w=800&q=80",
           "price": 18,
-          "rating": 4.6,
+          "rating": 4.7,
           "calories": 320,
           "protein": 8,
           "carbs": 36,
           "fat": 12,
-          "category": "menu",
-          "isPopular": false,
+          "category": "popular",
+          "isPopular": true,
           "isOffer": false,
           "offerPrice": null,
+          "isCombo": false,
+          "offerKind": null,
+          "comboIncludes": [],
           "spicyOption": false,
           "cashbackPercent": null,
           "addons": [
@@ -936,10 +939,7 @@
               "name": "خبز عربي",
               "price": 4
             }
-          ],
-          "isCombo": false,
-          "comboIncludes": [],
-          "offerKind": null
+          ]
         },
         {
           "id": "beit-falafel-6",
@@ -948,15 +948,18 @@
           "description": "كبة محشوة لحم مع لبن.",
           "image": "https://images.unsplash.com/photo-1529042410759-befb1204b468?w=800&q=80",
           "price": 26,
-          "rating": 4.3,
+          "rating": 4.8,
           "calories": 480,
           "protein": 20,
           "carbs": 32,
           "fat": 26,
-          "category": "popular",
-          "isPopular": true,
+          "category": "menu",
+          "isPopular": false,
           "isOffer": false,
           "offerPrice": null,
+          "isCombo": false,
+          "offerKind": null,
+          "comboIncludes": [],
           "spicyOption": false,
           "cashbackPercent": null,
           "addons": [
@@ -985,10 +988,7 @@
               "name": "خبز عربي",
               "price": 4
             }
-          ],
-          "isCombo": false,
-          "comboIncludes": [],
-          "offerKind": null
+          ]
         },
         {
           "id": "beit-falafel-7",
@@ -997,7 +997,7 @@
           "description": "دجاج مع سماق وبصل في خبز.",
           "image": "https://images.unsplash.com/photo-1601050690117-94f5f6fa8bd7?w=800&q=80",
           "price": 26,
-          "rating": 4.7,
+          "rating": 4.3,
           "calories": 560,
           "protein": 28,
           "carbs": 45,
@@ -1006,6 +1006,9 @@
           "isPopular": true,
           "isOffer": false,
           "offerPrice": null,
+          "isCombo": false,
+          "offerKind": null,
+          "comboIncludes": [],
           "spicyOption": false,
           "cashbackPercent": null,
           "addons": [
@@ -1034,10 +1037,7 @@
               "name": "خبز عربي",
               "price": 4
             }
-          ],
-          "isCombo": false,
-          "comboIncludes": [],
-          "offerKind": null
+          ]
         },
         {
           "id": "beit-falafel-8",
@@ -1046,15 +1046,18 @@
           "description": "سلطة خضار مقرمشة مع خل رمان.",
           "image": "https://images.unsplash.com/photo-1512621776951-a57141f2eefd?w=800&q=80",
           "price": 24,
-          "rating": 4.2,
+          "rating": 4.5,
           "calories": 210,
           "protein": 6,
           "carbs": 22,
           "fat": 10,
-          "category": "popular",
-          "isPopular": true,
+          "category": "menu",
+          "isPopular": false,
           "isOffer": false,
           "offerPrice": null,
+          "isCombo": false,
+          "offerKind": null,
+          "comboIncludes": [],
           "spicyOption": false,
           "cashbackPercent": null,
           "addons": [
@@ -1083,10 +1086,7 @@
               "name": "خبز عربي",
               "price": 4
             }
-          ],
-          "isCombo": false,
-          "comboIncludes": [],
-          "offerKind": null
+          ]
         },
         {
           "id": "beit-falafel-9",
@@ -1095,15 +1095,18 @@
           "description": "كوسا وباذنجان محشي أرز.",
           "image": "https://images.unsplash.com/photo-1601050690117-94f5f6fa8bd7?w=800&q=80",
           "price": 26,
-          "rating": 4.5,
+          "rating": 4.7,
           "calories": 440,
           "protein": 12,
           "carbs": 48,
           "fat": 16,
-          "category": "popular",
-          "isPopular": true,
+          "category": "menu",
+          "isPopular": false,
           "isOffer": false,
           "offerPrice": null,
+          "isCombo": false,
+          "offerKind": null,
+          "comboIncludes": [],
           "spicyOption": false,
           "cashbackPercent": null,
           "addons": [
@@ -1132,10 +1135,7 @@
               "name": "خبز عربي",
               "price": 4
             }
-          ],
-          "isCombo": false,
-          "comboIncludes": [],
-          "offerKind": null
+          ]
         },
         {
           "id": "beit-falafel-10",
@@ -1153,6 +1153,9 @@
           "isPopular": true,
           "isOffer": false,
           "offerPrice": null,
+          "isCombo": false,
+          "offerKind": null,
+          "comboIncludes": [],
           "spicyOption": true,
           "cashbackPercent": null,
           "addons": [
@@ -1181,10 +1184,7 @@
               "name": "خبز عربي",
               "price": 4
             }
-          ],
-          "isCombo": false,
-          "comboIncludes": [],
-          "offerKind": null
+          ]
         },
         {
           "id": "beit-falafel-offer-1",
@@ -1245,7 +1245,7 @@
           "id": "beit-falafel-offer-2",
           "restaurantId": "beit-falafel",
           "name": "وجبة عائلية شاورما لـ 5 أشخاص",
-          "description": "5 شاورما مع إضافات ومشروبات. تكفي 5 أشخاص.",
+          "description": "5 شاورما مع بطاطس عائلية وثوم ومخلل. تكفي 5 أشخاص.",
           "image": "/offers/5-shawrma.jpg",
           "price": 86,
           "rating": 4.6,
@@ -1356,12 +1356,12 @@
       "id": "dimashq-kitchen",
       "name": "مطبخ دمشق",
       "image": "https://images.unsplash.com/photo-1601050690117-94f5f6fa8bd7?w=800&q=80",
-      "rating": 4.6,
+      "rating": 4.4,
       "cuisine": "شامي",
-      "deliveryTime": "25–35 د",
-      "deliveryFee": 10,
-      "minOrder": 30,
-      "distanceKm": 6.1,
+      "deliveryTime": "20–30 د",
+      "deliveryFee": 6,
+      "minOrder": 25,
+      "distanceKm": 4.5,
       "verified": true,
       "tags": [
         "شامي",
@@ -1369,7 +1369,7 @@
         "مقبلات"
       ],
       "featured": null,
-      "open24h": true,
+      "open24h": null,
       "fastDelivery": true,
       "meals": [
         {
@@ -1379,15 +1379,18 @@
           "description": "حمص كريمي مع لحم مفروم وصنوبر.",
           "image": "https://images.unsplash.com/photo-1601050690117-94f5f6fa8bd7?w=800&q=80",
           "price": 25,
-          "rating": 4.3,
+          "rating": 4.6,
           "calories": 390,
           "protein": 18,
           "carbs": 28,
           "fat": 22,
-          "category": "menu",
-          "isPopular": false,
+          "category": "popular",
+          "isPopular": true,
           "isOffer": false,
           "offerPrice": null,
+          "isCombo": false,
+          "offerKind": null,
+          "comboIncludes": [],
           "spicyOption": false,
           "cashbackPercent": null,
           "addons": [
@@ -1416,10 +1419,7 @@
               "name": "خبز عربي",
               "price": 4
             }
-          ],
-          "isCombo": false,
-          "comboIncludes": [],
-          "offerKind": null
+          ]
         },
         {
           "id": "dimashq-kitchen-2",
@@ -1428,15 +1428,18 @@
           "description": "خبز وحمص ولبن مع سمنة.",
           "image": "https://images.unsplash.com/photo-1529006557810-274b9b2fc783?w=800&q=80",
           "price": 26,
-          "rating": 4.8,
+          "rating": 4.7,
           "calories": 450,
           "protein": 16,
           "carbs": 42,
           "fat": 20,
-          "category": "menu",
-          "isPopular": false,
+          "category": "popular",
+          "isPopular": true,
           "isOffer": false,
           "offerPrice": null,
+          "isCombo": false,
+          "offerKind": null,
+          "comboIncludes": [],
           "spicyOption": false,
           "cashbackPercent": null,
           "addons": [
@@ -1465,10 +1468,7 @@
               "name": "خبز عربي",
               "price": 4
             }
-          ],
-          "isCombo": false,
-          "comboIncludes": [],
-          "offerKind": null
+          ]
         },
         {
           "id": "dimashq-kitchen-3",
@@ -1477,7 +1477,7 @@
           "description": "شاورما دجاج مع ثوم ومخلل.",
           "image": "https://images.unsplash.com/photo-1529006557810-274b9b2fc783?w=800&q=80",
           "price": 25,
-          "rating": 4.9,
+          "rating": 4.8,
           "calories": 520,
           "protein": 30,
           "carbs": 40,
@@ -1486,6 +1486,9 @@
           "isPopular": false,
           "isOffer": false,
           "offerPrice": null,
+          "isCombo": false,
+          "offerKind": null,
+          "comboIncludes": [],
           "spicyOption": true,
           "cashbackPercent": null,
           "addons": [
@@ -1514,10 +1517,7 @@
               "name": "خبز عربي",
               "price": 4
             }
-          ],
-          "isCombo": false,
-          "comboIncludes": [],
-          "offerKind": null
+          ]
         },
         {
           "id": "dimashq-kitchen-4",
@@ -1526,15 +1526,18 @@
           "description": "فلافل مقرمشة مع سلطة وتحينة.",
           "image": "https://images.unsplash.com/photo-1626082927389-6cd097cdc6ec?w=800&q=80",
           "price": 22,
-          "rating": 4.7,
+          "rating": 4.2,
           "calories": 410,
           "protein": 14,
           "carbs": 38,
           "fat": 18,
-          "category": "menu",
-          "isPopular": false,
+          "category": "popular",
+          "isPopular": true,
           "isOffer": false,
           "offerPrice": null,
+          "isCombo": false,
+          "offerKind": null,
+          "comboIncludes": [],
           "spicyOption": false,
           "cashbackPercent": null,
           "addons": [
@@ -1563,10 +1566,7 @@
               "name": "خبز عربي",
               "price": 4
             }
-          ],
-          "isCombo": false,
-          "comboIncludes": [],
-          "offerKind": null
+          ]
         },
         {
           "id": "dimashq-kitchen-5",
@@ -1575,7 +1575,7 @@
           "description": "عجينة طازجة بزعتر وزيت زيتون.",
           "image": "https://images.unsplash.com/photo-1601050690117-94f5f6fa8bd7?w=800&q=80",
           "price": 18,
-          "rating": 4.9,
+          "rating": 4.2,
           "calories": 320,
           "protein": 8,
           "carbs": 36,
@@ -1584,6 +1584,9 @@
           "isPopular": true,
           "isOffer": false,
           "offerPrice": null,
+          "isCombo": false,
+          "offerKind": null,
+          "comboIncludes": [],
           "spicyOption": false,
           "cashbackPercent": null,
           "addons": [
@@ -1612,10 +1615,7 @@
               "name": "خبز عربي",
               "price": 4
             }
-          ],
-          "isCombo": false,
-          "comboIncludes": [],
-          "offerKind": null
+          ]
         },
         {
           "id": "dimashq-kitchen-6",
@@ -1624,7 +1624,7 @@
           "description": "كبة محشوة لحم مع لبن.",
           "image": "https://images.unsplash.com/photo-1529042410759-befb1204b468?w=800&q=80",
           "price": 26,
-          "rating": 4.5,
+          "rating": 4.6,
           "calories": 480,
           "protein": 20,
           "carbs": 32,
@@ -1633,6 +1633,9 @@
           "isPopular": true,
           "isOffer": false,
           "offerPrice": null,
+          "isCombo": false,
+          "offerKind": null,
+          "comboIncludes": [],
           "spicyOption": false,
           "cashbackPercent": null,
           "addons": [
@@ -1661,10 +1664,7 @@
               "name": "خبز عربي",
               "price": 4
             }
-          ],
-          "isCombo": false,
-          "comboIncludes": [],
-          "offerKind": null
+          ]
         },
         {
           "id": "dimashq-kitchen-7",
@@ -1673,7 +1673,7 @@
           "description": "دجاج مع سماق وبصل في خبز.",
           "image": "https://images.unsplash.com/photo-1601050690117-94f5f6fa8bd7?w=800&q=80",
           "price": 26,
-          "rating": 4.8,
+          "rating": 4.7,
           "calories": 560,
           "protein": 28,
           "carbs": 45,
@@ -1682,6 +1682,9 @@
           "isPopular": true,
           "isOffer": false,
           "offerPrice": null,
+          "isCombo": false,
+          "offerKind": null,
+          "comboIncludes": [],
           "spicyOption": false,
           "cashbackPercent": null,
           "addons": [
@@ -1710,10 +1713,7 @@
               "name": "خبز عربي",
               "price": 4
             }
-          ],
-          "isCombo": false,
-          "comboIncludes": [],
-          "offerKind": null
+          ]
         },
         {
           "id": "dimashq-kitchen-8",
@@ -1722,7 +1722,7 @@
           "description": "سلطة خضار مقرمشة مع خل رمان.",
           "image": "https://images.unsplash.com/photo-1512621776951-a57141f2eefd?w=800&q=80",
           "price": 24,
-          "rating": 4.8,
+          "rating": 4.1,
           "calories": 210,
           "protein": 6,
           "carbs": 22,
@@ -1731,6 +1731,9 @@
           "isPopular": false,
           "isOffer": false,
           "offerPrice": null,
+          "isCombo": false,
+          "offerKind": null,
+          "comboIncludes": [],
           "spicyOption": false,
           "cashbackPercent": null,
           "addons": [
@@ -1759,10 +1762,7 @@
               "name": "خبز عربي",
               "price": 4
             }
-          ],
-          "isCombo": false,
-          "comboIncludes": [],
-          "offerKind": null
+          ]
         },
         {
           "id": "dimashq-kitchen-9",
@@ -1771,15 +1771,18 @@
           "description": "كوسا وباذنجان محشي أرز.",
           "image": "https://images.unsplash.com/photo-1601050690117-94f5f6fa8bd7?w=800&q=80",
           "price": 26,
-          "rating": 4.3,
+          "rating": 4.2,
           "calories": 440,
           "protein": 12,
           "carbs": 48,
           "fat": 16,
-          "category": "menu",
-          "isPopular": false,
+          "category": "popular",
+          "isPopular": true,
           "isOffer": false,
           "offerPrice": null,
+          "isCombo": false,
+          "offerKind": null,
+          "comboIncludes": [],
           "spicyOption": false,
           "cashbackPercent": null,
           "addons": [
@@ -1808,10 +1811,7 @@
               "name": "خبز عربي",
               "price": 4
             }
-          ],
-          "isCombo": false,
-          "comboIncludes": [],
-          "offerKind": null
+          ]
         },
         {
           "id": "dimashq-kitchen-10",
@@ -1820,7 +1820,7 @@
           "description": "كباب لحم ببهارات حلبية.",
           "image": "https://images.unsplash.com/photo-1603360946369-dc9bb6258143?w=800&q=80",
           "price": 26,
-          "rating": 4.4,
+          "rating": 4.5,
           "calories": 600,
           "protein": 36,
           "carbs": 18,
@@ -1829,6 +1829,9 @@
           "isPopular": false,
           "isOffer": false,
           "offerPrice": null,
+          "isCombo": false,
+          "offerKind": null,
+          "comboIncludes": [],
           "spicyOption": true,
           "cashbackPercent": null,
           "addons": [
@@ -1857,10 +1860,7 @@
               "name": "خبز عربي",
               "price": 4
             }
-          ],
-          "isCombo": false,
-          "comboIncludes": [],
-          "offerKind": null
+          ]
         },
         {
           "id": "dimashq-kitchen-offer-1",
@@ -1921,7 +1921,7 @@
           "id": "dimashq-kitchen-offer-2",
           "restaurantId": "dimashq-kitchen",
           "name": "وجبة عائلية شاورما لـ 5 أشخاص",
-          "description": "5 شاورما مع إضافات ومشروبات. تكفي 5 أشخاص.",
+          "description": "5 شاورما مع بطاطس عائلية وثوم ومخلل. تكفي 5 أشخاص.",
           "image": "/offers/5-shawrma.jpg",
           "price": 86,
           "rating": 4.6,
@@ -2032,12 +2032,12 @@
       "id": "halab-taam",
       "name": "طعم حلب",
       "image": "https://images.unsplash.com/photo-1529006557810-274b9b2fc783?w=800&q=80",
-      "rating": 4.8,
+      "rating": 4.5,
       "cuisine": "شامي",
-      "deliveryTime": "40–55 د",
-      "deliveryFee": 10,
+      "deliveryTime": "20–30 د",
+      "deliveryFee": 12,
       "minOrder": 25,
-      "distanceKm": 1.2,
+      "distanceKm": 2.8,
       "verified": true,
       "tags": [
         "شامي",
@@ -2046,7 +2046,7 @@
       ],
       "featured": null,
       "open24h": null,
-      "fastDelivery": true,
+      "fastDelivery": null,
       "meals": [
         {
           "id": "halab-taam-1",
@@ -2055,7 +2055,7 @@
           "description": "حمص كريمي مع لحم مفروم وصنوبر.",
           "image": "https://images.unsplash.com/photo-1601050690117-94f5f6fa8bd7?w=800&q=80",
           "price": 25,
-          "rating": 4.6,
+          "rating": 4.8,
           "calories": 390,
           "protein": 18,
           "carbs": 28,
@@ -2064,6 +2064,9 @@
           "isPopular": false,
           "isOffer": false,
           "offerPrice": null,
+          "isCombo": false,
+          "offerKind": null,
+          "comboIncludes": [],
           "spicyOption": false,
           "cashbackPercent": null,
           "addons": [
@@ -2092,10 +2095,7 @@
               "name": "خبز عربي",
               "price": 4
             }
-          ],
-          "isCombo": false,
-          "comboIncludes": [],
-          "offerKind": null
+          ]
         },
         {
           "id": "halab-taam-2",
@@ -2104,7 +2104,7 @@
           "description": "خبز وحمص ولبن مع سمنة.",
           "image": "https://images.unsplash.com/photo-1601050690117-94f5f6fa8bd7?w=800&q=80",
           "price": 26,
-          "rating": 4.4,
+          "rating": 4.2,
           "calories": 450,
           "protein": 16,
           "carbs": 42,
@@ -2113,6 +2113,9 @@
           "isPopular": false,
           "isOffer": false,
           "offerPrice": null,
+          "isCombo": false,
+          "offerKind": null,
+          "comboIncludes": [],
           "spicyOption": false,
           "cashbackPercent": null,
           "addons": [
@@ -2141,10 +2144,7 @@
               "name": "خبز عربي",
               "price": 4
             }
-          ],
-          "isCombo": false,
-          "comboIncludes": [],
-          "offerKind": null
+          ]
         },
         {
           "id": "halab-taam-3",
@@ -2153,7 +2153,7 @@
           "description": "شاورما دجاج مع ثوم ومخلل.",
           "image": "https://images.unsplash.com/photo-1529006557810-274b9b2fc783?w=800&q=80",
           "price": 25,
-          "rating": 4.8,
+          "rating": 4.5,
           "calories": 520,
           "protein": 30,
           "carbs": 40,
@@ -2162,8 +2162,11 @@
           "isPopular": false,
           "isOffer": false,
           "offerPrice": null,
+          "isCombo": false,
+          "offerKind": null,
+          "comboIncludes": [],
           "spicyOption": true,
-          "cashbackPercent": 15,
+          "cashbackPercent": null,
           "addons": [
             {
               "id": "extra-garlic",
@@ -2190,10 +2193,7 @@
               "name": "خبز عربي",
               "price": 4
             }
-          ],
-          "isCombo": false,
-          "comboIncludes": [],
-          "offerKind": null
+          ]
         },
         {
           "id": "halab-taam-4",
@@ -2202,7 +2202,7 @@
           "description": "فلافل مقرمشة مع سلطة وتحينة.",
           "image": "https://images.unsplash.com/photo-1626082927389-6cd097cdc6ec?w=800&q=80",
           "price": 22,
-          "rating": 4.3,
+          "rating": 4.8,
           "calories": 410,
           "protein": 14,
           "carbs": 38,
@@ -2211,6 +2211,9 @@
           "isPopular": true,
           "isOffer": false,
           "offerPrice": null,
+          "isCombo": false,
+          "offerKind": null,
+          "comboIncludes": [],
           "spicyOption": false,
           "cashbackPercent": null,
           "addons": [
@@ -2239,10 +2242,7 @@
               "name": "خبز عربي",
               "price": 4
             }
-          ],
-          "isCombo": false,
-          "comboIncludes": [],
-          "offerKind": null
+          ]
         },
         {
           "id": "halab-taam-5",
@@ -2251,15 +2251,18 @@
           "description": "عجينة طازجة بزعتر وزيت زيتون.",
           "image": "https://images.unsplash.com/photo-1601050690117-94f5f6fa8bd7?w=800&q=80",
           "price": 18,
-          "rating": 4.2,
+          "rating": 4.6,
           "calories": 320,
           "protein": 8,
           "carbs": 36,
           "fat": 12,
-          "category": "popular",
-          "isPopular": true,
+          "category": "menu",
+          "isPopular": false,
           "isOffer": false,
           "offerPrice": null,
+          "isCombo": false,
+          "offerKind": null,
+          "comboIncludes": [],
           "spicyOption": false,
           "cashbackPercent": null,
           "addons": [
@@ -2288,10 +2291,7 @@
               "name": "خبز عربي",
               "price": 4
             }
-          ],
-          "isCombo": false,
-          "comboIncludes": [],
-          "offerKind": null
+          ]
         },
         {
           "id": "halab-taam-6",
@@ -2305,12 +2305,15 @@
           "protein": 20,
           "carbs": 32,
           "fat": 26,
-          "category": "menu",
-          "isPopular": false,
+          "category": "popular",
+          "isPopular": true,
           "isOffer": false,
           "offerPrice": null,
+          "isCombo": false,
+          "offerKind": null,
+          "comboIncludes": [],
           "spicyOption": false,
-          "cashbackPercent": 10,
+          "cashbackPercent": null,
           "addons": [
             {
               "id": "extra-garlic",
@@ -2337,10 +2340,7 @@
               "name": "خبز عربي",
               "price": 4
             }
-          ],
-          "isCombo": false,
-          "comboIncludes": [],
-          "offerKind": null
+          ]
         },
         {
           "id": "halab-taam-7",
@@ -2349,15 +2349,18 @@
           "description": "دجاج مع سماق وبصل في خبز.",
           "image": "https://images.unsplash.com/photo-1601050690117-94f5f6fa8bd7?w=800&q=80",
           "price": 26,
-          "rating": 4.2,
+          "rating": 4.7,
           "calories": 560,
           "protein": 28,
           "carbs": 45,
           "fat": 24,
-          "category": "popular",
-          "isPopular": true,
+          "category": "menu",
+          "isPopular": false,
           "isOffer": false,
           "offerPrice": null,
+          "isCombo": false,
+          "offerKind": null,
+          "comboIncludes": [],
           "spicyOption": false,
           "cashbackPercent": null,
           "addons": [
@@ -2386,10 +2389,7 @@
               "name": "خبز عربي",
               "price": 4
             }
-          ],
-          "isCombo": false,
-          "comboIncludes": [],
-          "offerKind": null
+          ]
         },
         {
           "id": "halab-taam-8",
@@ -2398,7 +2398,7 @@
           "description": "سلطة خضار مقرمشة مع خل رمان.",
           "image": "https://images.unsplash.com/photo-1512621776951-a57141f2eefd?w=800&q=80",
           "price": 24,
-          "rating": 4.9,
+          "rating": 4.5,
           "calories": 210,
           "protein": 6,
           "carbs": 22,
@@ -2407,6 +2407,9 @@
           "isPopular": false,
           "isOffer": false,
           "offerPrice": null,
+          "isCombo": false,
+          "offerKind": null,
+          "comboIncludes": [],
           "spicyOption": false,
           "cashbackPercent": null,
           "addons": [
@@ -2435,10 +2438,7 @@
               "name": "خبز عربي",
               "price": 4
             }
-          ],
-          "isCombo": false,
-          "comboIncludes": [],
-          "offerKind": null
+          ]
         },
         {
           "id": "halab-taam-9",
@@ -2447,7 +2447,7 @@
           "description": "كوسا وباذنجان محشي أرز.",
           "image": "https://images.unsplash.com/photo-1601050690117-94f5f6fa8bd7?w=800&q=80",
           "price": 26,
-          "rating": 4.9,
+          "rating": 4.3,
           "calories": 440,
           "protein": 12,
           "carbs": 48,
@@ -2456,6 +2456,9 @@
           "isPopular": false,
           "isOffer": false,
           "offerPrice": null,
+          "isCombo": false,
+          "offerKind": null,
+          "comboIncludes": [],
           "spicyOption": false,
           "cashbackPercent": null,
           "addons": [
@@ -2484,10 +2487,7 @@
               "name": "خبز عربي",
               "price": 4
             }
-          ],
-          "isCombo": false,
-          "comboIncludes": [],
-          "offerKind": null
+          ]
         },
         {
           "id": "halab-taam-10",
@@ -2496,7 +2496,7 @@
           "description": "كباب لحم ببهارات حلبية.",
           "image": "https://images.unsplash.com/photo-1603360946369-dc9bb6258143?w=800&q=80",
           "price": 26,
-          "rating": 4.2,
+          "rating": 4.6,
           "calories": 600,
           "protein": 36,
           "carbs": 18,
@@ -2505,6 +2505,9 @@
           "isPopular": false,
           "isOffer": false,
           "offerPrice": null,
+          "isCombo": false,
+          "offerKind": null,
+          "comboIncludes": [],
           "spicyOption": true,
           "cashbackPercent": null,
           "addons": [
@@ -2533,10 +2536,7 @@
               "name": "خبز عربي",
               "price": 4
             }
-          ],
-          "isCombo": false,
-          "comboIncludes": [],
-          "offerKind": null
+          ]
         },
         {
           "id": "halab-taam-offer-1",
@@ -2597,7 +2597,7 @@
           "id": "halab-taam-offer-2",
           "restaurantId": "halab-taam",
           "name": "وجبة عائلية شاورما لـ 5 أشخاص",
-          "description": "5 شاورما مع إضافات ومشروبات. تكفي 5 أشخاص.",
+          "description": "5 شاورما مع بطاطس عائلية وثوم ومخلل. تكفي 5 أشخاص.",
           "image": "/offers/5-shawrma.jpg",
           "price": 86,
           "rating": 4.6,
@@ -2708,12 +2708,12 @@
       "id": "zaatar-wzeit",
       "name": "زعتر وزيت",
       "image": "https://images.unsplash.com/photo-1529006557810-274b9b2fc783?w=800&q=80",
-      "rating": 4.8,
+      "rating": 4.7,
       "cuisine": "شامي",
-      "deliveryTime": "40–55 د",
-      "deliveryFee": 0,
-      "minOrder": 45,
-      "distanceKm": 1.2,
+      "deliveryTime": "30–45 د",
+      "deliveryFee": 10,
+      "minOrder": 50,
+      "distanceKm": 3.4,
       "verified": null,
       "tags": [
         "شامي",
@@ -2722,7 +2722,7 @@
       ],
       "featured": null,
       "open24h": null,
-      "fastDelivery": null,
+      "fastDelivery": true,
       "meals": [
         {
           "id": "zaatar-wzeit-1",
@@ -2731,7 +2731,7 @@
           "description": "حمص كريمي مع لحم مفروم وصنوبر.",
           "image": "https://images.unsplash.com/photo-1601050690117-94f5f6fa8bd7?w=800&q=80",
           "price": 25,
-          "rating": 4.7,
+          "rating": 4.8,
           "calories": 390,
           "protein": 18,
           "carbs": 28,
@@ -2740,55 +2740,9 @@
           "isPopular": false,
           "isOffer": false,
           "offerPrice": null,
-          "spicyOption": false,
-          "cashbackPercent": 15,
-          "addons": [
-            {
-              "id": "extra-garlic",
-              "name": "ثوم إضافي",
-              "price": 3
-            },
-            {
-              "id": "pickles",
-              "name": "مخلل",
-              "price": 3
-            },
-            {
-              "id": "fries",
-              "name": "بطاطس مقلية",
-              "price": 8
-            },
-            {
-              "id": "drink",
-              "name": "مشروب غازي",
-              "price": 6
-            },
-            {
-              "id": "arabic-bread",
-              "name": "خبز عربي",
-              "price": 4
-            }
-          ],
           "isCombo": false,
+          "offerKind": null,
           "comboIncludes": [],
-          "offerKind": null
-        },
-        {
-          "id": "zaatar-wzeit-2",
-          "restaurantId": "zaatar-wzeit",
-          "name": "فتة شامية",
-          "description": "خبز وحمص ولبن مع سمنة.",
-          "image": "https://images.unsplash.com/photo-1626082927389-6cd097cdc6ec?w=800&q=80",
-          "price": 26,
-          "rating": 4.5,
-          "calories": 450,
-          "protein": 16,
-          "carbs": 42,
-          "fat": 20,
-          "category": "popular",
-          "isPopular": true,
-          "isOffer": false,
-          "offerPrice": null,
           "spicyOption": false,
           "cashbackPercent": null,
           "addons": [
@@ -2817,10 +2771,56 @@
               "name": "خبز عربي",
               "price": 4
             }
-          ],
+          ]
+        },
+        {
+          "id": "zaatar-wzeit-2",
+          "restaurantId": "zaatar-wzeit",
+          "name": "فتة شامية",
+          "description": "خبز وحمص ولبن مع سمنة.",
+          "image": "https://images.unsplash.com/photo-1626082927389-6cd097cdc6ec?w=800&q=80",
+          "price": 26,
+          "rating": 4.9,
+          "calories": 450,
+          "protein": 16,
+          "carbs": 42,
+          "fat": 20,
+          "category": "popular",
+          "isPopular": true,
+          "isOffer": false,
+          "offerPrice": null,
           "isCombo": false,
+          "offerKind": null,
           "comboIncludes": [],
-          "offerKind": null
+          "spicyOption": false,
+          "cashbackPercent": null,
+          "addons": [
+            {
+              "id": "extra-garlic",
+              "name": "ثوم إضافي",
+              "price": 3
+            },
+            {
+              "id": "pickles",
+              "name": "مخلل",
+              "price": 3
+            },
+            {
+              "id": "fries",
+              "name": "بطاطس مقلية",
+              "price": 8
+            },
+            {
+              "id": "drink",
+              "name": "مشروب غازي",
+              "price": 6
+            },
+            {
+              "id": "arabic-bread",
+              "name": "خبز عربي",
+              "price": 4
+            }
+          ]
         },
         {
           "id": "zaatar-wzeit-3",
@@ -2829,15 +2829,18 @@
           "description": "شاورما دجاج مع ثوم ومخلل.",
           "image": "https://images.unsplash.com/photo-1529006557810-274b9b2fc783?w=800&q=80",
           "price": 25,
-          "rating": 4.8,
+          "rating": 4.3,
           "calories": 520,
           "protein": 30,
           "carbs": 40,
           "fat": 22,
-          "category": "menu",
-          "isPopular": false,
+          "category": "popular",
+          "isPopular": true,
           "isOffer": false,
           "offerPrice": null,
+          "isCombo": false,
+          "offerKind": null,
+          "comboIncludes": [],
           "spicyOption": true,
           "cashbackPercent": null,
           "addons": [
@@ -2866,10 +2869,7 @@
               "name": "خبز عربي",
               "price": 4
             }
-          ],
-          "isCombo": false,
-          "comboIncludes": [],
-          "offerKind": null
+          ]
         },
         {
           "id": "zaatar-wzeit-4",
@@ -2887,6 +2887,9 @@
           "isPopular": false,
           "isOffer": false,
           "offerPrice": null,
+          "isCombo": false,
+          "offerKind": null,
+          "comboIncludes": [],
           "spicyOption": false,
           "cashbackPercent": null,
           "addons": [
@@ -2915,10 +2918,7 @@
               "name": "خبز عربي",
               "price": 4
             }
-          ],
-          "isCombo": false,
-          "comboIncludes": [],
-          "offerKind": null
+          ]
         },
         {
           "id": "zaatar-wzeit-5",
@@ -2927,15 +2927,18 @@
           "description": "عجينة طازجة بزعتر وزيت زيتون.",
           "image": "https://images.unsplash.com/photo-1601050690117-94f5f6fa8bd7?w=800&q=80",
           "price": 18,
-          "rating": 4.4,
+          "rating": 4.5,
           "calories": 320,
           "protein": 8,
           "carbs": 36,
           "fat": 12,
-          "category": "menu",
-          "isPopular": false,
+          "category": "popular",
+          "isPopular": true,
           "isOffer": false,
           "offerPrice": null,
+          "isCombo": false,
+          "offerKind": null,
+          "comboIncludes": [],
           "spicyOption": false,
           "cashbackPercent": null,
           "addons": [
@@ -2964,10 +2967,7 @@
               "name": "خبز عربي",
               "price": 4
             }
-          ],
-          "isCombo": false,
-          "comboIncludes": [],
-          "offerKind": null
+          ]
         },
         {
           "id": "zaatar-wzeit-6",
@@ -2981,10 +2981,13 @@
           "protein": 20,
           "carbs": 32,
           "fat": 26,
-          "category": "menu",
-          "isPopular": false,
+          "category": "popular",
+          "isPopular": true,
           "isOffer": false,
           "offerPrice": null,
+          "isCombo": false,
+          "offerKind": null,
+          "comboIncludes": [],
           "spicyOption": false,
           "cashbackPercent": null,
           "addons": [
@@ -3013,10 +3016,7 @@
               "name": "خبز عربي",
               "price": 4
             }
-          ],
-          "isCombo": false,
-          "comboIncludes": [],
-          "offerKind": null
+          ]
         },
         {
           "id": "zaatar-wzeit-7",
@@ -3025,15 +3025,18 @@
           "description": "دجاج مع سماق وبصل في خبز.",
           "image": "https://images.unsplash.com/photo-1626082927389-6cd097cdc6ec?w=800&q=80",
           "price": 26,
-          "rating": 4.8,
+          "rating": 4.3,
           "calories": 560,
           "protein": 28,
           "carbs": 45,
           "fat": 24,
-          "category": "popular",
-          "isPopular": true,
+          "category": "menu",
+          "isPopular": false,
           "isOffer": false,
           "offerPrice": null,
+          "isCombo": false,
+          "offerKind": null,
+          "comboIncludes": [],
           "spicyOption": false,
           "cashbackPercent": null,
           "addons": [
@@ -3062,10 +3065,7 @@
               "name": "خبز عربي",
               "price": 4
             }
-          ],
-          "isCombo": false,
-          "comboIncludes": [],
-          "offerKind": null
+          ]
         },
         {
           "id": "zaatar-wzeit-8",
@@ -3083,55 +3083,9 @@
           "isPopular": false,
           "isOffer": false,
           "offerPrice": null,
-          "spicyOption": false,
-          "cashbackPercent": 10,
-          "addons": [
-            {
-              "id": "extra-garlic",
-              "name": "ثوم إضافي",
-              "price": 3
-            },
-            {
-              "id": "pickles",
-              "name": "مخلل",
-              "price": 3
-            },
-            {
-              "id": "fries",
-              "name": "بطاطس مقلية",
-              "price": 8
-            },
-            {
-              "id": "drink",
-              "name": "مشروب غازي",
-              "price": 6
-            },
-            {
-              "id": "arabic-bread",
-              "name": "خبز عربي",
-              "price": 4
-            }
-          ],
           "isCombo": false,
+          "offerKind": null,
           "comboIncludes": [],
-          "offerKind": null
-        },
-        {
-          "id": "zaatar-wzeit-9",
-          "restaurantId": "zaatar-wzeit",
-          "name": "محاشي مشكل",
-          "description": "كوسا وباذنجان محشي أرز.",
-          "image": "https://images.unsplash.com/photo-1626082927389-6cd097cdc6ec?w=800&q=80",
-          "price": 26,
-          "rating": 4.7,
-          "calories": 440,
-          "protein": 12,
-          "carbs": 48,
-          "fat": 16,
-          "category": "popular",
-          "isPopular": true,
-          "isOffer": false,
-          "offerPrice": null,
           "spicyOption": false,
           "cashbackPercent": null,
           "addons": [
@@ -3160,10 +3114,56 @@
               "name": "خبز عربي",
               "price": 4
             }
-          ],
+          ]
+        },
+        {
+          "id": "zaatar-wzeit-9",
+          "restaurantId": "zaatar-wzeit",
+          "name": "محاشي مشكل",
+          "description": "كوسا وباذنجان محشي أرز.",
+          "image": "https://images.unsplash.com/photo-1626082927389-6cd097cdc6ec?w=800&q=80",
+          "price": 26,
+          "rating": 4.6,
+          "calories": 440,
+          "protein": 12,
+          "carbs": 48,
+          "fat": 16,
+          "category": "popular",
+          "isPopular": true,
+          "isOffer": false,
+          "offerPrice": null,
           "isCombo": false,
+          "offerKind": null,
           "comboIncludes": [],
-          "offerKind": null
+          "spicyOption": false,
+          "cashbackPercent": null,
+          "addons": [
+            {
+              "id": "extra-garlic",
+              "name": "ثوم إضافي",
+              "price": 3
+            },
+            {
+              "id": "pickles",
+              "name": "مخلل",
+              "price": 3
+            },
+            {
+              "id": "fries",
+              "name": "بطاطس مقلية",
+              "price": 8
+            },
+            {
+              "id": "drink",
+              "name": "مشروب غازي",
+              "price": 6
+            },
+            {
+              "id": "arabic-bread",
+              "name": "خبز عربي",
+              "price": 4
+            }
+          ]
         },
         {
           "id": "zaatar-wzeit-10",
@@ -3172,7 +3172,7 @@
           "description": "كباب لحم ببهارات حلبية.",
           "image": "https://images.unsplash.com/photo-1603360946369-dc9bb6258143?w=800&q=80",
           "price": 26,
-          "rating": 4.4,
+          "rating": 4.7,
           "calories": 600,
           "protein": 36,
           "carbs": 18,
@@ -3181,6 +3181,9 @@
           "isPopular": true,
           "isOffer": false,
           "offerPrice": null,
+          "isCombo": false,
+          "offerKind": null,
+          "comboIncludes": [],
           "spicyOption": true,
           "cashbackPercent": null,
           "addons": [
@@ -3209,10 +3212,7 @@
               "name": "خبز عربي",
               "price": 4
             }
-          ],
-          "isCombo": false,
-          "comboIncludes": [],
-          "offerKind": null
+          ]
         },
         {
           "id": "zaatar-wzeit-offer-1",
@@ -3273,7 +3273,7 @@
           "id": "zaatar-wzeit-offer-2",
           "restaurantId": "zaatar-wzeit",
           "name": "وجبة عائلية شاورما لـ 6 أشخاص",
-          "description": "6 شاورما مع إضافات ومشروبات. تكفي 6 أشخاص.",
+          "description": "6 شاورما مع بطاطس عائلية وثوم ومخلل. تكفي 6 أشخاص.",
           "image": "/offers/6-shawrma.jpg",
           "price": 100,
           "rating": 4.6,
@@ -3384,12 +3384,12 @@
       "id": "laban-wbasil",
       "name": "لبن وباسل",
       "image": "https://images.unsplash.com/photo-1601050690117-94f5f6fa8bd7?w=800&q=80",
-      "rating": 4.4,
+      "rating": 4.5,
       "cuisine": "شامي",
-      "deliveryTime": "25–35 د",
-      "deliveryFee": 6,
+      "deliveryTime": "40–55 د",
+      "deliveryFee": 12,
       "minOrder": 40,
-      "distanceKm": 6.2,
+      "distanceKm": 4.9,
       "verified": true,
       "tags": [
         "شامي",
@@ -3397,7 +3397,7 @@
         "مقبلات"
       ],
       "featured": true,
-      "open24h": null,
+      "open24h": true,
       "fastDelivery": true,
       "meals": [
         {
@@ -3407,7 +3407,7 @@
           "description": "حمص كريمي مع لحم مفروم وصنوبر.",
           "image": "https://images.unsplash.com/photo-1601050690117-94f5f6fa8bd7?w=800&q=80",
           "price": 25,
-          "rating": 4.2,
+          "rating": 4.6,
           "calories": 390,
           "protein": 18,
           "carbs": 28,
@@ -3416,6 +3416,9 @@
           "isPopular": false,
           "isOffer": false,
           "offerPrice": null,
+          "isCombo": false,
+          "offerKind": null,
+          "comboIncludes": [],
           "spicyOption": false,
           "cashbackPercent": null,
           "addons": [
@@ -3444,10 +3447,7 @@
               "name": "خبز عربي",
               "price": 4
             }
-          ],
-          "isCombo": false,
-          "comboIncludes": [],
-          "offerKind": null
+          ]
         },
         {
           "id": "laban-wbasil-2",
@@ -3456,7 +3456,7 @@
           "description": "خبز وحمص ولبن مع سمنة.",
           "image": "https://images.unsplash.com/photo-1626082927389-6cd097cdc6ec?w=800&q=80",
           "price": 26,
-          "rating": 4.3,
+          "rating": 4.6,
           "calories": 450,
           "protein": 16,
           "carbs": 42,
@@ -3465,6 +3465,9 @@
           "isPopular": false,
           "isOffer": false,
           "offerPrice": null,
+          "isCombo": false,
+          "offerKind": null,
+          "comboIncludes": [],
           "spicyOption": false,
           "cashbackPercent": null,
           "addons": [
@@ -3493,10 +3496,7 @@
               "name": "خبز عربي",
               "price": 4
             }
-          ],
-          "isCombo": false,
-          "comboIncludes": [],
-          "offerKind": null
+          ]
         },
         {
           "id": "laban-wbasil-3",
@@ -3505,15 +3505,18 @@
           "description": "شاورما دجاج مع ثوم ومخلل.",
           "image": "https://images.unsplash.com/photo-1529006557810-274b9b2fc783?w=800&q=80",
           "price": 25,
-          "rating": 4.9,
+          "rating": 4.8,
           "calories": 520,
           "protein": 30,
           "carbs": 40,
           "fat": 22,
-          "category": "popular",
-          "isPopular": true,
+          "category": "menu",
+          "isPopular": false,
           "isOffer": false,
           "offerPrice": null,
+          "isCombo": false,
+          "offerKind": null,
+          "comboIncludes": [],
           "spicyOption": true,
           "cashbackPercent": null,
           "addons": [
@@ -3542,10 +3545,7 @@
               "name": "خبز عربي",
               "price": 4
             }
-          ],
-          "isCombo": false,
-          "comboIncludes": [],
-          "offerKind": null
+          ]
         },
         {
           "id": "laban-wbasil-4",
@@ -3559,10 +3559,13 @@
           "protein": 14,
           "carbs": 38,
           "fat": 18,
-          "category": "popular",
-          "isPopular": true,
+          "category": "menu",
+          "isPopular": false,
           "isOffer": false,
           "offerPrice": null,
+          "isCombo": false,
+          "offerKind": null,
+          "comboIncludes": [],
           "spicyOption": false,
           "cashbackPercent": null,
           "addons": [
@@ -3591,10 +3594,7 @@
               "name": "خبز عربي",
               "price": 4
             }
-          ],
-          "isCombo": false,
-          "comboIncludes": [],
-          "offerKind": null
+          ]
         },
         {
           "id": "laban-wbasil-5",
@@ -3603,15 +3603,18 @@
           "description": "عجينة طازجة بزعتر وزيت زيتون.",
           "image": "https://images.unsplash.com/photo-1601050690117-94f5f6fa8bd7?w=800&q=80",
           "price": 18,
-          "rating": 4.8,
+          "rating": 4.5,
           "calories": 320,
           "protein": 8,
           "carbs": 36,
           "fat": 12,
-          "category": "popular",
-          "isPopular": true,
+          "category": "menu",
+          "isPopular": false,
           "isOffer": false,
           "offerPrice": null,
+          "isCombo": false,
+          "offerKind": null,
+          "comboIncludes": [],
           "spicyOption": false,
           "cashbackPercent": null,
           "addons": [
@@ -3640,10 +3643,7 @@
               "name": "خبز عربي",
               "price": 4
             }
-          ],
-          "isCombo": false,
-          "comboIncludes": [],
-          "offerKind": null
+          ]
         },
         {
           "id": "laban-wbasil-6",
@@ -3652,7 +3652,7 @@
           "description": "كبة محشوة لحم مع لبن.",
           "image": "https://images.unsplash.com/photo-1529042410759-befb1204b468?w=800&q=80",
           "price": 26,
-          "rating": 4.2,
+          "rating": 4.8,
           "calories": 480,
           "protein": 20,
           "carbs": 32,
@@ -3661,6 +3661,9 @@
           "isPopular": true,
           "isOffer": false,
           "offerPrice": null,
+          "isCombo": false,
+          "offerKind": null,
+          "comboIncludes": [],
           "spicyOption": false,
           "cashbackPercent": null,
           "addons": [
@@ -3689,10 +3692,7 @@
               "name": "خبز عربي",
               "price": 4
             }
-          ],
-          "isCombo": false,
-          "comboIncludes": [],
-          "offerKind": null
+          ]
         },
         {
           "id": "laban-wbasil-7",
@@ -3710,6 +3710,9 @@
           "isPopular": false,
           "isOffer": false,
           "offerPrice": null,
+          "isCombo": false,
+          "offerKind": null,
+          "comboIncludes": [],
           "spicyOption": false,
           "cashbackPercent": null,
           "addons": [
@@ -3738,10 +3741,7 @@
               "name": "خبز عربي",
               "price": 4
             }
-          ],
-          "isCombo": false,
-          "comboIncludes": [],
-          "offerKind": null
+          ]
         },
         {
           "id": "laban-wbasil-8",
@@ -3755,10 +3755,13 @@
           "protein": 6,
           "carbs": 22,
           "fat": 10,
-          "category": "menu",
-          "isPopular": false,
+          "category": "popular",
+          "isPopular": true,
           "isOffer": false,
           "offerPrice": null,
+          "isCombo": false,
+          "offerKind": null,
+          "comboIncludes": [],
           "spicyOption": false,
           "cashbackPercent": null,
           "addons": [
@@ -3787,10 +3790,7 @@
               "name": "خبز عربي",
               "price": 4
             }
-          ],
-          "isCombo": false,
-          "comboIncludes": [],
-          "offerKind": null
+          ]
         },
         {
           "id": "laban-wbasil-9",
@@ -3799,7 +3799,7 @@
           "description": "كوسا وباذنجان محشي أرز.",
           "image": "https://images.unsplash.com/photo-1512621776951-a57141f2eefd?w=800&q=80",
           "price": 26,
-          "rating": 4.5,
+          "rating": 4.2,
           "calories": 440,
           "protein": 12,
           "carbs": 48,
@@ -3808,6 +3808,9 @@
           "isPopular": true,
           "isOffer": false,
           "offerPrice": null,
+          "isCombo": false,
+          "offerKind": null,
+          "comboIncludes": [],
           "spicyOption": false,
           "cashbackPercent": null,
           "addons": [
@@ -3836,10 +3839,7 @@
               "name": "خبز عربي",
               "price": 4
             }
-          ],
-          "isCombo": false,
-          "comboIncludes": [],
-          "offerKind": null
+          ]
         },
         {
           "id": "laban-wbasil-10",
@@ -3848,7 +3848,7 @@
           "description": "كباب لحم ببهارات حلبية.",
           "image": "https://images.unsplash.com/photo-1603360946369-dc9bb6258143?w=800&q=80",
           "price": 26,
-          "rating": 4.6,
+          "rating": 4.7,
           "calories": 600,
           "protein": 36,
           "carbs": 18,
@@ -3857,8 +3857,11 @@
           "isPopular": false,
           "isOffer": false,
           "offerPrice": null,
+          "isCombo": false,
+          "offerKind": null,
+          "comboIncludes": [],
           "spicyOption": true,
-          "cashbackPercent": 5,
+          "cashbackPercent": null,
           "addons": [
             {
               "id": "extra-garlic",
@@ -3885,10 +3888,7 @@
               "name": "خبز عربي",
               "price": 4
             }
-          ],
-          "isCombo": false,
-          "comboIncludes": [],
-          "offerKind": null
+          ]
         },
         {
           "id": "laban-wbasil-offer-1",
@@ -3949,7 +3949,7 @@
           "id": "laban-wbasil-offer-2",
           "restaurantId": "laban-wbasil",
           "name": "وجبة عائلية شاورما لـ 6 أشخاص",
-          "description": "6 شاورما مع إضافات ومشروبات. تكفي 6 أشخاص.",
+          "description": "6 شاورما مع بطاطس عائلية وثوم ومخلل. تكفي 6 أشخاص.",
           "image": "/offers/6-shawrma.jpg",
           "price": 100,
           "rating": 4.6,
@@ -4060,20 +4060,20 @@
       "id": "manakeesh-street",
       "name": "شارع المناقيش",
       "image": "https://images.unsplash.com/photo-1626082927389-6cd097cdc6ec?w=800&q=80",
-      "rating": 4.8,
+      "rating": 4.3,
       "cuisine": "شامي",
-      "deliveryTime": "25–35 د",
-      "deliveryFee": 6,
+      "deliveryTime": "20–30 د",
+      "deliveryFee": 0,
       "minOrder": 30,
-      "distanceKm": 2,
-      "verified": true,
+      "distanceKm": 3.8,
+      "verified": null,
       "tags": [
         "شامي",
         "مشاوي",
         "مقبلات"
       ],
       "featured": null,
-      "open24h": null,
+      "open24h": true,
       "fastDelivery": null,
       "meals": [
         {
@@ -4083,7 +4083,7 @@
           "description": "حمص كريمي مع لحم مفروم وصنوبر.",
           "image": "https://images.unsplash.com/photo-1601050690117-94f5f6fa8bd7?w=800&q=80",
           "price": 25,
-          "rating": 4.2,
+          "rating": 4.7,
           "calories": 390,
           "protein": 18,
           "carbs": 28,
@@ -4092,6 +4092,9 @@
           "isPopular": false,
           "isOffer": false,
           "offerPrice": null,
+          "isCombo": false,
+          "offerKind": null,
+          "comboIncludes": [],
           "spicyOption": false,
           "cashbackPercent": null,
           "addons": [
@@ -4120,10 +4123,7 @@
               "name": "خبز عربي",
               "price": 4
             }
-          ],
-          "isCombo": false,
-          "comboIncludes": [],
-          "offerKind": null
+          ]
         },
         {
           "id": "manakeesh-street-2",
@@ -4132,7 +4132,7 @@
           "description": "خبز وحمص ولبن مع سمنة.",
           "image": "https://images.unsplash.com/photo-1626082927389-6cd097cdc6ec?w=800&q=80",
           "price": 26,
-          "rating": 4.7,
+          "rating": 4.8,
           "calories": 450,
           "protein": 16,
           "carbs": 42,
@@ -4141,8 +4141,11 @@
           "isPopular": false,
           "isOffer": false,
           "offerPrice": null,
+          "isCombo": false,
+          "offerKind": null,
+          "comboIncludes": [],
           "spicyOption": false,
-          "cashbackPercent": 5,
+          "cashbackPercent": null,
           "addons": [
             {
               "id": "extra-garlic",
@@ -4169,10 +4172,7 @@
               "name": "خبز عربي",
               "price": 4
             }
-          ],
-          "isCombo": false,
-          "comboIncludes": [],
-          "offerKind": null
+          ]
         },
         {
           "id": "manakeesh-street-3",
@@ -4181,7 +4181,7 @@
           "description": "شاورما دجاج مع ثوم ومخلل.",
           "image": "https://images.unsplash.com/photo-1529006557810-274b9b2fc783?w=800&q=80",
           "price": 25,
-          "rating": 4.8,
+          "rating": 4.1,
           "calories": 520,
           "protein": 30,
           "carbs": 40,
@@ -4190,6 +4190,9 @@
           "isPopular": true,
           "isOffer": false,
           "offerPrice": null,
+          "isCombo": false,
+          "offerKind": null,
+          "comboIncludes": [],
           "spicyOption": true,
           "cashbackPercent": null,
           "addons": [
@@ -4218,10 +4221,7 @@
               "name": "خبز عربي",
               "price": 4
             }
-          ],
-          "isCombo": false,
-          "comboIncludes": [],
-          "offerKind": null
+          ]
         },
         {
           "id": "manakeesh-street-4",
@@ -4230,15 +4230,18 @@
           "description": "فلافل مقرمشة مع سلطة وتحينة.",
           "image": "https://images.unsplash.com/photo-1626082927389-6cd097cdc6ec?w=800&q=80",
           "price": 22,
-          "rating": 4.3,
+          "rating": 4.7,
           "calories": 410,
           "protein": 14,
           "carbs": 38,
           "fat": 18,
-          "category": "menu",
-          "isPopular": false,
+          "category": "popular",
+          "isPopular": true,
           "isOffer": false,
           "offerPrice": null,
+          "isCombo": false,
+          "offerKind": null,
+          "comboIncludes": [],
           "spicyOption": false,
           "cashbackPercent": null,
           "addons": [
@@ -4267,10 +4270,7 @@
               "name": "خبز عربي",
               "price": 4
             }
-          ],
-          "isCombo": false,
-          "comboIncludes": [],
-          "offerKind": null
+          ]
         },
         {
           "id": "manakeesh-street-5",
@@ -4279,7 +4279,7 @@
           "description": "عجينة طازجة بزعتر وزيت زيتون.",
           "image": "https://images.unsplash.com/photo-1601050690117-94f5f6fa8bd7?w=800&q=80",
           "price": 18,
-          "rating": 4.8,
+          "rating": 4.7,
           "calories": 320,
           "protein": 8,
           "carbs": 36,
@@ -4288,8 +4288,11 @@
           "isPopular": false,
           "isOffer": false,
           "offerPrice": null,
+          "isCombo": false,
+          "offerKind": null,
+          "comboIncludes": [],
           "spicyOption": false,
-          "cashbackPercent": 10,
+          "cashbackPercent": null,
           "addons": [
             {
               "id": "extra-garlic",
@@ -4316,10 +4319,7 @@
               "name": "خبز عربي",
               "price": 4
             }
-          ],
-          "isCombo": false,
-          "comboIncludes": [],
-          "offerKind": null
+          ]
         },
         {
           "id": "manakeesh-street-6",
@@ -4328,17 +4328,20 @@
           "description": "كبة محشوة لحم مع لبن.",
           "image": "https://images.unsplash.com/photo-1529042410759-befb1204b468?w=800&q=80",
           "price": 26,
-          "rating": 4.2,
+          "rating": 4.9,
           "calories": 480,
           "protein": 20,
           "carbs": 32,
           "fat": 26,
-          "category": "menu",
-          "isPopular": false,
+          "category": "popular",
+          "isPopular": true,
           "isOffer": false,
           "offerPrice": null,
+          "isCombo": false,
+          "offerKind": null,
+          "comboIncludes": [],
           "spicyOption": false,
-          "cashbackPercent": 15,
+          "cashbackPercent": null,
           "addons": [
             {
               "id": "extra-garlic",
@@ -4365,10 +4368,7 @@
               "name": "خبز عربي",
               "price": 4
             }
-          ],
-          "isCombo": false,
-          "comboIncludes": [],
-          "offerKind": null
+          ]
         },
         {
           "id": "manakeesh-street-7",
@@ -4377,15 +4377,18 @@
           "description": "دجاج مع سماق وبصل في خبز.",
           "image": "https://images.unsplash.com/photo-1512621776951-a57141f2eefd?w=800&q=80",
           "price": 26,
-          "rating": 4.3,
+          "rating": 4.9,
           "calories": 560,
           "protein": 28,
           "carbs": 45,
           "fat": 24,
-          "category": "menu",
-          "isPopular": false,
+          "category": "popular",
+          "isPopular": true,
           "isOffer": false,
           "offerPrice": null,
+          "isCombo": false,
+          "offerKind": null,
+          "comboIncludes": [],
           "spicyOption": false,
           "cashbackPercent": null,
           "addons": [
@@ -4414,10 +4417,7 @@
               "name": "خبز عربي",
               "price": 4
             }
-          ],
-          "isCombo": false,
-          "comboIncludes": [],
-          "offerKind": null
+          ]
         },
         {
           "id": "manakeesh-street-8",
@@ -4426,7 +4426,7 @@
           "description": "سلطة خضار مقرمشة مع خل رمان.",
           "image": "https://images.unsplash.com/photo-1512621776951-a57141f2eefd?w=800&q=80",
           "price": 24,
-          "rating": 4.2,
+          "rating": 4.4,
           "calories": 210,
           "protein": 6,
           "carbs": 22,
@@ -4435,55 +4435,9 @@
           "isPopular": false,
           "isOffer": false,
           "offerPrice": null,
-          "spicyOption": false,
-          "cashbackPercent": 15,
-          "addons": [
-            {
-              "id": "extra-garlic",
-              "name": "ثوم إضافي",
-              "price": 3
-            },
-            {
-              "id": "pickles",
-              "name": "مخلل",
-              "price": 3
-            },
-            {
-              "id": "fries",
-              "name": "بطاطس مقلية",
-              "price": 8
-            },
-            {
-              "id": "drink",
-              "name": "مشروب غازي",
-              "price": 6
-            },
-            {
-              "id": "arabic-bread",
-              "name": "خبز عربي",
-              "price": 4
-            }
-          ],
           "isCombo": false,
+          "offerKind": null,
           "comboIncludes": [],
-          "offerKind": null
-        },
-        {
-          "id": "manakeesh-street-9",
-          "restaurantId": "manakeesh-street",
-          "name": "محاشي مشكل",
-          "description": "كوسا وباذنجان محشي أرز.",
-          "image": "https://images.unsplash.com/photo-1512621776951-a57141f2eefd?w=800&q=80",
-          "price": 26,
-          "rating": 4.3,
-          "calories": 440,
-          "protein": 12,
-          "carbs": 48,
-          "fat": 16,
-          "category": "menu",
-          "isPopular": false,
-          "isOffer": false,
-          "offerPrice": null,
           "spicyOption": false,
           "cashbackPercent": null,
           "addons": [
@@ -4512,10 +4466,56 @@
               "name": "خبز عربي",
               "price": 4
             }
-          ],
+          ]
+        },
+        {
+          "id": "manakeesh-street-9",
+          "restaurantId": "manakeesh-street",
+          "name": "محاشي مشكل",
+          "description": "كوسا وباذنجان محشي أرز.",
+          "image": "https://images.unsplash.com/photo-1512621776951-a57141f2eefd?w=800&q=80",
+          "price": 26,
+          "rating": 4.2,
+          "calories": 440,
+          "protein": 12,
+          "carbs": 48,
+          "fat": 16,
+          "category": "menu",
+          "isPopular": false,
+          "isOffer": false,
+          "offerPrice": null,
           "isCombo": false,
+          "offerKind": null,
           "comboIncludes": [],
-          "offerKind": null
+          "spicyOption": false,
+          "cashbackPercent": null,
+          "addons": [
+            {
+              "id": "extra-garlic",
+              "name": "ثوم إضافي",
+              "price": 3
+            },
+            {
+              "id": "pickles",
+              "name": "مخلل",
+              "price": 3
+            },
+            {
+              "id": "fries",
+              "name": "بطاطس مقلية",
+              "price": 8
+            },
+            {
+              "id": "drink",
+              "name": "مشروب غازي",
+              "price": 6
+            },
+            {
+              "id": "arabic-bread",
+              "name": "خبز عربي",
+              "price": 4
+            }
+          ]
         },
         {
           "id": "manakeesh-street-10",
@@ -4524,15 +4524,18 @@
           "description": "كباب لحم ببهارات حلبية.",
           "image": "https://images.unsplash.com/photo-1603360946369-dc9bb6258143?w=800&q=80",
           "price": 26,
-          "rating": 4.5,
+          "rating": 4.3,
           "calories": 600,
           "protein": 36,
           "carbs": 18,
           "fat": 38,
-          "category": "menu",
-          "isPopular": false,
+          "category": "popular",
+          "isPopular": true,
           "isOffer": false,
           "offerPrice": null,
+          "isCombo": false,
+          "offerKind": null,
+          "comboIncludes": [],
           "spicyOption": true,
           "cashbackPercent": null,
           "addons": [
@@ -4561,10 +4564,7 @@
               "name": "خبز عربي",
               "price": 4
             }
-          ],
-          "isCombo": false,
-          "comboIncludes": [],
-          "offerKind": null
+          ]
         },
         {
           "id": "manakeesh-street-offer-1",
@@ -4625,7 +4625,7 @@
           "id": "manakeesh-street-offer-2",
           "restaurantId": "manakeesh-street",
           "name": "وجبة عائلية شاورما لـ 4 أشخاص",
-          "description": "4 شاورما مع إضافات ومشروبات. تكفي 4 أشخاص.",
+          "description": "4 شاورما مع بطاطس عائلية وثوم ومخلل. تكفي 4 أشخاص.",
           "image": "/offers/4-shawrma.jpg",
           "price": 71,
           "rating": 4.6,
@@ -4736,12 +4736,12 @@
       "id": "hummus-house",
       "name": "بيت الحمص",
       "image": "https://images.unsplash.com/photo-1601050690117-94f5f6fa8bd7?w=800&q=80",
-      "rating": 4.6,
+      "rating": 4.7,
       "cuisine": "شامي",
-      "deliveryTime": "20–30 د",
-      "deliveryFee": 10,
-      "minOrder": 30,
-      "distanceKm": 0.9,
+      "deliveryTime": "40–55 د",
+      "deliveryFee": 6,
+      "minOrder": 40,
+      "distanceKm": 0.6,
       "verified": true,
       "tags": [
         "شامي",
@@ -4749,7 +4749,7 @@
         "مقبلات"
       ],
       "featured": true,
-      "open24h": null,
+      "open24h": true,
       "fastDelivery": null,
       "meals": [
         {
@@ -4759,64 +4759,18 @@
           "description": "حمص كريمي مع لحم مفروم وصنوبر.",
           "image": "https://images.unsplash.com/photo-1601050690117-94f5f6fa8bd7?w=800&q=80",
           "price": 25,
-          "rating": 4.6,
+          "rating": 4.8,
           "calories": 390,
           "protein": 18,
           "carbs": 28,
           "fat": 22,
-          "category": "menu",
-          "isPopular": false,
-          "isOffer": false,
-          "offerPrice": null,
-          "spicyOption": false,
-          "cashbackPercent": 10,
-          "addons": [
-            {
-              "id": "extra-garlic",
-              "name": "ثوم إضافي",
-              "price": 3
-            },
-            {
-              "id": "pickles",
-              "name": "مخلل",
-              "price": 3
-            },
-            {
-              "id": "fries",
-              "name": "بطاطس مقلية",
-              "price": 8
-            },
-            {
-              "id": "drink",
-              "name": "مشروب غازي",
-              "price": 6
-            },
-            {
-              "id": "arabic-bread",
-              "name": "خبز عربي",
-              "price": 4
-            }
-          ],
-          "isCombo": false,
-          "comboIncludes": [],
-          "offerKind": null
-        },
-        {
-          "id": "hummus-house-2",
-          "restaurantId": "hummus-house",
-          "name": "فتة شامية",
-          "description": "خبز وحمص ولبن مع سمنة.",
-          "image": "https://images.unsplash.com/photo-1529006557810-274b9b2fc783?w=800&q=80",
-          "price": 26,
-          "rating": 4.6,
-          "calories": 450,
-          "protein": 16,
-          "carbs": 42,
-          "fat": 20,
           "category": "popular",
           "isPopular": true,
           "isOffer": false,
           "offerPrice": null,
+          "isCombo": false,
+          "offerKind": null,
+          "comboIncludes": [],
           "spicyOption": false,
           "cashbackPercent": null,
           "addons": [
@@ -4845,10 +4799,56 @@
               "name": "خبز عربي",
               "price": 4
             }
-          ],
+          ]
+        },
+        {
+          "id": "hummus-house-2",
+          "restaurantId": "hummus-house",
+          "name": "فتة شامية",
+          "description": "خبز وحمص ولبن مع سمنة.",
+          "image": "https://images.unsplash.com/photo-1529006557810-274b9b2fc783?w=800&q=80",
+          "price": 26,
+          "rating": 4.5,
+          "calories": 450,
+          "protein": 16,
+          "carbs": 42,
+          "fat": 20,
+          "category": "popular",
+          "isPopular": true,
+          "isOffer": false,
+          "offerPrice": null,
           "isCombo": false,
+          "offerKind": null,
           "comboIncludes": [],
-          "offerKind": null
+          "spicyOption": false,
+          "cashbackPercent": null,
+          "addons": [
+            {
+              "id": "extra-garlic",
+              "name": "ثوم إضافي",
+              "price": 3
+            },
+            {
+              "id": "pickles",
+              "name": "مخلل",
+              "price": 3
+            },
+            {
+              "id": "fries",
+              "name": "بطاطس مقلية",
+              "price": 8
+            },
+            {
+              "id": "drink",
+              "name": "مشروب غازي",
+              "price": 6
+            },
+            {
+              "id": "arabic-bread",
+              "name": "خبز عربي",
+              "price": 4
+            }
+          ]
         },
         {
           "id": "hummus-house-3",
@@ -4857,7 +4857,7 @@
           "description": "شاورما دجاج مع ثوم ومخلل.",
           "image": "https://images.unsplash.com/photo-1529006557810-274b9b2fc783?w=800&q=80",
           "price": 25,
-          "rating": 4.3,
+          "rating": 4.4,
           "calories": 520,
           "protein": 30,
           "carbs": 40,
@@ -4866,6 +4866,9 @@
           "isPopular": false,
           "isOffer": false,
           "offerPrice": null,
+          "isCombo": false,
+          "offerKind": null,
+          "comboIncludes": [],
           "spicyOption": true,
           "cashbackPercent": null,
           "addons": [
@@ -4894,10 +4897,7 @@
               "name": "خبز عربي",
               "price": 4
             }
-          ],
-          "isCombo": false,
-          "comboIncludes": [],
-          "offerKind": null
+          ]
         },
         {
           "id": "hummus-house-4",
@@ -4906,15 +4906,18 @@
           "description": "فلافل مقرمشة مع سلطة وتحينة.",
           "image": "https://images.unsplash.com/photo-1626082927389-6cd097cdc6ec?w=800&q=80",
           "price": 22,
-          "rating": 4.8,
+          "rating": 4.6,
           "calories": 410,
           "protein": 14,
           "carbs": 38,
           "fat": 18,
-          "category": "popular",
-          "isPopular": true,
+          "category": "menu",
+          "isPopular": false,
           "isOffer": false,
           "offerPrice": null,
+          "isCombo": false,
+          "offerKind": null,
+          "comboIncludes": [],
           "spicyOption": false,
           "cashbackPercent": null,
           "addons": [
@@ -4943,10 +4946,7 @@
               "name": "خبز عربي",
               "price": 4
             }
-          ],
-          "isCombo": false,
-          "comboIncludes": [],
-          "offerKind": null
+          ]
         },
         {
           "id": "hummus-house-5",
@@ -4955,7 +4955,7 @@
           "description": "عجينة طازجة بزعتر وزيت زيتون.",
           "image": "https://images.unsplash.com/photo-1601050690117-94f5f6fa8bd7?w=800&q=80",
           "price": 18,
-          "rating": 4.4,
+          "rating": 4.8,
           "calories": 320,
           "protein": 8,
           "carbs": 36,
@@ -4964,6 +4964,9 @@
           "isPopular": false,
           "isOffer": false,
           "offerPrice": null,
+          "isCombo": false,
+          "offerKind": null,
+          "comboIncludes": [],
           "spicyOption": false,
           "cashbackPercent": null,
           "addons": [
@@ -4992,10 +4995,7 @@
               "name": "خبز عربي",
               "price": 4
             }
-          ],
-          "isCombo": false,
-          "comboIncludes": [],
-          "offerKind": null
+          ]
         },
         {
           "id": "hummus-house-6",
@@ -5004,15 +5004,18 @@
           "description": "كبة محشوة لحم مع لبن.",
           "image": "https://images.unsplash.com/photo-1529042410759-befb1204b468?w=800&q=80",
           "price": 26,
-          "rating": 4.4,
+          "rating": 4.9,
           "calories": 480,
           "protein": 20,
           "carbs": 32,
           "fat": 26,
-          "category": "menu",
-          "isPopular": false,
+          "category": "popular",
+          "isPopular": true,
           "isOffer": false,
           "offerPrice": null,
+          "isCombo": false,
+          "offerKind": null,
+          "comboIncludes": [],
           "spicyOption": false,
           "cashbackPercent": null,
           "addons": [
@@ -5041,10 +5044,7 @@
               "name": "خبز عربي",
               "price": 4
             }
-          ],
-          "isCombo": false,
-          "comboIncludes": [],
-          "offerKind": null
+          ]
         },
         {
           "id": "hummus-house-7",
@@ -5053,7 +5053,7 @@
           "description": "دجاج مع سماق وبصل في خبز.",
           "image": "https://images.unsplash.com/photo-1601050690117-94f5f6fa8bd7?w=800&q=80",
           "price": 26,
-          "rating": 4.7,
+          "rating": 4.5,
           "calories": 560,
           "protein": 28,
           "carbs": 45,
@@ -5062,6 +5062,9 @@
           "isPopular": false,
           "isOffer": false,
           "offerPrice": null,
+          "isCombo": false,
+          "offerKind": null,
+          "comboIncludes": [],
           "spicyOption": false,
           "cashbackPercent": null,
           "addons": [
@@ -5090,10 +5093,7 @@
               "name": "خبز عربي",
               "price": 4
             }
-          ],
-          "isCombo": false,
-          "comboIncludes": [],
-          "offerKind": null
+          ]
         },
         {
           "id": "hummus-house-8",
@@ -5111,6 +5111,9 @@
           "isPopular": false,
           "isOffer": false,
           "offerPrice": null,
+          "isCombo": false,
+          "offerKind": null,
+          "comboIncludes": [],
           "spicyOption": false,
           "cashbackPercent": null,
           "addons": [
@@ -5139,10 +5142,7 @@
               "name": "خبز عربي",
               "price": 4
             }
-          ],
-          "isCombo": false,
-          "comboIncludes": [],
-          "offerKind": null
+          ]
         },
         {
           "id": "hummus-house-9",
@@ -5151,15 +5151,18 @@
           "description": "كوسا وباذنجان محشي أرز.",
           "image": "https://images.unsplash.com/photo-1601050690117-94f5f6fa8bd7?w=800&q=80",
           "price": 26,
-          "rating": 4.6,
+          "rating": 4.8,
           "calories": 440,
           "protein": 12,
           "carbs": 48,
           "fat": 16,
-          "category": "popular",
-          "isPopular": true,
+          "category": "menu",
+          "isPopular": false,
           "isOffer": false,
           "offerPrice": null,
+          "isCombo": false,
+          "offerKind": null,
+          "comboIncludes": [],
           "spicyOption": false,
           "cashbackPercent": null,
           "addons": [
@@ -5188,10 +5191,7 @@
               "name": "خبز عربي",
               "price": 4
             }
-          ],
-          "isCombo": false,
-          "comboIncludes": [],
-          "offerKind": null
+          ]
         },
         {
           "id": "hummus-house-10",
@@ -5200,17 +5200,20 @@
           "description": "كباب لحم ببهارات حلبية.",
           "image": "https://images.unsplash.com/photo-1603360946369-dc9bb6258143?w=800&q=80",
           "price": 26,
-          "rating": 4.5,
+          "rating": 4.8,
           "calories": 600,
           "protein": 36,
           "carbs": 18,
           "fat": 38,
-          "category": "menu",
-          "isPopular": false,
+          "category": "popular",
+          "isPopular": true,
           "isOffer": false,
           "offerPrice": null,
+          "isCombo": false,
+          "offerKind": null,
+          "comboIncludes": [],
           "spicyOption": true,
-          "cashbackPercent": 5,
+          "cashbackPercent": null,
           "addons": [
             {
               "id": "extra-garlic",
@@ -5237,10 +5240,7 @@
               "name": "خبز عربي",
               "price": 4
             }
-          ],
-          "isCombo": false,
-          "comboIncludes": [],
-          "offerKind": null
+          ]
         },
         {
           "id": "hummus-house-offer-1",
@@ -5301,7 +5301,7 @@
           "id": "hummus-house-offer-2",
           "restaurantId": "hummus-house",
           "name": "وجبة عائلية شاورما لـ 5 أشخاص",
-          "description": "5 شاورما مع إضافات ومشروبات. تكفي 5 أشخاص.",
+          "description": "5 شاورما مع بطاطس عائلية وثوم ومخلل. تكفي 5 أشخاص.",
           "image": "/offers/5-shawrma.jpg",
           "price": 86,
           "rating": 4.6,

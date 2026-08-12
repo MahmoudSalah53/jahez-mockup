@@ -85,6 +85,13 @@ const ADDONS_BY_CUISINE = {
     { id: "nuts", name: "مكسرات", price: 6 },
   ],
   بقالة: [],
+  "فرايد تشيكن": [
+    { id: "extra-piece", name: "قطعة إضافية", price: 8 },
+    { id: "large-fries", name: "بطاطس كبيرة", price: 10 },
+    { id: "coleslaw", name: "كول سلو", price: 6 },
+    { id: "spicy-sauce", name: "صوص سبايسي", price: 3 },
+    { id: "cola", name: "كولا", price: 6 },
+  ],
 };
 
 function getAddonsForCuisine(cuisine) {
@@ -431,8 +438,8 @@ const OFFERS_BY_CUISINE = {
     {
       slug: "offer-3",
       kind: "deal",
-      nameTitle: "عرض ضيافة: جريش وهريس وتمر",
-      description: "أربعة أصناف للضيافة بسعر ثابت مع قهوة عربية.",
+      nameTitle: "عرض جريش وهريس وتمر",
+      description: "جريش وهريس صغير وتمر مع قهوة عربية بسعر ثابت.",
       includes: ["جريش", "هريس صغير", "تمر", "قهوة عربية"],
       price: 79,
       calories: 1100,
@@ -557,18 +564,64 @@ const OFFERS_BY_CUISINE = {
     },
     {
       slug: "offer-3",
-      kind: "family",
-      nameTitle: "عرض ضيافة للعائلة",
-      description: "تمر ومياه وعصير وقهوة للضيوف.",
-      includes: ["تمر", "مياه", "عصير", "قهوة"],
-      unitLabel: "علبة تمر",
-      sides: ["مياه", "عصير", "قهوة"],
-      price: 45,
+      kind: "deal",
+      nameTitle: "عرض قهوة مع تمر",
+      description: "قهوة مع علبة تمر بسعر واحد.",
+      includes: ["قهوة", "تمر"],
+      price: 28,
       calories: 0,
       protein: 0,
       carbs: 0,
       fat: 0,
       spicy: false,
+    },
+  ],
+  "فرايد تشيكن": [
+    {
+      slug: "offer-1",
+      kind: "combo",
+      nameTitle: "وجبة دجاج مقرمش فردية",
+      description: "قطعتان مقرمشتان مع بطاطس وصوص ومشروب.",
+      includes: ["قطعتان دجاج", "بطاطس", "صوص", "مشروب"],
+      price: 29,
+      calories: 980,
+      protein: 42,
+      carbs: 70,
+      fat: 48,
+      spicy: true,
+    },
+    {
+      slug: "offer-2",
+      kind: "family",
+      nameTitle: "باكت فرايد تشيكن عائلي",
+      description: "قطع دجاج مقرمش مع إضافات عائلية.",
+      includes: ["قطع دجاج مقرمش", "بطاطس عائلية", "كول سلو"],
+      unitLabel: "قطع دجاج مقرمش",
+      sides: [
+        "بطاطس عائلية كبيرة",
+        "كول سلو كريمي",
+        "ذرة حلوة بالزبدة",
+        "صلصات متنوعة",
+      ],
+      price: 89,
+      calories: 2800,
+      protein: 140,
+      carbs: 220,
+      fat: 150,
+      spicy: true,
+    },
+    {
+      slug: "offer-3",
+      kind: "deal",
+      nameTitle: "عرض وينجز مع صوصات",
+      description: "وينجز حارة مع ثلاث صوصات وبطاطس بسعر واحد.",
+      includes: ["وينجز", "بطاطس", "صوص ثوم", "صوص سبايسي", "صوص باربكيو"],
+      price: 36,
+      calories: 920,
+      protein: 38,
+      carbs: 55,
+      fat: 48,
+      spicy: true,
     },
   ],
 };
@@ -639,7 +692,10 @@ function familyPrice(basePrice, serves) {
   return Math.round(basePrice * factor);
 }
 
-function familyDescription(_base, serves, unitLabel) {
+function familyDescription(_base, serves, unitLabel, sides) {
+  if (unitLabel && Array.isArray(sides) && sides.length) {
+    return `${serves} ${unitLabel} مع ${sides.join(" و")}. تكفي ${serves} أشخاص.`;
+  }
   if (unitLabel) {
     return `${serves} ${unitLabel} مع إضافات ومشروبات. تكفي ${serves} أشخاص.`;
   }
@@ -680,6 +736,12 @@ const LOCAL_OFFER_IMAGES = {
     5: "/offers/5-shawrma.jpg",
     6: "/offers/6-shawrma.jpg",
   },
+  friedChicken: {
+    3: "/offers/3-fried-chicken.png",
+    4: "/offers/4-fried-chicken.jpg",
+    5: "/offers/5-fried-chicken.jpg",
+    6: "/offers/6-fried-chicken.jpg",
+  },
 };
 
 function localOfferKind(restaurant, template) {
@@ -692,6 +754,12 @@ function localOfferKind(restaurant, template) {
   if (restaurant.cuisine === "شامي" || template.unitLabel === "شاورما") {
     return "shawarma";
   }
+  if (
+    restaurant.cuisine === "فرايد تشيكن" ||
+    template.unitLabel === "قطع دجاج مقرمش"
+  ) {
+    return "friedChicken";
+  }
   return null;
 }
 
@@ -703,6 +771,7 @@ function offerImage(restaurant, template, serves) {
   if (template.kind === "family" && serves && pack[serves]) {
     return pack[serves];
   }
+  // No single-piece local pack for fried chicken — fall back to dish photo.
   if (template.kind === "combo" && pack[1]) {
     return pack[1];
   }
@@ -716,7 +785,12 @@ function buildOfferMeal(restaurant, template) {
     ? `${template.nameTitle} لـ ${serves} أشخاص`
     : template.nameTitle;
   const description = isFamily
-    ? familyDescription(template.description, serves, template.unitLabel)
+    ? familyDescription(
+        template.description,
+        serves,
+        template.unitLabel,
+        template.sides,
+      )
     : template.description;
   const price = isFamily
     ? familyPrice(template.price, serves)

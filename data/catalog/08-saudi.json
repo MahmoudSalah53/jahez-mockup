@@ -4,13 +4,13 @@
       "id": "dar-almandi",
       "name": "دار المندي",
       "image": "https://images.unsplash.com/photo-1544025162-d76694265947?w=800&q=80",
-      "rating": 4.6,
+      "rating": 4.9,
       "cuisine": "سعودي",
-      "deliveryTime": "20–30 د",
-      "deliveryFee": 12,
+      "deliveryTime": "25–35 د",
+      "deliveryFee": 8,
       "minOrder": 50,
-      "distanceKm": 4.3,
-      "verified": true,
+      "distanceKm": 5.4,
+      "verified": null,
       "tags": [
         "سعودي",
         "كبتة",
@@ -18,7 +18,7 @@
       ],
       "featured": null,
       "open24h": null,
-      "fastDelivery": null,
+      "fastDelivery": true,
       "meals": [
         {
           "id": "dar-almandi-1",
@@ -27,15 +27,18 @@
           "description": "كبسة سعودية كلاسيكية.",
           "image": "https://images.unsplash.com/photo-1512058564366-18510be2db19?w=800&q=80",
           "price": 38,
-          "rating": 4.8,
+          "rating": 4.7,
           "calories": 680,
           "protein": 34,
           "carbs": 72,
           "fat": 18,
-          "category": "popular",
-          "isPopular": true,
+          "category": "menu",
+          "isPopular": false,
           "isOffer": false,
           "offerPrice": null,
+          "isCombo": false,
+          "offerKind": null,
+          "comboIncludes": [],
           "spicyOption": false,
           "cashbackPercent": null,
           "addons": [
@@ -64,10 +67,7 @@
               "name": "سلطة صغيرة",
               "price": 8
             }
-          ],
-          "isCombo": false,
-          "comboIncludes": [],
-          "offerKind": null
+          ]
         },
         {
           "id": "dar-almandi-2",
@@ -76,15 +76,18 @@
           "description": "لحم طري مع أرز مندي.",
           "image": "https://images.unsplash.com/photo-1544025162-d76694265947?w=800&q=80",
           "price": 55,
-          "rating": 4.5,
+          "rating": 4.2,
           "calories": 820,
           "protein": 42,
           "carbs": 70,
           "fat": 32,
-          "category": "menu",
-          "isPopular": false,
+          "category": "popular",
+          "isPopular": true,
           "isOffer": false,
           "offerPrice": null,
+          "isCombo": false,
+          "offerKind": null,
+          "comboIncludes": [],
           "spicyOption": false,
           "cashbackPercent": null,
           "addons": [
@@ -113,10 +116,7 @@
               "name": "سلطة صغيرة",
               "price": 8
             }
-          ],
-          "isCombo": false,
-          "comboIncludes": [],
-          "offerKind": null
+          ]
         },
         {
           "id": "dar-almandi-3",
@@ -125,7 +125,7 @@
           "description": "عجين مع مرق ولحم وخضار.",
           "image": "https://images.unsplash.com/photo-1544025162-d76694265947?w=800&q=80",
           "price": 36,
-          "rating": 4.6,
+          "rating": 4.7,
           "calories": 540,
           "protein": 22,
           "carbs": 48,
@@ -134,6 +134,9 @@
           "isPopular": true,
           "isOffer": false,
           "offerPrice": null,
+          "isCombo": false,
+          "offerKind": null,
+          "comboIncludes": [],
           "spicyOption": false,
           "cashbackPercent": null,
           "addons": [
@@ -162,10 +165,7 @@
               "name": "سلطة صغيرة",
               "price": 8
             }
-          ],
-          "isCombo": false,
-          "comboIncludes": [],
-          "offerKind": null
+          ]
         },
         {
           "id": "dar-almandi-4",
@@ -174,7 +174,7 @@
           "description": "جريش بالقشدة والسمن.",
           "image": "https://images.unsplash.com/photo-1600891964599-f61ba0e24092?w=800&q=80",
           "price": 32,
-          "rating": 4.3,
+          "rating": 4.4,
           "calories": 480,
           "protein": 14,
           "carbs": 52,
@@ -183,6 +183,9 @@
           "isPopular": false,
           "isOffer": false,
           "offerPrice": null,
+          "isCombo": false,
+          "offerKind": null,
+          "comboIncludes": [],
           "spicyOption": false,
           "cashbackPercent": null,
           "addons": [
@@ -211,10 +214,7 @@
               "name": "سلطة صغيرة",
               "price": 8
             }
-          ],
-          "isCombo": false,
-          "comboIncludes": [],
-          "offerKind": null
+          ]
         },
         {
           "id": "dar-almandi-5",
@@ -223,7 +223,7 @@
           "description": "هريس لحم بالقمح.",
           "image": "https://images.unsplash.com/photo-1600891964599-f61ba0e24092?w=800&q=80",
           "price": 34,
-          "rating": 4.8,
+          "rating": 4.4,
           "calories": 520,
           "protein": 24,
           "carbs": 48,
@@ -232,6 +232,9 @@
           "isPopular": false,
           "isOffer": false,
           "offerPrice": null,
+          "isCombo": false,
+          "offerKind": null,
+          "comboIncludes": [],
           "spicyOption": false,
           "cashbackPercent": null,
           "addons": [
@@ -260,10 +263,7 @@
               "name": "سلطة صغيرة",
               "price": 8
             }
-          ],
-          "isCombo": false,
-          "comboIncludes": [],
-          "offerKind": null
+          ]
         },
         {
           "id": "dar-almandi-6",
@@ -272,15 +272,18 @@
           "description": "مرق لحم مع خضار.",
           "image": "https://images.unsplash.com/photo-1544025162-d76694265947?w=800&q=80",
           "price": 40,
-          "rating": 4.2,
+          "rating": 4.3,
           "calories": 460,
           "protein": 28,
           "carbs": 30,
           "fat": 22,
-          "category": "popular",
-          "isPopular": true,
+          "category": "menu",
+          "isPopular": false,
           "isOffer": false,
           "offerPrice": null,
+          "isCombo": false,
+          "offerKind": null,
+          "comboIncludes": [],
           "spicyOption": false,
           "cashbackPercent": null,
           "addons": [
@@ -309,10 +312,7 @@
               "name": "سلطة صغيرة",
               "price": 8
             }
-          ],
-          "isCombo": false,
-          "comboIncludes": [],
-          "offerKind": null
+          ]
         },
         {
           "id": "dar-almandi-7",
@@ -321,7 +321,7 @@
           "description": "خبز مع مرق ودجاج.",
           "image": "https://images.unsplash.com/photo-1544025162-d76694265947?w=800&q=80",
           "price": 35,
-          "rating": 4.5,
+          "rating": 4.2,
           "calories": 500,
           "protein": 26,
           "carbs": 45,
@@ -330,8 +330,11 @@
           "isPopular": false,
           "isOffer": false,
           "offerPrice": null,
+          "isCombo": false,
+          "offerKind": null,
+          "comboIncludes": [],
           "spicyOption": false,
-          "cashbackPercent": 5,
+          "cashbackPercent": null,
           "addons": [
             {
               "id": "garlic-sauce",
@@ -358,10 +361,7 @@
               "name": "سلطة صغيرة",
               "price": 8
             }
-          ],
-          "isCombo": false,
-          "comboIncludes": [],
-          "offerKind": null
+          ]
         },
         {
           "id": "dar-almandi-8",
@@ -370,17 +370,20 @@
           "description": "لحم مطهو ببطء مع أرز.",
           "image": "https://images.unsplash.com/photo-1544025162-d76694265947?w=800&q=80",
           "price": 58,
-          "rating": 4.1,
+          "rating": 4.3,
           "calories": 860,
           "protein": 46,
           "carbs": 68,
           "fat": 36,
-          "category": "menu",
-          "isPopular": false,
+          "category": "popular",
+          "isPopular": true,
           "isOffer": false,
           "offerPrice": null,
+          "isCombo": false,
+          "offerKind": null,
+          "comboIncludes": [],
           "spicyOption": false,
-          "cashbackPercent": 5,
+          "cashbackPercent": null,
           "addons": [
             {
               "id": "garlic-sauce",
@@ -407,10 +410,7 @@
               "name": "سلطة صغيرة",
               "price": 8
             }
-          ],
-          "isCombo": false,
-          "comboIncludes": [],
-          "offerKind": null
+          ]
         },
         {
           "id": "dar-almandi-9",
@@ -419,17 +419,20 @@
           "description": "عجين رقيق مع خضار ولحم.",
           "image": "https://images.unsplash.com/photo-1544025162-d76694265947?w=800&q=80",
           "price": 37,
-          "rating": 4.9,
+          "rating": 4.8,
           "calories": 530,
           "protein": 24,
           "carbs": 50,
           "fat": 18,
-          "category": "menu",
-          "isPopular": false,
+          "category": "popular",
+          "isPopular": true,
           "isOffer": false,
           "offerPrice": null,
+          "isCombo": false,
+          "offerKind": null,
+          "comboIncludes": [],
           "spicyOption": false,
-          "cashbackPercent": 10,
+          "cashbackPercent": null,
           "addons": [
             {
               "id": "garlic-sauce",
@@ -456,10 +459,7 @@
               "name": "سلطة صغيرة",
               "price": 8
             }
-          ],
-          "isCombo": false,
-          "comboIncludes": [],
-          "offerKind": null
+          ]
         },
         {
           "id": "dar-almandi-10",
@@ -473,10 +473,13 @@
           "protein": 3,
           "carbs": 36,
           "fat": 14,
-          "category": "popular",
-          "isPopular": true,
+          "category": "menu",
+          "isPopular": false,
           "isOffer": false,
           "offerPrice": null,
+          "isCombo": false,
+          "offerKind": null,
+          "comboIncludes": [],
           "spicyOption": false,
           "cashbackPercent": null,
           "addons": [
@@ -505,10 +508,7 @@
               "name": "سلطة صغيرة",
               "price": 8
             }
-          ],
-          "isCombo": false,
-          "comboIncludes": [],
-          "offerKind": null
+          ]
         },
         {
           "id": "dar-almandi-offer-1",
@@ -568,7 +568,7 @@
           "id": "dar-almandi-offer-2",
           "restaurantId": "dar-almandi",
           "name": "وجبة عائلية مندي لـ 3 أشخاص",
-          "description": "3 صحن مندي مع إضافات ومشروبات. تكفي 3 أشخاص.",
+          "description": "3 صحن مندي مع شوربة وسلطة. تكفي 3 أشخاص.",
           "image": "https://images.unsplash.com/photo-1544025162-d76694265947?w=800&q=80",
           "price": 71,
           "rating": 4.6,
@@ -621,8 +621,8 @@
         {
           "id": "dar-almandi-offer-3",
           "restaurantId": "dar-almandi",
-          "name": "عرض ضيافة: جريش وهريس وتمر",
-          "description": "أربعة أصناف للضيافة بسعر ثابت مع قهوة عربية.",
+          "name": "عرض جريش وهريس وتمر",
+          "description": "جريش وهريس صغير وتمر مع قهوة عربية بسعر ثابت.",
           "image": "https://images.unsplash.com/photo-1600891964599-f61ba0e24092?w=800&q=80",
           "price": 41,
           "rating": 4.6,
@@ -678,12 +678,12 @@
       "id": "kabsa-palace",
       "name": "قصر الكبسة",
       "image": "https://images.unsplash.com/photo-1512058564366-18510be2db19?w=800&q=80",
-      "rating": 4.8,
+      "rating": 4.3,
       "cuisine": "سعودي",
       "deliveryTime": "25–35 د",
       "deliveryFee": 5,
-      "minOrder": 35,
-      "distanceKm": 5.3,
+      "minOrder": 30,
+      "distanceKm": 5.4,
       "verified": null,
       "tags": [
         "سعودي",
@@ -691,8 +691,8 @@
         "أرز"
       ],
       "featured": null,
-      "open24h": null,
-      "fastDelivery": true,
+      "open24h": true,
+      "fastDelivery": null,
       "meals": [
         {
           "id": "kabsa-palace-1",
@@ -701,15 +701,18 @@
           "description": "كبسة سعودية كلاسيكية.",
           "image": "https://images.unsplash.com/photo-1512058564366-18510be2db19?w=800&q=80",
           "price": 38,
-          "rating": 4.1,
+          "rating": 4.7,
           "calories": 680,
           "protein": 34,
           "carbs": 72,
           "fat": 18,
-          "category": "menu",
-          "isPopular": false,
+          "category": "popular",
+          "isPopular": true,
           "isOffer": false,
           "offerPrice": null,
+          "isCombo": false,
+          "offerKind": null,
+          "comboIncludes": [],
           "spicyOption": false,
           "cashbackPercent": null,
           "addons": [
@@ -738,10 +741,7 @@
               "name": "سلطة صغيرة",
               "price": 8
             }
-          ],
-          "isCombo": false,
-          "comboIncludes": [],
-          "offerKind": null
+          ]
         },
         {
           "id": "kabsa-palace-2",
@@ -750,7 +750,7 @@
           "description": "لحم طري مع أرز مندي.",
           "image": "https://images.unsplash.com/photo-1544025162-d76694265947?w=800&q=80",
           "price": 55,
-          "rating": 4.2,
+          "rating": 4.3,
           "calories": 820,
           "protein": 42,
           "carbs": 70,
@@ -759,6 +759,9 @@
           "isPopular": false,
           "isOffer": false,
           "offerPrice": null,
+          "isCombo": false,
+          "offerKind": null,
+          "comboIncludes": [],
           "spicyOption": false,
           "cashbackPercent": null,
           "addons": [
@@ -787,10 +790,7 @@
               "name": "سلطة صغيرة",
               "price": 8
             }
-          ],
-          "isCombo": false,
-          "comboIncludes": [],
-          "offerKind": null
+          ]
         },
         {
           "id": "kabsa-palace-3",
@@ -799,17 +799,20 @@
           "description": "عجين مع مرق ولحم وخضار.",
           "image": "https://images.unsplash.com/photo-1512058564366-18510be2db19?w=800&q=80",
           "price": 36,
-          "rating": 4.8,
+          "rating": 4.6,
           "calories": 540,
           "protein": 22,
           "carbs": 48,
           "fat": 20,
-          "category": "menu",
-          "isPopular": false,
+          "category": "popular",
+          "isPopular": true,
           "isOffer": false,
           "offerPrice": null,
+          "isCombo": false,
+          "offerKind": null,
+          "comboIncludes": [],
           "spicyOption": false,
-          "cashbackPercent": 15,
+          "cashbackPercent": null,
           "addons": [
             {
               "id": "garlic-sauce",
@@ -836,10 +839,7 @@
               "name": "سلطة صغيرة",
               "price": 8
             }
-          ],
-          "isCombo": false,
-          "comboIncludes": [],
-          "offerKind": null
+          ]
         },
         {
           "id": "kabsa-palace-4",
@@ -848,7 +848,7 @@
           "description": "جريش بالقشدة والسمن.",
           "image": "https://images.unsplash.com/photo-1600891964599-f61ba0e24092?w=800&q=80",
           "price": 32,
-          "rating": 4.3,
+          "rating": 4.9,
           "calories": 480,
           "protein": 14,
           "carbs": 52,
@@ -857,6 +857,9 @@
           "isPopular": false,
           "isOffer": false,
           "offerPrice": null,
+          "isCombo": false,
+          "offerKind": null,
+          "comboIncludes": [],
           "spicyOption": false,
           "cashbackPercent": null,
           "addons": [
@@ -885,10 +888,7 @@
               "name": "سلطة صغيرة",
               "price": 8
             }
-          ],
-          "isCombo": false,
-          "comboIncludes": [],
-          "offerKind": null
+          ]
         },
         {
           "id": "kabsa-palace-5",
@@ -897,7 +897,7 @@
           "description": "هريس لحم بالقمح.",
           "image": "https://images.unsplash.com/photo-1600891964599-f61ba0e24092?w=800&q=80",
           "price": 34,
-          "rating": 4.9,
+          "rating": 4.2,
           "calories": 520,
           "protein": 24,
           "carbs": 48,
@@ -906,6 +906,9 @@
           "isPopular": true,
           "isOffer": false,
           "offerPrice": null,
+          "isCombo": false,
+          "offerKind": null,
+          "comboIncludes": [],
           "spicyOption": false,
           "cashbackPercent": null,
           "addons": [
@@ -934,10 +937,7 @@
               "name": "سلطة صغيرة",
               "price": 8
             }
-          ],
-          "isCombo": false,
-          "comboIncludes": [],
-          "offerKind": null
+          ]
         },
         {
           "id": "kabsa-palace-6",
@@ -946,7 +946,7 @@
           "description": "مرق لحم مع خضار.",
           "image": "https://images.unsplash.com/photo-1512058564366-18510be2db19?w=800&q=80",
           "price": 40,
-          "rating": 4.4,
+          "rating": 4.3,
           "calories": 460,
           "protein": 28,
           "carbs": 30,
@@ -955,8 +955,11 @@
           "isPopular": false,
           "isOffer": false,
           "offerPrice": null,
+          "isCombo": false,
+          "offerKind": null,
+          "comboIncludes": [],
           "spicyOption": false,
-          "cashbackPercent": 15,
+          "cashbackPercent": null,
           "addons": [
             {
               "id": "garlic-sauce",
@@ -983,10 +986,7 @@
               "name": "سلطة صغيرة",
               "price": 8
             }
-          ],
-          "isCombo": false,
-          "comboIncludes": [],
-          "offerKind": null
+          ]
         },
         {
           "id": "kabsa-palace-7",
@@ -1000,10 +1000,13 @@
           "protein": 26,
           "carbs": 45,
           "fat": 16,
-          "category": "menu",
-          "isPopular": false,
+          "category": "popular",
+          "isPopular": true,
           "isOffer": false,
           "offerPrice": null,
+          "isCombo": false,
+          "offerKind": null,
+          "comboIncludes": [],
           "spicyOption": false,
           "cashbackPercent": null,
           "addons": [
@@ -1032,10 +1035,7 @@
               "name": "سلطة صغيرة",
               "price": 8
             }
-          ],
-          "isCombo": false,
-          "comboIncludes": [],
-          "offerKind": null
+          ]
         },
         {
           "id": "kabsa-palace-8",
@@ -1044,15 +1044,18 @@
           "description": "لحم مطهو ببطء مع أرز.",
           "image": "https://images.unsplash.com/photo-1544025162-d76694265947?w=800&q=80",
           "price": 58,
-          "rating": 4.9,
+          "rating": 4.3,
           "calories": 860,
           "protein": 46,
           "carbs": 68,
           "fat": 36,
-          "category": "menu",
-          "isPopular": false,
+          "category": "popular",
+          "isPopular": true,
           "isOffer": false,
           "offerPrice": null,
+          "isCombo": false,
+          "offerKind": null,
+          "comboIncludes": [],
           "spicyOption": false,
           "cashbackPercent": null,
           "addons": [
@@ -1081,10 +1084,7 @@
               "name": "سلطة صغيرة",
               "price": 8
             }
-          ],
-          "isCombo": false,
-          "comboIncludes": [],
-          "offerKind": null
+          ]
         },
         {
           "id": "kabsa-palace-9",
@@ -1098,10 +1098,13 @@
           "protein": 24,
           "carbs": 50,
           "fat": 18,
-          "category": "menu",
-          "isPopular": false,
+          "category": "popular",
+          "isPopular": true,
           "isOffer": false,
           "offerPrice": null,
+          "isCombo": false,
+          "offerKind": null,
+          "comboIncludes": [],
           "spicyOption": false,
           "cashbackPercent": null,
           "addons": [
@@ -1130,10 +1133,7 @@
               "name": "سلطة صغيرة",
               "price": 8
             }
-          ],
-          "isCombo": false,
-          "comboIncludes": [],
-          "offerKind": null
+          ]
         },
         {
           "id": "kabsa-palace-10",
@@ -1142,15 +1142,18 @@
           "description": "تحلية تمر بالسمن البلدي.",
           "image": "https://images.unsplash.com/photo-1559181567-c3190ca9959b?w=800&q=80",
           "price": 18,
-          "rating": 4.2,
+          "rating": 4.3,
           "calories": 320,
           "protein": 3,
           "carbs": 36,
           "fat": 14,
-          "category": "popular",
-          "isPopular": true,
+          "category": "menu",
+          "isPopular": false,
           "isOffer": false,
           "offerPrice": null,
+          "isCombo": false,
+          "offerKind": null,
+          "comboIncludes": [],
           "spicyOption": false,
           "cashbackPercent": null,
           "addons": [
@@ -1179,10 +1182,7 @@
               "name": "سلطة صغيرة",
               "price": 8
             }
-          ],
-          "isCombo": false,
-          "comboIncludes": [],
-          "offerKind": null
+          ]
         },
         {
           "id": "kabsa-palace-offer-1",
@@ -1242,7 +1242,7 @@
           "id": "kabsa-palace-offer-2",
           "restaurantId": "kabsa-palace",
           "name": "وجبة عائلية مندي لـ 6 أشخاص",
-          "description": "6 صحن مندي مع إضافات ومشروبات. تكفي 6 أشخاص.",
+          "description": "6 صحن مندي مع شوربة وسلطة. تكفي 6 أشخاص.",
           "image": "https://images.unsplash.com/photo-1544025162-d76694265947?w=800&q=80",
           "price": 100,
           "rating": 4.6,
@@ -1295,8 +1295,8 @@
         {
           "id": "kabsa-palace-offer-3",
           "restaurantId": "kabsa-palace",
-          "name": "عرض ضيافة: جريش وهريس وتمر",
-          "description": "أربعة أصناف للضيافة بسعر ثابت مع قهوة عربية.",
+          "name": "عرض جريش وهريس وتمر",
+          "description": "جريش وهريس صغير وتمر مع قهوة عربية بسعر ثابت.",
           "image": "https://images.unsplash.com/photo-1600891964599-f61ba0e24092?w=800&q=80",
           "price": 41,
           "rating": 4.6,
@@ -1352,12 +1352,12 @@
       "id": "najd-table",
       "name": "سفرة نجد",
       "image": "https://images.unsplash.com/photo-1544025162-d76694265947?w=800&q=80",
-      "rating": 4.5,
+      "rating": 4.4,
       "cuisine": "سعودي",
       "deliveryTime": "25–35 د",
-      "deliveryFee": 12,
-      "minOrder": 40,
-      "distanceKm": 4.3,
+      "deliveryFee": 6,
+      "minOrder": 35,
+      "distanceKm": 0.6,
       "verified": true,
       "tags": [
         "سعودي",
@@ -1366,7 +1366,7 @@
       ],
       "featured": null,
       "open24h": null,
-      "fastDelivery": null,
+      "fastDelivery": true,
       "meals": [
         {
           "id": "najd-table-1",
@@ -1375,7 +1375,7 @@
           "description": "كبسة سعودية كلاسيكية.",
           "image": "https://images.unsplash.com/photo-1512058564366-18510be2db19?w=800&q=80",
           "price": 38,
-          "rating": 4.6,
+          "rating": 4.5,
           "calories": 680,
           "protein": 34,
           "carbs": 72,
@@ -1384,6 +1384,9 @@
           "isPopular": false,
           "isOffer": false,
           "offerPrice": null,
+          "isCombo": false,
+          "offerKind": null,
+          "comboIncludes": [],
           "spicyOption": false,
           "cashbackPercent": null,
           "addons": [
@@ -1412,10 +1415,7 @@
               "name": "سلطة صغيرة",
               "price": 8
             }
-          ],
-          "isCombo": false,
-          "comboIncludes": [],
-          "offerKind": null
+          ]
         },
         {
           "id": "najd-table-2",
@@ -1424,15 +1424,18 @@
           "description": "لحم طري مع أرز مندي.",
           "image": "https://images.unsplash.com/photo-1544025162-d76694265947?w=800&q=80",
           "price": 55,
-          "rating": 4.2,
+          "rating": 4.4,
           "calories": 820,
           "protein": 42,
           "carbs": 70,
           "fat": 32,
-          "category": "menu",
-          "isPopular": false,
+          "category": "popular",
+          "isPopular": true,
           "isOffer": false,
           "offerPrice": null,
+          "isCombo": false,
+          "offerKind": null,
+          "comboIncludes": [],
           "spicyOption": false,
           "cashbackPercent": null,
           "addons": [
@@ -1461,10 +1464,7 @@
               "name": "سلطة صغيرة",
               "price": 8
             }
-          ],
-          "isCombo": false,
-          "comboIncludes": [],
-          "offerKind": null
+          ]
         },
         {
           "id": "najd-table-3",
@@ -1473,15 +1473,18 @@
           "description": "عجين مع مرق ولحم وخضار.",
           "image": "https://images.unsplash.com/photo-1600891964599-f61ba0e24092?w=800&q=80",
           "price": 36,
-          "rating": 4.2,
+          "rating": 4.8,
           "calories": 540,
           "protein": 22,
           "carbs": 48,
           "fat": 20,
-          "category": "popular",
-          "isPopular": true,
+          "category": "menu",
+          "isPopular": false,
           "isOffer": false,
           "offerPrice": null,
+          "isCombo": false,
+          "offerKind": null,
+          "comboIncludes": [],
           "spicyOption": false,
           "cashbackPercent": null,
           "addons": [
@@ -1510,10 +1513,7 @@
               "name": "سلطة صغيرة",
               "price": 8
             }
-          ],
-          "isCombo": false,
-          "comboIncludes": [],
-          "offerKind": null
+          ]
         },
         {
           "id": "najd-table-4",
@@ -1522,64 +1522,18 @@
           "description": "جريش بالقشدة والسمن.",
           "image": "https://images.unsplash.com/photo-1600891964599-f61ba0e24092?w=800&q=80",
           "price": 32,
-          "rating": 4.7,
+          "rating": 4.4,
           "calories": 480,
           "protein": 14,
           "carbs": 52,
           "fat": 16,
-          "category": "menu",
-          "isPopular": false,
-          "isOffer": false,
-          "offerPrice": null,
-          "spicyOption": false,
-          "cashbackPercent": 10,
-          "addons": [
-            {
-              "id": "garlic-sauce",
-              "name": "صوص ثوم",
-              "price": 3
-            },
-            {
-              "id": "pickles",
-              "name": "مخلل",
-              "price": 3
-            },
-            {
-              "id": "extra-rice",
-              "name": "أرز إضافي",
-              "price": 6
-            },
-            {
-              "id": "cola",
-              "name": "كولا",
-              "price": 6
-            },
-            {
-              "id": "side-salad",
-              "name": "سلطة صغيرة",
-              "price": 8
-            }
-          ],
-          "isCombo": false,
-          "comboIncludes": [],
-          "offerKind": null
-        },
-        {
-          "id": "najd-table-5",
-          "restaurantId": "najd-table",
-          "name": "هريس",
-          "description": "هريس لحم بالقمح.",
-          "image": "https://images.unsplash.com/photo-1600891964599-f61ba0e24092?w=800&q=80",
-          "price": 34,
-          "rating": 4.3,
-          "calories": 520,
-          "protein": 24,
-          "carbs": 48,
-          "fat": 18,
           "category": "popular",
           "isPopular": true,
           "isOffer": false,
           "offerPrice": null,
+          "isCombo": false,
+          "offerKind": null,
+          "comboIncludes": [],
           "spicyOption": false,
           "cashbackPercent": null,
           "addons": [
@@ -1608,10 +1562,56 @@
               "name": "سلطة صغيرة",
               "price": 8
             }
-          ],
+          ]
+        },
+        {
+          "id": "najd-table-5",
+          "restaurantId": "najd-table",
+          "name": "هريس",
+          "description": "هريس لحم بالقمح.",
+          "image": "https://images.unsplash.com/photo-1600891964599-f61ba0e24092?w=800&q=80",
+          "price": 34,
+          "rating": 4.6,
+          "calories": 520,
+          "protein": 24,
+          "carbs": 48,
+          "fat": 18,
+          "category": "menu",
+          "isPopular": false,
+          "isOffer": false,
+          "offerPrice": null,
           "isCombo": false,
+          "offerKind": null,
           "comboIncludes": [],
-          "offerKind": null
+          "spicyOption": false,
+          "cashbackPercent": null,
+          "addons": [
+            {
+              "id": "garlic-sauce",
+              "name": "صوص ثوم",
+              "price": 3
+            },
+            {
+              "id": "pickles",
+              "name": "مخلل",
+              "price": 3
+            },
+            {
+              "id": "extra-rice",
+              "name": "أرز إضافي",
+              "price": 6
+            },
+            {
+              "id": "cola",
+              "name": "كولا",
+              "price": 6
+            },
+            {
+              "id": "side-salad",
+              "name": "سلطة صغيرة",
+              "price": 8
+            }
+          ]
         },
         {
           "id": "najd-table-6",
@@ -1629,8 +1629,11 @@
           "isPopular": false,
           "isOffer": false,
           "offerPrice": null,
+          "isCombo": false,
+          "offerKind": null,
+          "comboIncludes": [],
           "spicyOption": false,
-          "cashbackPercent": 10,
+          "cashbackPercent": null,
           "addons": [
             {
               "id": "garlic-sauce",
@@ -1657,10 +1660,7 @@
               "name": "سلطة صغيرة",
               "price": 8
             }
-          ],
-          "isCombo": false,
-          "comboIncludes": [],
-          "offerKind": null
+          ]
         },
         {
           "id": "najd-table-7",
@@ -1669,7 +1669,7 @@
           "description": "خبز مع مرق ودجاج.",
           "image": "https://images.unsplash.com/photo-1600891964599-f61ba0e24092?w=800&q=80",
           "price": 35,
-          "rating": 4.8,
+          "rating": 4.3,
           "calories": 500,
           "protein": 26,
           "carbs": 45,
@@ -1678,6 +1678,9 @@
           "isPopular": false,
           "isOffer": false,
           "offerPrice": null,
+          "isCombo": false,
+          "offerKind": null,
+          "comboIncludes": [],
           "spicyOption": false,
           "cashbackPercent": null,
           "addons": [
@@ -1706,10 +1709,7 @@
               "name": "سلطة صغيرة",
               "price": 8
             }
-          ],
-          "isCombo": false,
-          "comboIncludes": [],
-          "offerKind": null
+          ]
         },
         {
           "id": "najd-table-8",
@@ -1718,15 +1718,18 @@
           "description": "لحم مطهو ببطء مع أرز.",
           "image": "https://images.unsplash.com/photo-1600891964599-f61ba0e24092?w=800&q=80",
           "price": 58,
-          "rating": 4.5,
+          "rating": 4.2,
           "calories": 860,
           "protein": 46,
           "carbs": 68,
           "fat": 36,
-          "category": "popular",
-          "isPopular": true,
+          "category": "menu",
+          "isPopular": false,
           "isOffer": false,
           "offerPrice": null,
+          "isCombo": false,
+          "offerKind": null,
+          "comboIncludes": [],
           "spicyOption": false,
           "cashbackPercent": null,
           "addons": [
@@ -1755,10 +1758,7 @@
               "name": "سلطة صغيرة",
               "price": 8
             }
-          ],
-          "isCombo": false,
-          "comboIncludes": [],
-          "offerKind": null
+          ]
         },
         {
           "id": "najd-table-9",
@@ -1767,7 +1767,7 @@
           "description": "عجين رقيق مع خضار ولحم.",
           "image": "https://images.unsplash.com/photo-1600891964599-f61ba0e24092?w=800&q=80",
           "price": 37,
-          "rating": 4.6,
+          "rating": 4.8,
           "calories": 530,
           "protein": 24,
           "carbs": 50,
@@ -1776,6 +1776,9 @@
           "isPopular": false,
           "isOffer": false,
           "offerPrice": null,
+          "isCombo": false,
+          "offerKind": null,
+          "comboIncludes": [],
           "spicyOption": false,
           "cashbackPercent": null,
           "addons": [
@@ -1804,10 +1807,7 @@
               "name": "سلطة صغيرة",
               "price": 8
             }
-          ],
-          "isCombo": false,
-          "comboIncludes": [],
-          "offerKind": null
+          ]
         },
         {
           "id": "najd-table-10",
@@ -1816,7 +1816,7 @@
           "description": "تحلية تمر بالسمن البلدي.",
           "image": "https://images.unsplash.com/photo-1559181567-c3190ca9959b?w=800&q=80",
           "price": 18,
-          "rating": 4.6,
+          "rating": 4.1,
           "calories": 320,
           "protein": 3,
           "carbs": 36,
@@ -1825,6 +1825,9 @@
           "isPopular": false,
           "isOffer": false,
           "offerPrice": null,
+          "isCombo": false,
+          "offerKind": null,
+          "comboIncludes": [],
           "spicyOption": false,
           "cashbackPercent": null,
           "addons": [
@@ -1853,10 +1856,7 @@
               "name": "سلطة صغيرة",
               "price": 8
             }
-          ],
-          "isCombo": false,
-          "comboIncludes": [],
-          "offerKind": null
+          ]
         },
         {
           "id": "najd-table-offer-1",
@@ -1916,7 +1916,7 @@
           "id": "najd-table-offer-2",
           "restaurantId": "najd-table",
           "name": "وجبة عائلية مندي لـ 5 أشخاص",
-          "description": "5 صحن مندي مع إضافات ومشروبات. تكفي 5 أشخاص.",
+          "description": "5 صحن مندي مع شوربة وسلطة. تكفي 5 أشخاص.",
           "image": "https://images.unsplash.com/photo-1544025162-d76694265947?w=800&q=80",
           "price": 108,
           "rating": 4.6,
@@ -1969,8 +1969,8 @@
         {
           "id": "najd-table-offer-3",
           "restaurantId": "najd-table",
-          "name": "عرض ضيافة: جريش وهريس وتمر",
-          "description": "أربعة أصناف للضيافة بسعر ثابت مع قهوة عربية.",
+          "name": "عرض جريش وهريس وتمر",
+          "description": "جريش وهريس صغير وتمر مع قهوة عربية بسعر ثابت.",
           "image": "https://images.unsplash.com/photo-1600891964599-f61ba0e24092?w=800&q=80",
           "price": 41,
           "rating": 4.6,
@@ -2026,21 +2026,21 @@
       "id": "harees-house",
       "name": "بيت الهريس",
       "image": "https://images.unsplash.com/photo-1512058564366-18510be2db19?w=800&q=80",
-      "rating": 4.8,
+      "rating": 4.4,
       "cuisine": "سعودي",
-      "deliveryTime": "40–55 د",
-      "deliveryFee": 6,
-      "minOrder": 45,
-      "distanceKm": 1.8,
-      "verified": null,
+      "deliveryTime": "35–50 د",
+      "deliveryFee": 5,
+      "minOrder": 40,
+      "distanceKm": 2.8,
+      "verified": true,
       "tags": [
         "سعودي",
         "كبتة",
         "أرز"
       ],
-      "featured": true,
+      "featured": null,
       "open24h": null,
-      "fastDelivery": null,
+      "fastDelivery": true,
       "meals": [
         {
           "id": "harees-house-1",
@@ -2049,15 +2049,18 @@
           "description": "كبسة سعودية كلاسيكية.",
           "image": "https://images.unsplash.com/photo-1512058564366-18510be2db19?w=800&q=80",
           "price": 38,
-          "rating": 4.2,
+          "rating": 4.7,
           "calories": 680,
           "protein": 34,
           "carbs": 72,
           "fat": 18,
-          "category": "menu",
-          "isPopular": false,
+          "category": "popular",
+          "isPopular": true,
           "isOffer": false,
           "offerPrice": null,
+          "isCombo": false,
+          "offerKind": null,
+          "comboIncludes": [],
           "spicyOption": false,
           "cashbackPercent": null,
           "addons": [
@@ -2086,10 +2089,7 @@
               "name": "سلطة صغيرة",
               "price": 8
             }
-          ],
-          "isCombo": false,
-          "comboIncludes": [],
-          "offerKind": null
+          ]
         },
         {
           "id": "harees-house-2",
@@ -2098,7 +2098,7 @@
           "description": "لحم طري مع أرز مندي.",
           "image": "https://images.unsplash.com/photo-1544025162-d76694265947?w=800&q=80",
           "price": 55,
-          "rating": 4.8,
+          "rating": 4.4,
           "calories": 820,
           "protein": 42,
           "carbs": 70,
@@ -2107,6 +2107,9 @@
           "isPopular": false,
           "isOffer": false,
           "offerPrice": null,
+          "isCombo": false,
+          "offerKind": null,
+          "comboIncludes": [],
           "spicyOption": false,
           "cashbackPercent": null,
           "addons": [
@@ -2135,10 +2138,7 @@
               "name": "سلطة صغيرة",
               "price": 8
             }
-          ],
-          "isCombo": false,
-          "comboIncludes": [],
-          "offerKind": null
+          ]
         },
         {
           "id": "harees-house-3",
@@ -2147,15 +2147,18 @@
           "description": "عجين مع مرق ولحم وخضار.",
           "image": "https://images.unsplash.com/photo-1544025162-d76694265947?w=800&q=80",
           "price": 36,
-          "rating": 4.5,
+          "rating": 4.7,
           "calories": 540,
           "protein": 22,
           "carbs": 48,
           "fat": 20,
-          "category": "menu",
-          "isPopular": false,
+          "category": "popular",
+          "isPopular": true,
           "isOffer": false,
           "offerPrice": null,
+          "isCombo": false,
+          "offerKind": null,
+          "comboIncludes": [],
           "spicyOption": false,
           "cashbackPercent": null,
           "addons": [
@@ -2184,10 +2187,7 @@
               "name": "سلطة صغيرة",
               "price": 8
             }
-          ],
-          "isCombo": false,
-          "comboIncludes": [],
-          "offerKind": null
+          ]
         },
         {
           "id": "harees-house-4",
@@ -2205,6 +2205,9 @@
           "isPopular": false,
           "isOffer": false,
           "offerPrice": null,
+          "isCombo": false,
+          "offerKind": null,
+          "comboIncludes": [],
           "spicyOption": false,
           "cashbackPercent": null,
           "addons": [
@@ -2233,10 +2236,7 @@
               "name": "سلطة صغيرة",
               "price": 8
             }
-          ],
-          "isCombo": false,
-          "comboIncludes": [],
-          "offerKind": null
+          ]
         },
         {
           "id": "harees-house-5",
@@ -2245,7 +2245,7 @@
           "description": "هريس لحم بالقمح.",
           "image": "https://images.unsplash.com/photo-1600891964599-f61ba0e24092?w=800&q=80",
           "price": 34,
-          "rating": 4.2,
+          "rating": 4.4,
           "calories": 520,
           "protein": 24,
           "carbs": 48,
@@ -2254,6 +2254,9 @@
           "isPopular": true,
           "isOffer": false,
           "offerPrice": null,
+          "isCombo": false,
+          "offerKind": null,
+          "comboIncludes": [],
           "spicyOption": false,
           "cashbackPercent": null,
           "addons": [
@@ -2282,10 +2285,7 @@
               "name": "سلطة صغيرة",
               "price": 8
             }
-          ],
-          "isCombo": false,
-          "comboIncludes": [],
-          "offerKind": null
+          ]
         },
         {
           "id": "harees-house-6",
@@ -2299,10 +2299,13 @@
           "protein": 28,
           "carbs": 30,
           "fat": 22,
-          "category": "menu",
-          "isPopular": false,
+          "category": "popular",
+          "isPopular": true,
           "isOffer": false,
           "offerPrice": null,
+          "isCombo": false,
+          "offerKind": null,
+          "comboIncludes": [],
           "spicyOption": false,
           "cashbackPercent": null,
           "addons": [
@@ -2331,10 +2334,7 @@
               "name": "سلطة صغيرة",
               "price": 8
             }
-          ],
-          "isCombo": false,
-          "comboIncludes": [],
-          "offerKind": null
+          ]
         },
         {
           "id": "harees-house-7",
@@ -2343,15 +2343,18 @@
           "description": "خبز مع مرق ودجاج.",
           "image": "https://images.unsplash.com/photo-1544025162-d76694265947?w=800&q=80",
           "price": 35,
-          "rating": 4.7,
+          "rating": 4.1,
           "calories": 500,
           "protein": 26,
           "carbs": 45,
           "fat": 16,
-          "category": "menu",
-          "isPopular": false,
+          "category": "popular",
+          "isPopular": true,
           "isOffer": false,
           "offerPrice": null,
+          "isCombo": false,
+          "offerKind": null,
+          "comboIncludes": [],
           "spicyOption": false,
           "cashbackPercent": null,
           "addons": [
@@ -2380,10 +2383,7 @@
               "name": "سلطة صغيرة",
               "price": 8
             }
-          ],
-          "isCombo": false,
-          "comboIncludes": [],
-          "offerKind": null
+          ]
         },
         {
           "id": "harees-house-8",
@@ -2392,15 +2392,18 @@
           "description": "لحم مطهو ببطء مع أرز.",
           "image": "https://images.unsplash.com/photo-1544025162-d76694265947?w=800&q=80",
           "price": 58,
-          "rating": 4.7,
+          "rating": 4.5,
           "calories": 860,
           "protein": 46,
           "carbs": 68,
           "fat": 36,
-          "category": "menu",
-          "isPopular": false,
+          "category": "popular",
+          "isPopular": true,
           "isOffer": false,
           "offerPrice": null,
+          "isCombo": false,
+          "offerKind": null,
+          "comboIncludes": [],
           "spicyOption": false,
           "cashbackPercent": null,
           "addons": [
@@ -2429,10 +2432,7 @@
               "name": "سلطة صغيرة",
               "price": 8
             }
-          ],
-          "isCombo": false,
-          "comboIncludes": [],
-          "offerKind": null
+          ]
         },
         {
           "id": "harees-house-9",
@@ -2450,6 +2450,9 @@
           "isPopular": true,
           "isOffer": false,
           "offerPrice": null,
+          "isCombo": false,
+          "offerKind": null,
+          "comboIncludes": [],
           "spicyOption": false,
           "cashbackPercent": null,
           "addons": [
@@ -2478,10 +2481,7 @@
               "name": "سلطة صغيرة",
               "price": 8
             }
-          ],
-          "isCombo": false,
-          "comboIncludes": [],
-          "offerKind": null
+          ]
         },
         {
           "id": "harees-house-10",
@@ -2490,7 +2490,7 @@
           "description": "تحلية تمر بالسمن البلدي.",
           "image": "https://images.unsplash.com/photo-1559181567-c3190ca9959b?w=800&q=80",
           "price": 18,
-          "rating": 4.3,
+          "rating": 4.7,
           "calories": 320,
           "protein": 3,
           "carbs": 36,
@@ -2499,6 +2499,9 @@
           "isPopular": false,
           "isOffer": false,
           "offerPrice": null,
+          "isCombo": false,
+          "offerKind": null,
+          "comboIncludes": [],
           "spicyOption": false,
           "cashbackPercent": null,
           "addons": [
@@ -2527,10 +2530,7 @@
               "name": "سلطة صغيرة",
               "price": 8
             }
-          ],
-          "isCombo": false,
-          "comboIncludes": [],
-          "offerKind": null
+          ]
         },
         {
           "id": "harees-house-offer-1",
@@ -2590,7 +2590,7 @@
           "id": "harees-house-offer-2",
           "restaurantId": "harees-house",
           "name": "وجبة عائلية مندي لـ 6 أشخاص",
-          "description": "6 صحن مندي مع إضافات ومشروبات. تكفي 6 أشخاص.",
+          "description": "6 صحن مندي مع شوربة وسلطة. تكفي 6 أشخاص.",
           "image": "https://images.unsplash.com/photo-1544025162-d76694265947?w=800&q=80",
           "price": 100,
           "rating": 4.6,
@@ -2643,8 +2643,8 @@
         {
           "id": "harees-house-offer-3",
           "restaurantId": "harees-house",
-          "name": "عرض ضيافة: جريش وهريس وتمر",
-          "description": "أربعة أصناف للضيافة بسعر ثابت مع قهوة عربية.",
+          "name": "عرض جريش وهريس وتمر",
+          "description": "جريش وهريس صغير وتمر مع قهوة عربية بسعر ثابت.",
           "image": "https://images.unsplash.com/photo-1600891964599-f61ba0e24092?w=800&q=80",
           "price": 41,
           "rating": 4.6,
@@ -2700,12 +2700,12 @@
       "id": "jareesh-corner",
       "name": "ركن الجريش",
       "image": "https://images.unsplash.com/photo-1544025162-d76694265947?w=800&q=80",
-      "rating": 4.5,
+      "rating": 4.4,
       "cuisine": "سعودي",
-      "deliveryTime": "20–30 د",
-      "deliveryFee": 12,
-      "minOrder": 30,
-      "distanceKm": 3.1,
+      "deliveryTime": "25–35 د",
+      "deliveryFee": 10,
+      "minOrder": 25,
+      "distanceKm": 6.5,
       "verified": true,
       "tags": [
         "سعودي",
@@ -2713,8 +2713,8 @@
         "أرز"
       ],
       "featured": null,
-      "open24h": true,
-      "fastDelivery": true,
+      "open24h": null,
+      "fastDelivery": null,
       "meals": [
         {
           "id": "jareesh-corner-1",
@@ -2723,7 +2723,7 @@
           "description": "كبسة سعودية كلاسيكية.",
           "image": "https://images.unsplash.com/photo-1512058564366-18510be2db19?w=800&q=80",
           "price": 38,
-          "rating": 4.6,
+          "rating": 4.2,
           "calories": 680,
           "protein": 34,
           "carbs": 72,
@@ -2732,6 +2732,9 @@
           "isPopular": true,
           "isOffer": false,
           "offerPrice": null,
+          "isCombo": false,
+          "offerKind": null,
+          "comboIncludes": [],
           "spicyOption": false,
           "cashbackPercent": null,
           "addons": [
@@ -2760,10 +2763,7 @@
               "name": "سلطة صغيرة",
               "price": 8
             }
-          ],
-          "isCombo": false,
-          "comboIncludes": [],
-          "offerKind": null
+          ]
         },
         {
           "id": "jareesh-corner-2",
@@ -2772,15 +2772,18 @@
           "description": "لحم طري مع أرز مندي.",
           "image": "https://images.unsplash.com/photo-1544025162-d76694265947?w=800&q=80",
           "price": 55,
-          "rating": 4.7,
+          "rating": 4.4,
           "calories": 820,
           "protein": 42,
           "carbs": 70,
           "fat": 32,
-          "category": "popular",
-          "isPopular": true,
+          "category": "menu",
+          "isPopular": false,
           "isOffer": false,
           "offerPrice": null,
+          "isCombo": false,
+          "offerKind": null,
+          "comboIncludes": [],
           "spicyOption": false,
           "cashbackPercent": null,
           "addons": [
@@ -2809,10 +2812,7 @@
               "name": "سلطة صغيرة",
               "price": 8
             }
-          ],
-          "isCombo": false,
-          "comboIncludes": [],
-          "offerKind": null
+          ]
         },
         {
           "id": "jareesh-corner-3",
@@ -2821,15 +2821,18 @@
           "description": "عجين مع مرق ولحم وخضار.",
           "image": "https://images.unsplash.com/photo-1600891964599-f61ba0e24092?w=800&q=80",
           "price": 36,
-          "rating": 4.7,
+          "rating": 4.4,
           "calories": 540,
           "protein": 22,
           "carbs": 48,
           "fat": 20,
-          "category": "menu",
-          "isPopular": false,
+          "category": "popular",
+          "isPopular": true,
           "isOffer": false,
           "offerPrice": null,
+          "isCombo": false,
+          "offerKind": null,
+          "comboIncludes": [],
           "spicyOption": false,
           "cashbackPercent": null,
           "addons": [
@@ -2858,10 +2861,7 @@
               "name": "سلطة صغيرة",
               "price": 8
             }
-          ],
-          "isCombo": false,
-          "comboIncludes": [],
-          "offerKind": null
+          ]
         },
         {
           "id": "jareesh-corner-4",
@@ -2879,8 +2879,11 @@
           "isPopular": false,
           "isOffer": false,
           "offerPrice": null,
+          "isCombo": false,
+          "offerKind": null,
+          "comboIncludes": [],
           "spicyOption": false,
-          "cashbackPercent": 15,
+          "cashbackPercent": null,
           "addons": [
             {
               "id": "garlic-sauce",
@@ -2907,10 +2910,7 @@
               "name": "سلطة صغيرة",
               "price": 8
             }
-          ],
-          "isCombo": false,
-          "comboIncludes": [],
-          "offerKind": null
+          ]
         },
         {
           "id": "jareesh-corner-5",
@@ -2919,7 +2919,7 @@
           "description": "هريس لحم بالقمح.",
           "image": "https://images.unsplash.com/photo-1600891964599-f61ba0e24092?w=800&q=80",
           "price": 34,
-          "rating": 4.5,
+          "rating": 4.4,
           "calories": 520,
           "protein": 24,
           "carbs": 48,
@@ -2928,6 +2928,9 @@
           "isPopular": true,
           "isOffer": false,
           "offerPrice": null,
+          "isCombo": false,
+          "offerKind": null,
+          "comboIncludes": [],
           "spicyOption": false,
           "cashbackPercent": null,
           "addons": [
@@ -2956,10 +2959,7 @@
               "name": "سلطة صغيرة",
               "price": 8
             }
-          ],
-          "isCombo": false,
-          "comboIncludes": [],
-          "offerKind": null
+          ]
         },
         {
           "id": "jareesh-corner-6",
@@ -2968,64 +2968,18 @@
           "description": "مرق لحم مع خضار.",
           "image": "https://images.unsplash.com/photo-1600891964599-f61ba0e24092?w=800&q=80",
           "price": 40,
-          "rating": 4.7,
+          "rating": 4.3,
           "calories": 460,
           "protein": 28,
           "carbs": 30,
           "fat": 22,
-          "category": "menu",
-          "isPopular": false,
+          "category": "popular",
+          "isPopular": true,
           "isOffer": false,
           "offerPrice": null,
-          "spicyOption": false,
-          "cashbackPercent": 15,
-          "addons": [
-            {
-              "id": "garlic-sauce",
-              "name": "صوص ثوم",
-              "price": 3
-            },
-            {
-              "id": "pickles",
-              "name": "مخلل",
-              "price": 3
-            },
-            {
-              "id": "extra-rice",
-              "name": "أرز إضافي",
-              "price": 6
-            },
-            {
-              "id": "cola",
-              "name": "كولا",
-              "price": 6
-            },
-            {
-              "id": "side-salad",
-              "name": "سلطة صغيرة",
-              "price": 8
-            }
-          ],
           "isCombo": false,
+          "offerKind": null,
           "comboIncludes": [],
-          "offerKind": null
-        },
-        {
-          "id": "jareesh-corner-7",
-          "restaurantId": "jareesh-corner",
-          "name": "قرصان",
-          "description": "خبز مع مرق ودجاج.",
-          "image": "https://images.unsplash.com/photo-1544025162-d76694265947?w=800&q=80",
-          "price": 35,
-          "rating": 4.1,
-          "calories": 500,
-          "protein": 26,
-          "carbs": 45,
-          "fat": 16,
-          "category": "menu",
-          "isPopular": false,
-          "isOffer": false,
-          "offerPrice": null,
           "spicyOption": false,
           "cashbackPercent": null,
           "addons": [
@@ -3054,10 +3008,56 @@
               "name": "سلطة صغيرة",
               "price": 8
             }
-          ],
+          ]
+        },
+        {
+          "id": "jareesh-corner-7",
+          "restaurantId": "jareesh-corner",
+          "name": "قرصان",
+          "description": "خبز مع مرق ودجاج.",
+          "image": "https://images.unsplash.com/photo-1544025162-d76694265947?w=800&q=80",
+          "price": 35,
+          "rating": 4.2,
+          "calories": 500,
+          "protein": 26,
+          "carbs": 45,
+          "fat": 16,
+          "category": "menu",
+          "isPopular": false,
+          "isOffer": false,
+          "offerPrice": null,
           "isCombo": false,
+          "offerKind": null,
           "comboIncludes": [],
-          "offerKind": null
+          "spicyOption": false,
+          "cashbackPercent": null,
+          "addons": [
+            {
+              "id": "garlic-sauce",
+              "name": "صوص ثوم",
+              "price": 3
+            },
+            {
+              "id": "pickles",
+              "name": "مخلل",
+              "price": 3
+            },
+            {
+              "id": "extra-rice",
+              "name": "أرز إضافي",
+              "price": 6
+            },
+            {
+              "id": "cola",
+              "name": "كولا",
+              "price": 6
+            },
+            {
+              "id": "side-salad",
+              "name": "سلطة صغيرة",
+              "price": 8
+            }
+          ]
         },
         {
           "id": "jareesh-corner-8",
@@ -3075,6 +3075,9 @@
           "isPopular": false,
           "isOffer": false,
           "offerPrice": null,
+          "isCombo": false,
+          "offerKind": null,
+          "comboIncludes": [],
           "spicyOption": false,
           "cashbackPercent": null,
           "addons": [
@@ -3103,10 +3106,7 @@
               "name": "سلطة صغيرة",
               "price": 8
             }
-          ],
-          "isCombo": false,
-          "comboIncludes": [],
-          "offerKind": null
+          ]
         },
         {
           "id": "jareesh-corner-9",
@@ -3115,15 +3115,18 @@
           "description": "عجين رقيق مع خضار ولحم.",
           "image": "https://images.unsplash.com/photo-1600891964599-f61ba0e24092?w=800&q=80",
           "price": 37,
-          "rating": 4.3,
+          "rating": 4.2,
           "calories": 530,
           "protein": 24,
           "carbs": 50,
           "fat": 18,
-          "category": "menu",
-          "isPopular": false,
+          "category": "popular",
+          "isPopular": true,
           "isOffer": false,
           "offerPrice": null,
+          "isCombo": false,
+          "offerKind": null,
+          "comboIncludes": [],
           "spicyOption": false,
           "cashbackPercent": null,
           "addons": [
@@ -3152,10 +3155,7 @@
               "name": "سلطة صغيرة",
               "price": 8
             }
-          ],
-          "isCombo": false,
-          "comboIncludes": [],
-          "offerKind": null
+          ]
         },
         {
           "id": "jareesh-corner-10",
@@ -3164,7 +3164,7 @@
           "description": "تحلية تمر بالسمن البلدي.",
           "image": "https://images.unsplash.com/photo-1559181567-c3190ca9959b?w=800&q=80",
           "price": 18,
-          "rating": 4.1,
+          "rating": 4.5,
           "calories": 320,
           "protein": 3,
           "carbs": 36,
@@ -3173,6 +3173,9 @@
           "isPopular": true,
           "isOffer": false,
           "offerPrice": null,
+          "isCombo": false,
+          "offerKind": null,
+          "comboIncludes": [],
           "spicyOption": false,
           "cashbackPercent": null,
           "addons": [
@@ -3201,10 +3204,7 @@
               "name": "سلطة صغيرة",
               "price": 8
             }
-          ],
-          "isCombo": false,
-          "comboIncludes": [],
-          "offerKind": null
+          ]
         },
         {
           "id": "jareesh-corner-offer-1",
@@ -3264,7 +3264,7 @@
           "id": "jareesh-corner-offer-2",
           "restaurantId": "jareesh-corner",
           "name": "وجبة عائلية مندي لـ 5 أشخاص",
-          "description": "5 صحن مندي مع إضافات ومشروبات. تكفي 5 أشخاص.",
+          "description": "5 صحن مندي مع شوربة وسلطة. تكفي 5 أشخاص.",
           "image": "https://images.unsplash.com/photo-1544025162-d76694265947?w=800&q=80",
           "price": 108,
           "rating": 4.6,
@@ -3317,8 +3317,8 @@
         {
           "id": "jareesh-corner-offer-3",
           "restaurantId": "jareesh-corner",
-          "name": "عرض ضيافة: جريش وهريس وتمر",
-          "description": "أربعة أصناف للضيافة بسعر ثابت مع قهوة عربية.",
+          "name": "عرض جريش وهريس وتمر",
+          "description": "جريش وهريس صغير وتمر مع قهوة عربية بسعر ثابت.",
           "image": "https://images.unsplash.com/photo-1600891964599-f61ba0e24092?w=800&q=80",
           "price": 41,
           "rating": 4.6,
@@ -3374,12 +3374,12 @@
       "id": "samak-wa-ruz",
       "name": "سمك وأرز",
       "image": "https://images.unsplash.com/photo-1512058564366-18510be2db19?w=800&q=80",
-      "rating": 4.7,
+      "rating": 4.8,
       "cuisine": "سعودي",
       "deliveryTime": "25–35 د",
-      "deliveryFee": 6,
-      "minOrder": 25,
-      "distanceKm": 4.3,
+      "deliveryFee": 8,
+      "minOrder": 50,
+      "distanceKm": 2,
       "verified": true,
       "tags": [
         "سعودي",
@@ -3387,8 +3387,8 @@
         "أرز"
       ],
       "featured": null,
-      "open24h": null,
-      "fastDelivery": null,
+      "open24h": true,
+      "fastDelivery": true,
       "meals": [
         {
           "id": "samak-wa-ruz-1",
@@ -3397,7 +3397,7 @@
           "description": "كبسة سعودية كلاسيكية.",
           "image": "https://images.unsplash.com/photo-1512058564366-18510be2db19?w=800&q=80",
           "price": 38,
-          "rating": 4.7,
+          "rating": 4.3,
           "calories": 680,
           "protein": 34,
           "carbs": 72,
@@ -3406,6 +3406,9 @@
           "isPopular": false,
           "isOffer": false,
           "offerPrice": null,
+          "isCombo": false,
+          "offerKind": null,
+          "comboIncludes": [],
           "spicyOption": false,
           "cashbackPercent": null,
           "addons": [
@@ -3434,10 +3437,7 @@
               "name": "سلطة صغيرة",
               "price": 8
             }
-          ],
-          "isCombo": false,
-          "comboIncludes": [],
-          "offerKind": null
+          ]
         },
         {
           "id": "samak-wa-ruz-2",
@@ -3446,7 +3446,7 @@
           "description": "لحم طري مع أرز مندي.",
           "image": "https://images.unsplash.com/photo-1544025162-d76694265947?w=800&q=80",
           "price": 55,
-          "rating": 4.4,
+          "rating": 4.6,
           "calories": 820,
           "protein": 42,
           "carbs": 70,
@@ -3455,6 +3455,9 @@
           "isPopular": false,
           "isOffer": false,
           "offerPrice": null,
+          "isCombo": false,
+          "offerKind": null,
+          "comboIncludes": [],
           "spicyOption": false,
           "cashbackPercent": null,
           "addons": [
@@ -3483,10 +3486,7 @@
               "name": "سلطة صغيرة",
               "price": 8
             }
-          ],
-          "isCombo": false,
-          "comboIncludes": [],
-          "offerKind": null
+          ]
         },
         {
           "id": "samak-wa-ruz-3",
@@ -3495,15 +3495,18 @@
           "description": "عجين مع مرق ولحم وخضار.",
           "image": "https://images.unsplash.com/photo-1512058564366-18510be2db19?w=800&q=80",
           "price": 36,
-          "rating": 4.9,
+          "rating": 4.3,
           "calories": 540,
           "protein": 22,
           "carbs": 48,
           "fat": 20,
-          "category": "menu",
-          "isPopular": false,
+          "category": "popular",
+          "isPopular": true,
           "isOffer": false,
           "offerPrice": null,
+          "isCombo": false,
+          "offerKind": null,
+          "comboIncludes": [],
           "spicyOption": false,
           "cashbackPercent": null,
           "addons": [
@@ -3532,10 +3535,7 @@
               "name": "سلطة صغيرة",
               "price": 8
             }
-          ],
-          "isCombo": false,
-          "comboIncludes": [],
-          "offerKind": null
+          ]
         },
         {
           "id": "samak-wa-ruz-4",
@@ -3544,7 +3544,7 @@
           "description": "جريش بالقشدة والسمن.",
           "image": "https://images.unsplash.com/photo-1600891964599-f61ba0e24092?w=800&q=80",
           "price": 32,
-          "rating": 4.9,
+          "rating": 4.8,
           "calories": 480,
           "protein": 14,
           "carbs": 52,
@@ -3553,6 +3553,9 @@
           "isPopular": false,
           "isOffer": false,
           "offerPrice": null,
+          "isCombo": false,
+          "offerKind": null,
+          "comboIncludes": [],
           "spicyOption": false,
           "cashbackPercent": null,
           "addons": [
@@ -3581,10 +3584,7 @@
               "name": "سلطة صغيرة",
               "price": 8
             }
-          ],
-          "isCombo": false,
-          "comboIncludes": [],
-          "offerKind": null
+          ]
         },
         {
           "id": "samak-wa-ruz-5",
@@ -3593,7 +3593,7 @@
           "description": "هريس لحم بالقمح.",
           "image": "https://images.unsplash.com/photo-1600891964599-f61ba0e24092?w=800&q=80",
           "price": 34,
-          "rating": 4.5,
+          "rating": 4.3,
           "calories": 520,
           "protein": 24,
           "carbs": 48,
@@ -3602,6 +3602,9 @@
           "isPopular": false,
           "isOffer": false,
           "offerPrice": null,
+          "isCombo": false,
+          "offerKind": null,
+          "comboIncludes": [],
           "spicyOption": false,
           "cashbackPercent": null,
           "addons": [
@@ -3630,10 +3633,7 @@
               "name": "سلطة صغيرة",
               "price": 8
             }
-          ],
-          "isCombo": false,
-          "comboIncludes": [],
-          "offerKind": null
+          ]
         },
         {
           "id": "samak-wa-ruz-6",
@@ -3642,15 +3642,18 @@
           "description": "مرق لحم مع خضار.",
           "image": "https://images.unsplash.com/photo-1512058564366-18510be2db19?w=800&q=80",
           "price": 40,
-          "rating": 4.2,
+          "rating": 4.3,
           "calories": 460,
           "protein": 28,
           "carbs": 30,
           "fat": 22,
-          "category": "popular",
-          "isPopular": true,
+          "category": "menu",
+          "isPopular": false,
           "isOffer": false,
           "offerPrice": null,
+          "isCombo": false,
+          "offerKind": null,
+          "comboIncludes": [],
           "spicyOption": false,
           "cashbackPercent": null,
           "addons": [
@@ -3679,10 +3682,7 @@
               "name": "سلطة صغيرة",
               "price": 8
             }
-          ],
-          "isCombo": false,
-          "comboIncludes": [],
-          "offerKind": null
+          ]
         },
         {
           "id": "samak-wa-ruz-7",
@@ -3691,7 +3691,7 @@
           "description": "خبز مع مرق ودجاج.",
           "image": "https://images.unsplash.com/photo-1600891964599-f61ba0e24092?w=800&q=80",
           "price": 35,
-          "rating": 4.7,
+          "rating": 4.5,
           "calories": 500,
           "protein": 26,
           "carbs": 45,
@@ -3700,8 +3700,11 @@
           "isPopular": false,
           "isOffer": false,
           "offerPrice": null,
+          "isCombo": false,
+          "offerKind": null,
+          "comboIncludes": [],
           "spicyOption": false,
-          "cashbackPercent": 15,
+          "cashbackPercent": null,
           "addons": [
             {
               "id": "garlic-sauce",
@@ -3728,10 +3731,7 @@
               "name": "سلطة صغيرة",
               "price": 8
             }
-          ],
-          "isCombo": false,
-          "comboIncludes": [],
-          "offerKind": null
+          ]
         },
         {
           "id": "samak-wa-ruz-8",
@@ -3740,15 +3740,18 @@
           "description": "لحم مطهو ببطء مع أرز.",
           "image": "https://images.unsplash.com/photo-1544025162-d76694265947?w=800&q=80",
           "price": 58,
-          "rating": 4.7,
+          "rating": 4.6,
           "calories": 860,
           "protein": 46,
           "carbs": 68,
           "fat": 36,
-          "category": "menu",
-          "isPopular": false,
+          "category": "popular",
+          "isPopular": true,
           "isOffer": false,
           "offerPrice": null,
+          "isCombo": false,
+          "offerKind": null,
+          "comboIncludes": [],
           "spicyOption": false,
           "cashbackPercent": null,
           "addons": [
@@ -3777,10 +3780,7 @@
               "name": "سلطة صغيرة",
               "price": 8
             }
-          ],
-          "isCombo": false,
-          "comboIncludes": [],
-          "offerKind": null
+          ]
         },
         {
           "id": "samak-wa-ruz-9",
@@ -3789,7 +3789,7 @@
           "description": "عجين رقيق مع خضار ولحم.",
           "image": "https://images.unsplash.com/photo-1512058564366-18510be2db19?w=800&q=80",
           "price": 37,
-          "rating": 4.5,
+          "rating": 4.8,
           "calories": 530,
           "protein": 24,
           "carbs": 50,
@@ -3798,6 +3798,9 @@
           "isPopular": true,
           "isOffer": false,
           "offerPrice": null,
+          "isCombo": false,
+          "offerKind": null,
+          "comboIncludes": [],
           "spicyOption": false,
           "cashbackPercent": null,
           "addons": [
@@ -3826,10 +3829,7 @@
               "name": "سلطة صغيرة",
               "price": 8
             }
-          ],
-          "isCombo": false,
-          "comboIncludes": [],
-          "offerKind": null
+          ]
         },
         {
           "id": "samak-wa-ruz-10",
@@ -3838,15 +3838,18 @@
           "description": "تحلية تمر بالسمن البلدي.",
           "image": "https://images.unsplash.com/photo-1559181567-c3190ca9959b?w=800&q=80",
           "price": 18,
-          "rating": 4.3,
+          "rating": 4.5,
           "calories": 320,
           "protein": 3,
           "carbs": 36,
           "fat": 14,
-          "category": "menu",
-          "isPopular": false,
+          "category": "popular",
+          "isPopular": true,
           "isOffer": false,
           "offerPrice": null,
+          "isCombo": false,
+          "offerKind": null,
+          "comboIncludes": [],
           "spicyOption": false,
           "cashbackPercent": null,
           "addons": [
@@ -3875,10 +3878,7 @@
               "name": "سلطة صغيرة",
               "price": 8
             }
-          ],
-          "isCombo": false,
-          "comboIncludes": [],
-          "offerKind": null
+          ]
         },
         {
           "id": "samak-wa-ruz-offer-1",
@@ -3938,7 +3938,7 @@
           "id": "samak-wa-ruz-offer-2",
           "restaurantId": "samak-wa-ruz",
           "name": "وجبة عائلية مندي لـ 3 أشخاص",
-          "description": "3 صحن مندي مع إضافات ومشروبات. تكفي 3 أشخاص.",
+          "description": "3 صحن مندي مع شوربة وسلطة. تكفي 3 أشخاص.",
           "image": "https://images.unsplash.com/photo-1544025162-d76694265947?w=800&q=80",
           "price": 71,
           "rating": 4.6,
@@ -3991,8 +3991,8 @@
         {
           "id": "samak-wa-ruz-offer-3",
           "restaurantId": "samak-wa-ruz",
-          "name": "عرض ضيافة: جريش وهريس وتمر",
-          "description": "أربعة أصناف للضيافة بسعر ثابت مع قهوة عربية.",
+          "name": "عرض جريش وهريس وتمر",
+          "description": "جريش وهريس صغير وتمر مع قهوة عربية بسعر ثابت.",
           "image": "https://images.unsplash.com/photo-1600891964599-f61ba0e24092?w=800&q=80",
           "price": 41,
           "rating": 4.6,
@@ -4048,21 +4048,21 @@
       "id": "qursan-kitchen",
       "name": "مطبخ القرصان",
       "image": "https://images.unsplash.com/photo-1600891964599-f61ba0e24092?w=800&q=80",
-      "rating": 4.8,
+      "rating": 4.7,
       "cuisine": "سعودي",
       "deliveryTime": "25–35 د",
       "deliveryFee": 8,
-      "minOrder": 50,
-      "distanceKm": 5,
+      "minOrder": 40,
+      "distanceKm": 4.1,
       "verified": true,
       "tags": [
         "سعودي",
         "كبتة",
         "أرز"
       ],
-      "featured": null,
+      "featured": true,
       "open24h": null,
-      "fastDelivery": true,
+      "fastDelivery": null,
       "meals": [
         {
           "id": "qursan-kitchen-1",
@@ -4071,7 +4071,7 @@
           "description": "كبسة سعودية كلاسيكية.",
           "image": "https://images.unsplash.com/photo-1512058564366-18510be2db19?w=800&q=80",
           "price": 38,
-          "rating": 4.1,
+          "rating": 4.4,
           "calories": 680,
           "protein": 34,
           "carbs": 72,
@@ -4080,55 +4080,9 @@
           "isPopular": false,
           "isOffer": false,
           "offerPrice": null,
-          "spicyOption": false,
-          "cashbackPercent": 10,
-          "addons": [
-            {
-              "id": "garlic-sauce",
-              "name": "صوص ثوم",
-              "price": 3
-            },
-            {
-              "id": "pickles",
-              "name": "مخلل",
-              "price": 3
-            },
-            {
-              "id": "extra-rice",
-              "name": "أرز إضافي",
-              "price": 6
-            },
-            {
-              "id": "cola",
-              "name": "كولا",
-              "price": 6
-            },
-            {
-              "id": "side-salad",
-              "name": "سلطة صغيرة",
-              "price": 8
-            }
-          ],
           "isCombo": false,
+          "offerKind": null,
           "comboIncludes": [],
-          "offerKind": null
-        },
-        {
-          "id": "qursan-kitchen-2",
-          "restaurantId": "qursan-kitchen",
-          "name": "مندي لحم",
-          "description": "لحم طري مع أرز مندي.",
-          "image": "https://images.unsplash.com/photo-1544025162-d76694265947?w=800&q=80",
-          "price": 55,
-          "rating": 4.2,
-          "calories": 820,
-          "protein": 42,
-          "carbs": 70,
-          "fat": 32,
-          "category": "popular",
-          "isPopular": true,
-          "isOffer": false,
-          "offerPrice": null,
           "spicyOption": false,
           "cashbackPercent": null,
           "addons": [
@@ -4157,10 +4111,56 @@
               "name": "سلطة صغيرة",
               "price": 8
             }
-          ],
+          ]
+        },
+        {
+          "id": "qursan-kitchen-2",
+          "restaurantId": "qursan-kitchen",
+          "name": "مندي لحم",
+          "description": "لحم طري مع أرز مندي.",
+          "image": "https://images.unsplash.com/photo-1544025162-d76694265947?w=800&q=80",
+          "price": 55,
+          "rating": 4.4,
+          "calories": 820,
+          "protein": 42,
+          "carbs": 70,
+          "fat": 32,
+          "category": "menu",
+          "isPopular": false,
+          "isOffer": false,
+          "offerPrice": null,
           "isCombo": false,
+          "offerKind": null,
           "comboIncludes": [],
-          "offerKind": null
+          "spicyOption": false,
+          "cashbackPercent": null,
+          "addons": [
+            {
+              "id": "garlic-sauce",
+              "name": "صوص ثوم",
+              "price": 3
+            },
+            {
+              "id": "pickles",
+              "name": "مخلل",
+              "price": 3
+            },
+            {
+              "id": "extra-rice",
+              "name": "أرز إضافي",
+              "price": 6
+            },
+            {
+              "id": "cola",
+              "name": "كولا",
+              "price": 6
+            },
+            {
+              "id": "side-salad",
+              "name": "سلطة صغيرة",
+              "price": 8
+            }
+          ]
         },
         {
           "id": "qursan-kitchen-3",
@@ -4174,10 +4174,13 @@
           "protein": 22,
           "carbs": 48,
           "fat": 20,
-          "category": "popular",
-          "isPopular": true,
+          "category": "menu",
+          "isPopular": false,
           "isOffer": false,
           "offerPrice": null,
+          "isCombo": false,
+          "offerKind": null,
+          "comboIncludes": [],
           "spicyOption": false,
           "cashbackPercent": null,
           "addons": [
@@ -4206,10 +4209,7 @@
               "name": "سلطة صغيرة",
               "price": 8
             }
-          ],
-          "isCombo": false,
-          "comboIncludes": [],
-          "offerKind": null
+          ]
         },
         {
           "id": "qursan-kitchen-4",
@@ -4218,15 +4218,18 @@
           "description": "جريش بالقشدة والسمن.",
           "image": "https://images.unsplash.com/photo-1600891964599-f61ba0e24092?w=800&q=80",
           "price": 32,
-          "rating": 4.9,
+          "rating": 4.2,
           "calories": 480,
           "protein": 14,
           "carbs": 52,
           "fat": 16,
-          "category": "popular",
-          "isPopular": true,
+          "category": "menu",
+          "isPopular": false,
           "isOffer": false,
           "offerPrice": null,
+          "isCombo": false,
+          "offerKind": null,
+          "comboIncludes": [],
           "spicyOption": false,
           "cashbackPercent": null,
           "addons": [
@@ -4255,10 +4258,7 @@
               "name": "سلطة صغيرة",
               "price": 8
             }
-          ],
-          "isCombo": false,
-          "comboIncludes": [],
-          "offerKind": null
+          ]
         },
         {
           "id": "qursan-kitchen-5",
@@ -4276,8 +4276,11 @@
           "isPopular": false,
           "isOffer": false,
           "offerPrice": null,
+          "isCombo": false,
+          "offerKind": null,
+          "comboIncludes": [],
           "spicyOption": false,
-          "cashbackPercent": 10,
+          "cashbackPercent": null,
           "addons": [
             {
               "id": "garlic-sauce",
@@ -4304,10 +4307,7 @@
               "name": "سلطة صغيرة",
               "price": 8
             }
-          ],
-          "isCombo": false,
-          "comboIncludes": [],
-          "offerKind": null
+          ]
         },
         {
           "id": "qursan-kitchen-6",
@@ -4316,7 +4316,7 @@
           "description": "مرق لحم مع خضار.",
           "image": "https://images.unsplash.com/photo-1512058564366-18510be2db19?w=800&q=80",
           "price": 40,
-          "rating": 4.3,
+          "rating": 4.9,
           "calories": 460,
           "protein": 28,
           "carbs": 30,
@@ -4325,6 +4325,9 @@
           "isPopular": false,
           "isOffer": false,
           "offerPrice": null,
+          "isCombo": false,
+          "offerKind": null,
+          "comboIncludes": [],
           "spicyOption": false,
           "cashbackPercent": null,
           "addons": [
@@ -4353,10 +4356,7 @@
               "name": "سلطة صغيرة",
               "price": 8
             }
-          ],
-          "isCombo": false,
-          "comboIncludes": [],
-          "offerKind": null
+          ]
         },
         {
           "id": "qursan-kitchen-7",
@@ -4365,7 +4365,7 @@
           "description": "خبز مع مرق ودجاج.",
           "image": "https://images.unsplash.com/photo-1600891964599-f61ba0e24092?w=800&q=80",
           "price": 35,
-          "rating": 4.1,
+          "rating": 4.5,
           "calories": 500,
           "protein": 26,
           "carbs": 45,
@@ -4374,6 +4374,9 @@
           "isPopular": true,
           "isOffer": false,
           "offerPrice": null,
+          "isCombo": false,
+          "offerKind": null,
+          "comboIncludes": [],
           "spicyOption": false,
           "cashbackPercent": null,
           "addons": [
@@ -4402,10 +4405,7 @@
               "name": "سلطة صغيرة",
               "price": 8
             }
-          ],
-          "isCombo": false,
-          "comboIncludes": [],
-          "offerKind": null
+          ]
         },
         {
           "id": "qursan-kitchen-8",
@@ -4414,7 +4414,7 @@
           "description": "لحم مطهو ببطء مع أرز.",
           "image": "https://images.unsplash.com/photo-1544025162-d76694265947?w=800&q=80",
           "price": 58,
-          "rating": 4.4,
+          "rating": 4.3,
           "calories": 860,
           "protein": 46,
           "carbs": 68,
@@ -4423,6 +4423,9 @@
           "isPopular": false,
           "isOffer": false,
           "offerPrice": null,
+          "isCombo": false,
+          "offerKind": null,
+          "comboIncludes": [],
           "spicyOption": false,
           "cashbackPercent": null,
           "addons": [
@@ -4451,10 +4454,7 @@
               "name": "سلطة صغيرة",
               "price": 8
             }
-          ],
-          "isCombo": false,
-          "comboIncludes": [],
-          "offerKind": null
+          ]
         },
         {
           "id": "qursan-kitchen-9",
@@ -4463,15 +4463,18 @@
           "description": "عجين رقيق مع خضار ولحم.",
           "image": "https://images.unsplash.com/photo-1512058564366-18510be2db19?w=800&q=80",
           "price": 37,
-          "rating": 4.9,
+          "rating": 4.7,
           "calories": 530,
           "protein": 24,
           "carbs": 50,
           "fat": 18,
-          "category": "menu",
-          "isPopular": false,
+          "category": "popular",
+          "isPopular": true,
           "isOffer": false,
           "offerPrice": null,
+          "isCombo": false,
+          "offerKind": null,
+          "comboIncludes": [],
           "spicyOption": false,
           "cashbackPercent": null,
           "addons": [
@@ -4500,10 +4503,7 @@
               "name": "سلطة صغيرة",
               "price": 8
             }
-          ],
-          "isCombo": false,
-          "comboIncludes": [],
-          "offerKind": null
+          ]
         },
         {
           "id": "qursan-kitchen-10",
@@ -4512,7 +4512,7 @@
           "description": "تحلية تمر بالسمن البلدي.",
           "image": "https://images.unsplash.com/photo-1559181567-c3190ca9959b?w=800&q=80",
           "price": 18,
-          "rating": 4.8,
+          "rating": 4.7,
           "calories": 320,
           "protein": 3,
           "carbs": 36,
@@ -4521,6 +4521,9 @@
           "isPopular": false,
           "isOffer": false,
           "offerPrice": null,
+          "isCombo": false,
+          "offerKind": null,
+          "comboIncludes": [],
           "spicyOption": false,
           "cashbackPercent": null,
           "addons": [
@@ -4549,10 +4552,7 @@
               "name": "سلطة صغيرة",
               "price": 8
             }
-          ],
-          "isCombo": false,
-          "comboIncludes": [],
-          "offerKind": null
+          ]
         },
         {
           "id": "qursan-kitchen-offer-1",
@@ -4612,7 +4612,7 @@
           "id": "qursan-kitchen-offer-2",
           "restaurantId": "qursan-kitchen",
           "name": "وجبة عائلية مندي لـ 4 أشخاص",
-          "description": "4 صحن مندي مع إضافات ومشروبات. تكفي 4 أشخاص.",
+          "description": "4 صحن مندي مع شوربة وسلطة. تكفي 4 أشخاص.",
           "image": "https://images.unsplash.com/photo-1544025162-d76694265947?w=800&q=80",
           "price": 89,
           "rating": 4.6,
@@ -4665,8 +4665,8 @@
         {
           "id": "qursan-kitchen-offer-3",
           "restaurantId": "qursan-kitchen",
-          "name": "عرض ضيافة: جريش وهريس وتمر",
-          "description": "أربعة أصناف للضيافة بسعر ثابت مع قهوة عربية.",
+          "name": "عرض جريش وهريس وتمر",
+          "description": "جريش وهريس صغير وتمر مع قهوة عربية بسعر ثابت.",
           "image": "https://images.unsplash.com/photo-1600891964599-f61ba0e24092?w=800&q=80",
           "price": 41,
           "rating": 4.6,
@@ -4725,18 +4725,18 @@
       "rating": 4.5,
       "cuisine": "سعودي",
       "deliveryTime": "20–30 د",
-      "deliveryFee": 8,
-      "minOrder": 40,
-      "distanceKm": 2.5,
-      "verified": null,
+      "deliveryFee": 5,
+      "minOrder": 30,
+      "distanceKm": 3.4,
+      "verified": true,
       "tags": [
         "سعودي",
         "كبتة",
         "أرز"
       ],
-      "featured": true,
+      "featured": null,
       "open24h": null,
-      "fastDelivery": null,
+      "fastDelivery": true,
       "meals": [
         {
           "id": "madafa-aloud-1",
@@ -4745,15 +4745,18 @@
           "description": "كبسة سعودية كلاسيكية.",
           "image": "https://images.unsplash.com/photo-1512058564366-18510be2db19?w=800&q=80",
           "price": 38,
-          "rating": 4.4,
+          "rating": 4.1,
           "calories": 680,
           "protein": 34,
           "carbs": 72,
           "fat": 18,
-          "category": "popular",
-          "isPopular": true,
+          "category": "menu",
+          "isPopular": false,
           "isOffer": false,
           "offerPrice": null,
+          "isCombo": false,
+          "offerKind": null,
+          "comboIncludes": [],
           "spicyOption": false,
           "cashbackPercent": null,
           "addons": [
@@ -4782,10 +4785,7 @@
               "name": "سلطة صغيرة",
               "price": 8
             }
-          ],
-          "isCombo": false,
-          "comboIncludes": [],
-          "offerKind": null
+          ]
         },
         {
           "id": "madafa-aloud-2",
@@ -4794,7 +4794,7 @@
           "description": "لحم طري مع أرز مندي.",
           "image": "https://images.unsplash.com/photo-1544025162-d76694265947?w=800&q=80",
           "price": 55,
-          "rating": 4.2,
+          "rating": 4.3,
           "calories": 820,
           "protein": 42,
           "carbs": 70,
@@ -4803,6 +4803,9 @@
           "isPopular": false,
           "isOffer": false,
           "offerPrice": null,
+          "isCombo": false,
+          "offerKind": null,
+          "comboIncludes": [],
           "spicyOption": false,
           "cashbackPercent": null,
           "addons": [
@@ -4831,10 +4834,7 @@
               "name": "سلطة صغيرة",
               "price": 8
             }
-          ],
-          "isCombo": false,
-          "comboIncludes": [],
-          "offerKind": null
+          ]
         },
         {
           "id": "madafa-aloud-3",
@@ -4843,15 +4843,18 @@
           "description": "عجين مع مرق ولحم وخضار.",
           "image": "https://images.unsplash.com/photo-1544025162-d76694265947?w=800&q=80",
           "price": 36,
-          "rating": 4.1,
+          "rating": 4.2,
           "calories": 540,
           "protein": 22,
           "carbs": 48,
           "fat": 20,
-          "category": "menu",
-          "isPopular": false,
+          "category": "popular",
+          "isPopular": true,
           "isOffer": false,
           "offerPrice": null,
+          "isCombo": false,
+          "offerKind": null,
+          "comboIncludes": [],
           "spicyOption": false,
           "cashbackPercent": null,
           "addons": [
@@ -4880,10 +4883,7 @@
               "name": "سلطة صغيرة",
               "price": 8
             }
-          ],
-          "isCombo": false,
-          "comboIncludes": [],
-          "offerKind": null
+          ]
         },
         {
           "id": "madafa-aloud-4",
@@ -4892,15 +4892,18 @@
           "description": "جريش بالقشدة والسمن.",
           "image": "https://images.unsplash.com/photo-1600891964599-f61ba0e24092?w=800&q=80",
           "price": 32,
-          "rating": 4.8,
+          "rating": 4.1,
           "calories": 480,
           "protein": 14,
           "carbs": 52,
           "fat": 16,
-          "category": "menu",
-          "isPopular": false,
+          "category": "popular",
+          "isPopular": true,
           "isOffer": false,
           "offerPrice": null,
+          "isCombo": false,
+          "offerKind": null,
+          "comboIncludes": [],
           "spicyOption": false,
           "cashbackPercent": null,
           "addons": [
@@ -4929,10 +4932,7 @@
               "name": "سلطة صغيرة",
               "price": 8
             }
-          ],
-          "isCombo": false,
-          "comboIncludes": [],
-          "offerKind": null
+          ]
         },
         {
           "id": "madafa-aloud-5",
@@ -4941,15 +4941,18 @@
           "description": "هريس لحم بالقمح.",
           "image": "https://images.unsplash.com/photo-1600891964599-f61ba0e24092?w=800&q=80",
           "price": 34,
-          "rating": 4.5,
+          "rating": 4.3,
           "calories": 520,
           "protein": 24,
           "carbs": 48,
           "fat": 18,
-          "category": "menu",
-          "isPopular": false,
+          "category": "popular",
+          "isPopular": true,
           "isOffer": false,
           "offerPrice": null,
+          "isCombo": false,
+          "offerKind": null,
+          "comboIncludes": [],
           "spicyOption": false,
           "cashbackPercent": null,
           "addons": [
@@ -4978,10 +4981,7 @@
               "name": "سلطة صغيرة",
               "price": 8
             }
-          ],
-          "isCombo": false,
-          "comboIncludes": [],
-          "offerKind": null
+          ]
         },
         {
           "id": "madafa-aloud-6",
@@ -4999,6 +4999,9 @@
           "isPopular": false,
           "isOffer": false,
           "offerPrice": null,
+          "isCombo": false,
+          "offerKind": null,
+          "comboIncludes": [],
           "spicyOption": false,
           "cashbackPercent": null,
           "addons": [
@@ -5027,10 +5030,7 @@
               "name": "سلطة صغيرة",
               "price": 8
             }
-          ],
-          "isCombo": false,
-          "comboIncludes": [],
-          "offerKind": null
+          ]
         },
         {
           "id": "madafa-aloud-7",
@@ -5039,7 +5039,7 @@
           "description": "خبز مع مرق ودجاج.",
           "image": "https://images.unsplash.com/photo-1544025162-d76694265947?w=800&q=80",
           "price": 35,
-          "rating": 4.3,
+          "rating": 4.6,
           "calories": 500,
           "protein": 26,
           "carbs": 45,
@@ -5048,6 +5048,9 @@
           "isPopular": false,
           "isOffer": false,
           "offerPrice": null,
+          "isCombo": false,
+          "offerKind": null,
+          "comboIncludes": [],
           "spicyOption": false,
           "cashbackPercent": null,
           "addons": [
@@ -5076,10 +5079,7 @@
               "name": "سلطة صغيرة",
               "price": 8
             }
-          ],
-          "isCombo": false,
-          "comboIncludes": [],
-          "offerKind": null
+          ]
         },
         {
           "id": "madafa-aloud-8",
@@ -5088,15 +5088,18 @@
           "description": "لحم مطهو ببطء مع أرز.",
           "image": "https://images.unsplash.com/photo-1544025162-d76694265947?w=800&q=80",
           "price": 58,
-          "rating": 4.9,
+          "rating": 4.4,
           "calories": 860,
           "protein": 46,
           "carbs": 68,
           "fat": 36,
-          "category": "menu",
-          "isPopular": false,
+          "category": "popular",
+          "isPopular": true,
           "isOffer": false,
           "offerPrice": null,
+          "isCombo": false,
+          "offerKind": null,
+          "comboIncludes": [],
           "spicyOption": false,
           "cashbackPercent": null,
           "addons": [
@@ -5125,10 +5128,7 @@
               "name": "سلطة صغيرة",
               "price": 8
             }
-          ],
-          "isCombo": false,
-          "comboIncludes": [],
-          "offerKind": null
+          ]
         },
         {
           "id": "madafa-aloud-9",
@@ -5142,10 +5142,13 @@
           "protein": 24,
           "carbs": 50,
           "fat": 18,
-          "category": "menu",
-          "isPopular": false,
+          "category": "popular",
+          "isPopular": true,
           "isOffer": false,
           "offerPrice": null,
+          "isCombo": false,
+          "offerKind": null,
+          "comboIncludes": [],
           "spicyOption": false,
           "cashbackPercent": null,
           "addons": [
@@ -5174,10 +5177,7 @@
               "name": "سلطة صغيرة",
               "price": 8
             }
-          ],
-          "isCombo": false,
-          "comboIncludes": [],
-          "offerKind": null
+          ]
         },
         {
           "id": "madafa-aloud-10",
@@ -5186,7 +5186,7 @@
           "description": "تحلية تمر بالسمن البلدي.",
           "image": "https://images.unsplash.com/photo-1559181567-c3190ca9959b?w=800&q=80",
           "price": 18,
-          "rating": 4.3,
+          "rating": 4.6,
           "calories": 320,
           "protein": 3,
           "carbs": 36,
@@ -5195,6 +5195,9 @@
           "isPopular": false,
           "isOffer": false,
           "offerPrice": null,
+          "isCombo": false,
+          "offerKind": null,
+          "comboIncludes": [],
           "spicyOption": false,
           "cashbackPercent": null,
           "addons": [
@@ -5223,10 +5226,7 @@
               "name": "سلطة صغيرة",
               "price": 8
             }
-          ],
-          "isCombo": false,
-          "comboIncludes": [],
-          "offerKind": null
+          ]
         },
         {
           "id": "madafa-aloud-offer-1",
@@ -5286,7 +5286,7 @@
           "id": "madafa-aloud-offer-2",
           "restaurantId": "madafa-aloud",
           "name": "وجبة عائلية مندي لـ 5 أشخاص",
-          "description": "5 صحن مندي مع إضافات ومشروبات. تكفي 5 أشخاص.",
+          "description": "5 صحن مندي مع شوربة وسلطة. تكفي 5 أشخاص.",
           "image": "https://images.unsplash.com/photo-1544025162-d76694265947?w=800&q=80",
           "price": 108,
           "rating": 4.6,
@@ -5339,8 +5339,8 @@
         {
           "id": "madafa-aloud-offer-3",
           "restaurantId": "madafa-aloud",
-          "name": "عرض ضيافة: جريش وهريس وتمر",
-          "description": "أربعة أصناف للضيافة بسعر ثابت مع قهوة عربية.",
+          "name": "عرض جريش وهريس وتمر",
+          "description": "جريش وهريس صغير وتمر مع قهوة عربية بسعر ثابت.",
           "image": "https://images.unsplash.com/photo-1600891964599-f61ba0e24092?w=800&q=80",
           "price": 41,
           "rating": 4.6,

@@ -61,6 +61,11 @@ export const RESTAURANT_COVERS = {
     "photo-1482049016688-2d3e1b311543",
     "photo-1550583724-b2692b85b150",
   ],
+  "فرايد تشيكن": [
+    "photo-1571091718767-18b5b1457add",
+    "photo-1626645738196-c2a7c87a8f58",
+    "photo-1562967916-eb82221dfb92",
+  ],
 };
 
 /** Dish photos keyed by Arabic keyword (checked first, then cuisine fallback). */
@@ -69,6 +74,10 @@ export const DISH_KEYWORDS = [
   ["تشيز كيك", "photo-1533134242443-d4fd215305ad"],
   ["تشيز", "photo-1553979459-d2229ba7433b"],
   ["تشيكن", "photo-1571091718767-18b5b1457add"],
+  ["فرايد", "photo-1571091718767-18b5b1457add"],
+  ["ستربس", "photo-1571091718767-18b5b1457add"],
+  ["وينجز", "photo-1626645738196-c2a7c87a8f58"],
+  ["مقرمش", "photo-1571091718767-18b5b1457add"],
   ["شاورما", "photo-1529006557810-274b9b2fc783"],
   ["فلافل", "photo-1626082927389-6cd097cdc6ec"],
   ["حمص", "photo-1601050690117-94f5f6fa8bd7"],
@@ -109,11 +118,12 @@ export const DISH_KEYWORDS = [
   ["ريش", "photo-1529692236671-f1f6cf9683ba"],
   ["مشاوي", "photo-1555939594-58d7cb561ad1"],
   ["بطاطس", "photo-1573080496219-bb080dd4f877"],
+  ["تمر", "photo-1559181567-c3190ca9959b"],
+  ["قهوة عربية", "photo-1519676867240-f03562e64548"],
   ["حليب", "photo-1550583724-b2692b85b150"],
   ["بيض", "photo-1482049016688-2d3e1b311543"],
   ["خبز", "photo-1509440159596-0249088772ff"],
   ["مياه", "photo-1548839140-29a749e1cf4d"],
-  ["تمر", "photo-1559181567-c3190ca9959b"],
   ["تاكو", "photo-1565299624946-b28f40a0ae38"],
   ["بوريتو", "photo-1626700051175-6818013e1d4f"],
 ];
@@ -180,6 +190,11 @@ export const CUISINE_DISHES = {
     "photo-1550583724-b2692b85b150",
     "photo-1548839140-29a749e1cf4d",
   ],
+  "فرايد تشيكن": [
+    "photo-1571091718767-18b5b1457add",
+    "photo-1626645738196-c2a7c87a8f58",
+    "photo-1551782450-a2132b4ba21d",
+  ],
 };
 
 export function restaurantCover(cuisine, seed = 0) {
@@ -221,6 +236,7 @@ export const CUISINE_PRICE_MAX = {
   بحري: 75,
   صحي: 42,
   بقالة: 22,
+  "فرايد تشيكن": 36,
 };
 
 export const OFFER_PRICE_MAX = {
@@ -239,6 +255,7 @@ export function realisticPrice(meal, cuisine) {
     if (kind === "family" && cuisine === "بحري") max = 119;
     if (kind === "family" && cuisine === "برجر") max = 89;
     if (kind === "family" && cuisine === "إيطالي") max = 79;
+    if (kind === "family" && cuisine === "فرايد تشيكن") max = 89;
     if (kind === "combo" && cuisine === "ياباني") max = 48;
     if (kind === "combo" && cuisine === "بحري") max = 48;
     if (kind === "combo" && cuisine === "حلويات") max = 26;

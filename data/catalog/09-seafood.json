@@ -4,20 +4,20 @@
       "id": "blue-harbor",
       "name": "الميناء الأزرق",
       "image": "https://images.unsplash.com/photo-1615141982883-c7ad0e69fd62?w=800&q=80",
-      "rating": 4.5,
+      "rating": 4.8,
       "cuisine": "بحري",
-      "deliveryTime": "25–35 د",
-      "deliveryFee": 0,
-      "minOrder": 25,
-      "distanceKm": 2.2,
+      "deliveryTime": "20–30 د",
+      "deliveryFee": 5,
+      "minOrder": 30,
+      "distanceKm": 3.7,
       "verified": true,
       "tags": [
         "بحري",
         "سمك",
         "روبيان"
       ],
-      "featured": null,
-      "open24h": true,
+      "featured": true,
+      "open24h": null,
       "fastDelivery": true,
       "meals": [
         {
@@ -27,7 +27,7 @@
           "description": "سمك طازج مشوي مع أرز وسلطة.",
           "image": "https://images.unsplash.com/photo-1519708227418-c8fd9a32b7a2?w=800&q=80",
           "price": 52,
-          "rating": 4.7,
+          "rating": 4.2,
           "calories": 480,
           "protein": 42,
           "carbs": 30,
@@ -36,6 +36,9 @@
           "isPopular": false,
           "isOffer": false,
           "offerPrice": null,
+          "isCombo": false,
+          "offerKind": null,
+          "comboIncludes": [],
           "spicyOption": false,
           "cashbackPercent": null,
           "addons": [
@@ -64,10 +67,7 @@
               "name": "مشروب",
               "price": 6
             }
-          ],
-          "isCombo": false,
-          "comboIncludes": [],
-          "offerKind": null
+          ]
         },
         {
           "id": "blue-harbor-2",
@@ -76,15 +76,18 @@
           "description": "روبيان مقرمش مع ثوم.",
           "image": "https://images.unsplash.com/photo-1559847844-5315695dadae?w=800&q=80",
           "price": 58,
-          "rating": 4.3,
+          "rating": 4.6,
           "calories": 560,
           "protein": 36,
           "carbs": 28,
           "fat": 28,
-          "category": "popular",
-          "isPopular": true,
+          "category": "menu",
+          "isPopular": false,
           "isOffer": false,
           "offerPrice": null,
+          "isCombo": false,
+          "offerKind": null,
+          "comboIncludes": [],
           "spicyOption": false,
           "cashbackPercent": null,
           "addons": [
@@ -113,10 +116,7 @@
               "name": "مشروب",
               "price": 6
             }
-          ],
-          "isCombo": false,
-          "comboIncludes": [],
-          "offerKind": null
+          ]
         },
         {
           "id": "blue-harbor-3",
@@ -125,15 +125,18 @@
           "description": "أرز صيادية مع سمك.",
           "image": "https://images.unsplash.com/photo-1600699899970-b1c9fadd8f9e?w=800&q=80",
           "price": 44,
-          "rating": 4.7,
+          "rating": 4.9,
           "calories": 620,
           "protein": 32,
           "carbs": 68,
           "fat": 18,
-          "category": "popular",
-          "isPopular": true,
+          "category": "menu",
+          "isPopular": false,
           "isOffer": false,
           "offerPrice": null,
+          "isCombo": false,
+          "offerKind": null,
+          "comboIncludes": [],
           "spicyOption": false,
           "cashbackPercent": null,
           "addons": [
@@ -162,10 +165,7 @@
               "name": "مشروب",
               "price": 6
             }
-          ],
-          "isCombo": false,
-          "comboIncludes": [],
-          "offerKind": null
+          ]
         },
         {
           "id": "blue-harbor-4",
@@ -174,7 +174,7 @@
           "description": "حلقات حبار مقلية.",
           "image": "https://images.unsplash.com/photo-1559847844-5315695dadae?w=800&q=80",
           "price": 36,
-          "rating": 4.4,
+          "rating": 4.8,
           "calories": 420,
           "protein": 22,
           "carbs": 32,
@@ -183,6 +183,9 @@
           "isPopular": true,
           "isOffer": false,
           "offerPrice": null,
+          "isCombo": false,
+          "offerKind": null,
+          "comboIncludes": [],
           "spicyOption": false,
           "cashbackPercent": null,
           "addons": [
@@ -211,10 +214,7 @@
               "name": "مشروب",
               "price": 6
             }
-          ],
-          "isCombo": false,
-          "comboIncludes": [],
-          "offerKind": null
+          ]
         },
         {
           "id": "blue-harbor-5",
@@ -223,7 +223,7 @@
           "description": "رول سلمون وأفوكادو.",
           "image": "https://images.unsplash.com/photo-1579584425555-c3ce17fd4351?w=800&q=80",
           "price": 48,
-          "rating": 4.3,
+          "rating": 4.2,
           "calories": 390,
           "protein": 24,
           "carbs": 40,
@@ -232,8 +232,11 @@
           "isPopular": false,
           "isOffer": false,
           "offerPrice": null,
+          "isCombo": false,
+          "offerKind": null,
+          "comboIncludes": [],
           "spicyOption": false,
-          "cashbackPercent": 5,
+          "cashbackPercent": null,
           "addons": [
             {
               "id": "garlic-sauce",
@@ -260,10 +263,7 @@
               "name": "مشروب",
               "price": 6
             }
-          ],
-          "isCombo": false,
-          "comboIncludes": [],
-          "offerKind": null
+          ]
         },
         {
           "id": "blue-harbor-6",
@@ -272,7 +272,7 @@
           "description": "مرق بحري غني.",
           "image": "https://images.unsplash.com/photo-1615141982883-c7ad0e69fd62?w=800&q=80",
           "price": 28,
-          "rating": 4.1,
+          "rating": 4.2,
           "calories": 240,
           "protein": 18,
           "carbs": 14,
@@ -281,8 +281,11 @@
           "isPopular": false,
           "isOffer": false,
           "offerPrice": null,
+          "isCombo": false,
+          "offerKind": null,
+          "comboIncludes": [],
           "spicyOption": false,
-          "cashbackPercent": 10,
+          "cashbackPercent": null,
           "addons": [
             {
               "id": "garlic-sauce",
@@ -309,10 +312,7 @@
               "name": "مشروب",
               "price": 6
             }
-          ],
-          "isCombo": false,
-          "comboIncludes": [],
-          "offerKind": null
+          ]
         },
         {
           "id": "blue-harbor-7",
@@ -321,7 +321,7 @@
           "description": "فيليه سلمون مع خضار.",
           "image": "https://images.unsplash.com/photo-1559847844-5315695dadae?w=800&q=80",
           "price": 60,
-          "rating": 4.4,
+          "rating": 4.2,
           "calories": 520,
           "protein": 40,
           "carbs": 8,
@@ -330,6 +330,9 @@
           "isPopular": false,
           "isOffer": false,
           "offerPrice": null,
+          "isCombo": false,
+          "offerKind": null,
+          "comboIncludes": [],
           "spicyOption": false,
           "cashbackPercent": null,
           "addons": [
@@ -358,10 +361,7 @@
               "name": "مشروب",
               "price": 6
             }
-          ],
-          "isCombo": false,
-          "comboIncludes": [],
-          "offerKind": null
+          ]
         },
         {
           "id": "blue-harbor-8",
@@ -370,7 +370,7 @@
           "description": "هامور مشوي على الفحم.",
           "image": "https://images.unsplash.com/photo-1519708227418-c8fd9a32b7a2?w=800&q=80",
           "price": 58,
-          "rating": 4.2,
+          "rating": 4.3,
           "calories": 540,
           "protein": 48,
           "carbs": 6,
@@ -379,8 +379,11 @@
           "isPopular": false,
           "isOffer": false,
           "offerPrice": null,
+          "isCombo": false,
+          "offerKind": null,
+          "comboIncludes": [],
           "spicyOption": false,
-          "cashbackPercent": 15,
+          "cashbackPercent": null,
           "addons": [
             {
               "id": "garlic-sauce",
@@ -407,10 +410,7 @@
               "name": "مشروب",
               "price": 6
             }
-          ],
-          "isCombo": false,
-          "comboIncludes": [],
-          "offerKind": null
+          ]
         },
         {
           "id": "blue-harbor-9",
@@ -419,7 +419,7 @@
           "description": "تشكيلة مشوية للعائلة.",
           "image": "https://images.unsplash.com/photo-1615141982883-c7ad0e69fd62?w=800&q=80",
           "price": 60,
-          "rating": 4.6,
+          "rating": 4.3,
           "calories": 980,
           "protein": 70,
           "carbs": 40,
@@ -428,6 +428,9 @@
           "isPopular": false,
           "isOffer": false,
           "offerPrice": null,
+          "isCombo": false,
+          "offerKind": null,
+          "comboIncludes": [],
           "spicyOption": false,
           "cashbackPercent": null,
           "addons": [
@@ -456,10 +459,7 @@
               "name": "مشروب",
               "price": 6
             }
-          ],
-          "isCombo": false,
-          "comboIncludes": [],
-          "offerKind": null
+          ]
         },
         {
           "id": "blue-harbor-10",
@@ -468,7 +468,7 @@
           "description": "أرز بسمتي مع روبيان.",
           "image": "https://images.unsplash.com/photo-1559847844-5315695dadae?w=800&q=80",
           "price": 46,
-          "rating": 4.3,
+          "rating": 4.6,
           "calories": 640,
           "protein": 28,
           "carbs": 70,
@@ -477,6 +477,9 @@
           "isPopular": false,
           "isOffer": false,
           "offerPrice": null,
+          "isCombo": false,
+          "offerKind": null,
+          "comboIncludes": [],
           "spicyOption": false,
           "cashbackPercent": null,
           "addons": [
@@ -505,10 +508,7 @@
               "name": "مشروب",
               "price": 6
             }
-          ],
-          "isCombo": false,
-          "comboIncludes": [],
-          "offerKind": null
+          ]
         },
         {
           "id": "blue-harbor-offer-1",
@@ -569,7 +569,7 @@
           "id": "blue-harbor-offer-2",
           "restaurantId": "blue-harbor",
           "name": "وجبة عائلية بحرية لـ 4 أشخاص",
-          "description": "4 طبق بحري مع إضافات ومشروبات. تكفي 4 أشخاص.",
+          "description": "4 طبق بحري مع أرز وسلطة وليمون. تكفي 4 أشخاص.",
           "image": "https://images.unsplash.com/photo-1559847844-5315695dadae?w=800&q=80",
           "price": 98,
           "rating": 4.6,
@@ -679,21 +679,21 @@
       "id": "shrimp-coast",
       "name": "ساحل الروبيان",
       "image": "https://images.unsplash.com/photo-1615141982883-c7ad0e69fd62?w=800&q=80",
-      "rating": 4.6,
+      "rating": 4.3,
       "cuisine": "بحري",
-      "deliveryTime": "30–45 د",
-      "deliveryFee": 12,
-      "minOrder": 40,
-      "distanceKm": 6,
-      "verified": true,
+      "deliveryTime": "35–50 د",
+      "deliveryFee": 8,
+      "minOrder": 45,
+      "distanceKm": 5.5,
+      "verified": null,
       "tags": [
         "بحري",
         "سمك",
         "روبيان"
       ],
-      "featured": true,
+      "featured": null,
       "open24h": null,
-      "fastDelivery": true,
+      "fastDelivery": null,
       "meals": [
         {
           "id": "shrimp-coast-1",
@@ -702,7 +702,7 @@
           "description": "سمك طازج مشوي مع أرز وسلطة.",
           "image": "https://images.unsplash.com/photo-1519708227418-c8fd9a32b7a2?w=800&q=80",
           "price": 52,
-          "rating": 4.4,
+          "rating": 4.3,
           "calories": 480,
           "protein": 42,
           "carbs": 30,
@@ -711,6 +711,9 @@
           "isPopular": false,
           "isOffer": false,
           "offerPrice": null,
+          "isCombo": false,
+          "offerKind": null,
+          "comboIncludes": [],
           "spicyOption": false,
           "cashbackPercent": null,
           "addons": [
@@ -739,10 +742,7 @@
               "name": "مشروب",
               "price": 6
             }
-          ],
-          "isCombo": false,
-          "comboIncludes": [],
-          "offerKind": null
+          ]
         },
         {
           "id": "shrimp-coast-2",
@@ -751,7 +751,7 @@
           "description": "روبيان مقرمش مع ثوم.",
           "image": "https://images.unsplash.com/photo-1559847844-5315695dadae?w=800&q=80",
           "price": 58,
-          "rating": 4.6,
+          "rating": 4.2,
           "calories": 560,
           "protein": 36,
           "carbs": 28,
@@ -760,6 +760,9 @@
           "isPopular": false,
           "isOffer": false,
           "offerPrice": null,
+          "isCombo": false,
+          "offerKind": null,
+          "comboIncludes": [],
           "spicyOption": false,
           "cashbackPercent": null,
           "addons": [
@@ -788,10 +791,7 @@
               "name": "مشروب",
               "price": 6
             }
-          ],
-          "isCombo": false,
-          "comboIncludes": [],
-          "offerKind": null
+          ]
         },
         {
           "id": "shrimp-coast-3",
@@ -800,15 +800,18 @@
           "description": "أرز صيادية مع سمك.",
           "image": "https://images.unsplash.com/photo-1600699899970-b1c9fadd8f9e?w=800&q=80",
           "price": 44,
-          "rating": 4.6,
+          "rating": 4.2,
           "calories": 620,
           "protein": 32,
           "carbs": 68,
           "fat": 18,
-          "category": "menu",
-          "isPopular": false,
+          "category": "popular",
+          "isPopular": true,
           "isOffer": false,
           "offerPrice": null,
+          "isCombo": false,
+          "offerKind": null,
+          "comboIncludes": [],
           "spicyOption": false,
           "cashbackPercent": null,
           "addons": [
@@ -837,10 +840,7 @@
               "name": "مشروب",
               "price": 6
             }
-          ],
-          "isCombo": false,
-          "comboIncludes": [],
-          "offerKind": null
+          ]
         },
         {
           "id": "shrimp-coast-4",
@@ -849,15 +849,18 @@
           "description": "حلقات حبار مقلية.",
           "image": "https://images.unsplash.com/photo-1559847844-5315695dadae?w=800&q=80",
           "price": 36,
-          "rating": 4.1,
+          "rating": 4.4,
           "calories": 420,
           "protein": 22,
           "carbs": 32,
           "fat": 20,
-          "category": "popular",
-          "isPopular": true,
+          "category": "menu",
+          "isPopular": false,
           "isOffer": false,
           "offerPrice": null,
+          "isCombo": false,
+          "offerKind": null,
+          "comboIncludes": [],
           "spicyOption": false,
           "cashbackPercent": null,
           "addons": [
@@ -886,10 +889,7 @@
               "name": "مشروب",
               "price": 6
             }
-          ],
-          "isCombo": false,
-          "comboIncludes": [],
-          "offerKind": null
+          ]
         },
         {
           "id": "shrimp-coast-5",
@@ -898,7 +898,7 @@
           "description": "رول سلمون وأفوكادو.",
           "image": "https://images.unsplash.com/photo-1579584425555-c3ce17fd4351?w=800&q=80",
           "price": 48,
-          "rating": 4.4,
+          "rating": 4.5,
           "calories": 390,
           "protein": 24,
           "carbs": 40,
@@ -907,104 +907,9 @@
           "isPopular": false,
           "isOffer": false,
           "offerPrice": null,
-          "spicyOption": false,
-          "cashbackPercent": 15,
-          "addons": [
-            {
-              "id": "garlic-sauce",
-              "name": "صوص ثوم",
-              "price": 3
-            },
-            {
-              "id": "lemon",
-              "name": "ليمون إضافي",
-              "price": 2
-            },
-            {
-              "id": "extra-rice",
-              "name": "أرز",
-              "price": 6
-            },
-            {
-              "id": "side-salad",
-              "name": "سلطة",
-              "price": 8
-            },
-            {
-              "id": "drink",
-              "name": "مشروب",
-              "price": 6
-            }
-          ],
           "isCombo": false,
+          "offerKind": null,
           "comboIncludes": [],
-          "offerKind": null
-        },
-        {
-          "id": "shrimp-coast-6",
-          "restaurantId": "shrimp-coast",
-          "name": "شوربة سي فود",
-          "description": "مرق بحري غني.",
-          "image": "https://images.unsplash.com/photo-1615141982883-c7ad0e69fd62?w=800&q=80",
-          "price": 28,
-          "rating": 4.4,
-          "calories": 240,
-          "protein": 18,
-          "carbs": 14,
-          "fat": 10,
-          "category": "menu",
-          "isPopular": false,
-          "isOffer": false,
-          "offerPrice": null,
-          "spicyOption": false,
-          "cashbackPercent": 5,
-          "addons": [
-            {
-              "id": "garlic-sauce",
-              "name": "صوص ثوم",
-              "price": 3
-            },
-            {
-              "id": "lemon",
-              "name": "ليمون إضافي",
-              "price": 2
-            },
-            {
-              "id": "extra-rice",
-              "name": "أرز",
-              "price": 6
-            },
-            {
-              "id": "side-salad",
-              "name": "سلطة",
-              "price": 8
-            },
-            {
-              "id": "drink",
-              "name": "مشروب",
-              "price": 6
-            }
-          ],
-          "isCombo": false,
-          "comboIncludes": [],
-          "offerKind": null
-        },
-        {
-          "id": "shrimp-coast-7",
-          "restaurantId": "shrimp-coast",
-          "name": "سلمون مشوي",
-          "description": "فيليه سلمون مع خضار.",
-          "image": "https://images.unsplash.com/photo-1559847844-5315695dadae?w=800&q=80",
-          "price": 60,
-          "rating": 4.1,
-          "calories": 520,
-          "protein": 40,
-          "carbs": 8,
-          "fat": 28,
-          "category": "popular",
-          "isPopular": true,
-          "isOffer": false,
-          "offerPrice": null,
           "spicyOption": false,
           "cashbackPercent": null,
           "addons": [
@@ -1033,10 +938,105 @@
               "name": "مشروب",
               "price": 6
             }
-          ],
+          ]
+        },
+        {
+          "id": "shrimp-coast-6",
+          "restaurantId": "shrimp-coast",
+          "name": "شوربة سي فود",
+          "description": "مرق بحري غني.",
+          "image": "https://images.unsplash.com/photo-1615141982883-c7ad0e69fd62?w=800&q=80",
+          "price": 28,
+          "rating": 4.2,
+          "calories": 240,
+          "protein": 18,
+          "carbs": 14,
+          "fat": 10,
+          "category": "popular",
+          "isPopular": true,
+          "isOffer": false,
+          "offerPrice": null,
           "isCombo": false,
+          "offerKind": null,
           "comboIncludes": [],
-          "offerKind": null
+          "spicyOption": false,
+          "cashbackPercent": null,
+          "addons": [
+            {
+              "id": "garlic-sauce",
+              "name": "صوص ثوم",
+              "price": 3
+            },
+            {
+              "id": "lemon",
+              "name": "ليمون إضافي",
+              "price": 2
+            },
+            {
+              "id": "extra-rice",
+              "name": "أرز",
+              "price": 6
+            },
+            {
+              "id": "side-salad",
+              "name": "سلطة",
+              "price": 8
+            },
+            {
+              "id": "drink",
+              "name": "مشروب",
+              "price": 6
+            }
+          ]
+        },
+        {
+          "id": "shrimp-coast-7",
+          "restaurantId": "shrimp-coast",
+          "name": "سلمون مشوي",
+          "description": "فيليه سلمون مع خضار.",
+          "image": "https://images.unsplash.com/photo-1559847844-5315695dadae?w=800&q=80",
+          "price": 60,
+          "rating": 4.6,
+          "calories": 520,
+          "protein": 40,
+          "carbs": 8,
+          "fat": 28,
+          "category": "menu",
+          "isPopular": false,
+          "isOffer": false,
+          "offerPrice": null,
+          "isCombo": false,
+          "offerKind": null,
+          "comboIncludes": [],
+          "spicyOption": false,
+          "cashbackPercent": null,
+          "addons": [
+            {
+              "id": "garlic-sauce",
+              "name": "صوص ثوم",
+              "price": 3
+            },
+            {
+              "id": "lemon",
+              "name": "ليمون إضافي",
+              "price": 2
+            },
+            {
+              "id": "extra-rice",
+              "name": "أرز",
+              "price": 6
+            },
+            {
+              "id": "side-salad",
+              "name": "سلطة",
+              "price": 8
+            },
+            {
+              "id": "drink",
+              "name": "مشروب",
+              "price": 6
+            }
+          ]
         },
         {
           "id": "shrimp-coast-8",
@@ -1050,10 +1050,13 @@
           "protein": 48,
           "carbs": 6,
           "fat": 24,
-          "category": "menu",
-          "isPopular": false,
+          "category": "popular",
+          "isPopular": true,
           "isOffer": false,
           "offerPrice": null,
+          "isCombo": false,
+          "offerKind": null,
+          "comboIncludes": [],
           "spicyOption": false,
           "cashbackPercent": null,
           "addons": [
@@ -1082,10 +1085,7 @@
               "name": "مشروب",
               "price": 6
             }
-          ],
-          "isCombo": false,
-          "comboIncludes": [],
-          "offerKind": null
+          ]
         },
         {
           "id": "shrimp-coast-9",
@@ -1094,64 +1094,18 @@
           "description": "تشكيلة مشوية للعائلة.",
           "image": "https://images.unsplash.com/photo-1615141982883-c7ad0e69fd62?w=800&q=80",
           "price": 60,
-          "rating": 4.5,
+          "rating": 4.3,
           "calories": 980,
           "protein": 70,
           "carbs": 40,
           "fat": 48,
-          "category": "menu",
-          "isPopular": false,
+          "category": "popular",
+          "isPopular": true,
           "isOffer": false,
           "offerPrice": null,
-          "spicyOption": false,
-          "cashbackPercent": 10,
-          "addons": [
-            {
-              "id": "garlic-sauce",
-              "name": "صوص ثوم",
-              "price": 3
-            },
-            {
-              "id": "lemon",
-              "name": "ليمون إضافي",
-              "price": 2
-            },
-            {
-              "id": "extra-rice",
-              "name": "أرز",
-              "price": 6
-            },
-            {
-              "id": "side-salad",
-              "name": "سلطة",
-              "price": 8
-            },
-            {
-              "id": "drink",
-              "name": "مشروب",
-              "price": 6
-            }
-          ],
           "isCombo": false,
+          "offerKind": null,
           "comboIncludes": [],
-          "offerKind": null
-        },
-        {
-          "id": "shrimp-coast-10",
-          "restaurantId": "shrimp-coast",
-          "name": "أرز بالروبيان",
-          "description": "أرز بسمتي مع روبيان.",
-          "image": "https://images.unsplash.com/photo-1559847844-5315695dadae?w=800&q=80",
-          "price": 46,
-          "rating": 4.6,
-          "calories": 640,
-          "protein": 28,
-          "carbs": 70,
-          "fat": 16,
-          "category": "menu",
-          "isPopular": false,
-          "isOffer": false,
-          "offerPrice": null,
           "spicyOption": false,
           "cashbackPercent": null,
           "addons": [
@@ -1180,10 +1134,56 @@
               "name": "مشروب",
               "price": 6
             }
-          ],
+          ]
+        },
+        {
+          "id": "shrimp-coast-10",
+          "restaurantId": "shrimp-coast",
+          "name": "أرز بالروبيان",
+          "description": "أرز بسمتي مع روبيان.",
+          "image": "https://images.unsplash.com/photo-1559847844-5315695dadae?w=800&q=80",
+          "price": 46,
+          "rating": 4.8,
+          "calories": 640,
+          "protein": 28,
+          "carbs": 70,
+          "fat": 16,
+          "category": "popular",
+          "isPopular": true,
+          "isOffer": false,
+          "offerPrice": null,
           "isCombo": false,
+          "offerKind": null,
           "comboIncludes": [],
-          "offerKind": null
+          "spicyOption": false,
+          "cashbackPercent": null,
+          "addons": [
+            {
+              "id": "garlic-sauce",
+              "name": "صوص ثوم",
+              "price": 3
+            },
+            {
+              "id": "lemon",
+              "name": "ليمون إضافي",
+              "price": 2
+            },
+            {
+              "id": "extra-rice",
+              "name": "أرز",
+              "price": 6
+            },
+            {
+              "id": "side-salad",
+              "name": "سلطة",
+              "price": 8
+            },
+            {
+              "id": "drink",
+              "name": "مشروب",
+              "price": 6
+            }
+          ]
         },
         {
           "id": "shrimp-coast-offer-1",
@@ -1244,7 +1244,7 @@
           "id": "shrimp-coast-offer-2",
           "restaurantId": "shrimp-coast",
           "name": "وجبة عائلية بحرية لـ 3 أشخاص",
-          "description": "3 طبق بحري مع إضافات ومشروبات. تكفي 3 أشخاص.",
+          "description": "3 طبق بحري مع أرز وسلطة وليمون. تكفي 3 أشخاص.",
           "image": "https://images.unsplash.com/photo-1615141982883-c7ad0e69fd62?w=800&q=80",
           "price": 78,
           "rating": 4.6,
@@ -1354,11 +1354,11 @@
       "id": "coral-grill",
       "name": "مشواة المرجان",
       "image": "https://images.unsplash.com/photo-1615141982883-c7ad0e69fd62?w=800&q=80",
-      "rating": 4.2,
+      "rating": 4.4,
       "cuisine": "بحري",
-      "deliveryTime": "20–30 د",
-      "deliveryFee": 12,
-      "minOrder": 25,
+      "deliveryTime": "40–55 د",
+      "deliveryFee": 10,
+      "minOrder": 45,
       "distanceKm": 4.2,
       "verified": true,
       "tags": [
@@ -1377,15 +1377,18 @@
           "description": "سمك طازج مشوي مع أرز وسلطة.",
           "image": "https://images.unsplash.com/photo-1519708227418-c8fd9a32b7a2?w=800&q=80",
           "price": 52,
-          "rating": 4.1,
+          "rating": 4.4,
           "calories": 480,
           "protein": 42,
           "carbs": 30,
           "fat": 16,
-          "category": "popular",
-          "isPopular": true,
+          "category": "menu",
+          "isPopular": false,
           "isOffer": false,
           "offerPrice": null,
+          "isCombo": false,
+          "offerKind": null,
+          "comboIncludes": [],
           "spicyOption": false,
           "cashbackPercent": null,
           "addons": [
@@ -1414,10 +1417,7 @@
               "name": "مشروب",
               "price": 6
             }
-          ],
-          "isCombo": false,
-          "comboIncludes": [],
-          "offerKind": null
+          ]
         },
         {
           "id": "coral-grill-2",
@@ -1426,15 +1426,18 @@
           "description": "روبيان مقرمش مع ثوم.",
           "image": "https://images.unsplash.com/photo-1559847844-5315695dadae?w=800&q=80",
           "price": 58,
-          "rating": 4.7,
+          "rating": 4.6,
           "calories": 560,
           "protein": 36,
           "carbs": 28,
           "fat": 28,
-          "category": "menu",
-          "isPopular": false,
+          "category": "popular",
+          "isPopular": true,
           "isOffer": false,
           "offerPrice": null,
+          "isCombo": false,
+          "offerKind": null,
+          "comboIncludes": [],
           "spicyOption": false,
           "cashbackPercent": null,
           "addons": [
@@ -1463,10 +1466,7 @@
               "name": "مشروب",
               "price": 6
             }
-          ],
-          "isCombo": false,
-          "comboIncludes": [],
-          "offerKind": null
+          ]
         },
         {
           "id": "coral-grill-3",
@@ -1484,6 +1484,9 @@
           "isPopular": false,
           "isOffer": false,
           "offerPrice": null,
+          "isCombo": false,
+          "offerKind": null,
+          "comboIncludes": [],
           "spicyOption": false,
           "cashbackPercent": null,
           "addons": [
@@ -1512,10 +1515,7 @@
               "name": "مشروب",
               "price": 6
             }
-          ],
-          "isCombo": false,
-          "comboIncludes": [],
-          "offerKind": null
+          ]
         },
         {
           "id": "coral-grill-4",
@@ -1524,15 +1524,18 @@
           "description": "حلقات حبار مقلية.",
           "image": "https://images.unsplash.com/photo-1559847844-5315695dadae?w=800&q=80",
           "price": 36,
-          "rating": 4.7,
+          "rating": 4.2,
           "calories": 420,
           "protein": 22,
           "carbs": 32,
           "fat": 20,
-          "category": "menu",
-          "isPopular": false,
+          "category": "popular",
+          "isPopular": true,
           "isOffer": false,
           "offerPrice": null,
+          "isCombo": false,
+          "offerKind": null,
+          "comboIncludes": [],
           "spicyOption": false,
           "cashbackPercent": null,
           "addons": [
@@ -1561,10 +1564,7 @@
               "name": "مشروب",
               "price": 6
             }
-          ],
-          "isCombo": false,
-          "comboIncludes": [],
-          "offerKind": null
+          ]
         },
         {
           "id": "coral-grill-5",
@@ -1573,7 +1573,7 @@
           "description": "رول سلمون وأفوكادو.",
           "image": "https://images.unsplash.com/photo-1579584425555-c3ce17fd4351?w=800&q=80",
           "price": 48,
-          "rating": 4.2,
+          "rating": 4.8,
           "calories": 390,
           "protein": 24,
           "carbs": 40,
@@ -1582,6 +1582,9 @@
           "isPopular": false,
           "isOffer": false,
           "offerPrice": null,
+          "isCombo": false,
+          "offerKind": null,
+          "comboIncludes": [],
           "spicyOption": false,
           "cashbackPercent": null,
           "addons": [
@@ -1610,10 +1613,7 @@
               "name": "مشروب",
               "price": 6
             }
-          ],
-          "isCombo": false,
-          "comboIncludes": [],
-          "offerKind": null
+          ]
         },
         {
           "id": "coral-grill-6",
@@ -1622,7 +1622,7 @@
           "description": "مرق بحري غني.",
           "image": "https://images.unsplash.com/photo-1615141982883-c7ad0e69fd62?w=800&q=80",
           "price": 28,
-          "rating": 4.2,
+          "rating": 4.3,
           "calories": 240,
           "protein": 18,
           "carbs": 14,
@@ -1631,6 +1631,9 @@
           "isPopular": false,
           "isOffer": false,
           "offerPrice": null,
+          "isCombo": false,
+          "offerKind": null,
+          "comboIncludes": [],
           "spicyOption": false,
           "cashbackPercent": null,
           "addons": [
@@ -1659,10 +1662,7 @@
               "name": "مشروب",
               "price": 6
             }
-          ],
-          "isCombo": false,
-          "comboIncludes": [],
-          "offerKind": null
+          ]
         },
         {
           "id": "coral-grill-7",
@@ -1671,15 +1671,18 @@
           "description": "فيليه سلمون مع خضار.",
           "image": "https://images.unsplash.com/photo-1559847844-5315695dadae?w=800&q=80",
           "price": 60,
-          "rating": 4.9,
+          "rating": 4.6,
           "calories": 520,
           "protein": 40,
           "carbs": 8,
           "fat": 28,
-          "category": "menu",
-          "isPopular": false,
+          "category": "popular",
+          "isPopular": true,
           "isOffer": false,
           "offerPrice": null,
+          "isCombo": false,
+          "offerKind": null,
+          "comboIncludes": [],
           "spicyOption": false,
           "cashbackPercent": null,
           "addons": [
@@ -1708,10 +1711,7 @@
               "name": "مشروب",
               "price": 6
             }
-          ],
-          "isCombo": false,
-          "comboIncludes": [],
-          "offerKind": null
+          ]
         },
         {
           "id": "coral-grill-8",
@@ -1720,7 +1720,7 @@
           "description": "هامور مشوي على الفحم.",
           "image": "https://images.unsplash.com/photo-1519708227418-c8fd9a32b7a2?w=800&q=80",
           "price": 58,
-          "rating": 4.2,
+          "rating": 4.3,
           "calories": 540,
           "protein": 48,
           "carbs": 6,
@@ -1729,6 +1729,9 @@
           "isPopular": false,
           "isOffer": false,
           "offerPrice": null,
+          "isCombo": false,
+          "offerKind": null,
+          "comboIncludes": [],
           "spicyOption": false,
           "cashbackPercent": null,
           "addons": [
@@ -1757,10 +1760,7 @@
               "name": "مشروب",
               "price": 6
             }
-          ],
-          "isCombo": false,
-          "comboIncludes": [],
-          "offerKind": null
+          ]
         },
         {
           "id": "coral-grill-9",
@@ -1769,7 +1769,7 @@
           "description": "تشكيلة مشوية للعائلة.",
           "image": "https://images.unsplash.com/photo-1615141982883-c7ad0e69fd62?w=800&q=80",
           "price": 60,
-          "rating": 4.3,
+          "rating": 4.7,
           "calories": 980,
           "protein": 70,
           "carbs": 40,
@@ -1778,6 +1778,9 @@
           "isPopular": false,
           "isOffer": false,
           "offerPrice": null,
+          "isCombo": false,
+          "offerKind": null,
+          "comboIncludes": [],
           "spicyOption": false,
           "cashbackPercent": null,
           "addons": [
@@ -1806,10 +1809,7 @@
               "name": "مشروب",
               "price": 6
             }
-          ],
-          "isCombo": false,
-          "comboIncludes": [],
-          "offerKind": null
+          ]
         },
         {
           "id": "coral-grill-10",
@@ -1827,6 +1827,9 @@
           "isPopular": false,
           "isOffer": false,
           "offerPrice": null,
+          "isCombo": false,
+          "offerKind": null,
+          "comboIncludes": [],
           "spicyOption": false,
           "cashbackPercent": null,
           "addons": [
@@ -1855,10 +1858,7 @@
               "name": "مشروب",
               "price": 6
             }
-          ],
-          "isCombo": false,
-          "comboIncludes": [],
-          "offerKind": null
+          ]
         },
         {
           "id": "coral-grill-offer-1",
@@ -1919,7 +1919,7 @@
           "id": "coral-grill-offer-2",
           "restaurantId": "coral-grill",
           "name": "وجبة عائلية بحرية لـ 5 أشخاص",
-          "description": "5 طبق بحري مع إضافات ومشروبات. تكفي 5 أشخاص.",
+          "description": "5 طبق بحري مع أرز وسلطة وليمون. تكفي 5 أشخاص.",
           "image": "https://images.unsplash.com/photo-1519708227418-c8fd9a32b7a2?w=800&q=80",
           "price": 118,
           "rating": 4.6,
@@ -2029,20 +2029,20 @@
       "id": "wave-kitchen",
       "name": "مطبخ الموجة",
       "image": "https://images.unsplash.com/photo-1519708227418-c8fd9a32b7a2?w=800&q=80",
-      "rating": 4.3,
+      "rating": 4.4,
       "cuisine": "بحري",
-      "deliveryTime": "30–45 د",
-      "deliveryFee": 10,
+      "deliveryTime": "40–55 د",
+      "deliveryFee": 12,
       "minOrder": 30,
-      "distanceKm": 4.8,
-      "verified": true,
+      "distanceKm": 3.3,
+      "verified": null,
       "tags": [
         "بحري",
         "سمك",
         "روبيان"
       ],
       "featured": null,
-      "open24h": null,
+      "open24h": true,
       "fastDelivery": true,
       "meals": [
         {
@@ -2052,15 +2052,18 @@
           "description": "سمك طازج مشوي مع أرز وسلطة.",
           "image": "https://images.unsplash.com/photo-1519708227418-c8fd9a32b7a2?w=800&q=80",
           "price": 52,
-          "rating": 4.4,
+          "rating": 4.7,
           "calories": 480,
           "protein": 42,
           "carbs": 30,
           "fat": 16,
-          "category": "menu",
-          "isPopular": false,
+          "category": "popular",
+          "isPopular": true,
           "isOffer": false,
           "offerPrice": null,
+          "isCombo": false,
+          "offerKind": null,
+          "comboIncludes": [],
           "spicyOption": false,
           "cashbackPercent": null,
           "addons": [
@@ -2089,10 +2092,7 @@
               "name": "مشروب",
               "price": 6
             }
-          ],
-          "isCombo": false,
-          "comboIncludes": [],
-          "offerKind": null
+          ]
         },
         {
           "id": "wave-kitchen-2",
@@ -2101,15 +2101,18 @@
           "description": "روبيان مقرمش مع ثوم.",
           "image": "https://images.unsplash.com/photo-1559847844-5315695dadae?w=800&q=80",
           "price": 58,
-          "rating": 4.5,
+          "rating": 4.6,
           "calories": 560,
           "protein": 36,
           "carbs": 28,
           "fat": 28,
-          "category": "menu",
-          "isPopular": false,
+          "category": "popular",
+          "isPopular": true,
           "isOffer": false,
           "offerPrice": null,
+          "isCombo": false,
+          "offerKind": null,
+          "comboIncludes": [],
           "spicyOption": false,
           "cashbackPercent": null,
           "addons": [
@@ -2138,10 +2141,7 @@
               "name": "مشروب",
               "price": 6
             }
-          ],
-          "isCombo": false,
-          "comboIncludes": [],
-          "offerKind": null
+          ]
         },
         {
           "id": "wave-kitchen-3",
@@ -2159,6 +2159,9 @@
           "isPopular": true,
           "isOffer": false,
           "offerPrice": null,
+          "isCombo": false,
+          "offerKind": null,
+          "comboIncludes": [],
           "spicyOption": false,
           "cashbackPercent": null,
           "addons": [
@@ -2187,10 +2190,7 @@
               "name": "مشروب",
               "price": 6
             }
-          ],
-          "isCombo": false,
-          "comboIncludes": [],
-          "offerKind": null
+          ]
         },
         {
           "id": "wave-kitchen-4",
@@ -2204,10 +2204,13 @@
           "protein": 22,
           "carbs": 32,
           "fat": 20,
-          "category": "popular",
-          "isPopular": true,
+          "category": "menu",
+          "isPopular": false,
           "isOffer": false,
           "offerPrice": null,
+          "isCombo": false,
+          "offerKind": null,
+          "comboIncludes": [],
           "spicyOption": false,
           "cashbackPercent": null,
           "addons": [
@@ -2236,10 +2239,7 @@
               "name": "مشروب",
               "price": 6
             }
-          ],
-          "isCombo": false,
-          "comboIncludes": [],
-          "offerKind": null
+          ]
         },
         {
           "id": "wave-kitchen-5",
@@ -2248,15 +2248,18 @@
           "description": "رول سلمون وأفوكادو.",
           "image": "https://images.unsplash.com/photo-1579584425555-c3ce17fd4351?w=800&q=80",
           "price": 48,
-          "rating": 4.2,
+          "rating": 4.6,
           "calories": 390,
           "protein": 24,
           "carbs": 40,
           "fat": 12,
-          "category": "menu",
-          "isPopular": false,
+          "category": "popular",
+          "isPopular": true,
           "isOffer": false,
           "offerPrice": null,
+          "isCombo": false,
+          "offerKind": null,
+          "comboIncludes": [],
           "spicyOption": false,
           "cashbackPercent": null,
           "addons": [
@@ -2285,10 +2288,7 @@
               "name": "مشروب",
               "price": 6
             }
-          ],
-          "isCombo": false,
-          "comboIncludes": [],
-          "offerKind": null
+          ]
         },
         {
           "id": "wave-kitchen-6",
@@ -2297,7 +2297,7 @@
           "description": "مرق بحري غني.",
           "image": "https://images.unsplash.com/photo-1559847844-5315695dadae?w=800&q=80",
           "price": 28,
-          "rating": 4.3,
+          "rating": 4.6,
           "calories": 240,
           "protein": 18,
           "carbs": 14,
@@ -2306,6 +2306,9 @@
           "isPopular": true,
           "isOffer": false,
           "offerPrice": null,
+          "isCombo": false,
+          "offerKind": null,
+          "comboIncludes": [],
           "spicyOption": false,
           "cashbackPercent": null,
           "addons": [
@@ -2334,10 +2337,7 @@
               "name": "مشروب",
               "price": 6
             }
-          ],
-          "isCombo": false,
-          "comboIncludes": [],
-          "offerKind": null
+          ]
         },
         {
           "id": "wave-kitchen-7",
@@ -2346,7 +2346,7 @@
           "description": "فيليه سلمون مع خضار.",
           "image": "https://images.unsplash.com/photo-1559847844-5315695dadae?w=800&q=80",
           "price": 60,
-          "rating": 4.1,
+          "rating": 4.6,
           "calories": 520,
           "protein": 40,
           "carbs": 8,
@@ -2355,6 +2355,9 @@
           "isPopular": false,
           "isOffer": false,
           "offerPrice": null,
+          "isCombo": false,
+          "offerKind": null,
+          "comboIncludes": [],
           "spicyOption": false,
           "cashbackPercent": null,
           "addons": [
@@ -2383,10 +2386,7 @@
               "name": "مشروب",
               "price": 6
             }
-          ],
-          "isCombo": false,
-          "comboIncludes": [],
-          "offerKind": null
+          ]
         },
         {
           "id": "wave-kitchen-8",
@@ -2395,7 +2395,7 @@
           "description": "هامور مشوي على الفحم.",
           "image": "https://images.unsplash.com/photo-1519708227418-c8fd9a32b7a2?w=800&q=80",
           "price": 58,
-          "rating": 4.8,
+          "rating": 4.3,
           "calories": 540,
           "protein": 48,
           "carbs": 6,
@@ -2404,6 +2404,9 @@
           "isPopular": false,
           "isOffer": false,
           "offerPrice": null,
+          "isCombo": false,
+          "offerKind": null,
+          "comboIncludes": [],
           "spicyOption": false,
           "cashbackPercent": null,
           "addons": [
@@ -2432,10 +2435,7 @@
               "name": "مشروب",
               "price": 6
             }
-          ],
-          "isCombo": false,
-          "comboIncludes": [],
-          "offerKind": null
+          ]
         },
         {
           "id": "wave-kitchen-9",
@@ -2444,7 +2444,7 @@
           "description": "تشكيلة مشوية للعائلة.",
           "image": "https://images.unsplash.com/photo-1559847844-5315695dadae?w=800&q=80",
           "price": 60,
-          "rating": 4.5,
+          "rating": 4.3,
           "calories": 980,
           "protein": 70,
           "carbs": 40,
@@ -2453,6 +2453,9 @@
           "isPopular": true,
           "isOffer": false,
           "offerPrice": null,
+          "isCombo": false,
+          "offerKind": null,
+          "comboIncludes": [],
           "spicyOption": false,
           "cashbackPercent": null,
           "addons": [
@@ -2481,10 +2484,7 @@
               "name": "مشروب",
               "price": 6
             }
-          ],
-          "isCombo": false,
-          "comboIncludes": [],
-          "offerKind": null
+          ]
         },
         {
           "id": "wave-kitchen-10",
@@ -2502,6 +2502,9 @@
           "isPopular": false,
           "isOffer": false,
           "offerPrice": null,
+          "isCombo": false,
+          "offerKind": null,
+          "comboIncludes": [],
           "spicyOption": false,
           "cashbackPercent": null,
           "addons": [
@@ -2530,10 +2533,7 @@
               "name": "مشروب",
               "price": 6
             }
-          ],
-          "isCombo": false,
-          "comboIncludes": [],
-          "offerKind": null
+          ]
         },
         {
           "id": "wave-kitchen-offer-1",
@@ -2594,7 +2594,7 @@
           "id": "wave-kitchen-offer-2",
           "restaurantId": "wave-kitchen",
           "name": "وجبة عائلية بحرية لـ 3 أشخاص",
-          "description": "3 طبق بحري مع إضافات ومشروبات. تكفي 3 أشخاص.",
+          "description": "3 طبق بحري مع أرز وسلطة وليمون. تكفي 3 أشخاص.",
           "image": "https://images.unsplash.com/photo-1615141982883-c7ad0e69fd62?w=800&q=80",
           "price": 78,
           "rating": 4.6,
@@ -2704,13 +2704,13 @@
       "id": "pearl-seafood",
       "name": "لؤلؤة البحر",
       "image": "https://images.unsplash.com/photo-1559847844-5315695dadae?w=800&q=80",
-      "rating": 4.3,
+      "rating": 4.7,
       "cuisine": "بحري",
-      "deliveryTime": "25–35 د",
-      "deliveryFee": 6,
-      "minOrder": 30,
-      "distanceKm": 6.1,
-      "verified": true,
+      "deliveryTime": "40–55 د",
+      "deliveryFee": 12,
+      "minOrder": 40,
+      "distanceKm": 4.2,
+      "verified": null,
       "tags": [
         "بحري",
         "سمك",
@@ -2718,7 +2718,7 @@
       ],
       "featured": null,
       "open24h": null,
-      "fastDelivery": true,
+      "fastDelivery": null,
       "meals": [
         {
           "id": "pearl-seafood-1",
@@ -2727,7 +2727,7 @@
           "description": "سمك طازج مشوي مع أرز وسلطة.",
           "image": "https://images.unsplash.com/photo-1519708227418-c8fd9a32b7a2?w=800&q=80",
           "price": 52,
-          "rating": 4.3,
+          "rating": 4.5,
           "calories": 480,
           "protein": 42,
           "carbs": 30,
@@ -2736,6 +2736,9 @@
           "isPopular": true,
           "isOffer": false,
           "offerPrice": null,
+          "isCombo": false,
+          "offerKind": null,
+          "comboIncludes": [],
           "spicyOption": false,
           "cashbackPercent": null,
           "addons": [
@@ -2764,10 +2767,7 @@
               "name": "مشروب",
               "price": 6
             }
-          ],
-          "isCombo": false,
-          "comboIncludes": [],
-          "offerKind": null
+          ]
         },
         {
           "id": "pearl-seafood-2",
@@ -2776,7 +2776,7 @@
           "description": "روبيان مقرمش مع ثوم.",
           "image": "https://images.unsplash.com/photo-1559847844-5315695dadae?w=800&q=80",
           "price": 58,
-          "rating": 4.6,
+          "rating": 4.1,
           "calories": 560,
           "protein": 36,
           "carbs": 28,
@@ -2785,6 +2785,9 @@
           "isPopular": false,
           "isOffer": false,
           "offerPrice": null,
+          "isCombo": false,
+          "offerKind": null,
+          "comboIncludes": [],
           "spicyOption": false,
           "cashbackPercent": null,
           "addons": [
@@ -2813,10 +2816,7 @@
               "name": "مشروب",
               "price": 6
             }
-          ],
-          "isCombo": false,
-          "comboIncludes": [],
-          "offerKind": null
+          ]
         },
         {
           "id": "pearl-seafood-3",
@@ -2825,7 +2825,7 @@
           "description": "أرز صيادية مع سمك.",
           "image": "https://images.unsplash.com/photo-1600699899970-b1c9fadd8f9e?w=800&q=80",
           "price": 44,
-          "rating": 4.1,
+          "rating": 4.7,
           "calories": 620,
           "protein": 32,
           "carbs": 68,
@@ -2834,6 +2834,9 @@
           "isPopular": true,
           "isOffer": false,
           "offerPrice": null,
+          "isCombo": false,
+          "offerKind": null,
+          "comboIncludes": [],
           "spicyOption": false,
           "cashbackPercent": null,
           "addons": [
@@ -2862,10 +2865,7 @@
               "name": "مشروب",
               "price": 6
             }
-          ],
-          "isCombo": false,
-          "comboIncludes": [],
-          "offerKind": null
+          ]
         },
         {
           "id": "pearl-seafood-4",
@@ -2874,15 +2874,18 @@
           "description": "حلقات حبار مقلية.",
           "image": "https://images.unsplash.com/photo-1519708227418-c8fd9a32b7a2?w=800&q=80",
           "price": 36,
-          "rating": 4.1,
+          "rating": 4.9,
           "calories": 420,
           "protein": 22,
           "carbs": 32,
           "fat": 20,
-          "category": "menu",
-          "isPopular": false,
+          "category": "popular",
+          "isPopular": true,
           "isOffer": false,
           "offerPrice": null,
+          "isCombo": false,
+          "offerKind": null,
+          "comboIncludes": [],
           "spicyOption": false,
           "cashbackPercent": null,
           "addons": [
@@ -2911,10 +2914,7 @@
               "name": "مشروب",
               "price": 6
             }
-          ],
-          "isCombo": false,
-          "comboIncludes": [],
-          "offerKind": null
+          ]
         },
         {
           "id": "pearl-seafood-5",
@@ -2923,15 +2923,18 @@
           "description": "رول سلمون وأفوكادو.",
           "image": "https://images.unsplash.com/photo-1579584425555-c3ce17fd4351?w=800&q=80",
           "price": 48,
-          "rating": 4.1,
+          "rating": 4.2,
           "calories": 390,
           "protein": 24,
           "carbs": 40,
           "fat": 12,
-          "category": "menu",
-          "isPopular": false,
+          "category": "popular",
+          "isPopular": true,
           "isOffer": false,
           "offerPrice": null,
+          "isCombo": false,
+          "offerKind": null,
+          "comboIncludes": [],
           "spicyOption": false,
           "cashbackPercent": null,
           "addons": [
@@ -2960,10 +2963,7 @@
               "name": "مشروب",
               "price": 6
             }
-          ],
-          "isCombo": false,
-          "comboIncludes": [],
-          "offerKind": null
+          ]
         },
         {
           "id": "pearl-seafood-6",
@@ -2972,7 +2972,7 @@
           "description": "مرق بحري غني.",
           "image": "https://images.unsplash.com/photo-1559847844-5315695dadae?w=800&q=80",
           "price": 28,
-          "rating": 4.1,
+          "rating": 4.5,
           "calories": 240,
           "protein": 18,
           "carbs": 14,
@@ -2981,8 +2981,11 @@
           "isPopular": false,
           "isOffer": false,
           "offerPrice": null,
+          "isCombo": false,
+          "offerKind": null,
+          "comboIncludes": [],
           "spicyOption": false,
-          "cashbackPercent": 5,
+          "cashbackPercent": null,
           "addons": [
             {
               "id": "garlic-sauce",
@@ -3009,10 +3012,7 @@
               "name": "مشروب",
               "price": 6
             }
-          ],
-          "isCombo": false,
-          "comboIncludes": [],
-          "offerKind": null
+          ]
         },
         {
           "id": "pearl-seafood-7",
@@ -3030,6 +3030,9 @@
           "isPopular": true,
           "isOffer": false,
           "offerPrice": null,
+          "isCombo": false,
+          "offerKind": null,
+          "comboIncludes": [],
           "spicyOption": false,
           "cashbackPercent": null,
           "addons": [
@@ -3058,10 +3061,7 @@
               "name": "مشروب",
               "price": 6
             }
-          ],
-          "isCombo": false,
-          "comboIncludes": [],
-          "offerKind": null
+          ]
         },
         {
           "id": "pearl-seafood-8",
@@ -3070,7 +3070,7 @@
           "description": "هامور مشوي على الفحم.",
           "image": "https://images.unsplash.com/photo-1519708227418-c8fd9a32b7a2?w=800&q=80",
           "price": 58,
-          "rating": 4.4,
+          "rating": 4.7,
           "calories": 540,
           "protein": 48,
           "carbs": 6,
@@ -3079,6 +3079,9 @@
           "isPopular": false,
           "isOffer": false,
           "offerPrice": null,
+          "isCombo": false,
+          "offerKind": null,
+          "comboIncludes": [],
           "spicyOption": false,
           "cashbackPercent": null,
           "addons": [
@@ -3107,10 +3110,7 @@
               "name": "مشروب",
               "price": 6
             }
-          ],
-          "isCombo": false,
-          "comboIncludes": [],
-          "offerKind": null
+          ]
         },
         {
           "id": "pearl-seafood-9",
@@ -3119,15 +3119,18 @@
           "description": "تشكيلة مشوية للعائلة.",
           "image": "https://images.unsplash.com/photo-1559847844-5315695dadae?w=800&q=80",
           "price": 60,
-          "rating": 4.5,
+          "rating": 4.4,
           "calories": 980,
           "protein": 70,
           "carbs": 40,
           "fat": 48,
-          "category": "popular",
-          "isPopular": true,
+          "category": "menu",
+          "isPopular": false,
           "isOffer": false,
           "offerPrice": null,
+          "isCombo": false,
+          "offerKind": null,
+          "comboIncludes": [],
           "spicyOption": false,
           "cashbackPercent": null,
           "addons": [
@@ -3156,10 +3159,7 @@
               "name": "مشروب",
               "price": 6
             }
-          ],
-          "isCombo": false,
-          "comboIncludes": [],
-          "offerKind": null
+          ]
         },
         {
           "id": "pearl-seafood-10",
@@ -3168,17 +3168,20 @@
           "description": "أرز بسمتي مع روبيان.",
           "image": "https://images.unsplash.com/photo-1559847844-5315695dadae?w=800&q=80",
           "price": 46,
-          "rating": 4.1,
+          "rating": 4.4,
           "calories": 640,
           "protein": 28,
           "carbs": 70,
           "fat": 16,
-          "category": "menu",
-          "isPopular": false,
+          "category": "popular",
+          "isPopular": true,
           "isOffer": false,
           "offerPrice": null,
+          "isCombo": false,
+          "offerKind": null,
+          "comboIncludes": [],
           "spicyOption": false,
-          "cashbackPercent": 10,
+          "cashbackPercent": null,
           "addons": [
             {
               "id": "garlic-sauce",
@@ -3205,10 +3208,7 @@
               "name": "مشروب",
               "price": 6
             }
-          ],
-          "isCombo": false,
-          "comboIncludes": [],
-          "offerKind": null
+          ]
         },
         {
           "id": "pearl-seafood-offer-1",
@@ -3269,7 +3269,7 @@
           "id": "pearl-seafood-offer-2",
           "restaurantId": "pearl-seafood",
           "name": "وجبة عائلية بحرية لـ 5 أشخاص",
-          "description": "5 طبق بحري مع إضافات ومشروبات. تكفي 5 أشخاص.",
+          "description": "5 طبق بحري مع أرز وسلطة وليمون. تكفي 5 أشخاص.",
           "image": "https://images.unsplash.com/photo-1559847844-5315695dadae?w=800&q=80",
           "price": 118,
           "rating": 4.6,
@@ -3379,21 +3379,21 @@
       "id": "anchor-fish",
       "name": "سمك المرساة",
       "image": "https://images.unsplash.com/photo-1519708227418-c8fd9a32b7a2?w=800&q=80",
-      "rating": 4.5,
+      "rating": 4.2,
       "cuisine": "بحري",
       "deliveryTime": "25–35 د",
-      "deliveryFee": 6,
-      "minOrder": 50,
-      "distanceKm": 2.1,
-      "verified": true,
+      "deliveryFee": 12,
+      "minOrder": 30,
+      "distanceKm": 6.2,
+      "verified": null,
       "tags": [
         "بحري",
         "سمك",
         "روبيان"
       ],
-      "featured": true,
+      "featured": null,
       "open24h": null,
-      "fastDelivery": true,
+      "fastDelivery": null,
       "meals": [
         {
           "id": "anchor-fish-1",
@@ -3402,7 +3402,7 @@
           "description": "سمك طازج مشوي مع أرز وسلطة.",
           "image": "https://images.unsplash.com/photo-1519708227418-c8fd9a32b7a2?w=800&q=80",
           "price": 52,
-          "rating": 4.2,
+          "rating": 4.8,
           "calories": 480,
           "protein": 42,
           "carbs": 30,
@@ -3411,6 +3411,9 @@
           "isPopular": false,
           "isOffer": false,
           "offerPrice": null,
+          "isCombo": false,
+          "offerKind": null,
+          "comboIncludes": [],
           "spicyOption": false,
           "cashbackPercent": null,
           "addons": [
@@ -3439,10 +3442,7 @@
               "name": "مشروب",
               "price": 6
             }
-          ],
-          "isCombo": false,
-          "comboIncludes": [],
-          "offerKind": null
+          ]
         },
         {
           "id": "anchor-fish-2",
@@ -3451,7 +3451,7 @@
           "description": "روبيان مقرمش مع ثوم.",
           "image": "https://images.unsplash.com/photo-1559847844-5315695dadae?w=800&q=80",
           "price": 58,
-          "rating": 4.4,
+          "rating": 4.6,
           "calories": 560,
           "protein": 36,
           "carbs": 28,
@@ -3460,55 +3460,9 @@
           "isPopular": false,
           "isOffer": false,
           "offerPrice": null,
-          "spicyOption": false,
-          "cashbackPercent": 10,
-          "addons": [
-            {
-              "id": "garlic-sauce",
-              "name": "صوص ثوم",
-              "price": 3
-            },
-            {
-              "id": "lemon",
-              "name": "ليمون إضافي",
-              "price": 2
-            },
-            {
-              "id": "extra-rice",
-              "name": "أرز",
-              "price": 6
-            },
-            {
-              "id": "side-salad",
-              "name": "سلطة",
-              "price": 8
-            },
-            {
-              "id": "drink",
-              "name": "مشروب",
-              "price": 6
-            }
-          ],
           "isCombo": false,
+          "offerKind": null,
           "comboIncludes": [],
-          "offerKind": null
-        },
-        {
-          "id": "anchor-fish-3",
-          "restaurantId": "anchor-fish",
-          "name": "صيادية",
-          "description": "أرز صيادية مع سمك.",
-          "image": "https://images.unsplash.com/photo-1600699899970-b1c9fadd8f9e?w=800&q=80",
-          "price": 44,
-          "rating": 4.5,
-          "calories": 620,
-          "protein": 32,
-          "carbs": 68,
-          "fat": 18,
-          "category": "popular",
-          "isPopular": true,
-          "isOffer": false,
-          "offerPrice": null,
           "spicyOption": false,
           "cashbackPercent": null,
           "addons": [
@@ -3537,10 +3491,56 @@
               "name": "مشروب",
               "price": 6
             }
-          ],
+          ]
+        },
+        {
+          "id": "anchor-fish-3",
+          "restaurantId": "anchor-fish",
+          "name": "صيادية",
+          "description": "أرز صيادية مع سمك.",
+          "image": "https://images.unsplash.com/photo-1600699899970-b1c9fadd8f9e?w=800&q=80",
+          "price": 44,
+          "rating": 4.8,
+          "calories": 620,
+          "protein": 32,
+          "carbs": 68,
+          "fat": 18,
+          "category": "popular",
+          "isPopular": true,
+          "isOffer": false,
+          "offerPrice": null,
           "isCombo": false,
+          "offerKind": null,
           "comboIncludes": [],
-          "offerKind": null
+          "spicyOption": false,
+          "cashbackPercent": null,
+          "addons": [
+            {
+              "id": "garlic-sauce",
+              "name": "صوص ثوم",
+              "price": 3
+            },
+            {
+              "id": "lemon",
+              "name": "ليمون إضافي",
+              "price": 2
+            },
+            {
+              "id": "extra-rice",
+              "name": "أرز",
+              "price": 6
+            },
+            {
+              "id": "side-salad",
+              "name": "سلطة",
+              "price": 8
+            },
+            {
+              "id": "drink",
+              "name": "مشروب",
+              "price": 6
+            }
+          ]
         },
         {
           "id": "anchor-fish-4",
@@ -3554,10 +3554,13 @@
           "protein": 22,
           "carbs": 32,
           "fat": 20,
-          "category": "popular",
-          "isPopular": true,
+          "category": "menu",
+          "isPopular": false,
           "isOffer": false,
           "offerPrice": null,
+          "isCombo": false,
+          "offerKind": null,
+          "comboIncludes": [],
           "spicyOption": false,
           "cashbackPercent": null,
           "addons": [
@@ -3586,10 +3589,7 @@
               "name": "مشروب",
               "price": 6
             }
-          ],
-          "isCombo": false,
-          "comboIncludes": [],
-          "offerKind": null
+          ]
         },
         {
           "id": "anchor-fish-5",
@@ -3598,15 +3598,18 @@
           "description": "رول سلمون وأفوكادو.",
           "image": "https://images.unsplash.com/photo-1579584425555-c3ce17fd4351?w=800&q=80",
           "price": 48,
-          "rating": 4.7,
+          "rating": 4.2,
           "calories": 390,
           "protein": 24,
           "carbs": 40,
           "fat": 12,
-          "category": "menu",
-          "isPopular": false,
+          "category": "popular",
+          "isPopular": true,
           "isOffer": false,
           "offerPrice": null,
+          "isCombo": false,
+          "offerKind": null,
+          "comboIncludes": [],
           "spicyOption": false,
           "cashbackPercent": null,
           "addons": [
@@ -3635,10 +3638,7 @@
               "name": "مشروب",
               "price": 6
             }
-          ],
-          "isCombo": false,
-          "comboIncludes": [],
-          "offerKind": null
+          ]
         },
         {
           "id": "anchor-fish-6",
@@ -3647,15 +3647,18 @@
           "description": "مرق بحري غني.",
           "image": "https://images.unsplash.com/photo-1559847844-5315695dadae?w=800&q=80",
           "price": 28,
-          "rating": 4.8,
+          "rating": 4.1,
           "calories": 240,
           "protein": 18,
           "carbs": 14,
           "fat": 10,
-          "category": "menu",
-          "isPopular": false,
+          "category": "popular",
+          "isPopular": true,
           "isOffer": false,
           "offerPrice": null,
+          "isCombo": false,
+          "offerKind": null,
+          "comboIncludes": [],
           "spicyOption": false,
           "cashbackPercent": null,
           "addons": [
@@ -3684,10 +3687,7 @@
               "name": "مشروب",
               "price": 6
             }
-          ],
-          "isCombo": false,
-          "comboIncludes": [],
-          "offerKind": null
+          ]
         },
         {
           "id": "anchor-fish-7",
@@ -3701,12 +3701,15 @@
           "protein": 40,
           "carbs": 8,
           "fat": 28,
-          "category": "menu",
-          "isPopular": false,
+          "category": "popular",
+          "isPopular": true,
           "isOffer": false,
           "offerPrice": null,
+          "isCombo": false,
+          "offerKind": null,
+          "comboIncludes": [],
           "spicyOption": false,
-          "cashbackPercent": 10,
+          "cashbackPercent": null,
           "addons": [
             {
               "id": "garlic-sauce",
@@ -3733,10 +3736,7 @@
               "name": "مشروب",
               "price": 6
             }
-          ],
-          "isCombo": false,
-          "comboIncludes": [],
-          "offerKind": null
+          ]
         },
         {
           "id": "anchor-fish-8",
@@ -3745,7 +3745,7 @@
           "description": "هامور مشوي على الفحم.",
           "image": "https://images.unsplash.com/photo-1519708227418-c8fd9a32b7a2?w=800&q=80",
           "price": 58,
-          "rating": 4.6,
+          "rating": 4.5,
           "calories": 540,
           "protein": 48,
           "carbs": 6,
@@ -3754,6 +3754,9 @@
           "isPopular": true,
           "isOffer": false,
           "offerPrice": null,
+          "isCombo": false,
+          "offerKind": null,
+          "comboIncludes": [],
           "spicyOption": false,
           "cashbackPercent": null,
           "addons": [
@@ -3782,10 +3785,7 @@
               "name": "مشروب",
               "price": 6
             }
-          ],
-          "isCombo": false,
-          "comboIncludes": [],
-          "offerKind": null
+          ]
         },
         {
           "id": "anchor-fish-9",
@@ -3794,15 +3794,18 @@
           "description": "تشكيلة مشوية للعائلة.",
           "image": "https://images.unsplash.com/photo-1559847844-5315695dadae?w=800&q=80",
           "price": 60,
-          "rating": 4.8,
+          "rating": 4.3,
           "calories": 980,
           "protein": 70,
           "carbs": 40,
           "fat": 48,
-          "category": "popular",
-          "isPopular": true,
+          "category": "menu",
+          "isPopular": false,
           "isOffer": false,
           "offerPrice": null,
+          "isCombo": false,
+          "offerKind": null,
+          "comboIncludes": [],
           "spicyOption": false,
           "cashbackPercent": null,
           "addons": [
@@ -3831,10 +3834,7 @@
               "name": "مشروب",
               "price": 6
             }
-          ],
-          "isCombo": false,
-          "comboIncludes": [],
-          "offerKind": null
+          ]
         },
         {
           "id": "anchor-fish-10",
@@ -3843,15 +3843,18 @@
           "description": "أرز بسمتي مع روبيان.",
           "image": "https://images.unsplash.com/photo-1559847844-5315695dadae?w=800&q=80",
           "price": 46,
-          "rating": 4.5,
+          "rating": 4.6,
           "calories": 640,
           "protein": 28,
           "carbs": 70,
           "fat": 16,
-          "category": "menu",
-          "isPopular": false,
+          "category": "popular",
+          "isPopular": true,
           "isOffer": false,
           "offerPrice": null,
+          "isCombo": false,
+          "offerKind": null,
+          "comboIncludes": [],
           "spicyOption": false,
           "cashbackPercent": null,
           "addons": [
@@ -3880,10 +3883,7 @@
               "name": "مشروب",
               "price": 6
             }
-          ],
-          "isCombo": false,
-          "comboIncludes": [],
-          "offerKind": null
+          ]
         },
         {
           "id": "anchor-fish-offer-1",
@@ -3944,7 +3944,7 @@
           "id": "anchor-fish-offer-2",
           "restaurantId": "anchor-fish",
           "name": "وجبة عائلية بحرية لـ 3 أشخاص",
-          "description": "3 طبق بحري مع إضافات ومشروبات. تكفي 3 أشخاص.",
+          "description": "3 طبق بحري مع أرز وسلطة وليمون. تكفي 3 أشخاص.",
           "image": "https://images.unsplash.com/photo-1615141982883-c7ad0e69fd62?w=800&q=80",
           "price": 78,
           "rating": 4.6,
@@ -4054,21 +4054,21 @@
       "id": "tide-table",
       "name": "طاولة المد",
       "image": "https://images.unsplash.com/photo-1519708227418-c8fd9a32b7a2?w=800&q=80",
-      "rating": 4.7,
+      "rating": 4.8,
       "cuisine": "بحري",
-      "deliveryTime": "40–55 د",
-      "deliveryFee": 10,
+      "deliveryTime": "30–45 د",
+      "deliveryFee": 6,
       "minOrder": 45,
-      "distanceKm": 4.1,
-      "verified": true,
+      "distanceKm": 1,
+      "verified": null,
       "tags": [
         "بحري",
         "سمك",
         "روبيان"
       ],
-      "featured": true,
+      "featured": null,
       "open24h": null,
-      "fastDelivery": true,
+      "fastDelivery": null,
       "meals": [
         {
           "id": "tide-table-1",
@@ -4082,10 +4082,13 @@
           "protein": 42,
           "carbs": 30,
           "fat": 16,
-          "category": "popular",
-          "isPopular": true,
+          "category": "menu",
+          "isPopular": false,
           "isOffer": false,
           "offerPrice": null,
+          "isCombo": false,
+          "offerKind": null,
+          "comboIncludes": [],
           "spicyOption": false,
           "cashbackPercent": null,
           "addons": [
@@ -4114,10 +4117,7 @@
               "name": "مشروب",
               "price": 6
             }
-          ],
-          "isCombo": false,
-          "comboIncludes": [],
-          "offerKind": null
+          ]
         },
         {
           "id": "tide-table-2",
@@ -4126,15 +4126,18 @@
           "description": "روبيان مقرمش مع ثوم.",
           "image": "https://images.unsplash.com/photo-1559847844-5315695dadae?w=800&q=80",
           "price": 58,
-          "rating": 4.8,
+          "rating": 4.2,
           "calories": 560,
           "protein": 36,
           "carbs": 28,
           "fat": 28,
-          "category": "menu",
-          "isPopular": false,
+          "category": "popular",
+          "isPopular": true,
           "isOffer": false,
           "offerPrice": null,
+          "isCombo": false,
+          "offerKind": null,
+          "comboIncludes": [],
           "spicyOption": false,
           "cashbackPercent": null,
           "addons": [
@@ -4163,10 +4166,7 @@
               "name": "مشروب",
               "price": 6
             }
-          ],
-          "isCombo": false,
-          "comboIncludes": [],
-          "offerKind": null
+          ]
         },
         {
           "id": "tide-table-3",
@@ -4175,7 +4175,7 @@
           "description": "أرز صيادية مع سمك.",
           "image": "https://images.unsplash.com/photo-1600699899970-b1c9fadd8f9e?w=800&q=80",
           "price": 44,
-          "rating": 4.8,
+          "rating": 4.2,
           "calories": 620,
           "protein": 32,
           "carbs": 68,
@@ -4184,6 +4184,9 @@
           "isPopular": false,
           "isOffer": false,
           "offerPrice": null,
+          "isCombo": false,
+          "offerKind": null,
+          "comboIncludes": [],
           "spicyOption": false,
           "cashbackPercent": null,
           "addons": [
@@ -4212,10 +4215,7 @@
               "name": "مشروب",
               "price": 6
             }
-          ],
-          "isCombo": false,
-          "comboIncludes": [],
-          "offerKind": null
+          ]
         },
         {
           "id": "tide-table-4",
@@ -4224,17 +4224,20 @@
           "description": "حلقات حبار مقلية.",
           "image": "https://images.unsplash.com/photo-1519708227418-c8fd9a32b7a2?w=800&q=80",
           "price": 36,
-          "rating": 4.4,
+          "rating": 4.2,
           "calories": 420,
           "protein": 22,
           "carbs": 32,
           "fat": 20,
-          "category": "menu",
-          "isPopular": false,
+          "category": "popular",
+          "isPopular": true,
           "isOffer": false,
           "offerPrice": null,
+          "isCombo": false,
+          "offerKind": null,
+          "comboIncludes": [],
           "spicyOption": false,
-          "cashbackPercent": 5,
+          "cashbackPercent": null,
           "addons": [
             {
               "id": "garlic-sauce",
@@ -4261,10 +4264,7 @@
               "name": "مشروب",
               "price": 6
             }
-          ],
-          "isCombo": false,
-          "comboIncludes": [],
-          "offerKind": null
+          ]
         },
         {
           "id": "tide-table-5",
@@ -4273,7 +4273,7 @@
           "description": "رول سلمون وأفوكادو.",
           "image": "https://images.unsplash.com/photo-1579584425555-c3ce17fd4351?w=800&q=80",
           "price": 48,
-          "rating": 4.6,
+          "rating": 4.4,
           "calories": 390,
           "protein": 24,
           "carbs": 40,
@@ -4282,8 +4282,11 @@
           "isPopular": false,
           "isOffer": false,
           "offerPrice": null,
+          "isCombo": false,
+          "offerKind": null,
+          "comboIncludes": [],
           "spicyOption": false,
-          "cashbackPercent": 10,
+          "cashbackPercent": null,
           "addons": [
             {
               "id": "garlic-sauce",
@@ -4310,10 +4313,7 @@
               "name": "مشروب",
               "price": 6
             }
-          ],
-          "isCombo": false,
-          "comboIncludes": [],
-          "offerKind": null
+          ]
         },
         {
           "id": "tide-table-6",
@@ -4322,15 +4322,18 @@
           "description": "مرق بحري غني.",
           "image": "https://images.unsplash.com/photo-1559847844-5315695dadae?w=800&q=80",
           "price": 28,
-          "rating": 4.4,
+          "rating": 4.6,
           "calories": 240,
           "protein": 18,
           "carbs": 14,
           "fat": 10,
-          "category": "popular",
-          "isPopular": true,
+          "category": "menu",
+          "isPopular": false,
           "isOffer": false,
           "offerPrice": null,
+          "isCombo": false,
+          "offerKind": null,
+          "comboIncludes": [],
           "spicyOption": false,
           "cashbackPercent": null,
           "addons": [
@@ -4359,10 +4362,7 @@
               "name": "مشروب",
               "price": 6
             }
-          ],
-          "isCombo": false,
-          "comboIncludes": [],
-          "offerKind": null
+          ]
         },
         {
           "id": "tide-table-7",
@@ -4371,7 +4371,7 @@
           "description": "فيليه سلمون مع خضار.",
           "image": "https://images.unsplash.com/photo-1519708227418-c8fd9a32b7a2?w=800&q=80",
           "price": 60,
-          "rating": 4.6,
+          "rating": 4.2,
           "calories": 520,
           "protein": 40,
           "carbs": 8,
@@ -4380,6 +4380,9 @@
           "isPopular": false,
           "isOffer": false,
           "offerPrice": null,
+          "isCombo": false,
+          "offerKind": null,
+          "comboIncludes": [],
           "spicyOption": false,
           "cashbackPercent": null,
           "addons": [
@@ -4408,10 +4411,7 @@
               "name": "مشروب",
               "price": 6
             }
-          ],
-          "isCombo": false,
-          "comboIncludes": [],
-          "offerKind": null
+          ]
         },
         {
           "id": "tide-table-8",
@@ -4420,17 +4420,20 @@
           "description": "هامور مشوي على الفحم.",
           "image": "https://images.unsplash.com/photo-1519708227418-c8fd9a32b7a2?w=800&q=80",
           "price": 58,
-          "rating": 4.7,
+          "rating": 4.1,
           "calories": 540,
           "protein": 48,
           "carbs": 6,
           "fat": 24,
-          "category": "menu",
-          "isPopular": false,
+          "category": "popular",
+          "isPopular": true,
           "isOffer": false,
           "offerPrice": null,
+          "isCombo": false,
+          "offerKind": null,
+          "comboIncludes": [],
           "spicyOption": false,
-          "cashbackPercent": 5,
+          "cashbackPercent": null,
           "addons": [
             {
               "id": "garlic-sauce",
@@ -4457,10 +4460,7 @@
               "name": "مشروب",
               "price": 6
             }
-          ],
-          "isCombo": false,
-          "comboIncludes": [],
-          "offerKind": null
+          ]
         },
         {
           "id": "tide-table-9",
@@ -4469,15 +4469,18 @@
           "description": "تشكيلة مشوية للعائلة.",
           "image": "https://images.unsplash.com/photo-1559847844-5315695dadae?w=800&q=80",
           "price": 60,
-          "rating": 4.4,
+          "rating": 4.3,
           "calories": 980,
           "protein": 70,
           "carbs": 40,
           "fat": 48,
-          "category": "menu",
-          "isPopular": false,
+          "category": "popular",
+          "isPopular": true,
           "isOffer": false,
           "offerPrice": null,
+          "isCombo": false,
+          "offerKind": null,
+          "comboIncludes": [],
           "spicyOption": false,
           "cashbackPercent": null,
           "addons": [
@@ -4506,10 +4509,7 @@
               "name": "مشروب",
               "price": 6
             }
-          ],
-          "isCombo": false,
-          "comboIncludes": [],
-          "offerKind": null
+          ]
         },
         {
           "id": "tide-table-10",
@@ -4518,15 +4518,18 @@
           "description": "أرز بسمتي مع روبيان.",
           "image": "https://images.unsplash.com/photo-1559847844-5315695dadae?w=800&q=80",
           "price": 46,
-          "rating": 4.1,
+          "rating": 4.3,
           "calories": 640,
           "protein": 28,
           "carbs": 70,
           "fat": 16,
-          "category": "popular",
-          "isPopular": true,
+          "category": "menu",
+          "isPopular": false,
           "isOffer": false,
           "offerPrice": null,
+          "isCombo": false,
+          "offerKind": null,
+          "comboIncludes": [],
           "spicyOption": false,
           "cashbackPercent": null,
           "addons": [
@@ -4555,10 +4558,7 @@
               "name": "مشروب",
               "price": 6
             }
-          ],
-          "isCombo": false,
-          "comboIncludes": [],
-          "offerKind": null
+          ]
         },
         {
           "id": "tide-table-offer-1",
@@ -4619,7 +4619,7 @@
           "id": "tide-table-offer-2",
           "restaurantId": "tide-table",
           "name": "وجبة عائلية بحرية لـ 6 أشخاص",
-          "description": "6 طبق بحري مع إضافات ومشروبات. تكفي 6 أشخاص.",
+          "description": "6 طبق بحري مع أرز وسلطة وليمون. تكفي 6 أشخاص.",
           "image": "https://images.unsplash.com/photo-1559847844-5315695dadae?w=800&q=80",
           "price": 109,
           "rating": 4.6,
@@ -4729,12 +4729,12 @@
       "id": "salt-breeze",
       "name": "نسيم الملح",
       "image": "https://images.unsplash.com/photo-1615141982883-c7ad0e69fd62?w=800&q=80",
-      "rating": 4.4,
+      "rating": 4.5,
       "cuisine": "بحري",
-      "deliveryTime": "30–45 د",
+      "deliveryTime": "20–30 د",
       "deliveryFee": 8,
-      "minOrder": 25,
-      "distanceKm": 2.7,
+      "minOrder": 45,
+      "distanceKm": 5.4,
       "verified": null,
       "tags": [
         "بحري",
@@ -4742,7 +4742,7 @@
         "روبيان"
       ],
       "featured": null,
-      "open24h": null,
+      "open24h": true,
       "fastDelivery": null,
       "meals": [
         {
@@ -4752,15 +4752,18 @@
           "description": "سمك طازج مشوي مع أرز وسلطة.",
           "image": "https://images.unsplash.com/photo-1519708227418-c8fd9a32b7a2?w=800&q=80",
           "price": 52,
-          "rating": 4.6,
+          "rating": 4.8,
           "calories": 480,
           "protein": 42,
           "carbs": 30,
           "fat": 16,
-          "category": "menu",
-          "isPopular": false,
+          "category": "popular",
+          "isPopular": true,
           "isOffer": false,
           "offerPrice": null,
+          "isCombo": false,
+          "offerKind": null,
+          "comboIncludes": [],
           "spicyOption": false,
           "cashbackPercent": null,
           "addons": [
@@ -4789,10 +4792,7 @@
               "name": "مشروب",
               "price": 6
             }
-          ],
-          "isCombo": false,
-          "comboIncludes": [],
-          "offerKind": null
+          ]
         },
         {
           "id": "salt-breeze-2",
@@ -4801,17 +4801,20 @@
           "description": "روبيان مقرمش مع ثوم.",
           "image": "https://images.unsplash.com/photo-1559847844-5315695dadae?w=800&q=80",
           "price": 58,
-          "rating": 4.5,
+          "rating": 4.1,
           "calories": 560,
           "protein": 36,
           "carbs": 28,
           "fat": 28,
-          "category": "menu",
-          "isPopular": false,
+          "category": "popular",
+          "isPopular": true,
           "isOffer": false,
           "offerPrice": null,
+          "isCombo": false,
+          "offerKind": null,
+          "comboIncludes": [],
           "spicyOption": false,
-          "cashbackPercent": 15,
+          "cashbackPercent": null,
           "addons": [
             {
               "id": "garlic-sauce",
@@ -4838,10 +4841,7 @@
               "name": "مشروب",
               "price": 6
             }
-          ],
-          "isCombo": false,
-          "comboIncludes": [],
-          "offerKind": null
+          ]
         },
         {
           "id": "salt-breeze-3",
@@ -4850,7 +4850,7 @@
           "description": "أرز صيادية مع سمك.",
           "image": "https://images.unsplash.com/photo-1600699899970-b1c9fadd8f9e?w=800&q=80",
           "price": 44,
-          "rating": 4.5,
+          "rating": 4.2,
           "calories": 620,
           "protein": 32,
           "carbs": 68,
@@ -4859,6 +4859,9 @@
           "isPopular": false,
           "isOffer": false,
           "offerPrice": null,
+          "isCombo": false,
+          "offerKind": null,
+          "comboIncludes": [],
           "spicyOption": false,
           "cashbackPercent": null,
           "addons": [
@@ -4887,10 +4890,7 @@
               "name": "مشروب",
               "price": 6
             }
-          ],
-          "isCombo": false,
-          "comboIncludes": [],
-          "offerKind": null
+          ]
         },
         {
           "id": "salt-breeze-4",
@@ -4899,7 +4899,7 @@
           "description": "حلقات حبار مقلية.",
           "image": "https://images.unsplash.com/photo-1615141982883-c7ad0e69fd62?w=800&q=80",
           "price": 36,
-          "rating": 4.4,
+          "rating": 4.6,
           "calories": 420,
           "protein": 22,
           "carbs": 32,
@@ -4908,6 +4908,9 @@
           "isPopular": false,
           "isOffer": false,
           "offerPrice": null,
+          "isCombo": false,
+          "offerKind": null,
+          "comboIncludes": [],
           "spicyOption": false,
           "cashbackPercent": null,
           "addons": [
@@ -4936,10 +4939,7 @@
               "name": "مشروب",
               "price": 6
             }
-          ],
-          "isCombo": false,
-          "comboIncludes": [],
-          "offerKind": null
+          ]
         },
         {
           "id": "salt-breeze-5",
@@ -4948,7 +4948,7 @@
           "description": "رول سلمون وأفوكادو.",
           "image": "https://images.unsplash.com/photo-1579584425555-c3ce17fd4351?w=800&q=80",
           "price": 48,
-          "rating": 4.5,
+          "rating": 4.4,
           "calories": 390,
           "protein": 24,
           "carbs": 40,
@@ -4957,6 +4957,9 @@
           "isPopular": false,
           "isOffer": false,
           "offerPrice": null,
+          "isCombo": false,
+          "offerKind": null,
+          "comboIncludes": [],
           "spicyOption": false,
           "cashbackPercent": null,
           "addons": [
@@ -4985,10 +4988,7 @@
               "name": "مشروب",
               "price": 6
             }
-          ],
-          "isCombo": false,
-          "comboIncludes": [],
-          "offerKind": null
+          ]
         },
         {
           "id": "salt-breeze-6",
@@ -4997,15 +4997,18 @@
           "description": "مرق بحري غني.",
           "image": "https://images.unsplash.com/photo-1615141982883-c7ad0e69fd62?w=800&q=80",
           "price": 28,
-          "rating": 4.3,
+          "rating": 4.9,
           "calories": 240,
           "protein": 18,
           "carbs": 14,
           "fat": 10,
-          "category": "menu",
-          "isPopular": false,
+          "category": "popular",
+          "isPopular": true,
           "isOffer": false,
           "offerPrice": null,
+          "isCombo": false,
+          "offerKind": null,
+          "comboIncludes": [],
           "spicyOption": false,
           "cashbackPercent": null,
           "addons": [
@@ -5034,10 +5037,7 @@
               "name": "مشروب",
               "price": 6
             }
-          ],
-          "isCombo": false,
-          "comboIncludes": [],
-          "offerKind": null
+          ]
         },
         {
           "id": "salt-breeze-7",
@@ -5046,7 +5046,7 @@
           "description": "فيليه سلمون مع خضار.",
           "image": "https://images.unsplash.com/photo-1615141982883-c7ad0e69fd62?w=800&q=80",
           "price": 60,
-          "rating": 4.3,
+          "rating": 4.2,
           "calories": 520,
           "protein": 40,
           "carbs": 8,
@@ -5055,6 +5055,9 @@
           "isPopular": false,
           "isOffer": false,
           "offerPrice": null,
+          "isCombo": false,
+          "offerKind": null,
+          "comboIncludes": [],
           "spicyOption": false,
           "cashbackPercent": null,
           "addons": [
@@ -5083,10 +5086,7 @@
               "name": "مشروب",
               "price": 6
             }
-          ],
-          "isCombo": false,
-          "comboIncludes": [],
-          "offerKind": null
+          ]
         },
         {
           "id": "salt-breeze-8",
@@ -5095,7 +5095,7 @@
           "description": "هامور مشوي على الفحم.",
           "image": "https://images.unsplash.com/photo-1519708227418-c8fd9a32b7a2?w=800&q=80",
           "price": 58,
-          "rating": 4.2,
+          "rating": 4.7,
           "calories": 540,
           "protein": 48,
           "carbs": 6,
@@ -5104,6 +5104,9 @@
           "isPopular": true,
           "isOffer": false,
           "offerPrice": null,
+          "isCombo": false,
+          "offerKind": null,
+          "comboIncludes": [],
           "spicyOption": false,
           "cashbackPercent": null,
           "addons": [
@@ -5132,10 +5135,7 @@
               "name": "مشروب",
               "price": 6
             }
-          ],
-          "isCombo": false,
-          "comboIncludes": [],
-          "offerKind": null
+          ]
         },
         {
           "id": "salt-breeze-9",
@@ -5144,15 +5144,18 @@
           "description": "تشكيلة مشوية للعائلة.",
           "image": "https://images.unsplash.com/photo-1615141982883-c7ad0e69fd62?w=800&q=80",
           "price": 60,
-          "rating": 4.3,
+          "rating": 4.9,
           "calories": 980,
           "protein": 70,
           "carbs": 40,
           "fat": 48,
-          "category": "menu",
-          "isPopular": false,
+          "category": "popular",
+          "isPopular": true,
           "isOffer": false,
           "offerPrice": null,
+          "isCombo": false,
+          "offerKind": null,
+          "comboIncludes": [],
           "spicyOption": false,
           "cashbackPercent": null,
           "addons": [
@@ -5181,10 +5184,7 @@
               "name": "مشروب",
               "price": 6
             }
-          ],
-          "isCombo": false,
-          "comboIncludes": [],
-          "offerKind": null
+          ]
         },
         {
           "id": "salt-breeze-10",
@@ -5202,6 +5202,9 @@
           "isPopular": false,
           "isOffer": false,
           "offerPrice": null,
+          "isCombo": false,
+          "offerKind": null,
+          "comboIncludes": [],
           "spicyOption": false,
           "cashbackPercent": null,
           "addons": [
@@ -5230,10 +5233,7 @@
               "name": "مشروب",
               "price": 6
             }
-          ],
-          "isCombo": false,
-          "comboIncludes": [],
-          "offerKind": null
+          ]
         },
         {
           "id": "salt-breeze-offer-1",
@@ -5294,7 +5294,7 @@
           "id": "salt-breeze-offer-2",
           "restaurantId": "salt-breeze",
           "name": "وجبة عائلية بحرية لـ 5 أشخاص",
-          "description": "5 طبق بحري مع إضافات ومشروبات. تكفي 5 أشخاص.",
+          "description": "5 طبق بحري مع أرز وسلطة وليمون. تكفي 5 أشخاص.",
           "image": "https://images.unsplash.com/photo-1615141982883-c7ad0e69fd62?w=800&q=80",
           "price": 118,
           "rating": 4.6,

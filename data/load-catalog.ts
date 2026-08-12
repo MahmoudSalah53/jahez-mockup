@@ -17,6 +17,7 @@ import grocery from "@/data/catalog/11-grocery.json";
 import moreGrill from "@/data/catalog/12-more-grill-cafe.json";
 import cafe from "@/data/catalog/13-cafe-bakery.json";
 import world from "@/data/catalog/14-mexican-asian.json";
+import friedChicken from "@/data/catalog/15-fried-chicken.json";
 
 const PARTS = [
   original,
@@ -34,6 +35,7 @@ const PARTS = [
   moreGrill,
   cafe,
   world,
+  friedChicken,
 ] as const;
 
 const seen = new Set<string>();

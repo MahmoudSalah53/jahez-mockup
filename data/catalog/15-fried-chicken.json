@@ -1,0 +1,5420 @@
+{
+  "restaurants": [
+    {
+      "id": "crispy-bucket",
+      "name": "كريسبي باكت",
+      "image": "https://images.unsplash.com/photo-1571091718767-18b5b1457add?w=800&q=80",
+      "rating": 4.7,
+      "cuisine": "فرايد تشيكن",
+      "deliveryTime": "40–55 د",
+      "deliveryFee": 10,
+      "minOrder": 45,
+      "distanceKm": 3.2,
+      "verified": null,
+      "tags": [
+        "فرايد تشيكن",
+        "دجاج مقرمش",
+        "باكت"
+      ],
+      "featured": true,
+      "open24h": null,
+      "fastDelivery": true,
+      "meals": [
+        {
+          "id": "crispy-bucket-1",
+          "restaurantId": "crispy-bucket",
+          "name": "باكت ٣ قطع",
+          "description": "ثلاث قطع دجاج مقرمشة مع صوص.",
+          "image": "https://images.unsplash.com/photo-1551782450-a2132b4ba21d?w=800&q=80",
+          "price": 28,
+          "rating": 4.7,
+          "calories": 780,
+          "protein": 42,
+          "carbs": 35,
+          "fat": 40,
+          "category": "menu",
+          "isPopular": false,
+          "isOffer": false,
+          "offerPrice": null,
+          "isCombo": false,
+          "offerKind": null,
+          "comboIncludes": [],
+          "spicyOption": true,
+          "cashbackPercent": null,
+          "addons": [
+            {
+              "id": "extra-piece",
+              "name": "قطعة إضافية",
+              "price": 8
+            },
+            {
+              "id": "large-fries",
+              "name": "بطاطس كبيرة",
+              "price": 10
+            },
+            {
+              "id": "coleslaw",
+              "name": "كول سلو",
+              "price": 6
+            },
+            {
+              "id": "spicy-sauce",
+              "name": "صوص سبايسي",
+              "price": 3
+            },
+            {
+              "id": "cola",
+              "name": "كولا",
+              "price": 6
+            }
+          ]
+        },
+        {
+          "id": "crispy-bucket-2",
+          "restaurantId": "crispy-bucket",
+          "name": "ستربس دجاج",
+          "description": "أصابع دجاج مقرمشة مع صوصات.",
+          "image": "https://images.unsplash.com/photo-1571091718767-18b5b1457add?w=800&q=80",
+          "price": 26,
+          "rating": 4.4,
+          "calories": 640,
+          "protein": 36,
+          "carbs": 38,
+          "fat": 28,
+          "category": "menu",
+          "isPopular": false,
+          "isOffer": false,
+          "offerPrice": null,
+          "isCombo": false,
+          "offerKind": null,
+          "comboIncludes": [],
+          "spicyOption": false,
+          "cashbackPercent": null,
+          "addons": [
+            {
+              "id": "extra-piece",
+              "name": "قطعة إضافية",
+              "price": 8
+            },
+            {
+              "id": "large-fries",
+              "name": "بطاطس كبيرة",
+              "price": 10
+            },
+            {
+              "id": "coleslaw",
+              "name": "كول سلو",
+              "price": 6
+            },
+            {
+              "id": "spicy-sauce",
+              "name": "صوص سبايسي",
+              "price": 3
+            },
+            {
+              "id": "cola",
+              "name": "كولا",
+              "price": 6
+            }
+          ]
+        },
+        {
+          "id": "crispy-bucket-3",
+          "restaurantId": "crispy-bucket",
+          "name": "وينجز حارة",
+          "description": "أجنحة دجاج بصلصة حارة.",
+          "image": "https://images.unsplash.com/photo-1626645738196-c2a7c87a8f58?w=800&q=80",
+          "price": 24,
+          "rating": 4.6,
+          "calories": 520,
+          "protein": 28,
+          "carbs": 18,
+          "fat": 32,
+          "category": "menu",
+          "isPopular": false,
+          "isOffer": false,
+          "offerPrice": null,
+          "isCombo": false,
+          "offerKind": null,
+          "comboIncludes": [],
+          "spicyOption": true,
+          "cashbackPercent": null,
+          "addons": [
+            {
+              "id": "extra-piece",
+              "name": "قطعة إضافية",
+              "price": 8
+            },
+            {
+              "id": "large-fries",
+              "name": "بطاطس كبيرة",
+              "price": 10
+            },
+            {
+              "id": "coleslaw",
+              "name": "كول سلو",
+              "price": 6
+            },
+            {
+              "id": "spicy-sauce",
+              "name": "صوص سبايسي",
+              "price": 3
+            },
+            {
+              "id": "cola",
+              "name": "كولا",
+              "price": 6
+            }
+          ]
+        },
+        {
+          "id": "crispy-bucket-4",
+          "restaurantId": "crispy-bucket",
+          "name": "فخذ مقرمشة",
+          "description": "فخذ دجاج متبلة ومقلية.",
+          "image": "https://images.unsplash.com/photo-1571091718767-18b5b1457add?w=800&q=80",
+          "price": 22,
+          "rating": 4.6,
+          "calories": 480,
+          "protein": 30,
+          "carbs": 12,
+          "fat": 28,
+          "category": "menu",
+          "isPopular": false,
+          "isOffer": false,
+          "offerPrice": null,
+          "isCombo": false,
+          "offerKind": null,
+          "comboIncludes": [],
+          "spicyOption": false,
+          "cashbackPercent": null,
+          "addons": [
+            {
+              "id": "extra-piece",
+              "name": "قطعة إضافية",
+              "price": 8
+            },
+            {
+              "id": "large-fries",
+              "name": "بطاطس كبيرة",
+              "price": 10
+            },
+            {
+              "id": "coleslaw",
+              "name": "كول سلو",
+              "price": 6
+            },
+            {
+              "id": "spicy-sauce",
+              "name": "صوص سبايسي",
+              "price": 3
+            },
+            {
+              "id": "cola",
+              "name": "كولا",
+              "price": 6
+            }
+          ]
+        },
+        {
+          "id": "crispy-bucket-5",
+          "restaurantId": "crispy-bucket",
+          "name": "صدر كريسبي",
+          "description": "صدر دجاج مقرمش كامل.",
+          "image": "https://images.unsplash.com/photo-1551782450-a2132b4ba21d?w=800&q=80",
+          "price": 30,
+          "rating": 4.5,
+          "calories": 560,
+          "protein": 38,
+          "carbs": 20,
+          "fat": 26,
+          "category": "menu",
+          "isPopular": false,
+          "isOffer": false,
+          "offerPrice": null,
+          "isCombo": false,
+          "offerKind": null,
+          "comboIncludes": [],
+          "spicyOption": false,
+          "cashbackPercent": null,
+          "addons": [
+            {
+              "id": "extra-piece",
+              "name": "قطعة إضافية",
+              "price": 8
+            },
+            {
+              "id": "large-fries",
+              "name": "بطاطس كبيرة",
+              "price": 10
+            },
+            {
+              "id": "coleslaw",
+              "name": "كول سلو",
+              "price": 6
+            },
+            {
+              "id": "spicy-sauce",
+              "name": "صوص سبايسي",
+              "price": 3
+            },
+            {
+              "id": "cola",
+              "name": "كولا",
+              "price": 6
+            }
+          ]
+        },
+        {
+          "id": "crispy-bucket-6",
+          "restaurantId": "crispy-bucket",
+          "name": "ساندويتش تشيكن",
+          "description": "خبز مع دجاج مقرمش وخس ومايونيز.",
+          "image": "https://images.unsplash.com/photo-1571091718767-18b5b1457add?w=800&q=80",
+          "price": 27,
+          "rating": 4.7,
+          "calories": 720,
+          "protein": 32,
+          "carbs": 55,
+          "fat": 34,
+          "category": "popular",
+          "isPopular": true,
+          "isOffer": false,
+          "offerPrice": null,
+          "isCombo": false,
+          "offerKind": null,
+          "comboIncludes": [],
+          "spicyOption": false,
+          "cashbackPercent": null,
+          "addons": [
+            {
+              "id": "extra-piece",
+              "name": "قطعة إضافية",
+              "price": 8
+            },
+            {
+              "id": "large-fries",
+              "name": "بطاطس كبيرة",
+              "price": 10
+            },
+            {
+              "id": "coleslaw",
+              "name": "كول سلو",
+              "price": 6
+            },
+            {
+              "id": "spicy-sauce",
+              "name": "صوص سبايسي",
+              "price": 3
+            },
+            {
+              "id": "cola",
+              "name": "كولا",
+              "price": 6
+            }
+          ]
+        },
+        {
+          "id": "crispy-bucket-7",
+          "restaurantId": "crispy-bucket",
+          "name": "بطاطس عائلية",
+          "description": "بطاطس مقلية كبيرة مع توابل.",
+          "image": "https://images.unsplash.com/photo-1573080496219-bb080dd4f877?w=800&q=80",
+          "price": 14,
+          "rating": 4.6,
+          "calories": 420,
+          "protein": 5,
+          "carbs": 52,
+          "fat": 22,
+          "category": "menu",
+          "isPopular": false,
+          "isOffer": false,
+          "offerPrice": null,
+          "isCombo": false,
+          "offerKind": null,
+          "comboIncludes": [],
+          "spicyOption": false,
+          "cashbackPercent": null,
+          "addons": [
+            {
+              "id": "extra-piece",
+              "name": "قطعة إضافية",
+              "price": 8
+            },
+            {
+              "id": "large-fries",
+              "name": "بطاطس كبيرة",
+              "price": 10
+            },
+            {
+              "id": "coleslaw",
+              "name": "كول سلو",
+              "price": 6
+            },
+            {
+              "id": "spicy-sauce",
+              "name": "صوص سبايسي",
+              "price": 3
+            },
+            {
+              "id": "cola",
+              "name": "كولا",
+              "price": 6
+            }
+          ]
+        },
+        {
+          "id": "crispy-bucket-8",
+          "restaurantId": "crispy-bucket",
+          "name": "كول سلو",
+          "description": "سلطة ملفوف كريمية.",
+          "image": "https://images.unsplash.com/photo-1551782450-a2132b4ba21d?w=800&q=80",
+          "price": 10,
+          "rating": 4.1,
+          "calories": 180,
+          "protein": 2,
+          "carbs": 14,
+          "fat": 12,
+          "category": "popular",
+          "isPopular": true,
+          "isOffer": false,
+          "offerPrice": null,
+          "isCombo": false,
+          "offerKind": null,
+          "comboIncludes": [],
+          "spicyOption": false,
+          "cashbackPercent": null,
+          "addons": [
+            {
+              "id": "extra-piece",
+              "name": "قطعة إضافية",
+              "price": 8
+            },
+            {
+              "id": "large-fries",
+              "name": "بطاطس كبيرة",
+              "price": 10
+            },
+            {
+              "id": "coleslaw",
+              "name": "كول سلو",
+              "price": 6
+            },
+            {
+              "id": "spicy-sauce",
+              "name": "صوص سبايسي",
+              "price": 3
+            },
+            {
+              "id": "cola",
+              "name": "كولا",
+              "price": 6
+            }
+          ]
+        },
+        {
+          "id": "crispy-bucket-9",
+          "restaurantId": "crispy-bucket",
+          "name": "ذرة حلوة",
+          "description": "كوب ذرة بالزبدة.",
+          "image": "https://images.unsplash.com/photo-1551782450-a2132b4ba21d?w=800&q=80",
+          "price": 9,
+          "rating": 4.6,
+          "calories": 160,
+          "protein": 4,
+          "carbs": 28,
+          "fat": 4,
+          "category": "menu",
+          "isPopular": false,
+          "isOffer": false,
+          "offerPrice": null,
+          "isCombo": false,
+          "offerKind": null,
+          "comboIncludes": [],
+          "spicyOption": false,
+          "cashbackPercent": null,
+          "addons": [
+            {
+              "id": "extra-piece",
+              "name": "قطعة إضافية",
+              "price": 8
+            },
+            {
+              "id": "large-fries",
+              "name": "بطاطس كبيرة",
+              "price": 10
+            },
+            {
+              "id": "coleslaw",
+              "name": "كول سلو",
+              "price": 6
+            },
+            {
+              "id": "spicy-sauce",
+              "name": "صوص سبايسي",
+              "price": 3
+            },
+            {
+              "id": "cola",
+              "name": "كولا",
+              "price": 6
+            }
+          ]
+        },
+        {
+          "id": "crispy-bucket-10",
+          "restaurantId": "crispy-bucket",
+          "name": "حلقات بصل",
+          "description": "حلقات بصل مقرمشة.",
+          "image": "https://images.unsplash.com/photo-1626645738196-c2a7c87a8f58?w=800&q=80",
+          "price": 12,
+          "rating": 4.7,
+          "calories": 340,
+          "protein": 4,
+          "carbs": 36,
+          "fat": 18,
+          "category": "menu",
+          "isPopular": false,
+          "isOffer": false,
+          "offerPrice": null,
+          "isCombo": false,
+          "offerKind": null,
+          "comboIncludes": [],
+          "spicyOption": false,
+          "cashbackPercent": null,
+          "addons": [
+            {
+              "id": "extra-piece",
+              "name": "قطعة إضافية",
+              "price": 8
+            },
+            {
+              "id": "large-fries",
+              "name": "بطاطس كبيرة",
+              "price": 10
+            },
+            {
+              "id": "coleslaw",
+              "name": "كول سلو",
+              "price": 6
+            },
+            {
+              "id": "spicy-sauce",
+              "name": "صوص سبايسي",
+              "price": 3
+            },
+            {
+              "id": "cola",
+              "name": "كولا",
+              "price": 6
+            }
+          ]
+        },
+        {
+          "id": "crispy-bucket-offer-1",
+          "restaurantId": "crispy-bucket",
+          "name": "وجبة دجاج مقرمش فردية",
+          "description": "قطعتان مقرمشتان مع بطاطس وصوص ومشروب.",
+          "image": "https://images.unsplash.com/photo-1571091718767-18b5b1457add?w=800&q=80",
+          "price": 29,
+          "rating": 4.6,
+          "calories": 980,
+          "protein": 42,
+          "carbs": 70,
+          "fat": 48,
+          "category": "offers",
+          "isPopular": false,
+          "isOffer": true,
+          "offerPrice": null,
+          "isCombo": true,
+          "offerKind": "combo",
+          "comboIncludes": [
+            "قطعتان دجاج",
+            "بطاطس",
+            "صوص",
+            "مشروب"
+          ],
+          "spicyOption": true,
+          "cashbackPercent": null,
+          "addons": [
+            {
+              "id": "extra-piece",
+              "name": "قطعة إضافية",
+              "price": 8
+            },
+            {
+              "id": "large-fries",
+              "name": "بطاطس كبيرة",
+              "price": 10
+            },
+            {
+              "id": "coleslaw",
+              "name": "كول سلو",
+              "price": 6
+            },
+            {
+              "id": "spicy-sauce",
+              "name": "صوص سبايسي",
+              "price": 3
+            },
+            {
+              "id": "cola",
+              "name": "كولا",
+              "price": 6
+            }
+          ]
+        },
+        {
+          "id": "crispy-bucket-offer-2",
+          "restaurantId": "crispy-bucket",
+          "name": "باكت فرايد تشيكن عائلي لـ 4 أشخاص",
+          "description": "4 قطع دجاج مقرمش مع بطاطس عائلية كبيرة وكول سلو كريمي وذرة حلوة بالزبدة وصلصات متنوعة. تكفي 4 أشخاص.",
+          "image": "/offers/4-fried-chicken.jpg",
+          "price": 80,
+          "rating": 4.6,
+          "calories": 2800,
+          "protein": 140,
+          "carbs": 220,
+          "fat": 150,
+          "category": "offers",
+          "isPopular": false,
+          "isOffer": true,
+          "offerPrice": null,
+          "isCombo": true,
+          "offerKind": "family",
+          "comboIncludes": [
+            "4 قطع دجاج مقرمش",
+            "بطاطس عائلية كبيرة",
+            "كول سلو كريمي",
+            "ذرة حلوة بالزبدة",
+            "صلصات متنوعة",
+            "4 مشروب"
+          ],
+          "spicyOption": true,
+          "cashbackPercent": null,
+          "addons": [
+            {
+              "id": "extra-piece",
+              "name": "قطعة إضافية",
+              "price": 8
+            },
+            {
+              "id": "large-fries",
+              "name": "بطاطس كبيرة",
+              "price": 10
+            },
+            {
+              "id": "coleslaw",
+              "name": "كول سلو",
+              "price": 6
+            },
+            {
+              "id": "spicy-sauce",
+              "name": "صوص سبايسي",
+              "price": 3
+            },
+            {
+              "id": "cola",
+              "name": "كولا",
+              "price": 6
+            }
+          ]
+        },
+        {
+          "id": "crispy-bucket-offer-3",
+          "restaurantId": "crispy-bucket",
+          "name": "عرض وينجز مع صوصات",
+          "description": "وينجز حارة مع ثلاث صوصات وبطاطس بسعر واحد.",
+          "image": "https://images.unsplash.com/photo-1626645738196-c2a7c87a8f58?w=800&q=80",
+          "price": 36,
+          "rating": 4.6,
+          "calories": 920,
+          "protein": 38,
+          "carbs": 55,
+          "fat": 48,
+          "category": "offers",
+          "isPopular": false,
+          "isOffer": true,
+          "offerPrice": null,
+          "isCombo": true,
+          "offerKind": "deal",
+          "comboIncludes": [
+            "وينجز",
+            "بطاطس",
+            "صوص ثوم",
+            "صوص سبايسي",
+            "صوص باربكيو"
+          ],
+          "spicyOption": true,
+          "cashbackPercent": null,
+          "addons": [
+            {
+              "id": "extra-piece",
+              "name": "قطعة إضافية",
+              "price": 8
+            },
+            {
+              "id": "large-fries",
+              "name": "بطاطس كبيرة",
+              "price": 10
+            },
+            {
+              "id": "coleslaw",
+              "name": "كول سلو",
+              "price": 6
+            },
+            {
+              "id": "spicy-sauce",
+              "name": "صوص سبايسي",
+              "price": 3
+            },
+            {
+              "id": "cola",
+              "name": "كولا",
+              "price": 6
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "golden-wing",
+      "name": "الجناح الذهبي",
+      "image": "https://images.unsplash.com/photo-1562967916-eb82221dfb92?w=800&q=80",
+      "rating": 4.6,
+      "cuisine": "فرايد تشيكن",
+      "deliveryTime": "20–30 د",
+      "deliveryFee": 8,
+      "minOrder": 40,
+      "distanceKm": 2.6,
+      "verified": true,
+      "tags": [
+        "فرايد تشيكن",
+        "دجاج مقرمش",
+        "باكت"
+      ],
+      "featured": null,
+      "open24h": null,
+      "fastDelivery": true,
+      "meals": [
+        {
+          "id": "golden-wing-1",
+          "restaurantId": "golden-wing",
+          "name": "باكت ٣ قطع",
+          "description": "ثلاث قطع دجاج مقرمشة مع صوص.",
+          "image": "https://images.unsplash.com/photo-1551782450-a2132b4ba21d?w=800&q=80",
+          "price": 28,
+          "rating": 4.2,
+          "calories": 780,
+          "protein": 42,
+          "carbs": 35,
+          "fat": 40,
+          "category": "popular",
+          "isPopular": true,
+          "isOffer": false,
+          "offerPrice": null,
+          "isCombo": false,
+          "offerKind": null,
+          "comboIncludes": [],
+          "spicyOption": true,
+          "cashbackPercent": null,
+          "addons": [
+            {
+              "id": "extra-piece",
+              "name": "قطعة إضافية",
+              "price": 8
+            },
+            {
+              "id": "large-fries",
+              "name": "بطاطس كبيرة",
+              "price": 10
+            },
+            {
+              "id": "coleslaw",
+              "name": "كول سلو",
+              "price": 6
+            },
+            {
+              "id": "spicy-sauce",
+              "name": "صوص سبايسي",
+              "price": 3
+            },
+            {
+              "id": "cola",
+              "name": "كولا",
+              "price": 6
+            }
+          ]
+        },
+        {
+          "id": "golden-wing-2",
+          "restaurantId": "golden-wing",
+          "name": "ستربس دجاج",
+          "description": "أصابع دجاج مقرمشة مع صوصات.",
+          "image": "https://images.unsplash.com/photo-1571091718767-18b5b1457add?w=800&q=80",
+          "price": 26,
+          "rating": 4.5,
+          "calories": 640,
+          "protein": 36,
+          "carbs": 38,
+          "fat": 28,
+          "category": "popular",
+          "isPopular": true,
+          "isOffer": false,
+          "offerPrice": null,
+          "isCombo": false,
+          "offerKind": null,
+          "comboIncludes": [],
+          "spicyOption": false,
+          "cashbackPercent": null,
+          "addons": [
+            {
+              "id": "extra-piece",
+              "name": "قطعة إضافية",
+              "price": 8
+            },
+            {
+              "id": "large-fries",
+              "name": "بطاطس كبيرة",
+              "price": 10
+            },
+            {
+              "id": "coleslaw",
+              "name": "كول سلو",
+              "price": 6
+            },
+            {
+              "id": "spicy-sauce",
+              "name": "صوص سبايسي",
+              "price": 3
+            },
+            {
+              "id": "cola",
+              "name": "كولا",
+              "price": 6
+            }
+          ]
+        },
+        {
+          "id": "golden-wing-3",
+          "restaurantId": "golden-wing",
+          "name": "وينجز حارة",
+          "description": "أجنحة دجاج بصلصة حارة.",
+          "image": "https://images.unsplash.com/photo-1626645738196-c2a7c87a8f58?w=800&q=80",
+          "price": 24,
+          "rating": 4.1,
+          "calories": 520,
+          "protein": 28,
+          "carbs": 18,
+          "fat": 32,
+          "category": "popular",
+          "isPopular": true,
+          "isOffer": false,
+          "offerPrice": null,
+          "isCombo": false,
+          "offerKind": null,
+          "comboIncludes": [],
+          "spicyOption": true,
+          "cashbackPercent": null,
+          "addons": [
+            {
+              "id": "extra-piece",
+              "name": "قطعة إضافية",
+              "price": 8
+            },
+            {
+              "id": "large-fries",
+              "name": "بطاطس كبيرة",
+              "price": 10
+            },
+            {
+              "id": "coleslaw",
+              "name": "كول سلو",
+              "price": 6
+            },
+            {
+              "id": "spicy-sauce",
+              "name": "صوص سبايسي",
+              "price": 3
+            },
+            {
+              "id": "cola",
+              "name": "كولا",
+              "price": 6
+            }
+          ]
+        },
+        {
+          "id": "golden-wing-4",
+          "restaurantId": "golden-wing",
+          "name": "فخذ مقرمشة",
+          "description": "فخذ دجاج متبلة ومقلية.",
+          "image": "https://images.unsplash.com/photo-1571091718767-18b5b1457add?w=800&q=80",
+          "price": 22,
+          "rating": 4.6,
+          "calories": 480,
+          "protein": 30,
+          "carbs": 12,
+          "fat": 28,
+          "category": "menu",
+          "isPopular": false,
+          "isOffer": false,
+          "offerPrice": null,
+          "isCombo": false,
+          "offerKind": null,
+          "comboIncludes": [],
+          "spicyOption": false,
+          "cashbackPercent": null,
+          "addons": [
+            {
+              "id": "extra-piece",
+              "name": "قطعة إضافية",
+              "price": 8
+            },
+            {
+              "id": "large-fries",
+              "name": "بطاطس كبيرة",
+              "price": 10
+            },
+            {
+              "id": "coleslaw",
+              "name": "كول سلو",
+              "price": 6
+            },
+            {
+              "id": "spicy-sauce",
+              "name": "صوص سبايسي",
+              "price": 3
+            },
+            {
+              "id": "cola",
+              "name": "كولا",
+              "price": 6
+            }
+          ]
+        },
+        {
+          "id": "golden-wing-5",
+          "restaurantId": "golden-wing",
+          "name": "صدر كريسبي",
+          "description": "صدر دجاج مقرمش كامل.",
+          "image": "https://images.unsplash.com/photo-1551782450-a2132b4ba21d?w=800&q=80",
+          "price": 30,
+          "rating": 4.6,
+          "calories": 560,
+          "protein": 38,
+          "carbs": 20,
+          "fat": 26,
+          "category": "menu",
+          "isPopular": false,
+          "isOffer": false,
+          "offerPrice": null,
+          "isCombo": false,
+          "offerKind": null,
+          "comboIncludes": [],
+          "spicyOption": false,
+          "cashbackPercent": null,
+          "addons": [
+            {
+              "id": "extra-piece",
+              "name": "قطعة إضافية",
+              "price": 8
+            },
+            {
+              "id": "large-fries",
+              "name": "بطاطس كبيرة",
+              "price": 10
+            },
+            {
+              "id": "coleslaw",
+              "name": "كول سلو",
+              "price": 6
+            },
+            {
+              "id": "spicy-sauce",
+              "name": "صوص سبايسي",
+              "price": 3
+            },
+            {
+              "id": "cola",
+              "name": "كولا",
+              "price": 6
+            }
+          ]
+        },
+        {
+          "id": "golden-wing-6",
+          "restaurantId": "golden-wing",
+          "name": "ساندويتش تشيكن",
+          "description": "خبز مع دجاج مقرمش وخس ومايونيز.",
+          "image": "https://images.unsplash.com/photo-1571091718767-18b5b1457add?w=800&q=80",
+          "price": 27,
+          "rating": 4.6,
+          "calories": 720,
+          "protein": 32,
+          "carbs": 55,
+          "fat": 34,
+          "category": "menu",
+          "isPopular": false,
+          "isOffer": false,
+          "offerPrice": null,
+          "isCombo": false,
+          "offerKind": null,
+          "comboIncludes": [],
+          "spicyOption": false,
+          "cashbackPercent": null,
+          "addons": [
+            {
+              "id": "extra-piece",
+              "name": "قطعة إضافية",
+              "price": 8
+            },
+            {
+              "id": "large-fries",
+              "name": "بطاطس كبيرة",
+              "price": 10
+            },
+            {
+              "id": "coleslaw",
+              "name": "كول سلو",
+              "price": 6
+            },
+            {
+              "id": "spicy-sauce",
+              "name": "صوص سبايسي",
+              "price": 3
+            },
+            {
+              "id": "cola",
+              "name": "كولا",
+              "price": 6
+            }
+          ]
+        },
+        {
+          "id": "golden-wing-7",
+          "restaurantId": "golden-wing",
+          "name": "بطاطس عائلية",
+          "description": "بطاطس مقلية كبيرة مع توابل.",
+          "image": "https://images.unsplash.com/photo-1573080496219-bb080dd4f877?w=800&q=80",
+          "price": 14,
+          "rating": 4.6,
+          "calories": 420,
+          "protein": 5,
+          "carbs": 52,
+          "fat": 22,
+          "category": "menu",
+          "isPopular": false,
+          "isOffer": false,
+          "offerPrice": null,
+          "isCombo": false,
+          "offerKind": null,
+          "comboIncludes": [],
+          "spicyOption": false,
+          "cashbackPercent": null,
+          "addons": [
+            {
+              "id": "extra-piece",
+              "name": "قطعة إضافية",
+              "price": 8
+            },
+            {
+              "id": "large-fries",
+              "name": "بطاطس كبيرة",
+              "price": 10
+            },
+            {
+              "id": "coleslaw",
+              "name": "كول سلو",
+              "price": 6
+            },
+            {
+              "id": "spicy-sauce",
+              "name": "صوص سبايسي",
+              "price": 3
+            },
+            {
+              "id": "cola",
+              "name": "كولا",
+              "price": 6
+            }
+          ]
+        },
+        {
+          "id": "golden-wing-8",
+          "restaurantId": "golden-wing",
+          "name": "كول سلو",
+          "description": "سلطة ملفوف كريمية.",
+          "image": "https://images.unsplash.com/photo-1551782450-a2132b4ba21d?w=800&q=80",
+          "price": 10,
+          "rating": 4.8,
+          "calories": 180,
+          "protein": 2,
+          "carbs": 14,
+          "fat": 12,
+          "category": "menu",
+          "isPopular": false,
+          "isOffer": false,
+          "offerPrice": null,
+          "isCombo": false,
+          "offerKind": null,
+          "comboIncludes": [],
+          "spicyOption": false,
+          "cashbackPercent": null,
+          "addons": [
+            {
+              "id": "extra-piece",
+              "name": "قطعة إضافية",
+              "price": 8
+            },
+            {
+              "id": "large-fries",
+              "name": "بطاطس كبيرة",
+              "price": 10
+            },
+            {
+              "id": "coleslaw",
+              "name": "كول سلو",
+              "price": 6
+            },
+            {
+              "id": "spicy-sauce",
+              "name": "صوص سبايسي",
+              "price": 3
+            },
+            {
+              "id": "cola",
+              "name": "كولا",
+              "price": 6
+            }
+          ]
+        },
+        {
+          "id": "golden-wing-9",
+          "restaurantId": "golden-wing",
+          "name": "ذرة حلوة",
+          "description": "كوب ذرة بالزبدة.",
+          "image": "https://images.unsplash.com/photo-1551782450-a2132b4ba21d?w=800&q=80",
+          "price": 9,
+          "rating": 4.7,
+          "calories": 160,
+          "protein": 4,
+          "carbs": 28,
+          "fat": 4,
+          "category": "menu",
+          "isPopular": false,
+          "isOffer": false,
+          "offerPrice": null,
+          "isCombo": false,
+          "offerKind": null,
+          "comboIncludes": [],
+          "spicyOption": false,
+          "cashbackPercent": null,
+          "addons": [
+            {
+              "id": "extra-piece",
+              "name": "قطعة إضافية",
+              "price": 8
+            },
+            {
+              "id": "large-fries",
+              "name": "بطاطس كبيرة",
+              "price": 10
+            },
+            {
+              "id": "coleslaw",
+              "name": "كول سلو",
+              "price": 6
+            },
+            {
+              "id": "spicy-sauce",
+              "name": "صوص سبايسي",
+              "price": 3
+            },
+            {
+              "id": "cola",
+              "name": "كولا",
+              "price": 6
+            }
+          ]
+        },
+        {
+          "id": "golden-wing-10",
+          "restaurantId": "golden-wing",
+          "name": "حلقات بصل",
+          "description": "حلقات بصل مقرمشة.",
+          "image": "https://images.unsplash.com/photo-1551782450-a2132b4ba21d?w=800&q=80",
+          "price": 12,
+          "rating": 4.8,
+          "calories": 340,
+          "protein": 4,
+          "carbs": 36,
+          "fat": 18,
+          "category": "menu",
+          "isPopular": false,
+          "isOffer": false,
+          "offerPrice": null,
+          "isCombo": false,
+          "offerKind": null,
+          "comboIncludes": [],
+          "spicyOption": false,
+          "cashbackPercent": null,
+          "addons": [
+            {
+              "id": "extra-piece",
+              "name": "قطعة إضافية",
+              "price": 8
+            },
+            {
+              "id": "large-fries",
+              "name": "بطاطس كبيرة",
+              "price": 10
+            },
+            {
+              "id": "coleslaw",
+              "name": "كول سلو",
+              "price": 6
+            },
+            {
+              "id": "spicy-sauce",
+              "name": "صوص سبايسي",
+              "price": 3
+            },
+            {
+              "id": "cola",
+              "name": "كولا",
+              "price": 6
+            }
+          ]
+        },
+        {
+          "id": "golden-wing-offer-1",
+          "restaurantId": "golden-wing",
+          "name": "وجبة دجاج مقرمش فردية",
+          "description": "قطعتان مقرمشتان مع بطاطس وصوص ومشروب.",
+          "image": "https://images.unsplash.com/photo-1571091718767-18b5b1457add?w=800&q=80",
+          "price": 29,
+          "rating": 4.6,
+          "calories": 980,
+          "protein": 42,
+          "carbs": 70,
+          "fat": 48,
+          "category": "offers",
+          "isPopular": false,
+          "isOffer": true,
+          "offerPrice": null,
+          "isCombo": true,
+          "offerKind": "combo",
+          "comboIncludes": [
+            "قطعتان دجاج",
+            "بطاطس",
+            "صوص",
+            "مشروب"
+          ],
+          "spicyOption": true,
+          "cashbackPercent": null,
+          "addons": [
+            {
+              "id": "extra-piece",
+              "name": "قطعة إضافية",
+              "price": 8
+            },
+            {
+              "id": "large-fries",
+              "name": "بطاطس كبيرة",
+              "price": 10
+            },
+            {
+              "id": "coleslaw",
+              "name": "كول سلو",
+              "price": 6
+            },
+            {
+              "id": "spicy-sauce",
+              "name": "صوص سبايسي",
+              "price": 3
+            },
+            {
+              "id": "cola",
+              "name": "كولا",
+              "price": 6
+            }
+          ]
+        },
+        {
+          "id": "golden-wing-offer-2",
+          "restaurantId": "golden-wing",
+          "name": "باكت فرايد تشيكن عائلي لـ 4 أشخاص",
+          "description": "4 قطع دجاج مقرمش مع بطاطس عائلية كبيرة وكول سلو كريمي وذرة حلوة بالزبدة وصلصات متنوعة. تكفي 4 أشخاص.",
+          "image": "/offers/4-fried-chicken.jpg",
+          "price": 80,
+          "rating": 4.6,
+          "calories": 2800,
+          "protein": 140,
+          "carbs": 220,
+          "fat": 150,
+          "category": "offers",
+          "isPopular": false,
+          "isOffer": true,
+          "offerPrice": null,
+          "isCombo": true,
+          "offerKind": "family",
+          "comboIncludes": [
+            "4 قطع دجاج مقرمش",
+            "بطاطس عائلية كبيرة",
+            "كول سلو كريمي",
+            "ذرة حلوة بالزبدة",
+            "صلصات متنوعة",
+            "4 مشروب"
+          ],
+          "spicyOption": true,
+          "cashbackPercent": null,
+          "addons": [
+            {
+              "id": "extra-piece",
+              "name": "قطعة إضافية",
+              "price": 8
+            },
+            {
+              "id": "large-fries",
+              "name": "بطاطس كبيرة",
+              "price": 10
+            },
+            {
+              "id": "coleslaw",
+              "name": "كول سلو",
+              "price": 6
+            },
+            {
+              "id": "spicy-sauce",
+              "name": "صوص سبايسي",
+              "price": 3
+            },
+            {
+              "id": "cola",
+              "name": "كولا",
+              "price": 6
+            }
+          ]
+        },
+        {
+          "id": "golden-wing-offer-3",
+          "restaurantId": "golden-wing",
+          "name": "عرض وينجز مع صوصات",
+          "description": "وينجز حارة مع ثلاث صوصات وبطاطس بسعر واحد.",
+          "image": "https://images.unsplash.com/photo-1626645738196-c2a7c87a8f58?w=800&q=80",
+          "price": 36,
+          "rating": 4.6,
+          "calories": 920,
+          "protein": 38,
+          "carbs": 55,
+          "fat": 48,
+          "category": "offers",
+          "isPopular": false,
+          "isOffer": true,
+          "offerPrice": null,
+          "isCombo": true,
+          "offerKind": "deal",
+          "comboIncludes": [
+            "وينجز",
+            "بطاطس",
+            "صوص ثوم",
+            "صوص سبايسي",
+            "صوص باربكيو"
+          ],
+          "spicyOption": true,
+          "cashbackPercent": null,
+          "addons": [
+            {
+              "id": "extra-piece",
+              "name": "قطعة إضافية",
+              "price": 8
+            },
+            {
+              "id": "large-fries",
+              "name": "بطاطس كبيرة",
+              "price": 10
+            },
+            {
+              "id": "coleslaw",
+              "name": "كول سلو",
+              "price": 6
+            },
+            {
+              "id": "spicy-sauce",
+              "name": "صوص سبايسي",
+              "price": 3
+            },
+            {
+              "id": "cola",
+              "name": "كولا",
+              "price": 6
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "strip-lab",
+      "name": "مختبر الستربس",
+      "image": "https://images.unsplash.com/photo-1562967916-eb82221dfb92?w=800&q=80",
+      "rating": 4.3,
+      "cuisine": "فرايد تشيكن",
+      "deliveryTime": "40–55 د",
+      "deliveryFee": 6,
+      "minOrder": 45,
+      "distanceKm": 5.6,
+      "verified": null,
+      "tags": [
+        "فرايد تشيكن",
+        "دجاج مقرمش",
+        "باكت"
+      ],
+      "featured": null,
+      "open24h": null,
+      "fastDelivery": null,
+      "meals": [
+        {
+          "id": "strip-lab-1",
+          "restaurantId": "strip-lab",
+          "name": "باكت ٣ قطع",
+          "description": "ثلاث قطع دجاج مقرمشة مع صوص.",
+          "image": "https://images.unsplash.com/photo-1626645738196-c2a7c87a8f58?w=800&q=80",
+          "price": 28,
+          "rating": 4.8,
+          "calories": 780,
+          "protein": 42,
+          "carbs": 35,
+          "fat": 40,
+          "category": "menu",
+          "isPopular": false,
+          "isOffer": false,
+          "offerPrice": null,
+          "isCombo": false,
+          "offerKind": null,
+          "comboIncludes": [],
+          "spicyOption": true,
+          "cashbackPercent": null,
+          "addons": [
+            {
+              "id": "extra-piece",
+              "name": "قطعة إضافية",
+              "price": 8
+            },
+            {
+              "id": "large-fries",
+              "name": "بطاطس كبيرة",
+              "price": 10
+            },
+            {
+              "id": "coleslaw",
+              "name": "كول سلو",
+              "price": 6
+            },
+            {
+              "id": "spicy-sauce",
+              "name": "صوص سبايسي",
+              "price": 3
+            },
+            {
+              "id": "cola",
+              "name": "كولا",
+              "price": 6
+            }
+          ]
+        },
+        {
+          "id": "strip-lab-2",
+          "restaurantId": "strip-lab",
+          "name": "ستربس دجاج",
+          "description": "أصابع دجاج مقرمشة مع صوصات.",
+          "image": "https://images.unsplash.com/photo-1571091718767-18b5b1457add?w=800&q=80",
+          "price": 26,
+          "rating": 4.6,
+          "calories": 640,
+          "protein": 36,
+          "carbs": 38,
+          "fat": 28,
+          "category": "menu",
+          "isPopular": false,
+          "isOffer": false,
+          "offerPrice": null,
+          "isCombo": false,
+          "offerKind": null,
+          "comboIncludes": [],
+          "spicyOption": false,
+          "cashbackPercent": null,
+          "addons": [
+            {
+              "id": "extra-piece",
+              "name": "قطعة إضافية",
+              "price": 8
+            },
+            {
+              "id": "large-fries",
+              "name": "بطاطس كبيرة",
+              "price": 10
+            },
+            {
+              "id": "coleslaw",
+              "name": "كول سلو",
+              "price": 6
+            },
+            {
+              "id": "spicy-sauce",
+              "name": "صوص سبايسي",
+              "price": 3
+            },
+            {
+              "id": "cola",
+              "name": "كولا",
+              "price": 6
+            }
+          ]
+        },
+        {
+          "id": "strip-lab-3",
+          "restaurantId": "strip-lab",
+          "name": "وينجز حارة",
+          "description": "أجنحة دجاج بصلصة حارة.",
+          "image": "https://images.unsplash.com/photo-1626645738196-c2a7c87a8f58?w=800&q=80",
+          "price": 24,
+          "rating": 4.5,
+          "calories": 520,
+          "protein": 28,
+          "carbs": 18,
+          "fat": 32,
+          "category": "menu",
+          "isPopular": false,
+          "isOffer": false,
+          "offerPrice": null,
+          "isCombo": false,
+          "offerKind": null,
+          "comboIncludes": [],
+          "spicyOption": true,
+          "cashbackPercent": null,
+          "addons": [
+            {
+              "id": "extra-piece",
+              "name": "قطعة إضافية",
+              "price": 8
+            },
+            {
+              "id": "large-fries",
+              "name": "بطاطس كبيرة",
+              "price": 10
+            },
+            {
+              "id": "coleslaw",
+              "name": "كول سلو",
+              "price": 6
+            },
+            {
+              "id": "spicy-sauce",
+              "name": "صوص سبايسي",
+              "price": 3
+            },
+            {
+              "id": "cola",
+              "name": "كولا",
+              "price": 6
+            }
+          ]
+        },
+        {
+          "id": "strip-lab-4",
+          "restaurantId": "strip-lab",
+          "name": "فخذ مقرمشة",
+          "description": "فخذ دجاج متبلة ومقلية.",
+          "image": "https://images.unsplash.com/photo-1571091718767-18b5b1457add?w=800&q=80",
+          "price": 22,
+          "rating": 4.9,
+          "calories": 480,
+          "protein": 30,
+          "carbs": 12,
+          "fat": 28,
+          "category": "menu",
+          "isPopular": false,
+          "isOffer": false,
+          "offerPrice": null,
+          "isCombo": false,
+          "offerKind": null,
+          "comboIncludes": [],
+          "spicyOption": false,
+          "cashbackPercent": null,
+          "addons": [
+            {
+              "id": "extra-piece",
+              "name": "قطعة إضافية",
+              "price": 8
+            },
+            {
+              "id": "large-fries",
+              "name": "بطاطس كبيرة",
+              "price": 10
+            },
+            {
+              "id": "coleslaw",
+              "name": "كول سلو",
+              "price": 6
+            },
+            {
+              "id": "spicy-sauce",
+              "name": "صوص سبايسي",
+              "price": 3
+            },
+            {
+              "id": "cola",
+              "name": "كولا",
+              "price": 6
+            }
+          ]
+        },
+        {
+          "id": "strip-lab-5",
+          "restaurantId": "strip-lab",
+          "name": "صدر كريسبي",
+          "description": "صدر دجاج مقرمش كامل.",
+          "image": "https://images.unsplash.com/photo-1626645738196-c2a7c87a8f58?w=800&q=80",
+          "price": 30,
+          "rating": 4.4,
+          "calories": 560,
+          "protein": 38,
+          "carbs": 20,
+          "fat": 26,
+          "category": "menu",
+          "isPopular": false,
+          "isOffer": false,
+          "offerPrice": null,
+          "isCombo": false,
+          "offerKind": null,
+          "comboIncludes": [],
+          "spicyOption": false,
+          "cashbackPercent": null,
+          "addons": [
+            {
+              "id": "extra-piece",
+              "name": "قطعة إضافية",
+              "price": 8
+            },
+            {
+              "id": "large-fries",
+              "name": "بطاطس كبيرة",
+              "price": 10
+            },
+            {
+              "id": "coleslaw",
+              "name": "كول سلو",
+              "price": 6
+            },
+            {
+              "id": "spicy-sauce",
+              "name": "صوص سبايسي",
+              "price": 3
+            },
+            {
+              "id": "cola",
+              "name": "كولا",
+              "price": 6
+            }
+          ]
+        },
+        {
+          "id": "strip-lab-6",
+          "restaurantId": "strip-lab",
+          "name": "ساندويتش تشيكن",
+          "description": "خبز مع دجاج مقرمش وخس ومايونيز.",
+          "image": "https://images.unsplash.com/photo-1571091718767-18b5b1457add?w=800&q=80",
+          "price": 27,
+          "rating": 4.8,
+          "calories": 720,
+          "protein": 32,
+          "carbs": 55,
+          "fat": 34,
+          "category": "popular",
+          "isPopular": true,
+          "isOffer": false,
+          "offerPrice": null,
+          "isCombo": false,
+          "offerKind": null,
+          "comboIncludes": [],
+          "spicyOption": false,
+          "cashbackPercent": null,
+          "addons": [
+            {
+              "id": "extra-piece",
+              "name": "قطعة إضافية",
+              "price": 8
+            },
+            {
+              "id": "large-fries",
+              "name": "بطاطس كبيرة",
+              "price": 10
+            },
+            {
+              "id": "coleslaw",
+              "name": "كول سلو",
+              "price": 6
+            },
+            {
+              "id": "spicy-sauce",
+              "name": "صوص سبايسي",
+              "price": 3
+            },
+            {
+              "id": "cola",
+              "name": "كولا",
+              "price": 6
+            }
+          ]
+        },
+        {
+          "id": "strip-lab-7",
+          "restaurantId": "strip-lab",
+          "name": "بطاطس عائلية",
+          "description": "بطاطس مقلية كبيرة مع توابل.",
+          "image": "https://images.unsplash.com/photo-1573080496219-bb080dd4f877?w=800&q=80",
+          "price": 14,
+          "rating": 4.7,
+          "calories": 420,
+          "protein": 5,
+          "carbs": 52,
+          "fat": 22,
+          "category": "popular",
+          "isPopular": true,
+          "isOffer": false,
+          "offerPrice": null,
+          "isCombo": false,
+          "offerKind": null,
+          "comboIncludes": [],
+          "spicyOption": false,
+          "cashbackPercent": null,
+          "addons": [
+            {
+              "id": "extra-piece",
+              "name": "قطعة إضافية",
+              "price": 8
+            },
+            {
+              "id": "large-fries",
+              "name": "بطاطس كبيرة",
+              "price": 10
+            },
+            {
+              "id": "coleslaw",
+              "name": "كول سلو",
+              "price": 6
+            },
+            {
+              "id": "spicy-sauce",
+              "name": "صوص سبايسي",
+              "price": 3
+            },
+            {
+              "id": "cola",
+              "name": "كولا",
+              "price": 6
+            }
+          ]
+        },
+        {
+          "id": "strip-lab-8",
+          "restaurantId": "strip-lab",
+          "name": "كول سلو",
+          "description": "سلطة ملفوف كريمية.",
+          "image": "https://images.unsplash.com/photo-1626645738196-c2a7c87a8f58?w=800&q=80",
+          "price": 10,
+          "rating": 4.3,
+          "calories": 180,
+          "protein": 2,
+          "carbs": 14,
+          "fat": 12,
+          "category": "menu",
+          "isPopular": false,
+          "isOffer": false,
+          "offerPrice": null,
+          "isCombo": false,
+          "offerKind": null,
+          "comboIncludes": [],
+          "spicyOption": false,
+          "cashbackPercent": null,
+          "addons": [
+            {
+              "id": "extra-piece",
+              "name": "قطعة إضافية",
+              "price": 8
+            },
+            {
+              "id": "large-fries",
+              "name": "بطاطس كبيرة",
+              "price": 10
+            },
+            {
+              "id": "coleslaw",
+              "name": "كول سلو",
+              "price": 6
+            },
+            {
+              "id": "spicy-sauce",
+              "name": "صوص سبايسي",
+              "price": 3
+            },
+            {
+              "id": "cola",
+              "name": "كولا",
+              "price": 6
+            }
+          ]
+        },
+        {
+          "id": "strip-lab-9",
+          "restaurantId": "strip-lab",
+          "name": "ذرة حلوة",
+          "description": "كوب ذرة بالزبدة.",
+          "image": "https://images.unsplash.com/photo-1626645738196-c2a7c87a8f58?w=800&q=80",
+          "price": 9,
+          "rating": 4.3,
+          "calories": 160,
+          "protein": 4,
+          "carbs": 28,
+          "fat": 4,
+          "category": "menu",
+          "isPopular": false,
+          "isOffer": false,
+          "offerPrice": null,
+          "isCombo": false,
+          "offerKind": null,
+          "comboIncludes": [],
+          "spicyOption": false,
+          "cashbackPercent": null,
+          "addons": [
+            {
+              "id": "extra-piece",
+              "name": "قطعة إضافية",
+              "price": 8
+            },
+            {
+              "id": "large-fries",
+              "name": "بطاطس كبيرة",
+              "price": 10
+            },
+            {
+              "id": "coleslaw",
+              "name": "كول سلو",
+              "price": 6
+            },
+            {
+              "id": "spicy-sauce",
+              "name": "صوص سبايسي",
+              "price": 3
+            },
+            {
+              "id": "cola",
+              "name": "كولا",
+              "price": 6
+            }
+          ]
+        },
+        {
+          "id": "strip-lab-10",
+          "restaurantId": "strip-lab",
+          "name": "حلقات بصل",
+          "description": "حلقات بصل مقرمشة.",
+          "image": "https://images.unsplash.com/photo-1571091718767-18b5b1457add?w=800&q=80",
+          "price": 12,
+          "rating": 4.3,
+          "calories": 340,
+          "protein": 4,
+          "carbs": 36,
+          "fat": 18,
+          "category": "menu",
+          "isPopular": false,
+          "isOffer": false,
+          "offerPrice": null,
+          "isCombo": false,
+          "offerKind": null,
+          "comboIncludes": [],
+          "spicyOption": false,
+          "cashbackPercent": null,
+          "addons": [
+            {
+              "id": "extra-piece",
+              "name": "قطعة إضافية",
+              "price": 8
+            },
+            {
+              "id": "large-fries",
+              "name": "بطاطس كبيرة",
+              "price": 10
+            },
+            {
+              "id": "coleslaw",
+              "name": "كول سلو",
+              "price": 6
+            },
+            {
+              "id": "spicy-sauce",
+              "name": "صوص سبايسي",
+              "price": 3
+            },
+            {
+              "id": "cola",
+              "name": "كولا",
+              "price": 6
+            }
+          ]
+        },
+        {
+          "id": "strip-lab-offer-1",
+          "restaurantId": "strip-lab",
+          "name": "وجبة دجاج مقرمش فردية",
+          "description": "قطعتان مقرمشتان مع بطاطس وصوص ومشروب.",
+          "image": "https://images.unsplash.com/photo-1571091718767-18b5b1457add?w=800&q=80",
+          "price": 29,
+          "rating": 4.6,
+          "calories": 980,
+          "protein": 42,
+          "carbs": 70,
+          "fat": 48,
+          "category": "offers",
+          "isPopular": false,
+          "isOffer": true,
+          "offerPrice": null,
+          "isCombo": true,
+          "offerKind": "combo",
+          "comboIncludes": [
+            "قطعتان دجاج",
+            "بطاطس",
+            "صوص",
+            "مشروب"
+          ],
+          "spicyOption": true,
+          "cashbackPercent": null,
+          "addons": [
+            {
+              "id": "extra-piece",
+              "name": "قطعة إضافية",
+              "price": 8
+            },
+            {
+              "id": "large-fries",
+              "name": "بطاطس كبيرة",
+              "price": 10
+            },
+            {
+              "id": "coleslaw",
+              "name": "كول سلو",
+              "price": 6
+            },
+            {
+              "id": "spicy-sauce",
+              "name": "صوص سبايسي",
+              "price": 3
+            },
+            {
+              "id": "cola",
+              "name": "كولا",
+              "price": 6
+            }
+          ]
+        },
+        {
+          "id": "strip-lab-offer-2",
+          "restaurantId": "strip-lab",
+          "name": "باكت فرايد تشيكن عائلي لـ 3 أشخاص",
+          "description": "3 قطع دجاج مقرمش مع بطاطس عائلية كبيرة وكول سلو كريمي وذرة حلوة بالزبدة وصلصات متنوعة. تكفي 3 أشخاص.",
+          "image": "/offers/3-fried-chicken.png",
+          "price": 64,
+          "rating": 4.6,
+          "calories": 2800,
+          "protein": 140,
+          "carbs": 220,
+          "fat": 150,
+          "category": "offers",
+          "isPopular": false,
+          "isOffer": true,
+          "offerPrice": null,
+          "isCombo": true,
+          "offerKind": "family",
+          "comboIncludes": [
+            "3 قطع دجاج مقرمش",
+            "بطاطس عائلية كبيرة",
+            "كول سلو كريمي",
+            "ذرة حلوة بالزبدة",
+            "صلصات متنوعة",
+            "3 مشروب"
+          ],
+          "spicyOption": true,
+          "cashbackPercent": null,
+          "addons": [
+            {
+              "id": "extra-piece",
+              "name": "قطعة إضافية",
+              "price": 8
+            },
+            {
+              "id": "large-fries",
+              "name": "بطاطس كبيرة",
+              "price": 10
+            },
+            {
+              "id": "coleslaw",
+              "name": "كول سلو",
+              "price": 6
+            },
+            {
+              "id": "spicy-sauce",
+              "name": "صوص سبايسي",
+              "price": 3
+            },
+            {
+              "id": "cola",
+              "name": "كولا",
+              "price": 6
+            }
+          ]
+        },
+        {
+          "id": "strip-lab-offer-3",
+          "restaurantId": "strip-lab",
+          "name": "عرض وينجز مع صوصات",
+          "description": "وينجز حارة مع ثلاث صوصات وبطاطس بسعر واحد.",
+          "image": "https://images.unsplash.com/photo-1626645738196-c2a7c87a8f58?w=800&q=80",
+          "price": 36,
+          "rating": 4.6,
+          "calories": 920,
+          "protein": 38,
+          "carbs": 55,
+          "fat": 48,
+          "category": "offers",
+          "isPopular": false,
+          "isOffer": true,
+          "offerPrice": null,
+          "isCombo": true,
+          "offerKind": "deal",
+          "comboIncludes": [
+            "وينجز",
+            "بطاطس",
+            "صوص ثوم",
+            "صوص سبايسي",
+            "صوص باربكيو"
+          ],
+          "spicyOption": true,
+          "cashbackPercent": null,
+          "addons": [
+            {
+              "id": "extra-piece",
+              "name": "قطعة إضافية",
+              "price": 8
+            },
+            {
+              "id": "large-fries",
+              "name": "بطاطس كبيرة",
+              "price": 10
+            },
+            {
+              "id": "coleslaw",
+              "name": "كول سلو",
+              "price": 6
+            },
+            {
+              "id": "spicy-sauce",
+              "name": "صوص سبايسي",
+              "price": 3
+            },
+            {
+              "id": "cola",
+              "name": "كولا",
+              "price": 6
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "fire-thigh",
+      "name": "فخذ النار",
+      "image": "https://images.unsplash.com/photo-1626645738196-c2a7c87a8f58?w=800&q=80",
+      "rating": 4.8,
+      "cuisine": "فرايد تشيكن",
+      "deliveryTime": "40–55 د",
+      "deliveryFee": 5,
+      "minOrder": 45,
+      "distanceKm": 4.4,
+      "verified": null,
+      "tags": [
+        "فرايد تشيكن",
+        "دجاج مقرمش",
+        "باكت"
+      ],
+      "featured": null,
+      "open24h": null,
+      "fastDelivery": true,
+      "meals": [
+        {
+          "id": "fire-thigh-1",
+          "restaurantId": "fire-thigh",
+          "name": "باكت ٣ قطع",
+          "description": "ثلاث قطع دجاج مقرمشة مع صوص.",
+          "image": "https://images.unsplash.com/photo-1571091718767-18b5b1457add?w=800&q=80",
+          "price": 28,
+          "rating": 4.5,
+          "calories": 780,
+          "protein": 42,
+          "carbs": 35,
+          "fat": 40,
+          "category": "popular",
+          "isPopular": true,
+          "isOffer": false,
+          "offerPrice": null,
+          "isCombo": false,
+          "offerKind": null,
+          "comboIncludes": [],
+          "spicyOption": true,
+          "cashbackPercent": null,
+          "addons": [
+            {
+              "id": "extra-piece",
+              "name": "قطعة إضافية",
+              "price": 8
+            },
+            {
+              "id": "large-fries",
+              "name": "بطاطس كبيرة",
+              "price": 10
+            },
+            {
+              "id": "coleslaw",
+              "name": "كول سلو",
+              "price": 6
+            },
+            {
+              "id": "spicy-sauce",
+              "name": "صوص سبايسي",
+              "price": 3
+            },
+            {
+              "id": "cola",
+              "name": "كولا",
+              "price": 6
+            }
+          ]
+        },
+        {
+          "id": "fire-thigh-2",
+          "restaurantId": "fire-thigh",
+          "name": "ستربس دجاج",
+          "description": "أصابع دجاج مقرمشة مع صوصات.",
+          "image": "https://images.unsplash.com/photo-1571091718767-18b5b1457add?w=800&q=80",
+          "price": 26,
+          "rating": 4.8,
+          "calories": 640,
+          "protein": 36,
+          "carbs": 38,
+          "fat": 28,
+          "category": "popular",
+          "isPopular": true,
+          "isOffer": false,
+          "offerPrice": null,
+          "isCombo": false,
+          "offerKind": null,
+          "comboIncludes": [],
+          "spicyOption": false,
+          "cashbackPercent": null,
+          "addons": [
+            {
+              "id": "extra-piece",
+              "name": "قطعة إضافية",
+              "price": 8
+            },
+            {
+              "id": "large-fries",
+              "name": "بطاطس كبيرة",
+              "price": 10
+            },
+            {
+              "id": "coleslaw",
+              "name": "كول سلو",
+              "price": 6
+            },
+            {
+              "id": "spicy-sauce",
+              "name": "صوص سبايسي",
+              "price": 3
+            },
+            {
+              "id": "cola",
+              "name": "كولا",
+              "price": 6
+            }
+          ]
+        },
+        {
+          "id": "fire-thigh-3",
+          "restaurantId": "fire-thigh",
+          "name": "وينجز حارة",
+          "description": "أجنحة دجاج بصلصة حارة.",
+          "image": "https://images.unsplash.com/photo-1626645738196-c2a7c87a8f58?w=800&q=80",
+          "price": 24,
+          "rating": 4.3,
+          "calories": 520,
+          "protein": 28,
+          "carbs": 18,
+          "fat": 32,
+          "category": "menu",
+          "isPopular": false,
+          "isOffer": false,
+          "offerPrice": null,
+          "isCombo": false,
+          "offerKind": null,
+          "comboIncludes": [],
+          "spicyOption": true,
+          "cashbackPercent": null,
+          "addons": [
+            {
+              "id": "extra-piece",
+              "name": "قطعة إضافية",
+              "price": 8
+            },
+            {
+              "id": "large-fries",
+              "name": "بطاطس كبيرة",
+              "price": 10
+            },
+            {
+              "id": "coleslaw",
+              "name": "كول سلو",
+              "price": 6
+            },
+            {
+              "id": "spicy-sauce",
+              "name": "صوص سبايسي",
+              "price": 3
+            },
+            {
+              "id": "cola",
+              "name": "كولا",
+              "price": 6
+            }
+          ]
+        },
+        {
+          "id": "fire-thigh-4",
+          "restaurantId": "fire-thigh",
+          "name": "فخذ مقرمشة",
+          "description": "فخذ دجاج متبلة ومقلية.",
+          "image": "https://images.unsplash.com/photo-1571091718767-18b5b1457add?w=800&q=80",
+          "price": 22,
+          "rating": 4.3,
+          "calories": 480,
+          "protein": 30,
+          "carbs": 12,
+          "fat": 28,
+          "category": "menu",
+          "isPopular": false,
+          "isOffer": false,
+          "offerPrice": null,
+          "isCombo": false,
+          "offerKind": null,
+          "comboIncludes": [],
+          "spicyOption": false,
+          "cashbackPercent": null,
+          "addons": [
+            {
+              "id": "extra-piece",
+              "name": "قطعة إضافية",
+              "price": 8
+            },
+            {
+              "id": "large-fries",
+              "name": "بطاطس كبيرة",
+              "price": 10
+            },
+            {
+              "id": "coleslaw",
+              "name": "كول سلو",
+              "price": 6
+            },
+            {
+              "id": "spicy-sauce",
+              "name": "صوص سبايسي",
+              "price": 3
+            },
+            {
+              "id": "cola",
+              "name": "كولا",
+              "price": 6
+            }
+          ]
+        },
+        {
+          "id": "fire-thigh-5",
+          "restaurantId": "fire-thigh",
+          "name": "صدر كريسبي",
+          "description": "صدر دجاج مقرمش كامل.",
+          "image": "https://images.unsplash.com/photo-1551782450-a2132b4ba21d?w=800&q=80",
+          "price": 30,
+          "rating": 4.5,
+          "calories": 560,
+          "protein": 38,
+          "carbs": 20,
+          "fat": 26,
+          "category": "menu",
+          "isPopular": false,
+          "isOffer": false,
+          "offerPrice": null,
+          "isCombo": false,
+          "offerKind": null,
+          "comboIncludes": [],
+          "spicyOption": false,
+          "cashbackPercent": null,
+          "addons": [
+            {
+              "id": "extra-piece",
+              "name": "قطعة إضافية",
+              "price": 8
+            },
+            {
+              "id": "large-fries",
+              "name": "بطاطس كبيرة",
+              "price": 10
+            },
+            {
+              "id": "coleslaw",
+              "name": "كول سلو",
+              "price": 6
+            },
+            {
+              "id": "spicy-sauce",
+              "name": "صوص سبايسي",
+              "price": 3
+            },
+            {
+              "id": "cola",
+              "name": "كولا",
+              "price": 6
+            }
+          ]
+        },
+        {
+          "id": "fire-thigh-6",
+          "restaurantId": "fire-thigh",
+          "name": "ساندويتش تشيكن",
+          "description": "خبز مع دجاج مقرمش وخس ومايونيز.",
+          "image": "https://images.unsplash.com/photo-1571091718767-18b5b1457add?w=800&q=80",
+          "price": 27,
+          "rating": 4.4,
+          "calories": 720,
+          "protein": 32,
+          "carbs": 55,
+          "fat": 34,
+          "category": "popular",
+          "isPopular": true,
+          "isOffer": false,
+          "offerPrice": null,
+          "isCombo": false,
+          "offerKind": null,
+          "comboIncludes": [],
+          "spicyOption": false,
+          "cashbackPercent": null,
+          "addons": [
+            {
+              "id": "extra-piece",
+              "name": "قطعة إضافية",
+              "price": 8
+            },
+            {
+              "id": "large-fries",
+              "name": "بطاطس كبيرة",
+              "price": 10
+            },
+            {
+              "id": "coleslaw",
+              "name": "كول سلو",
+              "price": 6
+            },
+            {
+              "id": "spicy-sauce",
+              "name": "صوص سبايسي",
+              "price": 3
+            },
+            {
+              "id": "cola",
+              "name": "كولا",
+              "price": 6
+            }
+          ]
+        },
+        {
+          "id": "fire-thigh-7",
+          "restaurantId": "fire-thigh",
+          "name": "بطاطس عائلية",
+          "description": "بطاطس مقلية كبيرة مع توابل.",
+          "image": "https://images.unsplash.com/photo-1573080496219-bb080dd4f877?w=800&q=80",
+          "price": 14,
+          "rating": 4.2,
+          "calories": 420,
+          "protein": 5,
+          "carbs": 52,
+          "fat": 22,
+          "category": "popular",
+          "isPopular": true,
+          "isOffer": false,
+          "offerPrice": null,
+          "isCombo": false,
+          "offerKind": null,
+          "comboIncludes": [],
+          "spicyOption": false,
+          "cashbackPercent": null,
+          "addons": [
+            {
+              "id": "extra-piece",
+              "name": "قطعة إضافية",
+              "price": 8
+            },
+            {
+              "id": "large-fries",
+              "name": "بطاطس كبيرة",
+              "price": 10
+            },
+            {
+              "id": "coleslaw",
+              "name": "كول سلو",
+              "price": 6
+            },
+            {
+              "id": "spicy-sauce",
+              "name": "صوص سبايسي",
+              "price": 3
+            },
+            {
+              "id": "cola",
+              "name": "كولا",
+              "price": 6
+            }
+          ]
+        },
+        {
+          "id": "fire-thigh-8",
+          "restaurantId": "fire-thigh",
+          "name": "كول سلو",
+          "description": "سلطة ملفوف كريمية.",
+          "image": "https://images.unsplash.com/photo-1551782450-a2132b4ba21d?w=800&q=80",
+          "price": 10,
+          "rating": 4.3,
+          "calories": 180,
+          "protein": 2,
+          "carbs": 14,
+          "fat": 12,
+          "category": "menu",
+          "isPopular": false,
+          "isOffer": false,
+          "offerPrice": null,
+          "isCombo": false,
+          "offerKind": null,
+          "comboIncludes": [],
+          "spicyOption": false,
+          "cashbackPercent": null,
+          "addons": [
+            {
+              "id": "extra-piece",
+              "name": "قطعة إضافية",
+              "price": 8
+            },
+            {
+              "id": "large-fries",
+              "name": "بطاطس كبيرة",
+              "price": 10
+            },
+            {
+              "id": "coleslaw",
+              "name": "كول سلو",
+              "price": 6
+            },
+            {
+              "id": "spicy-sauce",
+              "name": "صوص سبايسي",
+              "price": 3
+            },
+            {
+              "id": "cola",
+              "name": "كولا",
+              "price": 6
+            }
+          ]
+        },
+        {
+          "id": "fire-thigh-9",
+          "restaurantId": "fire-thigh",
+          "name": "ذرة حلوة",
+          "description": "كوب ذرة بالزبدة.",
+          "image": "https://images.unsplash.com/photo-1626645738196-c2a7c87a8f58?w=800&q=80",
+          "price": 9,
+          "rating": 4.9,
+          "calories": 160,
+          "protein": 4,
+          "carbs": 28,
+          "fat": 4,
+          "category": "menu",
+          "isPopular": false,
+          "isOffer": false,
+          "offerPrice": null,
+          "isCombo": false,
+          "offerKind": null,
+          "comboIncludes": [],
+          "spicyOption": false,
+          "cashbackPercent": null,
+          "addons": [
+            {
+              "id": "extra-piece",
+              "name": "قطعة إضافية",
+              "price": 8
+            },
+            {
+              "id": "large-fries",
+              "name": "بطاطس كبيرة",
+              "price": 10
+            },
+            {
+              "id": "coleslaw",
+              "name": "كول سلو",
+              "price": 6
+            },
+            {
+              "id": "spicy-sauce",
+              "name": "صوص سبايسي",
+              "price": 3
+            },
+            {
+              "id": "cola",
+              "name": "كولا",
+              "price": 6
+            }
+          ]
+        },
+        {
+          "id": "fire-thigh-10",
+          "restaurantId": "fire-thigh",
+          "name": "حلقات بصل",
+          "description": "حلقات بصل مقرمشة.",
+          "image": "https://images.unsplash.com/photo-1626645738196-c2a7c87a8f58?w=800&q=80",
+          "price": 12,
+          "rating": 4.5,
+          "calories": 340,
+          "protein": 4,
+          "carbs": 36,
+          "fat": 18,
+          "category": "popular",
+          "isPopular": true,
+          "isOffer": false,
+          "offerPrice": null,
+          "isCombo": false,
+          "offerKind": null,
+          "comboIncludes": [],
+          "spicyOption": false,
+          "cashbackPercent": null,
+          "addons": [
+            {
+              "id": "extra-piece",
+              "name": "قطعة إضافية",
+              "price": 8
+            },
+            {
+              "id": "large-fries",
+              "name": "بطاطس كبيرة",
+              "price": 10
+            },
+            {
+              "id": "coleslaw",
+              "name": "كول سلو",
+              "price": 6
+            },
+            {
+              "id": "spicy-sauce",
+              "name": "صوص سبايسي",
+              "price": 3
+            },
+            {
+              "id": "cola",
+              "name": "كولا",
+              "price": 6
+            }
+          ]
+        },
+        {
+          "id": "fire-thigh-offer-1",
+          "restaurantId": "fire-thigh",
+          "name": "وجبة دجاج مقرمش فردية",
+          "description": "قطعتان مقرمشتان مع بطاطس وصوص ومشروب.",
+          "image": "https://images.unsplash.com/photo-1571091718767-18b5b1457add?w=800&q=80",
+          "price": 29,
+          "rating": 4.6,
+          "calories": 980,
+          "protein": 42,
+          "carbs": 70,
+          "fat": 48,
+          "category": "offers",
+          "isPopular": false,
+          "isOffer": true,
+          "offerPrice": null,
+          "isCombo": true,
+          "offerKind": "combo",
+          "comboIncludes": [
+            "قطعتان دجاج",
+            "بطاطس",
+            "صوص",
+            "مشروب"
+          ],
+          "spicyOption": true,
+          "cashbackPercent": null,
+          "addons": [
+            {
+              "id": "extra-piece",
+              "name": "قطعة إضافية",
+              "price": 8
+            },
+            {
+              "id": "large-fries",
+              "name": "بطاطس كبيرة",
+              "price": 10
+            },
+            {
+              "id": "coleslaw",
+              "name": "كول سلو",
+              "price": 6
+            },
+            {
+              "id": "spicy-sauce",
+              "name": "صوص سبايسي",
+              "price": 3
+            },
+            {
+              "id": "cola",
+              "name": "كولا",
+              "price": 6
+            }
+          ]
+        },
+        {
+          "id": "fire-thigh-offer-2",
+          "restaurantId": "fire-thigh",
+          "name": "باكت فرايد تشيكن عائلي لـ 4 أشخاص",
+          "description": "4 قطع دجاج مقرمش مع بطاطس عائلية كبيرة وكول سلو كريمي وذرة حلوة بالزبدة وصلصات متنوعة. تكفي 4 أشخاص.",
+          "image": "/offers/4-fried-chicken.jpg",
+          "price": 80,
+          "rating": 4.6,
+          "calories": 2800,
+          "protein": 140,
+          "carbs": 220,
+          "fat": 150,
+          "category": "offers",
+          "isPopular": false,
+          "isOffer": true,
+          "offerPrice": null,
+          "isCombo": true,
+          "offerKind": "family",
+          "comboIncludes": [
+            "4 قطع دجاج مقرمش",
+            "بطاطس عائلية كبيرة",
+            "كول سلو كريمي",
+            "ذرة حلوة بالزبدة",
+            "صلصات متنوعة",
+            "4 مشروب"
+          ],
+          "spicyOption": true,
+          "cashbackPercent": null,
+          "addons": [
+            {
+              "id": "extra-piece",
+              "name": "قطعة إضافية",
+              "price": 8
+            },
+            {
+              "id": "large-fries",
+              "name": "بطاطس كبيرة",
+              "price": 10
+            },
+            {
+              "id": "coleslaw",
+              "name": "كول سلو",
+              "price": 6
+            },
+            {
+              "id": "spicy-sauce",
+              "name": "صوص سبايسي",
+              "price": 3
+            },
+            {
+              "id": "cola",
+              "name": "كولا",
+              "price": 6
+            }
+          ]
+        },
+        {
+          "id": "fire-thigh-offer-3",
+          "restaurantId": "fire-thigh",
+          "name": "عرض وينجز مع صوصات",
+          "description": "وينجز حارة مع ثلاث صوصات وبطاطس بسعر واحد.",
+          "image": "https://images.unsplash.com/photo-1626645738196-c2a7c87a8f58?w=800&q=80",
+          "price": 36,
+          "rating": 4.6,
+          "calories": 920,
+          "protein": 38,
+          "carbs": 55,
+          "fat": 48,
+          "category": "offers",
+          "isPopular": false,
+          "isOffer": true,
+          "offerPrice": null,
+          "isCombo": true,
+          "offerKind": "deal",
+          "comboIncludes": [
+            "وينجز",
+            "بطاطس",
+            "صوص ثوم",
+            "صوص سبايسي",
+            "صوص باربكيو"
+          ],
+          "spicyOption": true,
+          "cashbackPercent": null,
+          "addons": [
+            {
+              "id": "extra-piece",
+              "name": "قطعة إضافية",
+              "price": 8
+            },
+            {
+              "id": "large-fries",
+              "name": "بطاطس كبيرة",
+              "price": 10
+            },
+            {
+              "id": "coleslaw",
+              "name": "كول سلو",
+              "price": 6
+            },
+            {
+              "id": "spicy-sauce",
+              "name": "صوص سبايسي",
+              "price": 3
+            },
+            {
+              "id": "cola",
+              "name": "كولا",
+              "price": 6
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "bucket-house",
+      "name": "بيت الباكت",
+      "image": "https://images.unsplash.com/photo-1571091718767-18b5b1457add?w=800&q=80",
+      "rating": 4.6,
+      "cuisine": "فرايد تشيكن",
+      "deliveryTime": "20–30 د",
+      "deliveryFee": 12,
+      "minOrder": 25,
+      "distanceKm": 3.9,
+      "verified": true,
+      "tags": [
+        "فرايد تشيكن",
+        "دجاج مقرمش",
+        "باكت"
+      ],
+      "featured": null,
+      "open24h": null,
+      "fastDelivery": null,
+      "meals": [
+        {
+          "id": "bucket-house-1",
+          "restaurantId": "bucket-house",
+          "name": "باكت ٣ قطع",
+          "description": "ثلاث قطع دجاج مقرمشة مع صوص.",
+          "image": "https://images.unsplash.com/photo-1551782450-a2132b4ba21d?w=800&q=80",
+          "price": 28,
+          "rating": 4.8,
+          "calories": 780,
+          "protein": 42,
+          "carbs": 35,
+          "fat": 40,
+          "category": "popular",
+          "isPopular": true,
+          "isOffer": false,
+          "offerPrice": null,
+          "isCombo": false,
+          "offerKind": null,
+          "comboIncludes": [],
+          "spicyOption": true,
+          "cashbackPercent": null,
+          "addons": [
+            {
+              "id": "extra-piece",
+              "name": "قطعة إضافية",
+              "price": 8
+            },
+            {
+              "id": "large-fries",
+              "name": "بطاطس كبيرة",
+              "price": 10
+            },
+            {
+              "id": "coleslaw",
+              "name": "كول سلو",
+              "price": 6
+            },
+            {
+              "id": "spicy-sauce",
+              "name": "صوص سبايسي",
+              "price": 3
+            },
+            {
+              "id": "cola",
+              "name": "كولا",
+              "price": 6
+            }
+          ]
+        },
+        {
+          "id": "bucket-house-2",
+          "restaurantId": "bucket-house",
+          "name": "ستربس دجاج",
+          "description": "أصابع دجاج مقرمشة مع صوصات.",
+          "image": "https://images.unsplash.com/photo-1571091718767-18b5b1457add?w=800&q=80",
+          "price": 26,
+          "rating": 4.6,
+          "calories": 640,
+          "protein": 36,
+          "carbs": 38,
+          "fat": 28,
+          "category": "popular",
+          "isPopular": true,
+          "isOffer": false,
+          "offerPrice": null,
+          "isCombo": false,
+          "offerKind": null,
+          "comboIncludes": [],
+          "spicyOption": false,
+          "cashbackPercent": null,
+          "addons": [
+            {
+              "id": "extra-piece",
+              "name": "قطعة إضافية",
+              "price": 8
+            },
+            {
+              "id": "large-fries",
+              "name": "بطاطس كبيرة",
+              "price": 10
+            },
+            {
+              "id": "coleslaw",
+              "name": "كول سلو",
+              "price": 6
+            },
+            {
+              "id": "spicy-sauce",
+              "name": "صوص سبايسي",
+              "price": 3
+            },
+            {
+              "id": "cola",
+              "name": "كولا",
+              "price": 6
+            }
+          ]
+        },
+        {
+          "id": "bucket-house-3",
+          "restaurantId": "bucket-house",
+          "name": "وينجز حارة",
+          "description": "أجنحة دجاج بصلصة حارة.",
+          "image": "https://images.unsplash.com/photo-1626645738196-c2a7c87a8f58?w=800&q=80",
+          "price": 24,
+          "rating": 4.7,
+          "calories": 520,
+          "protein": 28,
+          "carbs": 18,
+          "fat": 32,
+          "category": "popular",
+          "isPopular": true,
+          "isOffer": false,
+          "offerPrice": null,
+          "isCombo": false,
+          "offerKind": null,
+          "comboIncludes": [],
+          "spicyOption": true,
+          "cashbackPercent": null,
+          "addons": [
+            {
+              "id": "extra-piece",
+              "name": "قطعة إضافية",
+              "price": 8
+            },
+            {
+              "id": "large-fries",
+              "name": "بطاطس كبيرة",
+              "price": 10
+            },
+            {
+              "id": "coleslaw",
+              "name": "كول سلو",
+              "price": 6
+            },
+            {
+              "id": "spicy-sauce",
+              "name": "صوص سبايسي",
+              "price": 3
+            },
+            {
+              "id": "cola",
+              "name": "كولا",
+              "price": 6
+            }
+          ]
+        },
+        {
+          "id": "bucket-house-4",
+          "restaurantId": "bucket-house",
+          "name": "فخذ مقرمشة",
+          "description": "فخذ دجاج متبلة ومقلية.",
+          "image": "https://images.unsplash.com/photo-1571091718767-18b5b1457add?w=800&q=80",
+          "price": 22,
+          "rating": 4.6,
+          "calories": 480,
+          "protein": 30,
+          "carbs": 12,
+          "fat": 28,
+          "category": "menu",
+          "isPopular": false,
+          "isOffer": false,
+          "offerPrice": null,
+          "isCombo": false,
+          "offerKind": null,
+          "comboIncludes": [],
+          "spicyOption": false,
+          "cashbackPercent": null,
+          "addons": [
+            {
+              "id": "extra-piece",
+              "name": "قطعة إضافية",
+              "price": 8
+            },
+            {
+              "id": "large-fries",
+              "name": "بطاطس كبيرة",
+              "price": 10
+            },
+            {
+              "id": "coleslaw",
+              "name": "كول سلو",
+              "price": 6
+            },
+            {
+              "id": "spicy-sauce",
+              "name": "صوص سبايسي",
+              "price": 3
+            },
+            {
+              "id": "cola",
+              "name": "كولا",
+              "price": 6
+            }
+          ]
+        },
+        {
+          "id": "bucket-house-5",
+          "restaurantId": "bucket-house",
+          "name": "صدر كريسبي",
+          "description": "صدر دجاج مقرمش كامل.",
+          "image": "https://images.unsplash.com/photo-1551782450-a2132b4ba21d?w=800&q=80",
+          "price": 30,
+          "rating": 4.6,
+          "calories": 560,
+          "protein": 38,
+          "carbs": 20,
+          "fat": 26,
+          "category": "menu",
+          "isPopular": false,
+          "isOffer": false,
+          "offerPrice": null,
+          "isCombo": false,
+          "offerKind": null,
+          "comboIncludes": [],
+          "spicyOption": false,
+          "cashbackPercent": null,
+          "addons": [
+            {
+              "id": "extra-piece",
+              "name": "قطعة إضافية",
+              "price": 8
+            },
+            {
+              "id": "large-fries",
+              "name": "بطاطس كبيرة",
+              "price": 10
+            },
+            {
+              "id": "coleslaw",
+              "name": "كول سلو",
+              "price": 6
+            },
+            {
+              "id": "spicy-sauce",
+              "name": "صوص سبايسي",
+              "price": 3
+            },
+            {
+              "id": "cola",
+              "name": "كولا",
+              "price": 6
+            }
+          ]
+        },
+        {
+          "id": "bucket-house-6",
+          "restaurantId": "bucket-house",
+          "name": "ساندويتش تشيكن",
+          "description": "خبز مع دجاج مقرمش وخس ومايونيز.",
+          "image": "https://images.unsplash.com/photo-1571091718767-18b5b1457add?w=800&q=80",
+          "price": 27,
+          "rating": 4.5,
+          "calories": 720,
+          "protein": 32,
+          "carbs": 55,
+          "fat": 34,
+          "category": "menu",
+          "isPopular": false,
+          "isOffer": false,
+          "offerPrice": null,
+          "isCombo": false,
+          "offerKind": null,
+          "comboIncludes": [],
+          "spicyOption": false,
+          "cashbackPercent": null,
+          "addons": [
+            {
+              "id": "extra-piece",
+              "name": "قطعة إضافية",
+              "price": 8
+            },
+            {
+              "id": "large-fries",
+              "name": "بطاطس كبيرة",
+              "price": 10
+            },
+            {
+              "id": "coleslaw",
+              "name": "كول سلو",
+              "price": 6
+            },
+            {
+              "id": "spicy-sauce",
+              "name": "صوص سبايسي",
+              "price": 3
+            },
+            {
+              "id": "cola",
+              "name": "كولا",
+              "price": 6
+            }
+          ]
+        },
+        {
+          "id": "bucket-house-7",
+          "restaurantId": "bucket-house",
+          "name": "بطاطس عائلية",
+          "description": "بطاطس مقلية كبيرة مع توابل.",
+          "image": "https://images.unsplash.com/photo-1573080496219-bb080dd4f877?w=800&q=80",
+          "price": 14,
+          "rating": 4.3,
+          "calories": 420,
+          "protein": 5,
+          "carbs": 52,
+          "fat": 22,
+          "category": "popular",
+          "isPopular": true,
+          "isOffer": false,
+          "offerPrice": null,
+          "isCombo": false,
+          "offerKind": null,
+          "comboIncludes": [],
+          "spicyOption": false,
+          "cashbackPercent": null,
+          "addons": [
+            {
+              "id": "extra-piece",
+              "name": "قطعة إضافية",
+              "price": 8
+            },
+            {
+              "id": "large-fries",
+              "name": "بطاطس كبيرة",
+              "price": 10
+            },
+            {
+              "id": "coleslaw",
+              "name": "كول سلو",
+              "price": 6
+            },
+            {
+              "id": "spicy-sauce",
+              "name": "صوص سبايسي",
+              "price": 3
+            },
+            {
+              "id": "cola",
+              "name": "كولا",
+              "price": 6
+            }
+          ]
+        },
+        {
+          "id": "bucket-house-8",
+          "restaurantId": "bucket-house",
+          "name": "كول سلو",
+          "description": "سلطة ملفوف كريمية.",
+          "image": "https://images.unsplash.com/photo-1551782450-a2132b4ba21d?w=800&q=80",
+          "price": 10,
+          "rating": 4.7,
+          "calories": 180,
+          "protein": 2,
+          "carbs": 14,
+          "fat": 12,
+          "category": "menu",
+          "isPopular": false,
+          "isOffer": false,
+          "offerPrice": null,
+          "isCombo": false,
+          "offerKind": null,
+          "comboIncludes": [],
+          "spicyOption": false,
+          "cashbackPercent": null,
+          "addons": [
+            {
+              "id": "extra-piece",
+              "name": "قطعة إضافية",
+              "price": 8
+            },
+            {
+              "id": "large-fries",
+              "name": "بطاطس كبيرة",
+              "price": 10
+            },
+            {
+              "id": "coleslaw",
+              "name": "كول سلو",
+              "price": 6
+            },
+            {
+              "id": "spicy-sauce",
+              "name": "صوص سبايسي",
+              "price": 3
+            },
+            {
+              "id": "cola",
+              "name": "كولا",
+              "price": 6
+            }
+          ]
+        },
+        {
+          "id": "bucket-house-9",
+          "restaurantId": "bucket-house",
+          "name": "ذرة حلوة",
+          "description": "كوب ذرة بالزبدة.",
+          "image": "https://images.unsplash.com/photo-1551782450-a2132b4ba21d?w=800&q=80",
+          "price": 9,
+          "rating": 4.8,
+          "calories": 160,
+          "protein": 4,
+          "carbs": 28,
+          "fat": 4,
+          "category": "popular",
+          "isPopular": true,
+          "isOffer": false,
+          "offerPrice": null,
+          "isCombo": false,
+          "offerKind": null,
+          "comboIncludes": [],
+          "spicyOption": false,
+          "cashbackPercent": null,
+          "addons": [
+            {
+              "id": "extra-piece",
+              "name": "قطعة إضافية",
+              "price": 8
+            },
+            {
+              "id": "large-fries",
+              "name": "بطاطس كبيرة",
+              "price": 10
+            },
+            {
+              "id": "coleslaw",
+              "name": "كول سلو",
+              "price": 6
+            },
+            {
+              "id": "spicy-sauce",
+              "name": "صوص سبايسي",
+              "price": 3
+            },
+            {
+              "id": "cola",
+              "name": "كولا",
+              "price": 6
+            }
+          ]
+        },
+        {
+          "id": "bucket-house-10",
+          "restaurantId": "bucket-house",
+          "name": "حلقات بصل",
+          "description": "حلقات بصل مقرمشة.",
+          "image": "https://images.unsplash.com/photo-1626645738196-c2a7c87a8f58?w=800&q=80",
+          "price": 12,
+          "rating": 4.2,
+          "calories": 340,
+          "protein": 4,
+          "carbs": 36,
+          "fat": 18,
+          "category": "popular",
+          "isPopular": true,
+          "isOffer": false,
+          "offerPrice": null,
+          "isCombo": false,
+          "offerKind": null,
+          "comboIncludes": [],
+          "spicyOption": false,
+          "cashbackPercent": null,
+          "addons": [
+            {
+              "id": "extra-piece",
+              "name": "قطعة إضافية",
+              "price": 8
+            },
+            {
+              "id": "large-fries",
+              "name": "بطاطس كبيرة",
+              "price": 10
+            },
+            {
+              "id": "coleslaw",
+              "name": "كول سلو",
+              "price": 6
+            },
+            {
+              "id": "spicy-sauce",
+              "name": "صوص سبايسي",
+              "price": 3
+            },
+            {
+              "id": "cola",
+              "name": "كولا",
+              "price": 6
+            }
+          ]
+        },
+        {
+          "id": "bucket-house-offer-1",
+          "restaurantId": "bucket-house",
+          "name": "وجبة دجاج مقرمش فردية",
+          "description": "قطعتان مقرمشتان مع بطاطس وصوص ومشروب.",
+          "image": "https://images.unsplash.com/photo-1571091718767-18b5b1457add?w=800&q=80",
+          "price": 29,
+          "rating": 4.6,
+          "calories": 980,
+          "protein": 42,
+          "carbs": 70,
+          "fat": 48,
+          "category": "offers",
+          "isPopular": false,
+          "isOffer": true,
+          "offerPrice": null,
+          "isCombo": true,
+          "offerKind": "combo",
+          "comboIncludes": [
+            "قطعتان دجاج",
+            "بطاطس",
+            "صوص",
+            "مشروب"
+          ],
+          "spicyOption": true,
+          "cashbackPercent": null,
+          "addons": [
+            {
+              "id": "extra-piece",
+              "name": "قطعة إضافية",
+              "price": 8
+            },
+            {
+              "id": "large-fries",
+              "name": "بطاطس كبيرة",
+              "price": 10
+            },
+            {
+              "id": "coleslaw",
+              "name": "كول سلو",
+              "price": 6
+            },
+            {
+              "id": "spicy-sauce",
+              "name": "صوص سبايسي",
+              "price": 3
+            },
+            {
+              "id": "cola",
+              "name": "كولا",
+              "price": 6
+            }
+          ]
+        },
+        {
+          "id": "bucket-house-offer-2",
+          "restaurantId": "bucket-house",
+          "name": "باكت فرايد تشيكن عائلي لـ 6 أشخاص",
+          "description": "6 قطع دجاج مقرمش مع بطاطس عائلية كبيرة وكول سلو كريمي وذرة حلوة بالزبدة وصلصات متنوعة. تكفي 6 أشخاص.",
+          "image": "/offers/6-fried-chicken.jpg",
+          "price": 82,
+          "rating": 4.6,
+          "calories": 2800,
+          "protein": 140,
+          "carbs": 220,
+          "fat": 150,
+          "category": "offers",
+          "isPopular": false,
+          "isOffer": true,
+          "offerPrice": null,
+          "isCombo": true,
+          "offerKind": "family",
+          "comboIncludes": [
+            "6 قطع دجاج مقرمش",
+            "بطاطس عائلية كبيرة",
+            "كول سلو كريمي",
+            "ذرة حلوة بالزبدة",
+            "صلصات متنوعة",
+            "6 مشروب"
+          ],
+          "spicyOption": true,
+          "cashbackPercent": null,
+          "addons": [
+            {
+              "id": "extra-piece",
+              "name": "قطعة إضافية",
+              "price": 8
+            },
+            {
+              "id": "large-fries",
+              "name": "بطاطس كبيرة",
+              "price": 10
+            },
+            {
+              "id": "coleslaw",
+              "name": "كول سلو",
+              "price": 6
+            },
+            {
+              "id": "spicy-sauce",
+              "name": "صوص سبايسي",
+              "price": 3
+            },
+            {
+              "id": "cola",
+              "name": "كولا",
+              "price": 6
+            }
+          ]
+        },
+        {
+          "id": "bucket-house-offer-3",
+          "restaurantId": "bucket-house",
+          "name": "عرض وينجز مع صوصات",
+          "description": "وينجز حارة مع ثلاث صوصات وبطاطس بسعر واحد.",
+          "image": "https://images.unsplash.com/photo-1626645738196-c2a7c87a8f58?w=800&q=80",
+          "price": 36,
+          "rating": 4.6,
+          "calories": 920,
+          "protein": 38,
+          "carbs": 55,
+          "fat": 48,
+          "category": "offers",
+          "isPopular": false,
+          "isOffer": true,
+          "offerPrice": null,
+          "isCombo": true,
+          "offerKind": "deal",
+          "comboIncludes": [
+            "وينجز",
+            "بطاطس",
+            "صوص ثوم",
+            "صوص سبايسي",
+            "صوص باربكيو"
+          ],
+          "spicyOption": true,
+          "cashbackPercent": null,
+          "addons": [
+            {
+              "id": "extra-piece",
+              "name": "قطعة إضافية",
+              "price": 8
+            },
+            {
+              "id": "large-fries",
+              "name": "بطاطس كبيرة",
+              "price": 10
+            },
+            {
+              "id": "coleslaw",
+              "name": "كول سلو",
+              "price": 6
+            },
+            {
+              "id": "spicy-sauce",
+              "name": "صوص سبايسي",
+              "price": 3
+            },
+            {
+              "id": "cola",
+              "name": "كولا",
+              "price": 6
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "crunch-yard",
+      "name": "ساحة المقرمش",
+      "image": "https://images.unsplash.com/photo-1562967916-eb82221dfb92?w=800&q=80",
+      "rating": 4.5,
+      "cuisine": "فرايد تشيكن",
+      "deliveryTime": "30–45 د",
+      "deliveryFee": 8,
+      "minOrder": 40,
+      "distanceKm": 2.4,
+      "verified": true,
+      "tags": [
+        "فرايد تشيكن",
+        "دجاج مقرمش",
+        "باكت"
+      ],
+      "featured": null,
+      "open24h": null,
+      "fastDelivery": null,
+      "meals": [
+        {
+          "id": "crunch-yard-1",
+          "restaurantId": "crunch-yard",
+          "name": "باكت ٣ قطع",
+          "description": "ثلاث قطع دجاج مقرمشة مع صوص.",
+          "image": "https://images.unsplash.com/photo-1626645738196-c2a7c87a8f58?w=800&q=80",
+          "price": 28,
+          "rating": 4.5,
+          "calories": 780,
+          "protein": 42,
+          "carbs": 35,
+          "fat": 40,
+          "category": "popular",
+          "isPopular": true,
+          "isOffer": false,
+          "offerPrice": null,
+          "isCombo": false,
+          "offerKind": null,
+          "comboIncludes": [],
+          "spicyOption": true,
+          "cashbackPercent": null,
+          "addons": [
+            {
+              "id": "extra-piece",
+              "name": "قطعة إضافية",
+              "price": 8
+            },
+            {
+              "id": "large-fries",
+              "name": "بطاطس كبيرة",
+              "price": 10
+            },
+            {
+              "id": "coleslaw",
+              "name": "كول سلو",
+              "price": 6
+            },
+            {
+              "id": "spicy-sauce",
+              "name": "صوص سبايسي",
+              "price": 3
+            },
+            {
+              "id": "cola",
+              "name": "كولا",
+              "price": 6
+            }
+          ]
+        },
+        {
+          "id": "crunch-yard-2",
+          "restaurantId": "crunch-yard",
+          "name": "ستربس دجاج",
+          "description": "أصابع دجاج مقرمشة مع صوصات.",
+          "image": "https://images.unsplash.com/photo-1571091718767-18b5b1457add?w=800&q=80",
+          "price": 26,
+          "rating": 4.1,
+          "calories": 640,
+          "protein": 36,
+          "carbs": 38,
+          "fat": 28,
+          "category": "popular",
+          "isPopular": true,
+          "isOffer": false,
+          "offerPrice": null,
+          "isCombo": false,
+          "offerKind": null,
+          "comboIncludes": [],
+          "spicyOption": false,
+          "cashbackPercent": null,
+          "addons": [
+            {
+              "id": "extra-piece",
+              "name": "قطعة إضافية",
+              "price": 8
+            },
+            {
+              "id": "large-fries",
+              "name": "بطاطس كبيرة",
+              "price": 10
+            },
+            {
+              "id": "coleslaw",
+              "name": "كول سلو",
+              "price": 6
+            },
+            {
+              "id": "spicy-sauce",
+              "name": "صوص سبايسي",
+              "price": 3
+            },
+            {
+              "id": "cola",
+              "name": "كولا",
+              "price": 6
+            }
+          ]
+        },
+        {
+          "id": "crunch-yard-3",
+          "restaurantId": "crunch-yard",
+          "name": "وينجز حارة",
+          "description": "أجنحة دجاج بصلصة حارة.",
+          "image": "https://images.unsplash.com/photo-1626645738196-c2a7c87a8f58?w=800&q=80",
+          "price": 24,
+          "rating": 4.2,
+          "calories": 520,
+          "protein": 28,
+          "carbs": 18,
+          "fat": 32,
+          "category": "popular",
+          "isPopular": true,
+          "isOffer": false,
+          "offerPrice": null,
+          "isCombo": false,
+          "offerKind": null,
+          "comboIncludes": [],
+          "spicyOption": true,
+          "cashbackPercent": null,
+          "addons": [
+            {
+              "id": "extra-piece",
+              "name": "قطعة إضافية",
+              "price": 8
+            },
+            {
+              "id": "large-fries",
+              "name": "بطاطس كبيرة",
+              "price": 10
+            },
+            {
+              "id": "coleslaw",
+              "name": "كول سلو",
+              "price": 6
+            },
+            {
+              "id": "spicy-sauce",
+              "name": "صوص سبايسي",
+              "price": 3
+            },
+            {
+              "id": "cola",
+              "name": "كولا",
+              "price": 6
+            }
+          ]
+        },
+        {
+          "id": "crunch-yard-4",
+          "restaurantId": "crunch-yard",
+          "name": "فخذ مقرمشة",
+          "description": "فخذ دجاج متبلة ومقلية.",
+          "image": "https://images.unsplash.com/photo-1571091718767-18b5b1457add?w=800&q=80",
+          "price": 22,
+          "rating": 4.7,
+          "calories": 480,
+          "protein": 30,
+          "carbs": 12,
+          "fat": 28,
+          "category": "menu",
+          "isPopular": false,
+          "isOffer": false,
+          "offerPrice": null,
+          "isCombo": false,
+          "offerKind": null,
+          "comboIncludes": [],
+          "spicyOption": false,
+          "cashbackPercent": null,
+          "addons": [
+            {
+              "id": "extra-piece",
+              "name": "قطعة إضافية",
+              "price": 8
+            },
+            {
+              "id": "large-fries",
+              "name": "بطاطس كبيرة",
+              "price": 10
+            },
+            {
+              "id": "coleslaw",
+              "name": "كول سلو",
+              "price": 6
+            },
+            {
+              "id": "spicy-sauce",
+              "name": "صوص سبايسي",
+              "price": 3
+            },
+            {
+              "id": "cola",
+              "name": "كولا",
+              "price": 6
+            }
+          ]
+        },
+        {
+          "id": "crunch-yard-5",
+          "restaurantId": "crunch-yard",
+          "name": "صدر كريسبي",
+          "description": "صدر دجاج مقرمش كامل.",
+          "image": "https://images.unsplash.com/photo-1571091718767-18b5b1457add?w=800&q=80",
+          "price": 30,
+          "rating": 4.2,
+          "calories": 560,
+          "protein": 38,
+          "carbs": 20,
+          "fat": 26,
+          "category": "menu",
+          "isPopular": false,
+          "isOffer": false,
+          "offerPrice": null,
+          "isCombo": false,
+          "offerKind": null,
+          "comboIncludes": [],
+          "spicyOption": false,
+          "cashbackPercent": null,
+          "addons": [
+            {
+              "id": "extra-piece",
+              "name": "قطعة إضافية",
+              "price": 8
+            },
+            {
+              "id": "large-fries",
+              "name": "بطاطس كبيرة",
+              "price": 10
+            },
+            {
+              "id": "coleslaw",
+              "name": "كول سلو",
+              "price": 6
+            },
+            {
+              "id": "spicy-sauce",
+              "name": "صوص سبايسي",
+              "price": 3
+            },
+            {
+              "id": "cola",
+              "name": "كولا",
+              "price": 6
+            }
+          ]
+        },
+        {
+          "id": "crunch-yard-6",
+          "restaurantId": "crunch-yard",
+          "name": "ساندويتش تشيكن",
+          "description": "خبز مع دجاج مقرمش وخس ومايونيز.",
+          "image": "https://images.unsplash.com/photo-1571091718767-18b5b1457add?w=800&q=80",
+          "price": 27,
+          "rating": 4.2,
+          "calories": 720,
+          "protein": 32,
+          "carbs": 55,
+          "fat": 34,
+          "category": "popular",
+          "isPopular": true,
+          "isOffer": false,
+          "offerPrice": null,
+          "isCombo": false,
+          "offerKind": null,
+          "comboIncludes": [],
+          "spicyOption": false,
+          "cashbackPercent": null,
+          "addons": [
+            {
+              "id": "extra-piece",
+              "name": "قطعة إضافية",
+              "price": 8
+            },
+            {
+              "id": "large-fries",
+              "name": "بطاطس كبيرة",
+              "price": 10
+            },
+            {
+              "id": "coleslaw",
+              "name": "كول سلو",
+              "price": 6
+            },
+            {
+              "id": "spicy-sauce",
+              "name": "صوص سبايسي",
+              "price": 3
+            },
+            {
+              "id": "cola",
+              "name": "كولا",
+              "price": 6
+            }
+          ]
+        },
+        {
+          "id": "crunch-yard-7",
+          "restaurantId": "crunch-yard",
+          "name": "بطاطس عائلية",
+          "description": "بطاطس مقلية كبيرة مع توابل.",
+          "image": "https://images.unsplash.com/photo-1573080496219-bb080dd4f877?w=800&q=80",
+          "price": 14,
+          "rating": 4.2,
+          "calories": 420,
+          "protein": 5,
+          "carbs": 52,
+          "fat": 22,
+          "category": "popular",
+          "isPopular": true,
+          "isOffer": false,
+          "offerPrice": null,
+          "isCombo": false,
+          "offerKind": null,
+          "comboIncludes": [],
+          "spicyOption": false,
+          "cashbackPercent": null,
+          "addons": [
+            {
+              "id": "extra-piece",
+              "name": "قطعة إضافية",
+              "price": 8
+            },
+            {
+              "id": "large-fries",
+              "name": "بطاطس كبيرة",
+              "price": 10
+            },
+            {
+              "id": "coleslaw",
+              "name": "كول سلو",
+              "price": 6
+            },
+            {
+              "id": "spicy-sauce",
+              "name": "صوص سبايسي",
+              "price": 3
+            },
+            {
+              "id": "cola",
+              "name": "كولا",
+              "price": 6
+            }
+          ]
+        },
+        {
+          "id": "crunch-yard-8",
+          "restaurantId": "crunch-yard",
+          "name": "كول سلو",
+          "description": "سلطة ملفوف كريمية.",
+          "image": "https://images.unsplash.com/photo-1571091718767-18b5b1457add?w=800&q=80",
+          "price": 10,
+          "rating": 4.2,
+          "calories": 180,
+          "protein": 2,
+          "carbs": 14,
+          "fat": 12,
+          "category": "menu",
+          "isPopular": false,
+          "isOffer": false,
+          "offerPrice": null,
+          "isCombo": false,
+          "offerKind": null,
+          "comboIncludes": [],
+          "spicyOption": false,
+          "cashbackPercent": null,
+          "addons": [
+            {
+              "id": "extra-piece",
+              "name": "قطعة إضافية",
+              "price": 8
+            },
+            {
+              "id": "large-fries",
+              "name": "بطاطس كبيرة",
+              "price": 10
+            },
+            {
+              "id": "coleslaw",
+              "name": "كول سلو",
+              "price": 6
+            },
+            {
+              "id": "spicy-sauce",
+              "name": "صوص سبايسي",
+              "price": 3
+            },
+            {
+              "id": "cola",
+              "name": "كولا",
+              "price": 6
+            }
+          ]
+        },
+        {
+          "id": "crunch-yard-9",
+          "restaurantId": "crunch-yard",
+          "name": "ذرة حلوة",
+          "description": "كوب ذرة بالزبدة.",
+          "image": "https://images.unsplash.com/photo-1551782450-a2132b4ba21d?w=800&q=80",
+          "price": 9,
+          "rating": 4.7,
+          "calories": 160,
+          "protein": 4,
+          "carbs": 28,
+          "fat": 4,
+          "category": "menu",
+          "isPopular": false,
+          "isOffer": false,
+          "offerPrice": null,
+          "isCombo": false,
+          "offerKind": null,
+          "comboIncludes": [],
+          "spicyOption": false,
+          "cashbackPercent": null,
+          "addons": [
+            {
+              "id": "extra-piece",
+              "name": "قطعة إضافية",
+              "price": 8
+            },
+            {
+              "id": "large-fries",
+              "name": "بطاطس كبيرة",
+              "price": 10
+            },
+            {
+              "id": "coleslaw",
+              "name": "كول سلو",
+              "price": 6
+            },
+            {
+              "id": "spicy-sauce",
+              "name": "صوص سبايسي",
+              "price": 3
+            },
+            {
+              "id": "cola",
+              "name": "كولا",
+              "price": 6
+            }
+          ]
+        },
+        {
+          "id": "crunch-yard-10",
+          "restaurantId": "crunch-yard",
+          "name": "حلقات بصل",
+          "description": "حلقات بصل مقرمشة.",
+          "image": "https://images.unsplash.com/photo-1626645738196-c2a7c87a8f58?w=800&q=80",
+          "price": 12,
+          "rating": 4.4,
+          "calories": 340,
+          "protein": 4,
+          "carbs": 36,
+          "fat": 18,
+          "category": "menu",
+          "isPopular": false,
+          "isOffer": false,
+          "offerPrice": null,
+          "isCombo": false,
+          "offerKind": null,
+          "comboIncludes": [],
+          "spicyOption": false,
+          "cashbackPercent": null,
+          "addons": [
+            {
+              "id": "extra-piece",
+              "name": "قطعة إضافية",
+              "price": 8
+            },
+            {
+              "id": "large-fries",
+              "name": "بطاطس كبيرة",
+              "price": 10
+            },
+            {
+              "id": "coleslaw",
+              "name": "كول سلو",
+              "price": 6
+            },
+            {
+              "id": "spicy-sauce",
+              "name": "صوص سبايسي",
+              "price": 3
+            },
+            {
+              "id": "cola",
+              "name": "كولا",
+              "price": 6
+            }
+          ]
+        },
+        {
+          "id": "crunch-yard-offer-1",
+          "restaurantId": "crunch-yard",
+          "name": "وجبة دجاج مقرمش فردية",
+          "description": "قطعتان مقرمشتان مع بطاطس وصوص ومشروب.",
+          "image": "https://images.unsplash.com/photo-1571091718767-18b5b1457add?w=800&q=80",
+          "price": 29,
+          "rating": 4.6,
+          "calories": 980,
+          "protein": 42,
+          "carbs": 70,
+          "fat": 48,
+          "category": "offers",
+          "isPopular": false,
+          "isOffer": true,
+          "offerPrice": null,
+          "isCombo": true,
+          "offerKind": "combo",
+          "comboIncludes": [
+            "قطعتان دجاج",
+            "بطاطس",
+            "صوص",
+            "مشروب"
+          ],
+          "spicyOption": true,
+          "cashbackPercent": null,
+          "addons": [
+            {
+              "id": "extra-piece",
+              "name": "قطعة إضافية",
+              "price": 8
+            },
+            {
+              "id": "large-fries",
+              "name": "بطاطس كبيرة",
+              "price": 10
+            },
+            {
+              "id": "coleslaw",
+              "name": "كول سلو",
+              "price": 6
+            },
+            {
+              "id": "spicy-sauce",
+              "name": "صوص سبايسي",
+              "price": 3
+            },
+            {
+              "id": "cola",
+              "name": "كولا",
+              "price": 6
+            }
+          ]
+        },
+        {
+          "id": "crunch-yard-offer-2",
+          "restaurantId": "crunch-yard",
+          "name": "باكت فرايد تشيكن عائلي لـ 5 أشخاص",
+          "description": "5 قطع دجاج مقرمش مع بطاطس عائلية كبيرة وكول سلو كريمي وذرة حلوة بالزبدة وصلصات متنوعة. تكفي 5 أشخاص.",
+          "image": "/offers/5-fried-chicken.jpg",
+          "price": 82,
+          "rating": 4.6,
+          "calories": 2800,
+          "protein": 140,
+          "carbs": 220,
+          "fat": 150,
+          "category": "offers",
+          "isPopular": false,
+          "isOffer": true,
+          "offerPrice": null,
+          "isCombo": true,
+          "offerKind": "family",
+          "comboIncludes": [
+            "5 قطع دجاج مقرمش",
+            "بطاطس عائلية كبيرة",
+            "كول سلو كريمي",
+            "ذرة حلوة بالزبدة",
+            "صلصات متنوعة",
+            "5 مشروب"
+          ],
+          "spicyOption": true,
+          "cashbackPercent": null,
+          "addons": [
+            {
+              "id": "extra-piece",
+              "name": "قطعة إضافية",
+              "price": 8
+            },
+            {
+              "id": "large-fries",
+              "name": "بطاطس كبيرة",
+              "price": 10
+            },
+            {
+              "id": "coleslaw",
+              "name": "كول سلو",
+              "price": 6
+            },
+            {
+              "id": "spicy-sauce",
+              "name": "صوص سبايسي",
+              "price": 3
+            },
+            {
+              "id": "cola",
+              "name": "كولا",
+              "price": 6
+            }
+          ]
+        },
+        {
+          "id": "crunch-yard-offer-3",
+          "restaurantId": "crunch-yard",
+          "name": "عرض وينجز مع صوصات",
+          "description": "وينجز حارة مع ثلاث صوصات وبطاطس بسعر واحد.",
+          "image": "https://images.unsplash.com/photo-1626645738196-c2a7c87a8f58?w=800&q=80",
+          "price": 36,
+          "rating": 4.6,
+          "calories": 920,
+          "protein": 38,
+          "carbs": 55,
+          "fat": 48,
+          "category": "offers",
+          "isPopular": false,
+          "isOffer": true,
+          "offerPrice": null,
+          "isCombo": true,
+          "offerKind": "deal",
+          "comboIncludes": [
+            "وينجز",
+            "بطاطس",
+            "صوص ثوم",
+            "صوص سبايسي",
+            "صوص باربكيو"
+          ],
+          "spicyOption": true,
+          "cashbackPercent": null,
+          "addons": [
+            {
+              "id": "extra-piece",
+              "name": "قطعة إضافية",
+              "price": 8
+            },
+            {
+              "id": "large-fries",
+              "name": "بطاطس كبيرة",
+              "price": 10
+            },
+            {
+              "id": "coleslaw",
+              "name": "كول سلو",
+              "price": 6
+            },
+            {
+              "id": "spicy-sauce",
+              "name": "صوص سبايسي",
+              "price": 3
+            },
+            {
+              "id": "cola",
+              "name": "كولا",
+              "price": 6
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "wing-street",
+      "name": "شارع الوينجز",
+      "image": "https://images.unsplash.com/photo-1571091718767-18b5b1457add?w=800&q=80",
+      "rating": 4.4,
+      "cuisine": "فرايد تشيكن",
+      "deliveryTime": "40–55 د",
+      "deliveryFee": 0,
+      "minOrder": 45,
+      "distanceKm": 2.5,
+      "verified": true,
+      "tags": [
+        "فرايد تشيكن",
+        "دجاج مقرمش",
+        "باكت"
+      ],
+      "featured": null,
+      "open24h": null,
+      "fastDelivery": true,
+      "meals": [
+        {
+          "id": "wing-street-1",
+          "restaurantId": "wing-street",
+          "name": "باكت ٣ قطع",
+          "description": "ثلاث قطع دجاج مقرمشة مع صوص.",
+          "image": "https://images.unsplash.com/photo-1551782450-a2132b4ba21d?w=800&q=80",
+          "price": 28,
+          "rating": 4.9,
+          "calories": 780,
+          "protein": 42,
+          "carbs": 35,
+          "fat": 40,
+          "category": "menu",
+          "isPopular": false,
+          "isOffer": false,
+          "offerPrice": null,
+          "isCombo": false,
+          "offerKind": null,
+          "comboIncludes": [],
+          "spicyOption": true,
+          "cashbackPercent": null,
+          "addons": [
+            {
+              "id": "extra-piece",
+              "name": "قطعة إضافية",
+              "price": 8
+            },
+            {
+              "id": "large-fries",
+              "name": "بطاطس كبيرة",
+              "price": 10
+            },
+            {
+              "id": "coleslaw",
+              "name": "كول سلو",
+              "price": 6
+            },
+            {
+              "id": "spicy-sauce",
+              "name": "صوص سبايسي",
+              "price": 3
+            },
+            {
+              "id": "cola",
+              "name": "كولا",
+              "price": 6
+            }
+          ]
+        },
+        {
+          "id": "wing-street-2",
+          "restaurantId": "wing-street",
+          "name": "ستربس دجاج",
+          "description": "أصابع دجاج مقرمشة مع صوصات.",
+          "image": "https://images.unsplash.com/photo-1571091718767-18b5b1457add?w=800&q=80",
+          "price": 26,
+          "rating": 4.5,
+          "calories": 640,
+          "protein": 36,
+          "carbs": 38,
+          "fat": 28,
+          "category": "menu",
+          "isPopular": false,
+          "isOffer": false,
+          "offerPrice": null,
+          "isCombo": false,
+          "offerKind": null,
+          "comboIncludes": [],
+          "spicyOption": false,
+          "cashbackPercent": null,
+          "addons": [
+            {
+              "id": "extra-piece",
+              "name": "قطعة إضافية",
+              "price": 8
+            },
+            {
+              "id": "large-fries",
+              "name": "بطاطس كبيرة",
+              "price": 10
+            },
+            {
+              "id": "coleslaw",
+              "name": "كول سلو",
+              "price": 6
+            },
+            {
+              "id": "spicy-sauce",
+              "name": "صوص سبايسي",
+              "price": 3
+            },
+            {
+              "id": "cola",
+              "name": "كولا",
+              "price": 6
+            }
+          ]
+        },
+        {
+          "id": "wing-street-3",
+          "restaurantId": "wing-street",
+          "name": "وينجز حارة",
+          "description": "أجنحة دجاج بصلصة حارة.",
+          "image": "https://images.unsplash.com/photo-1626645738196-c2a7c87a8f58?w=800&q=80",
+          "price": 24,
+          "rating": 4.5,
+          "calories": 520,
+          "protein": 28,
+          "carbs": 18,
+          "fat": 32,
+          "category": "menu",
+          "isPopular": false,
+          "isOffer": false,
+          "offerPrice": null,
+          "isCombo": false,
+          "offerKind": null,
+          "comboIncludes": [],
+          "spicyOption": true,
+          "cashbackPercent": null,
+          "addons": [
+            {
+              "id": "extra-piece",
+              "name": "قطعة إضافية",
+              "price": 8
+            },
+            {
+              "id": "large-fries",
+              "name": "بطاطس كبيرة",
+              "price": 10
+            },
+            {
+              "id": "coleslaw",
+              "name": "كول سلو",
+              "price": 6
+            },
+            {
+              "id": "spicy-sauce",
+              "name": "صوص سبايسي",
+              "price": 3
+            },
+            {
+              "id": "cola",
+              "name": "كولا",
+              "price": 6
+            }
+          ]
+        },
+        {
+          "id": "wing-street-4",
+          "restaurantId": "wing-street",
+          "name": "فخذ مقرمشة",
+          "description": "فخذ دجاج متبلة ومقلية.",
+          "image": "https://images.unsplash.com/photo-1571091718767-18b5b1457add?w=800&q=80",
+          "price": 22,
+          "rating": 4.5,
+          "calories": 480,
+          "protein": 30,
+          "carbs": 12,
+          "fat": 28,
+          "category": "menu",
+          "isPopular": false,
+          "isOffer": false,
+          "offerPrice": null,
+          "isCombo": false,
+          "offerKind": null,
+          "comboIncludes": [],
+          "spicyOption": false,
+          "cashbackPercent": null,
+          "addons": [
+            {
+              "id": "extra-piece",
+              "name": "قطعة إضافية",
+              "price": 8
+            },
+            {
+              "id": "large-fries",
+              "name": "بطاطس كبيرة",
+              "price": 10
+            },
+            {
+              "id": "coleslaw",
+              "name": "كول سلو",
+              "price": 6
+            },
+            {
+              "id": "spicy-sauce",
+              "name": "صوص سبايسي",
+              "price": 3
+            },
+            {
+              "id": "cola",
+              "name": "كولا",
+              "price": 6
+            }
+          ]
+        },
+        {
+          "id": "wing-street-5",
+          "restaurantId": "wing-street",
+          "name": "صدر كريسبي",
+          "description": "صدر دجاج مقرمش كامل.",
+          "image": "https://images.unsplash.com/photo-1551782450-a2132b4ba21d?w=800&q=80",
+          "price": 30,
+          "rating": 4.2,
+          "calories": 560,
+          "protein": 38,
+          "carbs": 20,
+          "fat": 26,
+          "category": "popular",
+          "isPopular": true,
+          "isOffer": false,
+          "offerPrice": null,
+          "isCombo": false,
+          "offerKind": null,
+          "comboIncludes": [],
+          "spicyOption": false,
+          "cashbackPercent": null,
+          "addons": [
+            {
+              "id": "extra-piece",
+              "name": "قطعة إضافية",
+              "price": 8
+            },
+            {
+              "id": "large-fries",
+              "name": "بطاطس كبيرة",
+              "price": 10
+            },
+            {
+              "id": "coleslaw",
+              "name": "كول سلو",
+              "price": 6
+            },
+            {
+              "id": "spicy-sauce",
+              "name": "صوص سبايسي",
+              "price": 3
+            },
+            {
+              "id": "cola",
+              "name": "كولا",
+              "price": 6
+            }
+          ]
+        },
+        {
+          "id": "wing-street-6",
+          "restaurantId": "wing-street",
+          "name": "ساندويتش تشيكن",
+          "description": "خبز مع دجاج مقرمش وخس ومايونيز.",
+          "image": "https://images.unsplash.com/photo-1571091718767-18b5b1457add?w=800&q=80",
+          "price": 27,
+          "rating": 4.8,
+          "calories": 720,
+          "protein": 32,
+          "carbs": 55,
+          "fat": 34,
+          "category": "menu",
+          "isPopular": false,
+          "isOffer": false,
+          "offerPrice": null,
+          "isCombo": false,
+          "offerKind": null,
+          "comboIncludes": [],
+          "spicyOption": false,
+          "cashbackPercent": null,
+          "addons": [
+            {
+              "id": "extra-piece",
+              "name": "قطعة إضافية",
+              "price": 8
+            },
+            {
+              "id": "large-fries",
+              "name": "بطاطس كبيرة",
+              "price": 10
+            },
+            {
+              "id": "coleslaw",
+              "name": "كول سلو",
+              "price": 6
+            },
+            {
+              "id": "spicy-sauce",
+              "name": "صوص سبايسي",
+              "price": 3
+            },
+            {
+              "id": "cola",
+              "name": "كولا",
+              "price": 6
+            }
+          ]
+        },
+        {
+          "id": "wing-street-7",
+          "restaurantId": "wing-street",
+          "name": "بطاطس عائلية",
+          "description": "بطاطس مقلية كبيرة مع توابل.",
+          "image": "https://images.unsplash.com/photo-1573080496219-bb080dd4f877?w=800&q=80",
+          "price": 14,
+          "rating": 4.5,
+          "calories": 420,
+          "protein": 5,
+          "carbs": 52,
+          "fat": 22,
+          "category": "popular",
+          "isPopular": true,
+          "isOffer": false,
+          "offerPrice": null,
+          "isCombo": false,
+          "offerKind": null,
+          "comboIncludes": [],
+          "spicyOption": false,
+          "cashbackPercent": null,
+          "addons": [
+            {
+              "id": "extra-piece",
+              "name": "قطعة إضافية",
+              "price": 8
+            },
+            {
+              "id": "large-fries",
+              "name": "بطاطس كبيرة",
+              "price": 10
+            },
+            {
+              "id": "coleslaw",
+              "name": "كول سلو",
+              "price": 6
+            },
+            {
+              "id": "spicy-sauce",
+              "name": "صوص سبايسي",
+              "price": 3
+            },
+            {
+              "id": "cola",
+              "name": "كولا",
+              "price": 6
+            }
+          ]
+        },
+        {
+          "id": "wing-street-8",
+          "restaurantId": "wing-street",
+          "name": "كول سلو",
+          "description": "سلطة ملفوف كريمية.",
+          "image": "https://images.unsplash.com/photo-1551782450-a2132b4ba21d?w=800&q=80",
+          "price": 10,
+          "rating": 4.7,
+          "calories": 180,
+          "protein": 2,
+          "carbs": 14,
+          "fat": 12,
+          "category": "popular",
+          "isPopular": true,
+          "isOffer": false,
+          "offerPrice": null,
+          "isCombo": false,
+          "offerKind": null,
+          "comboIncludes": [],
+          "spicyOption": false,
+          "cashbackPercent": null,
+          "addons": [
+            {
+              "id": "extra-piece",
+              "name": "قطعة إضافية",
+              "price": 8
+            },
+            {
+              "id": "large-fries",
+              "name": "بطاطس كبيرة",
+              "price": 10
+            },
+            {
+              "id": "coleslaw",
+              "name": "كول سلو",
+              "price": 6
+            },
+            {
+              "id": "spicy-sauce",
+              "name": "صوص سبايسي",
+              "price": 3
+            },
+            {
+              "id": "cola",
+              "name": "كولا",
+              "price": 6
+            }
+          ]
+        },
+        {
+          "id": "wing-street-9",
+          "restaurantId": "wing-street",
+          "name": "ذرة حلوة",
+          "description": "كوب ذرة بالزبدة.",
+          "image": "https://images.unsplash.com/photo-1551782450-a2132b4ba21d?w=800&q=80",
+          "price": 9,
+          "rating": 4.8,
+          "calories": 160,
+          "protein": 4,
+          "carbs": 28,
+          "fat": 4,
+          "category": "popular",
+          "isPopular": true,
+          "isOffer": false,
+          "offerPrice": null,
+          "isCombo": false,
+          "offerKind": null,
+          "comboIncludes": [],
+          "spicyOption": false,
+          "cashbackPercent": null,
+          "addons": [
+            {
+              "id": "extra-piece",
+              "name": "قطعة إضافية",
+              "price": 8
+            },
+            {
+              "id": "large-fries",
+              "name": "بطاطس كبيرة",
+              "price": 10
+            },
+            {
+              "id": "coleslaw",
+              "name": "كول سلو",
+              "price": 6
+            },
+            {
+              "id": "spicy-sauce",
+              "name": "صوص سبايسي",
+              "price": 3
+            },
+            {
+              "id": "cola",
+              "name": "كولا",
+              "price": 6
+            }
+          ]
+        },
+        {
+          "id": "wing-street-10",
+          "restaurantId": "wing-street",
+          "name": "حلقات بصل",
+          "description": "حلقات بصل مقرمشة.",
+          "image": "https://images.unsplash.com/photo-1626645738196-c2a7c87a8f58?w=800&q=80",
+          "price": 12,
+          "rating": 4.2,
+          "calories": 340,
+          "protein": 4,
+          "carbs": 36,
+          "fat": 18,
+          "category": "menu",
+          "isPopular": false,
+          "isOffer": false,
+          "offerPrice": null,
+          "isCombo": false,
+          "offerKind": null,
+          "comboIncludes": [],
+          "spicyOption": false,
+          "cashbackPercent": null,
+          "addons": [
+            {
+              "id": "extra-piece",
+              "name": "قطعة إضافية",
+              "price": 8
+            },
+            {
+              "id": "large-fries",
+              "name": "بطاطس كبيرة",
+              "price": 10
+            },
+            {
+              "id": "coleslaw",
+              "name": "كول سلو",
+              "price": 6
+            },
+            {
+              "id": "spicy-sauce",
+              "name": "صوص سبايسي",
+              "price": 3
+            },
+            {
+              "id": "cola",
+              "name": "كولا",
+              "price": 6
+            }
+          ]
+        },
+        {
+          "id": "wing-street-offer-1",
+          "restaurantId": "wing-street",
+          "name": "وجبة دجاج مقرمش فردية",
+          "description": "قطعتان مقرمشتان مع بطاطس وصوص ومشروب.",
+          "image": "https://images.unsplash.com/photo-1571091718767-18b5b1457add?w=800&q=80",
+          "price": 29,
+          "rating": 4.6,
+          "calories": 980,
+          "protein": 42,
+          "carbs": 70,
+          "fat": 48,
+          "category": "offers",
+          "isPopular": false,
+          "isOffer": true,
+          "offerPrice": null,
+          "isCombo": true,
+          "offerKind": "combo",
+          "comboIncludes": [
+            "قطعتان دجاج",
+            "بطاطس",
+            "صوص",
+            "مشروب"
+          ],
+          "spicyOption": true,
+          "cashbackPercent": null,
+          "addons": [
+            {
+              "id": "extra-piece",
+              "name": "قطعة إضافية",
+              "price": 8
+            },
+            {
+              "id": "large-fries",
+              "name": "بطاطس كبيرة",
+              "price": 10
+            },
+            {
+              "id": "coleslaw",
+              "name": "كول سلو",
+              "price": 6
+            },
+            {
+              "id": "spicy-sauce",
+              "name": "صوص سبايسي",
+              "price": 3
+            },
+            {
+              "id": "cola",
+              "name": "كولا",
+              "price": 6
+            }
+          ]
+        },
+        {
+          "id": "wing-street-offer-2",
+          "restaurantId": "wing-street",
+          "name": "باكت فرايد تشيكن عائلي لـ 4 أشخاص",
+          "description": "4 قطع دجاج مقرمش مع بطاطس عائلية كبيرة وكول سلو كريمي وذرة حلوة بالزبدة وصلصات متنوعة. تكفي 4 أشخاص.",
+          "image": "/offers/4-fried-chicken.jpg",
+          "price": 80,
+          "rating": 4.6,
+          "calories": 2800,
+          "protein": 140,
+          "carbs": 220,
+          "fat": 150,
+          "category": "offers",
+          "isPopular": false,
+          "isOffer": true,
+          "offerPrice": null,
+          "isCombo": true,
+          "offerKind": "family",
+          "comboIncludes": [
+            "4 قطع دجاج مقرمش",
+            "بطاطس عائلية كبيرة",
+            "كول سلو كريمي",
+            "ذرة حلوة بالزبدة",
+            "صلصات متنوعة",
+            "4 مشروب"
+          ],
+          "spicyOption": true,
+          "cashbackPercent": null,
+          "addons": [
+            {
+              "id": "extra-piece",
+              "name": "قطعة إضافية",
+              "price": 8
+            },
+            {
+              "id": "large-fries",
+              "name": "بطاطس كبيرة",
+              "price": 10
+            },
+            {
+              "id": "coleslaw",
+              "name": "كول سلو",
+              "price": 6
+            },
+            {
+              "id": "spicy-sauce",
+              "name": "صوص سبايسي",
+              "price": 3
+            },
+            {
+              "id": "cola",
+              "name": "كولا",
+              "price": 6
+            }
+          ]
+        },
+        {
+          "id": "wing-street-offer-3",
+          "restaurantId": "wing-street",
+          "name": "عرض وينجز مع صوصات",
+          "description": "وينجز حارة مع ثلاث صوصات وبطاطس بسعر واحد.",
+          "image": "https://images.unsplash.com/photo-1626645738196-c2a7c87a8f58?w=800&q=80",
+          "price": 36,
+          "rating": 4.6,
+          "calories": 920,
+          "protein": 38,
+          "carbs": 55,
+          "fat": 48,
+          "category": "offers",
+          "isPopular": false,
+          "isOffer": true,
+          "offerPrice": null,
+          "isCombo": true,
+          "offerKind": "deal",
+          "comboIncludes": [
+            "وينجز",
+            "بطاطس",
+            "صوص ثوم",
+            "صوص سبايسي",
+            "صوص باربكيو"
+          ],
+          "spicyOption": true,
+          "cashbackPercent": null,
+          "addons": [
+            {
+              "id": "extra-piece",
+              "name": "قطعة إضافية",
+              "price": 8
+            },
+            {
+              "id": "large-fries",
+              "name": "بطاطس كبيرة",
+              "price": 10
+            },
+            {
+              "id": "coleslaw",
+              "name": "كول سلو",
+              "price": 6
+            },
+            {
+              "id": "spicy-sauce",
+              "name": "صوص سبايسي",
+              "price": 3
+            },
+            {
+              "id": "cola",
+              "name": "كولا",
+              "price": 6
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "family-fry",
+      "name": "فرايد العائلة",
+      "image": "https://images.unsplash.com/photo-1571091718767-18b5b1457add?w=800&q=80",
+      "rating": 4.4,
+      "cuisine": "فرايد تشيكن",
+      "deliveryTime": "35–50 د",
+      "deliveryFee": 0,
+      "minOrder": 40,
+      "distanceKm": 3.5,
+      "verified": null,
+      "tags": [
+        "فرايد تشيكن",
+        "دجاج مقرمش",
+        "باكت"
+      ],
+      "featured": null,
+      "open24h": null,
+      "fastDelivery": null,
+      "meals": [
+        {
+          "id": "family-fry-1",
+          "restaurantId": "family-fry",
+          "name": "باكت ٣ قطع",
+          "description": "ثلاث قطع دجاج مقرمشة مع صوص.",
+          "image": "https://images.unsplash.com/photo-1571091718767-18b5b1457add?w=800&q=80",
+          "price": 28,
+          "rating": 4.3,
+          "calories": 780,
+          "protein": 42,
+          "carbs": 35,
+          "fat": 40,
+          "category": "menu",
+          "isPopular": false,
+          "isOffer": false,
+          "offerPrice": null,
+          "isCombo": false,
+          "offerKind": null,
+          "comboIncludes": [],
+          "spicyOption": true,
+          "cashbackPercent": null,
+          "addons": [
+            {
+              "id": "extra-piece",
+              "name": "قطعة إضافية",
+              "price": 8
+            },
+            {
+              "id": "large-fries",
+              "name": "بطاطس كبيرة",
+              "price": 10
+            },
+            {
+              "id": "coleslaw",
+              "name": "كول سلو",
+              "price": 6
+            },
+            {
+              "id": "spicy-sauce",
+              "name": "صوص سبايسي",
+              "price": 3
+            },
+            {
+              "id": "cola",
+              "name": "كولا",
+              "price": 6
+            }
+          ]
+        },
+        {
+          "id": "family-fry-2",
+          "restaurantId": "family-fry",
+          "name": "ستربس دجاج",
+          "description": "أصابع دجاج مقرمشة مع صوصات.",
+          "image": "https://images.unsplash.com/photo-1571091718767-18b5b1457add?w=800&q=80",
+          "price": 26,
+          "rating": 4.8,
+          "calories": 640,
+          "protein": 36,
+          "carbs": 38,
+          "fat": 28,
+          "category": "menu",
+          "isPopular": false,
+          "isOffer": false,
+          "offerPrice": null,
+          "isCombo": false,
+          "offerKind": null,
+          "comboIncludes": [],
+          "spicyOption": false,
+          "cashbackPercent": null,
+          "addons": [
+            {
+              "id": "extra-piece",
+              "name": "قطعة إضافية",
+              "price": 8
+            },
+            {
+              "id": "large-fries",
+              "name": "بطاطس كبيرة",
+              "price": 10
+            },
+            {
+              "id": "coleslaw",
+              "name": "كول سلو",
+              "price": 6
+            },
+            {
+              "id": "spicy-sauce",
+              "name": "صوص سبايسي",
+              "price": 3
+            },
+            {
+              "id": "cola",
+              "name": "كولا",
+              "price": 6
+            }
+          ]
+        },
+        {
+          "id": "family-fry-3",
+          "restaurantId": "family-fry",
+          "name": "وينجز حارة",
+          "description": "أجنحة دجاج بصلصة حارة.",
+          "image": "https://images.unsplash.com/photo-1626645738196-c2a7c87a8f58?w=800&q=80",
+          "price": 24,
+          "rating": 4.9,
+          "calories": 520,
+          "protein": 28,
+          "carbs": 18,
+          "fat": 32,
+          "category": "popular",
+          "isPopular": true,
+          "isOffer": false,
+          "offerPrice": null,
+          "isCombo": false,
+          "offerKind": null,
+          "comboIncludes": [],
+          "spicyOption": true,
+          "cashbackPercent": null,
+          "addons": [
+            {
+              "id": "extra-piece",
+              "name": "قطعة إضافية",
+              "price": 8
+            },
+            {
+              "id": "large-fries",
+              "name": "بطاطس كبيرة",
+              "price": 10
+            },
+            {
+              "id": "coleslaw",
+              "name": "كول سلو",
+              "price": 6
+            },
+            {
+              "id": "spicy-sauce",
+              "name": "صوص سبايسي",
+              "price": 3
+            },
+            {
+              "id": "cola",
+              "name": "كولا",
+              "price": 6
+            }
+          ]
+        },
+        {
+          "id": "family-fry-4",
+          "restaurantId": "family-fry",
+          "name": "فخذ مقرمشة",
+          "description": "فخذ دجاج متبلة ومقلية.",
+          "image": "https://images.unsplash.com/photo-1571091718767-18b5b1457add?w=800&q=80",
+          "price": 22,
+          "rating": 4.2,
+          "calories": 480,
+          "protein": 30,
+          "carbs": 12,
+          "fat": 28,
+          "category": "popular",
+          "isPopular": true,
+          "isOffer": false,
+          "offerPrice": null,
+          "isCombo": false,
+          "offerKind": null,
+          "comboIncludes": [],
+          "spicyOption": false,
+          "cashbackPercent": null,
+          "addons": [
+            {
+              "id": "extra-piece",
+              "name": "قطعة إضافية",
+              "price": 8
+            },
+            {
+              "id": "large-fries",
+              "name": "بطاطس كبيرة",
+              "price": 10
+            },
+            {
+              "id": "coleslaw",
+              "name": "كول سلو",
+              "price": 6
+            },
+            {
+              "id": "spicy-sauce",
+              "name": "صوص سبايسي",
+              "price": 3
+            },
+            {
+              "id": "cola",
+              "name": "كولا",
+              "price": 6
+            }
+          ]
+        },
+        {
+          "id": "family-fry-5",
+          "restaurantId": "family-fry",
+          "name": "صدر كريسبي",
+          "description": "صدر دجاج مقرمش كامل.",
+          "image": "https://images.unsplash.com/photo-1551782450-a2132b4ba21d?w=800&q=80",
+          "price": 30,
+          "rating": 4.3,
+          "calories": 560,
+          "protein": 38,
+          "carbs": 20,
+          "fat": 26,
+          "category": "menu",
+          "isPopular": false,
+          "isOffer": false,
+          "offerPrice": null,
+          "isCombo": false,
+          "offerKind": null,
+          "comboIncludes": [],
+          "spicyOption": false,
+          "cashbackPercent": null,
+          "addons": [
+            {
+              "id": "extra-piece",
+              "name": "قطعة إضافية",
+              "price": 8
+            },
+            {
+              "id": "large-fries",
+              "name": "بطاطس كبيرة",
+              "price": 10
+            },
+            {
+              "id": "coleslaw",
+              "name": "كول سلو",
+              "price": 6
+            },
+            {
+              "id": "spicy-sauce",
+              "name": "صوص سبايسي",
+              "price": 3
+            },
+            {
+              "id": "cola",
+              "name": "كولا",
+              "price": 6
+            }
+          ]
+        },
+        {
+          "id": "family-fry-6",
+          "restaurantId": "family-fry",
+          "name": "ساندويتش تشيكن",
+          "description": "خبز مع دجاج مقرمش وخس ومايونيز.",
+          "image": "https://images.unsplash.com/photo-1571091718767-18b5b1457add?w=800&q=80",
+          "price": 27,
+          "rating": 4.8,
+          "calories": 720,
+          "protein": 32,
+          "carbs": 55,
+          "fat": 34,
+          "category": "popular",
+          "isPopular": true,
+          "isOffer": false,
+          "offerPrice": null,
+          "isCombo": false,
+          "offerKind": null,
+          "comboIncludes": [],
+          "spicyOption": false,
+          "cashbackPercent": null,
+          "addons": [
+            {
+              "id": "extra-piece",
+              "name": "قطعة إضافية",
+              "price": 8
+            },
+            {
+              "id": "large-fries",
+              "name": "بطاطس كبيرة",
+              "price": 10
+            },
+            {
+              "id": "coleslaw",
+              "name": "كول سلو",
+              "price": 6
+            },
+            {
+              "id": "spicy-sauce",
+              "name": "صوص سبايسي",
+              "price": 3
+            },
+            {
+              "id": "cola",
+              "name": "كولا",
+              "price": 6
+            }
+          ]
+        },
+        {
+          "id": "family-fry-7",
+          "restaurantId": "family-fry",
+          "name": "بطاطس عائلية",
+          "description": "بطاطس مقلية كبيرة مع توابل.",
+          "image": "https://images.unsplash.com/photo-1573080496219-bb080dd4f877?w=800&q=80",
+          "price": 14,
+          "rating": 4.7,
+          "calories": 420,
+          "protein": 5,
+          "carbs": 52,
+          "fat": 22,
+          "category": "menu",
+          "isPopular": false,
+          "isOffer": false,
+          "offerPrice": null,
+          "isCombo": false,
+          "offerKind": null,
+          "comboIncludes": [],
+          "spicyOption": false,
+          "cashbackPercent": null,
+          "addons": [
+            {
+              "id": "extra-piece",
+              "name": "قطعة إضافية",
+              "price": 8
+            },
+            {
+              "id": "large-fries",
+              "name": "بطاطس كبيرة",
+              "price": 10
+            },
+            {
+              "id": "coleslaw",
+              "name": "كول سلو",
+              "price": 6
+            },
+            {
+              "id": "spicy-sauce",
+              "name": "صوص سبايسي",
+              "price": 3
+            },
+            {
+              "id": "cola",
+              "name": "كولا",
+              "price": 6
+            }
+          ]
+        },
+        {
+          "id": "family-fry-8",
+          "restaurantId": "family-fry",
+          "name": "كول سلو",
+          "description": "سلطة ملفوف كريمية.",
+          "image": "https://images.unsplash.com/photo-1551782450-a2132b4ba21d?w=800&q=80",
+          "price": 10,
+          "rating": 4.1,
+          "calories": 180,
+          "protein": 2,
+          "carbs": 14,
+          "fat": 12,
+          "category": "menu",
+          "isPopular": false,
+          "isOffer": false,
+          "offerPrice": null,
+          "isCombo": false,
+          "offerKind": null,
+          "comboIncludes": [],
+          "spicyOption": false,
+          "cashbackPercent": null,
+          "addons": [
+            {
+              "id": "extra-piece",
+              "name": "قطعة إضافية",
+              "price": 8
+            },
+            {
+              "id": "large-fries",
+              "name": "بطاطس كبيرة",
+              "price": 10
+            },
+            {
+              "id": "coleslaw",
+              "name": "كول سلو",
+              "price": 6
+            },
+            {
+              "id": "spicy-sauce",
+              "name": "صوص سبايسي",
+              "price": 3
+            },
+            {
+              "id": "cola",
+              "name": "كولا",
+              "price": 6
+            }
+          ]
+        },
+        {
+          "id": "family-fry-9",
+          "restaurantId": "family-fry",
+          "name": "ذرة حلوة",
+          "description": "كوب ذرة بالزبدة.",
+          "image": "https://images.unsplash.com/photo-1626645738196-c2a7c87a8f58?w=800&q=80",
+          "price": 9,
+          "rating": 4.5,
+          "calories": 160,
+          "protein": 4,
+          "carbs": 28,
+          "fat": 4,
+          "category": "menu",
+          "isPopular": false,
+          "isOffer": false,
+          "offerPrice": null,
+          "isCombo": false,
+          "offerKind": null,
+          "comboIncludes": [],
+          "spicyOption": false,
+          "cashbackPercent": null,
+          "addons": [
+            {
+              "id": "extra-piece",
+              "name": "قطعة إضافية",
+              "price": 8
+            },
+            {
+              "id": "large-fries",
+              "name": "بطاطس كبيرة",
+              "price": 10
+            },
+            {
+              "id": "coleslaw",
+              "name": "كول سلو",
+              "price": 6
+            },
+            {
+              "id": "spicy-sauce",
+              "name": "صوص سبايسي",
+              "price": 3
+            },
+            {
+              "id": "cola",
+              "name": "كولا",
+              "price": 6
+            }
+          ]
+        },
+        {
+          "id": "family-fry-10",
+          "restaurantId": "family-fry",
+          "name": "حلقات بصل",
+          "description": "حلقات بصل مقرمشة.",
+          "image": "https://images.unsplash.com/photo-1626645738196-c2a7c87a8f58?w=800&q=80",
+          "price": 12,
+          "rating": 4.2,
+          "calories": 340,
+          "protein": 4,
+          "carbs": 36,
+          "fat": 18,
+          "category": "popular",
+          "isPopular": true,
+          "isOffer": false,
+          "offerPrice": null,
+          "isCombo": false,
+          "offerKind": null,
+          "comboIncludes": [],
+          "spicyOption": false,
+          "cashbackPercent": null,
+          "addons": [
+            {
+              "id": "extra-piece",
+              "name": "قطعة إضافية",
+              "price": 8
+            },
+            {
+              "id": "large-fries",
+              "name": "بطاطس كبيرة",
+              "price": 10
+            },
+            {
+              "id": "coleslaw",
+              "name": "كول سلو",
+              "price": 6
+            },
+            {
+              "id": "spicy-sauce",
+              "name": "صوص سبايسي",
+              "price": 3
+            },
+            {
+              "id": "cola",
+              "name": "كولا",
+              "price": 6
+            }
+          ]
+        },
+        {
+          "id": "family-fry-offer-1",
+          "restaurantId": "family-fry",
+          "name": "وجبة دجاج مقرمش فردية",
+          "description": "قطعتان مقرمشتان مع بطاطس وصوص ومشروب.",
+          "image": "https://images.unsplash.com/photo-1571091718767-18b5b1457add?w=800&q=80",
+          "price": 29,
+          "rating": 4.6,
+          "calories": 980,
+          "protein": 42,
+          "carbs": 70,
+          "fat": 48,
+          "category": "offers",
+          "isPopular": false,
+          "isOffer": true,
+          "offerPrice": null,
+          "isCombo": true,
+          "offerKind": "combo",
+          "comboIncludes": [
+            "قطعتان دجاج",
+            "بطاطس",
+            "صوص",
+            "مشروب"
+          ],
+          "spicyOption": true,
+          "cashbackPercent": null,
+          "addons": [
+            {
+              "id": "extra-piece",
+              "name": "قطعة إضافية",
+              "price": 8
+            },
+            {
+              "id": "large-fries",
+              "name": "بطاطس كبيرة",
+              "price": 10
+            },
+            {
+              "id": "coleslaw",
+              "name": "كول سلو",
+              "price": 6
+            },
+            {
+              "id": "spicy-sauce",
+              "name": "صوص سبايسي",
+              "price": 3
+            },
+            {
+              "id": "cola",
+              "name": "كولا",
+              "price": 6
+            }
+          ]
+        },
+        {
+          "id": "family-fry-offer-2",
+          "restaurantId": "family-fry",
+          "name": "باكت فرايد تشيكن عائلي لـ 3 أشخاص",
+          "description": "3 قطع دجاج مقرمش مع بطاطس عائلية كبيرة وكول سلو كريمي وذرة حلوة بالزبدة وصلصات متنوعة. تكفي 3 أشخاص.",
+          "image": "/offers/3-fried-chicken.png",
+          "price": 64,
+          "rating": 4.6,
+          "calories": 2800,
+          "protein": 140,
+          "carbs": 220,
+          "fat": 150,
+          "category": "offers",
+          "isPopular": false,
+          "isOffer": true,
+          "offerPrice": null,
+          "isCombo": true,
+          "offerKind": "family",
+          "comboIncludes": [
+            "3 قطع دجاج مقرمش",
+            "بطاطس عائلية كبيرة",
+            "كول سلو كريمي",
+            "ذرة حلوة بالزبدة",
+            "صلصات متنوعة",
+            "3 مشروب"
+          ],
+          "spicyOption": true,
+          "cashbackPercent": null,
+          "addons": [
+            {
+              "id": "extra-piece",
+              "name": "قطعة إضافية",
+              "price": 8
+            },
+            {
+              "id": "large-fries",
+              "name": "بطاطس كبيرة",
+              "price": 10
+            },
+            {
+              "id": "coleslaw",
+              "name": "كول سلو",
+              "price": 6
+            },
+            {
+              "id": "spicy-sauce",
+              "name": "صوص سبايسي",
+              "price": 3
+            },
+            {
+              "id": "cola",
+              "name": "كولا",
+              "price": 6
+            }
+          ]
+        },
+        {
+          "id": "family-fry-offer-3",
+          "restaurantId": "family-fry",
+          "name": "عرض وينجز مع صوصات",
+          "description": "وينجز حارة مع ثلاث صوصات وبطاطس بسعر واحد.",
+          "image": "https://images.unsplash.com/photo-1626645738196-c2a7c87a8f58?w=800&q=80",
+          "price": 36,
+          "rating": 4.6,
+          "calories": 920,
+          "protein": 38,
+          "carbs": 55,
+          "fat": 48,
+          "category": "offers",
+          "isPopular": false,
+          "isOffer": true,
+          "offerPrice": null,
+          "isCombo": true,
+          "offerKind": "deal",
+          "comboIncludes": [
+            "وينجز",
+            "بطاطس",
+            "صوص ثوم",
+            "صوص سبايسي",
+            "صوص باربكيو"
+          ],
+          "spicyOption": true,
+          "cashbackPercent": null,
+          "addons": [
+            {
+              "id": "extra-piece",
+              "name": "قطعة إضافية",
+              "price": 8
+            },
+            {
+              "id": "large-fries",
+              "name": "بطاطس كبيرة",
+              "price": 10
+            },
+            {
+              "id": "coleslaw",
+              "name": "كول سلو",
+              "price": 6
+            },
+            {
+              "id": "spicy-sauce",
+              "name": "صوص سبايسي",
+              "price": 3
+            },
+            {
+              "id": "cola",
+              "name": "كولا",
+              "price": 6
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}
