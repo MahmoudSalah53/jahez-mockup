@@ -1,0 +1,6494 @@
+{
+  "generatedAt": "2026-08-12T23:41:04.718Z",
+  "count": 119,
+  "meals": [
+    {
+      "id": "bayt-alshawaya-offer-2",
+      "restaurantId": "bayt-alshawaya",
+      "name": "وجبة عائلية مشاوي لـ 3 أشخاص",
+      "description": "3 صحن مشاوي مع إضافات ومشروبات. تكفي 3 أشخاص.",
+      "image": "https://images.unsplash.com/photo-1555939594-58d7cb561ad1?w=800&q=80",
+      "price": 78,
+      "rating": 4.6,
+      "calories": 2400,
+      "protein": 120,
+      "carbs": 180,
+      "fat": 110,
+      "category": "offers",
+      "isPopular": false,
+      "isOffer": true,
+      "offerPrice": null,
+      "isCombo": true,
+      "offerKind": "family",
+      "comboIncludes": [
+        "3 صحن مشاوي",
+        "حمص",
+        "خبز",
+        "بطاطس",
+        "3 مشروب"
+      ],
+      "spicyOption": true,
+      "cashbackPercent": null,
+      "addons": [
+        {
+          "id": "garlic-sauce",
+          "name": "صوص ثوم",
+          "price": 3
+        },
+        {
+          "id": "pickles",
+          "name": "مخلل",
+          "price": 3
+        },
+        {
+          "id": "extra-rice",
+          "name": "أرز إضافي",
+          "price": 6
+        },
+        {
+          "id": "cola",
+          "name": "كولا",
+          "price": 6
+        },
+        {
+          "id": "side-salad",
+          "name": "سلطة صغيرة",
+          "price": 8
+        }
+      ],
+      "restaurantName": "بيت الشواية",
+      "restaurantCuisine": "مشاوي"
+    },
+    {
+      "id": "madhaq-alsham-offer-2",
+      "restaurantId": "madhaq-alsham",
+      "name": "وجبة عائلية شاورما لـ 6 أشخاص",
+      "description": "6 شاورما مع إضافات ومشروبات. تكفي 6 أشخاص.",
+      "image": "/offers/6-shawrma.jpg",
+      "price": 100,
+      "rating": 4.6,
+      "calories": 2100,
+      "protein": 95,
+      "carbs": 180,
+      "fat": 90,
+      "category": "offers",
+      "isPopular": false,
+      "isOffer": true,
+      "offerPrice": null,
+      "isCombo": true,
+      "offerKind": "family",
+      "comboIncludes": [
+        "6 شاورما",
+        "بطاطس عائلية",
+        "ثوم",
+        "مخلل",
+        "6 مشروب"
+      ],
+      "spicyOption": false,
+      "cashbackPercent": null,
+      "addons": [
+        {
+          "id": "extra-garlic",
+          "name": "ثوم إضافي",
+          "price": 3
+        },
+        {
+          "id": "pickles",
+          "name": "مخلل",
+          "price": 3
+        },
+        {
+          "id": "fries",
+          "name": "بطاطس مقلية",
+          "price": 8
+        },
+        {
+          "id": "drink",
+          "name": "مشروب غازي",
+          "price": 6
+        },
+        {
+          "id": "arabic-bread",
+          "name": "خبز عربي",
+          "price": 4
+        }
+      ],
+      "restaurantName": "مذاق الشام",
+      "restaurantCuisine": "شامي"
+    },
+    {
+      "id": "aseel-burger-offer-2",
+      "restaurantId": "aseel-burger",
+      "name": "وجبة عائلية برجر لـ 3 أشخاص",
+      "description": "3 برجر مع إضافات ومشروبات. تكفي 3 أشخاص.",
+      "image": "/offers/3-burger.webp",
+      "price": 64,
+      "rating": 4.6,
+      "calories": 3200,
+      "protein": 120,
+      "carbs": 280,
+      "fat": 160,
+      "category": "offers",
+      "isPopular": false,
+      "isOffer": true,
+      "offerPrice": null,
+      "isCombo": true,
+      "offerKind": "family",
+      "comboIncludes": [
+        "3 برجر",
+        "بطاطس عائلية",
+        "صوصات",
+        "3 مشروب"
+      ],
+      "spicyOption": false,
+      "cashbackPercent": null,
+      "addons": [
+        {
+          "id": "extra-cheese",
+          "name": "جبنة إضافية",
+          "price": 5
+        },
+        {
+          "id": "bacon",
+          "name": "بيكون",
+          "price": 8
+        },
+        {
+          "id": "large-fries",
+          "name": "بطاطس كبيرة",
+          "price": 10
+        },
+        {
+          "id": "cola",
+          "name": "كولا",
+          "price": 6
+        },
+        {
+          "id": "spicy-sauce",
+          "name": "صوص سبايسي",
+          "price": 3
+        }
+      ],
+      "restaurantName": "أصيل برجر",
+      "restaurantCuisine": "برجر"
+    },
+    {
+      "id": "sushi-noi-offer-2",
+      "restaurantId": "sushi-noi",
+      "name": "وجبة عائلية سوشي لـ 6 أشخاص",
+      "description": "6 صحن سوشي مع إضافات ومشروبات. تكفي 6 أشخاص.",
+      "image": "https://images.unsplash.com/photo-1579584425555-c3ce17fd4351?w=800&q=80",
+      "price": 109,
+      "rating": 4.6,
+      "calories": 1600,
+      "protein": 70,
+      "carbs": 160,
+      "fat": 40,
+      "category": "offers",
+      "isPopular": false,
+      "isOffer": true,
+      "offerPrice": null,
+      "isCombo": true,
+      "offerKind": "family",
+      "comboIncludes": [
+        "6 صحن سوشي",
+        "ميسو",
+        "زنجبيل",
+        "واسابي",
+        "6 مشروب"
+      ],
+      "spicyOption": false,
+      "cashbackPercent": null,
+      "addons": [
+        {
+          "id": "extra-soy",
+          "name": "صوص صويا إضافي",
+          "price": 2
+        },
+        {
+          "id": "ginger",
+          "name": "زنجبيل",
+          "price": 2
+        },
+        {
+          "id": "edamame",
+          "name": "إدامامي",
+          "price": 10
+        },
+        {
+          "id": "green-tea",
+          "name": "شاي أخضر",
+          "price": 8
+        },
+        {
+          "id": "gyoza-2",
+          "name": "جيوزا ×٢",
+          "price": 12
+        }
+      ],
+      "restaurantName": "سوشي نوي",
+      "restaurantCuisine": "ياباني"
+    },
+    {
+      "id": "halawiyat-riyadh-offer-2",
+      "restaurantId": "halawiyat-riyadh",
+      "name": "تشكيلة حلا عائلية لـ 3 أشخاص",
+      "description": "3 قطعة حلا مع إضافات ومشروبات. تكفي 3 أشخاص.",
+      "image": "https://images.unsplash.com/photo-1488477181946-6428a0291777?w=800&q=80",
+      "price": 50,
+      "rating": 4.6,
+      "calories": 1400,
+      "protein": 24,
+      "carbs": 180,
+      "fat": 60,
+      "category": "offers",
+      "isPopular": false,
+      "isOffer": true,
+      "offerPrice": null,
+      "isCombo": true,
+      "offerKind": "family",
+      "comboIncludes": [
+        "3 قطعة حلا",
+        "قهوة",
+        "صوص",
+        "3 مشروب"
+      ],
+      "spicyOption": false,
+      "cashbackPercent": null,
+      "addons": [
+        {
+          "id": "choc-sauce",
+          "name": "صوص شوكولاتة",
+          "price": 4
+        },
+        {
+          "id": "ice-scoop",
+          "name": "سكوب آيس كريم",
+          "price": 8
+        },
+        {
+          "id": "cream",
+          "name": "كريمة",
+          "price": 4
+        },
+        {
+          "id": "extra-coffee",
+          "name": "قهوة إضافية",
+          "price": 10
+        },
+        {
+          "id": "nuts",
+          "name": "مكسرات",
+          "price": 6
+        }
+      ],
+      "restaurantName": "حلويات الرياض",
+      "restaurantCuisine": "حلويات"
+    },
+    {
+      "id": "pizza-roma-offer-2",
+      "restaurantId": "pizza-roma",
+      "name": "وجبة عائلية بيتزا لـ 5 أشخاص",
+      "description": "5 بيتزا مع إضافات ومشروبات. تكفي 5 أشخاص.",
+      "image": "/offers/5-pizza.jpg",
+      "price": 73,
+      "rating": 4.6,
+      "calories": 1800,
+      "protein": 60,
+      "carbs": 190,
+      "fat": 70,
+      "category": "offers",
+      "isPopular": false,
+      "isOffer": true,
+      "offerPrice": null,
+      "isCombo": true,
+      "offerKind": "family",
+      "comboIncludes": [
+        "5 بيتزا",
+        "بروشيتا",
+        "سلطة",
+        "5 مشروب"
+      ],
+      "spicyOption": true,
+      "cashbackPercent": null,
+      "addons": [
+        {
+          "id": "parmesan",
+          "name": "جبنة بارميزان",
+          "price": 6
+        },
+        {
+          "id": "garlic-bread",
+          "name": "ثوم محمص",
+          "price": 8
+        },
+        {
+          "id": "extra-sauce",
+          "name": "صلصة زيادة",
+          "price": 4
+        },
+        {
+          "id": "drink",
+          "name": "مشروب",
+          "price": 6
+        },
+        {
+          "id": "side-salad",
+          "name": "سلطة صغيرة",
+          "price": 10
+        }
+      ],
+      "restaurantName": "بيتزا روما",
+      "restaurantCuisine": "إيطالي"
+    },
+    {
+      "id": "hindi-masala-offer-2",
+      "restaurantId": "hindi-masala",
+      "name": "وجبة عائلية ثالي لـ 5 أشخاص",
+      "description": "5 طبق ثالي مع إضافات ومشروبات. تكفي 5 أشخاص.",
+      "image": "https://images.unsplash.com/photo-1585937421612-70a008356fbe?w=800&q=80",
+      "price": 109,
+      "rating": 4.6,
+      "calories": 1600,
+      "protein": 55,
+      "carbs": 180,
+      "fat": 50,
+      "category": "offers",
+      "isPopular": false,
+      "isOffer": true,
+      "offerPrice": null,
+      "isCombo": true,
+      "offerKind": "family",
+      "comboIncludes": [
+        "5 طبق ثالي",
+        "نان",
+        "أرز",
+        "مخلل",
+        "5 مشروب"
+      ],
+      "spicyOption": true,
+      "cashbackPercent": null,
+      "addons": [
+        {
+          "id": "extra-naan",
+          "name": "نان إضافي",
+          "price": 7
+        },
+        {
+          "id": "raita",
+          "name": "رايتا",
+          "price": 5
+        },
+        {
+          "id": "indian-pickle",
+          "name": "مخلل هندي",
+          "price": 4
+        },
+        {
+          "id": "lassi",
+          "name": "لاسي",
+          "price": 10
+        },
+        {
+          "id": "extra-rice",
+          "name": "أرز إضافي",
+          "price": 6
+        }
+      ],
+      "restaurantName": "هندي ماسالا",
+      "restaurantCuisine": "هندي"
+    },
+    {
+      "id": "kabsa-dar-offer-2",
+      "restaurantId": "kabsa-dar",
+      "name": "وجبة عائلية مندي لـ 5 أشخاص",
+      "description": "5 صحن مندي مع إضافات ومشروبات. تكفي 5 أشخاص.",
+      "image": "https://images.unsplash.com/photo-1544025162-d76694265947?w=800&q=80",
+      "price": 108,
+      "rating": 4.6,
+      "calories": 2200,
+      "protein": 110,
+      "carbs": 180,
+      "fat": 90,
+      "category": "offers",
+      "isPopular": false,
+      "isOffer": true,
+      "offerPrice": null,
+      "isCombo": true,
+      "offerKind": "family",
+      "comboIncludes": [
+        "5 صحن مندي",
+        "شوربة",
+        "سلطة",
+        "5 مشروب"
+      ],
+      "spicyOption": false,
+      "cashbackPercent": null,
+      "addons": [
+        {
+          "id": "garlic-sauce",
+          "name": "صوص ثوم",
+          "price": 3
+        },
+        {
+          "id": "pickles",
+          "name": "مخلل",
+          "price": 3
+        },
+        {
+          "id": "extra-rice",
+          "name": "أرز إضافي",
+          "price": 6
+        },
+        {
+          "id": "cola",
+          "name": "كولا",
+          "price": 6
+        },
+        {
+          "id": "side-salad",
+          "name": "سلطة صغيرة",
+          "price": 8
+        }
+      ],
+      "restaurantName": "دار الكبسة",
+      "restaurantCuisine": "سعودي"
+    },
+    {
+      "id": "seafood-coast-offer-2",
+      "restaurantId": "seafood-coast",
+      "name": "وجبة عائلية بحرية لـ 5 أشخاص",
+      "description": "5 طبق بحري مع إضافات ومشروبات. تكفي 5 أشخاص.",
+      "image": "https://images.unsplash.com/photo-1519708227418-c8fd9a32b7a2?w=800&q=80",
+      "price": 118,
+      "rating": 4.6,
+      "calories": 1600,
+      "protein": 95,
+      "carbs": 100,
+      "fat": 60,
+      "category": "offers",
+      "isPopular": false,
+      "isOffer": true,
+      "offerPrice": null,
+      "isCombo": true,
+      "offerKind": "family",
+      "comboIncludes": [
+        "5 طبق بحري",
+        "أرز",
+        "سلطة",
+        "ليمون",
+        "5 مشروب"
+      ],
+      "spicyOption": false,
+      "cashbackPercent": null,
+      "addons": [
+        {
+          "id": "garlic-sauce",
+          "name": "صوص ثوم",
+          "price": 3
+        },
+        {
+          "id": "lemon",
+          "name": "ليمون إضافي",
+          "price": 2
+        },
+        {
+          "id": "extra-rice",
+          "name": "أرز",
+          "price": 6
+        },
+        {
+          "id": "side-salad",
+          "name": "سلطة",
+          "price": 8
+        },
+        {
+          "id": "drink",
+          "name": "مشروب",
+          "price": 6
+        }
+      ],
+      "restaurantName": "ساحل المأكولات البحرية",
+      "restaurantCuisine": "بحري"
+    },
+    {
+      "id": "healthy-bowl-offer-2",
+      "restaurantId": "healthy-bowl",
+      "name": "وجبة عائلية سلطات لـ 5 أشخاص",
+      "description": "5 سلطة مع إضافات ومشروبات. تكفي 5 أشخاص.",
+      "image": "https://images.unsplash.com/photo-1512621776951-a57141f2eefd?w=800&q=80",
+      "price": 97,
+      "rating": 4.6,
+      "calories": 900,
+      "protein": 60,
+      "carbs": 70,
+      "fat": 30,
+      "category": "offers",
+      "isPopular": false,
+      "isOffer": true,
+      "offerPrice": null,
+      "isCombo": true,
+      "offerKind": "family",
+      "comboIncludes": [
+        "5 سلطة",
+        "ماء",
+        "صوص يوناني",
+        "5 مشروب"
+      ],
+      "spicyOption": false,
+      "cashbackPercent": null,
+      "addons": [
+        {
+          "id": "avocado",
+          "name": "أفوكادو",
+          "price": 8
+        },
+        {
+          "id": "boiled-egg",
+          "name": "بيض مسلوق",
+          "price": 4
+        },
+        {
+          "id": "yogurt-sauce",
+          "name": "صوص يوناني",
+          "price": 3
+        },
+        {
+          "id": "water",
+          "name": "ماء",
+          "price": 3
+        },
+        {
+          "id": "extra-salad",
+          "name": "سلطة زيادة",
+          "price": 8
+        }
+      ],
+      "restaurantName": "بول الصحية",
+      "restaurantCuisine": "صحي"
+    },
+    {
+      "id": "luqma-mart-offer-3",
+      "restaurantId": "luqma-mart",
+      "name": "عرض ضيافة للعائلة لـ 4 أشخاص",
+      "description": "4 علبة تمر مع إضافات ومشروبات. تكفي 4 أشخاص.",
+      "image": "https://images.unsplash.com/photo-1509440159596-0249088772ff?w=800&q=80",
+      "price": 41,
+      "rating": 4.6,
+      "calories": 0,
+      "protein": 0,
+      "carbs": 0,
+      "fat": 0,
+      "category": "offers",
+      "isPopular": false,
+      "isOffer": true,
+      "offerPrice": null,
+      "isCombo": true,
+      "offerKind": "family",
+      "comboIncludes": [
+        "4 علبة تمر",
+        "مياه",
+        "عصير",
+        "قهوة",
+        "4 مشروب"
+      ],
+      "spicyOption": false,
+      "cashbackPercent": null,
+      "addons": [],
+      "restaurantName": "ماركت لقمة",
+      "restaurantCuisine": "بقالة"
+    },
+    {
+      "id": "nar-aljamar-offer-2",
+      "restaurantId": "nar-aljamar",
+      "name": "وجبة عائلية مشاوي لـ 5 أشخاص",
+      "description": "5 صحن مشاوي مع إضافات ومشروبات. تكفي 5 أشخاص.",
+      "image": "https://images.unsplash.com/photo-1555939594-58d7cb561ad1?w=800&q=80",
+      "price": 118,
+      "rating": 4.6,
+      "calories": 2400,
+      "protein": 120,
+      "carbs": 180,
+      "fat": 110,
+      "category": "offers",
+      "isPopular": false,
+      "isOffer": true,
+      "offerPrice": null,
+      "isCombo": true,
+      "offerKind": "family",
+      "comboIncludes": [
+        "5 صحن مشاوي",
+        "حمص",
+        "خبز",
+        "بطاطس",
+        "5 مشروب"
+      ],
+      "spicyOption": true,
+      "cashbackPercent": null,
+      "addons": [
+        {
+          "id": "garlic-sauce",
+          "name": "صوص ثوم",
+          "price": 3
+        },
+        {
+          "id": "pickles",
+          "name": "مخلل",
+          "price": 3
+        },
+        {
+          "id": "extra-rice",
+          "name": "أرز إضافي",
+          "price": 6
+        },
+        {
+          "id": "cola",
+          "name": "كولا",
+          "price": 6
+        },
+        {
+          "id": "side-salad",
+          "name": "سلطة صغيرة",
+          "price": 8
+        }
+      ],
+      "restaurantName": "نار الجمر",
+      "restaurantCuisine": "مشاوي"
+    },
+    {
+      "id": "shawaya-alqasr-offer-2",
+      "restaurantId": "shawaya-alqasr",
+      "name": "وجبة عائلية مشاوي لـ 4 أشخاص",
+      "description": "4 صحن مشاوي مع إضافات ومشروبات. تكفي 4 أشخاص.",
+      "image": "https://images.unsplash.com/photo-1555939594-58d7cb561ad1?w=800&q=80",
+      "price": 98,
+      "rating": 4.6,
+      "calories": 2400,
+      "protein": 120,
+      "carbs": 180,
+      "fat": 110,
+      "category": "offers",
+      "isPopular": false,
+      "isOffer": true,
+      "offerPrice": null,
+      "isCombo": true,
+      "offerKind": "family",
+      "comboIncludes": [
+        "4 صحن مشاوي",
+        "حمص",
+        "خبز",
+        "بطاطس",
+        "4 مشروب"
+      ],
+      "spicyOption": true,
+      "cashbackPercent": null,
+      "addons": [
+        {
+          "id": "garlic-sauce",
+          "name": "صوص ثوم",
+          "price": 3
+        },
+        {
+          "id": "pickles",
+          "name": "مخلل",
+          "price": 3
+        },
+        {
+          "id": "extra-rice",
+          "name": "أرز إضافي",
+          "price": 6
+        },
+        {
+          "id": "cola",
+          "name": "كولا",
+          "price": 6
+        },
+        {
+          "id": "side-salad",
+          "name": "سلطة صغيرة",
+          "price": 8
+        }
+      ],
+      "restaurantName": "شواية القصر",
+      "restaurantCuisine": "مشاوي"
+    },
+    {
+      "id": "lahm-wa-fahm-offer-2",
+      "restaurantId": "lahm-wa-fahm",
+      "name": "وجبة عائلية مشاوي لـ 3 أشخاص",
+      "description": "3 صحن مشاوي مع إضافات ومشروبات. تكفي 3 أشخاص.",
+      "image": "https://images.unsplash.com/photo-1555939594-58d7cb561ad1?w=800&q=80",
+      "price": 78,
+      "rating": 4.6,
+      "calories": 2400,
+      "protein": 120,
+      "carbs": 180,
+      "fat": 110,
+      "category": "offers",
+      "isPopular": false,
+      "isOffer": true,
+      "offerPrice": null,
+      "isCombo": true,
+      "offerKind": "family",
+      "comboIncludes": [
+        "3 صحن مشاوي",
+        "حمص",
+        "خبز",
+        "بطاطس",
+        "3 مشروب"
+      ],
+      "spicyOption": true,
+      "cashbackPercent": null,
+      "addons": [
+        {
+          "id": "garlic-sauce",
+          "name": "صوص ثوم",
+          "price": 3
+        },
+        {
+          "id": "pickles",
+          "name": "مخلل",
+          "price": 3
+        },
+        {
+          "id": "extra-rice",
+          "name": "أرز إضافي",
+          "price": 6
+        },
+        {
+          "id": "cola",
+          "name": "كولا",
+          "price": 6
+        },
+        {
+          "id": "side-salad",
+          "name": "سلطة صغيرة",
+          "price": 8
+        }
+      ],
+      "restaurantName": "لحم وفحم",
+      "restaurantCuisine": "مشاوي"
+    },
+    {
+      "id": "majalis-almashawi-offer-2",
+      "restaurantId": "majalis-almashawi",
+      "name": "وجبة عائلية مشاوي لـ 4 أشخاص",
+      "description": "4 صحن مشاوي مع إضافات ومشروبات. تكفي 4 أشخاص.",
+      "image": "https://images.unsplash.com/photo-1555939594-58d7cb561ad1?w=800&q=80",
+      "price": 98,
+      "rating": 4.6,
+      "calories": 2400,
+      "protein": 120,
+      "carbs": 180,
+      "fat": 110,
+      "category": "offers",
+      "isPopular": false,
+      "isOffer": true,
+      "offerPrice": null,
+      "isCombo": true,
+      "offerKind": "family",
+      "comboIncludes": [
+        "4 صحن مشاوي",
+        "حمص",
+        "خبز",
+        "بطاطس",
+        "4 مشروب"
+      ],
+      "spicyOption": true,
+      "cashbackPercent": null,
+      "addons": [
+        {
+          "id": "garlic-sauce",
+          "name": "صوص ثوم",
+          "price": 3
+        },
+        {
+          "id": "pickles",
+          "name": "مخلل",
+          "price": 3
+        },
+        {
+          "id": "extra-rice",
+          "name": "أرز إضافي",
+          "price": 6
+        },
+        {
+          "id": "cola",
+          "name": "كولا",
+          "price": 6
+        },
+        {
+          "id": "side-salad",
+          "name": "سلطة صغيرة",
+          "price": 8
+        }
+      ],
+      "restaurantName": "مجالس المشاوي",
+      "restaurantCuisine": "مشاوي"
+    },
+    {
+      "id": "dukhan-house-offer-2",
+      "restaurantId": "dukhan-house",
+      "name": "وجبة عائلية مشاوي لـ 5 أشخاص",
+      "description": "5 صحن مشاوي مع إضافات ومشروبات. تكفي 5 أشخاص.",
+      "image": "https://images.unsplash.com/photo-1555939594-58d7cb561ad1?w=800&q=80",
+      "price": 118,
+      "rating": 4.6,
+      "calories": 2400,
+      "protein": 120,
+      "carbs": 180,
+      "fat": 110,
+      "category": "offers",
+      "isPopular": false,
+      "isOffer": true,
+      "offerPrice": null,
+      "isCombo": true,
+      "offerKind": "family",
+      "comboIncludes": [
+        "5 صحن مشاوي",
+        "حمص",
+        "خبز",
+        "بطاطس",
+        "5 مشروب"
+      ],
+      "spicyOption": true,
+      "cashbackPercent": null,
+      "addons": [
+        {
+          "id": "garlic-sauce",
+          "name": "صوص ثوم",
+          "price": 3
+        },
+        {
+          "id": "pickles",
+          "name": "مخلل",
+          "price": 3
+        },
+        {
+          "id": "extra-rice",
+          "name": "أرز إضافي",
+          "price": 6
+        },
+        {
+          "id": "cola",
+          "name": "كولا",
+          "price": 6
+        },
+        {
+          "id": "side-salad",
+          "name": "سلطة صغيرة",
+          "price": 8
+        }
+      ],
+      "restaurantName": "بيت الدخان",
+      "restaurantCuisine": "مشاوي"
+    },
+    {
+      "id": "kabab-alwadi-offer-2",
+      "restaurantId": "kabab-alwadi",
+      "name": "وجبة عائلية مشاوي لـ 5 أشخاص",
+      "description": "5 صحن مشاوي مع إضافات ومشروبات. تكفي 5 أشخاص.",
+      "image": "https://images.unsplash.com/photo-1555939594-58d7cb561ad1?w=800&q=80",
+      "price": 118,
+      "rating": 4.6,
+      "calories": 2400,
+      "protein": 120,
+      "carbs": 180,
+      "fat": 110,
+      "category": "offers",
+      "isPopular": false,
+      "isOffer": true,
+      "offerPrice": null,
+      "isCombo": true,
+      "offerKind": "family",
+      "comboIncludes": [
+        "5 صحن مشاوي",
+        "حمص",
+        "خبز",
+        "بطاطس",
+        "5 مشروب"
+      ],
+      "spicyOption": true,
+      "cashbackPercent": null,
+      "addons": [
+        {
+          "id": "garlic-sauce",
+          "name": "صوص ثوم",
+          "price": 3
+        },
+        {
+          "id": "pickles",
+          "name": "مخلل",
+          "price": 3
+        },
+        {
+          "id": "extra-rice",
+          "name": "أرز إضافي",
+          "price": 6
+        },
+        {
+          "id": "cola",
+          "name": "كولا",
+          "price": 6
+        },
+        {
+          "id": "side-salad",
+          "name": "سلطة صغيرة",
+          "price": 8
+        }
+      ],
+      "restaurantName": "كباب الوادي",
+      "restaurantCuisine": "مشاوي"
+    },
+    {
+      "id": "fahm-riyadh-offer-2",
+      "restaurantId": "fahm-riyadh",
+      "name": "وجبة عائلية مشاوي لـ 3 أشخاص",
+      "description": "3 صحن مشاوي مع إضافات ومشروبات. تكفي 3 أشخاص.",
+      "image": "https://images.unsplash.com/photo-1555939594-58d7cb561ad1?w=800&q=80",
+      "price": 78,
+      "rating": 4.6,
+      "calories": 2400,
+      "protein": 120,
+      "carbs": 180,
+      "fat": 110,
+      "category": "offers",
+      "isPopular": false,
+      "isOffer": true,
+      "offerPrice": null,
+      "isCombo": true,
+      "offerKind": "family",
+      "comboIncludes": [
+        "3 صحن مشاوي",
+        "حمص",
+        "خبز",
+        "بطاطس",
+        "3 مشروب"
+      ],
+      "spicyOption": true,
+      "cashbackPercent": null,
+      "addons": [
+        {
+          "id": "garlic-sauce",
+          "name": "صوص ثوم",
+          "price": 3
+        },
+        {
+          "id": "pickles",
+          "name": "مخلل",
+          "price": 3
+        },
+        {
+          "id": "extra-rice",
+          "name": "أرز إضافي",
+          "price": 6
+        },
+        {
+          "id": "cola",
+          "name": "كولا",
+          "price": 6
+        },
+        {
+          "id": "side-salad",
+          "name": "سلطة صغيرة",
+          "price": 8
+        }
+      ],
+      "restaurantName": "فحم الرياض",
+      "restaurantCuisine": "مشاوي"
+    },
+    {
+      "id": "mashawi-alnakheel-offer-2",
+      "restaurantId": "mashawi-alnakheel",
+      "name": "وجبة عائلية مشاوي لـ 5 أشخاص",
+      "description": "5 صحن مشاوي مع إضافات ومشروبات. تكفي 5 أشخاص.",
+      "image": "https://images.unsplash.com/photo-1555939594-58d7cb561ad1?w=800&q=80",
+      "price": 118,
+      "rating": 4.6,
+      "calories": 2400,
+      "protein": 120,
+      "carbs": 180,
+      "fat": 110,
+      "category": "offers",
+      "isPopular": false,
+      "isOffer": true,
+      "offerPrice": null,
+      "isCombo": true,
+      "offerKind": "family",
+      "comboIncludes": [
+        "5 صحن مشاوي",
+        "حمص",
+        "خبز",
+        "بطاطس",
+        "5 مشروب"
+      ],
+      "spicyOption": true,
+      "cashbackPercent": null,
+      "addons": [
+        {
+          "id": "garlic-sauce",
+          "name": "صوص ثوم",
+          "price": 3
+        },
+        {
+          "id": "pickles",
+          "name": "مخلل",
+          "price": 3
+        },
+        {
+          "id": "extra-rice",
+          "name": "أرز إضافي",
+          "price": 6
+        },
+        {
+          "id": "cola",
+          "name": "كولا",
+          "price": 6
+        },
+        {
+          "id": "side-salad",
+          "name": "سلطة صغيرة",
+          "price": 8
+        }
+      ],
+      "restaurantName": "مشاوي النخيل",
+      "restaurantCuisine": "مشاوي"
+    },
+    {
+      "id": "sham-alaseel-offer-2",
+      "restaurantId": "sham-alaseel",
+      "name": "وجبة عائلية شاورما لـ 4 أشخاص",
+      "description": "4 شاورما مع إضافات ومشروبات. تكفي 4 أشخاص.",
+      "image": "/offers/4-shawrma.jpg",
+      "price": 71,
+      "rating": 4.6,
+      "calories": 2100,
+      "protein": 95,
+      "carbs": 180,
+      "fat": 90,
+      "category": "offers",
+      "isPopular": false,
+      "isOffer": true,
+      "offerPrice": null,
+      "isCombo": true,
+      "offerKind": "family",
+      "comboIncludes": [
+        "4 شاورما",
+        "بطاطس عائلية",
+        "ثوم",
+        "مخلل",
+        "4 مشروب"
+      ],
+      "spicyOption": false,
+      "cashbackPercent": null,
+      "addons": [
+        {
+          "id": "extra-garlic",
+          "name": "ثوم إضافي",
+          "price": 3
+        },
+        {
+          "id": "pickles",
+          "name": "مخلل",
+          "price": 3
+        },
+        {
+          "id": "fries",
+          "name": "بطاطس مقلية",
+          "price": 8
+        },
+        {
+          "id": "drink",
+          "name": "مشروب غازي",
+          "price": 6
+        },
+        {
+          "id": "arabic-bread",
+          "name": "خبز عربي",
+          "price": 4
+        }
+      ],
+      "restaurantName": "شام الأصيل",
+      "restaurantCuisine": "شامي"
+    },
+    {
+      "id": "beit-falafel-offer-2",
+      "restaurantId": "beit-falafel",
+      "name": "وجبة عائلية شاورما لـ 5 أشخاص",
+      "description": "5 شاورما مع إضافات ومشروبات. تكفي 5 أشخاص.",
+      "image": "/offers/5-shawrma.jpg",
+      "price": 86,
+      "rating": 4.6,
+      "calories": 2100,
+      "protein": 95,
+      "carbs": 180,
+      "fat": 90,
+      "category": "offers",
+      "isPopular": false,
+      "isOffer": true,
+      "offerPrice": null,
+      "isCombo": true,
+      "offerKind": "family",
+      "comboIncludes": [
+        "5 شاورما",
+        "بطاطس عائلية",
+        "ثوم",
+        "مخلل",
+        "5 مشروب"
+      ],
+      "spicyOption": false,
+      "cashbackPercent": null,
+      "addons": [
+        {
+          "id": "extra-garlic",
+          "name": "ثوم إضافي",
+          "price": 3
+        },
+        {
+          "id": "pickles",
+          "name": "مخلل",
+          "price": 3
+        },
+        {
+          "id": "fries",
+          "name": "بطاطس مقلية",
+          "price": 8
+        },
+        {
+          "id": "drink",
+          "name": "مشروب غازي",
+          "price": 6
+        },
+        {
+          "id": "arabic-bread",
+          "name": "خبز عربي",
+          "price": 4
+        }
+      ],
+      "restaurantName": "بيت الفلافل",
+      "restaurantCuisine": "شامي"
+    },
+    {
+      "id": "dimashq-kitchen-offer-2",
+      "restaurantId": "dimashq-kitchen",
+      "name": "وجبة عائلية شاورما لـ 5 أشخاص",
+      "description": "5 شاورما مع إضافات ومشروبات. تكفي 5 أشخاص.",
+      "image": "/offers/5-shawrma.jpg",
+      "price": 86,
+      "rating": 4.6,
+      "calories": 2100,
+      "protein": 95,
+      "carbs": 180,
+      "fat": 90,
+      "category": "offers",
+      "isPopular": false,
+      "isOffer": true,
+      "offerPrice": null,
+      "isCombo": true,
+      "offerKind": "family",
+      "comboIncludes": [
+        "5 شاورما",
+        "بطاطس عائلية",
+        "ثوم",
+        "مخلل",
+        "5 مشروب"
+      ],
+      "spicyOption": false,
+      "cashbackPercent": null,
+      "addons": [
+        {
+          "id": "extra-garlic",
+          "name": "ثوم إضافي",
+          "price": 3
+        },
+        {
+          "id": "pickles",
+          "name": "مخلل",
+          "price": 3
+        },
+        {
+          "id": "fries",
+          "name": "بطاطس مقلية",
+          "price": 8
+        },
+        {
+          "id": "drink",
+          "name": "مشروب غازي",
+          "price": 6
+        },
+        {
+          "id": "arabic-bread",
+          "name": "خبز عربي",
+          "price": 4
+        }
+      ],
+      "restaurantName": "مطبخ دمشق",
+      "restaurantCuisine": "شامي"
+    },
+    {
+      "id": "halab-taam-offer-2",
+      "restaurantId": "halab-taam",
+      "name": "وجبة عائلية شاورما لـ 5 أشخاص",
+      "description": "5 شاورما مع إضافات ومشروبات. تكفي 5 أشخاص.",
+      "image": "/offers/5-shawrma.jpg",
+      "price": 86,
+      "rating": 4.6,
+      "calories": 2100,
+      "protein": 95,
+      "carbs": 180,
+      "fat": 90,
+      "category": "offers",
+      "isPopular": false,
+      "isOffer": true,
+      "offerPrice": null,
+      "isCombo": true,
+      "offerKind": "family",
+      "comboIncludes": [
+        "5 شاورما",
+        "بطاطس عائلية",
+        "ثوم",
+        "مخلل",
+        "5 مشروب"
+      ],
+      "spicyOption": false,
+      "cashbackPercent": null,
+      "addons": [
+        {
+          "id": "extra-garlic",
+          "name": "ثوم إضافي",
+          "price": 3
+        },
+        {
+          "id": "pickles",
+          "name": "مخلل",
+          "price": 3
+        },
+        {
+          "id": "fries",
+          "name": "بطاطس مقلية",
+          "price": 8
+        },
+        {
+          "id": "drink",
+          "name": "مشروب غازي",
+          "price": 6
+        },
+        {
+          "id": "arabic-bread",
+          "name": "خبز عربي",
+          "price": 4
+        }
+      ],
+      "restaurantName": "طعم حلب",
+      "restaurantCuisine": "شامي"
+    },
+    {
+      "id": "zaatar-wzeit-offer-2",
+      "restaurantId": "zaatar-wzeit",
+      "name": "وجبة عائلية شاورما لـ 6 أشخاص",
+      "description": "6 شاورما مع إضافات ومشروبات. تكفي 6 أشخاص.",
+      "image": "/offers/6-shawrma.jpg",
+      "price": 100,
+      "rating": 4.6,
+      "calories": 2100,
+      "protein": 95,
+      "carbs": 180,
+      "fat": 90,
+      "category": "offers",
+      "isPopular": false,
+      "isOffer": true,
+      "offerPrice": null,
+      "isCombo": true,
+      "offerKind": "family",
+      "comboIncludes": [
+        "6 شاورما",
+        "بطاطس عائلية",
+        "ثوم",
+        "مخلل",
+        "6 مشروب"
+      ],
+      "spicyOption": false,
+      "cashbackPercent": null,
+      "addons": [
+        {
+          "id": "extra-garlic",
+          "name": "ثوم إضافي",
+          "price": 3
+        },
+        {
+          "id": "pickles",
+          "name": "مخلل",
+          "price": 3
+        },
+        {
+          "id": "fries",
+          "name": "بطاطس مقلية",
+          "price": 8
+        },
+        {
+          "id": "drink",
+          "name": "مشروب غازي",
+          "price": 6
+        },
+        {
+          "id": "arabic-bread",
+          "name": "خبز عربي",
+          "price": 4
+        }
+      ],
+      "restaurantName": "زعتر وزيت",
+      "restaurantCuisine": "شامي"
+    },
+    {
+      "id": "laban-wbasil-offer-2",
+      "restaurantId": "laban-wbasil",
+      "name": "وجبة عائلية شاورما لـ 6 أشخاص",
+      "description": "6 شاورما مع إضافات ومشروبات. تكفي 6 أشخاص.",
+      "image": "/offers/6-shawrma.jpg",
+      "price": 100,
+      "rating": 4.6,
+      "calories": 2100,
+      "protein": 95,
+      "carbs": 180,
+      "fat": 90,
+      "category": "offers",
+      "isPopular": false,
+      "isOffer": true,
+      "offerPrice": null,
+      "isCombo": true,
+      "offerKind": "family",
+      "comboIncludes": [
+        "6 شاورما",
+        "بطاطس عائلية",
+        "ثوم",
+        "مخلل",
+        "6 مشروب"
+      ],
+      "spicyOption": false,
+      "cashbackPercent": null,
+      "addons": [
+        {
+          "id": "extra-garlic",
+          "name": "ثوم إضافي",
+          "price": 3
+        },
+        {
+          "id": "pickles",
+          "name": "مخلل",
+          "price": 3
+        },
+        {
+          "id": "fries",
+          "name": "بطاطس مقلية",
+          "price": 8
+        },
+        {
+          "id": "drink",
+          "name": "مشروب غازي",
+          "price": 6
+        },
+        {
+          "id": "arabic-bread",
+          "name": "خبز عربي",
+          "price": 4
+        }
+      ],
+      "restaurantName": "لبن وباسل",
+      "restaurantCuisine": "شامي"
+    },
+    {
+      "id": "manakeesh-street-offer-2",
+      "restaurantId": "manakeesh-street",
+      "name": "وجبة عائلية شاورما لـ 4 أشخاص",
+      "description": "4 شاورما مع إضافات ومشروبات. تكفي 4 أشخاص.",
+      "image": "/offers/4-shawrma.jpg",
+      "price": 71,
+      "rating": 4.6,
+      "calories": 2100,
+      "protein": 95,
+      "carbs": 180,
+      "fat": 90,
+      "category": "offers",
+      "isPopular": false,
+      "isOffer": true,
+      "offerPrice": null,
+      "isCombo": true,
+      "offerKind": "family",
+      "comboIncludes": [
+        "4 شاورما",
+        "بطاطس عائلية",
+        "ثوم",
+        "مخلل",
+        "4 مشروب"
+      ],
+      "spicyOption": false,
+      "cashbackPercent": null,
+      "addons": [
+        {
+          "id": "extra-garlic",
+          "name": "ثوم إضافي",
+          "price": 3
+        },
+        {
+          "id": "pickles",
+          "name": "مخلل",
+          "price": 3
+        },
+        {
+          "id": "fries",
+          "name": "بطاطس مقلية",
+          "price": 8
+        },
+        {
+          "id": "drink",
+          "name": "مشروب غازي",
+          "price": 6
+        },
+        {
+          "id": "arabic-bread",
+          "name": "خبز عربي",
+          "price": 4
+        }
+      ],
+      "restaurantName": "شارع المناقيش",
+      "restaurantCuisine": "شامي"
+    },
+    {
+      "id": "hummus-house-offer-2",
+      "restaurantId": "hummus-house",
+      "name": "وجبة عائلية شاورما لـ 5 أشخاص",
+      "description": "5 شاورما مع إضافات ومشروبات. تكفي 5 أشخاص.",
+      "image": "/offers/5-shawrma.jpg",
+      "price": 86,
+      "rating": 4.6,
+      "calories": 2100,
+      "protein": 95,
+      "carbs": 180,
+      "fat": 90,
+      "category": "offers",
+      "isPopular": false,
+      "isOffer": true,
+      "offerPrice": null,
+      "isCombo": true,
+      "offerKind": "family",
+      "comboIncludes": [
+        "5 شاورما",
+        "بطاطس عائلية",
+        "ثوم",
+        "مخلل",
+        "5 مشروب"
+      ],
+      "spicyOption": false,
+      "cashbackPercent": null,
+      "addons": [
+        {
+          "id": "extra-garlic",
+          "name": "ثوم إضافي",
+          "price": 3
+        },
+        {
+          "id": "pickles",
+          "name": "مخلل",
+          "price": 3
+        },
+        {
+          "id": "fries",
+          "name": "بطاطس مقلية",
+          "price": 8
+        },
+        {
+          "id": "drink",
+          "name": "مشروب غازي",
+          "price": 6
+        },
+        {
+          "id": "arabic-bread",
+          "name": "خبز عربي",
+          "price": 4
+        }
+      ],
+      "restaurantName": "بيت الحمص",
+      "restaurantCuisine": "شامي"
+    },
+    {
+      "id": "smash-lab-offer-2",
+      "restaurantId": "smash-lab",
+      "name": "وجبة عائلية برجر لـ 3 أشخاص",
+      "description": "3 برجر مع إضافات ومشروبات. تكفي 3 أشخاص.",
+      "image": "/offers/3-burger.webp",
+      "price": 64,
+      "rating": 4.6,
+      "calories": 3200,
+      "protein": 120,
+      "carbs": 280,
+      "fat": 160,
+      "category": "offers",
+      "isPopular": false,
+      "isOffer": true,
+      "offerPrice": null,
+      "isCombo": true,
+      "offerKind": "family",
+      "comboIncludes": [
+        "3 برجر",
+        "بطاطس عائلية",
+        "صوصات",
+        "3 مشروب"
+      ],
+      "spicyOption": false,
+      "cashbackPercent": null,
+      "addons": [
+        {
+          "id": "extra-cheese",
+          "name": "جبنة إضافية",
+          "price": 5
+        },
+        {
+          "id": "bacon",
+          "name": "بيكون",
+          "price": 8
+        },
+        {
+          "id": "large-fries",
+          "name": "بطاطس كبيرة",
+          "price": 10
+        },
+        {
+          "id": "cola",
+          "name": "كولا",
+          "price": 6
+        },
+        {
+          "id": "spicy-sauce",
+          "name": "صوص سبايسي",
+          "price": 3
+        }
+      ],
+      "restaurantName": "مختبر السماش",
+      "restaurantCuisine": "برجر"
+    },
+    {
+      "id": "bun-city-offer-2",
+      "restaurantId": "bun-city",
+      "name": "وجبة عائلية برجر لـ 6 أشخاص",
+      "description": "6 برجر مع إضافات ومشروبات. تكفي 6 أشخاص.",
+      "image": "/offers/6-burgers.jpg",
+      "price": 82,
+      "rating": 4.6,
+      "calories": 3200,
+      "protein": 120,
+      "carbs": 280,
+      "fat": 160,
+      "category": "offers",
+      "isPopular": false,
+      "isOffer": true,
+      "offerPrice": null,
+      "isCombo": true,
+      "offerKind": "family",
+      "comboIncludes": [
+        "6 برجر",
+        "بطاطس عائلية",
+        "صوصات",
+        "6 مشروب"
+      ],
+      "spicyOption": false,
+      "cashbackPercent": null,
+      "addons": [
+        {
+          "id": "extra-cheese",
+          "name": "جبنة إضافية",
+          "price": 5
+        },
+        {
+          "id": "bacon",
+          "name": "بيكون",
+          "price": 8
+        },
+        {
+          "id": "large-fries",
+          "name": "بطاطس كبيرة",
+          "price": 10
+        },
+        {
+          "id": "cola",
+          "name": "كولا",
+          "price": 6
+        },
+        {
+          "id": "spicy-sauce",
+          "name": "صوص سبايسي",
+          "price": 3
+        }
+      ],
+      "restaurantName": "مدينة البان",
+      "restaurantCuisine": "برجر"
+    },
+    {
+      "id": "grill-burger-co-offer-2",
+      "restaurantId": "grill-burger-co",
+      "name": "وجبة عائلية برجر لـ 4 أشخاص",
+      "description": "4 برجر مع إضافات ومشروبات. تكفي 4 أشخاص.",
+      "image": "/offers/4-burger.jpg",
+      "price": 80,
+      "rating": 4.6,
+      "calories": 3200,
+      "protein": 120,
+      "carbs": 280,
+      "fat": 160,
+      "category": "offers",
+      "isPopular": false,
+      "isOffer": true,
+      "offerPrice": null,
+      "isCombo": true,
+      "offerKind": "family",
+      "comboIncludes": [
+        "4 برجر",
+        "بطاطس عائلية",
+        "صوصات",
+        "4 مشروب"
+      ],
+      "spicyOption": false,
+      "cashbackPercent": null,
+      "addons": [
+        {
+          "id": "extra-cheese",
+          "name": "جبنة إضافية",
+          "price": 5
+        },
+        {
+          "id": "bacon",
+          "name": "بيكون",
+          "price": 8
+        },
+        {
+          "id": "large-fries",
+          "name": "بطاطس كبيرة",
+          "price": 10
+        },
+        {
+          "id": "cola",
+          "name": "كولا",
+          "price": 6
+        },
+        {
+          "id": "spicy-sauce",
+          "name": "صوص سبايسي",
+          "price": 3
+        }
+      ],
+      "restaurantName": "جرل برجر",
+      "restaurantCuisine": "برجر"
+    },
+    {
+      "id": "cheese-stack-offer-2",
+      "restaurantId": "cheese-stack",
+      "name": "وجبة عائلية برجر لـ 5 أشخاص",
+      "description": "5 برجر مع إضافات ومشروبات. تكفي 5 أشخاص.",
+      "image": "/offers/5-burger.jpg",
+      "price": 82,
+      "rating": 4.6,
+      "calories": 3200,
+      "protein": 120,
+      "carbs": 280,
+      "fat": 160,
+      "category": "offers",
+      "isPopular": false,
+      "isOffer": true,
+      "offerPrice": null,
+      "isCombo": true,
+      "offerKind": "family",
+      "comboIncludes": [
+        "5 برجر",
+        "بطاطس عائلية",
+        "صوصات",
+        "5 مشروب"
+      ],
+      "spicyOption": false,
+      "cashbackPercent": null,
+      "addons": [
+        {
+          "id": "extra-cheese",
+          "name": "جبنة إضافية",
+          "price": 5
+        },
+        {
+          "id": "bacon",
+          "name": "بيكون",
+          "price": 8
+        },
+        {
+          "id": "large-fries",
+          "name": "بطاطس كبيرة",
+          "price": 10
+        },
+        {
+          "id": "cola",
+          "name": "كولا",
+          "price": 6
+        },
+        {
+          "id": "spicy-sauce",
+          "name": "صوص سبايسي",
+          "price": 3
+        }
+      ],
+      "restaurantName": "تشيز ستاك",
+      "restaurantCuisine": "برجر"
+    },
+    {
+      "id": "fire-patty-offer-2",
+      "restaurantId": "fire-patty",
+      "name": "وجبة عائلية برجر لـ 6 أشخاص",
+      "description": "6 برجر مع إضافات ومشروبات. تكفي 6 أشخاص.",
+      "image": "/offers/6-burgers.jpg",
+      "price": 82,
+      "rating": 4.6,
+      "calories": 3200,
+      "protein": 120,
+      "carbs": 280,
+      "fat": 160,
+      "category": "offers",
+      "isPopular": false,
+      "isOffer": true,
+      "offerPrice": null,
+      "isCombo": true,
+      "offerKind": "family",
+      "comboIncludes": [
+        "6 برجر",
+        "بطاطس عائلية",
+        "صوصات",
+        "6 مشروب"
+      ],
+      "spicyOption": false,
+      "cashbackPercent": null,
+      "addons": [
+        {
+          "id": "extra-cheese",
+          "name": "جبنة إضافية",
+          "price": 5
+        },
+        {
+          "id": "bacon",
+          "name": "بيكون",
+          "price": 8
+        },
+        {
+          "id": "large-fries",
+          "name": "بطاطس كبيرة",
+          "price": 10
+        },
+        {
+          "id": "cola",
+          "name": "كولا",
+          "price": 6
+        },
+        {
+          "id": "spicy-sauce",
+          "name": "صوص سبايسي",
+          "price": 3
+        }
+      ],
+      "restaurantName": "فاير باتي",
+      "restaurantCuisine": "برجر"
+    },
+    {
+      "id": "urban-bun-offer-2",
+      "restaurantId": "urban-bun",
+      "name": "وجبة عائلية برجر لـ 3 أشخاص",
+      "description": "3 برجر مع إضافات ومشروبات. تكفي 3 أشخاص.",
+      "image": "/offers/3-burger.webp",
+      "price": 64,
+      "rating": 4.6,
+      "calories": 3200,
+      "protein": 120,
+      "carbs": 280,
+      "fat": 160,
+      "category": "offers",
+      "isPopular": false,
+      "isOffer": true,
+      "offerPrice": null,
+      "isCombo": true,
+      "offerKind": "family",
+      "comboIncludes": [
+        "3 برجر",
+        "بطاطس عائلية",
+        "صوصات",
+        "3 مشروب"
+      ],
+      "spicyOption": false,
+      "cashbackPercent": null,
+      "addons": [
+        {
+          "id": "extra-cheese",
+          "name": "جبنة إضافية",
+          "price": 5
+        },
+        {
+          "id": "bacon",
+          "name": "بيكون",
+          "price": 8
+        },
+        {
+          "id": "large-fries",
+          "name": "بطاطس كبيرة",
+          "price": 10
+        },
+        {
+          "id": "cola",
+          "name": "كولا",
+          "price": 6
+        },
+        {
+          "id": "spicy-sauce",
+          "name": "صوص سبايسي",
+          "price": 3
+        }
+      ],
+      "restaurantName": "أوربان بان",
+      "restaurantCuisine": "برجر"
+    },
+    {
+      "id": "double-deck-offer-2",
+      "restaurantId": "double-deck",
+      "name": "وجبة عائلية برجر لـ 6 أشخاص",
+      "description": "6 برجر مع إضافات ومشروبات. تكفي 6 أشخاص.",
+      "image": "/offers/6-burgers.jpg",
+      "price": 82,
+      "rating": 4.6,
+      "calories": 3200,
+      "protein": 120,
+      "carbs": 280,
+      "fat": 160,
+      "category": "offers",
+      "isPopular": false,
+      "isOffer": true,
+      "offerPrice": null,
+      "isCombo": true,
+      "offerKind": "family",
+      "comboIncludes": [
+        "6 برجر",
+        "بطاطس عائلية",
+        "صوصات",
+        "6 مشروب"
+      ],
+      "spicyOption": false,
+      "cashbackPercent": null,
+      "addons": [
+        {
+          "id": "extra-cheese",
+          "name": "جبنة إضافية",
+          "price": 5
+        },
+        {
+          "id": "bacon",
+          "name": "بيكون",
+          "price": 8
+        },
+        {
+          "id": "large-fries",
+          "name": "بطاطس كبيرة",
+          "price": 10
+        },
+        {
+          "id": "cola",
+          "name": "كولا",
+          "price": 6
+        },
+        {
+          "id": "spicy-sauce",
+          "name": "صوص سبايسي",
+          "price": 3
+        }
+      ],
+      "restaurantName": "دبل ديك",
+      "restaurantCuisine": "برجر"
+    },
+    {
+      "id": "crispy-yard-offer-2",
+      "restaurantId": "crispy-yard",
+      "name": "وجبة عائلية برجر لـ 6 أشخاص",
+      "description": "6 برجر مع إضافات ومشروبات. تكفي 6 أشخاص.",
+      "image": "/offers/6-burgers.jpg",
+      "price": 82,
+      "rating": 4.6,
+      "calories": 3200,
+      "protein": 120,
+      "carbs": 280,
+      "fat": 160,
+      "category": "offers",
+      "isPopular": false,
+      "isOffer": true,
+      "offerPrice": null,
+      "isCombo": true,
+      "offerKind": "family",
+      "comboIncludes": [
+        "6 برجر",
+        "بطاطس عائلية",
+        "صوصات",
+        "6 مشروب"
+      ],
+      "spicyOption": false,
+      "cashbackPercent": null,
+      "addons": [
+        {
+          "id": "extra-cheese",
+          "name": "جبنة إضافية",
+          "price": 5
+        },
+        {
+          "id": "bacon",
+          "name": "بيكون",
+          "price": 8
+        },
+        {
+          "id": "large-fries",
+          "name": "بطاطس كبيرة",
+          "price": 10
+        },
+        {
+          "id": "cola",
+          "name": "كولا",
+          "price": 6
+        },
+        {
+          "id": "spicy-sauce",
+          "name": "صوص سبايسي",
+          "price": 3
+        }
+      ],
+      "restaurantName": "كريسبي يارد",
+      "restaurantCuisine": "برجر"
+    },
+    {
+      "id": "tokyo-bite-offer-2",
+      "restaurantId": "tokyo-bite",
+      "name": "وجبة عائلية سوشي لـ 6 أشخاص",
+      "description": "6 صحن سوشي مع إضافات ومشروبات. تكفي 6 أشخاص.",
+      "image": "https://images.unsplash.com/photo-1579584425555-c3ce17fd4351?w=800&q=80",
+      "price": 109,
+      "rating": 4.6,
+      "calories": 1600,
+      "protein": 70,
+      "carbs": 160,
+      "fat": 40,
+      "category": "offers",
+      "isPopular": false,
+      "isOffer": true,
+      "offerPrice": null,
+      "isCombo": true,
+      "offerKind": "family",
+      "comboIncludes": [
+        "6 صحن سوشي",
+        "ميسو",
+        "زنجبيل",
+        "واسابي",
+        "6 مشروب"
+      ],
+      "spicyOption": false,
+      "cashbackPercent": null,
+      "addons": [
+        {
+          "id": "extra-soy",
+          "name": "صوص صويا إضافي",
+          "price": 2
+        },
+        {
+          "id": "ginger",
+          "name": "زنجبيل",
+          "price": 2
+        },
+        {
+          "id": "edamame",
+          "name": "إدامامي",
+          "price": 10
+        },
+        {
+          "id": "green-tea",
+          "name": "شاي أخضر",
+          "price": 8
+        },
+        {
+          "id": "gyoza-2",
+          "name": "جيوزا ×٢",
+          "price": 12
+        }
+      ],
+      "restaurantName": "لقمة طوكيو",
+      "restaurantCuisine": "ياباني"
+    },
+    {
+      "id": "sakura-roll-offer-2",
+      "restaurantId": "sakura-roll",
+      "name": "وجبة عائلية سوشي لـ 6 أشخاص",
+      "description": "6 صحن سوشي مع إضافات ومشروبات. تكفي 6 أشخاص.",
+      "image": "https://images.unsplash.com/photo-1579584425555-c3ce17fd4351?w=800&q=80",
+      "price": 109,
+      "rating": 4.6,
+      "calories": 1600,
+      "protein": 70,
+      "carbs": 160,
+      "fat": 40,
+      "category": "offers",
+      "isPopular": false,
+      "isOffer": true,
+      "offerPrice": null,
+      "isCombo": true,
+      "offerKind": "family",
+      "comboIncludes": [
+        "6 صحن سوشي",
+        "ميسو",
+        "زنجبيل",
+        "واسابي",
+        "6 مشروب"
+      ],
+      "spicyOption": false,
+      "cashbackPercent": null,
+      "addons": [
+        {
+          "id": "extra-soy",
+          "name": "صوص صويا إضافي",
+          "price": 2
+        },
+        {
+          "id": "ginger",
+          "name": "زنجبيل",
+          "price": 2
+        },
+        {
+          "id": "edamame",
+          "name": "إدامامي",
+          "price": 10
+        },
+        {
+          "id": "green-tea",
+          "name": "شاي أخضر",
+          "price": 8
+        },
+        {
+          "id": "gyoza-2",
+          "name": "جيوزا ×٢",
+          "price": 12
+        }
+      ],
+      "restaurantName": "ساكورا رول",
+      "restaurantCuisine": "ياباني"
+    },
+    {
+      "id": "umami-house-offer-2",
+      "restaurantId": "umami-house",
+      "name": "وجبة عائلية سوشي لـ 3 أشخاص",
+      "description": "3 صحن سوشي مع إضافات ومشروبات. تكفي 3 أشخاص.",
+      "image": "https://images.unsplash.com/photo-1579584425555-c3ce17fd4351?w=800&q=80",
+      "price": 86,
+      "rating": 4.6,
+      "calories": 1600,
+      "protein": 70,
+      "carbs": 160,
+      "fat": 40,
+      "category": "offers",
+      "isPopular": false,
+      "isOffer": true,
+      "offerPrice": null,
+      "isCombo": true,
+      "offerKind": "family",
+      "comboIncludes": [
+        "3 صحن سوشي",
+        "ميسو",
+        "زنجبيل",
+        "واسابي",
+        "3 مشروب"
+      ],
+      "spicyOption": false,
+      "cashbackPercent": null,
+      "addons": [
+        {
+          "id": "extra-soy",
+          "name": "صوص صويا إضافي",
+          "price": 2
+        },
+        {
+          "id": "ginger",
+          "name": "زنجبيل",
+          "price": 2
+        },
+        {
+          "id": "edamame",
+          "name": "إدامامي",
+          "price": 10
+        },
+        {
+          "id": "green-tea",
+          "name": "شاي أخضر",
+          "price": 8
+        },
+        {
+          "id": "gyoza-2",
+          "name": "جيوزا ×٢",
+          "price": 12
+        }
+      ],
+      "restaurantName": "بيت الأومامي",
+      "restaurantCuisine": "ياباني"
+    },
+    {
+      "id": "nori-kitchen-offer-2",
+      "restaurantId": "nori-kitchen",
+      "name": "وجبة عائلية سوشي لـ 4 أشخاص",
+      "description": "4 صحن سوشي مع إضافات ومشروبات. تكفي 4 أشخاص.",
+      "image": "https://images.unsplash.com/photo-1579584425555-c3ce17fd4351?w=800&q=80",
+      "price": 107,
+      "rating": 4.6,
+      "calories": 1600,
+      "protein": 70,
+      "carbs": 160,
+      "fat": 40,
+      "category": "offers",
+      "isPopular": false,
+      "isOffer": true,
+      "offerPrice": null,
+      "isCombo": true,
+      "offerKind": "family",
+      "comboIncludes": [
+        "4 صحن سوشي",
+        "ميسو",
+        "زنجبيل",
+        "واسابي",
+        "4 مشروب"
+      ],
+      "spicyOption": false,
+      "cashbackPercent": null,
+      "addons": [
+        {
+          "id": "extra-soy",
+          "name": "صوص صويا إضافي",
+          "price": 2
+        },
+        {
+          "id": "ginger",
+          "name": "زنجبيل",
+          "price": 2
+        },
+        {
+          "id": "edamame",
+          "name": "إدامامي",
+          "price": 10
+        },
+        {
+          "id": "green-tea",
+          "name": "شاي أخضر",
+          "price": 8
+        },
+        {
+          "id": "gyoza-2",
+          "name": "جيوزا ×٢",
+          "price": 12
+        }
+      ],
+      "restaurantName": "مطبخ النوري",
+      "restaurantCuisine": "ياباني"
+    },
+    {
+      "id": "ramen-lane-offer-2",
+      "restaurantId": "ramen-lane",
+      "name": "وجبة عائلية سوشي لـ 5 أشخاص",
+      "description": "5 صحن سوشي مع إضافات ومشروبات. تكفي 5 أشخاص.",
+      "image": "https://images.unsplash.com/photo-1579584425555-c3ce17fd4351?w=800&q=80",
+      "price": 109,
+      "rating": 4.6,
+      "calories": 1600,
+      "protein": 70,
+      "carbs": 160,
+      "fat": 40,
+      "category": "offers",
+      "isPopular": false,
+      "isOffer": true,
+      "offerPrice": null,
+      "isCombo": true,
+      "offerKind": "family",
+      "comboIncludes": [
+        "5 صحن سوشي",
+        "ميسو",
+        "زنجبيل",
+        "واسابي",
+        "5 مشروب"
+      ],
+      "spicyOption": false,
+      "cashbackPercent": null,
+      "addons": [
+        {
+          "id": "extra-soy",
+          "name": "صوص صويا إضافي",
+          "price": 2
+        },
+        {
+          "id": "ginger",
+          "name": "زنجبيل",
+          "price": 2
+        },
+        {
+          "id": "edamame",
+          "name": "إدامامي",
+          "price": 10
+        },
+        {
+          "id": "green-tea",
+          "name": "شاي أخضر",
+          "price": 8
+        },
+        {
+          "id": "gyoza-2",
+          "name": "جيوزا ×٢",
+          "price": 12
+        }
+      ],
+      "restaurantName": "شارع الرامن",
+      "restaurantCuisine": "ياباني"
+    },
+    {
+      "id": "wasabi-bar-offer-2",
+      "restaurantId": "wasabi-bar",
+      "name": "وجبة عائلية سوشي لـ 4 أشخاص",
+      "description": "4 صحن سوشي مع إضافات ومشروبات. تكفي 4 أشخاص.",
+      "image": "https://images.unsplash.com/photo-1579584425555-c3ce17fd4351?w=800&q=80",
+      "price": 107,
+      "rating": 4.6,
+      "calories": 1600,
+      "protein": 70,
+      "carbs": 160,
+      "fat": 40,
+      "category": "offers",
+      "isPopular": false,
+      "isOffer": true,
+      "offerPrice": null,
+      "isCombo": true,
+      "offerKind": "family",
+      "comboIncludes": [
+        "4 صحن سوشي",
+        "ميسو",
+        "زنجبيل",
+        "واسابي",
+        "4 مشروب"
+      ],
+      "spicyOption": false,
+      "cashbackPercent": null,
+      "addons": [
+        {
+          "id": "extra-soy",
+          "name": "صوص صويا إضافي",
+          "price": 2
+        },
+        {
+          "id": "ginger",
+          "name": "زنجبيل",
+          "price": 2
+        },
+        {
+          "id": "edamame",
+          "name": "إدامامي",
+          "price": 10
+        },
+        {
+          "id": "green-tea",
+          "name": "شاي أخضر",
+          "price": 8
+        },
+        {
+          "id": "gyoza-2",
+          "name": "جيوزا ×٢",
+          "price": 12
+        }
+      ],
+      "restaurantName": "واسابي بار",
+      "restaurantCuisine": "ياباني"
+    },
+    {
+      "id": "katsu-corner-offer-2",
+      "restaurantId": "katsu-corner",
+      "name": "وجبة عائلية سوشي لـ 5 أشخاص",
+      "description": "5 صحن سوشي مع إضافات ومشروبات. تكفي 5 أشخاص.",
+      "image": "https://images.unsplash.com/photo-1579584425555-c3ce17fd4351?w=800&q=80",
+      "price": 109,
+      "rating": 4.6,
+      "calories": 1600,
+      "protein": 70,
+      "carbs": 160,
+      "fat": 40,
+      "category": "offers",
+      "isPopular": false,
+      "isOffer": true,
+      "offerPrice": null,
+      "isCombo": true,
+      "offerKind": "family",
+      "comboIncludes": [
+        "5 صحن سوشي",
+        "ميسو",
+        "زنجبيل",
+        "واسابي",
+        "5 مشروب"
+      ],
+      "spicyOption": false,
+      "cashbackPercent": null,
+      "addons": [
+        {
+          "id": "extra-soy",
+          "name": "صوص صويا إضافي",
+          "price": 2
+        },
+        {
+          "id": "ginger",
+          "name": "زنجبيل",
+          "price": 2
+        },
+        {
+          "id": "edamame",
+          "name": "إدامامي",
+          "price": 10
+        },
+        {
+          "id": "green-tea",
+          "name": "شاي أخضر",
+          "price": 8
+        },
+        {
+          "id": "gyoza-2",
+          "name": "جيوزا ×٢",
+          "price": 12
+        }
+      ],
+      "restaurantName": "ركن الكاتسو",
+      "restaurantCuisine": "ياباني"
+    },
+    {
+      "id": "edo-express-offer-2",
+      "restaurantId": "edo-express",
+      "name": "وجبة عائلية سوشي لـ 6 أشخاص",
+      "description": "6 صحن سوشي مع إضافات ومشروبات. تكفي 6 أشخاص.",
+      "image": "https://images.unsplash.com/photo-1579584425555-c3ce17fd4351?w=800&q=80",
+      "price": 109,
+      "rating": 4.6,
+      "calories": 1600,
+      "protein": 70,
+      "carbs": 160,
+      "fat": 40,
+      "category": "offers",
+      "isPopular": false,
+      "isOffer": true,
+      "offerPrice": null,
+      "isCombo": true,
+      "offerKind": "family",
+      "comboIncludes": [
+        "6 صحن سوشي",
+        "ميسو",
+        "زنجبيل",
+        "واسابي",
+        "6 مشروب"
+      ],
+      "spicyOption": false,
+      "cashbackPercent": null,
+      "addons": [
+        {
+          "id": "extra-soy",
+          "name": "صوص صويا إضافي",
+          "price": 2
+        },
+        {
+          "id": "ginger",
+          "name": "زنجبيل",
+          "price": 2
+        },
+        {
+          "id": "edamame",
+          "name": "إدامامي",
+          "price": 10
+        },
+        {
+          "id": "green-tea",
+          "name": "شاي أخضر",
+          "price": 8
+        },
+        {
+          "id": "gyoza-2",
+          "name": "جيوزا ×٢",
+          "price": 12
+        }
+      ],
+      "restaurantName": "إدو إكسبرس",
+      "restaurantCuisine": "ياباني"
+    },
+    {
+      "id": "sukkar-lane-offer-2",
+      "restaurantId": "sukkar-lane",
+      "name": "تشكيلة حلا عائلية لـ 5 أشخاص",
+      "description": "5 قطعة حلا مع إضافات ومشروبات. تكفي 5 أشخاص.",
+      "image": "https://images.unsplash.com/photo-1578985545062-69928b1d9587?w=800&q=80",
+      "price": 75,
+      "rating": 4.6,
+      "calories": 1400,
+      "protein": 24,
+      "carbs": 180,
+      "fat": 60,
+      "category": "offers",
+      "isPopular": false,
+      "isOffer": true,
+      "offerPrice": null,
+      "isCombo": true,
+      "offerKind": "family",
+      "comboIncludes": [
+        "5 قطعة حلا",
+        "قهوة",
+        "صوص",
+        "5 مشروب"
+      ],
+      "spicyOption": false,
+      "cashbackPercent": null,
+      "addons": [
+        {
+          "id": "choc-sauce",
+          "name": "صوص شوكولاتة",
+          "price": 4
+        },
+        {
+          "id": "ice-scoop",
+          "name": "سكوب آيس كريم",
+          "price": 8
+        },
+        {
+          "id": "cream",
+          "name": "كريمة",
+          "price": 4
+        },
+        {
+          "id": "extra-coffee",
+          "name": "قهوة إضافية",
+          "price": 10
+        },
+        {
+          "id": "nuts",
+          "name": "مكسرات",
+          "price": 6
+        }
+      ],
+      "restaurantName": "زقاق السكر",
+      "restaurantCuisine": "حلويات"
+    },
+    {
+      "id": "creamery-riyadh-offer-2",
+      "restaurantId": "creamery-riyadh",
+      "name": "تشكيلة حلا عائلية لـ 5 أشخاص",
+      "description": "5 قطعة حلا مع إضافات ومشروبات. تكفي 5 أشخاص.",
+      "image": "https://images.unsplash.com/photo-1578985545062-69928b1d9587?w=800&q=80",
+      "price": 75,
+      "rating": 4.6,
+      "calories": 1400,
+      "protein": 24,
+      "carbs": 180,
+      "fat": 60,
+      "category": "offers",
+      "isPopular": false,
+      "isOffer": true,
+      "offerPrice": null,
+      "isCombo": true,
+      "offerKind": "family",
+      "comboIncludes": [
+        "5 قطعة حلا",
+        "قهوة",
+        "صوص",
+        "5 مشروب"
+      ],
+      "spicyOption": false,
+      "cashbackPercent": null,
+      "addons": [
+        {
+          "id": "choc-sauce",
+          "name": "صوص شوكولاتة",
+          "price": 4
+        },
+        {
+          "id": "ice-scoop",
+          "name": "سكوب آيس كريم",
+          "price": 8
+        },
+        {
+          "id": "cream",
+          "name": "كريمة",
+          "price": 4
+        },
+        {
+          "id": "extra-coffee",
+          "name": "قهوة إضافية",
+          "price": 10
+        },
+        {
+          "id": "nuts",
+          "name": "مكسرات",
+          "price": 6
+        }
+      ],
+      "restaurantName": "كريمري الرياض",
+      "restaurantCuisine": "حلويات"
+    },
+    {
+      "id": "kunafa-lab-offer-2",
+      "restaurantId": "kunafa-lab",
+      "name": "تشكيلة حلا عائلية لـ 3 أشخاص",
+      "description": "3 قطعة حلا مع إضافات ومشروبات. تكفي 3 أشخاص.",
+      "image": "https://images.unsplash.com/photo-1519676867240-f03562e64548?w=800&q=80",
+      "price": 50,
+      "rating": 4.6,
+      "calories": 1400,
+      "protein": 24,
+      "carbs": 180,
+      "fat": 60,
+      "category": "offers",
+      "isPopular": false,
+      "isOffer": true,
+      "offerPrice": null,
+      "isCombo": true,
+      "offerKind": "family",
+      "comboIncludes": [
+        "3 قطعة حلا",
+        "قهوة",
+        "صوص",
+        "3 مشروب"
+      ],
+      "spicyOption": false,
+      "cashbackPercent": null,
+      "addons": [
+        {
+          "id": "choc-sauce",
+          "name": "صوص شوكولاتة",
+          "price": 4
+        },
+        {
+          "id": "ice-scoop",
+          "name": "سكوب آيس كريم",
+          "price": 8
+        },
+        {
+          "id": "cream",
+          "name": "كريمة",
+          "price": 4
+        },
+        {
+          "id": "extra-coffee",
+          "name": "قهوة إضافية",
+          "price": 10
+        },
+        {
+          "id": "nuts",
+          "name": "مكسرات",
+          "price": 6
+        }
+      ],
+      "restaurantName": "مختبر الكنافة",
+      "restaurantCuisine": "حلويات"
+    },
+    {
+      "id": "choc-atelier-offer-2",
+      "restaurantId": "choc-atelier",
+      "name": "تشكيلة حلا عائلية لـ 3 أشخاص",
+      "description": "3 قطعة حلا مع إضافات ومشروبات. تكفي 3 أشخاص.",
+      "image": "https://images.unsplash.com/photo-1519676867240-f03562e64548?w=800&q=80",
+      "price": 50,
+      "rating": 4.6,
+      "calories": 1400,
+      "protein": 24,
+      "carbs": 180,
+      "fat": 60,
+      "category": "offers",
+      "isPopular": false,
+      "isOffer": true,
+      "offerPrice": null,
+      "isCombo": true,
+      "offerKind": "family",
+      "comboIncludes": [
+        "3 قطعة حلا",
+        "قهوة",
+        "صوص",
+        "3 مشروب"
+      ],
+      "spicyOption": false,
+      "cashbackPercent": null,
+      "addons": [
+        {
+          "id": "choc-sauce",
+          "name": "صوص شوكولاتة",
+          "price": 4
+        },
+        {
+          "id": "ice-scoop",
+          "name": "سكوب آيس كريم",
+          "price": 8
+        },
+        {
+          "id": "cream",
+          "name": "كريمة",
+          "price": 4
+        },
+        {
+          "id": "extra-coffee",
+          "name": "قهوة إضافية",
+          "price": 10
+        },
+        {
+          "id": "nuts",
+          "name": "مكسرات",
+          "price": 6
+        }
+      ],
+      "restaurantName": "أتولييه الشوكولاتة",
+      "restaurantCuisine": "حلويات"
+    },
+    {
+      "id": "date-delight-offer-2",
+      "restaurantId": "date-delight",
+      "name": "تشكيلة حلا عائلية لـ 5 أشخاص",
+      "description": "5 قطعة حلا مع إضافات ومشروبات. تكفي 5 أشخاص.",
+      "image": "https://images.unsplash.com/photo-1578985545062-69928b1d9587?w=800&q=80",
+      "price": 75,
+      "rating": 4.6,
+      "calories": 1400,
+      "protein": 24,
+      "carbs": 180,
+      "fat": 60,
+      "category": "offers",
+      "isPopular": false,
+      "isOffer": true,
+      "offerPrice": null,
+      "isCombo": true,
+      "offerKind": "family",
+      "comboIncludes": [
+        "5 قطعة حلا",
+        "قهوة",
+        "صوص",
+        "5 مشروب"
+      ],
+      "spicyOption": false,
+      "cashbackPercent": null,
+      "addons": [
+        {
+          "id": "choc-sauce",
+          "name": "صوص شوكولاتة",
+          "price": 4
+        },
+        {
+          "id": "ice-scoop",
+          "name": "سكوب آيس كريم",
+          "price": 8
+        },
+        {
+          "id": "cream",
+          "name": "كريمة",
+          "price": 4
+        },
+        {
+          "id": "extra-coffee",
+          "name": "قهوة إضافية",
+          "price": 10
+        },
+        {
+          "id": "nuts",
+          "name": "مكسرات",
+          "price": 6
+        }
+      ],
+      "restaurantName": "متعة التمر",
+      "restaurantCuisine": "حلويات"
+    },
+    {
+      "id": "waffle-nest-offer-2",
+      "restaurantId": "waffle-nest",
+      "name": "تشكيلة حلا عائلية لـ 5 أشخاص",
+      "description": "5 قطعة حلا مع إضافات ومشروبات. تكفي 5 أشخاص.",
+      "image": "https://images.unsplash.com/photo-1578985545062-69928b1d9587?w=800&q=80",
+      "price": 75,
+      "rating": 4.6,
+      "calories": 1400,
+      "protein": 24,
+      "carbs": 180,
+      "fat": 60,
+      "category": "offers",
+      "isPopular": false,
+      "isOffer": true,
+      "offerPrice": null,
+      "isCombo": true,
+      "offerKind": "family",
+      "comboIncludes": [
+        "5 قطعة حلا",
+        "قهوة",
+        "صوص",
+        "5 مشروب"
+      ],
+      "spicyOption": false,
+      "cashbackPercent": null,
+      "addons": [
+        {
+          "id": "choc-sauce",
+          "name": "صوص شوكولاتة",
+          "price": 4
+        },
+        {
+          "id": "ice-scoop",
+          "name": "سكوب آيس كريم",
+          "price": 8
+        },
+        {
+          "id": "cream",
+          "name": "كريمة",
+          "price": 4
+        },
+        {
+          "id": "extra-coffee",
+          "name": "قهوة إضافية",
+          "price": 10
+        },
+        {
+          "id": "nuts",
+          "name": "مكسرات",
+          "price": 6
+        }
+      ],
+      "restaurantName": "عش الوافل",
+      "restaurantCuisine": "حلويات"
+    },
+    {
+      "id": "baklava-house-offer-2",
+      "restaurantId": "baklava-house",
+      "name": "تشكيلة حلا عائلية لـ 4 أشخاص",
+      "description": "4 قطعة حلا مع إضافات ومشروبات. تكفي 4 أشخاص.",
+      "image": "https://images.unsplash.com/photo-1563805042-7684c019e1cb?w=800&q=80",
+      "price": 62,
+      "rating": 4.6,
+      "calories": 1400,
+      "protein": 24,
+      "carbs": 180,
+      "fat": 60,
+      "category": "offers",
+      "isPopular": false,
+      "isOffer": true,
+      "offerPrice": null,
+      "isCombo": true,
+      "offerKind": "family",
+      "comboIncludes": [
+        "4 قطعة حلا",
+        "قهوة",
+        "صوص",
+        "4 مشروب"
+      ],
+      "spicyOption": false,
+      "cashbackPercent": null,
+      "addons": [
+        {
+          "id": "choc-sauce",
+          "name": "صوص شوكولاتة",
+          "price": 4
+        },
+        {
+          "id": "ice-scoop",
+          "name": "سكوب آيس كريم",
+          "price": 8
+        },
+        {
+          "id": "cream",
+          "name": "كريمة",
+          "price": 4
+        },
+        {
+          "id": "extra-coffee",
+          "name": "قهوة إضافية",
+          "price": 10
+        },
+        {
+          "id": "nuts",
+          "name": "مكسرات",
+          "price": 6
+        }
+      ],
+      "restaurantName": "بيت البقلاوة",
+      "restaurantCuisine": "حلويات"
+    },
+    {
+      "id": "sweet-noon-offer-2",
+      "restaurantId": "sweet-noon",
+      "name": "تشكيلة حلا عائلية لـ 4 أشخاص",
+      "description": "4 قطعة حلا مع إضافات ومشروبات. تكفي 4 أشخاص.",
+      "image": "https://images.unsplash.com/photo-1563805042-7684c019e1cb?w=800&q=80",
+      "price": 62,
+      "rating": 4.6,
+      "calories": 1400,
+      "protein": 24,
+      "carbs": 180,
+      "fat": 60,
+      "category": "offers",
+      "isPopular": false,
+      "isOffer": true,
+      "offerPrice": null,
+      "isCombo": true,
+      "offerKind": "family",
+      "comboIncludes": [
+        "4 قطعة حلا",
+        "قهوة",
+        "صوص",
+        "4 مشروب"
+      ],
+      "spicyOption": false,
+      "cashbackPercent": null,
+      "addons": [
+        {
+          "id": "choc-sauce",
+          "name": "صوص شوكولاتة",
+          "price": 4
+        },
+        {
+          "id": "ice-scoop",
+          "name": "سكوب آيس كريم",
+          "price": 8
+        },
+        {
+          "id": "cream",
+          "name": "كريمة",
+          "price": 4
+        },
+        {
+          "id": "extra-coffee",
+          "name": "قهوة إضافية",
+          "price": 10
+        },
+        {
+          "id": "nuts",
+          "name": "مكسرات",
+          "price": 6
+        }
+      ],
+      "restaurantName": "حلاوة الظهر",
+      "restaurantCuisine": "حلويات"
+    },
+    {
+      "id": "nonna-oven-offer-2",
+      "restaurantId": "nonna-oven",
+      "name": "وجبة عائلية بيتزا لـ 4 أشخاص",
+      "description": "4 بيتزا مع إضافات ومشروبات. تكفي 4 أشخاص.",
+      "image": "/offers/4-pizza.jpg",
+      "price": 73,
+      "rating": 4.6,
+      "calories": 1800,
+      "protein": 60,
+      "carbs": 190,
+      "fat": 70,
+      "category": "offers",
+      "isPopular": false,
+      "isOffer": true,
+      "offerPrice": null,
+      "isCombo": true,
+      "offerKind": "family",
+      "comboIncludes": [
+        "4 بيتزا",
+        "بروشيتا",
+        "سلطة",
+        "4 مشروب"
+      ],
+      "spicyOption": true,
+      "cashbackPercent": null,
+      "addons": [
+        {
+          "id": "parmesan",
+          "name": "جبنة بارميزان",
+          "price": 6
+        },
+        {
+          "id": "garlic-bread",
+          "name": "ثوم محمص",
+          "price": 8
+        },
+        {
+          "id": "extra-sauce",
+          "name": "صلصة زيادة",
+          "price": 4
+        },
+        {
+          "id": "drink",
+          "name": "مشروب",
+          "price": 6
+        },
+        {
+          "id": "side-salad",
+          "name": "سلطة صغيرة",
+          "price": 10
+        }
+      ],
+      "restaurantName": "فرن النونة",
+      "restaurantCuisine": "إيطالي"
+    },
+    {
+      "id": "roma-pasta-offer-2",
+      "restaurantId": "roma-pasta",
+      "name": "وجبة عائلية بيتزا لـ 4 أشخاص",
+      "description": "4 بيتزا مع إضافات ومشروبات. تكفي 4 أشخاص.",
+      "image": "/offers/4-pizza.jpg",
+      "price": 73,
+      "rating": 4.6,
+      "calories": 1800,
+      "protein": 60,
+      "carbs": 190,
+      "fat": 70,
+      "category": "offers",
+      "isPopular": false,
+      "isOffer": true,
+      "offerPrice": null,
+      "isCombo": true,
+      "offerKind": "family",
+      "comboIncludes": [
+        "4 بيتزا",
+        "بروشيتا",
+        "سلطة",
+        "4 مشروب"
+      ],
+      "spicyOption": true,
+      "cashbackPercent": null,
+      "addons": [
+        {
+          "id": "parmesan",
+          "name": "جبنة بارميزان",
+          "price": 6
+        },
+        {
+          "id": "garlic-bread",
+          "name": "ثوم محمص",
+          "price": 8
+        },
+        {
+          "id": "extra-sauce",
+          "name": "صلصة زيادة",
+          "price": 4
+        },
+        {
+          "id": "drink",
+          "name": "مشروب",
+          "price": 6
+        },
+        {
+          "id": "side-salad",
+          "name": "سلطة صغيرة",
+          "price": 10
+        }
+      ],
+      "restaurantName": "باستا روما",
+      "restaurantCuisine": "إيطالي"
+    },
+    {
+      "id": "truffle-table-offer-2",
+      "restaurantId": "truffle-table",
+      "name": "وجبة عائلية بيتزا لـ 6 أشخاص",
+      "description": "6 بيتزا مع إضافات ومشروبات. تكفي 6 أشخاص.",
+      "image": "/offers/6-pizza.jpg",
+      "price": 73,
+      "rating": 4.6,
+      "calories": 1800,
+      "protein": 60,
+      "carbs": 190,
+      "fat": 70,
+      "category": "offers",
+      "isPopular": false,
+      "isOffer": true,
+      "offerPrice": null,
+      "isCombo": true,
+      "offerKind": "family",
+      "comboIncludes": [
+        "6 بيتزا",
+        "بروشيتا",
+        "سلطة",
+        "6 مشروب"
+      ],
+      "spicyOption": true,
+      "cashbackPercent": null,
+      "addons": [
+        {
+          "id": "parmesan",
+          "name": "جبنة بارميزان",
+          "price": 6
+        },
+        {
+          "id": "garlic-bread",
+          "name": "ثوم محمص",
+          "price": 8
+        },
+        {
+          "id": "extra-sauce",
+          "name": "صلصة زيادة",
+          "price": 4
+        },
+        {
+          "id": "drink",
+          "name": "مشروب",
+          "price": 6
+        },
+        {
+          "id": "side-salad",
+          "name": "سلطة صغيرة",
+          "price": 10
+        }
+      ],
+      "restaurantName": "طاولة الكمأة",
+      "restaurantCuisine": "إيطالي"
+    },
+    {
+      "id": "olive-crust-offer-2",
+      "restaurantId": "olive-crust",
+      "name": "وجبة عائلية بيتزا لـ 6 أشخاص",
+      "description": "6 بيتزا مع إضافات ومشروبات. تكفي 6 أشخاص.",
+      "image": "/offers/6-pizza.jpg",
+      "price": 73,
+      "rating": 4.6,
+      "calories": 1800,
+      "protein": 60,
+      "carbs": 190,
+      "fat": 70,
+      "category": "offers",
+      "isPopular": false,
+      "isOffer": true,
+      "offerPrice": null,
+      "isCombo": true,
+      "offerKind": "family",
+      "comboIncludes": [
+        "6 بيتزا",
+        "بروشيتا",
+        "سلطة",
+        "6 مشروب"
+      ],
+      "spicyOption": true,
+      "cashbackPercent": null,
+      "addons": [
+        {
+          "id": "parmesan",
+          "name": "جبنة بارميزان",
+          "price": 6
+        },
+        {
+          "id": "garlic-bread",
+          "name": "ثوم محمص",
+          "price": 8
+        },
+        {
+          "id": "extra-sauce",
+          "name": "صلصة زيادة",
+          "price": 4
+        },
+        {
+          "id": "drink",
+          "name": "مشروب",
+          "price": 6
+        },
+        {
+          "id": "side-salad",
+          "name": "سلطة صغيرة",
+          "price": 10
+        }
+      ],
+      "restaurantName": "قشرة الزيتون",
+      "restaurantCuisine": "إيطالي"
+    },
+    {
+      "id": "vesuvio-pizza-offer-2",
+      "restaurantId": "vesuvio-pizza",
+      "name": "وجبة عائلية بيتزا لـ 5 أشخاص",
+      "description": "5 بيتزا مع إضافات ومشروبات. تكفي 5 أشخاص.",
+      "image": "/offers/5-pizza.jpg",
+      "price": 73,
+      "rating": 4.6,
+      "calories": 1800,
+      "protein": 60,
+      "carbs": 190,
+      "fat": 70,
+      "category": "offers",
+      "isPopular": false,
+      "isOffer": true,
+      "offerPrice": null,
+      "isCombo": true,
+      "offerKind": "family",
+      "comboIncludes": [
+        "5 بيتزا",
+        "بروشيتا",
+        "سلطة",
+        "5 مشروب"
+      ],
+      "spicyOption": true,
+      "cashbackPercent": null,
+      "addons": [
+        {
+          "id": "parmesan",
+          "name": "جبنة بارميزان",
+          "price": 6
+        },
+        {
+          "id": "garlic-bread",
+          "name": "ثوم محمص",
+          "price": 8
+        },
+        {
+          "id": "extra-sauce",
+          "name": "صلصة زيادة",
+          "price": 4
+        },
+        {
+          "id": "drink",
+          "name": "مشروب",
+          "price": 6
+        },
+        {
+          "id": "side-salad",
+          "name": "سلطة صغيرة",
+          "price": 10
+        }
+      ],
+      "restaurantName": "بيتزا فيزوفيو",
+      "restaurantCuisine": "إيطالي"
+    },
+    {
+      "id": "basilico-offer-2",
+      "restaurantId": "basilico",
+      "name": "وجبة عائلية بيتزا لـ 5 أشخاص",
+      "description": "5 بيتزا مع إضافات ومشروبات. تكفي 5 أشخاص.",
+      "image": "/offers/5-pizza.jpg",
+      "price": 73,
+      "rating": 4.6,
+      "calories": 1800,
+      "protein": 60,
+      "carbs": 190,
+      "fat": 70,
+      "category": "offers",
+      "isPopular": false,
+      "isOffer": true,
+      "offerPrice": null,
+      "isCombo": true,
+      "offerKind": "family",
+      "comboIncludes": [
+        "5 بيتزا",
+        "بروشيتا",
+        "سلطة",
+        "5 مشروب"
+      ],
+      "spicyOption": true,
+      "cashbackPercent": null,
+      "addons": [
+        {
+          "id": "parmesan",
+          "name": "جبنة بارميزان",
+          "price": 6
+        },
+        {
+          "id": "garlic-bread",
+          "name": "ثوم محمص",
+          "price": 8
+        },
+        {
+          "id": "extra-sauce",
+          "name": "صلصة زيادة",
+          "price": 4
+        },
+        {
+          "id": "drink",
+          "name": "مشروب",
+          "price": 6
+        },
+        {
+          "id": "side-salad",
+          "name": "سلطة صغيرة",
+          "price": 10
+        }
+      ],
+      "restaurantName": "بازيليكو",
+      "restaurantCuisine": "إيطالي"
+    },
+    {
+      "id": "formaggio-offer-2",
+      "restaurantId": "formaggio",
+      "name": "وجبة عائلية بيتزا لـ 6 أشخاص",
+      "description": "6 بيتزا مع إضافات ومشروبات. تكفي 6 أشخاص.",
+      "image": "/offers/6-pizza.jpg",
+      "price": 73,
+      "rating": 4.6,
+      "calories": 1800,
+      "protein": 60,
+      "carbs": 190,
+      "fat": 70,
+      "category": "offers",
+      "isPopular": false,
+      "isOffer": true,
+      "offerPrice": null,
+      "isCombo": true,
+      "offerKind": "family",
+      "comboIncludes": [
+        "6 بيتزا",
+        "بروشيتا",
+        "سلطة",
+        "6 مشروب"
+      ],
+      "spicyOption": true,
+      "cashbackPercent": null,
+      "addons": [
+        {
+          "id": "parmesan",
+          "name": "جبنة بارميزان",
+          "price": 6
+        },
+        {
+          "id": "garlic-bread",
+          "name": "ثوم محمص",
+          "price": 8
+        },
+        {
+          "id": "extra-sauce",
+          "name": "صلصة زيادة",
+          "price": 4
+        },
+        {
+          "id": "drink",
+          "name": "مشروب",
+          "price": 6
+        },
+        {
+          "id": "side-salad",
+          "name": "سلطة صغيرة",
+          "price": 10
+        }
+      ],
+      "restaurantName": "فورماجيو",
+      "restaurantCuisine": "إيطالي"
+    },
+    {
+      "id": "amico-kitchen-offer-2",
+      "restaurantId": "amico-kitchen",
+      "name": "وجبة عائلية بيتزا لـ 3 أشخاص",
+      "description": "3 بيتزا مع إضافات ومشروبات. تكفي 3 أشخاص.",
+      "image": "/offers/3-pizza.jpg",
+      "price": 71,
+      "rating": 4.6,
+      "calories": 1800,
+      "protein": 60,
+      "carbs": 190,
+      "fat": 70,
+      "category": "offers",
+      "isPopular": false,
+      "isOffer": true,
+      "offerPrice": null,
+      "isCombo": true,
+      "offerKind": "family",
+      "comboIncludes": [
+        "3 بيتزا",
+        "بروشيتا",
+        "سلطة",
+        "3 مشروب"
+      ],
+      "spicyOption": true,
+      "cashbackPercent": null,
+      "addons": [
+        {
+          "id": "parmesan",
+          "name": "جبنة بارميزان",
+          "price": 6
+        },
+        {
+          "id": "garlic-bread",
+          "name": "ثوم محمص",
+          "price": 8
+        },
+        {
+          "id": "extra-sauce",
+          "name": "صلصة زيادة",
+          "price": 4
+        },
+        {
+          "id": "drink",
+          "name": "مشروب",
+          "price": 6
+        },
+        {
+          "id": "side-salad",
+          "name": "سلطة صغيرة",
+          "price": 10
+        }
+      ],
+      "restaurantName": "مطبخ أميكو",
+      "restaurantCuisine": "إيطالي"
+    },
+    {
+      "id": "spice-route-offer-2",
+      "restaurantId": "spice-route",
+      "name": "وجبة عائلية ثالي لـ 5 أشخاص",
+      "description": "5 طبق ثالي مع إضافات ومشروبات. تكفي 5 أشخاص.",
+      "image": "https://images.unsplash.com/photo-1565557623262-b51c2513a641?w=800&q=80",
+      "price": 109,
+      "rating": 4.6,
+      "calories": 1600,
+      "protein": 55,
+      "carbs": 180,
+      "fat": 50,
+      "category": "offers",
+      "isPopular": false,
+      "isOffer": true,
+      "offerPrice": null,
+      "isCombo": true,
+      "offerKind": "family",
+      "comboIncludes": [
+        "5 طبق ثالي",
+        "نان",
+        "أرز",
+        "مخلل",
+        "5 مشروب"
+      ],
+      "spicyOption": true,
+      "cashbackPercent": null,
+      "addons": [
+        {
+          "id": "extra-naan",
+          "name": "نان إضافي",
+          "price": 7
+        },
+        {
+          "id": "raita",
+          "name": "رايتا",
+          "price": 5
+        },
+        {
+          "id": "indian-pickle",
+          "name": "مخلل هندي",
+          "price": 4
+        },
+        {
+          "id": "lassi",
+          "name": "لاسي",
+          "price": 10
+        },
+        {
+          "id": "extra-rice",
+          "name": "أرز إضافي",
+          "price": 6
+        }
+      ],
+      "restaurantName": "طريق التوابل",
+      "restaurantCuisine": "هندي"
+    },
+    {
+      "id": "tandoor-flame-offer-2",
+      "restaurantId": "tandoor-flame",
+      "name": "وجبة عائلية ثالي لـ 6 أشخاص",
+      "description": "6 طبق ثالي مع إضافات ومشروبات. تكفي 6 أشخاص.",
+      "image": "https://images.unsplash.com/photo-1588168333986-5078d3ae3976?w=800&q=80",
+      "price": 109,
+      "rating": 4.6,
+      "calories": 1600,
+      "protein": 55,
+      "carbs": 180,
+      "fat": 50,
+      "category": "offers",
+      "isPopular": false,
+      "isOffer": true,
+      "offerPrice": null,
+      "isCombo": true,
+      "offerKind": "family",
+      "comboIncludes": [
+        "6 طبق ثالي",
+        "نان",
+        "أرز",
+        "مخلل",
+        "6 مشروب"
+      ],
+      "spicyOption": true,
+      "cashbackPercent": null,
+      "addons": [
+        {
+          "id": "extra-naan",
+          "name": "نان إضافي",
+          "price": 7
+        },
+        {
+          "id": "raita",
+          "name": "رايتا",
+          "price": 5
+        },
+        {
+          "id": "indian-pickle",
+          "name": "مخلل هندي",
+          "price": 4
+        },
+        {
+          "id": "lassi",
+          "name": "لاسي",
+          "price": 10
+        },
+        {
+          "id": "extra-rice",
+          "name": "أرز إضافي",
+          "price": 6
+        }
+      ],
+      "restaurantName": "لهب التندور",
+      "restaurantCuisine": "هندي"
+    },
+    {
+      "id": "masala-bowl-offer-2",
+      "restaurantId": "masala-bowl",
+      "name": "وجبة عائلية ثالي لـ 3 أشخاص",
+      "description": "3 طبق ثالي مع إضافات ومشروبات. تكفي 3 أشخاص.",
+      "image": "https://images.unsplash.com/photo-1588168333986-5078d3ae3976?w=800&q=80",
+      "price": 86,
+      "rating": 4.6,
+      "calories": 1600,
+      "protein": 55,
+      "carbs": 180,
+      "fat": 50,
+      "category": "offers",
+      "isPopular": false,
+      "isOffer": true,
+      "offerPrice": null,
+      "isCombo": true,
+      "offerKind": "family",
+      "comboIncludes": [
+        "3 طبق ثالي",
+        "نان",
+        "أرز",
+        "مخلل",
+        "3 مشروب"
+      ],
+      "spicyOption": true,
+      "cashbackPercent": null,
+      "addons": [
+        {
+          "id": "extra-naan",
+          "name": "نان إضافي",
+          "price": 7
+        },
+        {
+          "id": "raita",
+          "name": "رايتا",
+          "price": 5
+        },
+        {
+          "id": "indian-pickle",
+          "name": "مخلل هندي",
+          "price": 4
+        },
+        {
+          "id": "lassi",
+          "name": "لاسي",
+          "price": 10
+        },
+        {
+          "id": "extra-rice",
+          "name": "أرز إضافي",
+          "price": 6
+        }
+      ],
+      "restaurantName": "بول الماسالا",
+      "restaurantCuisine": "هندي"
+    },
+    {
+      "id": "curry-garden-offer-2",
+      "restaurantId": "curry-garden",
+      "name": "وجبة عائلية ثالي لـ 4 أشخاص",
+      "description": "4 طبق ثالي مع إضافات ومشروبات. تكفي 4 أشخاص.",
+      "image": "https://images.unsplash.com/photo-1588168333986-5078d3ae3976?w=800&q=80",
+      "price": 107,
+      "rating": 4.6,
+      "calories": 1600,
+      "protein": 55,
+      "carbs": 180,
+      "fat": 50,
+      "category": "offers",
+      "isPopular": false,
+      "isOffer": true,
+      "offerPrice": null,
+      "isCombo": true,
+      "offerKind": "family",
+      "comboIncludes": [
+        "4 طبق ثالي",
+        "نان",
+        "أرز",
+        "مخلل",
+        "4 مشروب"
+      ],
+      "spicyOption": true,
+      "cashbackPercent": null,
+      "addons": [
+        {
+          "id": "extra-naan",
+          "name": "نان إضافي",
+          "price": 7
+        },
+        {
+          "id": "raita",
+          "name": "رايتا",
+          "price": 5
+        },
+        {
+          "id": "indian-pickle",
+          "name": "مخلل هندي",
+          "price": 4
+        },
+        {
+          "id": "lassi",
+          "name": "لاسي",
+          "price": 10
+        },
+        {
+          "id": "extra-rice",
+          "name": "أرز إضافي",
+          "price": 6
+        }
+      ],
+      "restaurantName": "حديقة الكاري",
+      "restaurantCuisine": "هندي"
+    },
+    {
+      "id": "biryani-dar-offer-2",
+      "restaurantId": "biryani-dar",
+      "name": "وجبة عائلية ثالي لـ 5 أشخاص",
+      "description": "5 طبق ثالي مع إضافات ومشروبات. تكفي 5 أشخاص.",
+      "image": "https://images.unsplash.com/photo-1588168333986-5078d3ae3976?w=800&q=80",
+      "price": 109,
+      "rating": 4.6,
+      "calories": 1600,
+      "protein": 55,
+      "carbs": 180,
+      "fat": 50,
+      "category": "offers",
+      "isPopular": false,
+      "isOffer": true,
+      "offerPrice": null,
+      "isCombo": true,
+      "offerKind": "family",
+      "comboIncludes": [
+        "5 طبق ثالي",
+        "نان",
+        "أرز",
+        "مخلل",
+        "5 مشروب"
+      ],
+      "spicyOption": true,
+      "cashbackPercent": null,
+      "addons": [
+        {
+          "id": "extra-naan",
+          "name": "نان إضافي",
+          "price": 7
+        },
+        {
+          "id": "raita",
+          "name": "رايتا",
+          "price": 5
+        },
+        {
+          "id": "indian-pickle",
+          "name": "مخلل هندي",
+          "price": 4
+        },
+        {
+          "id": "lassi",
+          "name": "لاسي",
+          "price": 10
+        },
+        {
+          "id": "extra-rice",
+          "name": "أرز إضافي",
+          "price": 6
+        }
+      ],
+      "restaurantName": "دار البرياني",
+      "restaurantCuisine": "هندي"
+    },
+    {
+      "id": "naan-house-offer-2",
+      "restaurantId": "naan-house",
+      "name": "وجبة عائلية ثالي لـ 4 أشخاص",
+      "description": "4 طبق ثالي مع إضافات ومشروبات. تكفي 4 أشخاص.",
+      "image": "https://images.unsplash.com/photo-1585937421612-70a008356fbe?w=800&q=80",
+      "price": 107,
+      "rating": 4.6,
+      "calories": 1600,
+      "protein": 55,
+      "carbs": 180,
+      "fat": 50,
+      "category": "offers",
+      "isPopular": false,
+      "isOffer": true,
+      "offerPrice": null,
+      "isCombo": true,
+      "offerKind": "family",
+      "comboIncludes": [
+        "4 طبق ثالي",
+        "نان",
+        "أرز",
+        "مخلل",
+        "4 مشروب"
+      ],
+      "spicyOption": true,
+      "cashbackPercent": null,
+      "addons": [
+        {
+          "id": "extra-naan",
+          "name": "نان إضافي",
+          "price": 7
+        },
+        {
+          "id": "raita",
+          "name": "رايتا",
+          "price": 5
+        },
+        {
+          "id": "indian-pickle",
+          "name": "مخلل هندي",
+          "price": 4
+        },
+        {
+          "id": "lassi",
+          "name": "لاسي",
+          "price": 10
+        },
+        {
+          "id": "extra-rice",
+          "name": "أرز إضافي",
+          "price": 6
+        }
+      ],
+      "restaurantName": "بيت الخبز النان",
+      "restaurantCuisine": "هندي"
+    },
+    {
+      "id": "tikka-spot-offer-2",
+      "restaurantId": "tikka-spot",
+      "name": "وجبة عائلية ثالي لـ 4 أشخاص",
+      "description": "4 طبق ثالي مع إضافات ومشروبات. تكفي 4 أشخاص.",
+      "image": "https://images.unsplash.com/photo-1565557623262-b51c2513a641?w=800&q=80",
+      "price": 107,
+      "rating": 4.6,
+      "calories": 1600,
+      "protein": 55,
+      "carbs": 180,
+      "fat": 50,
+      "category": "offers",
+      "isPopular": false,
+      "isOffer": true,
+      "offerPrice": null,
+      "isCombo": true,
+      "offerKind": "family",
+      "comboIncludes": [
+        "4 طبق ثالي",
+        "نان",
+        "أرز",
+        "مخلل",
+        "4 مشروب"
+      ],
+      "spicyOption": true,
+      "cashbackPercent": null,
+      "addons": [
+        {
+          "id": "extra-naan",
+          "name": "نان إضافي",
+          "price": 7
+        },
+        {
+          "id": "raita",
+          "name": "رايتا",
+          "price": 5
+        },
+        {
+          "id": "indian-pickle",
+          "name": "مخلل هندي",
+          "price": 4
+        },
+        {
+          "id": "lassi",
+          "name": "لاسي",
+          "price": 10
+        },
+        {
+          "id": "extra-rice",
+          "name": "أرز إضافي",
+          "price": 6
+        }
+      ],
+      "restaurantName": "تيكا سبوت",
+      "restaurantCuisine": "هندي"
+    },
+    {
+      "id": "delhi-express-offer-2",
+      "restaurantId": "delhi-express",
+      "name": "وجبة عائلية ثالي لـ 6 أشخاص",
+      "description": "6 طبق ثالي مع إضافات ومشروبات. تكفي 6 أشخاص.",
+      "image": "https://images.unsplash.com/photo-1585937421612-70a008356fbe?w=800&q=80",
+      "price": 109,
+      "rating": 4.6,
+      "calories": 1600,
+      "protein": 55,
+      "carbs": 180,
+      "fat": 50,
+      "category": "offers",
+      "isPopular": false,
+      "isOffer": true,
+      "offerPrice": null,
+      "isCombo": true,
+      "offerKind": "family",
+      "comboIncludes": [
+        "6 طبق ثالي",
+        "نان",
+        "أرز",
+        "مخلل",
+        "6 مشروب"
+      ],
+      "spicyOption": true,
+      "cashbackPercent": null,
+      "addons": [
+        {
+          "id": "extra-naan",
+          "name": "نان إضافي",
+          "price": 7
+        },
+        {
+          "id": "raita",
+          "name": "رايتا",
+          "price": 5
+        },
+        {
+          "id": "indian-pickle",
+          "name": "مخلل هندي",
+          "price": 4
+        },
+        {
+          "id": "lassi",
+          "name": "لاسي",
+          "price": 10
+        },
+        {
+          "id": "extra-rice",
+          "name": "أرز إضافي",
+          "price": 6
+        }
+      ],
+      "restaurantName": "دلهي إكسبرس",
+      "restaurantCuisine": "هندي"
+    },
+    {
+      "id": "dar-almandi-offer-2",
+      "restaurantId": "dar-almandi",
+      "name": "وجبة عائلية مندي لـ 3 أشخاص",
+      "description": "3 صحن مندي مع إضافات ومشروبات. تكفي 3 أشخاص.",
+      "image": "https://images.unsplash.com/photo-1544025162-d76694265947?w=800&q=80",
+      "price": 71,
+      "rating": 4.6,
+      "calories": 2200,
+      "protein": 110,
+      "carbs": 180,
+      "fat": 90,
+      "category": "offers",
+      "isPopular": false,
+      "isOffer": true,
+      "offerPrice": null,
+      "isCombo": true,
+      "offerKind": "family",
+      "comboIncludes": [
+        "3 صحن مندي",
+        "شوربة",
+        "سلطة",
+        "3 مشروب"
+      ],
+      "spicyOption": false,
+      "cashbackPercent": null,
+      "addons": [
+        {
+          "id": "garlic-sauce",
+          "name": "صوص ثوم",
+          "price": 3
+        },
+        {
+          "id": "pickles",
+          "name": "مخلل",
+          "price": 3
+        },
+        {
+          "id": "extra-rice",
+          "name": "أرز إضافي",
+          "price": 6
+        },
+        {
+          "id": "cola",
+          "name": "كولا",
+          "price": 6
+        },
+        {
+          "id": "side-salad",
+          "name": "سلطة صغيرة",
+          "price": 8
+        }
+      ],
+      "restaurantName": "دار المندي",
+      "restaurantCuisine": "سعودي"
+    },
+    {
+      "id": "kabsa-palace-offer-2",
+      "restaurantId": "kabsa-palace",
+      "name": "وجبة عائلية مندي لـ 6 أشخاص",
+      "description": "6 صحن مندي مع إضافات ومشروبات. تكفي 6 أشخاص.",
+      "image": "https://images.unsplash.com/photo-1544025162-d76694265947?w=800&q=80",
+      "price": 100,
+      "rating": 4.6,
+      "calories": 2200,
+      "protein": 110,
+      "carbs": 180,
+      "fat": 90,
+      "category": "offers",
+      "isPopular": false,
+      "isOffer": true,
+      "offerPrice": null,
+      "isCombo": true,
+      "offerKind": "family",
+      "comboIncludes": [
+        "6 صحن مندي",
+        "شوربة",
+        "سلطة",
+        "6 مشروب"
+      ],
+      "spicyOption": false,
+      "cashbackPercent": null,
+      "addons": [
+        {
+          "id": "garlic-sauce",
+          "name": "صوص ثوم",
+          "price": 3
+        },
+        {
+          "id": "pickles",
+          "name": "مخلل",
+          "price": 3
+        },
+        {
+          "id": "extra-rice",
+          "name": "أرز إضافي",
+          "price": 6
+        },
+        {
+          "id": "cola",
+          "name": "كولا",
+          "price": 6
+        },
+        {
+          "id": "side-salad",
+          "name": "سلطة صغيرة",
+          "price": 8
+        }
+      ],
+      "restaurantName": "قصر الكبسة",
+      "restaurantCuisine": "سعودي"
+    },
+    {
+      "id": "najd-table-offer-2",
+      "restaurantId": "najd-table",
+      "name": "وجبة عائلية مندي لـ 5 أشخاص",
+      "description": "5 صحن مندي مع إضافات ومشروبات. تكفي 5 أشخاص.",
+      "image": "https://images.unsplash.com/photo-1544025162-d76694265947?w=800&q=80",
+      "price": 108,
+      "rating": 4.6,
+      "calories": 2200,
+      "protein": 110,
+      "carbs": 180,
+      "fat": 90,
+      "category": "offers",
+      "isPopular": false,
+      "isOffer": true,
+      "offerPrice": null,
+      "isCombo": true,
+      "offerKind": "family",
+      "comboIncludes": [
+        "5 صحن مندي",
+        "شوربة",
+        "سلطة",
+        "5 مشروب"
+      ],
+      "spicyOption": false,
+      "cashbackPercent": null,
+      "addons": [
+        {
+          "id": "garlic-sauce",
+          "name": "صوص ثوم",
+          "price": 3
+        },
+        {
+          "id": "pickles",
+          "name": "مخلل",
+          "price": 3
+        },
+        {
+          "id": "extra-rice",
+          "name": "أرز إضافي",
+          "price": 6
+        },
+        {
+          "id": "cola",
+          "name": "كولا",
+          "price": 6
+        },
+        {
+          "id": "side-salad",
+          "name": "سلطة صغيرة",
+          "price": 8
+        }
+      ],
+      "restaurantName": "سفرة نجد",
+      "restaurantCuisine": "سعودي"
+    },
+    {
+      "id": "harees-house-offer-2",
+      "restaurantId": "harees-house",
+      "name": "وجبة عائلية مندي لـ 6 أشخاص",
+      "description": "6 صحن مندي مع إضافات ومشروبات. تكفي 6 أشخاص.",
+      "image": "https://images.unsplash.com/photo-1544025162-d76694265947?w=800&q=80",
+      "price": 100,
+      "rating": 4.6,
+      "calories": 2200,
+      "protein": 110,
+      "carbs": 180,
+      "fat": 90,
+      "category": "offers",
+      "isPopular": false,
+      "isOffer": true,
+      "offerPrice": null,
+      "isCombo": true,
+      "offerKind": "family",
+      "comboIncludes": [
+        "6 صحن مندي",
+        "شوربة",
+        "سلطة",
+        "6 مشروب"
+      ],
+      "spicyOption": false,
+      "cashbackPercent": null,
+      "addons": [
+        {
+          "id": "garlic-sauce",
+          "name": "صوص ثوم",
+          "price": 3
+        },
+        {
+          "id": "pickles",
+          "name": "مخلل",
+          "price": 3
+        },
+        {
+          "id": "extra-rice",
+          "name": "أرز إضافي",
+          "price": 6
+        },
+        {
+          "id": "cola",
+          "name": "كولا",
+          "price": 6
+        },
+        {
+          "id": "side-salad",
+          "name": "سلطة صغيرة",
+          "price": 8
+        }
+      ],
+      "restaurantName": "بيت الهريس",
+      "restaurantCuisine": "سعودي"
+    },
+    {
+      "id": "jareesh-corner-offer-2",
+      "restaurantId": "jareesh-corner",
+      "name": "وجبة عائلية مندي لـ 5 أشخاص",
+      "description": "5 صحن مندي مع إضافات ومشروبات. تكفي 5 أشخاص.",
+      "image": "https://images.unsplash.com/photo-1544025162-d76694265947?w=800&q=80",
+      "price": 108,
+      "rating": 4.6,
+      "calories": 2200,
+      "protein": 110,
+      "carbs": 180,
+      "fat": 90,
+      "category": "offers",
+      "isPopular": false,
+      "isOffer": true,
+      "offerPrice": null,
+      "isCombo": true,
+      "offerKind": "family",
+      "comboIncludes": [
+        "5 صحن مندي",
+        "شوربة",
+        "سلطة",
+        "5 مشروب"
+      ],
+      "spicyOption": false,
+      "cashbackPercent": null,
+      "addons": [
+        {
+          "id": "garlic-sauce",
+          "name": "صوص ثوم",
+          "price": 3
+        },
+        {
+          "id": "pickles",
+          "name": "مخلل",
+          "price": 3
+        },
+        {
+          "id": "extra-rice",
+          "name": "أرز إضافي",
+          "price": 6
+        },
+        {
+          "id": "cola",
+          "name": "كولا",
+          "price": 6
+        },
+        {
+          "id": "side-salad",
+          "name": "سلطة صغيرة",
+          "price": 8
+        }
+      ],
+      "restaurantName": "ركن الجريش",
+      "restaurantCuisine": "سعودي"
+    },
+    {
+      "id": "samak-wa-ruz-offer-2",
+      "restaurantId": "samak-wa-ruz",
+      "name": "وجبة عائلية مندي لـ 3 أشخاص",
+      "description": "3 صحن مندي مع إضافات ومشروبات. تكفي 3 أشخاص.",
+      "image": "https://images.unsplash.com/photo-1544025162-d76694265947?w=800&q=80",
+      "price": 71,
+      "rating": 4.6,
+      "calories": 2200,
+      "protein": 110,
+      "carbs": 180,
+      "fat": 90,
+      "category": "offers",
+      "isPopular": false,
+      "isOffer": true,
+      "offerPrice": null,
+      "isCombo": true,
+      "offerKind": "family",
+      "comboIncludes": [
+        "3 صحن مندي",
+        "شوربة",
+        "سلطة",
+        "3 مشروب"
+      ],
+      "spicyOption": false,
+      "cashbackPercent": null,
+      "addons": [
+        {
+          "id": "garlic-sauce",
+          "name": "صوص ثوم",
+          "price": 3
+        },
+        {
+          "id": "pickles",
+          "name": "مخلل",
+          "price": 3
+        },
+        {
+          "id": "extra-rice",
+          "name": "أرز إضافي",
+          "price": 6
+        },
+        {
+          "id": "cola",
+          "name": "كولا",
+          "price": 6
+        },
+        {
+          "id": "side-salad",
+          "name": "سلطة صغيرة",
+          "price": 8
+        }
+      ],
+      "restaurantName": "سمك وأرز",
+      "restaurantCuisine": "سعودي"
+    },
+    {
+      "id": "qursan-kitchen-offer-2",
+      "restaurantId": "qursan-kitchen",
+      "name": "وجبة عائلية مندي لـ 4 أشخاص",
+      "description": "4 صحن مندي مع إضافات ومشروبات. تكفي 4 أشخاص.",
+      "image": "https://images.unsplash.com/photo-1544025162-d76694265947?w=800&q=80",
+      "price": 89,
+      "rating": 4.6,
+      "calories": 2200,
+      "protein": 110,
+      "carbs": 180,
+      "fat": 90,
+      "category": "offers",
+      "isPopular": false,
+      "isOffer": true,
+      "offerPrice": null,
+      "isCombo": true,
+      "offerKind": "family",
+      "comboIncludes": [
+        "4 صحن مندي",
+        "شوربة",
+        "سلطة",
+        "4 مشروب"
+      ],
+      "spicyOption": false,
+      "cashbackPercent": null,
+      "addons": [
+        {
+          "id": "garlic-sauce",
+          "name": "صوص ثوم",
+          "price": 3
+        },
+        {
+          "id": "pickles",
+          "name": "مخلل",
+          "price": 3
+        },
+        {
+          "id": "extra-rice",
+          "name": "أرز إضافي",
+          "price": 6
+        },
+        {
+          "id": "cola",
+          "name": "كولا",
+          "price": 6
+        },
+        {
+          "id": "side-salad",
+          "name": "سلطة صغيرة",
+          "price": 8
+        }
+      ],
+      "restaurantName": "مطبخ القرصان",
+      "restaurantCuisine": "سعودي"
+    },
+    {
+      "id": "madafa-aloud-offer-2",
+      "restaurantId": "madafa-aloud",
+      "name": "وجبة عائلية مندي لـ 5 أشخاص",
+      "description": "5 صحن مندي مع إضافات ومشروبات. تكفي 5 أشخاص.",
+      "image": "https://images.unsplash.com/photo-1544025162-d76694265947?w=800&q=80",
+      "price": 108,
+      "rating": 4.6,
+      "calories": 2200,
+      "protein": 110,
+      "carbs": 180,
+      "fat": 90,
+      "category": "offers",
+      "isPopular": false,
+      "isOffer": true,
+      "offerPrice": null,
+      "isCombo": true,
+      "offerKind": "family",
+      "comboIncludes": [
+        "5 صحن مندي",
+        "شوربة",
+        "سلطة",
+        "5 مشروب"
+      ],
+      "spicyOption": false,
+      "cashbackPercent": null,
+      "addons": [
+        {
+          "id": "garlic-sauce",
+          "name": "صوص ثوم",
+          "price": 3
+        },
+        {
+          "id": "pickles",
+          "name": "مخلل",
+          "price": 3
+        },
+        {
+          "id": "extra-rice",
+          "name": "أرز إضافي",
+          "price": 6
+        },
+        {
+          "id": "cola",
+          "name": "كولا",
+          "price": 6
+        },
+        {
+          "id": "side-salad",
+          "name": "سلطة صغيرة",
+          "price": 8
+        }
+      ],
+      "restaurantName": "مضافة العود",
+      "restaurantCuisine": "سعودي"
+    },
+    {
+      "id": "blue-harbor-offer-2",
+      "restaurantId": "blue-harbor",
+      "name": "وجبة عائلية بحرية لـ 4 أشخاص",
+      "description": "4 طبق بحري مع إضافات ومشروبات. تكفي 4 أشخاص.",
+      "image": "https://images.unsplash.com/photo-1559847844-5315695dadae?w=800&q=80",
+      "price": 98,
+      "rating": 4.6,
+      "calories": 1600,
+      "protein": 95,
+      "carbs": 100,
+      "fat": 60,
+      "category": "offers",
+      "isPopular": false,
+      "isOffer": true,
+      "offerPrice": null,
+      "isCombo": true,
+      "offerKind": "family",
+      "comboIncludes": [
+        "4 طبق بحري",
+        "أرز",
+        "سلطة",
+        "ليمون",
+        "4 مشروب"
+      ],
+      "spicyOption": false,
+      "cashbackPercent": null,
+      "addons": [
+        {
+          "id": "garlic-sauce",
+          "name": "صوص ثوم",
+          "price": 3
+        },
+        {
+          "id": "lemon",
+          "name": "ليمون إضافي",
+          "price": 2
+        },
+        {
+          "id": "extra-rice",
+          "name": "أرز",
+          "price": 6
+        },
+        {
+          "id": "side-salad",
+          "name": "سلطة",
+          "price": 8
+        },
+        {
+          "id": "drink",
+          "name": "مشروب",
+          "price": 6
+        }
+      ],
+      "restaurantName": "الميناء الأزرق",
+      "restaurantCuisine": "بحري"
+    },
+    {
+      "id": "shrimp-coast-offer-2",
+      "restaurantId": "shrimp-coast",
+      "name": "وجبة عائلية بحرية لـ 3 أشخاص",
+      "description": "3 طبق بحري مع إضافات ومشروبات. تكفي 3 أشخاص.",
+      "image": "https://images.unsplash.com/photo-1615141982883-c7ad0e69fd62?w=800&q=80",
+      "price": 78,
+      "rating": 4.6,
+      "calories": 1600,
+      "protein": 95,
+      "carbs": 100,
+      "fat": 60,
+      "category": "offers",
+      "isPopular": false,
+      "isOffer": true,
+      "offerPrice": null,
+      "isCombo": true,
+      "offerKind": "family",
+      "comboIncludes": [
+        "3 طبق بحري",
+        "أرز",
+        "سلطة",
+        "ليمون",
+        "3 مشروب"
+      ],
+      "spicyOption": false,
+      "cashbackPercent": null,
+      "addons": [
+        {
+          "id": "garlic-sauce",
+          "name": "صوص ثوم",
+          "price": 3
+        },
+        {
+          "id": "lemon",
+          "name": "ليمون إضافي",
+          "price": 2
+        },
+        {
+          "id": "extra-rice",
+          "name": "أرز",
+          "price": 6
+        },
+        {
+          "id": "side-salad",
+          "name": "سلطة",
+          "price": 8
+        },
+        {
+          "id": "drink",
+          "name": "مشروب",
+          "price": 6
+        }
+      ],
+      "restaurantName": "ساحل الروبيان",
+      "restaurantCuisine": "بحري"
+    },
+    {
+      "id": "coral-grill-offer-2",
+      "restaurantId": "coral-grill",
+      "name": "وجبة عائلية بحرية لـ 5 أشخاص",
+      "description": "5 طبق بحري مع إضافات ومشروبات. تكفي 5 أشخاص.",
+      "image": "https://images.unsplash.com/photo-1519708227418-c8fd9a32b7a2?w=800&q=80",
+      "price": 118,
+      "rating": 4.6,
+      "calories": 1600,
+      "protein": 95,
+      "carbs": 100,
+      "fat": 60,
+      "category": "offers",
+      "isPopular": false,
+      "isOffer": true,
+      "offerPrice": null,
+      "isCombo": true,
+      "offerKind": "family",
+      "comboIncludes": [
+        "5 طبق بحري",
+        "أرز",
+        "سلطة",
+        "ليمون",
+        "5 مشروب"
+      ],
+      "spicyOption": false,
+      "cashbackPercent": null,
+      "addons": [
+        {
+          "id": "garlic-sauce",
+          "name": "صوص ثوم",
+          "price": 3
+        },
+        {
+          "id": "lemon",
+          "name": "ليمون إضافي",
+          "price": 2
+        },
+        {
+          "id": "extra-rice",
+          "name": "أرز",
+          "price": 6
+        },
+        {
+          "id": "side-salad",
+          "name": "سلطة",
+          "price": 8
+        },
+        {
+          "id": "drink",
+          "name": "مشروب",
+          "price": 6
+        }
+      ],
+      "restaurantName": "مشواة المرجان",
+      "restaurantCuisine": "بحري"
+    },
+    {
+      "id": "wave-kitchen-offer-2",
+      "restaurantId": "wave-kitchen",
+      "name": "وجبة عائلية بحرية لـ 3 أشخاص",
+      "description": "3 طبق بحري مع إضافات ومشروبات. تكفي 3 أشخاص.",
+      "image": "https://images.unsplash.com/photo-1615141982883-c7ad0e69fd62?w=800&q=80",
+      "price": 78,
+      "rating": 4.6,
+      "calories": 1600,
+      "protein": 95,
+      "carbs": 100,
+      "fat": 60,
+      "category": "offers",
+      "isPopular": false,
+      "isOffer": true,
+      "offerPrice": null,
+      "isCombo": true,
+      "offerKind": "family",
+      "comboIncludes": [
+        "3 طبق بحري",
+        "أرز",
+        "سلطة",
+        "ليمون",
+        "3 مشروب"
+      ],
+      "spicyOption": false,
+      "cashbackPercent": null,
+      "addons": [
+        {
+          "id": "garlic-sauce",
+          "name": "صوص ثوم",
+          "price": 3
+        },
+        {
+          "id": "lemon",
+          "name": "ليمون إضافي",
+          "price": 2
+        },
+        {
+          "id": "extra-rice",
+          "name": "أرز",
+          "price": 6
+        },
+        {
+          "id": "side-salad",
+          "name": "سلطة",
+          "price": 8
+        },
+        {
+          "id": "drink",
+          "name": "مشروب",
+          "price": 6
+        }
+      ],
+      "restaurantName": "مطبخ الموجة",
+      "restaurantCuisine": "بحري"
+    },
+    {
+      "id": "pearl-seafood-offer-2",
+      "restaurantId": "pearl-seafood",
+      "name": "وجبة عائلية بحرية لـ 5 أشخاص",
+      "description": "5 طبق بحري مع إضافات ومشروبات. تكفي 5 أشخاص.",
+      "image": "https://images.unsplash.com/photo-1559847844-5315695dadae?w=800&q=80",
+      "price": 118,
+      "rating": 4.6,
+      "calories": 1600,
+      "protein": 95,
+      "carbs": 100,
+      "fat": 60,
+      "category": "offers",
+      "isPopular": false,
+      "isOffer": true,
+      "offerPrice": null,
+      "isCombo": true,
+      "offerKind": "family",
+      "comboIncludes": [
+        "5 طبق بحري",
+        "أرز",
+        "سلطة",
+        "ليمون",
+        "5 مشروب"
+      ],
+      "spicyOption": false,
+      "cashbackPercent": null,
+      "addons": [
+        {
+          "id": "garlic-sauce",
+          "name": "صوص ثوم",
+          "price": 3
+        },
+        {
+          "id": "lemon",
+          "name": "ليمون إضافي",
+          "price": 2
+        },
+        {
+          "id": "extra-rice",
+          "name": "أرز",
+          "price": 6
+        },
+        {
+          "id": "side-salad",
+          "name": "سلطة",
+          "price": 8
+        },
+        {
+          "id": "drink",
+          "name": "مشروب",
+          "price": 6
+        }
+      ],
+      "restaurantName": "لؤلؤة البحر",
+      "restaurantCuisine": "بحري"
+    },
+    {
+      "id": "anchor-fish-offer-2",
+      "restaurantId": "anchor-fish",
+      "name": "وجبة عائلية بحرية لـ 3 أشخاص",
+      "description": "3 طبق بحري مع إضافات ومشروبات. تكفي 3 أشخاص.",
+      "image": "https://images.unsplash.com/photo-1615141982883-c7ad0e69fd62?w=800&q=80",
+      "price": 78,
+      "rating": 4.6,
+      "calories": 1600,
+      "protein": 95,
+      "carbs": 100,
+      "fat": 60,
+      "category": "offers",
+      "isPopular": false,
+      "isOffer": true,
+      "offerPrice": null,
+      "isCombo": true,
+      "offerKind": "family",
+      "comboIncludes": [
+        "3 طبق بحري",
+        "أرز",
+        "سلطة",
+        "ليمون",
+        "3 مشروب"
+      ],
+      "spicyOption": false,
+      "cashbackPercent": null,
+      "addons": [
+        {
+          "id": "garlic-sauce",
+          "name": "صوص ثوم",
+          "price": 3
+        },
+        {
+          "id": "lemon",
+          "name": "ليمون إضافي",
+          "price": 2
+        },
+        {
+          "id": "extra-rice",
+          "name": "أرز",
+          "price": 6
+        },
+        {
+          "id": "side-salad",
+          "name": "سلطة",
+          "price": 8
+        },
+        {
+          "id": "drink",
+          "name": "مشروب",
+          "price": 6
+        }
+      ],
+      "restaurantName": "سمك المرساة",
+      "restaurantCuisine": "بحري"
+    },
+    {
+      "id": "tide-table-offer-2",
+      "restaurantId": "tide-table",
+      "name": "وجبة عائلية بحرية لـ 6 أشخاص",
+      "description": "6 طبق بحري مع إضافات ومشروبات. تكفي 6 أشخاص.",
+      "image": "https://images.unsplash.com/photo-1559847844-5315695dadae?w=800&q=80",
+      "price": 109,
+      "rating": 4.6,
+      "calories": 1600,
+      "protein": 95,
+      "carbs": 100,
+      "fat": 60,
+      "category": "offers",
+      "isPopular": false,
+      "isOffer": true,
+      "offerPrice": null,
+      "isCombo": true,
+      "offerKind": "family",
+      "comboIncludes": [
+        "6 طبق بحري",
+        "أرز",
+        "سلطة",
+        "ليمون",
+        "6 مشروب"
+      ],
+      "spicyOption": false,
+      "cashbackPercent": null,
+      "addons": [
+        {
+          "id": "garlic-sauce",
+          "name": "صوص ثوم",
+          "price": 3
+        },
+        {
+          "id": "lemon",
+          "name": "ليمون إضافي",
+          "price": 2
+        },
+        {
+          "id": "extra-rice",
+          "name": "أرز",
+          "price": 6
+        },
+        {
+          "id": "side-salad",
+          "name": "سلطة",
+          "price": 8
+        },
+        {
+          "id": "drink",
+          "name": "مشروب",
+          "price": 6
+        }
+      ],
+      "restaurantName": "طاولة المد",
+      "restaurantCuisine": "بحري"
+    },
+    {
+      "id": "salt-breeze-offer-2",
+      "restaurantId": "salt-breeze",
+      "name": "وجبة عائلية بحرية لـ 5 أشخاص",
+      "description": "5 طبق بحري مع إضافات ومشروبات. تكفي 5 أشخاص.",
+      "image": "https://images.unsplash.com/photo-1615141982883-c7ad0e69fd62?w=800&q=80",
+      "price": 118,
+      "rating": 4.6,
+      "calories": 1600,
+      "protein": 95,
+      "carbs": 100,
+      "fat": 60,
+      "category": "offers",
+      "isPopular": false,
+      "isOffer": true,
+      "offerPrice": null,
+      "isCombo": true,
+      "offerKind": "family",
+      "comboIncludes": [
+        "5 طبق بحري",
+        "أرز",
+        "سلطة",
+        "ليمون",
+        "5 مشروب"
+      ],
+      "spicyOption": false,
+      "cashbackPercent": null,
+      "addons": [
+        {
+          "id": "garlic-sauce",
+          "name": "صوص ثوم",
+          "price": 3
+        },
+        {
+          "id": "lemon",
+          "name": "ليمون إضافي",
+          "price": 2
+        },
+        {
+          "id": "extra-rice",
+          "name": "أرز",
+          "price": 6
+        },
+        {
+          "id": "side-salad",
+          "name": "سلطة",
+          "price": 8
+        },
+        {
+          "id": "drink",
+          "name": "مشروب",
+          "price": 6
+        }
+      ],
+      "restaurantName": "نسيم الملح",
+      "restaurantCuisine": "بحري"
+    },
+    {
+      "id": "green-fuel-offer-2",
+      "restaurantId": "green-fuel",
+      "name": "وجبة عائلية سلطات لـ 3 أشخاص",
+      "description": "3 سلطة مع إضافات ومشروبات. تكفي 3 أشخاص.",
+      "image": "https://images.unsplash.com/photo-1546069901-ba9599a7e63c?w=800&q=80",
+      "price": 64,
+      "rating": 4.6,
+      "calories": 900,
+      "protein": 60,
+      "carbs": 70,
+      "fat": 30,
+      "category": "offers",
+      "isPopular": false,
+      "isOffer": true,
+      "offerPrice": null,
+      "isCombo": true,
+      "offerKind": "family",
+      "comboIncludes": [
+        "3 سلطة",
+        "ماء",
+        "صوص يوناني",
+        "3 مشروب"
+      ],
+      "spicyOption": false,
+      "cashbackPercent": null,
+      "addons": [
+        {
+          "id": "avocado",
+          "name": "أفوكادو",
+          "price": 8
+        },
+        {
+          "id": "boiled-egg",
+          "name": "بيض مسلوق",
+          "price": 4
+        },
+        {
+          "id": "yogurt-sauce",
+          "name": "صوص يوناني",
+          "price": 3
+        },
+        {
+          "id": "water",
+          "name": "ماء",
+          "price": 3
+        },
+        {
+          "id": "extra-salad",
+          "name": "سلطة زيادة",
+          "price": 8
+        }
+      ],
+      "restaurantName": "وقود أخضر",
+      "restaurantCuisine": "صحي"
+    },
+    {
+      "id": "protein-box-offer-2",
+      "restaurantId": "protein-box",
+      "name": "وجبة عائلية سلطات لـ 6 أشخاص",
+      "description": "6 سلطة مع إضافات ومشروبات. تكفي 6 أشخاص.",
+      "image": "https://images.unsplash.com/photo-1546069901-ba9599a7e63c?w=800&q=80",
+      "price": 113,
+      "rating": 4.6,
+      "calories": 900,
+      "protein": 60,
+      "carbs": 70,
+      "fat": 30,
+      "category": "offers",
+      "isPopular": false,
+      "isOffer": true,
+      "offerPrice": null,
+      "isCombo": true,
+      "offerKind": "family",
+      "comboIncludes": [
+        "6 سلطة",
+        "ماء",
+        "صوص يوناني",
+        "6 مشروب"
+      ],
+      "spicyOption": false,
+      "cashbackPercent": null,
+      "addons": [
+        {
+          "id": "avocado",
+          "name": "أفوكادو",
+          "price": 8
+        },
+        {
+          "id": "boiled-egg",
+          "name": "بيض مسلوق",
+          "price": 4
+        },
+        {
+          "id": "yogurt-sauce",
+          "name": "صوص يوناني",
+          "price": 3
+        },
+        {
+          "id": "water",
+          "name": "ماء",
+          "price": 3
+        },
+        {
+          "id": "extra-salad",
+          "name": "سلطة زيادة",
+          "price": 8
+        }
+      ],
+      "restaurantName": "صندوق البروتين",
+      "restaurantCuisine": "صحي"
+    },
+    {
+      "id": "leaf-bowl-offer-2",
+      "restaurantId": "leaf-bowl",
+      "name": "وجبة عائلية سلطات لـ 4 أشخاص",
+      "description": "4 سلطة مع إضافات ومشروبات. تكفي 4 أشخاص.",
+      "image": "https://images.unsplash.com/photo-1546069901-ba9599a7e63c?w=800&q=80",
+      "price": 80,
+      "rating": 4.6,
+      "calories": 900,
+      "protein": 60,
+      "carbs": 70,
+      "fat": 30,
+      "category": "offers",
+      "isPopular": false,
+      "isOffer": true,
+      "offerPrice": null,
+      "isCombo": true,
+      "offerKind": "family",
+      "comboIncludes": [
+        "4 سلطة",
+        "ماء",
+        "صوص يوناني",
+        "4 مشروب"
+      ],
+      "spicyOption": false,
+      "cashbackPercent": null,
+      "addons": [
+        {
+          "id": "avocado",
+          "name": "أفوكادو",
+          "price": 8
+        },
+        {
+          "id": "boiled-egg",
+          "name": "بيض مسلوق",
+          "price": 4
+        },
+        {
+          "id": "yogurt-sauce",
+          "name": "صوص يوناني",
+          "price": 3
+        },
+        {
+          "id": "water",
+          "name": "ماء",
+          "price": 3
+        },
+        {
+          "id": "extra-salad",
+          "name": "سلطة زيادة",
+          "price": 8
+        }
+      ],
+      "restaurantName": "بول الأوراق",
+      "restaurantCuisine": "صحي"
+    },
+    {
+      "id": "fit-kitchen-offer-2",
+      "restaurantId": "fit-kitchen",
+      "name": "وجبة عائلية سلطات لـ 3 أشخاص",
+      "description": "3 سلطة مع إضافات ومشروبات. تكفي 3 أشخاص.",
+      "image": "https://images.unsplash.com/photo-1490645935967-10de6ba17061?w=800&q=80",
+      "price": 64,
+      "rating": 4.6,
+      "calories": 900,
+      "protein": 60,
+      "carbs": 70,
+      "fat": 30,
+      "category": "offers",
+      "isPopular": false,
+      "isOffer": true,
+      "offerPrice": null,
+      "isCombo": true,
+      "offerKind": "family",
+      "comboIncludes": [
+        "3 سلطة",
+        "ماء",
+        "صوص يوناني",
+        "3 مشروب"
+      ],
+      "spicyOption": false,
+      "cashbackPercent": null,
+      "addons": [
+        {
+          "id": "avocado",
+          "name": "أفوكادو",
+          "price": 8
+        },
+        {
+          "id": "boiled-egg",
+          "name": "بيض مسلوق",
+          "price": 4
+        },
+        {
+          "id": "yogurt-sauce",
+          "name": "صوص يوناني",
+          "price": 3
+        },
+        {
+          "id": "water",
+          "name": "ماء",
+          "price": 3
+        },
+        {
+          "id": "extra-salad",
+          "name": "سلطة زيادة",
+          "price": 8
+        }
+      ],
+      "restaurantName": "مطبخ اللياقة",
+      "restaurantCuisine": "صحي"
+    },
+    {
+      "id": "quinoa-lab-offer-2",
+      "restaurantId": "quinoa-lab",
+      "name": "وجبة عائلية سلطات لـ 4 أشخاص",
+      "description": "4 سلطة مع إضافات ومشروبات. تكفي 4 أشخاص.",
+      "image": "https://images.unsplash.com/photo-1490645935967-10de6ba17061?w=800&q=80",
+      "price": 80,
+      "rating": 4.6,
+      "calories": 900,
+      "protein": 60,
+      "carbs": 70,
+      "fat": 30,
+      "category": "offers",
+      "isPopular": false,
+      "isOffer": true,
+      "offerPrice": null,
+      "isCombo": true,
+      "offerKind": "family",
+      "comboIncludes": [
+        "4 سلطة",
+        "ماء",
+        "صوص يوناني",
+        "4 مشروب"
+      ],
+      "spicyOption": false,
+      "cashbackPercent": null,
+      "addons": [
+        {
+          "id": "avocado",
+          "name": "أفوكادو",
+          "price": 8
+        },
+        {
+          "id": "boiled-egg",
+          "name": "بيض مسلوق",
+          "price": 4
+        },
+        {
+          "id": "yogurt-sauce",
+          "name": "صوص يوناني",
+          "price": 3
+        },
+        {
+          "id": "water",
+          "name": "ماء",
+          "price": 3
+        },
+        {
+          "id": "extra-salad",
+          "name": "سلطة زيادة",
+          "price": 8
+        }
+      ],
+      "restaurantName": "مختبر الكينوا",
+      "restaurantCuisine": "صحي"
+    },
+    {
+      "id": "light-bites-offer-2",
+      "restaurantId": "light-bites",
+      "name": "وجبة عائلية سلطات لـ 3 أشخاص",
+      "description": "3 سلطة مع إضافات ومشروبات. تكفي 3 أشخاص.",
+      "image": "https://images.unsplash.com/photo-1490645935967-10de6ba17061?w=800&q=80",
+      "price": 64,
+      "rating": 4.6,
+      "calories": 900,
+      "protein": 60,
+      "carbs": 70,
+      "fat": 30,
+      "category": "offers",
+      "isPopular": false,
+      "isOffer": true,
+      "offerPrice": null,
+      "isCombo": true,
+      "offerKind": "family",
+      "comboIncludes": [
+        "3 سلطة",
+        "ماء",
+        "صوص يوناني",
+        "3 مشروب"
+      ],
+      "spicyOption": false,
+      "cashbackPercent": null,
+      "addons": [
+        {
+          "id": "avocado",
+          "name": "أفوكادو",
+          "price": 8
+        },
+        {
+          "id": "boiled-egg",
+          "name": "بيض مسلوق",
+          "price": 4
+        },
+        {
+          "id": "yogurt-sauce",
+          "name": "صوص يوناني",
+          "price": 3
+        },
+        {
+          "id": "water",
+          "name": "ماء",
+          "price": 3
+        },
+        {
+          "id": "extra-salad",
+          "name": "سلطة زيادة",
+          "price": 8
+        }
+      ],
+      "restaurantName": "لقمات خفيفة",
+      "restaurantCuisine": "صحي"
+    },
+    {
+      "id": "fresh-press-offer-2",
+      "restaurantId": "fresh-press",
+      "name": "وجبة عائلية سلطات لـ 3 أشخاص",
+      "description": "3 سلطة مع إضافات ومشروبات. تكفي 3 أشخاص.",
+      "image": "https://images.unsplash.com/photo-1490645935967-10de6ba17061?w=800&q=80",
+      "price": 64,
+      "rating": 4.6,
+      "calories": 900,
+      "protein": 60,
+      "carbs": 70,
+      "fat": 30,
+      "category": "offers",
+      "isPopular": false,
+      "isOffer": true,
+      "offerPrice": null,
+      "isCombo": true,
+      "offerKind": "family",
+      "comboIncludes": [
+        "3 سلطة",
+        "ماء",
+        "صوص يوناني",
+        "3 مشروب"
+      ],
+      "spicyOption": false,
+      "cashbackPercent": null,
+      "addons": [
+        {
+          "id": "avocado",
+          "name": "أفوكادو",
+          "price": 8
+        },
+        {
+          "id": "boiled-egg",
+          "name": "بيض مسلوق",
+          "price": 4
+        },
+        {
+          "id": "yogurt-sauce",
+          "name": "صوص يوناني",
+          "price": 3
+        },
+        {
+          "id": "water",
+          "name": "ماء",
+          "price": 3
+        },
+        {
+          "id": "extra-salad",
+          "name": "سلطة زيادة",
+          "price": 8
+        }
+      ],
+      "restaurantName": "عصير طازج",
+      "restaurantCuisine": "صحي"
+    },
+    {
+      "id": "balance-plate-offer-2",
+      "restaurantId": "balance-plate",
+      "name": "وجبة عائلية سلطات لـ 6 أشخاص",
+      "description": "6 سلطة مع إضافات ومشروبات. تكفي 6 أشخاص.",
+      "image": "https://images.unsplash.com/photo-1512621776951-a57141f2eefd?w=800&q=80",
+      "price": 113,
+      "rating": 4.6,
+      "calories": 900,
+      "protein": 60,
+      "carbs": 70,
+      "fat": 30,
+      "category": "offers",
+      "isPopular": false,
+      "isOffer": true,
+      "offerPrice": null,
+      "isCombo": true,
+      "offerKind": "family",
+      "comboIncludes": [
+        "6 سلطة",
+        "ماء",
+        "صوص يوناني",
+        "6 مشروب"
+      ],
+      "spicyOption": false,
+      "cashbackPercent": null,
+      "addons": [
+        {
+          "id": "avocado",
+          "name": "أفوكادو",
+          "price": 8
+        },
+        {
+          "id": "boiled-egg",
+          "name": "بيض مسلوق",
+          "price": 4
+        },
+        {
+          "id": "yogurt-sauce",
+          "name": "صوص يوناني",
+          "price": 3
+        },
+        {
+          "id": "water",
+          "name": "ماء",
+          "price": 3
+        },
+        {
+          "id": "extra-salad",
+          "name": "سلطة زيادة",
+          "price": 8
+        }
+      ],
+      "restaurantName": "صحن التوازن",
+      "restaurantCuisine": "صحي"
+    },
+    {
+      "id": "luqma-express-mart-offer-3",
+      "restaurantId": "luqma-express-mart",
+      "name": "عرض ضيافة للعائلة لـ 3 أشخاص",
+      "description": "3 علبة تمر مع إضافات ومشروبات. تكفي 3 أشخاص.",
+      "image": "https://images.unsplash.com/photo-1482049016688-2d3e1b311543?w=800&q=80",
+      "price": 32,
+      "rating": 4.6,
+      "calories": 0,
+      "protein": 0,
+      "carbs": 0,
+      "fat": 0,
+      "category": "offers",
+      "isPopular": false,
+      "isOffer": true,
+      "offerPrice": null,
+      "isCombo": true,
+      "offerKind": "family",
+      "comboIncludes": [
+        "3 علبة تمر",
+        "مياه",
+        "عصير",
+        "قهوة",
+        "3 مشروب"
+      ],
+      "spicyOption": false,
+      "cashbackPercent": null,
+      "addons": [],
+      "restaurantName": "ماركت لقمة السريع",
+      "restaurantCuisine": "بقالة"
+    },
+    {
+      "id": "bayt-almanzil-offer-3",
+      "restaurantId": "bayt-almanzil",
+      "name": "عرض ضيافة للعائلة لـ 6 أشخاص",
+      "description": "6 علبة تمر مع إضافات ومشروبات. تكفي 6 أشخاص.",
+      "image": "https://images.unsplash.com/photo-1550583724-b2692b85b150?w=800&q=80",
+      "price": 57,
+      "rating": 4.6,
+      "calories": 0,
+      "protein": 0,
+      "carbs": 0,
+      "fat": 0,
+      "category": "offers",
+      "isPopular": false,
+      "isOffer": true,
+      "offerPrice": null,
+      "isCombo": true,
+      "offerKind": "family",
+      "comboIncludes": [
+        "6 علبة تمر",
+        "مياه",
+        "عصير",
+        "قهوة",
+        "6 مشروب"
+      ],
+      "spicyOption": false,
+      "cashbackPercent": null,
+      "addons": [],
+      "restaurantName": "بيت المنزل",
+      "restaurantCuisine": "بقالة"
+    },
+    {
+      "id": "daily-basket-offer-3",
+      "restaurantId": "daily-basket",
+      "name": "عرض ضيافة للعائلة لـ 5 أشخاص",
+      "description": "5 علبة تمر مع إضافات ومشروبات. تكفي 5 أشخاص.",
+      "image": "https://images.unsplash.com/photo-1548839140-29a749e1cf4d?w=800&q=80",
+      "price": 49,
+      "rating": 4.6,
+      "calories": 0,
+      "protein": 0,
+      "carbs": 0,
+      "fat": 0,
+      "category": "offers",
+      "isPopular": false,
+      "isOffer": true,
+      "offerPrice": null,
+      "isCombo": true,
+      "offerKind": "family",
+      "comboIncludes": [
+        "5 علبة تمر",
+        "مياه",
+        "عصير",
+        "قهوة",
+        "5 مشروب"
+      ],
+      "spicyOption": false,
+      "cashbackPercent": null,
+      "addons": [],
+      "restaurantName": "السلة اليومية",
+      "restaurantCuisine": "بقالة"
+    },
+    {
+      "id": "fresh-aisle-offer-3",
+      "restaurantId": "fresh-aisle",
+      "name": "عرض ضيافة للعائلة لـ 4 أشخاص",
+      "description": "4 علبة تمر مع إضافات ومشروبات. تكفي 4 أشخاص.",
+      "image": "https://images.unsplash.com/photo-1550583724-b2692b85b150?w=800&q=80",
+      "price": 41,
+      "rating": 4.6,
+      "calories": 0,
+      "protein": 0,
+      "carbs": 0,
+      "fat": 0,
+      "category": "offers",
+      "isPopular": false,
+      "isOffer": true,
+      "offerPrice": null,
+      "isCombo": true,
+      "offerKind": "family",
+      "comboIncludes": [
+        "4 علبة تمر",
+        "مياه",
+        "عصير",
+        "قهوة",
+        "4 مشروب"
+      ],
+      "spicyOption": false,
+      "cashbackPercent": null,
+      "addons": [],
+      "restaurantName": "ممر الطازج",
+      "restaurantCuisine": "بقالة"
+    },
+    {
+      "id": "pantry-plus-offer-3",
+      "restaurantId": "pantry-plus",
+      "name": "عرض ضيافة للعائلة لـ 6 أشخاص",
+      "description": "6 علبة تمر مع إضافات ومشروبات. تكفي 6 أشخاص.",
+      "image": "https://images.unsplash.com/photo-1550583724-b2692b85b150?w=800&q=80",
+      "price": 57,
+      "rating": 4.6,
+      "calories": 0,
+      "protein": 0,
+      "carbs": 0,
+      "fat": 0,
+      "category": "offers",
+      "isPopular": false,
+      "isOffer": true,
+      "offerPrice": null,
+      "isCombo": true,
+      "offerKind": "family",
+      "comboIncludes": [
+        "6 علبة تمر",
+        "مياه",
+        "عصير",
+        "قهوة",
+        "6 مشروب"
+      ],
+      "spicyOption": false,
+      "cashbackPercent": null,
+      "addons": [],
+      "restaurantName": "المونة بلس",
+      "restaurantCuisine": "بقالة"
+    },
+    {
+      "id": "corner-staples-offer-3",
+      "restaurantId": "corner-staples",
+      "name": "عرض ضيافة للعائلة لـ 5 أشخاص",
+      "description": "5 علبة تمر مع إضافات ومشروبات. تكفي 5 أشخاص.",
+      "image": "https://images.unsplash.com/photo-1548839140-29a749e1cf4d?w=800&q=80",
+      "price": 49,
+      "rating": 4.6,
+      "calories": 0,
+      "protein": 0,
+      "carbs": 0,
+      "fat": 0,
+      "category": "offers",
+      "isPopular": false,
+      "isOffer": true,
+      "offerPrice": null,
+      "isCombo": true,
+      "offerKind": "family",
+      "comboIncludes": [
+        "5 علبة تمر",
+        "مياه",
+        "عصير",
+        "قهوة",
+        "5 مشروب"
+      ],
+      "spicyOption": false,
+      "cashbackPercent": null,
+      "addons": [],
+      "restaurantName": "أساسيات الزاوية",
+      "restaurantCuisine": "بقالة"
+    },
+    {
+      "id": "family-cart-offer-3",
+      "restaurantId": "family-cart",
+      "name": "عرض ضيافة للعائلة لـ 6 أشخاص",
+      "description": "6 علبة تمر مع إضافات ومشروبات. تكفي 6 أشخاص.",
+      "image": "https://images.unsplash.com/photo-1550583724-b2692b85b150?w=800&q=80",
+      "price": 57,
+      "rating": 4.6,
+      "calories": 0,
+      "protein": 0,
+      "carbs": 0,
+      "fat": 0,
+      "category": "offers",
+      "isPopular": false,
+      "isOffer": true,
+      "offerPrice": null,
+      "isCombo": true,
+      "offerKind": "family",
+      "comboIncludes": [
+        "6 علبة تمر",
+        "مياه",
+        "عصير",
+        "قهوة",
+        "6 مشروب"
+      ],
+      "spicyOption": false,
+      "cashbackPercent": null,
+      "addons": [],
+      "restaurantName": "عربة العائلة",
+      "restaurantCuisine": "بقالة"
+    },
+    {
+      "id": "quick-shelf-offer-3",
+      "restaurantId": "quick-shelf",
+      "name": "عرض ضيافة للعائلة لـ 5 أشخاص",
+      "description": "5 علبة تمر مع إضافات ومشروبات. تكفي 5 أشخاص.",
+      "image": "https://images.unsplash.com/photo-1548839140-29a749e1cf4d?w=800&q=80",
+      "price": 49,
+      "rating": 4.6,
+      "calories": 0,
+      "protein": 0,
+      "carbs": 0,
+      "fat": 0,
+      "category": "offers",
+      "isPopular": false,
+      "isOffer": true,
+      "offerPrice": null,
+      "isCombo": true,
+      "offerKind": "family",
+      "comboIncludes": [
+        "5 علبة تمر",
+        "مياه",
+        "عصير",
+        "قهوة",
+        "5 مشروب"
+      ],
+      "spicyOption": false,
+      "cashbackPercent": null,
+      "addons": [],
+      "restaurantName": "الرف السريع",
+      "restaurantCuisine": "بقالة"
+    },
+    {
+      "id": "fahm-night-offer-2",
+      "restaurantId": "fahm-night",
+      "name": "وجبة عائلية مشاوي لـ 4 أشخاص",
+      "description": "4 صحن مشاوي مع إضافات ومشروبات. تكفي 4 أشخاص.",
+      "image": "https://images.unsplash.com/photo-1555939594-58d7cb561ad1?w=800&q=80",
+      "price": 98,
+      "rating": 4.6,
+      "calories": 2400,
+      "protein": 120,
+      "carbs": 180,
+      "fat": 110,
+      "category": "offers",
+      "isPopular": false,
+      "isOffer": true,
+      "offerPrice": null,
+      "isCombo": true,
+      "offerKind": "family",
+      "comboIncludes": [
+        "4 صحن مشاوي",
+        "حمص",
+        "خبز",
+        "بطاطس",
+        "4 مشروب"
+      ],
+      "spicyOption": true,
+      "cashbackPercent": null,
+      "addons": [
+        {
+          "id": "garlic-sauce",
+          "name": "صوص ثوم",
+          "price": 3
+        },
+        {
+          "id": "pickles",
+          "name": "مخلل",
+          "price": 3
+        },
+        {
+          "id": "extra-rice",
+          "name": "أرز إضافي",
+          "price": 6
+        },
+        {
+          "id": "cola",
+          "name": "كولا",
+          "price": 6
+        },
+        {
+          "id": "side-salad",
+          "name": "سلطة صغيرة",
+          "price": 8
+        }
+      ],
+      "restaurantName": "فحم الليل",
+      "restaurantCuisine": "مشاوي"
+    },
+    {
+      "id": "skewer-club-offer-2",
+      "restaurantId": "skewer-club",
+      "name": "وجبة عائلية مشاوي لـ 3 أشخاص",
+      "description": "3 صحن مشاوي مع إضافات ومشروبات. تكفي 3 أشخاص.",
+      "image": "https://images.unsplash.com/photo-1555939594-58d7cb561ad1?w=800&q=80",
+      "price": 78,
+      "rating": 4.6,
+      "calories": 2400,
+      "protein": 120,
+      "carbs": 180,
+      "fat": 110,
+      "category": "offers",
+      "isPopular": false,
+      "isOffer": true,
+      "offerPrice": null,
+      "isCombo": true,
+      "offerKind": "family",
+      "comboIncludes": [
+        "3 صحن مشاوي",
+        "حمص",
+        "خبز",
+        "بطاطس",
+        "3 مشروب"
+      ],
+      "spicyOption": true,
+      "cashbackPercent": null,
+      "addons": [
+        {
+          "id": "garlic-sauce",
+          "name": "صوص ثوم",
+          "price": 3
+        },
+        {
+          "id": "pickles",
+          "name": "مخلل",
+          "price": 3
+        },
+        {
+          "id": "extra-rice",
+          "name": "أرز إضافي",
+          "price": 6
+        },
+        {
+          "id": "cola",
+          "name": "كولا",
+          "price": 6
+        },
+        {
+          "id": "side-salad",
+          "name": "سلطة صغيرة",
+          "price": 8
+        }
+      ],
+      "restaurantName": "نادي الأسياخ",
+      "restaurantCuisine": "مشاوي"
+    },
+    {
+      "id": "charcoal-yard-offer-2",
+      "restaurantId": "charcoal-yard",
+      "name": "وجبة عائلية مشاوي لـ 5 أشخاص",
+      "description": "5 صحن مشاوي مع إضافات ومشروبات. تكفي 5 أشخاص.",
+      "image": "https://images.unsplash.com/photo-1555939594-58d7cb561ad1?w=800&q=80",
+      "price": 118,
+      "rating": 4.6,
+      "calories": 2400,
+      "protein": 120,
+      "carbs": 180,
+      "fat": 110,
+      "category": "offers",
+      "isPopular": false,
+      "isOffer": true,
+      "offerPrice": null,
+      "isCombo": true,
+      "offerKind": "family",
+      "comboIncludes": [
+        "5 صحن مشاوي",
+        "حمص",
+        "خبز",
+        "بطاطس",
+        "5 مشروب"
+      ],
+      "spicyOption": true,
+      "cashbackPercent": null,
+      "addons": [
+        {
+          "id": "garlic-sauce",
+          "name": "صوص ثوم",
+          "price": 3
+        },
+        {
+          "id": "pickles",
+          "name": "مخلل",
+          "price": 3
+        },
+        {
+          "id": "extra-rice",
+          "name": "أرز إضافي",
+          "price": 6
+        },
+        {
+          "id": "cola",
+          "name": "كولا",
+          "price": 6
+        },
+        {
+          "id": "side-salad",
+          "name": "سلطة صغيرة",
+          "price": 8
+        }
+      ],
+      "restaurantName": "ساحة الفحم",
+      "restaurantCuisine": "مشاوي"
+    },
+    {
+      "id": "meat-square-offer-2",
+      "restaurantId": "meat-square",
+      "name": "وجبة عائلية مشاوي لـ 6 أشخاص",
+      "description": "6 صحن مشاوي مع إضافات ومشروبات. تكفي 6 أشخاص.",
+      "image": "https://images.unsplash.com/photo-1555939594-58d7cb561ad1?w=800&q=80",
+      "price": 109,
+      "rating": 4.6,
+      "calories": 2400,
+      "protein": 120,
+      "carbs": 180,
+      "fat": 110,
+      "category": "offers",
+      "isPopular": false,
+      "isOffer": true,
+      "offerPrice": null,
+      "isCombo": true,
+      "offerKind": "family",
+      "comboIncludes": [
+        "6 صحن مشاوي",
+        "حمص",
+        "خبز",
+        "بطاطس",
+        "6 مشروب"
+      ],
+      "spicyOption": true,
+      "cashbackPercent": null,
+      "addons": [
+        {
+          "id": "garlic-sauce",
+          "name": "صوص ثوم",
+          "price": 3
+        },
+        {
+          "id": "pickles",
+          "name": "مخلل",
+          "price": 3
+        },
+        {
+          "id": "extra-rice",
+          "name": "أرز إضافي",
+          "price": 6
+        },
+        {
+          "id": "cola",
+          "name": "كولا",
+          "price": 6
+        },
+        {
+          "id": "side-salad",
+          "name": "سلطة صغيرة",
+          "price": 8
+        }
+      ],
+      "restaurantName": "ميدان اللحم",
+      "restaurantCuisine": "مشاوي"
+    },
+    {
+      "id": "croissant-lab-offer-2",
+      "restaurantId": "croissant-lab",
+      "name": "تشكيلة حلا عائلية لـ 5 أشخاص",
+      "description": "5 قطعة حلا مع إضافات ومشروبات. تكفي 5 أشخاص.",
+      "image": "https://images.unsplash.com/photo-1578985545062-69928b1d9587?w=800&q=80",
+      "price": 75,
+      "rating": 4.6,
+      "calories": 1400,
+      "protein": 24,
+      "carbs": 180,
+      "fat": 60,
+      "category": "offers",
+      "isPopular": false,
+      "isOffer": true,
+      "offerPrice": null,
+      "isCombo": true,
+      "offerKind": "family",
+      "comboIncludes": [
+        "5 قطعة حلا",
+        "قهوة",
+        "صوص",
+        "5 مشروب"
+      ],
+      "spicyOption": false,
+      "cashbackPercent": null,
+      "addons": [
+        {
+          "id": "choc-sauce",
+          "name": "صوص شوكولاتة",
+          "price": 4
+        },
+        {
+          "id": "ice-scoop",
+          "name": "سكوب آيس كريم",
+          "price": 8
+        },
+        {
+          "id": "cream",
+          "name": "كريمة",
+          "price": 4
+        },
+        {
+          "id": "extra-coffee",
+          "name": "قهوة إضافية",
+          "price": 10
+        },
+        {
+          "id": "nuts",
+          "name": "مكسرات",
+          "price": 6
+        }
+      ],
+      "restaurantName": "مختبر الكرواسون",
+      "restaurantCuisine": "حلويات"
+    },
+    {
+      "id": "latte-lane-offer-2",
+      "restaurantId": "latte-lane",
+      "name": "تشكيلة حلا عائلية لـ 6 أشخاص",
+      "description": "6 قطعة حلا مع إضافات ومشروبات. تكفي 6 أشخاص.",
+      "image": "https://images.unsplash.com/photo-1488477181946-6428a0291777?w=800&q=80",
+      "price": 88,
+      "rating": 4.6,
+      "calories": 1400,
+      "protein": 24,
+      "carbs": 180,
+      "fat": 60,
+      "category": "offers",
+      "isPopular": false,
+      "isOffer": true,
+      "offerPrice": null,
+      "isCombo": true,
+      "offerKind": "family",
+      "comboIncludes": [
+        "6 قطعة حلا",
+        "قهوة",
+        "صوص",
+        "6 مشروب"
+      ],
+      "spicyOption": false,
+      "cashbackPercent": null,
+      "addons": [
+        {
+          "id": "choc-sauce",
+          "name": "صوص شوكولاتة",
+          "price": 4
+        },
+        {
+          "id": "ice-scoop",
+          "name": "سكوب آيس كريم",
+          "price": 8
+        },
+        {
+          "id": "cream",
+          "name": "كريمة",
+          "price": 4
+        },
+        {
+          "id": "extra-coffee",
+          "name": "قهوة إضافية",
+          "price": 10
+        },
+        {
+          "id": "nuts",
+          "name": "مكسرات",
+          "price": 6
+        }
+      ],
+      "restaurantName": "زقاق اللاتيه",
+      "restaurantCuisine": "حلويات"
+    },
+    {
+      "id": "oven-morning-offer-2",
+      "restaurantId": "oven-morning",
+      "name": "تشكيلة حلا عائلية لـ 4 أشخاص",
+      "description": "4 قطعة حلا مع إضافات ومشروبات. تكفي 4 أشخاص.",
+      "image": "https://images.unsplash.com/photo-1563805042-7684c019e1cb?w=800&q=80",
+      "price": 62,
+      "rating": 4.6,
+      "calories": 1400,
+      "protein": 24,
+      "carbs": 180,
+      "fat": 60,
+      "category": "offers",
+      "isPopular": false,
+      "isOffer": true,
+      "offerPrice": null,
+      "isCombo": true,
+      "offerKind": "family",
+      "comboIncludes": [
+        "4 قطعة حلا",
+        "قهوة",
+        "صوص",
+        "4 مشروب"
+      ],
+      "spicyOption": false,
+      "cashbackPercent": null,
+      "addons": [
+        {
+          "id": "choc-sauce",
+          "name": "صوص شوكولاتة",
+          "price": 4
+        },
+        {
+          "id": "ice-scoop",
+          "name": "سكوب آيس كريم",
+          "price": 8
+        },
+        {
+          "id": "cream",
+          "name": "كريمة",
+          "price": 4
+        },
+        {
+          "id": "extra-coffee",
+          "name": "قهوة إضافية",
+          "price": 10
+        },
+        {
+          "id": "nuts",
+          "name": "مكسرات",
+          "price": 6
+        }
+      ],
+      "restaurantName": "فرن الصباح",
+      "restaurantCuisine": "حلويات"
+    },
+    {
+      "id": "berry-bake-offer-2",
+      "restaurantId": "berry-bake",
+      "name": "تشكيلة حلا عائلية لـ 3 أشخاص",
+      "description": "3 قطعة حلا مع إضافات ومشروبات. تكفي 3 أشخاص.",
+      "image": "https://images.unsplash.com/photo-1519676867240-f03562e64548?w=800&q=80",
+      "price": 50,
+      "rating": 4.6,
+      "calories": 1400,
+      "protein": 24,
+      "carbs": 180,
+      "fat": 60,
+      "category": "offers",
+      "isPopular": false,
+      "isOffer": true,
+      "offerPrice": null,
+      "isCombo": true,
+      "offerKind": "family",
+      "comboIncludes": [
+        "3 قطعة حلا",
+        "قهوة",
+        "صوص",
+        "3 مشروب"
+      ],
+      "spicyOption": false,
+      "cashbackPercent": null,
+      "addons": [
+        {
+          "id": "choc-sauce",
+          "name": "صوص شوكولاتة",
+          "price": 4
+        },
+        {
+          "id": "ice-scoop",
+          "name": "سكوب آيس كريم",
+          "price": 8
+        },
+        {
+          "id": "cream",
+          "name": "كريمة",
+          "price": 4
+        },
+        {
+          "id": "extra-coffee",
+          "name": "قهوة إضافية",
+          "price": 10
+        },
+        {
+          "id": "nuts",
+          "name": "مكسرات",
+          "price": 6
+        }
+      ],
+      "restaurantName": "توت المخبز",
+      "restaurantCuisine": "حلويات"
+    },
+    {
+      "id": "cardamom-cafe-offer-2",
+      "restaurantId": "cardamom-cafe",
+      "name": "تشكيلة حلا عائلية لـ 3 أشخاص",
+      "description": "3 قطعة حلا مع إضافات ومشروبات. تكفي 3 أشخاص.",
+      "image": "https://images.unsplash.com/photo-1519676867240-f03562e64548?w=800&q=80",
+      "price": 50,
+      "rating": 4.6,
+      "calories": 1400,
+      "protein": 24,
+      "carbs": 180,
+      "fat": 60,
+      "category": "offers",
+      "isPopular": false,
+      "isOffer": true,
+      "offerPrice": null,
+      "isCombo": true,
+      "offerKind": "family",
+      "comboIncludes": [
+        "3 قطعة حلا",
+        "قهوة",
+        "صوص",
+        "3 مشروب"
+      ],
+      "spicyOption": false,
+      "cashbackPercent": null,
+      "addons": [
+        {
+          "id": "choc-sauce",
+          "name": "صوص شوكولاتة",
+          "price": 4
+        },
+        {
+          "id": "ice-scoop",
+          "name": "سكوب آيس كريم",
+          "price": 8
+        },
+        {
+          "id": "cream",
+          "name": "كريمة",
+          "price": 4
+        },
+        {
+          "id": "extra-coffee",
+          "name": "قهوة إضافية",
+          "price": 10
+        },
+        {
+          "id": "nuts",
+          "name": "مكسرات",
+          "price": 6
+        }
+      ],
+      "restaurantName": "كافيه الهيل",
+      "restaurantCuisine": "حلويات"
+    },
+    {
+      "id": "toast-bar-offer-2",
+      "restaurantId": "toast-bar",
+      "name": "تشكيلة حلا عائلية لـ 4 أشخاص",
+      "description": "4 قطعة حلا مع إضافات ومشروبات. تكفي 4 أشخاص.",
+      "image": "https://images.unsplash.com/photo-1563805042-7684c019e1cb?w=800&q=80",
+      "price": 62,
+      "rating": 4.6,
+      "calories": 1400,
+      "protein": 24,
+      "carbs": 180,
+      "fat": 60,
+      "category": "offers",
+      "isPopular": false,
+      "isOffer": true,
+      "offerPrice": null,
+      "isCombo": true,
+      "offerKind": "family",
+      "comboIncludes": [
+        "4 قطعة حلا",
+        "قهوة",
+        "صوص",
+        "4 مشروب"
+      ],
+      "spicyOption": false,
+      "cashbackPercent": null,
+      "addons": [
+        {
+          "id": "choc-sauce",
+          "name": "صوص شوكولاتة",
+          "price": 4
+        },
+        {
+          "id": "ice-scoop",
+          "name": "سكوب آيس كريم",
+          "price": 8
+        },
+        {
+          "id": "cream",
+          "name": "كريمة",
+          "price": 4
+        },
+        {
+          "id": "extra-coffee",
+          "name": "قهوة إضافية",
+          "price": 10
+        },
+        {
+          "id": "nuts",
+          "name": "مكسرات",
+          "price": 6
+        }
+      ],
+      "restaurantName": "بار التوست",
+      "restaurantCuisine": "حلويات"
+    },
+    {
+      "id": "nutella-nest-offer-2",
+      "restaurantId": "nutella-nest",
+      "name": "تشكيلة حلا عائلية لـ 3 أشخاص",
+      "description": "3 قطعة حلا مع إضافات ومشروبات. تكفي 3 أشخاص.",
+      "image": "https://images.unsplash.com/photo-1519676867240-f03562e64548?w=800&q=80",
+      "price": 50,
+      "rating": 4.6,
+      "calories": 1400,
+      "protein": 24,
+      "carbs": 180,
+      "fat": 60,
+      "category": "offers",
+      "isPopular": false,
+      "isOffer": true,
+      "offerPrice": null,
+      "isCombo": true,
+      "offerKind": "family",
+      "comboIncludes": [
+        "3 قطعة حلا",
+        "قهوة",
+        "صوص",
+        "3 مشروب"
+      ],
+      "spicyOption": false,
+      "cashbackPercent": null,
+      "addons": [
+        {
+          "id": "choc-sauce",
+          "name": "صوص شوكولاتة",
+          "price": 4
+        },
+        {
+          "id": "ice-scoop",
+          "name": "سكوب آيس كريم",
+          "price": 8
+        },
+        {
+          "id": "cream",
+          "name": "كريمة",
+          "price": 4
+        },
+        {
+          "id": "extra-coffee",
+          "name": "قهوة إضافية",
+          "price": 10
+        },
+        {
+          "id": "nuts",
+          "name": "مكسرات",
+          "price": 6
+        }
+      ],
+      "restaurantName": "عش النوتيلا",
+      "restaurantCuisine": "حلويات"
+    },
+    {
+      "id": "sesame-sweet-offer-2",
+      "restaurantId": "sesame-sweet",
+      "name": "تشكيلة حلا عائلية لـ 4 أشخاص",
+      "description": "4 قطعة حلا مع إضافات ومشروبات. تكفي 4 أشخاص.",
+      "image": "https://images.unsplash.com/photo-1563805042-7684c019e1cb?w=800&q=80",
+      "price": 62,
+      "rating": 4.6,
+      "calories": 1400,
+      "protein": 24,
+      "carbs": 180,
+      "fat": 60,
+      "category": "offers",
+      "isPopular": false,
+      "isOffer": true,
+      "offerPrice": null,
+      "isCombo": true,
+      "offerKind": "family",
+      "comboIncludes": [
+        "4 قطعة حلا",
+        "قهوة",
+        "صوص",
+        "4 مشروب"
+      ],
+      "spicyOption": false,
+      "cashbackPercent": null,
+      "addons": [
+        {
+          "id": "choc-sauce",
+          "name": "صوص شوكولاتة",
+          "price": 4
+        },
+        {
+          "id": "ice-scoop",
+          "name": "سكوب آيس كريم",
+          "price": 8
+        },
+        {
+          "id": "cream",
+          "name": "كريمة",
+          "price": 4
+        },
+        {
+          "id": "extra-coffee",
+          "name": "قهوة إضافية",
+          "price": 10
+        },
+        {
+          "id": "nuts",
+          "name": "مكسرات",
+          "price": 6
+        }
+      ],
+      "restaurantName": "سمسم وحلاوة",
+      "restaurantCuisine": "حلويات"
+    },
+    {
+      "id": "taco-fiesta-offer-2",
+      "restaurantId": "taco-fiesta",
+      "name": "وجبة عائلية برجر لـ 5 أشخاص",
+      "description": "5 برجر مع إضافات ومشروبات. تكفي 5 أشخاص.",
+      "image": "/offers/5-burger.jpg",
+      "price": 82,
+      "rating": 4.6,
+      "calories": 3200,
+      "protein": 120,
+      "carbs": 280,
+      "fat": 160,
+      "category": "offers",
+      "isPopular": false,
+      "isOffer": true,
+      "offerPrice": null,
+      "isCombo": true,
+      "offerKind": "family",
+      "comboIncludes": [
+        "5 برجر",
+        "بطاطس عائلية",
+        "صوصات",
+        "5 مشروب"
+      ],
+      "spicyOption": false,
+      "cashbackPercent": null,
+      "addons": [
+        {
+          "id": "extra-cheese",
+          "name": "جبنة إضافية",
+          "price": 5
+        },
+        {
+          "id": "bacon",
+          "name": "بيكون",
+          "price": 8
+        },
+        {
+          "id": "large-fries",
+          "name": "بطاطس كبيرة",
+          "price": 10
+        },
+        {
+          "id": "cola",
+          "name": "كولا",
+          "price": 6
+        },
+        {
+          "id": "spicy-sauce",
+          "name": "صوص سبايسي",
+          "price": 3
+        }
+      ],
+      "restaurantName": "تاكو فييستا",
+      "restaurantCuisine": "برجر"
+    },
+    {
+      "id": "wrap-republic-offer-2",
+      "restaurantId": "wrap-republic",
+      "name": "وجبة عائلية برجر لـ 4 أشخاص",
+      "description": "4 برجر مع إضافات ومشروبات. تكفي 4 أشخاص.",
+      "image": "/offers/4-burger.jpg",
+      "price": 80,
+      "rating": 4.6,
+      "calories": 3200,
+      "protein": 120,
+      "carbs": 280,
+      "fat": 160,
+      "category": "offers",
+      "isPopular": false,
+      "isOffer": true,
+      "offerPrice": null,
+      "isCombo": true,
+      "offerKind": "family",
+      "comboIncludes": [
+        "4 برجر",
+        "بطاطس عائلية",
+        "صوصات",
+        "4 مشروب"
+      ],
+      "spicyOption": false,
+      "cashbackPercent": null,
+      "addons": [
+        {
+          "id": "extra-cheese",
+          "name": "جبنة إضافية",
+          "price": 5
+        },
+        {
+          "id": "bacon",
+          "name": "بيكون",
+          "price": 8
+        },
+        {
+          "id": "large-fries",
+          "name": "بطاطس كبيرة",
+          "price": 10
+        },
+        {
+          "id": "cola",
+          "name": "كولا",
+          "price": 6
+        },
+        {
+          "id": "spicy-sauce",
+          "name": "صوص سبايسي",
+          "price": 3
+        }
+      ],
+      "restaurantName": "جمهورية الراب",
+      "restaurantCuisine": "برجر"
+    },
+    {
+      "id": "bao-street-offer-2",
+      "restaurantId": "bao-street",
+      "name": "وجبة عائلية برجر لـ 3 أشخاص",
+      "description": "3 برجر مع إضافات ومشروبات. تكفي 3 أشخاص.",
+      "image": "/offers/3-burger.webp",
+      "price": 64,
+      "rating": 4.6,
+      "calories": 3200,
+      "protein": 120,
+      "carbs": 280,
+      "fat": 160,
+      "category": "offers",
+      "isPopular": false,
+      "isOffer": true,
+      "offerPrice": null,
+      "isCombo": true,
+      "offerKind": "family",
+      "comboIncludes": [
+        "3 برجر",
+        "بطاطس عائلية",
+        "صوصات",
+        "3 مشروب"
+      ],
+      "spicyOption": false,
+      "cashbackPercent": null,
+      "addons": [
+        {
+          "id": "extra-cheese",
+          "name": "جبنة إضافية",
+          "price": 5
+        },
+        {
+          "id": "bacon",
+          "name": "بيكون",
+          "price": 8
+        },
+        {
+          "id": "large-fries",
+          "name": "بطاطس كبيرة",
+          "price": 10
+        },
+        {
+          "id": "cola",
+          "name": "كولا",
+          "price": 6
+        },
+        {
+          "id": "spicy-sauce",
+          "name": "صوص سبايسي",
+          "price": 3
+        }
+      ],
+      "restaurantName": "شارع الباو",
+      "restaurantCuisine": "برجر"
+    },
+    {
+      "id": "noodle-box-offer-2",
+      "restaurantId": "noodle-box",
+      "name": "وجبة عائلية برجر لـ 6 أشخاص",
+      "description": "6 برجر مع إضافات ومشروبات. تكفي 6 أشخاص.",
+      "image": "/offers/6-burgers.jpg",
+      "price": 82,
+      "rating": 4.6,
+      "calories": 3200,
+      "protein": 120,
+      "carbs": 280,
+      "fat": 160,
+      "category": "offers",
+      "isPopular": false,
+      "isOffer": true,
+      "offerPrice": null,
+      "isCombo": true,
+      "offerKind": "family",
+      "comboIncludes": [
+        "6 برجر",
+        "بطاطس عائلية",
+        "صوصات",
+        "6 مشروب"
+      ],
+      "spicyOption": false,
+      "cashbackPercent": null,
+      "addons": [
+        {
+          "id": "extra-cheese",
+          "name": "جبنة إضافية",
+          "price": 5
+        },
+        {
+          "id": "bacon",
+          "name": "بيكون",
+          "price": 8
+        },
+        {
+          "id": "large-fries",
+          "name": "بطاطس كبيرة",
+          "price": 10
+        },
+        {
+          "id": "cola",
+          "name": "كولا",
+          "price": 6
+        },
+        {
+          "id": "spicy-sauce",
+          "name": "صوص سبايسي",
+          "price": 3
+        }
+      ],
+      "restaurantName": "صندوق النودلز",
+      "restaurantCuisine": "برجر"
+    },
+    {
+      "id": "kimchi-kitchen-offer-2",
+      "restaurantId": "kimchi-kitchen",
+      "name": "وجبة عائلية برجر لـ 3 أشخاص",
+      "description": "3 برجر مع إضافات ومشروبات. تكفي 3 أشخاص.",
+      "image": "/offers/3-burger.webp",
+      "price": 64,
+      "rating": 4.6,
+      "calories": 3200,
+      "protein": 120,
+      "carbs": 280,
+      "fat": 160,
+      "category": "offers",
+      "isPopular": false,
+      "isOffer": true,
+      "offerPrice": null,
+      "isCombo": true,
+      "offerKind": "family",
+      "comboIncludes": [
+        "3 برجر",
+        "بطاطس عائلية",
+        "صوصات",
+        "3 مشروب"
+      ],
+      "spicyOption": false,
+      "cashbackPercent": null,
+      "addons": [
+        {
+          "id": "extra-cheese",
+          "name": "جبنة إضافية",
+          "price": 5
+        },
+        {
+          "id": "bacon",
+          "name": "بيكون",
+          "price": 8
+        },
+        {
+          "id": "large-fries",
+          "name": "بطاطس كبيرة",
+          "price": 10
+        },
+        {
+          "id": "cola",
+          "name": "كولا",
+          "price": 6
+        },
+        {
+          "id": "spicy-sauce",
+          "name": "صوص سبايسي",
+          "price": 3
+        }
+      ],
+      "restaurantName": "مطبخ الكيمتشي",
+      "restaurantCuisine": "برجر"
+    },
+    {
+      "id": "satay-house-offer-2",
+      "restaurantId": "satay-house",
+      "name": "وجبة عائلية برجر لـ 4 أشخاص",
+      "description": "4 برجر مع إضافات ومشروبات. تكفي 4 أشخاص.",
+      "image": "/offers/4-burger.jpg",
+      "price": 80,
+      "rating": 4.6,
+      "calories": 3200,
+      "protein": 120,
+      "carbs": 280,
+      "fat": 160,
+      "category": "offers",
+      "isPopular": false,
+      "isOffer": true,
+      "offerPrice": null,
+      "isCombo": true,
+      "offerKind": "family",
+      "comboIncludes": [
+        "4 برجر",
+        "بطاطس عائلية",
+        "صوصات",
+        "4 مشروب"
+      ],
+      "spicyOption": false,
+      "cashbackPercent": null,
+      "addons": [
+        {
+          "id": "extra-cheese",
+          "name": "جبنة إضافية",
+          "price": 5
+        },
+        {
+          "id": "bacon",
+          "name": "بيكون",
+          "price": 8
+        },
+        {
+          "id": "large-fries",
+          "name": "بطاطس كبيرة",
+          "price": 10
+        },
+        {
+          "id": "cola",
+          "name": "كولا",
+          "price": 6
+        },
+        {
+          "id": "spicy-sauce",
+          "name": "صوص سبايسي",
+          "price": 3
+        }
+      ],
+      "restaurantName": "بيت الساتيه",
+      "restaurantCuisine": "برجر"
+    },
+    {
+      "id": "pho-bowl-offer-2",
+      "restaurantId": "pho-bowl",
+      "name": "وجبة عائلية برجر لـ 3 أشخاص",
+      "description": "3 برجر مع إضافات ومشروبات. تكفي 3 أشخاص.",
+      "image": "/offers/3-burger.webp",
+      "price": 64,
+      "rating": 4.6,
+      "calories": 3200,
+      "protein": 120,
+      "carbs": 280,
+      "fat": 160,
+      "category": "offers",
+      "isPopular": false,
+      "isOffer": true,
+      "offerPrice": null,
+      "isCombo": true,
+      "offerKind": "family",
+      "comboIncludes": [
+        "3 برجر",
+        "بطاطس عائلية",
+        "صوصات",
+        "3 مشروب"
+      ],
+      "spicyOption": false,
+      "cashbackPercent": null,
+      "addons": [
+        {
+          "id": "extra-cheese",
+          "name": "جبنة إضافية",
+          "price": 5
+        },
+        {
+          "id": "bacon",
+          "name": "بيكون",
+          "price": 8
+        },
+        {
+          "id": "large-fries",
+          "name": "بطاطس كبيرة",
+          "price": 10
+        },
+        {
+          "id": "cola",
+          "name": "كولا",
+          "price": 6
+        },
+        {
+          "id": "spicy-sauce",
+          "name": "صوص سبايسي",
+          "price": 3
+        }
+      ],
+      "restaurantName": "بول الفو",
+      "restaurantCuisine": "برجر"
+    },
+    {
+      "id": "padthai-express-offer-2",
+      "restaurantId": "padthai-express",
+      "name": "وجبة عائلية برجر لـ 5 أشخاص",
+      "description": "5 برجر مع إضافات ومشروبات. تكفي 5 أشخاص.",
+      "image": "/offers/5-burger.jpg",
+      "price": 82,
+      "rating": 4.6,
+      "calories": 3200,
+      "protein": 120,
+      "carbs": 280,
+      "fat": 160,
+      "category": "offers",
+      "isPopular": false,
+      "isOffer": true,
+      "offerPrice": null,
+      "isCombo": true,
+      "offerKind": "family",
+      "comboIncludes": [
+        "5 برجر",
+        "بطاطس عائلية",
+        "صوصات",
+        "5 مشروب"
+      ],
+      "spicyOption": false,
+      "cashbackPercent": null,
+      "addons": [
+        {
+          "id": "extra-cheese",
+          "name": "جبنة إضافية",
+          "price": 5
+        },
+        {
+          "id": "bacon",
+          "name": "بيكون",
+          "price": 8
+        },
+        {
+          "id": "large-fries",
+          "name": "بطاطس كبيرة",
+          "price": 10
+        },
+        {
+          "id": "cola",
+          "name": "كولا",
+          "price": 6
+        },
+        {
+          "id": "spicy-sauce",
+          "name": "صوص سبايسي",
+          "price": 3
+        }
+      ],
+      "restaurantName": "باد تاي إكسبرس",
+      "restaurantCuisine": "برجر"
+    }
+  ]
+}

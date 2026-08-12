@@ -567,10 +567,10 @@
         {
           "id": "dar-almandi-offer-2",
           "restaurantId": "dar-almandi",
-          "name": "وجبة عائلية مندي لـ 7 أشخاص",
-          "description": "مندي لحم مع شوربة وسلطة ومشروبين. تكفي 7 أشخاص.",
+          "name": "وجبة عائلية مندي لـ 3 أشخاص",
+          "description": "3 صحن مندي مع إضافات ومشروبات. تكفي 3 أشخاص.",
           "image": "https://images.unsplash.com/photo-1544025162-d76694265947?w=800&q=80",
-          "price": 102,
+          "price": 71,
           "rating": 4.6,
           "calories": 2200,
           "protein": 110,
@@ -583,10 +583,10 @@
           "isCombo": true,
           "offerKind": "family",
           "comboIncludes": [
-            "مندي لحم",
+            "3 صحن مندي",
             "شوربة",
             "سلطة",
-            "٢ مشروب"
+            "3 مشروب"
           ],
           "spicyOption": false,
           "cashbackPercent": null,
@@ -1242,9 +1242,9 @@
           "id": "kabsa-palace-offer-2",
           "restaurantId": "kabsa-palace",
           "name": "وجبة عائلية مندي لـ 6 أشخاص",
-          "description": "مندي لحم مع شوربة وسلطة ومشروبين. تكفي 6 أشخاص.",
+          "description": "6 صحن مندي مع إضافات ومشروبات. تكفي 6 أشخاص.",
           "image": "https://images.unsplash.com/photo-1544025162-d76694265947?w=800&q=80",
-          "price": 95,
+          "price": 100,
           "rating": 4.6,
           "calories": 2200,
           "protein": 110,
@@ -1257,10 +1257,10 @@
           "isCombo": true,
           "offerKind": "family",
           "comboIncludes": [
-            "مندي لحم",
+            "6 صحن مندي",
             "شوربة",
             "سلطة",
-            "٢ مشروب"
+            "6 مشروب"
           ],
           "spicyOption": false,
           "cashbackPercent": null,
@@ -1915,10 +1915,10 @@
         {
           "id": "najd-table-offer-2",
           "restaurantId": "najd-table",
-          "name": "وجبة عائلية مندي لـ 9 أشخاص",
-          "description": "مندي لحم مع شوربة وسلطة ومشروبين. تكفي 9 أشخاص.",
+          "name": "وجبة عائلية مندي لـ 5 أشخاص",
+          "description": "5 صحن مندي مع إضافات ومشروبات. تكفي 5 أشخاص.",
           "image": "https://images.unsplash.com/photo-1544025162-d76694265947?w=800&q=80",
-          "price": 100,
+          "price": 108,
           "rating": 4.6,
           "calories": 2200,
           "protein": 110,
@@ -1931,10 +1931,10 @@
           "isCombo": true,
           "offerKind": "family",
           "comboIncludes": [
-            "مندي لحم",
+            "5 صحن مندي",
             "شوربة",
             "سلطة",
-            "٢ مشروب"
+            "5 مشروب"
           ],
           "spicyOption": false,
           "cashbackPercent": null,
@@ -2590,9 +2590,9 @@
           "id": "harees-house-offer-2",
           "restaurantId": "harees-house",
           "name": "وجبة عائلية مندي لـ 6 أشخاص",
-          "description": "مندي لحم مع شوربة وسلطة ومشروبين. تكفي 6 أشخاص.",
+          "description": "6 صحن مندي مع إضافات ومشروبات. تكفي 6 أشخاص.",
           "image": "https://images.unsplash.com/photo-1544025162-d76694265947?w=800&q=80",
-          "price": 95,
+          "price": 100,
           "rating": 4.6,
           "calories": 2200,
           "protein": 110,
@@ -2605,10 +2605,10 @@
           "isCombo": true,
           "offerKind": "family",
           "comboIncludes": [
-            "مندي لحم",
+            "6 صحن مندي",
             "شوربة",
             "سلطة",
-            "٢ مشروب"
+            "6 مشروب"
           ],
           "spicyOption": false,
           "cashbackPercent": null,
@@ -3264,9 +3264,9 @@
           "id": "jareesh-corner-offer-2",
           "restaurantId": "jareesh-corner",
           "name": "وجبة عائلية مندي لـ 5 أشخاص",
-          "description": "مندي لحم مع شوربة وسلطة ومشروبين. تكفي 5 أشخاص.",
+          "description": "5 صحن مندي مع إضافات ومشروبات. تكفي 5 أشخاص.",
           "image": "https://images.unsplash.com/photo-1544025162-d76694265947?w=800&q=80",
-          "price": 87,
+          "price": 108,
           "rating": 4.6,
           "calories": 2200,
           "protein": 110,
@@ -3279,10 +3279,10 @@
           "isCombo": true,
           "offerKind": "family",
           "comboIncludes": [
-            "مندي لحم",
+            "5 صحن مندي",
             "شوربة",
             "سلطة",
-            "٢ مشروب"
+            "5 مشروب"
           ],
           "spicyOption": false,
           "cashbackPercent": null,
@@ -3938,7 +3938,7 @@
           "id": "samak-wa-ruz-offer-2",
           "restaurantId": "samak-wa-ruz",
           "name": "وجبة عائلية مندي لـ 3 أشخاص",
-          "description": "مندي لحم مع شوربة وسلطة ومشروبين. تكفي 3 أشخاص.",
+          "description": "3 صحن مندي مع إضافات ومشروبات. تكفي 3 أشخاص.",
           "image": "https://images.unsplash.com/photo-1544025162-d76694265947?w=800&q=80",
           "price": 71,
           "rating": 4.6,
@@ -3953,10 +3953,10 @@
           "isCombo": true,
           "offerKind": "family",
           "comboIncludes": [
-            "مندي لحم",
+            "3 صحن مندي",
             "شوربة",
             "سلطة",
-            "٢ مشروب"
+            "3 مشروب"
           ],
           "spicyOption": false,
           "cashbackPercent": null,
@@ -4612,9 +4612,9 @@
           "id": "qursan-kitchen-offer-2",
           "restaurantId": "qursan-kitchen",
           "name": "وجبة عائلية مندي لـ 4 أشخاص",
-          "description": "مندي لحم مع شوربة وسلطة ومشروبين. تكفي 4 أشخاص.",
+          "description": "4 صحن مندي مع إضافات ومشروبات. تكفي 4 أشخاص.",
           "image": "https://images.unsplash.com/photo-1544025162-d76694265947?w=800&q=80",
-          "price": 79,
+          "price": 89,
           "rating": 4.6,
           "calories": 2200,
           "protein": 110,
@@ -4627,10 +4627,10 @@
           "isCombo": true,
           "offerKind": "family",
           "comboIncludes": [
-            "مندي لحم",
+            "4 صحن مندي",
             "شوربة",
             "سلطة",
-            "٢ مشروب"
+            "4 مشروب"
           ],
           "spicyOption": false,
           "cashbackPercent": null,
@@ -5286,9 +5286,9 @@
           "id": "madafa-aloud-offer-2",
           "restaurantId": "madafa-aloud",
           "name": "وجبة عائلية مندي لـ 5 أشخاص",
-          "description": "مندي لحم مع شوربة وسلطة ومشروبين. تكفي 5 أشخاص.",
+          "description": "5 صحن مندي مع إضافات ومشروبات. تكفي 5 أشخاص.",
           "image": "https://images.unsplash.com/photo-1544025162-d76694265947?w=800&q=80",
-          "price": 87,
+          "price": 108,
           "rating": 4.6,
           "calories": 2200,
           "protein": 110,
@@ -5301,10 +5301,10 @@
           "isCombo": true,
           "offerKind": "family",
           "comboIncludes": [
-            "مندي لحم",
+            "5 صحن مندي",
             "شوربة",
             "سلطة",
-            "٢ مشروب"
+            "5 مشروب"
           ],
           "spicyOption": false,
           "cashbackPercent": null,

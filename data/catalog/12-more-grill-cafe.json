@@ -566,10 +566,10 @@
         {
           "id": "fahm-night-offer-2",
           "restaurantId": "fahm-night",
-          "name": "وجبة عائلية مشاوي لـ 8 أشخاص",
-          "description": "تشكيلة مع مقبلات ومشروبات. تكفي 8 أشخاص.",
+          "name": "وجبة عائلية مشاوي لـ 4 أشخاص",
+          "description": "4 صحن مشاوي مع إضافات ومشروبات. تكفي 4 أشخاص.",
           "image": "https://images.unsplash.com/photo-1555939594-58d7cb561ad1?w=800&q=80",
-          "price": 109,
+          "price": 98,
           "rating": 4.6,
           "calories": 2400,
           "protein": 120,
@@ -582,11 +582,11 @@
           "isCombo": true,
           "offerKind": "family",
           "comboIncludes": [
-            "مشكل مشاوي",
+            "4 صحن مشاوي",
             "حمص",
             "خبز",
             "بطاطس",
-            "٢ مشروب"
+            "4 مشروب"
           ],
           "spicyOption": true,
           "cashbackPercent": null,
@@ -1240,10 +1240,10 @@
         {
           "id": "skewer-club-offer-2",
           "restaurantId": "skewer-club",
-          "name": "وجبة عائلية مشاوي لـ 7 أشخاص",
-          "description": "تشكيلة مع مقبلات ومشروبات. تكفي 7 أشخاص.",
+          "name": "وجبة عائلية مشاوي لـ 3 أشخاص",
+          "description": "3 صحن مشاوي مع إضافات ومشروبات. تكفي 3 أشخاص.",
           "image": "https://images.unsplash.com/photo-1555939594-58d7cb561ad1?w=800&q=80",
-          "price": 113,
+          "price": 78,
           "rating": 4.6,
           "calories": 2400,
           "protein": 120,
@@ -1256,11 +1256,11 @@
           "isCombo": true,
           "offerKind": "family",
           "comboIncludes": [
-            "مشكل مشاوي",
+            "3 صحن مشاوي",
             "حمص",
             "خبز",
             "بطاطس",
-            "٢ مشروب"
+            "3 مشروب"
           ],
           "spicyOption": true,
           "cashbackPercent": null,
@@ -1914,10 +1914,10 @@
         {
           "id": "charcoal-yard-offer-2",
           "restaurantId": "charcoal-yard",
-          "name": "وجبة عائلية مشاوي لـ 9 أشخاص",
-          "description": "تشكيلة مع مقبلات ومشروبات. تكفي 9 أشخاص.",
+          "name": "وجبة عائلية مشاوي لـ 5 أشخاص",
+          "description": "5 صحن مشاوي مع إضافات ومشروبات. تكفي 5 أشخاص.",
           "image": "https://images.unsplash.com/photo-1555939594-58d7cb561ad1?w=800&q=80",
-          "price": 109,
+          "price": 118,
           "rating": 4.6,
           "calories": 2400,
           "protein": 120,
@@ -1930,11 +1930,11 @@
           "isCombo": true,
           "offerKind": "family",
           "comboIncludes": [
-            "مشكل مشاوي",
+            "5 صحن مشاوي",
             "حمص",
             "خبز",
             "بطاطس",
-            "٢ مشروب"
+            "5 مشروب"
           ],
           "spicyOption": true,
           "cashbackPercent": null,
@@ -2588,8 +2588,8 @@
         {
           "id": "meat-square-offer-2",
           "restaurantId": "meat-square",
-          "name": "وجبة عائلية مشاوي لـ 10 أشخاص",
-          "description": "تشكيلة مع مقبلات ومشروبات. تكفي 10 أشخاص.",
+          "name": "وجبة عائلية مشاوي لـ 6 أشخاص",
+          "description": "6 صحن مشاوي مع إضافات ومشروبات. تكفي 6 أشخاص.",
           "image": "https://images.unsplash.com/photo-1555939594-58d7cb561ad1?w=800&q=80",
           "price": 109,
           "rating": 4.6,
@@ -2604,11 +2604,11 @@
           "isCombo": true,
           "offerKind": "family",
           "comboIncludes": [
-            "مشكل مشاوي",
+            "6 صحن مشاوي",
             "حمص",
             "خبز",
             "بطاطس",
-            "٢ مشروب"
+            "6 مشروب"
           ],
           "spicyOption": true,
           "cashbackPercent": null,

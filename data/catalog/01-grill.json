@@ -568,9 +568,9 @@
           "id": "nar-aljamar-offer-2",
           "restaurantId": "nar-aljamar",
           "name": "وجبة عائلية مشاوي لـ 5 أشخاص",
-          "description": "تشكيلة مع مقبلات ومشروبات. تكفي 5 أشخاص.",
+          "description": "5 صحن مشاوي مع إضافات ومشروبات. تكفي 5 أشخاص.",
           "image": "https://images.unsplash.com/photo-1555939594-58d7cb561ad1?w=800&q=80",
-          "price": 96,
+          "price": 118,
           "rating": 4.6,
           "calories": 2400,
           "protein": 120,
@@ -583,11 +583,11 @@
           "isCombo": true,
           "offerKind": "family",
           "comboIncludes": [
-            "مشكل مشاوي",
+            "5 صحن مشاوي",
             "حمص",
             "خبز",
             "بطاطس",
-            "٢ مشروب"
+            "5 مشروب"
           ],
           "spicyOption": true,
           "cashbackPercent": null,
@@ -1243,9 +1243,9 @@
           "id": "shawaya-alqasr-offer-2",
           "restaurantId": "shawaya-alqasr",
           "name": "وجبة عائلية مشاوي لـ 4 أشخاص",
-          "description": "تشكيلة مع مقبلات ومشروبات. تكفي 4 أشخاص.",
+          "description": "4 صحن مشاوي مع إضافات ومشروبات. تكفي 4 أشخاص.",
           "image": "https://images.unsplash.com/photo-1555939594-58d7cb561ad1?w=800&q=80",
-          "price": 87,
+          "price": 98,
           "rating": 4.6,
           "calories": 2400,
           "protein": 120,
@@ -1258,11 +1258,11 @@
           "isCombo": true,
           "offerKind": "family",
           "comboIncludes": [
-            "مشكل مشاوي",
+            "4 صحن مشاوي",
             "حمص",
             "خبز",
             "بطاطس",
-            "٢ مشروب"
+            "4 مشروب"
           ],
           "spicyOption": true,
           "cashbackPercent": null,
@@ -1918,7 +1918,7 @@
           "id": "lahm-wa-fahm-offer-2",
           "restaurantId": "lahm-wa-fahm",
           "name": "وجبة عائلية مشاوي لـ 3 أشخاص",
-          "description": "تشكيلة مع مقبلات ومشروبات. تكفي 3 أشخاص.",
+          "description": "3 صحن مشاوي مع إضافات ومشروبات. تكفي 3 أشخاص.",
           "image": "https://images.unsplash.com/photo-1555939594-58d7cb561ad1?w=800&q=80",
           "price": 78,
           "rating": 4.6,
@@ -1933,11 +1933,11 @@
           "isCombo": true,
           "offerKind": "family",
           "comboIncludes": [
-            "مشكل مشاوي",
+            "3 صحن مشاوي",
             "حمص",
             "خبز",
             "بطاطس",
-            "٢ مشروب"
+            "3 مشروب"
           ],
           "spicyOption": true,
           "cashbackPercent": null,
@@ -2592,10 +2592,10 @@
         {
           "id": "majalis-almashawi-offer-2",
           "restaurantId": "majalis-almashawi",
-          "name": "وجبة عائلية مشاوي لـ 8 أشخاص",
-          "description": "تشكيلة مع مقبلات ومشروبات. تكفي 8 أشخاص.",
+          "name": "وجبة عائلية مشاوي لـ 4 أشخاص",
+          "description": "4 صحن مشاوي مع إضافات ومشروبات. تكفي 4 أشخاص.",
           "image": "https://images.unsplash.com/photo-1555939594-58d7cb561ad1?w=800&q=80",
-          "price": 109,
+          "price": 98,
           "rating": 4.6,
           "calories": 2400,
           "protein": 120,
@@ -2608,11 +2608,11 @@
           "isCombo": true,
           "offerKind": "family",
           "comboIncludes": [
-            "مشكل مشاوي",
+            "4 صحن مشاوي",
             "حمص",
             "خبز",
             "بطاطس",
-            "٢ مشروب"
+            "4 مشروب"
           ],
           "spicyOption": true,
           "cashbackPercent": null,
@@ -3268,9 +3268,9 @@
           "id": "dukhan-house-offer-2",
           "restaurantId": "dukhan-house",
           "name": "وجبة عائلية مشاوي لـ 5 أشخاص",
-          "description": "تشكيلة مع مقبلات ومشروبات. تكفي 5 أشخاص.",
+          "description": "5 صحن مشاوي مع إضافات ومشروبات. تكفي 5 أشخاص.",
           "image": "https://images.unsplash.com/photo-1555939594-58d7cb561ad1?w=800&q=80",
-          "price": 96,
+          "price": 118,
           "rating": 4.6,
           "calories": 2400,
           "protein": 120,
@@ -3283,11 +3283,11 @@
           "isCombo": true,
           "offerKind": "family",
           "comboIncludes": [
-            "مشكل مشاوي",
+            "5 صحن مشاوي",
             "حمص",
             "خبز",
             "بطاطس",
-            "٢ مشروب"
+            "5 مشروب"
           ],
           "spicyOption": true,
           "cashbackPercent": null,
@@ -3943,9 +3943,9 @@
           "id": "kabab-alwadi-offer-2",
           "restaurantId": "kabab-alwadi",
           "name": "وجبة عائلية مشاوي لـ 5 أشخاص",
-          "description": "تشكيلة مع مقبلات ومشروبات. تكفي 5 أشخاص.",
+          "description": "5 صحن مشاوي مع إضافات ومشروبات. تكفي 5 أشخاص.",
           "image": "https://images.unsplash.com/photo-1555939594-58d7cb561ad1?w=800&q=80",
-          "price": 96,
+          "price": 118,
           "rating": 4.6,
           "calories": 2400,
           "protein": 120,
@@ -3958,11 +3958,11 @@
           "isCombo": true,
           "offerKind": "family",
           "comboIncludes": [
-            "مشكل مشاوي",
+            "5 صحن مشاوي",
             "حمص",
             "خبز",
             "بطاطس",
-            "٢ مشروب"
+            "5 مشروب"
           ],
           "spicyOption": true,
           "cashbackPercent": null,
@@ -4618,7 +4618,7 @@
           "id": "fahm-riyadh-offer-2",
           "restaurantId": "fahm-riyadh",
           "name": "وجبة عائلية مشاوي لـ 3 أشخاص",
-          "description": "تشكيلة مع مقبلات ومشروبات. تكفي 3 أشخاص.",
+          "description": "3 صحن مشاوي مع إضافات ومشروبات. تكفي 3 أشخاص.",
           "image": "https://images.unsplash.com/photo-1555939594-58d7cb561ad1?w=800&q=80",
           "price": 78,
           "rating": 4.6,
@@ -4633,11 +4633,11 @@
           "isCombo": true,
           "offerKind": "family",
           "comboIncludes": [
-            "مشكل مشاوي",
+            "3 صحن مشاوي",
             "حمص",
             "خبز",
             "بطاطس",
-            "٢ مشروب"
+            "3 مشروب"
           ],
           "spicyOption": true,
           "cashbackPercent": null,
@@ -5292,10 +5292,10 @@
         {
           "id": "mashawi-alnakheel-offer-2",
           "restaurantId": "mashawi-alnakheel",
-          "name": "وجبة عائلية مشاوي لـ 9 أشخاص",
-          "description": "تشكيلة مع مقبلات ومشروبات. تكفي 9 أشخاص.",
+          "name": "وجبة عائلية مشاوي لـ 5 أشخاص",
+          "description": "5 صحن مشاوي مع إضافات ومشروبات. تكفي 5 أشخاص.",
           "image": "https://images.unsplash.com/photo-1555939594-58d7cb561ad1?w=800&q=80",
-          "price": 109,
+          "price": 118,
           "rating": 4.6,
           "calories": 2400,
           "protein": 120,
@@ -5308,11 +5308,11 @@
           "isCombo": true,
           "offerKind": "family",
           "comboIncludes": [
-            "مشكل مشاوي",
+            "5 صحن مشاوي",
             "حمص",
             "خبز",
             "بطاطس",
-            "٢ مشروب"
+            "5 مشروب"
           ],
           "spicyOption": true,
           "cashbackPercent": null,

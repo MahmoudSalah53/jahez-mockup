@@ -38,7 +38,9 @@ function patchRestaurant(r, { touchImages }) {
 
   next.meals = r.meals.map((m, i) => {
     const meal = { ...m, price: realisticPrice(m, cuisine) };
-    if (touchImages) {
+    const keepLocalOffer =
+      typeof m.image === "string" && m.image.startsWith("/offers/");
+    if (touchImages && !keepLocalOffer) {
       meal.image = dishImage(m.name, cuisine, hashSeed(m.id) + i);
     }
     return meal;

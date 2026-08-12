@@ -567,8 +567,8 @@
         {
           "id": "spice-route-offer-2",
           "restaurantId": "spice-route",
-          "name": "وجبة عائلية ثالي لـ 9 أشخاص",
-          "description": "تشكيلة أطباق هندية. تكفي 9 أشخاص.",
+          "name": "وجبة عائلية ثالي لـ 5 أشخاص",
+          "description": "5 طبق ثالي مع إضافات ومشروبات. تكفي 5 أشخاص.",
           "image": "https://images.unsplash.com/photo-1565557623262-b51c2513a641?w=800&q=80",
           "price": 109,
           "rating": 4.6,
@@ -583,11 +583,11 @@
           "isCombo": true,
           "offerKind": "family",
           "comboIncludes": [
-            "دال",
-            "كاري",
-            "أرز",
+            "5 طبق ثالي",
             "نان",
-            "مخلل"
+            "أرز",
+            "مخلل",
+            "5 مشروب"
           ],
           "spicyOption": true,
           "cashbackPercent": null,
@@ -1242,9 +1242,9 @@
           "id": "tandoor-flame-offer-2",
           "restaurantId": "tandoor-flame",
           "name": "وجبة عائلية ثالي لـ 6 أشخاص",
-          "description": "تشكيلة أطباق هندية. تكفي 6 أشخاص.",
+          "description": "6 طبق ثالي مع إضافات ومشروبات. تكفي 6 أشخاص.",
           "image": "https://images.unsplash.com/photo-1588168333986-5078d3ae3976?w=800&q=80",
-          "price": 114,
+          "price": 109,
           "rating": 4.6,
           "calories": 1600,
           "protein": 55,
@@ -1257,11 +1257,11 @@
           "isCombo": true,
           "offerKind": "family",
           "comboIncludes": [
-            "دال",
-            "كاري",
-            "أرز",
+            "6 طبق ثالي",
             "نان",
-            "مخلل"
+            "أرز",
+            "مخلل",
+            "6 مشروب"
           ],
           "spicyOption": true,
           "cashbackPercent": null,
@@ -1916,7 +1916,7 @@
           "id": "masala-bowl-offer-2",
           "restaurantId": "masala-bowl",
           "name": "وجبة عائلية ثالي لـ 3 أشخاص",
-          "description": "تشكيلة أطباق هندية. تكفي 3 أشخاص.",
+          "description": "3 طبق ثالي مع إضافات ومشروبات. تكفي 3 أشخاص.",
           "image": "https://images.unsplash.com/photo-1588168333986-5078d3ae3976?w=800&q=80",
           "price": 86,
           "rating": 4.6,
@@ -1931,11 +1931,11 @@
           "isCombo": true,
           "offerKind": "family",
           "comboIncludes": [
-            "دال",
-            "كاري",
-            "أرز",
+            "3 طبق ثالي",
             "نان",
-            "مخلل"
+            "أرز",
+            "مخلل",
+            "3 مشروب"
           ],
           "spicyOption": true,
           "cashbackPercent": null,
@@ -2589,10 +2589,10 @@
         {
           "id": "curry-garden-offer-2",
           "restaurantId": "curry-garden",
-          "name": "وجبة عائلية ثالي لـ 8 أشخاص",
-          "description": "تشكيلة أطباق هندية. تكفي 8 أشخاص.",
+          "name": "وجبة عائلية ثالي لـ 4 أشخاص",
+          "description": "4 طبق ثالي مع إضافات ومشروبات. تكفي 4 أشخاص.",
           "image": "https://images.unsplash.com/photo-1588168333986-5078d3ae3976?w=800&q=80",
-          "price": 109,
+          "price": 107,
           "rating": 4.6,
           "calories": 1600,
           "protein": 55,
@@ -2605,11 +2605,11 @@
           "isCombo": true,
           "offerKind": "family",
           "comboIncludes": [
-            "دال",
-            "كاري",
-            "أرز",
+            "4 طبق ثالي",
             "نان",
-            "مخلل"
+            "أرز",
+            "مخلل",
+            "4 مشروب"
           ],
           "spicyOption": true,
           "cashbackPercent": null,
@@ -3263,8 +3263,8 @@
         {
           "id": "biryani-dar-offer-2",
           "restaurantId": "biryani-dar",
-          "name": "وجبة عائلية ثالي لـ 9 أشخاص",
-          "description": "تشكيلة أطباق هندية. تكفي 9 أشخاص.",
+          "name": "وجبة عائلية ثالي لـ 5 أشخاص",
+          "description": "5 طبق ثالي مع إضافات ومشروبات. تكفي 5 أشخاص.",
           "image": "https://images.unsplash.com/photo-1588168333986-5078d3ae3976?w=800&q=80",
           "price": 109,
           "rating": 4.6,
@@ -3279,11 +3279,11 @@
           "isCombo": true,
           "offerKind": "family",
           "comboIncludes": [
-            "دال",
-            "كاري",
-            "أرز",
+            "5 طبق ثالي",
             "نان",
-            "مخلل"
+            "أرز",
+            "مخلل",
+            "5 مشروب"
           ],
           "spicyOption": true,
           "cashbackPercent": null,
@@ -3937,10 +3937,10 @@
         {
           "id": "naan-house-offer-2",
           "restaurantId": "naan-house",
-          "name": "وجبة عائلية ثالي لـ 8 أشخاص",
-          "description": "تشكيلة أطباق هندية. تكفي 8 أشخاص.",
+          "name": "وجبة عائلية ثالي لـ 4 أشخاص",
+          "description": "4 طبق ثالي مع إضافات ومشروبات. تكفي 4 أشخاص.",
           "image": "https://images.unsplash.com/photo-1585937421612-70a008356fbe?w=800&q=80",
-          "price": 109,
+          "price": 107,
           "rating": 4.6,
           "calories": 1600,
           "protein": 55,
@@ -3953,11 +3953,11 @@
           "isCombo": true,
           "offerKind": "family",
           "comboIncludes": [
-            "دال",
-            "كاري",
-            "أرز",
+            "4 طبق ثالي",
             "نان",
-            "مخلل"
+            "أرز",
+            "مخلل",
+            "4 مشروب"
           ],
           "spicyOption": true,
           "cashbackPercent": null,
@@ -4611,10 +4611,10 @@
         {
           "id": "tikka-spot-offer-2",
           "restaurantId": "tikka-spot",
-          "name": "وجبة عائلية ثالي لـ 8 أشخاص",
-          "description": "تشكيلة أطباق هندية. تكفي 8 أشخاص.",
+          "name": "وجبة عائلية ثالي لـ 4 أشخاص",
+          "description": "4 طبق ثالي مع إضافات ومشروبات. تكفي 4 أشخاص.",
           "image": "https://images.unsplash.com/photo-1565557623262-b51c2513a641?w=800&q=80",
-          "price": 109,
+          "price": 107,
           "rating": 4.6,
           "calories": 1600,
           "protein": 55,
@@ -4627,11 +4627,11 @@
           "isCombo": true,
           "offerKind": "family",
           "comboIncludes": [
-            "دال",
-            "كاري",
-            "أرز",
+            "4 طبق ثالي",
             "نان",
-            "مخلل"
+            "أرز",
+            "مخلل",
+            "4 مشروب"
           ],
           "spicyOption": true,
           "cashbackPercent": null,
@@ -5285,8 +5285,8 @@
         {
           "id": "delhi-express-offer-2",
           "restaurantId": "delhi-express",
-          "name": "وجبة عائلية ثالي لـ 10 أشخاص",
-          "description": "تشكيلة أطباق هندية. تكفي 10 أشخاص.",
+          "name": "وجبة عائلية ثالي لـ 6 أشخاص",
+          "description": "6 طبق ثالي مع إضافات ومشروبات. تكفي 6 أشخاص.",
           "image": "https://images.unsplash.com/photo-1585937421612-70a008356fbe?w=800&q=80",
           "price": 109,
           "rating": 4.6,
@@ -5301,11 +5301,11 @@
           "isCombo": true,
           "offerKind": "family",
           "comboIncludes": [
-            "دال",
-            "كاري",
-            "أرز",
+            "6 طبق ثالي",
             "نان",
-            "مخلل"
+            "أرز",
+            "مخلل",
+            "6 مشروب"
           ],
           "spicyOption": true,
           "cashbackPercent": null,

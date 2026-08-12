@@ -95,7 +95,7 @@ function getAddonsForCuisine(cuisine) {
 
 /**
  * Each cuisine: 3 templates — combo | family | deal (generic «عرض»).
- * Clear Arabic titles (no 1+1 / هدية / باقة). Restaurant name appended for uniqueness.
+ * Family templates use unitLabel + sides so includes/description match serves (3–7).
  */
 const OFFERS_BY_CUISINE = {
   مشاوي: [
@@ -116,8 +116,10 @@ const OFFERS_BY_CUISINE = {
       slug: "offer-2",
       kind: "family",
       nameTitle: "وجبة عائلية مشاوي",
-      description: "تشكيلة تكفي ٣–٤ أشخاص مع مقبلات ومشروبات.",
-      includes: ["مشكل مشاوي", "حمص", "خبز", "بطاطس", "٢ مشروب"],
+      description: "تشكيلة مشاوي مع مقبلات ومشروبات.",
+      includes: ["مشكل مشاوي", "حمص", "خبز", "بطاطس"],
+      unitLabel: "صحن مشاوي",
+      sides: ["حمص", "خبز", "بطاطس"],
       price: 109,
       calories: 2400,
       protein: 120,
@@ -155,6 +157,21 @@ const OFFERS_BY_CUISINE = {
     },
     {
       slug: "offer-2",
+      kind: "family",
+      nameTitle: "وجبة عائلية شاورما",
+      description: "ساندويتشات شاورما مع بطاطس وثوم.",
+      includes: ["شاورما", "بطاطس", "ثوم"],
+      unitLabel: "شاورما",
+      sides: ["بطاطس عائلية", "ثوم", "مخلل"],
+      price: 79,
+      calories: 2100,
+      protein: 95,
+      carbs: 180,
+      fat: 90,
+      spicy: false,
+    },
+    {
+      slug: "offer-3",
       kind: "deal",
       nameTitle: "عرض فلافل: صحنين ومشروب",
       description: "صحنان فلافل مع مخلل ومشروب بسعر واحد.",
@@ -164,19 +181,6 @@ const OFFERS_BY_CUISINE = {
       protein: 28,
       carbs: 90,
       fat: 30,
-      spicy: false,
-    },
-    {
-      slug: "offer-3",
-      kind: "deal",
-      nameTitle: "تشكيلة مقبلات بسعر ثابت",
-      description: "حمص ومتبل وفتوش وخبز وعصير — خمسة أصناف بسعر واحد.",
-      includes: ["حمص", "متبل", "فتوش", "خبز عربي", "عصير"],
-      price: 68,
-      calories: 980,
-      protein: 26,
-      carbs: 95,
-      fat: 42,
       spicy: false,
     },
   ],
@@ -198,8 +202,10 @@ const OFFERS_BY_CUISINE = {
       slug: "offer-2",
       kind: "family",
       nameTitle: "وجبة عائلية برجر",
-      description: "أربعة برجر مع بطاطس عائلية وأربعة مشروبات.",
-      includes: ["٤ برجر", "بطاطس عائلية", "٤ مشروب", "صوصات"],
+      description: "برجر مع بطاطس عائلية ومشروبات.",
+      includes: ["برجر", "بطاطس عائلية", "صوصات"],
+      unitLabel: "برجر",
+      sides: ["بطاطس عائلية", "صوصات"],
       price: 89,
       calories: 3200,
       protein: 120,
@@ -228,7 +234,7 @@ const OFFERS_BY_CUISINE = {
       nameTitle: "وجبة سوشي خفيفة",
       description: "رولز مع شوربة وشاي.",
       includes: ["رول كاليفورنيا", "سوشي ×٤", "ميسو", "شاي أخضر"],
-      price: 78,
+      price: 48,
       calories: 720,
       protein: 34,
       carbs: 82,
@@ -237,28 +243,30 @@ const OFFERS_BY_CUISINE = {
     },
     {
       slug: "offer-2",
-      kind: "deal",
-      nameTitle: "عرض رامن مع جيوزا",
-      description: "رامن وإدامامي وأربع قطع جيوزا بسعر واحد.",
-      includes: ["رامن", "جيوزا ×٤", "إدامامي"],
-      price: 58,
-      calories: 880,
-      protein: 36,
-      carbs: 90,
-      fat: 28,
+      kind: "family",
+      nameTitle: "وجبة عائلية سوشي",
+      description: "صحون سوشي للمشاركة مع ميسو.",
+      includes: ["سوشي", "ميسو"],
+      unitLabel: "صحن سوشي",
+      sides: ["ميسو", "زنجبيل", "واسابي"],
+      price: 119,
+      calories: 1600,
+      protein: 70,
+      carbs: 160,
+      fat: 40,
       spicy: false,
     },
     {
       slug: "offer-3",
       kind: "deal",
-      nameTitle: "تشكيلة ساشيمي بسعر ثابت",
-      description: "ساشيمي مشكل مع زنجبيل وواسابي وأرز للمشاركة.",
-      includes: ["ساشيمي مشكل", "زنجبيل", "واسابي", "أرز"],
-      price: 129,
-      calories: 640,
-      protein: 55,
-      carbs: 40,
-      fat: 20,
+      nameTitle: "عرض رامن مع جيوزا",
+      description: "رامن وإدامامي وأربع قطع جيوزا بسعر واحد.",
+      includes: ["رامن", "جيوزا ×٤", "إدامامي"],
+      price: 45,
+      calories: 880,
+      protein: 36,
+      carbs: 90,
+      fat: 28,
       spicy: false,
     },
   ],
@@ -269,7 +277,7 @@ const OFFERS_BY_CUISINE = {
       nameTitle: "حلا مع قهوة",
       description: "قطعة حلا مع مشروب ساخن.",
       includes: ["قطعة حلا", "لاتيه أو شاي"],
-      price: 36,
+      price: 26,
       calories: 520,
       protein: 10,
       carbs: 60,
@@ -278,6 +286,21 @@ const OFFERS_BY_CUISINE = {
     },
     {
       slug: "offer-2",
+      kind: "family",
+      nameTitle: "تشكيلة حلا عائلية",
+      description: "قطع حلا متنوعة مع قهوة.",
+      includes: ["حلا", "قهوة"],
+      unitLabel: "قطعة حلا",
+      sides: ["قهوة", "صوص"],
+      price: 69,
+      calories: 1400,
+      protein: 24,
+      carbs: 180,
+      fat: 60,
+      spicy: false,
+    },
+    {
+      slug: "offer-3",
       kind: "deal",
       nameTitle: "اشتري كنافة واحصل على الثانية مجاناً",
       description: "عرض كنافتين مع قطر بنفس السعر.",
@@ -287,19 +310,6 @@ const OFFERS_BY_CUISINE = {
       protein: 14,
       carbs: 90,
       fat: 32,
-      spicy: false,
-    },
-    {
-      slug: "offer-3",
-      kind: "deal",
-      nameTitle: "عرض وافل مع آيس كريم",
-      description: "وافل وسكوب آيس كريم وصوص بسعر واحد.",
-      includes: ["وافل", "سكوب آيس كريم", "صوص"],
-      price: 34,
-      calories: 680,
-      protein: 10,
-      carbs: 85,
-      fat: 28,
       spicy: false,
     },
   ],
@@ -321,8 +331,10 @@ const OFFERS_BY_CUISINE = {
       slug: "offer-2",
       kind: "family",
       nameTitle: "وجبة عائلية بيتزا",
-      description: "بيتزا كبيرة مع مقبلات ومشروبين للعائلة.",
-      includes: ["بيتزا كبيرة", "بروشيتا", "٢ مشروب"],
+      description: "بيتزا مع مقبلات ومشروبات.",
+      includes: ["بيتزا", "بروشيتا"],
+      unitLabel: "بيتزا",
+      sides: ["بروشيتا", "سلطة"],
       price: 99,
       calories: 1800,
       protein: 60,
@@ -362,8 +374,10 @@ const OFFERS_BY_CUISINE = {
       slug: "offer-2",
       kind: "family",
       nameTitle: "وجبة عائلية ثالي",
-      description: "تشكيلة أطباق هندية تكفي العائلة.",
-      includes: ["دال", "كاري", "أرز", "نان", "مخلل"],
+      description: "تشكيلة أطباق هندية مع نان.",
+      includes: ["ثالي", "نان", "أرز"],
+      unitLabel: "طبق ثالي",
+      sides: ["نان", "أرز", "مخلل"],
       price: 119,
       calories: 1600,
       protein: 55,
@@ -403,8 +417,10 @@ const OFFERS_BY_CUISINE = {
       slug: "offer-2",
       kind: "family",
       nameTitle: "وجبة عائلية مندي",
-      description: "مندي لحم تكفي العائلة مع شوربة وسلطة ومشروبين.",
-      includes: ["مندي لحم", "شوربة", "سلطة", "٢ مشروب"],
+      description: "مندي مع شوربة وسلطة.",
+      includes: ["مندي", "شوربة", "سلطة"],
+      unitLabel: "صحن مندي",
+      sides: ["شوربة", "سلطة"],
       price: 99,
       calories: 2200,
       protein: 110,
@@ -444,8 +460,10 @@ const OFFERS_BY_CUISINE = {
       slug: "offer-2",
       kind: "family",
       nameTitle: "وجبة عائلية بحرية",
-      description: "سمك وروبيان وأرز وسلطة ومشروبين للمشاركة.",
-      includes: ["سمك", "روبيان", "أرز", "سلطة", "٢ مشروب"],
+      description: "سمك وروبيان مع أرز وسلطة.",
+      includes: ["سمك", "روبيان", "أرز", "سلطة"],
+      unitLabel: "طبق بحري",
+      sides: ["أرز", "سلطة", "ليمون"],
       price: 109,
       calories: 1600,
       protein: 95,
@@ -474,7 +492,7 @@ const OFFERS_BY_CUISINE = {
       nameTitle: "وجبة بروتين خفيفة",
       description: "صدر دجاج مع سلطة وبطاطا حلوة وماء.",
       includes: ["صدر دجاج", "سلطة", "بطاطا حلوة", "ماء"],
-      price: 52,
+      price: 42,
       calories: 520,
       protein: 48,
       carbs: 40,
@@ -483,28 +501,30 @@ const OFFERS_BY_CUISINE = {
     },
     {
       slug: "offer-2",
-      kind: "deal",
-      nameTitle: "عرض بول مع سموذي",
-      description: "كينوا بول وسموذي بسعر واحد.",
-      includes: ["كينوا بول", "سموذي"],
-      price: 48,
-      calories: 480,
-      protein: 20,
-      carbs: 55,
-      fat: 14,
+      kind: "family",
+      nameTitle: "وجبة عائلية سلطات",
+      description: "سلطات متنوعة للمشاركة.",
+      includes: ["سلطة", "ماء"],
+      unitLabel: "سلطة",
+      sides: ["ماء", "صوص يوناني"],
+      price: 89,
+      calories: 900,
+      protein: 60,
+      carbs: 70,
+      fat: 30,
       spicy: false,
     },
     {
       slug: "offer-3",
       kind: "deal",
-      nameTitle: "عرض ٣ سلطات بسعر ثابت",
-      description: "سلطة دجاج وتونة وخضراء — ثلاثة أصناف بسعر واحد.",
-      includes: ["سلطة دجاج", "سلطة تونة", "سلطة خضراء"],
-      price: 79,
-      calories: 720,
-      protein: 55,
-      carbs: 40,
-      fat: 28,
+      nameTitle: "عرض بول مع سموذي",
+      description: "كينوا بول وسموذي بسعر واحد.",
+      includes: ["كينوا بول", "سموذي"],
+      price: 42,
+      calories: 480,
+      protein: 20,
+      carbs: 55,
+      fat: 14,
       spicy: false,
     },
   ],
@@ -515,7 +535,7 @@ const OFFERS_BY_CUISINE = {
       nameTitle: "عرض فطور البيت",
       description: "توست وبيض وجبنة وحليب — أربعة أصناف بسعر ثابت.",
       includes: ["خبز توست", "بيض", "جبنة", "حليب"],
-      price: 29,
+      price: 22,
       calories: 0,
       protein: 0,
       carbs: 0,
@@ -541,6 +561,8 @@ const OFFERS_BY_CUISINE = {
       nameTitle: "عرض ضيافة للعائلة",
       description: "تمر ومياه وعصير وقهوة للضيوف.",
       includes: ["تمر", "مياه", "عصير", "قهوة"],
+      unitLabel: "علبة تمر",
+      sides: ["مياه", "عصير", "قهوة"],
       price: 45,
       calories: 0,
       protein: 0,
@@ -607,31 +629,84 @@ function hashSeed(str) {
   return Math.abs(h);
 }
 
-/** Deterministic party size 3–10 from restaurant id. */
+/** Deterministic party size 3–6 from restaurant id. */
 function familyServes(restaurantId) {
-  return 3 + (hashSeed(restaurantId) % 8);
+  return 3 + (hashSeed(restaurantId) % 4);
 }
 
 function familyPrice(basePrice, serves) {
-  const factor = 0.72 + ((serves - 3) / 7) * 0.55;
+  const factor = 0.72 + ((serves - 3) / 3) * 0.55;
   return Math.round(basePrice * factor);
 }
 
-function familyDescription(base, serves) {
-  const cleaned = String(base)
-    .replace(/تكفي\s*العائلة/g, "")
-    .replace(/تكفي\s*[0-9٠-٩]+\s*[–\-]\s*[0-9٠-٩]+\s*أشخاص/g, "")
-    .replace(/للعائلة/g, "")
-    .replace(/\s+/g, " ")
-    .replace(/\s+\./g, ".")
-    .trim()
-    .replace(/[،,]\s*$/, "");
-  const lead = cleaned
-    ? cleaned.endsWith(".")
-      ? cleaned
-      : `${cleaned}.`
-    : "";
-  return `${lead} تكفي ${serves} أشخاص.`.trim();
+function familyDescription(_base, serves, unitLabel) {
+  if (unitLabel) {
+    return `${serves} ${unitLabel} مع إضافات ومشروبات. تكفي ${serves} أشخاص.`;
+  }
+  return `تكفي ${serves} أشخاص.`;
+}
+
+function familyIncludes(template, serves) {
+  if (template.unitLabel) {
+    return [
+      `${serves} ${template.unitLabel}`,
+      ...(template.sides ?? []),
+      `${serves} مشروب`,
+    ];
+  }
+  return [...template.includes];
+}
+
+/** Local plated packs in public/offers — count matches filename. */
+const LOCAL_OFFER_IMAGES = {
+  burger: {
+    1: "/offers/1-burger.avif",
+    3: "/offers/3-burger.webp",
+    4: "/offers/4-burger.jpg",
+    5: "/offers/5-burger.jpg",
+    6: "/offers/6-burgers.jpg",
+  },
+  pizza: {
+    1: "/offers/1-pizza.png",
+    3: "/offers/3-pizza.jpg",
+    4: "/offers/4-pizza.jpg",
+    5: "/offers/5-pizza.jpg",
+    6: "/offers/6-pizza.jpg",
+  },
+  shawarma: {
+    1: "/offers/1-shawrma.jpg",
+    3: "/offers/3-shawrma.jpg",
+    4: "/offers/4-shawrma.jpg",
+    5: "/offers/5-shawrma.jpg",
+    6: "/offers/6-shawrma.jpg",
+  },
+};
+
+function localOfferKind(restaurant, template) {
+  if (restaurant.cuisine === "برجر" || template.unitLabel === "برجر") {
+    return "burger";
+  }
+  if (restaurant.cuisine === "إيطالي" || template.unitLabel === "بيتزا") {
+    return "pizza";
+  }
+  if (restaurant.cuisine === "شامي" || template.unitLabel === "شاورما") {
+    return "shawarma";
+  }
+  return null;
+}
+
+function offerImage(restaurant, template, serves) {
+  const kind = localOfferKind(restaurant, template);
+  if (!kind) return dishImage(template.nameTitle, restaurant.cuisine);
+
+  const pack = LOCAL_OFFER_IMAGES[kind];
+  if (template.kind === "family" && serves && pack[serves]) {
+    return pack[serves];
+  }
+  if (template.kind === "combo" && pack[1]) {
+    return pack[1];
+  }
+  return dishImage(template.nameTitle, restaurant.cuisine);
 }
 
 function buildOfferMeal(restaurant, template) {
@@ -641,11 +716,14 @@ function buildOfferMeal(restaurant, template) {
     ? `${template.nameTitle} لـ ${serves} أشخاص`
     : template.nameTitle;
   const description = isFamily
-    ? familyDescription(template.description, serves)
+    ? familyDescription(template.description, serves, template.unitLabel)
     : template.description;
   const price = isFamily
     ? familyPrice(template.price, serves)
     : template.price;
+  const includes = isFamily
+    ? familyIncludes(template, serves)
+    : [...template.includes];
 
   const drafted = {
     ...template,
@@ -658,7 +736,7 @@ function buildOfferMeal(restaurant, template) {
     restaurantId: restaurant.id,
     name,
     description,
-    image: dishImage(template.nameTitle, restaurant.cuisine),
+    image: offerImage(restaurant, template, serves),
     price: realisticPrice(drafted, restaurant.cuisine),
     rating: 4.6,
     calories: template.calories,
@@ -671,7 +749,7 @@ function buildOfferMeal(restaurant, template) {
     offerPrice: null,
     isCombo: true,
     offerKind: template.kind,
-    comboIncludes: [...template.includes],
+    comboIncludes: includes,
     spicyOption: Boolean(template.spicy),
     cashbackPercent: null,
     addons: getAddonsForCuisine(restaurant.cuisine),
