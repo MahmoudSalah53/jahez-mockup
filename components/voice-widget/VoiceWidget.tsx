@@ -26,7 +26,7 @@ import {
 export function VoiceWidget() {
   const router = useRouter();
   const pathname = usePathname();
-  const { items, addItem, clearCart } = useCart();
+  const { items, addItem, setQuantity, removeItem, clearCart } = useCart();
   const { addOrder } = useOrders();
   const { isSaved, toggleSaved } = useSaved();
   const [phase, setPhase] = useState<VoicePhase>("closed");
@@ -44,6 +44,10 @@ export function VoiceWidget() {
   itemsRef.current = items;
   const addItemRef = useRef(addItem);
   addItemRef.current = addItem;
+  const setQuantityRef = useRef(setQuantity);
+  setQuantityRef.current = setQuantity;
+  const removeItemRef = useRef(removeItem);
+  removeItemRef.current = removeItem;
   const clearCartRef = useRef(clearCart);
   clearCartRef.current = clearCart;
   const addOrderRef = useRef(addOrder);
@@ -190,6 +194,12 @@ export function VoiceWidget() {
         getItems: () => itemsRef.current,
         addItem: (input) => {
           addItemRef.current(input);
+        },
+        setQuantity: (lineId, quantity) => {
+          setQuantityRef.current(lineId, quantity);
+        },
+        removeItem: (lineId) => {
+          removeItemRef.current(lineId);
         },
         clearCart: () => {
           clearCartRef.current();

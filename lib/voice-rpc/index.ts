@@ -15,6 +15,7 @@ import { createFillCheckoutHandler } from "@/lib/voice-rpc/fill-checkout";
 import { createGetCartHandler } from "@/lib/voice-rpc/get-cart";
 import { createGetUiStateHandler } from "@/lib/voice-rpc/get-ui-state";
 import { createNavigateHandler } from "@/lib/voice-rpc/navigate";
+import { createSetCartQuantityHandler } from "@/lib/voice-rpc/set-cart-quantity";
 import { createSetMealOptionsHandler } from "@/lib/voice-rpc/set-meal-options";
 import { createSetSavedHandler } from "@/lib/voice-rpc/set-saved";
 import { createShowMealHandler } from "@/lib/voice-rpc/show-meal";
@@ -29,6 +30,8 @@ export type LuqmaRpcDeps = {
     addons?: CartAddon[];
     unitPrice: number;
   }) => void;
+  setQuantity: (lineId: string, quantity: number) => void;
+  removeItem: (lineId: string) => void;
   clearCart: () => void;
   addOrder: (order: Omit<Order, "id" | "createdAt">) => Order;
   isSaved: (mealId: string) => boolean;
@@ -40,6 +43,7 @@ const ACTIVE_METHODS = [
   LUQMA_RPC.showMeal,
   LUQMA_RPC.setMealOptions,
   LUQMA_RPC.addToCart,
+  LUQMA_RPC.setCartQuantity,
   LUQMA_RPC.setSaved,
   LUQMA_RPC.getCart,
   LUQMA_RPC.getUiState,
@@ -92,6 +96,10 @@ export function registerLuqmaRpcs(room: Room, deps: LuqmaRpcDeps) {
   room.registerRpcMethod(
     LUQMA_RPC.addToCart,
     withDebug(LUQMA_RPC.addToCart, createAddToCartHandler(deps)),
+  );
+  room.registerRpcMethod(
+    LUQMA_RPC.setCartQuantity,
+    withDebug(LUQMA_RPC.setCartQuantity, createSetCartQuantityHandler(deps)),
   );
   room.registerRpcMethod(
     LUQMA_RPC.setSaved,
