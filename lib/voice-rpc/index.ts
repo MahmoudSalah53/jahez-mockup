@@ -19,6 +19,7 @@ import { createSetCartQuantityHandler } from "@/lib/voice-rpc/set-cart-quantity"
 import { createSetMealOptionsHandler } from "@/lib/voice-rpc/set-meal-options";
 import { createSetSavedHandler } from "@/lib/voice-rpc/set-saved";
 import { createShowMealHandler } from "@/lib/voice-rpc/show-meal";
+import { createSetUiFilterHandler } from "@/lib/voice-rpc/set-ui-filter";
 
 export type LuqmaRpcDeps = {
   push: (path: string) => void;
@@ -49,6 +50,7 @@ const ACTIVE_METHODS = [
   LUQMA_RPC.getUiState,
   LUQMA_RPC.fillCheckout,
   LUQMA_RPC.completeOrder,
+  LUQMA_RPC.setUiFilter,
 ] as const;
 
 type Handler = (data: RpcInvocationData) => Promise<string>;
@@ -120,6 +122,10 @@ export function registerLuqmaRpcs(room: Room, deps: LuqmaRpcDeps) {
   room.registerRpcMethod(
     LUQMA_RPC.completeOrder,
     withDebug(LUQMA_RPC.completeOrder, createCompleteOrderHandler(deps)),
+  );
+  room.registerRpcMethod(
+    LUQMA_RPC.setUiFilter,
+    withDebug(LUQMA_RPC.setUiFilter, createSetUiFilterHandler(deps)),
   );
 
   rpcRegisteredLog(ACTIVE_METHODS);

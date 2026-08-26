@@ -1,6 +1,6 @@
 "use client";
 
-import { useMemo, useState } from "react";
+import { useEffect, useMemo, useState } from "react";
 import { useSearchParams } from "next/navigation";
 import { meals } from "@/data/meals";
 import { getRestaurantById } from "@/data/restaurants";
@@ -18,11 +18,25 @@ const TABS: { id: "all" | OfferKind; label: string }[] = [
   { id: "deal", label: "عرض" },
 ];
 
+function kindFromParam(raw: string | null): (typeof TABS)[number]["id"] {
+  if (!raw) return "all";
+  const parts = raw.split(",").map((p) => p.trim());
+  if (parts.includes("family")) return "family";
+  if (parts.includes("combo")) return "combo";
+  if (parts.includes("deal")) return "deal";
+  return "all";
+}
+
 export function OffersClient() {
   const searchParams = useSearchParams();
   const cashbackOnly = searchParams.get("cashback") === "1";
   const cuisine = searchParams.get("cuisine");
-  const [tab, setTab] = useState<(typeof TABS)[number]["id"]>("all");
+  const kindFromUrl = kindFromParam(searchParams.get("kind"));
+  const [tab, setTab] = useState<(typeof TABS)[number]["id"]>(kindFromUrl);
+
+  useEffect(() => {
+    setTab(kindFromUrl);
+  }, [kindFromUrl]);
 
   const offers = useMemo(() => {
     let base = meals.filter((m) => m.isCombo || m.isOffer);

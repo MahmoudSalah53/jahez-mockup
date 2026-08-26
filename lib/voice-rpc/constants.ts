@@ -10,6 +10,7 @@ export const LUQMA_RPC = {
   getUiState: "luqma.getUiState",
   fillCheckout: "luqma.fillCheckout",
   completeOrder: "luqma.completeOrder",
+  setUiFilter: "luqma.setUiFilter",
 } as const;
 
 export type LuqmaRpcMethod = (typeof LUQMA_RPC)[keyof typeof LUQMA_RPC];

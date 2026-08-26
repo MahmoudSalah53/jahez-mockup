@@ -1,6 +1,7 @@
 import { flushSync } from "react-dom";
 import type { RpcInvocationData } from "livekit-client";
 import { getMealById, lineUnitPrice } from "@/data/meals";
+import { applyMealOptionsFromRpc } from "@/lib/meal-options-bridge";
 import type { CartAddon, CartItem } from "@/lib/types";
 import { rpcFail, rpcOk } from "@/lib/voice-rpc/response";
 
@@ -56,6 +57,7 @@ export function createAddToCartHandler(deps: AddToCartDeps) {
       const addons: CartAddon[] = (meal.addons ?? []).filter((a) =>
         addonIds.includes(a.id),
       );
+      const acceptedAddonIds = addons.map((addon) => addon.id);
 
       const unitPrice = lineUnitPrice(meal, spicy, addons);
       const prev = deps.getItems();
@@ -66,8 +68,15 @@ export function createAddToCartHandler(deps: AddToCartDeps) {
       const lineId = `${meal.id}__${spicy ? "s" : "n"}__${addonKey}`;
       const hadLine = prev.some((i) => i.lineId === lineId);
 
-      // Commit React state before answering the agent
+      // Keep the open product controls and the committed cart line in sync.
+      // The page bridge is optional: adding still works from any other page.
+      let optionsAppliedToPage = false;
       flushSync(() => {
+        optionsAppliedToPage = applyMealOptionsFromRpc(meal.id, {
+          quantity,
+          spicy,
+          addonIds: acceptedAddonIds,
+        }).ok;
         deps.addItem({
           mealId: meal.id,
           quantity,
@@ -82,6 +91,10 @@ export function createAddToCartHandler(deps: AddToCartDeps) {
         cartCount,
         mealId: meal.id,
         quantity,
+        spicy,
+        addonIds: acceptedAddonIds,
+        unitPrice,
+        optionsAppliedToPage,
         itemsNow: deps.getItems().length,
       });
     } catch {

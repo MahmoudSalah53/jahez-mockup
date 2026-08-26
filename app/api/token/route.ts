@@ -48,10 +48,18 @@ export async function POST(request: NextRequest) {
       canSubscribe: true,
     });
 
-    // if roomConfig is provided, add it to the token
-    if (roomConfig) {
-      at.roomConfig = new RoomConfiguration(roomConfig);
-    }
+    // Always dispatch the لقمة worker. An unnamed worker on the same LiveKit
+    // project was swallowing rooms (token 201, no job on this host).
+    const agentName = process.env.LIVEKIT_AGENT_NAME || 'luqma';
+    const incoming =
+      roomConfig && typeof roomConfig === 'object'
+        ? (roomConfig as { agents?: Array<{ agentName?: string }> })
+        : {};
+    const agents =
+      Array.isArray(incoming.agents) && incoming.agents.length > 0
+        ? incoming.agents
+        : [{ agentName }];
+    at.roomConfig = new RoomConfiguration({ ...incoming, agents });
 
     const participantToken = await at.toJwt();
 
