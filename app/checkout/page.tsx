@@ -115,11 +115,12 @@ export default function CheckoutPage() {
             <input
               id="phone"
               type="tel"
+              inputMode="numeric"
               value={phone}
               onChange={(e) => setPhone(e.target.value)}
-              className="w-full rounded-xl border border-border bg-background px-4 py-3 text-sm outline-none focus:border-accent"
+              className="w-full rounded-xl border border-border bg-background px-4 py-3 text-sm text-start outline-none focus:border-accent"
               placeholder="05XXXXXXXX"
-              dir="ltr"
+              dir="rtl"
             />
           </Field>
           <Field label="العنوان" htmlFor="address">
