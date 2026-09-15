@@ -13,6 +13,7 @@ import { useCart } from "@/lib/cart-context";
 import { registerMealOptionsController } from "@/lib/meal-options-bridge";
 import { useSaved } from "@/lib/saved-context";
 import type { CartAddon } from "@/lib/types";
+import { ComboImageOverlay } from "@/components/ComboImageOverlay";
 import { offerBadgeLabel } from "@/lib/offer-badge";
 import { cn } from "@/lib/cn";
 
@@ -147,10 +148,13 @@ export function MealDetailClient() {
             →
           </button>
           {(meal.isCombo || meal.isOffer) && (
-            <span className="absolute end-3 top-3 rounded-md bg-accent px-2 py-1 text-xs font-bold text-white">
+            <span className="absolute end-3 top-3 z-[2] rounded-md bg-accent px-2 py-1 text-xs font-bold text-white">
               {offerBadgeLabel(meal.offerKind, true) ?? "عرض"}
             </span>
           )}
+          {meal.isCombo && meal.comboIncludes?.length ? (
+            <ComboImageOverlay includes={meal.comboIncludes} />
+          ) : null}
         </div>
 
         <div className="px-4 pt-4 md:px-0 md:pt-0">
@@ -173,9 +177,9 @@ export function MealDetailClient() {
           {meal.isCombo && meal.comboIncludes?.length ? (
             <ul className="mt-3 space-y-1.5 rounded-2xl border border-border bg-background p-3">
               <li className="text-xs font-semibold text-muted">يشمل العرض</li>
-              {meal.comboIncludes.map((item) => (
+              {meal.comboIncludes.map((item, i) => (
                 <li
-                  key={item}
+                  key={`${item}-${i}`}
                   className="flex items-center gap-2 text-sm text-foreground"
                 >
                   <span className="h-1.5 w-1.5 shrink-0 rounded-full bg-accent" />

@@ -17,6 +17,7 @@ import {
 } from "@/lib/list-limits";
 import { useCuisineScope } from "@/lib/use-cuisine-scope";
 import { formatPrice } from "@/lib/format";
+import { ComboImageOverlay } from "@/components/ComboImageOverlay";
 import { offerBadgeLabel } from "@/lib/offer-badge";
 import { cn } from "@/lib/cn";
 import type { Meal } from "@/lib/types";
@@ -150,6 +151,13 @@ export function HomeDesktop() {
                   className="object-cover transition duration-700 group-hover:scale-105"
                 />
                 <div className="absolute inset-0 bg-gradient-to-t from-black/80 via-black/25 to-transparent" />
+                {meal.comboIncludes?.length ? (
+                  <ComboImageOverlay
+                    includes={meal.comboIncludes}
+                    placement="top"
+                    className="p-5"
+                  />
+                ) : null}
                 <div className="absolute inset-x-0 bottom-0 p-6 text-white">
                   <span className="mb-2 inline-block rounded-full bg-accent px-3 py-1 text-[11px] font-bold">
                     {offerBadgeLabel(meal.offerKind, true) ?? "عرض"}

@@ -3,6 +3,7 @@ import Link from "next/link";
 import type { Meal } from "@/lib/types";
 import { getMealPrice } from "@/data/meals";
 import { formatPrice } from "@/lib/format";
+import { ComboImageOverlay } from "@/components/ComboImageOverlay";
 import { offerBadgeLabel } from "@/lib/offer-badge";
 
 type Props = {
@@ -35,9 +36,12 @@ export function MealListItem({ meal, href, restaurantName }: Props) {
           className="object-cover"
         />
         {badge ? (
-          <span className="absolute start-1 top-1 rounded bg-accent px-1 text-[9px] font-bold text-white">
+          <span className="absolute start-1 top-1 z-[2] rounded bg-accent px-1 text-[9px] font-bold text-white">
             {badge}
           </span>
+        ) : null}
+        {isDeal && meal.comboIncludes?.length ? (
+          <ComboImageOverlay includes={meal.comboIncludes} size="sm" />
         ) : null}
       </div>
       <div className="min-w-0 flex-1">

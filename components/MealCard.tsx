@@ -3,6 +3,7 @@ import Link from "next/link";
 import type { Meal } from "@/lib/types";
 import { getMealPrice } from "@/data/meals";
 import { formatPrice } from "@/lib/format";
+import { ComboImageOverlay } from "@/components/ComboImageOverlay";
 import { offerBadgeLabel } from "@/lib/offer-badge";
 
 type Props = {
@@ -31,11 +32,18 @@ export function MealCard({ meal, restaurantName, href }: Props) {
           className="object-cover transition duration-500 group-hover:scale-105"
         />
         {badge ? (
-          <span className="absolute start-3 top-3 rounded-full bg-accent px-2.5 py-1 text-xs font-bold text-white shadow">
+          <span className="absolute start-3 top-3 z-[2] rounded-full bg-accent px-2.5 py-1 text-xs font-bold text-white shadow">
             {badge}
           </span>
         ) : null}
-        <div className="absolute inset-x-0 bottom-0 bg-gradient-to-t from-black/70 to-transparent p-3 pt-10">
+        {isDeal && meal.comboIncludes?.length ? (
+          <ComboImageOverlay
+            includes={meal.comboIncludes}
+            placement="top"
+            className="pe-3 ps-14"
+          />
+        ) : null}
+        <div className="absolute inset-x-0 bottom-0 z-[1] bg-gradient-to-t from-black/70 to-transparent p-3 pt-10">
           <p className="text-lg font-bold text-white">{formatPrice(price)}</p>
         </div>
       </div>

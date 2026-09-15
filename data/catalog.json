@@ -1298,7 +1298,7 @@
           "restaurantId": "madhaq-alsham",
           "name": "عرض فلافل: صحنين ومشروب",
           "description": "صحنان فلافل مع مخلل ومشروب بسعر واحد.",
-          "image": "https://images.unsplash.com/photo-1626082927389-6cd097cdc6ec?w=800&q=80",
+          "image": "/foods/%D8%B5%D8%AD%D9%86%20%D9%81%D9%84%D8%A7%D9%81%D9%84.jpg",
           "price": 38,
           "rating": 4.6,
           "calories": 820,
@@ -1312,10 +1312,9 @@
           "isCombo": true,
           "offerKind": "deal",
           "comboIncludes": [
-            "فلافل صحن",
-            "فلافل صحن",
-            "مشروب",
-            "مخلل"
+            "صحن فلافل",
+            "صحن فلافل",
+            "مشروب"
           ],
           "spicyOption": false,
           "cashbackPercent": null,
@@ -13057,7 +13056,7 @@
           "restaurantId": "sham-alaseel",
           "name": "عرض فلافل: صحنين ومشروب",
           "description": "صحنان فلافل مع مخلل ومشروب بسعر واحد.",
-          "image": "https://images.unsplash.com/photo-1626082927389-6cd097cdc6ec?w=800&q=80",
+          "image": "/foods/%D8%B5%D8%AD%D9%86%20%D9%81%D9%84%D8%A7%D9%81%D9%84.jpg",
           "price": 38,
           "rating": 4.6,
           "calories": 820,
@@ -13071,10 +13070,9 @@
           "isCombo": true,
           "offerKind": "deal",
           "comboIncludes": [
-            "فلافل صحن",
-            "فلافل صحن",
-            "مشروب",
-            "مخلل"
+            "صحن فلافل",
+            "صحن فلافل",
+            "مشروب"
           ],
           "spicyOption": false,
           "cashbackPercent": null,
@@ -13733,7 +13731,7 @@
           "restaurantId": "beit-falafel",
           "name": "عرض فلافل: صحنين ومشروب",
           "description": "صحنان فلافل مع مخلل ومشروب بسعر واحد.",
-          "image": "https://images.unsplash.com/photo-1626082927389-6cd097cdc6ec?w=800&q=80",
+          "image": "/foods/%D8%B5%D8%AD%D9%86%20%D9%81%D9%84%D8%A7%D9%81%D9%84.jpg",
           "price": 38,
           "rating": 4.6,
           "calories": 820,
@@ -13747,10 +13745,9 @@
           "isCombo": true,
           "offerKind": "deal",
           "comboIncludes": [
-            "فلافل صحن",
-            "فلافل صحن",
-            "مشروب",
-            "مخلل"
+            "صحن فلافل",
+            "صحن فلافل",
+            "مشروب"
           ],
           "spicyOption": false,
           "cashbackPercent": null,
@@ -14409,7 +14406,7 @@
           "restaurantId": "dimashq-kitchen",
           "name": "عرض فلافل: صحنين ومشروب",
           "description": "صحنان فلافل مع مخلل ومشروب بسعر واحد.",
-          "image": "https://images.unsplash.com/photo-1626082927389-6cd097cdc6ec?w=800&q=80",
+          "image": "/foods/%D8%B5%D8%AD%D9%86%20%D9%81%D9%84%D8%A7%D9%81%D9%84.jpg",
           "price": 38,
           "rating": 4.6,
           "calories": 820,
@@ -14423,10 +14420,9 @@
           "isCombo": true,
           "offerKind": "deal",
           "comboIncludes": [
-            "فلافل صحن",
-            "فلافل صحن",
-            "مشروب",
-            "مخلل"
+            "صحن فلافل",
+            "صحن فلافل",
+            "مشروب"
           ],
           "spicyOption": false,
           "cashbackPercent": null,
@@ -15085,7 +15081,7 @@
           "restaurantId": "halab-taam",
           "name": "عرض فلافل: صحنين ومشروب",
           "description": "صحنان فلافل مع مخلل ومشروب بسعر واحد.",
-          "image": "https://images.unsplash.com/photo-1626082927389-6cd097cdc6ec?w=800&q=80",
+          "image": "/foods/%D8%B5%D8%AD%D9%86%20%D9%81%D9%84%D8%A7%D9%81%D9%84.jpg",
           "price": 38,
           "rating": 4.6,
           "calories": 820,
@@ -15099,10 +15095,9 @@
           "isCombo": true,
           "offerKind": "deal",
           "comboIncludes": [
-            "فلافل صحن",
-            "فلافل صحن",
-            "مشروب",
-            "مخلل"
+            "صحن فلافل",
+            "صحن فلافل",
+            "مشروب"
           ],
           "spicyOption": false,
           "cashbackPercent": null,
@@ -15761,7 +15756,7 @@
           "restaurantId": "zaatar-wzeit",
           "name": "عرض فلافل: صحنين ومشروب",
           "description": "صحنان فلافل مع مخلل ومشروب بسعر واحد.",
-          "image": "https://images.unsplash.com/photo-1626082927389-6cd097cdc6ec?w=800&q=80",
+          "image": "/foods/%D8%B5%D8%AD%D9%86%20%D9%81%D9%84%D8%A7%D9%81%D9%84.jpg",
           "price": 38,
           "rating": 4.6,
           "calories": 820,
@@ -15775,10 +15770,9 @@
           "isCombo": true,
           "offerKind": "deal",
           "comboIncludes": [
-            "فلافل صحن",
-            "فلافل صحن",
-            "مشروب",
-            "مخلل"
+            "صحن فلافل",
+            "صحن فلافل",
+            "مشروب"
           ],
           "spicyOption": false,
           "cashbackPercent": null,
@@ -16437,7 +16431,7 @@
           "restaurantId": "laban-wbasil",
           "name": "عرض فلافل: صحنين ومشروب",
           "description": "صحنان فلافل مع مخلل ومشروب بسعر واحد.",
-          "image": "https://images.unsplash.com/photo-1626082927389-6cd097cdc6ec?w=800&q=80",
+          "image": "/foods/%D8%B5%D8%AD%D9%86%20%D9%81%D9%84%D8%A7%D9%81%D9%84.jpg",
           "price": 38,
           "rating": 4.6,
           "calories": 820,
@@ -16451,10 +16445,9 @@
           "isCombo": true,
           "offerKind": "deal",
           "comboIncludes": [
-            "فلافل صحن",
-            "فلافل صحن",
-            "مشروب",
-            "مخلل"
+            "صحن فلافل",
+            "صحن فلافل",
+            "مشروب"
           ],
           "spicyOption": false,
           "cashbackPercent": null,
@@ -17113,7 +17106,7 @@
           "restaurantId": "manakeesh-street",
           "name": "عرض فلافل: صحنين ومشروب",
           "description": "صحنان فلافل مع مخلل ومشروب بسعر واحد.",
-          "image": "https://images.unsplash.com/photo-1626082927389-6cd097cdc6ec?w=800&q=80",
+          "image": "/foods/%D8%B5%D8%AD%D9%86%20%D9%81%D9%84%D8%A7%D9%81%D9%84.jpg",
           "price": 38,
           "rating": 4.6,
           "calories": 820,
@@ -17127,10 +17120,9 @@
           "isCombo": true,
           "offerKind": "deal",
           "comboIncludes": [
-            "فلافل صحن",
-            "فلافل صحن",
-            "مشروب",
-            "مخلل"
+            "صحن فلافل",
+            "صحن فلافل",
+            "مشروب"
           ],
           "spicyOption": false,
           "cashbackPercent": null,
@@ -17789,7 +17781,7 @@
           "restaurantId": "hummus-house",
           "name": "عرض فلافل: صحنين ومشروب",
           "description": "صحنان فلافل مع مخلل ومشروب بسعر واحد.",
-          "image": "https://images.unsplash.com/photo-1626082927389-6cd097cdc6ec?w=800&q=80",
+          "image": "/foods/%D8%B5%D8%AD%D9%86%20%D9%81%D9%84%D8%A7%D9%81%D9%84.jpg",
           "price": 38,
           "rating": 4.6,
           "calories": 820,
@@ -17803,10 +17795,9 @@
           "isCombo": true,
           "offerKind": "deal",
           "comboIncludes": [
-            "فلافل صحن",
-            "فلافل صحن",
-            "مشروب",
-            "مخلل"
+            "صحن فلافل",
+            "صحن فلافل",
+            "مشروب"
           ],
           "spicyOption": false,
           "cashbackPercent": null,
