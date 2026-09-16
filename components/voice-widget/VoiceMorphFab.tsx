@@ -5,7 +5,10 @@ import { Microphone, MicrophoneSlash, XIcon } from "@phosphor-icons/react";
 import { useEffect, useRef, useState } from "react";
 import type { RemoteAudioTrack } from "livekit-client";
 import { FakeBarVisualizer } from "@/components/voice-widget/FakeBarVisualizer";
+import { TalkingFace } from "@/components/voice-widget/TalkingFace";
 import { usePrefs } from "@/lib/prefs-context";
+import { getVoiceFabStyle } from "@/lib/voice-fab-style";
+import { useFormantVisemes } from "@/lib/use-formant-visemes";
 import { useMultibandTrackVolume } from "@/lib/use-multiband-track-volume";
 import { cn } from "@/lib/cn";
 
@@ -30,6 +33,13 @@ const CODA_FAB_BG_Y = "bg-[linear-gradient(180deg,#8B6FF0,#C4B5FD)]";
 const CODA_PULSE = "bg-[#8B6FF0]/15";
 const CODA_SHADOW = "shadow-[0_4px_12px_rgba(139,111,240,0.38)]";
 const CODA_MUTE = "bg-[#EEE8FF] text-[#6D5AE6]";
+
+/** Style 2 — talking face, same Coda lavender as style 1 */
+const FACE_FAB_BG_X = CODA_FAB_BG_X;
+const FACE_FAB_BG_Y = CODA_FAB_BG_Y;
+const FACE_PULSE = CODA_PULSE;
+const FACE_SHADOW = CODA_SHADOW;
+const FACE_MUTE = CODA_MUTE;
 
 const morphSpring = {
   type: "spring" as const,
@@ -159,19 +169,24 @@ export function VoiceMorphFab({
   onClose,
   onMicToggle,
 }: Props) {
+  const style = getVoiceFabStyle();
+  const isFace = style === 2;
   const bottom = useFabBottom();
   const desktop = useIsDesktop();
   const { ready, done } = usePrefs();
   const open = phase !== "closed";
 
-  const agentLevels = useMultibandTrackVolume(agentTrack, {
+  const agentLevels = useMultibandTrackVolume(isFace ? null : agentTrack, {
     bands: 5,
     updateInterval: 40,
   });
+  const visemes = useFormantVisemes(isFace ? agentTrack : null);
   const agentSpeaking =
     phase === "listening" &&
     Boolean(agentTrack) &&
-    agentLevels.some((v) => v > 0.18);
+    (isFace
+      ? visemes.jawOpen > 0.08 || visemes.aa + visemes.ee + visemes.oo > 0.08
+      : agentLevels.some((v) => v > 0.18));
 
   // هل الزائر بدأ بدون prefs؟ (أول مرة يشوف الأونبوردينج)
   const startedWithoutPrefsRef = useRef<boolean | null>(null);
@@ -216,6 +231,14 @@ export function VoiceMorphFab({
   const liveLevels =
     phase === "listening" && agentTrack ? agentLevels : undefined;
 
+  const fabBgX = isFace ? FACE_FAB_BG_X : CODA_FAB_BG_X;
+  const fabBgY = isFace ? FACE_FAB_BG_Y : CODA_FAB_BG_Y;
+  const fabPulse = isFace ? FACE_PULSE : CODA_PULSE;
+  const fabAvatarBg = CODA_FAB_BG;
+  const fabShadow = isFace ? FACE_SHADOW : CODA_SHADOW;
+  const fabMute = isFace ? FACE_MUTE : CODA_MUTE;
+  const teaseTextClass = "text-white";
+
   return (
     <motion.div
       layout={false}
@@ -242,7 +265,7 @@ export function VoiceMorphFab({
     >
       {/* خلفية مغلقة — تتلاشى أثناء الفتح */}
       <motion.span
-        className={cn("absolute inset-0 rounded-full", CODA_FAB_BG_X)}
+        className={cn("absolute inset-0 rounded-full", fabBgX)}
         initial={false}
         animate={{ opacity: open ? 0 : 1 }}
         transition={{ duration: 0.35, ease: [0.22, 1, 0.36, 1] }}
@@ -262,7 +285,7 @@ export function VoiceMorphFab({
         <span
           className={cn(
             "pointer-events-none absolute inset-y-0 start-0 z-[1] w-1",
-            CODA_FAB_BG_Y,
+            fabBgY,
           )}
           aria-hidden
         />
@@ -288,14 +311,18 @@ export function VoiceMorphFab({
                 desktop ? "size-[52px]" : "size-11",
               )}
             >
-              <img
-                src="/coda-mark.png"
-                alt=""
-                width={desktop ? 52 : 44}
-                height={desktop ? 52 : 44}
-                className="size-full scale-[1.12] object-cover"
-                draggable={false}
-              />
+              {isFace ? (
+                <TalkingFace className="size-full" />
+              ) : (
+                <img
+                  src="/coda-mark.png"
+                  alt=""
+                  width={desktop ? 52 : 44}
+                  height={desktop ? 52 : 44}
+                  className="size-full scale-[1.12] object-cover"
+                  draggable={false}
+                />
+              )}
             </span>
             <motion.span
               initial={false}
@@ -305,7 +332,8 @@ export function VoiceMorphFab({
               }}
               transition={{ duration: 0.28, ease: [0.22, 1, 0.36, 1] }}
               className={cn(
-                "overflow-hidden whitespace-nowrap ps-3 pe-4 font-bold text-white",
+                "overflow-hidden whitespace-nowrap ps-3 pe-4 font-bold",
+                teaseTextClass,
                 desktop ? "text-[15px]" : "text-sm",
               )}
             >
@@ -334,7 +362,7 @@ export function VoiceMorphFab({
             >
               {/* نبضة خفيفة في الاتصال والاستماع */}
               <motion.span
-                className={cn("absolute inset-0 rounded-full", CODA_PULSE)}
+                className={cn("absolute inset-0 rounded-full", fabPulse)}
                 animate={
                   connecting || waveActive
                     ? {
@@ -357,22 +385,29 @@ export function VoiceMorphFab({
 
               <div
                 className={cn(
-                  "relative z-10 grid place-items-center rounded-full",
-                  CODA_FAB_BG,
-                  CODA_SHADOW,
+                  "relative z-10 grid place-items-center overflow-hidden rounded-full",
+                  fabAvatarBg,
+                  fabShadow,
                   desktop ? "size-11" : "size-10",
                 )}
               >
-                <FakeBarVisualizer
-                  variant="compact"
-                  active={connecting || waveActive}
-                  levels={liveLevels}
-                  barClassName="bg-white"
-                  className={cn(
-                    connecting && "opacity-80",
-                    desktop ? "h-[18px] gap-[2px]" : "h-4 gap-[1.5px]",
-                  )}
-                />
+                {isFace ? (
+                  <TalkingFace
+                    className="size-full"
+                    visemes={agentTrack ? visemes : null}
+                  />
+                ) : (
+                  <FakeBarVisualizer
+                    variant="compact"
+                    active={connecting || waveActive}
+                    levels={liveLevels}
+                    barClassName="bg-white"
+                    className={cn(
+                      connecting && "opacity-80",
+                      desktop ? "h-[18px] gap-[2px]" : "h-4 gap-[1.5px]",
+                    )}
+                  />
+                )}
               </div>
             </div>
 
@@ -407,7 +442,7 @@ export function VoiceMorphFab({
                   "disabled:cursor-not-allowed disabled:opacity-40",
                   micOn
                     ? "text-fg1 hover:bg-black/[0.05] hover:text-fg0"
-                    : CODA_MUTE,
+                    : fabMute,
                 )}
               >
                 {micOn ? (
