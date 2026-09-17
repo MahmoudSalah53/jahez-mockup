@@ -3,7 +3,7 @@ import Link from "next/link";
 import type { Meal } from "@/lib/types";
 import { getMealPrice } from "@/data/meals";
 import { formatPrice } from "@/lib/format";
-import { ComboImageOverlay } from "@/components/ComboImageOverlay";
+import { ComboChips } from "@/components/ComboChips";
 import { offerBadgeLabel } from "@/lib/offer-badge";
 
 type Props = {
@@ -17,10 +17,6 @@ export function MealListItem({ meal, href, restaurantName }: Props) {
   const isDeal = meal.isCombo || meal.isOffer;
   const badge = offerBadgeLabel(meal.offerKind, isDeal);
   const link = href ?? `/meals/${meal.id}`;
-  const subtitle =
-    isDeal && meal.comboIncludes?.length
-      ? `يشمل: ${meal.comboIncludes.join(" · ")}`
-      : meal.description;
 
   return (
     <Link
@@ -35,23 +31,28 @@ export function MealListItem({ meal, href, restaurantName }: Props) {
           sizes="64px"
           className="object-cover"
         />
-        {badge ? (
-          <span className="absolute start-1 top-1 z-[2] rounded bg-accent px-1 text-[9px] font-bold text-white">
-            {badge}
-          </span>
-        ) : null}
-        {isDeal && meal.comboIncludes?.length ? (
-          <ComboImageOverlay includes={meal.comboIncludes} size="sm" />
-        ) : null}
       </div>
       <div className="min-w-0 flex-1">
-        <h3 className="truncate text-[15px] font-semibold text-foreground">
-          {meal.name}
-        </h3>
+        <div className="flex items-start gap-2">
+          <h3 className="min-w-0 flex-1 truncate text-[15px] font-semibold text-foreground">
+            {meal.name}
+          </h3>
+          {badge ? (
+            <span className="shrink-0 rounded bg-accent px-1.5 py-0.5 text-[10px] font-bold text-white">
+              {badge}
+            </span>
+          ) : null}
+        </div>
         {restaurantName && (
           <p className="truncate text-xs text-muted">{restaurantName}</p>
         )}
-        <p className="mt-0.5 line-clamp-1 text-xs text-muted">{subtitle}</p>
+        {isDeal && meal.comboIncludes?.length ? (
+          <ComboChips includes={meal.comboIncludes} className="mt-1" />
+        ) : (
+          <p className="mt-0.5 line-clamp-1 text-xs text-muted">
+            {meal.description}
+          </p>
+        )}
         <div className="mt-1.5 flex items-center gap-2">
           <span className="text-sm font-semibold text-accent">
             {formatPrice(price)}

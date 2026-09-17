@@ -13,7 +13,6 @@ import { useCart } from "@/lib/cart-context";
 import { registerMealOptionsController } from "@/lib/meal-options-bridge";
 import { useSaved } from "@/lib/saved-context";
 import type { CartAddon } from "@/lib/types";
-import { ComboImageOverlay } from "@/components/ComboImageOverlay";
 import { offerBadgeLabel } from "@/lib/offer-badge";
 import { cn } from "@/lib/cn";
 
@@ -152,9 +151,6 @@ export function MealDetailClient() {
               {offerBadgeLabel(meal.offerKind, true) ?? "عرض"}
             </span>
           )}
-          {meal.isCombo && meal.comboIncludes?.length ? (
-            <ComboImageOverlay includes={meal.comboIncludes} />
-          ) : null}
         </div>
 
         <div className="px-4 pt-4 md:px-0 md:pt-0">

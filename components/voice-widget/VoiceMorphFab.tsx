@@ -16,12 +16,22 @@ export type VoicePhase = "closed" | "connecting" | "listening";
 
 const CIRCLE_PX = 44;
 const CIRCLE_DESKTOP_PX = 52;
+/** Style 2 — slightly larger so the Udeat mark reads clearly */
+const FACE_CIRCLE_PX = 58;
+const FACE_CIRCLE_DESKTOP_PX = 68;
 const TEASE_PILL_PX = 142;
 const TEASE_PILL_DESKTOP_PX = 164;
+const FACE_TEASE_PILL_PX = 158;
+const FACE_TEASE_PILL_DESKTOP_PX = 180;
 const OPEN_PILL_PX = 250;
 const OPEN_PILL_DESKTOP_PX = 290;
 const OPEN_H = 48;
 const OPEN_H_DESKTOP = 56;
+/** Style 2 — open session only (closed size unchanged); modest bump so face doesn’t shrink */
+const FACE_OPEN_PILL_PX = 278;
+const FACE_OPEN_PILL_DESKTOP_PX = 320;
+const FACE_OPEN_H = 62;
+const FACE_OPEN_H_DESKTOP = 72;
 const TEASE_VISIBLE_MS = 3000;
 const TEASE_GAP_MS = 60_000;
 const INTRO_DELAY_MS = 500;
@@ -34,12 +44,13 @@ const CODA_PULSE = "bg-[#8B6FF0]/15";
 const CODA_SHADOW = "shadow-[0_4px_12px_rgba(139,111,240,0.38)]";
 const CODA_MUTE = "bg-[#EEE8FF] text-[#6D5AE6]";
 
-/** Style 2 — talking face, same Coda lavender as style 1 */
-const FACE_FAB_BG_X = CODA_FAB_BG_X;
-const FACE_FAB_BG_Y = CODA_FAB_BG_Y;
-const FACE_PULSE = CODA_PULSE;
-const FACE_SHADOW = CODA_SHADOW;
-const FACE_MUTE = CODA_MUTE;
+/** Style 2 — Udeat cyan face on deep teal (logo pops vs page) */
+const FACE_FAB_BG_X = "bg-[linear-gradient(90deg,#00C4B4_0%,#00E5D4_100%)]";
+const FACE_FAB_BG_Y = "bg-[linear-gradient(180deg,#00C4B4,#00E5D4)]";
+const FACE_PULSE = "bg-[#00E5D4]/25";
+const FACE_SHADOW = "shadow-[0_6px_18px_rgba(0,229,212,0.45)]";
+const FACE_MUTE = "bg-[#D6FFFB] text-[#0B8A7E]";
+const FACE_AVATAR_BG = "bg-white";
 
 const morphSpring = {
   type: "spring" as const,
@@ -130,8 +141,14 @@ function useIsDesktop() {
   return desktop;
 }
 
-function useOpenWidth(desktop: boolean) {
-  const max = desktop ? OPEN_PILL_DESKTOP_PX : OPEN_PILL_PX;
+function useOpenWidth(desktop: boolean, isFace: boolean) {
+  const max = isFace
+    ? desktop
+      ? FACE_OPEN_PILL_DESKTOP_PX
+      : FACE_OPEN_PILL_PX
+    : desktop
+      ? OPEN_PILL_DESKTOP_PX
+      : OPEN_PILL_PX;
   const [w, setW] = useState(max);
   useEffect(() => {
     const apply = () => setW(Math.min(max, window.innerWidth - 32));
@@ -211,16 +228,34 @@ export function VoiceMorphFab({
     voiceOpenedOnce,
   );
   const [hovered, setHovered] = useState(false);
-  const openWidth = useOpenWidth(desktop);
+  const openWidth = useOpenWidth(desktop, isFace);
 
   // بعد الإغلاق/الفتح: امسح الـ hover عشان متفضلش «اسأل سلمى» معلّقة
   useEffect(() => {
     setHovered(false);
   }, [open]);
 
-  const circlePx = desktop ? CIRCLE_DESKTOP_PX : CIRCLE_PX;
-  const teasePx = desktop ? TEASE_PILL_DESKTOP_PX : TEASE_PILL_PX;
-  const openH = desktop ? OPEN_H_DESKTOP : OPEN_H;
+  const circlePx = isFace
+    ? desktop
+      ? FACE_CIRCLE_DESKTOP_PX
+      : FACE_CIRCLE_PX
+    : desktop
+      ? CIRCLE_DESKTOP_PX
+      : CIRCLE_PX;
+  const teasePx = isFace
+    ? desktop
+      ? FACE_TEASE_PILL_DESKTOP_PX
+      : FACE_TEASE_PILL_PX
+    : desktop
+      ? TEASE_PILL_DESKTOP_PX
+      : TEASE_PILL_PX;
+  const openH = isFace
+    ? desktop
+      ? FACE_OPEN_H_DESKTOP
+      : FACE_OPEN_H
+    : desktop
+      ? OPEN_H_DESKTOP
+      : OPEN_H;
 
   const closedExpanded = !open && (teased || hovered);
   const width = open ? openWidth : closedExpanded ? teasePx : circlePx;
@@ -234,7 +269,7 @@ export function VoiceMorphFab({
   const fabBgX = isFace ? FACE_FAB_BG_X : CODA_FAB_BG_X;
   const fabBgY = isFace ? FACE_FAB_BG_Y : CODA_FAB_BG_Y;
   const fabPulse = isFace ? FACE_PULSE : CODA_PULSE;
-  const fabAvatarBg = CODA_FAB_BG;
+  const fabAvatarBg = isFace ? FACE_AVATAR_BG : CODA_FAB_BG;
   const fabShadow = isFace ? FACE_SHADOW : CODA_SHADOW;
   const fabMute = isFace ? FACE_MUTE : CODA_MUTE;
   const teaseTextClass = "text-white";
@@ -308,7 +343,13 @@ export function VoiceMorphFab({
             <span
               className={cn(
                 "grid shrink-0 place-items-center overflow-hidden rounded-full",
-                desktop ? "size-[52px]" : "size-11",
+                isFace
+                  ? desktop
+                    ? "size-[68px]"
+                    : "size-[58px]"
+                  : desktop
+                    ? "size-[52px]"
+                    : "size-11",
               )}
             >
               {isFace ? (
@@ -357,7 +398,13 @@ export function VoiceMorphFab({
             <div
               className={cn(
                 "relative ms-1 grid shrink-0 place-items-center",
-                desktop ? "size-12" : "size-11",
+                isFace
+                  ? desktop
+                    ? "size-[68px]"
+                    : "size-[58px]"
+                  : desktop
+                    ? "size-12"
+                    : "size-11",
               )}
             >
               {/* نبضة خفيفة في الاتصال والاستماع */}
@@ -388,7 +435,13 @@ export function VoiceMorphFab({
                   "relative z-10 grid place-items-center overflow-hidden rounded-full",
                   fabAvatarBg,
                   fabShadow,
-                  desktop ? "size-11" : "size-10",
+                  isFace
+                    ? desktop
+                      ? "size-[62px]"
+                      : "size-[54px]"
+                    : desktop
+                      ? "size-11"
+                      : "size-10",
                 )}
               >
                 {isFace ? (

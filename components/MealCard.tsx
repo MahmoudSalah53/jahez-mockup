@@ -3,7 +3,7 @@ import Link from "next/link";
 import type { Meal } from "@/lib/types";
 import { getMealPrice } from "@/data/meals";
 import { formatPrice } from "@/lib/format";
-import { ComboImageOverlay } from "@/components/ComboImageOverlay";
+import { ComboChips } from "@/components/ComboChips";
 import { offerBadgeLabel } from "@/lib/offer-badge";
 
 type Props = {
@@ -36,13 +36,6 @@ export function MealCard({ meal, restaurantName, href }: Props) {
             {badge}
           </span>
         ) : null}
-        {isDeal && meal.comboIncludes?.length ? (
-          <ComboImageOverlay
-            includes={meal.comboIncludes}
-            placement="top"
-            className="pe-3 ps-14"
-          />
-        ) : null}
         <div className="absolute inset-x-0 bottom-0 z-[1] bg-gradient-to-t from-black/70 to-transparent p-3 pt-10">
           <p className="text-lg font-bold text-white">{formatPrice(price)}</p>
         </div>
@@ -55,9 +48,7 @@ export function MealCard({ meal, restaurantName, href }: Props) {
           <p className="mt-1 truncate text-sm text-muted">{restaurantName}</p>
         ) : null}
         {isDeal && meal.comboIncludes?.length ? (
-          <p className="mt-2 line-clamp-2 text-sm leading-relaxed text-muted">
-            يشمل: {meal.comboIncludes.join(" · ")}
-          </p>
+          <ComboChips includes={meal.comboIncludes} size="md" className="mt-2" />
         ) : (
           <p className="mt-2 line-clamp-2 text-sm leading-relaxed text-muted">
             {meal.description}
