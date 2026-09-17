@@ -24,7 +24,7 @@ const REST: FormantVisemes = {
 };
 
 /** Brief gaps (plosive / syllable) hold last shape; then ease shut */
-const SILENCE_HOLD_MS = 90;
+const SILENCE_HOLD_MS = 35;
 const SILENCE_EXIT_MUL = 1.25;
 const RMS_SILENCE = 0.016;
 
@@ -162,7 +162,7 @@ export function useFormantVisemes(
         }
         // Hold last shape briefly so the mouth doesn't slam shut mid-word
         if (now - silenceSinceMs < SILENCE_HOLD_MS && lastHeld) {
-          const holdA = 1 - Math.exp(-dt / 0.08);
+          const holdA = 1 - Math.exp(-dt / 0.03);
           const held: FormantVisemes = {
             jawOpen: lerp(visemesRef.current.jawOpen, lastHeld.jawOpen * 0.85, holdA),
             aa: lerp(visemesRef.current.aa, lastHeld.aa * 0.75, holdA),
@@ -171,7 +171,7 @@ export function useFormantVisemes(
             consonant: lerp(visemesRef.current.consonant, 0, holdA),
           };
           visemesRef.current = held;
-          if (now - lastPublish > 32) {
+          if (now - lastPublish > 16) {
             lastPublish = now;
             setVisemes(held);
           }
@@ -197,7 +197,7 @@ export function useFormantVisemes(
 
       if (voicingGate > 0.5 && f1Hz > 0 && f2Hz > 0) {
         silentFor = 0;
-        const a = 1 - Math.exp(-dt / 0.1);
+        const a = 1 - Math.exp(-dt / 0.032);
         smoothF1 = smoothF1 ? lerp(smoothF1, f1Hz, a) : f1Hz;
         smoothF2 = smoothF2 ? lerp(smoothF2, f2Hz, a) : f2Hz;
       } else {
@@ -247,8 +247,8 @@ export function useFormantVisemes(
         oo = (oo / sum) * vowelMass;
       }
 
-      const vA = 1 - Math.exp(-dt / 0.1);
-      const cA = 1 - Math.exp(-dt / 0.07);
+      const vA = 1 - Math.exp(-dt / 0.032);
+      const cA = 1 - Math.exp(-dt / 0.028);
       const prev = visemesRef.current;
       const next: FormantVisemes = {
         jawOpen: lerp(prev.jawOpen, jawTarget, vA),
@@ -259,7 +259,7 @@ export function useFormantVisemes(
       };
       visemesRef.current = next;
 
-      if (now - lastPublish > 32) {
+      if (now - lastPublish > 16) {
         lastPublish = now;
         setVisemes(next);
       }
